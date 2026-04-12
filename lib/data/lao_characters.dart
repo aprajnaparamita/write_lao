@@ -1,0 +1,71 @@
+/// Static database of all 58 Lao characters.
+/// strokeCount is 0 for characters without authored stroke data.
+const List<Map<String, dynamic>> kLaoCharacters = [
+  // Phase 1 — 27 Basic Consonants
+  {"codepoint": "U+0E81", "char": "ກ", "name": "ko", "romanization": "k", "phase": 1, "order": 1, "notes": "mid class", "strokeCount": 2},
+  {"codepoint": "U+0E82", "char": "ຂ", "name": "kho sung", "romanization": "kh", "phase": 1, "order": 2, "notes": "high class", "strokeCount": 0},
+  {"codepoint": "U+0E84", "char": "ຄ", "name": "kho tam", "romanization": "kh", "phase": 1, "order": 3, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E87", "char": "ງ", "name": "ngo", "romanization": "ng", "phase": 1, "order": 4, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E88", "char": "ຈ", "name": "cho", "romanization": "ch/j", "phase": 1, "order": 5, "notes": "mid class", "strokeCount": 0},
+  {"codepoint": "U+0E8A", "char": "ຊ", "name": "so tam", "romanization": "s", "phase": 1, "order": 6, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E8D", "char": "ຍ", "name": "nyo", "romanization": "ny", "phase": 1, "order": 7, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E94", "char": "ດ", "name": "do", "romanization": "d", "phase": 1, "order": 8, "notes": "mid class", "strokeCount": 0},
+  {"codepoint": "U+0E95", "char": "ຕ", "name": "to", "romanization": "t", "phase": 1, "order": 9, "notes": "mid class", "strokeCount": 0},
+  {"codepoint": "U+0E96", "char": "ຖ", "name": "tho sung", "romanization": "th", "phase": 1, "order": 10, "notes": "high class", "strokeCount": 0},
+  {"codepoint": "U+0E97", "char": "ທ", "name": "tho tam", "romanization": "th", "phase": 1, "order": 11, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E99", "char": "ນ", "name": "no", "romanization": "n", "phase": 1, "order": 12, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E9A", "char": "ບ", "name": "bo", "romanization": "b", "phase": 1, "order": 13, "notes": "mid class", "strokeCount": 0},
+  {"codepoint": "U+0E9B", "char": "ປ", "name": "po", "romanization": "p", "phase": 1, "order": 14, "notes": "mid class", "strokeCount": 0},
+  {"codepoint": "U+0E9C", "char": "ຜ", "name": "pho sung", "romanization": "ph", "phase": 1, "order": 15, "notes": "high class", "strokeCount": 0},
+  {"codepoint": "U+0E9D", "char": "ຝ", "name": "fo tam", "romanization": "f", "phase": 1, "order": 16, "notes": "high class", "strokeCount": 0},
+  {"codepoint": "U+0E9E", "char": "ພ", "name": "pho tam", "romanization": "ph", "phase": 1, "order": 17, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0E9F", "char": "ຟ", "name": "fo sung", "romanization": "f", "phase": 1, "order": 18, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EA1", "char": "ມ", "name": "mo", "romanization": "m", "phase": 1, "order": 19, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EA2", "char": "ຢ", "name": "yo", "romanization": "y", "phase": 1, "order": 20, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EA3", "char": "ຣ", "name": "lo ling", "romanization": "r/l", "phase": 1, "order": 21, "notes": "low class; rare, re-added to alphabet", "strokeCount": 0},
+  {"codepoint": "U+0EA5", "char": "ລ", "name": "lo loot", "romanization": "l", "phase": 1, "order": 22, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EA7", "char": "ວ", "name": "wo", "romanization": "w/v", "phase": 1, "order": 23, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EAB", "char": "ຫ", "name": "ho sung", "romanization": "h", "phase": 1, "order": 24, "notes": "high class", "strokeCount": 0},
+  {"codepoint": "U+0EAD", "char": "ອ", "name": "o", "romanization": "-", "phase": 1, "order": 25, "notes": "mid class; glottal stop / vowel anchor", "strokeCount": 0},
+  {"codepoint": "U+0EAE", "char": "ຮ", "name": "ho tam", "romanization": "h", "phase": 1, "order": 26, "notes": "low class", "strokeCount": 0},
+  {"codepoint": "U+0EAF", "char": "ຯ", "name": "ellipsis", "romanization": "-", "phase": 1, "order": 27, "notes": "Lao ellipsis / paiyap punctuation mark", "strokeCount": 0},
+
+  // Phase 2 — Vowel Components
+  {"codepoint": "U+0EB4", "char": "ິ", "name": "sara i", "romanization": "i", "phase": 2, "order": 1, "notes": "short vowel; above consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB5", "char": "ີ", "name": "sara ii", "romanization": "ii", "phase": 2, "order": 2, "notes": "long vowel; above consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB6", "char": "ຶ", "name": "sara u", "romanization": "ue", "phase": 2, "order": 3, "notes": "short vowel; above consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB7", "char": "ື", "name": "sara uu", "romanization": "uee", "phase": 2, "order": 4, "notes": "long vowel; above consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB8", "char": "ຸ", "name": "sara u (low)", "romanization": "u", "phase": 2, "order": 5, "notes": "short vowel; below consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB9", "char": "ູ", "name": "sara uu (low)", "romanization": "uu", "phase": 2, "order": 6, "notes": "long vowel; below consonant", "strokeCount": 0},
+  {"codepoint": "U+0EBB", "char": "ົ", "name": "mai kon", "romanization": "o", "phase": 2, "order": 7, "notes": "vowel modifier; above consonant", "strokeCount": 0},
+  {"codepoint": "U+0EBC", "char": "ຼ", "name": "semivowel lo", "romanization": "l", "phase": 2, "order": 8, "notes": "subjoined; below consonant", "strokeCount": 0},
+  {"codepoint": "U+0EC0", "char": "ເ", "name": "sara e", "romanization": "e", "phase": 2, "order": 9, "notes": "pre-base; long vowel", "strokeCount": 0},
+  {"codepoint": "U+0EC1", "char": "ແ", "name": "sara ae", "romanization": "ae", "phase": 2, "order": 10, "notes": "pre-base; long vowel", "strokeCount": 0},
+  {"codepoint": "U+0EC2", "char": "ໂ", "name": "sara o", "romanization": "o", "phase": 2, "order": 11, "notes": "pre-base; long vowel", "strokeCount": 0},
+  {"codepoint": "U+0EC3", "char": "ໃ", "name": "sara ai mak muan", "romanization": "ai", "phase": 2, "order": 12, "notes": "pre-base", "strokeCount": 0},
+  {"codepoint": "U+0EC4", "char": "ໄ", "name": "sara ai mak mai", "romanization": "ai", "phase": 2, "order": 13, "notes": "pre-base", "strokeCount": 0},
+  {"codepoint": "U+0EB2", "char": "າ", "name": "sara aa", "romanization": "aa", "phase": 2, "order": 14, "notes": "long vowel; follows consonant", "strokeCount": 0},
+  {"codepoint": "U+0EB3", "char": "ຳ", "name": "sara am", "romanization": "am", "phase": 2, "order": 15, "notes": "vowel + nasal; follows consonant", "strokeCount": 0},
+
+  // Phase 3 — Tone Marks
+  {"codepoint": "U+0EC8", "char": "່", "name": "mai ek", "romanization": "1", "phase": 3, "order": 1, "notes": "most common tone mark", "strokeCount": 0},
+  {"codepoint": "U+0EC9", "char": "້", "name": "mai tho", "romanization": "2", "phase": 3, "order": 2, "notes": "second most common tone mark", "strokeCount": 0},
+  {"codepoint": "U+0ECA", "char": "໊", "name": "mai tri", "romanization": "3", "phase": 3, "order": 3, "notes": "used for loanwords", "strokeCount": 0},
+  {"codepoint": "U+0ECB", "char": "໋", "name": "mai jattawa", "romanization": "4", "phase": 3, "order": 4, "notes": "used for loanwords", "strokeCount": 0},
+
+  // Phase 4 — Lao Numerals
+  {"codepoint": "U+0ED0", "char": "໐", "name": "zero", "romanization": "0", "phase": 4, "order": 1, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED1", "char": "໑", "name": "one", "romanization": "1", "phase": 4, "order": 2, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED2", "char": "໒", "name": "two", "romanization": "2", "phase": 4, "order": 3, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED3", "char": "໓", "name": "three", "romanization": "3", "phase": 4, "order": 4, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED4", "char": "໔", "name": "four", "romanization": "4", "phase": 4, "order": 5, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED5", "char": "໕", "name": "five", "romanization": "5", "phase": 4, "order": 6, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED6", "char": "໖", "name": "six", "romanization": "6", "phase": 4, "order": 7, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED7", "char": "໗", "name": "seven", "romanization": "7", "phase": 4, "order": 8, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED8", "char": "໘", "name": "eight", "romanization": "8", "phase": 4, "order": 9, "notes": "", "strokeCount": 0},
+  {"codepoint": "U+0ED9", "char": "໙", "name": "nine", "romanization": "9", "phase": 4, "order": 10, "notes": "", "strokeCount": 0},
+
+  // Phase 5 — Ligature Consonants
+  {"codepoint": "U+0EDC", "char": "ໜ", "name": "ho no", "romanization": "hn", "phase": 5, "order": 1, "notes": "ligature of ຫ+ນ; high-class variant", "strokeCount": 0},
+  {"codepoint": "U+0EDD", "char": "ໝ", "name": "ho mo", "romanization": "hm", "phase": 5, "order": 2, "notes": "ligature of ຫ+ມ; high-class variant", "strokeCount": 0},
+];
