@@ -1,12 +1,10 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:json_annotation/json_annotation.dart';
 
 part 'quiz_result.freezed.dart';
 part 'quiz_result.g.dart';
 
-@freezed
+@Freezed(toJson: true, fromJson: true)
 class QuizResult with _$QuizResult {
-  @JsonSerializable(explicitToJson: true)
   const factory QuizResult({
     required String lessonId,
     required int totalCharacters,

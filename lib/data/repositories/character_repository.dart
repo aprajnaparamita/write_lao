@@ -28,6 +28,9 @@ class CharacterRepository {
   List<LaoCharacter> getCharactersByPhase(int phase) =>
       _characters.where((c) => c.phase == phase).toList();
 
+  List<Lesson> getLessonsByPhase(int phase) =>
+      _lessons.where((l) => l.phase == phase).toList();
+
   List<Lesson> getAllLessons() => List.unmodifiable(_lessons);
 
   Lesson? getLesson(String lessonId) => _lessonMap[lessonId];

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Lao — Manual Test Matrix</title>
+  <style>
+    :root{--bg:#0a0a1a;--surface:#111128;--surface2:#1a1a3a;--surface3:#222248;--border:#2a2a5a;--border-dim:#1e1e44;--accent:#7c6ff5;--gold:#f5c842;--green:#22c55e;--red:#ef4444;--orange:#f59e0b;--blue:#3b82f6;--teal:#14b8a6;--text:#e4e4f0;--text-dim:#8888aa;--text-bright:#fff;--font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'JetBrains Mono','SF Mono','Fira Code',Consolas,monospace}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6;min-height:100vh}
+    .app{display:flex;min-height:100vh}
+    .sidebar{width:290px;background:var(--surface);border-right:1px solid var(--border);position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;display:flex;flex-direction:column}
+    .sidebar-header{padding:18px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+    .sidebar-header h1{font-size:17px;color:var(--gold);letter-spacing:3px;margin-bottom:2px}
+    .sidebar-header .subtitle{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px}
+    .progress-wrap{margin-top:12px}
+    .progress-bar-bg{background:var(--surface2);border-radius:4px;height:6px;overflow:hidden}
+    .progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:4px;transition:width .4s ease;width:0%}
+    .progress-stats{display:flex;justify-content:space-between;margin-top:6px;font-size:10px;color:var(--text-dim)}
+    .progress-stats .ct-pass{color:var(--green);font-weight:600}
+    .progress-stats .ct-fail{color:var(--red);font-weight:600}
+    .filter-bar{padding:8px 14px;border-bottom:1px solid var(--border);display:flex;gap:5px;flex-shrink:0;flex-wrap:wrap}
+    .filter-btn{font-size:10px;padding:3px 9px;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:var(--font);font-weight:600;transition:all .15s;white-space:nowrap}
+    .filter-btn:hover{border-color:var(--accent);color:var(--text)}
+    .filter-btn.active{background:rgba(124,111,245,.2);color:var(--accent);border-color:var(--accent)}
+    .search-bar{padding:8px 14px;border-bottom:1px solid var(--border);flex-shrink:0}
+    .search-bar input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:var(--font);font-size:12px;padding:6px 10px;outline:none}
+    .search-bar input:focus{border-color:var(--accent)}
+    .search-bar input::placeholder{color:var(--text-dim)}
+    .nav-scroll{flex:1;overflow-y:auto;padding:6px 0}
+    .nav-group-title{font-size:9px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1.5px;padding:10px 18px 3px;font-weight:700}
+    .nav-item{display:flex;align-items:center;gap:8px;padding:6px 18px;cursor:pointer;transition:all .12s;font-size:12px;color:var(--text-dim);text-decoration:none;border-left:2px solid transparent}
+    .nav-item:hover{background:var(--surface2);color:var(--text)}
+    .nav-item.active{background:var(--surface2);color:var(--accent);border-left-color:var(--accent)}
+    .nav-item .emoji{font-size:13px;flex-shrink:0;width:18px;text-align:center}
+    .nav-item .label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .nav-badge{font-size:9px;padding:1px 6px;border-radius:8px;font-weight:700;flex-shrink:0}
+    .nav-badge.done{background:rgba(34,197,94,.15);color:var(--green)}
+    .nav-badge.partial{background:rgba(245,158,11,.15);color:var(--orange)}
+    .nav-badge.todo{background:rgba(136,136,170,.1);color:var(--text-dim)}
+    .sidebar-footer{padding:10px 14px;border-top:1px solid var(--border);flex-shrink:0;display:flex;gap:6px}
+    .sidebar-footer button{flex:1;font-size:10px;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:var(--font);transition:all .15s}
+    .sidebar-footer button:hover{border-color:var(--text-dim);color:var(--text)}
+    .sidebar-footer .reset-btn:hover{border-color:var(--red);color:var(--red)}
+    .main{margin-left:290px;flex:1;padding:28px 44px 80px;max-width:960px}
+    .section{display:none;animation:fadeIn .2s ease}
+    .section.visible{display:block}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+    .section-header{margin-bottom:24px}
+    .section-header h2{font-size:24px;color:var(--text-bright);margin-bottom:4px}
+    .section-header p{color:var(--text-dim);font-size:13px;line-height:1.7}
+    .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}
+    .summary-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+    .summary-card .big-num{font-size:28px;font-weight:700;line-height:1;margin-bottom:3px}
+    .summary-card .big-num.green{color:var(--green)}.summary-card .big-num.red{color:var(--red)}.summary-card .big-num.orange{color:var(--orange)}.summary-card .big-num.dim{color:var(--text-dim)}
+    .summary-card .sum-label{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px}
+    .test-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden;transition:border-color .2s}
+    .test-card.pass{border-color:rgba(34,197,94,.25)}.test-card.fail{border-color:rgba(239,68,68,.25)}
+    .test-card-header{display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;transition:background .12s}
+    .test-card-header:hover{background:var(--surface2)}
+    .test-id{font-size:10px;font-family:var(--mono);color:var(--text-dim);background:var(--surface2);padding:2px 7px;border-radius:3px;flex-shrink:0}
+    .test-title{flex:1;font-size:13px;color:var(--text);font-weight:500}
+    .test-status-btns{display:flex;gap:3px;flex-shrink:0}
+    .status-btn{width:26px;height:26px;border-radius:5px;border:1px solid var(--border);background:transparent;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;transition:all .15s;color:var(--text-dim)}
+    .status-btn:hover{border-color:var(--text-dim)}
+    .status-btn.pass-btn:hover,.status-btn.pass-btn.active{background:rgba(34,197,94,.2);border-color:var(--green);color:var(--green)}
+    .status-btn.fail-btn:hover,.status-btn.fail-btn.active{background:rgba(239,68,68,.2);border-color:var(--red);color:var(--red)}
+    .status-btn.skip-btn:hover,.status-btn.skip-btn.active{background:rgba(136,136,170,.15);border-color:var(--text-dim)}
+    .expand-arrow{font-size:11px;color:var(--text-dim);transition:transform .2s;flex-shrink:0}
+    .test-card.expanded .expand-arrow{transform:rotate(90deg)}
+    .test-card-body{display:none;padding:0 16px 16px;border-top:1px solid var(--border-dim)}
+    .test-card.expanded .test-card-body{display:block}
+    .test-steps{margin-top:12px}
+    .test-steps h4{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:8px;font-weight:700}
+    .step{display:flex;gap:9px;padding:7px 0;border-bottom:1px solid var(--border-dim);font-size:13px}
+    .step:last-child{border-bottom:none}
+    .step-num{width:20px;height:20px;border-radius:50%;background:var(--surface2);border:1px solid var(--border);color:var(--gold);font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+    .step-text{color:var(--text);flex:1;line-height:1.6}
+    .step-text strong{color:var(--text-bright)}
+    .test-expect{margin-top:12px}
+    .test-expect h4{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--green);margin-bottom:6px;font-weight:700}
+    .expect-text{font-size:13px;color:var(--green);padding:9px 12px;background:rgba(34,197,94,.05);border:1px solid rgba(34,197,94,.12);border-radius:7px;line-height:1.6}
+    .test-notes{margin-top:10px}
+    .test-notes textarea{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:5px;color:var(--text);font-family:var(--font);font-size:11px;padding:7px 9px;resize:vertical;min-height:36px;outline:none}
+    .test-notes textarea:focus{border-color:var(--accent)}
+    .test-notes textarea::placeholder{color:var(--text-dim)}
+    .info-box{background:rgba(124,111,245,.06);border:1px solid rgba(124,111,245,.18);border-radius:7px;padding:9px 12px;margin:8px 0;font-size:12px;color:var(--text);line-height:1.5}
+    .info-box.warn{background:rgba(245,158,11,.06);border-color:rgba(245,158,11,.18)}
+    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+    @media(max-width:900px){.sidebar{width:250px}.main{margin-left:250px;padding:20px}.summary-grid{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <h1>WRITE LAO</h1>
+      <div class="subtitle">Manual Test Matrix</div>
+      <div class="progress-wrap">
+        <div class="progress-bar-bg"><div class="progress-bar-fill" id="globalBar"></div></div>
+        <div class="progress-stats">
+          <span><span class="ct-pass" id="passCount">0</span> passed</span>
+          <span><span class="ct-fail" id="failCount">0</span> failed</span>
+          <span id="totalText">0 total</span>
+        </div>
+      </div>
+    </div>
+    <div class="search-bar"><input type="text" id="searchInput" placeholder="Search tests..." oninput="onSearch(this.value)"></div>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="setFilter('all',this)">All</button>
+      <button class="filter-btn" onclick="setFilter('todo',this)">Todo</button>
+      <button class="filter-btn" onclick="setFilter('pass',this)">Passed</button>
+      <button class="filter-btn" onclick="setFilter('fail',this)">Failed</button>
+    </div>
+    <div class="nav-scroll" id="navScroll"></div>
+    <div class="sidebar-footer">
+      <button onclick="expandAll()">Expand All</button>
+      <button onclick="collapseAll()">Collapse</button>
+      <button class="reset-btn" onclick="resetAll()">Reset</button>
+    </div>
+  </nav>
+  <main class="main" id="mainContent"></main>
+</div>
+<script>
+const S = [
+// ===============================================================
+// APP LAUNCH & NAVIGATION
+// ===============================================================
+{id:'launch-cold',g:'App Launch & Navigation',icon:'🚀',title:'Cold Start',
+ desc:'First launch and Hive initialization.',
+ tests:[
+  {id:'L-1',title:'App launches to lesson list',
+   steps:['Install the app (or clear app data).','Launch the app.'],
+   expect:'Hive initializes (character_progress and lesson_progress boxes created). The lesson list screen appears showing all 21 lessons grouped by phase.'},
+  {id:'L-2',title:'No crash on first launch',
+   steps:['On a device that has never run the app, launch it.'],
+   expect:'App starts without errors. Hive boxes are created fresh. All 21 lessons visible with 0 stars each.'},
+]},
+{id:'launch-nav',g:'App Launch & Navigation',icon:'🧭',title:'Tab Navigation',
+ desc:'Bottom navigation between main screens.',
+ tests:[
+  {id:'L-3',title:'Bottom nav tabs work',
+   steps:['Tap each bottom navigation tab: Lessons, Progress, Review, Settings.'],
+   expect:'Each tab navigates to the correct screen. The active tab is highlighted. No flicker or delay.'},
+  {id:'L-4',title:'Back navigation works',
+   steps:['From lesson list, tap a lesson. From lesson detail, tap back.'],
+   expect:'Navigates back to the lesson list. No state loss. Animations are smooth.'},
+  {id:'L-5',title:'Deep link navigation',
+   steps:['Navigate: Lessons > Lesson Detail > Practice > back > Test > back > back to list.'],
+   expect:'All transitions work. go_router handles the stack correctly. No orphaned screens.'},
+]},
+// ===============================================================
+// LESSON BROWSING
+// ===============================================================
+{id:'lesson-list',g:'Lesson Browsing',icon:'📚',title:'Lesson List Screen',
+ desc:'The main lesson list showing all 21 lessons.',
+ tests:[
+  {id:'LL-1',title:'All 21 lessons displayed',
+   steps:['Open the app. Observe the lesson list.'],
+   expect:'21 lessons visible, grouped by phase. Phase 1: Consonants (7 lessons), Phase 2: Vowels (5 lessons), Phase 3: Tone Marks (1 lesson), Phase 4: Digits (3 lessons), Phase 5: Special (1 lesson). Each shows a preview character, lesson title, and star rating.'},
+  {id:'LL-2',title:'Star ratings reflect progress',
+   steps:['Complete a lesson test with 3 stars. Return to the lesson list.'],
+   expect:'The completed lesson shows 3 gold stars. Uncompleted lessons show 0 stars (gray).'},
+  {id:'LL-3',title:'Lesson locking works',
+   steps:['Observe lessons beyond the first one.'],
+   expect:'First lesson is unlocked. Subsequent lessons are locked (grayed out or lock icon) until the previous lesson has at least 1 star.'},
+  {id:'LL-4',title:'Tapping a lesson opens detail',
+   steps:['Tap any unlocked lesson.'],
+   expect:'Navigates to the lesson detail screen with a slide transition. Shows lesson title, character list, and Practice/Test buttons.'},
+  {id:'LL-5',title:'Tapping a locked lesson is blocked',
+   steps:['Tap a locked lesson.'],
+   expect:'Nothing happens, or a brief message indicates the previous lesson must be completed first.'},
+]},
+{id:'lesson-detail',g:'Lesson Browsing',icon:'📖',title:'Lesson Detail Screen',
+ desc:'Detail view for a single lesson.',
+ tests:[
+  {id:'LD-1',title:'Lesson detail shows correct characters',
+   steps:['Open lesson "Consonants 1" (first lesson).'],
+   expect:'Shows lesson title, the characters in this lesson (first 4 consonants), each with its Lao glyph, romanization, and name. Practice and Test buttons visible.'},
+  {id:'LD-2',title:'Character badges display correctly',
+   steps:['Observe each character badge on the lesson detail.'],
+   expect:'Each badge shows the Lao character glyph prominently. The romanization and/or name are shown below.'},
+  {id:'LD-3',title:'Star count and best time from progress',
+   steps:['Complete a test for this lesson. Return to lesson detail.'],
+   expect:'Star count updates to match the test result. Best time is displayed if available.'},
+  {id:'LD-4',title:'Practice button navigates to practice',
+   steps:['Tap the Practice button.'],
+   expect:'Navigates to the practice screen with the first character of this lesson loaded.'},
+  {id:'LD-5',title:'Test button navigates to test',
+   steps:['Tap the Test button.'],
+   expect:'Navigates to the test screen. Timer starts. First character presented for writing from memory.'},
+]},
+// ===============================================================
+// PRACTICE MODE
+// ===============================================================
+{id:'practice-canvas',g:'Practice Mode',icon:'✏️',title:'Writing Canvas & Stroke Input',
+ desc:'Drawing strokes on the canvas in practice mode.',
+ tests:[
+  {id:'PM-1',title:'Canvas renders with ghost strokes',
+   steps:['Enter practice mode for a character that has stroke data (e.g., ກ).'],
+   expect:'The writing canvas appears. Ghost strokes (semi-transparent guide paths) are visible showing the expected stroke pattern. The current stroke to draw is highlighted.'},
+  {id:'PM-2',title:'Touch drawing works',
+   steps:['Place finger on canvas and draw a stroke.'],
+   expect:'Ink follows the finger in real-time. The stroke is rendered as a smooth path on the canvas.'},
+  {id:'PM-3',title:'Correct stroke advances to next',
+   steps:['Trace the highlighted ghost stroke accurately.'],
+   expect:'The stroke matcher evaluates the drawn stroke. If it matches (DTW/Hausdorff within threshold), the stroke turns green, and the next ghost stroke is highlighted.'},
+  {id:'PM-4',title:'Incorrect stroke gives feedback',
+   steps:['Draw a stroke that does not match the expected stroke (wrong direction, wrong shape).'],
+   expect:'The stroke is rejected. Visual feedback (red flash or shake). The ghost stroke remains highlighted for retry.'},
+  {id:'PM-5',title:'Clear button resets canvas',
+   steps:['Draw one or more strokes. Tap the Clear button.'],
+   expect:'All drawn strokes are cleared from the canvas. Ghost strokes remain visible. Current stroke resets to the first one.'},
+  {id:'PM-6',title:'All strokes completed',
+   steps:['Successfully trace all strokes for the character.'],
+   expect:'All ghost strokes are filled/green. A success indicator appears. The character is marked as practiced.'},
+]},
+{id:'practice-nav',g:'Practice Mode',icon:'🔄',title:'Practice Navigation',
+ desc:'Moving between characters in practice mode.',
+ tests:[
+  {id:'PM-7',title:'Next character button',
+   steps:['After practicing a character, tap the Next (right arrow) button.'],
+   expect:'Canvas clears. The next character in the lesson loads with its ghost strokes. Character counter updates (e.g., "2/4").'},
+  {id:'PM-8',title:'Previous character button',
+   steps:['On the second or later character, tap Previous (left arrow).'],
+   expect:'Returns to the previous character. Canvas shows that character\'s ghost strokes.'},
+  {id:'PM-9',title:'Cannot go before first character',
+   steps:['On the first character, tap Previous.'],
+   expect:'Button is disabled or does nothing. No crash.'},
+  {id:'PM-10',title:'Cannot go past last character',
+   steps:['On the last character, tap Next.'],
+   expect:'Button is disabled or does nothing. No crash.'},
+  {id:'PM-11',title:'Character without stroke data',
+   steps:['Navigate to a character that has no JSON stroke data yet.'],
+   expect:'The canvas loads but shows no ghost strokes. The character glyph is still displayed. Drawing is still possible but no matching occurs.'},
+]},
+{id:'practice-audio',g:'Practice Mode',icon:'🔊',title:'Audio & Haptics',
+ desc:'Sound and haptic feedback in practice mode.',
+ tests:[
+  {id:'PM-12',title:'Pronunciation audio plays',
+   steps:['Tap the audio/speaker button for a character.'],
+   expect:'The pronunciation audio for the character plays. Audio is clear and correct for the character shown.'},
+  {id:'PM-13',title:'Audio for character without audio file',
+   steps:['Tap the audio button for a character that has no audio file.'],
+   expect:'No crash. Either a placeholder sound or no sound, with no error visible to the user.'},
+]},
+// ===============================================================
+// TEST MODE
+// ===============================================================
+{id:'test-flow',g:'Test Mode',icon:'📝',title:'Test Flow',
+ desc:'Timed test for a lesson — write characters from memory.',
+ tests:[
+  {id:'TM-1',title:'Test starts with timer',
+   steps:['From a lesson detail, tap "Test".'],
+   expect:'Test screen loads. A timer starts counting up (MM:SS format). The first character prompt is shown (romanization/name, not the glyph). The writing canvas is blank (no ghost strokes).'},
+  {id:'TM-2',title:'Write character from memory',
+   steps:['Draw the character strokes on the blank canvas.'],
+   expect:'Strokes are drawn in real time. When the stroke matching determines correctness, the character is accepted or rejected.'},
+  {id:'TM-3',title:'Correct character advances',
+   steps:['Successfully write the prompted character.'],
+   expect:'Character is accepted. Canvas clears. Next character prompt appears. Progress indicator updates (e.g., "2/4").'},
+  {id:'TM-4',title:'Failed attempt increments counter',
+   steps:['Draw an incorrect character.'],
+   expect:'Attempt counter increments. The same character is prompted again. User can retry.'},
+  {id:'TM-5',title:'Hint button shows ghost strokes',
+   steps:['Tap the Hint button during a test.'],
+   expect:'Ghost strokes appear for the current character. hintsUsed counter increments. This will cap stars at 1.'},
+  {id:'TM-6',title:'Clear button resets current character',
+   steps:['Draw some strokes, then tap Clear.'],
+   expect:'Current drawn strokes are cleared. The same character is still prompted. Timer keeps running.'},
+  {id:'TM-7',title:'Timer display updates',
+   steps:['Watch the timer during the test.'],
+   expect:'Timer counts up in MM:SS format, updating every second. No jitter or freeze.'},
+]},
+{id:'test-stars',g:'Test Mode',icon:'⭐',title:'Star Calculation',
+ desc:'How stars are awarded based on performance.',
+ tests:[
+  {id:'TM-8',title:'3 stars: no hints + fast time',
+   steps:['Complete a test with 0 hints used AND total time <= (characterCount * 10 seconds).','Example: 3-character lesson in under 30 seconds.'],
+   expect:'Test result screen shows 3 gold stars.'},
+  {id:'TM-9',title:'2 stars: no hints + slow time',
+   steps:['Complete a test with 0 hints used AND total time > (characterCount * 10 seconds).','Example: 3-character lesson in 40+ seconds.'],
+   expect:'Test result screen shows 2 gold stars + 1 gray star.'},
+  {id:'TM-10',title:'1 star: hints used',
+   steps:['Complete a test using at least 1 hint, regardless of time.'],
+   expect:'Test result screen shows 1 gold star + 2 gray stars. Hints always cap at 1 star.'},
+  {id:'TM-11',title:'Stars only improve, never decrease',
+   steps:['Complete a lesson test and earn 3 stars. Redo the test and earn 1 star.'],
+   expect:'Lesson still shows 3 stars (the best result is kept, not overwritten by worse results).'},
+]},
+{id:'test-result',g:'Test Mode',icon:'🏆',title:'Test Result Screen',
+ desc:'The results screen shown after completing a test.',
+ tests:[
+  {id:'TM-12',title:'Result screen shows stars and time',
+   steps:['Complete a test.'],
+   expect:'Result screen displays: star rating (1-3 gold stars), total time, number of characters correct, lesson name.'},
+  {id:'TM-13',title:'Result screen shows character list',
+   steps:['Observe the result screen after a test.'],
+   expect:'The characters tested are displayed, showing which ones were answered correctly.'},
+  {id:'TM-14',title:'Retry button starts test again',
+   steps:['On the result screen, tap Retry / Try Again.'],
+   expect:'Navigates back to the test screen. Timer resets. All characters start fresh.'},
+  {id:'TM-15',title:'Done button returns to lesson detail',
+   steps:['On the result screen, tap Done / Back.'],
+   expect:'Returns to the lesson detail screen. Stars are updated to reflect the best result.'},
+]},
+// ===============================================================
+// PROGRESS & PERSISTENCE
+// ===============================================================
+{id:'progress-screen',g:'Progress & Persistence',icon:'📊',title:'Progress Screen',
+ desc:'Overview of learning progress.',
+ tests:[
+  {id:'PP-1',title:'Progress screen shows totals',
+   steps:['Navigate to the Progress tab.'],
+   expect:'Displays: total lessons completed (count of lessons with 1+ stars), total stars earned (sum across all lessons), and max possible stars.'},
+  {id:'PP-2',title:'Phase progress bars',
+   steps:['Observe the phase breakdown on the Progress screen.'],
+   expect:'Each of the 5 phases has a progress bar showing completed/total lessons. Phase 1: X/7, Phase 2: X/5, Phase 3: X/1, Phase 4: X/3, Phase 5: X/1.'},
+  {id:'PP-3',title:'Progress updates after completing test',
+   steps:['Complete a test for a lesson. Go to Progress screen.'],
+   expect:'Totals update to reflect the new completion. The corresponding phase progress bar advances.'},
+]},
+{id:'progress-hive',g:'Progress & Persistence',icon:'💾',title:'Hive Persistence',
+ desc:'Data persists across app restarts.',
+ tests:[
+  {id:'PP-4',title:'Progress survives app restart',
+   steps:['Complete a lesson test (earn stars).','Force-close the app (swipe from app switcher).','Relaunch the app.'],
+   expect:'The lesson list shows the same star count. Progress screen shows the same totals. Hive data was persisted to disk.'},
+  {id:'PP-5',title:'Practice count persists',
+   steps:['Practice a character multiple times. Force-close and relaunch.'],
+   expect:'The practice count for that character is preserved.'},
+  {id:'PP-6',title:'Multiple sessions accumulate progress',
+   steps:['Complete lesson 1 in session 1. Close app. Open app, complete lesson 2 in session 2.'],
+   expect:'Both lessons show their star ratings. Total completed = 2.'},
+]},
+// ===============================================================
+// REVIEW MODE
+// ===============================================================
+{id:'review-chars',g:'Review Mode',icon:'🔍',title:'Character Review',
+ desc:'Browsing and reviewing all learned characters.',
+ tests:[
+  {id:'RV-1',title:'Review screen shows all characters',
+   steps:['Navigate to the Review tab.'],
+   expect:'Displays all characters from the character database with their glyphs, names, and romanizations.'},
+  {id:'RV-2',title:'Phase filtering works',
+   steps:['Tap a phase filter chip (e.g., "Phase 1: Consonants").'],
+   expect:'Only characters from that phase are shown. Other phases are hidden.'},
+  {id:'RV-3',title:'Weak characters section',
+   steps:['After some test practice, check the Review screen.'],
+   expect:'A "Weak Characters" section shows characters with the lowest test accuracy, sorted by accuracy ascending.'},
+  {id:'RV-4',title:'Tap character to practice',
+   steps:['Tap a character in the review list.'],
+   expect:'Navigates to practice mode for that specific character.'},
+]},
+// ===============================================================
+// SETTINGS
+// ===============================================================
+{id:'settings-screen',g:'Settings',icon:'⚙️',title:'Settings Screen',
+ desc:'App settings and reset functionality.',
+ tests:[
+  {id:'ST-1',title:'Settings screen renders',
+   steps:['Navigate to the Settings tab.'],
+   expect:'Settings screen shows with available options. Reset Progress button is visible.'},
+  {id:'ST-2',title:'Reset progress clears all data',
+   steps:['Tap "Reset Progress". Confirm the dialog.'],
+   expect:'All character progress and lesson progress are cleared from Hive. Lesson list shows 0 stars on all lessons. Progress screen shows 0/0. Only the first lesson is unlocked.'},
+  {id:'ST-3',title:'Reset confirmation dialog',
+   steps:['Tap "Reset Progress".'],
+   expect:'A confirmation dialog appears warning that all progress will be lost. Cancel returns without resetting. Confirm proceeds with reset.'},
+  {id:'ST-4',title:'Cancel reset preserves data',
+   steps:['Tap "Reset Progress", then tap Cancel.'],
+   expect:'No data is cleared. Stars and progress remain unchanged.'},
+]},
+// ===============================================================
+// STROKE DATA PIPELINE
+// ===============================================================
+{id:'stroke-svg',g:'Stroke Data Pipeline',icon:'🎨',title:'SVG Authoring',
+ desc:'Creating and editing stroke SVGs in Inkscape.',
+ tests:[
+  {id:'SD-1',title:'SVG template opens in Inkscape',
+   steps:['Open any SVG from lao_svgs/ in Inkscape (e.g., 01_01_ko_U0E81.svg).'],
+   expect:'SVG loads with 512x512 canvas. The data-lao-* metadata attributes are preserved in the XML. The character reference image (if any) is visible.'},
+  {id:'SD-2',title:'Strokes group exists or can be created',
+   steps:['In Inkscape, check the layers/objects panel for a group named "strokes".'],
+   expect:'Either a "strokes" group exists (edit it) or you can create one. Paths drawn inside this group will be extracted by the converter.'},
+  {id:'SD-3',title:'Draw strokes with Bezier tool',
+   steps:['Select the Bezier/Pen tool. Draw a path tracing the first stroke of the character. Repeat for each stroke.'],
+   expect:'Each stroke is a separate <path> element within the strokes group. Paths use M, C, L, Q commands.'},
+  {id:'SD-4',title:'Stroke order matches writing order',
+   steps:['In the XML editor, verify the order of <path> elements in the strokes group.'],
+   expect:'The first <path> = stroke 1, second <path> = stroke 2, etc. This order determines the writing sequence in the app.'},
+]},
+{id:'stroke-convert',g:'Stroke Data Pipeline',icon:'🔄',title:'SVG to JSON Conversion',
+ desc:'Running the converter tool.',
+ tests:[
+  {id:'SD-5',title:'Convert single SVG to JSON',
+   steps:['Run: dart run tool/svg_to_json.dart lao_svgs/01_01_ko_U0E81.svg -o assets/stroke_data/U+0E81.json --verbose'],
+   expect:'Output shows: number of raw stroke paths found, each stroke\'s point count, start angle, and direction. JSON file created at the output path.'},
+  {id:'SD-6',title:'Convert entire directory',
+   steps:['Run: dart run tool/svg_to_json.dart ./lao_svgs/ -o assets/stroke_data/'],
+   expect:'All 58 SVG files are processed. 58 JSON files created in assets/stroke_data/. Summary shows count processed.'},
+  {id:'SD-7',title:'JSON output format is correct',
+   steps:['Open a generated JSON file (e.g., assets/stroke_data/U+0E81.json).'],
+   expect:'JSON contains: codepoint, char, name, romanization, phase, order, notes, strokeCount, strokes array (each with index, points array, startAngle, direction), viewBox.'},
+  {id:'SD-8',title:'Short paths are filtered out',
+   steps:['Create an SVG with a very short path (< 20px). Run the converter with --verbose.'],
+   expect:'The short path is reported as skipped. It does not appear in the output JSON.'},
+  {id:'SD-9',title:'Converter handles missing strokes group',
+   steps:['Create an SVG with paths NOT inside a "strokes" group. Run the converter.'],
+   expect:'The converter falls back to extracting all paths from the SVG (excluding background, reference, label, defs, metadata groups). Strokes are still produced.'},
+  {id:'SD-10',title:'Resample option works',
+   steps:['Run: dart run tool/svg_to_json.dart input.svg -o output.json --resample 32'],
+   expect:'Each stroke in the output has exactly 32 points instead of the default 48.'},
+]},
+{id:'stroke-app',g:'Stroke Data Pipeline',icon:'📱',title:'Stroke Data in App',
+ desc:'Verifying stroke data loads and works in the app.',
+ tests:[
+  {id:'SD-11',title:'Stroke data loads for character with JSON',
+   steps:['Launch the app. Navigate to Practice mode for ກ (U+0E81).'],
+   expect:'Ghost strokes render on the canvas. Two strokes visible (matching the JSON). First stroke is highlighted as the current target.'},
+  {id:'SD-12',title:'Stroke matching accepts correct trace',
+   steps:['Trace the first ghost stroke of ກ accurately with your finger.'],
+   expect:'The stroke matcher accepts the trace (DTW/Hausdorff within tolerance). Stroke turns green/completed. Second stroke is highlighted.'},
+  {id:'SD-13',title:'Stroke matching rejects wrong trace',
+   steps:['Draw a random scribble that doesn\'t match the expected stroke.'],
+   expect:'The stroke is rejected. Visual feedback shown. The same stroke remains highlighted.'},
+  {id:'SD-14',title:'Direction validation works',
+   steps:['Trace the correct path but in the reverse direction (end to start).'],
+   expect:'The stroke is rejected. Direction is part of the matching criteria.'},
+  {id:'SD-15',title:'ViewBox scaling is correct',
+   steps:['Compare the ghost strokes on different screen sizes (phone vs tablet).'],
+   expect:'Strokes scale proportionally. The 512x512 viewBox maps correctly to the canvas dimensions. No clipping or misalignment.'},
+]},
+// ===============================================================
+// CROSS-PLATFORM
+// ===============================================================
+{id:'platform-ios',g:'Cross-Platform',icon:'🍎',title:'iOS',
+ desc:'iOS-specific behavior.',
+ tests:[
+  {id:'CP-1',title:'App runs on iOS simulator',
+   steps:['Run: flutter run -d iPhone'],
+   expect:'App builds and launches on the iOS simulator. All screens render correctly.'},
+  {id:'CP-2',title:'App runs on physical iOS device',
+   steps:['Connect an iPhone. Run: flutter run'],
+   expect:'App installs and launches on the device. Touch input works for drawing strokes.'},
+  {id:'CP-3',title:'Release build succeeds',
+   steps:['Run: flutter build ios --release'],
+   expect:'Build completes without errors. IPA can be archived in Xcode.'},
+]},
+{id:'platform-android',g:'Cross-Platform',icon:'🤖',title:'Android',
+ desc:'Android-specific behavior.',
+ tests:[
+  {id:'CP-4',title:'App runs on Android emulator',
+   steps:['Run: flutter run -d <emulator-id>'],
+   expect:'App builds and launches on the Android emulator. All screens render correctly.'},
+  {id:'CP-5',title:'App runs on physical Android device',
+   steps:['Connect an Android device with USB debugging. Run: flutter run'],
+   expect:'App installs and launches. Touch input works for drawing strokes.'},
+  {id:'CP-6',title:'Release APK build succeeds',
+   steps:['Run: flutter build apk --release'],
+   expect:'APK is generated at build/app/outputs/flutter-apk/app-release.apk.'},
+  {id:'CP-7',title:'App Bundle build succeeds',
+   steps:['Run: flutter build appbundle --release'],
+   expect:'AAB is generated at build/app/outputs/bundle/release/app-release.aab.'},
+]},
+{id:'platform-macos',g:'Cross-Platform',icon:'💻',title:'macOS (Optional)',
+ desc:'macOS desktop build.',
+ tests:[
+  {id:'CP-8',title:'App runs on macOS',
+   steps:['Run: flutter run -d macos'],
+   expect:'App launches as a macOS desktop window. Mouse input works for drawing strokes (click and drag).'},
+  {id:'CP-9',title:'macOS release build succeeds',
+   steps:['Run: flutter build macos --release'],
+   expect:'Build completes. App bundle created in build/macos/Build/Products/Release/.'},
+]},
+// ===============================================================
+// EDGE CASES
+// ===============================================================
+{id:'edge-empty',g:'Edge Cases',icon:'📭',title:'Empty & Missing Data',
+ desc:'Behavior when data is absent.',
+ tests:[
+  {id:'EC-1',title:'Character with no stroke JSON',
+   steps:['Navigate to practice for a character that has no JSON file in assets/stroke_data/.'],
+   expect:'Canvas loads but no ghost strokes are shown. The character glyph is displayed. App does not crash.'},
+  {id:'EC-2',title:'Fresh install — no progress data',
+   steps:['Install app fresh. Check all screens.'],
+   expect:'Lesson list: 0 stars everywhere, only first lesson unlocked. Progress: 0 completed, 0 stars. Review: no weak characters. All screens render without errors.'},
+  {id:'EC-3',title:'Lesson with no characters',
+   steps:['If a lesson definition has no characters (edge case), navigate to it.'],
+   expect:'Lesson detail shows empty character list. Practice and Test buttons are disabled or handle gracefully.'},
+]},
+{id:'edge-input',g:'Edge Cases',icon:'👆',title:'Input Edge Cases',
+ desc:'Unusual touch input scenarios.',
+ tests:[
+  {id:'EC-4',title:'Very fast scribble',
+   steps:['Scribble rapidly on the canvas with multiple quick strokes.'],
+   expect:'Canvas handles the input without lag or crash. Each stroke is captured and evaluated individually.'},
+  {id:'EC-5',title:'Multi-touch on canvas',
+   steps:['Place two fingers on the canvas simultaneously.'],
+   expect:'Only one touch is tracked for drawing. No crash or weird stroke artifacts.'},
+  {id:'EC-6',title:'Lift finger and continue',
+   steps:['Start drawing a stroke. Lift finger. Start a new stroke.'],
+   expect:'Lifting the finger ends the current stroke and triggers evaluation. The new touch starts a new stroke attempt.'},
+  {id:'EC-7',title:'Draw outside canvas bounds',
+   steps:['Start a stroke on the canvas and drag finger off the edge.'],
+   expect:'The stroke ends gracefully when the finger leaves the canvas area. No crash.'},
+]},
+{id:'edge-perf',g:'Edge Cases',icon:'⚡',title:'Performance',
+ desc:'Performance under load.',
+ tests:[
+  {id:'EC-8',title:'Smooth drawing at 60fps',
+   steps:['Draw strokes on the canvas. Observe frame rate (use Flutter DevTools if needed).'],
+   expect:'Drawing is smooth with no visible jank. Lines follow the finger without delay.'},
+  {id:'EC-9',title:'Many practice sessions without memory leak',
+   steps:['Practice 10+ characters in sequence without leaving practice mode.'],
+   expect:'App remains responsive. No gradual slowdown. Memory usage stays reasonable.'},
+  {id:'EC-10',title:'Rapid lesson switching',
+   steps:['Quickly navigate between different lessons and their practice modes.'],
+   expect:'Each lesson loads correctly. No stale data from previous lessons. Canvas resets properly.'},
+]},
+// ===============================================================
+// END-TO-END FLOWS
+// ===============================================================
+{id:'e2e-learn',g:'End-to-End Flows',icon:'🎯',title:'Full Learning Flow',
+ desc:'Complete user journey from first lesson to progress.',
+ tests:[
+  {id:'E2E-1',title:'Learn first lesson end-to-end',
+   steps:['Open the app fresh.','Tap the first lesson (Consonants 1).','Tap Practice.','Practice all characters (trace each one).','Go back to lesson detail.','Tap Test.','Write all characters from memory.','View result screen.','Tap Done.','Check lesson list for stars.','Check Progress screen.'],
+   expect:'Full flow works without errors. Practice shows ghost strokes, matching works. Test is timed, stars are awarded. Lesson list updates with earned stars. Progress screen shows 1 lesson completed. Second lesson is now unlocked.'},
+  {id:'E2E-2',title:'Unlock and complete second lesson',
+   steps:['After earning stars on lesson 1, tap lesson 2.'],
+   expect:'Lesson 2 is now unlocked. Can enter practice and test. Completing test updates lesson 2 stars and progress.'},
+  {id:'E2E-3',title:'Improve star rating on a lesson',
+   steps:['Complete a lesson test with 1 star (using hints).','Redo the test without hints and faster.'],
+   expect:'Star rating improves from 1 to 2 or 3. The lesson list shows the higher star count. The old count is not shown.'},
+  {id:'E2E-4',title:'Review weak characters after testing',
+   steps:['Complete several lesson tests with mixed accuracy.','Go to Review screen.'],
+   expect:'Weak characters section shows the characters you struggled with most, sorted by accuracy. Phase filter lets you narrow down.'},
+  {id:'E2E-5',title:'Reset and start over',
+   steps:['Go to Settings. Tap Reset Progress. Confirm.','Go to Lesson list.'],
+   expect:'All progress cleared. 0 stars on all lessons. Only first lesson unlocked. Progress screen shows 0/0. Review shows no weak characters.'},
+]},
+{id:'e2e-stroke',g:'End-to-End Flows',icon:'🖊️',title:'Stroke Pipeline End-to-End',
+ desc:'Full authoring pipeline from SVG to app.',
+ tests:[
+  {id:'E2E-6',title:'Author new character strokes',
+   steps:['Open an SVG template in Inkscape.','Draw strokes in the "strokes" group.','Save the SVG.','Run the converter: dart run tool/svg_to_json.dart <svg> -o assets/stroke_data/<codepoint>.json','Run the app.','Navigate to practice for that character.'],
+   expect:'Ghost strokes appear matching what was drawn in Inkscape. Tracing the strokes in order is accepted by the stroke matcher. The stroke count and directions match.'},
+  {id:'E2E-7',title:'Fix incorrect strokes',
+   steps:['If a stroke is wrong in the app (misaligned, wrong order), open the SVG in Inkscape.','Edit the paths.','Re-run the converter.','Hot-reload or restart the app.'],
+   expect:'Updated stroke data loads. The corrected strokes render and match properly.'},
+]},
+];
+
+// ===============================================================
+// STATE & RENDER
+// ===============================================================
+const SK='writelao_tm_v1';let st=load();let cur=S[0].id;let filt='all';let sq='';
+function load(){try{return JSON.parse(localStorage.getItem(SK))||{}}catch{return{}}}
+function save(){localStorage.setItem(SK,JSON.stringify(st))}
+function gs(id){return st[id]||{s:'todo',n:''}}
+function setSt(id,s){if(!st[id])st[id]={s:'todo',n:''};st[id].s=st[id].s===s?'todo':s;save();render()}
+function setN(id,n){if(!st[id])st[id]={s:'todo',n:''};st[id].n=n;save()}
+function render(){renderNav();renderMain();renderProg()}
+function renderNav(){const nav=document.getElementById('navScroll');let h='',lg='';
+S.forEach(sec=>{if(sec.g!==lg){lg=sec.g;h+=`<div class="nav-group-title">${esc(sec.g)}</div>`}
+const c=secCt(sec);let bc='todo',bt=`${c.t}`;
+if(c.p===c.t&&c.t>0){bc='done';bt='✓'}else if(c.p>0||c.f>0){bc='partial';bt=`${c.p+c.f}/${c.t}`}
+h+=`<a class="nav-item${cur===sec.id?' active':''}" onclick="showSec('${sec.id}')"><span class="emoji">${sec.icon}</span><span class="label">${esc(sec.title)}</span><span class="nav-badge ${bc}">${bt}</span></a>`});nav.innerHTML=h}
+function renderMain(){const m=document.getElementById('mainContent');const sec=S.find(s=>s.id===cur);if(!sec)return;
+const ft=sec.tests.filter(t=>{const s=gs(t.id).s;if(filt!=='all'&&s!==filt)return false;if(sq){const q=sq.toLowerCase();return t.id.toLowerCase().includes(q)||t.title.toLowerCase().includes(q)}return true});
+const c=secCt(sec);let h=`<div class="section visible"><div class="section-header"><h2>${sec.icon} ${esc(sec.title)}</h2><p>${esc(sec.desc)}</p></div>`;
+h+=`<div class="summary-grid"><div class="summary-card"><div class="big-num dim">${c.t}</div><div class="sum-label">Total</div></div><div class="summary-card"><div class="big-num green">${c.p}</div><div class="sum-label">Passed</div></div><div class="summary-card"><div class="big-num red">${c.f}</div><div class="sum-label">Failed</div></div><div class="summary-card"><div class="big-num orange">${c.t-c.p-c.f}</div><div class="sum-label">Todo</div></div></div>`;
+ft.forEach(t=>{const ts=gs(t.id);const cc=ts.s==='pass'?'pass':ts.s==='fail'?'fail':'';
+h+=`<div class="test-card ${cc}" id="c-${t.id}"><div class="test-card-header" onclick="tog('${t.id}')"><span class="test-id">${esc(t.id)}</span><span class="test-title">${esc(t.title)}</span><div class="test-status-btns" onclick="event.stopPropagation()"><button class="status-btn pass-btn${ts.s==='pass'?' active':''}" onclick="setSt('${t.id}','pass')" title="Pass">✓</button><button class="status-btn fail-btn${ts.s==='fail'?' active':''}" onclick="setSt('${t.id}','fail')" title="Fail">✗</button><button class="status-btn skip-btn${ts.s==='skip'?' active':''}" onclick="setSt('${t.id}','skip')" title="Skip">—</button></div><span class="expand-arrow">▶</span></div><div class="test-card-body"><div class="test-steps"><h4>How to test</h4>${t.steps.map((s,i)=>`<div class="step"><div class="step-num">${i+1}</div><div class="step-text">${s}</div></div>`).join('')}</div><div class="test-expect"><h4>What you should see</h4><div class="expect-text">${t.expect}</div></div><div class="test-notes"><textarea placeholder="Notes..." oninput="setN('${t.id}',this.value)">${esc(ts.n)}</textarea></div></div></div>`});
+if(!ft.length)h+=`<div style="text-align:center;padding:50px 0;color:var(--text-dim)">No tests match the current filter.</div>`;
+h+='</div>';m.innerHTML=h}
+function renderProg(){let p=0,f=0,t=0;S.forEach(s=>s.tests.forEach(x=>{t++;const v=gs(x.id).s;if(v==='pass')p++;if(v==='fail')f++}));
+document.getElementById('globalBar').style.width=t?`${(p/t)*100}%`:'0%';
+document.getElementById('passCount').textContent=p;document.getElementById('failCount').textContent=f;document.getElementById('totalText').textContent=`${t} total`}
+function secCt(sec){let p=0,f=0;sec.tests.forEach(t=>{const s=gs(t.id).s;if(s==='pass')p++;if(s==='fail')f++});return{p,f,t:sec.tests.length}}
+function showSec(id){cur=id;render()}
+function setFilter(f,b){filt=f;document.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('active'));if(b)b.classList.add('active');render()}
+function onSearch(q){sq=q;renderMain()}
+function tog(id){const c=document.getElementById(`c-${id}`);if(c)c.classList.toggle('expanded')}
+function expandAll(){document.querySelectorAll('.test-card').forEach(c=>c.classList.add('expanded'))}
+function collapseAll(){document.querySelectorAll('.test-card').forEach(c=>c.classList.remove('expanded'))}
+function resetAll(){if(confirm('Reset all test results?')){st={};save();render()}}
+function esc(s){if(!s)return'';const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+render();
+</script>
+</body>
+</html>

@@ -1,7 +1,6 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:write_it_lao/domain/stroke_matching/point_resampler.dart';
-import 'package:write_it_lao/domain/stroke_matching/path_utils.dart';
 
 void main() {
   late PointResampler resampler;

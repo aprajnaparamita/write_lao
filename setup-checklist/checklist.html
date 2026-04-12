@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Lao — Setup Checklist</title>
+  <style>
+    :root{--bg:#0a0a1a;--surface:#111128;--surface2:#1a1a3a;--surface3:#222248;--border:#2a2a5a;--border-dim:#1e1e44;--accent:#7c6ff5;--gold:#f5c842;--green:#22c55e;--red:#ef4444;--orange:#f59e0b;--text:#e4e4f0;--text-dim:#8888aa;--text-bright:#fff;--font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'JetBrains Mono','SF Mono','Fira Code',Consolas,monospace}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6;min-height:100vh}
+    .app{display:flex;min-height:100vh}
+    .sidebar{width:260px;background:var(--surface);border-right:1px solid var(--border);position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;display:flex;flex-direction:column}
+    .sidebar-header{padding:18px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+    .sidebar-header h1{font-size:17px;color:var(--gold);letter-spacing:3px;margin-bottom:2px}
+    .sidebar-header .subtitle{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px}
+    .progress-wrap{margin-top:12px}
+    .progress-bar-bg{background:var(--surface2);border-radius:4px;height:6px;overflow:hidden}
+    .progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:4px;transition:width .4s ease;width:0%}
+    .progress-stats{display:flex;justify-content:space-between;margin-top:6px;font-size:10px;color:var(--text-dim)}
+    .progress-stats .done-ct{color:var(--green);font-weight:600}
+    .nav-scroll{flex:1;overflow-y:auto;padding:6px 0}
+    .nav-item{display:flex;align-items:center;gap:8px;padding:7px 18px;cursor:pointer;transition:all .12s;font-size:12px;color:var(--text-dim);text-decoration:none;border-left:2px solid transparent}
+    .nav-item:hover{background:var(--surface2);color:var(--text)}
+    .nav-item.active{background:var(--surface2);color:var(--accent);border-left-color:var(--accent)}
+    .nav-item .emoji{font-size:13px;flex-shrink:0;width:18px;text-align:center}
+    .nav-item .label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .nav-badge{font-size:9px;padding:1px 6px;border-radius:8px;font-weight:700;flex-shrink:0}
+    .nav-badge.done{background:rgba(34,197,94,.15);color:var(--green)}
+    .nav-badge.partial{background:rgba(245,158,11,.15);color:var(--orange)}
+    .nav-badge.todo{background:rgba(136,136,170,.1);color:var(--text-dim)}
+    .sidebar-footer{padding:10px 14px;border-top:1px solid var(--border);flex-shrink:0;display:flex;gap:6px}
+    .sidebar-footer button{flex:1;font-size:10px;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:var(--font);transition:all .15s}
+    .sidebar-footer button:hover{border-color:var(--text-dim);color:var(--text)}
+    .sidebar-footer .reset-btn:hover{border-color:var(--red);color:var(--red)}
+    .main{margin-left:260px;flex:1;padding:28px 44px 80px;max-width:800px}
+    .section{display:none;animation:fadeIn .2s ease}
+    .section.visible{display:block}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+    .section-header{margin-bottom:20px}
+    .section-header h2{font-size:22px;color:var(--text-bright);margin-bottom:4px}
+    .section-header p{color:var(--text-dim);font-size:12px}
+    .check-item{display:flex;align-items:flex-start;gap:10px;padding:9px 14px;margin-bottom:4px;border-radius:8px;background:var(--surface);border:1px solid var(--border);transition:all .15s;user-select:none}
+    .check-item:hover{border-color:var(--accent);background:var(--surface2)}
+    .check-item.checked{border-color:rgba(34,197,94,.25)}
+    .check-item.checked .check-text{color:var(--text-dim);text-decoration:line-through;text-decoration-color:var(--text-dim)}
+    .check-header{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+    .check-box{width:20px;height:20px;border-radius:5px;border:2px solid var(--border);background:transparent;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all .15s;margin-top:1px;font-size:12px;color:transparent}
+    .check-item.checked .check-box{background:rgba(34,197,94,.2);border-color:var(--green);color:var(--green)}
+    .check-text{font-size:13px;color:var(--text);line-height:1.5;flex:1}
+    .check-text code{font-family:var(--mono);font-size:11px;background:var(--surface2);padding:1px 5px;border-radius:3px;color:var(--gold);border:1px solid var(--border-dim)}
+    .check-content{flex:1;display:flex;flex-direction:column;gap:4px}
+    .cmd{background:#0d0d22;border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-top:6px;font-family:var(--mono);font-size:12px;color:var(--green);position:relative;overflow-x:auto;white-space:pre;display:block}
+    .copy-btn{position:absolute;top:7px;right:7px;background:var(--surface2);border:1px solid var(--border);color:var(--text-dim);font-size:10px;padding:2px 8px;border-radius:4px;cursor:pointer;font-family:var(--font);transition:all .15s}
+    .copy-btn:hover{background:var(--accent);color:white;border-color:var(--accent)}
+    .copy-btn.copied{background:var(--green);color:white;border-color:var(--green)}
+    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+    @media(max-width:700px){.sidebar{width:220px}.main{margin-left:220px;padding:16px}}
+  </style>
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <h1>WRITE LAO</h1>
+      <div class="subtitle">Setup Checklist</div>
+      <div class="progress-wrap">
+        <div class="progress-bar-bg"><div class="progress-bar-fill" id="globalBar"></div></div>
+        <div class="progress-stats">
+          <span><span class="done-ct" id="doneCount">0</span> / <span id="totalCount">0</span> done</span>
+        </div>
+      </div>
+    </div>
+    <div class="nav-scroll" id="navScroll"></div>
+    <div class="sidebar-footer">
+      <button onclick="checkAll()">Check All</button>
+      <button class="reset-btn" onclick="resetAll()">Reset</button>
+    </div>
+  </nav>
+  <main class="main" id="mainContent"></main>
+</div>
+<script>
+const SK='writelao_cl_v1';
+const G=[
+{id:'prereqs',icon:'🔧',title:'Prerequisites',desc:'Tools and SDKs required before starting.',items:[
+  {id:'p-1',text:'Flutter 3.9+ installed',cmd:'flutter --version'},
+  {id:'p-2',text:'Flutter doctor — all checks pass',cmd:'flutter doctor'},
+  {id:'p-3',text:'Inkscape 1.4+ installed',cmd:'inkscape --version'},
+  {id:'p-4',text:'Xcode 15+ (iOS/macOS targets)'},
+  {id:'p-5',text:'Android Studio + SDK 34+ (Android target)'},
+]},
+{id:'project',icon:'📦',title:'Project Setup',desc:'Clone, install, verify.',items:[
+  {id:'ps-1',text:'Install Flutter dependencies',cmd:'flutter pub get'},
+  {id:'ps-2',text:'Run code generation (Freezed, Hive adapters)',cmd:'dart run build_runner build --delete-conflicting-outputs'},
+  {id:'ps-3',text:'Run tests — 200+ should pass',cmd:'flutter test'},
+  {id:'ps-4',text:'Run analyzer — 0 errors',cmd:'flutter analyze'},
+]},
+{id:'stroke-author',icon:'✏️',title:'Stroke Authoring (per character)',desc:'Draw strokes in Inkscape for each of the 58 characters.',items:[
+  {id:'sa-1',text:'Open SVG template in Inkscape',cmd:'open lao_svgs/01_01_ko_U0E81.svg'},
+  {id:'sa-2',text:'Create <code>strokes</code> layer/group in Inkscape'},
+  {id:'sa-3',text:'Draw each stroke as a separate <code>&lt;path&gt;</code> in writing order'},
+  {id:'sa-4',text:'Keep reference/background in separate groups'},
+  {id:'sa-5',text:'Save SVG'},
+  {id:'sa-6',text:'Convert SVG to JSON',cmd:'dart run tool/svg_to_json.dart lao_svgs/01_01_ko_U0E81.svg -o assets/stroke_data/U+0E81.json --verbose'},
+  {id:'sa-7',text:'Verify in app: ghost strokes render, matching works, order correct'},
+]},
+{id:'batch',icon:'🔄',title:'Batch Convert All SVGs',desc:'Convert the full set of 58 SVGs at once.',items:[
+  {id:'bc-1',text:'Convert all SVGs to JSON',cmd:'dart run tool/svg_to_json.dart ./lao_svgs/ -o assets/stroke_data/ --verbose'},
+  {id:'bc-2',text:'All 58 JSON files created in <code>assets/stroke_data/</code>'},
+]},
+{id:'audio',icon:'🔊',title:'Audio Files',desc:'Pronunciation audio for each character.',items:[
+  {id:'au-1',text:'Pronunciation MP3s in <code>assets/audio/pronunciation/</code>'},
+  {id:'au-2',text:'File names match romanization field (e.g., <code>ko.mp3</code>)'},
+]},
+{id:'icon',icon:'🎨',title:'App Icon & Splash',desc:'Configure app icon and launch screen.',items:[
+  {id:'ic-1',text:'App icon at <code>assets/icon/app_icon.png</code>'},
+  {id:'ic-2',text:'Generate platform icons',cmd:'dart run flutter_launcher_icons'},
+]},
+{id:'ios',icon:'🍎',title:'iOS Build',desc:'Build and configure for iOS.',items:[
+  {id:'io-1',text:'Install CocoaPods dependencies',cmd:'cd ios && pod install && cd ..'},
+  {id:'io-2',text:'Bundle ID set in Xcode'},
+  {id:'io-3',text:'Signing team configured'},
+  {id:'io-4',text:'Release build succeeds',cmd:'flutter build ios --release'},
+]},
+{id:'android',icon:'🤖',title:'Android Build',desc:'Build and configure for Android.',items:[
+  {id:'an-1',text:'<code>android/key.properties</code> configured with keystore'},
+  {id:'an-2',text:'Release App Bundle build succeeds',cmd:'flutter build appbundle --release'},
+]},
+{id:'macos',icon:'💻',title:'macOS Build (optional)',desc:'Desktop build for macOS.',items:[
+  {id:'mc-1',text:'Release build succeeds',cmd:'flutter build macos --release'},
+]},
+{id:'manual',icon:'🧪',title:'Manual Testing',desc:'Verify core features work end-to-end.',items:[
+  {id:'mt-1',text:'App launches to lesson list (21 lessons visible)'},
+  {id:'mt-2',text:'Lesson detail shows correct characters'},
+  {id:'mt-3',text:'Practice mode: ghost strokes + stroke matching works'},
+  {id:'mt-4',text:'Test mode: timed, stars calculated correctly'},
+  {id:'mt-5',text:'Progress persists across app restart (Hive)'},
+  {id:'mt-6',text:'Settings reset clears all progress'},
+  {id:'mt-7',text:'Review screen shows all characters'},
+]},
+{id:'appstore',icon:'🍏',title:'App Store Submission',desc:'Submit to the Apple App Store.',items:[
+  {id:'as-1',text:'Version number updated in <code>pubspec.yaml</code>'},
+  {id:'as-2',text:'App Store Connect app record created'},
+  {id:'as-3',text:'Metadata: name, description, keywords, screenshots'},
+  {id:'as-4',text:'Privacy policy URL'},
+  {id:'as-5',text:'Archive &rarr; Upload &rarr; Submit for review'},
+]},
+{id:'playstore',icon:'▶️',title:'Play Store Submission',desc:'Submit to the Google Play Store.',items:[
+  {id:'gs-1',text:'Google Play Console app created'},
+  {id:'gs-2',text:'Store listing: title, description, screenshots, feature graphic'},
+  {id:'gs-3',text:'Privacy policy URL'},
+  {id:'gs-4',text:'Content rating questionnaire completed'},
+  {id:'gs-5',text:'Upload <code>.aab</code> &rarr; Submit for review'},
+]},
+];
+
+let st=load();let cur=G[0].id;
+function load(){try{return JSON.parse(localStorage.getItem(SK))||{}}catch{return{}}}
+function save(){localStorage.setItem(SK,JSON.stringify(st))}
+function isChecked(id){return!!st[id]}
+function toggle(id){st[id]=!st[id];if(!st[id])delete st[id];save();render()}
+
+function render(){renderNav();renderMain();renderProg()}
+
+function renderNav(){
+  const nav=document.getElementById('navScroll');let h='';
+  G.forEach(g=>{
+    const done=g.items.filter(i=>isChecked(i.id)).length;
+    const total=g.items.length;
+    let bc='todo',bt=`${total}`;
+    if(done===total){bc='done';bt='✓'}
+    else if(done>0){bc='partial';bt=`${done}/${total}`}
+    h+=`<a class="nav-item${cur===g.id?' active':''}" onclick="showSec('${g.id}')"><span class="emoji">${g.icon}</span><span class="label">${g.title}</span><span class="nav-badge ${bc}">${bt}</span></a>`;
+  });
+  nav.innerHTML=h;
+}
+
+function renderMain(){
+  const m=document.getElementById('mainContent');
+  const g=G.find(x=>x.id===cur);if(!g)return;
+  let h=`<div class="section visible"><div class="section-header"><h2>${g.icon} ${g.title}</h2><p>${g.desc}</p></div>`;
+  g.items.forEach(item=>{
+    const ck=isChecked(item.id)?'checked':'';
+    h+=`<div class="check-item ${ck}">`;
+    h+=`<div class="check-header" onclick="toggle('${item.id}')"><div class="check-box">✓</div></div>`;
+    h+=`<div class="check-content">`;
+    h+=`<div class="check-text" onclick="toggle('${item.id}')">${item.text}</div>`;
+    if(item.cmd){
+      h+=`<div class="cmd">${esc(item.cmd)}<button class="copy-btn" onclick="copyCmd(this)">Copy</button></div>`;
+    }
+    h+=`</div></div>`;
+  });
+  h+='</div>';
+  m.innerHTML=h;
+}
+
+function renderProg(){
+  let done=0,total=0;
+  G.forEach(g=>g.items.forEach(i=>{total++;if(isChecked(i.id))done++}));
+  document.getElementById('globalBar').style.width=total?`${(done/total)*100}%`:'0%';
+  document.getElementById('doneCount').textContent=done;
+  document.getElementById('totalCount').textContent=total;
+}
+
+function showSec(id){cur=id;render()}
+function checkAll(){G.forEach(g=>g.items.forEach(i=>{st[i.id]=true}));save();render()}
+function resetAll(){if(confirm('Reset all checklist items?')){st={};save();render()}}
+
+function copyCmd(btn){
+  const block=btn.parentElement;
+  const text=block.textContent.replace('Copy','').replace('Copied!','').trim();
+  navigator.clipboard.writeText(text).then(()=>{
+    btn.textContent='Copied!';
+    btn.classList.add('copied');
+    setTimeout(()=>{btn.textContent='Copy';btn.classList.remove('copied')},1500);
+  });
+}
+
+function esc(s){if(!s)return'';const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+render();
+</script>
+</body>
+</html>

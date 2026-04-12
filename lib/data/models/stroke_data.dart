@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:json_annotation/json_annotation.dart';
 
 part 'stroke_data.freezed.dart';
 part 'stroke_data.g.dart';
@@ -23,11 +22,11 @@ class StrokeData with _$StrokeData {
       _$StrokeDataFromJson(json);
 }
 
-@freezed
+@Freezed(toJson: true, fromJson: true)
 class CharacterStrokeData with _$CharacterStrokeData {
-  @JsonSerializable(explicitToJson: true)
   const factory CharacterStrokeData({
     required String codepoint,
+    @Default("") String char,
     required int strokeCount,
     required List<StrokeData> strokes,
     @Default(512) int canvasSize,
