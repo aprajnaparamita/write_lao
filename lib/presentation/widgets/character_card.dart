@@ -54,7 +54,7 @@ class CharacterCard extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
-                    isAvailable ? character.char : '🔒',
+                    isAvailable ? character.displayChar : '🔒',
                     style: TextStyle(
                       fontFamily: 'Noto Lao',
                       fontSize: 32,
@@ -68,9 +68,9 @@ class CharacterCard extends StatelessWidget {
 
               const SizedBox(height: 8),
 
-              // Name
+              // Name (use letterNameRomanized if available)
               Text(
-                character.name,
+                character.letterNameRomanized ?? character.name,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       fontWeight: FontWeight.w500,
                       color: isAvailable && isUnlocked
@@ -78,17 +78,21 @@ class CharacterCard extends StatelessWidget {
                           : Colors.grey,
                     ),
                 textAlign: TextAlign.center,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
               ),
 
-              const SizedBox(height: 4),
-
-              // Romanization
-              Text(
-                '/${character.romanization}/',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Colors.grey[600],
-                    ),
-              ),
+              if (character.acrophonicalMeaning != null) ...[
+                const SizedBox(height: 2),
+                Text(
+                  character.acrophonicalMeaning!,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Colors.grey[500],
+                        fontStyle: FontStyle.italic,
+                      ),
+                  textAlign: TextAlign.center,
+                ),
+              ],
 
               if (isAvailable && isUnlocked && stars > 0) ...[
                 const SizedBox(height: 8),

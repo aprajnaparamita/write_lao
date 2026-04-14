@@ -31,7 +31,7 @@ class LessonListScreen extends ConsumerWidget {
           final lesson = lessons[index];
           final progress = progressRepo.getLessonProgress(lesson.id);
           final characters = charRepo.getCharactersForLesson(lesson.id);
-          final firstChar = characters.isNotEmpty ? characters.first.char : '?';
+          final firstChar = characters.isNotEmpty ? characters.first.displayChar : '?';
 
           return Padding(
             padding: const EdgeInsets.only(bottom: 12),

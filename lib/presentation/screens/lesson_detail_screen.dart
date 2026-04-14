@@ -36,7 +36,13 @@ class LessonDetailScreen extends ConsumerWidget {
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
-          onPressed: () => context.pop(),
+          onPressed: () {
+            if (context.canPop()) {
+              context.pop();
+            } else {
+              context.go('/');
+            }
+          },
         ),
       ),
       body: SafeArea(
@@ -100,7 +106,7 @@ class LessonDetailScreen extends ConsumerWidget {
                 runSpacing: 12,
                 alignment: WrapAlignment.center,
                 children: characters.map((char) {
-                  return _CharacterBadge(char: char.char);
+                  return _CharacterBadge(char: char.displayChar);
                 }).toList(),
               ),
 

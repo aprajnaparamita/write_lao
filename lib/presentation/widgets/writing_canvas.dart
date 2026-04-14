@@ -66,14 +66,22 @@ class WritingCanvasState extends ConsumerState<WritingCanvas>
   void didUpdateWidget(WritingCanvas oldWidget) {
     super.didUpdateWidget(oldWidget);
 
-    // Update mode when widget mode changes
+    // Defer provider mutations to after the build phase to avoid
+    // "Tried to modify a provider while the widget tree was building".
     if (widget.mode != oldWidget.mode) {
-      ref.read(canvasControllerProvider.notifier).setMode(widget.mode);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) {
+          ref.read(canvasControllerProvider.notifier).setMode(widget.mode);
+        }
+      });
     }
 
-    // Update character when stroke data changes
     if (widget.strokeData != oldWidget.strokeData && widget.strokeData != null) {
-      ref.read(canvasControllerProvider.notifier).setCharacter(widget.strokeData!);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) {
+          ref.read(canvasControllerProvider.notifier).setCharacter(widget.strokeData!);
+        }
+      });
     }
   }
 
@@ -188,7 +196,13 @@ class WritingCanvasState extends ConsumerState<WritingCanvas>
   }
 
   Point<double> _widgetToCanvas(Offset position) {
-    return Point(position.dx, position.dy);
+    // Convert from widget (screen) coordinates to canvas (512-space) coordinates.
+    // The painter scales points by (actualSize / canvasSize) when drawing,
+    // so we need to do the inverse here to keep touch and paint aligned.
+    final renderSize = context.size;
+    if (renderSize == null) return Point(position.dx, position.dy);
+    final scale = renderSize.width / widget.size;
+    return Point(position.dx / scale, position.dy / scale);
   }
 
   /// Clear the canvas and reset drawn strokes.

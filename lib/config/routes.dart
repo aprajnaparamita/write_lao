@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/presentation/screens/lesson_list_screen.dart';
 import 'package:write_it_lao/presentation/screens/lesson_detail_screen.dart';
 import 'package:write_it_lao/presentation/screens/practice_screen.dart';
+import 'package:write_it_lao/presentation/screens/practice_complete_screen.dart';
 import 'package:write_it_lao/presentation/screens/test_screen.dart';
 import 'package:write_it_lao/presentation/screens/test_result_screen.dart';
 import 'package:write_it_lao/presentation/screens/progress_screen.dart';
@@ -70,6 +71,37 @@ final router = GoRouter(
       },
     ),
     GoRoute(
+      path: '/practice/:lessonId/complete',
+      name: 'practiceComplete',
+      pageBuilder: (context, state) {
+        final lessonId = state.pathParameters['lessonId'] ?? '';
+        final extra = state.extra as Map<String, dynamic>?;
+        final characterList = (extra?['characterList'] as List?)?.cast<String>() ?? [];
+
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: PracticeCompleteScreen(
+            lessonId: lessonId,
+            characterList: characterList,
+          ),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return FadeTransition(
+              opacity: animation,
+              child: ScaleTransition(
+                scale: Tween<double>(begin: 0.9, end: 1.0).animate(
+                  CurvedAnimation(
+                    parent: animation,
+                    curve: Curves.easeOut,
+                  ),
+                ),
+                child: child,
+              ),
+            );
+          },
+        );
+      },
+    ),
+    GoRoute(
       path: '/test/:lessonId',
       name: 'test',
       pageBuilder: (context, state) {
@@ -105,7 +137,7 @@ final router = GoRouter(
         // Get results from test controller state passed via extra
         final extra = state.extra as Map<String, dynamic>?;
         final stars = extra?['stars'] as int? ?? 0;
-        final characterList = extra?['characterList'] as List<String>? ?? [];
+        final characterList = (extra?['characterList'] as List?)?.cast<String>() ?? [];
 
         return CustomTransitionPage(
           key: state.pageKey,

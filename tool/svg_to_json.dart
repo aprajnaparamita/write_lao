@@ -462,7 +462,7 @@ class SvgFileParser {
 
   List<String> _extractPathDs(String content) {
     final paths = <String>[];
-    final pathPattern = RegExp('<path[^>]+d=["\']([^"\']+)["\']', caseSensitive: false);
+    final pathPattern = RegExp(r'<path[^>]+\sd=["\x27]([^"\x27]+)["\x27]', caseSensitive: false);
     final matches = pathPattern.allMatches(content);
 
     for (final match in matches) {

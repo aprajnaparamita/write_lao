@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:lao="https://github.com/your-project/lao-stroke-data"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      data-lao-char="ຂ"
+      data-lao-codepoint="U+0E82"
+      data-lao-name="khoo"
+      data-lao-romanization="kʰ"
+      data-lao-phase="1"
+      data-lao-order="2"
+      data-lao-notes="high"
+      data-stroke-count=""
+      data-lao-letter-name="ຂໍ ໄຂ່"
+      data-lao-letter-name-romanized="khɔɔ khàj"
+      data-lao-acrophonical-meaning="egg"
+    >
+
+      <!-- ============================================================
+           METADATA
+           stroke-count: fill in after you draw strokes
+           strokes: will be populated by your encoding tool
+           ============================================================ -->
+      <metadata>
+        <lao:character>
+          <lao:codepoint>U+0E82</lao:codepoint>
+          <lao:char>ຂ</lao:char>
+          <lao:name>khoo</lao:name>
+          <lao:romanization>kʰ</lao:romanization>
+          <lao:phase>1</lao:phase>
+          <lao:order>2</lao:order>
+          <lao:notes>high</lao:notes>
+          <lao:letter-name>ຂໍ ໄຂ່</lao:letter-name>
+          <lao:letter-name-romanized>khɔɔ khàj</lao:letter-name-romanized>
+          <lao:acrophonical-meaning>egg</lao:acrophonical-meaning>
+          <lao:stroke-count></lao:stroke-count>
+          <lao:strokes>
+            <!-- Add stroke path data here after drawing. Format:
+                 <lao:stroke index="1" direction="clockwise">
+                   <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+                   <lao:start-x></lao:start-x>
+                   <lao:start-y></lao:start-y>
+                 </lao:stroke>
+            -->
+          </lao:strokes>
+        </lao:character>
+      </metadata>
+
+      <!-- ============================================================
+           BACKGROUND & GUIDE GRID
+           ============================================================ -->
+      <g id="background">
+        <!-- White background -->
+        <rect width="512" height="512" fill="white"/>
+
+        <!-- Crosshair guides (light) -->
+        <line x1="256.0" y1="0" x2="256.0" y2="512"
+              stroke="#e8e8e8" stroke-width="1"/>
+        <line x1="0" y1="256.0" x2="512" y2="256.0"
+              stroke="#e8e8e8" stroke-width="1"/>
+
+        <!-- Corner inset box showing safe writing area -->
+        <rect x="32" y="32" width="448" height="448"
+              fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+      </g>
+
+      <!-- ============================================================
+           REFERENCE LAYER — lock this in your SVG editor, trace over it
+           The character is rendered semi-transparent as a guide.
+           Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+           If the character doesn't render, install Noto Lao.
+           ============================================================ -->
+      <g id="reference" pointer-events="none">
+<text
+  x="256.0"
+  y="333"
+  font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+  font-size="380"
+  text-anchor="middle"
+  fill="#0066cc"
+  opacity="0.18"
+>ຂ</text>
+      </g>
+
+      <!-- ============================================================
+           LABEL — character info displayed at bottom
+           ============================================================ -->
+      <g id="label">
+        <text
+          x="256.0"
+          y="476"
+          font-family="monospace, sans-serif"
+          font-size="13"
+          text-anchor="middle"
+          fill="#999"
+        >ຂ  U+0E82  khɔɔ khàj  (egg)</text>
+        <text
+          x="256.0"
+          y="494"
+          font-family="monospace, sans-serif"
+          font-size="11"
+          text-anchor="middle"
+          fill="#bbb"
+        >Phase 1 · high</text>
+      </g>
+
+      <!-- ============================================================
+           STROKES LAYER — draw your center-line strokes here.
+           Use thin paths (stroke-width ~8, no fill) in stroke order.
+           Each stroke should be a separate <path> element.
+           Add data-stroke-index="1", data-stroke-index="2" etc.
+
+           Example stroke:
+           <path
+             data-stroke-index="1"
+             d="M 180,120 C 200,100 280,140 300,200"
+             fill="none"
+             stroke="#e63946"
+             stroke-width="8"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+           />
+           ============================================================ -->
+      <g
+        id="strokes"
+        fill="none"
+        stroke="#e63946"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+       style="fill:none"
+       d="m 171.46043,213.18871 c 17.36238,-13.73841 34.20655,-7.43172 38.45487,3.49124 6.56899,11.77541 -1.15022,24.96099 -12.74636,28.48907 -9.54852,3.78966 -27.04908,-7.91826 -29.34749,-20.44887 -1.10409,-12.61217 1.13401,-22.57744 5.92999,-28.77105 8.05765,-15.48761 20.62788,-20.58013 34.7805,-28.80544 15.8285,-8.32582 29.11614,-7.54743 47.65872,-8.34378 18.13442,-0.76587 36.07603,0.0462 50.50077,6.76684 12.12535,3.98327 25.72434,8.09981 32.6263,19.81316 7.05551,9.3867 16.9057,21.95074 15.7848,34.14596 -3.4685,11.46683 -17.49484,26.11515 -28.63365,29.04902 -16.6677,8.66082 -30.36137,17.19648 -49.17649,19.0806 -16.72017,2.25495 -32.35565,7.23466 -49.01041,9.92802 -13.86771,3.67607 -33.22904,6.79561 -45.50061,14.76321 -11.60257,5.68745 -21.71755,16.53553 -23.31283,29.92287 -1.55897,10.3178 6.56862,21.21996 14.75609,28.52349 10.36503,2.28566 18.18287,5.42778 30.32936,4.27368 18.40149,-3.68386 30.57093,-7.30929 44.14404,-10.60428 17.61913,-5.54413 29.3903,-8.75544 48.27999,-12.80376 14.15999,-2.39815 31.01207,-1.71805 43.77057,6.04353 9.88466,3.16585 11.97207,11.82131 19.60096,21.76508"
+       id="path4" />
+      </g>
+
+    </svg>

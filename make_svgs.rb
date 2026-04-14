@@ -1,124 +1,213 @@
 #!/usr/bin/env ruby
 # generate_lao_svgs.rb
 # Generates SVG template files for Lao character stroke order annotation.
+# Reads character data from assets/lao_characters.json for rich metadata.
 # Each SVG contains:
 #   - Embedded metadata (Unicode codepoint, name, phase, romanization, etc.)
+#   - Rich character names (letterName, letterNameRomanized, acrophonicalMeaning)
 #   - A locked reference layer showing the character in Noto Lao font
 #   - An empty <g id="strokes"> layer where you draw center-line stroke paths
 #
-# Usage: ruby generate_lao_svgs.rb [output_dir]
+# Usage: ruby generate_lao_svgs.rb [output_dir] [--force]
 # Default output dir: ./lao_svgs
+# Skips existing files unless --force/-f is passed.
 
 require 'fileutils'
+require 'json'
+require 'base64'
+require 'tempfile'
 
-OUTPUT_DIR = ARGV[0] || './lao_svgs'
+args = ARGV.reject { |a| a.start_with?('-') }
+OUTPUT_DIR = args[0] || './lao_svgs'
 SVG_SIZE   = 512   # canvas px
 FONT_SIZE  = 380   # character display size
 
 # ---------------------------------------------------------------------------
-# Character database
-# Each entry: [phase, order_within_phase, codepoint, name, romanization, notes]
-# Phase 1 = 27 basic consonants (traditional alphabet order)
-# Phase 2 = vowel marks and vowel letters
-# Phase 3 = tone marks
-# Phase 4 = numerals
-# Phase 5 = ligature consonants + rare letters
+# Load character data from JSON
 # ---------------------------------------------------------------------------
 
-CHARACTERS = [
+JSON_PATH = File.join(File.dirname(__FILE__), 'assets', 'lao_characters.json')
+RAW_DATA  = JSON.parse(File.read(JSON_PATH, encoding: 'UTF-8'))
 
-  # PHASE 1 — 27 Basic Consonants (ພະຍັນຊະນະ)
-  # Ordered as taught in Lao schools: traditional alphabet order
-  [1,  1, 0x0E81, "ko",         "k",    "mid class"],
-  [1,  2, 0x0E82, "kho sung",   "kh",   "high class"],
-  [1,  3, 0x0E84, "kho tam",    "kh",   "low class"],
-  [1,  4, 0x0E87, "ngo",        "ng",   "low class"],
-  [1,  5, 0x0E88, "cho",        "ch/j", "mid class"],
-  [1,  6, 0x0E8A, "so tam",     "s",    "low class"],
-  [1,  7, 0x0E8D, "nyo",        "ny",   "low class"],
-  [1,  8, 0x0E94, "do",         "d",    "mid class"],
-  [1,  9, 0x0E95, "to",         "t",    "mid class"],
-  [1, 10, 0x0E96, "tho sung",   "th",   "high class"],
-  [1, 11, 0x0E97, "tho tam",    "th",   "low class"],
-  [1, 12, 0x0E99, "no",         "n",    "low class"],
-  [1, 13, 0x0E9A, "bo",         "b",    "mid class"],
-  [1, 14, 0x0E9B, "po",         "p",    "mid class"],
-  [1, 15, 0x0E9C, "pho sung",   "ph",   "high class"],
-  [1, 16, 0x0E9D, "fo tam",     "f",    "high class"],
-  [1, 17, 0x0E9E, "pho tam",    "ph",   "low class"],
-  [1, 18, 0x0E9F, "fo sung",    "f",    "low class"],
-  [1, 19, 0x0EA1, "mo",         "m",    "low class"],
-  [1, 20, 0x0EA2, "yo",         "y",    "low class"],
-  [1, 21, 0x0EA3, "lo ling",    "r/l",  "low class; rare, re-added to alphabet"],
-  [1, 22, 0x0EA5, "lo loot",    "l",    "low class"],
-  [1, 23, 0x0EA7, "wo",         "w/v",  "low class"],
-  [1, 24, 0x0EAB, "ho sung",    "h",    "high class"],
-  [1, 25, 0x0EAD, "o",          "-",    "mid class; glottal stop / vowel anchor"],
-  [1, 26, 0x0EAE, "ho tam",     "h",    "low class"],
-  [1, 27, 0x0EAF, "ellipsis",   "-",    "Lao ellipsis / paiyap punctuation mark"],
+# Build a unified character list from all categories in the JSON.
+# Each entry is a hash with normalized keys:
+#   phase, order, codepoint (int), char, name, romanization, notes,
+#   letter_name, letter_name_romanized, acrophonical_meaning
+CHARACTERS = []
 
-  # PHASE 2 — Vowel Components
-  # Teaching order: above-consonant marks first (simplest placement),
-  # then below, then pre-base (before consonant), then post-base letters,
-  # then the ອ-based vowel letters which stand alone or after consonant.
-  # Combining marks (U+0EB4..U+0EBC) are diacritics; spacing vowel letters
-  # (U+0EC0..U+0EC4, U+0EAD, U+0EB2, U+0EB3, U+0EBB, U+0EBC) are standalone.
+# --- Consonants ---
+RAW_DATA['consonants'].each do |c|
+  cp = c['codepoint'].sub('U+', '').to_i(16)
+  # Derive short name from letterNameRomanized (first word)
+  short_name = c['letterNameRomanized'].split(' ').first.gsub(/[ɔɤɯɛ]/, 'o')
+  CHARACTERS << {
+    phase: c['phase'],
+    order: c['order'],
+    codepoint: cp,
+    name: short_name,
+    romanization: c['consonantIPA']&.gsub(/[\/]/, '') || '',
+    notes: [c['toneClass'], c['notes']].compact.reject(&:empty?).join('; '),
+    letter_name: c['letterName'],
+    letter_name_romanized: c['letterNameRomanized'],
+    acrophonical_meaning: c['acrophonicalMeaning'],
+  }
+end
 
-  # Above-consonant combining marks
-  [2,  1, 0x0EB4, "sara i",        "i",    "short vowel; above consonant"],
-  [2,  2, 0x0EB5, "sara ii",       "ii",   "long vowel; above consonant"],
-  [2,  3, 0x0EB6, "sara u",        "ue",   "short vowel; above consonant"],
-  [2,  4, 0x0EB7, "sara uu",       "uee",  "long vowel; above consonant"],
-  [2,  5, 0x0EB8, "sara u (low)",  "u",    "short vowel; below consonant"],
-  [2,  6, 0x0EB9, "sara uu (low)", "uu",   "long vowel; below consonant"],
-  [2,  7, 0x0EBB, "mai kon",       "o",    "vowel modifier; above consonant"],
-  [2,  8, 0x0EBC, "semivowel lo",  "l",    "subjoined; below consonant"],
+# --- Vowels ---
+# Combining marks need a base consonant to render correctly.
+# Use ອ (U+0EAD, the standard Lao vowel anchor) as the base — this is how
+# Lao textbooks display vowels. Smaller font size since it's 2 characters.
+BASE_CONSONANT = [0x0EAD].pack('U')  # ອ
 
-  # Pre-base vowel letters (written before the consonant)
-  [2,  9, 0x0EC0, "sara e",        "e",    "pre-base; long vowel"],
-  [2, 10, 0x0EC1, "sara ae",       "ae",   "pre-base; long vowel"],
-  [2, 11, 0x0EC2, "sara o",        "o",    "pre-base; long vowel"],
-  [2, 12, 0x0EC3, "sara ai mak muan", "ai","pre-base"],
-  [2, 13, 0x0EC4, "sara ai mak mai",  "ai","pre-base"],
+RAW_DATA['vowels'].each do |v|
+  cp = v['codepoint'].sub('U+', '').to_i(16)
+  mark = [cp].pack('U')
+  position = v['position']
 
-  # Post-base / following vowel letters
-  [2, 14, 0x0EB2, "sara aa",       "aa",   "long vowel; follows consonant"],
-  [2, 15, 0x0EB3, "sara am",       "am",   "vowel + nasal; follows consonant"],
+  # Build display string: base consonant + vowel mark in correct position
+  display_char = case position
+                 when 'above', 'below'
+                   BASE_CONSONANT + mark
+                 when 'before'
+                   mark + BASE_CONSONANT
+                 when 'after'
+                   BASE_CONSONANT + mark
+                 else
+                   mark
+                 end
 
-  # PHASE 3 — Tone Marks (ວັນນະຍຸດ)
-  # mai ek and mai tho are the two everyday marks; mai tri and mai jattawa
-  # are used for loanwords and special cases.
-  [3,  1, 0x0EC8, "mai ek",        "1",    "most common tone mark"],
-  [3,  2, 0x0EC9, "mai tho",       "2",    "second most common tone mark"],
-  [3,  3, 0x0ECA, "mai tri",       "3",    "used for loanwords"],
-  [3,  4, 0x0ECB, "mai jattawa",   "4",    "used for loanwords"],
+  CHARACTERS << {
+    phase: v['phase'],
+    order: v['order'],
+    codepoint: cp,
+    name: v['vowelNameRomanized'],
+    romanization: v['vowelIPA']&.gsub(/[\/]/, '') || '',
+    notes: [v['vowelLength'], v['position'], v['notes']].compact.reject(&:empty?).join('; '),
+    letter_name: v['vowelName'],
+    letter_name_romanized: v['vowelNameRomanized'],
+    acrophonical_meaning: nil,
+    display_char: display_char,
+    combining: true,
+  }
+end
 
-  # PHASE 4 — Lao Numerals (໐–໙)
-  [4,  1, 0x0ED0, "zero",   "0", ""],
-  [4,  2, 0x0ED1, "one",    "1", ""],
-  [4,  3, 0x0ED2, "two",    "2", ""],
-  [4,  4, 0x0ED3, "three",  "3", ""],
-  [4,  5, 0x0ED4, "four",   "4", ""],
-  [4,  6, 0x0ED5, "five",   "5", ""],
-  [4,  7, 0x0ED6, "six",    "6", ""],
-  [4,  8, 0x0ED7, "seven",  "7", ""],
-  [4,  9, 0x0ED8, "eight",  "8", ""],
-  [4, 10, 0x0ED9, "nine",   "9", ""],
+# --- Tone Marks ---
+# All tone marks are combining (above consonant) — use ອ as base.
+RAW_DATA['toneMarks'].each do |t|
+  cp = t['codepoint'].sub('U+', '').to_i(16)
+  mark = [cp].pack('U')
+  CHARACTERS << {
+    phase: t['phase'],
+    order: t['order'],
+    codepoint: cp,
+    name: t['toneNameRomanized'],
+    romanization: t['toneNumber'].to_s,
+    notes: t['notes'] || '',
+    letter_name: t['toneName'],
+    letter_name_romanized: t['toneNameRomanized'],
+    acrophonical_meaning: nil,
+    display_char: BASE_CONSONANT + mark,
+    combining: true,
+  }
+end
 
-  # PHASE 5 — Ligature Consonants & Rare Forms
-  # 0xEDC = HO NO (ໜ), 0xEDD = HO MO (ໝ) — Unicode ligatures for ຫນ and ຫມ
-  # 0xEA3 lo ling already included in phase 1 as #21 (flagged rare there)
-  [5,  1, 0x0EDC, "ho no",  "hn", "ligature of ຫ+ນ; high-class variant"],
-  [5,  2, 0x0EDD, "ho mo",  "hm", "ligature of ຫ+ມ; high-class variant"],
+# --- Numerals ---
+RAW_DATA['numerals'].each do |n|
+  cp = n['codepoint'].sub('U+', '').to_i(16)
+  names = { 0 => 'zero', 1 => 'one', 2 => 'two', 3 => 'three', 4 => 'four',
+            5 => 'five', 6 => 'six', 7 => 'seven', 8 => 'eight', 9 => 'nine' }
+  CHARACTERS << {
+    phase: n['phase'],
+    order: n['order'],
+    codepoint: cp,
+    name: names[n['value']] || n['value'].to_s,
+    romanization: n['value'].to_s,
+    notes: '',
+    letter_name: n['laoName'],
+    letter_name_romanized: nil,
+    acrophonical_meaning: nil,
+  }
+end
 
-].freeze
+# --- Ligatures ---
+RAW_DATA['ligatures'].each do |l|
+  cp = l['codepoint'].sub('U+', '').to_i(16)
+  CHARACTERS << {
+    phase: l['phase'],
+    order: l['order'],
+    codepoint: cp,
+    name: l['letterNameRomanized'].split(' ').join('_'),
+    romanization: l['consonantIPA']&.gsub(/[\/]/, '') || '',
+    notes: [l['toneClass'], l['notes']].compact.reject(&:empty?).join('; '),
+    letter_name: l['letterName'],
+    letter_name_romanized: l['letterNameRomanized'],
+    acrophonical_meaning: nil,
+  }
+end
+
+# --- Special Characters ---
+RAW_DATA['specialCharacters'].each do |s|
+  cp = s['codepoint'].sub('U+', '').to_i(16)
+  CHARACTERS << {
+    phase: s['phase'],
+    order: s['order'],
+    codepoint: cp,
+    name: s['nameRomanized'],
+    romanization: '-',
+    notes: s['notes'] || s['description'] || '',
+    letter_name: s['name'],
+    letter_name_romanized: s['nameRomanized'],
+    acrophonical_meaning: nil,
+  }
+end
+
+# Sort by phase, then order
+CHARACTERS.sort_by! { |c| [c[:phase], c[:order]] }
+CHARACTERS.freeze
 
 # ---------------------------------------------------------------------------
 # SVG generation
 # ---------------------------------------------------------------------------
 
 def escape_xml(str)
+  return '' if str.nil?
   str.gsub('&','&amp;').gsub('<','&lt;').gsub('>','&gt;').gsub('"','&quot;').gsub("'",'&apos;')
+end
+
+# Render combining mark reference to a base64-encoded PNG.
+# Inkscape can't do Lao complex text shaping, so we pre-render
+# the combining character reference using rsvg-convert (which uses
+# system text layout) and embed the result as an image.
+def render_combining_reference_png(display_char, base_char, size, center, baseline_y, fs)
+  ref_svg = <<~SVG.lstrip
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="#{size}" height="#{size}" viewBox="0 0 #{size} #{size}">
+      <text x="#{center}" y="#{baseline_y}"
+            font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+            font-size="#{fs}" text-anchor="middle" fill="#0066cc" opacity="0.10"
+      >#{escape_xml(base_char)}</text>
+      <text x="#{center}" y="#{baseline_y}"
+            font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+            font-size="#{fs}" text-anchor="middle" fill="#0066cc" opacity="0.25"
+      >#{escape_xml(display_char)}</text>
+    </svg>
+  SVG
+
+  svg_tmp = Tempfile.new(['lao_ref_', '.svg'])
+  png_tmp = Tempfile.new(['lao_ref_', '.png'])
+  begin
+    svg_tmp.write(ref_svg)
+    svg_tmp.close
+    png_tmp.close
+
+    system('rsvg-convert', svg_tmp.path, '-o', png_tmp.path)
+    png_data = File.binread(png_tmp.path)
+    Base64.strict_encode64(png_data)
+  ensure
+    svg_tmp.unlink
+    png_tmp.unlink
+  end
 end
 
 def char_from_codepoint(cp)
@@ -126,24 +215,52 @@ def char_from_codepoint(cp)
 end
 
 def filename(phase, order, name, codepoint)
-  safe_name = name.gsub(/\s+/, '_').gsub(/[^a-z0-9_]/i, '')
+  safe_name = name.to_s.gsub(/\s+/, '_').gsub(/[^a-z0-9_]/i, '')
   hex = format('U%04X', codepoint)
   format('%02d_%02d_%s_%s.svg', phase, order, safe_name, hex)
 end
 
-def generate_svg(phase, order, codepoint, name, romanization, notes)
+def generate_svg(entry)
+  phase = entry[:phase]
+  order = entry[:order]
+  codepoint = entry[:codepoint]
+  name  = entry[:name]
+  romanization = entry[:romanization]
+  notes = entry[:notes]
+  letter_name = entry[:letter_name]
+  letter_name_romanized = entry[:letter_name_romanized]
+  acrophonical_meaning = entry[:acrophonical_meaning]
+
   char   = char_from_codepoint(codepoint)
+  display = entry[:display_char] || char  # Use display_char for combining marks
+  is_combining = entry[:combining]
   hex    = format('U+%04X', codepoint)
   fname  = filename(phase, order, name, codepoint)
   size   = SVG_SIZE
   center = size / 2.0
-  fs     = FONT_SIZE
+  # Combining marks use smaller font (base + mark = wider) and center differently
+  fs     = is_combining ? 300 : FONT_SIZE
 
   # Baseline offset: visually center the glyph.
-  # For Lao glyphs, approximately 65% down from top works well as baseline.
-  baseline_y = (size * 0.72).round
+  baseline_y = (size * 0.65).round
 
-  svg = <<~SVG
+  # Build optional data attributes
+  extra_attrs = ""
+  extra_attrs += "\n      data-lao-letter-name=\"#{escape_xml(letter_name)}\"" if letter_name
+  extra_attrs += "\n      data-lao-letter-name-romanized=\"#{escape_xml(letter_name_romanized)}\"" if letter_name_romanized
+  extra_attrs += "\n      data-lao-acrophonical-meaning=\"#{escape_xml(acrophonical_meaning)}\"" if acrophonical_meaning
+
+  # Build optional metadata elements
+  extra_meta = ""
+  extra_meta += "\n          <lao:letter-name>#{escape_xml(letter_name)}</lao:letter-name>" if letter_name
+  extra_meta += "\n          <lao:letter-name-romanized>#{escape_xml(letter_name_romanized)}</lao:letter-name-romanized>" if letter_name_romanized
+  extra_meta += "\n          <lao:acrophonical-meaning>#{escape_xml(acrophonical_meaning)}</lao:acrophonical-meaning>" if acrophonical_meaning
+
+  # Label line: show rich name if available
+  label_text = "#{escape_xml(char)}  #{hex}  #{escape_xml(letter_name_romanized || name)}"
+  label_text += "  (#{escape_xml(acrophonical_meaning)})" if acrophonical_meaning
+
+  svg = <<~SVG.lstrip
     <?xml version="1.0" encoding="UTF-8"?>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +275,7 @@ def generate_svg(phase, order, codepoint, name, romanization, notes)
       data-lao-phase="#{phase}"
       data-lao-order="#{order}"
       data-lao-notes="#{escape_xml(notes)}"
-      data-stroke-count=""
+      data-stroke-count=""#{extra_attrs}
     >
 
       <!-- ============================================================
@@ -174,7 +291,7 @@ def generate_svg(phase, order, codepoint, name, romanization, notes)
           <lao:romanization>#{escape_xml(romanization)}</lao:romanization>
           <lao:phase>#{phase}</lao:phase>
           <lao:order>#{order}</lao:order>
-          <lao:notes>#{escape_xml(notes)}</lao:notes>
+          <lao:notes>#{escape_xml(notes)}</lao:notes>#{extra_meta}
           <lao:stroke-count></lao:stroke-count>
           <lao:strokes>
             <!-- Add stroke path data here after drawing. Format:
@@ -212,7 +329,22 @@ def generate_svg(phase, order, codepoint, name, romanization, notes)
            Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
            If the character doesn't render, install Noto Lao.
            ============================================================ -->
-      <g id="reference" opacity="0.18" pointer-events="none">
+      <g id="reference" pointer-events="none">
+#{if is_combining
+  # Inkscape can't shape Lao combining marks correctly, so we pre-render
+  # the reference as a PNG (via rsvg-convert which uses system text layout)
+  # and embed it as an image. This ensures correct rendering everywhere.
+  base_char = [0x0EAD].pack('U')
+  png_b64 = render_combining_reference_png(display, base_char, size, center, baseline_y, fs)
+  <<~COMBINING
+        <!-- Pre-rendered reference (Inkscape can't shape Lao combining marks) -->
+        <image
+          x="0" y="0" width="#{size}" height="#{size}"
+          href="data:image/png;base64,#{png_b64}"
+        />
+  COMBINING
+else
+  <<~STANDALONE
         <text
           x="#{center}"
           y="#{baseline_y}"
@@ -220,8 +352,10 @@ def generate_svg(phase, order, codepoint, name, romanization, notes)
           font-size="#{fs}"
           text-anchor="middle"
           fill="#0066cc"
-        >#{escape_xml(char)}</text>
-      </g>
+          opacity="0.18"
+        >#{escape_xml(display)}</text>
+  STANDALONE
+end}      </g>
 
       <!-- ============================================================
            LABEL — character info displayed at bottom
@@ -234,7 +368,7 @@ def generate_svg(phase, order, codepoint, name, romanization, notes)
           font-size="13"
           text-anchor="middle"
           fill="#999"
-        >#{escape_xml(char)}  #{hex}  #{escape_xml(name)}  /#{escape_xml(romanization)}/</text>
+        >#{label_text}</text>
         <text
           x="#{center}"
           y="#{size - 18}"
@@ -283,10 +417,14 @@ end
 # Main
 # ---------------------------------------------------------------------------
 
+force = ARGV.include?('--force') || ARGV.include?('-f')
+
 FileUtils.mkdir_p(OUTPUT_DIR)
 
 total = CHARACTERS.length
 puts "Generating #{total} SVG templates in #{OUTPUT_DIR}/"
+puts "(Reading character data from #{JSON_PATH})"
+puts "Mode: #{force ? 'overwrite all' : 'skip existing (use --force to overwrite)'}"
 puts
 
 phase_names = {
@@ -299,24 +437,37 @@ phase_names = {
 
 current_phase = nil
 count = 0
+skipped = 0
 
-CHARACTERS.each do |phase, order, codepoint, name, romanization, notes|
+CHARACTERS.each do |entry|
+  phase = entry[:phase]
+  order = entry[:order]
+  codepoint = entry[:codepoint]
+
   if phase != current_phase
     current_phase = phase
     puts "--- Phase #{phase}: #{phase_names[phase]} ---"
   end
 
-  fname, svg = generate_svg(phase, order, codepoint, name, romanization, notes)
+  fname, svg = generate_svg(entry)
   path = File.join(OUTPUT_DIR, fname)
-  File.write(path, svg, encoding: 'UTF-8')
 
   char = char_from_codepoint(codepoint)
-  puts "  #{format('%02d_%02d', phase, order)}  #{char}  #{format('U+%04X', codepoint)}  #{name}"
-  count += 1
+  label = entry[:letter_name_romanized] || entry[:name]
+  meaning = entry[:acrophonical_meaning] ? " (#{entry[:acrophonical_meaning]})" : ""
+
+  if File.exist?(path) && !force
+    puts "  #{format('%02d_%02d', phase, order)}  #{char}  #{format('U+%04X', codepoint)}  #{label}#{meaning}  [SKIPPED]"
+    skipped += 1
+  else
+    File.write(path, svg, encoding: 'UTF-8')
+    puts "  #{format('%02d_%02d', phase, order)}  #{char}  #{format('U+%04X', codepoint)}  #{label}#{meaning}"
+    count += 1
+  end
 end
 
 puts
-puts "Done. #{count} files written to #{OUTPUT_DIR}/"
+puts "Done. #{count} files written, #{skipped} skipped in #{OUTPUT_DIR}/"
 puts
 puts "Next steps:"
 puts "  1. Install Noto Lao font so the reference glyphs render correctly"
@@ -325,4 +476,3 @@ puts "  3. Lock the 'reference' layer"
 puts "  4. Draw center-line strokes in the 'strokes' layer, one <path> per stroke, in order"
 puts "  5. Add data-stroke-index attributes to each path"
 puts "  6. Update stroke-count in <metadata> and data-stroke-count on the root <svg>"
-SVG

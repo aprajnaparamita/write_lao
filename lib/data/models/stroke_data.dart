@@ -22,7 +22,7 @@ class StrokeData with _$StrokeData {
       _$StrokeDataFromJson(json);
 }
 
-@Freezed(toJson: true, fromJson: true)
+@freezed
 class CharacterStrokeData with _$CharacterStrokeData {
   const factory CharacterStrokeData({
     required String codepoint,

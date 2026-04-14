@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:write_it_lao/data/models/stroke_data.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/controllers/test_controller.dart';
 import 'package:write_it_lao/presentation/widgets/writing_canvas.dart';
@@ -25,6 +26,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   Timer? _timer;
   bool _showHint = false;
   int _hintAttempts = 0;
+  CharacterStrokeData? _currentStrokeData;
   final GlobalKey<WritingCanvasState> _canvasKey = GlobalKey();
 
   @override
@@ -40,8 +42,31 @@ class _TestScreenState extends ConsumerState<TestScreen> {
     final lesson = charRepo.getLesson(widget.lessonId);
     if (lesson != null) {
       ref.read(testControllerProvider.notifier).startTest(lesson);
+      _loadStrokeDataForCurrentCharacter();
     }
     _startTimer();
+  }
+
+  Future<void> _loadStrokeDataForCurrentCharacter() async {
+    final state = ref.read(testControllerProvider);
+    final character = state.currentCharacter;
+    if (character != null) {
+      final strokeDataSource = ref.read(characterStrokeDataSourceProvider);
+      final strokeData = await strokeDataSource.loadStrokeData(character.codepoint);
+      if (mounted) {
+        setState(() => _currentStrokeData = strokeData);
+        // Reset canvas for new character
+        ref.read(canvasControllerProvider.notifier).clearAll();
+        if (strokeData != null) {
+          ref.read(canvasControllerProvider.notifier).setCharacter(strokeData);
+        }
+        _playPronunciation(character.codepoint);
+      }
+    }
+  }
+
+  void _playPronunciation(String codepoint) {
+    ref.read(audioPlayerServiceProvider).playPronunciation(codepoint);
   }
 
   void _startTimer() {
@@ -71,13 +96,17 @@ class _TestScreenState extends ConsumerState<TestScreen> {
         _timer?.cancel();
         ref.read(testControllerProvider.notifier).finishTest();
         widget.onComplete?.call();
+      } else {
+        // Load next character's stroke data
+        _hintAttempts = 0;
+        _showHint = false;
+        _loadStrokeDataForCurrentCharacter();
       }
     } else {
       _hintAttempts++;
       ref.read(testControllerProvider.notifier).onCharacterFailed();
 
       if (_hintAttempts >= 3) {
-        // Show hint
         setState(() => _showHint = true);
         ref.read(testControllerProvider.notifier).requestHint();
       }
@@ -85,140 +114,202 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   }
 
   void _clearCanvas() {
-    _canvasKey.currentState?.clearCanvas();
+    ref.read(canvasControllerProvider.notifier).clearAll();
+    if (_currentStrokeData != null) {
+      ref.read(canvasControllerProvider.notifier).setCharacter(_currentStrokeData!);
+    }
+  }
+
+  Future<bool> _onWillPop() async {
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Leave Test?'),
+        content: const Text('Are you sure you want to leave the test?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Continue'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Go Back'),
+          ),
+        ],
+      ),
+    );
+    return result ?? false;
   }
 
   @override
   Widget build(BuildContext context) {
     final state = ref.watch(testControllerProvider);
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Test'),
-        centerTitle: true,
-        automaticallyImplyLeading: false,
-        actions: [
-          // Timer display
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Center(
-              child: Text(
-                state.formattedTime,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontFamily: 'monospace',
-                    ),
-              ),
-            ),
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) async {
+        if (didPop) return;
+        final shouldPop = await _onWillPop();
+        if (shouldPop && context.mounted) {
+          Navigator.of(context).pop();
+        }
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Test'),
+          centerTitle: true,
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () async {
+              final shouldPop = await _onWillPop();
+              if (shouldPop && context.mounted) {
+                Navigator.of(context).pop();
+              }
+            },
           ),
-        ],
-      ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            // Character to write
-            if (state.currentCharacter != null)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 24),
-                child: Column(
-                  children: [
-                    Text(
-                      state.currentCharacter!.char,
-                      style: const TextStyle(
-                        fontFamily: 'Noto Lao',
-                        fontSize: 64,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      '/${state.currentCharacter!.romanization}/',
-                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            color: Colors.grey[600],
-                          ),
-                    ),
-                  ],
-                ),
-              ),
-
-            // Progress
+          actions: [
+            // Timer display
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: LinearProgressIndicator(
-                value: state.totalCharacters > 0
-                    ? (state.currentIndex + 1) / state.totalCharacters
-                    : 0,
-                backgroundColor: Colors.grey[200],
+              child: Center(
+                child: Text(
+                  state.formattedTime,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontFamily: 'monospace',
+                      ),
+                ),
               ),
             ),
+          ],
+        ),
+        body: SafeArea(
+          child: Column(
+            children: [
+              // Character to write
+              if (state.currentCharacter != null)
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 24),
+                  child: Column(
+                    children: [
+                      Text(
+                        state.currentCharacter!.displayChar,
+                        style: const TextStyle(
+                          fontFamily: 'Noto Lao',
+                          fontSize: 64,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        state.currentCharacter!.letterNameRomanized ?? '/${state.currentCharacter!.romanization}/',
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                              color: Colors.grey[600],
+                            ),
+                      ),
+                      if (state.currentCharacter!.acrophonicalMeaning != null)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 4),
+                          child: Text(
+                            '(${state.currentCharacter!.acrophonicalMeaning})',
+                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  color: Colors.grey[500],
+                                  fontStyle: FontStyle.italic,
+                                ),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
 
-            const SizedBox(height: 8),
-            Text(
-              '${state.currentIndex + 1}/${state.totalCharacters}',
-              style: Theme.of(context).textTheme.bodySmall,
-            ),
+              // Progress
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: LinearProgressIndicator(
+                  value: state.totalCharacters > 0
+                      ? (state.currentIndex + 1) / state.totalCharacters
+                      : 0,
+                  backgroundColor: Colors.grey[200],
+                ),
+              ),
 
-            const SizedBox(height: 16),
+              const SizedBox(height: 8),
+              Text(
+                '${state.currentIndex + 1}/${state.totalCharacters}',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
 
-            // Writing canvas
-            Expanded(
-              child: Center(
-                child: AspectRatio(
-                  aspectRatio: 1,
-                  child: Container(
-                    margin: const EdgeInsets.all(16),
-                    child: WritingCanvas(
-                      key: _canvasKey,
-                      mode: _showHint ? CanvasMode.practice : CanvasMode.test,
-                      onStrokeEvaluated: _onStrokeEvaluated,
-                      onCharacterComplete: () {
-                        // Handled in _onStrokeEvaluated
-                      },
+              const SizedBox(height: 16),
+
+              // Writing canvas
+              Expanded(
+                child: Center(
+                  child: AspectRatio(
+                    aspectRatio: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(16),
+                      child: WritingCanvas(
+                        key: _canvasKey,
+                        strokeData: _currentStrokeData,
+                        mode: _showHint ? CanvasMode.practice : CanvasMode.test,
+                        onStrokeEvaluated: _onStrokeEvaluated,
+                        onCharacterComplete: () {
+                          // Handled in _onStrokeEvaluated
+                        },
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
 
-            // Instruction
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
-              child: Text(
-                'Write this character from memory',
-                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Colors.grey[600],
-                    ),
+              // Instruction
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: Text(
+                  'Write this character from memory',
+                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                        color: Colors.grey[600],
+                      ),
+                ),
               ),
-            ),
 
-            // Action buttons
-            Padding(
-              padding: const EdgeInsets.all(16),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  // Clear button
-                  TextButton.icon(
-                    onPressed: _clearCanvas,
-                    icon: const Icon(Icons.delete_outline),
-                    label: const Text('Clear'),
-                  ),
-
-                  if (_showHint) ...[
-                    const SizedBox(width: 24),
-                    // Hint button
-                    TextButton.icon(
-                      onPressed: () {
-                        setState(() => _showHint = false);
-                      },
-                      icon: const Icon(Icons.visibility),
-                      label: const Text('Hint'),
+              // Action buttons
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Clear button
+                    IconButton(
+                      onPressed: _clearCanvas,
+                      icon: const Icon(Icons.delete_outline),
+                      tooltip: 'Clear',
                     ),
+
+                    // Play pronunciation
+                    IconButton(
+                      onPressed: state.currentCharacter != null
+                          ? () => _playPronunciation(state.currentCharacter!.codepoint)
+                          : null,
+                      icon: const Icon(Icons.volume_up),
+                      tooltip: 'Play pronunciation',
+                    ),
+
+                    if (_showHint) ...[
+                      const SizedBox(width: 8),
+                      IconButton(
+                        onPressed: () {
+                          setState(() => _showHint = false);
+                        },
+                        icon: const Icon(Icons.visibility),
+                        tooltip: 'Hide hint',
+                      ),
+                    ],
                   ],
-                ],
+                ),
               ),
-            ),
 
-            const SizedBox(height: 16),
-          ],
+              const SizedBox(height: 16),
+            ],
+          ),
         ),
       ),
     );

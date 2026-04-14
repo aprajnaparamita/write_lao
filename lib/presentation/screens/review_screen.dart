@@ -254,7 +254,7 @@ class _CharacterSelectTile extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    character.char,
+                    character.displayChar,
                     style: const TextStyle(
                       fontFamily: 'Noto Lao',
                       fontSize: 28,
@@ -262,8 +262,9 @@ class _CharacterSelectTile extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    character.name,
+                    character.letterNameRomanized ?? character.name,
                     style: Theme.of(context).textTheme.bodySmall,
+                    textAlign: TextAlign.center,
                   ),
                 ],
               ),

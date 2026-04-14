@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   data-lao-char="ຮ"
+   data-lao-codepoint="U+0EAE"
+   data-lao-name="hoo"
+   data-lao-romanization="h"
+   data-lao-phase="1"
+   data-lao-order="27"
+   data-lao-notes="low; Alternative: ເຮືອ /hɯ́a/ (boat)"
+   data-stroke-count=""
+   data-lao-letter-name="ຮໍ ເຮືອນ"
+   data-lao-letter-name-romanized="hɔɔ hɯ́an"
+   data-lao-acrophonical-meaning="house"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="01_27_hoo_U0EAE.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:lao="https://github.com/your-project/lao-stroke-data">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.67257068"
+     inkscape:cx="305.5441"
+     inkscape:cy="206.66973"
+     inkscape:window-width="1398"
+     inkscape:window-height="859"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="strokes" />
+  <!-- ============================================================
+       METADATA
+       stroke-count: fill in after you draw strokes
+       strokes: will be populated by your encoding tool
+       ============================================================ -->
+  <metadata
+     id="metadata1">
+    <lao:character>
+      <lao:codepoint>U+0EAE</lao:codepoint>
+      <lao:char>ຮ</lao:char>
+      <lao:name>hoo</lao:name>
+      <lao:romanization>h</lao:romanization>
+      <lao:phase>1</lao:phase>
+      <lao:order>27</lao:order>
+      <lao:notes>low; Alternative: ເຮືອ /hɯ́a/ (boat)</lao:notes>
+      <lao:letter-name>ຮໍ ເຮືອນ</lao:letter-name>
+      <lao:letter-name-romanized>hɔɔ hɯ́an</lao:letter-name-romanized>
+      <lao:acrophonical-meaning>house</lao:acrophonical-meaning>
+      <lao:stroke-count />
+      <lao:strokes>
+        <!-- Add stroke path data here after drawing. Format:
+             <lao:stroke index="1" direction="clockwise">
+               <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+               <lao:start-x></lao:start-x>
+               <lao:start-y></lao:start-y>
+             </lao:stroke>
+        -->
+      </lao:strokes>
+    </lao:character>
+  </metadata>
+  <!-- ============================================================
+       BACKGROUND & GUIDE GRID
+       ============================================================ -->
+  <g
+     id="background">
+    <!-- White background -->
+    <rect
+       width="512"
+       height="512"
+       fill="white"
+       id="rect1" />
+    <!-- Crosshair guides (light) -->
+    <line
+       x1="256.0"
+       y1="0"
+       x2="256.0"
+       y2="512"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line1" />
+    <line
+       x1="0"
+       y1="256.0"
+       x2="512"
+       y2="256.0"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line2" />
+    <!-- Corner inset box showing safe writing area -->
+    <rect
+       x="32"
+       y="32"
+       width="448"
+       height="448"
+       fill="none"
+       stroke="#e0e0e0"
+       stroke-width="1"
+       stroke-dasharray="4,4"
+       id="rect2" />
+  </g>
+  <!-- ============================================================
+       REFERENCE LAYER — lock this in your SVG editor, trace over it
+       The character is rendered semi-transparent as a guide.
+       Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+       If the character doesn't render, install Noto Lao.
+       ============================================================ -->
+  <g
+     id="reference"
+     opacity="0.18"
+     pointer-events="none">
+    <text
+       x="256.0"
+       y="369"
+       font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+       font-size="380"
+       text-anchor="middle"
+       fill="#0066cc"
+       id="text2">ຮ</text>
+  </g>
+  <!-- ============================================================
+       LABEL — character info displayed at bottom
+       ============================================================ -->
+  <g
+     id="label">
+    <text
+       x="256.0"
+       y="476"
+       font-family="monospace, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#999"
+       id="text3">ຮ  U+0EAE  hɔɔ hɯ́an  (house)</text>
+    <text
+       x="256.0"
+       y="494"
+       font-family="monospace, sans-serif"
+       font-size="11"
+       text-anchor="middle"
+       fill="#bbb"
+       id="text4">Phase 1 · low; Alternative: ເຮືອ /hɯ́a/ (boat)</text>
+  </g>
+  <!-- ============================================================
+       STROKES LAYER — draw your center-line strokes here.
+       Use thin paths (stroke-width ~8, no fill) in stroke order.
+       Each stroke should be a separate <path> element.
+       Add data-stroke-index="1", data-stroke-index="2" etc.
+
+       Example stroke:
+       <path
+         data-stroke-index="1"
+         d="M 180,120 C 200,100 280,140 300,200"
+         fill="none"
+         stroke="#e63946"
+         stroke-width="8"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+       />
+       ============================================================ -->
+  <g
+     id="strokes"
+     fill="none"
+     stroke="#e63946"
+     stroke-width="8"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <!-- Draw strokes here, one <path> per stroke, in order -->
+    <path
+       style="fill:none"
+       d="m 169.3289,302.78303 c 22.00701,31.19761 55.70786,-22.14644 22.75376,-29.85428 -31.20989,-4.36129 -34.01248,38.7717 -14.85372,54.65769 32.51042,30.59981 61.20583,29.35935 96.78671,26.93232 37.4158,-5.17218 52.85119,-15.37128 70.13558,-35.70211 16.89268,-22.47821 6.92631,-42.62041 -13.5815,-53.21701 -24.08703,-14.8044 -68.58346,-17.82587 -94.65686,-26.19763 -20.62546,-3.18149 -35.51317,-8.40196 -54.55258,-16.70987 -23.61464,-9.56668 -30.57362,-46.95414 -4.54362,-54.81667 32.36515,-11.92273 62.83147,0.20729 94.1281,8.33589 28.7153,7.21955 54.99465,13.98925 73.97112,0.3148 3.8913,-4.06093 19.94523,-13.6921 18.98218,-19.33565"
+       id="path4"
+       sodipodi:nodetypes="cccccccccccc" />
+  </g>
+</svg>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:lao="https://github.com/your-project/lao-stroke-data"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      data-lao-char="ຕ"
+      data-lao-codepoint="U+0E95"
+      data-lao-name="too"
+      data-lao-romanization="t"
+      data-lao-phase="1"
+      data-lao-order="10"
+      data-lao-notes="mid"
+      data-stroke-count=""
+      data-lao-letter-name="ຕໍ ຕາ"
+      data-lao-letter-name-romanized="tɔɔ tàa"
+      data-lao-acrophonical-meaning="eye"
+    >
+
+      <!-- ============================================================
+           METADATA
+           stroke-count: fill in after you draw strokes
+           strokes: will be populated by your encoding tool
+           ============================================================ -->
+      <metadata>
+        <lao:character>
+          <lao:codepoint>U+0E95</lao:codepoint>
+          <lao:char>ຕ</lao:char>
+          <lao:name>too</lao:name>
+          <lao:romanization>t</lao:romanization>
+          <lao:phase>1</lao:phase>
+          <lao:order>10</lao:order>
+          <lao:notes>mid</lao:notes>
+          <lao:letter-name>ຕໍ ຕາ</lao:letter-name>
+          <lao:letter-name-romanized>tɔɔ tàa</lao:letter-name-romanized>
+          <lao:acrophonical-meaning>eye</lao:acrophonical-meaning>
+          <lao:stroke-count></lao:stroke-count>
+          <lao:strokes>
+            <!-- Add stroke path data here after drawing. Format:
+                 <lao:stroke index="1" direction="clockwise">
+                   <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+                   <lao:start-x></lao:start-x>
+                   <lao:start-y></lao:start-y>
+                 </lao:stroke>
+            -->
+          </lao:strokes>
+        </lao:character>
+      </metadata>
+
+      <!-- ============================================================
+           BACKGROUND & GUIDE GRID
+           ============================================================ -->
+      <g id="background">
+        <!-- White background -->
+        <rect width="512" height="512" fill="white"/>
+
+        <!-- Crosshair guides (light) -->
+        <line x1="256.0" y1="0" x2="256.0" y2="512"
+              stroke="#e8e8e8" stroke-width="1"/>
+        <line x1="0" y1="256.0" x2="512" y2="256.0"
+              stroke="#e8e8e8" stroke-width="1"/>
+
+        <!-- Corner inset box showing safe writing area -->
+        <rect x="32" y="32" width="448" height="448"
+              fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+      </g>
+
+      <!-- ============================================================
+           REFERENCE LAYER — lock this in your SVG editor, trace over it
+           The character is rendered semi-transparent as a guide.
+           Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+           If the character doesn't render, install Noto Lao.
+           ============================================================ -->
+      <g id="reference" pointer-events="none">
+<text
+  x="256.0"
+  y="333"
+  font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+  font-size="380"
+  text-anchor="middle"
+  fill="#0066cc"
+  opacity="0.18"
+>ຕ</text>
+      </g>
+
+      <!-- ============================================================
+           LABEL — character info displayed at bottom
+           ============================================================ -->
+      <g id="label">
+        <text
+          x="256.0"
+          y="476"
+          font-family="monospace, sans-serif"
+          font-size="13"
+          text-anchor="middle"
+          fill="#999"
+        >ຕ  U+0E95  tɔɔ tàa  (eye)</text>
+        <text
+          x="256.0"
+          y="494"
+          font-family="monospace, sans-serif"
+          font-size="11"
+          text-anchor="middle"
+          fill="#bbb"
+        >Phase 1 · mid</text>
+      </g>
+
+      <!-- ============================================================
+           STROKES LAYER — draw your center-line strokes here.
+           Use thin paths (stroke-width ~8, no fill) in stroke order.
+           Each stroke should be a separate <path> element.
+           Add data-stroke-index="1", data-stroke-index="2" etc.
+
+           Example stroke:
+           <path
+             data-stroke-index="1"
+             d="M 180,120 C 200,100 280,140 300,200"
+             fill="none"
+             stroke="#e63946"
+             stroke-width="8"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+           />
+           ============================================================ -->
+      <g
+        id="strokes"
+        fill="none"
+        stroke="#e63946"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+       style="fill:none"
+       d="m 177.92386,349.80264 c -5.05218,-30.66085 40.85834,-37.43165 41.9919,-4.74789 -13.28628,35.13069 -55.82467,1.1913 -66.14536,-22.08686 -24.77228,-49.61861 -24.00202,-71.36979 -10.53619,-119.18298 12.553,-32.30824 46.49081,-48.36408 75.62086,-41.48608 17.41898,6.14975 31.07587,28.99924 39.15723,42.60451 3.41103,-27.11452 38.64397,-46.04503 63.61803,-43.42033 29.72908,8.92706 52.09273,36.88292 55.16962,67.71211 5.76546,34.36584 -7.69588,65.77943 -19.08025,98.35982 -5.46973,11.59735 -12.75173,21.29942 -16.73539,29.85072"
+       id="path4" />
+      </g>
+
+    </svg>

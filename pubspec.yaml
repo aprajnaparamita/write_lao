@@ -43,11 +43,15 @@ flutter:
   assets:
     - assets/stroke_data/
     - assets/audio/
+    - assets/audio/pronunciation/
 
 flutter_launcher_icons:
   android: true
   ios: true
-  macos: true
-  linux: true
-  web: true
+  macos:
+    generate: true
+  linux:
+    generate: true
+  web:
+    generate: true
   image_path: "assets/icon/app_icon.png"

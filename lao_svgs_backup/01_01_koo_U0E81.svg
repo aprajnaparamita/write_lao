@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:lao="https://github.com/your-project/lao-stroke-data"
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  data-lao-char="ກ"
+  data-lao-codepoint="U+0E81"
+  data-lao-name="koo"
+  data-lao-romanization="k"
+  data-lao-phase="1"
+  data-lao-order="1"
+  data-lao-notes="mid"
+  data-stroke-count=""
+      data-lao-letter-name="ກໍ ໄກ່"
+      data-lao-letter-name-romanized="kɔɔ kàj"
+      data-lao-acrophonical-meaning="chicken"
+>
+
+  <!-- ============================================================
+       METADATA
+       stroke-count: fill in after you draw strokes
+       strokes: will be populated by your encoding tool
+       ============================================================ -->
+  <metadata>
+    <lao:character>
+      <lao:codepoint>U+0E81</lao:codepoint>
+      <lao:char>ກ</lao:char>
+      <lao:name>koo</lao:name>
+      <lao:romanization>k</lao:romanization>
+      <lao:phase>1</lao:phase>
+      <lao:order>1</lao:order>
+      <lao:notes>mid</lao:notes>
+          <lao:letter-name>ກໍ ໄກ່</lao:letter-name>
+          <lao:letter-name-romanized>kɔɔ kàj</lao:letter-name-romanized>
+          <lao:acrophonical-meaning>chicken</lao:acrophonical-meaning>
+      <lao:stroke-count></lao:stroke-count>
+      <lao:strokes>
+        <!-- Add stroke path data here after drawing. Format:
+             <lao:stroke index="1" direction="clockwise">
+               <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+               <lao:start-x></lao:start-x>
+               <lao:start-y></lao:start-y>
+             </lao:stroke>
+        -->
+      </lao:strokes>
+    </lao:character>
+  </metadata>
+
+  <!-- ============================================================
+       BACKGROUND & GUIDE GRID
+       ============================================================ -->
+  <g id="background">
+    <!-- White background -->
+    <rect width="512" height="512" fill="white"/>
+
+    <!-- Crosshair guides (light) -->
+    <line x1="256.0" y1="0" x2="256.0" y2="512"
+          stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="0" y1="256.0" x2="512" y2="256.0"
+          stroke="#e8e8e8" stroke-width="1"/>
+
+    <!-- Corner inset box showing safe writing area -->
+    <rect x="32" y="32" width="448" height="448"
+          fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- ============================================================
+       REFERENCE LAYER — lock this in your SVG editor, trace over it
+       The character is rendered semi-transparent as a guide.
+       Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+       If the character doesn't render, install Noto Lao.
+       ============================================================ -->
+  <g id="reference" opacity="0.18" pointer-events="none">
+    <text
+      x="256.0"
+      y="369"
+      font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+      font-size="380"
+      text-anchor="middle"
+      fill="#0066cc"
+    >ກ</text>
+  </g>
+
+  <!-- ============================================================
+       LABEL — character info displayed at bottom
+       ============================================================ -->
+  <g id="label">
+    <text
+      x="256.0"
+      y="476"
+      font-family="monospace, sans-serif"
+      font-size="13"
+      text-anchor="middle"
+      fill="#999"
+    >ກ  U+0E81  kɔɔ kàj  (chicken)</text>
+    <text
+      x="256.0"
+      y="494"
+      font-family="monospace, sans-serif"
+      font-size="11"
+      text-anchor="middle"
+      fill="#bbb"
+    >Phase 1 · mid</text>
+  </g>
+
+  <!-- ============================================================
+       STROKES LAYER — draw your center-line strokes here.
+       Use thin paths (stroke-width ~8, no fill) in stroke order.
+       Each stroke should be a separate <path> element.
+       Add data-stroke-index="1", data-stroke-index="2" etc.
+
+       Example stroke:
+       <path
+         data-stroke-index="1"
+         d="M 180,120 C 200,100 280,140 300,200"
+         fill="none"
+         stroke="#e63946"
+         stroke-width="8"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+       />
+       ============================================================ -->
+  <g
+    id="strokes"
+    fill="none"
+    stroke="#e63946"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+        <path
+       style="fill:none"
+       d="m 175.91962,323.01836 c -11.47259,-3.66348 -23.03948,1.38532 -28.12422,12.49802 -4.02258,10.66791 5.01193,21.11563 14.93762,24.69741 10.95432,4.64168 21.09042,-2.5546 26.85229,-11.61571 5.8799,-10.14575 4.20268,-22.74345 9.57179,-33.2036 1.35697,-12.49076 9.2223,-23.55972 9.00465,-36.5061 0.4,-15.91572 0.82528,-31.86987 -1.27766,-47.74323 -0.85481,-14.99727 -3.41618,-30.19307 -10.46547,-43.60881 -3.47558,-10.53505 -6.30323,-22.95899 -16.95254,-28.54226 -10.31807,-6.67586 -23.59059,-1.07563 -33.37986,4.29767 -6.77968,7.1647 -8.06422,23.68962 -1.16825,31.16711 7.2754,10.20305 21.55248,10.0185 32.67953,7.82155 10.26478,-4.85769 19.60759,-11.90248 29.77469,-17.07713 9.79831,-5.41004 19.34193,-9.74451 29.35685,-14.60412 8.9029,-3.11454 17.60171,-7.29743 27.34727,-7.58007 11.93979,-3.99024 23.19362,-6.35687 36.94545,-5.264 11.01029,2.45377 18.04754,6.27737 26.64651,9.88753 12.48308,5.13016 21.85995,13.12227 29.21632,24.04344 2.3725,11.74128 10.96936,21.83917 12.51084,34.05095 0.23405,20.49565 1.41771,42.27074 -8.47373,60.97246 -3.39272,11.09019 -8.8257,20.80068 -14.28698,30.97114 -2.28216,10.32566 -16.55781,31.37177 -19.90278,41.40324"
+       id="path4"
+       sodipodi:nodetypes="cccccccccccccccccccccc" />
+      </g>
+
+</svg>

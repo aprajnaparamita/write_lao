@@ -1,0 +1,198 @@
+{
+  "style": {
+    "prefix": "Cute chibi illustration on a plain white background,",
+    "suffix": "Lao folk art style, soft shading, centered, isolated on white, sticker design, no text",
+    "negative": "text, watermark, border, multiple subjects, gradient background, realistic, photographic, ugly, deformed"
+  },
+  "characters": [
+    {
+      "codepoint": "U+0E81",
+      "char": "ກ",
+      "letterName": "ກໍ ໄກ່",
+      "meaning": "chicken",
+      "prompt_subject": "a small fluffy chicken with golden-orange feathers, standing proudly with a tiny red comb, looking cheerful"
+    },
+    {
+      "codepoint": "U+0E82",
+      "char": "ຂ",
+      "letterName": "ຂໍ ໄຂ່",
+      "meaning": "egg",
+      "prompt_subject": "a round white egg with a warm glow, sitting in a small cozy nest of straw, with a tiny crack and a baby chick peeking out"
+    },
+    {
+      "codepoint": "U+0E84",
+      "char": "ຄ",
+      "letterName": "ຄໍ ຄວາຍ",
+      "meaning": "water buffalo",
+      "prompt_subject": "a chubby gray water buffalo calf with curved horns, standing in a tiny rice paddy puddle, looking gentle and friendly"
+    },
+    {
+      "codepoint": "U+0E87",
+      "char": "ງ",
+      "letterName": "ງໍ ງົວ",
+      "meaning": "ox",
+      "prompt_subject": "a stout brown ox with a friendly face and small horns, wearing a tiny floral garland around its neck"
+    },
+    {
+      "codepoint": "U+0E88",
+      "char": "ຈ",
+      "letterName": "ຈໍ ຈອກ",
+      "meaning": "cup/glass",
+      "prompt_subject": "a small ornate traditional Lao silver cup with delicate engravings, slightly gleaming, sitting upright"
+    },
+    {
+      "codepoint": "U+0EAA",
+      "char": "ສ",
+      "letterName": "ສໍ ເສືອ",
+      "meaning": "tiger",
+      "prompt_subject": "a tiny round tiger cub with orange and black stripes, sitting playfully with big curious eyes and a fluffy tail"
+    },
+    {
+      "codepoint": "U+0E8A",
+      "char": "ຊ",
+      "letterName": "ຊໍ ຊ້າງ",
+      "meaning": "elephant",
+      "prompt_subject": "a baby elephant with big floppy ears and a curled trunk, wearing a small decorative Lao textile blanket on its back"
+    },
+    {
+      "codepoint": "U+0E8D",
+      "char": "ຍ",
+      "letterName": "ຍໍ ຍຸງ",
+      "meaning": "mosquito",
+      "prompt_subject": "a tiny cartoon mosquito with oversized sparkly wings, looking silly and harmless with big round eyes, not scary"
+    },
+    {
+      "codepoint": "U+0E94",
+      "char": "ດ",
+      "letterName": "ດໍ ເດັກ",
+      "meaning": "child",
+      "prompt_subject": "a small Lao child wearing a traditional sinh skirt, smiling warmly, hands clasped together in a nop greeting"
+    },
+    {
+      "codepoint": "U+0E95",
+      "char": "ຕ",
+      "letterName": "ຕໍ ຕາ",
+      "meaning": "eye",
+      "prompt_subject": "a single large sparkling expressive eye with long lashes, warm brown iris, drawn in a cute anime-inspired style"
+    },
+    {
+      "codepoint": "U+0E96",
+      "char": "ຖ",
+      "letterName": "ຖໍ ຖົງ",
+      "meaning": "bag/stocking",
+      "prompt_subject": "a small woven Lao textile bag with colorful traditional geometric patterns in indigo and red, slightly puffy and round"
+    },
+    {
+      "codepoint": "U+0E97",
+      "char": "ທ",
+      "letterName": "ທໍ ທຸງ",
+      "meaning": "flag",
+      "prompt_subject": "a small triangular Lao temple flag (tung) in gold and red, fluttering gently on a bamboo pole"
+    },
+    {
+      "codepoint": "U+0E99",
+      "char": "ນ",
+      "letterName": "ນໍ ນົກ",
+      "meaning": "bird",
+      "prompt_subject": "a tiny colorful tropical bird perched on a branch, with bright green and blue feathers, singing happily"
+    },
+    {
+      "codepoint": "U+0E9A",
+      "char": "ບ",
+      "letterName": "ບໍ ແບ້",
+      "meaning": "goat",
+      "prompt_subject": "a fluffy white baby goat with tiny horns, standing on a grassy patch, looking curious and sweet"
+    },
+    {
+      "codepoint": "U+0E9B",
+      "char": "ປ",
+      "letterName": "ປໍ ປາ",
+      "meaning": "fish",
+      "prompt_subject": "a round colorful fish with flowing fins, scales shimmering in gold and teal, swimming in a tiny splash of water"
+    },
+    {
+      "codepoint": "U+0E9C",
+      "char": "ຜ",
+      "letterName": "ຜໍ ເຜິ້ງ",
+      "meaning": "bee",
+      "prompt_subject": "a chubby fuzzy bumblebee with golden and black stripes, tiny transparent wings, carrying a miniature pot of honey"
+    },
+    {
+      "codepoint": "U+0E9D",
+      "char": "ຝ",
+      "letterName": "ຝໍ ຝົນ",
+      "meaning": "rain",
+      "prompt_subject": "a smiling rain cloud with rosy cheeks, gently dropping a few sparkling blue raindrops, looking friendly and soft"
+    },
+    {
+      "codepoint": "U+0E9E",
+      "char": "ພ",
+      "letterName": "ພໍ ພູ",
+      "meaning": "mountain",
+      "prompt_subject": "a small lush green mountain peak with a tiny golden Lao stupa on top, surrounded by wispy clouds"
+    },
+    {
+      "codepoint": "U+0E9F",
+      "char": "ຟ",
+      "letterName": "ຟໍ ໄຟ",
+      "meaning": "fire",
+      "prompt_subject": "a warm friendly campfire flame in orange and gold, with a cute face in the fire, glowing softly"
+    },
+    {
+      "codepoint": "U+0EA1",
+      "char": "ມ",
+      "letterName": "ມໍ ແມວ",
+      "meaning": "cat",
+      "prompt_subject": "a round fluffy Siamese cat with blue eyes, sitting neatly with its tail curled, looking content and sleepy"
+    },
+    {
+      "codepoint": "U+0EA2",
+      "char": "ຢ",
+      "letterName": "ຢໍ ຢາ",
+      "meaning": "medicine",
+      "prompt_subject": "a small traditional mortar and pestle with colorful herbs and leaves, with a tiny green plant sprouting from it"
+    },
+    {
+      "codepoint": "U+0EA3",
+      "char": "ຣ",
+      "letterName": "ຣໍ ຣົດ",
+      "meaning": "car",
+      "prompt_subject": "a tiny vintage tuk-tuk (Lao three-wheeled taxi) in bright blue and yellow, with round headlights looking like eyes"
+    },
+    {
+      "codepoint": "U+0EA5",
+      "char": "ລ",
+      "letterName": "ລໍ ລີງ",
+      "meaning": "monkey",
+      "prompt_subject": "a small playful monkey with a long curly tail, sitting and holding a banana, with big expressive brown eyes"
+    },
+    {
+      "codepoint": "U+0EA7",
+      "char": "ວ",
+      "letterName": "ວໍ ວີ",
+      "meaning": "fan",
+      "prompt_subject": "an elegant round Lao hand fan with intricate red and gold patterns, slightly open, with a small tassel"
+    },
+    {
+      "codepoint": "U+0EAB",
+      "char": "ຫ",
+      "letterName": "ຫໍ ຫ່ານ",
+      "meaning": "goose",
+      "prompt_subject": "a plump white goose with an orange beak, standing tall and proud, with fluffy feathers and a gentle expression"
+    },
+    {
+      "codepoint": "U+0EAD",
+      "char": "ອ",
+      "letterName": "ອໍ ໂອ",
+      "meaning": "bowl",
+      "prompt_subject": "a round traditional Lao ceramic bowl in warm terracotta with simple geometric patterns, slightly tilted to show inside"
+    },
+    {
+      "codepoint": "U+0EAE",
+      "char": "ຮ",
+      "letterName": "ຮໍ ເຮືອນ",
+      "meaning": "house",
+      "prompt_subject": "a small traditional Lao wooden house on stilts with a peaked roof, surrounded by tiny palm trees, warm and inviting"
+    }
+  ]
+}

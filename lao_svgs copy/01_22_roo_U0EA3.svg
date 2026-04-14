@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:lao="https://github.com/your-project/lao-stroke-data"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      data-lao-char="ຣ"
+      data-lao-codepoint="U+0EA3"
+      data-lao-name="roo"
+      data-lao-romanization="r, l"
+      data-lao-phase="1"
+      data-lao-order="22"
+      data-lao-notes="low; Re-added to alphabet. Commonly pronounced /l/. Unicode name LO LING is INCORRECT (swapped with ລ). Alternative acrophonic: ຣະຄັງ /rā.kʰáŋ/ (bell)"
+      data-stroke-count=""
+      data-lao-letter-name="ຣໍ ຣົດ"
+      data-lao-letter-name-romanized="rɔɔ rót"
+      data-lao-acrophonical-meaning="car"
+    >
+
+      <!-- ============================================================
+           METADATA
+           stroke-count: fill in after you draw strokes
+           strokes: will be populated by your encoding tool
+           ============================================================ -->
+      <metadata>
+        <lao:character>
+          <lao:codepoint>U+0EA3</lao:codepoint>
+          <lao:char>ຣ</lao:char>
+          <lao:name>roo</lao:name>
+          <lao:romanization>r, l</lao:romanization>
+          <lao:phase>1</lao:phase>
+          <lao:order>22</lao:order>
+          <lao:notes>low; Re-added to alphabet. Commonly pronounced /l/. Unicode name LO LING is INCORRECT (swapped with ລ). Alternative acrophonic: ຣະຄັງ /rā.kʰáŋ/ (bell)</lao:notes>
+          <lao:letter-name>ຣໍ ຣົດ</lao:letter-name>
+          <lao:letter-name-romanized>rɔɔ rót</lao:letter-name-romanized>
+          <lao:acrophonical-meaning>car</lao:acrophonical-meaning>
+          <lao:stroke-count></lao:stroke-count>
+          <lao:strokes>
+            <!-- Add stroke path data here after drawing. Format:
+                 <lao:stroke index="1" direction="clockwise">
+                   <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+                   <lao:start-x></lao:start-x>
+                   <lao:start-y></lao:start-y>
+                 </lao:stroke>
+            -->
+          </lao:strokes>
+        </lao:character>
+      </metadata>
+
+      <!-- ============================================================
+           BACKGROUND & GUIDE GRID
+           ============================================================ -->
+      <g id="background">
+        <!-- White background -->
+        <rect width="512" height="512" fill="white"/>
+
+        <!-- Crosshair guides (light) -->
+        <line x1="256.0" y1="0" x2="256.0" y2="512"
+              stroke="#e8e8e8" stroke-width="1"/>
+        <line x1="0" y1="256.0" x2="512" y2="256.0"
+              stroke="#e8e8e8" stroke-width="1"/>
+
+        <!-- Corner inset box showing safe writing area -->
+        <rect x="32" y="32" width="448" height="448"
+              fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+      </g>
+
+      <!-- ============================================================
+           REFERENCE LAYER — lock this in your SVG editor, trace over it
+           The character is rendered semi-transparent as a guide.
+           Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+           If the character doesn't render, install Noto Lao.
+           ============================================================ -->
+      <g id="reference" pointer-events="none">
+<text
+  x="256.0"
+  y="333"
+  font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+  font-size="380"
+  text-anchor="middle"
+  fill="#0066cc"
+  opacity="0.18"
+>ຣ</text>
+      </g>
+
+      <!-- ============================================================
+           LABEL — character info displayed at bottom
+           ============================================================ -->
+      <g id="label">
+        <text
+          x="256.0"
+          y="476"
+          font-family="monospace, sans-serif"
+          font-size="13"
+          text-anchor="middle"
+          fill="#999"
+        >ຣ  U+0EA3  rɔɔ rót  (car)</text>
+        <text
+          x="256.0"
+          y="494"
+          font-family="monospace, sans-serif"
+          font-size="11"
+          text-anchor="middle"
+          fill="#bbb"
+        >Phase 1 · low; Re-added to alphabet. Commonly pronounced /l/. Unicode name LO LING is INCORRECT (swapped with ລ). Alternative acrophonic: ຣະຄັງ /rā.kʰáŋ/ (bell)</text>
+      </g>
+
+      <!-- ============================================================
+           STROKES LAYER — draw your center-line strokes here.
+           Use thin paths (stroke-width ~8, no fill) in stroke order.
+           Each stroke should be a separate <path> element.
+           Add data-stroke-index="1", data-stroke-index="2" etc.
+
+           Example stroke:
+           <path
+             data-stroke-index="1"
+             d="M 180,120 C 200,100 280,140 300,200"
+             fill="none"
+             stroke="#e63946"
+             stroke-width="8"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+           />
+           ============================================================ -->
+      <g
+        id="strokes"
+        fill="none"
+        stroke="#e63946"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+       style="fill:none"
+       d="m 173.76438,303.91907 c 14.08263,24.12033 46.89433,-0.36226 29.04024,-22.3097 -29.8256,-28.26787 -45.65517,16.98071 -31.44609,39.99538 17.07312,26.00331 46.73996,31.02599 76.08944,34.24932 30.69573,1.97452 59.92846,-4.51086 83.44662,-20.07822 24.25984,-20.10835 31.67392,-63.33958 -7.39932,-73.4317 -27.06028,-7.59148 -58.50633,-13.90396 -88.79046,-18.93386 -27.11429,-6.4675 -51.42955,-4.64586 -72.21842,-27.01043 -10.23573,-15.85898 3.54248,-31.27484 13.38173,-37.80474 20.58935,-13.52359 49.70226,-23.19011 73.48297,-19.5038 27.8167,1.76178 46.97741,7.01625 73.24923,20.76336 7.01934,6.92158 18.45576,17.36299 24.26734,25.03626"
+       id="path4" />
+      </g>
+
+    </svg>

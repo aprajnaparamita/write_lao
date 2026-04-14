@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:lao="https://github.com/your-project/lao-stroke-data"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      data-lao-char="ງ"
+      data-lao-codepoint="U+0E87"
+      data-lao-name="ngoo"
+      data-lao-romanization="ŋ"
+      data-lao-phase="1"
+      data-lao-order="4"
+      data-lao-notes="low; Alternative: ງູ /ŋúː/ (snake)"
+      data-stroke-count=""
+      data-lao-letter-name="ງໍ ງົວ"
+      data-lao-letter-name-romanized="ngɔɔ ngua"
+      data-lao-acrophonical-meaning="ox"
+    >
+
+      <!-- ============================================================
+           METADATA
+           stroke-count: fill in after you draw strokes
+           strokes: will be populated by your encoding tool
+           ============================================================ -->
+      <metadata>
+        <lao:character>
+          <lao:codepoint>U+0E87</lao:codepoint>
+          <lao:char>ງ</lao:char>
+          <lao:name>ngoo</lao:name>
+          <lao:romanization>ŋ</lao:romanization>
+          <lao:phase>1</lao:phase>
+          <lao:order>4</lao:order>
+          <lao:notes>low; Alternative: ງູ /ŋúː/ (snake)</lao:notes>
+          <lao:letter-name>ງໍ ງົວ</lao:letter-name>
+          <lao:letter-name-romanized>ngɔɔ ngua</lao:letter-name-romanized>
+          <lao:acrophonical-meaning>ox</lao:acrophonical-meaning>
+          <lao:stroke-count></lao:stroke-count>
+          <lao:strokes>
+            <!-- Add stroke path data here after drawing. Format:
+                 <lao:stroke index="1" direction="clockwise">
+                   <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+                   <lao:start-x></lao:start-x>
+                   <lao:start-y></lao:start-y>
+                 </lao:stroke>
+            -->
+          </lao:strokes>
+        </lao:character>
+      </metadata>
+
+      <!-- ============================================================
+           BACKGROUND & GUIDE GRID
+           ============================================================ -->
+      <g id="background">
+        <!-- White background -->
+        <rect width="512" height="512" fill="white"/>
+
+        <!-- Crosshair guides (light) -->
+        <line x1="256.0" y1="0" x2="256.0" y2="512"
+              stroke="#e8e8e8" stroke-width="1"/>
+        <line x1="0" y1="256.0" x2="512" y2="256.0"
+              stroke="#e8e8e8" stroke-width="1"/>
+
+        <!-- Corner inset box showing safe writing area -->
+        <rect x="32" y="32" width="448" height="448"
+              fill="none" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+      </g>
+
+      <!-- ============================================================
+           REFERENCE LAYER — lock this in your SVG editor, trace over it
+           The character is rendered semi-transparent as a guide.
+           Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+           If the character doesn't render, install Noto Lao.
+           ============================================================ -->
+      <g id="reference" pointer-events="none">
+<text
+  x="256.0"
+  y="333"
+  font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+  font-size="380"
+  text-anchor="middle"
+  fill="#0066cc"
+  opacity="0.18"
+>ງ</text>
+      </g>
+
+      <!-- ============================================================
+           LABEL — character info displayed at bottom
+           ============================================================ -->
+      <g id="label">
+        <text
+          x="256.0"
+          y="476"
+          font-family="monospace, sans-serif"
+          font-size="13"
+          text-anchor="middle"
+          fill="#999"
+        >ງ  U+0E87  ngɔɔ ngua  (ox)</text>
+        <text
+          x="256.0"
+          y="494"
+          font-family="monospace, sans-serif"
+          font-size="11"
+          text-anchor="middle"
+          fill="#bbb"
+        >Phase 1 · low; Alternative: ງູ /ŋúː/ (snake)</text>
+      </g>
+
+      <!-- ============================================================
+           STROKES LAYER — draw your center-line strokes here.
+           Use thin paths (stroke-width ~8, no fill) in stroke order.
+           Each stroke should be a separate <path> element.
+           Add data-stroke-index="1", data-stroke-index="2" etc.
+
+           Example stroke:
+           <path
+             data-stroke-index="1"
+             d="M 180,120 C 200,100 280,140 300,200"
+             fill="none"
+             stroke="#e63946"
+             stroke-width="8"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+           />
+           ============================================================ -->
+      <g
+        id="strokes"
+        fill="none"
+        stroke="#e63946"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+       style="fill:none"
+       d="m 184.54379,216.8161 c 6.5157,-7.35162 9.71989,-7.73746 18.65141,-10.99017 8.65197,0.37941 16.56747,2.58902 17.75244,6.34283 8.69379,8.96046 7.79556,26.32337 -5.57502,30.69146 -11.5392,3.37578 -26.60403,2.00978 -30.29679,-11.72654 -5.5221,-11.20518 -2.30726,-24.19782 1.08249,-37.20005 6.82899,-13.96784 14.36513,-20.27941 26.48256,-29.11046 10.46598,-3.64379 24.47162,-5.3831 39.10264,-5.59666 15.78591,0.59139 23.98559,4.75671 36.25089,14.96459 10.31458,10.29158 17.4685,19.20808 22.55563,32.8838 5.27854,18.76654 7.25898,38.32181 7.92336,57.75379 -0.90179,19.96091 2.80491,45.57606 -0.1284,65.29175 -3.98761,18.82332 -7.1172,37.6856 -15.04881,55.55133 -5.77102,13.01308 -13.42355,20.43008 -23.35204,31.13053 -8.32679,7.58122 -22.80397,12.9459 -33.02515,14.549 -12.89921,0.36786 -20.14349,-0.003 -32.98148,-3.09228 -1.76885,-0.21404 -7.97648,-2.4406 -9.75923,-2.46007"
+       id="path4" />
+      </g>
+
+    </svg>

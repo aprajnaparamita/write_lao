@@ -3,7 +3,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'quiz_result.freezed.dart';
 part 'quiz_result.g.dart';
 
-@Freezed(toJson: true, fromJson: true)
+@freezed
 class QuizResult with _$QuizResult {
   const factory QuizResult({
     required String lessonId,

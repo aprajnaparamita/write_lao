@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   data-lao-char="ວ"
+   data-lao-codepoint="U+0EA7"
+   data-lao-name="woo"
+   data-lao-romanization="w, ʋ"
+   data-lao-phase="1"
+   data-lao-order="24"
+   data-lao-notes="low"
+   data-stroke-count=""
+   data-lao-letter-name="ວໍ ວີ"
+   data-lao-letter-name-romanized="wɔɔ wíi"
+   data-lao-acrophonical-meaning="fan"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="01_24_woo_U0EA7.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:lao="https://github.com/your-project/lao-stroke-data">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.77728792"
+     inkscape:cx="130.58224"
+     inkscape:cy="349.93468"
+     inkscape:window-width="1512"
+     inkscape:window-height="877"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="strokes" />
+  <!-- ============================================================
+       METADATA
+       stroke-count: fill in after you draw strokes
+       strokes: will be populated by your encoding tool
+       ============================================================ -->
+  <metadata
+     id="metadata1">
+    <lao:character>
+      <lao:codepoint>U+0EA7</lao:codepoint>
+      <lao:char>ວ</lao:char>
+      <lao:name>woo</lao:name>
+      <lao:romanization>w, ʋ</lao:romanization>
+      <lao:phase>1</lao:phase>
+      <lao:order>24</lao:order>
+      <lao:notes>low</lao:notes>
+      <lao:letter-name>ວໍ ວີ</lao:letter-name>
+      <lao:letter-name-romanized>wɔɔ wíi</lao:letter-name-romanized>
+      <lao:acrophonical-meaning>fan</lao:acrophonical-meaning>
+      <lao:stroke-count />
+      <lao:strokes>
+        <!-- Add stroke path data here after drawing. Format:
+             <lao:stroke index="1" direction="clockwise">
+               <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+               <lao:start-x></lao:start-x>
+               <lao:start-y></lao:start-y>
+             </lao:stroke>
+        -->
+      </lao:strokes>
+    </lao:character>
+  </metadata>
+  <!-- ============================================================
+       BACKGROUND & GUIDE GRID
+       ============================================================ -->
+  <g
+     id="background">
+    <!-- White background -->
+    <rect
+       width="512"
+       height="512"
+       fill="white"
+       id="rect1" />
+    <!-- Crosshair guides (light) -->
+    <line
+       x1="256.0"
+       y1="0"
+       x2="256.0"
+       y2="512"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line1" />
+    <line
+       x1="0"
+       y1="256.0"
+       x2="512"
+       y2="256.0"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line2" />
+    <!-- Corner inset box showing safe writing area -->
+    <rect
+       x="32"
+       y="32"
+       width="448"
+       height="448"
+       fill="none"
+       stroke="#e0e0e0"
+       stroke-width="1"
+       stroke-dasharray="4,4"
+       id="rect2" />
+  </g>
+  <!-- ============================================================
+       REFERENCE LAYER — lock this in your SVG editor, trace over it
+       The character is rendered semi-transparent as a guide.
+       Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+       If the character doesn't render, install Noto Lao.
+       ============================================================ -->
+  <g
+     id="reference"
+     opacity="0.18"
+     pointer-events="none">
+    <text
+       x="256.0"
+       y="369"
+       font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+       font-size="380"
+       text-anchor="middle"
+       fill="#0066cc"
+       id="text2">ວ</text>
+  </g>
+  <!-- ============================================================
+       LABEL — character info displayed at bottom
+       ============================================================ -->
+  <g
+     id="label">
+    <text
+       x="256.0"
+       y="476"
+       font-family="monospace, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#999"
+       id="text3">ວ  U+0EA7  wɔɔ wíi  (fan)</text>
+    <text
+       x="256.0"
+       y="494"
+       font-family="monospace, sans-serif"
+       font-size="11"
+       text-anchor="middle"
+       fill="#bbb"
+       id="text4">Phase 1 · low</text>
+  </g>
+  <!-- ============================================================
+       STROKES LAYER — draw your center-line strokes here.
+       Use thin paths (stroke-width ~8, no fill) in stroke order.
+       Each stroke should be a separate <path> element.
+       Add data-stroke-index="1", data-stroke-index="2" etc.
+
+       Example stroke:
+       <path
+         data-stroke-index="1"
+         d="M 180,120 C 200,100 280,140 300,200"
+         fill="none"
+         stroke="#e63946"
+         stroke-width="8"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+       />
+       ============================================================ -->
+  <g
+     id="strokes"
+     fill="none"
+     stroke="#e63946"
+     stroke-width="8"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <!-- Draw strokes here, one <path> per stroke, in order -->
+    <path
+       style="fill:none"
+       d="m 162.88181,305.21245 c 11.87557,3.87822 20.04511,1.936 27.38364,-2.77422 10.40056,-5.85375 10.9156,-19.73163 5.55229,-28.65533 -10.29942,-17.19494 -44.03768,-2.38257 -43.62269,17.88915 1.40628,9.9384 7.03389,12.87133 9.95324,22.53215 13.19749,13.81666 16.53061,18.99013 27.40027,24.74352 27.14312,16.20667 63.7583,20.73638 93.21906,13.76289 18.82693,-4.04858 39.22424,-23.5683 51.17798,-38.06192 15.29938,-19.56897 16.26197,-36.57363 20.46731,-60.9883 -1.05915,-24.64706 -14.59346,-50.70397 -29.68884,-69.38247 -15.03852,-11.8852 -28.25307,-19.59068 -46.90665,-23.52769 -15.8642,-2.91323 -23.18941,-2.59678 -41.33248,0.96169 -28.24621,5.15614 -49.77769,19.11661 -65.04273,41.70937 -4.24198,7.66726 -10.77749,14.2047 -13.26244,22.84916"
+       id="path4"
+       sodipodi:nodetypes="cccccccccccccc" />
+  </g>
+</svg>

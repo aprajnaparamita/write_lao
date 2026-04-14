@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   data-lao-char="ຟ"
+   data-lao-codepoint="U+0E9F"
+   data-lao-name="foo"
+   data-lao-romanization="f"
+   data-lao-phase="1"
+   data-lao-order="19"
+   data-lao-notes="low; Unicode name FO SUNG is INCORRECT (swapped with ຝ). Actual tone class is LOW."
+   data-stroke-count=""
+   data-lao-letter-name="ຟໍ ໄຟ"
+   data-lao-letter-name-romanized="fɔɔ fáj"
+   data-lao-acrophonical-meaning="fire"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="01_19_foo_U0E9F.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:lao="https://github.com/your-project/lao-stroke-data">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3595117"
+     inkscape:cx="286.49992"
+     inkscape:cy="225.81637"
+     inkscape:window-width="1472"
+     inkscape:window-height="863"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="strokes" />
+  <!-- ============================================================
+       METADATA
+       stroke-count: fill in after you draw strokes
+       strokes: will be populated by your encoding tool
+       ============================================================ -->
+  <metadata
+     id="metadata1">
+    <lao:character>
+      <lao:codepoint>U+0E9F</lao:codepoint>
+      <lao:char>ຟ</lao:char>
+      <lao:name>foo</lao:name>
+      <lao:romanization>f</lao:romanization>
+      <lao:phase>1</lao:phase>
+      <lao:order>19</lao:order>
+      <lao:notes>low; Unicode name FO SUNG is INCORRECT (swapped with ຝ). Actual tone class is LOW.</lao:notes>
+      <lao:letter-name>ຟໍ ໄຟ</lao:letter-name>
+      <lao:letter-name-romanized>fɔɔ fáj</lao:letter-name-romanized>
+      <lao:acrophonical-meaning>fire</lao:acrophonical-meaning>
+      <lao:stroke-count />
+      <lao:strokes>
+        <!-- Add stroke path data here after drawing. Format:
+             <lao:stroke index="1" direction="clockwise">
+               <lao:path>M x1,y1 C cx1,cy1 cx2,cy2 x2,y2</lao:path>
+               <lao:start-x></lao:start-x>
+               <lao:start-y></lao:start-y>
+             </lao:stroke>
+        -->
+      </lao:strokes>
+    </lao:character>
+  </metadata>
+  <!-- ============================================================
+       BACKGROUND & GUIDE GRID
+       ============================================================ -->
+  <g
+     id="background">
+    <!-- White background -->
+    <rect
+       width="512"
+       height="512"
+       fill="white"
+       id="rect1" />
+    <!-- Crosshair guides (light) -->
+    <line
+       x1="256.0"
+       y1="0"
+       x2="256.0"
+       y2="512"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line1" />
+    <line
+       x1="0"
+       y1="256.0"
+       x2="512"
+       y2="256.0"
+       stroke="#e8e8e8"
+       stroke-width="1"
+       id="line2" />
+    <!-- Corner inset box showing safe writing area -->
+    <rect
+       x="32"
+       y="32"
+       width="448"
+       height="448"
+       fill="none"
+       stroke="#e0e0e0"
+       stroke-width="1"
+       stroke-dasharray="4,4"
+       id="rect2" />
+  </g>
+  <!-- ============================================================
+       REFERENCE LAYER — lock this in your SVG editor, trace over it
+       The character is rendered semi-transparent as a guide.
+       Font stack: Noto Lao UI, Noto Lao, then system Lao fonts.
+       If the character doesn't render, install Noto Lao.
+       ============================================================ -->
+  <g
+     id="reference"
+     opacity="0.18"
+     pointer-events="none">
+    <text
+       x="256.0"
+       y="369"
+       font-family="'Noto Lao UI', 'Noto Lao', 'Phetsarath OT', 'Saysettha OT', sans-serif"
+       font-size="380"
+       text-anchor="middle"
+       fill="#0066cc"
+       id="text2">ຟ</text>
+  </g>
+  <!-- ============================================================
+       LABEL — character info displayed at bottom
+       ============================================================ -->
+  <g
+     id="label">
+    <text
+       x="256.0"
+       y="476"
+       font-family="monospace, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#999"
+       id="text3">ຟ  U+0E9F  fɔɔ fáj  (fire)</text>
+    <text
+       x="256.0"
+       y="494"
+       font-family="monospace, sans-serif"
+       font-size="11"
+       text-anchor="middle"
+       fill="#bbb"
+       id="text4">Phase 1 · low; Unicode name FO SUNG is INCORRECT (swapped with ຝ). Actual tone class is LOW.</text>
+  </g>
+  <!-- ============================================================
+       STROKES LAYER — draw your center-line strokes here.
+       Use thin paths (stroke-width ~8, no fill) in stroke order.
+       Each stroke should be a separate <path> element.
+       Add data-stroke-index="1", data-stroke-index="2" etc.
+
+       Example stroke:
+       <path
+         data-stroke-index="1"
+         d="M 180,120 C 200,100 280,140 300,200"
+         fill="none"
+         stroke="#e63946"
+         stroke-width="8"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+       />
+       ============================================================ -->
+  <g
+     id="strokes"
+     fill="none"
+     stroke="#e63946"
+     stroke-width="8"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <!-- Draw strokes here, one <path> per stroke, in order -->
+    <path
+       style="fill:none"
+       d="m 154.79286,193.535 c -43.61197,7.63207 -41.68548,-47.62032 -4.39838,-37.11502 29.55004,11.00497 1.45443,46.33245 -3.59394,71.49092 -7.20574,27.85505 -14.0528,70.39839 6.89578,95.5333 12.87204,24.51366 47.79897,40.51114 77.50253,28.53578 32.61826,-17.09651 60.85604,-43.58649 50.65538,-79.02574 -16.95733,-36.35341 -64.5571,-2.86417 -43.30053,32.20537 15.37875,35.62488 55.07506,58.77113 93.40105,45.08669 37.39371,-14.73669 54.44711,-59.76079 48.9606,-86.37358 1.40102,-46.47208 -31.29751,-83.68098 -25.71262,-130.20897 2.33701,-7.13314 10.96765,-22.74319 27.80501,-22.36076"
+       id="path4"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+</svg>

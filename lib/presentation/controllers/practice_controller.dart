@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:write_it_lao/audio/audio_player_service.dart';
 import 'package:write_it_lao/data/datasources/character_stroke_datasource.dart';
 import 'package:write_it_lao/data/datasources/progress_local_datasource.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
@@ -157,6 +158,12 @@ final progressRepositoryProvider = Provider<ProgressRepository>((ref) {
 
 final characterStrokeDataSourceProvider = Provider<CharacterStrokeDataSource>((ref) {
   return CharacterStrokeDataSource();
+});
+
+final audioPlayerServiceProvider = Provider<AudioPlayerService>((ref) {
+  final service = AudioPlayerService();
+  ref.onDispose(() => service.dispose());
+  return service;
 });
 
 final practiceControllerProvider = StateNotifierProvider<PracticeController, PracticeState>((ref) {

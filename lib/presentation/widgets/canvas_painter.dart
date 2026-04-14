@@ -164,25 +164,10 @@ class CanvasPainter extends CustomPainter {
   }
 
   void _drawReferenceCharacter(Canvas canvas, Size size, double scale) {
-    final textPainter = TextPainter(
-      text: TextSpan(
-        text: referenceChar,
-        style: TextStyle(
-          fontFamily: 'Noto Lao',
-          fontSize: size.width * 0.75,
-          color: referenceCharColor.withValues(alpha: 0.15),
-        ),
-      ),
-      textDirection: TextDirection.ltr,
-    );
-    textPainter.layout();
-    textPainter.paint(
-      canvas,
-      Offset(
-        (size.width - textPainter.width) / 2,
-        (size.height - textPainter.height) / 2,
-      ),
-    );
+    // The ghost stroke provides the tracing guide, so the reference text
+    // is purely decorative context. We don't draw it — it can never align
+    // perfectly with the strokes unless we bundle the exact SVG authoring
+    // font, and two overlapping guides are more confusing than helpful.
   }
 
   void _drawCompletedStrokes(Canvas canvas, double scale) {
