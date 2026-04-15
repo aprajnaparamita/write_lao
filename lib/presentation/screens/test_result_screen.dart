@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
 
 class TestResultScreen extends ConsumerStatefulWidget {
@@ -223,6 +224,11 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                           onPressed: widget.onTestAgainPressed,
                           child: const Text('Test Again'),
                         ),
+                      ),
+                      const SizedBox(height: 12),
+                      TextButton(
+                        onPressed: () => context.go('/'),
+                        child: const Text('Main Menu'),
                       ),
                     ],
                   ),

@@ -108,7 +108,11 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
         if (didPop) return;
         final shouldPop = await _onWillPop();
         if (shouldPop && context.mounted) {
-          Navigator.of(context).pop();
+          if (context.canPop()) {
+            context.pop();
+          } else {
+            context.go('/');
+          }
         }
       },
       child: Scaffold(
@@ -120,7 +124,11 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
             onPressed: () async {
               final shouldPop = await _onWillPop();
               if (shouldPop && context.mounted) {
-                Navigator.of(context).pop();
+                if (context.canPop()) {
+                  context.pop();
+                } else {
+                  context.go('/');
+                }
               }
             },
           ),

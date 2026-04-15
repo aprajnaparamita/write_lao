@@ -186,6 +186,11 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                         onPressed: () => context.go('/lessons/${widget.lessonId}'),
                         child: const Text('Back to Lesson'),
                       ),
+                      const SizedBox(height: 4),
+                      TextButton(
+                        onPressed: () => context.go('/'),
+                        child: const Text('Main Menu'),
+                      ),
                     ],
                   ),
                 ),

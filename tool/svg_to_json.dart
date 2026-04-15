@@ -498,6 +498,7 @@ class SvgFileParser {
 }
 
 /// Resample a list of points to exactly [targetCount] evenly-spaced points.
+/// Uses the $1 unistroke recognizer resampling algorithm.
 class PointResampler {
   List<Point> resample(List<Point> rawPoints, int targetCount) {
     if (rawPoints.length < 2 || targetCount < 2) return [];
@@ -508,39 +509,30 @@ class PointResampler {
     }
 
     final spacing = totalLen / (targetCount - 1);
-    final result = <Point>[rawPoints.first];
-    var currentPos = 0;
-    var distanceAlongPath = 0.0;
-    var exhausted = false;
+    // Work on a mutable copy so we can insert interpolated points.
+    final pts = List<Point>.from(rawPoints);
+    final result = <Point>[pts.first];
+    var D = 0.0;
+    var i = 1;
 
-    while (result.length < targetCount && !exhausted) {
-      final targetDistance = result.length * spacing;
-      var placed = false;
-
-      while (currentPos + 1 < rawPoints.length) {
-        final segLen = PathUtils.distance(rawPoints[currentPos], rawPoints[currentPos + 1]);
-
-        if (distanceAlongPath + segLen >= targetDistance) {
-          final t = (targetDistance - distanceAlongPath) / segLen;
-          final nx = rawPoints[currentPos].x + t * (rawPoints[currentPos + 1].x - rawPoints[currentPos].x);
-          final ny = rawPoints[currentPos].y + t * (rawPoints[currentPos + 1].y - rawPoints[currentPos].y);
-          result.add(Point(nx, ny));
-          distanceAlongPath = targetDistance;
-          placed = true;
-          break;
-        } else {
-          distanceAlongPath += segLen;
-          currentPos++;
-        }
+    while (i < pts.length && result.length < targetCount) {
+      final d = PathUtils.distance(pts[i - 1], pts[i]);
+      if ((D + d) >= spacing) {
+        final t = (spacing - D) / d;
+        final nx = pts[i - 1].x + t * (pts[i].x - pts[i - 1].x);
+        final ny = pts[i - 1].y + t * (pts[i].y - pts[i - 1].y);
+        final q = Point(nx, ny);
+        result.add(q);
+        pts.insert(i, q);
+        D = 0.0;
+      } else {
+        D += d;
       }
-
-      if (!placed) {
-        exhausted = true;
-      }
+      i++;
     }
 
     while (result.length < targetCount) {
-      result.add(rawPoints.last);
+      result.add(pts.last);
     }
 
     return result;
