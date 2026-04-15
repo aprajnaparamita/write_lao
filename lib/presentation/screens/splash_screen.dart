@@ -102,7 +102,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                     // App name
                     const Text(
-                      'WRITE IT!',
+                      'Write Lao',
                       style: TextStyle(
                         fontFamily: 'Inter',
                         fontSize: 28,

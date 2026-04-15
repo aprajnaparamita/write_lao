@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 
@@ -171,24 +172,19 @@ class SettingsScreen extends ConsumerWidget {
             ),
           ),
 
-          const SizedBox(height: 32),
+          const SizedBox(height: 8),
 
-          // App info
-          Center(
-            child: Column(
-              children: [
-                Text(
-                  'Version 1.0.0',
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  '© 2026 Write Lao',
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: Colors.grey[500],
-                      ),
-                ),
-              ],
+          // About
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: ListTile(
+                leading: const Icon(Icons.info_outline),
+                title: const Text('About Write Lao'),
+                subtitle: const Text('v1.0 \u00B7 Janet Jeffus'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/about'),
+              ),
             ),
           ),
 

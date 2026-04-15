@@ -15,7 +15,7 @@ class LessonListScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WRITE IT! Lao'),
+        title: const Text('Write Lao'),
         centerTitle: true,
         actions: [
           IconButton(

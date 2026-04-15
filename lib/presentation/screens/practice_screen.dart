@@ -136,68 +136,123 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // Character info
-              if (character != null)
+              // Character info + acrophonical image split container
+              if (character != null && _hasAcrophonicalImage(character.codepoint))
+                Expanded(
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Left half: character details, right-aligned
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 8, 12, 8),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.end,
+                            children: [
+                              Text(
+                                character.displayChar,
+                                style: const TextStyle(
+                                  fontFamily: 'Noto Lao',
+                                  fontSize: 48,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              Text(
+                                '/${character.romanization}/',
+                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                      color: Colors.grey[600],
+                                    ),
+                              ),
+                              if (character.letterName != null) ...[
+                                const SizedBox(height: 2),
+                                Text(
+                                  character.letterName!,
+                                  style: const TextStyle(
+                                    fontFamily: 'Noto Lao',
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ],
+                              if (character.acrophonicalMeaning != null) ...[
+                                const SizedBox(height: 2),
+                                Text(
+                                  '(${character.acrophonicalMeaning})',
+                                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                        color: Colors.grey[500],
+                                        fontStyle: FontStyle.italic,
+                                      ),
+                                ),
+                              ],
+                              const SizedBox(height: 8),
+                              Text(
+                                '${state.currentCharacterIndex + 1}/${state.totalCharacters}',
+                                style: Theme.of(context).textTheme.bodyMedium,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      // Right half: acrophonical image, left-aligned, fills height
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(12, 8, 16, 8),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: Image.asset(
+                                'assets/images/acrophonical/${character.codepoint}.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+              // Fallback for characters without an acrophonical image
+              if (character != null && !_hasAcrophonicalImage(character.codepoint))
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                  child: Column(
                     children: [
                       Text(
                         character.displayChar,
                         style: const TextStyle(
                           fontFamily: 'Noto Lao',
-                          fontSize: 32,
+                          fontSize: 48,
                         ),
                       ),
-                      const SizedBox(width: 12),
+                      const SizedBox(height: 4),
                       Text(
                         '/${character.romanization}/',
                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
                               color: Colors.grey[600],
                             ),
                       ),
-                      if (character.acrophonicalMeaning != null) ...[
-                        const SizedBox(width: 8),
+                      if (character.letterName != null) ...[
+                        const SizedBox(height: 2),
                         Text(
-                          '(${character.acrophonicalMeaning})',
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Colors.grey[500],
-                                fontStyle: FontStyle.italic,
-                              ),
+                          character.letterName!,
+                          style: const TextStyle(
+                            fontFamily: 'Noto Lao',
+                            fontSize: 16,
+                            color: Colors.grey,
+                          ),
                         ),
                       ],
+                      const SizedBox(height: 8),
+                      Text(
+                        '${state.currentCharacterIndex + 1}/${state.totalCharacters}',
+                        style: Theme.of(context).textTheme.bodyMedium,
+                      ),
                     ],
                   ),
                 ),
-              if (character != null && character.letterName != null)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 4),
-                  child: Text(
-                    character.letterName!,
-                    style: const TextStyle(
-                      fontFamily: 'Noto Lao',
-                      fontSize: 16,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-
-              // Progress indicator
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      '${state.currentCharacterIndex + 1}/${state.totalCharacters}',
-                      style: Theme.of(context).textTheme.bodyMedium,
-                    ),
-                  ],
-                ),
-              ),
-
-              const SizedBox(height: 16),
 
               // Writing canvas
               Expanded(
@@ -300,6 +355,17 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       ),
     );
   }
+
+  static const _acrophonicalCodepoints = {
+    'U+0E81', 'U+0E82', 'U+0E84', 'U+0E87', 'U+0E88', 'U+0E8A',
+    'U+0E8D', 'U+0E94', 'U+0E95', 'U+0E96', 'U+0E97', 'U+0E99',
+    'U+0E9A', 'U+0E9B', 'U+0E9C', 'U+0E9D', 'U+0E9E', 'U+0E9F',
+    'U+0EA1', 'U+0EA2', 'U+0EA3', 'U+0EA5', 'U+0EA7', 'U+0EAA',
+    'U+0EAB', 'U+0EAD', 'U+0EAE',
+  };
+
+  bool _hasAcrophonicalImage(String codepoint) =>
+      _acrophonicalCodepoints.contains(codepoint);
 
   Widget _buildCanvas(PracticeState state) {
     final character = state.currentCharacter;

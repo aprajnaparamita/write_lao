@@ -53,7 +53,9 @@
       "Bash(flutter build:*)",
       "Bash(flutter install:*)",
       "Bash(ios-deploy:*)",
-      "Bash(xcrun devicectl:*)"
+      "Bash(xcrun devicectl:*)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Volumes/Dara/dev/write_lao/assets/images/acrophonical/U+0E81.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Volumes/Dara/dev/write_lao/assets/images/janet.JPG)"
     ]
   }
 }

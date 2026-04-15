@@ -44,6 +44,8 @@ flutter:
     - assets/stroke_data/
     - assets/audio/
     - assets/audio/pronunciation/
+    - assets/images/
+    - assets/images/acrophonical/
 
 flutter_launcher_icons:
   android: true

@@ -9,6 +9,7 @@ import 'package:write_it_lao/presentation/screens/test_result_screen.dart';
 import 'package:write_it_lao/presentation/screens/progress_screen.dart';
 import 'package:write_it_lao/presentation/screens/review_screen.dart';
 import 'package:write_it_lao/presentation/screens/settings_screen.dart';
+import 'package:write_it_lao/presentation/screens/about_screen.dart';
 
 final router = GoRouter(
   initialLocation: '/',
@@ -197,6 +198,26 @@ final router = GoRouter(
           return SlideTransition(
             position: Tween<Offset>(
               begin: const Offset(0, 1),
+              end: Offset.zero,
+            ).animate(CurvedAnimation(
+              parent: animation,
+              curve: Curves.easeInOut,
+            )),
+            child: child,
+          );
+        },
+      ),
+    ),
+    GoRoute(
+      path: '/about',
+      name: 'about',
+      pageBuilder: (context, state) => CustomTransitionPage(
+        key: state.pageKey,
+        child: const AboutScreen(),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(1, 0),
               end: Offset.zero,
             ).animate(CurvedAnimation(
               parent: animation,
