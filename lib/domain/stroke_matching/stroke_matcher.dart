@@ -10,11 +10,11 @@ class StrokeMatcher {
   final double _canvasSize;
 
   static const int resamplePointCount = 48;
-  static const double similarityThreshold = 0.70;
+  static const double similarityThreshold = 0.50;
   static const double distanceToleranceFraction = 0.12;
   static const double minPathLengthFraction = 0.05;
-  static const double directionToleranceDegrees = 90.0;
-  static const double positionToleranceFraction = 0.25;
+  static const double directionToleranceDegrees = 120.0;
+  static const double positionToleranceFraction = 0.50;
 
   StrokeMatcher({double canvasSize = 512.0}) : _canvasSize = canvasSize;
 

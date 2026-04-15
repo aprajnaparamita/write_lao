@@ -99,11 +99,11 @@ class WritingCanvasState extends ConsumerState<WritingCanvas>
       }
     });
 
-    final showGuides = widget.mode == CanvasMode.practice;
-    final ghostStroke = showGuides && state.showHint
+    final isPractice = widget.mode == CanvasMode.practice;
+    final ghostStroke = isPractice && state.showHint
         ? controller.ghostStroke?.pointsAsPoints
         : null;
-    final startIndicator = showGuides && state.showHint
+    final startIndicator = isPractice && state.showHint
         ? controller.startIndicator
         : null;
 
@@ -132,7 +132,7 @@ class WritingCanvasState extends ConsumerState<WritingCanvas>
                     activeStroke: state.activeStroke,
                     ghostStroke: ghostStroke,
                     startIndicator: startIndicator,
-                    showGuides: showGuides,
+                    showGuides: true,
                     referenceChar: widget.strokeData?.char,
                     feedbackColor: _feedbackColor,
                     showFeedback: _feedbackController.isAnimating,

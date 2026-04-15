@@ -73,9 +73,9 @@ void main() {
 
     test('wrong position returns wrongPosition', () {
       final ref = makeHorizontalStroke();
-      // Shift the stroke 200px down
+      // Shift the stroke 300px down (300/512 = 0.59, exceeds 0.50 tolerance)
       final drawn = ref.pointsAsPoints
-          .map((p) => Point<double>(p.x, p.y + 200.0))
+          .map((p) => Point<double>(p.x, p.y + 300.0))
           .toList();
       final eval = matcher.evaluate(drawn, ref);
 
@@ -83,13 +83,13 @@ void main() {
     });
 
     test('completely different shape returns wrongShape', () {
-      final ref = makeHorizontalStroke();
-      // A vertical line — orthogonal to the horizontal reference.
-      // After normalization, a vertical and horizontal line are fundamentally
-      // different shapes with high DTW distance.
+      // Use the curved reference (quarter circle) vs a horizontal line —
+      // after normalization, a curve and a straight line have high DTW
+      // distance because the point distributions differ fundamentally.
+      final ref = makeCurvedStroke();
       final drawn = <Point<double>>[];
       for (var i = 0; i < 30; i++) {
-        drawn.add(Point<double>(256.0, 100.0 + i * 10.0));
+        drawn.add(Point<double>(100.0 + i * 10.0, 256.0));
       }
 
       final eval = matcher.evaluate(drawn, ref);

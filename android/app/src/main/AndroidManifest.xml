@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="write_it_lao"
+        android:label="Write Lao"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

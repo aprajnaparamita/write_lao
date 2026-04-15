@@ -47,7 +47,13 @@
       "Bash(awk 'END{print}')",
       "Bash(tee /tmp/test_output.txt)",
       "Bash(/Users/dara/dev/flutter/bin/flutter devices:*)",
-      "Bash(/Users/dara/dev/flutter/bin/flutter run:*)"
+      "Bash(/Users/dara/dev/flutter/bin/flutter run:*)",
+      "Bash(flutter devices:*)",
+      "Bash(flutter run:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter install:*)",
+      "Bash(ios-deploy:*)",
+      "Bash(xcrun devicectl:*)"
     ]
   }
 }
