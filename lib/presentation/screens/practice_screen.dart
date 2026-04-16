@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:write_it_lao/data/models/lao_character.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
 import 'package:write_it_lao/presentation/controllers/canvas_controller.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
@@ -8,10 +9,12 @@ import 'package:write_it_lao/presentation/widgets/writing_canvas.dart';
 
 class PracticeScreen extends ConsumerStatefulWidget {
   final String lessonId;
+  final List<String>? characterCodepoints;
 
   const PracticeScreen({
     super.key,
     required this.lessonId,
+    this.characterCodepoints,
   });
 
   @override
@@ -31,7 +34,27 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
   }
 
   void _loadLesson() {
+    // Always clear canvas when entering practice to remove leftover strokes
+    ref.read(canvasControllerProvider.notifier).clearAll();
+
     final charRepo = ref.read(characterRepositoryProvider);
+
+    // Review mode: use passed character codepoints
+    if (widget.characterCodepoints != null && widget.characterCodepoints!.isNotEmpty) {
+      final characters = widget.characterCodepoints!
+          .map((cp) => charRepo.getCharacter(cp))
+          .whereType<LaoCharacter>()
+          .toList();
+      if (characters.isNotEmpty) {
+        ref.read(practiceControllerProvider.notifier).setCharacters(
+          characters,
+          title: 'Review',
+        );
+        _loadStrokeDataForCurrentCharacter();
+      }
+      return;
+    }
+
     final lesson = charRepo.getLesson(widget.lessonId);
     if (lesson != null) {
       ref.read(practiceControllerProvider.notifier).setLesson(lesson);

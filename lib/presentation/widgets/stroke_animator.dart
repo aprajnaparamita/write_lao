@@ -129,8 +129,8 @@ class _StrokeAnimationPainter extends CustomPainter {
     required this.scale,
   });
 
-  static const Color strokeColor = Color(0xFF4A7BCC);
-  static const Color strokeHintColor = Color(0xFFB0D4F1);
+  static const Color strokeColor = Color(0xFF2B0071);
+  static const Color strokeHintColor = Color(0xFFC4B0E8);
 
   @override
   void paint(Canvas canvas, Size size) {

@@ -132,6 +132,28 @@ class PracticeController extends StateNotifier<PracticeState> {
     return indices.map((i) => characters[i]).toList();
   }
 
+  void setCharacters(List<LaoCharacter> characters, {String title = 'Review'}) {
+    if (characters.isEmpty) return;
+
+    final lesson = Lesson(
+      id: 'review',
+      title: title,
+      phase: 0,
+      lessonNumber: 0,
+      characterCodepoints: characters.map((c) => c.codepoint).toList(),
+    );
+
+    final sequence = _generateGraduatedSequence(characters);
+
+    state = PracticeState(
+      currentLesson: lesson,
+      currentCharacterIndex: 0,
+      currentCharacter: sequence.first,
+      practiceSequence: sequence,
+      practicedCharacters: const {},
+    );
+  }
+
   void setCharacter(LaoCharacter character, CharacterStrokeData? strokeData) {
     state = state.copyWith(
       currentCharacter: character,

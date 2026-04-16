@@ -30,10 +30,10 @@ class CanvasPainter extends CustomPainter {
   // Colors
   static const Color completedStrokeColor = Color(0xFF333333);
   static const Color activeStrokeColor = Color(0xFF555555);
-  static const Color ghostStrokeColor = Color(0xFFB0D4F1);
+  static const Color ghostStrokeColor = Color(0xFFC4B0E8);
   static const Color startIndicatorColor = Color(0xFF4CAF50);
   static const Color guideColor = Color(0xFFE0E0E0);
-  static const Color referenceCharColor = Color(0xFF4A7BCC);
+  static const Color referenceCharColor = Color(0xFF2B0071);
 
   @override
   void paint(Canvas canvas, Size size) {

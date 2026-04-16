@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  // Colors
-  static const Color primary = Color(0xFF4A7BCC);
-  static const Color primaryDark = Color(0xFF3A5FA0);
-  static const Color accent = Color(0xFF5B9BD5);
-  static const Color background = Color(0xFFF5F7FA);
+  // Colors — deep indigo palette rooted in Lao culture (#2B0071)
+  static const Color primary = Color(0xFF2B0071);
+  static const Color primaryDark = Color(0xFF1E004F);
+  static const Color accent = Color(0xFF5C3D99);
+  static const Color primaryLight = Color(0xFF7B52C7);
+  static const Color background = Color(0xFFF5F3FA);
   static const Color card = Color(0xFFFFFFFF);
   static const Color textPrimary = Color(0xFF333333);
   static const Color textSecondary = Color(0xFF999999);
@@ -14,7 +15,7 @@ class AppTheme {
   static const Color error = Color(0xFFE53935);
   static const Color starGold = Color(0xFFFFC107);
   static const Color canvasBorder = Color(0xFFE0E0E0);
-  static const Color ghostStroke = Color(0xFFB0D4F1);
+  static const Color ghostStroke = Color(0xFFC4B0E8);
   static const Color drawnStroke = Color(0xFF333333);
 
   static ThemeData get lightTheme {
@@ -109,6 +110,17 @@ class AppTheme {
           fontSize: 12,
           color: textSecondary,
         ),
+      ),
+      chipTheme: ChipThemeData(
+        selectedColor: primary,
+        labelStyle: GoogleFonts.inter(
+          color: textPrimary,
+        ),
+        secondaryLabelStyle: GoogleFonts.inter(
+          color: Colors.white,
+        ),
+        checkmarkColor: Colors.white,
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: card,

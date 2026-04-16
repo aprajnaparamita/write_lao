@@ -10,13 +10,14 @@ Build the home screen, lesson list, lesson detail screen, and app-wide navigatio
 
 ## App Theme (`lib/config/theme.dart`)
 
-Blue/white scheme inspired by Write It! Thai:
+Deep indigo/white scheme rooted in Lao culture:
 
 ```dart
-// Primary: #4A7BCC (medium blue)
-// Primary dark: #3A5FA0 (app bar, dark accents)
-// Accent: #5B9BD5 (lighter blue for highlights)
-// Background: #F5F7FA (off-white)
+// Primary: #2B0071 (deep indigo — Lao cultural color)
+// Primary dark: #1E004F (app bar, dark accents)
+// Accent: #5C3D99 (mid indigo for highlights)
+// Primary light: #7B52C7 (lighter indigo)
+// Background: #F5F3FA (off-white with violet tint)
 // Card: #FFFFFF
 // Text primary: #333333
 // Text secondary: #999999
@@ -24,7 +25,7 @@ Blue/white scheme inspired by Write It! Thai:
 // Error: #E53935
 // Star gold: #FFC107
 // Canvas border: #E0E0E0
-// Ghost stroke: #B0D4F1
+// Ghost stroke: #C4B0E8 (light indigo)
 // Drawn stroke: #333333
 ```
 
@@ -211,6 +212,6 @@ On screens wider than 768px, use a side navigation rail instead of bottom nav ba
 - [ ] Lesson detail screen shows content and Practice/Test buttons
 - [ ] Navigation between all screens works
 - [ ] Bottom nav bar switches between Lessons, Review, Progress tabs
-- [ ] Theme is consistently applied (blue/white scheme, Noto Lao font)
+- [ ] Theme is consistently applied (deep indigo/white scheme, Noto Lao font)
 - [ ] Layout adapts for desktop (side rail, wider grid)
 - [ ] All widget and navigation tests pass

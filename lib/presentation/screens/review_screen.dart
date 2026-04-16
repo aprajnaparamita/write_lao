@@ -21,10 +21,20 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
     
-    // Load characters based on selected phase
-    final allCharacters = _selectedPhase == 0
-        ? charRepo.getAllCharacters().where((c) => c.strokeCount > 0).toList()
-        : charRepo.getCharactersByPhase(_selectedPhase).where((c) => c.strokeCount > 0).toList();
+    // Only include characters from lessons the user has completed (passed the test)
+    final completedCodepoints = <String>{};
+    for (final lesson in charRepo.getAllLessons()) {
+      final progress = progressRepo.getLessonProgress(lesson.id);
+      if (progress.isCompleted) {
+        completedCodepoints.addAll(lesson.characterCodepoints);
+      }
+    }
+
+    final allCharacters = (_selectedPhase == 0
+        ? charRepo.getAllCharacters()
+        : charRepo.getCharactersByPhase(_selectedPhase))
+        .where((c) => completedCodepoints.contains(c.codepoint))
+        .toList();
     
     // Get weak characters from progress
     final weakCharacters = progressRepo.getWeakCharacters(limit: 20);
@@ -34,13 +44,17 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
       appBar: AppBar(
         title: const Text('Review'),
         centerTitle: true,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.clear_all),
-            onPressed: _clearSelection,
-            tooltip: 'Clear selection',
-          ),
-        ],
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            if (context.canPop()) {
+              context.pop();
+            } else {
+              context.go('/');
+            }
+          },
+        ),
+        actions: const [],
       ),
       body: Column(
         children: [
@@ -171,7 +185,10 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                   width: double.infinity,
                   child: ElevatedButton.icon(
                     onPressed: () {
-                      context.push('/practice/review');
+                      context.push(
+                        '/practice/review',
+                        extra: {'characterCodepoints': _selectedCharacters.toList()},
+                      );
                     },
                     icon: const Icon(Icons.edit),
                     label: Text('Practice Selected (${_selectedCharacters.length})'),
@@ -205,10 +222,17 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
 
   void _selectAll() {
     final charRepo = ref.read(characterRepositoryProvider);
-    final allCharacters = charRepo.getAllCharacters().where((c) => c.strokeCount > 0).toList();
+    final progressRepo = ref.read(progressRepositoryProvider);
+    final completedCodepoints = <String>{};
+    for (final lesson in charRepo.getAllLessons()) {
+      final progress = progressRepo.getLessonProgress(lesson.id);
+      if (progress.isCompleted) {
+        completedCodepoints.addAll(lesson.characterCodepoints);
+      }
+    }
     setState(() {
       _selectedCharacters.clear();
-      _selectedCharacters.addAll(allCharacters.map((c) => c.codepoint));
+      _selectedCharacters.addAll(completedCodepoints);
     });
   }
 

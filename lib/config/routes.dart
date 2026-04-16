@@ -53,9 +53,14 @@ final router = GoRouter(
       name: 'practice',
       pageBuilder: (context, state) {
         final lessonId = state.pathParameters['lessonId'] ?? '';
+        final extra = state.extra as Map<String, dynamic>?;
+        final characterCodepoints = (extra?['characterCodepoints'] as List?)?.cast<String>();
         return CustomTransitionPage(
           key: state.pageKey,
-          child: PracticeScreen(lessonId: lessonId),
+          child: PracticeScreen(
+            lessonId: lessonId,
+            characterCodepoints: characterCodepoints,
+          ),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             return SlideTransition(
               position: Tween<Offset>(

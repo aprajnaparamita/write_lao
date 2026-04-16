@@ -166,27 +166,43 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                       const SizedBox(height: 48),
 
                       // Buttons
-                      SizedBox(
-                        width: double.infinity,
-                        child: ElevatedButton(
-                          onPressed: () => context.go('/test/${widget.lessonId}'),
-                          child: const Text('Take Test'),
+                      if (widget.lessonId != 'review') ...[
+                        SizedBox(
+                          width: double.infinity,
+                          child: ElevatedButton(
+                            onPressed: () => context.go('/test/${widget.lessonId}'),
+                            child: const Text('Take Test'),
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: 12),
-                      SizedBox(
-                        width: double.infinity,
-                        child: OutlinedButton(
-                          onPressed: () => context.go('/practice/${widget.lessonId}'),
-                          child: const Text('Practice Again'),
+                        const SizedBox(height: 12),
+                        SizedBox(
+                          width: double.infinity,
+                          child: OutlinedButton(
+                            onPressed: () => context.go('/practice/${widget.lessonId}'),
+                            child: const Text('Practice Again'),
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: 12),
-                      TextButton(
-                        onPressed: () => context.go('/lessons/${widget.lessonId}'),
-                        child: const Text('Back to Lesson'),
-                      ),
-                      const SizedBox(height: 4),
+                        const SizedBox(height: 12),
+                        TextButton(
+                          onPressed: () => context.go('/lessons/${widget.lessonId}'),
+                          child: const Text('Back to Lesson'),
+                        ),
+                        const SizedBox(height: 4),
+                      ],
+                      if (widget.lessonId == 'review') ...[
+                        SizedBox(
+                          width: double.infinity,
+                          child: ElevatedButton(
+                            onPressed: () {
+                              // Pop back through practice to the review screen
+                              context.pop(); // practice screen
+                              context.pop(); // review screen
+                            },
+                            child: const Text('Back to Review'),
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                      ],
                       TextButton(
                         onPressed: () => context.go('/'),
                         child: const Text('Main Menu'),

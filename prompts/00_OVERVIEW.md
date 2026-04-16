@@ -165,7 +165,7 @@ Each character needs a recorded pronunciation audio file (MP3/OGG). For MVP, use
 
 ## Design Language
 
-- Blue/white color scheme (similar to Write It! Thai)
+- Deep indigo (#2B0071) / white color scheme rooted in Lao culture
 - Clean, minimal UI — focus on the writing canvas
 - Large touch targets for mobile
 - Noto Lao font for all Lao text display

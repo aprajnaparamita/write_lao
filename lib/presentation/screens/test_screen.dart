@@ -39,6 +39,9 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   }
 
   void _startTest() {
+    // Clear canvas to remove any leftover strokes from previous screens
+    ref.read(canvasControllerProvider.notifier).clearAll();
+
     final charRepo = ref.read(characterRepositoryProvider);
     final lesson = charRepo.getLesson(widget.lessonId);
     if (lesson != null) {
