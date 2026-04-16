@@ -135,17 +135,11 @@ final router = GoRouter(
       name: 'testResult',
       pageBuilder: (context, state) {
         final lessonId = state.pathParameters['lessonId'] ?? '';
-        // Get results from test controller state passed via extra
-        final extra = state.extra as Map<String, dynamic>?;
-        final stars = extra?['stars'] as int? ?? 0;
-        final characterList = (extra?['characterList'] as List?)?.cast<String>() ?? [];
 
         return CustomTransitionPage(
           key: state.pageKey,
           child: TestResultScreen(
             lessonId: lessonId,
-            stars: stars,
-            characterList: characterList,
             onPracticePressed: () => context.go('/practice/$lessonId'),
             onTestAgainPressed: () => context.go('/test/$lessonId'),
           ),

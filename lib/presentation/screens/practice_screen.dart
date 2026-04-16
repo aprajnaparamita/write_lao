@@ -159,6 +159,13 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                               ),
                               const SizedBox(height: 4),
                               Text(
+                                character.name,
+                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
                                 '/${character.romanization}/',
                                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                                       color: Colors.grey[600],
@@ -228,6 +235,13 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                         ),
                       ),
                       const SizedBox(height: 4),
+                      Text(
+                        character.name,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w600,
+                            ),
+                      ),
+                      const SizedBox(height: 2),
                       Text(
                         '/${character.romanization}/',
                         style: Theme.of(context).textTheme.titleMedium?.copyWith(

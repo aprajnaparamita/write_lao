@@ -17,6 +17,7 @@ class PracticeState {
   final CharacterStrokeData? currentStrokeData;
   final bool isCharacterComplete;
   final Set<String> practicedCharacters;
+  final List<LaoCharacter> practiceSequence;
 
   const PracticeState({
     this.currentLesson,
@@ -25,6 +26,7 @@ class PracticeState {
     this.currentStrokeData,
     this.isCharacterComplete = false,
     this.practicedCharacters = const {},
+    this.practiceSequence = const [],
   });
 
   PracticeState copyWith({
@@ -34,6 +36,7 @@ class PracticeState {
     CharacterStrokeData? currentStrokeData,
     bool? isCharacterComplete,
     Set<String>? practicedCharacters,
+    List<LaoCharacter>? practiceSequence,
   }) {
     return PracticeState(
       currentLesson: currentLesson ?? this.currentLesson,
@@ -42,15 +45,20 @@ class PracticeState {
       currentStrokeData: currentStrokeData ?? this.currentStrokeData,
       isCharacterComplete: isCharacterComplete ?? this.isCharacterComplete,
       practicedCharacters: practicedCharacters ?? this.practicedCharacters,
+      practiceSequence: practiceSequence ?? this.practiceSequence,
     );
   }
 
   bool get isLastCharacter {
+    if (practiceSequence.isNotEmpty) {
+      return currentCharacterIndex >= practiceSequence.length - 1;
+    }
     if (currentLesson == null) return true;
     return currentCharacterIndex >= currentLesson!.characterCodepoints.length - 1;
   }
 
   int get totalCharacters {
+    if (practiceSequence.isNotEmpty) return practiceSequence.length;
     return currentLesson?.characterCodepoints.length ?? 0;
   }
 
@@ -72,12 +80,56 @@ class PracticeController extends StateNotifier<PracticeState> {
       return;
     }
 
+    final sequence = _generateGraduatedSequence(characters);
+
     state = PracticeState(
       currentLesson: lesson,
       currentCharacterIndex: 0,
-      currentCharacter: characters.first,
+      currentCharacter: sequence.first,
+      practiceSequence: sequence,
       practicedCharacters: const {},
     );
+  }
+
+  /// Generates a graduated practice sequence.
+  /// Pattern: introduce each character, then interleave review of all known
+  /// characters. E.g. for chars A,B,C:
+  ///   A,A, B,A,B,A,B,B, C,A,B,C,A,B,C,C, ...
+  /// Padded with full cycles to reach [totalSteps].
+  static List<LaoCharacter> _generateGraduatedSequence(
+    List<LaoCharacter> characters, {
+    int totalSteps = 20,
+  }) {
+    final numChars = characters.length;
+    final indices = <int>[];
+
+    for (int n = 0; n < numChars && indices.length < totalSteps; n++) {
+      if (n == 0) {
+        // Introduce first character: show twice
+        indices.add(0);
+        if (indices.length < totalSteps) indices.add(0);
+      } else {
+        // Introduce new character
+        indices.add(n);
+        // Cycle through all known characters (0..n) twice
+        for (int cycle = 0; cycle < 2 && indices.length < totalSteps; cycle++) {
+          for (int i = 0; i <= n && indices.length < totalSteps; i++) {
+            indices.add(i);
+          }
+        }
+        // Reinforce new character
+        if (indices.length < totalSteps) indices.add(n);
+      }
+    }
+
+    // Fill remaining slots with full cycles
+    int cycleIndex = 0;
+    while (indices.length < totalSteps) {
+      indices.add(cycleIndex % numChars);
+      cycleIndex++;
+    }
+
+    return indices.map((i) => characters[i]).toList();
   }
 
   void setCharacter(LaoCharacter character, CharacterStrokeData? strokeData) {
@@ -99,38 +151,30 @@ class PracticeController extends StateNotifier<PracticeState> {
   }
 
   void nextCharacter() {
-    if (state.currentLesson == null) return;
+    if (state.practiceSequence.isEmpty) return;
 
-    final characters = _characterRepo.getCharactersForLesson(state.currentLesson!.id);
     final nextIndex = state.currentCharacterIndex + 1;
-
-    if (nextIndex >= characters.length) {
-      // At the end, stay on last character
-      return;
-    }
+    if (nextIndex >= state.practiceSequence.length) return;
 
     state = state.copyWith(
       currentCharacterIndex: nextIndex,
-      currentCharacter: characters[nextIndex],
+      currentCharacter: state.practiceSequence[nextIndex],
       isCharacterComplete: false,
     );
   }
 
   void previousCharacter() {
-    if (state.currentLesson == null) return;
+    if (state.practiceSequence.isEmpty) return;
 
-    final characters = _characterRepo.getCharactersForLesson(state.currentLesson!.id);
     final prevIndex = state.currentCharacterIndex - 1;
-
-    if (prevIndex < 0) {
-      // At the beginning, stay on first character
-      return;
-    }
+    if (prevIndex < 0) return;
 
     state = state.copyWith(
       currentCharacterIndex: prevIndex,
-      currentCharacter: characters[prevIndex],
-      isCharacterComplete: state.practicedCharacters.contains(characters[prevIndex].codepoint),
+      currentCharacter: state.practiceSequence[prevIndex],
+      isCharacterComplete: state.practicedCharacters.contains(
+        state.practiceSequence[prevIndex].codepoint,
+      ),
     );
   }
 

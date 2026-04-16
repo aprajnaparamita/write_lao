@@ -2,21 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/presentation/controllers/test_controller.dart';
 
 class TestResultScreen extends ConsumerStatefulWidget {
   final String lessonId;
-  final int stars;
-  final int? bestTimeMs;
-  final List<String> characterList;
   final VoidCallback? onPracticePressed;
   final VoidCallback? onTestAgainPressed;
 
   const TestResultScreen({
     super.key,
     required this.lessonId,
-    required this.stars,
-    this.bestTimeMs,
-    required this.characterList,
     this.onPracticePressed,
     this.onTestAgainPressed,
   });
@@ -95,6 +90,11 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
   @override
   Widget build(BuildContext context) {
+    final testState = ref.watch(testControllerProvider);
+    final stars = testState.earnedStars ?? 0;
+    final characterList = testState.characters.map((c) => c.displayChar).toList();
+    final bestTimeMs = testState.result?.totalTimeMs;
+
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -109,7 +109,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                   return Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(3, (index) {
-                      final isEarned = index < widget.stars;
+                      final isEarned = index < stars;
                       final animValue = isEarned 
                           ? _starAnimation.value 
                           : 1.0;
@@ -143,9 +143,9 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                     children: [
                       // Title
                       Text(
-                        widget.stars == 3
+                        stars == 3
                             ? 'Perfect!'
-                            : widget.stars == 2
+                            : stars == 2
                                 ? 'Great Job!'
                                 : 'Good Try!',
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(
@@ -155,17 +155,17 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
                       const SizedBox(height: 24),
 
-                      // Best time
-                      if (widget.bestTimeMs != null) ...[
+                      // Time taken
+                      if (bestTimeMs != null) ...[
                         Text(
-                          'Best Time',
+                          'Time',
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                                 color: Colors.grey[600],
                               ),
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          _formatTime(widget.bestTimeMs),
+                          _formatTime(bestTimeMs),
                           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                                 fontFamily: 'monospace',
                                 fontWeight: FontWeight.w600,
@@ -186,7 +186,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                         spacing: 12,
                         runSpacing: 8,
                         alignment: WrapAlignment.center,
-                        children: widget.characterList.map((char) {
+                        children: characterList.map((char) {
                           return Container(
                             width: 48,
                             height: 48,
@@ -213,7 +213,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                       SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: widget.onPracticePressed,
+                          onPressed: () => context.go('/practice/${widget.lessonId}'),
                           child: const Text('Practice'),
                         ),
                       ),
@@ -221,7 +221,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                       SizedBox(
                         width: double.infinity,
                         child: OutlinedButton(
-                          onPressed: widget.onTestAgainPressed,
+                          onPressed: () => context.go('/test/${widget.lessonId}'),
                           child: const Text('Test Again'),
                         ),
                       ),

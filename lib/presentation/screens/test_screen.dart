@@ -95,7 +95,13 @@ class _TestScreenState extends ConsumerState<TestScreen> {
       // Check if test is complete
       if (state.currentIndex + 1 >= state.totalCharacters) {
         _timer?.cancel();
-        ref.read(testControllerProvider.notifier).finishTest();
+        final quizResult = ref.read(testControllerProvider.notifier).finishTest();
+        
+        // Save the result to progress repository
+        if (quizResult != null) {
+          ref.read(progressRepositoryProvider).recordTestResult(quizResult);
+        }
+        
         widget.onComplete?.call();
       } else {
         // Load next character's stroke data
@@ -194,37 +200,113 @@ class _TestScreenState extends ConsumerState<TestScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // Character to write
-              if (state.currentCharacter != null)
+              // Character info + acrophonical image
+              if (state.currentCharacter != null && _hasAcrophonicalImage(state.currentCharacter!.codepoint))
+                Expanded(
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Left half: character details
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 8, 12, 8),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.end,
+                            children: [
+                              Text(
+                                state.currentCharacter!.displayChar,
+                                style: const TextStyle(
+                                  fontFamily: 'Noto Lao',
+                                  fontSize: 48,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              Text(
+                                state.currentCharacter!.name,
+                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                '/${state.currentCharacter!.romanization}/',
+                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                      color: Colors.grey[600],
+                                    ),
+                              ),
+                              if (state.currentCharacter!.acrophonicalMeaning != null) ...[
+                                const SizedBox(height: 2),
+                                Text(
+                                  '(${state.currentCharacter!.acrophonicalMeaning})',
+                                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                        color: Colors.grey[500],
+                                        fontStyle: FontStyle.italic,
+                                      ),
+                                ),
+                              ],
+                            ],
+                          ),
+                        ),
+                      ),
+                      // Right half: acrophonical image
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(12, 8, 16, 8),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: Image.asset(
+                                'assets/images/acrophonical/${state.currentCharacter!.codepoint}.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+              // Fallback for characters without an acrophonical image
+              if (state.currentCharacter != null && !_hasAcrophonicalImage(state.currentCharacter!.codepoint))
                 Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 24),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
                   child: Column(
                     children: [
                       Text(
                         state.currentCharacter!.displayChar,
                         style: const TextStyle(
                           fontFamily: 'Noto Lao',
-                          fontSize: 64,
+                          fontSize: 48,
                         ),
                       ),
-                      const SizedBox(height: 8),
+                      const SizedBox(height: 4),
                       Text(
-                        state.currentCharacter!.letterNameRomanized ?? '/${state.currentCharacter!.romanization}/',
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        state.currentCharacter!.name,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w600,
+                            ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        '/${state.currentCharacter!.romanization}/',
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
                               color: Colors.grey[600],
                             ),
                       ),
-                      if (state.currentCharacter!.acrophonicalMeaning != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: 4),
-                          child: Text(
-                            '(${state.currentCharacter!.acrophonicalMeaning})',
-                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                  color: Colors.grey[500],
-                                  fontStyle: FontStyle.italic,
-                                ),
+                      if (state.currentCharacter!.letterName != null) ...[
+                        const SizedBox(height: 2),
+                        Text(
+                          state.currentCharacter!.letterName!,
+                          style: const TextStyle(
+                            fontFamily: 'Noto Lao',
+                            fontSize: 16,
+                            color: Colors.grey,
                           ),
                         ),
+                      ],
                     ],
                   ),
                 ),
@@ -323,4 +405,15 @@ class _TestScreenState extends ConsumerState<TestScreen> {
       ),
     );
   }
+
+  static const _acrophonicalCodepoints = {
+    'U+0E81', 'U+0E82', 'U+0E84', 'U+0E87', 'U+0E88', 'U+0E8A',
+    'U+0E8D', 'U+0E94', 'U+0E95', 'U+0E96', 'U+0E97', 'U+0E99',
+    'U+0E9A', 'U+0E9B', 'U+0E9C', 'U+0E9D', 'U+0E9E', 'U+0E9F',
+    'U+0EA1', 'U+0EA2', 'U+0EA3', 'U+0EA5', 'U+0EA7', 'U+0EAA',
+    'U+0EAB', 'U+0EAD', 'U+0EAE',
+  };
+
+  bool _hasAcrophonicalImage(String codepoint) =>
+      _acrophonicalCodepoints.contains(codepoint);
 }
