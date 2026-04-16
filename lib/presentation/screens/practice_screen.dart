@@ -46,6 +46,11 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       final strokeDataSource = ref.read(characterStrokeDataSourceProvider);
       final strokeData = await strokeDataSource.loadStrokeData(character.codepoint);
       if (mounted) {
+        // Clear and reset canvas (important when same character repeats in sequence)
+        ref.read(canvasControllerProvider.notifier).clearAll();
+        if (strokeData != null) {
+          ref.read(canvasControllerProvider.notifier).setCharacter(strokeData);
+        }
         setState(() => _currentStrokeData = strokeData);
         ref.read(practiceControllerProvider.notifier).setCharacter(character, strokeData);
         _playPronunciation(character.codepoint);
