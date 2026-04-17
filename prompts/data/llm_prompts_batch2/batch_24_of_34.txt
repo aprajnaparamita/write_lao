@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ພົນລະເມືອງ (frequency rank: 3188, count: 5) [✓]
+2. ມາເລເຊຍ (frequency rank: 3197, count: 5) [✓]
+3. ມຸ່ງ (frequency rank: 3202, count: 5) [✓]
+4. ມົນຕີ (frequency rank: 3203, count: 5) [✓]
+5. ມົ້ງ (frequency rank: 3204, count: 5) [✓]
+6. ມ້າ (frequency rank: 3205, count: 5) [✓]
+7. ຢອງ (frequency rank: 3206, count: 5) [✓]
+8. ຢາດ (frequency rank: 3207, count: 5) [✓]
+9. ຢື້ (frequency rank: 3209, count: 5) [✓]
+10. ລະດູ (frequency rank: 3214, count: 5) [✓]
+11. ລະບຸ (frequency rank: 3215, count: 5) [✓]
+12. ລື້ (frequency rank: 3226, count: 5) [✓]
+13. ລົດໄຟ (frequency rank: 3228, count: 5) [✓]
+14. ລ້ຳ (frequency rank: 3229, count: 5) [✓]
+15. ລໍ້ (frequency rank: 3230, count: 5) [✓]
+16. ວັງ (frequency rank: 3231, count: 5) [✓]
+17. ວິສະວະກຳ (frequency rank: 3240, count: 5) [✓]
+18. ສະຖຽນລະພາບ (frequency rank: 3249, count: 5) [✓]
+19. ສະຫະພາບ (frequency rank: 3250, count: 5) [✓]
+20. ສະອາດ (frequency rank: 3251, count: 5) [✓]
+21. ສັ່ນ (frequency rank: 3254, count: 5) [✓]
+22. ສັ້ນ (frequency rank: 3255, count: 5) [✓]
+23. ສາລະ (frequency rank: 3260, count: 5) [✓]
+24. ສິ (frequency rank: 3261, count: 5) [✓]
+25. ສິບ (frequency rank: 3262, count: 5) [✓]
+26. ສິລະປະ (frequency rank: 3263, count: 5) [✓]
+27. ສຸດທ້າຍ (frequency rank: 3268, count: 5) [✓]
+28. ສູບ (frequency rank: 3269, count: 5) [✓]
+29. ສົມພອນ (frequency rank: 3270, count: 5) [✓]
+30. ສໍ (frequency rank: 3272, count: 5) [✓]
+31. ຫນ້ານີ້ (frequency rank: 3274, count: 5) [✓]
+32. ຫລີ (frequency rank: 3275, count: 5) [✓]
+33. ຫລຸດຜ່ອນ (frequency rank: 3276, count: 5) [✓]
+34. ຫລຽນ (frequency rank: 3277, count: 5) [✓]
+35. ຫລ້າ (frequency rank: 3278, count: 5) [✓]
+36. ຫວັນ (frequency rank: 3279, count: 5) [✓]
+37. ຫັ້ນ (frequency rank: 3281, count: 5) [✓]
+38. ຫົວພັນ (frequency rank: 3282, count: 5) [✓]
+39. ຫຼອນ (frequency rank: 3286, count: 5) [✓]
+40. ຫຼັບ (frequency rank: 3287, count: 5) [✓]
+41. ຫຼີກ (frequency rank: 3289, count: 5) [✓]
+42. ຫ້າ (frequency rank: 3290, count: 5) [✓]
+43. ຫ້າງ (frequency rank: 3291, count: 5) [✓]
+44. ອອນ (frequency rank: 3293, count: 5) [✓]
+45. ອັດຕະປື (frequency rank: 3295, count: 5) [✓]
+46. ອັບ (frequency rank: 3297, count: 5) [✓]
+47. ອາຈານ (frequency rank: 3299, count: 5) [✓]
+48. ອານ (frequency rank: 3301, count: 5) [✓]
+49. ອິນເຕີ (frequency rank: 3303, count: 5) [✓]
+50. ອ່າງ (frequency rank: 3307, count: 5) [✓]

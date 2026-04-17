@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ອັດຕາ (frequency rank: 2042, count: 10) [✓]
+2. ອາວະກາດ (frequency rank: 2044, count: 10) [✓]
+3. ອາຫານ (frequency rank: 2045, count: 10) [✓]
+4. ອິ (frequency rank: 2046, count: 10) [✓]
+5. ອ່ຽງ (frequency rank: 2049, count: 10) [✓]
+6. ຮັກສາ (frequency rank: 2051, count: 10) [✓]
+7. ເກີບ (frequency rank: 2052, count: 10) [✓]
+8. ເຄາະ (frequency rank: 2056, count: 10) [✓]
+9. ເຊວຊີ (frequency rank: 2058, count: 10) [✓]
+10. ເຊັ່ນດຽວກັນ (frequency rank: 2059, count: 10) [⚠]
+11. ເດດ (frequency rank: 2061, count: 10) [✓]
+12. ເດືອນສະຫວັນ (frequency rank: 2062, count: 10) [⚠]
+13. ເຖົ້າ (frequency rank: 2063, count: 10) [✓]
+14. ເບ (frequency rank: 2065, count: 10) [✓]
+15. ເມືອງໜຶ່ງ (frequency rank: 2066, count: 10) [⚠]
+16. ເຣ (frequency rank: 2067, count: 10) [⚠]
+17. ເລຂາທິການໃຫຍ່ (frequency rank: 2068, count: 10) [⚠]
+18. ເລິກ (frequency rank: 2069, count: 10) [✓]
+19. ເລື່ອນ (frequency rank: 2070, count: 10) [✓]
+20. ເລົ່າ (frequency rank: 2071, count: 10) [✓]
+21. ເສົາ (frequency rank: 2073, count: 10) [✓]
+22. ເອກອັກຄະລັດຖະທູດ (frequency rank: 2075, count: 10) [✓]
+23. ແຂ (frequency rank: 2076, count: 10) [✓]
+24. ແຂວງຄຳມ່ວນ (frequency rank: 2077, count: 10) [⚠]
+25. ແຂວງວຽງຈັນ (frequency rank: 2078, count: 10) [⚠]
+26. ແຂວງສະຫວັນນະເຂດ (frequency rank: 2079, count: 10) [⚠]
+27. ແນວລາວ (frequency rank: 2080, count: 10) [⚠]
+28. ແຫ່ (frequency rank: 2081, count: 10) [✓]
+29. ແຫ້ງ (frequency rank: 2082, count: 10) [✓]
+30. ໂດຍທ່ານ (frequency rank: 2083, count: 10) [⚠]
+31. ໂຕະ (frequency rank: 2084, count: 10) [✓]
+32. ໂທດ (frequency rank: 2085, count: 10) [✓]
+33. ໂລດ (frequency rank: 2086, count: 10) [✓]
+34. ໂຮມ (frequency rank: 2087, count: 10) [✓]
+35. ໃຫ້ໄດ້ (frequency rank: 2088, count: 10) [⚠]
+36. ໄດ້ຈັດຂຶ້ນໃນວັນທີ (frequency rank: 2089, count: 10) [⚠]
+37. ໜີ້ (frequency rank: 2090, count: 10) [✓]
+38. ໝາຍຄວາມວ່າ (frequency rank: 2091, count: 10) [⚠]
+39. ກະຊວງສາທາລະນະສຸກ (frequency rank: 2111, count: 9) [✓]
+40. ກາດ (frequency rank: 2113, count: 9) [✓]
+41. ການປ່ຽນແປງ (frequency rank: 2114, count: 9) [✓]
+42. ກຳມະການສູນກາງພັກ (frequency rank: 2115, count: 9) [⚠]
+43. ກິມ (frequency rank: 2116, count: 9) [✓]
+44. ກຽວ (frequency rank: 2117, count: 9) [✓]
+45. ກ່ວາ (frequency rank: 2118, count: 9) [⚠]
+46. ຂອງທ່ານ (frequency rank: 2120, count: 9) [⚠]
+47. ຂະຫຍາຍ (frequency rank: 2121, count: 9) [✓]
+48. ຂະໜາດ (frequency rank: 2122, count: 9) [✓]
+49. ຄືບ (frequency rank: 2123, count: 9) [✓]
+50. ຈະມີ (frequency rank: 2124, count: 9) [⚠]

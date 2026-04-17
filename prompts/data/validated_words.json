@@ -1,0 +1,4063 @@
+{
+  "metadata": {
+    "source": "Leipzig Corpora Collection - Lao 2021",
+    "total_raw_words": 1000,
+    "after_filtering": 632,
+    "final_validated": 632,
+    "step": "Step 2: Clean and validate"
+  },
+  "words": [
+    {
+      "word": "ແລະ",
+      "frequency_rank": 26,
+      "frequency_count": 6783,
+      "in_dictionary": true
+    },
+    {
+      "word": "ການ",
+      "frequency_rank": 27,
+      "frequency_count": 3619,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃນ",
+      "frequency_rank": 28,
+      "frequency_count": 2522,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ່ານ",
+      "frequency_rank": 29,
+      "frequency_count": 2393,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທີ່",
+      "frequency_rank": 30,
+      "frequency_count": 2373,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄດ້",
+      "frequency_rank": 31,
+      "frequency_count": 2159,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມີ",
+      "frequency_rank": 32,
+      "frequency_count": 2139,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂອງ",
+      "frequency_rank": 33,
+      "frequency_count": 2103,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເປັນ",
+      "frequency_rank": 34,
+      "frequency_count": 1673,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວັນທີ",
+      "frequency_rank": 35,
+      "frequency_count": 1630,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເວລາ",
+      "frequency_rank": 36,
+      "frequency_count": 1603,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຫ້",
+      "frequency_rank": 37,
+      "frequency_count": 1497,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລາວ",
+      "frequency_rank": 38,
+      "frequency_count": 1494,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນີ້",
+      "frequency_rank": 40,
+      "frequency_count": 1254,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແມ່ນ",
+      "frequency_rank": 41,
+      "frequency_count": 1110,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມາ",
+      "frequency_rank": 42,
+      "frequency_count": 1037,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທີ",
+      "frequency_rank": 44,
+      "frequency_count": 983,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດຣ",
+      "frequency_rank": 45,
+      "frequency_count": 974,
+      "in_dictionary": false
+    },
+    {
+      "word": "ວັນ",
+      "frequency_rank": 46,
+      "frequency_count": 961,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວ່າ",
+      "frequency_rank": 47,
+      "frequency_count": 959,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຫ່ງ",
+      "frequency_rank": 48,
+      "frequency_count": 944,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກໍ",
+      "frequency_rank": 49,
+      "frequency_count": 916,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຂົ້າ",
+      "frequency_rank": 50,
+      "frequency_count": 915,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄວາມ",
+      "frequency_rank": 51,
+      "frequency_count": 910,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບໍ່",
+      "frequency_rank": 52,
+      "frequency_count": 909,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈະ",
+      "frequency_rank": 53,
+      "frequency_count": 872,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປີ",
+      "frequency_rank": 54,
+      "frequency_count": 849,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮ່ວມ",
+      "frequency_rank": 55,
+      "frequency_count": 823,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເບິ່ງ",
+      "frequency_rank": 56,
+      "frequency_count": 822,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢູ່",
+      "frequency_rank": 57,
+      "frequency_count": 817,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂດຍ",
+      "frequency_rank": 58,
+      "frequency_count": 776,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສປປ",
+      "frequency_rank": 59,
+      "frequency_count": 755,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄົນ",
+      "frequency_rank": 60,
+      "frequency_count": 739,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຜູ້",
+      "frequency_rank": 61,
+      "frequency_count": 728,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼື",
+      "frequency_rank": 62,
+      "frequency_count": 706,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈາກ",
+      "frequency_rank": 63,
+      "frequency_count": 658,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄປ",
+      "frequency_rank": 64,
+      "frequency_count": 654,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກັບ",
+      "frequency_rank": 65,
+      "frequency_count": 653,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກັນ",
+      "frequency_rank": 66,
+      "frequency_count": 641,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄຳ",
+      "frequency_rank": 67,
+      "frequency_count": 627,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂຶ້ນ",
+      "frequency_rank": 69,
+      "frequency_count": 598,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຕ່",
+      "frequency_rank": 70,
+      "frequency_count": 587,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພື່ອ",
+      "frequency_rank": 71,
+      "frequency_count": 584,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊາດ",
+      "frequency_rank": 72,
+      "frequency_count": 567,
+      "in_dictionary": true
+    },
+    {
+      "word": "ງານ",
+      "frequency_rank": 73,
+      "frequency_count": 546,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍັງ",
+      "frequency_rank": 75,
+      "frequency_count": 517,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດ້ວຍ",
+      "frequency_rank": 76,
+      "frequency_count": 488,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກອງ",
+      "frequency_rank": 77,
+      "frequency_count": 483,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮັບ",
+      "frequency_rank": 78,
+      "frequency_count": 474,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄັ້ງ",
+      "frequency_rank": 79,
+      "frequency_count": 467,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນັ້ນ",
+      "frequency_rank": 80,
+      "frequency_count": 455,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນຳ",
+      "frequency_rank": 81,
+      "frequency_count": 455,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພ້ອມ",
+      "frequency_rank": 82,
+      "frequency_count": 451,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈັນ",
+      "frequency_rank": 84,
+      "frequency_count": 439,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຖິງ",
+      "frequency_rank": 85,
+      "frequency_count": 432,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວຽງ",
+      "frequency_rank": 88,
+      "frequency_count": 413,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮອງ",
+      "frequency_rank": 90,
+      "frequency_count": 404,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈັດ",
+      "frequency_rank": 92,
+      "frequency_count": 399,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທັງ",
+      "frequency_rank": 93,
+      "frequency_count": 392,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທາງ",
+      "frequency_rank": 95,
+      "frequency_count": 387,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕາມ",
+      "frequency_rank": 96,
+      "frequency_count": 383,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢ່າງ",
+      "frequency_rank": 97,
+      "frequency_count": 382,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແລ້ວ",
+      "frequency_rank": 98,
+      "frequency_count": 380,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລັດ",
+      "frequency_rank": 99,
+      "frequency_count": 379,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພັກ",
+      "frequency_rank": 102,
+      "frequency_count": 365,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເມືອງ",
+      "frequency_rank": 103,
+      "frequency_count": 353,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດີ",
+      "frequency_rank": 104,
+      "frequency_count": 347,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວົງ",
+      "frequency_rank": 105,
+      "frequency_count": 346,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕໍ່",
+      "frequency_rank": 106,
+      "frequency_count": 345,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຮັດ",
+      "frequency_rank": 107,
+      "frequency_count": 345,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສູນ",
+      "frequency_rank": 108,
+      "frequency_count": 333,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບ້ານ",
+      "frequency_rank": 109,
+      "frequency_count": 331,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄື",
+      "frequency_rank": 110,
+      "frequency_count": 329,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊັ່ນ",
+      "frequency_rank": 111,
+      "frequency_count": 327,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼາຍ",
+      "frequency_rank": 112,
+      "frequency_count": 325,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຂວງ",
+      "frequency_rank": 113,
+      "frequency_count": 325,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສະ",
+      "frequency_rank": 114,
+      "frequency_count": 322,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕ້ອງ",
+      "frequency_rank": 115,
+      "frequency_count": 320,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄຊ",
+      "frequency_rank": 116,
+      "frequency_count": 319,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສາ",
+      "frequency_rank": 118,
+      "frequency_count": 318,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເງິນ",
+      "frequency_rank": 121,
+      "frequency_count": 306,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຈົ້າ",
+      "frequency_rank": 122,
+      "frequency_count": 303,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈີນ",
+      "frequency_rank": 123,
+      "frequency_count": 302,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຜ່ານ",
+      "frequency_rank": 124,
+      "frequency_count": 301,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຮົາ",
+      "frequency_rank": 127,
+      "frequency_count": 294,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຊ້",
+      "frequency_rank": 129,
+      "frequency_count": 290,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອອກ",
+      "frequency_rank": 131,
+      "frequency_count": 282,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອັນ",
+      "frequency_rank": 132,
+      "frequency_count": 282,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນາງ",
+      "frequency_rank": 133,
+      "frequency_count": 280,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຫັນ",
+      "frequency_rank": 135,
+      "frequency_count": 277,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອີກ",
+      "frequency_rank": 136,
+      "frequency_count": 276,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທຳ",
+      "frequency_rank": 138,
+      "frequency_count": 274,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະ",
+      "frequency_rank": 139,
+      "frequency_count": 269,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສີ",
+      "frequency_rank": 140,
+      "frequency_count": 266,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕົວ",
+      "frequency_rank": 141,
+      "frequency_count": 264,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສອງ",
+      "frequency_rank": 142,
+      "frequency_count": 263,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຫຍ່",
+      "frequency_rank": 143,
+      "frequency_count": 261,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກາງ",
+      "frequency_rank": 144,
+      "frequency_count": 260,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອົາ",
+      "frequency_rank": 145,
+      "frequency_count": 260,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕັ້ງ",
+      "frequency_rank": 146,
+      "frequency_count": 257,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສູງ",
+      "frequency_rank": 147,
+      "frequency_count": 256,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວຽກ",
+      "frequency_rank": 149,
+      "frequency_count": 250,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລົງ",
+      "frequency_rank": 151,
+      "frequency_count": 246,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທອງ",
+      "frequency_rank": 152,
+      "frequency_count": 245,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊ່ວຍ",
+      "frequency_rank": 153,
+      "frequency_count": 243,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສ້າງ",
+      "frequency_rank": 154,
+      "frequency_count": 243,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວິນາທີ",
+      "frequency_rank": 155,
+      "frequency_count": 240,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອາ",
+      "frequency_rank": 156,
+      "frequency_count": 237,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເວລາໃນການປະມວນຜົນໜ້າເວັບ",
+      "frequency_rank": 157,
+      "frequency_count": 237,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສ່ວນ",
+      "frequency_rank": 159,
+      "frequency_count": 232,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພັດທະນາໂດຍ",
+      "frequency_rank": 161,
+      "frequency_count": 230,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໜຶ່ງ",
+      "frequency_rank": 162,
+      "frequency_count": 230,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫລື",
+      "frequency_rank": 164,
+      "frequency_count": 229,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອອກແບບ",
+      "frequency_rank": 165,
+      "frequency_count": 229,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພັນ",
+      "frequency_rank": 166,
+      "frequency_count": 225,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຶກ",
+      "frequency_rank": 167,
+      "frequency_count": 225,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫາ",
+      "frequency_rank": 170,
+      "frequency_count": 223,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສົມ",
+      "frequency_rank": 171,
+      "frequency_count": 219,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມິຖຸນາ",
+      "frequency_rank": 172,
+      "frequency_count": 216,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຜົນ",
+      "frequency_rank": 173,
+      "frequency_count": 214,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊິ່ງ",
+      "frequency_rank": 174,
+      "frequency_count": 214,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບຸນ",
+      "frequency_rank": 175,
+      "frequency_count": 213,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມັນ",
+      "frequency_rank": 176,
+      "frequency_count": 212,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມະ",
+      "frequency_rank": 179,
+      "frequency_count": 209,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລະ",
+      "frequency_rank": 181,
+      "frequency_count": 207,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກີບ",
+      "frequency_rank": 182,
+      "frequency_count": 205,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດ້ານ",
+      "frequency_rank": 183,
+      "frequency_count": 205,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພະຈິກ",
+      "frequency_rank": 184,
+      "frequency_count": 201,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມື",
+      "frequency_rank": 186,
+      "frequency_count": 200,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພວກ",
+      "frequency_rank": 187,
+      "frequency_count": 199,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດຽວ",
+      "frequency_rank": 188,
+      "frequency_count": 197,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທັນວາ",
+      "frequency_rank": 189,
+      "frequency_count": 197,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລື່ອງ",
+      "frequency_rank": 191,
+      "frequency_count": 193,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພະ",
+      "frequency_rank": 193,
+      "frequency_count": 190,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກົມ",
+      "frequency_rank": 194,
+      "frequency_count": 189,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂ່າວ",
+      "frequency_rank": 196,
+      "frequency_count": 186,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖືກ",
+      "frequency_rank": 198,
+      "frequency_count": 185,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແທນ",
+      "frequency_rank": 199,
+      "frequency_count": 184,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕ່າງໆ",
+      "frequency_rank": 201,
+      "frequency_count": 183,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊຶ່ງ",
+      "frequency_rank": 202,
+      "frequency_count": 181,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພົບ",
+      "frequency_rank": 203,
+      "frequency_count": 181,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພາະ",
+      "frequency_rank": 205,
+      "frequency_count": 181,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກ່າວ",
+      "frequency_rank": 206,
+      "frequency_count": 179,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທຸກ",
+      "frequency_rank": 207,
+      "frequency_count": 179,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນ້ຳ",
+      "frequency_rank": 209,
+      "frequency_count": 177,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໜ້າ",
+      "frequency_rank": 211,
+      "frequency_count": 177,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສປ",
+      "frequency_rank": 213,
+      "frequency_count": 176,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮູ້",
+      "frequency_rank": 215,
+      "frequency_count": 175,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕອນ",
+      "frequency_rank": 216,
+      "frequency_count": 172,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຸດ",
+      "frequency_rank": 217,
+      "frequency_count": 172,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂໍ",
+      "frequency_rank": 218,
+      "frequency_count": 171,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລືອກ",
+      "frequency_rank": 219,
+      "frequency_count": 170,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແກ່",
+      "frequency_rank": 220,
+      "frequency_count": 170,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄອງ",
+      "frequency_rank": 221,
+      "frequency_count": 168,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແບບ",
+      "frequency_rank": 222,
+      "frequency_count": 168,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຝ່າຍ",
+      "frequency_rank": 223,
+      "frequency_count": 167,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລາຍ",
+      "frequency_rank": 224,
+      "frequency_count": 167,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລ້ານ",
+      "frequency_rank": 225,
+      "frequency_count": 167,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຸກ",
+      "frequency_rank": 226,
+      "frequency_count": 167,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຈ",
+      "frequency_rank": 227,
+      "frequency_count": 166,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເດືອນ",
+      "frequency_rank": 228,
+      "frequency_count": 166,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມອບ",
+      "frequency_rank": 229,
+      "frequency_count": 165,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທິ",
+      "frequency_rank": 230,
+      "frequency_count": 162,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມູນ",
+      "frequency_rank": 231,
+      "frequency_count": 162,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກັນຍາ",
+      "frequency_rank": 232,
+      "frequency_count": 161,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍະ",
+      "frequency_rank": 233,
+      "frequency_count": 161,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃໝ່",
+      "frequency_rank": 235,
+      "frequency_count": 161,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນາ",
+      "frequency_rank": 236,
+      "frequency_count": 158,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມັງກອນ",
+      "frequency_rank": 237,
+      "frequency_count": 157,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເກີດ",
+      "frequency_rank": 238,
+      "frequency_count": 157,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິງຫາ",
+      "frequency_rank": 239,
+      "frequency_count": 156,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຂດ",
+      "frequency_rank": 240,
+      "frequency_count": 156,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕຸລາ",
+      "frequency_rank": 241,
+      "frequency_count": 153,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເມື່ອ",
+      "frequency_rank": 242,
+      "frequency_count": 153,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກຸມພາ",
+      "frequency_rank": 243,
+      "frequency_count": 150,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄວນ",
+      "frequency_rank": 244,
+      "frequency_count": 150,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລົດ",
+      "frequency_rank": 245,
+      "frequency_count": 150,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພີ່ມ",
+      "frequency_rank": 247,
+      "frequency_count": 148,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກຽດ",
+      "frequency_rank": 248,
+      "frequency_count": 147,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນັກ",
+      "frequency_rank": 249,
+      "frequency_count": 147,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກິດ",
+      "frequency_rank": 252,
+      "frequency_count": 144,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂໍ້",
+      "frequency_rank": 253,
+      "frequency_count": 144,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄ່າ",
+      "frequency_rank": 254,
+      "frequency_count": 144,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕົນ",
+      "frequency_rank": 255,
+      "frequency_count": 144,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບາງ",
+      "frequency_rank": 256,
+      "frequency_count": 144,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂັ້ນ",
+      "frequency_rank": 257,
+      "frequency_count": 143,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທູດ",
+      "frequency_rank": 258,
+      "frequency_count": 143,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສົ່ງ",
+      "frequency_rank": 260,
+      "frequency_count": 142,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກໍລະກົດ",
+      "frequency_rank": 262,
+      "frequency_count": 140,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພຶດສະພາ",
+      "frequency_rank": 263,
+      "frequency_count": 140,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂລກ",
+      "frequency_rank": 264,
+      "frequency_count": 140,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄ້າ",
+      "frequency_rank": 266,
+      "frequency_count": 139,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖະ",
+      "frequency_rank": 267,
+      "frequency_count": 139,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄັ້ງທີ",
+      "frequency_rank": 269,
+      "frequency_count": 138,
+      "in_dictionary": false
+    },
+    {
+      "word": "ອື່ນໆ",
+      "frequency_rank": 270,
+      "frequency_count": 137,
+      "in_dictionary": false
+    },
+    {
+      "word": "ລາ",
+      "frequency_rank": 272,
+      "frequency_count": 135,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເສຍ",
+      "frequency_rank": 273,
+      "frequency_count": 135,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລີ",
+      "frequency_rank": 274,
+      "frequency_count": 134,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຸ",
+      "frequency_rank": 275,
+      "frequency_count": 134,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈຶ່ງ",
+      "frequency_rank": 276,
+      "frequency_count": 133,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເວົ້າ",
+      "frequency_rank": 277,
+      "frequency_count": 133,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄຂ",
+      "frequency_rank": 279,
+      "frequency_count": 133,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄິດ",
+      "frequency_rank": 281,
+      "frequency_count": 132,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊົນ",
+      "frequency_rank": 282,
+      "frequency_count": 132,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫ້ອງ",
+      "frequency_rank": 284,
+      "frequency_count": 132,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອກ",
+      "frequency_rank": 285,
+      "frequency_count": 132,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກ່ຽວ",
+      "frequency_rank": 288,
+      "frequency_count": 130,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທົ່ວ",
+      "frequency_rank": 295,
+      "frequency_count": 124,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແກ້",
+      "frequency_rank": 297,
+      "frequency_count": 124,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫວຽດນາມ",
+      "frequency_rank": 298,
+      "frequency_count": 123,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕື່ມ",
+      "frequency_rank": 301,
+      "frequency_count": 122,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖ້າ",
+      "frequency_rank": 304,
+      "frequency_count": 120,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແສງ",
+      "frequency_rank": 305,
+      "frequency_count": 120,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໝົດ",
+      "frequency_rank": 306,
+      "frequency_count": 120,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂມງ",
+      "frequency_rank": 307,
+      "frequency_count": 119,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໝາຍ",
+      "frequency_rank": 308,
+      "frequency_count": 119,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນະ",
+      "frequency_rank": 309,
+      "frequency_count": 118,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພາຍ",
+      "frequency_rank": 310,
+      "frequency_count": 118,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຈ້ງ",
+      "frequency_rank": 312,
+      "frequency_count": 117,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບັນ",
+      "frequency_rank": 318,
+      "frequency_count": 114,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພາກ",
+      "frequency_rank": 319,
+      "frequency_count": 114,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖື",
+      "frequency_rank": 322,
+      "frequency_count": 113,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສອນ",
+      "frequency_rank": 323,
+      "frequency_count": 113,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແນວ",
+      "frequency_rank": 324,
+      "frequency_count": 113,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກວ່າ",
+      "frequency_rank": 325,
+      "frequency_count": 112,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລວມ",
+      "frequency_rank": 328,
+      "frequency_count": 111,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຈ",
+      "frequency_rank": 329,
+      "frequency_count": 111,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃດ",
+      "frequency_rank": 330,
+      "frequency_count": 111,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄທ",
+      "frequency_rank": 331,
+      "frequency_count": 111,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກ່ອນ",
+      "frequency_rank": 333,
+      "frequency_count": 109,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເປີດ",
+      "frequency_rank": 334,
+      "frequency_count": 109,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອງ",
+      "frequency_rank": 335,
+      "frequency_count": 109,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແມັດ",
+      "frequency_rank": 336,
+      "frequency_count": 109,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກາ",
+      "frequency_rank": 337,
+      "frequency_count": 108,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກຸ່ມ",
+      "frequency_rank": 338,
+      "frequency_count": 108,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊີ",
+      "frequency_rank": 339,
+      "frequency_count": 108,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊີນ",
+      "frequency_rank": 341,
+      "frequency_count": 108,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທຶນ",
+      "frequency_rank": 344,
+      "frequency_count": 107,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພາບ",
+      "frequency_rank": 346,
+      "frequency_count": 106,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມີນາ",
+      "frequency_rank": 347,
+      "frequency_count": 106,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຮງ",
+      "frequency_rank": 348,
+      "frequency_count": 106,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກິນ",
+      "frequency_rank": 350,
+      "frequency_count": 105,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢາກ",
+      "frequency_rank": 351,
+      "frequency_count": 105,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢາ",
+      "frequency_rank": 353,
+      "frequency_count": 104,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄະ",
+      "frequency_rank": 354,
+      "frequency_count": 103,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບົດ",
+      "frequency_rank": 356,
+      "frequency_count": 103,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສາຍ",
+      "frequency_rank": 357,
+      "frequency_count": 103,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊ",
+      "frequency_rank": 359,
+      "frequency_count": 102,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕິດ",
+      "frequency_rank": 361,
+      "frequency_count": 101,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິ່ງ",
+      "frequency_rank": 365,
+      "frequency_count": 100,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເທດ",
+      "frequency_rank": 366,
+      "frequency_count": 100,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂຕ",
+      "frequency_rank": 367,
+      "frequency_count": 100,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃສ່",
+      "frequency_rank": 368,
+      "frequency_count": 100,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເມສາ",
+      "frequency_rank": 370,
+      "frequency_count": 99,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖາ",
+      "frequency_rank": 372,
+      "frequency_count": 98,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອັກ",
+      "frequency_rank": 373,
+      "frequency_count": 98,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກ່ວ",
+      "frequency_rank": 374,
+      "frequency_count": 95,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄູ່",
+      "frequency_rank": 375,
+      "frequency_count": 95,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕະ",
+      "frequency_rank": 376,
+      "frequency_count": 95,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນັບ",
+      "frequency_rank": 378,
+      "frequency_count": 94,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນາມ",
+      "frequency_rank": 379,
+      "frequency_count": 94,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂ້າງ",
+      "frequency_rank": 381,
+      "frequency_count": 93,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢ້ຽມ",
+      "frequency_rank": 382,
+      "frequency_count": 92,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສານ",
+      "frequency_rank": 383,
+      "frequency_count": 92,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກຳ",
+      "frequency_rank": 384,
+      "frequency_count": 91,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊາວ",
+      "frequency_rank": 385,
+      "frequency_count": 91,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍິງ",
+      "frequency_rank": 386,
+      "frequency_count": 91,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວິ",
+      "frequency_rank": 389,
+      "frequency_count": 91,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແກ້ວ",
+      "frequency_rank": 391,
+      "frequency_count": 91,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂດ",
+      "frequency_rank": 392,
+      "frequency_count": 90,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕອບ",
+      "frequency_rank": 393,
+      "frequency_count": 89,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕີ",
+      "frequency_rank": 394,
+      "frequency_count": 89,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຂົາ",
+      "frequency_rank": 396,
+      "frequency_count": 88,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃນວັນທີ",
+      "frequency_rank": 397,
+      "frequency_count": 88,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໄວ້",
+      "frequency_rank": 398,
+      "frequency_count": 88,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈິງ",
+      "frequency_rank": 399,
+      "frequency_count": 87,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ້າຍ",
+      "frequency_rank": 400,
+      "frequency_count": 87,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄັນ",
+      "frequency_rank": 401,
+      "frequency_count": 86,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈົ່ງ",
+      "frequency_rank": 402,
+      "frequency_count": 86,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂຽນ",
+      "frequency_rank": 406,
+      "frequency_count": 85,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕາ",
+      "frequency_rank": 407,
+      "frequency_count": 85,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວັດ",
+      "frequency_rank": 408,
+      "frequency_count": 85,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄພ",
+      "frequency_rank": 410,
+      "frequency_count": 85,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂະ",
+      "frequency_rank": 411,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊຽນ",
+      "frequency_rank": 412,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອົງ",
+      "frequency_rank": 415,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພິ່ນ",
+      "frequency_rank": 416,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພື່ອນ",
+      "frequency_rank": 417,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແມ່",
+      "frequency_rank": 419,
+      "frequency_count": 84,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມື້",
+      "frequency_rank": 421,
+      "frequency_count": 83,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລູກ",
+      "frequency_rank": 422,
+      "frequency_count": 83,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລົມ",
+      "frequency_rank": 423,
+      "frequency_count": 83,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເນື່ອງ",
+      "frequency_rank": 424,
+      "frequency_count": 83,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແນກ",
+      "frequency_rank": 425,
+      "frequency_count": 83,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈຸດ",
+      "frequency_rank": 426,
+      "frequency_count": 82,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊາຍ",
+      "frequency_rank": 427,
+      "frequency_count": 82,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ່ຽວ",
+      "frequency_rank": 428,
+      "frequency_count": 82,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລຳ",
+      "frequency_rank": 429,
+      "frequency_count": 82,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃນປີ",
+      "frequency_rank": 430,
+      "frequency_count": 82,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສາທາລະນະລັດ",
+      "frequency_rank": 432,
+      "frequency_count": 81,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປ້ອງ",
+      "frequency_rank": 434,
+      "frequency_count": 80,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສັກ",
+      "frequency_rank": 435,
+      "frequency_count": 80,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິນ",
+      "frequency_rank": 436,
+      "frequency_count": 80,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼັກ",
+      "frequency_rank": 437,
+      "frequency_count": 80,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອາດ",
+      "frequency_rank": 440,
+      "frequency_count": 79,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອິນ",
+      "frequency_rank": 441,
+      "frequency_count": 79,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄຸ້ມ",
+      "frequency_rank": 444,
+      "frequency_count": 78,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮັກ",
+      "frequency_rank": 446,
+      "frequency_count": 78,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດາ",
+      "frequency_rank": 448,
+      "frequency_count": 77,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທະ",
+      "frequency_rank": 450,
+      "frequency_count": 77,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະມານ",
+      "frequency_rank": 452,
+      "frequency_count": 77,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫາກ",
+      "frequency_rank": 455,
+      "frequency_count": 77,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮຽນ",
+      "frequency_rank": 456,
+      "frequency_count": 77,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລິ",
+      "frequency_rank": 458,
+      "frequency_count": 76,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລຸນ",
+      "frequency_rank": 459,
+      "frequency_count": 76,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ່ອງ",
+      "frequency_rank": 463,
+      "frequency_count": 75,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປາ",
+      "frequency_rank": 464,
+      "frequency_count": 75,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພອນ",
+      "frequency_rank": 465,
+      "frequency_count": 75,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຮືອນ",
+      "frequency_rank": 466,
+      "frequency_count": 75,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບ່ອນ",
+      "frequency_rank": 467,
+      "frequency_count": 74,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄົງ",
+      "frequency_rank": 469,
+      "frequency_count": 73,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປກສ",
+      "frequency_rank": 470,
+      "frequency_count": 73,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສຽງ",
+      "frequency_rank": 472,
+      "frequency_count": 73,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລິດ",
+      "frequency_rank": 473,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊັນ",
+      "frequency_rank": 475,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເທື່ອ",
+      "frequency_rank": 476,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຂກ",
+      "frequency_rank": 477,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແຜນ",
+      "frequency_rank": 478,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃບ",
+      "frequency_rank": 479,
+      "frequency_count": 72,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທີມ",
+      "frequency_rank": 480,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສູ່",
+      "frequency_rank": 481,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫລາຍ",
+      "frequency_rank": 482,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼຽນ",
+      "frequency_rank": 483,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮອດ",
+      "frequency_rank": 484,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໜ່ວຍ",
+      "frequency_rank": 486,
+      "frequency_count": 71,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລະຫວ່າງ",
+      "frequency_rank": 487,
+      "frequency_count": 70,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິດ",
+      "frequency_rank": 489,
+      "frequency_count": 70,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊຍ",
+      "frequency_rank": 490,
+      "frequency_count": 70,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພໍ່",
+      "frequency_rank": 493,
+      "frequency_count": 69,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຣາ",
+      "frequency_rank": 494,
+      "frequency_count": 69,
+      "in_dictionary": false
+    },
+    {
+      "word": "ວາງ",
+      "frequency_rank": 496,
+      "frequency_count": 69,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼວງ",
+      "frequency_rank": 499,
+      "frequency_count": 69,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລກ",
+      "frequency_rank": 500,
+      "frequency_count": 69,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊື້",
+      "frequency_rank": 503,
+      "frequency_count": 68,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຟັງ",
+      "frequency_rank": 504,
+      "frequency_count": 68,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອີ",
+      "frequency_rank": 506,
+      "frequency_count": 68,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊັ້ນ",
+      "frequency_rank": 508,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊາ",
+      "frequency_rank": 509,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍ້ອນ",
+      "frequency_rank": 510,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕົ້ນ",
+      "frequency_rank": 511,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະຊາຊົນລາວ",
+      "frequency_rank": 512,
+      "frequency_count": 67,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເລີ່ມ",
+      "frequency_rank": 513,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຕ້",
+      "frequency_rank": 514,
+      "frequency_count": 67,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄຸນ",
+      "frequency_rank": 515,
+      "frequency_count": 66,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອິດ",
+      "frequency_rank": 517,
+      "frequency_count": 66,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເທົ່າ",
+      "frequency_rank": 518,
+      "frequency_count": 66,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍາກ",
+      "frequency_rank": 520,
+      "frequency_count": 65,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະຊາທິປະໄຕ",
+      "frequency_rank": 521,
+      "frequency_count": 65,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລາດ",
+      "frequency_rank": 523,
+      "frequency_count": 65,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອີ",
+      "frequency_rank": 524,
+      "frequency_count": 65,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຄື່ອງ",
+      "frequency_rank": 525,
+      "frequency_count": 65,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດິນ",
+      "frequency_rank": 526,
+      "frequency_count": 64,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຕີ",
+      "frequency_rank": 528,
+      "frequency_count": 64,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອື່ນ",
+      "frequency_rank": 529,
+      "frequency_count": 63,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊົ້າ",
+      "frequency_rank": 530,
+      "frequency_count": 63,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼັງ",
+      "frequency_rank": 536,
+      "frequency_count": 62,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈິດ",
+      "frequency_rank": 537,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດວງ",
+      "frequency_rank": 539,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທັນ",
+      "frequency_rank": 541,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພຽງ",
+      "frequency_rank": 543,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫົວ",
+      "frequency_rank": 544,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຄີຍ",
+      "frequency_rank": 545,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລີຍ",
+      "frequency_rank": 547,
+      "frequency_count": 61,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກະລຸນາໃຫ້ຄໍາຄິດຄໍາເຫັນໃນທາງສ້າງສັນ",
+      "frequency_rank": 548,
+      "frequency_count": 60,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຈອດ",
+      "frequency_rank": 549,
+      "frequency_count": 60,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດັບ",
+      "frequency_rank": 550,
+      "frequency_count": 60,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບວນ",
+      "frequency_rank": 552,
+      "frequency_count": 60,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປອນ",
+      "frequency_rank": 553,
+      "frequency_count": 60,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສະນັ້ນ",
+      "frequency_rank": 554,
+      "frequency_count": 60,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈຳນວນ",
+      "frequency_rank": 559,
+      "frequency_count": 59,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈູມ",
+      "frequency_rank": 560,
+      "frequency_count": 59,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈົນ",
+      "frequency_rank": 561,
+      "frequency_count": 59,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊຸດ",
+      "frequency_rank": 562,
+      "frequency_count": 59,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິງ",
+      "frequency_rank": 564,
+      "frequency_count": 59,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂາຍ",
+      "frequency_rank": 568,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖາມ",
+      "frequency_rank": 571,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບັດ",
+      "frequency_rank": 572,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຢູ",
+      "frequency_rank": 573,
+      "frequency_count": 58,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮູບ",
+      "frequency_rank": 574,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮ້ານ",
+      "frequency_rank": 575,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂດຍທົ່ວໄປ",
+      "frequency_rank": 576,
+      "frequency_count": 58,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບູ",
+      "frequency_rank": 580,
+      "frequency_count": 57,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພື້ນ",
+      "frequency_rank": 582,
+      "frequency_count": 57,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມວນ",
+      "frequency_rank": 583,
+      "frequency_count": 57,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂລ",
+      "frequency_rank": 588,
+      "frequency_count": 57,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄວ",
+      "frequency_rank": 589,
+      "frequency_count": 57,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄືນ",
+      "frequency_rank": 591,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດອກ",
+      "frequency_rank": 592,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທໍ່",
+      "frequency_rank": 593,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນ້ອຍ",
+      "frequency_rank": 594,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສື່",
+      "frequency_rank": 599,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮອບ",
+      "frequency_rank": 600,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊື່ອ",
+      "frequency_rank": 601,
+      "frequency_count": 56,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນອກ",
+      "frequency_rank": 603,
+      "frequency_count": 55,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບອກ",
+      "frequency_rank": 604,
+      "frequency_count": 55,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອ່ານ",
+      "frequency_rank": 605,
+      "frequency_count": 55,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂອ",
+      "frequency_rank": 606,
+      "frequency_count": 55,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກວດ",
+      "frequency_rank": 608,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກິໂລແມັດ",
+      "frequency_rank": 609,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍົກ",
+      "frequency_rank": 610,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະຊາຊົນ",
+      "frequency_rank": 611,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພິມ",
+      "frequency_rank": 612,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄຟ",
+      "frequency_rank": 614,
+      "frequency_count": 54,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄົ້ນ",
+      "frequency_rank": 615,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄໍ",
+      "frequency_rank": 616,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊີ້",
+      "frequency_rank": 617,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນະຄອນຫຼວງວຽງຈັນ",
+      "frequency_rank": 619,
+      "frequency_count": 53,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປະເທດລາວ",
+      "frequency_rank": 620,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເກົ່າ",
+      "frequency_rank": 622,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄມ້",
+      "frequency_rank": 623,
+      "frequency_count": 53,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພາສາອັງກິດ",
+      "frequency_rank": 629,
+      "frequency_count": 52,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມາດ",
+      "frequency_rank": 630,
+      "frequency_count": 52,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຣົບ",
+      "frequency_rank": 631,
+      "frequency_count": 52,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍອດ",
+      "frequency_rank": 636,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທິດ",
+      "frequency_rank": 637,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບາ",
+      "frequency_rank": 638,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລັດຖະບານ",
+      "frequency_rank": 641,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເທິງ",
+      "frequency_rank": 642,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂນ",
+      "frequency_rank": 643,
+      "frequency_count": 51,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດັ່ງນັ້ນ",
+      "frequency_rank": 645,
+      "frequency_count": 50,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນີ",
+      "frequency_rank": 646,
+      "frequency_count": 50,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະເທດ",
+      "frequency_rank": 647,
+      "frequency_count": 50,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອ້ອມ",
+      "frequency_rank": 648,
+      "frequency_count": 50,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕື້",
+      "frequency_rank": 651,
+      "frequency_count": 49,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທອງລຸນ",
+      "frequency_rank": 652,
+      "frequency_count": 49,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທ້າວ",
+      "frequency_rank": 653,
+      "frequency_count": 49,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສຳ",
+      "frequency_rank": 655,
+      "frequency_count": 49,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອ",
+      "frequency_rank": 658,
+      "frequency_count": 49,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂຣ",
+      "frequency_rank": 659,
+      "frequency_count": 49,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໜຸ່ມ",
+      "frequency_rank": 661,
+      "frequency_count": 49,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄັດ",
+      "frequency_rank": 665,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄາດ",
+      "frequency_rank": 666,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດາວ",
+      "frequency_rank": 667,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມັກ",
+      "frequency_rank": 670,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລັດຖະມົນຕີວ່າການ",
+      "frequency_rank": 671,
+      "frequency_count": 48,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສາດ",
+      "frequency_rank": 672,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເດັກ",
+      "frequency_rank": 673,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເປົ້າ",
+      "frequency_rank": 674,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແດງ",
+      "frequency_rank": 675,
+      "frequency_count": 48,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍິ່ງ",
+      "frequency_rank": 676,
+      "frequency_count": 47,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕົກ",
+      "frequency_rank": 677,
+      "frequency_count": 47,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສີສຸລິດ",
+      "frequency_rank": 680,
+      "frequency_count": 47,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໂກ",
+      "frequency_rank": 682,
+      "frequency_count": 47,
+      "in_dictionary": true
+    },
+    {
+      "word": "ງາມ",
+      "frequency_rank": 683,
+      "frequency_count": 46,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບ່າຍ",
+      "frequency_rank": 685,
+      "frequency_count": 46,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປອດ",
+      "frequency_rank": 686,
+      "frequency_count": 46,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຍັງ",
+      "frequency_rank": 688,
+      "frequency_count": 46,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂ້ອຍ",
+      "frequency_rank": 691,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄົບຮອບ",
+      "frequency_rank": 692,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈ່າຍ",
+      "frequency_rank": 695,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ່າ",
+      "frequency_rank": 696,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພົນ",
+      "frequency_rank": 698,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສາມ",
+      "frequency_rank": 700,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຊື້ອ",
+      "frequency_rank": 701,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເນ",
+      "frequency_rank": 702,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເນື້ອ",
+      "frequency_rank": 703,
+      "frequency_count": 45,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກໍ່",
+      "frequency_rank": 705,
+      "frequency_count": 44,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄຽງ",
+      "frequency_rank": 706,
+      "frequency_count": 44,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈັກ",
+      "frequency_rank": 707,
+      "frequency_count": 44,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊອກ",
+      "frequency_rank": 708,
+      "frequency_count": 44,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕ້ານ",
+      "frequency_rank": 710,
+      "frequency_count": 44,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສປຊ",
+      "frequency_rank": 712,
+      "frequency_count": 44,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຊະ",
+      "frequency_rank": 714,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍາມ",
+      "frequency_rank": 715,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍາວ",
+      "frequency_rank": 716,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທິມ",
+      "frequency_rank": 717,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນັດ",
+      "frequency_rank": 718,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເກີນ",
+      "frequency_rank": 723,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລ",
+      "frequency_rank": 724,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເໝາະ",
+      "frequency_rank": 725,
+      "frequency_count": 43,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກູ້",
+      "frequency_rank": 727,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂອບ",
+      "frequency_rank": 728,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄຳວ່າ",
+      "frequency_rank": 730,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຊື່",
+      "frequency_rank": 732,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊົມ",
+      "frequency_rank": 733,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍາດ",
+      "frequency_rank": 734,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ລ້ານກີບ",
+      "frequency_rank": 736,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສອບ",
+      "frequency_rank": 737,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອຸ່ນ",
+      "frequency_rank": 738,
+      "frequency_count": 42,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຢຍ",
+      "frequency_rank": 739,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຂ້າພະເຈົ້າ",
+      "frequency_rank": 741,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖ້ວມ",
+      "frequency_rank": 743,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບໍ",
+      "frequency_rank": 744,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຝຣັ່ງ",
+      "frequency_rank": 745,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພຣະ",
+      "frequency_rank": 746,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄຫວ",
+      "frequency_rank": 750,
+      "frequency_count": 41,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕ່າງ",
+      "frequency_rank": 754,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນານ",
+      "frequency_rank": 755,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພາ",
+      "frequency_rank": 758,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫາຍ",
+      "frequency_rank": 760,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຕັມ",
+      "frequency_rank": 764,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂຕນ",
+      "frequency_rank": 766,
+      "frequency_count": 40,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກະຊວງການຕ່າງປະເທດ",
+      "frequency_rank": 768,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກົງ",
+      "frequency_rank": 769,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂັບ",
+      "frequency_rank": 771,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕື້ກີບ",
+      "frequency_rank": 772,
+      "frequency_count": 39,
+      "in_dictionary": false
+    },
+    {
+      "word": "ນາຍົກລັດຖະມົນຕີ",
+      "frequency_rank": 775,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປູກ",
+      "frequency_rank": 776,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພໍ",
+      "frequency_rank": 777,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສສຊ",
+      "frequency_rank": 778,
+      "frequency_count": 39,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຫວັດ",
+      "frequency_rank": 779,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫ້າມ",
+      "frequency_rank": 780,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໂທ",
+      "frequency_rank": 783,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃກ້",
+      "frequency_rank": 784,
+      "frequency_count": 39,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກວມ",
+      "frequency_rank": 785,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກາຍ",
+      "frequency_rank": 786,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊາບ",
+      "frequency_rank": 788,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕິ",
+      "frequency_rank": 789,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫະ",
+      "frequency_rank": 792,
+      "frequency_count": 38,
+      "in_dictionary": false
+    },
+    {
+      "word": "ອົກ",
+      "frequency_rank": 795,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອົດ",
+      "frequency_rank": 796,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເມ",
+      "frequency_rank": 797,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແດ່",
+      "frequency_rank": 798,
+      "frequency_count": 38,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດັ່ງກ່າວ",
+      "frequency_rank": 802,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນ້ອງ",
+      "frequency_rank": 805,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະຈຳ",
+      "frequency_rank": 808,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫໍ",
+      "frequency_rank": 813,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເກດ",
+      "frequency_rank": 814,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເປັນຕົ້ນ",
+      "frequency_rank": 816,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພງ",
+      "frequency_rank": 817,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເລີດ",
+      "frequency_rank": 818,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແບ່ງ",
+      "frequency_rank": 819,
+      "frequency_count": 37,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄູ",
+      "frequency_rank": 822,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄ້ວ",
+      "frequency_rank": 823,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຊຽງ",
+      "frequency_rank": 824,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕູ້",
+      "frequency_rank": 826,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທຸກໆ",
+      "frequency_rank": 827,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ນອນ",
+      "frequency_rank": 828,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສິນຄ້າ",
+      "frequency_rank": 834,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮອງນາຍົກລັດຖະມົນຕີ",
+      "frequency_rank": 835,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮ້າຍ",
+      "frequency_rank": 836,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເກັບ",
+      "frequency_rank": 837,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເສດຖະກິດ",
+      "frequency_rank": 838,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແພງ",
+      "frequency_rank": 839,
+      "frequency_count": 36,
+      "in_dictionary": true
+    },
+    {
+      "word": "ການພິມ",
+      "frequency_rank": 841,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຈຸ",
+      "frequency_rank": 843,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບຸກ",
+      "frequency_rank": 845,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສະຫາຍ",
+      "frequency_rank": 852,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເສບ",
+      "frequency_rank": 853,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເສີມ",
+      "frequency_rank": 854,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແພດ",
+      "frequency_rank": 855,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໃຜ",
+      "frequency_rank": 856,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄກ",
+      "frequency_rank": 857,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໜ້ອຍ",
+      "frequency_rank": 859,
+      "frequency_count": 35,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກິ",
+      "frequency_rank": 860,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂາດ",
+      "frequency_rank": 861,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊູ",
+      "frequency_rank": 862,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດອນ",
+      "frequency_rank": 863,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປະຈຸບັນ",
+      "frequency_rank": 867,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປັກ",
+      "frequency_rank": 868,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຜິດ",
+      "frequency_rank": 869,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພິ",
+      "frequency_rank": 870,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພູ",
+      "frequency_rank": 871,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມຽນ",
+      "frequency_rank": 872,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ວັດທະນະທຳ",
+      "frequency_rank": 873,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສວນ",
+      "frequency_rank": 874,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສສ",
+      "frequency_rank": 875,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ສົມມະນາ",
+      "frequency_rank": 879,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫວັງ",
+      "frequency_rank": 880,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອາຍຸ",
+      "frequency_rank": 883,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຄື່ອນ",
+      "frequency_rank": 885,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຕະ",
+      "frequency_rank": 886,
+      "frequency_count": 34,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂວາງ",
+      "frequency_rank": 891,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ບົວ",
+      "frequency_rank": 894,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ມາດຣິດ",
+      "frequency_rank": 897,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຮັກຕາ",
+      "frequency_rank": 900,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແໜ້ນ",
+      "frequency_rank": 902,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄມ",
+      "frequency_rank": 903,
+      "frequency_count": 33,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກູ",
+      "frequency_rank": 905,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊ້າງ",
+      "frequency_rank": 906,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນອກຈາກ",
+      "frequency_rank": 907,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປ້າຍ",
+      "frequency_rank": 908,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພວມ",
+      "frequency_rank": 909,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພັດ",
+      "frequency_rank": 910,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອັດ",
+      "frequency_rank": 913,
+      "frequency_count": 32,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຂື່ອນໄຟຟ້າຂະໜາດນ້ອຍແຫ່ງໜຶ່ງ",
+      "frequency_rank": 915,
+      "frequency_count": 32,
+      "in_dictionary": false
+    },
+    {
+      "word": "ແລະອື່ນໆ",
+      "frequency_rank": 916,
+      "frequency_count": 32,
+      "in_dictionary": false
+    },
+    {
+      "word": "ກອນ",
+      "frequency_rank": 920,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຂັນ",
+      "frequency_rank": 922,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊິ",
+      "frequency_rank": 923,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດັ່ງ",
+      "frequency_rank": 924,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປັດຈຸບັນ",
+      "frequency_rank": 927,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປາກ",
+      "frequency_rank": 928,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ພັດທະນາ",
+      "frequency_rank": 929,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຕືອນ",
+      "frequency_rank": 933,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເບື້ອງ",
+      "frequency_rank": 934,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເອີ້ນວ່າ",
+      "frequency_rank": 937,
+      "frequency_count": 31,
+      "in_dictionary": false
+    },
+    {
+      "word": "ແດນ",
+      "frequency_rank": 938,
+      "frequency_count": 31,
+      "in_dictionary": true
+    },
+    {
+      "word": "ກົດ",
+      "frequency_rank": 940,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຍິນ",
+      "frequency_rank": 943,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຖານ",
+      "frequency_rank": 945,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ນອກຈາກນີ້",
+      "frequency_rank": 946,
+      "frequency_count": 30,
+      "in_dictionary": false
+    },
+    {
+      "word": "ລັດຖະມົນຕີ",
+      "frequency_rank": 950,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫຼຸດ",
+      "frequency_rank": 957,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອະ",
+      "frequency_rank": 958,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ອົບ",
+      "frequency_rank": 959,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເພັດ",
+      "frequency_rank": 961,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ແມນ",
+      "frequency_rank": 963,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄນ",
+      "frequency_rank": 964,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໄອ",
+      "frequency_rank": 965,
+      "frequency_count": 30,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄ່ອຍ",
+      "frequency_rank": 970,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຊຸມ",
+      "frequency_rank": 971,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ດົນ",
+      "frequency_rank": 972,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ທ່ານນາງ",
+      "frequency_rank": 973,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ບາດ",
+      "frequency_rank": 974,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ປາວ",
+      "frequency_rank": 975,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຣິວ",
+      "frequency_rank": 976,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສ່ອງ",
+      "frequency_rank": 977,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຫລຸດ",
+      "frequency_rank": 978,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຮສຈ",
+      "frequency_rank": 981,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮ້ອຍ",
+      "frequency_rank": 982,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ເຮືອ",
+      "frequency_rank": 983,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໜັກ",
+      "frequency_rank": 984,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໝັ້ນ",
+      "frequency_rank": 985,
+      "frequency_count": 29,
+      "in_dictionary": true
+    },
+    {
+      "word": "ໝາຍເຖິງ",
+      "frequency_rank": 986,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄາ",
+      "frequency_rank": 988,
+      "frequency_count": 28,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຄົມ",
+      "frequency_rank": 989,
+      "frequency_count": 28,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຕຣາ",
+      "frequency_rank": 993,
+      "frequency_count": 28,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທ່ານຮອງນາຍົກລັດຖະມົນຕີ",
+      "frequency_rank": 994,
+      "frequency_count": 28,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປິນ",
+      "frequency_rank": 996,
+      "frequency_count": 28,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປົກ",
+      "frequency_rank": 997,
+      "frequency_count": 28,
+      "in_dictionary": true
+    },
+    {
+      "word": "ຜາ",
+      "frequency_rank": 998,
+      "frequency_count": 28,
+      "in_dictionary": true
+    }
+  ],
+  "not_in_dictionary_top200": [
+    {
+      "word": "ດຣ",
+      "frequency_rank": 45,
+      "frequency_count": 974,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສປປ",
+      "frequency_rank": 59,
+      "frequency_count": 755,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເວລາໃນການປະມວນຜົນໜ້າເວັບ",
+      "frequency_rank": 157,
+      "frequency_count": 237,
+      "in_dictionary": false
+    },
+    {
+      "word": "ພັດທະນາໂດຍ",
+      "frequency_rank": 161,
+      "frequency_count": 230,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສປ",
+      "frequency_rank": 213,
+      "frequency_count": 176,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສຈ",
+      "frequency_rank": 227,
+      "frequency_count": 166,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຖະ",
+      "frequency_rank": 267,
+      "frequency_count": 139,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄັ້ງທີ",
+      "frequency_rank": 269,
+      "frequency_count": 138,
+      "in_dictionary": false
+    },
+    {
+      "word": "ອື່ນໆ",
+      "frequency_rank": 270,
+      "frequency_count": 137,
+      "in_dictionary": false
+    },
+    {
+      "word": "ກ່ວ",
+      "frequency_rank": 374,
+      "frequency_count": 95,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໃນວັນທີ",
+      "frequency_rank": 397,
+      "frequency_count": 88,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໃນປີ",
+      "frequency_rank": 430,
+      "frequency_count": 82,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປກສ",
+      "frequency_rank": 470,
+      "frequency_count": 73,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຣາ",
+      "frequency_rank": 494,
+      "frequency_count": 69,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປະຊາຊົນລາວ",
+      "frequency_rank": 512,
+      "frequency_count": 67,
+      "in_dictionary": false
+    },
+    {
+      "word": "ກະລຸນາໃຫ້ຄໍາຄິດຄໍາເຫັນໃນທາງສ້າງສັນ",
+      "frequency_rank": 548,
+      "frequency_count": 60,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຢູ",
+      "frequency_rank": 573,
+      "frequency_count": 58,
+      "in_dictionary": false
+    },
+    {
+      "word": "ນະຄອນຫຼວງວຽງຈັນ",
+      "frequency_rank": 619,
+      "frequency_count": 53,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທອງລຸນ",
+      "frequency_rank": 652,
+      "frequency_count": 49,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໂຣ",
+      "frequency_rank": 659,
+      "frequency_count": 49,
+      "in_dictionary": false
+    },
+    {
+      "word": "ລັດຖະມົນຕີວ່າການ",
+      "frequency_rank": 671,
+      "frequency_count": 48,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສີສຸລິດ",
+      "frequency_rank": 680,
+      "frequency_count": 47,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສປຊ",
+      "frequency_rank": 712,
+      "frequency_count": 44,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄຳວ່າ",
+      "frequency_rank": 730,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ລ້ານກີບ",
+      "frequency_rank": 736,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເຢຍ",
+      "frequency_rank": 739,
+      "frequency_count": 42,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຕື້ກີບ",
+      "frequency_rank": 772,
+      "frequency_count": 39,
+      "in_dictionary": false
+    },
+    {
+      "word": "ສສຊ",
+      "frequency_rank": 778,
+      "frequency_count": 39,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຫະ",
+      "frequency_rank": 792,
+      "frequency_count": 38,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຄ້ວ",
+      "frequency_rank": 823,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທຸກໆ",
+      "frequency_rank": 827,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮອງນາຍົກລັດຖະມົນຕີ",
+      "frequency_rank": 835,
+      "frequency_count": 36,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເຂື່ອນໄຟຟ້າຂະໜາດນ້ອຍແຫ່ງໜຶ່ງ",
+      "frequency_rank": 915,
+      "frequency_count": 32,
+      "in_dictionary": false
+    },
+    {
+      "word": "ແລະອື່ນໆ",
+      "frequency_rank": 916,
+      "frequency_count": 32,
+      "in_dictionary": false
+    },
+    {
+      "word": "ເອີ້ນວ່າ",
+      "frequency_rank": 937,
+      "frequency_count": 31,
+      "in_dictionary": false
+    },
+    {
+      "word": "ນອກຈາກນີ້",
+      "frequency_rank": 946,
+      "frequency_count": 30,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທ່ານນາງ",
+      "frequency_rank": 973,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຣິວ",
+      "frequency_rank": 976,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຮສຈ",
+      "frequency_rank": 981,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ໝາຍເຖິງ",
+      "frequency_rank": 986,
+      "frequency_count": 29,
+      "in_dictionary": false
+    },
+    {
+      "word": "ຕຣາ",
+      "frequency_rank": 993,
+      "frequency_count": 28,
+      "in_dictionary": false
+    },
+    {
+      "word": "ທ່ານຮອງນາຍົກລັດຖະມົນຕີ",
+      "frequency_rank": 994,
+      "frequency_count": 28,
+      "in_dictionary": false
+    },
+    {
+      "word": "ປິນ",
+      "frequency_rank": 996,
+      "frequency_count": 28,
+      "in_dictionary": false
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຊີ້ນຳ (frequency rank: 3086, count: 5) [✓]
+2. ຍອມ (frequency rank: 3089, count: 5) [✓]
+3. ຍາຍ (frequency rank: 3090, count: 5) [✓]
+4. ຍຸ (frequency rank: 3092, count: 5) [✓]
+5. ຍຸງ (frequency rank: 3093, count: 5) [✓]
+6. ດອງ (frequency rank: 3096, count: 5) [✓]
+7. ດື້ (frequency rank: 3097, count: 5) [✓]
+8. ຕັ່ງ (frequency rank: 3101, count: 5) [✓]
+9. ຕັ້ງແຕ່ (frequency rank: 3103, count: 5) [✓]
+10. ຕາເວັນຕົກ (frequency rank: 3106, count: 5) [✓]
+11. ຕຳຫລວດ (frequency rank: 3107, count: 5) [✓]
+12. ຕິດຕາມ (frequency rank: 3108, count: 5) [✓]
+13. ຕຸ້ນ (frequency rank: 3110, count: 5) [✓]
+14. ຕົນເອງ (frequency rank: 3111, count: 5) [✓]
+15. ຕົ່ງ (frequency rank: 3112, count: 5) [✓]
+16. ຕຽມ (frequency rank: 3113, count: 5) [✓]
+17. ຕ້າ (frequency rank: 3114, count: 5) [✓]
+18. ຖັນ (frequency rank: 3117, count: 5) [✓]
+19. ຖີ່ (frequency rank: 3118, count: 5) [✓]
+20. ຖົມ (frequency rank: 3119, count: 5) [✓]
+21. ຖ້ວຍ (frequency rank: 3120, count: 5) [✓]
+22. ທວນ (frequency rank: 3121, count: 5) [✓]
+23. ທະນາ (frequency rank: 3123, count: 5) [✓]
+24. ທະວີ (frequency rank: 3125, count: 5) [✓]
+25. ທັກ (frequency rank: 3126, count: 5) [✓]
+26. ທັ່ງ (frequency rank: 3127, count: 5) [✓]
+27. ທິດສະດີ (frequency rank: 3129, count: 5) [✓]
+28. ທຸງ (frequency rank: 3132, count: 5) [✓]
+29. ທົ່ງໄຫຫີນ (frequency rank: 3133, count: 5) [✓]
+30. ນາໆຊາດ (frequency rank: 3139, count: 5) [✓]
+31. ບວດ (frequency rank: 3141, count: 5) [✓]
+32. ບັ້ງ (frequency rank: 3143, count: 5) [✓]
+33. ບິງ (frequency rank: 3145, count: 5) [✓]
+34. ບົກ (frequency rank: 3148, count: 5) [✓]
+35. ບໍລິການ (frequency rank: 3149, count: 5) [✓]
+36. ປະເທດກຳປູເຈຍ (frequency rank: 3158, count: 5) [✓]
+37. ປະເທດຫວຽດນາມ (frequency rank: 3159, count: 5) [✓]
+38. ປາມ (frequency rank: 3163, count: 5) [✓]
+39. ປຸກ (frequency rank: 3164, count: 5) [✓]
+40. ປົກປັກຮັກສາ (frequency rank: 3165, count: 5) [✓]
+41. ປົວ (frequency rank: 3166, count: 5) [✓]
+42. ຜິດພາດ (frequency rank: 3169, count: 5) [✓]
+43. ຜູ້ຍິງ (frequency rank: 3170, count: 5) [✓]
+44. ຜົ້ງ (frequency rank: 3172, count: 5) [✓]
+45. ຜ່ອງ (frequency rank: 3173, count: 5) [✓]
+46. ຝືນ (frequency rank: 3175, count: 5) [✓]
+47. ຝຸ່ນ (frequency rank: 3176, count: 5) [✓]
+48. ພະລັງງານໄຟຟ້າ (frequency rank: 3181, count: 5) [✓]
+49. ພາກສ່ວນ (frequency rank: 3185, count: 5) [✓]
+50. ພາສາລາວ (frequency rank: 3186, count: 5) [✓]

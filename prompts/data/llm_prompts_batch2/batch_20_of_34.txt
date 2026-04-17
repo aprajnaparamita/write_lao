@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຈັດການ (frequency rank: 2719, count: 6) [✓]
+2. ຈູດ (frequency rank: 2720, count: 6) [✓]
+3. ຈ້ອງ (frequency rank: 2721, count: 6) [✓]
+4. ຊອງ (frequency rank: 2722, count: 6) [✓]
+5. ຊິງ (frequency rank: 2724, count: 6) [✓]
+6. ຊ້ຳ (frequency rank: 2725, count: 6) [✓]
+7. ຍວນ (frequency rank: 2726, count: 6) [✓]
+8. ຍ້ອນວ່າ (frequency rank: 2730, count: 6) [✓]
+9. ດຸນ (frequency rank: 2732, count: 6) [✓]
+10. ດົນຕີ (frequency rank: 2735, count: 6) [✓]
+11. ຕຸຍ (frequency rank: 2739, count: 6) [✓]
+12. ຕົກລົງ (frequency rank: 2740, count: 6) [✓]
+13. ຕົ້ນຕໍ (frequency rank: 2741, count: 6) [✓]
+14. ຕົ້ມ (frequency rank: 2742, count: 6) [✓]
+15. ຕ້ອນ (frequency rank: 2744, count: 6) [✓]
+16. ຖືກຕ້ອງ (frequency rank: 2747, count: 6) [✓]
+17. ຖ້ຽວ (frequency rank: 2749, count: 6) [✓]
+18. ທາມ (frequency rank: 2752, count: 6) [✓]
+19. ທຳມະຊາດ (frequency rank: 2753, count: 6) [✓]
+20. ທົນ (frequency rank: 2755, count: 6) [✓]
+21. ທ້ອງຖິ່ນ (frequency rank: 2756, count: 6) [✓]
+22. ນາທີ (frequency rank: 2760, count: 6) [✓]
+23. ນິກ (frequency rank: 2763, count: 6) [✓]
+24. ນີ່ (frequency rank: 2765, count: 6) [✓]
+25. ນົງ (frequency rank: 2766, count: 6) [✓]
+26. ບືນ (frequency rank: 2767, count: 6) [✓]
+27. ບົດຮຽນ (frequency rank: 2768, count: 6) [✓]
+28. ບໍລິຫານ (frequency rank: 2769, count: 6) [✓]
+29. ປວດ (frequency rank: 2771, count: 6) [✓]
+30. ປອກ (frequency rank: 2772, count: 6) [✓]
+31. ປະກັນ (frequency rank: 2774, count: 6) [✓]
+32. ປະກາດ (frequency rank: 2775, count: 6) [✓]
+33. ປັ້ນ (frequency rank: 2776, count: 6) [✓]
+34. ປ້າ (frequency rank: 2778, count: 6) [✓]
+35. ຜາດ (frequency rank: 2779, count: 6) [✓]
+36. ຜີ (frequency rank: 2780, count: 6) [✓]
+37. ຜູ້ຊົມໃຊ້ (frequency rank: 2781, count: 6) [✓]
+38. ຝັນ (frequency rank: 2785, count: 6) [✓]
+39. ພຣີ (frequency rank: 2786, count: 6) [✓]
+40. ພະຍາດ (frequency rank: 2788, count: 6) [✓]
+41. ພື້ນທີ່ (frequency rank: 2794, count: 6) [✓]
+42. ພົມມະຈັນ (frequency rank: 2796, count: 6) [✓]
+43. ຟິກ (frequency rank: 2801, count: 6) [✓]
+44. ມາກ (frequency rank: 2808, count: 6) [✓]
+45. ມຸ (frequency rank: 2811, count: 6) [✓]
+46. ຢາຍ (frequency rank: 2812, count: 6) [✓]
+47. ຢືນຢັນ (frequency rank: 2813, count: 6) [✓]
+48. ຢູ່ໃນ (frequency rank: 2814, count: 6) [✓]
+49. ຣັດເຊຍ (frequency rank: 2816, count: 6) [✓]
+50. ລອກ (frequency rank: 2818, count: 6) [✓]

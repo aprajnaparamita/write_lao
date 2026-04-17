@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ລົ້ນ (frequency rank: 3870, count: 4) [✓]
+2. ລ່າ (frequency rank: 3871, count: 4) [✓]
+3. ລ້ຽງສັດ (frequency rank: 3874, count: 4) [✓]
+4. ວານ (frequency rank: 3882, count: 4) [✓]
+5. ວິນລຽມ (frequency rank: 3886, count: 4) [✓]
+6. ວຽນ (frequency rank: 3888, count: 4) [✓]
+7. ວ່າການ (frequency rank: 3889, count: 4) [✓]
+8. ສວຍງາມ (frequency rank: 3893, count: 4) [✓]
+9. ສະຕະວັດ (frequency rank: 3901, count: 4) [✓]
+10. ສະຖານທີ່ (frequency rank: 3902, count: 4) [✓]
+11. ສະຖານະ (frequency rank: 3903, count: 4) [✓]
+12. ສະຖາປັດຕະຍະກຳ (frequency rank: 3904, count: 4) [✓]
+13. ສະບາຍດີ (frequency rank: 3905, count: 4) [✓]
+14. ສະປອດ (frequency rank: 3906, count: 4) [✓]
+15. ສະພາວະເງິນເຟີ້ (frequency rank: 3907, count: 4) [✓]
+16. ສະເລ່ຍ (frequency rank: 3910, count: 4) [✓]
+17. ສັນຍາ (frequency rank: 3916, count: 4) [✓]
+18. ສັນຍານ (frequency rank: 3917, count: 4) [✓]
+19. ສາລີ (frequency rank: 3921, count: 4) [✓]
+20. ສຳປະສິດ (frequency rank: 3922, count: 4) [✓]
+21. ສິລິ (frequency rank: 3925, count: 4) [✓]
+22. ສີແດງ (frequency rank: 3929, count: 4) [✓]
+23. ສືບຕໍ່ (frequency rank: 3931, count: 4) [✓]
+24. ສົງຄາມ (frequency rank: 3938, count: 4) [✓]
+25. ສ້າງຂຶ້ນ (frequency rank: 3942, count: 4) [✓]
+26. ຫຍ້າ (frequency rank: 3947, count: 4) [✓]
+27. ຫນ່ວຍ (frequency rank: 3948, count: 4) [✓]
+28. ຫວງ (frequency rank: 3950, count: 4) [✓]
+29. ຫຼັກການ (frequency rank: 3953, count: 4) [✓]
+30. ຫ້ອງການ (frequency rank: 3957, count: 4) [✓]
+31. ຫ້ອງນ້ຳ (frequency rank: 3958, count: 4) [✓]
+32. ຫໍ່ (frequency rank: 3960, count: 4) [✓]
+33. ອະດີດ (frequency rank: 3964, count: 4) [✓]
+34. ອັດຕາສ່ວນ (frequency rank: 3966, count: 4) [✓]
+35. ອາກ (frequency rank: 3968, count: 4) [✓]
+36. ອານາຈັກ (frequency rank: 3971, count: 4) [✓]
+37. ອາຣັບ (frequency rank: 3972, count: 4) [✓]
+38. ອຳນາດຕຸລາການ (frequency rank: 3974, count: 4) [✓]
+39. ອຳນາດນິຕິບັນຍັດ (frequency rank: 3975, count: 4) [✓]
+40. ອຸຍ (frequency rank: 3979, count: 4) [✓]
+41. ອຸດົມ (frequency rank: 3980, count: 4) [✓]
+42. ອຸດົມໄຊ (frequency rank: 3981, count: 4) [✓]
+43. ອໍ (frequency rank: 3987, count: 4) [✓]
+44. ຮີ (frequency rank: 3993, count: 4) [✓]
+45. ຮູບເງົາ (frequency rank: 3994, count: 4) [✓]
+46. ຮຽກຮ້ອງ (frequency rank: 3995, count: 4) [✓]
+47. ເກົາ (frequency rank: 4000, count: 4) [✓]
+48. ເຂັ້ມງວດ (frequency rank: 4001, count: 4) [✓]
+49. ເຄື່ອງມື (frequency rank: 4005, count: 4) [✓]
+50. ເຄົາລົບ (frequency rank: 4006, count: 4) [✓]

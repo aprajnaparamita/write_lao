@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ປະຈໍາ (frequency rank: 3753, count: 4) [✓]
+2. ປະເທດຈີນ (frequency rank: 3758, count: 4) [✓]
+3. ປະເທດຊາດ (frequency rank: 3759, count: 4) [✓]
+4. ປະເທດຍີ່ປຸ່ນ (frequency rank: 3760, count: 4) [✓]
+5. ປະເພດ (frequency rank: 3761, count: 4) [✓]
+6. ປະເພນີ (frequency rank: 3762, count: 4) [✓]
+7. ປິ (frequency rank: 3764, count: 4) [✓]
+8. ປິກ (frequency rank: 3765, count: 4) [✓]
+9. ປຸ້ນ (frequency rank: 3770, count: 4) [✓]
+10. ປົງ (frequency rank: 3771, count: 4) [✓]
+11. ປ້ຳ (frequency rank: 3773, count: 4) [✓]
+12. ຜະ (frequency rank: 3775, count: 4) [✓]
+13. ຜະລິດຕະພາບ (frequency rank: 3776, count: 4) [✓]
+14. ຜາຍ (frequency rank: 3777, count: 4) [✓]
+15. ຜູ້ຊາຍ (frequency rank: 3779, count: 4) [✓]
+16. ຜູ້ປົກຄອງ (frequency rank: 3780, count: 4) [✓]
+17. ຝະລັ່ງ (frequency rank: 3785, count: 4) [✓]
+18. ພຣະທາດຫຼວງ (frequency rank: 3787, count: 4) [✓]
+19. ພວກເຮົາ (frequency rank: 3790, count: 4) [✓]
+20. ພອຍ (frequency rank: 3791, count: 4) [✓]
+21. ພະລັງງານ (frequency rank: 3793, count: 4) [✓]
+22. ພະເຈົ້າ (frequency rank: 3794, count: 4) [✓]
+23. ພາຍຫລັງ (frequency rank: 3800, count: 4) [✓]
+24. ພາຍໃນ (frequency rank: 3801, count: 4) [✓]
+25. ພາດ (frequency rank: 3803, count: 4) [✓]
+26. ພາສາຫວຽດນາມ (frequency rank: 3804, count: 4) [✓]
+27. ພາສາໄທ (frequency rank: 3805, count: 4) [✓]
+28. ພິຈິດ (frequency rank: 3806, count: 4) [✓]
+29. ພິລາວັນ (frequency rank: 3807, count: 4) [✓]
+30. ພຶດຊະຄະນິດ (frequency rank: 3808, count: 4) [✓]
+31. ພື້ນຖານ (frequency rank: 3809, count: 4) [✓]
+32. ພຸ່ງ (frequency rank: 3810, count: 4) [✓]
+33. ພຽງພໍ (frequency rank: 3815, count: 4) [✓]
+34. ພຽນ (frequency rank: 3816, count: 4) [✓]
+35. ຟອກ (frequency rank: 3819, count: 4) [✓]
+36. ມະຫາວິທະຍາໄລ (frequency rank: 3823, count: 4) [✓]
+37. ມາຈາກ (frequency rank: 3824, count: 4) [✓]
+38. ມຸນ (frequency rank: 3833, count: 4) [✓]
+39. ມໍ່ໆ (frequency rank: 3835, count: 4) [✓]
+40. ຢືນ (frequency rank: 3838, count: 4) [✓]
+41. ຢ້າວ (frequency rank: 3843, count: 4) [✓]
+42. ຣຸດ (frequency rank: 3846, count: 4) [✓]
+43. ລອນດອນ (frequency rank: 3849, count: 4) [✓]
+44. ລະດູການ (frequency rank: 3850, count: 4) [✓]
+45. ລັດວິສາຫະກິດ (frequency rank: 3857, count: 4) [✓]
+46. ລາບ (frequency rank: 3859, count: 4) [✓]
+47. ລີ້ນ (frequency rank: 3863, count: 4) [✓]
+48. ລຸ (frequency rank: 3865, count: 4) [✓]
+49. ລຸງ (frequency rank: 3866, count: 4) [✓]
+50. ລົດໄຟຟ້າ (frequency rank: 3869, count: 4) [✓]

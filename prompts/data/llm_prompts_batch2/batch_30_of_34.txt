@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ເຈ (frequency rank: 4007, count: 4) [✓]
+2. ເຈດ (frequency rank: 4008, count: 4) [✓]
+3. ເຈລະຈາ (frequency rank: 4009, count: 4) [✓]
+4. ເຈັດ (frequency rank: 4010, count: 4) [✓]
+5. ເດັດ (frequency rank: 4014, count: 4) [✓]
+6. ເຕັກນິກ (frequency rank: 4015, count: 4) [✓]
+7. ເຕັ້ນ (frequency rank: 4016, count: 4) [✓]
+8. ເຕົ່າ (frequency rank: 4017, count: 4) [✓]
+9. ເຖິງແມ່ນວ່າ (frequency rank: 4021, count: 4) [✓]
+10. ເທົ່າກັນ (frequency rank: 4023, count: 4) [✓]
+11. ເຜີ້ງ (frequency rank: 4032, count: 4) [✓]
+12. ເຟີ້ (frequency rank: 4039, count: 4) [✓]
+13. ເຟືອຍ (frequency rank: 4040, count: 4) [✓]
+14. ເມັກ (frequency rank: 4041, count: 4) [✓]
+15. ເຢີ (frequency rank: 4046, count: 4) [✓]
+16. ເລກທີ (frequency rank: 4048, count: 4) [✓]
+17. ເລຂາ (frequency rank: 4049, count: 4) [✓]
+18. ເລນ (frequency rank: 4050, count: 4) [✓]
+19. ເລັ່ນ (frequency rank: 4052, count: 4) [✓]
+20. ເລືອກຕັ້ງ (frequency rank: 4055, count: 4) [✓]
+21. ເວດ (frequency rank: 4056, count: 4) [✓]
+22. ເວັ້ນ (frequency rank: 4059, count: 4) [✓]
+23. ເວົ້າວ່າ (frequency rank: 4060, count: 4) [✓]
+24. ເສດຖະສາດມະຫາພາກ (frequency rank: 4062, count: 4) [✓]
+25. ເສັ້ນໂຄ້ງ (frequency rank: 4063, count: 4) [✓]
+26. ເສືອ (frequency rank: 4064, count: 4) [✓]
+27. ເສື່ອມ (frequency rank: 4065, count: 4) [✓]
+28. ເສົ້າ (frequency rank: 4067, count: 4) [✓]
+29. ເຫລົ່າ (frequency rank: 4068, count: 4) [✓]
+30. ເອກະລາດ (frequency rank: 4070, count: 4) [✓]
+31. ເອັດ (frequency rank: 4072, count: 4) [✓]
+32. ເອັນ (frequency rank: 4073, count: 4) [✓]
+33. ເອັມ (frequency rank: 4074, count: 4) [✓]
+34. ເອີຍ (frequency rank: 4075, count: 4) [✓]
+35. ເອື້ອຍ (frequency rank: 4076, count: 4) [✓]
+36. ເອເລັກໂຕຣນິກ (frequency rank: 4078, count: 4) [✓]
+37. ເໜັງ (frequency rank: 4079, count: 4) [✓]
+38. ແກນ (frequency rank: 4080, count: 4) [✓]
+39. ແກຣນ (frequency rank: 4082, count: 4) [✓]
+40. ແງ່ (frequency rank: 4087, count: 4) [✓]
+41. ແຍງ (frequency rank: 4089, count: 4) [✓]
+42. ແຍ່ (frequency rank: 4090, count: 4) [✓]
+43. ແທກ (frequency rank: 4092, count: 4) [✓]
+44. ແບກ (frequency rank: 4094, count: 4) [✓]
+45. ແປກ (frequency rank: 4096, count: 4) [✓]
+46. ແປ້ງ (frequency rank: 4097, count: 4) [✓]
+47. ແມ່ນແຕ່ (frequency rank: 4099, count: 4) [✓]
+48. ແມ່ນ້ຳ (frequency rank: 4100, count: 4) [✓]
+49. ແວ່ນ (frequency rank: 4104, count: 4) [✓]
+50. ໂກ້ (frequency rank: 4106, count: 4) [✓]

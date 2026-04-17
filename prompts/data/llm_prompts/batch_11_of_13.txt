@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON with the same filename with .json appended in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ເຕັມ (frequency rank: 764, count: 40) [✓]
+2. ໂຕນ (frequency rank: 766, count: 40) [✓]
+3. ກະຊວງການຕ່າງປະເທດ (frequency rank: 768, count: 39) [✓]
+4. ກົງ (frequency rank: 769, count: 39) [✓]
+5. ຂັບ (frequency rank: 771, count: 39) [✓]
+6. ຕື້ກີບ (frequency rank: 772, count: 39) [⚠]
+7. ນາຍົກລັດຖະມົນຕີ (frequency rank: 775, count: 39) [✓]
+8. ປູກ (frequency rank: 776, count: 39) [✓]
+9. ພໍ (frequency rank: 777, count: 39) [✓]
+10. ສສຊ (frequency rank: 778, count: 39) [⚠]
+11. ຫວັດ (frequency rank: 779, count: 39) [✓]
+12. ຫ້າມ (frequency rank: 780, count: 39) [✓]
+13. ໂທ (frequency rank: 783, count: 39) [✓]
+14. ໃກ້ (frequency rank: 784, count: 39) [✓]
+15. ກວມ (frequency rank: 785, count: 38) [✓]
+16. ກາຍ (frequency rank: 786, count: 38) [✓]
+17. ຊາບ (frequency rank: 788, count: 38) [✓]
+18. ຕິ (frequency rank: 789, count: 38) [✓]
+19. ຫະ (frequency rank: 792, count: 38) [⚠]
+20. ອົກ (frequency rank: 795, count: 38) [✓]
+21. ອົດ (frequency rank: 796, count: 38) [✓]
+22. ເມ (frequency rank: 797, count: 38) [✓]
+23. ແດ່ (frequency rank: 798, count: 38) [✓]
+24. ດັ່ງກ່າວ (frequency rank: 802, count: 37) [✓]
+25. ນ້ອງ (frequency rank: 805, count: 37) [✓]
+26. ປະຈຳ (frequency rank: 808, count: 37) [✓]
+27. ຫໍ (frequency rank: 813, count: 37) [✓]
+28. ເກດ (frequency rank: 814, count: 37) [✓]
+29. ເປັນຕົ້ນ (frequency rank: 816, count: 37) [✓]
+30. ເພງ (frequency rank: 817, count: 37) [✓]
+31. ເລີດ (frequency rank: 818, count: 37) [✓]
+32. ແບ່ງ (frequency rank: 819, count: 37) [✓]
+33. ຄູ (frequency rank: 822, count: 36) [✓]
+34. ຄ້ວ (frequency rank: 823, count: 36) [⚠]
+35. ຊຽງ (frequency rank: 824, count: 36) [✓]
+36. ຕູ້ (frequency rank: 826, count: 36) [✓]
+37. ທຸກໆ (frequency rank: 827, count: 36) [⚠]
+38. ນອນ (frequency rank: 828, count: 36) [✓]
+39. ສິນຄ້າ (frequency rank: 834, count: 36) [✓]
+40. ຮອງນາຍົກລັດຖະມົນຕີ (frequency rank: 835, count: 36) [⚠]
+41. ຮ້າຍ (frequency rank: 836, count: 36) [✓]
+42. ເກັບ (frequency rank: 837, count: 36) [✓]
+43. ເສດຖະກິດ (frequency rank: 838, count: 36) [✓]
+44. ແພງ (frequency rank: 839, count: 36) [✓]
+45. ການພິມ (frequency rank: 841, count: 35) [✓]
+46. ຈຸ (frequency rank: 843, count: 35) [✓]
+47. ບຸກ (frequency rank: 845, count: 35) [✓]
+48. ສະຫາຍ (frequency rank: 852, count: 35) [✓]
+49. ເສບ (frequency rank: 853, count: 35) [✓]
+50. ເສີມ (frequency rank: 854, count: 35) [✓]

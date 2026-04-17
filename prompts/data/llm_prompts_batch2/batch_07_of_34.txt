@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ໝໍ (frequency rank: 1546, count: 16) [✓]
+2. ກຳນົດ (frequency rank: 1553, count: 15) [✓]
+3. ຂົວ (frequency rank: 1554, count: 15) [✓]
+4. ຄສ (frequency rank: 1557, count: 15) [⚠]
+5. ຄອມພິວເຕີ (frequency rank: 1558, count: 15) [✓]
+6. ຊີຕີ (frequency rank: 1559, count: 15) [⚠]
+7. ຊຸດທີ (frequency rank: 1560, count: 15) [⚠]
+8. ຍ່ອມ (frequency rank: 1562, count: 15) [✓]
+9. ຕັນ (frequency rank: 1564, count: 15) [✓]
+10. ຖອນ (frequency rank: 1567, count: 15) [✓]
+11. ທັງໝົດ (frequency rank: 1568, count: 15) [✓]
+12. ທາດ (frequency rank: 1569, count: 15) [✓]
+13. ທ້ອງ (frequency rank: 1570, count: 15) [✓]
+14. ນະຄອນຫລວງວຽງຈັນ (frequency rank: 1571, count: 15) [⚠]
+15. ນະຄອນຫຼວງ (frequency rank: 1572, count: 15) [✓]
+16. ປະກອບຈາກທັງໝົດ (frequency rank: 1573, count: 15) [⚠]
+17. ປາບ (frequency rank: 1574, count: 15) [✓]
+18. ປີກ (frequency rank: 1575, count: 15) [✓]
+19. ປ່ຽນ (frequency rank: 1576, count: 15) [✓]
+20. ພືດ (frequency rank: 1579, count: 15) [✓]
+21. ພົ້ນ (frequency rank: 1580, count: 15) [✓]
+22. ລວມທັງ (frequency rank: 1581, count: 15) [⚠]
+23. ລານ (frequency rank: 1584, count: 15) [✓]
+24. ລ່າງ (frequency rank: 1585, count: 15) [✓]
+25. ລ້ວນ (frequency rank: 1586, count: 15) [✓]
+26. ສົງ (frequency rank: 1590, count: 15) [✓]
+27. ຫງວ (frequency rank: 1592, count: 15) [⚠]
+28. ອາຊຽນ (frequency rank: 1593, count: 15) [✓]
+29. ອຳ (frequency rank: 1594, count: 15) [✓]
+30. ຮສ (frequency rank: 1595, count: 15) [⚠]
+31. ຯລຯ (frequency rank: 1597, count: 15) [⚠]
+32. ເກົາຫຼີ (frequency rank: 1598, count: 15) [✓]
+33. ເຄ (frequency rank: 1599, count: 15) [✓]
+34. ເບ້ຍ (frequency rank: 1600, count: 15) [✓]
+35. ເຜົ່າ (frequency rank: 1601, count: 15) [✓]
+36. ເວ (frequency rank: 1602, count: 15) [✓]
+37. ເສດ (frequency rank: 1603, count: 15) [✓]
+38. ເຫຼົ່າ (frequency rank: 1604, count: 15) [✓]
+39. ແກຣມ (frequency rank: 1605, count: 15) [⚠]
+40. ໂຈ (frequency rank: 1606, count: 15) [✓]
+41. ໂດຍສະເພາະ (frequency rank: 1607, count: 15) [✓]
+42. ໂຮງຮຽນ (frequency rank: 1608, count: 15) [✓]
+43. ກວາງ (frequency rank: 1615, count: 14) [✓]
+44. ການຄ້າ (frequency rank: 1616, count: 14) [✓]
+45. ການຮ່ວມມື (frequency rank: 1617, count: 14) [✓]
+46. ກີລາ (frequency rank: 1618, count: 14) [✓]
+47. ຂີ້ (frequency rank: 1619, count: 14) [✓]
+48. ຈີ (frequency rank: 1621, count: 14) [✓]
+49. ຊັງ (frequency rank: 1622, count: 14) [✓]
+50. ຊື່ວ່າ (frequency rank: 1623, count: 14) [⚠]

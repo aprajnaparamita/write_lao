@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຟີ (frequency rank: 1721, count: 13) [⚠]
+2. ຟື້ນ (frequency rank: 1722, count: 13) [✓]
+3. ຟູ (frequency rank: 1723, count: 13) [✓]
+4. ຢ່າງເປັນທາງການ (frequency rank: 1724, count: 13) [⚠]
+5. ລວງ (frequency rank: 1725, count: 13) [✓]
+6. ລໍ (frequency rank: 1728, count: 13) [✓]
+7. ວະ (frequency rank: 1729, count: 13) [✓]
+8. ວໍລະຈິດ (frequency rank: 1731, count: 13) [⚠]
+9. ສຈດຣ (frequency rank: 1732, count: 13) [⚠]
+10. ສະບັບ (frequency rank: 1736, count: 13) [✓]
+11. ຫລວງພະບາງ (frequency rank: 1739, count: 13) [⚠]
+12. ຫາງ (frequency rank: 1740, count: 13) [✓]
+13. ຫີນ (frequency rank: 1741, count: 13) [✓]
+14. ອັດຕາດອກເບ້ຍ (frequency rank: 1743, count: 13) [✓]
+15. ອາກາດ (frequency rank: 1745, count: 13) [✓]
+16. ເກົາຫລີ (frequency rank: 1748, count: 13) [✓]
+17. ເຊັມ (frequency rank: 1749, count: 13) [⚠]
+18. ເດັກນ້ອຍ (frequency rank: 1750, count: 13) [✓]
+19. ເທົ່ານັ້ນ (frequency rank: 1752, count: 13) [✓]
+20. ເຝິກ (frequency rank: 1754, count: 13) [✓]
+21. ເວນ (frequency rank: 1755, count: 13) [✓]
+22. ເວນເກີ (frequency rank: 1756, count: 13) [⚠]
+23. ເຮັດໃຫ້ (frequency rank: 1758, count: 13) [✓]
+24. ເຮືອງ (frequency rank: 1759, count: 13) [✓]
+25. ແຂວງຫົວພັນ (frequency rank: 1760, count: 13) [✓]
+26. ແລ (frequency rank: 1761, count: 13) [✓]
+27. ໂຄງການ (frequency rank: 1762, count: 13) [✓]
+28. ໂຢ (frequency rank: 1763, count: 13) [✓]
+29. ໃຫ້ຮູ້ວ່າ (frequency rank: 1764, count: 13) [⚠]
+30. ກວ່າຄົນ (frequency rank: 1773, count: 12) [⚠]
+31. ການສະໜອງ (frequency rank: 1774, count: 12) [✓]
+32. ຄອນ (frequency rank: 1778, count: 12) [✓]
+33. ຄະນິດສາດ (frequency rank: 1779, count: 12) [✓]
+34. ຄາວ (frequency rank: 1780, count: 12) [✓]
+35. ຈາກນັ້ນ (frequency rank: 1782, count: 12) [⚠]
+36. ຈິ (frequency rank: 1783, count: 12) [✓]
+37. ຊັກ (frequency rank: 1784, count: 12) [✓]
+38. ຊ່ອງ (frequency rank: 1785, count: 12) [✓]
+39. ຍ່ອຍ (frequency rank: 1786, count: 12) [✓]
+40. ດ່ວນ (frequency rank: 1787, count: 12) [✓]
+41. ຕື່ນ (frequency rank: 1788, count: 12) [✓]
+42. ທອນ (frequency rank: 1790, count: 12) [✓]
+43. ທີ່ກະຊວງການຕ່າງປະເທດ (frequency rank: 1791, count: 12) [⚠]
+44. ທົ່ງ (frequency rank: 1792, count: 12) [✓]
+45. ນາກ (frequency rank: 1794, count: 12) [✓]
+46. ບ້າ (frequency rank: 1796, count: 12) [✓]
+47. ປະຈຸ (frequency rank: 1798, count: 12) [✓]
+48. ປະລິມານ (frequency rank: 1799, count: 12) [✓]
+49. ປຸງ (frequency rank: 1800, count: 12) [✓]
+50. ປູ (frequency rank: 1801, count: 12) [✓]

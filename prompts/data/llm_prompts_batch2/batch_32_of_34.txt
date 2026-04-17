@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຄົນອື່ນ (frequency rank: 4485, count: 3) [✓]
+2. ຄົວ (frequency rank: 4487, count: 3) [✓]
+3. ຄໍ້ (frequency rank: 4491, count: 3) [✓]
+4. ງູ (frequency rank: 4493, count: 3) [✓]
+5. ງົບ (frequency rank: 4494, count: 3) [✓]
+6. ງົບປະມານ (frequency rank: 4495, count: 3) [✓]
+7. ຈັກພິມ (frequency rank: 4501, count: 3) [✓]
+8. ຈັງຫວັດ (frequency rank: 4502, count: 3) [✓]
+9. ຈັດຕັ້ງ (frequency rank: 4503, count: 3) [✓]
+10. ຈຳນວນຖ້ວນ (frequency rank: 4510, count: 3) [✓]
+11. ຈົມ (frequency rank: 4515, count: 3) [✓]
+12. ຈ້ຳ (frequency rank: 4519, count: 3) [✓]
+13. ຊອນ (frequency rank: 4521, count: 3) [✓]
+14. ຊັງຕີແມັດ (frequency rank: 4522, count: 3) [✓]
+15. ຊາວນາ (frequency rank: 4529, count: 3) [✓]
+16. ຊິດ (frequency rank: 4530, count: 3) [✓]
+17. ຊືນ (frequency rank: 4532, count: 3) [✓]
+18. ຊຸບ (frequency rank: 4535, count: 3) [✓]
+19. ຊົມເຊີຍ (frequency rank: 4538, count: 3) [✓]
+20. ຊົ່ວຄາວ (frequency rank: 4539, count: 3) [✓]
+21. ຊ່ວຍວ່າການ (frequency rank: 4541, count: 3) [✓]
+22. ຊ່ວຍເຫລືອ (frequency rank: 4542, count: 3) [✓]
+23. ຍອມຮັບ (frequency rank: 4543, count: 3) [✓]
+24. ຍັກ (frequency rank: 4544, count: 3) [✓]
+25. ຍານພາຫະນະ (frequency rank: 4546, count: 3) [✓]
+26. ຍືນຍົງ (frequency rank: 4549, count: 3) [✓]
+27. ຍູ້ (frequency rank: 4550, count: 3) [✓]
+28. ຍົກຍ້າຍ (frequency rank: 4551, count: 3) [✓]
+29. ຍົດ (frequency rank: 4552, count: 3) [✓]
+30. ຍ່າ (frequency rank: 4553, count: 3) [✓]
+31. ດວງຈັນ (frequency rank: 4555, count: 3) [✓]
+32. ດັກ (frequency rank: 4556, count: 3) [✓]
+33. ດາກ (frequency rank: 4560, count: 3) [✓]
+34. ດາຣູຊາລາມ (frequency rank: 4561, count: 3) [✓]
+35. ດຳລົງ (frequency rank: 4562, count: 3) [✓]
+36. ດິງ (frequency rank: 4563, count: 3) [✓]
+37. ດິນໜຽວ (frequency rank: 4564, count: 3) [✓]
+38. ດູນ (frequency rank: 4565, count: 3) [✓]
+39. ດົ່ງ (frequency rank: 4566, count: 3) [✓]
+40. ດ້ວງ (frequency rank: 4567, count: 3) [✓]
+41. ຕະການ (frequency rank: 4573, count: 3) [✓]
+42. ຕັກ (frequency rank: 4575, count: 3) [✓]
+43. ຕັ້ງຂຶ້ນ (frequency rank: 4578, count: 3) [✓]
+44. ຕາງ (frequency rank: 4581, count: 3) [✓]
+45. ຕາດ (frequency rank: 4582, count: 3) [✓]
+46. ຕານ (frequency rank: 4583, count: 3) [✓]
+47. ຕາເວັນ (frequency rank: 4586, count: 3) [✓]
+48. ຕິກ (frequency rank: 4589, count: 3) [✓]
+49. ຕິງ (frequency rank: 4590, count: 3) [✓]
+50. ຕິດຕໍ່ (frequency rank: 4593, count: 3) [✓]

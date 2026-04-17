@@ -1,0 +1,25 @@
+{
+  "pipeline_stage": "Step 3: POST PROCESS",
+  "total_llm_prompts": 14,
+  "prompts": {
+    "batch_prompts": {
+      "count": 13,
+      "pattern": "batch_XX_of_13.txt",
+      "purpose": "Rank words 1-50 by conversational usefulness, assign category"
+    },
+    "function_word_prompt": {
+      "filename": "function_word_extraction.txt",
+      "purpose": "Identify essential function words (particles, classifiers, pronouns)"
+    }
+  },
+  "post_processing": {
+    "keep_top_n_per_batch": 30,
+    "discard_formal": true,
+    "max_function_words": 50
+  },
+  "expected_output": {
+    "survivors_from_batches": "~420-480 words",
+    "function_words": "up to 50 words",
+    "total_after_merge": "~470-530 words"
+  }
+}

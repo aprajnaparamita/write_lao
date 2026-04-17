@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON with the same filename with .json appended in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ເວົ້າ (frequency rank: 277, count: 133) [✓]
+2. ໄຂ (frequency rank: 279, count: 133) [✓]
+3. ຄິດ (frequency rank: 281, count: 132) [✓]
+4. ຊົນ (frequency rank: 282, count: 132) [✓]
+5. ຫ້ອງ (frequency rank: 284, count: 132) [✓]
+6. ເອກ (frequency rank: 285, count: 132) [✓]
+7. ກ່ຽວ (frequency rank: 288, count: 130) [✓]
+8. ທົ່ວ (frequency rank: 295, count: 124) [✓]
+9. ແກ້ (frequency rank: 297, count: 124) [✓]
+10. ຫວຽດນາມ (frequency rank: 298, count: 123) [✓]
+11. ຕື່ມ (frequency rank: 301, count: 122) [✓]
+12. ຖ້າ (frequency rank: 304, count: 120) [✓]
+13. ແສງ (frequency rank: 305, count: 120) [✓]
+14. ໝົດ (frequency rank: 306, count: 120) [✓]
+15. ໂມງ (frequency rank: 307, count: 119) [✓]
+16. ໝາຍ (frequency rank: 308, count: 119) [✓]
+17. ນະ (frequency rank: 309, count: 118) [✓]
+18. ພາຍ (frequency rank: 310, count: 118) [✓]
+19. ແຈ້ງ (frequency rank: 312, count: 117) [✓]
+20. ບັນ (frequency rank: 318, count: 114) [✓]
+21. ພາກ (frequency rank: 319, count: 114) [✓]
+22. ຖື (frequency rank: 322, count: 113) [✓]
+23. ສອນ (frequency rank: 323, count: 113) [✓]
+24. ແນວ (frequency rank: 324, count: 113) [✓]
+25. ກວ່າ (frequency rank: 325, count: 112) [✓]
+26. ລວມ (frequency rank: 328, count: 111) [✓]
+27. ໃຈ (frequency rank: 329, count: 111) [✓]
+28. ໃດ (frequency rank: 330, count: 111) [✓]
+29. ໄທ (frequency rank: 331, count: 111) [✓]
+30. ກ່ອນ (frequency rank: 333, count: 109) [✓]
+31. ເປີດ (frequency rank: 334, count: 109) [✓]
+32. ເອງ (frequency rank: 335, count: 109) [✓]
+33. ແມັດ (frequency rank: 336, count: 109) [✓]
+34. ກາ (frequency rank: 337, count: 108) [✓]
+35. ກຸ່ມ (frequency rank: 338, count: 108) [✓]
+36. ຊີ (frequency rank: 339, count: 108) [✓]
+37. ເຊີນ (frequency rank: 341, count: 108) [✓]
+38. ທຶນ (frequency rank: 344, count: 107) [✓]
+39. ພາບ (frequency rank: 346, count: 106) [✓]
+40. ມີນາ (frequency rank: 347, count: 106) [✓]
+41. ແຮງ (frequency rank: 348, count: 106) [✓]
+42. ກິນ (frequency rank: 350, count: 105) [✓]
+43. ຢາກ (frequency rank: 351, count: 105) [✓]
+44. ຢາ (frequency rank: 353, count: 104) [✓]
+45. ຄະ (frequency rank: 354, count: 103) [✓]
+46. ບົດ (frequency rank: 356, count: 103) [✓]
+47. ສາຍ (frequency rank: 357, count: 103) [✓]
+48. ເຊ (frequency rank: 359, count: 102) [✓]
+49. ຕິດ (frequency rank: 361, count: 101) [✓]
+50. ສິ່ງ (frequency rank: 365, count: 100) [✓]

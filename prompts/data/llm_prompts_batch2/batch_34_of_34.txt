@@ -1,0 +1,44 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຜູ້ຊົມ (frequency rank: 4754, count: 3) [✓]
+2. ຜູ້ໃຊ້ (frequency rank: 4758, count: 3) [✓]
+3. ຜົງ (frequency rank: 4760, count: 3) [✓]
+4. ຜົນປະໂຫຍດ (frequency rank: 4761, count: 3) [✓]
+5. ຝາ (frequency rank: 4762, count: 3) [✓]
+6. ພະຍາກອນ (frequency rank: 4771, count: 3) [✓]
+7. ພະຍາຍາມ (frequency rank: 4772, count: 3) [✓]
+8. ພັນເອກ (frequency rank: 4781, count: 3) [✓]
+9. ພາກພື້ນ (frequency rank: 4782, count: 3) [✓]
+10. ພາລະກິດ (frequency rank: 4785, count: 3) [✓]
+11. ພາວະ (frequency rank: 4786, count: 3) [✓]
+12. ພາສາເກຣັກ (frequency rank: 4787, count: 3) [✓]
+13. ພິດ (frequency rank: 4789, count: 3) [✓]
+14. ພີ່ (frequency rank: 4791, count: 3) [✓]
+15. ພູມີ (frequency rank: 4794, count: 3) [✓]
+16. ພົນທະຫານ (frequency rank: 4796, count: 3) [✓]
+17. ພົນລະ (frequency rank: 4797, count: 3) [✓]
+18. ພົວພັນ (frequency rank: 4800, count: 3) [✓]
+19. ຟິວ (frequency rank: 4807, count: 3) [✓]
+20. ຟົດ (frequency rank: 4808, count: 3) [✓]
+21. ມອນ (frequency rank: 4813, count: 3) [✓]
+22. ມະຫາ (frequency rank: 4817, count: 3) [✓]
+23. ມະຫາລາດ (frequency rank: 4818, count: 3) [✓]
+24. ມະຫາສະໝຸດ (frequency rank: 4819, count: 3) [✓]

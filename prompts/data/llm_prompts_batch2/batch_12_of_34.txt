@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ເພິ່ງ (frequency rank: 1947, count: 11) [✓]
+2. ເມືອງຄື (frequency rank: 1948, count: 11) [⚠]
+3. ເຮືອບິນ (frequency rank: 1949, count: 11) [✓]
+4. ແປ (frequency rank: 1950, count: 11) [✓]
+5. ໂຊກ (frequency rank: 1951, count: 11) [✓]
+6. ໂດດ (frequency rank: 1952, count: 11) [✓]
+7. ໃນການ (frequency rank: 1954, count: 11) [⚠]
+8. ການສື່ສານ (frequency rank: 1972, count: 10) [✓]
+9. ກຸ (frequency rank: 1973, count: 10) [✓]
+10. ຄວາຍ (frequency rank: 1974, count: 10) [✓]
+11. ຄ້າງ (frequency rank: 1976, count: 10) [✓]
+12. ຈິ່ງ (frequency rank: 1978, count: 10) [✓]
+13. ຈູງ (frequency rank: 1979, count: 10) [✓]
+14. ຈົດ (frequency rank: 1980, count: 10) [✓]
+15. ຈ້າງ (frequency rank: 1981, count: 10) [✓]
+16. ຊັດ (frequency rank: 1982, count: 10) [✓]
+17. ຊ່ວງ (frequency rank: 1984, count: 10) [✓]
+18. ຊ້ອມ (frequency rank: 1985, count: 10) [✓]
+19. ຕັບ (frequency rank: 1986, count: 10) [✓]
+20. ຕຶກ (frequency rank: 1988, count: 10) [✓]
+21. ຕ່າງປະ (frequency rank: 1989, count: 10) [⚠]
+22. ຕ້ອງການ (frequency rank: 1990, count: 10) [✓]
+23. ຖົງ (frequency rank: 1991, count: 10) [✓]
+24. ນິນ (frequency rank: 1994, count: 10) [✓]
+25. ພາສາ (frequency rank: 2004, count: 10) [✓]
+26. ພິຈາລະນາ (frequency rank: 2006, count: 10) [✓]
+27. ພ້ອມນີ້ (frequency rank: 2007, count: 10) [⚠]
+28. ມາເປັນ (frequency rank: 2009, count: 10) [✓]
+29. ມົນ (frequency rank: 2011, count: 10) [✓]
+30. ຢອກ (frequency rank: 2014, count: 10) [✓]
+31. ຢັງ (frequency rank: 2015, count: 10) [✓]
+32. ຢ້ຽມຢາມ (frequency rank: 2016, count: 10) [✓]
+33. ຣະ (frequency rank: 2017, count: 10) [✓]
+34. ຣາຊະອານາຈັກໄທ (frequency rank: 2018, count: 10) [⚠]
+35. ລັດຖະ (frequency rank: 2020, count: 10) [✓]
+36. ລາມ (frequency rank: 2022, count: 10) [✓]
+37. ລຸ່ມ (frequency rank: 2023, count: 10) [✓]
+38. ລ່ວງ (frequency rank: 2024, count: 10) [✓]
+39. ລ້ານປອນ (frequency rank: 2025, count: 10) [⚠]
+40. ວິນ (frequency rank: 2028, count: 10) [✓]
+41. ວິສາຫະກິດ (frequency rank: 2029, count: 10) [✓]
+42. ສະຫະລັດອາເມລິກາ (frequency rank: 2030, count: 10) [⚠]
+43. ສາທາລະນະສຸກ (frequency rank: 2031, count: 10) [✓]
+44. ສິ້ນ (frequency rank: 2033, count: 10) [✓]
+45. ສູງສຸດ (frequency rank: 2034, count: 10) [✓]
+46. ສໍ້ (frequency rank: 2035, count: 10) [✓]
+47. ຫວຽດ (frequency rank: 2036, count: 10) [✓]
+48. ຫອມ (frequency rank: 2037, count: 10) [✓]
+49. ຫຼວງພະບາງ (frequency rank: 2038, count: 10) [✓]
+50. ຫຼົງ (frequency rank: 2039, count: 10) [✓]

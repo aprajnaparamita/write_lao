@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຈະແມ່ນ (frequency rank: 2125, count: 9) [⚠]
+2. ຈຳປາສັກ (frequency rank: 2126, count: 9) [✓]
+3. ຈຽນ (frequency rank: 2127, count: 9) [✓]
+4. ຈ້າວ (frequency rank: 2128, count: 9) [✓]
+5. ຈໍ (frequency rank: 2129, count: 9) [✓]
+6. ຊອບ (frequency rank: 2130, count: 9) [✓]
+7. ຊິກ (frequency rank: 2132, count: 9) [✓]
+8. ຊຽງຂວາງ (frequency rank: 2134, count: 9) [✓]
+9. ຍຸກ (frequency rank: 2135, count: 9) [✓]
+10. ດ່ານ (frequency rank: 2138, count: 9) [✓]
+11. ຕະຫລາດ (frequency rank: 2139, count: 9) [✓]
+12. ຕີນ (frequency rank: 2141, count: 9) [✓]
+13. ຕ້ອນຮັບທູດຝຣັ່ງ (frequency rank: 2142, count: 9) [⚠]
+14. ຖິ້ມ (frequency rank: 2143, count: 9) [✓]
+15. ທັງນີ້ (frequency rank: 2144, count: 9) [⚠]
+16. ທັນສະໄໝ (frequency rank: 2146, count: 9) [✓]
+17. ທັ້ງ (frequency rank: 2147, count: 9) [✓]
+18. ທີ່ນະຄອນຫລວງວຽງຈັນ (frequency rank: 2150, count: 9) [⚠]
+19. ທີ່ວ່າ (frequency rank: 2151, count: 9) [✓]
+20. ທົບ (frequency rank: 2153, count: 9) [✓]
+21. ທ່ານນາຍົກລັດຖະມົນຕີ (frequency rank: 2154, count: 9) [⚠]
+22. ນະຄອນຫລວງ (frequency rank: 2155, count: 9) [✓]
+23. ນັ່ນ (frequency rank: 2157, count: 9) [✓]
+24. ນິວ (frequency rank: 2158, count: 9) [✓]
+25. ນໍ (frequency rank: 2159, count: 9) [✓]
+26. ບຣູ (frequency rank: 2160, count: 9) [⚠]
+27. ບຶງ (frequency rank: 2162, count: 9) [✓]
+28. ບໍລິ (frequency rank: 2163, count: 9) [⚠]
+29. ບໍ່ແຮ່ (frequency rank: 2164, count: 9) [⚠]
+30. ປະຕິບັດ (frequency rank: 2165, count: 9) [✓]
+31. ປະຕິບັດສິດ (frequency rank: 2166, count: 9) [⚠]
+32. ປະຕິວັດລາວ (frequency rank: 2167, count: 9) [⚠]
+33. ປະເທດໃດໜຶ່ງ (frequency rank: 2168, count: 9) [⚠]
+34. ປາງ (frequency rank: 2169, count: 9) [✓]
+35. ປຸ້ນຊັບ (frequency rank: 2170, count: 9) [⚠]
+36. ຝີ (frequency rank: 2172, count: 9) [✓]
+37. ພັນຄຳ (frequency rank: 2174, count: 9) [⚠]
+38. ພາກສ່ວນກ່ຽວຂ້ອງເຂົ້າຮ່ວມ (frequency rank: 2176, count: 9) [⚠]
+39. ພ້ອມກັນນີ້ (frequency rank: 2179, count: 9) [⚠]
+40. ມວຍ (frequency rank: 2181, count: 9) [✓]
+41. ມະນຸດ (frequency rank: 2182, count: 9) [✓]
+42. ມານ (frequency rank: 2184, count: 9) [✓]
+43. ມິງ (frequency rank: 2185, count: 9) [✓]
+44. ມີເນື້ອທີ່ (frequency rank: 2187, count: 9) [⚠]
+45. ຢວນ (frequency rank: 2188, count: 9) [✓]
+46. ຢັ້ງ (frequency rank: 2189, count: 9) [✓]
+47. ຢາມ (frequency rank: 2191, count: 9) [✓]
+48. ຢົງ (frequency rank: 2192, count: 9) [✓]
+49. ລວມມີ (frequency rank: 2193, count: 9) [⚠]
+50. ລືມ (frequency rank: 2195, count: 9) [✓]

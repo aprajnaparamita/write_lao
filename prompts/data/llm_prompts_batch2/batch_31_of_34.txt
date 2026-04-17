@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ໂງ່ (frequency rank: 4108, count: 4) [✓]
+2. ໂຊນ (frequency rank: 4110, count: 4) [✓]
+3. ໂຊວຽດ (frequency rank: 4111, count: 4) [✓]
+4. ໂຕຕ້ານໄຟຟ້າ (frequency rank: 4115, count: 4) [✓]
+5. ໂທລະສັບ (frequency rank: 4117, count: 4) [✓]
+6. ໂນ່ (frequency rank: 4118, count: 4) [✓]
+7. ໂປໂລຍ (frequency rank: 4119, count: 4) [✓]
+8. ໂຮງງານ (frequency rank: 4122, count: 4) [✓]
+9. ໂຮງແຮມ (frequency rank: 4123, count: 4) [✓]
+10. ໃນນາມ (frequency rank: 4125, count: 4) [✓]
+11. ໄກ້ (frequency rank: 4131, count: 4) [✓]
+12. ໄຕ່ (frequency rank: 4140, count: 4) [✓]
+13. ໄຫຼ (frequency rank: 4147, count: 4) [✓]
+14. ໄຮ່ (frequency rank: 4148, count: 4) [✓]
+15. ໄຮ້ (frequency rank: 4149, count: 4) [✓]
+16. ກວດກາ (frequency rank: 4365, count: 3) [✓]
+17. ກວາງຊີ (frequency rank: 4368, count: 3) [✓]
+18. ກວາດ (frequency rank: 4369, count: 3) [✓]
+19. ກະຊວງແຮງງານ (frequency rank: 4381, count: 3) [✓]
+20. ກະສວຍ (frequency rank: 4382, count: 3) [✓]
+21. ກະແສ (frequency rank: 4383, count: 3) [✓]
+22. ກະແສໄຟຟ້າ (frequency rank: 4384, count: 3) [✓]
+23. ກາຍເປັນ (frequency rank: 4386, count: 3) [✓]
+24. ການກວດ (frequency rank: 4390, count: 3) [✓]
+25. ການກໍ່ສ້າງ (frequency rank: 4391, count: 3) [✓]
+26. ການຂາຍ (frequency rank: 4392, count: 3) [✓]
+27. ການຂຽນ (frequency rank: 4393, count: 3) [✓]
+28. ການນຳ (frequency rank: 4395, count: 3) [✓]
+29. ການວິເຄາະ (frequency rank: 4399, count: 3) [✓]
+30. ການສະແດງ (frequency rank: 4400, count: 3) [✓]
+31. ການສ້າງ (frequency rank: 4401, count: 3) [✓]
+32. ການເວົ້າ (frequency rank: 4402, count: 3) [✓]
+33. ກາບ (frequency rank: 4405, count: 3) [✓]
+34. ກຳປັ່ນ (frequency rank: 4409, count: 3) [✓]
+35. ກຳມະ (frequency rank: 4410, count: 3) [✓]
+36. ກິ່ນ (frequency rank: 4415, count: 3) [✓]
+37. ກຸ້ງ (frequency rank: 4417, count: 3) [✓]
+38. ກົ້ມ (frequency rank: 4419, count: 3) [✓]
+39. ຂອບເຂດ (frequency rank: 4435, count: 3) [✓]
+40. ຂະຫນາດ (frequency rank: 4438, count: 3) [✓]
+41. ຂົງ (frequency rank: 4447, count: 3) [✓]
+42. ຂົນ (frequency rank: 4448, count: 3) [✓]
+43. ຂົມ (frequency rank: 4449, count: 3) [✓]
+44. ຄວັດ (frequency rank: 4463, count: 3) [✓]
+45. ຄວາມຈິງ (frequency rank: 4465, count: 3) [✓]
+46. ຄວາມສຳຄັນ (frequency rank: 4467, count: 3) [✓]
+47. ຄະດີ (frequency rank: 4472, count: 3) [✓]
+48. ຄັ່ງ (frequency rank: 4475, count: 3) [✓]
+49. ຄາຍ (frequency rank: 4477, count: 3) [✓]
+50. ຄຸ້ມຄອງ (frequency rank: 4483, count: 3) [✓]

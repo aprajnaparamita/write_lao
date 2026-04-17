@@ -1,0 +1,5011 @@
+{
+  "metadata": {
+    "total_words": 500,
+    "content_words": 460,
+    "function_words": 40,
+    "source": "Leipzig corpus + LLM pedagogical filter",
+    "pipeline_stage": "Step 4: Re-rank by corpus frequency"
+  },
+  "words": [
+    {
+      "word": "ແລະ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Conjunction — and",
+      "frequency_rank": 26,
+      "frequency_count": 6783,
+      "type": "conjunction",
+      "final_rank": 1
+    },
+    {
+      "word": "ໃນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Preposition — in/inside",
+      "frequency_rank": 28,
+      "frequency_count": 2522,
+      "type": "particle",
+      "final_rank": 2
+    },
+    {
+      "word": "ທ່ານ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "2nd person pronoun — you (formal)",
+      "frequency_rank": 29,
+      "frequency_count": 2393,
+      "type": "pronoun",
+      "final_rank": 3
+    },
+    {
+      "word": "ທີ່",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Relative clause marker — that/which",
+      "frequency_rank": 30,
+      "frequency_count": 2373,
+      "type": "particle",
+      "final_rank": 4
+    },
+    {
+      "word": "ໄດ້",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Ability/past tense marker",
+      "frequency_rank": 31,
+      "frequency_count": 2159,
+      "type": "particle",
+      "final_rank": 5
+    },
+    {
+      "word": "ມີ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Existential/possessive — have/there is",
+      "frequency_rank": 32,
+      "frequency_count": 2139,
+      "type": "particle",
+      "final_rank": 6
+    },
+    {
+      "word": "ຂອງ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Possessive marker — of",
+      "frequency_rank": 33,
+      "frequency_count": 2103,
+      "type": "particle",
+      "final_rank": 7
+    },
+    {
+      "word": "ເປັນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Copula — to be",
+      "frequency_rank": 34,
+      "frequency_count": 1673,
+      "type": "particle",
+      "final_rank": 8
+    },
+    {
+      "word": "ວັນທີ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Date — common in schedules but somewhat formal",
+      "frequency_rank": 35,
+      "frequency_count": 1630,
+      "type": "word",
+      "final_rank": 9
+    },
+    {
+      "word": "ເວລາ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Time — common noun",
+      "frequency_rank": 36,
+      "frequency_count": 1603,
+      "type": "word",
+      "final_rank": 10
+    },
+    {
+      "word": "ໃຫ້",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Causative/benefactive — give/let/for",
+      "frequency_rank": 37,
+      "frequency_count": 1497,
+      "type": "particle",
+      "final_rank": 11
+    },
+    {
+      "word": "ລາວ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "3rd person pronoun — he/she",
+      "frequency_rank": 38,
+      "frequency_count": 1494,
+      "type": "pronoun",
+      "final_rank": 12
+    },
+    {
+      "word": "ນີ້",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Demonstrative — this",
+      "frequency_rank": 40,
+      "frequency_count": 1254,
+      "type": "particle",
+      "final_rank": 13
+    },
+    {
+      "word": "ແມ່ນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Copula/affirmative — is/yes",
+      "frequency_rank": 41,
+      "frequency_count": 1110,
+      "type": "particle",
+      "final_rank": 14
+    },
+    {
+      "word": "ມາ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Come — basic directional verb and aspect marker",
+      "frequency_rank": 42,
+      "frequency_count": 1037,
+      "type": "word",
+      "final_rank": 15
+    },
+    {
+      "word": "ທີ",
+      "rank": 42,
+      "category": "function",
+      "brief_reason": "Ordinal marker — grammatical but limited use",
+      "frequency_rank": 44,
+      "frequency_count": 983,
+      "type": "word",
+      "final_rank": 16
+    },
+    {
+      "word": "ວັນ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Day — basic time noun",
+      "frequency_rank": 46,
+      "frequency_count": 961,
+      "type": "word",
+      "final_rank": 17
+    },
+    {
+      "word": "ວ່າ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Complementizer — that",
+      "frequency_rank": 47,
+      "frequency_count": 959,
+      "type": "conjunction",
+      "final_rank": 18
+    },
+    {
+      "word": "ແຫ່ງ",
+      "rank": 43,
+      "category": "function",
+      "brief_reason": "Of — formal possessive/locative, more written",
+      "frequency_rank": 48,
+      "frequency_count": 944,
+      "type": "word",
+      "final_rank": 19
+    },
+    {
+      "word": "ກໍ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Discourse particle — also/then",
+      "frequency_rank": 49,
+      "frequency_count": 916,
+      "type": "particle",
+      "final_rank": 20
+    },
+    {
+      "word": "ເຂົ້າ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Rice/enter — essential noun and verb",
+      "frequency_rank": 50,
+      "frequency_count": 915,
+      "type": "word",
+      "final_rank": 21
+    },
+    {
+      "word": "ບໍ່",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Primary negation word",
+      "frequency_rank": 52,
+      "frequency_count": 909,
+      "type": "particle",
+      "final_rank": 22
+    },
+    {
+      "word": "ຈະ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Future tense marker — will",
+      "frequency_rank": 53,
+      "frequency_count": 872,
+      "type": "particle",
+      "final_rank": 23
+    },
+    {
+      "word": "ປີ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Year — basic time noun",
+      "frequency_rank": 54,
+      "frequency_count": 849,
+      "type": "word",
+      "final_rank": 24
+    },
+    {
+      "word": "ຮ່ວມ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Together/jointly — useful but slightly formal",
+      "frequency_rank": 55,
+      "frequency_count": 823,
+      "type": "word",
+      "final_rank": 25
+    },
+    {
+      "word": "ເບິ່ງ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Look/watch — common everyday verb",
+      "frequency_rank": 56,
+      "frequency_count": 822,
+      "type": "word",
+      "final_rank": 26
+    },
+    {
+      "word": "ຢູ່",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Locative/progressive — at/be at",
+      "frequency_rank": 57,
+      "frequency_count": 817,
+      "type": "particle",
+      "final_rank": 27
+    },
+    {
+      "word": "ຄົນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Classifier for people",
+      "frequency_rank": 60,
+      "frequency_count": 739,
+      "type": "classifier",
+      "final_rank": 28
+    },
+    {
+      "word": "ຜູ້",
+      "rank": 41,
+      "category": "function",
+      "brief_reason": "Person (prefix) — nominalizer, more written than spoken",
+      "frequency_rank": 61,
+      "frequency_count": 728,
+      "type": "word",
+      "final_rank": 29
+    },
+    {
+      "word": "ຫຼື",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Conjunction — or",
+      "frequency_rank": 62,
+      "frequency_count": 706,
+      "type": "conjunction",
+      "final_rank": 30
+    },
+    {
+      "word": "ຈາກ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Preposition — from",
+      "frequency_rank": 63,
+      "frequency_count": 658,
+      "type": "particle",
+      "final_rank": 31
+    },
+    {
+      "word": "ໄປ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Go — basic directional verb",
+      "frequency_rank": 64,
+      "frequency_count": 654,
+      "type": "word",
+      "final_rank": 32
+    },
+    {
+      "word": "ກັບ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Preposition — with/and/return",
+      "frequency_rank": 65,
+      "frequency_count": 653,
+      "type": "particle",
+      "final_rank": 33
+    },
+    {
+      "word": "ກັນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Reciprocal — each other/together",
+      "frequency_rank": 66,
+      "frequency_count": 641,
+      "type": "particle",
+      "final_rank": 34
+    },
+    {
+      "word": "ຄຳ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Word/gold — common noun",
+      "frequency_rank": 67,
+      "frequency_count": 627,
+      "type": "word",
+      "final_rank": 35
+    },
+    {
+      "word": "ຂຶ້ນ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Up/go up — directional complement",
+      "frequency_rank": 69,
+      "frequency_count": 598,
+      "type": "word",
+      "final_rank": 36
+    },
+    {
+      "word": "ແຕ່",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Conjunction — but",
+      "frequency_rank": 70,
+      "frequency_count": 587,
+      "type": "conjunction",
+      "final_rank": 37
+    },
+    {
+      "word": "ເພື່ອ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Purpose — for/in order to",
+      "frequency_rank": 71,
+      "frequency_count": 584,
+      "type": "conjunction",
+      "final_rank": 38
+    },
+    {
+      "word": "ງານ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Work/event — common noun",
+      "frequency_rank": 73,
+      "frequency_count": 546,
+      "type": "word",
+      "final_rank": 39
+    },
+    {
+      "word": "ຍັງ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Aspect marker — still/yet",
+      "frequency_rank": 75,
+      "frequency_count": 517,
+      "type": "particle",
+      "final_rank": 40
+    },
+    {
+      "word": "ດ້ວຍ",
+      "rank": 25,
+      "category": "function",
+      "brief_reason": "With — instrumental preposition",
+      "frequency_rank": 76,
+      "frequency_count": 488,
+      "type": "word",
+      "final_rank": 41
+    },
+    {
+      "word": "ຮັບ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Receive/accept — common verb",
+      "frequency_rank": 78,
+      "frequency_count": 474,
+      "type": "word",
+      "final_rank": 42
+    },
+    {
+      "word": "ຄັ້ງ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Classifier for occasions/times",
+      "frequency_rank": 79,
+      "frequency_count": 467,
+      "type": "classifier",
+      "final_rank": 43
+    },
+    {
+      "word": "ນັ້ນ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Demonstrative — that",
+      "frequency_rank": 80,
+      "frequency_count": 455,
+      "type": "particle",
+      "final_rank": 44
+    },
+    {
+      "word": "ນຳ",
+      "rank": 30,
+      "category": "function",
+      "brief_reason": "Also/too/with — common spoken particle",
+      "frequency_rank": 81,
+      "frequency_count": 455,
+      "type": "word",
+      "final_rank": 45
+    },
+    {
+      "word": "ພ້ອມ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Ready/together with — useful adjective/preposition",
+      "frequency_rank": 82,
+      "frequency_count": 451,
+      "type": "word",
+      "final_rank": 46
+    },
+    {
+      "word": "ຈັນ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Monday/moon — day of week",
+      "frequency_rank": 84,
+      "frequency_count": 439,
+      "type": "word",
+      "final_rank": 47
+    },
+    {
+      "word": "ເຖິງ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Preposition — to/until",
+      "frequency_rank": 85,
+      "frequency_count": 432,
+      "type": "particle",
+      "final_rank": 48
+    },
+    {
+      "word": "ຈັດ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Arrange/organize — useful verb",
+      "frequency_rank": 92,
+      "frequency_count": 399,
+      "type": "word",
+      "final_rank": 49
+    },
+    {
+      "word": "ທັງ",
+      "rank": 31,
+      "category": "function",
+      "brief_reason": "Both/all — quantifier",
+      "frequency_rank": 93,
+      "frequency_count": 392,
+      "type": "word",
+      "final_rank": 50
+    },
+    {
+      "word": "ທາງ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Way/direction/road — common noun",
+      "frequency_rank": 95,
+      "frequency_count": 387,
+      "type": "word",
+      "final_rank": 51
+    },
+    {
+      "word": "ຕາມ",
+      "rank": 16,
+      "category": "function",
+      "brief_reason": "Follow/according to — common preposition/verb",
+      "frequency_rank": 96,
+      "frequency_count": 383,
+      "type": "word",
+      "final_rank": 52
+    },
+    {
+      "word": "ຢ່າງ",
+      "rank": 25,
+      "category": "function",
+      "brief_reason": "Kind/type/manner — common adverbial marker",
+      "frequency_rank": 97,
+      "frequency_count": 382,
+      "type": "word",
+      "final_rank": 53
+    },
+    {
+      "word": "ແລ້ວ",
+      "rank": 0,
+      "category": "function",
+      "brief_reason": "Completive aspect — already/then",
+      "frequency_rank": 98,
+      "frequency_count": 380,
+      "type": "particle",
+      "final_rank": 54
+    },
+    {
+      "word": "ເມືອງ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "City/town — essential place noun",
+      "frequency_rank": 103,
+      "frequency_count": 353,
+      "type": "word",
+      "final_rank": 55
+    },
+    {
+      "word": "ດີ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Good — fundamental adjective",
+      "frequency_rank": 104,
+      "frequency_count": 347,
+      "type": "word",
+      "final_rank": 56
+    },
+    {
+      "word": "ວົງ",
+      "rank": 45,
+      "category": "content",
+      "brief_reason": "Circle/family name element — limited standalone use",
+      "frequency_rank": 105,
+      "frequency_count": 346,
+      "type": "word",
+      "final_rank": 57
+    },
+    {
+      "word": "ຕໍ່",
+      "rank": 18,
+      "category": "function",
+      "brief_reason": "To/towards/per — common preposition",
+      "frequency_rank": 106,
+      "frequency_count": 345,
+      "type": "word",
+      "final_rank": 58
+    },
+    {
+      "word": "ເຮັດ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Do/make — essential everyday verb",
+      "frequency_rank": 107,
+      "frequency_count": 345,
+      "type": "word",
+      "final_rank": 59
+    },
+    {
+      "word": "ສູນ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Center/zero — noun, somewhat formal contexts",
+      "frequency_rank": 108,
+      "frequency_count": 333,
+      "type": "word",
+      "final_rank": 60
+    },
+    {
+      "word": "ບ້ານ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "House/village — basic noun",
+      "frequency_rank": 109,
+      "frequency_count": 331,
+      "type": "word",
+      "final_rank": 61
+    },
+    {
+      "word": "ຄື",
+      "rank": 27,
+      "category": "function",
+      "brief_reason": "Like/as/is — comparison particle",
+      "frequency_rank": 110,
+      "frequency_count": 329,
+      "type": "word",
+      "final_rank": 62
+    },
+    {
+      "word": "ເຊັ່ນ",
+      "rank": 28,
+      "category": "function",
+      "brief_reason": "Such as/like — slightly formal but used in speech",
+      "frequency_rank": 111,
+      "frequency_count": 327,
+      "type": "word",
+      "final_rank": 63
+    },
+    {
+      "word": "ຫຼາຍ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Many/much/very — essential quantity word",
+      "frequency_rank": 112,
+      "frequency_count": 325,
+      "type": "word",
+      "final_rank": 64
+    },
+    {
+      "word": "ໄຊ",
+      "rank": 44,
+      "category": "content",
+      "brief_reason": "Victory — common in names but limited conversational use",
+      "frequency_rank": 116,
+      "frequency_count": 319,
+      "type": "word",
+      "final_rank": 65
+    },
+    {
+      "word": "ສາ",
+      "rank": 50,
+      "category": "content",
+      "brief_reason": "Prefix syllable — bound morpheme, limited standalone use",
+      "frequency_rank": 118,
+      "frequency_count": 318,
+      "type": "word",
+      "final_rank": 66
+    },
+    {
+      "word": "ເງິນ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Money/silver — essential everyday noun",
+      "frequency_rank": 121,
+      "frequency_count": 306,
+      "type": "word",
+      "final_rank": 67
+    },
+    {
+      "word": "ຈີນ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "China/Chinese — country name, common reference",
+      "frequency_rank": 123,
+      "frequency_count": 302,
+      "type": "word",
+      "final_rank": 68
+    },
+    {
+      "word": "ຜ່ານ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Pass/through — common verb",
+      "frequency_rank": 124,
+      "frequency_count": 301,
+      "type": "word",
+      "final_rank": 69
+    },
+    {
+      "word": "ໃຊ້",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Use/spend — very common verb",
+      "frequency_rank": 129,
+      "frequency_count": 290,
+      "type": "word",
+      "final_rank": 70
+    },
+    {
+      "word": "ອອກ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Go out/exit — common directional verb",
+      "frequency_rank": 131,
+      "frequency_count": 282,
+      "type": "word",
+      "final_rank": 71
+    },
+    {
+      "word": "ເຫັນ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "See — basic perception verb",
+      "frequency_rank": 135,
+      "frequency_count": 277,
+      "type": "word",
+      "final_rank": 72
+    },
+    {
+      "word": "ທຳ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Do/make (alternate form) — common in compounds",
+      "frequency_rank": 138,
+      "frequency_count": 274,
+      "type": "word",
+      "final_rank": 73
+    },
+    {
+      "word": "ປະ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Prefix/leave — common prefix element",
+      "frequency_rank": 139,
+      "frequency_count": 269,
+      "type": "word",
+      "final_rank": 74
+    },
+    {
+      "word": "ສີ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Color/four — basic noun and number",
+      "frequency_rank": 140,
+      "frequency_count": 266,
+      "type": "word",
+      "final_rank": 75
+    },
+    {
+      "word": "ສອງ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Two — basic number",
+      "frequency_rank": 142,
+      "frequency_count": 263,
+      "type": "word",
+      "final_rank": 76
+    },
+    {
+      "word": "ໃຫຍ່",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Big/large — basic adjective",
+      "frequency_rank": 143,
+      "frequency_count": 261,
+      "type": "word",
+      "final_rank": 77
+    },
+    {
+      "word": "ກາງ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Middle/center — common positional word",
+      "frequency_rank": 144,
+      "frequency_count": 260,
+      "type": "word",
+      "final_rank": 78
+    },
+    {
+      "word": "ເອົາ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Take/want — extremely common in daily speech",
+      "frequency_rank": 145,
+      "frequency_count": 260,
+      "type": "word",
+      "final_rank": 79
+    },
+    {
+      "word": "ຕັ້ງ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Set up/establish/since — versatile verb",
+      "frequency_rank": 146,
+      "frequency_count": 257,
+      "type": "word",
+      "final_rank": 80
+    },
+    {
+      "word": "ສູງ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Tall/high — basic adjective",
+      "frequency_rank": 147,
+      "frequency_count": 256,
+      "type": "word",
+      "final_rank": 81
+    },
+    {
+      "word": "ວຽກ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Work/job — essential everyday noun",
+      "frequency_rank": 149,
+      "frequency_count": 250,
+      "type": "word",
+      "final_rank": 82
+    },
+    {
+      "word": "ລົງ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Go down/descend — directional complement",
+      "frequency_rank": 151,
+      "frequency_count": 246,
+      "type": "word",
+      "final_rank": 83
+    },
+    {
+      "word": "ທອງ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Gold/belly — common in names and as noun",
+      "frequency_rank": 152,
+      "frequency_count": 245,
+      "type": "word",
+      "final_rank": 84
+    },
+    {
+      "word": "ຊ່ວຍ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Help — very common verb",
+      "frequency_rank": 153,
+      "frequency_count": 243,
+      "type": "word",
+      "final_rank": 85
+    },
+    {
+      "word": "ສ້າງ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Build/create — common verb",
+      "frequency_rank": 154,
+      "frequency_count": 243,
+      "type": "word",
+      "final_rank": 86
+    },
+    {
+      "word": "ວິນາທີ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Second (time unit) — Pali loanword, less spoken",
+      "frequency_rank": 155,
+      "frequency_count": 240,
+      "type": "word",
+      "final_rank": 87
+    },
+    {
+      "word": "ສ່ວນ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Part/portion — common noun",
+      "frequency_rank": 159,
+      "frequency_count": 232,
+      "type": "word",
+      "final_rank": 88
+    },
+    {
+      "word": "ໜຶ່ງ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "One — most basic number",
+      "frequency_rank": 162,
+      "frequency_count": 230,
+      "type": "word",
+      "final_rank": 89
+    },
+    {
+      "word": "ອອກແບບ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "Design — modern/technical term",
+      "frequency_rank": 165,
+      "frequency_count": 229,
+      "type": "word",
+      "final_rank": 90
+    },
+    {
+      "word": "ພັນ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Thousand — useful number",
+      "frequency_rank": 166,
+      "frequency_count": 225,
+      "type": "word",
+      "final_rank": 91
+    },
+    {
+      "word": "ສຶກ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Study/war — mostly in compound words (ສຶກສາ)",
+      "frequency_rank": 167,
+      "frequency_count": 225,
+      "type": "word",
+      "final_rank": 92
+    },
+    {
+      "word": "ຫາ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Find/look for/five — essential verb and number",
+      "frequency_rank": 170,
+      "frequency_count": 223,
+      "type": "word",
+      "final_rank": 93
+    },
+    {
+      "word": "ສົມ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Suitable/prefix — mostly in compounds",
+      "frequency_rank": 171,
+      "frequency_count": 219,
+      "type": "word",
+      "final_rank": 94
+    },
+    {
+      "word": "ຜົນ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Result/fruit — common noun",
+      "frequency_rank": 173,
+      "frequency_count": 214,
+      "type": "word",
+      "final_rank": 95
+    },
+    {
+      "word": "ບຸນ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Festival/merit — culturally important but specific",
+      "frequency_rank": 175,
+      "frequency_count": 213,
+      "type": "word",
+      "final_rank": 96
+    },
+    {
+      "word": "ກີບ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Kip (currency) — essential for transactions",
+      "frequency_rank": 182,
+      "frequency_count": 205,
+      "type": "word",
+      "final_rank": 97
+    },
+    {
+      "word": "ດ້ານ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Side/aspect — common in descriptions",
+      "frequency_rank": 183,
+      "frequency_count": 205,
+      "type": "word",
+      "final_rank": 98
+    },
+    {
+      "word": "ມື",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Hand — basic body part noun",
+      "frequency_rank": 186,
+      "frequency_count": 200,
+      "type": "word",
+      "final_rank": 99
+    },
+    {
+      "word": "ເລື່ອງ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Story/matter — common noun",
+      "frequency_rank": 191,
+      "frequency_count": 193,
+      "type": "word",
+      "final_rank": 100
+    },
+    {
+      "word": "ຂ່າວ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "News — common noun",
+      "frequency_rank": 196,
+      "frequency_count": 186,
+      "type": "word",
+      "final_rank": 101
+    },
+    {
+      "word": "ແທນ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Instead/replace — useful adverb/verb",
+      "frequency_rank": 199,
+      "frequency_count": 184,
+      "type": "word",
+      "final_rank": 102
+    },
+    {
+      "word": "ພົບ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Meet/find — common verb",
+      "frequency_rank": 203,
+      "frequency_count": 181,
+      "type": "word",
+      "final_rank": 103
+    },
+    {
+      "word": "ກ່າວ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Say/speak — more formal than ເວົ້າ but used",
+      "frequency_rank": 206,
+      "frequency_count": 179,
+      "type": "word",
+      "final_rank": 104
+    },
+    {
+      "word": "ນ້ຳ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Water — fundamental daily noun",
+      "frequency_rank": 209,
+      "frequency_count": 177,
+      "type": "word",
+      "final_rank": 105
+    },
+    {
+      "word": "ໜ້າ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Face/page/front — common noun",
+      "frequency_rank": 211,
+      "frequency_count": 177,
+      "type": "word",
+      "final_rank": 106
+    },
+    {
+      "word": "ຮູ້",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Know — essential everyday verb",
+      "frequency_rank": 215,
+      "frequency_count": 175,
+      "type": "word",
+      "final_rank": 107
+    },
+    {
+      "word": "ຕອນ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Part/time period — temporal marker",
+      "frequency_rank": 216,
+      "frequency_count": 172,
+      "type": "word",
+      "final_rank": 108
+    },
+    {
+      "word": "ຂໍ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Request/ask for — essential polite verb",
+      "frequency_rank": 218,
+      "frequency_count": 171,
+      "type": "word",
+      "final_rank": 109
+    },
+    {
+      "word": "ເລືອກ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Choose/select — useful everyday verb",
+      "frequency_rank": 219,
+      "frequency_count": 170,
+      "type": "word",
+      "final_rank": 110
+    },
+    {
+      "word": "ຄອງ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Canal/possess — verb in compounds",
+      "frequency_rank": 221,
+      "frequency_count": 168,
+      "type": "word",
+      "final_rank": 111
+    },
+    {
+      "word": "ແບບ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Style/type/form — common noun",
+      "frequency_rank": 222,
+      "frequency_count": 168,
+      "type": "word",
+      "final_rank": 112
+    },
+    {
+      "word": "ຝ່າຍ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Side/faction — somewhat formal",
+      "frequency_rank": 223,
+      "frequency_count": 167,
+      "type": "word",
+      "final_rank": 113
+    },
+    {
+      "word": "ລາຍ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "List/income — common in compounds",
+      "frequency_rank": 224,
+      "frequency_count": 167,
+      "type": "word",
+      "final_rank": 114
+    },
+    {
+      "word": "ລ້ານ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Million — useful number",
+      "frequency_rank": 225,
+      "frequency_count": 167,
+      "type": "word",
+      "final_rank": 115
+    },
+    {
+      "word": "ສຸກ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Ripe/cooked/Friday — everyday word",
+      "frequency_rank": 226,
+      "frequency_count": 167,
+      "type": "word",
+      "final_rank": 116
+    },
+    {
+      "word": "ເດືອນ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Month — essential time noun",
+      "frequency_rank": 228,
+      "frequency_count": 166,
+      "type": "word",
+      "final_rank": 117
+    },
+    {
+      "word": "ມອບ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Hand over/assign — useful verb",
+      "frequency_rank": 229,
+      "frequency_count": 165,
+      "type": "word",
+      "final_rank": 118
+    },
+    {
+      "word": "ມູນ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Foundation/data — mostly in compounds like ຂໍ້ມູນ",
+      "frequency_rank": 231,
+      "frequency_count": 162,
+      "type": "word",
+      "final_rank": 119
+    },
+    {
+      "word": "ໃໝ່",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "New — fundamental adjective",
+      "frequency_rank": 235,
+      "frequency_count": 161,
+      "type": "word",
+      "final_rank": 120
+    },
+    {
+      "word": "ນາ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Rice paddy/field — common rural noun",
+      "frequency_rank": 236,
+      "frequency_count": 158,
+      "type": "word",
+      "final_rank": 121
+    },
+    {
+      "word": "ເກີດ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Born/happen — very common verb",
+      "frequency_rank": 238,
+      "frequency_count": 157,
+      "type": "word",
+      "final_rank": 122
+    },
+    {
+      "word": "ເຂດ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Zone/area/district — useful location noun",
+      "frequency_rank": 240,
+      "frequency_count": 156,
+      "type": "word",
+      "final_rank": 123
+    },
+    {
+      "word": "ລົດ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Car/vehicle — essential noun",
+      "frequency_rank": 245,
+      "frequency_count": 150,
+      "type": "word",
+      "final_rank": 124
+    },
+    {
+      "word": "ເພີ່ມ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Add/increase — useful verb",
+      "frequency_rank": 247,
+      "frequency_count": 148,
+      "type": "word",
+      "final_rank": 125
+    },
+    {
+      "word": "ກຽດ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Honor/prestige — somewhat formal",
+      "frequency_rank": 248,
+      "frequency_count": 147,
+      "type": "word",
+      "final_rank": 126
+    },
+    {
+      "word": "ກິດ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Activity — mostly in compound ກິດຈະກຳ",
+      "frequency_rank": 252,
+      "frequency_count": 144,
+      "type": "word",
+      "final_rank": 127
+    },
+    {
+      "word": "ຂໍ້",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Joint/clause/item — common classifier noun",
+      "frequency_rank": 253,
+      "frequency_count": 144,
+      "type": "word",
+      "final_rank": 128
+    },
+    {
+      "word": "ຄ່າ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Price/value — essential for shopping",
+      "frequency_rank": 254,
+      "frequency_count": 144,
+      "type": "word",
+      "final_rank": 129
+    },
+    {
+      "word": "ຂັ້ນ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Level/step — somewhat formal",
+      "frequency_rank": 257,
+      "frequency_count": 143,
+      "type": "word",
+      "final_rank": 130
+    },
+    {
+      "word": "ສົ່ງ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Send — common everyday verb",
+      "frequency_rank": 260,
+      "frequency_count": 142,
+      "type": "word",
+      "final_rank": 131
+    },
+    {
+      "word": "ໂລກ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "World — common noun",
+      "frequency_rank": 264,
+      "frequency_count": 140,
+      "type": "word",
+      "final_rank": 132
+    },
+    {
+      "word": "ຄ້າ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Trade/commerce — business context",
+      "frequency_rank": 266,
+      "frequency_count": 139,
+      "type": "word",
+      "final_rank": 133
+    },
+    {
+      "word": "ລາ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Say goodbye/prefix — useful verb",
+      "frequency_rank": 272,
+      "frequency_count": 135,
+      "type": "word",
+      "final_rank": 134
+    },
+    {
+      "word": "ເສຍ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Lose/waste — common verb",
+      "frequency_rank": 273,
+      "frequency_count": 135,
+      "type": "word",
+      "final_rank": 135
+    },
+    {
+      "word": "ລີ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Syllable in names — limited standalone use",
+      "frequency_rank": 274,
+      "frequency_count": 134,
+      "type": "word",
+      "final_rank": 136
+    },
+    {
+      "word": "ເວົ້າ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Speak/talk — most common speech verb",
+      "frequency_rank": 277,
+      "frequency_count": 133,
+      "type": "word",
+      "final_rank": 137
+    },
+    {
+      "word": "ໄຂ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Egg/unlock/fever — polysemous but useful",
+      "frequency_rank": 279,
+      "frequency_count": 133,
+      "type": "word",
+      "final_rank": 138
+    },
+    {
+      "word": "ຄິດ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Think — essential mental verb",
+      "frequency_rank": 281,
+      "frequency_count": 132,
+      "type": "word",
+      "final_rank": 139
+    },
+    {
+      "word": "ຊົນ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "People — mostly in formal compounds like ປະຊາຊົນ",
+      "frequency_rank": 282,
+      "frequency_count": 132,
+      "type": "word",
+      "final_rank": 140
+    },
+    {
+      "word": "ຫ້ອງ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Room — basic location noun",
+      "frequency_rank": 284,
+      "frequency_count": 132,
+      "type": "word",
+      "final_rank": 141
+    },
+    {
+      "word": "ເອກ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "First/prime — mostly in formal compounds",
+      "frequency_rank": 285,
+      "frequency_count": 132,
+      "type": "word",
+      "final_rank": 142
+    },
+    {
+      "word": "ທົ່ວ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Throughout/all over — common modifier",
+      "frequency_rank": 295,
+      "frequency_count": 124,
+      "type": "word",
+      "final_rank": 143
+    },
+    {
+      "word": "ແກ້",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Fix/solve — useful verb",
+      "frequency_rank": 297,
+      "frequency_count": 124,
+      "type": "word",
+      "final_rank": 144
+    },
+    {
+      "word": "ຫວຽດນາມ",
+      "rank": 49,
+      "category": "content",
+      "brief_reason": "Vietnam — country name, specific reference",
+      "frequency_rank": 298,
+      "frequency_count": 123,
+      "type": "word",
+      "final_rank": 145
+    },
+    {
+      "word": "ຕື່ມ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Add more/refill — common spoken verb",
+      "frequency_rank": 301,
+      "frequency_count": 122,
+      "type": "word",
+      "final_rank": 146
+    },
+    {
+      "word": "ແສງ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Light — common noun",
+      "frequency_rank": 305,
+      "frequency_count": 120,
+      "type": "word",
+      "final_rank": 147
+    },
+    {
+      "word": "ໝົດ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "All gone/finished — very common",
+      "frequency_rank": 306,
+      "frequency_count": 120,
+      "type": "word",
+      "final_rank": 148
+    },
+    {
+      "word": "ໂມງ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Hour/o'clock — essential for telling time",
+      "frequency_rank": 307,
+      "frequency_count": 119,
+      "type": "word",
+      "final_rank": 149
+    },
+    {
+      "word": "ໝາຍ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Mean/mark — useful verb",
+      "frequency_rank": 308,
+      "frequency_count": 119,
+      "type": "word",
+      "final_rank": 150
+    },
+    {
+      "word": "ພາຍ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Paddle/within — used in ພາຍໃນ (within)",
+      "frequency_rank": 310,
+      "frequency_count": 118,
+      "type": "word",
+      "final_rank": 151
+    },
+    {
+      "word": "ແຈ້ງ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Inform/notify — somewhat formal verb",
+      "frequency_rank": 312,
+      "frequency_count": 117,
+      "type": "word",
+      "final_rank": 152
+    },
+    {
+      "word": "ພາກ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Part/region — somewhat formal",
+      "frequency_rank": 319,
+      "frequency_count": 114,
+      "type": "word",
+      "final_rank": 153
+    },
+    {
+      "word": "ຖື",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Hold/carry — common verb",
+      "frequency_rank": 322,
+      "frequency_count": 113,
+      "type": "word",
+      "final_rank": 154
+    },
+    {
+      "word": "ສອນ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Teach — useful verb",
+      "frequency_rank": 323,
+      "frequency_count": 113,
+      "type": "word",
+      "final_rank": 155
+    },
+    {
+      "word": "ລວມ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Total/combine — useful verb",
+      "frequency_rank": 328,
+      "frequency_count": 111,
+      "type": "word",
+      "final_rank": 156
+    },
+    {
+      "word": "ໃຈ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Heart/mind — core Lao concept",
+      "frequency_rank": 329,
+      "frequency_count": 111,
+      "type": "word",
+      "final_rank": 157
+    },
+    {
+      "word": "ໄທ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Thai — country reference",
+      "frequency_rank": 331,
+      "frequency_count": 111,
+      "type": "word",
+      "final_rank": 158
+    },
+    {
+      "word": "ເປີດ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Open — common everyday verb",
+      "frequency_rank": 334,
+      "frequency_count": 109,
+      "type": "word",
+      "final_rank": 159
+    },
+    {
+      "word": "ແມັດ",
+      "rank": 47,
+      "category": "content",
+      "brief_reason": "Meter — unit of measurement",
+      "frequency_rank": 336,
+      "frequency_count": 109,
+      "type": "word",
+      "final_rank": 160
+    },
+    {
+      "word": "ກາ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Crow/kettle — limited conversational use",
+      "frequency_rank": 337,
+      "frequency_count": 108,
+      "type": "word",
+      "final_rank": 161
+    },
+    {
+      "word": "ກຸ່ມ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "Group — useful noun",
+      "frequency_rank": 338,
+      "frequency_count": 108,
+      "type": "word",
+      "final_rank": 162
+    },
+    {
+      "word": "ຊີ",
+      "rank": 48,
+      "category": "content",
+      "brief_reason": "Syllable in names — limited standalone use",
+      "frequency_rank": 339,
+      "frequency_count": 108,
+      "type": "word",
+      "final_rank": 163
+    },
+    {
+      "word": "ເຊີນ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Invite/please — polite word",
+      "frequency_rank": 341,
+      "frequency_count": 108,
+      "type": "word",
+      "final_rank": 164
+    },
+    {
+      "word": "ພາບ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Image/picture — common noun",
+      "frequency_rank": 346,
+      "frequency_count": 106,
+      "type": "word",
+      "final_rank": 165
+    },
+    {
+      "word": "ແຮງ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Force/strength — common noun",
+      "frequency_rank": 348,
+      "frequency_count": 106,
+      "type": "word",
+      "final_rank": 166
+    },
+    {
+      "word": "ກິນ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Eat — fundamental daily verb",
+      "frequency_rank": 350,
+      "frequency_count": 105,
+      "type": "word",
+      "final_rank": 167
+    },
+    {
+      "word": "ຢາ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Medicine — essential health noun",
+      "frequency_rank": 353,
+      "frequency_count": 104,
+      "type": "word",
+      "final_rank": 168
+    },
+    {
+      "word": "ບົດ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Lesson/article — more academic",
+      "frequency_rank": 356,
+      "frequency_count": 103,
+      "type": "word",
+      "final_rank": 169
+    },
+    {
+      "word": "ສາຍ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Line/late morning — time period word",
+      "frequency_rank": 357,
+      "frequency_count": 103,
+      "type": "word",
+      "final_rank": 170
+    },
+    {
+      "word": "ເຊ",
+      "rank": 46,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 359,
+      "frequency_count": 102,
+      "type": "word",
+      "final_rank": 171
+    },
+    {
+      "word": "ຕິດ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Stick/attached — versatile verb",
+      "frequency_rank": 361,
+      "frequency_count": 101,
+      "type": "word",
+      "final_rank": 172
+    },
+    {
+      "word": "ສິ່ງ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Thing — common noun",
+      "frequency_rank": 365,
+      "frequency_count": 100,
+      "type": "word",
+      "final_rank": 173
+    },
+    {
+      "word": "ເທດ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Festival/preach — mostly in compounds",
+      "frequency_rank": 366,
+      "frequency_count": 100,
+      "type": "word",
+      "final_rank": 174
+    },
+    {
+      "word": "ໃສ່",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Put on/wear — common everyday verb",
+      "frequency_rank": 368,
+      "frequency_count": 100,
+      "type": "word",
+      "final_rank": 175
+    },
+    {
+      "word": "ຖາ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Prefix syllable — bound morpheme",
+      "frequency_rank": 372,
+      "frequency_count": 98,
+      "type": "word",
+      "final_rank": 176
+    },
+    {
+      "word": "ຄູ່",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Pair/couple — common classifier",
+      "frequency_rank": 375,
+      "frequency_count": 95,
+      "type": "word",
+      "final_rank": 177
+    },
+    {
+      "word": "ນັບ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Count — useful verb",
+      "frequency_rank": 378,
+      "frequency_count": 94,
+      "type": "word",
+      "final_rank": 178
+    },
+    {
+      "word": "ຂ້າງ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Side/beside — positional word",
+      "frequency_rank": 381,
+      "frequency_count": 93,
+      "type": "word",
+      "final_rank": 179
+    },
+    {
+      "word": "ຢ້ຽມ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Visit — common social verb",
+      "frequency_rank": 382,
+      "frequency_count": 92,
+      "type": "word",
+      "final_rank": 180
+    },
+    {
+      "word": "ສານ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Court/weave — more formal/specialized",
+      "frequency_rank": 383,
+      "frequency_count": 92,
+      "type": "word",
+      "final_rank": 181
+    },
+    {
+      "word": "ກຳ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Karma/grasp — cultural concept but somewhat formal",
+      "frequency_rank": 384,
+      "frequency_count": 91,
+      "type": "word",
+      "final_rank": 182
+    },
+    {
+      "word": "ຊາວ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "People/twenty — nationality prefix and number",
+      "frequency_rank": 385,
+      "frequency_count": 91,
+      "type": "word",
+      "final_rank": 183
+    },
+    {
+      "word": "ຍິງ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Female/woman — essential gender word",
+      "frequency_rank": 386,
+      "frequency_count": 91,
+      "type": "word",
+      "final_rank": 184
+    },
+    {
+      "word": "ແກ້ວ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Glass/crystal — common noun",
+      "frequency_rank": 391,
+      "frequency_count": 91,
+      "type": "word",
+      "final_rank": 185
+    },
+    {
+      "word": "ໂດ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 392,
+      "frequency_count": 90,
+      "type": "word",
+      "final_rank": 186
+    },
+    {
+      "word": "ຕອບ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "Answer/reply — useful verb but less frequent in casual speech",
+      "frequency_rank": 393,
+      "frequency_count": 89,
+      "type": "word",
+      "final_rank": 187
+    },
+    {
+      "word": "ຕີ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Hit/AM hours — verb and time",
+      "frequency_rank": 394,
+      "frequency_count": 89,
+      "type": "word",
+      "final_rank": 188
+    },
+    {
+      "word": "ຈິງ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "True/real — common adjective",
+      "frequency_rank": 399,
+      "frequency_count": 87,
+      "type": "word",
+      "final_rank": 189
+    },
+    {
+      "word": "ທ້າຍ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "End/last — positional word",
+      "frequency_rank": 400,
+      "frequency_count": 87,
+      "type": "word",
+      "final_rank": 190
+    },
+    {
+      "word": "ຂຽນ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Write — essential verb",
+      "frequency_rank": 406,
+      "frequency_count": 85,
+      "type": "word",
+      "final_rank": 191
+    },
+    {
+      "word": "ຕາ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Eye/grandfather — body part and kinship",
+      "frequency_rank": 407,
+      "frequency_count": 85,
+      "type": "word",
+      "final_rank": 192
+    },
+    {
+      "word": "ວັດ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Temple — important cultural noun",
+      "frequency_rank": 408,
+      "frequency_count": 85,
+      "type": "word",
+      "final_rank": 193
+    },
+    {
+      "word": "ໄພ",
+      "rank": 49,
+      "category": "content",
+      "brief_reason": "Danger/disaster — less frequent in casual talk",
+      "frequency_rank": 410,
+      "frequency_count": 85,
+      "type": "word",
+      "final_rank": 194
+    },
+    {
+      "word": "ຊຽນ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Name element — limited standalone use",
+      "frequency_rank": 412,
+      "frequency_count": 84,
+      "type": "word",
+      "final_rank": 195
+    },
+    {
+      "word": "ເພື່ອນ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Friend — essential social noun",
+      "frequency_rank": 417,
+      "frequency_count": 84,
+      "type": "word",
+      "final_rank": 196
+    },
+    {
+      "word": "ແມ່",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Mother — fundamental family noun",
+      "frequency_rank": 419,
+      "frequency_count": 84,
+      "type": "word",
+      "final_rank": 197
+    },
+    {
+      "word": "ມື້",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Day (spoken) — essential time noun",
+      "frequency_rank": 421,
+      "frequency_count": 83,
+      "type": "word",
+      "final_rank": 198
+    },
+    {
+      "word": "ລູກ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Child — essential family noun",
+      "frequency_rank": 422,
+      "frequency_count": 83,
+      "type": "word",
+      "final_rank": 199
+    },
+    {
+      "word": "ລົມ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Wind/chat — common noun",
+      "frequency_rank": 423,
+      "frequency_count": 83,
+      "type": "word",
+      "final_rank": 200
+    },
+    {
+      "word": "ຈຸດ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Point/dot — common noun",
+      "frequency_rank": 426,
+      "frequency_count": 82,
+      "type": "word",
+      "final_rank": 201
+    },
+    {
+      "word": "ຊາຍ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Male/man — essential gender word",
+      "frequency_rank": 427,
+      "frequency_count": 82,
+      "type": "word",
+      "final_rank": 202
+    },
+    {
+      "word": "ທ່ຽວ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Travel/trip — leisure verb",
+      "frequency_rank": 428,
+      "frequency_count": 82,
+      "type": "word",
+      "final_rank": 203
+    },
+    {
+      "word": "ລຳ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Lam (music)/trunk/classifier — cultural but specific",
+      "frequency_rank": 429,
+      "frequency_count": 82,
+      "type": "word",
+      "final_rank": 204
+    },
+    {
+      "word": "ປ້ອງ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Protect — in compound ປ້ອງກັນ",
+      "frequency_rank": 434,
+      "frequency_count": 80,
+      "type": "word",
+      "final_rank": 205
+    },
+    {
+      "word": "ສັກ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Sacred/inject — limited spoken contexts",
+      "frequency_rank": 435,
+      "frequency_count": 80,
+      "type": "word",
+      "final_rank": 206
+    },
+    {
+      "word": "ສິນ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Goods/end — in compounds like ສິນຄ້າ",
+      "frequency_rank": 436,
+      "frequency_count": 80,
+      "type": "word",
+      "final_rank": 207
+    },
+    {
+      "word": "ຫຼັກ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Pillar/main/principle — somewhat formal",
+      "frequency_rank": 437,
+      "frequency_count": 80,
+      "type": "word",
+      "final_rank": 208
+    },
+    {
+      "word": "ອິນ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Syllable in names — limited standalone use",
+      "frequency_rank": 441,
+      "frequency_count": 79,
+      "type": "word",
+      "final_rank": 209
+    },
+    {
+      "word": "ຄຸ້ມ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Protect/worth it — useful verb/adjective",
+      "frequency_rank": 444,
+      "frequency_count": 78,
+      "type": "word",
+      "final_rank": 210
+    },
+    {
+      "word": "ຮັກ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Love — essential emotional verb",
+      "frequency_rank": 446,
+      "frequency_count": 78,
+      "type": "word",
+      "final_rank": 211
+    },
+    {
+      "word": "ດາ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Syllable in names — limited standalone use",
+      "frequency_rank": 448,
+      "frequency_count": 77,
+      "type": "word",
+      "final_rank": 212
+    },
+    {
+      "word": "ຮຽນ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Study/learn — essential verb",
+      "frequency_rank": 456,
+      "frequency_count": 77,
+      "type": "word",
+      "final_rank": 213
+    },
+    {
+      "word": "ລິ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Prefix syllable — bound morpheme",
+      "frequency_rank": 458,
+      "frequency_count": 76,
+      "type": "word",
+      "final_rank": 214
+    },
+    {
+      "word": "ລຸນ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "Name element — limited standalone use",
+      "frequency_rank": 459,
+      "frequency_count": 76,
+      "type": "word",
+      "final_rank": 215
+    },
+    {
+      "word": "ທ່ອງ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Tour/recite — used in ທ່ອງທ່ຽວ (tourism)",
+      "frequency_rank": 463,
+      "frequency_count": 75,
+      "type": "word",
+      "final_rank": 216
+    },
+    {
+      "word": "ປາ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Fish — staple food noun",
+      "frequency_rank": 464,
+      "frequency_count": 75,
+      "type": "word",
+      "final_rank": 217
+    },
+    {
+      "word": "ພອນ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Blessing — cultural/religious term",
+      "frequency_rank": 465,
+      "frequency_count": 75,
+      "type": "word",
+      "final_rank": 218
+    },
+    {
+      "word": "ເຮືອນ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "House/home — fundamental noun",
+      "frequency_rank": 466,
+      "frequency_count": 75,
+      "type": "word",
+      "final_rank": 219
+    },
+    {
+      "word": "ບ່ອນ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Place/where — essential location word",
+      "frequency_rank": 467,
+      "frequency_count": 74,
+      "type": "word",
+      "final_rank": 220
+    },
+    {
+      "word": "ສຽງ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Sound/voice — common noun",
+      "frequency_rank": 472,
+      "frequency_count": 73,
+      "type": "word",
+      "final_rank": 221
+    },
+    {
+      "word": "ແຂກ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Guest — useful social noun",
+      "frequency_rank": 477,
+      "frequency_count": 72,
+      "type": "word",
+      "final_rank": 222
+    },
+    {
+      "word": "ແຜນ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Plan/map — common noun",
+      "frequency_rank": 478,
+      "frequency_count": 72,
+      "type": "word",
+      "final_rank": 223
+    },
+    {
+      "word": "ໃບ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Leaf/classifier for flat things",
+      "frequency_rank": 479,
+      "frequency_count": 72,
+      "type": "word",
+      "final_rank": 224
+    },
+    {
+      "word": "ທີມ",
+      "rank": 44,
+      "category": "content",
+      "brief_reason": "Team — English loanword, limited use",
+      "frequency_rank": 480,
+      "frequency_count": 71,
+      "type": "word",
+      "final_rank": 225
+    },
+    {
+      "word": "ຫລາຍ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Many — alternate spelling of ຫຼາຍ, duplicate",
+      "frequency_rank": 482,
+      "frequency_count": 71,
+      "type": "word",
+      "final_rank": 226
+    },
+    {
+      "word": "ຫຼຽນ",
+      "rank": 46,
+      "category": "content",
+      "brief_reason": "Medal/coin — specific noun",
+      "frequency_rank": 483,
+      "frequency_count": 71,
+      "type": "word",
+      "final_rank": 227
+    },
+    {
+      "word": "ຮອດ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Arrive/reach — common spoken verb",
+      "frequency_rank": 484,
+      "frequency_count": 71,
+      "type": "word",
+      "final_rank": 228
+    },
+    {
+      "word": "ສິດ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Right/rights — somewhat formal but important",
+      "frequency_rank": 489,
+      "frequency_count": 70,
+      "type": "word",
+      "final_rank": 229
+    },
+    {
+      "word": "ເຊຍ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 490,
+      "frequency_count": 70,
+      "type": "word",
+      "final_rank": 230
+    },
+    {
+      "word": "ພໍ່",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Father — fundamental family noun",
+      "frequency_rank": 493,
+      "frequency_count": 69,
+      "type": "word",
+      "final_rank": 231
+    },
+    {
+      "word": "ວາງ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Put down/place — common verb",
+      "frequency_rank": 496,
+      "frequency_count": 69,
+      "type": "word",
+      "final_rank": 232
+    },
+    {
+      "word": "ຫຼວງ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Royal/great — in place names",
+      "frequency_rank": 499,
+      "frequency_count": 69,
+      "type": "word",
+      "final_rank": 233
+    },
+    {
+      "word": "ເລກ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Number — common noun",
+      "frequency_rank": 500,
+      "frequency_count": 69,
+      "type": "word",
+      "final_rank": 234
+    },
+    {
+      "word": "ຊື້",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Buy — essential shopping verb",
+      "frequency_rank": 503,
+      "frequency_count": 68,
+      "type": "word",
+      "final_rank": 235
+    },
+    {
+      "word": "ຟັງ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Listen — common verb",
+      "frequency_rank": 504,
+      "frequency_count": 68,
+      "type": "word",
+      "final_rank": 236
+    },
+    {
+      "word": "ຊັ້ນ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Floor/level — common noun",
+      "frequency_rank": 508,
+      "frequency_count": 67,
+      "type": "word",
+      "final_rank": 237
+    },
+    {
+      "word": "ຊາ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Tea/slow — common noun",
+      "frequency_rank": 509,
+      "frequency_count": 67,
+      "type": "word",
+      "final_rank": 238
+    },
+    {
+      "word": "ຕົ້ນ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Tree/beginning — versatile word",
+      "frequency_rank": 511,
+      "frequency_count": 67,
+      "type": "word",
+      "final_rank": 239
+    },
+    {
+      "word": "ເລີ່ມ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Begin/start — common verb",
+      "frequency_rank": 513,
+      "frequency_count": 67,
+      "type": "word",
+      "final_rank": 240
+    },
+    {
+      "word": "ໃຕ້",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Under/south — positional word",
+      "frequency_rank": 514,
+      "frequency_count": 67,
+      "type": "word",
+      "final_rank": 241
+    },
+    {
+      "word": "ຄຸນ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Virtue/quality — in ຂອບຄຸນ (thank you)",
+      "frequency_rank": 515,
+      "frequency_count": 66,
+      "type": "word",
+      "final_rank": 242
+    },
+    {
+      "word": "ອິດ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Tired — useful adjective but less common standalone",
+      "frequency_rank": 517,
+      "frequency_count": 66,
+      "type": "word",
+      "final_rank": 243
+    },
+    {
+      "word": "ຍາກ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Difficult — common adjective",
+      "frequency_rank": 520,
+      "frequency_count": 65,
+      "type": "word",
+      "final_rank": 244
+    },
+    {
+      "word": "ລາດ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Pour/slope — limited spoken use",
+      "frequency_rank": 523,
+      "frequency_count": 65,
+      "type": "word",
+      "final_rank": 245
+    },
+    {
+      "word": "ເຄື່ອງ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Machine/thing — common noun",
+      "frequency_rank": 525,
+      "frequency_count": 65,
+      "type": "word",
+      "final_rank": 246
+    },
+    {
+      "word": "ດິນ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Earth/land — common noun",
+      "frequency_rank": 526,
+      "frequency_count": 64,
+      "type": "word",
+      "final_rank": 247
+    },
+    {
+      "word": "ເຕີ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 528,
+      "frequency_count": 64,
+      "type": "word",
+      "final_rank": 248
+    },
+    {
+      "word": "ເຊົ້າ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Morning — essential time noun",
+      "frequency_rank": 530,
+      "frequency_count": 63,
+      "type": "word",
+      "final_rank": 249
+    },
+    {
+      "word": "ຫຼັງ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Back/after — positional/temporal",
+      "frequency_rank": 536,
+      "frequency_count": 62,
+      "type": "word",
+      "final_rank": 250
+    },
+    {
+      "word": "ດວງ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Star/fortune/classifier for celestial — specific",
+      "frequency_rank": 539,
+      "frequency_count": 61,
+      "type": "word",
+      "final_rank": 251
+    },
+    {
+      "word": "ທັນ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "In time/catch up — useful verb/adverb",
+      "frequency_rank": 541,
+      "frequency_count": 61,
+      "type": "word",
+      "final_rank": 252
+    },
+    {
+      "word": "ຫົວ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Head — basic body part",
+      "frequency_rank": 544,
+      "frequency_count": 61,
+      "type": "word",
+      "final_rank": 253
+    },
+    {
+      "word": "ຈອດ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Park/stop — useful verb for vehicles",
+      "frequency_rank": 549,
+      "frequency_count": 60,
+      "type": "word",
+      "final_rank": 254
+    },
+    {
+      "word": "ດັບ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Extinguish/off — useful verb",
+      "frequency_rank": 550,
+      "frequency_count": 60,
+      "type": "word",
+      "final_rank": 255
+    },
+    {
+      "word": "ບວນ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Ceremony — specific cultural noun",
+      "frequency_rank": 552,
+      "frequency_count": 60,
+      "type": "word",
+      "final_rank": 256
+    },
+    {
+      "word": "ປອນ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Pound/pour — limited use",
+      "frequency_rank": 553,
+      "frequency_count": 60,
+      "type": "word",
+      "final_rank": 257
+    },
+    {
+      "word": "ຈຳນວນ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Number/amount — useful noun",
+      "frequency_rank": 559,
+      "frequency_count": 59,
+      "type": "word",
+      "final_rank": 258
+    },
+    {
+      "word": "ຈູມ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Kiss — specific but useful noun/verb",
+      "frequency_rank": 560,
+      "frequency_count": 59,
+      "type": "word",
+      "final_rank": 259
+    },
+    {
+      "word": "ຊຸດ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Set/suit — common noun",
+      "frequency_rank": 562,
+      "frequency_count": 59,
+      "type": "word",
+      "final_rank": 260
+    },
+    {
+      "word": "ສິງ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Lion — specific noun, Beer Lao brand",
+      "frequency_rank": 564,
+      "frequency_count": 59,
+      "type": "word",
+      "final_rank": 261
+    },
+    {
+      "word": "ຂາຍ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Sell — essential commerce verb",
+      "frequency_rank": 568,
+      "frequency_count": 58,
+      "type": "word",
+      "final_rank": 262
+    },
+    {
+      "word": "ຖາມ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Ask — essential verb",
+      "frequency_rank": 571,
+      "frequency_count": 58,
+      "type": "word",
+      "final_rank": 263
+    },
+    {
+      "word": "ບັດ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Card/now — common noun",
+      "frequency_rank": 572,
+      "frequency_count": 58,
+      "type": "word",
+      "final_rank": 264
+    },
+    {
+      "word": "ຮູບ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Picture/photo — common noun",
+      "frequency_rank": 574,
+      "frequency_count": 58,
+      "type": "word",
+      "final_rank": 265
+    },
+    {
+      "word": "ຮ້ານ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Shop/store — essential noun",
+      "frequency_rank": 575,
+      "frequency_count": 58,
+      "type": "word",
+      "final_rank": 266
+    },
+    {
+      "word": "ບູ",
+      "rank": 47,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 580,
+      "frequency_count": 57,
+      "type": "word",
+      "final_rank": 267
+    },
+    {
+      "word": "ພື້ນ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Floor/surface/area — common noun",
+      "frequency_rank": 582,
+      "frequency_count": 57,
+      "type": "word",
+      "final_rank": 268
+    },
+    {
+      "word": "ມວນ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Mass/fun — in ມ່ວນ (fun) or physics term",
+      "frequency_rank": 583,
+      "frequency_count": 57,
+      "type": "word",
+      "final_rank": 269
+    },
+    {
+      "word": "ໂລ",
+      "rank": 44,
+      "category": "content",
+      "brief_reason": "Kilo prefix — in compounds",
+      "frequency_rank": 588,
+      "frequency_count": 57,
+      "type": "word",
+      "final_rank": 270
+    },
+    {
+      "word": "ໄວ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Fast/quick — common adjective",
+      "frequency_rank": 589,
+      "frequency_count": 57,
+      "type": "word",
+      "final_rank": 271
+    },
+    {
+      "word": "ຄືນ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Night/return — time noun and verb",
+      "frequency_rank": 591,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 272
+    },
+    {
+      "word": "ດອກ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Flower — common noun",
+      "frequency_rank": 592,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 273
+    },
+    {
+      "word": "ທໍ່",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Pipe/tube — specific noun",
+      "frequency_rank": 593,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 274
+    },
+    {
+      "word": "ນ້ອຍ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Small/little — fundamental adjective",
+      "frequency_rank": 594,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 275
+    },
+    {
+      "word": "ສື່",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Media/communicate — modern noun",
+      "frequency_rank": 599,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 276
+    },
+    {
+      "word": "ເຊື່ອ",
+      "rank": 45,
+      "category": "content",
+      "brief_reason": "Believe — useful but appears late in frequency",
+      "frequency_rank": 601,
+      "frequency_count": 56,
+      "type": "word",
+      "final_rank": 277
+    },
+    {
+      "word": "ນອກ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Outside — essential positional word",
+      "frequency_rank": 603,
+      "frequency_count": 55,
+      "type": "word",
+      "final_rank": 278
+    },
+    {
+      "word": "ບອກ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Tell/say — common spoken verb",
+      "frequency_rank": 604,
+      "frequency_count": 55,
+      "type": "word",
+      "final_rank": 279
+    },
+    {
+      "word": "ອ່ານ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Read — essential verb",
+      "frequency_rank": 605,
+      "frequency_count": 55,
+      "type": "word",
+      "final_rank": 280
+    },
+    {
+      "word": "ກວດ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Check/inspect — useful verb",
+      "frequency_rank": 608,
+      "frequency_count": 54,
+      "type": "word",
+      "final_rank": 281
+    },
+    {
+      "word": "ກິໂລແມັດ",
+      "rank": 43,
+      "category": "content",
+      "brief_reason": "Kilometer — measurement, specific",
+      "frequency_rank": 609,
+      "frequency_count": 54,
+      "type": "word",
+      "final_rank": 282
+    },
+    {
+      "word": "ຍົກ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Lift/raise — common verb",
+      "frequency_rank": 610,
+      "frequency_count": 54,
+      "type": "word",
+      "final_rank": 283
+    },
+    {
+      "word": "ພິມ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Print/type — modern verb",
+      "frequency_rank": 612,
+      "frequency_count": 54,
+      "type": "word",
+      "final_rank": 284
+    },
+    {
+      "word": "ໄຟ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Fire/electricity — essential noun",
+      "frequency_rank": 614,
+      "frequency_count": 54,
+      "type": "word",
+      "final_rank": 285
+    },
+    {
+      "word": "ຄົ້ນ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Search/research — useful verb",
+      "frequency_rank": 615,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 286
+    },
+    {
+      "word": "ຄໍ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Neck — body part noun",
+      "frequency_rank": 616,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 287
+    },
+    {
+      "word": "ຊີ້",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Point — common verb",
+      "frequency_rank": 617,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 288
+    },
+    {
+      "word": "ປະເທດລາວ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Laos (country) — proper noun compound",
+      "frequency_rank": 620,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 289
+    },
+    {
+      "word": "ເກົ່າ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Old (things) — fundamental adjective",
+      "frequency_rank": 622,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 290
+    },
+    {
+      "word": "ໄມ້",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Wood/stick — common noun",
+      "frequency_rank": 623,
+      "frequency_count": 53,
+      "type": "word",
+      "final_rank": 291
+    },
+    {
+      "word": "ພາສາອັງກິດ",
+      "rank": 46,
+      "category": "content",
+      "brief_reason": "English language — useful but specific compound",
+      "frequency_rank": 629,
+      "frequency_count": 52,
+      "type": "word",
+      "final_rank": 292
+    },
+    {
+      "word": "ມາດ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Standard/prefix — mostly in compounds",
+      "frequency_rank": 630,
+      "frequency_count": 52,
+      "type": "word",
+      "final_rank": 293
+    },
+    {
+      "word": "ຣົບ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "War — Pali spelling, formal",
+      "frequency_rank": 631,
+      "frequency_count": 52,
+      "type": "word",
+      "final_rank": 294
+    },
+    {
+      "word": "ຍອດ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Peak/top/excellent — compliment word",
+      "frequency_rank": 636,
+      "frequency_count": 51,
+      "type": "word",
+      "final_rank": 295
+    },
+    {
+      "word": "ທິດ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Direction — somewhat formal",
+      "frequency_rank": 637,
+      "frequency_count": 51,
+      "type": "word",
+      "final_rank": 296
+    },
+    {
+      "word": "ບາ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 638,
+      "frequency_count": 51,
+      "type": "word",
+      "final_rank": 297
+    },
+    {
+      "word": "ເທິງ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "On top/above — positional word",
+      "frequency_rank": 642,
+      "frequency_count": 51,
+      "type": "word",
+      "final_rank": 298
+    },
+    {
+      "word": "ໂນ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Syllable in names — limited standalone use",
+      "frequency_rank": 643,
+      "frequency_count": 51,
+      "type": "word",
+      "final_rank": 299
+    },
+    {
+      "word": "ປະເທດ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Country — common noun",
+      "frequency_rank": 647,
+      "frequency_count": 50,
+      "type": "word",
+      "final_rank": 300
+    },
+    {
+      "word": "ອ້ອມ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Around/surround — directional word",
+      "frequency_rank": 648,
+      "frequency_count": 50,
+      "type": "word",
+      "final_rank": 301
+    },
+    {
+      "word": "ຕື້",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Billion — large number, limited use",
+      "frequency_rank": 651,
+      "frequency_count": 49,
+      "type": "word",
+      "final_rank": 302
+    },
+    {
+      "word": "ໜຸ່ມ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Young man — social noun",
+      "frequency_rank": 661,
+      "frequency_count": 49,
+      "type": "word",
+      "final_rank": 303
+    },
+    {
+      "word": "ຄັດ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Select/oppose — limited spoken contexts",
+      "frequency_rank": 665,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 304
+    },
+    {
+      "word": "ຄາດ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Expect/estimate — useful verb",
+      "frequency_rank": 666,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 305
+    },
+    {
+      "word": "ດາວ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Star — common noun",
+      "frequency_rank": 667,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 306
+    },
+    {
+      "word": "ມັກ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Like/prefer — preference verb",
+      "frequency_rank": 670,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 307
+    },
+    {
+      "word": "ເດັກ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Child/kid — essential noun",
+      "frequency_rank": 673,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 308
+    },
+    {
+      "word": "ເປົ້າ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Target/bag — useful noun",
+      "frequency_rank": 674,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 309
+    },
+    {
+      "word": "ແດງ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Red — basic color",
+      "frequency_rank": 675,
+      "frequency_count": 48,
+      "type": "word",
+      "final_rank": 310
+    },
+    {
+      "word": "ຕົກ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Fall — common verb",
+      "frequency_rank": 677,
+      "frequency_count": 47,
+      "type": "word",
+      "final_rank": 311
+    },
+    {
+      "word": "ໂກ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Syllable in names/loanwords — limited use",
+      "frequency_rank": 682,
+      "frequency_count": 47,
+      "type": "word",
+      "final_rank": 312
+    },
+    {
+      "word": "ງາມ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Beautiful — common adjective",
+      "frequency_rank": 683,
+      "frequency_count": 46,
+      "type": "word",
+      "final_rank": 313
+    },
+    {
+      "word": "ບ່າຍ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Afternoon — time of day noun",
+      "frequency_rank": 685,
+      "frequency_count": 46,
+      "type": "word",
+      "final_rank": 314
+    },
+    {
+      "word": "ປອດ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Safe/free from — useful adjective",
+      "frequency_rank": 686,
+      "frequency_count": 46,
+      "type": "word",
+      "final_rank": 315
+    },
+    {
+      "word": "ຈ່າຍ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Pay — essential commerce verb",
+      "frequency_rank": 695,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 316
+    },
+    {
+      "word": "ທ່າ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Pier/pose/gesture — common noun",
+      "frequency_rank": 696,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 317
+    },
+    {
+      "word": "ພົນ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Citizen/power — mostly in compounds",
+      "frequency_rank": 698,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 318
+    },
+    {
+      "word": "ສາມ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Three — basic number",
+      "frequency_rank": 700,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 319
+    },
+    {
+      "word": "ເຊື້ອ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Germ/race/lineage — common noun",
+      "frequency_rank": 701,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 320
+    },
+    {
+      "word": "ເນ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 702,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 321
+    },
+    {
+      "word": "ເນື້ອ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Meat/flesh — essential food noun",
+      "frequency_rank": 703,
+      "frequency_count": 45,
+      "type": "word",
+      "final_rank": 322
+    },
+    {
+      "word": "ຄຽງ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Beside/side by side — positional word",
+      "frequency_rank": 706,
+      "frequency_count": 44,
+      "type": "word",
+      "final_rank": 323
+    },
+    {
+      "word": "ຊອກ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Look for — spoken verb",
+      "frequency_rank": 708,
+      "frequency_count": 44,
+      "type": "word",
+      "final_rank": 324
+    },
+    {
+      "word": "ຕ້ານ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Oppose/resist — useful verb",
+      "frequency_rank": 710,
+      "frequency_count": 44,
+      "type": "word",
+      "final_rank": 325
+    },
+    {
+      "word": "ຍາມ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Time/guard — temporal word",
+      "frequency_rank": 715,
+      "frequency_count": 43,
+      "type": "word",
+      "final_rank": 326
+    },
+    {
+      "word": "ຍາວ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Long — basic adjective",
+      "frequency_rank": 716,
+      "frequency_count": 43,
+      "type": "word",
+      "final_rank": 327
+    },
+    {
+      "word": "ທິມ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Throw/discard — less common verb",
+      "frequency_rank": 717,
+      "frequency_count": 43,
+      "type": "word",
+      "final_rank": 328
+    },
+    {
+      "word": "ນັດ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Appointment — social verb",
+      "frequency_rank": 718,
+      "frequency_count": 43,
+      "type": "word",
+      "final_rank": 329
+    },
+    {
+      "word": "ເໝາະ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Suitable — useful adjective",
+      "frequency_rank": 725,
+      "frequency_count": 43,
+      "type": "word",
+      "final_rank": 330
+    },
+    {
+      "word": "ກູ້",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Rescue/borrow — specific verb",
+      "frequency_rank": 727,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 331
+    },
+    {
+      "word": "ຂອບ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Edge/thank — in ຂອບໃຈ",
+      "frequency_rank": 728,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 332
+    },
+    {
+      "word": "ຊື່",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Name — essential noun",
+      "frequency_rank": 732,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 333
+    },
+    {
+      "word": "ຊົມ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Appreciate/enjoy — somewhat literary",
+      "frequency_rank": 733,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 334
+    },
+    {
+      "word": "ຍາດ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Relative/kin — family noun",
+      "frequency_rank": 734,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 335
+    },
+    {
+      "word": "ສອບ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Examine/test — academic context",
+      "frequency_rank": 737,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 336
+    },
+    {
+      "word": "ອຸ່ນ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Warm — useful adjective but less frequent",
+      "frequency_rank": 738,
+      "frequency_count": 42,
+      "type": "word",
+      "final_rank": 337
+    },
+    {
+      "word": "ຖ້ວມ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Flood — specific noun",
+      "frequency_rank": 743,
+      "frequency_count": 41,
+      "type": "word",
+      "final_rank": 338
+    },
+    {
+      "word": "ຝຣັ່ງ",
+      "rank": 42,
+      "category": "content",
+      "brief_reason": "French/foreigner — cultural noun",
+      "frequency_rank": 745,
+      "frequency_count": 41,
+      "type": "word",
+      "final_rank": 339
+    },
+    {
+      "word": "ໄຫວ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Can manage/wai greeting — useful",
+      "frequency_rank": 750,
+      "frequency_count": 41,
+      "type": "word",
+      "final_rank": 340
+    },
+    {
+      "word": "ຕ່າງ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Different — common adjective",
+      "frequency_rank": 754,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 341
+    },
+    {
+      "word": "ນານ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Long time — temporal adjective",
+      "frequency_rank": 755,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 342
+    },
+    {
+      "word": "ພາ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Lead/take someone — causative verb",
+      "frequency_rank": 758,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 343
+    },
+    {
+      "word": "ຫາຍ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Disappear/breathe — less common standalone",
+      "frequency_rank": 760,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 344
+    },
+    {
+      "word": "ເຕັມ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Full — useful adjective",
+      "frequency_rank": 764,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 345
+    },
+    {
+      "word": "ໂຕນ",
+      "rank": 50,
+      "category": "content",
+      "brief_reason": "Ton — measurement unit, limited use",
+      "frequency_rank": 766,
+      "frequency_count": 40,
+      "type": "word",
+      "final_rank": 346
+    },
+    {
+      "word": "ກົງ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Straight/direct — useful adjective",
+      "frequency_rank": 769,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 347
+    },
+    {
+      "word": "ຂັບ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Drive — essential modern verb",
+      "frequency_rank": 771,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 348
+    },
+    {
+      "word": "ປູກ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Plant/grow — common verb",
+      "frequency_rank": 776,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 349
+    },
+    {
+      "word": "ຫວັດ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Flu — common health noun",
+      "frequency_rank": 779,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 350
+    },
+    {
+      "word": "ຫ້າມ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Forbidden — common verb",
+      "frequency_rank": 780,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 351
+    },
+    {
+      "word": "ໂທ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Call (phone) — essential verb",
+      "frequency_rank": 783,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 352
+    },
+    {
+      "word": "ໃກ້",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Near/close — essential adjective",
+      "frequency_rank": 784,
+      "frequency_count": 39,
+      "type": "word",
+      "final_rank": 353
+    },
+    {
+      "word": "ກວມ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Cover/account for — useful verb",
+      "frequency_rank": 785,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 354
+    },
+    {
+      "word": "ກາຍ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Become/pass — useful verb",
+      "frequency_rank": 786,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 355
+    },
+    {
+      "word": "ຊາບ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Know/inform — less common speech form",
+      "frequency_rank": 788,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 356
+    },
+    {
+      "word": "ຕິ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Criticize/prefix — limited standalone use",
+      "frequency_rank": 789,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 357
+    },
+    {
+      "word": "ອົກ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Chest — body part noun",
+      "frequency_rank": 795,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 358
+    },
+    {
+      "word": "ອົດ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Endure/restrain — useful verb",
+      "frequency_rank": 796,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 359
+    },
+    {
+      "word": "ເມ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 797,
+      "frequency_count": 38,
+      "type": "word",
+      "final_rank": 360
+    },
+    {
+      "word": "ນ້ອງ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Younger sibling — essential kinship noun",
+      "frequency_rank": 805,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 361
+    },
+    {
+      "word": "ປະຈຳ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Regular/permanent — useful adjective",
+      "frequency_rank": 808,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 362
+    },
+    {
+      "word": "ຫໍ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Tower/hall — useful noun",
+      "frequency_rank": 813,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 363
+    },
+    {
+      "word": "ເກດ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Name element — limited standalone use",
+      "frequency_rank": 814,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 364
+    },
+    {
+      "word": "ເພງ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Song — entertainment noun",
+      "frequency_rank": 817,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 365
+    },
+    {
+      "word": "ເລີດ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Excellent — compliment word",
+      "frequency_rank": 818,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 366
+    },
+    {
+      "word": "ແບ່ງ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Divide/share — useful verb",
+      "frequency_rank": 819,
+      "frequency_count": 37,
+      "type": "word",
+      "final_rank": 367
+    },
+    {
+      "word": "ຄູ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Teacher — essential noun",
+      "frequency_rank": 822,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 368
+    },
+    {
+      "word": "ຊຽງ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Place name element — not standalone vocabulary",
+      "frequency_rank": 824,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 369
+    },
+    {
+      "word": "ຕູ້",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Cabinet/closet — household noun",
+      "frequency_rank": 826,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 370
+    },
+    {
+      "word": "ນອນ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Sleep — essential daily verb",
+      "frequency_rank": 828,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 371
+    },
+    {
+      "word": "ສິນຄ້າ",
+      "rank": 31,
+      "category": "content",
+      "brief_reason": "Goods/merchandise — commerce noun",
+      "frequency_rank": 834,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 372
+    },
+    {
+      "word": "ຮ້າຍ",
+      "rank": 32,
+      "category": "content",
+      "brief_reason": "Bad/fierce — useful adjective",
+      "frequency_rank": 836,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 373
+    },
+    {
+      "word": "ເກັບ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Collect/keep — common verb",
+      "frequency_rank": 837,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 374
+    },
+    {
+      "word": "ແພງ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Expensive — essential adjective",
+      "frequency_rank": 839,
+      "frequency_count": 36,
+      "type": "word",
+      "final_rank": 375
+    },
+    {
+      "word": "ຈຸ",
+      "rank": 45,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 843,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 376
+    },
+    {
+      "word": "ບຸກ",
+      "rank": 46,
+      "category": "content",
+      "brief_reason": "Invade/break in — specific verb",
+      "frequency_rank": 845,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 377
+    },
+    {
+      "word": "ເສບ",
+      "rank": 47,
+      "category": "content",
+      "brief_reason": "Consume/play music — specific",
+      "frequency_rank": 853,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 378
+    },
+    {
+      "word": "ເສີມ",
+      "rank": 48,
+      "category": "content",
+      "brief_reason": "Enhance/supplement — somewhat formal",
+      "frequency_rank": 854,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 379
+    },
+    {
+      "word": "ແພດ",
+      "rank": 50,
+      "category": "content",
+      "brief_reason": "Doctor — useful but Pali-influenced, ໝໍ more common",
+      "frequency_rank": 855,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 380
+    },
+    {
+      "word": "ໄກ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Far — essential distance adjective",
+      "frequency_rank": 857,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 381
+    },
+    {
+      "word": "ໜ້ອຍ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "A little/slightly — common degree word (variant of ນ້ອຍ)",
+      "frequency_rank": 859,
+      "frequency_count": 35,
+      "type": "word",
+      "final_rank": 382
+    },
+    {
+      "word": "ຂາດ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Lack/missing — common verb",
+      "frequency_rank": 861,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 383
+    },
+    {
+      "word": "ຊູ",
+      "rank": 41,
+      "category": "content",
+      "brief_reason": "Raise/lift — less common verb",
+      "frequency_rank": 862,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 384
+    },
+    {
+      "word": "ດອນ",
+      "rank": 40,
+      "category": "content",
+      "brief_reason": "Island — geographic noun, in names",
+      "frequency_rank": 863,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 385
+    },
+    {
+      "word": "ປະຈຸບັນ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Current/present — useful time word",
+      "frequency_rank": 867,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 386
+    },
+    {
+      "word": "ປັກ",
+      "rank": 38,
+      "category": "content",
+      "brief_reason": "Plant/stick in — specific verb",
+      "frequency_rank": 868,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 387
+    },
+    {
+      "word": "ຜິດ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Wrong/guilty — essential adjective",
+      "frequency_rank": 869,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 388
+    },
+    {
+      "word": "ພູ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Mountain — geographic noun",
+      "frequency_rank": 871,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 389
+    },
+    {
+      "word": "ມຽນ",
+      "rank": 37,
+      "category": "content",
+      "brief_reason": "Myanmar — country name, specific",
+      "frequency_rank": 872,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 390
+    },
+    {
+      "word": "ສວນ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Garden/park — place noun",
+      "frequency_rank": 874,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 391
+    },
+    {
+      "word": "ຫວັງ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Hope — emotional verb",
+      "frequency_rank": 880,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 392
+    },
+    {
+      "word": "ອາຍຸ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Age — essential for introductions",
+      "frequency_rank": 883,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 393
+    },
+    {
+      "word": "ເຄື່ອນ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Move — useful verb",
+      "frequency_rank": 885,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 394
+    },
+    {
+      "word": "ເຕະ",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Kick — specific verb (sports)",
+      "frequency_rank": 886,
+      "frequency_count": 34,
+      "type": "word",
+      "final_rank": 395
+    },
+    {
+      "word": "ຂວາງ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Block/obstruct — useful verb",
+      "frequency_rank": 891,
+      "frequency_count": 33,
+      "type": "word",
+      "final_rank": 396
+    },
+    {
+      "word": "ບົວ",
+      "rank": 44,
+      "category": "content",
+      "brief_reason": "Lotus — cultural flower but specific",
+      "frequency_rank": 894,
+      "frequency_count": 33,
+      "type": "word",
+      "final_rank": 397
+    },
+    {
+      "word": "ແໜ້ນ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Tight/firm — useful adjective",
+      "frequency_rank": 902,
+      "frequency_count": 33,
+      "type": "word",
+      "final_rank": 398
+    },
+    {
+      "word": "ໄມ",
+      "rank": 45,
+      "category": "content",
+      "brief_reason": "Syllable fragment — limited standalone use",
+      "frequency_rank": 903,
+      "frequency_count": 33,
+      "type": "word",
+      "final_rank": 399
+    },
+    {
+      "word": "ຊ້າງ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Elephant — iconic animal",
+      "frequency_rank": 906,
+      "frequency_count": 32,
+      "type": "word",
+      "final_rank": 400
+    },
+    {
+      "word": "ປ້າຍ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Sign/label — common noun",
+      "frequency_rank": 908,
+      "frequency_count": 32,
+      "type": "word",
+      "final_rank": 401
+    },
+    {
+      "word": "ພັດ",
+      "rank": 39,
+      "category": "content",
+      "brief_reason": "Fan/blow — specific noun/verb",
+      "frequency_rank": 910,
+      "frequency_count": 32,
+      "type": "word",
+      "final_rank": 402
+    },
+    {
+      "word": "ອັດ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Block/rate — in compounds",
+      "frequency_rank": 913,
+      "frequency_count": 32,
+      "type": "word",
+      "final_rank": 403
+    },
+    {
+      "word": "ກອນ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "Poetry/verse — cultural but specific",
+      "frequency_rank": 920,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 404
+    },
+    {
+      "word": "ຂັນ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Bowl/tray — noun in ritual context",
+      "frequency_rank": 922,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 405
+    },
+    {
+      "word": "ປັດຈຸບັນ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Present (variant) — Pali spelling variant",
+      "frequency_rank": 927,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 406
+    },
+    {
+      "word": "ປາກ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Mouth — body part",
+      "frequency_rank": 928,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 407
+    },
+    {
+      "word": "ພັດທະນາ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Develop — modern verb",
+      "frequency_rank": 929,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 408
+    },
+    {
+      "word": "ເຕືອນ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Warn/remind — useful verb",
+      "frequency_rank": 933,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 409
+    },
+    {
+      "word": "ເບື້ອງ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Side/direction — positional word",
+      "frequency_rank": 934,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 410
+    },
+    {
+      "word": "ແດນ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "Territory/land — somewhat formal noun",
+      "frequency_rank": 938,
+      "frequency_count": 31,
+      "type": "word",
+      "final_rank": 411
+    },
+    {
+      "word": "ກົດ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Press/rule — common verb",
+      "frequency_rank": 940,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 412
+    },
+    {
+      "word": "ຍິນ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Hear — in ຍິນດີ (welcome)",
+      "frequency_rank": 943,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 413
+    },
+    {
+      "word": "ຖານ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Base/foundation — somewhat formal",
+      "frequency_rank": 945,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 414
+    },
+    {
+      "word": "ຫຼຸດ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Reduce — useful verb",
+      "frequency_rank": 957,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 415
+    },
+    {
+      "word": "ອົບ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Bake/fragrant — specific verb",
+      "frequency_rank": 959,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 416
+    },
+    {
+      "word": "ເພັດ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Diamond — specific noun",
+      "frequency_rank": 961,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 417
+    },
+    {
+      "word": "ແມນ",
+      "rank": 20,
+      "category": "content",
+      "brief_reason": "Insect/bug — common noun",
+      "frequency_rank": 963,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 418
+    },
+    {
+      "word": "ໄນ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "Nylon/syllable — loanword",
+      "frequency_rank": 964,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 419
+    },
+    {
+      "word": "ໄອ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Cough — health verb/noun",
+      "frequency_rank": 965,
+      "frequency_count": 30,
+      "type": "word",
+      "final_rank": 420
+    },
+    {
+      "word": "ຄ່ອຍ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Slowly/softly — essential adverb",
+      "frequency_rank": 970,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 421
+    },
+    {
+      "word": "ຊຸມ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Community/gather — in compounds",
+      "frequency_rank": 971,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 422
+    },
+    {
+      "word": "ດົນ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Long time — temporal adjective",
+      "frequency_rank": 972,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 423
+    },
+    {
+      "word": "ບາດ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Wound/baht — noun",
+      "frequency_rank": 974,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 424
+    },
+    {
+      "word": "ປາວ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "Announce/proclaim — less common verb",
+      "frequency_rank": 975,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 425
+    },
+    {
+      "word": "ສ່ອງ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Shine/illuminate — useful verb",
+      "frequency_rank": 977,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 426
+    },
+    {
+      "word": "ຫລຸດ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Reduce — variant spelling of ຫຼຸດ",
+      "frequency_rank": 978,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 427
+    },
+    {
+      "word": "ຮ້ອຍ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Hundred — essential number",
+      "frequency_rank": 982,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 428
+    },
+    {
+      "word": "ເຮືອ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Boat — transportation noun",
+      "frequency_rank": 983,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 429
+    },
+    {
+      "word": "ໜັກ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Heavy/serious — common adjective",
+      "frequency_rank": 984,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 430
+    },
+    {
+      "word": "ໝັ້ນ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Firm/engaged — useful adjective",
+      "frequency_rank": 985,
+      "frequency_count": 29,
+      "type": "word",
+      "final_rank": 431
+    },
+    {
+      "word": "ຄາ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Galangal — food ingredient",
+      "frequency_rank": 988,
+      "frequency_count": 28,
+      "type": "word",
+      "final_rank": 432
+    },
+    {
+      "word": "ຄົມ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Sharp — adjective",
+      "frequency_rank": 989,
+      "frequency_count": 28,
+      "type": "word",
+      "final_rank": 433
+    },
+    {
+      "word": "ປົກ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Cover/govern — useful verb",
+      "frequency_rank": 997,
+      "frequency_count": 28,
+      "type": "word",
+      "final_rank": 434
+    },
+    {
+      "word": "ຜາ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Cliff/cloth — noun",
+      "frequency_rank": 998,
+      "frequency_count": 28,
+      "type": "word",
+      "final_rank": 435
+    },
+    {
+      "word": "ຈຽນ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "To write (literary) — literary/archaic verb",
+      "frequency_rank": 2127,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 436
+    },
+    {
+      "word": "ຈ້າວ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "Boss/owner — useful social noun",
+      "frequency_rank": 2128,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 437
+    },
+    {
+      "word": "ຈໍ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Screen/monitor — modern tech noun",
+      "frequency_rank": 2129,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 438
+    },
+    {
+      "word": "ຊອບ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "To like/fond of — useful verb",
+      "frequency_rank": 2130,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 439
+    },
+    {
+      "word": "ຊິກ",
+      "rank": 36,
+      "category": "content",
+      "brief_reason": "Fragment/chic — limited standalone use",
+      "frequency_rank": 2132,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 440
+    },
+    {
+      "word": "ຍຸກ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "Era/epoch — useful noun",
+      "frequency_rank": 2135,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 441
+    },
+    {
+      "word": "ດ່ານ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Checkpoint/gate — common noun",
+      "frequency_rank": 2138,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 442
+    },
+    {
+      "word": "ຕະຫລາດ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Market (variant spelling) — essential shopping noun",
+      "frequency_rank": 2139,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 443
+    },
+    {
+      "word": "ຕີນ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Foot — basic body part noun",
+      "frequency_rank": 2141,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 444
+    },
+    {
+      "word": "ຖິ້ມ",
+      "rank": 2,
+      "category": "content",
+      "brief_reason": "Throw away/discard — common daily verb",
+      "frequency_rank": 2143,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 445
+    },
+    {
+      "word": "ທັນສະໄໝ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Modern/up-to-date — useful adjective",
+      "frequency_rank": 2146,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 446
+    },
+    {
+      "word": "ທົບ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Fold/multiply — useful verb",
+      "frequency_rank": 2153,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 447
+    },
+    {
+      "word": "ນະຄອນຫລວງ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "Capital city — useful place noun",
+      "frequency_rank": 2155,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 448
+    },
+    {
+      "word": "ນິວ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "New (loanword syllable) — in compounds only",
+      "frequency_rank": 2158,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 449
+    },
+    {
+      "word": "ບຶງ",
+      "rank": 18,
+      "category": "content",
+      "brief_reason": "Pond/lake — geographic noun",
+      "frequency_rank": 2162,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 450
+    },
+    {
+      "word": "ບໍ່ແຮ່",
+      "rank": 34,
+      "category": "content",
+      "brief_reason": "Ore/mineral — specific technical noun",
+      "frequency_rank": 2164,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 451
+    },
+    {
+      "word": "ປະຕິບັດ",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "Practice/carry out — common verb",
+      "frequency_rank": 2165,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 452
+    },
+    {
+      "word": "ປາງ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Image/posture — specific noun",
+      "frequency_rank": 2169,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 453
+    },
+    {
+      "word": "ປຸ້ນຊັບ",
+      "rank": 33,
+      "category": "content",
+      "brief_reason": "Rob/plunder — specific crime vocabulary",
+      "frequency_rank": 2170,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 454
+    },
+    {
+      "word": "ຝີ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "Ghost/spirit — culturally important noun",
+      "frequency_rank": 2172,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 455
+    },
+    {
+      "word": "ມວຍ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "Boxing — common sport noun",
+      "frequency_rank": 2181,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 456
+    },
+    {
+      "word": "ມະນຸດ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "Human being — common noun",
+      "frequency_rank": 2182,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 457
+    },
+    {
+      "word": "ມານ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Mara/demon — specific noun",
+      "frequency_rank": 2184,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 458
+    },
+    {
+      "word": "ມິງ",
+      "rank": 30,
+      "category": "content",
+      "brief_reason": "Name element — limited standalone use",
+      "frequency_rank": 2185,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 459
+    },
+    {
+      "word": "ຢວນ",
+      "rank": 35,
+      "category": "content",
+      "brief_reason": "Vietnamese (ethnonym) — ethnic name",
+      "frequency_rank": 2188,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 460
+    },
+    {
+      "word": "ຢັ້ງ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Stop/restrain — useful verb",
+      "frequency_rank": 2189,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 461
+    },
+    {
+      "word": "ຢາມ",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Guard/time/when — common time word",
+      "frequency_rank": 2191,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 462
+    },
+    {
+      "word": "ຢົງ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Shake/sway — less common verb",
+      "frequency_rank": 2192,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 463
+    },
+    {
+      "word": "ລືມ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "Forget — essential everyday verb",
+      "frequency_rank": 2195,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 464
+    },
+    {
+      "word": "ວິດ",
+      "rank": 19,
+      "category": "content",
+      "brief_reason": "To pump/bail water — useful verb",
+      "frequency_rank": 2196,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 465
+    },
+    {
+      "word": "ສະຫະລັດ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "United States — useful country name",
+      "frequency_rank": 2202,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 466
+    },
+    {
+      "word": "ສ່ວນຮ້ອຍ",
+      "rank": 27,
+      "category": "content",
+      "brief_reason": "Percent — useful math/daily word",
+      "frequency_rank": 2204,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 467
+    },
+    {
+      "word": "ຫລັກ",
+      "rank": 17,
+      "category": "content",
+      "brief_reason": "Main/principal/pillar — useful adjective/noun",
+      "frequency_rank": 2206,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 468
+    },
+    {
+      "word": "ຫົງ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "To cook rice — essential cooking verb",
+      "frequency_rank": 2207,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 469
+    },
+    {
+      "word": "ຫ້ວຍ",
+      "rank": 15,
+      "category": "content",
+      "brief_reason": "Stream/creek — common geographic noun",
+      "frequency_rank": 2208,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 470
+    },
+    {
+      "word": "ອຸດ",
+      "rank": 24,
+      "category": "content",
+      "brief_reason": "To plug/stuff — specific verb",
+      "frequency_rank": 2210,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 471
+    },
+    {
+      "word": "ຮັດ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "To tighten/squeeze — useful verb",
+      "frequency_rank": 2213,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 472
+    },
+    {
+      "word": "ເຕີນ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "To walk (dialectal variant) — dialectal verb",
+      "frequency_rank": 2217,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 473
+    },
+    {
+      "word": "ເຝົ້າ",
+      "rank": 7,
+      "category": "content",
+      "brief_reason": "To watch/guard — useful verb",
+      "frequency_rank": 2219,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 474
+    },
+    {
+      "word": "ເຢຍລະມັນ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Germany — country name",
+      "frequency_rank": 2224,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 475
+    },
+    {
+      "word": "ເອີ້ນ",
+      "rank": 1,
+      "category": "content",
+      "brief_reason": "To call/name — essential everyday verb",
+      "frequency_rank": 2225,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 476
+    },
+    {
+      "word": "ແກ່ນ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Seed/core/pit — useful noun",
+      "frequency_rank": 2226,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 477
+    },
+    {
+      "word": "ແຂ່ງ",
+      "rank": 6,
+      "category": "content",
+      "brief_reason": "To compete/race — common verb",
+      "frequency_rank": 2230,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 478
+    },
+    {
+      "word": "ແຈງ",
+      "rank": 12,
+      "category": "content",
+      "brief_reason": "To inform/explain — useful verb",
+      "frequency_rank": 2231,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 479
+    },
+    {
+      "word": "ແຮມ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "To stay overnight/lodge — travel verb",
+      "frequency_rank": 2233,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 480
+    },
+    {
+      "word": "ໂອນ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "To transfer (money) — useful modern verb",
+      "frequency_rank": 2237,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 481
+    },
+    {
+      "word": "ໄໝ້",
+      "rank": 8,
+      "category": "content",
+      "brief_reason": "To burn — useful verb",
+      "frequency_rank": 2240,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 482
+    },
+    {
+      "word": "ໜໍ່",
+      "rank": 4,
+      "category": "content",
+      "brief_reason": "Bamboo shoot — common Lao food noun",
+      "frequency_rank": 2242,
+      "frequency_count": 9,
+      "type": "word",
+      "final_rank": 483
+    },
+    {
+      "word": "ກັກ",
+      "rank": 14,
+      "category": "content",
+      "brief_reason": "To confine/quarantine — useful verb",
+      "frequency_rank": 2260,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 484
+    },
+    {
+      "word": "ການເງິນ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "Finance — common compound noun",
+      "frequency_rank": 2263,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 485
+    },
+    {
+      "word": "ຂີດ",
+      "rank": 25,
+      "category": "content",
+      "brief_reason": "Line/mark/draw — useful verb",
+      "frequency_rank": 2269,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 486
+    },
+    {
+      "word": "ຂໍ້ມູນ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Data/information — common modern noun",
+      "frequency_rank": 2271,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 487
+    },
+    {
+      "word": "ງື່ມ",
+      "rank": 23,
+      "category": "content",
+      "brief_reason": "To drink (dialectal) — dialectal verb",
+      "frequency_rank": 2276,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 488
+    },
+    {
+      "word": "ງົວ",
+      "rank": 5,
+      "category": "content",
+      "brief_reason": "Cow/ox — common animal noun",
+      "frequency_rank": 2277,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 489
+    },
+    {
+      "word": "ງ່າຍໆ",
+      "rank": 13,
+      "category": "content",
+      "brief_reason": "Easy/easily — common spoken adjective",
+      "frequency_rank": 2278,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 490
+    },
+    {
+      "word": "ຈານ",
+      "rank": 3,
+      "category": "content",
+      "brief_reason": "Plate/dish — common household noun",
+      "frequency_rank": 2280,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 491
+    },
+    {
+      "word": "ຈິດໃຈ",
+      "rank": 9,
+      "category": "content",
+      "brief_reason": "Mind/spirit — common abstract noun",
+      "frequency_rank": 2282,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 492
+    },
+    {
+      "word": "ຊະນິດ",
+      "rank": 11,
+      "category": "content",
+      "brief_reason": "Kind/type/sort — useful classifier",
+      "frequency_rank": 2283,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 493
+    },
+    {
+      "word": "ຊັນ",
+      "rank": 29,
+      "category": "content",
+      "brief_reason": "Resin/layer — specific noun",
+      "frequency_rank": 2284,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 494
+    },
+    {
+      "word": "ຊ່າງ",
+      "rank": 10,
+      "category": "content",
+      "brief_reason": "Craftsman/mechanic — common occupation",
+      "frequency_rank": 2286,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 495
+    },
+    {
+      "word": "ດັດ",
+      "rank": 21,
+      "category": "content",
+      "brief_reason": "To adjust/straighten — useful verb",
+      "frequency_rank": 2288,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 496
+    },
+    {
+      "word": "ດັນ",
+      "rank": 22,
+      "category": "content",
+      "brief_reason": "To push — useful verb",
+      "frequency_rank": 2289,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 497
+    },
+    {
+      "word": "ດົມ",
+      "rank": 16,
+      "category": "content",
+      "brief_reason": "To smell/sniff — useful sensory verb",
+      "frequency_rank": 2292,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 498
+    },
+    {
+      "word": "ດ້ອຍ",
+      "rank": 28,
+      "category": "content",
+      "brief_reason": "Inferior/small hill — less common",
+      "frequency_rank": 2293,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 499
+    },
+    {
+      "word": "ຕັງ",
+      "rank": 26,
+      "category": "content",
+      "brief_reason": "To set up/install — useful verb",
+      "frequency_rank": 2294,
+      "frequency_count": 8,
+      "type": "word",
+      "final_rank": 500
+    }
+  ]
+}

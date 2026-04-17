@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON with the same filename with .json appended in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ສື່ (frequency rank: 599, count: 56) [✓]
+2. ຮອບ (frequency rank: 600, count: 56) [✓]
+3. ເຊື່ອ (frequency rank: 601, count: 56) [✓]
+4. ນອກ (frequency rank: 603, count: 55) [✓]
+5. ບອກ (frequency rank: 604, count: 55) [✓]
+6. ອ່ານ (frequency rank: 605, count: 55) [✓]
+7. ໂອ (frequency rank: 606, count: 55) [✓]
+8. ກວດ (frequency rank: 608, count: 54) [✓]
+9. ກິໂລແມັດ (frequency rank: 609, count: 54) [✓]
+10. ຍົກ (frequency rank: 610, count: 54) [✓]
+11. ປະຊາຊົນ (frequency rank: 611, count: 54) [✓]
+12. ພິມ (frequency rank: 612, count: 54) [✓]
+13. ໄຟ (frequency rank: 614, count: 54) [✓]
+14. ຄົ້ນ (frequency rank: 615, count: 53) [✓]
+15. ຄໍ (frequency rank: 616, count: 53) [✓]
+16. ຊີ້ (frequency rank: 617, count: 53) [✓]
+17. ນະຄອນຫຼວງວຽງຈັນ (frequency rank: 619, count: 53) [⚠]
+18. ປະເທດລາວ (frequency rank: 620, count: 53) [✓]
+19. ເກົ່າ (frequency rank: 622, count: 53) [✓]
+20. ໄມ້ (frequency rank: 623, count: 53) [✓]
+21. ພາສາອັງກິດ (frequency rank: 629, count: 52) [✓]
+22. ມາດ (frequency rank: 630, count: 52) [✓]
+23. ຣົບ (frequency rank: 631, count: 52) [✓]
+24. ຍອດ (frequency rank: 636, count: 51) [✓]
+25. ທິດ (frequency rank: 637, count: 51) [✓]
+26. ບາ (frequency rank: 638, count: 51) [✓]
+27. ລັດຖະບານ (frequency rank: 641, count: 51) [✓]
+28. ເທິງ (frequency rank: 642, count: 51) [✓]
+29. ໂນ (frequency rank: 643, count: 51) [✓]
+30. ດັ່ງນັ້ນ (frequency rank: 645, count: 50) [✓]
+31. ນີ (frequency rank: 646, count: 50) [✓]
+32. ປະເທດ (frequency rank: 647, count: 50) [✓]
+33. ອ້ອມ (frequency rank: 648, count: 50) [✓]
+34. ຕື້ (frequency rank: 651, count: 49) [✓]
+35. ທອງລຸນ (frequency rank: 652, count: 49) [⚠]
+36. ທ້າວ (frequency rank: 653, count: 49) [✓]
+37. ສຳ (frequency rank: 655, count: 49) [✓]
+38. ເອ (frequency rank: 658, count: 49) [✓]
+39. ໂຣ (frequency rank: 659, count: 49) [⚠]
+40. ໜຸ່ມ (frequency rank: 661, count: 49) [✓]
+41. ຄັດ (frequency rank: 665, count: 48) [✓]
+42. ຄາດ (frequency rank: 666, count: 48) [✓]
+43. ດາວ (frequency rank: 667, count: 48) [✓]
+44. ມັກ (frequency rank: 670, count: 48) [✓]
+45. ລັດຖະມົນຕີວ່າການ (frequency rank: 671, count: 48) [⚠]
+46. ສາດ (frequency rank: 672, count: 48) [✓]
+47. ເດັກ (frequency rank: 673, count: 48) [✓]
+48. ເປົ້າ (frequency rank: 674, count: 48) [✓]
+49. ແດງ (frequency rank: 675, count: 48) [✓]
+50. ຍິ່ງ (frequency rank: 676, count: 47) [✓]

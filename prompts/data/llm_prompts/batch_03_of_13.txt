@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON with the same filename with .json appended in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ສູງ (frequency rank: 147, count: 256) [✓]
+2. ວຽກ (frequency rank: 149, count: 250) [✓]
+3. ລົງ (frequency rank: 151, count: 246) [✓]
+4. ທອງ (frequency rank: 152, count: 245) [✓]
+5. ຊ່ວຍ (frequency rank: 153, count: 243) [✓]
+6. ສ້າງ (frequency rank: 154, count: 243) [✓]
+7. ວິນາທີ (frequency rank: 155, count: 240) [✓]
+8. ອາ (frequency rank: 156, count: 237) [✓]
+9. ເວລາໃນການປະມວນຜົນໜ້າເວັບ (frequency rank: 157, count: 237) [⚠]
+10. ສ່ວນ (frequency rank: 159, count: 232) [✓]
+11. ພັດທະນາໂດຍ (frequency rank: 161, count: 230) [⚠]
+12. ໜຶ່ງ (frequency rank: 162, count: 230) [✓]
+13. ຫລື (frequency rank: 164, count: 229) [✓]
+14. ອອກແບບ (frequency rank: 165, count: 229) [✓]
+15. ພັນ (frequency rank: 166, count: 225) [✓]
+16. ສຶກ (frequency rank: 167, count: 225) [✓]
+17. ຫາ (frequency rank: 170, count: 223) [✓]
+18. ສົມ (frequency rank: 171, count: 219) [✓]
+19. ມິຖຸນາ (frequency rank: 172, count: 216) [✓]
+20. ຜົນ (frequency rank: 173, count: 214) [✓]
+21. ເຊິ່ງ (frequency rank: 174, count: 214) [✓]
+22. ບຸນ (frequency rank: 175, count: 213) [✓]
+23. ມັນ (frequency rank: 176, count: 212) [✓]
+24. ມະ (frequency rank: 179, count: 209) [✓]
+25. ລະ (frequency rank: 181, count: 207) [✓]
+26. ກີບ (frequency rank: 182, count: 205) [✓]
+27. ດ້ານ (frequency rank: 183, count: 205) [✓]
+28. ພະຈິກ (frequency rank: 184, count: 201) [✓]
+29. ມື (frequency rank: 186, count: 200) [✓]
+30. ພວກ (frequency rank: 187, count: 199) [✓]
+31. ດຽວ (frequency rank: 188, count: 197) [✓]
+32. ທັນວາ (frequency rank: 189, count: 197) [✓]
+33. ເລື່ອງ (frequency rank: 191, count: 193) [✓]
+34. ພະ (frequency rank: 193, count: 190) [✓]
+35. ກົມ (frequency rank: 194, count: 189) [✓]
+36. ຂ່າວ (frequency rank: 196, count: 186) [✓]
+37. ຖືກ (frequency rank: 198, count: 185) [✓]
+38. ແທນ (frequency rank: 199, count: 184) [✓]
+39. ຕ່າງໆ (frequency rank: 201, count: 183) [✓]
+40. ຊຶ່ງ (frequency rank: 202, count: 181) [✓]
+41. ພົບ (frequency rank: 203, count: 181) [✓]
+42. ເພາະ (frequency rank: 205, count: 181) [✓]
+43. ກ່າວ (frequency rank: 206, count: 179) [✓]
+44. ທຸກ (frequency rank: 207, count: 179) [✓]
+45. ນ້ຳ (frequency rank: 209, count: 177) [✓]
+46. ໜ້າ (frequency rank: 211, count: 177) [✓]
+47. ສປ (frequency rank: 213, count: 176) [⚠]
+48. ຮູ້ (frequency rank: 215, count: 175) [✓]
+49. ຕອນ (frequency rank: 216, count: 172) [✓]
+50. ສຸດ (frequency rank: 217, count: 172) [✓]

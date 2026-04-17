@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ແຮງງານ (frequency rank: 1389, count: 19) [✓]
+2. ໂຄດ (frequency rank: 1390, count: 19) [✓]
+3. ໄຈ (frequency rank: 1391, count: 19) [✓]
+4. ໄລ (frequency rank: 1392, count: 19) [✓]
+5. ກວ້າງ (frequency rank: 1395, count: 18) [✓]
+6. ຂາ (frequency rank: 1396, count: 18) [✓]
+7. ຄະແນນ (frequency rank: 1397, count: 18) [✓]
+8. ຄູນ (frequency rank: 1398, count: 18) [✓]
+9. ຊາງ (frequency rank: 1399, count: 18) [✓]
+10. ຊີວິດ (frequency rank: 1400, count: 18) [✓]
+11. ຍື່ນ (frequency rank: 1402, count: 18) [✓]
+12. ດຶງ (frequency rank: 1403, count: 18) [✓]
+13. ທະນາຄານ (frequency rank: 1406, count: 18) [✓]
+14. ນ່າ (frequency rank: 1408, count: 18) [✓]
+15. ບັງ (frequency rank: 1409, count: 18) [✓]
+16. ບານ (frequency rank: 1411, count: 18) [✓]
+17. ປະເທດໄທ (frequency rank: 1413, count: 18) [✓]
+18. ພູນ (frequency rank: 1415, count: 18) [✓]
+19. ມິ (frequency rank: 1417, count: 18) [✓]
+20. ລິນ (frequency rank: 1419, count: 18) [✓]
+21. ລຽນ (frequency rank: 1420, count: 18) [✓]
+22. ສີພັນດອນ (frequency rank: 1422, count: 18) [⚠]
+23. ສົກ (frequency rank: 1424, count: 18) [✓]
+24. ຫ່າງ (frequency rank: 1425, count: 18) [✓]
+25. ຮ້ອງ (frequency rank: 1426, count: 18) [✓]
+26. ເຈຍ (frequency rank: 1429, count: 18) [✓]
+27. ເດີ (frequency rank: 1430, count: 18) [✓]
+28. ເດີນ (frequency rank: 1431, count: 18) [✓]
+29. ເປ (frequency rank: 1432, count: 18) [✓]
+30. ເພັງ (frequency rank: 1433, count: 18) [✓]
+31. ເມຍ (frequency rank: 1434, count: 18) [✓]
+32. ເສັ້ນ (frequency rank: 1435, count: 18) [✓]
+33. ໂທລະ (frequency rank: 1437, count: 18) [✓]
+34. ໂພນ (frequency rank: 1439, count: 18) [✓]
+35. ໃຫມ່ (frequency rank: 1440, count: 18) [✓]
+36. ການລົງທຶນ (frequency rank: 1445, count: 17) [✓]
+37. ກີ (frequency rank: 1446, count: 17) [✓]
+38. ຂັດ (frequency rank: 1448, count: 17) [✓]
+39. ຂາວ (frequency rank: 1449, count: 17) [✓]
+40. ຄຸດ (frequency rank: 1451, count: 17) [✓]
+41. ງ່າຍ (frequency rank: 1452, count: 17) [✓]
+42. ຈຸນ (frequency rank: 1453, count: 17) [✓]
+43. ນອກຈາກນັ້ນ (frequency rank: 1456, count: 17) [⚠]
+44. ບີ (frequency rank: 1459, count: 17) [✓]
+45. ບຸກຄົນ (frequency rank: 1460, count: 17) [✓]
+46. ບົນ (frequency rank: 1461, count: 17) [✓]
+47. ປະຊາກອນ (frequency rank: 1463, count: 17) [✓]
+48. ປັດ (frequency rank: 1464, count: 17) [✓]
+49. ປີຜ່ານມາ (frequency rank: 1465, count: 17) [⚠]
+50. ພ້ອມຄະນະ (frequency rank: 1466, count: 17) [⚠]

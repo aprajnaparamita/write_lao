@@ -1,0 +1,52 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON with the same filename with .json appended in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ຖານ (frequency rank: 945, count: 30) [✓]
+2. ນອກຈາກນີ້ (frequency rank: 946, count: 30) [⚠]
+3. ລັດຖະມົນຕີ (frequency rank: 950, count: 30) [✓]
+4. ຫຼຸດ (frequency rank: 957, count: 30) [✓]
+5. ອະ (frequency rank: 958, count: 30) [✓]
+6. ອົບ (frequency rank: 959, count: 30) [✓]
+7. ເພັດ (frequency rank: 961, count: 30) [✓]
+8. ແມນ (frequency rank: 963, count: 30) [✓]
+9. ໄນ (frequency rank: 964, count: 30) [✓]
+10. ໄອ (frequency rank: 965, count: 30) [✓]
+11. ຄ່ອຍ (frequency rank: 970, count: 29) [✓]
+12. ຊຸມ (frequency rank: 971, count: 29) [✓]
+13. ດົນ (frequency rank: 972, count: 29) [✓]
+14. ທ່ານນາງ (frequency rank: 973, count: 29) [⚠]
+15. ບາດ (frequency rank: 974, count: 29) [✓]
+16. ປາວ (frequency rank: 975, count: 29) [✓]
+17. ຣິວ (frequency rank: 976, count: 29) [⚠]
+18. ສ່ອງ (frequency rank: 977, count: 29) [✓]
+19. ຫລຸດ (frequency rank: 978, count: 29) [✓]
+20. ຮສຈ (frequency rank: 981, count: 29) [⚠]
+21. ຮ້ອຍ (frequency rank: 982, count: 29) [✓]
+22. ເຮືອ (frequency rank: 983, count: 29) [✓]
+23. ໜັກ (frequency rank: 984, count: 29) [✓]
+24. ໝັ້ນ (frequency rank: 985, count: 29) [✓]
+25. ໝາຍເຖິງ (frequency rank: 986, count: 29) [⚠]
+26. ຄາ (frequency rank: 988, count: 28) [✓]
+27. ຄົມ (frequency rank: 989, count: 28) [✓]
+28. ຕຣາ (frequency rank: 993, count: 28) [⚠]
+29. ທ່ານຮອງນາຍົກລັດຖະມົນຕີ (frequency rank: 994, count: 28) [⚠]
+30. ປິນ (frequency rank: 996, count: 28) [⚠]
+31. ປົກ (frequency rank: 997, count: 28) [✓]
+32. ຜາ (frequency rank: 998, count: 28) [✓]

@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ວິດ (frequency rank: 2196, count: 9) [✓]
+2. ວິພາວັນ (frequency rank: 2197, count: 9) [⚠]
+3. ວຸ (frequency rank: 2198, count: 9) [⚠]
+4. ສຣະ (frequency rank: 2199, count: 9) [⚠]
+5. ສະຫວັນນະເຂດ (frequency rank: 2201, count: 9) [✓]
+6. ສະຫະລັດ (frequency rank: 2202, count: 9) [✓]
+7. ສ່ວນຮ້ອຍ (frequency rank: 2204, count: 9) [✓]
+8. ຫລັກ (frequency rank: 2206, count: 9) [✓]
+9. ຫົງ (frequency rank: 2207, count: 9) [✓]
+10. ຫ້ວຍ (frequency rank: 2208, count: 9) [✓]
+11. ອຸ (frequency rank: 2209, count: 9) [✓]
+12. ອຸດ (frequency rank: 2210, count: 9) [✓]
+13. ຮັດ (frequency rank: 2213, count: 9) [✓]
+14. ັສ (frequency rank: 2214, count: 9) [⚠]
+15. ເກ (frequency rank: 2215, count: 9) [✓]
+16. ເຈີ (frequency rank: 2216, count: 9) [✓]
+17. ເຕີນ (frequency rank: 2217, count: 9) [✓]
+18. ເຝົ້າ (frequency rank: 2219, count: 9) [✓]
+19. ເພ (frequency rank: 2220, count: 9) [✓]
+20. ເພາະວ່າ (frequency rank: 2221, count: 9) [✓]
+21. ເຟີ (frequency rank: 2222, count: 9) [⚠]
+22. ເມສຊີ (frequency rank: 2223, count: 9) [⚠]
+23. ເຢຍລະມັນ (frequency rank: 2224, count: 9) [✓]
+24. ເອີ້ນ (frequency rank: 2225, count: 9) [✓]
+25. ແກ່ນ (frequency rank: 2226, count: 9) [✓]
+26. ແຂວງຫລວງພະບາງ (frequency rank: 2228, count: 9) [⚠]
+27. ແຂວງໄຊຍະບູລີ (frequency rank: 2229, count: 9) [✓]
+28. ແຂ່ງ (frequency rank: 2230, count: 9) [✓]
+29. ແຈງ (frequency rank: 2231, count: 9) [✓]
+30. ແອັດ (frequency rank: 2232, count: 9) [✓]
+31. ແຮມ (frequency rank: 2233, count: 9) [✓]
+32. ໂດລາສະຫະລັດ (frequency rank: 2234, count: 9) [⚠]
+33. ໂທລະຄົມມະນາຄົມ (frequency rank: 2235, count: 9) [✓]
+34. ໂປ (frequency rank: 2236, count: 9) [✓]
+35. ໂອນ (frequency rank: 2237, count: 9) [✓]
+36. ໄໝ້ (frequency rank: 2240, count: 9) [✓]
+37. ໜໍ່ (frequency rank: 2242, count: 9) [✓]
+38. ກຣຸບ (frequency rank: 2257, count: 8) [✓]
+39. ກະຊວງຖະແຫຼງຂ່າວ (frequency rank: 2259, count: 8) [⚠]
+40. ກັກ (frequency rank: 2260, count: 8) [✓]
+41. ການພັດທະນາ (frequency rank: 2262, count: 8) [✓]
+42. ການເງິນ (frequency rank: 2263, count: 8) [✓]
+43. ກໍຄື (frequency rank: 2265, count: 8) [✓]
+44. ຂອງປະເທດ (frequency rank: 2266, count: 8) [⚠]
+45. ຂີດ (frequency rank: 2269, count: 8) [✓]
+46. ຂື້ນ (frequency rank: 2270, count: 8) [✓]
+47. ຂໍ້ມູນ (frequency rank: 2271, count: 8) [✓]
+48. ຄຳໄຕ (frequency rank: 2274, count: 8) [⚠]
+49. ງື່ມ (frequency rank: 2276, count: 8) [✓]
+50. ງົວ (frequency rank: 2277, count: 8) [✓]

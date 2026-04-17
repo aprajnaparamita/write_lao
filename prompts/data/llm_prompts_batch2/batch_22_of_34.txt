@@ -1,0 +1,70 @@
+You are a Lao language teacher preparing vocabulary for a beginner-to-intermediate learner focused on **informal spoken conversation**. Below are 50 Lao words drawn from a written-text corpus.
+
+Some of these words are genuinely common in daily spoken Lao. Others are frequent in the corpus because they appear heavily in formal writing, news, or Pali/Sanskrit loanwords that nobody uses in conversation.
+
+**Rank these 50 words from 1 (most useful for a conversational learner) to 50 (least useful).** Do not omit any words — rank all 50.
+
+For each word, also assign a category:
+- `content` (nouns, verbs, adjectives, adverbs)
+- `function` (particles, classifiers, pronouns, conjunctions)
+- `formal` (Pali/Sanskrit loanwords, bureaucratic vocabulary rarely used in speech)
+
+Write output as JSON in this format:
+```json
+[
+  {{"word": "...", "rank": 1, "category": "content", "brief_reason": "..."}},
+  ...
+]
+```
+
+Words to rank:
+1. ແຮດ (frequency rank: 2925, count: 6) [✓]
+2. ແຮ່ງ (frequency rank: 2926, count: 6) [✓]
+3. ໂຊ (frequency rank: 2928, count: 6) [✓]
+4. ໂນ້ຍ (frequency rank: 2931, count: 6) [✓]
+5. ໂຮງ (frequency rank: 2935, count: 6) [✓]
+6. ໂຮ່ (frequency rank: 2936, count: 6) [✓]
+7. ໄຂ່ (frequency rank: 2942, count: 6) [✓]
+8. ໄຄ (frequency rank: 2943, count: 6) [✓]
+9. ໄດ (frequency rank: 2944, count: 6) [✓]
+10. ໄຣ (frequency rank: 2947, count: 6) [✓]
+11. ໄຮ (frequency rank: 2948, count: 6) [✓]
+12. ໜັງ (frequency rank: 2949, count: 6) [✓]
+13. ໜາ (frequency rank: 2950, count: 6) [✓]
+14. ໜານ (frequency rank: 2951, count: 6) [✓]
+15. ໝໍ້ (frequency rank: 2954, count: 6) [✓]
+16. ກວມເອົາ (frequency rank: 3020, count: 5) [✓]
+17. ກະທົບ (frequency rank: 3024, count: 5) [✓]
+18. ກັດ (frequency rank: 3025, count: 5) [✓]
+19. ການຈັດ (frequency rank: 3027, count: 5) [✓]
+20. ການາດາ (frequency rank: 3030, count: 5) [✓]
+21. ການແຂ່ງຂັນ (frequency rank: 3032, count: 5) [✓]
+22. ກຳມະກອນ (frequency rank: 3034, count: 5) [✓]
+23. ກຶມມຸ (frequency rank: 3039, count: 5) [✓]
+24. ກຸງ (frequency rank: 3040, count: 5) [✓]
+25. ກຸດ (frequency rank: 3041, count: 5) [✓]
+26. ກຸມ (frequency rank: 3042, count: 5) [✓]
+27. ກຸ່ມຄົນ (frequency rank: 3044, count: 5) [✓]
+28. ກູບາ (frequency rank: 3045, count: 5) [✓]
+29. ກົງກັນຂ້າມ (frequency rank: 3047, count: 5) [✓]
+30. ກ່ອນອື່ນ (frequency rank: 3048, count: 5) [✓]
+31. ຂວາ (frequency rank: 3051, count: 5) [✓]
+32. ຂະຫຍາຍຕົວ (frequency rank: 3055, count: 5) [✓]
+33. ຂຸມ (frequency rank: 3056, count: 5) [✓]
+34. ຂ່າ (frequency rank: 3057, count: 5) [✓]
+35. ຂ້ອງ (frequency rank: 3058, count: 5) [✓]
+36. ຂ້ອນ (frequency rank: 3059, count: 5) [✓]
+37. ຂ້າມ (frequency rank: 3060, count: 5) [✓]
+38. ຄວາມສຳພັນ (frequency rank: 3062, count: 5) [✓]
+39. ຄວາມສຸກ (frequency rank: 3063, count: 5) [✓]
+40. ຄັງ (frequency rank: 3065, count: 5) [✓]
+41. ຄຳມ່ວນ (frequency rank: 3067, count: 5) [✓]
+42. ຄີມ (frequency rank: 3068, count: 5) [✓]
+43. ງາ (frequency rank: 3071, count: 5) [✓]
+44. ຈະເລີນ (frequency rank: 3072, count: 5) [✓]
+45. ຈັ່ງ (frequency rank: 3073, count: 5) [✓]
+46. ຈາງ (frequency rank: 3075, count: 5) [✓]
+47. ຈີດີພີ (frequency rank: 3076, count: 5) [✓]
+48. ຈື່ (frequency rank: 3078, count: 5) [✓]
+49. ຈົງ (frequency rank: 3080, count: 5) [✓]
+50. ຊັບພະຍາກອນ (frequency rank: 3083, count: 5) [✓]
