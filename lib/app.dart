@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:write_it_lao/config/routes.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 
 class WriteItLaoApp extends StatelessWidget {
   const WriteItLaoApp({super.key});
@@ -12,6 +13,8 @@ class WriteItLaoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       routerConfig: router,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
     );
   }
 }

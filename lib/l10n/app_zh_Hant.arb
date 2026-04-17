@@ -1,0 +1,135 @@
+{
+  "@@locale": "zh_Hant",
+
+  "appTitle": "寫老撾文",
+
+  "tabLessons": "課程",
+  "tabReview": "複習",
+  "tabProgress": "進度",
+
+  "lessonNumber": "第{number}課",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "未找到課程",
+  "lessonLabel": "課程",
+  "practice": "練習",
+  "test": "測試",
+  "content": "內容",
+  "bestTime": "最佳時間",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "練習",
+  "leavePracticeTitle": "退出練習？",
+  "leavePracticeMessage": "確定要退出練習嗎？",
+  "continueButton": "繼續",
+  "goBackButton": "返回",
+  "traceCharacter": "描摹字符",
+  "allDone": "全部完成！做得好！",
+  "moveToNext": "做得好！進入下一個字符",
+  "clearTooltip": "清除",
+  "playPronunciation": "播放發音",
+  "hideHint": "隱藏提示",
+  "showHint": "顯示提示",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "練習完成！",
+  "practiceCompleteMessage": "你已練習了本課全部{count}個字符。",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "字符",
+  "takeTest": "開始測試",
+  "practiceAgain": "再次練習",
+  "backToLesson": "返回課程",
+  "backToReview": "返回複習",
+  "mainMenu": "主選單",
+
+  "testTitle": "測試",
+  "leaveTestTitle": "退出測試？",
+  "leaveTestMessage": "確定要退出測試嗎？",
+  "writeFromMemory": "憑記憶書寫此字符",
+
+  "resultPerfect": "完美！",
+  "resultGreatJob": "非常好！",
+  "resultGoodTry": "繼續加油！",
+  "time": "時間",
+  "testAgain": "再次測試",
+
+  "progressTitle": "進度",
+  "lessonsCompleted": "已完成\n課程",
+  "starsEarned": "已獲得\n星星",
+  "phaseProgress": "各階段進度",
+  "phaseConsonants": "輔音",
+  "phaseVowels": "元音",
+  "phaseToneMarks": "聲調符號",
+  "phaseNumerals": "數字",
+  "phaseLigatures": "連字",
+
+  "reviewTitle": "複習",
+  "weakCharacters": "薄弱字符",
+  "all": "全部",
+  "phaseN": "第{number}階段",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "練習已選（{count}）",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "設定",
+  "strokeTolerance": "筆畫容差",
+  "toleranceForgiving": "寬鬆",
+  "toleranceStrict": "嚴格",
+  "soundEffects": "音效",
+  "soundEffectsSubtitle": "筆畫正確或錯誤時播放音效",
+  "hapticFeedback": "觸覺回饋",
+  "hapticFeedbackSubtitle": "筆畫事件時震動",
+  "resetAllProgress": "重置所有進度",
+  "resetAllProgressSubtitle": "清除所有課程進度和星星",
+  "aboutWriteLao": "關於 寫老撾文",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "非常簡單",
+  "toleranceEasy": "簡單",
+  "toleranceMedium": "中等",
+  "toleranceHard": "困難",
+  "toleranceVeryHard": "非常困難",
+  "toleranceExtreme": "極難",
+  "toleranceDescVeryEasy": "幾乎任何書寫都會被接受",
+  "toleranceDescEasy": "寬鬆匹配，適合初學者",
+  "toleranceDescMedium": "難度均衡（推薦）",
+  "toleranceDescHard": "需要更高精度",
+  "toleranceDescVeryHard": "嚴格匹配",
+  "toleranceDescExtreme": "專家級極嚴格匹配",
+  "resetProgressTitle": "重置進度？",
+  "resetProgressMessage": "此操作將永久刪除您的所有進度，包括：\n\n\u2022 課程完成狀態\n\u2022 已獲得的星星\n\u2022 最佳時間\n\u2022 練習記錄\n\n此操作不可撤銷。",
+  "cancel": "取消",
+  "reset": "重置",
+  "progressResetSuccess": "進度已重置",
+
+  "aboutTitle": "關於",
+  "aboutAppName": "寫老撾文",
+  "aboutAuthor": "作者：Janet Jeffus",
+  "aboutCopyright": "版權所有 \u00A9 2026",
+  "aboutStory": "在從事軟體工程師工作二十餘年後，我發現自己想要學習老撾語——特別是學習閱讀和書寫優美的老撾文字。我尋找一款能夠逐筆教我書寫字符的應用，就像在課堂上學習書寫一樣，但始終未能找到。\n\n於是我決定自己開發一款。\n\n寫老撾文 將引導你學習老撾字母表中的每一個輔音、元音和聲調符號。每個字符都被分解為單獨的筆畫，並按正確的順序和方向排列。你在螢幕上描摹每一筆，應用會告訴你是否正確——無需猜測，沒有閃卡，只有練習。\n\n希望這款應用能幫助你踏上學習老撾語的旅程。祝你書寫愉快！",
+  "done": "完成",
+
+  "splashTitle": "寫老撾文",
+  "splashSubtitle": "老撾語"
+}

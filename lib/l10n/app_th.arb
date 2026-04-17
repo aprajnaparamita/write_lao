@@ -1,0 +1,135 @@
+{
+  "@@locale": "th",
+
+  "appTitle": "เขียนลาว",
+
+  "tabLessons": "บทเรียน",
+  "tabReview": "ทบทวน",
+  "tabProgress": "ความก้าวหน้า",
+
+  "lessonNumber": "บทที่ {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "ไม่พบบทเรียน",
+  "lessonLabel": "บทเรียน",
+  "practice": "ฝึกเขียน",
+  "test": "ทดสอบ",
+  "content": "เนื้อหา",
+  "bestTime": "เวลาที่ดีที่สุด",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "ฝึกเขียน",
+  "leavePracticeTitle": "ออกจากการฝึก?",
+  "leavePracticeMessage": "คุณแน่ใจหรือไม่ว่าต้องการออกจากการฝึก?",
+  "continueButton": "ดำเนินการต่อ",
+  "goBackButton": "กลับ",
+  "traceCharacter": "ลากตามตัวอักษร",
+  "allDone": "เสร็จแล้ว! เก่งมาก!",
+  "moveToNext": "เก่งมาก! ไปตัวถัดไป",
+  "clearTooltip": "ล้าง",
+  "playPronunciation": "เล่นเสียงอ่าน",
+  "hideHint": "ซ่อนคำใบ้",
+  "showHint": "แสดงคำใบ้",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "ฝึกเขียนเสร็จสมบูรณ์!",
+  "practiceCompleteMessage": "คุณได้ฝึกเขียนตัวอักษรทั้งหมด {count} ตัวในบทนี้แล้ว",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "ตัวอักษร",
+  "takeTest": "ทำแบบทดสอบ",
+  "practiceAgain": "ฝึกอีกครั้ง",
+  "backToLesson": "กลับไปบทเรียน",
+  "backToReview": "กลับไปทบทวน",
+  "mainMenu": "เมนูหลัก",
+
+  "testTitle": "ทดสอบ",
+  "leaveTestTitle": "ออกจากการทดสอบ?",
+  "leaveTestMessage": "คุณแน่ใจหรือไม่ว่าต้องการออกจากการทดสอบ?",
+  "writeFromMemory": "เขียนตัวอักษรนี้จากความจำ",
+
+  "resultPerfect": "สมบูรณ์แบบ!",
+  "resultGreatJob": "ยอดเยี่ยม!",
+  "resultGoodTry": "พยายามดี!",
+  "time": "เวลา",
+  "testAgain": "ทดสอบอีกครั้ง",
+
+  "progressTitle": "ความก้าวหน้า",
+  "lessonsCompleted": "บทเรียน\nที่เสร็จแล้ว",
+  "starsEarned": "ดาว\nที่ได้รับ",
+  "phaseProgress": "ความก้าวหน้าแต่ละระดับ",
+  "phaseConsonants": "พยัญชนะ",
+  "phaseVowels": "สระ",
+  "phaseToneMarks": "วรรณยุกต์",
+  "phaseNumerals": "ตัวเลข",
+  "phaseLigatures": "อักษรควบ",
+
+  "reviewTitle": "ทบทวน",
+  "weakCharacters": "ตัวที่ยังอ่อน",
+  "all": "ทั้งหมด",
+  "phaseN": "ระดับ {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "ฝึกที่เลือก ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "ตั้งค่า",
+  "strokeTolerance": "ความอดทนของเส้น",
+  "toleranceForgiving": "ผ่อนปรน",
+  "toleranceStrict": "เข้มงวด",
+  "soundEffects": "เสียงเอฟเฟกต์",
+  "soundEffectsSubtitle": "เล่นเสียงเมื่อเขียนถูก/ผิด",
+  "hapticFeedback": "การสั่นตอบกลับ",
+  "hapticFeedbackSubtitle": "สั่นเมื่อมีเหตุการณ์เส้น",
+  "resetAllProgress": "รีเซ็ตความก้าวหน้าทั้งหมด",
+  "resetAllProgressSubtitle": "ล้างความก้าวหน้าและดาวทั้งหมด",
+  "aboutWriteLao": "เกี่ยวกับ เขียนลาว",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "ง่ายมาก",
+  "toleranceEasy": "ง่าย",
+  "toleranceMedium": "ปานกลาง",
+  "toleranceHard": "ยาก",
+  "toleranceVeryHard": "ยากมาก",
+  "toleranceExtreme": "ยากที่สุด",
+  "toleranceDescVeryEasy": "รับแทบทุกแบบที่วาด",
+  "toleranceDescEasy": "จับคู่แบบหลวม เหมาะสำหรับผู้เริ่มต้น",
+  "toleranceDescMedium": "ความยากสมดุล (แนะนำ)",
+  "toleranceDescHard": "ต้องการความแม่นยำมากขึ้น",
+  "toleranceDescVeryHard": "จับคู่อย่างเข้มงวด",
+  "toleranceDescExtreme": "จับคู่เข้มงวดมากสำหรับผู้เชี่ยวชาญ",
+  "resetProgressTitle": "รีเซ็ตความก้าวหน้า?",
+  "resetProgressMessage": "การดำเนินการนี้จะลบความก้าวหน้าทั้งหมดอย่างถาวร รวมถึง:\n\n\u2022 สถานะการเรียนจบบท\n\u2022 ดาวที่ได้รับ\n\u2022 เวลาที่ดีที่สุด\n\u2022 ประวัติการฝึก\n\nการดำเนินการนี้ไม่สามารถย้อนกลับได้",
+  "cancel": "ยกเลิก",
+  "reset": "รีเซ็ต",
+  "progressResetSuccess": "รีเซ็ตความก้าวหน้าแล้ว",
+
+  "aboutTitle": "เกี่ยวกับ",
+  "aboutAppName": "เขียนลาว",
+  "aboutAuthor": "โดย Janet Jeffus",
+  "aboutCopyright": "ลิขสิทธิ์ \u00A9 2026",
+  "aboutStory": "หลังจากทำงานเป็นวิศวกรซอฟต์แวร์มากว่ายี่สิบปี ฉันพบว่าตัวเองอยากเรียนภาษาลาว โดยเฉพาะการอ่านและเขียนอักษรลาวที่สวยงาม ฉันไปหาแอปที่จะสอนเขียนตัวอักษรทีละเส้น แบบที่เรียนเขียนในห้องเรียน แต่หาไม่เจอ\n\nเลยตัดสินใจสร้างขึ้นมาเอง\n\nเขียนลาว จะพาคุณเรียนรู้พยัญชนะ สระ และวรรณยุกต์ทุกตัวในอักษรลาว ตัวอักษรแต่ละตัวถูกแยกออกเป็นเส้นแต่ละเส้นตามลำดับและทิศทางที่ถูกต้อง คุณลากเส้นบนหน้าจอ แล้วแอปจะบอกว่าถูกหรือไม่ ไม่ต้องเดา ไม่ใช้บัตรคำ แค่ฝึกเขียน\n\nหวังว่าแอปนี้จะช่วยคุณในการเรียนรู้ภาษาลาว เขียนให้สนุกนะ!",
+  "done": "เสร็จ",
+
+  "splashTitle": "เขียนลาว",
+  "splashSubtitle": "ลาว"
+}

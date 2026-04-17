@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/controllers/test_controller.dart';
 import 'package:write_it_lao/presentation/widgets/writing_canvas.dart';
@@ -133,20 +134,23 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   Future<bool> _onWillPop() async {
     final result = await showDialog<bool>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Leave Test?'),
-        content: const Text('Are you sure you want to leave the test?'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Continue'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Go Back'),
-          ),
-        ],
-      ),
+      builder: (ctx) {
+        final l10n = AppLocalizations.of(ctx);
+        return AlertDialog(
+          title: Text(l10n.leaveTestTitle),
+          content: Text(l10n.leaveTestMessage),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(ctx).pop(false),
+              child: Text(l10n.continueButton),
+            ),
+            TextButton(
+              onPressed: () => Navigator.of(ctx).pop(true),
+              child: Text(l10n.goBackButton),
+            ),
+          ],
+        );
+      },
     );
     return result ?? false;
   }
@@ -170,7 +174,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Test'),
+          title: Text(AppLocalizations.of(context).testTitle),
           centerTitle: true,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
@@ -358,7 +362,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8),
                 child: Text(
-                  'Write this character from memory',
+                  AppLocalizations.of(context).writeFromMemory,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         color: Colors.grey[600],
                       ),
@@ -375,7 +379,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                     IconButton(
                       onPressed: _clearCanvas,
                       icon: const Icon(Icons.delete_outline),
-                      tooltip: 'Clear',
+                      tooltip: AppLocalizations.of(context).clearTooltip,
                     ),
 
                     // Play pronunciation
@@ -384,7 +388,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                           ? () => _playPronunciation(state.currentCharacter!.codepoint)
                           : null,
                       icon: const Icon(Icons.volume_up),
-                      tooltip: 'Play pronunciation',
+                      tooltip: AppLocalizations.of(context).playPronunciation,
                     ),
 
                     if (_showHint) ...[
@@ -394,7 +398,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                           setState(() => _showHint = false);
                         },
                         icon: const Icon(Icons.visibility),
-                        tooltip: 'Hide hint',
+                        tooltip: AppLocalizations.of(context).hideHint,
                       ),
                     ],
                   ],

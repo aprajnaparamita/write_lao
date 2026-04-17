@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/canvas_controller.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/writing_canvas.dart';
@@ -48,7 +49,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       if (characters.isNotEmpty) {
         ref.read(practiceControllerProvider.notifier).setCharacters(
           characters,
-          title: 'Review',
+          title: AppLocalizations.of(context).reviewTitle,
         );
         _loadStrokeDataForCurrentCharacter();
       }
@@ -86,19 +87,20 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
   }
 
   Future<bool> _onWillPop() async {
+    final l10n = AppLocalizations.of(context);
     final result = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Leave Practice?'),
-        content: const Text('Are you sure you want to leave practice?'),
+        title: Text(l10n.leavePracticeTitle),
+        content: Text(l10n.leavePracticeMessage),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Continue'),
+            child: Text(l10n.continueButton),
           ),
           TextButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Go Back'),
+            child: Text(l10n.goBackButton),
           ),
         ],
       ),
@@ -145,7 +147,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text(character?.letterNameRomanized ?? character?.name ?? 'Practice'),
+          title: Text(character?.letterNameRomanized ?? character?.name ?? AppLocalizations.of(context).practiceTitle),
           centerTitle: true,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
@@ -315,9 +317,9 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                 child: Text(
                   state.isCharacterComplete
                       ? (state.isLastCharacter
-                          ? 'All done! Great job!'
-                          : 'Great job! Move to next character')
-                      : 'Trace the character',
+                          ? AppLocalizations.of(context).allDone
+                          : AppLocalizations.of(context).moveToNext)
+                      : AppLocalizations.of(context).traceCharacter,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         color: Colors.grey[600],
                       ),
@@ -339,7 +341,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                         }
                       },
                       icon: const Icon(Icons.delete_outline),
-                      tooltip: 'Clear',
+                      tooltip: AppLocalizations.of(context).clearTooltip,
                     ),
 
                     // Play pronunciation
@@ -348,7 +350,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                           ? () => _playPronunciation(character.codepoint)
                           : null,
                       icon: const Icon(Icons.volume_up),
-                      tooltip: 'Play pronunciation',
+                      tooltip: AppLocalizations.of(context).playPronunciation,
                     ),
 
                     // Show/hide hint button
@@ -357,7 +359,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                         setState(() => _showHint = !_showHint);
                       },
                       icon: Icon(_showHint ? Icons.visibility : Icons.visibility_off),
-                      tooltip: _showHint ? 'Hide hint' : 'Show hint',
+                      tooltip: _showHint ? AppLocalizations.of(context).hideHint : AppLocalizations.of(context).showHint,
                     ),
                   ],
                 ),

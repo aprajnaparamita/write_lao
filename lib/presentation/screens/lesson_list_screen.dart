@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/character_card.dart';
 
@@ -9,13 +10,14 @@ class LessonListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
     final lessons = charRepo.getAllLessons();
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Write Lao'),
+        title: Text(l10n.appTitle),
         centerTitle: true,
         actions: [
           IconButton(
@@ -37,7 +39,7 @@ class LessonListScreen extends ConsumerWidget {
             padding: const EdgeInsets.only(bottom: 12),
             child: LessonCard(
               title: lesson.title,
-              subtitle: 'Lesson ${lesson.lessonNumber}',
+              subtitle: l10n.lessonNumber(lesson.lessonNumber),
               characterPreview: firstChar,
               stars: progress.stars,
               onTap: () => context.push('/lessons/${lesson.id}'),
@@ -50,7 +52,6 @@ class LessonListScreen extends ConsumerWidget {
         onTap: (index) {
           switch (index) {
             case 0:
-              // Already on lessons
               break;
             case 1:
               context.push('/review');
@@ -60,18 +61,18 @@ class LessonListScreen extends ConsumerWidget {
               break;
           }
         },
-        items: const [
+        items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.menu_book),
-            label: 'Lessons',
+            icon: const Icon(Icons.menu_book),
+            label: l10n.tabLessons,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.refresh),
-            label: 'Review',
+            icon: const Icon(Icons.refresh),
+            label: l10n.tabReview,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
-            label: 'Progress',
+            icon: const Icon(Icons.bar_chart),
+            label: l10n.tabProgress,
           ),
         ],
       ),

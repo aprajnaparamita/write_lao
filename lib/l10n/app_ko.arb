@@ -1,0 +1,135 @@
+{
+  "@@locale": "ko",
+
+  "appTitle": "라오어 쓰기",
+
+  "tabLessons": "수업",
+  "tabReview": "복습",
+  "tabProgress": "진도",
+
+  "lessonNumber": "{number}과",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "수업을 찾을 수 없습니다",
+  "lessonLabel": "수업",
+  "practice": "연습",
+  "test": "시험",
+  "content": "내용",
+  "bestTime": "최고 기록",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "연습",
+  "leavePracticeTitle": "연습을 그만두시겠습니까?",
+  "leavePracticeMessage": "정말로 연습을 그만두시겠습니까?",
+  "continueButton": "계속하기",
+  "goBackButton": "돌아가기",
+  "traceCharacter": "글자를 따라 쓰세요",
+  "allDone": "모두 완료! 잘하셨습니다!",
+  "moveToNext": "잘하셨습니다! 다음 글자로 이동",
+  "clearTooltip": "지우기",
+  "playPronunciation": "발음 재생",
+  "hideHint": "힌트 숨기기",
+  "showHint": "힌트 보기",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "연습 완료!",
+  "practiceCompleteMessage": "이 수업의 글자 {count}개를 모두 연습했습니다.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "글자",
+  "takeTest": "시험 보기",
+  "practiceAgain": "다시 연습",
+  "backToLesson": "수업으로 돌아가기",
+  "backToReview": "복습으로 돌아가기",
+  "mainMenu": "메인 메뉴",
+
+  "testTitle": "시험",
+  "leaveTestTitle": "시험을 그만두시겠습니까?",
+  "leaveTestMessage": "정말로 시험을 그만두시겠습니까?",
+  "writeFromMemory": "이 글자를 기억해서 쓰세요",
+
+  "resultPerfect": "완벽!",
+  "resultGreatJob": "훌륭합니다!",
+  "resultGoodTry": "잘 했어요!",
+  "time": "시간",
+  "testAgain": "다시 시험",
+
+  "progressTitle": "진도",
+  "lessonsCompleted": "완료한\n수업",
+  "starsEarned": "획득한\n별",
+  "phaseProgress": "단계별 진도",
+  "phaseConsonants": "자음",
+  "phaseVowels": "모음",
+  "phaseToneMarks": "성조 부호",
+  "phaseNumerals": "숫자",
+  "phaseLigatures": "합자",
+
+  "reviewTitle": "복습",
+  "weakCharacters": "약한 글자",
+  "all": "전체",
+  "phaseN": "{number}단계",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "선택 항목 연습 ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "설정",
+  "strokeTolerance": "획 허용 오차",
+  "toleranceForgiving": "관대",
+  "toleranceStrict": "엄격",
+  "soundEffects": "효과음",
+  "soundEffectsSubtitle": "정답/오답 시 소리 재생",
+  "hapticFeedback": "햅틱 피드백",
+  "hapticFeedbackSubtitle": "획 이벤트 시 진동",
+  "resetAllProgress": "모든 진도 초기화",
+  "resetAllProgressSubtitle": "모든 수업 진도와 별 삭제",
+  "aboutWriteLao": "라오어 쓰기 정보",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "매우 쉬움",
+  "toleranceEasy": "쉬움",
+  "toleranceMedium": "보통",
+  "toleranceHard": "어려움",
+  "toleranceVeryHard": "매우 어려움",
+  "toleranceExtreme": "최고 난이도",
+  "toleranceDescVeryEasy": "거의 모든 획이 허용됩니다",
+  "toleranceDescEasy": "느슨한 매칭, 초보자에게 적합",
+  "toleranceDescMedium": "균형 잡힌 난이도 (권장)",
+  "toleranceDescHard": "더 높은 정확도 필요",
+  "toleranceDescVeryHard": "엄격한 매칭",
+  "toleranceDescExtreme": "전문가를 위한 매우 엄격한 매칭",
+  "resetProgressTitle": "진도를 초기화하시겠습니까?",
+  "resetProgressMessage": "모든 진도가 영구적으로 삭제됩니다:\n\n\u2022 수업 완료 상태\n\u2022 획득한 별\n\u2022 최고 기록\n\u2022 연습 기록\n\n이 작업은 되돌릴 수 없습니다.",
+  "cancel": "취소",
+  "reset": "초기화",
+  "progressResetSuccess": "진도가 초기화되었습니다",
+
+  "aboutTitle": "앱 정보",
+  "aboutAppName": "라오어 쓰기",
+  "aboutAuthor": "제작: Janet Jeffus",
+  "aboutCopyright": "저작권 \u00A9 2026",
+  "aboutStory": "20년 넘게 소프트웨어 엔지니어로 일한 후, 라오어를 배우고 싶다는 마음이 생겼습니다. 특히 아름다운 라오 문자를 읽고 쓰는 법을 배우고 싶었습니다. 교실에서 배우듯이 한 획씩 글자 쓰는 법을 알려주는 앱을 찾아보았지만 찾을 수 없었습니다.\n\n그래서 직접 만들기로 했습니다.\n\n라오어 쓰기는 라오 알파벳의 모든 자음, 모음, 성조 부호를 안내합니다. 각 글자는 올바른 순서와 방향으로 개별 획으로 분해됩니다. 화면에서 각 획을 따라 쓰면 앱이 맞았는지 알려줍니다. 추측도, 플래시카드도 없이 오직 연습뿐입니다.\n\n이 앱이 라오어를 배우는 여러분의 여정에 도움이 되길 바랍니다. 즐겁게 써보세요!",
+  "done": "완료",
+
+  "splashTitle": "라오어 쓰기",
+  "splashSubtitle": "라오어"
+}

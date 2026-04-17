@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/star_rating.dart';
 
@@ -15,17 +16,18 @@ class LessonDetailScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
-    
+
     final lesson = charRepo.getLesson(lessonId);
     if (lesson == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Lesson')),
-        body: const Center(child: Text('Lesson not found')),
+        appBar: AppBar(title: Text(l10n.lessonLabel)),
+        body: Center(child: Text(l10n.lessonNotFound)),
       );
     }
-    
+
     final progress = progressRepo.getLessonProgress(lessonId);
     final characters = charRepo.getCharactersForLesson(lessonId);
     final bestTimeMs = progress.bestTimeMs;
@@ -50,7 +52,6 @@ class LessonDetailScreen extends ConsumerWidget {
           padding: const EdgeInsets.all(24),
           child: Column(
             children: [
-              // Stars
               AnimatedStarRating(
                 stars: progress.stars,
                 size: 48,
@@ -58,10 +59,9 @@ class LessonDetailScreen extends ConsumerWidget {
 
               const SizedBox(height: 24),
 
-              // Best time
               if (bestTimeMs != null) ...[
                 Text(
-                  'Best Time',
+                  l10n.bestTime,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: Colors.grey[600],
                       ),
@@ -76,14 +76,14 @@ class LessonDetailScreen extends ConsumerWidget {
                 ),
               ] else ...[
                 Text(
-                  'Best Time',
+                  l10n.bestTime,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: Colors.grey[600],
                       ),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '--:--',
+                  l10n.bestTimeEmpty,
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontFamily: 'monospace',
                         color: Colors.grey[400],
@@ -93,9 +93,8 @@ class LessonDetailScreen extends ConsumerWidget {
 
               const SizedBox(height: 32),
 
-              // Character list
               Text(
-                'Content',
+                l10n.content,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: Colors.grey[600],
                     ),
@@ -112,24 +111,22 @@ class LessonDetailScreen extends ConsumerWidget {
 
               const Spacer(),
 
-              // Practice button
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
                   onPressed: () => context.push('/practice/$lessonId'),
                   icon: const Icon(Icons.edit),
-                  label: const Text('Practice'),
+                  label: Text(l10n.practice),
                 ),
               ),
               const SizedBox(height: 12),
 
-              // Test button
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
                   onPressed: () => context.push('/test/$lessonId'),
                   icon: const Icon(Icons.timer),
-                  label: const Text('Test'),
+                  label: Text(l10n.test),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppTheme.success,
                   ),

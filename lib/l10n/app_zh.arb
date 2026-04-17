@@ -1,0 +1,135 @@
+{
+  "@@locale": "zh",
+
+  "appTitle": "写老挝文",
+
+  "tabLessons": "课程",
+  "tabReview": "复习",
+  "tabProgress": "进度",
+
+  "lessonNumber": "第{number}课",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "未找到课程",
+  "lessonLabel": "课程",
+  "practice": "练习",
+  "test": "测试",
+  "content": "内容",
+  "bestTime": "最佳时间",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "练习",
+  "leavePracticeTitle": "退出练习？",
+  "leavePracticeMessage": "确定要退出练习吗？",
+  "continueButton": "继续",
+  "goBackButton": "返回",
+  "traceCharacter": "描摹字符",
+  "allDone": "全部完成！做得好！",
+  "moveToNext": "做得好！进入下一个字符",
+  "clearTooltip": "清除",
+  "playPronunciation": "播放发音",
+  "hideHint": "隐藏提示",
+  "showHint": "显示提示",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "练习完成！",
+  "practiceCompleteMessage": "你已练习了本课全部{count}个字符。",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "字符",
+  "takeTest": "开始测试",
+  "practiceAgain": "再次练习",
+  "backToLesson": "返回课程",
+  "backToReview": "返回复习",
+  "mainMenu": "主菜单",
+
+  "testTitle": "测试",
+  "leaveTestTitle": "退出测试？",
+  "leaveTestMessage": "确定要退出测试吗？",
+  "writeFromMemory": "凭记忆书写此字符",
+
+  "resultPerfect": "完美！",
+  "resultGreatJob": "非常好！",
+  "resultGoodTry": "继续加油！",
+  "time": "时间",
+  "testAgain": "再次测试",
+
+  "progressTitle": "进度",
+  "lessonsCompleted": "已完成\n课程",
+  "starsEarned": "已获得\n星星",
+  "phaseProgress": "各阶段进度",
+  "phaseConsonants": "辅音",
+  "phaseVowels": "元音",
+  "phaseToneMarks": "声调符号",
+  "phaseNumerals": "数字",
+  "phaseLigatures": "连字",
+
+  "reviewTitle": "复习",
+  "weakCharacters": "薄弱字符",
+  "all": "全部",
+  "phaseN": "第{number}阶段",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "练习已选（{count}）",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "设置",
+  "strokeTolerance": "笔画容差",
+  "toleranceForgiving": "宽松",
+  "toleranceStrict": "严格",
+  "soundEffects": "音效",
+  "soundEffectsSubtitle": "笔画正确或错误时播放音效",
+  "hapticFeedback": "触觉反馈",
+  "hapticFeedbackSubtitle": "笔画事件时振动",
+  "resetAllProgress": "重置所有进度",
+  "resetAllProgressSubtitle": "清除所有课程进度和星星",
+  "aboutWriteLao": "关于 写老挝文",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "非常简单",
+  "toleranceEasy": "简单",
+  "toleranceMedium": "中等",
+  "toleranceHard": "困难",
+  "toleranceVeryHard": "非常困难",
+  "toleranceExtreme": "极难",
+  "toleranceDescVeryEasy": "几乎任何书写都会被接受",
+  "toleranceDescEasy": "宽松匹配，适合初学者",
+  "toleranceDescMedium": "难度均衡（推荐）",
+  "toleranceDescHard": "需要更高精度",
+  "toleranceDescVeryHard": "严格匹配",
+  "toleranceDescExtreme": "专家级极严格匹配",
+  "resetProgressTitle": "重置进度？",
+  "resetProgressMessage": "此操作将永久删除您的所有进度，包括：\n\n\u2022 课程完成状态\n\u2022 已获得的星星\n\u2022 最佳时间\n\u2022 练习记录\n\n此操作不可撤销。",
+  "cancel": "取消",
+  "reset": "重置",
+  "progressResetSuccess": "进度已重置",
+
+  "aboutTitle": "关于",
+  "aboutAppName": "写老挝文",
+  "aboutAuthor": "作者：Janet Jeffus",
+  "aboutCopyright": "版权所有 \u00A9 2026",
+  "aboutStory": "在从事软件工程师工作二十余年后，我发现自己想要学习老挝语——特别是学习阅读和书写优美的老挝文字。我寻找一款能够逐笔教我书写字符的应用，就像在课堂上学习书写一样，但始终未能找到。\n\n于是我决定自己开发一款。\n\n写老挝文 将引导你学习老挝字母表中的每一个辅音、元音和声调符号。每个字符都被分解为单独的笔画，并按正确的顺序和方向排列。你在屏幕上描摹每一笔，应用会告诉你是否正确——无需猜测，没有闪卡，只有练习。\n\n希望这款应用能帮助你踏上学习老挝语的旅程。祝你书写愉快！",
+  "done": "完成",
+
+  "splashTitle": "写老挝文",
+  "splashSubtitle": "老挝语"
+}

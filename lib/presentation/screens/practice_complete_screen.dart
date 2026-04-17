@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 
 class PracticeCompleteScreen extends StatefulWidget {
   final String lessonId;
@@ -77,6 +78,8 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -112,7 +115,7 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                   child: Column(
                     children: [
                       Text(
-                        'Practice Complete!',
+                        l10n.practiceComplete,
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
@@ -121,7 +124,7 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                       const SizedBox(height: 12),
 
                       Text(
-                        'You practiced all ${widget.characterList.length} characters in this lesson.',
+                        l10n.practiceCompleteMessage(widget.characterList.length),
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: Colors.grey[600],
                             ),
@@ -132,7 +135,7 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
 
                       // Character list
                       Text(
-                        'Characters',
+                        l10n.characters,
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               color: Colors.grey[600],
                             ),
@@ -171,7 +174,7 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                           width: double.infinity,
                           child: ElevatedButton(
                             onPressed: () => context.go('/test/${widget.lessonId}'),
-                            child: const Text('Take Test'),
+                            child: Text(l10n.takeTest),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -179,13 +182,13 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                           width: double.infinity,
                           child: OutlinedButton(
                             onPressed: () => context.go('/practice/${widget.lessonId}'),
-                            child: const Text('Practice Again'),
+                            child: Text(l10n.practiceAgain),
                           ),
                         ),
                         const SizedBox(height: 12),
                         TextButton(
                           onPressed: () => context.go('/lessons/${widget.lessonId}'),
-                          child: const Text('Back to Lesson'),
+                          child: Text(l10n.backToLesson),
                         ),
                         const SizedBox(height: 4),
                       ],
@@ -194,18 +197,17 @@ class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
                           width: double.infinity,
                           child: ElevatedButton(
                             onPressed: () {
-                              // Pop back through practice to the review screen
                               context.pop(); // practice screen
                               context.pop(); // review screen
                             },
-                            child: const Text('Back to Review'),
+                            child: Text(l10n.backToReview),
                           ),
                         ),
                         const SizedBox(height: 12),
                       ],
                       TextButton(
                         onPressed: () => context.go('/'),
-                        child: const Text('Main Menu'),
+                        child: Text(l10n.mainMenu),
                       ),
                     ],
                   ),

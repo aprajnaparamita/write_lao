@@ -1,0 +1,135 @@
+{
+  "@@locale": "de",
+
+  "appTitle": "Laotisch schreiben",
+
+  "tabLessons": "Lektionen",
+  "tabReview": "Wiederholung",
+  "tabProgress": "Fortschritt",
+
+  "lessonNumber": "Lektion {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "Lektion nicht gefunden",
+  "lessonLabel": "Lektion",
+  "practice": "Üben",
+  "test": "Test",
+  "content": "Inhalt",
+  "bestTime": "Bestzeit",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "Übung",
+  "leavePracticeTitle": "Übung verlassen?",
+  "leavePracticeMessage": "Möchten Sie die Übung wirklich verlassen?",
+  "continueButton": "Weiter",
+  "goBackButton": "Zurück",
+  "traceCharacter": "Zeichen nachzeichnen",
+  "allDone": "Alles fertig! Sehr gut!",
+  "moveToNext": "Sehr gut! Zum nächsten Zeichen",
+  "clearTooltip": "Löschen",
+  "playPronunciation": "Aussprache abspielen",
+  "hideHint": "Hinweis ausblenden",
+  "showHint": "Hinweis anzeigen",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "Übung abgeschlossen!",
+  "practiceCompleteMessage": "Sie haben alle {count} Zeichen dieser Lektion geübt.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "Zeichen",
+  "takeTest": "Test starten",
+  "practiceAgain": "Nochmal üben",
+  "backToLesson": "Zurück zur Lektion",
+  "backToReview": "Zurück zur Wiederholung",
+  "mainMenu": "Hauptmenü",
+
+  "testTitle": "Test",
+  "leaveTestTitle": "Test verlassen?",
+  "leaveTestMessage": "Möchten Sie den Test wirklich verlassen?",
+  "writeFromMemory": "Schreiben Sie dieses Zeichen aus dem Gedächtnis",
+
+  "resultPerfect": "Perfekt!",
+  "resultGreatJob": "Ausgezeichnet!",
+  "resultGoodTry": "Guter Versuch!",
+  "time": "Zeit",
+  "testAgain": "Test wiederholen",
+
+  "progressTitle": "Fortschritt",
+  "lessonsCompleted": "Abgeschlossene\nLektionen",
+  "starsEarned": "Erhaltene\nSterne",
+  "phaseProgress": "Fortschritt nach Phase",
+  "phaseConsonants": "Konsonanten",
+  "phaseVowels": "Vokale",
+  "phaseToneMarks": "Tonzeichen",
+  "phaseNumerals": "Ziffern",
+  "phaseLigatures": "Ligaturen",
+
+  "reviewTitle": "Wiederholung",
+  "weakCharacters": "Schwache Zeichen",
+  "all": "Alle",
+  "phaseN": "Phase {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "Auswahl üben ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Einstellungen",
+  "strokeTolerance": "Strichtoleranz",
+  "toleranceForgiving": "Nachsichtig",
+  "toleranceStrict": "Streng",
+  "soundEffects": "Soundeffekte",
+  "soundEffectsSubtitle": "Töne bei richtigen/falschen Strichen abspielen",
+  "hapticFeedback": "Haptisches Feedback",
+  "hapticFeedbackSubtitle": "Vibration bei Strichereignissen",
+  "resetAllProgress": "Gesamten Fortschritt zurücksetzen",
+  "resetAllProgressSubtitle": "Alle Lektionsfortschritte und Sterne löschen",
+  "aboutWriteLao": "Über Laotisch schreiben",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "Sehr einfach",
+  "toleranceEasy": "Einfach",
+  "toleranceMedium": "Mittel",
+  "toleranceHard": "Schwer",
+  "toleranceVeryHard": "Sehr schwer",
+  "toleranceExtreme": "Extrem",
+  "toleranceDescVeryEasy": "Fast jede Zeichnung wird akzeptiert",
+  "toleranceDescEasy": "Lockere Übereinstimmung, gut für Anfänger",
+  "toleranceDescMedium": "Ausgewogener Schwierigkeitsgrad (empfohlen)",
+  "toleranceDescHard": "Mehr Genauigkeit erforderlich",
+  "toleranceDescVeryHard": "Strenge Übereinstimmung",
+  "toleranceDescExtreme": "Sehr strenge Übereinstimmung für Experten",
+  "resetProgressTitle": "Fortschritt zurücksetzen?",
+  "resetProgressMessage": "Dies löscht Ihren gesamten Fortschritt dauerhaft, einschließlich:\n\n\u2022 Abschlussstatus der Lektionen\n\u2022 Erhaltene Sterne\n\u2022 Bestzeiten\n\u2022 Übungshistorie\n\nDiese Aktion kann nicht rückgängig gemacht werden.",
+  "cancel": "Abbrechen",
+  "reset": "Zurücksetzen",
+  "progressResetSuccess": "Fortschritt wurde zurückgesetzt",
+
+  "aboutTitle": "Über",
+  "aboutAppName": "Laotisch schreiben",
+  "aboutAuthor": "von Janet Jeffus",
+  "aboutCopyright": "Copyright \u00A9 2026",
+  "aboutStory": "Nach mehr als zwanzig Jahren als Software-Ingenieurin wollte ich Laotisch lernen — insbesondere die schöne laotische Schrift lesen und schreiben. Ich suchte nach einer App, die mir die Zeichen Strich für Strich beibringt, so wie man in einem Klassenzimmer schreiben lernt. Ich konnte keine finden.\n\nAlso beschloss ich, selbst eine zu entwickeln.\n\nLaotisch schreiben führt Sie durch jeden Konsonanten, Vokal und jedes Tonzeichen des laotischen Alphabets. Jedes Zeichen wird in einzelne Striche mit der richtigen Reihenfolge und Richtung zerlegt. Sie zeichnen jeden Strich auf dem Bildschirm nach, und die App sagt Ihnen, ob Sie es richtig gemacht haben — kein Raten, keine Karteikarten, nur Übung.\n\nIch hoffe, diese App hilft Ihnen auf Ihrer eigenen Reise mit der laotischen Sprache. Viel Spaß beim Schreiben!",
+  "done": "Fertig",
+
+  "splashTitle": "Laotisch schreiben",
+  "splashSubtitle": "Laotisch"
+}

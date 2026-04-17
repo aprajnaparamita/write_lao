@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 
 class ReviewScreen extends ConsumerStatefulWidget {
@@ -42,7 +43,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Review'),
+        title: Text(AppLocalizations.of(context).reviewTitle),
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -67,12 +68,12 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
               children: [
                 ActionChip(
                   avatar: const Icon(Icons.trending_down, size: 18),
-                  label: const Text('Weak characters'),
+                  label: Text(AppLocalizations.of(context).weakCharacters),
                   onPressed: _selectWeakCharacters,
                 ),
                 ActionChip(
                   avatar: const Icon(Icons.select_all, size: 18),
-                  label: const Text('All'),
+                  label: Text(AppLocalizations.of(context).all),
                   onPressed: _selectAll,
                 ),
               ],
@@ -86,7 +87,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
             child: Row(
               children: [
                 FilterChip(
-                  label: const Text('All'),
+                  label: Text(AppLocalizations.of(context).all),
                   selected: _selectedPhase == 0,
                   onSelected: (selected) {
                     if (selected) {
@@ -94,46 +95,16 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                     }
                   },
                 ),
-                const SizedBox(width: 8),
-                FilterChip(
-                  label: const Text('Phase 1'),
-                  selected: _selectedPhase == 1,
-                  onSelected: (selected) {
-                    setState(() => _selectedPhase = selected ? 1 : 0);
-                  },
-                ),
-                const SizedBox(width: 8),
-                FilterChip(
-                  label: const Text('Phase 2'),
-                  selected: _selectedPhase == 2,
-                  onSelected: (selected) {
-                    setState(() => _selectedPhase = selected ? 2 : 0);
-                  },
-                ),
-                const SizedBox(width: 8),
-                FilterChip(
-                  label: const Text('Phase 3'),
-                  selected: _selectedPhase == 3,
-                  onSelected: (selected) {
-                    setState(() => _selectedPhase = selected ? 3 : 0);
-                  },
-                ),
-                const SizedBox(width: 8),
-                FilterChip(
-                  label: const Text('Phase 4'),
-                  selected: _selectedPhase == 4,
-                  onSelected: (selected) {
-                    setState(() => _selectedPhase = selected ? 4 : 0);
-                  },
-                ),
-                const SizedBox(width: 8),
-                FilterChip(
-                  label: const Text('Phase 5'),
-                  selected: _selectedPhase == 5,
-                  onSelected: (selected) {
-                    setState(() => _selectedPhase = selected ? 5 : 0);
-                  },
-                ),
+                for (int i = 1; i <= 5; i++) ...[
+                  const SizedBox(width: 8),
+                  FilterChip(
+                    label: Text(AppLocalizations.of(context).phaseN(i)),
+                    selected: _selectedPhase == i,
+                    onSelected: (selected) {
+                      setState(() => _selectedPhase = selected ? i : 0);
+                    },
+                  ),
+                ],
               ],
             ),
           ),
@@ -191,7 +162,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                       );
                     },
                     icon: const Icon(Icons.edit),
-                    label: Text('Practice Selected (${_selectedCharacters.length})'),
+                    label: Text(AppLocalizations.of(context).practiceSelected(_selectedCharacters.length)),
                   ),
                 ),
               ),
@@ -236,11 +207,6 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     });
   }
 
-  void _clearSelection() {
-    setState(() {
-      _selectedCharacters.clear();
-    });
-  }
 }
 
 class _CharacterSelectTile extends StatelessWidget {

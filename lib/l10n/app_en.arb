@@ -1,0 +1,135 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Write Lao",
+
+  "tabLessons": "Lessons",
+  "tabReview": "Review",
+  "tabProgress": "Progress",
+
+  "lessonNumber": "Lesson {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "Lesson not found",
+  "lessonLabel": "Lesson",
+  "practice": "Practice",
+  "test": "Test",
+  "content": "Content",
+  "bestTime": "Best Time",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "Practice",
+  "leavePracticeTitle": "Leave Practice?",
+  "leavePracticeMessage": "Are you sure you want to leave practice?",
+  "continueButton": "Continue",
+  "goBackButton": "Go Back",
+  "traceCharacter": "Trace the character",
+  "allDone": "All done! Great job!",
+  "moveToNext": "Great job! Move to next character",
+  "clearTooltip": "Clear",
+  "playPronunciation": "Play pronunciation",
+  "hideHint": "Hide hint",
+  "showHint": "Show hint",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "Practice Complete!",
+  "practiceCompleteMessage": "You practiced all {count} characters in this lesson.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "Characters",
+  "takeTest": "Take Test",
+  "practiceAgain": "Practice Again",
+  "backToLesson": "Back to Lesson",
+  "backToReview": "Back to Review",
+  "mainMenu": "Main Menu",
+
+  "testTitle": "Test",
+  "leaveTestTitle": "Leave Test?",
+  "leaveTestMessage": "Are you sure you want to leave the test?",
+  "writeFromMemory": "Write this character from memory",
+
+  "resultPerfect": "Perfect!",
+  "resultGreatJob": "Great Job!",
+  "resultGoodTry": "Good Try!",
+  "time": "Time",
+  "testAgain": "Test Again",
+
+  "progressTitle": "Progress",
+  "lessonsCompleted": "Lessons\nCompleted",
+  "starsEarned": "Stars\nEarned",
+  "phaseProgress": "Phase Progress",
+  "phaseConsonants": "Consonants",
+  "phaseVowels": "Vowels",
+  "phaseToneMarks": "Tone Marks",
+  "phaseNumerals": "Numerals",
+  "phaseLigatures": "Ligatures",
+
+  "reviewTitle": "Review",
+  "weakCharacters": "Weak characters",
+  "all": "All",
+  "phaseN": "Phase {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "Practice Selected ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Settings",
+  "strokeTolerance": "Stroke Tolerance",
+  "toleranceForgiving": "Forgiving",
+  "toleranceStrict": "Strict",
+  "soundEffects": "Sound Effects",
+  "soundEffectsSubtitle": "Play sounds for correct/incorrect strokes",
+  "hapticFeedback": "Haptic Feedback",
+  "hapticFeedbackSubtitle": "Vibrate on stroke events",
+  "resetAllProgress": "Reset All Progress",
+  "resetAllProgressSubtitle": "Clear all lesson progress and stars",
+  "aboutWriteLao": "About Write Lao",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "Very Easy",
+  "toleranceEasy": "Easy",
+  "toleranceMedium": "Medium",
+  "toleranceHard": "Hard",
+  "toleranceVeryHard": "Very Hard",
+  "toleranceExtreme": "Extreme",
+  "toleranceDescVeryEasy": "Almost any drawing will be accepted",
+  "toleranceDescEasy": "Loose matching, good for beginners",
+  "toleranceDescMedium": "Balanced difficulty (recommended)",
+  "toleranceDescHard": "Requires more precision",
+  "toleranceDescVeryHard": "Strict matching",
+  "toleranceDescExtreme": "Very strict matching for experts",
+  "resetProgressTitle": "Reset Progress?",
+  "resetProgressMessage": "This will permanently delete all your progress, including:\n\n\u2022 Lesson completion status\n\u2022 Stars earned\n\u2022 Best times\n\u2022 Practice history\n\nThis action cannot be undone.",
+  "cancel": "Cancel",
+  "reset": "Reset",
+  "progressResetSuccess": "Progress has been reset",
+
+  "aboutTitle": "About",
+  "aboutAppName": "Write Lao",
+  "aboutAuthor": "by Janet Jeffus",
+  "aboutCopyright": "Copyright \u00A9 2026",
+  "aboutStory": "After more than twenty years as a software engineer, I found myself wanting to learn Lao \u2014 specifically, how to read and write the beautiful Lao script. I went looking for an app that would teach me the characters stroke by stroke, the way you might learn to write them in a classroom. I couldn't find one.\n\nSo I decided to build it myself.\n\nWrite Lao guides you through every consonant, vowel, and tone mark in the Lao alphabet. Each character is broken down into individual strokes with the correct order and direction. You trace each stroke on screen, and the app tells you whether you got it right \u2014 no guessing, no flashcards, just practice.\n\nI hope this app helps you on your own journey with the Lao language. Happy writing!",
+  "done": "Done",
+
+  "splashTitle": "Write Lao",
+  "splashSubtitle": "Lao"
+}

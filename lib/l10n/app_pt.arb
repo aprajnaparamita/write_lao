@@ -1,0 +1,135 @@
+{
+  "@@locale": "pt",
+
+  "appTitle": "Escrever Lao",
+
+  "tabLessons": "Lições",
+  "tabReview": "Revisão",
+  "tabProgress": "Progresso",
+
+  "lessonNumber": "Lição {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "Lição não encontrada",
+  "lessonLabel": "Lição",
+  "practice": "Praticar",
+  "test": "Teste",
+  "content": "Conteúdo",
+  "bestTime": "Melhor tempo",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "Prática",
+  "leavePracticeTitle": "Sair da prática?",
+  "leavePracticeMessage": "Tem certeza de que deseja sair da prática?",
+  "continueButton": "Continuar",
+  "goBackButton": "Voltar",
+  "traceCharacter": "Trace o caractere",
+  "allDone": "Tudo pronto! Muito bem!",
+  "moveToNext": "Muito bem! Próximo caractere",
+  "clearTooltip": "Limpar",
+  "playPronunciation": "Reproduzir pronúncia",
+  "hideHint": "Ocultar dica",
+  "showHint": "Mostrar dica",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "Prática concluída!",
+  "practiceCompleteMessage": "Você praticou todos os {count} caracteres desta lição.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "Caracteres",
+  "takeTest": "Fazer teste",
+  "practiceAgain": "Praticar novamente",
+  "backToLesson": "Voltar à lição",
+  "backToReview": "Voltar à revisão",
+  "mainMenu": "Menu principal",
+
+  "testTitle": "Teste",
+  "leaveTestTitle": "Sair do teste?",
+  "leaveTestMessage": "Tem certeza de que deseja sair do teste?",
+  "writeFromMemory": "Escreva este caractere de memória",
+
+  "resultPerfect": "Perfeito!",
+  "resultGreatJob": "Excelente!",
+  "resultGoodTry": "Boa tentativa!",
+  "time": "Tempo",
+  "testAgain": "Refazer teste",
+
+  "progressTitle": "Progresso",
+  "lessonsCompleted": "Lições\nconcluídas",
+  "starsEarned": "Estrelas\nobtidas",
+  "phaseProgress": "Progresso por fase",
+  "phaseConsonants": "Consoantes",
+  "phaseVowels": "Vogais",
+  "phaseToneMarks": "Marcas tonais",
+  "phaseNumerals": "Numerais",
+  "phaseLigatures": "Ligaduras",
+
+  "reviewTitle": "Revisão",
+  "weakCharacters": "Caracteres fracos",
+  "all": "Todos",
+  "phaseN": "Fase {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "Praticar seleção ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Configurações",
+  "strokeTolerance": "Tolerância do traço",
+  "toleranceForgiving": "Tolerante",
+  "toleranceStrict": "Rigoroso",
+  "soundEffects": "Efeitos sonoros",
+  "soundEffectsSubtitle": "Reproduzir sons para traços corretos/incorretos",
+  "hapticFeedback": "Feedback háptico",
+  "hapticFeedbackSubtitle": "Vibrar em eventos de traço",
+  "resetAllProgress": "Redefinir todo o progresso",
+  "resetAllProgressSubtitle": "Apagar todo o progresso e estrelas",
+  "aboutWriteLao": "Sobre Escrever Lao",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "Muito fácil",
+  "toleranceEasy": "Fácil",
+  "toleranceMedium": "Médio",
+  "toleranceHard": "Difícil",
+  "toleranceVeryHard": "Muito difícil",
+  "toleranceExtreme": "Extremo",
+  "toleranceDescVeryEasy": "Quase qualquer traço será aceito",
+  "toleranceDescEasy": "Correspondência flexível, ideal para iniciantes",
+  "toleranceDescMedium": "Dificuldade equilibrada (recomendado)",
+  "toleranceDescHard": "Requer mais precisão",
+  "toleranceDescVeryHard": "Correspondência rigorosa",
+  "toleranceDescExtreme": "Correspondência muito rigorosa para especialistas",
+  "resetProgressTitle": "Redefinir progresso?",
+  "resetProgressMessage": "Isso excluirá permanentemente todo o seu progresso, incluindo:\n\n\u2022 Status de conclusão das lições\n\u2022 Estrelas obtidas\n\u2022 Melhores tempos\n\u2022 Histórico de prática\n\nEsta ação não pode ser desfeita.",
+  "cancel": "Cancelar",
+  "reset": "Redefinir",
+  "progressResetSuccess": "O progresso foi redefinido",
+
+  "aboutTitle": "Sobre",
+  "aboutAppName": "Escrever Lao",
+  "aboutAuthor": "por Janet Jeffus",
+  "aboutCopyright": "Copyright \u00A9 2026",
+  "aboutStory": "Depois de mais de vinte anos como engenheira de software, descobri que queria aprender lao — especificamente, ler e escrever a bela escrita lao. Procurei um aplicativo que me ensinasse os caracteres traço a traço, como se aprende a escrever em sala de aula. Não encontrei nenhum.\n\nEntão decidi criar um eu mesma.\n\nEscrever Lao guia você por cada consoante, vogal e marca tonal do alfabeto lao. Cada caractere é decomposto em traços individuais com a ordem e direção corretas. Você traça cada traço na tela, e o aplicativo diz se você acertou — sem adivinhações, sem cartões de memória, apenas prática.\n\nEspero que este aplicativo ajude você em sua própria jornada com o idioma lao. Boa escrita!",
+  "done": "Concluído",
+
+  "splashTitle": "Escrever Lao",
+  "splashSubtitle": "Lao"
+}

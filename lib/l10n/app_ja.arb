@@ -1,0 +1,135 @@
+{
+  "@@locale": "ja",
+
+  "appTitle": "ラオス語を書こう",
+
+  "tabLessons": "レッスン",
+  "tabReview": "復習",
+  "tabProgress": "進捗",
+
+  "lessonNumber": "レッスン {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "レッスンが見つかりません",
+  "lessonLabel": "レッスン",
+  "practice": "練習",
+  "test": "テスト",
+  "content": "内容",
+  "bestTime": "ベストタイム",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "練習",
+  "leavePracticeTitle": "練習を終了しますか？",
+  "leavePracticeMessage": "本当に練習を終了しますか？",
+  "continueButton": "続ける",
+  "goBackButton": "戻る",
+  "traceCharacter": "文字をなぞる",
+  "allDone": "全部完了！よくできました！",
+  "moveToNext": "よくできました！次の文字へ",
+  "clearTooltip": "消去",
+  "playPronunciation": "発音を再生",
+  "hideHint": "ヒントを隠す",
+  "showHint": "ヒントを表示",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "練習完了！",
+  "practiceCompleteMessage": "このレッスンの全 {count} 文字を練習しました。",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "文字",
+  "takeTest": "テストを受ける",
+  "practiceAgain": "もう一度練習",
+  "backToLesson": "レッスンに戻る",
+  "backToReview": "復習に戻る",
+  "mainMenu": "メインメニュー",
+
+  "testTitle": "テスト",
+  "leaveTestTitle": "テストを終了しますか？",
+  "leaveTestMessage": "本当にテストを終了しますか？",
+  "writeFromMemory": "この文字を記憶から書いてください",
+
+  "resultPerfect": "完璧！",
+  "resultGreatJob": "素晴らしい！",
+  "resultGoodTry": "よく頑張りました！",
+  "time": "時間",
+  "testAgain": "もう一度テスト",
+
+  "progressTitle": "進捗",
+  "lessonsCompleted": "完了した\nレッスン",
+  "starsEarned": "獲得した\nスター",
+  "phaseProgress": "フェーズ別進捗",
+  "phaseConsonants": "子音",
+  "phaseVowels": "母音",
+  "phaseToneMarks": "声調記号",
+  "phaseNumerals": "数字",
+  "phaseLigatures": "合字",
+
+  "reviewTitle": "復習",
+  "weakCharacters": "苦手な文字",
+  "all": "すべて",
+  "phaseN": "フェーズ {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "選択した文字を練習（{count}）",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "設定",
+  "strokeTolerance": "ストローク許容度",
+  "toleranceForgiving": "ゆるい",
+  "toleranceStrict": "厳しい",
+  "soundEffects": "効果音",
+  "soundEffectsSubtitle": "正解・不正解時に音を鳴らす",
+  "hapticFeedback": "触覚フィードバック",
+  "hapticFeedbackSubtitle": "ストロークイベント時に振動",
+  "resetAllProgress": "すべての進捗をリセット",
+  "resetAllProgressSubtitle": "すべてのレッスン進捗とスターを消去",
+  "aboutWriteLao": "ラオス語を書こう について",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "とても簡単",
+  "toleranceEasy": "簡単",
+  "toleranceMedium": "普通",
+  "toleranceHard": "難しい",
+  "toleranceVeryHard": "とても難しい",
+  "toleranceExtreme": "超難しい",
+  "toleranceDescVeryEasy": "ほぼどんな線でも受け入れます",
+  "toleranceDescEasy": "ゆるいマッチング、初心者向け",
+  "toleranceDescMedium": "バランスの取れた難易度（推奨）",
+  "toleranceDescHard": "より高い精度が必要",
+  "toleranceDescVeryHard": "厳密なマッチング",
+  "toleranceDescExtreme": "上級者向けの非常に厳密なマッチング",
+  "resetProgressTitle": "進捗をリセットしますか？",
+  "resetProgressMessage": "すべての進捗が完全に削除されます：\n\n\u2022 レッスン完了状況\n\u2022 獲得したスター\n\u2022 ベストタイム\n\u2022 練習履歴\n\nこの操作は元に戻せません。",
+  "cancel": "キャンセル",
+  "reset": "リセット",
+  "progressResetSuccess": "進捗がリセットされました",
+
+  "aboutTitle": "アプリについて",
+  "aboutAppName": "ラオス語を書こう",
+  "aboutAuthor": "作者：Janet Jeffus",
+  "aboutCopyright": "著作権 \u00A9 2026",
+  "aboutStory": "ソフトウェアエンジニアとして20年以上働いた後、ラオス語を学びたいと思うようになりました。特に、美しいラオス文字の読み書きを学びたいと。教室で学ぶように一画ずつ文字の書き方を教えてくれるアプリを探しましたが、見つかりませんでした。\n\nそこで、自分で作ることにしました。\n\nラオス語を書こう は、ラオス語アルファベットのすべての子音、母音、声調記号を学べるアプリです。各文字は正しい順序と方向で個別のストロークに分解されています。画面上で各ストロークをなぞると、アプリが正しいかどうかを教えてくれます。推測もフラッシュカードも不要、ただ練習するだけです。\n\nこのアプリがラオス語学習の旅のお役に立てれば幸いです。楽しく書きましょう！",
+  "done": "完了",
+
+  "splashTitle": "ラオス語を書こう",
+  "splashSubtitle": "ラオス語"
+}

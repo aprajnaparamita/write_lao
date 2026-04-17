@@ -1,0 +1,135 @@
+{
+  "@@locale": "ne",
+
+  "appTitle": "लाओ लेख्नुहोस्",
+
+  "tabLessons": "पाठहरू",
+  "tabReview": "समीक्षा",
+  "tabProgress": "प्रगति",
+
+  "lessonNumber": "पाठ {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "पाठ फेला परेन",
+  "lessonLabel": "पाठ",
+  "practice": "अभ्यास",
+  "test": "परीक्षा",
+  "content": "सामग्री",
+  "bestTime": "उत्तम समय",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "अभ्यास",
+  "leavePracticeTitle": "अभ्यास छोड्ने?",
+  "leavePracticeMessage": "के तपाईं अभ्यास छोड्न चाहनुहुन्छ?",
+  "continueButton": "जारी राख्नुहोस्",
+  "goBackButton": "पछाडि जानुहोस्",
+  "traceCharacter": "अक्षर कोर्नुहोस्",
+  "allDone": "सबै सकियो! राम्रो भयो!",
+  "moveToNext": "राम्रो भयो! अर्को अक्षरमा जानुहोस्",
+  "clearTooltip": "मेट्नुहोस्",
+  "playPronunciation": "उच्चारण सुन्नुहोस्",
+  "hideHint": "संकेत लुकाउनुहोस्",
+  "showHint": "संकेत देखाउनुहोस्",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "अभ्यास पूरा भयो!",
+  "practiceCompleteMessage": "तपाईंले यस पाठका सबै {count} अक्षरहरू अभ्यास गर्नुभयो।",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "अक्षरहरू",
+  "takeTest": "परीक्षा दिनुहोस्",
+  "practiceAgain": "फेरि अभ्यास गर्नुहोस्",
+  "backToLesson": "पाठमा फर्कनुहोस्",
+  "backToReview": "समीक्षामा फर्कनुहोस्",
+  "mainMenu": "मुख्य मेनु",
+
+  "testTitle": "परीक्षा",
+  "leaveTestTitle": "परीक्षा छोड्ने?",
+  "leaveTestMessage": "के तपाईं परीक्षा छोड्न चाहनुहुन्छ?",
+  "writeFromMemory": "यो अक्षर सम्झेर लेख्नुहोस्",
+
+  "resultPerfect": "उत्कृष्ट!",
+  "resultGreatJob": "शाबास!",
+  "resultGoodTry": "राम्रो प्रयास!",
+  "time": "समय",
+  "testAgain": "फेरि परीक्षा दिनुहोस्",
+
+  "progressTitle": "प्रगति",
+  "lessonsCompleted": "पूरा भएका\nपाठहरू",
+  "starsEarned": "प्राप्त\nताराहरू",
+  "phaseProgress": "चरणगत प्रगति",
+  "phaseConsonants": "व्यञ्जनहरू",
+  "phaseVowels": "स्वरहरू",
+  "phaseToneMarks": "स्वर चिन्हहरू",
+  "phaseNumerals": "अङ्कहरू",
+  "phaseLigatures": "संयुक्ताक्षरहरू",
+
+  "reviewTitle": "समीक्षा",
+  "weakCharacters": "कमजोर अक्षरहरू",
+  "all": "सबै",
+  "phaseN": "चरण {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "छानिएका अभ्यास ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "सेटिङ",
+  "strokeTolerance": "रेखा सहनशीलता",
+  "toleranceForgiving": "नरम",
+  "toleranceStrict": "कडा",
+  "soundEffects": "ध्वनि प्रभाव",
+  "soundEffectsSubtitle": "सही/गलत रेखामा ध्वनि बजाउनुहोस्",
+  "hapticFeedback": "स्पर्श प्रतिक्रिया",
+  "hapticFeedbackSubtitle": "रेखा घटनामा कम्पन",
+  "resetAllProgress": "सबै प्रगति रिसेट गर्नुहोस्",
+  "resetAllProgressSubtitle": "सबै पाठ प्रगति र ताराहरू मेट्नुहोस्",
+  "aboutWriteLao": "लाओ लेख्नुहोस् बारेमा",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "धेरै सजिलो",
+  "toleranceEasy": "सजिलो",
+  "toleranceMedium": "मध्यम",
+  "toleranceHard": "कठिन",
+  "toleranceVeryHard": "धेरै कठिन",
+  "toleranceExtreme": "अति कठिन",
+  "toleranceDescVeryEasy": "लगभग जुनसुकै कोरेको स्वीकार हुन्छ",
+  "toleranceDescEasy": "ढिलो मिलान, शुरुवातकर्ताका लागि उपयुक्त",
+  "toleranceDescMedium": "सन्तुलित कठिनाइ (सिफारिस गरिएको)",
+  "toleranceDescHard": "बढी सटीकता आवश्यक",
+  "toleranceDescVeryHard": "कडा मिलान",
+  "toleranceDescExtreme": "विशेषज्ञका लागि अति कडा मिलान",
+  "resetProgressTitle": "प्रगति रिसेट गर्ने?",
+  "resetProgressMessage": "यसले तपाईंको सबै प्रगति स्थायी रूपमा मेटाउनेछ, जसमा:\n\n\u2022 पाठ पूरा भएको स्थिति\n\u2022 प्राप्त ताराहरू\n\u2022 उत्तम समयहरू\n\u2022 अभ्यास इतिहास\n\nयो कार्य पूर्ववत गर्न सकिँदैन।",
+  "cancel": "रद्द गर्नुहोस्",
+  "reset": "रिसेट",
+  "progressResetSuccess": "प्रगति रिसेट भयो",
+
+  "aboutTitle": "बारेमा",
+  "aboutAppName": "लाओ लेख्नुहोस्",
+  "aboutAuthor": "लेखक: Janet Jeffus",
+  "aboutCopyright": "सर्वाधिकार \u00A9 2026",
+  "aboutStory": "बीस वर्षभन्दा बढी सफ्टवेयर इन्जिनियर भएर काम गरेपछि, मैले लाओ भाषा सिक्न चाहेँ — विशेष गरी सुन्दर लाओ लिपि पढ्न र लेख्न। मैले एउटा एप खोजेँ जसले मलाई कक्षामा जसरी सिकाइन्छ त्यसरी नै रेखा-रेखा गरेर अक्षरहरू लेख्न सिकाओस्। तर त्यस्तो कुनै एप भेटिएन।\n\nत्यसैले मैले आफैं बनाउने निर्णय गरेँ।\n\nलाओ लेख्नुहोस्ले तपाईंलाई लाओ वर्णमालाका हरेक व्यञ्जन, स्वर र स्वर चिन्ह सिकाउँछ। हरेक अक्षरलाई सही क्रम र दिशामा अलग-अलग रेखाहरूमा विभाजन गरिएको छ। तपाईं स्क्रिनमा हरेक रेखा कोर्नुहुन्छ, र एपले तपाईंलाई सही वा गलत बताउँछ — अनुमान छैन, फ्ल्यास कार्ड छैन, केवल अभ्यास।\n\nमलाई आशा छ यो एपले लाओ भाषा सिक्ने तपाईंको यात्रामा सहयोग गर्नेछ। रमाइलो लेखाइ!",
+  "done": "सकियो",
+
+  "splashTitle": "लाओ लेख्नुहोस्",
+  "splashSubtitle": "लाओ"
+}

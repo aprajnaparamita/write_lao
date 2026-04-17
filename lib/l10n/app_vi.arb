@@ -1,0 +1,135 @@
+{
+  "@@locale": "vi",
+
+  "appTitle": "Viết Lào",
+
+  "tabLessons": "Bài học",
+  "tabReview": "Ôn tập",
+  "tabProgress": "Tiến độ",
+
+  "lessonNumber": "Bài {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "Không tìm thấy bài học",
+  "lessonLabel": "Bài học",
+  "practice": "Luyện tập",
+  "test": "Kiểm tra",
+  "content": "Nội dung",
+  "bestTime": "Thời gian tốt nhất",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "Luyện tập",
+  "leavePracticeTitle": "Rời luyện tập?",
+  "leavePracticeMessage": "Bạn có chắc muốn rời khỏi phần luyện tập không?",
+  "continueButton": "Tiếp tục",
+  "goBackButton": "Quay lại",
+  "traceCharacter": "Tô theo ký tự",
+  "allDone": "Hoàn tất! Giỏi lắm!",
+  "moveToNext": "Giỏi lắm! Chuyển sang ký tự tiếp theo",
+  "clearTooltip": "Xóa",
+  "playPronunciation": "Phát âm",
+  "hideHint": "Ẩn gợi ý",
+  "showHint": "Hiện gợi ý",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "Hoàn thành luyện tập!",
+  "practiceCompleteMessage": "Bạn đã luyện tập tất cả {count} ký tự trong bài này.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "Ký tự",
+  "takeTest": "Làm bài kiểm tra",
+  "practiceAgain": "Luyện tập lại",
+  "backToLesson": "Quay lại bài học",
+  "backToReview": "Quay lại ôn tập",
+  "mainMenu": "Menu chính",
+
+  "testTitle": "Kiểm tra",
+  "leaveTestTitle": "Rời kiểm tra?",
+  "leaveTestMessage": "Bạn có chắc muốn rời khỏi bài kiểm tra không?",
+  "writeFromMemory": "Viết ký tự này từ trí nhớ",
+
+  "resultPerfect": "Hoàn hảo!",
+  "resultGreatJob": "Xuất sắc!",
+  "resultGoodTry": "Cố gắng tốt!",
+  "time": "Thời gian",
+  "testAgain": "Kiểm tra lại",
+
+  "progressTitle": "Tiến độ",
+  "lessonsCompleted": "Bài học\nđã hoàn thành",
+  "starsEarned": "Sao\nđã đạt",
+  "phaseProgress": "Tiến độ từng giai đoạn",
+  "phaseConsonants": "Phụ âm",
+  "phaseVowels": "Nguyên âm",
+  "phaseToneMarks": "Dấu thanh",
+  "phaseNumerals": "Chữ số",
+  "phaseLigatures": "Chữ ghép",
+
+  "reviewTitle": "Ôn tập",
+  "weakCharacters": "Ký tự yếu",
+  "all": "Tất cả",
+  "phaseN": "Giai đoạn {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "Luyện tập đã chọn ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Cài đặt",
+  "strokeTolerance": "Dung sai nét",
+  "toleranceForgiving": "Dễ dãi",
+  "toleranceStrict": "Nghiêm ngặt",
+  "soundEffects": "Hiệu ứng âm thanh",
+  "soundEffectsSubtitle": "Phát âm khi nét đúng/sai",
+  "hapticFeedback": "Phản hồi rung",
+  "hapticFeedbackSubtitle": "Rung khi có sự kiện nét",
+  "resetAllProgress": "Đặt lại toàn bộ tiến độ",
+  "resetAllProgressSubtitle": "Xóa tất cả tiến độ bài học và sao",
+  "aboutWriteLao": "Về Viết Lào",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "Rất dễ",
+  "toleranceEasy": "Dễ",
+  "toleranceMedium": "Trung bình",
+  "toleranceHard": "Khó",
+  "toleranceVeryHard": "Rất khó",
+  "toleranceExtreme": "Cực khó",
+  "toleranceDescVeryEasy": "Hầu như mọi nét vẽ đều được chấp nhận",
+  "toleranceDescEasy": "Khớp lỏng, phù hợp cho người mới bắt đầu",
+  "toleranceDescMedium": "Độ khó cân bằng (khuyến nghị)",
+  "toleranceDescHard": "Yêu cầu độ chính xác cao hơn",
+  "toleranceDescVeryHard": "Khớp nghiêm ngặt",
+  "toleranceDescExtreme": "Khớp cực kỳ nghiêm ngặt cho chuyên gia",
+  "resetProgressTitle": "Đặt lại tiến độ?",
+  "resetProgressMessage": "Thao tác này sẽ xóa vĩnh viễn toàn bộ tiến độ của bạn, bao gồm:\n\n\u2022 Trạng thái hoàn thành bài học\n\u2022 Sao đã đạt\n\u2022 Thời gian tốt nhất\n\u2022 Lịch sử luyện tập\n\nThao tác này không thể hoàn tác.",
+  "cancel": "Hủy",
+  "reset": "Đặt lại",
+  "progressResetSuccess": "Tiến độ đã được đặt lại",
+
+  "aboutTitle": "Giới thiệu",
+  "aboutAppName": "Viết Lào",
+  "aboutAuthor": "Tác giả: Janet Jeffus",
+  "aboutCopyright": "Bản quyền \u00A9 2026",
+  "aboutStory": "Sau hơn hai mươi năm làm kỹ sư phần mềm, tôi thấy mình muốn học tiếng Lào — đặc biệt là cách đọc và viết chữ Lào tuyệt đẹp. Tôi tìm kiếm một ứng dụng có thể dạy tôi viết từng ký tự theo từng nét, giống như cách học viết trong lớp học. Tôi không tìm thấy ứng dụng nào như vậy.\n\nVì vậy tôi quyết định tự xây dựng một ứng dụng.\n\nViết Lào hướng dẫn bạn qua từng phụ âm, nguyên âm và dấu thanh trong bảng chữ cái Lào. Mỗi ký tự được chia thành các nét riêng lẻ với thứ tự và hướng chính xác. Bạn tô từng nét trên màn hình, và ứng dụng cho bạn biết bạn viết đúng hay sai — không cần đoán, không dùng thẻ ghi nhớ, chỉ luyện tập.\n\nTôi hy vọng ứng dụng này sẽ giúp bạn trên hành trình học tiếng Lào. Chúc bạn viết vui vẻ!",
+  "done": "Xong",
+
+  "splashTitle": "Viết Lào",
+  "splashSubtitle": "Lào"
+}

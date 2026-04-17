@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 
 class SplashScreen extends StatefulWidget {
   final VoidCallback onComplete;
@@ -22,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   void initState() {
     super.initState();
-    
+
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1500),
@@ -44,7 +45,6 @@ class _SplashScreenState extends State<SplashScreen>
 
     _controller.forward();
 
-    // Navigate after animation
     Future.delayed(const Duration(milliseconds: 2000), () {
       widget.onComplete();
     });
@@ -58,6 +58,8 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+
     return Scaffold(
       backgroundColor: AppTheme.primary,
       body: Center(
@@ -71,7 +73,6 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // App icon/logo
                     Container(
                       width: 120,
                       height: 120,
@@ -88,7 +89,7 @@ class _SplashScreenState extends State<SplashScreen>
                       ),
                       child: const Center(
                         child: Text(
-                          'ກ',
+                          '\u0E81',
                           style: TextStyle(
                             fontFamily: 'Noto Lao',
                             fontSize: 72,
@@ -100,10 +101,9 @@ class _SplashScreenState extends State<SplashScreen>
 
                     const SizedBox(height: 32),
 
-                    // App name
-                    const Text(
-                      'Write Lao',
-                      style: TextStyle(
+                    Text(
+                      l10n.splashTitle,
+                      style: const TextStyle(
                         fontFamily: 'Inter',
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -114,9 +114,9 @@ class _SplashScreenState extends State<SplashScreen>
 
                     const SizedBox(height: 8),
 
-                    const Text(
-                      'Lao',
-                      style: TextStyle(
+                    Text(
+                      l10n.splashSubtitle,
+                      style: const TextStyle(
                         fontFamily: 'Noto Lao',
                         fontSize: 24,
                         color: Colors.white70,
@@ -125,7 +125,6 @@ class _SplashScreenState extends State<SplashScreen>
 
                     const SizedBox(height: 48),
 
-                    // Loading indicator
                     const SizedBox(
                       width: 24,
                       height: 24,

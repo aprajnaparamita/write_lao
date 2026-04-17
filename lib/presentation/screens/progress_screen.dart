@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 
 class ProgressScreen extends ConsumerWidget {
@@ -8,26 +9,26 @@ class ProgressScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
     final progressRepo = ref.watch(progressRepositoryProvider);
     final charRepo = ref.watch(characterRepositoryProvider);
-    
+
     final lessonsCompleted = progressRepo.totalLessonsCompleted();
     final totalLessons = charRepo.getAllLessons().length;
     final starsEarned = progressRepo.totalStarsEarned();
     final maxStars = progressRepo.maxPossibleStars();
 
-    // Phase definitions
     final phases = [
-      ('Consonants', 1, 9),
-      ('Vowels', 2, 5),
-      ('Tone Marks', 3, 2),
-      ('Numerals', 4, 4),
-      ('Ligatures', 5, 1),
+      (l10n.phaseConsonants, 1, 9),
+      (l10n.phaseVowels, 2, 5),
+      (l10n.phaseToneMarks, 3, 2),
+      (l10n.phaseNumerals, 4, 4),
+      (l10n.phaseLigatures, 5, 1),
     ];
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Progress'),
+        title: Text(l10n.progressTitle),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -35,7 +36,6 @@ class ProgressScreen extends ConsumerWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Overall stats card
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(24),
@@ -45,12 +45,12 @@ class ProgressScreen extends ConsumerWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         _StatItem(
-                          label: 'Lessons\nCompleted',
+                          label: l10n.lessonsCompleted,
                           value: '$lessonsCompleted / $totalLessons',
                           icon: Icons.school_outlined,
                         ),
                         _StatItem(
-                          label: 'Stars\nEarned',
+                          label: l10n.starsEarned,
                           value: '$starsEarned / $maxStars',
                           icon: Icons.star_outline,
                         ),
@@ -63,7 +63,6 @@ class ProgressScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
-            // Decorative illustration
             Center(
               child: Container(
                 width: 120,
@@ -82,9 +81,8 @@ class ProgressScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
-            // Phase progress section
             Text(
-              'Phase Progress',
+              l10n.phaseProgress,
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 16),

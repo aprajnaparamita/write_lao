@@ -1,0 +1,135 @@
+{
+  "@@locale": "tl",
+
+  "appTitle": "Sumulat ng Lao",
+
+  "tabLessons": "Mga Aralin",
+  "tabReview": "Pagsusuri",
+  "tabProgress": "Progreso",
+
+  "lessonNumber": "Aralin {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "Hindi nahanap ang aralin",
+  "lessonLabel": "Aralin",
+  "practice": "Pagsasanay",
+  "test": "Pagsusulit",
+  "content": "Nilalaman",
+  "bestTime": "Pinakamabilis",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "Pagsasanay",
+  "leavePracticeTitle": "Umalis sa pagsasanay?",
+  "leavePracticeMessage": "Sigurado ka bang gusto mong umalis sa pagsasanay?",
+  "continueButton": "Magpatuloy",
+  "goBackButton": "Bumalik",
+  "traceCharacter": "Iguhit ang karakter",
+  "allDone": "Tapos na lahat! Magaling!",
+  "moveToNext": "Magaling! Susunod na karakter",
+  "clearTooltip": "Burahin",
+  "playPronunciation": "I-play ang pagbigkas",
+  "hideHint": "Itago ang hint",
+  "showHint": "Ipakita ang hint",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "Tapos na ang pagsasanay!",
+  "practiceCompleteMessage": "Naisanay mo na ang lahat ng {count} na karakter sa araling ito.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "Mga Karakter",
+  "takeTest": "Kumuha ng pagsusulit",
+  "practiceAgain": "Magsanay muli",
+  "backToLesson": "Bumalik sa aralin",
+  "backToReview": "Bumalik sa pagsusuri",
+  "mainMenu": "Pangunahing menu",
+
+  "testTitle": "Pagsusulit",
+  "leaveTestTitle": "Umalis sa pagsusulit?",
+  "leaveTestMessage": "Sigurado ka bang gusto mong umalis sa pagsusulit?",
+  "writeFromMemory": "Isulat ang karakter na ito mula sa alaala",
+
+  "resultPerfect": "Perpekto!",
+  "resultGreatJob": "Napakahusay!",
+  "resultGoodTry": "Magandang pagsubok!",
+  "time": "Oras",
+  "testAgain": "Subukan muli",
+
+  "progressTitle": "Progreso",
+  "lessonsCompleted": "Natapos na\nmga aralin",
+  "starsEarned": "Nakuhang\nmga bituin",
+  "phaseProgress": "Progreso bawat yugto",
+  "phaseConsonants": "Mga Katinig",
+  "phaseVowels": "Mga Patinig",
+  "phaseToneMarks": "Mga Marka ng Tono",
+  "phaseNumerals": "Mga Numero",
+  "phaseLigatures": "Mga Ligatura",
+
+  "reviewTitle": "Pagsusuri",
+  "weakCharacters": "Mga mahihinang karakter",
+  "all": "Lahat",
+  "phaseN": "Yugto {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "Sanayin ang napili ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Mga Setting",
+  "strokeTolerance": "Toleransya ng guhit",
+  "toleranceForgiving": "Maluwag",
+  "toleranceStrict": "Mahigpit",
+  "soundEffects": "Mga Epekto ng Tunog",
+  "soundEffectsSubtitle": "Magpatugtog ng tunog para sa tama/maling guhit",
+  "hapticFeedback": "Haptic na Feedback",
+  "hapticFeedbackSubtitle": "Mag-vibrate sa mga pangyayari ng guhit",
+  "resetAllProgress": "I-reset ang lahat ng progreso",
+  "resetAllProgressSubtitle": "Burahin ang lahat ng progreso at bituin",
+  "aboutWriteLao": "Tungkol sa Sumulat ng Lao",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "Napakadali",
+  "toleranceEasy": "Madali",
+  "toleranceMedium": "Katamtaman",
+  "toleranceHard": "Mahirap",
+  "toleranceVeryHard": "Napakahirap",
+  "toleranceExtreme": "Sukdulan",
+  "toleranceDescVeryEasy": "Halos anumang guhit ay tatanggapin",
+  "toleranceDescEasy": "Maluwag na pagtutugma, mabuti para sa mga nagsisimula",
+  "toleranceDescMedium": "Balanseng kahirapan (inirerekomenda)",
+  "toleranceDescHard": "Kailangan ng mas tumpak na guhit",
+  "toleranceDescVeryHard": "Mahigpit na pagtutugma",
+  "toleranceDescExtreme": "Napakahigpit na pagtutugma para sa mga eksperto",
+  "resetProgressTitle": "I-reset ang progreso?",
+  "resetProgressMessage": "Permanenteng mabubura ang lahat ng iyong progreso, kabilang ang:\n\n\u2022 Status ng pagkumpleto ng aralin\n\u2022 Mga nakuhang bituin\n\u2022 Pinakamabilis na oras\n\u2022 Kasaysayan ng pagsasanay\n\nHindi na maibabalik ang aksyong ito.",
+  "cancel": "Kanselahin",
+  "reset": "I-reset",
+  "progressResetSuccess": "Na-reset na ang progreso",
+
+  "aboutTitle": "Tungkol",
+  "aboutAppName": "Sumulat ng Lao",
+  "aboutAuthor": "ni Janet Jeffus",
+  "aboutCopyright": "Copyright \u00A9 2026",
+  "aboutStory": "Pagkatapos ng mahigit dalawampung taon bilang software engineer, natuklasan kong gusto kong matutong mag-Lao — lalo na kung paano basahin at isulat ang magandang sulat na Lao. Naghanap ako ng app na magtuturo sa akin ng mga karakter nang guhit-guhit, tulad ng pagkatuto magsulat sa silid-aralan. Wala akong nahanap.\n\nKaya nagpasya akong gumawa ng sarili ko.\n\nAng Sumulat ng Lao ay gagabay sa iyo sa bawat katinig, patinig, at marka ng tono sa alpabetong Lao. Ang bawat karakter ay hinahati sa mga indibidwal na guhit na may tamang pagkakasunod at direksyon. Igiguhit mo ang bawat guhit sa screen, at sasabihin ng app kung tama ka — walang hulaan, walang flash card, pagsasanay lang.\n\nSana makatulong ang app na ito sa iyong sariling paglalakbay sa wikang Lao. Maligayang pagsusulat!",
+  "done": "Tapos na",
+
+  "splashTitle": "Sumulat ng Lao",
+  "splashSubtitle": "Lao"
+}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/test_controller.dart';
 
 class TestResultScreen extends ConsumerStatefulWidget {
@@ -66,7 +67,6 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
       ),
     );
 
-    // Start animations
     _starController.forward();
     Future.delayed(const Duration(milliseconds: 600), () {
       _contentController.forward();
@@ -90,6 +90,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     final testState = ref.watch(testControllerProvider);
     final stars = testState.earnedStars ?? 0;
     final characterList = testState.characters.map((c) => c.displayChar).toList();
@@ -110,10 +111,10 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(3, (index) {
                       final isEarned = index < stars;
-                      final animValue = isEarned 
-                          ? _starAnimation.value 
+                      final animValue = isEarned
+                          ? _starAnimation.value
                           : 1.0;
-                      
+
                       return Transform.scale(
                         scale: isEarned ? animValue : 1.0,
                         child: Padding(
@@ -144,10 +145,10 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                       // Title
                       Text(
                         stars == 3
-                            ? 'Perfect!'
+                            ? l10n.resultPerfect
                             : stars == 2
-                                ? 'Great Job!'
-                                : 'Good Try!',
+                                ? l10n.resultGreatJob
+                                : l10n.resultGoodTry,
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
@@ -158,7 +159,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                       // Time taken
                       if (bestTimeMs != null) ...[
                         Text(
-                          'Time',
+                          l10n.time,
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                                 color: Colors.grey[600],
                               ),
@@ -176,7 +177,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
                       // Character list
                       Text(
-                        'Characters',
+                        l10n.characters,
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               color: Colors.grey[600],
                             ),
@@ -214,7 +215,7 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                         width: double.infinity,
                         child: ElevatedButton(
                           onPressed: () => context.go('/practice/${widget.lessonId}'),
-                          child: const Text('Practice'),
+                          child: Text(l10n.practice),
                         ),
                       ),
                       const SizedBox(height: 12),
@@ -222,13 +223,13 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
                         width: double.infinity,
                         child: OutlinedButton(
                           onPressed: () => context.go('/test/${widget.lessonId}'),
-                          child: const Text('Test Again'),
+                          child: Text(l10n.testAgain),
                         ),
                       ),
                       const SizedBox(height: 12),
                       TextButton(
                         onPressed: () => context.go('/'),
-                        child: const Text('Main Menu'),
+                        child: Text(l10n.mainMenu),
                       ),
                     ],
                   ),

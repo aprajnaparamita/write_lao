@@ -1,0 +1,135 @@
+{
+  "@@locale": "km",
+
+  "appTitle": "សរសេរអក្សរឡាវ",
+
+  "tabLessons": "មេរៀន",
+  "tabReview": "ពិនិត្យឡើងវិញ",
+  "tabProgress": "វឌ្ឍនភាព",
+
+  "lessonNumber": "មេរៀនទី {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "រកមេរៀនមិនឃើញ",
+  "lessonLabel": "មេរៀន",
+  "practice": "អនុវត្ត",
+  "test": "ប្រលង",
+  "content": "ខ្លឹមសារ",
+  "bestTime": "ពេលវេលាល្អបំផុត",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "អនុវត្ត",
+  "leavePracticeTitle": "ចាកចេញពីការអនុវត្ត?",
+  "leavePracticeMessage": "តើអ្នកពិតជាចង់ចាកចេញពីការអនុវត្តមែនទេ?",
+  "continueButton": "បន្ត",
+  "goBackButton": "ត្រឡប់ក្រោយ",
+  "traceCharacter": "គូរតាមអក្សរ",
+  "allDone": "រួចអស់ហើយ! ពូកែណាស់!",
+  "moveToNext": "ពូកែណាស់! ទៅអក្សរបន្ទាប់",
+  "clearTooltip": "លុប",
+  "playPronunciation": "ស្តាប់ការបញ្ចេញសំឡេង",
+  "hideHint": "លាក់ជំនួយ",
+  "showHint": "បង្ហាញជំនួយ",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "អនុវត្តរួចរាល់!",
+  "practiceCompleteMessage": "អ្នកបានអនុវត្តអក្សរទាំង {count} ក្នុងមេរៀននេះ។",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "អក្សរ",
+  "takeTest": "ធ្វើប្រលង",
+  "practiceAgain": "អនុវត្តម្តងទៀត",
+  "backToLesson": "ត្រឡប់ទៅមេរៀន",
+  "backToReview": "ត្រឡប់ទៅពិនិត្យឡើងវិញ",
+  "mainMenu": "មឺនុយមេ",
+
+  "testTitle": "ប្រលង",
+  "leaveTestTitle": "ចាកចេញពីការប្រលង?",
+  "leaveTestMessage": "តើអ្នកពិតជាចង់ចាកចេញពីការប្រលងមែនទេ?",
+  "writeFromMemory": "សរសេរអក្សរនេះពីការចងចាំ",
+
+  "resultPerfect": "ល្អឥតខ្ចោះ!",
+  "resultGreatJob": "ពូកែណាស់!",
+  "resultGoodTry": "ខិតខំល្អ!",
+  "time": "ពេលវេលា",
+  "testAgain": "ប្រលងម្តងទៀត",
+
+  "progressTitle": "វឌ្ឍនភាព",
+  "lessonsCompleted": "មេរៀន\nដែលបានបញ្ចប់",
+  "starsEarned": "ផ្កាយ\nដែលទទួលបាន",
+  "phaseProgress": "វឌ្ឍនភាពតាមដំណាក់កាល",
+  "phaseConsonants": "ព្យញ្ជនៈ",
+  "phaseVowels": "ស្រៈ",
+  "phaseToneMarks": "សញ្ញាសំឡេង",
+  "phaseNumerals": "លេខ",
+  "phaseLigatures": "អក្សរផ្សំ",
+
+  "reviewTitle": "ពិនិត្យឡើងវិញ",
+  "weakCharacters": "អក្សរខ្សោយ",
+  "all": "ទាំងអស់",
+  "phaseN": "ដំណាក់កាលទី {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "អនុវត្តដែលបានជ្រើស ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "ការកំណត់",
+  "strokeTolerance": "ការអត់ធ្មត់នៃខ្សែ",
+  "toleranceForgiving": "អត់ធ្មត់",
+  "toleranceStrict": "តឹងរ៉ឹង",
+  "soundEffects": "បែបផែនសំឡេង",
+  "soundEffectsSubtitle": "ចាក់សំឡេងពេលខ្សែត្រូវ/ខុស",
+  "hapticFeedback": "ការឆ្លើយតបដោយការប៉ះ",
+  "hapticFeedbackSubtitle": "ញ័រពេលមានព្រឹត្តិការណ៍ខ្សែ",
+  "resetAllProgress": "កំណត់វឌ្ឍនភាពឡើងវិញទាំងអស់",
+  "resetAllProgressSubtitle": "លុបវឌ្ឍនភាពមេរៀន និងផ្កាយទាំងអស់",
+  "aboutWriteLao": "អំពី សរសេរអក្សរឡាវ",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "ងាយណាស់",
+  "toleranceEasy": "ងាយ",
+  "toleranceMedium": "មធ្យម",
+  "toleranceHard": "ពិបាក",
+  "toleranceVeryHard": "ពិបាកណាស់",
+  "toleranceExtreme": "ពិបាកខ្លាំងណាស់",
+  "toleranceDescVeryEasy": "ស្ទើរតែគ្រប់ការគូរត្រូវបានទទួលយក",
+  "toleranceDescEasy": "ការផ្គូផ្គងរលុង សម្រាប់អ្នកចាប់ផ្តើម",
+  "toleranceDescMedium": "កម្រិតលំបាកស្មើ (ណែនាំ)",
+  "toleranceDescHard": "ត្រូវការភាពត្រឹមត្រូវខ្ពស់ជាង",
+  "toleranceDescVeryHard": "ការផ្គូផ្គងតឹងរ៉ឹង",
+  "toleranceDescExtreme": "ការផ្គូផ្គងតឹងរ៉ឹងខ្លាំងសម្រាប់អ្នកជំនាញ",
+  "resetProgressTitle": "កំណត់វឌ្ឍនភាពឡើងវិញ?",
+  "resetProgressMessage": "នេះនឹងលុបវឌ្ឍនភាពទាំងអស់របស់អ្នកជាអចិន្ត្រៃយ៍ រួមទាំង:\n\n\u2022 ស្ថានភាពបញ្ចប់មេរៀន\n\u2022 ផ្កាយដែលទទួលបាន\n\u2022 ពេលវេលាល្អបំផុត\n\u2022 ប្រវត្តិការអនុវត្ត\n\nសកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។",
+  "cancel": "បោះបង់",
+  "reset": "កំណត់ឡើងវិញ",
+  "progressResetSuccess": "វឌ្ឍនភាពត្រូវបានកំណត់ឡើងវិញ",
+
+  "aboutTitle": "អំពី",
+  "aboutAppName": "សរសេរអក្សរឡាវ",
+  "aboutAuthor": "ដោយ Janet Jeffus",
+  "aboutCopyright": "រក្សាសិទ្ធិ \u00A9 2026",
+  "aboutStory": "បន្ទាប់ពីធ្វើការជាវិស្វករផ្នែកទន់ជាង២០ឆ្នាំ ខ្ញុំបានរកឃើញថាខ្ញុំចង់រៀនភាសាឡាវ — ជាពិសេសការអាន និងសរសេរអក្សរឡាវដ៏ស្រស់ស្អាត។ ខ្ញុំបានស្វែងរកកម្មវិធីដែលអាចបង្រៀនសរសេរអក្សរមួយៗតាមខ្សែម្តងមួយៗ ដូចជារៀនសរសេរក្នុងថ្នាក់រៀន។ ខ្ញុំរកមិនឃើញទេ។\n\nដូច្នេះខ្ញុំសម្រេចចិត្តបង្កើតដោយខ្លួនឯង។\n\nសរសេរអក្សរឡាវ នឹងនាំអ្នកឆ្លងកាត់ព្យញ្ជនៈ ស្រៈ និងសញ្ញាសំឡេងគ្រប់តួក្នុងអក្សរក្រមឡាវ។ អក្សរម្តួៗត្រូវបានបែងចែកជាខ្សែម្តួៗតាមលំដាប់ និងទិសដៅត្រឹមត្រូវ។ អ្នកគូរតាមខ្សែម្តួៗលើអេក្រង់ ហើយកម្មវិធីប្រាប់អ្នកថាត្រូវឬខុស — មិនចាំបាច់ស្មាន មិនមានកាតចងចាំ គ្រាន់តែអនុវត្ត។\n\nសង្ឃឹមថាកម្មវិធីនេះនឹងជួយអ្នកក្នុងដំណើររៀនភាសាឡាវ។ សរសេរឱ្យសប្បាយ!",
+  "done": "រួចរាល់",
+
+  "splashTitle": "សរសេរអក្សរឡាវ",
+  "splashSubtitle": "ឡាវ"
+}

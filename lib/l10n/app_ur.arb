@@ -1,0 +1,135 @@
+{
+  "@@locale": "ur",
+
+  "appTitle": "لاؤ لکھیں",
+
+  "tabLessons": "اسباق",
+  "tabReview": "مراجعہ",
+  "tabProgress": "پیش رفت",
+
+  "lessonNumber": "سبق {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "سبق نہیں ملا",
+  "lessonLabel": "سبق",
+  "practice": "مشق",
+  "test": "امتحان",
+  "content": "مواد",
+  "bestTime": "بہترین وقت",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "مشق",
+  "leavePracticeTitle": "مشق چھوڑیں؟",
+  "leavePracticeMessage": "کیا آپ واقعی مشق چھوڑنا چاہتے ہیں؟",
+  "continueButton": "جاری رکھیں",
+  "goBackButton": "واپس جائیں",
+  "traceCharacter": "حرف کی نقل کریں",
+  "allDone": "سب مکمل! شاباش!",
+  "moveToNext": "شاباش! اگلے حرف پر جائیں",
+  "clearTooltip": "صاف کریں",
+  "playPronunciation": "تلفظ سنیں",
+  "hideHint": "اشارہ چھپائیں",
+  "showHint": "اشارہ دکھائیں",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "مشق مکمل!",
+  "practiceCompleteMessage": "آپ نے اس سبق کے تمام {count} حروف کی مشق کر لی۔",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "حروف",
+  "takeTest": "امتحان دیں",
+  "practiceAgain": "دوبارہ مشق کریں",
+  "backToLesson": "سبق پر واپس",
+  "backToReview": "مراجعہ پر واپس",
+  "mainMenu": "مرکزی مینو",
+
+  "testTitle": "امتحان",
+  "leaveTestTitle": "امتحان چھوڑیں؟",
+  "leaveTestMessage": "کیا آپ واقعی امتحان چھوڑنا چاہتے ہیں؟",
+  "writeFromMemory": "یہ حرف یاد سے لکھیں",
+
+  "resultPerfect": "کامل!",
+  "resultGreatJob": "بہترین!",
+  "resultGoodTry": "اچھی کوشش!",
+  "time": "وقت",
+  "testAgain": "دوبارہ امتحان دیں",
+
+  "progressTitle": "پیش رفت",
+  "lessonsCompleted": "مکمل شدہ\nاسباق",
+  "starsEarned": "حاصل شدہ\nستارے",
+  "phaseProgress": "مرحلہ وار پیش رفت",
+  "phaseConsonants": "حروف صحیح",
+  "phaseVowels": "حروف علت",
+  "phaseToneMarks": "آہنگ کے نشان",
+  "phaseNumerals": "ہندسے",
+  "phaseLigatures": "مرکب حروف",
+
+  "reviewTitle": "مراجعہ",
+  "weakCharacters": "کمزور حروف",
+  "all": "سب",
+  "phaseN": "مرحلہ {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "منتخب کی مشق ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "ترتیبات",
+  "strokeTolerance": "خط کی رواداری",
+  "toleranceForgiving": "نرم",
+  "toleranceStrict": "سخت",
+  "soundEffects": "آوازی اثرات",
+  "soundEffectsSubtitle": "صحیح/غلط خطوط پر آواز چلائیں",
+  "hapticFeedback": "لمسی جواب",
+  "hapticFeedbackSubtitle": "خط کے واقعات پر کمپن",
+  "resetAllProgress": "تمام پیش رفت ری سیٹ کریں",
+  "resetAllProgressSubtitle": "تمام اسباق کی پیش رفت اور ستارے صاف کریں",
+  "aboutWriteLao": "لاؤ لکھیں کے بارے میں",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 \u00B7 Janet Jeffus",
+  "toleranceVeryEasy": "بہت آسان",
+  "toleranceEasy": "آسان",
+  "toleranceMedium": "درمیانہ",
+  "toleranceHard": "مشکل",
+  "toleranceVeryHard": "بہت مشکل",
+  "toleranceExtreme": "انتہائی مشکل",
+  "toleranceDescVeryEasy": "تقریباً ہر خط قبول ہو گا",
+  "toleranceDescEasy": "ڈھیلی مماثلت، ابتدائی سیکھنے والوں کے لیے",
+  "toleranceDescMedium": "متوازن مشکل (تجویز کردہ)",
+  "toleranceDescHard": "زیادہ درستگی درکار",
+  "toleranceDescVeryHard": "سخت مماثلت",
+  "toleranceDescExtreme": "ماہرین کے لیے انتہائی سخت مماثلت",
+  "resetProgressTitle": "پیش رفت ری سیٹ کریں؟",
+  "resetProgressMessage": "یہ آپ کی تمام پیش رفت مستقل طور پر حذف کر دے گا، بشمول:\n\n\u2022 سبق کی تکمیل کی حالت\n\u2022 حاصل شدہ ستارے\n\u2022 بہترین اوقات\n\u2022 مشق کی تاریخ\n\nیہ عمل واپس نہیں ہو سکتا۔",
+  "cancel": "منسوخ",
+  "reset": "ری سیٹ",
+  "progressResetSuccess": "پیش رفت ری سیٹ ہو گئی",
+
+  "aboutTitle": "بارے میں",
+  "aboutAppName": "لاؤ لکھیں",
+  "aboutAuthor": "تصنیف: Janet Jeffus",
+  "aboutCopyright": "کاپی رائٹ \u00A9 2026",
+  "aboutStory": "بیس سال سے زائد عرصے تک سافٹ ویئر انجینئر کے طور پر کام کرنے کے بعد، مجھے لاؤ زبان سیکھنے کی خواہش ہوئی — خاص طور پر خوبصورت لاؤ رسم الخط پڑھنا اور لکھنا۔ میں نے ایک ایسی ایپ تلاش کی جو مجھے حروف خط بہ خط سکھائے، جیسے کلاس روم میں لکھنا سکھایا جاتا ہے۔ مجھے ایسی کوئی ایپ نہیں ملی۔\n\nتو میں نے خود بنانے کا فیصلہ کیا۔\n\nلاؤ لکھیں آپ کو لاؤ حروف تہجی کے ہر حروف صحیح، حروف علت اور آہنگ کے نشان سکھاتی ہے۔ ہر حرف کو صحیح ترتیب اور سمت کے ساتھ الگ الگ خطوط میں تقسیم کیا گیا ہے۔ آپ اسکرین پر ہر خط کی نقل کرتے ہیں، اور ایپ بتاتی ہے کہ آپ نے صحیح کیا یا نہیں — کوئی اندازہ لگانا نہیں، کوئی فلیش کارڈز نہیں، صرف مشق۔\n\nمجھے امید ہے کہ یہ ایپ لاؤ زبان سیکھنے کے آپ کے سفر میں مدد کرے گی۔ خوش لکھائی!",
+  "done": "مکمل",
+
+  "splashTitle": "لاؤ لکھیں",
+  "splashSubtitle": "لاؤ"
+}
