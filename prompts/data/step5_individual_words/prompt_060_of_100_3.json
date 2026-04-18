@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເທິງ",
+  "definitions": {
+    "de": "Auf, oben, oberhalb; Präposition oder Positionsangabe, die anzeigt, dass sich etwas auf der Oberfläche oder über etwas befindet",
+    "en": "On top of, above, on; a positional word indicating something is on the surface of or above something else",
+    "es": "Encima de, sobre, arriba; palabra posicional que indica que algo está sobre la superficie o por encima de algo",
+    "fr": "Sur, au-dessus de ; mot positionnel indiquant qu'une chose est sur la surface ou au-dessus d'une autre",
+    "hi": "ऊपर, पर; स्थानवाचक शब्द जो यह दर्शाता है कि कोई वस्तु किसी सतह पर या किसी चीज़ के ऊपर है",
+    "ja": "〜の上に、上；何かの表面の上または上方にあることを示す位置語",
+    "km": "លើ, ខាងលើ; ពាក្យទីតាំងដែលបង្ហាញថាអ្វីមួយស្ថិតនៅលើផ្ទៃ ឬខាងលើអ្វីផ្សេង",
+    "ko": "위에, 위; 무언가가 다른 것의 표면 위나 위쪽에 있음을 나타내는 위치어",
+    "ne": "माथि, उपर; स्थानवाचक शब्द जसले कुनै वस्तु अर्को वस्तुको सतहमाथि वा माथि रहेको संकेत गर्छ",
+    "pt": "Em cima de, sobre, acima; palavra posicional que indica que algo está na superfície ou acima de outra coisa",
+    "th": "บน, ข้างบน, เหนือ; คำบอกตำแหน่งที่บ่งบอกว่าสิ่งหนึ่งอยู่บนพื้นผิวหรือเหนือสิ่งอื่น",
+    "tl": "Sa ibabaw, sa itaas; salitang nagpapakita ng posisyon na ang isang bagay ay nasa ibabaw o nasa itaas ng isa pa",
+    "ur": "اوپر، پر؛ محل وقوع کا لفظ جو یہ ظاہر کرتا ہے کہ کوئی چیز کسی سطح پر یا کسی اور چیز کے اوپر ہے",
+    "vi": "Trên, ở trên; từ chỉ vị trí cho biết một vật nằm trên bề mặt hoặc phía trên một vật khác",
+    "zh": "在……上面、上方；位置词，表示某物在另一物的表面上或上方",
+    "zh_Hant": "在……上面、上方；位置詞，表示某物在另一物的表面上或上方"
+  },
+  "definition_en": "On top of, above, on; a positional word indicating something is on the surface of or above something else",
+  "romanization": "/tʰɤːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ໜັງສືຢູ່ເທິງໂຕະ",
+      "romanization": "Nang-seu yu theuang to",
+      "translation_en": "The book is on the table."
+    },
+    {
+      "lao_script": "ແມວນອນຢູ່ເທິງຫຼັງຂ້ອຍ",
+      "romanization": "Maew non yu theuang lang khoi",
+      "translation_en": "The cat is sleeping on my back."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a red apple sitting on top of a wooden table, with a clear upward arrow indicating 'on top', suitable for a language learning app, clean white background, colorful, minimalist style."
+}

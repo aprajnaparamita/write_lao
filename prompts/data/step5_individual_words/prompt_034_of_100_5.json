@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສາຍ",
+  "definitions": {
+    "de": "Spät am Morgen (ca. 9–11 Uhr); auch: Linie, Streifen oder Schnur",
+    "en": "Late morning (approximately 9–11 a.m.); also can mean a line, string, or stripe",
+    "es": "Mañana tardía (aproximadamente de 9 a 11 a.m.); también puede significar línea, cuerda o franja",
+    "fr": "Fin de matinée (environ 9h–11h) ; peut aussi signifier une ligne, une corde ou une rayure",
+    "hi": "देर सुबह (लगभग 9–11 बजे); इसका अर्थ रेखा, धागा या पट्टी भी हो सकता है",
+    "ja": "遅い午前（午前9時〜11時頃）；また、線、紐、縞模様を意味することもある",
+    "km": "ពេលព្រឹកយឺត (ប្រហែល ៩ ដល់ ១១ ព្រឹក); ក៏អាចមានន័យថា បន្ទាត់ ខ្សែ ឬបន្ទះ",
+    "ko": "늦은 오전 (대략 오전 9~11시); 선, 줄, 또는 줄무늬를 의미하기도 함",
+    "ne": "बिहानको ढिलो समय (लगभग ९–११ बजे); रेखा, धागो वा पट्टीको अर्थ पनि हुन सक्छ",
+    "pt": "Final da manhã (aproximadamente 9–11 da manhã); também pode significar linha, corda ou faixa",
+    "th": "สาย (ช่วงเช้าสาย ประมาณ 9-11 โมง); ยังหมายถึงเส้น เชือก หรือแถบได้ด้วย",
+    "tl": "Huling umaga (mga 9–11 ng umaga); maaari ring mangahulugang linya, sinulid, o guhit",
+    "ur": "دیر صبح (تقریباً صبح 9 سے 11 بجے)؛ لکیر، ڈوری یا دھاری کے معنی بھی ہو سکتے ہیں",
+    "vi": "Buổi sáng muộn (khoảng 9–11 giờ sáng); cũng có thể có nghĩa là đường thẳng, dây, hoặc sọc",
+    "zh": "上午较晚的时段（大约上午9至11点）；也可以指线条、绳子或条纹",
+    "zh_Hant": "上午較晚的時段（大約上午9至11點）；也可以指線條、繩子或條紋"
+  },
+  "definition_en": "Late morning (approximately 9–11 a.m.); also can mean a line, string, or stripe",
+  "romanization": "sǎaj",
+  "lao_examples": [
+    {
+      "lao_script": "ຕື່ນສາຍ, ໄປຮຮຮຮຮຮຮຮ ຮຮ ບໍ່ທັນກິນເຂົ້າເຊົ້າ",
+      "romanization": "tʉ̀ʉn sǎaj, bɔ̀ than kin khâo sâo",
+      "translation_en": "Woke up late in the morning, didn't have time to eat breakfast."
+    },
+    {
+      "lao_script": "ສາຍໆ ແລ້ວ, ລຸກໄປອາບນໍ້າໄດ້ແລ້ວ",
+      "romanization": "sǎaj sǎaj lɛ́ɛo, lúk paj àap nám dâaj lɛ́ɛo",
+      "translation_en": "It's already late morning, you can get up and take a shower now."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clock showing 10 o'clock in the morning with soft morning sunlight coming through a window, a person just waking up stretching in bed, suitable for a language learning app, clean white background, warm colors, minimalist cartoon style."
+}

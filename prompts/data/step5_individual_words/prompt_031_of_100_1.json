@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພາຍ",
+  "definitions": {
+    "de": "Paddel; auch verwendet als Präfix in ພາຍໃນ (innerhalb) und ພາຍນອກ (außerhalb), um räumliche oder abstrakte Beziehungen auszudrücken",
+    "en": "Paddle; also used as a prefix in ພາຍໃນ (within/inside) and ພາຍນອກ (outside), expressing spatial or abstract relational boundaries",
+    "es": "Remo; también usado como prefijo en ພາຍໃນ (dentro de) y ພາຍນອກ (fuera de), expresando límites espaciales o abstractos",
+    "fr": "Pagaie; également utilisé comme préfixe dans ພາຍໃນ (à l'intérieur) et ພາຍນອກ (à l'extérieur), exprimant des limites spatiales ou abstraites",
+    "hi": "पतवार/चप्पू; साथ ही ພາຍໃນ (के भीतर) और ພາຍນອກ (के बाहर) में उपसर्ग के रूप में प्रयुक्त, स्थानिक या अमूर्त सीमाओं को व्यक्त करता है",
+    "ja": "パドル（オール）；また ພາຍໃນ（〜の内側）や ພາຍນອກ（〜の外側）の接頭辞として使われ、空間的・抽象的な境界関係を表す",
+    "km": "ក្តាប់ចែក; ក៏ប្រើជាបុព្វបទក្នុង ພາຍໃນ (ខាងក្នុង) និង ພາຍນອກ (ខាងក្រៅ) ដើម្បីបញ្ជាក់ព្រំដែននៃទំនាក់ទំនង",
+    "ko": "노(패들); 또한 ພາຍໃນ(~안에/~이내에)와 ພາຍນອກ(~밖에)의 접두사로 사용되어 공간적 또는 추상적 경계 관계를 표현함",
+    "ne": "डुङ्गाको डाँडो (प्याडल); साथै ພາຍໃນ (भित्र) र ພາຍນອກ (बाहिर) मा उपसर्गको रूपमा प्रयोग गरिन्छ, स्थानिक वा अमूर्त सीमाहरू व्यक्त गर्दछ",
+    "pt": "Remo/pá; também usado como prefixo em ພາຍໃນ (dentro de) e ພາຍນອກ (fora de), expressando limites espaciais ou abstratos",
+    "th": "พาย (ไม้พาย); ยังใช้เป็นคำนำหน้าในคำ ພາຍໃນ (ภายใน) และ ພາຍນອກ (ภายนอก) เพื่อแสดงขอบเขตเชิงพื้นที่หรือเชิงนามธรรม",
+    "tl": "Sagwan; ginagamit din bilang unlapi sa ພາຍໃນ (sa loob/sa loob ng) at ພາຍນອກ (sa labas), na nagpapahayag ng spatial o abstract na hangganan",
+    "ur": "چپو (پیڈل)؛ نیز ພາຍໃນ (کے اندر) اور ພາຍນອກ (کے باہر) میں سابقے کے طور پر استعمال ہوتا ہے، مکانی یا تجریدی حدود کا اظہار کرتا ہے",
+    "vi": "Mái chèo; cũng được dùng làm tiền tố trong ພາຍໃນ (bên trong/trong vòng) và ພາຍນອກ (bên ngoài), diễn đạt các ranh giới không gian hoặc trừu tượng",
+    "zh": "桨；也作为前缀用于 ພາຍໃນ（在……之内）和 ພາຍນອກ（在……之外），表达空间或抽象的边界关系",
+    "zh_Hant": "槳；也作為前綴用於 ພາຍໃນ（在……之內）和 ພາຍນອກ（在……之外），表達空間或抽象的邊界關係"
+  },
+  "definition_en": "Paddle; also used as a prefix in ພາຍໃນ (within/inside) and ພາຍນອກ (outside), expressing spatial or abstract relational boundaries",
+  "romanization": "/pʰaːj³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ພາຍໃນບ້ານມີຫຼາຍຄົນ",
+      "romanization": "phaai nai baan mii laai khon",
+      "translation_en": "Inside the house, there are many people."
+    },
+    {
+      "lao_script": "ເຮົາຕ້ອງສຳເລັດວຽກພາຍໃນອາທິດນີ້",
+      "romanization": "hao tong sam-let wiak phaai nai aa-thit nii",
+      "translation_en": "We need to finish the work within this week."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a wooden canoe paddle with a broad blade, shown from the front against a clean white background, colorful minimalist style suitable for a language learning app."
+}

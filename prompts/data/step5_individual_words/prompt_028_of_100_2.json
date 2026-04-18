@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເວົ້າ",
+  "definitions": {
+    "de": "Sprechen, reden; das häufigste Verb für verbale Kommunikation im Laotischen.",
+    "en": "To speak, to talk, to say; the most common verb for verbal communication in Lao.",
+    "es": "Hablar, decir; el verbo más común para la comunicación verbal en lao.",
+    "fr": "Parler, dire ; le verbe le plus courant pour la communication verbale en laotien.",
+    "hi": "बोलना, कहना; लाओ में मौखिक संवाद के लिए सबसे सामान्य क्रिया।",
+    "ja": "話す、言う；ラオ語で口頭コミュニケーションを表す最も一般的な動詞。",
+    "km": "និយាយ, ប្រាប់; គ្រាប់ពាក្យសំរាប់ការប្រាស្រ័យទាក់ទងដោយពាក្យសំដីទូទៅបំផុតក្នុងភាសាឡាវ។",
+    "ko": "말하다, 이야기하다; 라오어에서 구두 의사소통을 나타내는 가장 일반적인 동사.",
+    "ne": "बोल्नु, भन्नु; लाओ भाषामा मौखिक सञ्चारको लागि सबैभन्दा सामान्य क्रिया।",
+    "pt": "Falar, dizer; o verbo mais comum para comunicação verbal em lao.",
+    "th": "พูด, บอก; กริยาที่ใช้บ่อยที่สุดสำหรับการสื่อสารด้วยคำพูดในภาษาลาว",
+    "tl": "Magsalita, sabihin; ang pinakakaraniwang pandiwa para sa verbal na komunikasyon sa wikang Lao.",
+    "ur": "بولنا، کہنا؛ لاؤ زبان میں زبانی گفتگو کے لیے سب سے عام فعل۔",
+    "vi": "Nói, phát biểu; động từ phổ biến nhất để diễn đạt giao tiếp bằng lời nói trong tiếng Lào.",
+    "zh": "说话，讲；老挝语中表示口头交流最常用的动词。",
+    "zh_Hant": "說話，講；寮語中表示口頭交流最常用的動詞。"
+  },
+  "definition_en": "To speak, to talk, to say; the most common verb for verbal communication in Lao.",
+  "romanization": "wáo",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າເວົ້າພາສາລາວໄດ້ບໍ?",
+      "romanization": "tɕâo wáo pʰáːsǎː láːw dâj bɔː",
+      "translation_en": "Can you speak Lao?"
+    },
+    {
+      "lao_script": "ຢ່າເວົ້າດັງໆ, ເດັກນ້ອຍນອນຢູ່.",
+      "romanization": "jaː wáo dǎŋdǎŋ, dèknɔːj nɔːn júː",
+      "translation_en": "Don't talk so loud, the baby is sleeping."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with an open mouth speaking, with small speech bubbles floating out, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄວ",
+  "definitions": {
+    "de": "Schnell; beschreibt eine hohe Geschwindigkeit oder rasche Ausführung einer Handlung",
+    "en": "Fast; quick; describes high speed or rapid action",
+    "es": "Rápido; veloz; describe alta velocidad o acción rápida",
+    "fr": "Rapide; vite; décrit une grande vitesse ou une action rapide",
+    "hi": "तेज़; जल्दी; उच्च गति या तीव्र क्रिया का वर्णन करता है",
+    "ja": "速い；素早い；高速または迅速な動作を表す形容詞",
+    "km": "លឿន; រហ័ស; ពិពណ៌នាអំពីល្បឿនខ្ពស់ ឬសកម្មភាពដែលធ្វើបានយ៉ាងឆាប់រហ័ស",
+    "ko": "빠른; 신속한; 높은 속도나 빠른 동작을 묘사하는 형용사",
+    "ne": "छिटो; तीव्र; उच्च गति वा द्रुत कार्यको वर्णन गर्दछ",
+    "pt": "Rápido; veloz; descreve alta velocidade ou ação rápida",
+    "th": "เร็ว; รวดเร็ว; ใช้อธิบายความเร็วสูงหรือการกระทำที่รวดเร็ว",
+    "tl": "Mabilis; matulin; naglalarawan ng mataas na bilis o mabilis na kilos",
+    "ur": "تیز؛ سریع؛ اعلیٰ رفتار یا تیز عمل کو بیان کرتا ہے",
+    "vi": "Nhanh; mau; diễn tả tốc độ cao hoặc hành động nhanh chóng",
+    "zh": "快；迅速；形容速度高或行动迅速",
+    "zh_Hant": "快；迅速；形容速度高或行動迅速"
+  },
+  "definition_en": "Fast; quick; describes high speed or rapid action",
+  "romanization": "/wáj/",
+  "lao_examples": [
+    {
+      "lao_script": "ລົດຂອງເຂົາໄວຫຼາຍເລີຍ",
+      "romanization": "lot khong khao wai lai loei",
+      "translation_en": "His car is really very fast."
+    },
+    {
+      "lao_script": "ເດີນໄວໆໜ່ອຍ ເຮົາຈະໄປສາຍແລ້ວ",
+      "romanization": "doen wai wai noi, hao ja pai sai laeo",
+      "translation_en": "Walk a bit faster, we're going to be late."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a running cheetah or a speeding cartoon car with motion blur lines, suggesting speed and quickness, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

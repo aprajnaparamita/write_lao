@@ -1,0 +1,399 @@
+{
+  "ເລີດ": {
+    "definitions": {
+      "de": "Ausgezeichnet, hervorragend; ein Ausruf des Lobes oder der Bewunderung",
+      "en": "Excellent, outstanding, superb; used as a compliment or exclamation of praise",
+      "es": "Excelente, sobresaliente, magnífico; se usa como cumplido o exclamación de elogio",
+      "fr": "Excellent, remarquable, superbe; utilisé comme compliment ou exclamation d'éloge",
+      "hi": "उत्कृष्ट, शानदार, बेहतरीन; प्रशंसा या तारीफ के रूप में उपयोग किया जाता है",
+      "ja": "素晴らしい、優秀な、最高の；褒め言葉や称賛の感嘆詞として使われる",
+      "km": "ល្អឥតខ្ចោះ, លេចធ្លោ, ល្អប្រសើរ; ប្រើជាការសរសើរ ឬការបញ្ចេញអារម្មណ៍នៃការសរសើរ",
+      "ko": "훌륭한, 뛰어난, 최고의; 칭찬이나 감탄의 표현으로 사용됨",
+      "ne": "उत्कृष्ट, अद्भुत, शानदार; प्रशंसा वा तारिफको रूपमा प्रयोग गरिन्छ",
+      "pt": "Excelente, excepcional, soberbo; usado como elogio ou exclamação de louvor",
+      "th": "เยี่ยมยอด, ดีเลิศ, วิเศษ; ใช้เป็นคำชมหรือคำอุทานแสดงการยกย่อง",
+      "tl": "Napakahusay, natatangi, mahusay; ginagamit bilang papuri o pagpupuri",
+      "ur": "بہترین، شاندار، عمدہ؛ تعریف یا داد کے طور پر استعمال ہوتا ہے",
+      "vi": "Xuất sắc, tuyệt vời, vượt trội; dùng như lời khen ngợi hoặc thán từ biểu đạt sự tán thưởng",
+      "zh": "优秀的，出色的，极好的；用作赞美或称赞的感叹词",
+      "zh_Hant": "優秀的，出色的，極好的；用作讚美或稱讚的感嘆詞"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "lɤːt",
+    "examples": [
+      {
+        "lao_script": "ອາຫານຮ້ານນີ້ເລີດຫຼາຍເດີ!",
+        "romanization": "aa-haan haan nii lɤːt laai dəː!",
+        "translations": {
+          "de": "Das Essen in diesem Restaurant ist wirklich ausgezeichnet!",
+          "en": "The food at this restaurant is really excellent!",
+          "es": "¡La comida de este restaurante es realmente excelente!",
+          "fr": "La nourriture de ce restaurant est vraiment excellente !",
+          "hi": "इस रेस्तरां का खाना सच में बेहतरीन है!",
+          "ja": "このレストランの料理は本当に最高だよ！",
+          "km": "អាហារនៅភោជនីយដ្ឋាននេះឆ្ងាញ់ណាស់!",
+          "ko": "이 식당 음식은 정말 훌륭해요!",
+          "ne": "यस रेस्टुरेन्टको खाना साँच्चै उत्कृष्ट छ!",
+          "pt": "A comida deste restaurante é realmente excelente!",
+          "th": "อาหารร้านนี้อร่อยเลิศมากเลย!",
+          "tl": "Ang pagkain sa restaurant na ito ay talagang napakahusay!",
+          "ur": "اس ریستوران کا کھانا واقعی بہترین ہے!",
+          "vi": "Đồ ăn ở nhà hàng này ngon tuyệt vời!",
+          "zh": "这家餐厅的食物真的非常棒！",
+          "zh_Hant": "這家餐廳的食物真的非常棒！"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ຮ້ານ",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເຮັດວຽກໄດ້ເລີດຫຼາຍ, ສຸດຍອດເລີຍ!",
+        "romanization": "jao het wiak dai lɤːt laai, sut yɔːt ləːi!",
+        "translations": {
+          "de": "Du hast deine Arbeit ausgezeichnet gemacht, wirklich super!",
+          "en": "You did your work excellently, absolutely top-notch!",
+          "es": "¡Hiciste tu trabajo de manera excelente, realmente de primera!",
+          "fr": "Tu as fait ton travail de façon excellente, vraiment au top !",
+          "hi": "तुमने अपना काम बेहतरीन तरीके से किया, एकदम शानदार!",
+          "ja": "仕事がすごく上手にできたね、本当に最高だよ！",
+          "km": "អ្នកធ្វើការងារបានល្អឥតខ្ចោះ, ល្អបំផុតមែនទែន!",
+          "ko": "일을 정말 훌륭하게 해냈네요, 최고예요!",
+          "ne": "तिमीले आफ्नो काम उत्कृष्ट रूपमा गर्‍यौ, साँच्चै शानदार!",
+          "pt": "Você fez seu trabalho de forma excelente, simplesmente incrível!",
+          "th": "คุณทำงานได้เยี่ยมมากเลย ยอดเยี่ยมสุดๆ!",
+          "tl": "Napakahusay mong nagawa ang iyong trabaho, talagang pinakamahusay!",
+          "ur": "آپ نے اپنا کام شاندار طریقے سے کیا، بالکل بہترین!",
+          "vi": "Bạn làm việc xuất sắc lắm, thật tuyệt đỉnh!",
+          "zh": "你工作做得非常出色，真的是顶尖！",
+          "zh_Hant": "你工作做得非常出色，真的是頂尖！"
+        },
+        "out_of_scope_words": [
+          "ເຮັດວຽກ",
+          "ສຸດຍອດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a gold trophy or a shining gold star with a big thumbs-up, representing excellence and praise, clean white background, bright yellow and gold colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແບ່ງ": {
+    "definitions": {
+      "de": "Teilen, aufteilen, verteilen; etwas in Teile aufteilen oder mit anderen teilen",
+      "en": "To divide, share, or distribute; to split something into parts or share it with others",
+      "es": "Dividir, compartir, distribuir; separar algo en partes o compartirlo con otros",
+      "fr": "Diviser, partager, distribuer; séparer quelque chose en parties ou le partager avec d'autres",
+      "hi": "बाँटना, विभाजित करना, वितरित करना; किसी चीज़ को हिस्सों में बाँटना या दूसरों के साथ साझा करना",
+      "ja": "分ける、分割する、分配する；何かを部分に分けたり、他の人と共有したりする",
+      "km": "ចែករំលែក, បែងចែក, ចែកចាយ; ចែកអ្វីមួយជាផ្នែកៗ ឬចែករំលែកជាមួយអ្នកដទៃ",
+      "ko": "나누다, 분배하다, 공유하다; 무언가를 부분으로 나누거나 다른 사람과 함께 나누다",
+      "ne": "बाँड्नु, विभाजन गर्नु, वितरण गर्नु; कुनै चीज टुक्रामा बाँड्नु वा अरूसँग साझा गर्नु",
+      "pt": "Dividir, compartilhar, distribuir; separar algo em partes ou partilhar com outros",
+      "th": "แบ่ง, แบ่งปัน, แจกจ่าย; แยกบางสิ่งออกเป็นส่วนๆ หรือแบ่งให้ผู้อื่น",
+      "tl": "Hatiin, ibahagi, ipamahagi; paghiwalayin ang isang bagay sa mga bahagi o ibahagi sa iba",
+      "ur": "تقسیم کرنا، بانٹنا، تقسیم کرنا؛ کسی چیز کو حصوں میں تقسیم کرنا یا دوسروں کے ساتھ بانٹنا",
+      "vi": "Chia, phân chia, phân phối; tách cái gì đó thành các phần hoặc chia sẻ với người khác",
+      "zh": "分，分享，分配；将某物分成几份或与他人共享",
+      "zh_Hant": "分，分享，分配；將某物分成幾份或與他人共享"
+    },
+    "part_of_speech": "verb",
+    "romanization": "bɛːŋ",
+    "examples": [
+      {
+        "lao_script": "ເຮົາແບ່ງເຂົ້າກັນກິນເນາະ.",
+        "romanization": "hao bɛːŋ khao kan kin nɔ.",
+        "translations": {
+          "de": "Lass uns das Essen miteinander teilen, okay?",
+          "en": "Let's share the food together, okay?",
+          "es": "Compartamos la comida juntos, ¿de acuerdo?",
+          "fr": "Partageons la nourriture ensemble, d'accord ?",
+          "hi": "चलो हम साथ में खाना बाँटकर खाते हैं, ठीक है?",
+          "ja": "ご飯を一緒に分けて食べようよ、ね？",
+          "km": "យើងចែករំលែកបាយជាមួយគ្នាទៅ, យល់ព្រមមែនទេ?",
+          "ko": "우리 밥 나눠 먹자, 어때?",
+          "ne": "हामी सँगै खाना बाँडेर खाऔं, ठीक छ?",
+          "pt": "Vamos dividir a comida juntos, tá bem?",
+          "th": "เราแบ่งข้าวกินด้วยกันนะ",
+          "tl": "Hatiin natin ang pagkain, okay ba?",
+          "ur": "آؤ ہم مل کر کھانا بانٹ کر کھائیں، ٹھیک ہے؟",
+          "vi": "Chúng mình chia nhau ăn cơm nhé.",
+          "zh": "我们一起分享这顿饭吧，好吗？",
+          "zh_Hant": "我們一起分享這頓飯吧，好嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າ",
+          "ກິນ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍແບ່ງເງິນໃຫ້ນ້ອງດ້ວຍໄດ້ບໍ?",
+        "romanization": "suai bɛːŋ ngən hai nɔːŋ duai dai bɔː?",
+        "translations": {
+          "de": "Könntest du das Geld bitte auch mit meinem jüngeren Geschwister teilen?",
+          "en": "Could you help share the money with my younger sibling too?",
+          "es": "¿Podrías ayudar a repartir el dinero con mi hermano/hermana menor también?",
+          "fr": "Peux-tu aussi aider à partager l'argent avec mon petit frère/ma petite sœur ?",
+          "hi": "क्या तुम मेरे छोटे भाई/बहन को भी पैसे बाँटने में मदद कर सकते हो?",
+          "ja": "弟・妹にもお金を分けてあげてもらえる？",
+          "km": "ជួយចែកប្រាក់ឱ្យប្អូនផងបានទេ?",
+          "ko": "동생한테도 돈 나눠줄 수 있어?",
+          "ne": "सानो भाइ/बहिनीलाई पनि पैसा बाँड्न मद्दत गर्न सक्छौ?",
+          "pt": "Você pode ajudar a dividir o dinheiro com meu irmão/irmã mais novo(a) também?",
+          "th": "ช่วยแบ่งเงินให้น้องด้วยได้ไหม?",
+          "tl": "Maari mo bang tulungang hatiin ang pera para sa aking kapatid?",
+          "ur": "کیا آپ چھوٹے بھائی/بہن کے ساتھ بھی پیسے بانٹنے میں مدد کر سکتے ہیں؟",
+          "vi": "Bạn có thể giúp chia tiền cho em không?",
+          "zh": "能帮我把钱也分给弟弟/妹妹吗？",
+          "zh_Hant": "能幫我把錢也分給弟弟/妹妹嗎？"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ນ້ອງ",
+          "ຊ່ວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon children happily sharing a pizza, each holding a slice, clean white background, warm and friendly colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄູ": {
+    "definitions": {
+      "de": "Lehrer/in; eine Person, die andere unterrichtet, besonders in einer Schule",
+      "en": "Teacher; a person who instructs or educates others, especially in a school setting",
+      "es": "Maestro/maestra, profesor/profesora; persona que enseña o educa a otros, especialmente en la escuela",
+      "fr": "Enseignant(e), professeur(e); une personne qui instruit ou éduque les autres, surtout dans un contexte scolaire",
+      "hi": "शिक्षक/शिक्षिका; एक व्यक्ति जो दूसरों को पढ़ाता या शिक्षित करता है, विशेष रूप से स्कूल में",
+      "ja": "先生、教師；他の人を教育したり指導したりする人、特に学校での教師",
+      "km": "គ្រូ, គ្រូបង្រៀន; មនុស្សដែលបង្រៀន ឬអប់រំអ្នកដទៃ ជាពិសេសនៅក្នុងសាលារៀន",
+      "ko": "선생님, 교사; 다른 사람을 가르치거나 교육하는 사람, 특히 학교에서",
+      "ne": "शिक्षक/शिक्षिका; अरूलाई पढाउने वा शिक्षित गर्ने व्यक्ति, विशेष गरी विद्यालयमा",
+      "pt": "Professor/professora; uma pessoa que instrui ou educa outras, especialmente em ambiente escolar",
+      "th": "ครู, อาจารย์; บุคคลที่สอนหรือให้การศึกษาแก่ผู้อื่น โดยเฉพาะในโรงเรียน",
+      "tl": "Guro, titser; isang tao na nagtuturo o nagbibigay-edukasyon sa iba, lalo na sa paaralan",
+      "ur": "استاد، معلم؛ وہ شخص جو دوسروں کو پڑھاتا یا تعلیم دیتا ہے، خاص طور پر اسکول میں",
+      "vi": "Giáo viên, thầy/cô giáo; người dạy học hoặc giáo dục người khác, đặc biệt trong môi trường học đường",
+      "zh": "老师，教师；教导或教育他人的人，尤其是在学校环境中",
+      "zh_Hant": "老師，教師；教導或教育他人的人，尤其是在學校環境中"
+    },
+    "part_of_speech": "noun",
+    "romanization": "khuː",
+    "examples": [
+      {
+        "lao_script": "ຄູຂອງຂ້ອຍໃຈດີຫຼາຍເລີຍ.",
+        "romanization": "khuː khɔːng khɔːi jai dii laai ləːi.",
+        "translations": {
+          "de": "Meine Lehrerin ist wirklich sehr nett.",
+          "en": "My teacher is really very kind.",
+          "es": "Mi maestro/maestra es realmente muy amable.",
+          "fr": "Mon/ma prof est vraiment très gentil(le).",
+          "hi": "मेरे शिक्षक/शिक्षिका बहुत ही दयालु हैं।",
+          "ja": "私の先生はとても優しいんだ。",
+          "km": "គ្រូរបស់ខ្ញុំចិត្តល្អណាស់។",
+          "ko": "우리 선생님은 정말 너무 친절해요.",
+          "ne": "मेरो शिक्षक/शिक्षिका साँच्चै धेरै दयालु हुनुहुन्छ।",
+          "pt": "Meu professor/minha professora é realmente muito gentil.",
+          "th": "ครูของฉันใจดีมากเลย",
+          "tl": "Ang aking guro ay talagang napakabait.",
+          "ur": "میرے استاد/استانی واقعی بہت مہربان ہیں۔",
+          "vi": "Thầy/cô giáo của tôi thực sự rất tốt bụng.",
+          "zh": "我的老师真的非常和善。",
+          "zh_Hant": "我的老師真的非常和善。"
+        },
+        "out_of_scope_words": [
+          "ໃຈດີ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ຄູບໍ່ມາສອນ, ເລີຍໄດ້ພັກ.",
+        "romanization": "muː nii khuː bɔː maa sɔːn, ləːi dai phak.",
+        "translations": {
+          "de": "Heute kam der Lehrer nicht zum Unterricht, also hatten wir frei.",
+          "en": "Today the teacher didn't come to teach, so we got a break.",
+          "es": "Hoy el maestro/la maestra no vino a enseñar, así que tuvimos descanso.",
+          "fr": "Aujourd'hui le prof n'est pas venu enseigner, donc on a eu un repos.",
+          "hi": "आज शिक्षक पढ़ाने नहीं आए, इसलिए छुट्टी मिली।",
+          "ja": "今日は先生が教えに来なかったから、休みになったよ。",
+          "km": "ថ្ងៃនេះគ្រូមិនមកបង្រៀន ដូច្នេះបានសម្រាក។",
+          "ko": "오늘 선생님이 수업하러 안 오셔서 쉬었어요.",
+          "ne": "आज शिक्षक पढाउन आउनुभएन, त्यसैले विश्राम पाइयो।",
+          "pt": "Hoje o professor/a professora não veio dar aula, então tivemos folga.",
+          "th": "วันนี้ครูไม่มาสอน เลยได้พัก",
+          "tl": "Ngayon hindi dumating ang guro para magturo, kaya nagpahinga kami.",
+          "ur": "آج استاد پڑھانے نہیں آئے، اس لیے چھٹی مل گئی۔",
+          "vi": "Hôm nay thầy/cô không đến dạy, nên được nghỉ.",
+          "zh": "今天老师没来上课，所以我们休息了。",
+          "zh_Hant": "今天老師沒來上課，所以我們休息了。"
+        },
+        "out_of_scope_words": [
+          "ສອນ",
+          "ພັກ",
+          "ມື້ນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly female teacher standing in front of a green chalkboard with a smile, holding a piece of chalk, clean white background, bright and cheerful colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊຽງ": {
+    "definitions": {
+      "de": "Ein Element in laotischen Ortsnamen, das häufig in zusammengesetzten Toponymen wie 'Vientiane' (ວຽງຈັນ) oder 'Xiang Khouang' vorkommt; bedeutet oft eine befestigte Stadt oder Siedlung",
+      "en": "A place name element commonly found in Lao and regional toponyms, often meaning a town, fortified settlement, or city; not typically used as a standalone word in everyday speech",
+      "es": "Elemento toponímico que se encuentra comúnmente en nombres de lugares laosianos y regionales; a menudo significa una ciudad o asentamiento fortificado; no se usa como palabra independiente en el habla cotidiana",
+      "fr": "Élément toponymique que l'on retrouve couramment dans les noms de lieux laotiens et régionaux; signifie souvent une ville ou un établissement fortifié; pas utilisé seul dans le langage courant",
+      "hi": "लाओ और क्षेत्रीय स्थान नामों में आमतौर पर पाया जाने वाला एक स्थान नाम तत्व; अक्सर एक शहर या किलेबंद बस्ती का अर्थ होता है; रोज़मर्रा की बातचीत में अकेले उपयोग नहीं होता",
+      "ja": "ラオスや地域の地名によく見られる地名要素で、町や要塞化された集落、都市を意味することが多い；日常会話では単独では使われない",
+      "km": "ធាតុឈ្មោះទីកន្លែងដែលត្រូវបានរកឃើញជាទូទៅនៅក្នុងឈ្មោះទីកន្លែងរបស់ឡាវ និងតំបន់; ជារឿយៗមានន័យថាក្រុង ឬការតាំងទីលំនៅដែលមានជំហររ; មិនត្រូវបានប្រើតែម្នាក់ឯងក្នុងការនិយាយប្រចាំថ្ងៃ",
+      "ko": "라오스 및 지역 지명에서 흔히 발견되는 지명 요소로, 종종 마을이나 요새화된 정착지를 의미함; 일상 대화에서 단독으로 사용되지 않음",
+      "ne": "लाओ र क्षेत्रीय स्थान नामहरूमा सामान्यतया पाइने स्थान नाम तत्व; प्रायः एउटा शहर वा किल्लेबन्द बस्तीको अर्थ हुन्छ; दैनिक बोलचालमा एक्लै प्रयोग गरिँदैन",
+      "pt": "Elemento toponímico comumente encontrado em topônimos laocianos e regionais; frequentemente significa uma cidade ou assentamento fortificado; não usado como palavra independente na fala cotidiana",
+      "th": "ส่วนประกอบของชื่อสถานที่ที่พบทั่วไปในชื่อภูมิศาสตร์ของลาวและภูมิภาค; มักหมายถึงเมืองหรือนิคมที่มีป้อมปราการ; ไม่ใช้เป็นคำเดี่ยวในการสนทนาประจำวัน",
+      "tl": "Isang elemento ng pangalan ng lugar na karaniwang makikita sa mga Lao at regional na lugar; kadalasang nangangahulugang isang bayan o napapaligiran na pamayanan; hindi ginagamit nang mag-isa sa pang-araw-araw na pagsasalita",
+      "ur": "لاؤ اور علاقائی جگہوں کے ناموں میں عام طور پر پایا جانے والا ایک مقامی نام کا عنصر؛ اکثر ایک قصبے یا قلعہ بند بستی کا مطلب ہوتا ہے؛ روزمرہ کی بات چیت میں تنہا استعمال نہیں ہوتا",
+      "vi": "Một yếu tố địa danh thường thấy trong địa danh Lào và khu vực; thường có nghĩa là thị trấn hoặc khu định cư có thành lũy; không dùng độc lập trong giao tiếp hàng ngày",
+      "zh": "常见于老挝和地区地名中的地名元素，通常指城镇或有防御工事的聚落；在日常对话中不单独使用",
+      "zh_Hant": "常見於老撾和地區地名中的地名元素，通常指城鎮或有防禦工事的聚落；在日常對話中不單獨使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "siaŋ",
+    "examples": [
+      {
+        "lao_script": "ຊຽງຂວາງເປັນແຂວງໜຶ່ງໃນລາວ.",
+        "romanization": "siaŋ khwaːŋ pen khɛːŋ nɨŋ nai laːo.",
+        "translations": {
+          "de": "Xieng Khouang ist eine Provinz in Laos.",
+          "en": "Xieng Khouang is a province in Laos.",
+          "es": "Xieng Khouang es una provincia de Laos.",
+          "fr": "Xieng Khouang est une province du Laos.",
+          "hi": "ज़ियांग ख्वांग लाओस का एक प्रांत है।",
+          "ja": "シェンクワーンはラオスの一つの県です。",
+          "km": "ស្យាងខ្វាំងជាខេត្តមួយក្នុងប្រទេសឡាវ។",
+          "ko": "시엥쾅은 라오스의 한 성(주)입니다.",
+          "ne": "ज़ियाङ ख्वाङ लाओसको एउटा प्रान्त हो।",
+          "pt": "Xieng Khouang é uma província do Laos.",
+          "th": "เชียงขวางเป็นแขวงหนึ่งในลาว",
+          "tl": "Ang Xieng Khouang ay isang lalawigan sa Laos.",
+          "ur": "ژیانگ کھوانگ لاؤس کا ایک صوبہ ہے۔",
+          "vi": "Xieng Khouang là một tỉnh của Lào.",
+          "zh": "川圹是老挝的一个省份。",
+          "zh_Hant": "川壙是老撾的一個省份。"
+        },
+        "out_of_scope_words": [
+          "ແຂວງ",
+          "ໜຶ່ງ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເຄີຍໄປຊຽງໃໝ່ບໍ?",
+        "romanization": "jao khəːi pai siaŋ mài bɔː?",
+        "translations": {
+          "de": "Bist du schon mal nach Chiang Mai gefahren?",
+          "en": "Have you ever been to Chiang Mai?",
+          "es": "¿Alguna vez has ido a Chiang Mai?",
+          "fr": "Tu es déjà allé(e) à Chiang Mai ?",
+          "hi": "क्या तुम कभी चियांग माई गए हो?",
+          "ja": "チェンマイに行ったことある？",
+          "km": "តើអ្នកធ្លាប់ទៅស្យាងម៉ៃទេ?",
+          "ko": "치앙마이에 가본 적 있어요?",
+          "ne": "के तिमी कहिल्यै चियाङ माई गएका छौ?",
+          "pt": "Você já foi a Chiang Mai?",
+          "th": "เคยไปเชียงใหม่ไหม?",
+          "tl": "Nakapunta ka na ba sa Chiang Mai?",
+          "ur": "کیا آپ کبھی چیانگ مائی گئے ہیں؟",
+          "vi": "Bạn đã từng đến Chiang Mai chưa?",
+          "zh": "你去过清迈吗？",
+          "zh_Hant": "你去過清邁嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຄີຍ",
+          "ໄປ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a map of Southeast Asia with a location pin marking a Lao town or city, surrounded by simple mountain and river icons, clean white background, muted earthy tones with a highlighted marker, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຕູ້": {
+    "definitions": {
+      "de": "Schrank, Kasten, Vitrine; ein geschlossenes Möbelstück mit Türen zum Aufbewahren von Gegenständen",
+      "en": "Cabinet, cupboard, closet, or locker; a piece of furniture with doors used to store items",
+      "es": "Armario, gabinete, alacena; un mueble cerrado con puertas que se usa para guardar objetos",
+      "fr": "Armoire, placard, cabinet; un meuble fermé avec des portes utilisé pour ranger des objets",
+      "hi": "अलमारी, कैबिनेट, संदूक; दरवाज़ों वाला बंद फर्नीचर जो सामान रखने के काम आता है",
+      "ja": "戸棚、キャビネット、クローゼット；扉のついた、物を収納するための家具",
+      "km": "ទូ, ទូដាក់ឥវ៉ាន់, ទូដាក់សំលៀកបំពាក់; គ្រឿងសង្ហារិមដែលមានទ្វារសម្រាប់ដាក់ទុកវត្ថុ",
+      "ko": "캐비닛, 찬장, 옷장; 물건을 보관하기 위한 문이 달린 가구",
+      "ne": "अलमारी, ढकनी भएको फर्निचर; सामान राख्न ढोका भएको बन्द फर्निचर",
+      "pt": "Armário, gabinete, guarda-roupa; um móvel fechado com portas usado para guardar objetos",
+      "th": "ตู้, ตู้เก็บของ, ตู้เสื้อผ้า; เฟอร์นิเจอร์มีประตูใช้สำหรับเก็บของ",
+      "tl": "Aparador, kabinet, taguan; isang muwebles na may pinto na ginagamit para mag-imbak ng mga bagay",
+      "ur": "الماری، کیبنٹ، الم ؛ دروازوں والا بند فرنیچر جو چیزیں رکھنے کے لیے استعمال ہوتا ہے",
+      "vi": "Tủ, tủ đựng đồ, tủ quần áo; đồ nội thất có cánh cửa dùng để cất giữ đồ vật",
+      "zh": "柜子，橱柜，衣柜；带门的用来储存物品的家具",
+      "zh_Hant": "櫃子，碗櫥，衣櫃；帶門的用來儲存物品的家具"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tuː",
+    "examples": [
+      {
+        "lao_script": "ເສື້ອຂອງຂ້ອຍຢູ່ໃນຕູ້ນັ້ນ.",
+        "romanization": "sɯːa khɔːng khɔːi yuː nai tuː nan.",
+        "translations": {
+          "de": "Meine Kleidung ist in jenem Schrank.",
+          "en": "My clothes are in that cabinet/closet.",
+          "es": "Mi ropa está en ese armario.",
+          "fr": "Mes vêtements sont dans cette armoire-là.",
+          "hi": "मेरे कपड़े उस अलमारी में हैं।",
+          "ja": "私の服はあの戸棚の中にあるよ。",
+          "km": "សំលៀកបំពាក់របស់ខ្ញុំនៅក្នុងទូនោះ។",
+          "ko": "내 옷은 저 캐비닛 안에 있어요.",
+          "ne": "मेरो लुगाफाटा त्यो अलमारीमा छ।",
+          "pt": "Minhas roupas estão naquele armário.",
+          "th": "เสื้อผ้าของฉันอยู่ในตู้นั้น",
+          "tl": "Ang aking damit ay nasa loob ng aparador na iyon.",
+          "ur": "میرے کپڑے اس الماری میں ہیں۔",
+          "vi": "Quần áo của tôi ở trong cái tủ đó.",
+          "zh": "我的衣服在那个柜子里。",
+          "zh_Hant": "我的衣服在那個櫃子裡。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍເປີດຕູ້ໃຫ້ເບິ່ງແດ່ໄດ້ບໍ?",
+        "romanization": "suai pəːt tuː hai bɤːng dɛː dai bɔː?",
+        "translations": {
+          "de": "Könntest du bitte kurz den Schrank für mich aufmachen?",
+          "en": "Could you open the cabinet for me to have a look?",
+          "es": "¿Podrías abrir el armario para que yo pueda ver?",
+          "fr": "Tu peux ouvrir l'armoire pour que je regarde un peu ?",
+          "hi": "क्या तुम थोड़ी देर के लिए मेरे लिए अलमारी खोल सकते हो?",
+          "ja": "ちょっとキャビネットを開けてみてくれる？",
+          "km": "ជួយបើកទូឱ្យមើលតិចបានទេ?",
+          "ko": "잠깐 캐비닛 좀 열어줄 수 있어요?",
+          "ne": "के तिमी मलाई हेर्न अलमारी खोलिदिन सक्छौ?",
+          "pt": "Você pode abrir o armário para eu dar uma olhada?",
+          "th": "ช่วยเปิดตู้ให้ดูหน่อยได้ไหม?",
+          "tl": "Maaari mo bang buksan ang aparador para makita ko?",
+          "ur": "کیا آپ الماری کھول کر مجھے دیکھنے دے سکتے ہیں؟",
+          "vi": "Bạn có thể mở tủ cho tôi xem một chút không?",
+          "zh": "能帮我打开柜子看看吗？",
+          "zh_Hant": "能幫我打開櫃子看看嗎？"
+        },
+        "out_of_scope_words": [
+          "ເປີດ",
+          "ເບິ່ງ",
+          "ຊ່ວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a wooden household cabinet or wardrobe with both doors open, showing neatly folded clothes inside, clean white background, warm brown and cream colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຕັມ",
+  "definitions": {
+    "de": "Voll; bis zum Rand gefüllt; kein Platz mehr vorhanden",
+    "en": "Full; filled to capacity; no space or room left",
+    "es": "Lleno; lleno hasta el tope; sin espacio disponible",
+    "fr": "Plein; rempli à ras bord; plus de place disponible",
+    "hi": "भरा हुआ; पूर्ण; कोई जगह नहीं बची",
+    "ja": "いっぱい；満杯；空きがない",
+    "km": "ពេញ; ពោរពេញ; គ្មានកន្លែងទំនេរ",
+    "ko": "가득 찬; 꽉 찬; 빈자리가 없는",
+    "ne": "भरिएको; पूर्ण; कुनै ठाउँ बाँकी नभएको",
+    "pt": "Cheio; lotado; sem espaço disponível",
+    "th": "เต็ม; เต็มความจุ; ไม่มีที่ว่างเหลือ",
+    "tl": "Puno; puno na; walang natitira pang espasyo",
+    "ur": "بھرا ہوا؛ مکمل بھرا؛ کوئی جگہ باقی نہیں",
+    "vi": "Đầy; chứa đầy; không còn chỗ trống",
+    "zh": "满；装满；没有剩余空间",
+    "zh_Hant": "滿；裝滿；沒有剩餘空間"
+  },
+  "definition_en": "Full; filled to capacity; no space or room left",
+  "romanization": "tem",
+  "lao_examples": [
+    {
+      "lao_script": "ແກ້ວນໍ້ານີ້ເຕັມແລ້ວ, ຢ່າເທເພີ່ມ",
+      "romanization": "kaew nam nii tem laeo, yaa the phoem",
+      "translation_en": "This glass of water is already full, don't pour more in."
+    },
+    {
+      "lao_script": "ລົດເມເຕັມຄົນ, ຂ້ອຍຂຶ້ນບໍ່ໄດ້",
+      "romanization": "lot me tem khon, khoi khueen bo dai",
+      "translation_en": "The bus is packed with people, I can't get on."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clear glass or cup filled completely to the brim with water, with a few drops spilling over the edge, clean white background, colorful minimalist style suitable for a language learning app."
+}

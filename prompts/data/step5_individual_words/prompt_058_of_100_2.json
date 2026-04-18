@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄໍ",
+  "definitions": {
+    "de": "Hals; der Teil des Körpers zwischen Kopf und Schultern",
+    "en": "Neck; the part of the body connecting the head to the shoulders",
+    "es": "Cuello; la parte del cuerpo que conecta la cabeza con los hombros",
+    "fr": "Cou; la partie du corps reliant la tête aux épaules",
+    "hi": "गर्दन; शरीर का वह भाग जो सिर को कंधों से जोड़ता है",
+    "ja": "首；頭と肩をつなぐ体の部位",
+    "km": "ក; ផ្នែករបស់រាងកាយដែលភ្ជាប់ក្បាលទៅvai",
+    "ko": "목; 머리와 어깨를 연결하는 신체 부위",
+    "ne": "घाँटी; टाउको र काँध जोड्ने शरीरको भाग",
+    "pt": "Pescoço; a parte do corpo que conecta a cabeça aos ombros",
+    "th": "คอ; ส่วนของร่างกายที่เชื่อมระหว่างหัวและไหล่",
+    "tl": "Leeg; ang bahagi ng katawan na nag-uugnay ng ulo at balikat",
+    "ur": "گردن؛ جسم کا وہ حصہ جو سر کو کندھوں سے جوڑتا ہے",
+    "vi": "Cổ; phần cơ thể nối đầu với vai",
+    "zh": "脖子；连接头部和肩膀的身体部位",
+    "zh_Hant": "脖子；連接頭部和肩膀的身體部位"
+  },
+  "definition_en": "Neck; the part of the body connecting the head to the shoulders",
+  "romanization": "/kʰo˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄໍຂ້ອຍເຈັບຫຼາຍເລີຍ",
+      "romanization": "kho khoi jep laai loei",
+      "translation_en": "My neck really hurts."
+    },
+    {
+      "lao_script": "ເຈົ້າໃສ່ສ້ອຍຄໍສວຍຈັງ",
+      "romanization": "jao sai soi kho suai jang",
+      "translation_en": "You're wearing such a pretty necklace."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a human body outline with the neck area highlighted and labeled, showing a clear front-facing torso and head, clean white background, colorful and minimalist style suitable for a language learning app."
+}

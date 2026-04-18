@@ -1,0 +1,411 @@
+{
+  "ດວງ": {
+    "definitions": {
+      "de": "Stern; Schicksal/Glück; Klassifikator für Himmelskörper (Sonne, Mond, Sterne)",
+      "en": "Star; fortune/luck/fate; classifier for celestial bodies (sun, moon, stars)",
+      "es": "Estrella; fortuna/suerte/destino; clasificador para cuerpos celestes (sol, luna, estrellas)",
+      "fr": "Étoile; fortune/chance/destin; classificateur pour les corps célestes (soleil, lune, étoiles)",
+      "hi": "तारा; भाग्य/किस्मत; खगोलीय पिंडों (सूर्य, चंद्रमा, तारों) के लिए क्लासिफायर",
+      "ja": "星；運勢・運命；天体（太陽・月・星）の類別詞",
+      "km": "ផ្កាយ; ជោគវាសនា/សំណាង; ពាក្យចំណាត់ថ្នាក់សម្រាប់អាកាសវត្ថុ (ព្រះអាទិត្យ ព្រះចន្ទ ផ្កាយ)",
+      "ko": "별; 운/운명/행운; 천체(해, 달, 별)에 쓰이는 분류사",
+      "ne": "तारा; भाग्य/किस्मत; खगोलीय पिण्डहरू (सूर्य, चन्द्रमा, तारा) का लागि वर्गीकरण शब्द",
+      "pt": "Estrela; sorte/fortuna/destino; classificador para corpos celestes (sol, lua, estrelas)",
+      "th": "ดาว; ดวงชะตา/โชคชะตา; ลักษณนามสำหรับวัตถุท้องฟ้า (ดวงอาทิตย์ ดวงจันทร์ ดาว)",
+      "tl": "Bituin; kapalaran/swerte/tadhana; panluri para sa mga katawang pangkalawakan (araw, buwan, bituin)",
+      "ur": "ستارہ؛ قسمت/نصیب/تقدیر؛ آسمانی اجسام (سورج، چاند، ستاروں) کے لیے درجہ بندی کا لفظ",
+      "vi": "Ngôi sao; vận mệnh/may mắn/số phận; danh từ chỉ loại cho các thiên thể (mặt trời, mặt trăng, sao)",
+      "zh": "星星；运气/命运/福气；天体（太阳、月亮、星星）的量词",
+      "zh_Hant": "星星；運氣/命運/福氣；天體（太陽、月亮、星星）的量詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "duaŋ",
+    "examples": [
+      {
+        "lao_script": "ຄືນນີ້ດວງດາວສວຍຫຼາຍເນາະ",
+        "romanization": "khʉːn níː duaŋ daːw suay laːj nɔ",
+        "translations": {
+          "de": "Heute Nacht sind die Sterne wirklich schön, oder?",
+          "en": "The stars are so beautiful tonight, aren't they?",
+          "es": "Esta noche las estrellas están muy bonitas, ¿verdad?",
+          "fr": "Les étoiles sont vraiment belles ce soir, non ?",
+          "hi": "आज रात तारे बहुत सुंदर हैं, है ना?",
+          "ja": "今夜は星がとてもきれいだね。",
+          "km": "យប់នេះផ្កាយស្រស់ស្អាតណាស់មែនទេ?",
+          "ko": "오늘 밤 별이 정말 예쁘지 않아?",
+          "ne": "आज रात तारेहरू साह्रै सुन्दर छन् नि, हैन र?",
+          "pt": "As estrelas estão tão bonitas hoje à noite, não é?",
+          "th": "คืนนี้ดาวสวยมากเลยนะ",
+          "tl": "Napakaganda ng mga bituin ngayong gabi, ano?",
+          "ur": "آج رات ستارے بہت خوبصورت ہیں، ہے نا؟",
+          "vi": "Tối nay những ngôi sao đẹp lắm nhỉ?",
+          "zh": "今晚的星星好漂亮啊，对不对？",
+          "zh_Hant": "今晚的星星好漂亮啊，對不對？"
+        },
+        "out_of_scope_words": [
+          "ດາວ",
+          "ສວຍ",
+          "ຄືນນີ້",
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ດວງຂອງຂ້ອຍດີຫຼາຍອາທິດນີ້",
+        "romanization": "duaŋ khɔ̌ːŋ khɔ̂ːj diː laːj ʔaː.thít níː",
+        "translations": {
+          "de": "Mein Glück ist diese Woche sehr gut.",
+          "en": "My luck/fortune is really good this week.",
+          "es": "Mi suerte está muy bien esta semana.",
+          "fr": "Ma chance est vraiment bonne cette semaine.",
+          "hi": "इस हफ्ते मेरा भाग्य बहुत अच्छा है।",
+          "ja": "今週は運がとてもいいよ。",
+          "km": "ជោគវាសនារបស់ខ្ញុំល្អណាស់សប្តាហ៍នេះ។",
+          "ko": "이번 주에 내 운이 정말 좋아.",
+          "ne": "यो हप्ता मेरो भाग्य धेरै राम्रो छ।",
+          "pt": "Minha sorte está muito boa esta semana.",
+          "th": "ดวงของฉันดีมากอาทิตย์นี้",
+          "tl": "Ang aking kapalaran ay napakaganda ngayong linggo.",
+          "ur": "اس ہفتے میری قسمت بہت اچھی ہے۔",
+          "vi": "Vận may của tôi rất tốt tuần này.",
+          "zh": "这周我的运气很好。",
+          "zh_Hant": "這週我的運氣很好。"
+        },
+        "out_of_scope_words": [
+          "ອາທິດນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a bright glowing star in a dark night sky with a crescent moon, and below it a small fortune symbol or lucky charm, suitable for a language learning app, clean background, colorful and minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທັນ": {
+    "definitions": {
+      "de": "Rechtzeitig sein; einholen; es schaffen (etwas zu erreichen, bevor es zu spät ist)",
+      "en": "To be in time; to catch up; to make it (before a deadline or before something leaves)",
+      "es": "Llegar a tiempo; alcanzar; lograrlo (antes de que sea demasiado tarde o algo se vaya)",
+      "fr": "Être à temps; rattraper; y arriver (avant qu'il ne soit trop tard ou que quelque chose parte)",
+      "hi": "समय पर होना; पहुँचना; कुछ छूटने से पहले पकड़ लेना",
+      "ja": "間に合う；追いつく；（出発前などに）間に合わせる",
+      "km": "ទាន់ពេល;따라잡다; ទៀតទាត់ (មុនពេលវេលាកំណត់ ឬមុនពេលអ្វីមួយចាកចេញ)",
+      "ko": "제때 맞추다; 따라잡다; 늦지 않게 도착하다",
+      "ne": "समयमा पुग्नु; भेट्टाउनु; (कुनै चीज जानुभन्दा पहिले) पुग्नु",
+      "pt": "Estar a tempo; alcançar; chegar antes que seja tarde demais",
+      "th": "ทัน; ทันเวลา; ไล่ทัน (ก่อนที่จะสาย หรือก่อนที่บางสิ่งจะออกไป)",
+      "tl": "Makarating sa tamang oras; mahabol; makaabot (bago mahuli ang lahat o bago umalis ang isang bagay)",
+      "ur": "وقت پر ہونا؛ پکڑنا؛ (کچھ چھوٹنے سے پہلے) پہنچ جانا",
+      "vi": "Kịp thời; đuổi kịp; làm kịp (trước khi quá muộn hoặc trước khi ai/cái gì đó rời đi)",
+      "zh": "来得及；赶上；及时（在某事结束或离开之前到达）",
+      "zh_Hant": "來得及；趕上；及時（在某事結束或離開之前到達）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "than",
+    "examples": [
+      {
+        "lao_script": "ແລ່ນໄວໆ ບໍ່ດັ່ງນັ້ນທັນລົດບໍ່ທັນ",
+        "romanization": "lɛ̂n waj waj bɔ̀ daŋ nan than lót bɔ̀ than",
+        "translations": {
+          "de": "Lauf schnell, sonst verpasst du den Bus!",
+          "en": "Run fast, otherwise you won't catch the bus!",
+          "es": "¡Corre rápido, de lo contrario no vas a alcanzar el autobús!",
+          "fr": "Cours vite, sinon tu vas rater le bus !",
+          "hi": "जल्दी दौड़ो, नहीं तो बस नहीं पकड़ पाओगे!",
+          "ja": "早く走って、じゃないとバスに乗り遅れるよ！",
+          "km": "រត់លឿនៗ បើមិនដូច្នេះទៀតទាត់រថយន្តមិនទាន់!",
+          "ko": "빨리 뛰어, 안 그러면 버스 못 잡아!",
+          "ne": "छिटो दौड, नत्र बस समाउन सक्दैनौ!",
+          "pt": "Corre rápido, senão não vai pegar o ônibus!",
+          "th": "วิ่งเร็วๆ ไม่งั้นขึ้นรถไม่ทัน!",
+          "tl": "Tumakbo nang mabilis, kung hindi ay hindi mo mahabol ang bus!",
+          "ur": "تیز دوڑو، ورنہ بس نہیں پکڑ پاؤگے!",
+          "vi": "Chạy nhanh lên, không thì không kịp xe buýt đâu!",
+          "zh": "快跑，不然赶不上公共汽车了！",
+          "zh_Hant": "快跑，不然趕不上公共汽車了！"
+        },
+        "out_of_scope_words": [
+          "ແລ່ນ",
+          "ໄວໆ",
+          "ບໍ່ດັ່ງນັ້ນ",
+          "ລົດ"
+        ]
+      },
+      {
+        "lao_script": "ໂຊກດີ ຂ້ອຍທັນກິນເຂົ້າທ່ຽງ",
+        "romanization": "soːk diː khɔ̂ːj than kin khâw thîaŋ",
+        "translations": {
+          "de": "Zum Glück habe ich es noch rechtzeitig zum Mittagessen geschafft.",
+          "en": "Luckily, I made it in time for lunch.",
+          "es": "Por suerte, llegué a tiempo para el almuerzo.",
+          "fr": "Heureusement, j'ai eu le temps de déjeuner.",
+          "hi": "खुशकिस्मती से, मैं दोपहर के खाने के लिए समय पर पहुँच गया।",
+          "ja": "ラッキー、昼ごはんに間に合ったよ。",
+          "km": "សំណាងល្អ ខ្ញុំទាន់ញ៉ាំបាយថ្ងៃត្រង់។",
+          "ko": "다행히 점심 먹을 시간에 맞췄어.",
+          "ne": "भाग्यले, म दिउँसोको खानाको लागि समयमा पुगें।",
+          "pt": "Por sorte, cheguei a tempo para o almoço.",
+          "th": "โชคดีที่ฉันทันกินข้าวเที่ยง",
+          "tl": "Maswerte, nakarating ako sa tamang oras para sa tanghalian.",
+          "ur": "خوش قسمتی سے، میں دوپہر کے کھانے کے لیے وقت پر پہنچ گیا۔",
+          "vi": "May mắn là tôi kịp ăn bữa trưa.",
+          "zh": "幸运的是，我赶上了吃午饭。",
+          "zh_Hant": "幸運的是，我趕上了吃午飯。"
+        },
+        "out_of_scope_words": [
+          "ໂຊກດີ",
+          "ກິນເຂົ້າ",
+          "ທ່ຽງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person running toward a bus that is just about to close its doors, with a clock showing they are just in time, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫົວ": {
+    "definitions": {
+      "de": "Kopf (Körperteil); auch verwendet für den oberen/vorderen Teil von Dingen",
+      "en": "Head (body part); also used for the top or front part of objects",
+      "es": "Cabeza (parte del cuerpo); también se usa para la parte superior o delantera de objetos",
+      "fr": "Tête (partie du corps); également utilisé pour la partie supérieure ou avant des objets",
+      "hi": "सिर (शरीर का अंग); वस्तुओं के ऊपरी या अगले हिस्से के लिए भी प्रयुक्त",
+      "ja": "頭（体の部位）；物の上部や先端部分にも使われる",
+      "km": "ក្បាល (ផ្នែករាងកាយ); ក៏ប្រើសម្រាប់ផ្នែកខាងលើ ឬខាងមុខរបស់វត្ថុផងដែរ",
+      "ko": "머리 (신체 부위); 사물의 위쪽이나 앞부분에도 사용됨",
+      "ne": "टाउको (शरीरको अंग); वस्तुहरूको माथिल्लो वा अगाडिको भागका लागि पनि प्रयोग हुन्छ",
+      "pt": "Cabeça (parte do corpo); também usada para a parte superior ou dianteira de objetos",
+      "th": "หัว (ส่วนของร่างกาย); ยังใช้กับส่วนบนหรือส่วนหน้าของสิ่งของ",
+      "tl": "Ulo (bahagi ng katawan); ginagamit din para sa itaas o harap na bahagi ng mga bagay",
+      "ur": "سر (جسم کا حصہ)؛ چیزوں کے اوپری یا اگلے حصے کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Đầu (bộ phận cơ thể); cũng dùng để chỉ phần trên hoặc phần trước của vật",
+      "zh": "头（身体部位）；也用于指物体的顶部或前端",
+      "zh_Hant": "頭（身體部位）；也用於指物體的頂部或前端"
+    },
+    "part_of_speech": "noun",
+    "romanization": "hǔa",
+    "examples": [
+      {
+        "lao_script": "ຫົວຂອງຂ້ອຍເຈັບຫຼາຍເລີຍ",
+        "romanization": "hǔa khɔ̌ːŋ khɔ̂ːj tɕep laːj ləːj",
+        "translations": {
+          "de": "Mein Kopf tut wirklich sehr weh.",
+          "en": "My head really hurts a lot.",
+          "es": "Me duele mucho la cabeza.",
+          "fr": "J'ai vraiment très mal à la tête.",
+          "hi": "मेरे सिर में बहुत दर्द है।",
+          "ja": "頭がすごく痛いよ。",
+          "km": "ក្បាលរបស់ខ្ញុំឈឺខ្លាំងណាស់ម្លេះ។",
+          "ko": "나 머리가 엄청 많이 아파.",
+          "ne": "मेरो टाउको धेरै दुखिरहेको छ।",
+          "pt": "Minha cabeça está doendo muito.",
+          "th": "หัวของฉันปวดมากเลย",
+          "tl": "Sobrang sakit ng ulo ko.",
+          "ur": "میرے سر میں بہت درد ہے۔",
+          "vi": "Đầu tôi đau lắm luôn.",
+          "zh": "我头好痛啊。",
+          "zh_Hant": "我頭好痛啊。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບ",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ລ້າງຫົວທຸກໆວັນດີຕໍ່ຜົມ",
+        "romanization": "laːŋ hǔa thúk thúk wan diː tɔ̀ː phǒm",
+        "translations": {
+          "de": "Das Haarewaschen jeden Tag ist gut fürs Haar.",
+          "en": "Washing your hair every day is good for your hair.",
+          "es": "Lavarse la cabeza todos los días es bueno para el pelo.",
+          "fr": "Se laver les cheveux tous les jours est bon pour les cheveux.",
+          "hi": "रोज बाल धोना बालों के लिए अच्छा होता है।",
+          "ja": "毎日髪を洗うのは髪にいいよ。",
+          "km": "លុបក្បាលរាល់ថ្ងៃល្អសម្រាប់សក់។",
+          "ko": "매일 머리 감는 게 머리카락에 좋아.",
+          "ne": "हरेक दिन टाउको धुनु कपालको लागि राम्रो हुन्छ।",
+          "pt": "Lavar o cabelo todos os dias é bom para o cabelo.",
+          "th": "สระหัวทุกวันดีต่อผม",
+          "tl": "Ang paghugas ng ulo araw-araw ay mabuti para sa buhok.",
+          "ur": "روزانہ بال دھونا بالوں کے لیے اچھا ہے۔",
+          "vi": "Gội đầu mỗi ngày tốt cho tóc.",
+          "zh": "每天洗头对头发有好处。",
+          "zh_Hant": "每天洗頭對頭髮有好處。"
+        },
+        "out_of_scope_words": [
+          "ລ້າງ",
+          "ທຸກໆວັນ",
+          "ຜົມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a human head shown from the front with a neutral expression, with an arrow or highlight pointing to the head area, clean white background, colorful minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈອດ": {
+    "definitions": {
+      "de": "Parken; anhalten (von Fahrzeugen); ein Fahrzeug an einem bestimmten Ort abstellen",
+      "en": "To park; to stop and stay (of vehicles); to dock (a boat)",
+      "es": "Estacionar; detenerse (de vehículos); aparcar un vehículo en un lugar determinado",
+      "fr": "Se garer; s'arrêter (pour les véhicules); stationner un véhicule à un endroit précis",
+      "hi": "पार्क करना; रुकना (वाहनों के लिए); किसी निश्चित स्थान पर वाहन खड़ा करना",
+      "ja": "駐車する；（乗り物が）止まって留まる；停泊する（船）",
+      "km": "ចតយានយន្ត; ឈប់ (យានយន្ត); ចតនៅកន្លែងណាមួយ",
+      "ko": "주차하다; (차량이) 멈춰 서다; 정박하다 (배)",
+      "ne": "पार्क गर्नु; रोकिनु (सवारी साधनको लागि); कुनै निश्चित ठाउँमा सवारी साधन राख्नु",
+      "pt": "Estacionar; parar (veículos); atracar (barco)",
+      "th": "จอด; หยุด (ยานพาหนะ); จอดยานพาหนะไว้ที่ใดที่หนึ่ง",
+      "tl": "Mag-park; huminto (ng sasakyan); iparada ang sasakyan sa isang lugar",
+      "ur": "پارک کرنا؛ رکنا (گاڑیوں کے لیے)؛ کسی مخصوص جگہ گاڑی کھڑی کرنا",
+      "vi": "Đỗ xe; dừng lại (xe cộ); neo đậu (thuyền)",
+      "zh": "停车；（车辆）停靠；泊车",
+      "zh_Hant": "停車；（車輛）停靠；泊車"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tɕɔːt",
+    "examples": [
+      {
+        "lao_script": "ຈອດລົດບ່ອນໃດໄດ້ແດ່?",
+        "romanization": "tɕɔːt lót bɔ̀ːn daj dâj dɛ̀ː",
+        "translations": {
+          "de": "Wo kann ich das Auto parken?",
+          "en": "Where can I park the car?",
+          "es": "¿Dónde puedo estacionar el carro?",
+          "fr": "Où est-ce que je peux garer la voiture ?",
+          "hi": "मैं गाड़ी कहाँ पार्क कर सकता हूँ?",
+          "ja": "車はどこに駐車できますか？",
+          "km": "ចតរថយន្តនៅទីណាបាន?",
+          "ko": "차를 어디에 주차할 수 있어요?",
+          "ne": "गाडी कहाँ पार्क गर्न सकिन्छ?",
+          "pt": "Onde posso estacionar o carro?",
+          "th": "จอดรถที่ไหนได้บ้าง?",
+          "tl": "Saan ako makakapag-park ng kotse?",
+          "ur": "گاڑی کہاں پارک کر سکتا ہوں؟",
+          "vi": "Đỗ xe được ở chỗ nào vậy?",
+          "zh": "可以在哪里停车呢？",
+          "zh_Hant": "可以在哪裡停車呢？"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ບ່ອນໃດ",
+          "ໄດ້ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ຫ້າມຈອດລົດຕໍ່ໜ້ານີ້ເດີ້",
+        "romanization": "hâːm tɕɔːt lót tɔ̀ː nâː níː dəː",
+        "translations": {
+          "de": "Hier vorne darf man nicht parken, okay?",
+          "en": "No parking in front here, okay?",
+          "es": "Está prohibido estacionar aquí enfrente, ¿okay?",
+          "fr": "Il est interdit de se garer devant ici, d'accord ?",
+          "hi": "यहाँ सामने गाड़ी पार्क करना मना है, ठीक है?",
+          "ja": "ここの前に駐車してはいけないよ。",
+          "km": "ហាមចតរថយន្តខាងមុខទីនេះណា។",
+          "ko": "여기 앞에 주차하면 안 돼요.",
+          "ne": "यहाँ अगाडि गाडी पार्क गर्न मनाही छ है।",
+          "pt": "É proibido estacionar aqui na frente, tá?",
+          "th": "ห้ามจอดรถด้านหน้านี้นะ",
+          "tl": "Bawal mag-park sa harap dito, ha?",
+          "ur": "یہاں آگے گاڑی پارک کرنا منع ہے، ٹھیک ہے؟",
+          "vi": "Cấm đỗ xe phía trước chỗ này nha.",
+          "zh": "这里前面不准停车哦。",
+          "zh_Hant": "這裡前面不准停車喔。"
+        },
+        "out_of_scope_words": [
+          "ຫ້າມ",
+          "ລົດ",
+          "ຕໍ່ໜ້າ",
+          "ເດີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a car neatly parked in a designated parking space marked with white lines, viewed from a slight angle, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດັບ": {
+    "definitions": {
+      "de": "Löschen; ausmachen; ausschalten (Feuer, Licht, Motor); erlöschen",
+      "en": "To extinguish; to turn off; to put out (fire, light, engine); to go out (of a flame)",
+      "es": "Apagar; extinguir (fuego, luz, motor); apagarse (una llama)",
+      "fr": "Éteindre; couper (feu, lumière, moteur); s'éteindre (d'une flamme)",
+      "hi": "बुझाना; बंद करना (आग, बत्ती, इंजन); बुझ जाना (लौ का)",
+      "ja": "消す；消火する（火・電気・エンジンを）；（炎が）消える",
+      "km": "ពន្លត់; បិទ (ភ្លើង ភ្លើងបំភ្លឺ ម៉ាស៊ីន); ផ្លុំ (ភ្លើង)",
+      "ko": "끄다; 불을 끄다; (불, 불빛, 엔진을) 끄다; (불꽃이) 꺼지다",
+      "ne": "निभाउनु; बन्द गर्नु (आगो, बत्ती, इन्जिन); निभ्नु (ज्वाला)",
+      "pt": "Apagar; extinguir (fogo, luz, motor); se apagar (uma chama)",
+      "th": "ดับ; ปิด; ดับไฟ (ไฟ แสงสว่าง เครื่องยนต์); ดับลง (เปลวไฟ)",
+      "tl": "Patayin; apulahin (apoy, ilaw, makina); mawala (apoy)",
+      "ur": "بجھانا؛ بند کرنا (آگ، روشنی، انجن)؛ بجھ جانا (شعلہ)",
+      "vi": "Tắt; dập tắt (lửa, đèn, máy); tắt đi (ngọn lửa)",
+      "zh": "熄灭；关掉（火、灯、引擎）；灭（火焰）",
+      "zh_Hant": "熄滅；關掉（火、燈、引擎）；滅（火焰）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "dap",
+    "examples": [
+      {
+        "lao_script": "ດັບໄຟກ່ອນນອນດ້ວຍເນາະ",
+        "romanization": "dap faj kɔ̀ːn nɔːn dûaj nɔ",
+        "translations": {
+          "de": "Mach das Licht aus, bevor du schlafen gehst, okay?",
+          "en": "Turn off the light before going to sleep, okay?",
+          "es": "Apaga la luz antes de dormir, ¿okay?",
+          "fr": "Éteins la lumière avant de dormir, d'accord ?",
+          "hi": "सोने से पहले बत्ती बुझा देना, ठीक है?",
+          "ja": "寝る前に電気消してね。",
+          "km": "ពន្លត់ភ្លើងមុនគេងផងណា។",
+          "ko": "자기 전에 불 꺼줘, 알았지?",
+          "ne": "सुत्नु अगाडि बत्ती निभाऊ है।",
+          "pt": "Apaga a luz antes de dormir, tá?",
+          "th": "ดับไฟก่อนนอนด้วยนะ",
+          "tl": "Patayin ang ilaw bago matulog, ha?",
+          "ur": "سونے سے پہلے بتی بجھا دو، ٹھیک ہے؟",
+          "vi": "Tắt đèn trước khi ngủ nhé.",
+          "zh": "睡觉前把灯关掉哦。",
+          "zh_Hant": "睡覺前把燈關掉喔。"
+        },
+        "out_of_scope_words": [
+          "ໄຟ",
+          "ກ່ອນ",
+          "ນອນ",
+          "ດ້ວຍ",
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ດັບເຄື່ອງລົດກ່ອນລົງໄດ້ເລີຍ",
+        "romanization": "dap khɯ̂aŋ lót kɔ̀ːn loŋ dâj ləːj",
+        "translations": {
+          "de": "Du kannst den Motor ausschalten, bevor du aussteigst.",
+          "en": "You can turn off the engine before getting out.",
+          "es": "Puedes apagar el motor antes de bajar.",
+          "fr": "Tu peux couper le moteur avant de descendre.",
+          "hi": "उतरने से पहले इंजन बंद कर सकते हो।",
+          "ja": "降りる前にエンジン切っていいよ。",
+          "km": "អាចបិទម៉ាស៊ីនរថយន្តមុនពេលចុះបាន។",
+          "ko": "내리기 전에 시동 꺼도 돼.",
+          "ne": "झर्नु अगाडि गाडीको इन्जिन बन्द गर्न सक्छौ।",
+          "pt": "Pode desligar o motor antes de descer.",
+          "th": "ดับเครื่องรถก่อนลงได้เลย",
+          "tl": "Maaari mong patayin ang makina bago bumaba.",
+          "ur": "اترنے سے پہلے گاڑی کا انجن بند کر سکتے ہو۔",
+          "vi": "Tắt máy xe trước khi xuống cũng được.",
+          "zh": "下车之前可以先关掉引擎。",
+          "zh_Hant": "下車之前可以先關掉引擎。"
+        },
+        "out_of_scope_words": [
+          "ເຄື່ອງ",
+          "ລົດ",
+          "ກ່ອນ",
+          "ລົງ",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand turning off a light switch on a wall, with a light bulb going dark, clean white background, colorful minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

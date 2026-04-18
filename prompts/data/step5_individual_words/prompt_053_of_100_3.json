@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖາມ",
+  "definitions": {
+    "de": "Fragen – jemanden um Informationen oder eine Antwort bitten",
+    "en": "To ask – to request information or an answer from someone",
+    "es": "Preguntar – pedir información o una respuesta a alguien",
+    "fr": "Demander – solliciter des informations ou une réponse de quelqu'un",
+    "hi": "पूछना – किसी से जानकारी या जवाब माँगना",
+    "ja": "聞く・尋ねる – 誰かに情報や答えを求めること",
+    "km": "សួរ – ស្នើសុំព័ត៌មានឬចម្លើយពីនរណាម្នាក់",
+    "ko": "묻다 – 누군가에게 정보나 대답을 요청하다",
+    "ne": "सोध्नु – कसैसँग जानकारी वा जवाफ माग्नु",
+    "pt": "Perguntar – pedir informações ou uma resposta a alguém",
+    "th": "ถาม – ขอข้อมูลหรือคำตอบจากใครสักคน",
+    "tl": "Magtanong – humingi ng impormasyon o sagot mula sa isang tao",
+    "ur": "پوچھنا – کسی سے معلومات یا جواب مانگنا",
+    "vi": "Hỏi – yêu cầu thông tin hoặc câu trả lời từ ai đó",
+    "zh": "问 – 向某人询问信息或寻求答案",
+    "zh_Hant": "問 – 向某人詢問資訊或尋求答案"
+  },
+  "definition_en": "To ask – to request information or an answer from someone",
+  "romanization": "/tʰǎːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ຖ້າບໍ່ຮູ້ກໍຖາມຄູໄດ້ເລີຍ",
+      "romanization": "tha bo huu go tham khuu dai loei",
+      "translation_en": "If you don't know, just go ahead and ask the teacher."
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກຖາມເຈົ້າວ່າເຈົ້າສະບາຍດີບໍ",
+      "romanization": "khooi yaak tham jao waa jao sabaai dii bo",
+      "translation_en": "I wanted to ask you if you're doing okay."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person raising their hand to ask a question, with a speech bubble containing a question mark above their head, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

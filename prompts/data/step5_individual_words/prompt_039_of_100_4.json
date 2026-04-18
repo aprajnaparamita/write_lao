@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄພ",
+  "definitions": {
+    "de": "Gefahr; eine ernsthafte Bedrohung, Katastrophe oder ein schädliches Ereignis, das Schaden oder Verluste verursacht",
+    "en": "Danger; a serious threat, disaster, or harmful event that causes damage or loss",
+    "es": "Peligro; una amenaza grave, desastre o evento dañino que causa daño o pérdida",
+    "fr": "Danger ; une menace grave, une catastrophe ou un événement nuisible qui cause des dommages ou des pertes",
+    "hi": "खतरा/आपदा; एक गंभीर खतरा, आपदा या हानिकारक घटना जो नुकसान या हानि का कारण बनती है",
+    "ja": "危険；損害や損失を引き起こす深刻な脅威、災害、または有害な出来事",
+    "km": "គ្រោះថ្នាក់; ការគំរាមកំហែងធ្ងន់ធ្ងរ មហន្តរាយ ឬព្រឹត្តិការណ៍ដែលបង្កឱ្យមានការខូចខាតឬការបាត់បង់",
+    "ko": "위험; 손해나 손실을 초래하는 심각한 위협, 재해 또는 해로운 사건",
+    "ne": "खतरा/प्रकोप; गम्भीर खतरा, विपद् वा हानिकारक घटना जसले क्षति वा नोक्सानी पुर्‍याउँछ",
+    "pt": "Perigo; uma ameaça grave, desastre ou evento prejudicial que causa dano ou perda",
+    "th": "ภัย; ภัยคุกคามร้ายแรง ภัยพิบัติ หรือเหตุการณ์อันตรายที่ก่อให้เกิดความเสียหายหรือสูญเสีย",
+    "tl": "Panganib; isang seryosong banta, sakuna, o mapanganib na pangyayari na nagdudulot ng pinsala o pagkawala",
+    "ur": "خطرہ/آفت؛ ایک سنگین خطرہ، آفت یا نقصاندہ واقعہ جو نقصان یا خسارہ پہنچاتا ہے",
+    "vi": "Hiểm nguy/thảm họa; một mối đe dọa nghiêm trọng, thảm họa hoặc sự kiện gây hại dẫn đến thiệt hại hoặc mất mát",
+    "zh": "危险/灾害；造成损害或损失的严重威胁、灾难或有害事件",
+    "zh_Hant": "危險/災害；造成損害或損失的嚴重威脅、災難或有害事件"
+  },
+  "definition_en": "Danger; a serious threat, disaster, or harmful event that causes damage or loss",
+  "romanization": "/pʰáj/",
+  "lao_examples": [
+    {
+      "lao_script": "ນ້ຳຖ້ວມເປັນໄພທີ່ໃຫຍ່ຫຼວງຂອງລາວ",
+      "romanization": "naam thuam pen phai tii nyai luang khoong laao",
+      "translation_en": "Flooding is a major disaster in Laos."
+    },
+    {
+      "lao_script": "ລະວັງໄພຈາກໄຟ, ຢ່າລືມດັບ",
+      "romanization": "lawang phai jaak fai, yaa leum dap",
+      "translation_en": "Watch out for fire danger, don't forget to put it out."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a warning triangle sign with a flame symbol inside representing fire danger, with a cautionary red color scheme, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພາ",
+  "definitions": {
+    "de": "Jemanden mitnehmen oder führen; jemanden irgendwohin bringen",
+    "en": "To lead, take, or bring someone somewhere; to escort or guide a person",
+    "es": "Llevar o acompañar a alguien a algún lugar; guiar a alguien",
+    "fr": "Emmener ou conduire quelqu'un quelque part; accompagner une personne",
+    "hi": "किसी को कहीं ले जाना; किसी की अगुवाई करना या साथ ले जाना",
+    "ja": "誰かをどこかに連れて行く；案内する；引率する",
+    "km": "នាំ ឬដឹកនាំអ្នកណាម្នាក់ទៅកន្លែងណាមួយ; បញ្ជូនភ្ញៀវ",
+    "ko": "누군가를 어딘가로 데려가다; 안내하다; 이끌다",
+    "ne": "कसैलाई कतै लैजानु; नेतृत्व गर्नु; साथमा लैजानु",
+    "pt": "Levar ou conduzir alguém a algum lugar; acompanhar uma pessoa",
+    "th": "พา; นำพาใครไปที่ไหนสักแห่ง; พาคนไป",
+    "tl": "Samahan o dalhin ang isang tao sa isang lugar; gabayan ang isang tao",
+    "ur": "کسی کو کہیں لے جانا؛ رہنمائی کرنا؛ ساتھ لے جانا",
+    "vi": "Dẫn hoặc đưa ai đó đến đâu đó; hướng dẫn ai đó",
+    "zh": "带领某人去某处；引导；陪同某人前往",
+    "zh_Hant": "帶領某人去某處；引導；陪同某人前往"
+  },
+  "definition_en": "To lead, take, or bring someone somewhere; to escort or guide a person",
+  "romanization": "phaa",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຈະພາເຈົ້າໄປກິນເຂົ້າຄືນນີ້",
+      "romanization": "khoi ja phaa jao pai kin khao khueen nii",
+      "translation_en": "I'll take you out to eat tonight."
+    },
+    {
+      "lao_script": "ຊ່ວຍພານ້ອງໄປໂຮງຮຽນດ້ວຍແດ່",
+      "romanization": "suai phaa nong pai hong hian duai dae",
+      "translation_en": "Please take my younger sibling to school for me."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an adult holding the hand of a child and walking together toward a destination, clean white background, colorful minimalist style suitable for a language learning app."
+}

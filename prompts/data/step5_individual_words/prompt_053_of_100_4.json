@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບັດ",
+  "definitions": {
+    "de": "Karte – ein flaches Stück Papier oder Plastik mit Informationen, z. B. Ausweis, Bankkarte, Visitenkarte",
+    "en": "Card – a flat piece of paper or plastic carrying information, such as an ID card, bank card, or business card",
+    "es": "Tarjeta – un trozo plano de papel o plástico con información, como una tarjeta de identidad, bancaria o de visita",
+    "fr": "Carte – un morceau plat de papier ou de plastique portant des informations, comme une carte d'identité, bancaire ou de visite",
+    "hi": "कार्ड – एक सपाट कागज़ या प्लास्टिक का टुकड़ा जिस पर जानकारी होती है, जैसे पहचान पत्र, बैंक कार्ड, या विजिटिंग कार्ड",
+    "ja": "カード – 情報が記載された薄い紙やプラスチック、例えば身分証明書、銀行カード、名刺など",
+    "km": "កាត – ក្រដាស ឬប្លាស្ទិចស្តើងដែលមានព័ត៌មាន ដូចជាអត្តសញ្ញាណប័ណ្ណ កាតធនាគារ ឬនាមប័ណ្ណ",
+    "ko": "카드 – 신분증, 은행 카드, 명함 등 정보가 담긴 납작한 종이나 플라스틱",
+    "ne": "कार्ड – जानकारी बोकेको कागज वा प्लास्टिकको सपाट टुक्रा, जस्तै परिचय पत्र, बैंक कार्ड, वा भिजिटिङ कार्ड",
+    "pt": "Cartão – um pedaço plano de papel ou plástico com informações, como carteira de identidade, cartão bancário ou cartão de visita",
+    "th": "บัตร – กระดาษหรือพลาสติกแบนที่มีข้อมูล เช่น บัตรประชาชน บัตรธนาคาร หรือนามบัตร",
+    "tl": "Kard – isang patag na piraso ng papel o plastik na may impormasyon, tulad ng ID card, bank card, o business card",
+    "ur": "کارڈ – کاغذ یا پلاسٹک کا ایک چپٹا ٹکڑا جس پر معلومات ہوتی ہیں، جیسے شناختی کارڈ، بینک کارڈ، یا وزٹنگ کارڈ",
+    "vi": "Thẻ – một tờ giấy hoặc nhựa mỏng chứa thông tin, chẳng hạn như thẻ căn cước, thẻ ngân hàng, hoặc danh thiếp",
+    "zh": "卡 – 一种携带信息的扁平纸片或塑料，如身份证、银行卡或名片",
+    "zh_Hant": "卡 – 一種攜帶資訊的扁平紙片或塑膠，如身份證、銀行卡或名片"
+  },
+  "definition_en": "Card – a flat piece of paper or plastic carrying information, such as an ID card, bank card, or business card",
+  "romanization": "/bàt/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາບັດປະຊາຊົນມາດ້ວຍເນາະ",
+      "romanization": "ao bat paxaaxon maa duai nao",
+      "translation_en": "Make sure to bring your ID card too, okay?"
+    },
+    {
+      "lao_script": "ບັດທະນາຄານຂອງຂ້ອຍຫາຍໄປແລ້ວ",
+      "romanization": "bat thanaakhaan khong khooi haai pai laeo",
+      "translation_en": "My bank card is gone / I lost my bank card."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cards side by side – one resembling an ID card with a photo placeholder and the other a bank card with a chip, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂໍ້",
+  "definitions": {
+    "de": "Gelenk, Klausel, Punkt oder Abschnitt – bezeichnet einen Knoten, ein Gelenk am Körper, oder wird als Zählwort für Punkte, Artikel und Klauseln in einem Dokument verwendet",
+    "en": "Joint, clause, item, or point – refers to a knuckle or joint of the body, or used as a classifier for items, clauses, and points in a list or document",
+    "es": "Articulación, cláusula, punto o ítem – se refiere a un nudillo o articulación del cuerpo, o se usa como clasificador para puntos, artículos y cláusulas en una lista o documento",
+    "fr": "Articulation, clause, point ou article – désigne un nœud ou une articulation du corps, ou utilisé comme classificateur pour les points, articles et clauses dans une liste ou un document",
+    "hi": "जोड़, खंड, मद या बिंदु – शरीर के जोड़ या गाँठ को संदर्भित करता है, या किसी सूची या दस्तावेज़ में बिंदुओं, धाराओं और मदों के लिए वर्गीकरण के रूप में प्रयुक्त",
+    "ja": "関節、条項、項目、またはポイント – 体の関節や節を指すか、リストや文書の項目・条項のための類別詞として使われる",
+    "km": "ข้อต่อ ចំណុច ឬប្រការ – សំដៅទៅលើข้อต่อឬ​ថ្នាំ​ងារ​ក្នុងរាងកាយ ឬប្រើជាលេខប្រយោគសម្រាប់ចំណុច​ ​ប្រការ​ ​និងបទបញ្ញត្តិ​ក្នុងឯកសារ",
+    "ko": "관절, 조항, 항목 또는 요점 – 신체의 관절이나 마디를 가리키거나, 목록이나 문서의 항목, 조항을 세는 분류사로 사용됨",
+    "ne": "जोर्नी, खण्ड, मद वा बुँदा – शरीरको जोर्नी वा गाँठोलाई जनाउँछ, वा सूची वा कागजातमा बुँदाहरू, धाराहरू र मदहरूको लागि वर्गीकरण शब्दको रूपमा प्रयुक्त",
+    "pt": "Articulação, cláusula, item ou ponto – refere-se a uma articulação do corpo, ou usado como classificador para itens, cláusulas e pontos em uma lista ou documento",
+    "th": "ข้อต่อ ข้อความ หัวข้อ หรือรายการ – หมายถึงข้อต่อหรือข้อนิ้วของร่างกาย หรือใช้เป็นลักษณนามสำหรับหัวข้อ ข้อความ และข้อกำหนดในเอกสาร",
+    "tl": "Kasukasuan, sugnay, aytem, o punto – tumutukoy sa kasukasuan o buhol ng katawan, o ginagamit bilang panluri para sa mga aytem, sugnay, at punto sa isang listahan o dokumento",
+    "ur": "جوڑ، شق، آئٹم یا نکتہ – جسم کے جوڑ یا گرہ کو ظاہر کرتا ہے، یا کسی فہرست یا دستاویز میں نکات، شقوں اور آئٹمز کے لیے شمارک کے طور پر استعمال ہوتا ہے",
+    "vi": "Khớp, điều khoản, mục hoặc điểm – chỉ khớp xương hoặc đốt ngón tay của cơ thể, hoặc dùng như lượng từ cho các mục, điều khoản và điểm trong danh sách hoặc tài liệu",
+    "zh": "关节、条款、项目或要点——指身体的关节或指节，或用作清单或文件中条目、条款和要点的量词",
+    "zh_Hant": "關節、條款、項目或要點——指身體的關節或指節，或用作清單或文件中條目、條款和要點的量詞"
+  },
+  "definition_en": "Joint, clause, item, or point – refers to a knuckle or joint of the body, or used as a classifier for items, clauses, and points in a list or document",
+  "romanization": "/khɔ̂:/",
+  "lao_examples": [
+    {
+      "lao_script": "ສັນຍາມີສາມຂໍ້ທີ່ສຳຄັນ",
+      "romanization": "san-nyaa mii saam khɔ̂: thii sam-khan",
+      "translation_en": "The contract has three important clauses."
+    },
+    {
+      "lao_script": "ຂໍ້ນິ້ວມືຂອງລາວເຈັບຫຼາຍ",
+      "romanization": "khɔ̂: niu mue khong lao jep laai",
+      "translation_en": "His/Her finger joints hurt a lot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two images side by side: a human hand with a highlighted finger joint glowing in blue, and a numbered list with three bullet points on a piece of paper, clean white background, colorful, minimalist style suitable for a language learning app."
+}

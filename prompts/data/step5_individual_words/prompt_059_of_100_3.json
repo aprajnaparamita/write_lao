@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມາດ",
+  "definitions": {
+    "de": "Standard; Maßstab; Norm — oft als Präfix in zusammengesetzten Wörtern verwendet, um auf eine offizielle oder festgelegte Norm hinzuweisen",
+    "en": "Standard; norm; measure — often used as a prefix in compound words to indicate an official or established standard",
+    "es": "Estándar; norma; medida — frecuentemente usado como prefijo en palabras compuestas para indicar una norma oficial o establecida",
+    "fr": "Standard; norme; mesure — souvent utilisé comme préfixe dans les mots composés pour indiquer une norme officielle ou établie",
+    "hi": "मानक; नियम; माप — अक्सर यौगिक शब्दों में उपसर्ग के रूप में उपयोग किया जाता है, जो एक आधिकारिक या स्थापित मानक को दर्शाता है",
+    "ja": "標準；基準；尺度 — 複合語の接頭辞として使われ、公式または定められた基準を示すことが多い",
+    "km": "ស្តង់ដារ; បទដ្ឋាន; មាត្រដ្ឋាន — ជាញឹកញាប់ប្រើជាបុព្វបទក្នុងពាក្យផ្សំ ដើម្បីបង្ហាញពីស្តង់ដាររបស់ការិយាល័យ ឬដែលបានកំណត់",
+    "ko": "기준; 표준; 척도 — 복합어에서 접두사로 자주 사용되며, 공식적이거나 확립된 기준을 나타냄",
+    "ne": "मानक; नियम; मापदण्ड — प्रायः यौगिक शब्दहरूमा उपसर्गको रूपमा प्रयोग हुन्छ, जसले आधिकारिक वा स्थापित मानक जनाउँछ",
+    "pt": "Padrão; norma; medida — frequentemente usado como prefixo em palavras compostas para indicar uma norma oficial ou estabelecida",
+    "th": "มาตรฐาน; บรรทัดฐาน; หน่วยวัด — มักใช้เป็นคำอุปสรรคในคำประสมเพื่อบ่งชี้มาตรฐานที่เป็นทางการหรือที่กำหนดไว้",
+    "tl": "Pamantayan; sukatan; norma — madalas gamitin bilang unlapi sa mga tambalan na salita upang ipahiwatig ang isang opisyal o naitatag na pamantayan",
+    "ur": "معیار؛ پیمانہ؛ اصول — اکثر مرکب الفاظ میں سابقے کے طور پر استعمال ہوتا ہے تاکہ کسی سرکاری یا مقررہ معیار کی نشاندہی کی جا سکے",
+    "vi": "Tiêu chuẩn; chuẩn mực; đơn vị đo — thường được dùng như tiền tố trong các từ ghép để chỉ một tiêu chuẩn chính thức hoặc đã được thiết lập",
+    "zh": "标准；规范；尺度 — 常作为复合词的前缀，表示官方或既定的标准",
+    "zh_Hant": "標準；規範；尺度 — 常作為複合詞的前綴，表示官方或既定的標準"
+  },
+  "definition_en": "Standard; norm; measure — often used as a prefix in compound words to indicate an official or established standard",
+  "romanization": "maːt³",
+  "lao_examples": [
+    {
+      "lao_script": "ສິ່ງນີ້ບໍ່ຖືກມາດຕະຖານ",
+      "romanization": "siŋ niː bɔː tʰɯːk maːt ta tʰaːn",
+      "translation_en": "This thing doesn't meet the standard."
+    },
+    {
+      "lao_script": "ລາວເຮັດວຽກໄດ້ຕາມມາດ",
+      "romanization": "laːw het wiak daːj taːm maːt",
+      "translation_en": "He/She works up to the standard."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a ruler or measuring tape next to a checklist with checkmarks, symbolizing standards and measurement, suitable for a language learning app, clean white background, minimalist colorful design."
+}

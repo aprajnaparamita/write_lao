@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບົດ",
+  "definitions": {
+    "de": "Lektion, Unterrichtsstunde; auch Artikel oder Abschnitt in einem Text",
+    "en": "Lesson, chapter, or article; a unit of study or a written piece",
+    "es": "Lección, capítulo o artículo; unidad de estudio o texto escrito",
+    "fr": "Leçon, chapitre ou article ; unité d'étude ou texte écrit",
+    "hi": "पाठ, अध्याय या लेख; अध्ययन की इकाई या लिखित रचना",
+    "ja": "課、章、または記事；学習の単位または文章",
+    "km": "មេរៀន, ជំពូក ឬអត្ថបទ; ឯកតានៃការសិក្សា",
+    "ko": "과, 수업 단원 또는 기사; 학습 단위 또는 글",
+    "ne": "पाठ, अध्याय वा लेख; अध्ययनको एकाइ वा लिखित रचना",
+    "pt": "Lição, capítulo ou artigo; unidade de estudo ou texto escrito",
+    "th": "บท, บทเรียน หรือบทความ; หน่วยการเรียนหรืองานเขียน",
+    "tl": "Aralin, kabanata, o artikulo; yunit ng pag-aaral o sulatin",
+    "ur": "سبق، باب یا مضمون؛ مطالعے کی اکائی یا تحریری کام",
+    "vi": "Bài học, chương hoặc bài viết; đơn vị học tập hoặc tác phẩm viết",
+    "zh": "课、章节或文章；学习单元或书面作品",
+    "zh_Hant": "課、章節或文章；學習單元或書面作品"
+  },
+  "definition_en": "Lesson, chapter, or article; a unit of study or a written piece",
+  "romanization": "bòt",
+  "lao_examples": [
+    {
+      "lao_script": "ວັນນີ້ຄູສອນບົດທີສາມ",
+      "romanization": "wán níi khúu sɔ̌ɔn bòt thîi sǎam",
+      "translation_en": "Today the teacher is teaching lesson three."
+    },
+    {
+      "lao_script": "ເຈົ້າອ່ານບົດນີ້ແລ້ວບໍ, ມັນໜ້າສົນໃຈຫຼາຍ",
+      "romanization": "jâo àan bòt níi lɛ́ɛo bɔ̀, mán nâa sǒnjai lǎaj",
+      "translation_en": "Have you read this article yet? It's very interesting."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open textbook showing a numbered lesson page with a few lines of text and a small illustration inside it, suitable for a language learning app, clean white background, colorful, minimalist cartoon style."
+}

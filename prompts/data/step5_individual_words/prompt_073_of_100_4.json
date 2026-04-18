@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເກດ",
+  "definitions": {
+    "de": "Ein gebräuchlicher laotischer Vorname; als eigenständiges Wort hat es begrenzte Verwendung außerhalb von Personennamen",
+    "en": "A common Lao given name; as a standalone word it has limited use outside of personal names, though it can relate to a type of lotus or water plant",
+    "es": "Un nombre propio lao común; como palabra independiente tiene uso limitado fuera de los nombres personales, aunque puede referirse a un tipo de loto o planta acuática",
+    "fr": "Un prénom lao courant; en tant que mot autonome, il a une utilisation limitée en dehors des prénoms, bien qu'il puisse désigner un type de lotus ou de plante aquatique",
+    "hi": "एक सामान्य लाओ नाम; स्वतंत्र शब्द के रूप में इसका उपयोग व्यक्तिगत नामों के बाहर सीमित है, हालांकि यह एक प्रकार के कमल या जलीय पौधे से भी संबंधित हो सकता है",
+    "ja": "一般的なラオスの人名；単独の単語としては人名以外での使用は限られているが、蓮の一種や水草を指すこともある",
+    "km": "ឈ្មោះដែលប្រើជាទូទៅក្នុងភាសាឡាវ; ជាពាក្យឯករាជ្យ វាមានការប្រើប្រាស់កំណត់ក្រៅពីឈ្មោះបុគ្គល ទោះបីជាអាចទាក់ទងនឹងប្រភេទផ្កាឈូករ ឬរុក្ខជាតិទឹកក៏ដោយ",
+    "ko": "라오스에서 흔히 쓰이는 이름; 단독 단어로는 인명 외 사용이 제한적이나, 특정 연꽃이나 수생식물을 가리키기도 함",
+    "ne": "एउटा सामान्य लाओ नाम; स्वतन्त्र शब्दको रूपमा व्यक्तिगत नामबाहिर यसको प्रयोग सीमित छ, यद्यपि यो एक प्रकारको कमल वा जलीय बिरुवासँग पनि सम्बन्धित हुन सक्छ",
+    "pt": "Um nome próprio lao comum; como palavra independente tem uso limitado fora de nomes pessoais, embora possa se referir a um tipo de lótus ou planta aquática",
+    "th": "ชื่อที่ใช้กันทั่วไปในภาษาลาว; ในฐานะคำเดี่ยวมีการใช้งานจำกัดนอกเหนือจากชื่อบุคคล แต่อาจหมายถึงพืชน้ำหรือบัวชนิดหนึ่ง",
+    "tl": "Isang karaniwang pangalan ng tao sa Lao; bilang isang salitang nagsasarili, limitado ang paggamit nito sa labas ng mga personal na pangalan, bagaman maaari itong tumukoy sa isang uri ng lotus o halamang-tubig",
+    "ur": "ایک عام لاؤ نام؛ بطور آزاد لفظ ذاتی ناموں سے باہر اس کا استعمال محدود ہے، اگرچہ یہ ایک قسم کے کنول یا آبی پودے سے بھی متعلق ہو سکتا ہے",
+    "vi": "Một tên riêng phổ biến trong tiếng Lào; là từ đơn lẻ, nó có ít cách dùng ngoài tên người, dù đôi khi có thể chỉ một loại sen hay cây thủy sinh",
+    "zh": "常见的老挝人名；作为独立词汇，在人名之外的使用十分有限，但也可能与某种莲花或水生植物有关",
+    "zh_Hant": "常見的老撾人名；作為獨立詞彙，在人名之外的使用十分有限，但也可能與某種蓮花或水生植物有關"
+  },
+  "definition_en": "A common Lao given name; as a standalone word it has limited use outside of personal names, though it can relate to a type of lotus or water plant",
+  "romanization": "kéet",
+  "lao_examples": [
+    {
+      "lao_script": "ເກດເປັນຊື່ທີ່ຄົນລາວໃຊ້ຫຼາຍ",
+      "romanization": "kéet pen sùu thîi khon láo sâi lǎai",
+      "translation_en": "Keet is a name that many Lao people use."
+    },
+    {
+      "lao_script": "ເຮົາເອີ້ນລາວວ່າ ເກດ",
+      "romanization": "hao ʔəən láo wâa kéet",
+      "translation_en": "We call him/her Keet."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or name card with the word 'Keet' written on it, decorated with a small lotus flower motif, clean white background, colorful minimalist style suitable for a language learning app."
+}

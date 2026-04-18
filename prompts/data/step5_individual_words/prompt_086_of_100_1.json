@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສ່ອງ",
+  "definitions": {
+    "de": "leuchten, scheinen, beleuchten",
+    "en": "to shine, to illuminate, to light up",
+    "es": "brillar, iluminar, alumbrar",
+    "fr": "briller, illuminer, éclairer",
+    "hi": "चमकना, रोशन करना, प्रकाश डालना",
+    "ja": "輝く、照らす、光を当てる",
+    "km": "បញ្ចេញពន្លឺ, បំភ្លឺ, ថ្លា",
+    "ko": "빛나다, 비추다, 밝히다",
+    "ne": "चम्कनु, उज्यालो पार्नु, प्रकाश गर्नु",
+    "pt": "brilhar, iluminar, clarear",
+    "th": "ส่องแสง, ทำให้สว่าง, ฉาย",
+    "tl": "magliwanag, sumilip, magningning",
+    "ur": "چمکنا، روشن کرنا، منور کرنا",
+    "vi": "chiếu sáng, soi sáng, tỏa sáng",
+    "zh": "照耀，照亮，发光",
+    "zh_Hant": "照耀，照亮，發光"
+  },
+  "definition_en": "to shine, to illuminate, to light up",
+  "romanization": "/sɔ̀ŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ແດດສ່ອງແຮງຫຼາຍມື້ນີ້",
+      "romanization": "daet song haeng lai mue nii",
+      "translation_en": "The sun is shining really bright today."
+    },
+    {
+      "lao_script": "ເອົາໄຟສ່ອງໃສ່ທາງນັ້ນແດ່",
+      "romanization": "ao fai song sai thaang nan dae",
+      "translation_en": "Shine the light over that way, will you."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a flashlight or torch shining a bright beam of light in the dark, suitable for a language learning app, clean white background, colorful yellow and orange light rays, minimalist style."
+}

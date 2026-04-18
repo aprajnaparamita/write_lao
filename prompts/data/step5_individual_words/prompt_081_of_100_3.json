@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອັດ",
+  "definitions": {
+    "de": "Stopfen, sperren oder pressen; auch in zusammengesetzten Wörtern verwendet, um Konzepte wie Preise, Raten oder Kompression auszudrücken",
+    "en": "To stuff, block, press, or compress; also used in compounds to express concepts like rates, prices, or recording",
+    "es": "Rellenar, bloquear, presionar o comprimir; también usado en compuestos para expresar conceptos como tarifas, precios o grabación",
+    "fr": "Bourrer, bloquer, presser ou comprimer; également utilisé dans des composés pour exprimer des concepts comme les tarifs, les prix ou l'enregistrement",
+    "hi": "ठूंसना, रोकना, दबाना या संकुचित करना; दरें, कीमतें या रिकॉर्डिंग जैसी अवधारणाओं को व्यक्त करने के लिए यौगिक शब्दों में भी प्रयुक्त",
+    "ja": "詰める、塞ぐ、押し込む、または圧縮する; 料金、価格、録音などの概念を表す複合語にも使われる",
+    "km": "ដាក់ពេញ រាំង សង្កត់ ឬបង្ហាប់ ក៏ប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីគំនិតដូចជាអត្រា តម្លៃ ឬការថតសំឡេង",
+    "ko": "채우다, 막다, 누르다 또는 압축하다; 요금, 가격 또는 녹음 등의 개념을 나타내는 복합어에도 사용됨",
+    "ne": "ठूस्नु, रोक्नु, थिच्नु वा सम्पीडन गर्नु; दर, मूल्य वा रेकर्डिङजस्ता अवधारणाहरू व्यक्त गर्न यौगिक शब्दहरूमा पनि प्रयोग हुन्छ",
+    "pt": "Rechear, bloquear, pressionar ou comprimir; também usado em compostos para expressar conceitos como taxas, preços ou gravação",
+    "th": "อัด อุด กด หรือบีบอัด ใช้ในคำประสมเพื่อแสดงแนวคิดเช่น อัตรา ราคา หรือการบันทึก",
+    "tl": "Mag-ipit, magharang, pumindot, o mag-compress; ginagamit din sa mga tambalang salita para ipahayag ang mga konsepto tulad ng mga rate, presyo, o pagre-record",
+    "ur": "بھرنا، روکنا، دبانا یا دبانا؛ شرحوں، قیمتوں یا ریکارڈنگ جیسے تصورات کو ظاہر کرنے کے لیے مرکب الفاظ میں بھی استعمال ہوتا ہے",
+    "vi": "Nhét, chặn, ép hoặc nén; cũng dùng trong các từ ghép để diễn đạt các khái niệm như giá cả, tỷ lệ hoặc ghi âm",
+    "zh": "塞满、堵塞、按压或压缩；也用于复合词中表示费率、价格或录制等概念",
+    "zh_Hant": "塞滿、堵塞、按壓或壓縮；也用於複合詞中表示費率、價格或錄製等概念"
+  },
+  "definition_en": "To stuff, block, press, or compress; also used in compounds to express concepts like rates, prices, or recording",
+  "romanization": "ʔat˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າອັດເສື້ອຜ້າໃສ່ກະເປົ໋າຫຼາຍເກີນ",
+      "romanization": "jaː ʔat sɯːa pʰaː saj kapaǒ laːj kɤːn",
+      "translation_en": "Don't stuff too many clothes into the bag"
+    },
+    {
+      "lao_script": "ລາຄາອັດຮູບຢູ່ນີ້ຖືກບໍ?",
+      "romanization": "laː kʰaː ʔat huːp juː niː tʰɯk boː?",
+      "translation_en": "Is the photo printing price here cheap?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a hand pressing or stuffing items into a bag or container, with a clear compression or blocking gesture, suitable for a language learning app, clean white background, colorful minimalist style"
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກົງ",
+  "definitions": {
+    "de": "Gerade/direkt – beschreibt etwas, das keine Kurven oder Umwege hat; auch im übertragenen Sinne für Ehrlichkeit oder Direktheit",
+    "en": "Straight/direct – describes something without curves or bends; also used figuratively to mean honest or straightforward",
+    "es": "Recto/directo – describe algo sin curvas ni desvíos; también se usa figuradamente para indicar honestidad o franqueza",
+    "fr": "Droit/direct – décrit quelque chose sans courbes ni détours ; aussi utilisé au sens figuré pour désigner l'honnêteté ou la franchise",
+    "hi": "सीधा/सीधा – कुछ ऐसा जिसमें कोई मोड़ या झुकाव न हो; लाक्षणिक अर्थ में ईमानदार या सरल",
+    "ja": "まっすぐ・直接的 – 曲がりがないことを表す。転じて、正直・率直な意味でも使われる",
+    "km": "ត្រង់/ផ្ទាល់ – ពិពណ៌នាអំពីអ្វីដែលគ្មានការខ្នះ ឬការបត់; ក៏ប្រើក្នុងន័យត្រង់ ឬស្មោះត្រង់ផងដែរ",
+    "ko": "곧은/직접적인 – 구부러짐이나 굽음이 없는 것을 묘사; 비유적으로 솔직하거나 직접적인 의미로도 사용됨",
+    "ne": "सोझो/प्रत्यक्ष – कुनै घुमाइ वा झुकाइ नभएको कुरा; लाक्षणिक रूपमा इमानदार वा स्पष्टवादी अर्थमा पनि प्रयोग हुन्छ",
+    "pt": "Reto/direto – descreve algo sem curvas ou desvios; também usado figurativamente para indicar honestidade ou franqueza",
+    "th": "ตรง – อธิบายสิ่งที่ไม่มีการโค้งงอหรือเบี่ยงเบน ใช้ในเชิงเปรียบเปรยหมายถึงความซื่อตรงหรือตรงไปตรงมาด้วย",
+    "tl": "Tuwid/direkta – naglalarawan ng isang bagay na walang kurbada o liko; ginagamit din nang matalinghaga para sa katapatan o pagiging direkta",
+    "ur": "سیدھا/براہ راست – کسی ایسی چیز کو بیان کرتا ہے جس میں کوئی موڑ یا جھکاؤ نہ ہو؛ مجازی طور پر ایمانداری یا سیدھے پن کے معنی میں بھی استعمال ہوتا ہے",
+    "vi": "Thẳng/trực tiếp – mô tả thứ gì đó không có đường cong hay khúc quanh; cũng dùng theo nghĩa bóng để chỉ sự thẳng thắn hoặc trung thực",
+    "zh": "直/笔直 – 形容没有弯曲或拐弯的事物；也可比喻为诚实或直接",
+    "zh_Hant": "直/筆直 – 形容沒有彎曲或轉折的事物；也可比喻為誠實或直接"
+  },
+  "definition_en": "Straight/direct – describes something without curves or bends; also used figuratively to mean honest or straightforward",
+  "romanization": "/koŋ˧˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ທາງນີ້ກົງຫຼາຍ ຂັບງ່າຍດີ",
+      "romanization": "thang ní kong lái khap ngai di",
+      "translation_en": "This road is very straight, easy to drive."
+    },
+    {
+      "lao_script": "ເວົ້າກົງໆເລີຍ ຢ່າອ້ອມຄ້ອມ",
+      "romanization": "vao kong-kong loei ya om-khom",
+      "translation_en": "Just speak directly, don't beat around the bush."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two arrows side by side — one perfectly straight and one curved/winding — with the straight one highlighted, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

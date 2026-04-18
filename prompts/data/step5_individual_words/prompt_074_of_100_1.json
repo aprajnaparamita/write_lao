@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເລີດ",
+  "definitions": {
+    "de": "Ausgezeichnet, hervorragend; ein Ausruf des Lobes oder der Bewunderung",
+    "en": "Excellent, outstanding, superb; used as a compliment or exclamation of praise",
+    "es": "Excelente, sobresaliente, magnífico; se usa como cumplido o exclamación de elogio",
+    "fr": "Excellent, remarquable, superbe; utilisé comme compliment ou exclamation d'éloge",
+    "hi": "उत्कृष्ट, शानदार, बेहतरीन; प्रशंसा या तारीफ के रूप में उपयोग किया जाता है",
+    "ja": "素晴らしい、優秀な、最高の；褒め言葉や称賛の感嘆詞として使われる",
+    "km": "ល្អឥតខ្ចោះ, លេចធ្លោ, ល្អប្រសើរ; ប្រើជាការសរសើរ ឬការបញ្ចេញអារម្មណ៍នៃការសរសើរ",
+    "ko": "훌륭한, 뛰어난, 최고의; 칭찬이나 감탄의 표현으로 사용됨",
+    "ne": "उत्कृष्ट, अद्भुत, शानदार; प्रशंसा वा तारिफको रूपमा प्रयोग गरिन्छ",
+    "pt": "Excelente, excepcional, soberbo; usado como elogio ou exclamação de louvor",
+    "th": "เยี่ยมยอด, ดีเลิศ, วิเศษ; ใช้เป็นคำชมหรือคำอุทานแสดงการยกย่อง",
+    "tl": "Napakahusay, natatangi, mahusay; ginagamit bilang papuri o pagpupuri",
+    "ur": "بہترین، شاندار، عمدہ؛ تعریف یا داد کے طور پر استعمال ہوتا ہے",
+    "vi": "Xuất sắc, tuyệt vời, vượt trội; dùng như lời khen ngợi hoặc thán từ biểu đạt sự tán thưởng",
+    "zh": "优秀的，出色的，极好的；用作赞美或称赞的感叹词",
+    "zh_Hant": "優秀的，出色的，極好的；用作讚美或稱讚的感嘆詞"
+  },
+  "definition_en": "Excellent, outstanding, superb; used as a compliment or exclamation of praise",
+  "romanization": "lɤːt",
+  "lao_examples": [
+    {
+      "lao_script": "ອາຫານຮ້ານນີ້ເລີດຫຼາຍເດີ!",
+      "romanization": "aa-haan haan nii lɤːt laai dəː!",
+      "translation_en": "The food at this restaurant is really excellent!"
+    },
+    {
+      "lao_script": "ເຈົ້າເຮັດວຽກໄດ້ເລີດຫຼາຍ, ສຸດຍອດເລີຍ!",
+      "romanization": "jao het wiak dai lɤːt laai, sut yɔːt ləːi!",
+      "translation_en": "You did your work excellently, absolutely top-notch!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a gold trophy or a shining gold star with a big thumbs-up, representing excellence and praise, clean white background, bright yellow and gold colors, minimalist cartoon style suitable for a language learning app."
+}

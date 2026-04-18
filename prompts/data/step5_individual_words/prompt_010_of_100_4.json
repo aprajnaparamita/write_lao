@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈັດ",
+  "definitions": {
+    "de": "Arrangieren; organisieren; ordnen – etwas in eine bestimmte Ordnung bringen oder eine Veranstaltung planen",
+    "en": "To arrange; to organize; to set up – to put things in order or to plan and prepare an event",
+    "es": "Arreglar; organizar; ordenar – poner las cosas en orden o planificar y preparar un evento",
+    "fr": "Arranger ; organiser ; préparer – mettre de l'ordre dans quelque chose ou planifier et préparer un événement",
+    "hi": "व्यवस्थित करना; सजाना; आयोजन करना – चीज़ों को क्रम में रखना या किसी कार्यक्रम की योजना बनाना",
+    "ja": "整える；手配する；準備する – 物を整理したり、イベントを計画・準備したりする",
+    "km": "រៀបចំ; តុបតែង; រៀបក្បួន – ដាក់របស់ឱ្យមានរបៀបរៀបរយ ឬរៀបចំព្រឹត្តិការណ៍",
+    "ko": "정리하다; 준비하다; 주관하다 – 물건을 정돈하거나 행사를 계획하고 준비하다",
+    "ne": "व्यवस्था गर्नु; मिलाउनु; आयोजन गर्नु – चीजहरू व्यवस्थित गर्नु वा कार्यक्रम योजना गर्नु",
+    "pt": "Organizar; arranjar; preparar – colocar as coisas em ordem ou planejar e preparar um evento",
+    "th": "จัด; จัดเตรียม; จัดงาน – การวางสิ่งของให้เป็นระเบียบหรือการวางแผนและเตรียมงาน",
+    "tl": "Mag-ayos; mag-organisa; maghanda – ang paglalagay ng mga bagay sa ayos o pagpaplano at paghahanda ng isang kaganapan",
+    "ur": "ترتیب دینا؛ منظم کرنا؛ انتظام کرنا – چیزوں کو ترتیب میں رکھنا یا کسی تقریب کی منصوبہ بندی کرنا",
+    "vi": "Sắp xếp; tổ chức; chuẩn bị – đặt mọi thứ vào trật tự hoặc lên kế hoạch và chuẩn bị sự kiện",
+    "zh": "安排；整理；组织 – 将事物整理有序或策划、准备某项活动",
+    "zh_Hant": "安排；整理；組織 – 將事物整理有序或策劃、準備某項活動"
+  },
+  "definition_en": "To arrange; to organize; to set up – to put things in order or to plan and prepare an event",
+  "romanization": "/tɕat/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຈັດໂຕ໊ະໃຫ້ແດ່ເນາະ",
+      "romanization": "suai jat to hai dae nor",
+      "translation_en": "Can you help set up the table, please?"
+    },
+    {
+      "lao_script": "ເຂົາຈັດງານລ້ຽງຢູ່ເຮືອນ",
+      "romanization": "khao jat ngan liang yu hueang",
+      "translation_en": "He's organizing a party at home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person neatly arranging items on a table, with boxes and objects being organized in tidy rows, clean white background, colorful, minimalist style suitable for a language learning app."
+}

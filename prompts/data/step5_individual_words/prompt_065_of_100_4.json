@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊອກ",
+  "definitions": {
+    "de": "Suchen; nach etwas suchen; etwas oder jemanden ausfindig machen wollen; ein gebräuchliches gesprochenes Verb im Lao",
+    "en": "To look for; to search for; to seek something or someone; a common spoken verb in Lao used in everyday situations",
+    "es": "Buscar; buscar algo o a alguien; un verbo hablado común en lao usado en situaciones cotidianas",
+    "fr": "Chercher; rechercher quelque chose ou quelqu'un; un verbe courant dans le lao parlé utilisé dans les situations quotidiennes",
+    "hi": "ढूंढना; खोजना; किसी चीज़ या व्यक्ति को तलाशना; रोज़मर्रा की स्थितियों में प्रयुक्त लाओ बोली का एक सामान्य क्रिया",
+    "ja": "探す；捜す；何かまたは誰かを見つけようとする；日常場面でよく使われるラーオ語の口語動詞",
+    "km": "ស្វែងរក; ស្វែងរកអ្វីមួយ ឬនរណាម្នាក់; ជាកិរិយាស័ព្ទនិយាយទូទៅក្នុងភាសាឡាវ ប្រើក្នុងស្ថានការណ៍ប្រចាំថ្ងៃ",
+    "ko": "찾다; 무언가 또는 누군가를 찾다; 일상적인 상황에서 사용되는 라오어의 일반적인 구어 동사",
+    "ne": "खोज्नु; कसैलाई वा केही कुरालाई खोज्नु; दैनिक जीवनका अवस्थाहरूमा प्रयोग हुने लाओ बोलीको एक सामान्य क्रिया",
+    "pt": "Procurar; buscar algo ou alguém; um verbo falado comum em lao usado em situações cotidianas",
+    "th": "ค้นหา; มองหา; แสวงหาบางสิ่งหรือบางคน; เป็นกริยาที่ใช้บ่อยในภาษาลาวพูดในชีวิตประจำวัน",
+    "tl": "Maghanap; maghanap ng isang bagay o tao; isang karaniwang pandiwa sa sinabing Lao na ginagamit sa pang-araw-araw na sitwasyon",
+    "ur": "ڈھونڈنا؛ تلاش کرنا؛ کسی چیز یا شخص کو تلاش کرنا؛ روزمرہ کے حالات میں استعمال ہونے والا لاؤ بولی کا ایک عام فعل",
+    "vi": "Tìm kiếm; tìm một thứ gì đó hoặc ai đó; một động từ nói phổ biến trong tiếng Lào được dùng trong các tình huống hàng ngày",
+    "zh": "寻找；搜寻；找某物或某人；日常情况下常用的老挝口语动词",
+    "zh_Hant": "尋找；搜尋；找某物或某人；日常情況下常用的寮語口語動詞"
+  },
+  "definition_en": "To look for; to search for; to seek something or someone; a common spoken verb in Lao used in everyday situations",
+  "romanization": "sók",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຊອກກະແຈຢູ່ ຫາຍໄປໃສ",
+      "romanization": "khoi sók ka-jae yuu, haai pai sai",
+      "translation_en": "I'm looking for my key, where did it go?"
+    },
+    {
+      "lao_script": "ເຈົ້າຊອກຫຍັງຢູ່ໃນຕະຫຼາດ",
+      "romanization": "jao sók nyang yuu nai talaat",
+      "translation_en": "What are you looking for at the market?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon person bending down and looking under a couch or searching through a bag with a magnifying glass, a puzzled expression on their face, clean white background, colorful and minimalist style suitable for a language learning app."
+}

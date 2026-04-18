@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດາວ",
+  "definitions": {
+    "de": "Stern – ein leuchtendes Himmelsobjekt, das nachts am Himmel sichtbar ist",
+    "en": "Star – a luminous celestial body visible in the night sky",
+    "es": "Estrella – cuerpo celeste luminoso visible en el cielo nocturno",
+    "fr": "Étoile – corps céleste lumineux visible dans le ciel nocturne",
+    "hi": "तारा – रात के आकाश में दिखाई देने वाला चमकता हुआ खगोलीय पिंड",
+    "ja": "星（ほし）– 夜空に輝く天体",
+    "km": "ផ្កាយ – វត្ថុអាកាសដែលភ្លឺនៅលើមេឃពេលយប់",
+    "ko": "별 – 밤하늘에 빛나는 천체",
+    "ne": "तारा – रातको आकाशमा देखिने चम्किलो खगोलीय पिण्ड",
+    "pt": "Estrela – corpo celeste luminoso visível no céu noturno",
+    "th": "ดาว – วัตถุท้องฟ้าที่เปล่งแสงได้ มองเห็นได้บนท้องฟ้าในเวลากลางคืน",
+    "tl": "Bituin – isang maliwanag na katawan sa kalangitan na makikita sa gabi",
+    "ur": "ستارہ – رات کے آسمان میں نظر آنے والا چمکتا ہوا آسمانی جسم",
+    "vi": "Ngôi sao – thiên thể phát sáng có thể nhìn thấy trên bầu trời đêm",
+    "zh": "星星 – 夜晚天空中可见的发光天体",
+    "zh_Hant": "星星 – 夜晚天空中可見的發光天體"
+  },
+  "definition_en": "Star – a luminous celestial body visible in the night sky",
+  "romanization": "daːw",
+  "lao_examples": [
+    {
+      "lao_script": "ຄືນນີ້ດາວສວຍຫຼາຍເດີ",
+      "romanization": "khʉːn niː daːw suːaj laːj deː",
+      "translation_en": "The stars are really beautiful tonight."
+    },
+    {
+      "lao_script": "ເຈົ້າເຫັນດາວນັ້ນບໍ່ ອັນໃຫຍ່ໆ",
+      "romanization": "tɕâo hěn daːw nan bɔː an ɲaːj ɲaːj",
+      "translation_en": "Do you see that star? The big one."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright, shining yellow star in a dark night sky with a few smaller stars around it, suitable for a language learning app, clean dark blue background, colorful, minimalist cartoon style."
+}

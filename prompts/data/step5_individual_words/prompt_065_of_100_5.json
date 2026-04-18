@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕ້ານ",
+  "definitions": {
+    "de": "Widerstehen; sich widersetzen; ablehnen; gegen etwas oder jemanden ankämpfen; sowohl im physischen als auch im übertragenen Sinne verwendet",
+    "en": "To oppose; to resist; to stand against; to fight against something or someone; used in both physical and figurative contexts",
+    "es": "Oponerse; resistir; estar en contra de algo o alguien; usado tanto en contextos físicos como figurados",
+    "fr": "S'opposer; résister; lutter contre quelque chose ou quelqu'un; utilisé dans des contextes à la fois physiques et figurés",
+    "hi": "विरोध करना; प्रतिरोध करना; किसी चीज़ या व्यक्ति के खिलाफ़ खड़े होना; शारीरिक और लाक्षणिक दोनों संदर्भों में प्रयुक्त",
+    "ja": "反対する；抵抗する；何かまたは誰かに立ち向かう；物理的・比喩的両方の文脈で使われる",
+    "km": "ប្រឆាំង; តស៊ូ; ឈរប្រឆាំងអ្វីមួយ ឬនរណាម្នាក់; ប្រើក្នុងបរិបទទាំងរូបីយ និងប្រៀបប្រដូច",
+    "ko": "반대하다; 저항하다; 맞서다; 무언가나 누군가에 맞서 싸우다; 물리적·비유적 맥락 모두에서 사용됨",
+    "ne": "विरोध गर्नु; प्रतिरोध गर्नु; केहि वा कसैको विरुद्ध उभिनु; शारीरिक र लाक्षणिक दुवै सन्दर्भमा प्रयोग गरिन्छ",
+    "pt": "Opor-se; resistir; combater algo ou alguém; usado tanto em contextos físicos quanto figurados",
+    "th": "ต้าน; ต่อต้าน; ขัดขวาง; ต่อสู้กับบางสิ่งหรือบางคน; ใช้ทั้งในบริบทที่เป็นรูปธรรมและนามธรรม",
+    "tl": "Labanan; tutulan; lumaban laban sa isang bagay o tao; ginagamit sa parehong pisikal at matalinhagang konteksto",
+    "ur": "مخالفت کرنا؛ مزاحمت کرنا؛ کسی چیز یا شخص کے خلاف کھڑے ہونا؛ جسمانی اور مجازی دونوں سیاق و سباق میں استعمال ہوتا ہے",
+    "vi": "Phản đối; chống lại; kháng cự; đứng lên chống lại điều gì đó hoặc ai đó; dùng trong cả ngữ cảnh vật lý lẫn nghĩa bóng",
+    "zh": "反对；抵抗；对抗某事或某人；可用于物理和比喻两种语境",
+    "zh_Hant": "反對；抵抗；對抗某事或某人；可用於物理和比喻兩種語境"
+  },
+  "definition_en": "To oppose; to resist; to stand against; to fight against something or someone; used in both physical and figurative contexts",
+  "romanization": "tâan",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍບໍ່ຕ້ານຫຍັງທີ່ເຈົ້າເວົ້າ",
+      "romanization": "khoi bo tâan nyang thi jao wao",
+      "translation_en": "I don't oppose anything you're saying."
+    },
+    {
+      "lao_script": "ລາວຕ້ານຄວາມບໍ່ຍຸຕິທຳ",
+      "romanization": "lao tâan khwaam bo yu-ti-tham",
+      "translation_en": "He/She opposes injustice."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon character holding up both hands in a blocking or stopping gesture, standing firmly against a large arrow pushing toward them, clean white background, colorful and minimalist style suitable for a language learning app."
+}

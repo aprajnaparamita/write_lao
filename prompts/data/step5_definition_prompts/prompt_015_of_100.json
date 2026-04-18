@@ -1,0 +1,417 @@
+{
+  "ອອກ": {
+    "definitions": {
+      "de": "Hinausgehen, verlassen; Richtungspartikel, der eine nach außen gerichtete Bewegung anzeigt",
+      "en": "To go out, exit, or move outward; also used as a directional verb complement indicating outward motion",
+      "es": "Salir, irse hacia afuera; también usado como complemento direccional que indica movimiento hacia el exterior",
+      "fr": "Sortir, partir vers l'extérieur; utilisé aussi comme complément directionnel indiquant un mouvement vers l'extérieur",
+      "hi": "बाहर जाना, निकलना; दिशात्मक क्रिया के रूप में भी प्रयुक्त जो बाहर की ओर गति दर्शाता है",
+      "ja": "外に出る、退出する；外向きの動きを示す方向動詞補語としても使われる",
+      "km": "ចេញ, ចេញទៅខាងក្រៅ; ប្រើជាកិរិយាស័ព្ទទិសដៅដែលបង្ហាញពីចលនាចេញទៅខាងក្រៅ",
+      "ko": "나가다, 밖으로 나오다; 바깥쪽 방향의 움직임을 나타내는 방향 동사 보어로도 사용됨",
+      "ne": "बाहिर जानु, निस्कनु; बाहिरतिर गतिको संकेत गर्ने दिशात्मक क्रियाको रूपमा पनि प्रयोग हुन्छ",
+      "pt": "Sair, ir para fora; também usado como complemento verbal direcional indicando movimento para fora",
+      "th": "ออกไปข้างนอก, ออกจาก; ใช้เป็นกริยาบอกทิศทางที่แสดงการเคลื่อนที่ออกไปข้างนอก",
+      "tl": "Lumabas, lumayo; ginagamit din bilang pandagdag na pandiwa ng direksyon na nagpapahiwatig ng galaw palabas",
+      "ur": "باہر جانا، نکلنا؛ سمتی فعل کے طور پر بھی استعمال ہوتا ہے جو باہر کی طرف حرکت ظاہر کرتا ہے",
+      "vi": "Ra ngoài, thoát ra; cũng dùng làm bổ ngữ động từ chỉ hướng chỉ sự chuyển động ra phía ngoài",
+      "zh": "出去，外出；也用作方向补语，表示向外的运动",
+      "zh_Hant": "出去，外出；也用作方向補語，表示向外的動作"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔɔːk/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ເຮົາຢາກອອກໄປກິນເຂົ້ານອກເຮືອນ",
+        "romanization": "muu nii hao yaak awk pai kin khao nawk heuan",
+        "translations": {
+          "de": "Heute möchte ich rausgehen und auswärts essen",
+          "en": "Today I want to go out and eat outside the house",
+          "es": "Hoy quiero salir a comer fuera de casa",
+          "fr": "Aujourd'hui j'ai envie de sortir manger en dehors de la maison",
+          "hi": "आज मैं बाहर जाकर घर से बाहर खाना खाना चाहता हूँ",
+          "ja": "今日は外に出て、家の外で食事がしたい",
+          "km": "ថ្ងៃនេះខ្ញុំចង់ចេញទៅញ៉ាំអាហារក្រៅផ្ទះ",
+          "ko": "오늘은 밖에 나가서 집 밖에서 밥을 먹고 싶어",
+          "ne": "आज म बाहिर गएर घर बाहिर खाना खान चाहन्छु",
+          "pt": "Hoje eu quero sair e comer fora de casa",
+          "th": "วันนี้อยากออกไปกินข้าวนอกบ้าน",
+          "tl": "Gusto kong lumabas ngayon at kumain sa labas ng bahay",
+          "ur": "آج میں باہر جا کر گھر سے باہر کھانا کھانا چاہتا ہوں",
+          "vi": "Hôm nay tôi muốn ra ngoài ăn cơm bên ngoài nhà",
+          "zh": "今天我想出去在外面吃饭",
+          "zh_Hant": "今天我想出去在外面吃飯"
+        },
+        "out_of_scope_words": [
+          "ມື້ນີ້",
+          "ຢາກ",
+          "ກິນເຂົ້າ",
+          "ນອກ",
+          "ເຮືອນ"
+        ]
+      },
+      {
+        "lao_script": "ອອກໄປກ່ອນເດີ້ ຂ້ອຍຈະຕາມໄປທຫຼັງ",
+        "romanization": "awk pai kawn dee, khoi ja taam pai tii lang",
+        "translations": {
+          "de": "Geh schon mal raus, ich komme danach nach",
+          "en": "Go out first, I'll follow later",
+          "es": "Sal primero, yo iré después",
+          "fr": "Sors d'abord, je suivrai après",
+          "hi": "पहले बाहर जाओ, मैं बाद में आऊँगा",
+          "ja": "先に出てて、あとで追いかけるから",
+          "km": "ចេញទៅមុនសិន ខ្ញុំនឹងតាមទៅក្រោយ",
+          "ko": "먼저 나가 있어, 내가 나중에 따라갈게",
+          "ne": "पहिले बाहिर जाऊ, म पछि आउँछु",
+          "pt": "Sai primeiro, eu vou depois",
+          "th": "ออกไปก่อนเลย ฉันจะตามไปทีหลัง",
+          "tl": "Lumabas ka muna, susunod na ako mamaya",
+          "ur": "پہلے باہر جاؤ، میں بعد میں آؤں گا",
+          "vi": "Ra ngoài trước đi, tôi sẽ theo sau",
+          "zh": "你先出去吧，我待会儿跟上",
+          "zh_Hant": "你先出去吧，我待會兒跟上"
+        },
+        "out_of_scope_words": [
+          "ກ່ອນ",
+          "ຈະ",
+          "ຕາມ",
+          "ທຫຼັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person happily walking out through an open door to the outside, with sunlight visible beyond the doorway, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຫັນ": {
+    "definitions": {
+      "de": "Sehen, erblicken; etwas mit den Augen wahrnehmen",
+      "en": "To see, to perceive visually; to notice or observe something",
+      "es": "Ver, percibir visualmente; notar u observar algo",
+      "fr": "Voir, percevoir visuellement; remarquer ou observer quelque chose",
+      "hi": "देखना, दृष्टि से अनुभव करना; कुछ देखना या नोटिस करना",
+      "ja": "見る、目で認識する；何かを気づいたり観察したりする",
+      "km": "មើលឃើញ, យល់ឃើញតាមភ្នែក; កត់សម្គាល់ ឬសង្កេតមើលអ្វីមួយ",
+      "ko": "보다, 시각적으로 인지하다; 무언가를 눈치채거나 관찰하다",
+      "ne": "देख्नु, दृश्यात्मक रूपमा अनुभव गर्नु; केही लक्ष्य गर्नु वा अवलोकन गर्नु",
+      "pt": "Ver, perceber visualmente; notar ou observar algo",
+      "th": "เห็น, มองเห็น; สังเกตหรือมองเห็นบางสิ่ง",
+      "tl": "Makita, maramdaman nang biswal; mapansin o maobserbahan ang isang bagay",
+      "ur": "دیکھنا، بصری طور پر محسوس کرنا؛ کچھ نوٹ کرنا یا مشاہدہ کرنا",
+      "vi": "Thấy, nhìn thấy; nhận ra hoặc quan sát điều gì đó",
+      "zh": "看见，看到；用眼睛感知或注意到某物",
+      "zh_Hant": "看見，看到；用眼睛感知或注意到某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/héen/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າເຫັນແວ່ນຕາຂອງຂ້ອຍບໍ່ ຫາບໍ່ເຈີ",
+        "romanization": "jao hen waan taa khong khoi boo, haa boo jooe",
+        "translations": {
+          "de": "Hast du meine Brille gesehen? Ich kann sie nicht finden",
+          "en": "Have you seen my glasses? I can't find them",
+          "es": "¿Has visto mis lentes? No los encuentro",
+          "fr": "Tu as vu mes lunettes? Je ne les trouve pas",
+          "hi": "क्या तुमने मेरा चश्मा देखा? मुझे नहीं मिल रहा",
+          "ja": "私のメガネ見た？見つからないんだけど",
+          "km": "តើអ្នកឃើញវ៉ែនតារបស់ខ្ញុំទេ? រកមិនឃើញទេ",
+          "ko": "내 안경 봤어? 못 찾겠어",
+          "ne": "तिमीले मेरो चस्मा देखेको छ? फेला पर्दैन",
+          "pt": "Você viu meus óculos? Não consigo encontrar",
+          "th": "เห็นแว่นตาของฉันไหม หาไม่เจอเลย",
+          "tl": "Nakita mo ba ang aking salamin? Hindi ko mahanap",
+          "ur": "کیا تم نے میری عینک دیکھی ہے؟ مجھے مل نہیں رہی",
+          "vi": "Bạn có thấy kính của tôi không? Tôi tìm không ra",
+          "zh": "你看到我的眼镜了吗？找不到了",
+          "zh_Hant": "你有看到我的眼鏡嗎？找不到了"
+        },
+        "out_of_scope_words": [
+          "ແວ່ນຕາ",
+          "ຫາ",
+          "ເຈີ"
+        ]
+      },
+      {
+        "lao_script": "ເຫັນຮູບນັ້ນຍັງ ສວຍຫຼາຍເລີຍ",
+        "romanization": "hen hoop nan yang, suay laai loei",
+        "translations": {
+          "de": "Hast du dieses Bild gesehen? Es ist wirklich wunderschön",
+          "en": "Did you see that picture? It's really beautiful",
+          "es": "¿Viste esa foto? Es muy bonita",
+          "fr": "Tu as vu cette photo? Elle est vraiment belle",
+          "hi": "वह तस्वीर देखी? बहुत सुंदर है",
+          "ja": "あの写真見た？すごくきれいだよ",
+          "km": "ឃើញរូបថតនោះទេ? ស្អាតណាស់",
+          "ko": "저 사진 봤어? 정말 예쁘다",
+          "ne": "त्यो तस्बिर देखेको छ? धेरै राम्रो छ",
+          "pt": "Viu aquela foto? É muito bonita",
+          "th": "เห็นรูปนั้นไหม สวยมากเลย",
+          "tl": "Nakita mo ba ang larawang iyon? Napakaganda",
+          "ur": "وہ تصویر دیکھی؟ بہت خوبصورت ہے",
+          "vi": "Thấy bức ảnh đó chưa? Đẹp lắm đó",
+          "zh": "看到那张图了吗？真的很漂亮",
+          "zh_Hant": "看到那張圖了嗎？真的很漂亮"
+        },
+        "out_of_scope_words": [
+          "ຮູບ",
+          "ສວຍ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with wide open eyes looking at and noticing a bright glowing object in front of them, rays of light indicating vision, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທຳ": {
+    "definitions": {
+      "de": "Tun, machen, ausführen; oft in zusammengesetzten Verben verwendet, um eine Handlung oder Tätigkeit auszudrücken",
+      "en": "To do, make, or perform an action; commonly used in compound verbs to express doing or creating something",
+      "es": "Hacer, realizar, efectuar; comúnmente usado en verbos compuestos para expresar hacer o crear algo",
+      "fr": "Faire, réaliser, effectuer; couramment utilisé dans des verbes composés pour exprimer l'action de faire ou créer quelque chose",
+      "hi": "करना, बनाना, कार्य करना; यौगिक क्रियाओं में सामान्यतः प्रयुक्त जो कुछ करने या बनाने की क्रिया दर्शाता है",
+      "ja": "する、行う、作る；何かをすることや作ることを表す複合動詞でよく使われる",
+      "km": "ធ្វើ, បង្កើត, ប្រតិបត្តិ; ជាទូទៅប្រើក្នុងកិរិយាស័ព្ទផ្សំដើម្បីបង្ហាញការធ្វើ ឬបង្កើតអ្វីមួយ",
+      "ko": "하다, 만들다, 수행하다; 무언가를 하거나 만드는 것을 나타내는 복합 동사에 자주 쓰임",
+      "ne": "गर्नु, बनाउनु, कार्य गर्नु; केही गर्ने वा सिर्जना गर्ने क्रिया व्यक्त गर्न यौगिक क्रियाहरूमा सामान्यतः प्रयोग हुन्छ",
+      "pt": "Fazer, realizar, executar; comumente usado em verbos compostos para expressar fazer ou criar algo",
+      "th": "ทำ, กระทำ, สร้าง; มักใช้ในกริยาประสมเพื่อแสดงการกระทำหรือการสร้างบางสิ่ง",
+      "tl": "Gumawa, gawin, isagawa; karaniwang ginagamit sa mga tambalan na pandiwa upang ipahayag ang paggawa o paglikha ng isang bagay",
+      "ur": "کرنا، بنانا، انجام دینا؛ عموماً مرکب افعال میں استعمال ہوتا ہے تاکہ کچھ کرنے یا بنانے کا اظہار ہو",
+      "vi": "Làm, thực hiện, tạo ra; thường dùng trong động từ ghép để diễn đạt hành động làm hoặc tạo ra điều gì",
+      "zh": "做，制作，执行；常用于复合动词中表达做某事或创造某物",
+      "zh_Hant": "做，製作，執行；常用於複合動詞中表達做某事或創造某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰam/",
+    "examples": [
+      {
+        "lao_script": "ລາວທຳອາຫານເກັ່ງຫຼາຍ ກິນແລ້ວອຣ່ອຍທຸກເທື່ອ",
+        "romanization": "lao tham aa haan geng laai, kin laew aroi took thuua",
+        "translations": {
+          "de": "Er/Sie kocht sehr gut, es schmeckt jedes Mal lecker",
+          "en": "They cook really well, it's always delicious every time",
+          "es": "Cocina muy bien, siempre queda delicioso",
+          "fr": "Il/Elle cuisine très bien, c'est délicieux à chaque fois",
+          "hi": "वह बहुत अच्छा खाना बनाता/बनाती है, हर बार स्वादिष्ट लगता है",
+          "ja": "あの人は料理がとても上手で、毎回おいしい",
+          "km": "គាត់ចំអិនអាហារពូកែណាស់ ឆ្ងាញ់រាល់ពេល",
+          "ko": "그 사람은 요리를 정말 잘해, 먹을 때마다 맛있어",
+          "ne": "उसले खाना धेरै राम्रोसँग बनाउँछ, हरेक पटक मिठो हुन्छ",
+          "pt": "Ela/Ele cozinha muito bem, fica gostoso toda vez",
+          "th": "เขา/เธอทำอาหารเก่งมาก กินแล้วอร่อยทุกครั้ง",
+          "tl": "Napakahusay niyang magluto, masarap palagi tuwing kumakain",
+          "ur": "وہ کھانا بہت اچھا پکاتا/پکاتی ہے، ہر بار لذیذ ہوتا ہے",
+          "vi": "Người đó nấu ăn rất giỏi, lần nào ăn cũng ngon",
+          "zh": "他/她做菜做得很好，每次吃都很好吃",
+          "zh_Hant": "他/她做菜做得很好，每次吃都很好吃"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ເກັ່ງ",
+          "ອຣ່ອຍ",
+          "ທຸກ",
+          "ເທື່ອ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍທຳວຽກນີ້ບໍ່ໄດ້ ຍາກເກີນໄປ",
+        "romanization": "khoi tham wiak nii boo dai, yaak koen pai",
+        "translations": {
+          "de": "Ich kann diese Arbeit nicht machen, es ist zu schwer",
+          "en": "I can't do this work, it's too difficult",
+          "es": "No puedo hacer este trabajo, es demasiado difícil",
+          "fr": "Je ne peux pas faire ce travail, c'est trop difficile",
+          "hi": "मैं यह काम नहीं कर सकता, बहुत मुश्किल है",
+          "ja": "この仕事はできない、難しすぎる",
+          "km": "ខ្ញុំធ្វើការងារនេះមិនបានទេ លំបាកពេក",
+          "ko": "나 이 일 못 하겠어, 너무 어려워",
+          "ne": "म यो काम गर्न सक्दिनँ, धेरै गाह्रो छ",
+          "pt": "Eu não consigo fazer esse trabalho, é difícil demais",
+          "th": "ฉันทำงานนี้ไม่ได้ ยากเกินไป",
+          "tl": "Hindi ko kaya ang trabahong ito, napakahirap",
+          "ur": "میں یہ کام نہیں کر سکتا، بہت مشکل ہے",
+          "vi": "Tôi không thể làm việc này, khó quá",
+          "zh": "我做不了这个工作，太难了",
+          "zh_Hant": "我做不了這個工作，太難了"
+        },
+        "out_of_scope_words": [
+          "ວຽກ",
+          "ໄດ້",
+          "ຍາກ",
+          "ເກີນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person actively doing or making something with their hands at a table, showing the concept of working or creating, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປະ": {
+    "definitions": {
+      "de": "Verlassen, zurücklassen, liegenlassen; auch gebräuchliches Verbpräfix in zusammengesetzten Wörtern, das eine abgeschlossene oder aufgegebene Handlung anzeigt",
+      "en": "To leave behind, abandon, or put down; also a very common verb prefix in compound words indicating an action done to something or leaving something in a state",
+      "es": "Dejar, abandonar, colocar; también es un prefijo verbal muy común en palabras compuestas que indica una acción realizada sobre algo o dejar algo en un estado",
+      "fr": "Laisser, abandonner, poser; aussi un préfixe verbal très courant dans les mots composés indiquant une action faite sur quelque chose ou laisser quelque chose dans un état",
+      "hi": "छोड़ना, पीछे छोड़ना, रख देना; यौगिक शब्दों में एक सामान्य क्रिया उपसर्ग भी जो किसी चीज़ पर की गई क्रिया या किसी अवस्था में छोड़ना दर्शाता है",
+      "ja": "置いていく、捨てる、残す；また、複合語で非常によく使われる動詞接頭辞で、何かに対する行為や何かをある状態に残すことを示す",
+      "km": "ទុក, បោះបង់, ចោល; ក៏ជាបុព្វបទកិរិយាស័ព្ទដែលប្រើញឹកញាប់ក្នុងពាក្យផ្សំដែលបង្ហាញពីសកម្មភាពដែលបានធ្វើ ឬទុកអ្វីមួយក្នុងស្ថានភាពណាមួយ",
+      "ko": "두고 가다, 버리다, 남겨두다; 또한 복합어에서 매우 자주 쓰이는 동사 접두사로, 무언가에 대한 행동이나 무언가를 어떤 상태로 남겨둠을 나타냄",
+      "ne": "छोडेर जानु, त्याग्नु, राखिदिनु; यौगिक शब्दहरूमा एक सामान्य क्रिया उपसर्ग पनि जो केहीमा गरिएको कार्य वा केहीलाई कुनै अवस्थामा छोड्ने संकेत गर्छ",
+      "pt": "Deixar para trás, abandonar, largar; também é um prefixo verbal muito comum em palavras compostas indicando uma ação feita sobre algo ou deixar algo em um estado",
+      "th": "ทิ้ง, ปล่อย, วาง; ยังเป็นคำอุปสรรคกริยาที่ใช้บ่อยมากในคำประสมที่แสดงการกระทำต่อสิ่งใดสิ่งหนึ่ง หรือการทิ้งบางสิ่งไว้ในสภาพหนึ่ง",
+      "tl": "Iwan, talikuran, ibaba; isa rin itong napaka-karaniwang unlapi ng pandiwa sa mga salitang tambalan na nagpapahiwatig ng isang kilos na ginawa sa isang bagay o pag-iwan ng isang bagay sa isang kalagayan",
+      "ur": "چھوڑ جانا، پیچھے چھوڑنا، رکھ دینا؛ مرکب الفاظ میں ایک بہت عام فعلی سابقہ بھی جو کسی چیز پر کی گئی کارروائی یا کسی چیز کو کسی حال میں چھوڑنے کا اشارہ دیتا ہے",
+      "vi": "Để lại, bỏ lại, đặt xuống; cũng là tiền tố động từ rất phổ biến trong từ ghép, chỉ một hành động được thực hiện lên cái gì đó hoặc để lại điều gì đó trong một trạng thái",
+      "zh": "留下，丢下，放下；也是复合词中非常常见的动词前缀，表示对某物做出的动作或将某物留在某种状态",
+      "zh_Hant": "留下，丟下，放下；也是複合詞中非常常見的動詞前綴，表示對某物做出的動作或將某物留在某種狀態"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/páʔ/",
+    "examples": [
+      {
+        "lao_script": "ຢ່າປະຂອງໄວ້ຕໍ່ງ ຈະຫາຍໄດ້",
+        "romanization": "yaa pa khong wai too, ja haai dai",
+        "translations": {
+          "de": "Lass die Sachen nicht draußen liegen, sie könnten verloren gehen",
+          "en": "Don't leave your things outside, they might get lost",
+          "es": "No dejes tus cosas afuera, se pueden perder",
+          "fr": "Ne laisse pas tes affaires dehors, elles pourraient être perdues",
+          "hi": "अपना सामान बाहर मत छोड़ो, खो सकता है",
+          "ja": "外に物を置いていかないで、なくなるかもしれないから",
+          "km": "កុំទុករបស់ទុកខាងក្រៅ វាអាចបាត់",
+          "ko": "물건을 밖에 두고 가지 마, 잃어버릴 수 있어",
+          "ne": "आफ्नो सामान बाहिर नछोड्नू, हराउन सक्छ",
+          "pt": "Não deixa as coisas lá fora, podem se perder",
+          "th": "อย่าทิ้งของไว้ข้างนอก จะหายได้นะ",
+          "tl": "Huwag iwanang ang mga bagay sa labas, baka mawala",
+          "ur": "چیزوں کو باہر مت چھوڑو، گم ہو سکتی ہیں",
+          "vi": "Đừng để đồ ở ngoài, có thể bị mất đó",
+          "zh": "不要把东西放在外面，可能会丢的",
+          "zh_Hant": "不要把東西放在外面，可能會丟的"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ຂອງ",
+          "ຕໍ່ງ",
+          "ຈະ",
+          "ຫາຍ"
+        ]
+      },
+      {
+        "lao_script": "ລາວປະເຮືອນໄວ້ຄົນດຽວໄປຕ່າງປະເທດ",
+        "romanization": "lao pa heuan wai khon diao, pai taang pa thet",
+        "translations": {
+          "de": "Er/Sie hat das Haus allein gelassen und ist ins Ausland gegangen",
+          "en": "They left the house alone and went abroad",
+          "es": "Dejó la casa sola y se fue al extranjero",
+          "fr": "Il/Elle a laissé la maison seule et est parti(e) à l'étranger",
+          "hi": "वह घर को अकेला छोड़कर विदेश चला/चली गया/गई",
+          "ja": "彼/彼女は家を一人残して外国へ行った",
+          "km": "គាត់ទុកផ្ទះឯកោហើយទៅបរទេស",
+          "ko": "그 사람은 집을 혼자 두고 외국에 갔어",
+          "ne": "उसले घरलाई एक्लै छोडेर विदेश गयो/गई",
+          "pt": "Ela/Ele deixou a casa sozinha e foi para o exterior",
+          "th": "เขา/เธอทิ้งบ้านไว้คนเดียวแล้วไปต่างประเทศ",
+          "tl": "Iniwan niya ang bahay nang mag-isa at pumunta sa ibang bansa",
+          "ur": "اس نے گھر کو اکیلا چھوڑ کر بیرون ملک چلا گیا/گئی",
+          "vi": "Người đó bỏ nhà một mình đi ra nước ngoài",
+          "zh": "他/她把房子留着没人住就出国了",
+          "zh_Hant": "他/她把房子留著沒人住就出國了"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ຄົນດຽວ",
+          "ຕ່າງປະເທດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking away and leaving a bag or object behind on the ground, with an arrow showing the person leaving, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສີ": {
+    "definitions": {
+      "de": "Farbe (Substantiv); auch das Zahlwort für vier (4) im Laotischen",
+      "en": "Color (noun); also the word for the number four (4) in Lao",
+      "es": "Color (sustantivo); también es la palabra para el número cuatro (4) en lao",
+      "fr": "Couleur (nom); aussi le mot pour le nombre quatre (4) en laotien",
+      "hi": "रंग (संज्ञा); लाओ भाषा में संख्या चार (4) के लिए भी प्रयुक्त शब्द",
+      "ja": "色（名詞）；また、ラオ語で数字の4を意味する語でもある",
+      "km": "ពណ៌ (នាម); ក៏ជាពាក្យសម្រាប់លេខបួន (4) ក្នុងភាសាឡាវ",
+      "ko": "색, 색깔 (명사); 라오어에서 숫자 4를 의미하기도 함",
+      "ne": "रंग (संज्ञा); लाओ भाषामा संख्या चार (४) को लागि पनि प्रयोग गरिने शब्द",
+      "pt": "Cor (substantivo); também a palavra para o número quatro (4) em laosiano",
+      "th": "สี (คำนาม); ยังหมายถึงตัวเลขสี่ (4) ในภาษาลาวด้วย",
+      "tl": "Kulay (pangngalan); ito rin ang salita para sa bilang na apat (4) sa wikang Lao",
+      "ur": "رنگ (اسم)؛ لاؤ زبان میں عدد چار (4) کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Màu sắc (danh từ); cũng là từ chỉ số bốn (4) trong tiếng Lào",
+      "zh": "颜色（名词）；在老挝语中也是数字四（4）的词",
+      "zh_Hant": "顏色（名詞）；在寮語中也是數字四（4）的詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/síː/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຊອບສີຫຍັງຫຼາຍສຸດ ຂ້ອຍຊອບສີຟ້າ",
+        "romanization": "jao saawp sii nyaang laai soot, khoi saawp sii faa",
+        "translations": {
+          "de": "Welche Farbe magst du am liebsten? Ich mag Blau am liebsten",
+          "en": "What color do you like the most? I like blue the most",
+          "es": "¿Qué color te gusta más? A mí me gusta el azul",
+          "fr": "Quelle couleur préfères-tu? Moi je préfère le bleu",
+          "hi": "तुम्हें कौन सा रंग सबसे ज्यादा पसंद है? मुझे नीला रंग पसंद है",
+          "ja": "何色が一番好き？私は青が一番好き",
+          "km": "តើអ្នកចូលចិត្តពណ៌អ្វីច្រើនជាងគេ? ខ្ញុំចូលចិត្តពណ៌ខៀវ",
+          "ko": "어떤 색을 제일 좋아해? 나는 파란색이 제일 좋아",
+          "ne": "तिमीलाई कुन रंग सबैभन्दा मन पर्छ? मलाई नीलो रंग मन पर्छ",
+          "pt": "Qual cor você mais gosta? Eu gosto mais de azul",
+          "th": "ชอบสีอะไรมากที่สุด ฉันชอบสีฟ้า",
+          "tl": "Anong kulay ang pinaka-gusto mo? Gusto ko ang asul",
+          "ur": "تمہیں سب سے زیادہ کون سا رنگ پسند ہے؟ مجھے نیلا رنگ پسند ہے",
+          "vi": "Bạn thích màu gì nhất? Tôi thích màu xanh dương",
+          "zh": "你最喜欢什么颜色？我最喜欢蓝色",
+          "zh_Hant": "你最喜歡什麼顏色？我最喜歡藍色"
+        },
+        "out_of_scope_words": [
+          "ຊອບ",
+          "ຫຍັງ",
+          "ສຸດ",
+          "ສີຟ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເສື້ອສີນີ້ງາມຫຼາຍ ຊື້ໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ່",
+        "romanization": "suua sii nii ngaam laai, suuu hai khoi dae dai boo",
+        "translations": {
+          "de": "Dieses farbige Hemd ist sehr schön, könntest du es für mich kaufen?",
+          "en": "This colored shirt is really nice, can you buy it for me?",
+          "es": "Esta camisa de color es muy bonita, ¿puedes comprarla para mí?",
+          "fr": "Cette chemise colorée est vraiment belle, tu peux l'acheter pour moi?",
+          "hi": "यह रंगीन कमीज़ बहुत सुंदर है, क्या तुम मेरे लिए खरीद सकते हो?",
+          "ja": "この色の服、すごくきれいだね、買ってもらえる？",
+          "km": "អាវពណ៌នេះស្អាតណាស់ ទិញឱ្យខ្ញុំបានទេ?",
+          "ko": "이 색깔 옷 정말 예쁘다, 나 사줄 수 있어?",
+          "ne": "यो रंगीन कमीज धेरै राम्रो छ, मेरो लागि किनिदिन सक्छौ?",
+          "pt": "Essa camisa colorida é muito bonita, você pode comprar pra mim?",
+          "th": "เสื้อสีนี้สวยมาก ซื้อให้หน่อยได้ไหม",
+          "tl": "Napakaganda ng kulay ng damit na ito, puwede mo bang bilhin para sa akin?",
+          "ur": "اس رنگ کی قمیض بہت خوبصورت ہے، کیا تم میرے لیے خرید سکتے ہو؟",
+          "vi": "Cái áo màu này đẹp lắm, mua giúp tôi được không?",
+          "zh": "这件颜色的衣服很漂亮，可以帮我买吗？",
+          "zh_Hant": "這件顏色的衣服很漂亮，可以幫我買嗎？"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ",
+          "ງາມ",
+          "ຊື້",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a colorful palette of paint swatches or color blocks in red, blue, yellow, and green arranged neatly, clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

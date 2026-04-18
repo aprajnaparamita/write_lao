@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເໝາະ",
+  "definitions": {
+    "de": "Passend, geeignet, angemessen; etwas, das gut zu einer Situation oder Person passt",
+    "en": "Suitable, appropriate, fitting; something that matches well with a situation or person",
+    "es": "Adecuado, apropiado, conveniente; algo que encaja bien con una situación o persona",
+    "fr": "Approprié, convenable, adéquat; quelque chose qui correspond bien à une situation ou une personne",
+    "hi": "उपयुक्त, उचित, मुनासिब; कोई चीज़ जो किसी स्थिति या व्यक्ति के साथ अच्छी तरह मेल खाती है",
+    "ja": "ふさわしい、適切な、合った；ある状況や人に合っていること",
+    "km": "សមស្រប ត្រឹមត្រូវ ឬគ្រប់គ្រាន់; អ្វីដែលសាកសមនឹងស្ថានការណ៍ ឬបុគ្គល",
+    "ko": "적합한, 어울리는, 적절한; 상황이나 사람과 잘 맞는 것",
+    "ne": "उपयुक्त, सही, मुनासिब; कुनै चीज जो कुनै अवस्था वा व्यक्तिसँग राम्रोसँग मेल खान्छ",
+    "pt": "Adequado, apropriado, conveniente; algo que combina bem com uma situação ou pessoa",
+    "th": "เหมาะสม เหมาะ หรือเข้ากัน; สิ่งที่พอดีกับสถานการณ์หรือบุคคล",
+    "tl": "Angkop, bagay, naaangkop; isang bagay na magkasya sa isang sitwasyon o tao",
+    "ur": "مناسب، موزوں، درست؛ کوئی چیز جو کسی صورتحال یا شخص سے اچھی طرح میل کھاتی ہو",
+    "vi": "Phù hợp, thích hợp, thích đáng; điều gì đó khớp tốt với tình huống hoặc con người",
+    "zh": "合适、适当、相称；某事物与情况或人很匹配",
+    "zh_Hant": "合適、適當、相稱；某事物與情況或人很匹配"
+  },
+  "definition_en": "Suitable, appropriate, fitting; something that matches well with a situation or person",
+  "romanization": "/mɔ̀ː/",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອໂຕນີ້ເໝາະກັບເຈົ້າຫຼາຍ",
+      "romanization": "sɯ̂a to níi mɔ̀ː kap jao lǎːj",
+      "translation_en": "This shirt suits you really well."
+    },
+    {
+      "lao_script": "ເວລານີ້ເໝາະສົມທີ່ຈະເວົ້າບໍ?",
+      "romanization": "wéla níi mɔ̀ː som thîi ja vâo bò?",
+      "translation_en": "Is this a good time to talk?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a puzzle piece fitting perfectly into its matching slot, with a green checkmark above it, symbolizing suitability and a perfect match, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

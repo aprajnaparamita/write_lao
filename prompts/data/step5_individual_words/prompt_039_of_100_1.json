@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂຽນ",
+  "definitions": {
+    "de": "Schreiben; etwas mit einem Stift oder einem anderen Werkzeug auf eine Oberfläche aufzeichnen",
+    "en": "To write; to form letters, words, or symbols on a surface using a pen, pencil, or other tool",
+    "es": "Escribir; trazar letras, palabras o símbolos en una superficie usando un bolígrafo, lápiz u otra herramienta",
+    "fr": "Écrire; former des lettres, des mots ou des symboles sur une surface à l'aide d'un stylo, d'un crayon ou d'un autre outil",
+    "hi": "लिखना; कलम, पेंसिल या अन्य उपकरण से किसी सतह पर अक्षर, शब्द या चिह्न बनाना",
+    "ja": "書く；ペン、鉛筆、またはその他の道具を使って表面に文字、言葉、または記号を記すこと",
+    "km": "សរសេរ; ការបង្កើតអក្សរ ពាក្យ ឬនិមិត្តសញ្ញានៅលើផ្ទៃមួយដោយប្រើប៊ិច ខ្មៅដៃ ឬឧបករណ៍ផ្សេងទៀត",
+    "ko": "쓰다; 펜, 연필 또는 다른 도구를 사용하여 표면에 글자, 단어 또는 기호를 적는 것",
+    "ne": "लेख्नु; कलम, पेन्सिल वा अन्य उपकरणले कुनै सतहमा अक्षर, शब्द वा चिह्न बनाउनु",
+    "pt": "Escrever; formar letras, palavras ou símbolos numa superfície usando uma caneta, lápis ou outra ferramenta",
+    "th": "เขียน; การขีดเขียนตัวอักษร คำ หรือสัญลักษณ์บนพื้นผิวโดยใช้ปากกา ดินสอ หรืออุปกรณ์อื่น",
+    "tl": "Sumulat; bumuo ng mga titik, salita, o simbolo sa isang ibabaw gamit ang panulat, lapis, o iba pang kasangkapan",
+    "ur": "لکھنا؛ قلم، پنسل یا کسی اور آلے سے کسی سطح پر حروف، الفاظ یا علامات بنانا",
+    "vi": "Viết; tạo ra các chữ cái, từ ngữ hoặc ký hiệu trên một bề mặt bằng bút, bút chì hoặc công cụ khác",
+    "zh": "写；用笔、铅笔或其他工具在表面上书写字母、文字或符号",
+    "zh_Hant": "寫；用筆、鉛筆或其他工具在表面上書寫字母、文字或符號"
+  },
+  "definition_en": "To write; to form letters, words, or symbols on a surface using a pen, pencil, or other tool",
+  "romanization": "/kʰiːan/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຂຽນຊື່ເຈົ້າໃສ່ກະດາດນີ້ໄດ້ບໍ່?",
+      "romanization": "jao khian sue jao sai kadaat nii dai boo?",
+      "translation_en": "Can you write your name on this paper?"
+    },
+    {
+      "lao_script": "ຂ້ອຍກຳລັງຂຽນຈົດໝາຍຫາແມ່",
+      "romanization": "khooi kamlang khian jodmaai haa mae",
+      "translation_en": "I'm writing a letter to my mom."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person happily writing on a piece of paper with a pen at a desk, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

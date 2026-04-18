@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊົ້າ",
+  "definitions": {
+    "de": "Morgen; der frühe Teil des Tages, von Sonnenaufgang bis Mittag",
+    "en": "Morning; the early part of the day, from sunrise until noon",
+    "es": "Mañana; la primera parte del día, desde el amanecer hasta el mediodía",
+    "fr": "Matin; la première partie de la journée, du lever du soleil jusqu'à midi",
+    "hi": "सुबह; दिन का शुरुआती हिस्सा, सूर्योदय से दोपहर तक",
+    "ja": "朝；日の出から正午までの一日の早い時間帯",
+    "km": "ព្រឹក; ដំណាក់ដំបូងនៃថ្ងៃ ចាប់ពីពេលព្រះអាទិត្យរះរហូតដល់ថ្ងៃត្រង់",
+    "ko": "아침; 해가 뜰 때부터 정오까지 하루의 이른 시간",
+    "ne": "बिहान; दिनको सुरुवाती भाग, सूर्योदयदेखि दिउँसोसम्म",
+    "pt": "Manhã; a parte inicial do dia, do nascer do sol até o meio-dia",
+    "th": "เช้า; ช่วงต้นของวัน ตั้งแต่พระอาทิตย์ขึ้นจนถึงเที่ยง",
+    "tl": "Umaga; ang unang bahagi ng araw, mula pagsikat ng araw hanggang tanghali",
+    "ur": "صبح؛ دن کا ابتدائی حصہ، طلوع آفتاب سے دوپہر تک",
+    "vi": "Buổi sáng; phần đầu của ngày, từ lúc mặt trời mọc đến trưa",
+    "zh": "早上/上午；一天中从日出到正午的早期时段",
+    "zh_Hant": "早上/上午；一天中從日出到正午的早期時段"
+  },
+  "definition_en": "Morning; the early part of the day, from sunrise until noon",
+  "romanization": "sâw",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊົ້ານີ້ອາກາດດີຫຼາຍ",
+      "romanization": "sâw níː ʔaːkáːt díː lǎːj",
+      "translation_en": "The weather this morning is really nice."
+    },
+    {
+      "lao_script": "ຂ້ອຍຕື່ນເຊົ້າຕອນຫ້າໂມງທຸກວັນ",
+      "romanization": "kʰɔ̂ːj tɯ̂n sâw tɔːn hâː moːŋ tʰúk wan",
+      "translation_en": "I wake up in the morning at five o'clock every day."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright morning sunrise over a peaceful landscape, with a rising sun, soft orange and yellow sky, and a small house below, clean white background, colorful minimalist style suitable for a language learning app."
+}

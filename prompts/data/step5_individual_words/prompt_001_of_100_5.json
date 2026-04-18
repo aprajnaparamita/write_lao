@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄດ້",
+  "definitions": {
+    "de": "können; erhalten; Vergangenheits-/Fähigkeitspartikel (postverbal)",
+    "en": "can/be able to; receive/get; post-verbal particle marking ability or completed action",
+    "es": "poder; recibir/obtener; partícula posverbal de capacidad o acción completada",
+    "fr": "pouvoir; obtenir/recevoir; particule postverbale indiquant la capacité ou l'accompli",
+    "hi": "सकना; पाना; क्षमता या पूर्णता दर्शाने वाला पश्चक्रिया कण",
+    "ja": "〜できる／〜した／得る（可能・完了を示す助詞、動詞としては「得る」）",
+    "km": "បាន (អាច ឬទទួល, បច្ច័យកិរិយាបង្ហាញសមត្ថភាព ឬអំពើបានសម្រេច)",
+    "ko": "~할 수 있다／~했다／얻다 (능력·완료를 나타내는 후치 조사 및 동사)",
+    "ne": "सक्नु; पाउनु; क्षमता वा सम्पन्नता जनाउने क्रियाप्रत्यय",
+    "pt": "poder; conseguir/receber; partícula pós-verbal de capacidade ou ação concluída",
+    "th": "ได้ (สามารถ; ได้รับ; คำท้ายกริยาบอกความสามารถหรือการเสร็จสิ้น)",
+    "tl": "puwede／nakaya／nakuha (panghalili sa likod ng pandiwa para sa kakayahan o nagawang aksyon)",
+    "ur": "سکنا؛ پانا؛ صلاحیت یا ہو چکنے کی علامت (فعل کے بعد آنے والا ذرّہ)",
+    "vi": "được; có thể; nhận được (tiểu từ sau động từ chỉ khả năng hoặc hoàn tất)",
+    "zh": "能／可以／得到／完成（动词后助词，表能力或已完成）",
+    "zh_Hant": "能／可以／得到／完成（動詞後助詞，表能力或已完成）"
+  },
+  "definition_en": "can/be able to; receive/get; post-verbal particle marking ability or completed action",
+  "romanization": "dâj",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວ ໄປ ຕະຫຼາດ ໄດ້ ແລ້ວ",
+      "romanization": "láːw pàj tā.làːt dâj lɛ̂ːw",
+      "translation_en": "He/She has already gone to the market."
+    },
+    {
+      "lao_script": "ຂ້ອຍ ເວົ້າ ພາສາ ລາວ ໄດ້",
+      "romanization": "kʰɔ̂ːj wȃw pʰàː.sǎː láːw dâj",
+      "translation_en": "I can speak Lao."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person giving a confident thumbs-up with a green check mark beside them, representing ability or accomplishment, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

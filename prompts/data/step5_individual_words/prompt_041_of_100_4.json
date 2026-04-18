@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລຳ",
+  "definitions": {
+    "de": "Lam — traditionelle laotische Gesangsform; auch Klassifikator für längliche Gegenstände wie Boote und Bäume; Stamm (eines Baumes)",
+    "en": "Lam — traditional Lao folk singing/music style; also a classifier for long cylindrical objects such as boats, trees, or trunks; trunk or stalk",
+    "es": "Lam — estilo tradicional de canto folclórico lao; también es un clasificador para objetos cilíndricos largos como botes, árboles o troncos; tronco o tallo",
+    "fr": "Lam — style de chant folk traditionnel lao ; aussi un classificateur pour les objets longs et cylindriques comme les bateaux, les arbres ou les troncs ; tronc ou tige",
+    "hi": "लाम — पारंपरिक लाओ लोक संगीत/गायन शैली; नाव, पेड़ या तने जैसी लंबी बेलनाकार वस्तुओं के लिए वर्गीकारक; तना",
+    "ja": "ラム — ラオスの伝統的な民謡スタイル；船・木・幹などの長い円筒形のものに使う類別詞；幹・茎",
+    "km": "ឡាំ — រចនាប័ទ្មចម្រៀងប្រជាប្រិយដ៏ប្រពៃណីរបស់ឡាវ; ក៏ជាពាក្យចាត់ថ្នាក់សម្រាប់វត្ថុស្រួចពីក្រោមមូលដូចជាទូក ដើមឈើ ឬដើម; ដើម",
+    "ko": "람 — 라오스 전통 민속 노래 스타일; 배, 나무, 줄기 등 길고 원통형인 물체에 사용하는 분류사; 줄기, 몸통",
+    "ne": "लाम — लाओसको परम्परागत लोक गायन शैली; डुङ्गा, रुख वा ट्रंक जस्ता लामो बेलनाकार वस्तुहरूको लागि वर्गीकारक; ट्रंक वा डाँठ",
+    "pt": "Lam — estilo tradicional de canto folclórico lao; também é um classificador para objetos longos e cilíndricos como barcos, árvores ou troncos; tronco ou caule",
+    "th": "ลำ — รูปแบบการร้องเพลงพื้นบ้านลาวแบบดั้งเดิม; ยังเป็นลักษณนามสำหรับวัตถุทรงกระบอกยาว เช่น เรือ ต้นไม้ หรือลำต้น; ลำต้น",
+    "tl": "Lam — tradisyonal na estilo ng folk singing ng Lao; ginagamit din bilang panlapi para sa mahabang bilugang bagay tulad ng bangka, puno, o katawan; katawan o tangkay",
+    "ur": "لام — لاؤس کی روایتی لوک گائیکی کا انداز؛ کشتیوں، درختوں یا تنوں جیسی لمبی بیلناکار چیزوں کے لیے درجہ بند کنندہ؛ تنہ یا ڈنٹھل",
+    "vi": "Lam — thể loại âm nhạc/hát dân gian truyền thống Lào; cũng là loại từ dùng cho các vật thể dài hình trụ như thuyền, cây hoặc thân cây; thân cây",
+    "zh": "拉姆——老挝传统民间歌唱形式；也是用于船只、树木或树干等长圆柱形物体的量词；树干",
+    "zh_Hant": "拉姆——寮國傳統民間歌唱形式；也是用於船隻、樹木或樹幹等長圓柱形物體的量詞；樹幹"
+  },
+  "definition_en": "Lam — traditional Lao folk singing/music style; also a classifier for long cylindrical objects such as boats, trees, or trunks; trunk or stalk",
+  "romanization": "láːm",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົາຮ້ອງລຳໄດ້ເພິ່ງຫຼາຍ",
+      "romanization": "kʰâw hɔ́ːŋ láːm dâj pʰɤ̂ŋ lǎːj",
+      "translation_en": "He can sing Lam really well."
+    },
+    {
+      "lao_script": "ລຳຕົ້ນໄມ້ນັ້ນໃຫຍ່ຫຼາຍ",
+      "romanization": "láːm tôn máːj nan ɲàj lǎːj",
+      "translation_en": "The trunk of that tree is very big."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a Lao musician in traditional clothing performing folk singing, and on the right, a large tree trunk; suitable for a language learning app, clean white background, colorful, minimalist style."
+}

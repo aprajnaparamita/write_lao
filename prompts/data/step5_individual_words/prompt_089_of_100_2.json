@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດ່ານ",
+  "definitions": {
+    "de": "Ein Kontrollpunkt, Tor oder eine Schranke; häufig ein Grenzübergang oder eine Kontrollstelle an Straßen",
+    "en": "A checkpoint, gate, or barrier; commonly a border crossing point or control post on roads",
+    "es": "Un puesto de control, puerta o barrera; comúnmente un cruce fronterizo o puesto de control en carreteras",
+    "fr": "Un poste de contrôle, une porte ou une barrière ; généralement un passage frontalier ou un poste de contrôle sur les routes",
+    "hi": "एक चेकपॉइंट, गेट या बाधा; आमतौर पर सीमा पार करने का स्थान या सड़कों पर नियंत्रण चौकी",
+    "ja": "検問所、ゲート、または関所；一般的に国境越えや道路上の検問地点",
+    "km": "ច្រកត្រួតពិនិត្យ ច្រកទ្វារ ឬរបាំង; ជាទូទៅជាចំណុចឆ្លងព្រំដែន ឬច្រកត្រួតពិនិត្យតាមបណ្តោយផ្លូវ",
+    "ko": "검문소, 게이트 또는 장벽; 일반적으로 국경 통과 지점이나 도로상의 검문 초소",
+    "ne": "एक जाँच चौकी, ढोका वा अवरोध; सामान्यतः सीमा नाका वा सडकमा नियन्त्रण चौकी",
+    "pt": "Um posto de controle, portão ou barreira; geralmente um posto de fronteira ou ponto de fiscalização em estradas",
+    "th": "ด่านตรวจ ประตู หรือจุดกั้น; โดยทั่วไปคือจุดผ่านแดนหรือด่านตรวจบนถนน",
+    "tl": "Isang checkpoint, pintuan, o hadlang; karaniwang isang punto ng pagtawid sa hangganan o control post sa mga daan",
+    "ur": "ایک چیک پوسٹ، دروازہ یا رکاوٹ؛ عام طور پر سرحدی گزرگاہ یا سڑکوں پر کنٹرول پوسٹ",
+    "vi": "Một trạm kiểm soát, cổng hoặc rào chắn; thường là điểm vượt biên hoặc trạm kiểm soát trên đường",
+    "zh": "检查站、关卡或障碍物；通常是边境口岸或道路上的检查点",
+    "zh_Hant": "檢查站、關卡或障礙物；通常是邊境口岸或道路上的檢查點"
+  },
+  "definition_en": "A checkpoint, gate, or barrier; commonly a border crossing point or control post on roads",
+  "romanization": "dàan",
+  "lao_examples": [
+    {
+      "lao_script": "ລົດຕ້ອງຈອດຢູ່ດ່ານກ່ອນຂ້າມໄປເມືອງໄທ",
+      "romanization": "lót tɔ̂ng jɔ̀ɔt ɲùu dàan kɔ̀ɔn khâam pai mʉ́ang thai",
+      "translation_en": "The car has to stop at the checkpoint before crossing over to Thailand"
+    },
+    {
+      "lao_script": "ດ່ານນີ້ເປີດຕອນເຊົ້າເຈັດໂມງ",
+      "romanization": "dàan níi pə̄ət tɔ̄ɔn sâo jét móong",
+      "translation_en": "This checkpoint opens at seven in the morning"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a road checkpoint with a red and white striped barrier gate, a small guard booth on the side, and a road stretching ahead. Clean white background, colorful, minimalist style suitable for a language learning app."
+}

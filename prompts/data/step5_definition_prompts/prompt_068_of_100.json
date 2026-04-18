@@ -1,0 +1,387 @@
+{
+  "ສອບ": {
+    "definitions": {
+      "de": "Prüfen, testen; eine Prüfung oder einen Test ablegen, um Wissen oder Fähigkeiten zu bewerten",
+      "en": "To examine or test; to take or administer a test/exam to assess knowledge or skills",
+      "es": "Examinar, probar; realizar o administrar un examen para evaluar conocimientos o habilidades",
+      "fr": "Examiner, tester; passer ou administrer un examen pour évaluer des connaissances ou des compétences",
+      "hi": "परीक्षा लेना या देना; ज्ञान या कौशल का मूल्यांकन करने के लिए परीक्षा आयोजित करना या देना",
+      "ja": "試験する、テストする；知識やスキルを評価するために試験を受けたり実施したりする",
+      "km": "ប្រឡង ឬធ្វើតេស្ត; ធ្វើការប្រឡង ឬអនុវត្តការប្រឡងដើម្បីវាយតម្លៃចំណេះដឹង ឬជំនាញ",
+      "ko": "시험하다, 검사하다; 지식이나 기술을 평가하기 위해 시험을 보거나 시행하다",
+      "ne": "परीक्षा लिनु वा दिनु; ज्ञान वा सीपको मूल्याङ्कन गर्न परीक्षा दिनु वा सञ्चालन गर्नु",
+      "pt": "Examinar, testar; fazer ou administrar um exame para avaliar conhecimentos ou habilidades",
+      "th": "สอบ, ทดสอบ; การสอบหรือจัดสอบเพื่อประเมินความรู้หรือทักษะ",
+      "tl": "Sumubok, mag-eksamen; kumuha o mag-administer ng pagsubok upang suriin ang kaalaman o kakayahan",
+      "ur": "امتحان لینا یا دینا؛ علم یا مہارت جانچنے کے لیے امتحان دینا یا لینا",
+      "vi": "Kiểm tra, thi; tham gia hoặc tổ chức một bài kiểm tra/kỳ thi để đánh giá kiến thức hoặc kỹ năng",
+      "zh": "考试、测试；参加或主持考试以评估知识或技能",
+      "zh_Hant": "考試、測試；參加或主持考試以評估知識或技能"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sɔ̀ːp/",
+    "examples": [
+      {
+        "lao_script": "ມື້ອື່ນຂ້ອຍຕ້ອງໄປສອບວິຊາຄະນິດສາດ",
+        "romanization": "Muu-uun khoi tong pai sop wicha kha-nit-saat",
+        "translations": {
+          "de": "Morgen muss ich meine Mathematikprüfung ablegen.",
+          "en": "Tomorrow I have to go take my math exam.",
+          "es": "Mañana tengo que ir a hacer mi examen de matemáticas.",
+          "fr": "Demain, je dois aller passer mon examen de mathématiques.",
+          "hi": "कल मुझे गणित की परीक्षा देने जाना है।",
+          "ja": "明日、数学の試験を受けに行かなければならない。",
+          "km": "ថ្ងៃស្អែកខ្ញុំត្រូវទៅប្រឡងគណិតវិទ្យា។",
+          "ko": "내일 나는 수학 시험을 보러 가야 해.",
+          "ne": "भोलि मलाई गणितको परीक्षा दिन जानु पर्छ।",
+          "pt": "Amanhã tenho que ir fazer minha prova de matemática.",
+          "th": "พรุ่งนี้ฉันต้องไปสอบวิชาคณิตศาสตร์",
+          "tl": "Bukas kailangan kong pumunta para mag-eksamen sa matematika.",
+          "ur": "کل مجھے ریاضی کا امتحان دینے جانا ہے۔",
+          "vi": "Ngày mai tôi phải đi thi môn toán.",
+          "zh": "明天我要去参加数学考试。",
+          "zh_Hant": "明天我要去參加數學考試。"
+        },
+        "out_of_scope_words": [
+          "ວິຊາຄະນິດສາດ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າສອບຜ່ານບໍ່?",
+        "romanization": "Jao sop phan bo?",
+        "translations": {
+          "de": "Hast du die Prüfung bestanden?",
+          "en": "Did you pass the exam?",
+          "es": "¿Pasaste el examen?",
+          "fr": "Est-ce que tu as réussi l'examen?",
+          "hi": "क्या तुमने परीक्षा पास की?",
+          "ja": "試験に合格した？",
+          "km": "តើអ្នកប្រឡងជាប់ទេ?",
+          "ko": "시험에 합격했어?",
+          "ne": "तिमीले परीक्षा पास गर्यौ?",
+          "pt": "Você passou no exame?",
+          "th": "แกสอบผ่านไหม?",
+          "tl": "Pumasa ka ba sa eksamen?",
+          "ur": "کیا تم امتحان میں پاس ہوئے؟",
+          "vi": "Bạn thi đậu không?",
+          "zh": "你考过了吗？",
+          "zh_Hant": "你考過了嗎？"
+        },
+        "out_of_scope_words": [
+          "ຜ່ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a student sitting at a desk writing on an exam paper, with a pencil in hand and a focused expression, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອຸ່ນ": {
+    "definitions": {
+      "de": "Warm; eine angenehme, mäßige Temperatur habend, weder heiß noch kalt",
+      "en": "Warm; having a pleasantly moderate temperature, neither hot nor cold",
+      "es": "Cálido, tibio; que tiene una temperatura moderada y agradable, ni caliente ni frío",
+      "fr": "Chaud, tiède; ayant une température modérée et agréable, ni chaud ni froid",
+      "hi": "गरम, उष्ण; सुखद मध्यम तापमान वाला, न बहुत गर्म न ठंडा",
+      "ja": "温かい；快適な中程度の温度を持つ、暑くも寒くもない",
+      "km": "កក់ក្តៅ; មានសីតុណ្ហភាពល្អទៅ មិនក្តៅហួស ហើយក៏មិនត្រជាក់ដែរ",
+      "ko": "따뜻한; 뜨겁지도 차갑지도 않은 쾌적한 적당한 온도를 가진",
+      "ne": "न्यानो; सुखद मध्यम तापक्रम भएको, न धेरै गर्मी न चिसो",
+      "pt": "Morno, quente; com uma temperatura moderada e agradável, nem quente nem frio",
+      "th": "อุ่น; มีอุณหภูมิที่พอเหมาะและน่าสบาย ไม่ร้อนหรือเย็นเกินไป",
+      "tl": "Mainit-init, maligamgam; may katamtamang temperatura na kasiya-siya, hindi mainit at hindi malamig",
+      "ur": "گرم، نرم گرم؛ خوشگوار اعتدال پسند درجہ حرارت والا، نہ زیادہ گرم نہ ٹھنڈا",
+      "vi": "Ấm; có nhiệt độ vừa phải dễ chịu, không nóng cũng không lạnh",
+      "zh": "温暖的；温度适中舒适，不热也不冷",
+      "zh_Hant": "溫暖的；溫度適中舒適，不熱也不冷"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/ʔūn/",
+    "examples": [
+      {
+        "lao_script": "ອາຫານຍັງອຸ່ນຢູ່ ກິນໄດ້ເລີຍ",
+        "romanization": "Aa-haan yang un yuu, kin dai loei",
+        "translations": {
+          "de": "Das Essen ist noch warm, du kannst sofort essen.",
+          "en": "The food is still warm, you can eat right away.",
+          "es": "La comida todavía está caliente, puedes comer de inmediato.",
+          "fr": "La nourriture est encore chaude, tu peux manger tout de suite.",
+          "hi": "खाना अभी भी गरम है, तुरंत खा सकते हो।",
+          "ja": "食べ物はまだ温かいから、すぐ食べていいよ。",
+          "km": "អាហារនៅក្តៅនៅឡើយ អាចញ៉ាំបានភ្លាមៗ។",
+          "ko": "음식이 아직 따뜻하니까 바로 먹어도 돼.",
+          "ne": "खाना अझै न्यानो छ, अहिलै खान सकिन्छ।",
+          "pt": "A comida ainda está quente, você pode comer logo.",
+          "th": "อาหารยังอุ่นอยู่ กินได้เลย",
+          "tl": "Mainit-init pa ang pagkain, maaari ka nang kumain agad.",
+          "ur": "کھانا ابھی بھی گرم ہے، ابھی کھا سکتے ہو۔",
+          "vi": "Đồ ăn vẫn còn ấm, có thể ăn ngay được.",
+          "zh": "食物还是温的，可以马上吃。",
+          "zh_Hant": "食物還是溫的，可以馬上吃。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ອາກາດມື້ນີ້ອຸ່ນດີ ບໍ່ຮ້ອນເກີນໄປ",
+        "romanization": "Aa-gaat muu-nii un dii, bo hon koen pai",
+        "translations": {
+          "de": "Das Wetter heute ist angenehm warm, nicht zu heiß.",
+          "en": "The weather today is nicely warm, not too hot.",
+          "es": "El clima de hoy es agradablemente cálido, no demasiado caliente.",
+          "fr": "Le temps aujourd'hui est agréablement chaud, pas trop chaud.",
+          "hi": "आज का मौसम अच्छा गर्म है, बहुत ज्यादा गर्म नहीं।",
+          "ja": "今日の天気は気持ちよく暖かくて、暑すぎない。",
+          "km": "អាកាសធាតុថ្ងៃនេះក្តៅល្អ មិនក្តៅហួសប្រមាណ។",
+          "ko": "오늘 날씨는 따뜻해서 좋아, 너무 덥지 않아.",
+          "ne": "आजको मौसम राम्रोसँग न्यानो छ, धेरै गर्मी छैन।",
+          "pt": "O tempo hoje está agradavelmente quente, não muito quente.",
+          "th": "อากาศวันนี้อุ่นดี ไม่ร้อนเกินไป",
+          "tl": "Ang panahon ngayon ay kaaya-ayang mainit-init, hindi masyadong mainit.",
+          "ur": "آج کا موسم اچھا گرم ہے، زیادہ گرم نہیں۔",
+          "vi": "Thời tiết hôm nay ấm áp dễ chịu, không quá nóng.",
+          "zh": "今天天气暖和，不太热。",
+          "zh_Hant": "今天天氣暖和，不太熱。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a steaming bowl of soup with gentle warmth lines rising from it, placed on a wooden table, clean white background, warm orange and yellow tones, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຖ້ວມ": {
+    "definitions": {
+      "de": "Überschwemmung; eine große Menge Wasser, die Land oder Gebiete bedeckt, die normalerweise trocken sind; überschwemmt sein",
+      "en": "Flood; a large overflow of water that submerges land or areas that are normally dry; to be flooded",
+      "es": "Inundación; un gran desbordamiento de agua que cubre tierras o áreas que normalmente están secas; estar inundado",
+      "fr": "Inondation; un grand débordement d'eau qui submerge des terres ou des zones normalement sèches; être inondé",
+      "hi": "बाढ़; पानी का बड़ा अतिप्रवाह जो सामान्यतः सूखी भूमि या क्षेत्रों को डुबो देता है; बाढ़ में डूबना",
+      "ja": "洪水；通常は乾いている土地や地域を水浸しにする大量の水の氾濫；水没する",
+      "km": "ទឹកជំនន់; ទឹកហូរច្រោះដែលលិចលង់ដីឬតំបន់ដែលជាធម្មតារងស្ងួត; ត្រូវបានលិចលង់",
+      "ko": "홍수; 일반적으로 건조한 땅이나 지역을 침수시키는 대규모 물 범람; 침수되다",
+      "ne": "बाढी; सामान्यतः सुख्खा भूमि वा क्षेत्रहरूलाई डुबाउने ठूलो पानीको बाढी; बाढीमा डुब्नु",
+      "pt": "Enchente, inundação; grande transbordamento de água que submerge terras ou áreas normalmente secas; estar inundado",
+      "th": "น้ำท่วม; การไหลบ่าของน้ำจำนวนมากที่ท่วมพื้นที่ซึ่งโดยปกติแห้ง; ถูกน้ำท่วม",
+      "tl": "Baha; malaking pagapaw ng tubig na nagtatakip ng lupa o mga lugar na karaniwang tuyo; binabaha",
+      "ur": "سیلاب؛ پانی کا بڑا بہاؤ جو عام طور پر خشک زمین یا علاقوں کو ڈبو دے؛ سیلاب آنا",
+      "vi": "Lũ lụt; lượng nước lớn tràn ra làm ngập những vùng đất thường khô ráo; bị ngập lụt",
+      "zh": "洪水、水灾；大量水溢出淹没通常干燥的土地或地区；被淹没",
+      "zh_Hant": "洪水、水災；大量水溢出淹沒通常乾燥的土地或地區；被淹沒"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰûam/",
+    "examples": [
+      {
+        "lao_script": "ປີນີ້ນ້ຳຖ້ວມຫລາຍຫ້ອງ ເຈັ້ຍເສຍຫາຍຫລາຍ",
+        "romanization": "Pii nii nam tuam laai hong, jia sia-haai laai",
+        "translations": {
+          "de": "In diesem Jahr wurden viele Zimmer überschwemmt und viel Papier/Dokumente wurden beschädigt.",
+          "en": "This year the flood reached many rooms and a lot of things got damaged.",
+          "es": "Este año la inundación llegó a muchas habitaciones y muchas cosas resultaron dañadas.",
+          "fr": "Cette année, les inondations ont atteint beaucoup de pièces et beaucoup de choses ont été endommagées.",
+          "hi": "इस साल बाढ़ ने कई कमरों को डुबो दिया और बहुत कुछ नुकसान हुआ।",
+          "ja": "今年は洪水が多くの部屋に入って、たくさんのものが被害を受けた。",
+          "km": "ឆ្នាំនេះទឹកជំនន់លិចបន្ទប់ជាច្រើន ហើយរបស់របរខូចខាតច្រើន។",
+          "ko": "올해는 홍수로 많은 방이 침수되어 물건들이 많이 손상됐어.",
+          "ne": "यो वर्ष बाढीले धेरै कोठाहरू डुबायो र धेरै कुराहरू बर्बाद भयो।",
+          "pt": "Este ano a enchente atingiu muitos cômodos e muita coisa foi danificada.",
+          "th": "ปีนี้น้ำท่วมหลายห้อง ของเสียหายเยอะมาก",
+          "tl": "Ngayong taon maraming silid ang nabaha at maraming bagay ang nasira.",
+          "ur": "اس سال سیلاب نے بہت سے کمرے ڈبو دیے اور بہت کچھ نقصان ہوا۔",
+          "vi": "Năm nay nước lũ ngập nhiều phòng, đồ đạc hư hại nhiều lắm.",
+          "zh": "今年洪水淹了很多房间，损失了很多东西。",
+          "zh_Hant": "今年洪水淹了很多房間，損失了很多東西。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ເຈ້ຍ",
+          "ເສຍຫາຍ"
+        ]
+      },
+      {
+        "lao_script": "ຖ້ອຍ ຖ້ວມແລ້ວ ເຮົາຄວນຍ້າຍໄປກ່ອນ",
+        "romanization": "Thoi tuam laeo, hao khuan yaai pai kon",
+        "translations": {
+          "de": "Hey, es überschwemmt schon, wir sollten besser zuerst umziehen.",
+          "en": "Hey, it's already flooding, we should move out first.",
+          "es": "Oye, ya está inundando, deberíamos mudarnos primero.",
+          "fr": "Hé, ça inonde déjà, on devrait déménager d'abord.",
+          "hi": "अरे, बाढ़ आ गई है, हमें पहले यहाँ से चले जाना चाहिए।",
+          "ja": "ねえ、もう浸水してるよ、先に引っ越した方がいい。",
+          "km": "ហ្នឹង! ទឹកជំនន់មកហើយ យើងគួរតែផ្លាស់ទៅជាមុន។",
+          "ko": "야, 벌써 물이 차고 있어, 우리 먼저 이사 가야 해.",
+          "ne": "ए! बाढी आइसक्यो, हामी पहिले सर्नुपर्छ।",
+          "pt": "Ei, já está enchendo, a gente deveria se mudar primeiro.",
+          "th": "เฮ้ ท่วมแล้ว เราควรย้ายไปก่อนนะ",
+          "tl": "Hoy, binabaha na, dapat lumipat na tayo muna.",
+          "ur": "ارے! سیلاب آ گیا، ہمیں پہلے نکل جانا چاہیے۔",
+          "vi": "Này, nước ngập rồi, chúng ta nên dọn đi trước đi.",
+          "zh": "哎，已经涨水了，我们应该先搬走。",
+          "zh_Hant": "哎，已經漲水了，我們應該先搬走。"
+        },
+        "out_of_scope_words": [
+          "ຍ້າຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a flooded street with water covering the road and reaching the bottom of houses, with a few sandbags visible, clean white background, blue water tones, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຝຣັ່ງ": {
+    "definitions": {
+      "de": "Franzose/Französin; Westeuropäer/in; im Lao-Kontext oft verwendet für Franzosen oder generell für westliche Ausländer, besonders Europäer",
+      "en": "French person; Westerner; in Lao context, used to refer to French people or broadly to Western foreigners, especially Europeans",
+      "es": "Francés/Francesa; occidental; en el contexto lao, se usa para referirse a personas francesas o en general a extranjeros occidentales, especialmente europeos",
+      "fr": "Français/Française; Occidental(e); dans le contexte lao, utilisé pour désigner les Français ou plus largement les étrangers occidentaux, surtout les Européens",
+      "hi": "फ्रांसीसी; पश्चिमी विदेशी; लाओ संदर्भ में, फ्रांसीसी लोगों या सामान्यतः पश्चिमी विदेशियों, विशेषकर यूरोपीयों के लिए उपयोग किया जाता है",
+      "ja": "フランス人；西洋人；ラオスの文脈では、フランス人または広く西洋の外国人、特にヨーロッパ人を指すのに使われる",
+      "km": "ជនជាតិបារាំង; ជនជាតិលោកខាងលិច; នៅក្នុងបរិបទឡាវ ត្រូវបានប្រើដើម្បីសំដៅទៅលើជនជាតិបារាំង ឬជាទូទៅជនបរទេសខាងលិច ជាពិសេសជនជាតិអឺរ៉ុប",
+      "ko": "프랑스인; 서양인; 라오스 맥락에서 프랑스인 또는 넓게는 서양 외국인, 특히 유럽인을 가리키는 데 사용됨",
+      "ne": "फ्रान्सेली; पश्चिमी विदेशी; लाओ सन्दर्भमा, फ्रान्सेली मानिसहरू वा सामान्यतः पश्चिमी विदेशीहरू, विशेषगरी युरोपेलीहरूलाई जनाउन प्रयोग गरिन्छ",
+      "pt": "Francês/Francesa; ocidental; no contexto laosiano, usado para se referir a franceses ou genericamente a estrangeiros ocidentais, especialmente europeus",
+      "th": "ชาวฝรั่งเศส; ชาวตะวันตก; ในบริบทของลาว ใช้เรียกชาวฝรั่งเศสหรือโดยทั่วไปหมายถึงชาวต่างชาติตะวันตก โดยเฉพาะชาวยุโรป",
+      "tl": "Pranses; Kanluranin; sa kontekstong Lao, ginagamit para tumukoy sa mga Pranses o sa pangkalahatan sa mga dayuhang Kanluranin, lalo na ang mga Europeo",
+      "ur": "فرانسیسی؛ مغربی غیر ملکی؛ لاؤ تناظر میں، فرانسیسی لوگوں یا عام طور پر مغربی غیر ملکیوں، خاص طور پر یورپیوں کے لیے استعمال ہوتا ہے",
+      "vi": "Người Pháp; người phương Tây; trong bối cảnh Lào, được dùng để chỉ người Pháp hoặc rộng hơn là người nước ngoài phương Tây, đặc biệt là người châu Âu",
+      "zh": "法国人；西方人；在老挝语境中，用于指称法国人或泛指西方外国人，尤其是欧洲人",
+      "zh_Hant": "法國人；西方人；在寮國語境中，用於指稱法國人或泛指西方外國人，尤其是歐洲人"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/faŋ/",
+    "examples": [
+      {
+        "lao_script": "ມີຝຣັ່ງສອງຄົນມານັ່ງກິນເຂົ້າຢູ່ຮ້ານ",
+        "romanization": "Mii fang song khon maa nang kin khao yuu haan",
+        "translations": {
+          "de": "Es sind zwei Westler/Franzosen im Restaurant und essen.",
+          "en": "There are two Westerners sitting and eating at the restaurant.",
+          "es": "Hay dos occidentales sentados comiendo en el restaurante.",
+          "fr": "Il y a deux Occidentaux assis en train de manger au restaurant.",
+          "hi": "रेस्तरां में दो पश्चिमी लोग बैठकर खाना खा रहे हैं।",
+          "ja": "レストランに西洋人が2人座って食べている。",
+          "km": "មានជនជាតិបស្ចឹមប្រទេសពីរនាក់កំពុងអង្គុយញ៉ាំបាយនៅហាង។",
+          "ko": "식당에 서양인 두 명이 앉아서 밥을 먹고 있어.",
+          "ne": "रेस्टुरेन्टमा दुई जना पश्चिमी मानिसहरू बसेर खाना खाइरहेका छन्।",
+          "pt": "Tem dois ocidentais sentados comendo no restaurante.",
+          "th": "มีฝรั่งสองคนนั่งกินข้าวอยู่ที่ร้าน",
+          "tl": "May dalawang Kanluranin na nakaupo at kumakain sa restawran.",
+          "ur": "ریستوران میں دو مغربی بیٹھ کر کھانا کھا رہے ہیں۔",
+          "vi": "Có hai người Tây đang ngồi ăn ở quán.",
+          "zh": "餐厅里有两个外国人坐着吃饭。",
+          "zh_Hant": "餐廳裡有兩個外國人坐著吃飯。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ"
+        ]
+      },
+      {
+        "lao_script": "ຝຣັ່ງຄົນນັ້ນເວົ້າພາສາລາວໄດ້ດີຫລາຍ",
+        "romanization": "Fang khon nan vao phaa-saa Lao dai dii laai",
+        "translations": {
+          "de": "Dieser Westler/Franzose spricht sehr gut Laotisch.",
+          "en": "That Westerner speaks Lao really well.",
+          "es": "Ese occidental habla laosiano muy bien.",
+          "fr": "Cet Occidental parle très bien le laotien.",
+          "hi": "वह पश्चिमी व्यक्ति लाओ भाषा बहुत अच्छे से बोलता है।",
+          "ja": "あの西洋人はラオス語がとても上手だ。",
+          "km": "ជនជាតិបស្ចឹមប្រទេសម្នាក់នោះនិយាយភាសាឡាវវាល្អណាស់។",
+          "ko": "저 서양인은 라오어를 정말 잘 해.",
+          "ne": "त्यो पश्चिमी मानिस लाओ भाषा धेरै राम्रोसँग बोल्छ।",
+          "pt": "Aquele ocidental fala lao muito bem.",
+          "th": "ฝรั่งคนนั้นพูดภาษาลาวได้ดีมากเลย",
+          "tl": "Ang Kanluranin na iyon ay nagsasalita ng Lao nang napakahusay.",
+          "ur": "وہ مغربی شخص لاؤ زبان بہت اچھی طرح بولتا ہے۔",
+          "vi": "Người Tây đó nói tiếng Lào giỏi lắm.",
+          "zh": "那个外国人老挝语说得很好。",
+          "zh_Hant": "那個外國人寮語說得很好。"
+        },
+        "out_of_scope_words": [
+          "ພາສາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly-looking Western tourist with a backpack and camera, standing in front of a Southeast Asian-style building, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄຫວ": {
+    "definitions": {
+      "de": "In der Lage sein, etwas zu schaffen oder zu bewältigen; können, imstande sein (im Sinne von Kapazität oder Fähigkeit); auch verwendet für die traditionelle Begrüßungsgeste (Hände zusammenfalten und verneigen)",
+      "en": "To be able to manage, handle, or cope with something; to be capable (in terms of capacity or physical/mental ability); also refers to the traditional greeting gesture of pressing palms together",
+      "es": "Poder manejar, gestionar o lidiar con algo; ser capaz (en términos de capacidad física o mental); también se refiere al gesto de saludo tradicional con las palmas unidas",
+      "fr": "Être capable de gérer ou de s'en sortir avec quelque chose; pouvoir (en termes de capacité physique ou mentale); également utilisé pour le geste de salutation traditionnel avec les paumes jointes",
+      "hi": "कुछ संभाल पाना, कर पाना; सक्षम होना (शारीरिक या मानसिक क्षमता के संदर्भ में); पारंपरिक अभिवादन मुद्रा (हथेलियाँ जोड़कर झुकना) के लिए भी उपयोग",
+      "ja": "何かに対処したり、こなしたりできる；可能である（体力的・精神的な能力の意味で）；また、合掌して頭を下げる伝統的な挨拶の仕草も指す",
+      "km": "អាចគ្រប់គ្រង ឬដោះស្រាយបានអ្វីមួយ; មានសមត្ថភាព (ក្នុងន័យសមត្ថភាពរាងកាយ ឬផ្លូវចិត្ត); ក៏សំដៅទៅលើកាយវិការនៃការស្វាគមន៍ប្រពៃណីដោយប្រណម្យដៃ",
+      "ko": "무언가를 감당하거나 해낼 수 있다; 할 수 있다 (체력적·정신적 능력의 의미로); 또한 손을 모아 인사하는 전통 인사 동작을 가리키기도 함",
+      "ne": "केही गर्न वा सामना गर्न सक्नु; सक्षम हुनु (शारीरिक वा मानसिक क्षमताको अर्थमा); परम्परागत अभिवादन मुद्रा (हत्केला जोडेर झुक्नु) लाई पनि जनाउँछ",
+      "pt": "Conseguir lidar ou dar conta de algo; ser capaz (em termos de capacidade física ou mental); também se refere ao gesto de saudação tradicional com as palmas unidas",
+      "th": "สามารถจัดการหรือรับมือกับบางสิ่งได้; ทำได้, ไหว (ในความหมายของความสามารถทางกายหรือจิตใจ); ยังหมายถึงท่าทางการทักทายแบบดั้งเดิมด้วยการประนมมือ",
+      "tl": "Kayang harapin o hawakan ang isang bagay; kaya (sa kahulugan ng kakayahang pisikal o mental); tumutukoy rin sa tradisyonal na kilos ng pagbati sa pamamagitan ng pagpipi ng mga palad",
+      "ur": "کچھ سنبھال یا نمٹ سکنا؛ قابل ہونا (جسمانی یا ذہنی صلاحیت کے معنی میں)؛ روایتی سلام کے اشارے (ہتھیلیاں جوڑ کر جھکنا) کے لیے بھی استعمال",
+      "vi": "Có thể xoay xở, đối phó hoặc k감당 được điều gì đó; có khả năng (về thể chất hoặc tinh thần); cũng chỉ cử chỉ chào hỏi truyền thống chắp tay cúi đầu",
+      "zh": "能够应付、处理某事；能行、做得到（指体力或精力上的能力）；也指双手合十鞠躬的传统问候姿势",
+      "zh_Hant": "能夠應付、處理某事；能行、做得到（指體力或精力上的能力）；也指雙手合十鞠躬的傳統問候姿勢"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/wǎj/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໄຫວບໍ່? ຖ້ອຍຊ່ວຍໄດ້ນະ",
+        "romanization": "Jao wai bo? Thoi suai dai na",
+        "translations": {
+          "de": "Schaffst du das? Ich kann dir helfen.",
+          "en": "Can you manage? I can help you.",
+          "es": "¿Puedes con eso? Yo puedo ayudarte.",
+          "fr": "Tu t'en sors? Je peux t'aider.",
+          "hi": "क्या तुम संभाल सकते हो? मैं तुम्हारी मदद कर सकता हूँ।",
+          "ja": "大丈夫？手伝えるよ。",
+          "km": "អ្នកអាចដោះស្រាយបានទេ? ខ្ញុំអាចជួយបាននៅ",
+          "ko": "혼자 할 수 있어? 내가 도와줄 수 있어.",
+          "ne": "तिमी गर्न सक्छौ? म सहयोग गर्न सक्छु नि।",
+          "pt": "Você consegue? Posso te ajudar.",
+          "th": "แกไหวมั้ย? กูช่วยได้นะ",
+          "tl": "Kaya mo ba? Makakatulong ako sa iyo.",
+          "ur": "کیا تم سنبھال سکتے ہو؟ میں مدد کر سکتا ہوں۔",
+          "vi": "Bạn kham nổi không? Mình có thể giúp được đấy.",
+          "zh": "你行吗？我可以帮你哦。",
+          "zh_Hant": "你行嗎？我可以幫你喔。"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາໄຫວຜູ້ໃຫຍ່ທຸກຄັ້ງທີ່ພົບ",
+        "romanization": "Hao wai puu-nyai thuk khan thi phop",
+        "translations": {
+          "de": "Wir machen den Wai-Gruß vor Älteren jedes Mal, wenn wir sie treffen.",
+          "en": "We do the wai greeting to elders every time we meet them.",
+          "es": "Hacemos el saludo wai a los mayores cada vez que nos encontramos con ellos.",
+          "fr": "On fait le salut wai aux aînés chaque fois qu'on les rencontre.",
+          "hi": "जब भी हम बड़ों से मिलते हैं, उन्हें वाई की मुद्रा में नमस्कार करते हैं।",
+          "ja": "目上の人に会うたびにワイ（合掌の挨拶）をする。",
+          "km": "យើងធ្វើការ wai ចំពោះមនុស្សចំណាស់រាល់ពេលជួប។",
+          "ko": "우리는 어른을 만날 때마다 와이 인사를 해.",
+          "ne": "हामी जेठाहरूलाई भेट्दा हरेक पटक वाइ अभिवादन गर्छौं।",
+          "pt": "A gente faz o wai para os mais velhos toda vez que os encontra.",
+          "th": "เราไหว้ผู้ใหญ่ทุกครั้งที่เจอ",
+          "tl": "Nagwa-wai kami sa matatanda tuwing nagkikita kami.",
+          "ur": "ہم بزرگوں کو جب بھی ملتے ہیں، ہمیشہ وائی کا سلام کرتے ہیں۔",
+          "vi": "Chúng tôi cúi chào người lớn mỗi khi gặp.",
+          "zh": "我们每次见到长辈都会行合十礼。",
+          "zh_Hant": "我們每次見到長輩都會行合十禮。"
+        },
+        "out_of_scope_words": [
+          "ຜູ້ໃຫຍ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two scenarios side by side: on the left, a person with hands pressed together in a traditional Southeast Asian wai greeting bow; on the right, a person confidently carrying a heavy box with a thumbs-up, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

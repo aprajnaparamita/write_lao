@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍັງ",
+  "definitions": {
+    "de": "Noch; immer noch; noch nicht; ein Aspektmarker, der anzeigt, dass eine Handlung oder ein Zustand andauert oder noch nicht abgeschlossen ist",
+    "en": "Still; yet; an aspect marker indicating that an action or state is ongoing or has not yet been completed",
+    "es": "Todavía; aún; marcador de aspecto que indica que una acción o estado continúa o aún no se ha completado",
+    "fr": "Encore; toujours; marqueur d'aspect indiquant qu'une action ou un état se poursuit ou n'est pas encore terminé",
+    "hi": "अभी भी; अभी तक; एक पक्ष चिह्नक जो दर्शाता है कि कोई क्रिया या अवस्था जारी है या अभी पूरी नहीं हुई है",
+    "ja": "まだ；依然として；動作や状態が継続中であることや、まだ完了していないことを示すアスペクトマーカー",
+    "km": "នៅ; នៅតែ; សញ្ញាបំណែងដែលបង្ហាញថាសកម្មភាព ឬស្ថានភាពកំពុងបន្តអនុវត្ត ឬមិនទាន់បញ្ចប់",
+    "ko": "아직; 여전히; 동작이나 상태가 진행 중이거나 아직 완료되지 않았음을 나타내는 상 표지",
+    "ne": "अझै; अझैसम्म; एक पक्ष चिह्न जसले कुनै क्रिया वा अवस्था जारी रहेको वा अझसम्म पूरा नभएको जनाउँछ",
+    "pt": "Ainda; um marcador de aspecto que indica que uma ação ou estado está em curso ou ainda não foi concluído",
+    "th": "ยัง; ยังคง; คำบอกลักษณะที่แสดงว่าการกระทำหรือสภาวะยังคงดำเนินอยู่หรือยังไม่สิ้นสุด",
+    "tl": "Pa rin; hindi pa; isang pang-aspeto na nagpapahiwatig na ang isang kilos o kalagayan ay nagpapatuloy o hindi pa natapos",
+    "ur": "ابھی بھی؛ ابھی تک؛ ایک پہلو نشان جو ظاہر کرتا ہے کہ کوئی عمل یا حالت جاری ہے یا ابھی مکمل نہیں ہوئی",
+    "vi": "Vẫn; vẫn còn; chưa; một từ chỉ thể diện cho thấy một hành động hoặc trạng thái đang tiếp diễn hoặc chưa hoàn thành",
+    "zh": "还；仍然；尚未；表示动作或状态仍在持续或尚未完成的体貌标记",
+    "zh_Hant": "還；仍然；尚未；表示動作或狀態仍在持續或尚未完成的體貌標記"
+  },
+  "definition_en": "Still; yet; an aspect marker indicating that an action or state is ongoing or has not yet been completed",
+  "romanization": "ɲáŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຍັງກິນເຂົ້າບໍ່ທັນແມ່ນບໍ",
+      "romanization": "tɕâw ɲáŋ kin kʰâo bɔ̀ tʰán mɛ̄ːn bɔ̀",
+      "translation_en": "You still haven't eaten yet, right?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຍັງຮັກເຈົ້າຢູ່ສະເໝີ",
+      "romanization": "kʰɔ̂j ɲáŋ hak tɕâw jùː sa-mə̌ː",
+      "translation_en": "I still love you always."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clock or hourglass with a figure still waiting or an ongoing action shown with a continuous arrow loop, representing 'still' or 'not yet done', suitable for a language learning app, clean white background, colorful, minimalist style."
+}

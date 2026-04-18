@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທ່າ",
+  "definitions": {
+    "de": "Pier, Anlegestelle; auch: Körperhaltung, Geste oder Pose",
+    "en": "pier, landing dock; also a pose, stance, or gesture of the body",
+    "es": "muelle, embarcadero; también postura, gesto o pose corporal",
+    "fr": "embarcadère, quai; aussi posture, geste ou pose du corps",
+    "hi": "घाट, जेटी; साथ ही शरीर की मुद्रा, भाव-भंगिमा या पोज़",
+    "ja": "桟橋、船着き場；また体の姿勢、ポーズ、身振り",
+    "km": "កំពង់ផែ, ท่าเรือ; ក៏ដូចជាឥរិយាបថ ឬទឹកមុខ",
+    "ko": "선착장, 부두; 또는 자세, 몸짓, 포즈",
+    "ne": "घाट, जेटी; साथै शरीरको मुद्रा, भाव वा पोज",
+    "pt": "cais, atracadouro; também postura, gesto ou pose corporal",
+    "th": "ท่า; ท่าเรือหรือท่าน้ำ; รวมถึงท่าทาง ท่าทีหรือท่าร่างกาย",
+    "tl": "daungan, pantalan; gayundin ang tindig, galaw, o pose ng katawan",
+    "ur": "گھاٹ، جیٹی؛ نیز جسمانی انداز، اشارہ یا پوز",
+    "vi": "bến tàu, cầu cảng; cũng có nghĩa là tư thế, dáng điệu hoặc cử chỉ",
+    "zh": "码头、渡口；也指身体姿势、姿态或手势",
+    "zh_Hant": "碼頭、渡口；也指身體姿勢、姿態或手勢"
+  },
+  "definition_en": "pier, landing dock; also a pose, stance, or gesture of the body",
+  "romanization": "tʰaː³³",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອຈອດຢູ່ທ່ານ້ຳ",
+      "romanization": "hɯːa jɔːt juː tʰaː naːm",
+      "translation_en": "The boat is docked at the riverside pier."
+    },
+    {
+      "lao_script": "ທ່າຂອງເຈົ້າສວຍຫຼາຍ",
+      "romanization": "tʰaː kʰɔːŋ jao suaj laːj",
+      "translation_en": "Your pose is really beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: one showing a wooden riverside pier with a small boat docked, and another showing a person striking a graceful pose, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

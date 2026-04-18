@@ -1,0 +1,386 @@
+{
+  "ຂ່າວ": {
+    "definitions": {
+      "de": "Nachrichten; aktuelle Informationen über Ereignisse",
+      "en": "News; information about recent events",
+      "es": "Noticias; información sobre eventos recientes",
+      "fr": "Nouvelles; informations sur des événements récents",
+      "hi": "समाचार; हाल की घटनाओं की जानकारी",
+      "ja": "ニュース；最近の出来事に関する情報",
+      "km": "ព័ត៌មាន; ข้อมูลเกี่ยวกับព្រឹត្តការណ៍ថ្មីៗ",
+      "ko": "뉴스; 최근 사건에 대한 정보",
+      "ne": "समाचार; हालसालका घटनाहरूको जानकारी",
+      "pt": "Notícia; informação sobre eventos recentes",
+      "th": "ข่าว; ข้อมูลเกี่ยวกับเหตุการณ์ล่าสุด",
+      "tl": "Balita; impormasyon tungkol sa mga kamakailang pangyayari",
+      "ur": "خبر؛ حالیہ واقعات کے بارے میں معلومات",
+      "vi": "Tin tức; thông tin về các sự kiện gần đây",
+      "zh": "新闻；关于近期事件的信息",
+      "zh_Hant": "新聞；關於近期事件的資訊"
+    },
+    "part_of_speech": "noun",
+    "romanization": "khao",
+    "examples": [
+      {
+        "lao_script": "ເມື່ອຄືນນີ້ ຂ້ອຍເບິ່ງຂ່າວທາງໂທລະທັດ",
+        "romanization": "muean khuen nii, khoi boeng khao thang tholalat",
+        "translations": {
+          "de": "Gestern Abend habe ich die Nachrichten im Fernsehen geschaut.",
+          "en": "Last night I watched the news on TV.",
+          "es": "Anoche vi las noticias en la televisión.",
+          "fr": "Hier soir, j'ai regardé les nouvelles à la télévision.",
+          "hi": "कल रात मैंने टीवी पर समाचार देखा।",
+          "ja": "昨夜、テレビでニュースを見た。",
+          "km": "កាលពីយប់មិញ ខ្ញុំបានមើលព័ត៌មានតាមទូរទស្សន៍។",
+          "ko": "어젯밤에 TV로 뉴스를 봤어.",
+          "ne": "हिजो राति मैले टिभिमा समाचार हेरेँ।",
+          "pt": "Ontem à noite assisti ao noticiário na televisão.",
+          "th": "เมื่อคืนฉันดูข่าวทางโทรทัศน์",
+          "tl": "Kagabi, nanood ako ng balita sa TV.",
+          "ur": "کل رات میں نے ٹی وی پر خبریں دیکھیں۔",
+          "vi": "Tối qua tôi xem tin tức trên TV.",
+          "zh": "昨晚我在电视上看了新闻。",
+          "zh_Hant": "昨晚我在電視上看了新聞。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະທັດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ່າວນີ້ດີຫຼາຍ ຕ້ອງໄປບອກໝູ່ກ່ອນ",
+        "romanization": "khao nii dii lai, tong pai bok muu kon",
+        "translations": {
+          "de": "Diese Nachricht ist sehr gut, ich muss es zuerst meinen Freunden sagen.",
+          "en": "This news is really good, I have to go tell my friends first.",
+          "es": "Esta noticia es muy buena, tengo que ir a contársela a mis amigos primero.",
+          "fr": "Cette nouvelle est vraiment bonne, je dois aller le dire à mes amis d'abord.",
+          "hi": "यह खबर बहुत अच्छी है, पहले दोस्तों को बताना होगा।",
+          "ja": "このニュースはすごくいい、まず友達に伝えに行かないと。",
+          "km": "ព័ត៌មាននេះល្អណាស់ ត្រូវទៅប្រាប់មិត្តភក្តិជាមុនសិន។",
+          "ko": "이 소식 정말 좋다, 먼저 친구들한테 알려야겠어.",
+          "ne": "यो समाचार एकदमै राम्रो छ, पहिले साथीहरूलाई भन्न जानुपर्छ।",
+          "pt": "Essa notícia é muito boa, preciso ir contar para os meus amigos primeiro.",
+          "th": "ข่าวนี้ดีมาก ต้องไปบอกเพื่อนก่อนเลย",
+          "tl": "Napakagandang balita ito, kailangan ko munang sabihin sa mga kaibigan.",
+          "ur": "یہ خبر بہت اچھی ہے، پہلے دوستوں کو بتانا ہوگا۔",
+          "vi": "Tin này tốt lắm, phải đi báo cho bạn bè trước đã.",
+          "zh": "这个消息太好了，得先去告诉朋友们。",
+          "zh_Hant": "這個消息太好了，得先去告訴朋友們。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a news broadcast on a television screen showing a news anchor, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແທນ": {
+    "definitions": {
+      "de": "Statt; ersetzen; anstelle von etwas oder jemandem stehen",
+      "en": "Instead; to replace or substitute something or someone",
+      "es": "En vez de; reemplazar; sustituir algo o a alguien",
+      "fr": "À la place de; remplacer; se substituer à quelque chose ou quelqu'un",
+      "hi": "बजाय; प्रतिस्थापित करना; किसी चीज़ या व्यक्ति की जगह लेना",
+      "ja": "代わりに；代替する；何かや誰かの代わりになる",
+      "km": "ជំនួស; ជំនួយ; ធ្វើជំនួសអ្វីមួយ ឬនរណាម្នាក់",
+      "ko": "대신; 대체하다; 무언가 또는 누군가를 대신하다",
+      "ne": "सट्टामा; प्रतिस्थापन गर्नु; कसैको वा केहीको ठाउँ लिनु",
+      "pt": "Em vez de; substituir; tomar o lugar de algo ou alguém",
+      "th": "แทน; แทนที่; ทำหน้าที่แทนสิ่งหรือบุคคลอื่น",
+      "tl": "Sa halip; palitan; kumatawan o pumalit sa isang bagay o tao",
+      "ur": "بجائے؛ تبدیل کرنا؛ کسی چیز یا شخص کی جگہ لینا",
+      "vi": "Thay vì; thay thế; đại diện cho người hoặc vật khác",
+      "zh": "代替；替换；取代某人或某物",
+      "zh_Hant": "代替；替換；取代某人或某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "then",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ຂ້ອຍຈະກິນເຂົ້າໜຽວແທນເຂົ້າຈ້າວ",
+        "romanization": "mue nii khoi ja kin khao niao then khao jao",
+        "translations": {
+          "de": "Heute esse ich Klebreis statt normalem Reis.",
+          "en": "Today I'll eat sticky rice instead of regular rice.",
+          "es": "Hoy voy a comer arroz glutinoso en vez de arroz normal.",
+          "fr": "Aujourd'hui je vais manger du riz gluant à la place du riz ordinaire.",
+          "hi": "आज मैं साधारण चावल की जगह चिपचिपा चावल खाऊँगा।",
+          "ja": "今日は普通のご飯の代わりにもち米を食べるよ。",
+          "km": "ថ្ងៃនេះខ្ញុំនឹងញ៉ាំបាយដំណើបជំនួសបាយធម្មតា។",
+          "ko": "오늘은 일반 쌀 대신 찹쌀밥을 먹을 거야.",
+          "ne": "आज म सामान्य भातको सट्टा टाँसिने भात खान्छु।",
+          "pt": "Hoje vou comer arroz glutinoso em vez de arroz comum.",
+          "th": "วันนี้ฉันจะกินข้าวเหนียวแทนข้าวจ้าว",
+          "tl": "Ngayon kakain ako ng malagkit na bigas sa halip na kanin.",
+          "ur": "آج میں عام چاول کی بجائے چپچپے چاول کھاؤں گا۔",
+          "vi": "Hôm nay tôi sẽ ăn xôi thay vì cơm thường.",
+          "zh": "今天我要吃糯米饭代替普通米饭。",
+          "zh_Hant": "今天我要吃糯米飯代替普通米飯。"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າໜຽວ",
+          "ເຂົ້າຈ້າວ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຊ່ວຍໄປແທນຂ້ອຍໄດ້ບໍ່",
+        "romanization": "jao suai pai then khoi dai bo",
+        "translations": {
+          "de": "Kannst du für mich hingehen?",
+          "en": "Can you go instead of me?",
+          "es": "¿Puedes ir en mi lugar?",
+          "fr": "Tu peux y aller à ma place?",
+          "hi": "क्या तुम मेरी जगह जा सकते हो?",
+          "ja": "私の代わりに行ってもらえる？",
+          "km": "តើអ្នកអាចទៅជំនួសខ្ញុំបានទេ?",
+          "ko": "나 대신 가줄 수 있어?",
+          "ne": "के तिमी मेरो सट्टामा जान सक्छौ?",
+          "pt": "Você pode ir no meu lugar?",
+          "th": "ช่วยไปแทนฉันได้ไหม",
+          "tl": "Maaari ka bang pumunta para sa akin?",
+          "ur": "کیا تم میری جگہ جا سکتے ہو؟",
+          "vi": "Bạn có thể đi thay tôi được không?",
+          "zh": "你能代替我去吗？",
+          "zh_Hant": "你能代替我去嗎？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two arrows, one replacing the other, with two similar objects side by side where one is swapping places with the other, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພົບ": {
+    "definitions": {
+      "de": "Treffen; finden; auf jemanden oder etwas stoßen",
+      "en": "To meet or find; to encounter someone or discover something",
+      "es": "Encontrar; reunirse con alguien o descubrir algo",
+      "fr": "Rencontrer; trouver; tomber sur quelqu'un ou quelque chose",
+      "hi": "मिलना; ढूंढना; किसी से मिलना या कुछ खोजना",
+      "ja": "会う；見つける；誰かに出会う、または何かを発見する",
+      "km": "ជួប; រក; ជួបប្រទះនរណាម្នាក់ ឬរកឃើញអ្វីមួយ",
+      "ko": "만나다; 찾다; 누군가를 만나거나 무언가를 발견하다",
+      "ne": "भेट्नु; फेला पार्नु; कसैसँग भेट हुनु वा केही पत्ता लगाउनु",
+      "pt": "Encontrar; se encontrar com alguém ou descobrir algo",
+      "th": "พบ; เจอ; พบปะกับใครหรือค้นพบบางสิ่ง",
+      "tl": "Makatagpo; mahanap; makita o matuklasan ang isang tao o bagay",
+      "ur": "ملنا; ڈھونڈنا; کسی سے ملنا یا کچھ دریافت کرنا",
+      "vi": "Gặp; tìm thấy; tình cờ gặp ai đó hoặc khám phá điều gì",
+      "zh": "遇见；找到；与某人相遇或发现某事",
+      "zh_Hant": "遇見；找到；與某人相遇或發現某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "phop",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍພົບໝູ່ເກົ່າຢູ່ຕະຫຼາດເມື່ອວານ",
+        "romanization": "khoi phop muu kao yu talat muean van",
+        "translations": {
+          "de": "Gestern habe ich einen alten Freund auf dem Markt getroffen.",
+          "en": "Yesterday I ran into an old friend at the market.",
+          "es": "Ayer me encontré con un viejo amigo en el mercado.",
+          "fr": "Hier j'ai rencontré un vieil ami au marché.",
+          "hi": "कल मैं बाजार में एक पुराने दोस्त से मिला।",
+          "ja": "昨日、市場で昔の友達に会ったよ。",
+          "km": "ម្សិលមិញខ្ញុំបានជួបមិត្តចាស់នៅទីផ្សារ។",
+          "ko": "어제 시장에서 옛 친구를 만났어.",
+          "ne": "हिजो बजारमा एउटा पुरानो साथीसँग भेट भयो।",
+          "pt": "Ontem encontrei um velho amigo no mercado.",
+          "th": "เมื่อวานฉันเจอเพื่อนเก่าที่ตลาด",
+          "tl": "Kahapon, natagpuan ko ang isang lumang kaibigan sa palengke.",
+          "ur": "کل بازار میں ایک پرانے دوست سے ملاقات ہوئی۔",
+          "vi": "Hôm qua tôi gặp một người bạn cũ ở chợ.",
+          "zh": "昨天我在市场上遇见了一个老朋友。",
+          "zh_Hant": "昨天我在市場上遇見了一個老朋友。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່ເກົ່າ",
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາຈະໄປພົບກັນຢູ່ໃສດີ",
+        "romanization": "hao ja pai phop kan yu sai dii",
+        "translations": {
+          "de": "Wo sollen wir uns treffen?",
+          "en": "Where should we meet?",
+          "es": "¿Dónde nos encontramos?",
+          "fr": "On se retrouve où?",
+          "hi": "हम कहाँ मिलें?",
+          "ja": "どこで会う？",
+          "km": "យើងនឹងទៅជួបគ្នានៅឯណា?",
+          "ko": "우리 어디서 만날까?",
+          "ne": "हामी कहाँ भेट्ने?",
+          "pt": "Onde a gente se encontra?",
+          "th": "เราจะไปเจอกันที่ไหนดี",
+          "tl": "Saan tayo magkikita?",
+          "ur": "ہم کہاں ملیں گے؟",
+          "vi": "Chúng ta sẽ gặp nhau ở đâu?",
+          "zh": "我们在哪里见面好？",
+          "zh_Hant": "我們在哪裡見面好？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two smiling people warmly greeting each other with a handshake or wave, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກ່າວ": {
+    "definitions": {
+      "de": "Sagen; sprechen; etwas äußern (formeller als das umgangssprachliche ເວົ້າ)",
+      "en": "To say or speak; to utter or express something (more formal than ເວົ້າ)",
+      "es": "Decir; hablar; expresar algo (más formal que ເວົ້າ)",
+      "fr": "Dire; parler; exprimer quelque chose (plus formel que ເວົ້າ)",
+      "hi": "कहना; बोलना; कुछ व्यक्त करना (ເວົ້າ से अधिक औपचारिक)",
+      "ja": "言う；述べる；何かを表現する（ເວົ້າより丁寧な表現）",
+      "km": "និយាយ; ពោល; បង្ហាញអ្វីមួយ (ផ្លូវការជាង ເວົ້າ)",
+      "ko": "말하다; 발언하다; 무언가를 표현하다 (ເວົ້າ보다 격식체)",
+      "ne": "भन्नु; बोल्नु; केही व्यक्त गर्नु (ເວົ້າ भन्दा बढी औपचारिक)",
+      "pt": "Dizer; falar; expressar algo (mais formal do que ເວົ້າ)",
+      "th": "กล่าว; พูด; แสดงออกบางอย่าง (เป็นทางการกว่า ເວົ້າ)",
+      "tl": "Sabihin; magsalita; ipahayag ang isang bagay (mas pormal kaysa ເວົ້າ)",
+      "ur": "کہنا; بولنا; کچھ بیان کرنا (ເວົ້າ سے زیادہ رسمی)",
+      "vi": "Nói; phát biểu; diễn đạt điều gì đó (trang trọng hơn ເວົ້າ)",
+      "zh": "说；讲；表达某事（比ເວົ້າ更正式）",
+      "zh_Hant": "說；講；表達某事（比ເວົ້າ更正式）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kao",
+    "examples": [
+      {
+        "lao_script": "ຄູໄດ້ກ່າວວ່າການສອບເສັງຈະມີອາທິດໜ້າ",
+        "romanization": "khu dai kao va kan sop seng ja mii atit na",
+        "translations": {
+          "de": "Der Lehrer sagte, dass die Prüfung nächste Woche stattfindet.",
+          "en": "The teacher said that the exam will be next week.",
+          "es": "El profesor dijo que el examen será la próxima semana.",
+          "fr": "Le professeur a dit que l'examen aura lieu la semaine prochaine.",
+          "hi": "शिक्षक ने कहा कि परीक्षा अगले हफ्ते होगी।",
+          "ja": "先生が来週試験があると言っていたよ。",
+          "km": "គ្រូបាននិយាយថា ការប្រឡងនឹងមាននៅសប្តាហ៍ក្រោយ។",
+          "ko": "선생님이 다음 주에 시험이 있다고 말씀하셨어.",
+          "ne": "शिक्षकले भन्नुभयो कि परीक्षा आउँदो हप्ता हुनेछ।",
+          "pt": "O professor disse que a prova vai ser na semana que vem.",
+          "th": "ครูกล่าวว่าการสอบจะมีสัปดาห์หน้า",
+          "tl": "Sinabi ng guro na ang pagsusulit ay magiging sa susunod na linggo.",
+          "ur": "استاد نے کہا کہ امتحان اگلے ہفتے ہوگا۔",
+          "vi": "Thầy giáo đã nói rằng kỳ thi sẽ vào tuần tới.",
+          "zh": "老师说考试将在下周进行。",
+          "zh_Hant": "老師說考試將在下週進行。"
+        },
+        "out_of_scope_words": [
+          "ສອບເສັງ",
+          "ອາທິດໜ້າ"
+        ]
+      },
+      {
+        "lao_script": "ລາວກ່າວຂໍໂທດຕໍ່ທຸກຄົນ",
+        "romanization": "lao kao kho thot to thuk khon",
+        "translations": {
+          "de": "Er/Sie entschuldigte sich bei allen.",
+          "en": "He/She apologized to everyone.",
+          "es": "Él/Ella pidió disculpas a todos.",
+          "fr": "Il/Elle s'est excusé(e) auprès de tout le monde.",
+          "hi": "उसने सभी से माफी माँगी।",
+          "ja": "彼/彼女はみんなに謝った。",
+          "km": "គាត់បានសុំទោសចំពោះមនុស្សគ្រប់គ្នា។",
+          "ko": "그/그녀는 모든 사람에게 사과했어.",
+          "ne": "उसले सबैसँग माफी माग्यो।",
+          "pt": "Ele/Ela pediu desculpas a todos.",
+          "th": "เขา/เธอกล่าวขอโทษทุกคน",
+          "tl": "Humingi siya ng paumanhin sa lahat.",
+          "ur": "اس نے سب سے معافی مانگی۔",
+          "vi": "Anh/cô ấy đã xin lỗi tất cả mọi người.",
+          "zh": "他/她向所有人道了歉。",
+          "zh_Hant": "他/她向所有人道了歉。"
+        },
+        "out_of_scope_words": [
+          "ຂໍໂທດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing at a podium or microphone speaking confidently to a small audience, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ນ້ຳ": {
+    "definitions": {
+      "de": "Wasser; klare, trinkbare Flüssigkeit",
+      "en": "Water; clear drinkable liquid essential for life",
+      "es": "Agua; líquido transparente y potable esencial para la vida",
+      "fr": "Eau; liquide transparent et potable essentiel à la vie",
+      "hi": "पानी; जीवन के लिए आवश्यक साफ पेय योग्य तरल",
+      "ja": "水；生命に不可欠な透明な飲料水",
+      "km": "ទឹក; រាវថ្លាដែលអាចផឹកបានและចំបាច់សម្រាប់ជីវិត",
+      "ko": "물; 생명에 필수적인 맑은 음료수",
+      "ne": "पानी; जीवनका लागि आवश्यक सफा पिउने तरल पदार्थ",
+      "pt": "Água; líquido claro e potável essencial para a vida",
+      "th": "น้ำ; ของเหลวใสที่ดื่มได้และจำเป็นต่อชีวิต",
+      "tl": "Tubig; malinaw na likidong maiinom at mahalaga para sa buhay",
+      "ur": "پانی؛ صاف پینے کے قابل مائع جو زندگی کے لیے ضروری ہے",
+      "vi": "Nước; chất lỏng trong suốt có thể uống được, cần thiết cho cuộc sống",
+      "zh": "水；清澈可饮用的液体，是生命必需品",
+      "zh_Hant": "水；清澈可飲用的液體，是生命必需品"
+    },
+    "part_of_speech": "noun",
+    "romanization": "nam",
+    "examples": [
+      {
+        "lao_script": "ຮ້ອນແທ້ ຂໍນ້ຳຈອກໜຶ່ງແດ່",
+        "romanization": "hon the, kho nam jok nung de",
+        "translations": {
+          "de": "Es ist so heiß, kann ich bitte ein Glas Wasser haben?",
+          "en": "It's so hot, can I have a glass of water please?",
+          "es": "Hace mucho calor, ¿me das un vaso de agua?",
+          "fr": "Il fait tellement chaud, je peux avoir un verre d'eau s'il te plaît?",
+          "hi": "बहुत गर्मी है, क्या मुझे एक गिलास पानी मिल सकता है?",
+          "ja": "暑いなあ、水を一杯もらえる？",
+          "km": "ក្តៅណាស់ ขอទឹកមួយកែវបានទេ?",
+          "ko": "너무 덥다, 물 한 잔 줄 수 있어?",
+          "ne": "धेरै गर्मी छ, एक गिलास पानी पाउँछु?",
+          "pt": "Tá muito quente, pode me dar um copo d'água?",
+          "th": "ร้อนจังเลย ขอน้ำสักแก้วได้ไหม",
+          "tl": "Napakainit, maaari ba akong makakuha ng isang baso ng tubig?",
+          "ur": "بہت گرمی ہے، کیا مجھے ایک گلاس پانی مل سکتا ہے؟",
+          "vi": "Nóng quá, cho tôi xin một ly nước được không?",
+          "zh": "好热啊，能给我一杯水吗？",
+          "zh_Hant": "好熱啊，能給我一杯水嗎？"
+        },
+        "out_of_scope_words": [
+          "ຈອກ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າລືມດື່ມນ້ຳຫຼາຍໆໃນວັນນີ້",
+        "romanization": "ya leum duem nam lai lai nai van nii",
+        "translations": {
+          "de": "Vergiss nicht, heute viel Wasser zu trinken.",
+          "en": "Don't forget to drink lots of water today.",
+          "es": "No olvides tomar mucha agua hoy.",
+          "fr": "N'oublie pas de boire beaucoup d'eau aujourd'hui.",
+          "hi": "आज खूब पानी पीना मत भूलना।",
+          "ja": "今日はたくさん水を飲むのを忘れないで。",
+          "km": "កុំភ្លេចផឹកទឹកច្រើនៗនៅថ្ងៃនេះ។",
+          "ko": "오늘 물 많이 마시는 거 잊지 마.",
+          "ne": "आज धेरै पानी पिउन नबिर्सनू।",
+          "pt": "Não esqueça de beber bastante água hoje.",
+          "th": "อย่าลืมดื่มน้ำเยอะๆ วันนี้นะ",
+          "tl": "Huwag kalimutang uminom ng maraming tubig ngayon.",
+          "ur": "آج بہت پانی پینا مت بھولنا۔",
+          "vi": "Đừng quên uống nhiều nước hôm nay nhé.",
+          "zh": "今天别忘了多喝水。",
+          "zh_Hant": "今天別忘了多喝水。"
+        },
+        "out_of_scope_words": [
+          "ລືມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clear glass of water with a few water droplets around it, suitable for a language learning app, clean white background, colorful blue tones, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

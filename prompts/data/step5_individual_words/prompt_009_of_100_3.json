@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄັ້ງ",
+  "definitions": {
+    "de": "Mal; Gelegenheit (Klassifikator für Ereignisse, Vorgänge oder wiederholte Handlungen)",
+    "en": "Time; occasion (classifier for events, occurrences, or repeated actions)",
+    "es": "Vez; ocasión (clasificador para eventos, ocurrencias o acciones repetidas)",
+    "fr": "Fois; occasion (classificateur pour les événements, occurrences ou actions répétées)",
+    "hi": "बार; अवसर (घटनाओं, मौकों या दोहराई जाने वाली क्रियाओं के लिए वर्गीकारक)",
+    "ja": "回；度（出来事・機会・繰り返しの行為を数える類別詞）",
+    "km": "ដង; លើក (ពាក្យចំណាត់ថ្នាក់សម្រាប់ព្រឹត្តិការណ៍ ឬការប្រព្រឹត្ត)",
+    "ko": "번; 차례 (사건, 기회 또는 반복 행동을 세는 분류사)",
+    "ne": "पटक; चोटि (घटना, अवसर वा दोहोरिने कार्यका लागि वर्गीकारक)",
+    "pt": "Vez; ocasião (classificador para eventos, ocorrências ou ações repetidas)",
+    "th": "ครั้ง (ลักษณนามสำหรับเหตุการณ์ โอกาส หรือการกระทำที่เกิดขึ้นซ้ำ)",
+    "tl": "Beses; pagkakataon (panluri para sa mga pangyayari o paulit-ulit na kilos)",
+    "ur": "بار; موقع (واقعات، مواقع یا بار بار ہونے والے اعمال کے لیے درجہ بند کنندہ)",
+    "vi": "Lần; lượt (từ chỉ loại cho các sự kiện, dịp hoặc hành động lặp lại)",
+    "zh": "次；回（事件、场合或重复动作的量词）",
+    "zh_Hant": "次；回（事件、場合或重複動作的量詞）"
+  },
+  "definition_en": "Time; occasion (classifier for events, occurrences, or repeated actions)",
+  "romanization": "khâng",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍໄປລາວສອງຄັ້ງແລ້ວ",
+      "romanization": "khôi pai Lao sǒng khâng lǽo",
+      "translation_en": "I've already been to Laos two times."
+    },
+    {
+      "lao_script": "ກິນຢາທຸກຄັ້ງທີ່ເຈັບທ້ອງ",
+      "romanization": "kin ya thúk khâng thî jèp thông",
+      "translation_en": "Take medicine every time you have a stomachache."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a calendar or tally marks with the number '2' or '3' to represent counting occasions or times, clean white background, colorful minimalist style suitable for a language learning app."
+}

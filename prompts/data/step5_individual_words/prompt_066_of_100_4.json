@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນັດ",
+  "definitions": {
+    "de": "Verabredung, Termin; sich mit jemandem treffen oder einen Termin vereinbaren",
+    "en": "Appointment, date, meeting arrangement; to set a time to meet someone",
+    "es": "Cita, compromiso; acordar una hora para verse con alguien",
+    "fr": "Rendez-vous, rendez-vous prévu; fixer un moment pour rencontrer quelqu'un",
+    "hi": "मुलाकात, अपॉइंटमेंट; किसी से मिलने का समय तय करना",
+    "ja": "約束、アポイントメント；誰かと会う時間を決めること",
+    "km": "ការណាត់ជួប ការណាត់ ឬការព្រមព្រៀងជួបគ្នា",
+    "ko": "약속, 만남 약속; 누군가와 만날 시간을 정하는 것",
+    "ne": "भेट्ने समय तोक्नु, अपोइन्टमेन्ट; कसैसँग भेट्ने समय मिलाउनु",
+    "pt": "Encontro, compromisso, consulta; combinar um horário para se encontrar com alguém",
+    "th": "นัด การนัดหมาย; การตกลงเวลาพบกับใครบางคน",
+    "tl": "Tipan, appointment, pakikipagkita; ang mag-ayos ng oras para makita ang isang tao",
+    "ur": "ملاقات، اپوائنٹمنٹ؛ کسی سے ملنے کا وقت طے کرنا",
+    "vi": "Hẹn gặp, cuộc hẹn; sắp xếp thời gian để gặp ai đó",
+    "zh": "约定、约会、预约；与某人约好见面的时间",
+    "zh_Hant": "約定、約會、預約；與某人約好見面的時間"
+  },
+  "definition_en": "Appointment, date, meeting arrangement; to set a time to meet someone",
+  "romanization": "/nát/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາມີນັດກັນຄືນນີ້ ຢ່າລືມ",
+      "romanization": "hao mii nát kan khɯ̂n níi, yàa lɯ̂m",
+      "translation_en": "We have plans together tonight, don't forget!"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກນັດພົບຫມໍ ຊ່ວຍໄດ້ບໍ?",
+      "romanization": "khòi yàak nát phóp mǒː, sùay dâi bò?",
+      "translation_en": "I want to make an appointment with the doctor, can you help?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a calendar with a specific date circled and two cartoon people shaking hands or waving, representing a scheduled meeting, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

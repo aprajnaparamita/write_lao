@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໜ້າ",
+  "definitions": {
+    "de": "Gesicht; Seite (eines Buches); Vorderseite — bezeichnet das Gesicht einer Person, eine Seite in einem Buch oder die Vorderseite von etwas",
+    "en": "Face; page (of a book); front side — refers to a person's face, a page in a book, or the front of something",
+    "es": "Cara; página (de un libro); parte delantera — se refiere al rostro de una persona, una página de un libro o la parte frontal de algo",
+    "fr": "Visage; page (d'un livre); face avant — désigne le visage d'une personne, une page dans un livre ou le devant de quelque chose",
+    "hi": "चेहरा; पृष्ठ (किसी पुस्तक का); सामने की तरफ — किसी व्यक्ति के चेहरे, किताब के पन्ने या किसी चीज़ के सामने के हिस्से को दर्शाता है",
+    "ja": "顔；ページ（本の）；表面・前面 — 人の顔、本のページ、または何かの前面を指す",
+    "km": "មុខ; ទំព័រ (នៃសៀវភៅ); ផ្នែកខាងមុខ — សំដៅលើមុខរបស់មនុស្ស, ទំព័រក្នុងសៀវភៅ ឬផ្នែកខាងមុខនៃអ្វីមួយ",
+    "ko": "얼굴; (책의) 페이지; 앞면 — 사람의 얼굴, 책의 페이지, 또는 무언가의 앞면을 가리킨다",
+    "ne": "अनुहार; पृष्ठ (कुनै किताबको); अगाडिको भाग — कुनै व्यक्तिको अनुहार, किताबको पृष्ठ वा कुनै चीजको अगाडिको भागलाई जनाउँछ",
+    "pt": "Rosto; página (de um livro); parte frontal — refere-se ao rosto de uma pessoa, uma página de um livro ou a parte da frente de algo",
+    "th": "หน้า — ใช้หมายถึงใบหน้าของคน, หน้า (ในหนังสือ) หรือด้านหน้าของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Mukha; pahina (ng isang libro); harapan — tumutukoy sa mukha ng isang tao, pahina ng isang libro, o harapan ng isang bagay",
+    "ur": "چہرہ؛ صفحہ (کتاب کا)؛ سامنے کی طرف — کسی شخص کے چہرے، کتاب کے صفحے یا کسی چیز کے سامنے والے حصے کو ظاہر کرتا ہے",
+    "vi": "Khuôn mặt; trang (của cuốn sách); mặt trước — chỉ khuôn mặt của một người, trang trong cuốn sách, hoặc mặt trước của một vật",
+    "zh": "脸；页（书的一页）；前面 — 指人的脸、书的某一页或某物的正面",
+    "zh_Hant": "臉；頁（書的一頁）；前面 — 指人的臉、書的某一頁或某物的正面"
+  },
+  "definition_en": "Face; page (of a book); front side — refers to a person's face, a page in a book, or the front of something",
+  "romanization": "naː²",
+  "lao_examples": [
+    {
+      "lao_script": "ໜ້າຂອງລາວສວຍຫຼາຍເລີຍ",
+      "romanization": "nâa khɔ̌ɔng laao suai laai ləəi",
+      "translation_en": "Her/His face is really very beautiful."
+    },
+    {
+      "lao_script": "ເປີດໜ້າສາມຂອງໜັງສືໄດ້ເລີຍ",
+      "romanization": "pəət nâa sǎam khɔ̌ɔng nǎng-sǔu dâi ləəi",
+      "translation_en": "Just open page three of the book."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two meanings side by side: a friendly smiling cartoon face on the left, and an open book with a page number visible on the right, clean white background, colorful minimalist style suitable for a language learning app."
+}

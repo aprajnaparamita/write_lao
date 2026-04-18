@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມີ",
+  "definitions": {
+    "de": "haben; es gibt (existieren/besitzen)",
+    "en": "to have; there is/are (possess or exist)",
+    "es": "tener; haber (poseer o existir)",
+    "fr": "avoir; il y a (posséder ou exister)",
+    "hi": "होना; पास होना (स्वामित्व या अस्तित्व)",
+    "ja": "持っている／ある／いる（所有・存在）",
+    "km": "មាន (កាន់កាប់ ឬ មានវត្តមាន)",
+    "ko": "있다／가지다 (소유 또는 존재)",
+    "ne": "हुनु／सँग हुनु (स्वामित्व वा अस्तित्व)",
+    "pt": "ter; haver (possuir ou existir)",
+    "th": "มี (ครอบครอง หรือ มีอยู่)",
+    "tl": "mayroon／may (pagmamay-ari o pag-iral)",
+    "ur": "رکھنا؛ ہونا (ملکیت یا وجود)",
+    "vi": "có (sở hữu hoặc tồn tại)",
+    "zh": "有／存在（拥有或存在）",
+    "zh_Hant": "有／存在（擁有或存在）"
+  },
+  "definition_en": "to have; there is/are (possess or exist)",
+  "romanization": "míː",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ມີ ເງິນ ໜ້ອຍ",
+      "romanization": "kʰɔ̂ːj míː ŋə́n nɔ̂j",
+      "translation_en": "I have little money."
+    },
+    {
+      "lao_script": "ມີ ຄົນ ຢູ່ ບ້ານ ບໍ?",
+      "romanization": "míː kʰón jūː bâːn bɔ̀ː",
+      "translation_en": "Is anyone at home?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two open hands holding a small red heart and coins, representing possession or existence, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈິງ",
+  "definitions": {
+    "de": "Wahr, echt, wirklich; wird verwendet, um die Wahrhaftigkeit oder Echtheit von etwas zu bestätigen.",
+    "en": "True, real, genuine; used to affirm the truthfulness or authenticity of something.",
+    "es": "Verdadero, real, genuino; se usa para afirmar la veracidad o autenticidad de algo.",
+    "fr": "Vrai, réel, authentique; utilisé pour affirmer la véracité ou l'authenticité de quelque chose.",
+    "hi": "सच, असली, वास्तविक; किसी चीज़ की सत्यता या प्रामाणिकता की पुष्टि करने के लिए उपयोग किया जाता है।",
+    "ja": "本当の、真実の、本物の；何かの真実性や本物であることを確認するために使う。",
+    "km": "ពិត, ពិតប្រាកដ, ដើម; ប្រើដើម្បីបញ្ជាក់ពីភាពពិតប្រាកដ ឬភាពដើមនៃអ្វីមួយ។",
+    "ko": "진짜, 사실인, 진실한; 무언가의 진실성이나 진정성을 확인하는 데 사용됩니다.",
+    "ne": "साँचो, वास्तविक, असली; कुनै कुराको सत्यता वा प्रामाणिकता पुष्टि गर्न प्रयोग गरिन्छ।",
+    "pt": "Verdadeiro, real, genuíno; usado para afirmar a veracidade ou autenticidade de algo.",
+    "th": "จริง, แท้จริง; ใช้เพื่อยืนยันความจริงหรือความแท้ของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Totoo, tunay, tapat; ginagamit upang kumpirmahin ang katotohanan o pagiging tunay ng isang bagay.",
+    "ur": "سچ، حقیقی، اصلی؛ کسی چیز کی صداقت یا اصلیت کی تصدیق کے لیے استعمال ہوتا ہے۔",
+    "vi": "Thật, thực, thực sự; dùng để khẳng định tính chân thực hoặc xác thực của điều gì đó.",
+    "zh": "真实的，真正的；用于确认某事的真实性或真诚性。",
+    "zh_Hant": "真實的，真正的；用於確認某事的真實性或真誠性。"
+  },
+  "definition_en": "True, real, genuine; used to affirm the truthfulness or authenticity of something.",
+  "romanization": "tɕiŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຈິງບໍ? ເຈົ້າໄດ້ຍິນຂ່າວນີ້ມາຈາກໃສ?",
+      "romanization": "tɕiŋ boo? jao dai nyin khaao nii maa taak sai?",
+      "translation_en": "Really? Where did you hear this news from?"
+    },
+    {
+      "lao_script": "ຄຳເວົ້ານີ້ຂອງລາວ ຈິງທຸກຢ່າງ",
+      "romanization": "kham wao nii khɔːng lao, tɕiŋ thuk yaang",
+      "translation_en": "Everything he/she said is true."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a green checkmark over a document or speech bubble labeled 'TRUE', with a confident person giving a thumbs-up nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

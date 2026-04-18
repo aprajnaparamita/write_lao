@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຝີ",
+  "definitions": {
+    "de": "Geist, Gespenst; ein übernatürliches Wesen oder eine Seele, die nach dem Tod umherwandert, ein wichtiges Konzept in der laotischen Volksreligion und Kultur",
+    "en": "Ghost or spirit; a supernatural being or soul that wanders after death, an important concept in Lao folk religion and culture",
+    "es": "Fantasma o espíritu; un ser sobrenatural o alma que vaga después de la muerte, un concepto importante en la religión popular y cultura laosiana",
+    "fr": "Fantôme ou esprit; un être surnaturel ou une âme qui erre après la mort, un concept important dans la religion populaire et la culture laotienne",
+    "hi": "भूत या आत्मा; एक अलौकिक प्राणी या आत्मा जो मृत्यु के बाद भटकती है, लाओ लोक धर्म और संस्कृति में एक महत्वपूर्ण अवधारणा",
+    "ja": "幽霊、精霊；死後にさまよう超自然的な存在や魂、ラオスの民間信仰や文化において重要な概念",
+    "km": "វិញ្ញាណ ឬខ្មោច; អត្តភាព ឬព្រលឹងដែលដើរវង្វេងក្រោយមរណភាព ជាគំនិតសំខាន់នៅក្នុងសាសនាប្រជាប្រិយ និងវប្បធម៌ឡាវ",
+    "ko": "귀신 또는 영혼; 죽은 후 떠도는 초자연적인 존재나 영혼, 라오스 민간 신앙과 문화에서 중요한 개념",
+    "ne": "भूत वा आत्मा; एक अलौकिक प्राणी वा आत्मा जो मृत्यु पछि भौंतारिन्छ, लाओ लोक धर्म र संस्कृतिमा एक महत्त्वपूर्ण अवधारणा",
+    "pt": "Fantasma ou espírito; um ser sobrenatural ou alma que vagueia após a morte, um conceito importante na religião popular e cultura laosiana",
+    "th": "ผีหรือวิญญาณ; สิ่งเหนือธรรมชาติหรือวิญญาณที่ล่องลอยหลังความตาย เป็นแนวคิดสำคัญในความเชื่อพื้นบ้านและวัฒนธรรมลาว",
+    "tl": "Multo o espiritu; isang supernatural na nilalang o kaluluwa na gumagala pagkatapos ng kamatayan, isang mahalagang konsepto sa katutubong relihiyon at kultura ng Lao",
+    "ur": "بھوت یا روح؛ ایک مافوق الفطرت مخلوق یا روح جو موت کے بعد بھٹکتی ہے، لاؤ لوک مذہب اور ثقافت میں ایک اہم تصور",
+    "vi": "Ma hoặc linh hồn; một sinh vật siêu nhiên hoặc linh hồn lang thang sau khi chết, một khái niệm quan trọng trong tín ngưỡng dân gian và văn hóa Lào",
+    "zh": "鬼或灵魂；死后游荡的超自然存在或灵魂，是老挝民间宗教和文化中的重要概念",
+    "zh_Hant": "鬼或靈魂；死後遊蕩的超自然存在或靈魂，是寮國民間宗教和文化中的重要概念"
+  },
+  "definition_en": "Ghost or spirit; a supernatural being or soul that wanders after death, an important concept in Lao folk religion and culture",
+  "romanization": "fǐː",
+  "lao_examples": [
+    {
+      "lao_script": "ເດັກໆ ຢ້ານຝີຫຼາຍ",
+      "romanization": "dék dék jaːm fǐː laːj",
+      "translation_en": "Children are very scared of ghosts."
+    },
+    {
+      "lao_script": "ຄົນລາວເຊື່ອວ່າຝີຢູ່ຕາມປ່າ",
+      "romanization": "kʰón laːw sɯa waː fǐː juː taːm paː",
+      "translation_en": "Lao people believe that ghosts live in the forest."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a glowing, translucent white ghost figure floating gently in a dark misty forest at night, with a soft eerie glow, clean dark background, minimalist cartoon style suitable for a language learning app."
+}

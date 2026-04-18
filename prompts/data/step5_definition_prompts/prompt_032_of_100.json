@@ -1,0 +1,402 @@
+{
+  "ລວມ": {
+    "definitions": {
+      "de": "zusammenzählen, zusammenfassen, insgesamt; etwas kombinieren oder addieren",
+      "en": "to total, combine, or add together; sum up",
+      "es": "sumar, combinar, totalizar; juntar en un total",
+      "fr": "totaliser, combiner, additionner; réunir en un ensemble",
+      "hi": "जोड़ना, मिलाना, कुल करना; सब को एक साथ मिलाना",
+      "ja": "合計する、合わせる、まとめる；足し合わせること",
+      "km": "បូកសរុប, រួមបញ្ចូលគ្នា, សរុបទាំងអស់",
+      "ko": "합계하다, 합치다, 총합하다; 모두 더하거나 합치는 것",
+      "ne": "जोड्नु, मिलाउनु, कुल गर्नु; सबैलाई एकसाथ जोड्नु",
+      "pt": "somar, combinar, totalizar; juntar tudo em um total",
+      "th": "รวม, รวมกัน, รวมทั้งหมด; นำมารวมหรือบวกเข้าด้วยกัน",
+      "tl": "pagsama-samahin, kabuuán, pagsamahin; ang pagtitipon ng lahat",
+      "ur": "جمع کرنا، ملانا، کل کرنا؛ سب کو ایک ساتھ جوڑنا",
+      "vi": "tổng cộng, kết hợp, cộng lại; gộp tất cả lại với nhau",
+      "zh": "合计，合并，总共；将所有事物加在一起",
+      "zh_Hant": "合計，合併，總共；將所有事物加在一起"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/luam/",
+    "examples": [
+      {
+        "lao_script": "ລວມແລ້ວມີເທົ່າໃດ?",
+        "romanization": "luam laew mii thao dai?",
+        "translations": {
+          "de": "Wie viel ist es insgesamt?",
+          "en": "How much is it in total?",
+          "es": "¿Cuánto es en total?",
+          "fr": "Combien ça fait en tout?",
+          "hi": "कुल मिलाकर कितना हुआ?",
+          "ja": "全部でいくらですか？",
+          "km": "សរុបទាំងអស់ប៉ុន្មាន?",
+          "ko": "합쳐서 얼마예요?",
+          "ne": "जम्मा कति भयो?",
+          "pt": "Quanto é no total?",
+          "th": "รวมแล้วเท่าไหร่?",
+          "tl": "Magkano lahat?",
+          "ur": "کل ملا کر کتنا ہوا؟",
+          "vi": "Tổng cộng là bao nhiêu?",
+          "zh": "总共多少？",
+          "zh_Hant": "總共多少？"
+        },
+        "out_of_scope_words": [
+          "ເທົ່າໃດ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາລວມເງິນກັນໄດ້ຫຼາຍ",
+        "romanization": "hao luam ngoen kan dai laai",
+        "translations": {
+          "de": "Wir haben zusammen viel Geld gesammelt.",
+          "en": "We pooled a lot of money together.",
+          "es": "Juntamos mucho dinero entre todos.",
+          "fr": "On a mis beaucoup d'argent en commun.",
+          "hi": "हमने मिलकर बहुत पैसे जोड़े।",
+          "ja": "みんなでお金をたくさん集めました。",
+          "km": "យើងបូករូបិយប័ណ្ណបានច្រើនណាស់។",
+          "ko": "우리가 돈을 모아서 많이 모였어요.",
+          "ne": "हामीले मिलेर धेरै पैसा जम्मा गर्यौँ।",
+          "pt": "Juntamos bastante dinheiro.",
+          "th": "เราร่วมกันได้เงินเยอะมาก",
+          "tl": "Nakapag-ipon kami ng maraming pera.",
+          "ur": "ہم نے مل کر بہت پیسے جمع کیے۔",
+          "vi": "Chúng tôi góp lại được rất nhiều tiền.",
+          "zh": "我们一起凑了很多钱。",
+          "zh_Hant": "我們一起湊了很多錢。"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two groups of colorful fruit being pushed together into one combined pile, with a plus sign and an equals sign, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃຈ": {
+    "definitions": {
+      "de": "Herz (im übertragenen Sinne), Geist, Gemüt; das innere Gefühl oder der Verstand einer Person",
+      "en": "heart, mind; the emotional or mental core of a person; feelings and inner thoughts",
+      "es": "corazón, mente; el centro emocional o mental de una persona; sentimientos e interior",
+      "fr": "cœur, esprit; le centre émotionnel ou mental d'une personne; sentiments intérieurs",
+      "hi": "दिल, मन; किसी व्यक्ति का भावनात्मक या मानसिक केंद्र; भावनाएं और अंतर्मन",
+      "ja": "心、気持ち；人の感情や精神の中心；内面の感情や思い",
+      "km": "ចិត្ត, គំនិត; មជ្ឈមណ្ឌលអារម្មណ៍ ឬផ្លូវចិត្តរបស់មនុស្ស",
+      "ko": "마음, 심장(비유적); 사람의 감정적·정신적 중심; 내면의 감정과 생각",
+      "ne": "मन, हृदय; व्यक्तिको भावनात्मक वा मानसिक केन्द्र; भावना र आन्तरिक विचार",
+      "pt": "coração, mente; o centro emocional ou mental de uma pessoa; sentimentos e interior",
+      "th": "ใจ, จิตใจ; ศูนย์กลางทางอารมณ์หรือจิตใจของคน; ความรู้สึกและความคิดภายใน",
+      "tl": "puso, isipan; ang emosyonal o mental na sentro ng isang tao; damdamin at panloob na kaisipan",
+      "ur": "دل، من؛ کسی شخص کا جذباتی یا ذہنی مرکز؛ احساسات اور اندرونی خیالات",
+      "vi": "tim, tâm, lòng; trung tâm cảm xúc hoặc tinh thần của một người; cảm xúc và suy nghĩ bên trong",
+      "zh": "心、心灵；一个人情感或精神的核心；内心的感受和想法",
+      "zh_Hant": "心、心靈；一個人情感或精神的核心；內心的感受和想法"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tsai/",
+    "examples": [
+      {
+        "lao_script": "ໃຈເຈົ້າດີບໍ່ມື້ນີ້?",
+        "romanization": "tsai jao dii boo muu nii?",
+        "translations": {
+          "de": "Geht es dir heute gut (innerlich)?",
+          "en": "Is your heart/mood okay today?",
+          "es": "¿Cómo te sientes hoy?",
+          "fr": "Tu vas bien dans ta tête aujourd'hui?",
+          "hi": "आज तुम्हारा मन कैसा है?",
+          "ja": "今日は気持ち大丈夫？",
+          "km": "ចិត្តអ្នកល្អទេថ្ងៃនេះ?",
+          "ko": "오늘 기분 괜찮아요?",
+          "ne": "आज तपाईंको मन ठीक छ?",
+          "pt": "Seu coração/ânimo está bem hoje?",
+          "th": "ใจแกดีไหมวันนี้?",
+          "tl": "Okay ba ang pakiramdam mo ngayon?",
+          "ur": "آج تمہارا دل ٹھیک ہے؟",
+          "vi": "Hôm nay bạn có ổn không?",
+          "zh": "你今天心情好吗？",
+          "zh_Hant": "你今天心情好嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຈົ້າ",
+          "ມື້ນີ້"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍໃຈດີກັບທຸກຄົນ",
+        "romanization": "khoi tsai dii gap thuk khon",
+        "translations": {
+          "de": "Ich bin freundlich zu allen Menschen.",
+          "en": "I am kind-hearted to everyone.",
+          "es": "Soy amable con todas las personas.",
+          "fr": "Je suis gentil(le) avec tout le monde.",
+          "hi": "मैं सभी लोगों के प्रति दयालु हूँ।",
+          "ja": "私はみんなに優しいです。",
+          "km": "ខ្ញុំចិត្តល្អជាមួយមនុស្សទាំងអស់។",
+          "ko": "나는 모든 사람에게 친절해요.",
+          "ne": "म सबै मान्छेसँग मिलनसार छु।",
+          "pt": "Sou gentil com todo mundo.",
+          "th": "ฉันใจดีกับทุกคน",
+          "tl": "Mabait ako sa lahat ng tao.",
+          "ur": "میں سب لوگوں کے ساتھ دل سے اچھا ہوں۔",
+          "vi": "Tôi tốt bụng với tất cả mọi người.",
+          "zh": "我对每个人都很好心。",
+          "zh_Hant": "我對每個人都很好心。"
+        },
+        "out_of_scope_words": [
+          "ຂ້ອຍ",
+          "ທຸກຄົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a glowing human heart shape with a gentle smile, surrounded by soft warm colors suggesting kindness and emotion, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄທ": {
+    "definitions": {
+      "de": "Thailand; das Königreich Thailand, ein Land in Südostasien, Nachbar von Laos",
+      "en": "Thai; referring to Thailand, a country in Southeast Asia neighboring Laos, or anything of Thai origin",
+      "es": "tailandés/a; relativo a Tailandia, país del sudeste asiático vecino de Laos",
+      "fr": "thaïlandais(e); relatif à la Thaïlande, pays d'Asie du Sud-Est voisin du Laos",
+      "hi": "थाई; थाईलैंड से संबंधित, लाओस का पड़ोसी दक्षिण-पूर्व एशियाई देश",
+      "ja": "タイ；ラオスの隣国、東南アジアのタイ王国に関連するもの",
+      "km": "ថៃ; ទាក់ទងនឹងប្រទេសថៃ ដែលជាប្រទេសអាស៊ីអាគ្នេយ៍ជិតខាងនឹងឡាវ",
+      "ko": "태국; 라오스와 이웃한 동남아시아 국가 태국에 관련된 것",
+      "ne": "थाई; थाइल्याण्डसँग सम्बन्धित, लाओसको छिमेकी दक्षिण-पूर्व एसियाली देश",
+      "pt": "tailandês/a; relativo à Tailândia, país do sudeste asiático vizinho do Laos",
+      "th": "ไทย; เกี่ยวกับประเทศไทย ประเทศในเอเชียตะวันออกเฉียงใต้ที่อยู่ติดกับลาว",
+      "tl": "Thai; nauukol sa Thailand, isang bansang Timog-Silangang Asya na kapitbahay ng Laos",
+      "ur": "تھائی؛ تھائی لینڈ سے متعلق، لاؤس کا ہمسایہ جنوب مشرقی ایشیائی ملک",
+      "vi": "Thái; liên quan đến Thái Lan, quốc gia Đông Nam Á láng giềng của Lào",
+      "zh": "泰国的；与泰国相关，泰国是老挝的东南亚邻国",
+      "zh_Hant": "泰國的；與泰國相關，泰國是寮國的東南亞鄰國"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tʰaj/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າເຄີຍໄປໄທບໍ່?",
+        "romanization": "jao khoei pai Thai boo?",
+        "translations": {
+          "de": "Bist du schon mal nach Thailand gefahren?",
+          "en": "Have you ever been to Thailand?",
+          "es": "¿Alguna vez has ido a Tailandia?",
+          "fr": "Tu es déjà allé(e) en Thaïlande?",
+          "hi": "क्या तुम कभी थाईलैंड गए हो?",
+          "ja": "タイに行ったことある？",
+          "km": "តើអ្នកធ្លាប់ទៅប្រទេសថៃទេ?",
+          "ko": "태국에 가본 적 있어요?",
+          "ne": "तपाईं कहिल्यै थाइल्याण्ड गएको छ?",
+          "pt": "Você já foi à Tailândia?",
+          "th": "เคยไปไทยไหม?",
+          "tl": "Nakapunta ka na ba sa Thailand?",
+          "ur": "کیا تم کبھی تھائی لینڈ گئے ہو؟",
+          "vi": "Bạn đã từng đến Thái Lan chưa?",
+          "zh": "你去过泰国吗？",
+          "zh_Hant": "你去過泰國嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຄີຍ",
+          "ໄປ"
+        ]
+      },
+      {
+        "lao_script": "ອາຫານໄທແຊບຫຼາຍ",
+        "romanization": "aa-haan Thai saep laai",
+        "translations": {
+          "de": "Thailändisches Essen ist sehr lecker.",
+          "en": "Thai food is very delicious.",
+          "es": "La comida tailandesa es muy rica.",
+          "fr": "La nourriture thaïlandaise est très délicieuse.",
+          "hi": "थाई खाना बहुत स्वादिष्ट है।",
+          "ja": "タイ料理はとても美味しい。",
+          "km": "អាហារថៃឆ្ងាញ់ណាស់។",
+          "ko": "태국 음식은 정말 맛있어요.",
+          "ne": "थाई खाना धेरै मिठो छ।",
+          "pt": "A comida tailandesa é muito gostosa.",
+          "th": "อาหารไทยอร่อยมาก",
+          "tl": "Ang pagkain ng Thai ay masarap na masarap.",
+          "ur": "تھائی کھانا بہت لذیذ ہے۔",
+          "vi": "Đồ ăn Thái rất ngon.",
+          "zh": "泰国菜非常好吃。",
+          "zh_Hant": "泰國菜非常好吃。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ແຊບ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the flag of Thailand with a small map outline of the country beside it, set against a clean white background, minimalist design suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເປີດ": {
+    "definitions": {
+      "de": "öffnen, aufmachen; etwas öffnen (eine Tür, ein Geschäft, ein Gerät einschalten)",
+      "en": "to open; to turn on (a device); to unlock or start something",
+      "es": "abrir; encender (un dispositivo); desbloquear o comenzar algo",
+      "fr": "ouvrir; allumer (un appareil); déverrouiller ou commencer quelque chose",
+      "hi": "खोलना; चालू करना (कोई उपकरण); कुछ शुरू करना या खोलना",
+      "ja": "開ける、開く；（機器を）つける、オンにする；何かを始めること",
+      "km": "បើក; បើកដំណើរការ (ឧបករណ៍); ដោះសោ ឬចាប់ផ្តើមមួយចំនួន",
+      "ko": "열다; (기기를) 켜다; 무언가를 열거나 시작하다",
+      "ne": "खोल्नु; (यन्त्र) चालु गर्नु; केही सुरु गर्नु वा खोल्नु",
+      "pt": "abrir; ligar (um aparelho); desbloquear ou iniciar algo",
+      "th": "เปิด; เปิด (อุปกรณ์); ปลดล็อคหรือเริ่มสิ่งใดสิ่งหนึ่ง",
+      "tl": "buksan; i-on (isang aparato); simulan o buksan ang isang bagay",
+      "ur": "کھولنا؛ آن کرنا (کوئی آلہ)؛ کچھ شروع کرنا یا کھولنا",
+      "vi": "mở; bật (thiết bị); mở khóa hoặc bắt đầu cái gì đó",
+      "zh": "打开；开启（设备）；解锁或开始某事",
+      "zh_Hant": "打開；開啟（設備）；解鎖或開始某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pɤːt/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍເປີດປະຕູດ້ວຍແດ່",
+        "romanization": "suai poot pa-tuu duai dae",
+        "translations": {
+          "de": "Könntest du bitte die Tür öffnen?",
+          "en": "Could you please open the door?",
+          "es": "¿Podrías abrir la puerta, por favor?",
+          "fr": "Tu peux ouvrir la porte s'il te plaît?",
+          "hi": "क्या तुम दरवाज़ा खोल सकते हो?",
+          "ja": "ドアを開けてもらえる？",
+          "km": "សូមជួយបើកទ្វារផង?",
+          "ko": "문 좀 열어줄 수 있어요?",
+          "ne": "ढोका खोल्न सक्नुहुन्छ?",
+          "pt": "Você pode abrir a porta, por favor?",
+          "th": "ช่วยเปิดประตูหน่อยได้ไหม?",
+          "tl": "Maaari mo bang buksan ang pinto?",
+          "ur": "کیا آپ دروازہ کھول سکتے ہیں؟",
+          "vi": "Bạn mở cửa giúp tôi được không?",
+          "zh": "能帮我开一下门吗？",
+          "zh_Hant": "能幫我開一下門嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ປະຕູ",
+          "ດ້ວຍ",
+          "ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ເປີດໄຟດ້ວຍ ມືດຢູ່",
+        "romanization": "poot fai duai, muut yuu",
+        "translations": {
+          "de": "Mach das Licht an, es ist dunkel.",
+          "en": "Turn on the light, it's dark.",
+          "es": "Enciende la luz, está oscuro.",
+          "fr": "Allume la lumière, il fait sombre.",
+          "hi": "लाइट चालू करो, अंधेरा है।",
+          "ja": "電気つけて、暗いよ。",
+          "km": "បើកភ្លើងផង ងងឹតណាស់។",
+          "ko": "불 켜줘, 어두워.",
+          "ne": "बत्ती बाल, अँध्यारो छ।",
+          "pt": "Acende a luz, está escuro.",
+          "th": "เปิดไฟหน่อย มืดอยู่",
+          "tl": "Buksan mo ang ilaw, madilim.",
+          "ur": "لائٹ جلاؤ، اندھیرا ہے۔",
+          "vi": "Bật đèn lên đi, tối lắm.",
+          "zh": "开灯嘛，好暗。",
+          "zh_Hant": "開燈嘛，好暗。"
+        },
+        "out_of_scope_words": [
+          "ໄຟ",
+          "ມືດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open door with light streaming through it, shown from a slight angle, suitable for a language learning app, clean white background, bright and colorful, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແມັດ": {
+    "definitions": {
+      "de": "Meter; eine Maßeinheit der Länge im metrischen System (1 Meter = 100 Zentimeter)",
+      "en": "meter (metre); a unit of length in the metric system equal to 100 centimeters",
+      "es": "metro; una unidad de longitud del sistema métrico igual a 100 centímetros",
+      "fr": "mètre; une unité de longueur du système métrique égale à 100 centimètres",
+      "hi": "मीटर; मेट्रिक प्रणाली में लंबाई की एक इकाई जो 100 सेंटीमीटर के बराबर है",
+      "ja": "メートル；メートル法の長さの単位、100センチメートルに相当する",
+      "km": "ម៉ែត្រ; ឯកតានៃប្រវែងក្នុងប្រព័ន្ធម៉ែត្រ ស្មើនឹង ១០០ សង់ទីម៉ែត្រ",
+      "ko": "미터; 미터법의 길이 단위로 100센티미터와 같음",
+      "ne": "मिटर; मेट्रिक प्रणालीमा लम्बाइको एकाइ जुन १०० सेन्टिमिटर बराबर हो",
+      "pt": "metro; uma unidade de comprimento no sistema métrico igual a 100 centímetros",
+      "th": "เมตร; หน่วยวัดความยาวในระบบเมตริกซึ่งเท่ากับ 100 เซนติเมตร",
+      "tl": "metro; isang yunit ng haba sa sistemang metriko na katumbas ng 100 sentimetro",
+      "ur": "میٹر؛ میٹرک نظام میں لمبائی کی ایک اکائی جو 100 سینٹی میٹر کے برابر ہے",
+      "vi": "mét; đơn vị đo chiều dài trong hệ mét, bằng 100 xentimét",
+      "zh": "米；公制长度单位，等于100厘米",
+      "zh_Hant": "米；公制長度單位，等於100公分"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/mɛːt/",
+    "examples": [
+      {
+        "lao_script": "ຫ້ອງນີ້ກວ້າງສີ່ແມັດ",
+        "romanization": "hong nii kwang sii maet",
+        "translations": {
+          "de": "Dieses Zimmer ist vier Meter breit.",
+          "en": "This room is four meters wide.",
+          "es": "Esta habitación tiene cuatro metros de ancho.",
+          "fr": "Cette pièce fait quatre mètres de large.",
+          "hi": "यह कमरा चार मीटर चौड़ा है।",
+          "ja": "この部屋は幅4メートルです。",
+          "km": "បន្ទប់នេះទទឹងបួនម៉ែត្រ។",
+          "ko": "이 방은 너비가 4미터예요.",
+          "ne": "यो कोठा चार मिटर चौडाइ छ।",
+          "pt": "Este quarto tem quatro metros de largura.",
+          "th": "ห้องนี้กว้างสี่เมตร",
+          "tl": "Ang kwartong ito ay apat na metro ang lapad.",
+          "ur": "یہ کمرہ چار میٹر چوڑا ہے۔",
+          "vi": "Căn phòng này rộng bốn mét.",
+          "zh": "这个房间宽四米。",
+          "zh_Hant": "這個房間寬四米。"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງ",
+          "ກວ້າງ",
+          "ສີ່"
+        ]
+      },
+      {
+        "lao_script": "ລາວສູງເກືອບສອງແມັດ",
+        "romanization": "lao suung kuap song maet",
+        "translations": {
+          "de": "Er ist fast zwei Meter groß.",
+          "en": "He is almost two meters tall.",
+          "es": "Él mide casi dos metros de altura.",
+          "fr": "Il fait presque deux mètres de haut.",
+          "hi": "वह लगभग दो मीटर लंबा है।",
+          "ja": "彼はほぼ2メートルの背丈がある。",
+          "km": "គាត់ខ្ពស់ជិតពីរម៉ែត្រ។",
+          "ko": "그는 키가 거의 2미터예요.",
+          "ne": "उ लगभग दुई मिटर अग्लो छ।",
+          "pt": "Ele tem quase dois metros de altura.",
+          "th": "เขาสูงเกือบสองเมตร",
+          "tl": "Siya ay halos dalawang metro ang taas.",
+          "ur": "وہ تقریباً دو میٹر لمبا ہے۔",
+          "vi": "Anh ấy cao gần hai mét.",
+          "zh": "他身高将近两米。",
+          "zh_Hant": "他身高將近兩米。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ສູງ",
+          "ເກືອບ",
+          "ສອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a measuring tape or ruler clearly showing a one-meter length with the label '1m', suitable for a language learning app, clean white background, bold colors, minimalist educational style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

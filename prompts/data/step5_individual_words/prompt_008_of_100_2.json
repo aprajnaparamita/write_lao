@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຕ່",
+  "definitions": {
+    "de": "Aber; jedoch; eine Konjunktion, die einen Gegensatz oder eine Einschränkung zwischen zwei Aussagen ausdrückt",
+    "en": "But; however; a conjunction expressing contrast or contradiction between two statements",
+    "es": "Pero; sin embargo; conjunción que expresa contraste o contradicción entre dos afirmaciones",
+    "fr": "Mais; cependant; conjonction exprimant un contraste ou une opposition entre deux affirmations",
+    "hi": "लेकिन; परंतु; एक संयोजन जो दो कथनों के बीच विरोध या अंतर व्यक्त करता है",
+    "ja": "しかし；でも；二つの発言の間の対比や矛盾を表す接続詞",
+    "km": "ប៉ុន្តែ; តែ;接続詞 ដែលបង្ហាញពីភាពផ្ទុយគ្នារវាងប្រយោគពីរ",
+    "ko": "하지만; 그러나; 두 문장 사이의 대조나 모순을 나타내는 접속사",
+    "ne": "तर; तथापि; दुई कथनहरू बीचको विरोधाभास वा अन्तर व्यक्त गर्ने संयोजन",
+    "pt": "Mas; porém; conjunção que expressa contraste ou contradição entre duas afirmações",
+    "th": "แต่; อย่างไรก็ตาม;接続詞 ที่แสดงความขัดแย้งหรือความต่างระหว่างสองประโยค",
+    "tl": "Ngunit; subalit; pangatnig na nagpapahayag ng pagkakaiba o pagkakasalungatan sa pagitan ng dalawang pahayag",
+    "ur": "لیکن؛ مگر؛ ایک接続詞 جو دو بیانات کے درمیان تضاد یا فرق ظاہر کرتا ہے",
+    "vi": "Nhưng; tuy nhiên; liên từ biểu đạt sự tương phản hoặc mâu thuẫn giữa hai mệnh đề",
+    "zh": "但是；然而；连接两个陈述之间的对比或矛盾关系的连词",
+    "zh_Hant": "但是；然而；連接兩個陳述之間對比或矛盾關係的連詞"
+  },
+  "definition_en": "But; however; a conjunction expressing contrast or contradiction between two statements",
+  "romanization": "tɛ̀ː",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກໄປ ແຕ່ບໍ່ມີເວລາ",
+      "romanization": "kʰɔ̂j jaak paj tɛ̀ː bɔ̀ mii wee-laa",
+      "translation_en": "I want to go, but I don't have time."
+    },
+    {
+      "lao_script": "ອາຫານອັນນີ້ແພງ ແຕ່ອຮ່ອຍຫຼາຍ",
+      "romanization": "aa-hǎan an-nii pɛɛŋ tɛ̀ː saj laaj",
+      "translation_en": "This food is expensive, but very delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two contrasting sides connected by an arrow or a 'but' symbol, like a sunny day on one side and a rainy day on the other, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

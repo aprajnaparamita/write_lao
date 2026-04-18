@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພັດທະນາ",
+  "definitions": {
+    "de": "Entwickeln; etwas verbessern oder ausbauen; Fortschritt machen",
+    "en": "To develop; to improve or advance something; to make progress",
+    "es": "Desarrollar; mejorar o avanzar algo; progresar",
+    "fr": "Développer; améliorer ou faire progresser quelque chose; progresser",
+    "hi": "विकास करना; किसी चीज़ को सुधारना या आगे बढ़ाना; प्रगति करना",
+    "ja": "発展させる；何かを改善または進歩させる；発達する",
+    "km": "អភិវឌ្ឍ; កែលម្អ ឬផ្លាស់ប្តូររឿងអ្វីមួយ; ធ្វើឱ្យប្រសើរឡើង",
+    "ko": "발전시키다; 무언가를 개선하거나 향상시키다; 진보하다",
+    "ne": "विकास गर्नु; केही सुधार्नु वा अगाडि बढाउनु; प्रगति गर्नु",
+    "pt": "Desenvolver; melhorar ou avançar algo; progredir",
+    "th": "พัฒนา; ปรับปรุงหรือส่งเสริมบางสิ่ง; ก้าวหน้า",
+    "tl": "Paunlarin; pagbutihin o isulong ang isang bagay; umunlad",
+    "ur": "ترقی کرنا؛ کسی چیز کو بہتر بنانا یا آگے بڑھانا",
+    "vi": "Phát triển; cải thiện hoặc thúc đẩy điều gì đó; tiến bộ",
+    "zh": "发展；改善或推动某事；取得进步",
+    "zh_Hant": "發展；改善或推動某事；取得進步"
+  },
+  "definition_en": "To develop; to improve or advance something; to make progress",
+  "romanization": "/pʰát.tʰa.náː/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວຢາກພັດທະນາຕົນເອງໃຫ້ດີຂຶ້ນທຸກວັນ",
+      "romanization": "lao yak phat-tha-na ton-eng hai di khun thuk wan",
+      "translation_en": "He/She wants to develop themselves and get better every day."
+    },
+    {
+      "lao_script": "ບ້ານເຮົາພັດທະນາໄວຫຼາຍໃນຊ່ວງ 10 ປີມານີ້",
+      "romanization": "ban hao phat-tha-na wai lai nai suang sip pi ma ni",
+      "translation_en": "Our village has developed very quickly in the past 10 years."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a upward-trending growth arrow over a small village transforming into a modern town with trees and buildings, representing the concept of 'development and progress', clean white background, colorful, minimalist style suitable for a language learning app."
+}

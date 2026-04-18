@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະຈຸບັນ",
+  "definitions": {
+    "de": "Gegenwart; aktuell, derzeit, im Moment",
+    "en": "Current, present, nowadays; referring to the present time",
+    "es": "Actual, presente, actualmente; que pertenece al tiempo presente",
+    "fr": "Actuel, présent, de nos jours; qui appartient au temps présent",
+    "hi": "वर्तमान, अभी, आजकल; वर्तमान समय से संबंधित",
+    "ja": "現在、今現在、現時点での",
+    "km": "បច្ចុប្បន្ន, សព្វថ្ងៃ, ពេលនេះ",
+    "ko": "현재, 지금, 요즘",
+    "ne": "हालको, अहिलेको, वर्तमान समयलाई जनाउने शब्द",
+    "pt": "Atual, presente, atualmente; referente ao tempo presente",
+    "th": "ปัจจุบัน, ตอนนี้, ในยุคนี้",
+    "tl": "Kasalukuyan, ngayon, sa kasalukuyang panahon",
+    "ur": "موجودہ، ابھی، آج کل؛ حال کے وقت سے متعلق",
+    "vi": "Hiện tại, hiện nay, bây giờ; thuộc về thời điểm hiện tại",
+    "zh": "现在，目前，当今；指当前时间",
+    "zh_Hant": "現在，目前，當今；指當前時間"
+  },
+  "definition_en": "Current, present, nowadays; referring to the present time",
+  "romanization": "/pa.tɕu.ban/",
+  "lao_examples": [
+    {
+      "lao_script": "ປະຈຸບັນນີ້ຂ້ອຍຢູ່ວຽງຈັນ",
+      "romanization": "pa.tɕu.ban níi khɔ̑i yuu viang.tɕan",
+      "translation_en": "Right now I'm living in Vientiane."
+    },
+    {
+      "lao_script": "ປະຈຸບັນລາຄາຂ້າວແພງຂຶ້ນຫຼາຍ",
+      "romanization": "pa.tɕu.ban laa.khaa khâaw phɛɛŋ khɯ̂n laaj",
+      "translation_en": "These days the price of rice has gone up a lot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a calendar or clock showing 'today' or 'now', with a highlighted present-day marker and soft glowing effect, clean white background, colorful, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເພື່ອນ",
+  "definitions": {
+    "de": "Freund/Freundin – eine Person, mit der man eine enge, vertrauensvolle Beziehung hat",
+    "en": "Friend – a person with whom one has a close, trusting relationship",
+    "es": "Amigo/amiga – persona con quien se tiene una relación cercana y de confianza",
+    "fr": "Ami/amie – personne avec qui on entretient une relation proche et de confiance",
+    "hi": "दोस्त – वह व्यक्ति जिसके साथ घनिष्ठ और विश्वासपूर्ण संबंध हो",
+    "ja": "友達・友人 – 親しく信頼できる関係にある人",
+    "km": "មិត្តភក្តិ – មនុស្សដែលមានទំនាក់ទំនងជិតស្និទ្ធ និងទុកចិត្តបាន",
+    "ko": "친구 – 친밀하고 신뢰할 수 있는 관계에 있는 사람",
+    "ne": "साथी/मित्र – जसँग घनिष्ठ र विश्वासयोग्य सम्बन्ध छ त्यस्तो व्यक्ति",
+    "pt": "Amigo/amiga – pessoa com quem se tem uma relação próxima e de confiança",
+    "th": "เพื่อน – บุคคลที่มีความสัมพันธ์ใกล้ชิดและไว้วางใจกัน",
+    "tl": "Kaibigan – isang taong may malapit at mapagkakatiwalaang relasyon",
+    "ur": "دوست – وہ شخص جس کے ساتھ قریبی اور قابل اعتماد تعلق ہو",
+    "vi": "Bạn bè – người có mối quan hệ thân thiết và tin tưởng",
+    "zh": "朋友 – 与自己有亲密、信任关系的人",
+    "zh_Hant": "朋友 – 與自己有親密、信任關係的人"
+  },
+  "definition_en": "Friend – a person with whom one has a close, trusting relationship",
+  "romanization": "/pʰɯ̂an/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂອງຂ້ອຍຊື່ວ່າ ສົມ",
+      "romanization": "pheuan khong khoi seu wa Som",
+      "translation_en": "My friend's name is Som."
+    },
+    {
+      "lao_script": "ມື້ນີ້ຂ້ອຍໄປຫາເພື່ອນ",
+      "romanization": "meu nii khoi pai ha pheuan",
+      "translation_en": "Today I'm going to visit my friend."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two smiling children or young adults standing side by side with their arms around each other's shoulders, representing friendship, clean white background, bright cheerful colors, minimalist cartoon style suitable for a language learning app."
+}

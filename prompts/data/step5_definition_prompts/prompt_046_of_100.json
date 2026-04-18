@@ -1,0 +1,388 @@
+{
+  "ຫລາຍ": {
+    "definitions": {
+      "de": "Viel, viele; eine große Menge oder Anzahl von etwas",
+      "en": "Many; a large quantity or number of something",
+      "es": "Mucho, muchos; una gran cantidad o número de algo",
+      "fr": "Beaucoup, nombreux; une grande quantité ou un grand nombre de quelque chose",
+      "hi": "बहुत, अनेक; किसी चीज़ की बड़ी मात्रा या संख्या",
+      "ja": "多い、たくさん；何かの大きな量や数",
+      "km": "ច្រើន; បរិមាណ ឬចំនួនច្រើននៃអ្វីមួយ",
+      "ko": "많다; 어떤 것의 많은 양이나 수",
+      "ne": "धेरै; कुनै कुराको ठूलो मात्रा वा संख्या",
+      "pt": "Muito, muitos; uma grande quantidade ou número de algo",
+      "th": "มาก, หลาย; จำนวนหรือปริมาณมากของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Marami; isang malaking dami o bilang ng isang bagay",
+      "ur": "بہت، زیادہ؛ کسی چیز کی بڑی مقدار یا تعداد",
+      "vi": "Nhiều; số lượng lớn của một thứ gì đó",
+      "zh": "很多，许多；大量或众多的事物",
+      "zh_Hant": "很多，許多；大量或眾多的事物"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "laːj³",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ມີຄົນຫລາຍຫລາຍເລີຍ",
+        "romanization": "mʉ̄ːniː miː khon laːj laːj ləːj",
+        "translations": {
+          "de": "Heute gibt es wirklich viele Menschen.",
+          "en": "There are so many people today.",
+          "es": "Hoy hay muchísima gente.",
+          "fr": "Il y a vraiment beaucoup de monde aujourd'hui.",
+          "hi": "आज बहुत सारे लोग हैं।",
+          "ja": "今日は本当にたくさんの人がいるね。",
+          "km": "ថ្ងៃនេះមានមនុស្សច្រើនណាស់។",
+          "ko": "오늘 사람이 정말 많네.",
+          "ne": "आज धेरै मान्छेहरू छन्।",
+          "pt": "Hoje tem muita gente mesmo.",
+          "th": "วันนี้มีคนเยอะมากเลย",
+          "tl": "Maraming tao ngayon.",
+          "ur": "آج بہت سارے لوگ ہیں۔",
+          "vi": "Hôm nay có nhiều người quá.",
+          "zh": "今天人好多啊。",
+          "zh_Hant": "今天人好多啊。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ເຈົ້າກິນຫລາຍໂພດແລ້ວ",
+        "romanization": "tɕâo kin laːj pʰoːt lɛ́ːw",
+        "translations": {
+          "de": "Du hast schon zu viel gegessen.",
+          "en": "You've already eaten way too much.",
+          "es": "Ya comiste demasiado.",
+          "fr": "Tu as déjà trop mangé.",
+          "hi": "तुमने पहले से ही बहुत ज़्यादा खा लिया।",
+          "ja": "もう食べすぎだよ。",
+          "km": "អ្នកបានញ៉ាំច្រើនហួសហេតុហើយ។",
+          "ko": "너 이미 너무 많이 먹었어.",
+          "ne": "तिमीले पहिले नै धेरै खाइसक्यौ।",
+          "pt": "Você já comeu demais.",
+          "th": "แกกินเยอะเกินไปแล้ว",
+          "tl": "Kumain ka na ng sobra.",
+          "ur": "تم نے پہلے ہی بہت زیادہ کھا لیا۔",
+          "vi": "Mày ăn nhiều quá rồi đó.",
+          "zh": "你已经吃太多了。",
+          "zh_Hant": "你已經吃太多了。"
+        },
+        "out_of_scope_words": [
+          "ໂພດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a large group of colorful objects such as apples piled high in a basket, emphasizing abundance and quantity, clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼຽນ": {
+    "definitions": {
+      "de": "Münze oder Medaille; eine runde Metallscheibe, die als Geld oder Auszeichnung verwendet wird",
+      "en": "Coin or medal; a round flat piece of metal used as money or as an award",
+      "es": "Moneda o medalla; pieza redonda de metal usada como dinero o como distinción",
+      "fr": "Pièce de monnaie ou médaille; disque métallique rond utilisé comme argent ou récompense",
+      "hi": "सिक्का या पदक; एक गोल धातु का टुकड़ा जो पैसे या पुरस्कार के रूप में उपयोग होता है",
+      "ja": "コインまたはメダル；お金や賞として使われる丸い金属の板",
+      "km": "កាក់ ឬមេដាយ; ដុំលោហៈមូលប្រើជាប្រាក់ ឬជារង្វាន់",
+      "ko": "동전 또는 메달; 돈이나 상으로 사용되는 둥근 금속 조각",
+      "ne": "सिक्का वा पदक; पैसा वा पुरस्कारको रूपमा प्रयोग हुने गोलाकार धातुको टुक्रा",
+      "pt": "Moeda ou medalha; peça redonda de metal usada como dinheiro ou prêmio",
+      "th": "เหรียญ; แผ่นโลหะกลมที่ใช้เป็นเงินหรือรางวัล",
+      "tl": "Barya o medalya; isang bilog na piraso ng metal na ginagamit bilang pera o gantimpala",
+      "ur": "سکہ یا تمغہ؛ دھات کا گول ٹکڑا جو پیسے یا انعام کے طور پر استعمال ہوتا ہے",
+      "vi": "Đồng xu hoặc huy chương; miếng kim loại tròn dùng làm tiền hoặc phần thưởng",
+      "zh": "硬币或奖章；用作货币或奖励的圆形金属片",
+      "zh_Hant": "硬幣或獎章；用作貨幣或獎勵的圓形金屬片"
+    },
+    "part_of_speech": "noun",
+    "romanization": "liːən²",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຫາຫຼຽນໃນກະເປົ໋າບໍ່ເຈີ",
+        "romanization": "khɔ̄ːj hǎː liːən nai kapǎo bɔ̄ː tɕəː",
+        "translations": {
+          "de": "Ich kann keine Münze in meiner Tasche finden.",
+          "en": "I can't find a coin in my pocket.",
+          "es": "No encuentro ninguna moneda en mi bolsillo.",
+          "fr": "Je ne trouve pas de pièce dans ma poche.",
+          "hi": "मुझे अपनी जेब में कोई सिक्का नहीं मिल रहा।",
+          "ja": "ポケットにコインが見つからない。",
+          "km": "ខ្ញុំរកកាក់នៅក្នុងហោប៉ៅមិនឃើញ។",
+          "ko": "주머니에서 동전을 못 찾겠어.",
+          "ne": "मलाई मेरो खल्तीमा सिक्का भेटिएन।",
+          "pt": "Não consigo achar uma moeda no meu bolso.",
+          "th": "ฉันหาเหรียญในกระเป๋าไม่เจอ",
+          "tl": "Hindi ko mahanap ang barya sa aking bulsa.",
+          "ur": "مجھے اپنی جیب میں سکہ نہیں مل رہا۔",
+          "vi": "Tao không tìm thấy đồng xu trong túi.",
+          "zh": "我在口袋里找不到硬币。",
+          "zh_Hant": "我在口袋裡找不到硬幣。"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ນັກກິລາໄດ້ຮັບຫຼຽນທອງ",
+        "romanization": "nak kilaː dâj háp liːən tʰɔːŋ",
+        "translations": {
+          "de": "Der Sportler hat eine Goldmedaille gewonnen.",
+          "en": "The athlete received a gold medal.",
+          "es": "El deportista recibió una medalla de oro.",
+          "fr": "L'athlète a reçu une médaille d'or.",
+          "hi": "खिलाड़ी को स्वर्ण पदक मिला।",
+          "ja": "その選手は金メダルを受け取った。",
+          "km": "អត្តពលិកទទួលបានមេដាយមាស។",
+          "ko": "운동선수가 금메달을 받았어.",
+          "ne": "खेलाडीले सुनको पदक पाए।",
+          "pt": "O atleta recebeu uma medalha de ouro.",
+          "th": "นักกีฬาได้รับเหรียญทอง",
+          "tl": "Nakatanggap ang atleta ng gintong medalya.",
+          "ur": "کھلاڑی نے سونے کا تمغہ حاصل کیا۔",
+          "vi": "Vận động viên nhận được huy chương vàng.",
+          "zh": "运动员获得了金牌。",
+          "zh_Hant": "運動員獲得了金牌。"
+        },
+        "out_of_scope_words": [
+          "ນັກກິລາ",
+          "ທອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a shiny gold medal with a ribbon, and a few silver coins beside it, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮອດ": {
+    "definitions": {
+      "de": "Ankommen, erreichen; an einem Ort oder Ziel eintreffen",
+      "en": "To arrive, to reach; to get to a place or destination",
+      "es": "Llegar, alcanzar; arribar a un lugar o destino",
+      "fr": "Arriver, atteindre; parvenir à un endroit ou à une destination",
+      "hi": "पहुँचना; किसी स्थान या गंतव्य तक आना",
+      "ja": "着く、到着する；ある場所や目的地に達する",
+      "km": "មកដល់, ទៅដល់; ទៅដល់កន្លែងណាមួយ",
+      "ko": "도착하다, 닿다; 어떤 장소나 목적지에 이르다",
+      "ne": "पुग्नु; कुनै ठाउँ वा गन्तव्यमा आइपुग्नु",
+      "pt": "Chegar, alcançar; ir a um lugar ou destino",
+      "th": "ถึง, มาถึง; เดินทางมาถึงสถานที่หรือจุดหมาย",
+      "tl": "Dumating, maabot; makarating sa isang lugar o destinasyon",
+      "ur": "پہنچنا؛ کسی جگہ یا منزل تک آنا",
+      "vi": "Đến, tới; đến được một nơi hay điểm đến nào đó",
+      "zh": "到达，抵达；到达某个地方或目的地",
+      "zh_Hant": "到達，抵達；到達某個地方或目的地"
+    },
+    "part_of_speech": "verb",
+    "romanization": "hɔːt⁵",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຮອດເຮືອນຍັງ?",
+        "romanization": "tɕâo hɔːt hɯ́an jaŋ",
+        "translations": {
+          "de": "Bist du schon zu Hause angekommen?",
+          "en": "Have you arrived home yet?",
+          "es": "¿Ya llegaste a casa?",
+          "fr": "Tu es déjà arrivé à la maison?",
+          "hi": "क्या तुम घर पहुँच गए?",
+          "ja": "もう家に着いた？",
+          "km": "តើអ្នកដល់ផ្ទះហើយឬនៅ?",
+          "ko": "집에 도착했어?",
+          "ne": "तिमी घर पुग्यौ?",
+          "pt": "Você já chegou em casa?",
+          "th": "ถึงบ้านยัง?",
+          "tl": "Nakarating ka na ba sa bahay?",
+          "ur": "کیا تم گھر پہنچ گئے؟",
+          "vi": "Mày về đến nhà chưa?",
+          "zh": "你到家了吗？",
+          "zh_Hant": "你到家了嗎？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ລົດໄຟຮອດສະຖານີແລ້ວ",
+        "romanization": "lot fáj hɔːt sataːniː lɛ́ːw",
+        "translations": {
+          "de": "Der Zug ist bereits am Bahnhof angekommen.",
+          "en": "The train has already arrived at the station.",
+          "es": "El tren ya llegó a la estación.",
+          "fr": "Le train est déjà arrivé à la gare.",
+          "hi": "ट्रेन स्टेशन पहुँच गई।",
+          "ja": "電車はもう駅に着いたよ。",
+          "km": "រថភ្លើងដល់ស្ថានីហើយ។",
+          "ko": "기차가 역에 이미 도착했어.",
+          "ne": "रेल स्टेशन पुगिसक्यो।",
+          "pt": "O trem já chegou na estação.",
+          "th": "รถไฟถึงสถานีแล้ว",
+          "tl": "Nakarating na ang tren sa estasyon.",
+          "ur": "ٹرین اسٹیشن پہنچ گئی۔",
+          "vi": "Tàu hỏa đã đến ga rồi.",
+          "zh": "火车已经到站了。",
+          "zh_Hant": "火車已經到站了。"
+        },
+        "out_of_scope_words": [
+          "ລົດໄຟ",
+          "ສະຖານີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person arriving at a destination, stepping off a bus or train onto a platform with a small station sign, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສິດ": {
+    "definitions": {
+      "de": "Recht, Rechte; eine Befugnis oder ein Anspruch, auf den man gesetzlich oder moralisch Anspruch hat",
+      "en": "Right, rights; a power or entitlement one is legally or morally entitled to",
+      "es": "Derecho, derechos; una facultad o prerrogativa a la que se tiene derecho legal o moral",
+      "fr": "Droit, droits; un pouvoir ou une prérogative à laquelle on a droit légalement ou moralement",
+      "hi": "अधिकार; एक शक्ति या हक जिसका किसी को कानूनी या नैतिक रूप से हकदार होता है",
+      "ja": "権利；法的または道義的に持つ資格や権限",
+      "km": "សិទ្ធិ; អំណាច ឬសិទ្ធិអំណាចដែលមនុស្សម្នាក់មានតាមច្បាប់ ឬសីលធម៌",
+      "ko": "권리; 법적 또는 도덕적으로 가질 자격이 있는 권한이나 자격",
+      "ne": "अधिकार; कानुनी वा नैतिक रूपमा प्राप्त शक्ति वा हक",
+      "pt": "Direito, direitos; uma prerrogativa ou poder ao qual se tem direito legal ou moral",
+      "th": "สิทธิ; อำนาจหรือสิทธิ์ที่มีตามกฎหมายหรือหลักศีลธรรม",
+      "tl": "Karapatan; isang kapangyarihan o pribilehiyo na may karapatang hawakan ng isang tao sa batas o moralidad",
+      "ur": "حق، حقوق؛ ایک اختیار یا استحقاق جو کسی کو قانونی یا اخلاقی طور پر حاصل ہو",
+      "vi": "Quyền, quyền lợi; quyền năng hoặc đặc quyền mà một người được hưởng về mặt pháp lý hoặc đạo đức",
+      "zh": "权利；一个人在法律或道义上有资格拥有的权力或权益",
+      "zh_Hant": "權利；一個人在法律或道義上有資格擁有的權力或權益"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sit⁵",
+    "examples": [
+      {
+        "lao_script": "ທຸກຄົນມີສິດສະເໝີພາບ",
+        "romanization": "tʰuk khon miː sit saməːpʰáːp",
+        "translations": {
+          "de": "Jeder Mensch hat das Recht auf Gleichheit.",
+          "en": "Every person has the right to equality.",
+          "es": "Toda persona tiene derecho a la igualdad.",
+          "fr": "Toute personne a le droit à l'égalité.",
+          "hi": "हर इंसान को समानता का अधिकार है।",
+          "ja": "すべての人は平等の権利を持っている。",
+          "km": "មនុស្សគ្រប់រូបមានសិទ្ធិស្មើភាពគ្នា។",
+          "ko": "모든 사람은 평등권을 가지고 있어.",
+          "ne": "हरेक मान्छेलाई समानताको अधिकार छ।",
+          "pt": "Todo ser humano tem direito à igualdade.",
+          "th": "ทุกคนมีสิทธิ์ที่เท่าเทียมกัน",
+          "tl": "Ang bawat tao ay may karapatang pantay-pantay.",
+          "ur": "ہر انسان کو برابری کا حق حاصل ہے۔",
+          "vi": "Mọi người đều có quyền bình đẳng.",
+          "zh": "每个人都有平等权利。",
+          "zh_Hant": "每個人都有平等的權利。"
+        },
+        "out_of_scope_words": [
+          "ສະເໝີພາບ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າມີສິດໂວດໃນການເລືອກຕັ້ງ",
+        "romanization": "tɕâo miː sit woːt naj kaːn lɯ́ak táŋ",
+        "translations": {
+          "de": "Du hast das Recht, bei den Wahlen zu wählen.",
+          "en": "You have the right to vote in the election.",
+          "es": "Tienes derecho a votar en las elecciones.",
+          "fr": "Tu as le droit de voter aux élections.",
+          "hi": "तुम्हें चुनाव में वोट करने का अधिकार है।",
+          "ja": "あなたは選挙で投票する権利がある。",
+          "km": "អ្នកមានសិទ្ធិបោះឆ្នោតក្នុងការបោះឆ្នោត។",
+          "ko": "너는 선거에서 투표할 권리가 있어.",
+          "ne": "तिमीलाई चुनावमा मतदान गर्ने अधिकार छ।",
+          "pt": "Você tem o direito de votar nas eleições.",
+          "th": "คุณมีสิทธิ์โหวตในการเลือกตั้ง",
+          "tl": "Mayroon kang karapatang bumoto sa halalan.",
+          "ur": "آپ کو انتخابات میں ووٹ دینے کا حق حاصل ہے۔",
+          "vi": "Bạn có quyền bỏ phiếu trong cuộc bầu cử.",
+          "zh": "你有权利在选举中投票。",
+          "zh_Hant": "你有權利在選舉中投票。"
+        },
+        "out_of_scope_words": [
+          "ໂວດ",
+          "ການເລືອກຕັ້ງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person raising their hand confidently with a glowing shield or badge symbol representing rights and protection, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ເຊຍ": {
+    "definitions": {
+      "de": "Eine Ausrufe- oder Füllpartikel im Laotischen, die Bedauern, Resignation oder milde Enttäuschung ausdrückt; kein eigenständiges bedeutungsvolles Wort",
+      "en": "An exclamatory or filler particle in Lao expressing regret, resignation, or mild disappointment; not a standalone meaningful word",
+      "es": "Una partícula exclamativa o de relleno en lao que expresa pesar, resignación o leve decepción; no es una palabra independiente con significado propio",
+      "fr": "Une particule exclamative ou de remplissage en lao exprimant le regret, la résignation ou une légère déception; pas un mot indépendant à part entière",
+      "hi": "लाओ भाषा में एक विस्मयादिबोधक या भराव कण जो खेद, इस्तीफे या हल्की निराशा व्यक्त करता है; स्वतंत्र अर्थपूर्ण शब्द नहीं",
+      "ja": "ラオス語で後悔、あきらめ、または軽い失望を表す感嘆詞や間投詞；単独では意味を持たない語",
+      "km": "ភាគល្អិតឧទ្ទានសំដែងការសោកស្ដាយ ការចុះចាញ់ ឬការខក់ចិត្តតិចតួចក្នុងភាសាឡាវ; មិនមែនជាពាក្យឯករាជ្យ",
+      "ko": "라오어에서 유감, 체념, 또는 가벼운 실망을 나타내는 감탄사 또는 채움말 조사; 독립적인 의미 있는 단어가 아님",
+      "ne": "लाओ भाषामा खेद, राजीनामा वा हल्का निराशा व्यक्त गर्ने एक उद्गारवाचक वा भराउ कण; स्वतन्त्र अर्थपूर्ण शब्द होइन",
+      "pt": "Uma partícula exclamativa ou de preenchimento no lao que expressa arrependimento, resignação ou leve decepção; não é uma palavra independente com significado próprio",
+      "th": "คำอุทานหรือคำเติมในภาษาลาวที่แสดงความเสียใจ การยอมรับ หรือความผิดหวังเล็กน้อย ไม่ใช่คำที่มีความหมายอิสระ",
+      "tl": "Isang exclamatory o filler particle sa Lao na nagpapahayag ng pagsisisi, resignasyon, o bahagyang kabiguan; hindi isang nagsasariling makabuluhang salita",
+      "ur": "لاؤ زبان میں ایک فجائیہ یا فِلر ذرہ جو افسوس، استعفیٰ یا ہلکی مایوسی ظاہر کرتا ہے؛ اپنے طور پر کوئی خود مختار بامعنی لفظ نہیں",
+      "vi": "Một tiểu từ cảm thán hoặc lấp đầy trong tiếng Lào diễn đạt sự hối tiếc, chịu đựng hoặc thất vọng nhẹ; không phải một từ có nghĩa độc lập",
+      "zh": "老挝语中表达遗憾、无奈或轻微失望的感叹词或语气助词；没有独立的实质意义",
+      "zh_Hant": "寮語中表達遺憾、無奈或輕微失望的感嘆詞或語氣助詞；沒有獨立的實質意義"
+    },
+    "part_of_speech": "particle",
+    "romanization": "sɯa¹",
+    "examples": [
+      {
+        "lao_script": "ເຊຍ, ລືມເອົາກະເປົ໋າໄປແລ້ວ",
+        "romanization": "sɯa lɯːm aw kapǎo paj lɛ́ːw",
+        "translations": {
+          "de": "Oh nein, ich habe die Tasche vergessen mitzunehmen.",
+          "en": "Oh no, I forgot to bring my bag.",
+          "es": "Ay, olvidé traer mi bolsa.",
+          "fr": "Zut, j'ai oublié d'apporter mon sac.",
+          "hi": "अरे, बैग लेना भूल गया।",
+          "ja": "あ～、バッグを持ってくるの忘れた。",
+          "km": "អញ្ចឹង ភ្លេចយកកាបូបទៅហើយ។",
+          "ko": "아이고, 가방을 가져오는 걸 잊었어.",
+          "ne": "अरे, झोला लिन बिर्सिएँ।",
+          "pt": "Poxa, esqueci de trazer a bolsa.",
+          "th": "โอ้ย ลืมเอากระเป๋าไปแล้ว",
+          "tl": "Ay, nalimutan ko dalhin ang bag.",
+          "ur": "اوہ، بیگ لانا بھول گیا۔",
+          "vi": "Thôi chết, quên mang túi rồi.",
+          "zh": "哎，忘记带包了。",
+          "zh_Hant": "哎，忘記帶包了。"
+        },
+        "out_of_scope_words": [
+          "ລືມ",
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ເຊຍ, ຝົນຕົກອີກແລ້ວ",
+        "romanization": "sɯa fǒn tok ʔiːk lɛ́ːw",
+        "translations": {
+          "de": "Ach nein, es regnet schon wieder.",
+          "en": "Oh no, it's raining again.",
+          "es": "Ay, está lloviendo otra vez.",
+          "fr": "Oh non, il pleut encore.",
+          "hi": "ओह, फिर बारिश हो रही है।",
+          "ja": "あ～、また雨が降ってる。",
+          "km": "អីយ៉ា ភ្លៀងទាំងម្ល៉ឹង។",
+          "ko": "아이고, 또 비가 오네.",
+          "ne": "अरे, फेरि पानी पर्यो।",
+          "pt": "Ah não, está chovendo de novo.",
+          "th": "โอ้ย ฝนตกอีกแล้ว",
+          "tl": "Ay, umuulan na naman.",
+          "ur": "اوہ، پھر بارش ہو رہی ہے۔",
+          "vi": "Ôi trời, lại mưa rồi.",
+          "zh": "唉，又下雨了。",
+          "zh_Hant": "唉，又下雨了。"
+        },
+        "out_of_scope_words": [
+          "ຝົນ",
+          "ຕົກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon person with a slightly sad or exasperated facial expression, slumped shoulders, with a small rain cloud above them or a forgotten item nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

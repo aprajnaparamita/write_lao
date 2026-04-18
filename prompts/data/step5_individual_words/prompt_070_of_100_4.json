@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປູກ",
+  "definitions": {
+    "de": "Pflanzen/anbauen – Samen, Setzlinge oder Pflanzen in die Erde einsetzen, damit sie wachsen",
+    "en": "To plant/grow – to put seeds, seedlings, or plants into the ground so they can grow",
+    "es": "Plantar/cultivar – poner semillas, plántulas o plantas en la tierra para que crezcan",
+    "fr": "Planter/cultiver – mettre des graines, des plants ou des plantes dans la terre pour qu'ils poussent",
+    "hi": "लगाना/उगाना – बीज, पौधे या कलम को जमीन में डालना ताकि वे उग सकें",
+    "ja": "植える/育てる – 種、苗、または植物を土に植えて育てること",
+    "km": "ដាំ/ដុះ – យកគ្រាប់ ដើមពោត ឬរុក្ខជាតិដាក់ក្នុងដីឱ្យវាដុះលូតលាស់",
+    "ko": "심다/재배하다 – 씨앗, 모종, 또는 식물을 땅에 심어 자라게 하다",
+    "ne": "लगाउनु/उमार्नु – बीउ, बिरुवा वा बोट जमिनमा राख्नु ताकि तिनीहरू हुर्किन सकून",
+    "pt": "Plantar/cultivar – colocar sementes, mudas ou plantas na terra para que cresçam",
+    "th": "ปลูก – การเอาเมล็ด ต้นกล้า หรือพืชลงในดินเพื่อให้เจริญเติบโต",
+    "tl": "Magtanim/palaguin – maglagay ng mga buto, punla, o halaman sa lupa upang lumago",
+    "ur": "لگانا/اگانا – بیج، پودے یا پودوں کو زمین میں لگانا تاکہ وہ اگ سکیں",
+    "vi": "Trồng/gieo – đặt hạt giống, cây con hoặc cây vào đất để chúng phát triển",
+    "zh": "种/种植 – 将种子、幼苗或植物种入土中，使其生长",
+    "zh_Hant": "種/種植 – 將種子、幼苗或植物種入土中，使其生長"
+  },
+  "definition_en": "To plant/grow – to put seeds, seedlings, or plants into the ground so they can grow",
+  "romanization": "/puːk˦˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ປູກຜັກຢູ່ສວນຫຼັງເຮືອນ",
+      "romanization": "mae puk phak yu suan lang hueang",
+      "translation_en": "Mom is growing vegetables in the garden behind the house."
+    },
+    {
+      "lao_script": "ເຮົາຢາກປູກຕົ້ນໄມ້ໃນເຮືອນ",
+      "romanization": "hao yak puk ton mai nai hueang",
+      "translation_en": "I want to grow plants inside the house."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person gently placing a small green seedling into dark brown soil with both hands, a small garden setting, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

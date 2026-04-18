@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພັນ",
+  "definitions": {
+    "de": "Tausend – die Zahl 1.000",
+    "en": "Thousand – the number 1,000",
+    "es": "Mil – el número 1.000",
+    "fr": "Mille – le nombre 1 000",
+    "hi": "हज़ार – संख्या १,०००",
+    "ja": "千（せん）– 1,000という数",
+    "km": "មួយពាន់ – លេខ ១,០០០",
+    "ko": "천 – 숫자 1,000",
+    "ne": "एक हजार – संख्या १,०००",
+    "pt": "Mil – o número 1.000",
+    "th": "หนึ่งพัน – ตัวเลข 1,000",
+    "tl": "Isang libo – ang bilang na 1,000",
+    "ur": "ہزار – عدد ۱,۰۰۰",
+    "vi": "Một nghìn – số 1.000",
+    "zh": "一千——数字1,000",
+    "zh_Hant": "一千——數字1,000"
+  },
+  "definition_en": "Thousand – the number 1,000",
+  "romanization": "phan",
+  "lao_examples": [
+    {
+      "lao_script": "ເຄື່ອງນີ້ລາຄາສາມພັນກີບ",
+      "romanization": "khuang nih la-kha sam phan kip",
+      "translation_en": "This thing costs three thousand kip."
+    },
+    {
+      "lao_script": "ໃນເມືອງນີ້ມີຄົນຫຼາຍກວ່າໜຶ່ງລ້ານພັນຄົນ",
+      "romanization": "nai mueang nih mii khon lai kwa nung lan phan khon",
+      "translation_en": "This city has more than a million thousand people."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the number 1,000 displayed prominently in bold numerals, with a small stack of banknotes or coins nearby to suggest currency, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຂ່ງ",
+  "definitions": {
+    "de": "wettkämpfen / ein Rennen fahren – an einem Wettbewerb oder Rennen teilnehmen",
+    "en": "to compete / to race – to take part in a competition or race against others",
+    "es": "competir / correr una carrera – participar en una competencia o carrera",
+    "fr": "concourir / faire la course – participer à une compétition ou à une course",
+    "hi": "प्रतिस्पर्धा करना / दौड़ लगाना – किसी प्रतियोगिता या दौड़ में भाग लेना",
+    "ja": "競争する／レースをする – 競技やレースに参加する",
+    "km": "ប្រកួត / ប្រណាំង – ចូលរួមការប្រកួតប្រជែង ឬការប្រណាំង",
+    "ko": "경쟁하다 / 경주하다 – 대회나 경주에 참가하다",
+    "ne": "प्रतिस्पर्धा गर्नु / दौड लाग्नु – कुनै प्रतियोगिता वा दौडमा भाग लिनु",
+    "pt": "competir / correr – participar de uma competição ou corrida",
+    "th": "แข่งขัน / แข่งรถ – เข้าร่วมการแข่งขันหรือการแข่งกัน",
+    "tl": "makipaglaban / makipagtakbuhan – lumahok sa isang paligsahan o karera",
+    "ur": "مقابلہ کرنا / ریس لگانا – کسی مقابلے یا دوڑ میں حصہ لینا",
+    "vi": "thi đấu / đua – tham gia cuộc thi hoặc cuộc đua với người khác",
+    "zh": "比赛 / 竞赛 – 参加比赛或竞争",
+    "zh_Hant": "比賽 / 競賽 – 參加比賽或競爭"
+  },
+  "definition_en": "to compete / to race – to take part in a competition or race against others",
+  "romanization": "/kʰɛːŋ˨˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຢາກແຂ່ງລົດກັບຂ້ອຍບໍ?",
+      "romanization": "jao jaːk kʰɛːŋ lot kap kʰɔːj bɔː?",
+      "translation_en": "Do you want to race cars with me?"
+    },
+    {
+      "lao_script": "ພວກເຮົາແຂ່ງກີລາທຸກປີ",
+      "romanization": "pʰuak haw kʰɛːŋ kiːlaː tʰuk piː",
+      "translation_en": "We compete in sports every year."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon runners racing each other on a track, both leaning forward with determination, clean white background, colorful and minimalist style suitable for a language learning app."
+}

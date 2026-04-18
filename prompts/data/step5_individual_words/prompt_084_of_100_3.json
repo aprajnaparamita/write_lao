@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແມນ",
+  "definitions": {
+    "de": "Insekt; ein kleines Tier mit sechs Beinen und oft mit Flügeln",
+    "en": "insect or bug; a small creature with six legs, often with wings",
+    "es": "insecto o bicho; una criatura pequeña con seis patas, a menudo con alas",
+    "fr": "insecte ou bestiole; une petite créature à six pattes, souvent avec des ailes",
+    "hi": "कीड़ा या कीट; छह पैरों वाला एक छोटा प्राणी, जिसके अक्सर पंख होते हैं",
+    "ja": "虫；六本足を持つ小さな生き物で、しばしば翅を持つ",
+    "km": "សត្វល្អិត; សត្វតូចមានជើងប្រាំមួយ ជាញឹកញាប់មានស្លាប",
+    "ko": "곤충 또는 벌레; 다리가 여섯 개인 작은 생물로 보통 날개가 있음",
+    "ne": "किरा वा कीट; छ वटा खुट्टा भएको साना प्राणी, प्राय: पखेटा भएको",
+    "pt": "inseto ou bicho; uma pequena criatura com seis patas, geralmente com asas",
+    "th": "แมลง; สัตว์ขนาดเล็กที่มีหกขา มักมีปีก",
+    "tl": "insekto o kulisap; isang maliit na nilalang na may anim na paa, madalas may pakpak",
+    "ur": "کیڑا یا حشرہ؛ چھ ٹانگوں والی ایک چھوٹی مخلوق، اکثر پروں والی",
+    "vi": "côn trùng hoặc sâu bọ; sinh vật nhỏ có sáu chân, thường có cánh",
+    "zh": "昆虫或虫子；有六条腿的小生物，通常有翅膀",
+    "zh_Hant": "昆蟲或蟲子；有六條腿的小生物，通常有翅膀"
+  },
+  "definition_en": "insect or bug; a small creature with six legs, often with wings",
+  "romanization": "/mɛːn˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ມີແມນຫຼາຍຕົວຢູ່ໃນສວນ",
+      "romanization": "mii maen lai tua yu nai suan",
+      "translation_en": "There are a lot of insects in the garden."
+    },
+    {
+      "lao_script": "ແມນຕົວນັ້ນບິນເຂົ້າມາໃນຫ້ອງ",
+      "romanization": "maen tua nan bin khao ma nai hong",
+      "translation_en": "That bug flew into the room."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly cartoon bug or beetle with six legs and small wings on a green leaf, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

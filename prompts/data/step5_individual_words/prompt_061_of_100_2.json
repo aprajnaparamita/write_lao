@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕື້",
+  "definitions": {
+    "de": "Eine Milliarde – die Zahl 1.000.000.000; wird im Lao für sehr große Zahlen verwendet",
+    "en": "Billion – the number 1,000,000,000; used in Lao for very large quantities",
+    "es": "Mil millones – el número 1.000.000.000; usado en lao para cantidades muy grandes",
+    "fr": "Milliard – le nombre 1 000 000 000 ; utilisé en laotien pour de très grandes quantités",
+    "hi": "एक अरब – संख्या 1,000,000,000; लाओ में बहुत बड़ी मात्राओं के लिए उपयोग किया जाता है",
+    "ja": "10億 – 1,000,000,000という数字。ラオ語で非常に大きな数量に使われる",
+    "km": "មួយពាន់លាន – លេខ ១,០០០,០០០,០០០ ប្រើក្នុងភាសាឡាវសម្រាប់បរិមាណដ៏ច្រើនណាស់",
+    "ko": "10억 – 숫자 1,000,000,000; 라오어에서 매우 큰 수량에 사용됨",
+    "ne": "एक अर्ब – संख्या १,०००,०००,०००; लाओमा धेरै ठूलो परिमाणको लागि प्रयोग गरिन्छ",
+    "pt": "Bilhão – o número 1.000.000.000; usado em lao para quantidades muito grandes",
+    "th": "หนึ่งพันล้าน – ตัวเลข 1,000,000,000 ใช้ในภาษาลาวสำหรับปริมาณที่มากมาย",
+    "tl": "Isang bilyon – ang bilang na 1,000,000,000; ginagamit sa Lao para sa napakalaking dami",
+    "ur": "ایک ارب – عدد 1,000,000,000؛ لاؤ میں بہت بڑی مقداروں کے لیے استعمال ہوتا ہے",
+    "vi": "Một tỷ – con số 1.000.000.000; dùng trong tiếng Lào cho các số lượng rất lớn",
+    "zh": "十亿 – 数字1,000,000,000；老挝语中用于表示非常大的数量",
+    "zh_Hant": "十億 – 數字1,000,000,000；老撾語中用於表示非常大的數量"
+  },
+  "definition_en": "Billion – the number 1,000,000,000; used in Lao for very large quantities",
+  "romanization": "/tɯ̂ː/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາຄານັ້ນຫຼາຍກວ່າໜຶ່ງຕື້ກີບ",
+      "romanization": "laa khaa nan laai kwaa nueng tue kip",
+      "translation_en": "That price is more than one billion kip."
+    },
+    {
+      "lao_script": "ໂລກນີ້ມີຄົນຫຼາຍກວ່າ 8 ຕື້ຄົນ",
+      "romanization": "look nii mii khon laai kwaa 8 tue khon",
+      "translation_en": "The world has more than 8 billion people."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing the number '1,000,000,000' displayed prominently with a large bold font, surrounded by small coin or money icons to represent a billion units, clean white background, bright and colorful, minimalist design suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຈງ",
+  "definitions": {
+    "de": "erklären / mitteilen / informieren – jemandem etwas erklären oder eine Information weitergeben",
+    "en": "to explain / to inform / to clarify – to explain something to someone or to pass on information",
+    "es": "explicar / informar / aclarar – explicar algo a alguien o comunicar una información",
+    "fr": "expliquer / informer / clarifier – expliquer quelque chose à quelqu'un ou communiquer une information",
+    "hi": "समझाना / बताना / सूचित करना – किसी को कुछ समझाना या जानकारी देना",
+    "ja": "説明する／伝える／知らせる – 誰かに何かを説明したり情報を伝えたりする",
+    "km": "ពន្យល់ / ជម្រាប / ប្រាប់ – ពន្យល់អ្វីមួយដល់នរណាម្នាក់ ឬផ្តល់ព័ត៌មាន",
+    "ko": "설명하다 / 알리다 / 전달하다 – 누군가에게 무언가를 설명하거나 정보를 전달하다",
+    "ne": "बुझाउनु / जानकारी दिनु / स्पष्ट गर्नु – कसैलाई केही बुझाउनु वा जानकारी दिनु",
+    "pt": "explicar / informar / esclarecer – explicar algo a alguém ou transmitir uma informação",
+    "th": "อธิบาย / แจ้ง / ชี้แจง – อธิบายบางสิ่งให้ใครทราบ หรือส่งต่อข้อมูล",
+    "tl": "ipaliwanag / ipaalam / linawin – ipaliwanag ang isang bagay sa isang tao o magbigay ng impormasyon",
+    "ur": "سمجھانا / بتانا / آگاہ کرنا – کسی کو کچھ سمجھانا یا معلومات دینا",
+    "vi": "giải thích / thông báo / làm rõ – giải thích điều gì đó cho ai hoặc truyền đạt thông tin",
+    "zh": "解释 / 说明 / 告知 – 向某人解释某事或传达信息",
+    "zh_Hant": "解釋 / 說明 / 告知 – 向某人解釋某事或傳達資訊"
+  },
+  "definition_en": "to explain / to inform / to clarify – to explain something to someone or to pass on information",
+  "romanization": "/tɕɛːŋ˨˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍແຈງໃຫ້ຂ້ອຍຟັງແດ່ວ່າຕ້ອງເຮັດແນວໃດ",
+      "romanization": "suaj tɕɛːŋ haɪ kʰɔːj faŋ dɛː vaː tɔŋ het nɛːw daɪ",
+      "translation_en": "Please explain to me how I should do it."
+    },
+    {
+      "lao_script": "ຄູແຈງບົດຮຽນໃໝ່ໃຫ້ນັກຮຽນ",
+      "romanization": "kʰuː tɕɛːŋ bot hian maɪ haɪ nak hian",
+      "translation_en": "The teacher explains the new lesson to the students."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a teacher standing at a whiteboard pointing to a diagram, explaining to a small group of students who are listening attentively, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຮືອ",
+  "definitions": {
+    "de": "Boot, Schiff, Wasserfahrzeug",
+    "en": "boat, vessel, watercraft",
+    "es": "bote, barco, embarcación",
+    "fr": "bateau, embarcation, pirogue",
+    "hi": "नाव, जहाज़, नौका",
+    "ja": "ボート、船、舟",
+    "km": "ទូក, នាវា, ប៉ាវ",
+    "ko": "배, 보트, 선박",
+    "ne": "डुङ्गा, नाव, जहाज",
+    "pt": "barco, embarcação, canoa",
+    "th": "เรือ, เรือขนาดเล็ก",
+    "tl": "bangka, barko, sasakyang-dagat",
+    "ur": "کشتی، ناو، جہاز",
+    "vi": "thuyền, tàu, ghe",
+    "zh": "船，小船，水上交通工具",
+    "zh_Hant": "船，小船，水上交通工具"
+  },
+  "definition_en": "boat, vessel, watercraft",
+  "romanization": "/hɯ̂a/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກຂຶ້ນເຮືອໄປທ່ຽວຫຼວງພະບາງ",
+      "romanization": "khoi yaak khueen huea pai thiao Luang Phabang",
+      "translation_en": "I want to take a boat to visit Luang Prabang."
+    },
+    {
+      "lao_script": "ເຮືອຂອງພໍ່ຈອດຢູ່ໃກ້ທ່າແມ່ນ້ຳ",
+      "romanization": "huea khong phor jort yuu glai tha mae naam",
+      "translation_en": "Dad's boat is parked near the riverbank."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional wooden boat floating on calm blue water with a river or lake background, suitable for a language learning app, clean white background, warm earthy colors, minimalist style."
+}

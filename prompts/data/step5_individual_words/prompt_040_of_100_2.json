@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແມ່",
+  "definitions": {
+    "de": "Mutter – die weibliche Elternteil; eine Frau, die ein Kind geboren hat oder großzieht",
+    "en": "Mother – a woman who has given birth to or raised a child; a female parent",
+    "es": "Madre – mujer que ha dado a luz o criado a un hijo; progenitora femenina",
+    "fr": "Mère – femme qui a donné naissance à un enfant ou qui l'élève; parent féminin",
+    "hi": "माँ – वह महिला जिसने बच्चे को जन्म दिया हो या उसकी परवरिश की हो; महिला अभिभावक",
+    "ja": "お母さん・母 – 子どもを産んだり育てたりする女性; 母親",
+    "km": "ម្តាយ – ស្ត្រីដែលបានផ្តល់កំណើត ឬចិញ្ចឹមកូន; មាតាបិតាស្ត្រី",
+    "ko": "어머니/엄마 – 아이를 낳거나 키우는 여성; 여성 부모",
+    "ne": "आमा – बच्चालाई जन्म दिने वा हुर्काउने महिला; महिला अभिभावक",
+    "pt": "Mãe – mulher que deu à luz ou criou um filho; progenitora feminina",
+    "th": "แม่ – ผู้หญิงที่ให้กำเนิดหรือเลี้ยงดูลูก; ผู้ปกครองหญิง",
+    "tl": "Ina/Nanay – babae na nagsilang o nagpalaki ng anak; babaeng magulang",
+    "ur": "ماں – وہ عورت جس نے بچے کو جنم دیا یا پالا ہو; مادری سرپرست",
+    "vi": "Mẹ – người phụ nữ đã sinh ra hoặc nuôi dưỡng một đứa trẻ; người mẹ",
+    "zh": "妈妈/母亲 – 生育或抚养孩子的女性；母亲",
+    "zh_Hant": "媽媽/母親 – 生育或撫養孩子的女性；母親"
+  },
+  "definition_en": "Mother – a woman who has given birth to or raised a child; a female parent",
+  "romanization": "/mɛ̂ː/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຂອງຂ້ອຍເຮັດອາຫານອ່ອຍ",
+      "romanization": "mae khong khoi het a-han oi",
+      "translation_en": "My mother cooks delicious food."
+    },
+    {
+      "lao_script": "ຂ້ອຍຮັກແມ່ຫຼາຍ",
+      "romanization": "khoi hak mae lai",
+      "translation_en": "I love my mother very much."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a warm, smiling woman gently hugging a young child, representing a mother and child bond, clean white background, soft warm colors, minimalist cartoon style suitable for a language learning app."
+}

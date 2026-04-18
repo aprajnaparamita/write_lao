@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼາຍ",
+  "definitions": {
+    "de": "Viel / viele / sehr; drückt eine große Menge, eine hohe Anzahl oder einen hohen Grad aus; kann auch als Verstärker verwendet werden",
+    "en": "Many / much / very; expresses a large quantity, high number, or high degree; can also be used as an intensifier",
+    "es": "Muchos / mucho / muy; expresa una gran cantidad, un número elevado o un grado alto; también se puede usar como intensificador",
+    "fr": "Beaucoup / très / nombreux; exprime une grande quantité, un grand nombre ou un degré élevé; peut aussi être utilisé comme intensificateur",
+    "hi": "बहुत / कई / अत्यधिक; एक बड़ी मात्रा, उच्च संख्या, या उच्च स्तर व्यक्त करता है; तीव्रता बढ़ाने के लिए भी इस्तेमाल किया जा सकता है",
+    "ja": "多い／たくさん／とても；大きな数量、高い数、または高い程度を表す；強調語としても使われる",
+    "km": "ច្រើន / ជាច្រើន / ណាស់; បង្ហាញពីបរិមាណច្រើន ចំនួនច្រើន ឬកម្រិតខ្ពស់; ក៏អាចប្រើជាពាក្យពង្រឹងបន្ថែម",
+    "ko": "많은 / 많이 / 매우; 많은 양, 높은 수 또는 높은 정도를 나타냄; 강조어로도 사용 가능",
+    "ne": "धेरै / अत्यधिक / बहुत; ठूलो मात्रा, उच्च संख्या, वा उच्च स्तर व्यक्त गर्छ; जोड दिन पनि प्रयोग गर्न सकिन्छ",
+    "pt": "Muito / muitos / bastante; expressa uma grande quantidade, número alto ou alto grau; também pode ser usado como intensificador",
+    "th": "มาก / หลาย / มากมาย; แสดงถึงปริมาณมาก จำนวนมาก หรือระดับสูง; ยังสามารถใช้เป็นคำเน้นความได้",
+    "tl": "Marami / lubos / napaka; nagpapahayag ng malaking dami, mataas na bilang, o mataas na antas; maaari ring gamitin bilang pampalakas ng salita",
+    "ur": "بہت / زیادہ / کافی؛ ایک بڑی مقدار، اعلیٰ تعداد، یا اعلیٰ درجے کا اظہار کرتا ہے؛ تاکید کے لیے بھی استعمال کیا جا سکتا ہے",
+    "vi": "Nhiều / rất / quá; diễn đạt số lượng lớn, số nhiều, hoặc mức độ cao; cũng có thể dùng như từ nhấn mạnh",
+    "zh": "很多／许多／非常；表达大量、高数量或高程度；也可用作强调词",
+    "zh_Hant": "很多／許多／非常；表達大量、高數量或高程度；也可用作強調詞"
+  },
+  "definition_en": "Many / much / very; expresses a large quantity, high number, or high degree; can also be used as an intensifier",
+  "romanization": "lǎai",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ຄົນຫຼາຍຫຼາຍ",
+      "romanization": "mʉ̄ níi khón lǎai lǎai",
+      "translation_en": "There are so many people today."
+    },
+    {
+      "lao_script": "ຂ້ອຍມັກເຈົ້າຫຼາຍ",
+      "romanization": "khɔ̂i mák jâo lǎai",
+      "translation_en": "I like you a lot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a large pile of colorful apples overflowing from a basket, representing the concept of 'many' or 'a lot', clean white background, bright colors, minimalist style, suitable for a language learning app."
+}

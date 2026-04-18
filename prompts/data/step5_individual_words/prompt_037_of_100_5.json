@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແກ້ວ",
+  "definitions": {
+    "de": "Glas (Trinkgefäß); auch: Kristall, Edelstein; in der Lao-Kultur auch ein Kosename für geliebte Personen",
+    "en": "Glass (drinking vessel); also: crystal, gemstone; in Lao culture also a term of endearment",
+    "es": "Vaso (recipiente para beber); también: cristal, piedra preciosa; en la cultura laosiana también un término cariñoso",
+    "fr": "Verre (récipient pour boire); aussi: cristal, pierre précieuse; dans la culture laotienne aussi un terme affectueux",
+    "hi": "गिलास (पीने का बर्तन); साथ ही: क्रिस्टल, रत्न; लाओ संस्कृति में प्रियजनों के लिए प्यार का नाम भी",
+    "ja": "グラス（飲み物用の容器）；また：クリスタル、宝石；ラオス文化では愛称としても使われる",
+    "km": "កែវ (ពែងផឹក); ក៏មានន័យថា គ្រីស្តាល់, កែវពេជ្រ; ក្នុងវប្បធម៌ឡាវ ក៏ជាពាក្យស្រឡាញ់ផងដែរ",
+    "ko": "유리컵 (마시는 그릇); 또한: 수정, 보석; 라오스 문화에서는 애칭으로도 사용",
+    "ne": "गिलास (पिउने भाँडो); साथै: क्रिस्टल, रत्न; लाओ संस्कृतिमा प्रियजनका लागि प्यारको नाम पनि",
+    "pt": "Copo (recipiente para beber); também: cristal, pedra preciosa; na cultura laosiana também um termo de carinho",
+    "th": "แก้ว (ภาชนะดื่มน้ำ); ยังหมายถึง คริสตัล, อัญมณี; ในวัฒนธรรมลาวยังใช้เป็นคำเรียกแทนคนที่รัก",
+    "tl": "Baso (lalagyan ng inumin); gayundin: kristal, hiyas; sa kulturang Lao ay ginagamit din bilang tawag sa minamahal",
+    "ur": "گلاس (پینے کا برتن)؛ نیز: کرسٹل، قیمتی پتھر؛ لاؤ ثقافت میں عزیزوں کے لیے پیار کا نام بھی",
+    "vi": "Ly (cốc uống nước); cũng có nghĩa: pha lê, đá quý; trong văn hóa Lào cũng là tên gọi yêu thương",
+    "zh": "玻璃杯（饮用容器）；也指：水晶，宝石；在老挝文化中也用作对亲爱之人的爱称",
+    "zh_Hant": "玻璃杯（飲用容器）；也指：水晶，寶石；在寮國文化中也用作對親愛之人的愛稱"
+  },
+  "definition_en": "Glass (drinking vessel); also: crystal, gemstone; in Lao culture also a term of endearment",
+  "romanization": "/kɛːw⁵³/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາແກ້ວນ້ຳມາໃຫ້ຂ້ອຍແດ່",
+      "romanization": "ao gaew nam maa hai khoi dae",
+      "translation_en": "Please bring me a glass of water."
+    },
+    {
+      "lao_script": "ແກ້ວໃບນີ້ສວຍ ຊື້ຢູ່ໃສ?",
+      "romanization": "gaew bai nih suai, sue yuu sai?",
+      "translation_en": "This glass is beautiful — where did you buy it?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clear drinking glass filled with water, sparkling with light reflections to suggest crystal or glass material, clean white background, light blue and white color palette, minimalist style suitable for a language learning app."
+}

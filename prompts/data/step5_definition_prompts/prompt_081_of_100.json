@@ -1,0 +1,405 @@
+{
+  "ປ້າຍ": {
+    "definitions": {
+      "de": "Ein Schild, Etikett oder eine Beschilderung, die Informationen, einen Namen oder eine Anweisung anzeigt",
+      "en": "A sign, label, or placard that displays information, a name, or an instruction",
+      "es": "Un letrero, etiqueta o cartel que muestra información, un nombre o una instrucción",
+      "fr": "Un panneau, une étiquette ou un écriteau qui affiche des informations, un nom ou une instruction",
+      "hi": "एक संकेत, लेबल या तख्ती जो जानकारी, नाम या निर्देश प्रदर्शित करती है",
+      "ja": "情報、名前、または指示を表示する看板、ラベル、または標識",
+      "km": "ป้าย ស្លាក ឬផ្លាកសញ្ញាដែលបង្ហាញព័ត៌មាន ឈ្មោះ ឬការណែនាំ",
+      "ko": "정보, 이름 또는 지시사항을 표시하는 간판, 라벨 또는 표지판",
+      "ne": "सूचना, नाम वा निर्देशन प्रदर्शन गर्ने साइन, लेबल वा पाटी",
+      "pt": "Uma placa, etiqueta ou letreiro que exibe informações, um nome ou uma instrução",
+      "th": "ป้าย ฉลาก หรือป้ายประกาศที่แสดงข้อมูล ชื่อ หรือคำแนะนำ",
+      "tl": "Isang karatula, label, o palatandaan na nagpapakita ng impormasyon, pangalan, o tagubilin",
+      "ur": "ایک نشان، لیبل یا تختی جو معلومات، نام یا ہدایت ظاہر کرتی ہے",
+      "vi": "Một tấm biển, nhãn hoặc bảng hiệu hiển thị thông tin, tên hoặc hướng dẫn",
+      "zh": "显示信息、名称或指示的标牌、标签或招牌",
+      "zh_Hant": "顯示資訊、名稱或指示的標牌、標籤或招牌"
+    },
+    "part_of_speech": "noun",
+    "romanization": "paːj˥˩",
+    "examples": [
+      {
+        "lao_script": "ເບິ່ງປ້າຍນັ້ນແດ່, ຂຽນວ່າຫຍັງ?",
+        "romanization": "bɯŋ paːj nan dɛː, khian waː ɲaŋ?",
+        "translations": {
+          "de": "Schau mal auf das Schild, was steht da drauf?",
+          "en": "Look at that sign, what does it say?",
+          "es": "Mira ese letrero, ¿qué dice?",
+          "fr": "Regarde ce panneau, qu'est-ce qui est écrit dessus?",
+          "hi": "उस साइन को देखो, उस पर क्या लिखा है?",
+          "ja": "あの看板を見て、何て書いてある?",
+          "km": "មើលផ្លាកសញ្ញានោះមើល សរសេរថាអ្វី?",
+          "ko": "저 표지판 봐봐, 뭐라고 쓰여 있어?",
+          "ne": "त्यो साइन हेर्नुस् त, के लेखिएको छ?",
+          "pt": "Olha aquela placa, o que está escrito?",
+          "th": "ดูป้ายนั้นหน่อย เขียนว่าอะไร?",
+          "tl": "Tingnan mo ang karatulang iyon, ano ang nakasulat?",
+          "ur": "اس نشان کو دیکھو، اس پر کیا لکھا ہے؟",
+          "vi": "Nhìn cái biển đó đi, viết gì vậy?",
+          "zh": "看看那个牌子，上面写的什么？",
+          "zh_Hant": "看看那個牌子，上面寫的什麼？"
+        },
+        "out_of_scope_words": [
+          "ເບິ່ງ",
+          "ຂຽນ"
+        ]
+      },
+      {
+        "lao_script": "ປ້າຍຮ້ານເຮົາຕ້ອງທາສີໃໝ່ແລ້ວ",
+        "romanization": "paːj haːn hao toŋ tʰaː siː maj lɛːw",
+        "translations": {
+          "de": "Das Schild unseres Ladens muss neu gestrichen werden",
+          "en": "Our shop sign needs to be repainted now",
+          "es": "El letrero de nuestra tienda necesita una nueva mano de pintura",
+          "fr": "L'enseigne de notre boutique doit être repeinte maintenant",
+          "hi": "हमारी दुकान की साइन को अब नए सिरे से रंगना होगा",
+          "ja": "うちの店の看板は塗り直さないといけないね",
+          "km": "ផ្លាកហាងយើងត្រូវបោះថ្នាំថ្មីហើយ",
+          "ko": "우리 가게 간판을 이제 새로 칠해야 해",
+          "ne": "हाम्रो पसलको साइनलाई अब नयाँ रंग लगाउनु पर्छ",
+          "pt": "A placa da nossa loja precisa ser repintada agora",
+          "th": "ป้ายร้านเราต้องทาสีใหม่แล้ว",
+          "tl": "Ang karatula ng aming tindahan ay kailangang pinturahan na ulit",
+          "ur": "ہماری دکان کے نشان کو اب دوبارہ رنگ کرنا ہوگا",
+          "vi": "Biển hiệu tiệm của chúng ta cần sơn lại rồi",
+          "zh": "我们店的招牌需要重新刷漆了",
+          "zh_Hant": "我們店的招牌需要重新刷漆了"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ",
+          "ທາສີ",
+          "ໃໝ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a colorful rectangular sign or placard mounted on a post, with bold lines suggesting text or symbols on it, suitable for a language learning app, clean white background, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພັດ": {
+    "definitions": {
+      "de": "Ein Fächer (Gegenstand) oder das Wedeln/Blasen von Luft; auch als Verb verwendet, um das Fächeln oder Blasen von Wind zu beschreiben",
+      "en": "A fan (object used to create airflow), or the action of fanning/blowing air; used as both a noun and a verb",
+      "es": "Un abanico (objeto para crear corriente de aire) o la acción de abanicar/soplar aire; usado como sustantivo y verbo",
+      "fr": "Un éventail (objet pour créer un courant d'air) ou l'action d'éventer/souffler de l'air; utilisé comme nom et verbe",
+      "hi": "एक पंखा (हवा बनाने वाली वस्तु) या हवा झलने/बहाने की क्रिया; संज्ञा और क्रिया दोनों रूपों में प्रयुक्त",
+      "ja": "扇子や団扇（うちわ）などの扇ぐ道具、または風を送る・扇ぐ動作を表す名詞・動詞",
+      "km": "កង្ហារ (វត្ថុដែលប្រើដើម្បីបង្កើតខ្យល់) ឬសកម្មភាពបក់/បក់ខ្យល់ ប្រើជាទាំងនាម និងកិរិយា",
+      "ko": "부채(공기 흐름을 만드는 도구) 또는 부채질하다/바람을 불다의 동작; 명사와 동사 모두로 사용됨",
+      "ne": "पंखा (हावा उत्पन्न गर्न प्रयोग हुने वस्तु) वा हावा गर्ने/फुक्ने क्रिया; संज्ञा र क्रिया दुवैको रूपमा प्रयोग हुन्छ",
+      "pt": "Um leque ou ventilador (objeto para criar corrente de ar) ou a ação de abanar/soprar ar; usado como substantivo e verbo",
+      "th": "พัดลม หรือพัด (สิ่งของที่ใช้พัดลม) หรือการกระทำของการพัด/เป่าลม ใช้ได้ทั้งเป็นคำนามและคำกริยา",
+      "tl": "Isang pamaypay (bagay na ginagamit upang lumikha ng hangin) o ang kilos ng pagpapaypay/paghihip ng hangin; ginagamit bilang pangngalan at pandiwa",
+      "ur": "ایک پنکھا (ہوا پیدا کرنے کے لیے استعمال ہونے والی چیز) یا ہوا جھلنے/پھونکنے کا عمل؛ اسم اور فعل دونوں کے طور پر استعمال ہوتا ہے",
+      "vi": "Cái quạt (vật dùng để tạo luồng gió) hoặc hành động quạt/thổi gió; dùng như cả danh từ lẫn động từ",
+      "zh": "扇子（用于产生气流的物件）或扇风/吹风的动作；可作名词和动词使用",
+      "zh_Hant": "扇子（用於產生氣流的物件）或扇風/吹風的動作；可作名詞和動詞使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pʰat˥˩",
+    "examples": [
+      {
+        "lao_script": "ຮ້ອນຫຼາຍ, ເອົາພັດມາໃຫ້ຂ້ອຍແດ່",
+        "romanization": "hoːn laːj, ao pʰat maː haj kʰoːj dɛː",
+        "translations": {
+          "de": "Es ist sehr heiß, bring mir bitte einen Fächer",
+          "en": "It's really hot, bring me a fan please",
+          "es": "Hace mucho calor, tráeme un abanico por favor",
+          "fr": "Il fait vraiment chaud, apporte-moi un éventail s'il te plaît",
+          "hi": "बहुत गर्मी है, मुझे पंखा लाकर दो",
+          "ja": "すごく暑いから、扇子持ってきてよ",
+          "km": "ក្តៅណាស់ យកកង្ហារមកឲ្យខ្ញុំផង",
+          "ko": "너무 더워, 나한테 부채 좀 가져다줘",
+          "ne": "धेरै गर्मी छ, मलाई पंखा ल्याइदिनु",
+          "pt": "Está muito quente, me traz um leque por favor",
+          "th": "ร้อนมากเลย เอาพัดมาให้หน่อยได้ไหม",
+          "tl": "Mainit na mainit, dalhan mo ako ng pamaypay",
+          "ur": "بہت گرمی ہے، مجھے پنکھا لا دو",
+          "vi": "Nóng quá, lấy cái quạt đưa cho tôi với",
+          "zh": "好热啊，拿把扇子给我嘛",
+          "zh_Hant": "好熱啊，拿把扇子給我嘛"
+        },
+        "out_of_scope_words": [
+          "ຮ້ອນ",
+          "ເອົາ"
+        ]
+      },
+      {
+        "lao_script": "ແມ່ຕາດພັດໃຫ້ລູກນ້ອຍໆ",
+        "romanization": "mɛː taːt pʰat haj luːk noːj noːj",
+        "translations": {
+          "de": "Mama fächelt dem kleinen Kind sanft Luft zu",
+          "en": "Mom fans the little baby gently",
+          "es": "Mamá abanica suavemente al bebé",
+          "fr": "Maman évente doucement son petit bébé",
+          "hi": "माँ छोटे बच्चे को धीरे-धीरे पंखा झल रही है",
+          "ja": "お母さんが小さな赤ちゃんにそっと扇いであげている",
+          "km": "ម្ដាយបក់ខ្យល់ឲ្យកូនតូចៗ",
+          "ko": "엄마가 아기에게 살살 부채질해 주고 있어",
+          "ne": "आमाले सानो बच्चालाई बिस्तारै पंखा गरिरहेकी छन्",
+          "pt": "A mãe abana suavemente o bebezinho",
+          "th": "แม่พัดให้ลูกน้อยๆ",
+          "tl": "Pinapamaypayan ng nanay ang munting sanggol",
+          "ur": "ماں چھوٹے بچے کو آہستہ آہستہ پنکھا جھل رہی ہے",
+          "vi": "Mẹ quạt cho đứa bé nhỏ nhẹ nhàng",
+          "zh": "妈妈轻轻地给小宝宝扇风",
+          "zh_Hant": "媽媽輕輕地給小寶寶扇風"
+        },
+        "out_of_scope_words": [
+          "ແມ່",
+          "ຕາດ",
+          "ລູກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional hand-held folding fan with colorful decorative patterns, shown open and held by a hand, suitable for a language learning app, clean white background, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອັດ": {
+    "definitions": {
+      "de": "Stopfen, sperren oder pressen; auch in zusammengesetzten Wörtern verwendet, um Konzepte wie Preise, Raten oder Kompression auszudrücken",
+      "en": "To stuff, block, press, or compress; also used in compounds to express concepts like rates, prices, or recording",
+      "es": "Rellenar, bloquear, presionar o comprimir; también usado en compuestos para expresar conceptos como tarifas, precios o grabación",
+      "fr": "Bourrer, bloquer, presser ou comprimer; également utilisé dans des composés pour exprimer des concepts comme les tarifs, les prix ou l'enregistrement",
+      "hi": "ठूंसना, रोकना, दबाना या संकुचित करना; दरें, कीमतें या रिकॉर्डिंग जैसी अवधारणाओं को व्यक्त करने के लिए यौगिक शब्दों में भी प्रयुक्त",
+      "ja": "詰める、塞ぐ、押し込む、または圧縮する; 料金、価格、録音などの概念を表す複合語にも使われる",
+      "km": "ដាក់ពេញ រាំង សង្កត់ ឬបង្ហាប់ ក៏ប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីគំនិតដូចជាអត្រា តម្លៃ ឬការថតសំឡេង",
+      "ko": "채우다, 막다, 누르다 또는 압축하다; 요금, 가격 또는 녹음 등의 개념을 나타내는 복합어에도 사용됨",
+      "ne": "ठूस्नु, रोक्नु, थिच्नु वा सम्पीडन गर्नु; दर, मूल्य वा रेकर्डिङजस्ता अवधारणाहरू व्यक्त गर्न यौगिक शब्दहरूमा पनि प्रयोग हुन्छ",
+      "pt": "Rechear, bloquear, pressionar ou comprimir; também usado em compostos para expressar conceitos como taxas, preços ou gravação",
+      "th": "อัด อุด กด หรือบีบอัด ใช้ในคำประสมเพื่อแสดงแนวคิดเช่น อัตรา ราคา หรือการบันทึก",
+      "tl": "Mag-ipit, magharang, pumindot, o mag-compress; ginagamit din sa mga tambalang salita para ipahayag ang mga konsepto tulad ng mga rate, presyo, o pagre-record",
+      "ur": "بھرنا، روکنا، دبانا یا دبانا؛ شرحوں، قیمتوں یا ریکارڈنگ جیسے تصورات کو ظاہر کرنے کے لیے مرکب الفاظ میں بھی استعمال ہوتا ہے",
+      "vi": "Nhét, chặn, ép hoặc nén; cũng dùng trong các từ ghép để diễn đạt các khái niệm như giá cả, tỷ lệ hoặc ghi âm",
+      "zh": "塞满、堵塞、按压或压缩；也用于复合词中表示费率、价格或录制等概念",
+      "zh_Hant": "塞滿、堵塞、按壓或壓縮；也用於複合詞中表示費率、價格或錄製等概念"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ʔat˥˩",
+    "examples": [
+      {
+        "lao_script": "ຢ່າອັດເສື້ອຜ້າໃສ່ກະເປົ໋າຫຼາຍເກີນ",
+        "romanization": "jaː ʔat sɯːa pʰaː saj kapaǒ laːj kɤːn",
+        "translations": {
+          "de": "Stopf nicht zu viele Kleider in den Koffer",
+          "en": "Don't stuff too many clothes into the bag",
+          "es": "No metas demasiada ropa en la maleta",
+          "fr": "Ne bourre pas trop de vêtements dans le sac",
+          "hi": "बैग में बहुत ज्यादा कपड़े मत ठूंसो",
+          "ja": "カバンに服を詰め込みすぎないで",
+          "km": "កុំដាក់ពេញសម្លៀកបំពាក់ច្រើនពេកក្នុងកាតាប",
+          "ko": "가방에 옷을 너무 많이 구겨 넣지 마",
+          "ne": "झोलामा धेरै कपडा नठूस्नुस्",
+          "pt": "Não encha demais a bolsa com roupas",
+          "th": "อย่าอัดเสื้อผ้าใส่กระเป๋าเยอะเกินไป",
+          "tl": "Huwag mag-ipit ng masyadong maraming damit sa bag",
+          "ur": "بیگ میں بہت زیادہ کپڑے مت ٹھونسو",
+          "vi": "Đừng nhét quá nhiều quần áo vào túi",
+          "zh": "别往包里塞太多衣服",
+          "zh_Hant": "別往包裡塞太多衣服"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອຜ້າ",
+          "ກະເປົ໋າ",
+          "ເກີນ"
+        ]
+      },
+      {
+        "lao_script": "ລາຄາອັດຮູບຢູ່ນີ້ຖືກບໍ?",
+        "romanization": "laː kʰaː ʔat huːp juː niː tʰɯk boː?",
+        "translations": {
+          "de": "Ist der Preis fürs Fotos-Drucken hier günstig?",
+          "en": "Is the photo printing price here cheap?",
+          "es": "¿Es barato el precio de revelar fotos aquí?",
+          "fr": "Le prix pour développer les photos ici est-il bon marché?",
+          "hi": "यहाँ फोटो प्रिंट करने की कीमत सस्ती है क्या?",
+          "ja": "ここで写真を現像する値段は安い?",
+          "km": "តម្លៃបោះពុម្ពរូបភាពនៅទីនេះថោកទេ?",
+          "ko": "여기 사진 인화 가격이 싸?",
+          "ne": "यहाँ फोटो प्रिन्ट गर्ने दाम सस्तो छ?",
+          "pt": "O preço para revelar fotos aqui é barato?",
+          "th": "ราคาอัดรูปที่นี่ถูกไหม?",
+          "tl": "Mura ba ang presyo ng pag-print ng litrato dito?",
+          "ur": "یہاں تصویر پرنٹ کرانے کی قیمت سستی ہے کیا؟",
+          "vi": "Giá in ảnh ở đây có rẻ không?",
+          "zh": "这里洗照片的价格便宜吗？",
+          "zh_Hant": "這裡洗照片的價格便宜嗎？"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ຮູບ",
+          "ຖືກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a hand pressing or stuffing items into a bag or container, with a clear compression or blocking gesture, suitable for a language learning app, clean white background, colorful minimalist style",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ກອນ": {
+    "definitions": {
+      "de": "Poesie oder Verse in der laotischen Literatur; traditionelle Gedichte, die oft gesungen oder rezitiert werden und einen wichtigen Teil der laotischen Kultur darstellen",
+      "en": "Poetry or verse in Lao literature; traditional poems that are often sung or recited, representing an important part of Lao cultural heritage",
+      "es": "Poesía o verso en la literatura laosiana; poemas tradicionales que a menudo se cantan o recitan, representando una parte importante del patrimonio cultural laosiano",
+      "fr": "Poésie ou vers dans la littérature laotienne; poèmes traditionnels souvent chantés ou récités, représentant une partie importante du patrimoine culturel laotien",
+      "hi": "लाओ साहित्य में कविता या पद; पारंपरिक कविताएं जो अक्सर गाई या पाठ की जाती हैं, लाओ सांस्कृतिक विरासत का महत्वपूर्ण हिस्सा",
+      "ja": "ラオス文学における詩や詩節; しばしば歌われたり朗読されたりする伝統的な詩で、ラオスの文化遺産の重要な部分を担う",
+      "km": "កំណាព្យ ឬបាទ​ក្បួន​ក្នុងអក្សរសាស្ត្រ​ឡាវ; កំណាព្យ​បែប​ប្រពៃណី​ដែល​តែងតែ​ច្រៀង ឬ​សូត្រ ជា​ផ្នែក​សំខាន់​នៃ​មរតក​វប្បធម៌​ឡាវ",
+      "ko": "라오 문학의 시 또는 시절(詩節); 종종 노래하거나 낭송하는 전통 시로, 라오 문화유산의 중요한 부분을 차지함",
+      "ne": "लाओ साहित्यमा कविता वा पद्य; परम्परागत कविताहरू जुन प्रायः गाइन्छ वा पाठ गरिन्छ, लाओ सांस्कृतिक सम्पदाको महत्वपूर्ण भाग",
+      "pt": "Poesia ou verso na literatura laosiana; poemas tradicionais frequentemente cantados ou recitados, representando uma parte importante do patrimônio cultural laosiano",
+      "th": "บทกวีหรือโคลงกลอนในวรรณกรรมลาว บทกวีดั้งเดิมที่มักขับร้องหรือท่องจำ เป็นส่วนสำคัญของมรดกวัฒนธรรมลาว",
+      "tl": "Tula o berso sa panitikang Lao; tradisyonal na mga tula na madalas na inaawit o binibigkas, kumakatawan sa mahalagang bahagi ng kulturang pamana ng Lao",
+      "ur": "لاؤ ادب میں شاعری یا نظم؛ روایتی نظمیں جو اکثر گائی یا پڑھی جاتی ہیں، لاؤ ثقافتی ورثے کا اہم حصہ",
+      "vi": "Thơ ca hoặc vần điệu trong văn học Lào; những bài thơ truyền thống thường được hát hoặc đọc, đại diện cho một phần quan trọng của di sản văn hóa Lào",
+      "zh": "老挝文学中的诗歌或诗节；传统诗歌，常被演唱或吟诵，是老挝文化遗产的重要组成部分",
+      "zh_Hant": "寮國文學中的詩歌或詩節；傳統詩歌常被演唱或吟誦，是寮國文化遺產的重要組成部分"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kɔːn˩˩˦",
+    "examples": [
+      {
+        "lao_script": "ຄູສອນໃຫ້ທ່ອງກອນໂບຮານ",
+        "romanization": "kʰuː sɔːn haj tʰɔŋ kɔːn boː haːn",
+        "translations": {
+          "de": "Der Lehrer bringt uns bei, alte Gedichte auswendig zu lernen",
+          "en": "The teacher teaches us to recite ancient poems",
+          "es": "El maestro nos enseña a recitar poemas antiguos",
+          "fr": "Le professeur nous apprend à réciter des poèmes anciens",
+          "hi": "शिक्षक हमें पुरानी कविताएं याद कराते हैं",
+          "ja": "先生が古い詩を暗唱するように教えてくれる",
+          "km": "គ្រូបង្រៀនឲ្យទន្ទេញកំណាព្យបូរាណ",
+          "ko": "선생님이 옛날 시를 외우도록 가르쳐줘",
+          "ne": "शिक्षकले पुराना कविता कण्ठस्थ गर्न सिकाउनुहुन्छ",
+          "pt": "O professor nos ensina a recitar poemas antigos",
+          "th": "ครูสอนให้ท่องกลอนโบราณ",
+          "tl": "Tinuturuan kami ng guro na bigkasin ang mga sinaunang tula",
+          "ur": "استاد ہمیں پرانی نظمیں یاد کرنا سکھاتے ہیں",
+          "vi": "Thầy giáo dạy chúng tôi thuộc những bài thơ cổ",
+          "zh": "老师教我们背诵古代诗歌",
+          "zh_Hant": "老師教我們背誦古代詩歌"
+        },
+        "out_of_scope_words": [
+          "ຄູ",
+          "ສອນ",
+          "ທ່ອງ",
+          "ໂບຮານ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຂຽນກອນໄດ້ສວຍຫຼາຍ",
+        "romanization": "laːw khian kɔːn daːj suaj laːj",
+        "translations": {
+          "de": "Er/Sie schreibt wirklich schöne Gedichte",
+          "en": "He/She writes really beautiful poems",
+          "es": "Él/Ella escribe poemas muy hermosos",
+          "fr": "Il/Elle écrit de très beaux poèmes",
+          "hi": "वह बहुत सुंदर कविताएं लिखते/लिखती हैं",
+          "ja": "彼/彼女はとても美しい詩を書く",
+          "km": "គាត់សរសេរកំណាព្យបានស្អាតណាស់",
+          "ko": "그/그녀는 정말 아름다운 시를 써",
+          "ne": "उसले धेरै राम्रो कविता लेख्छ/लेख्छे",
+          "pt": "Ele/Ela escreve poemas muito bonitos",
+          "th": "เขา/เธอเขียนกลอนได้สวยมาก",
+          "tl": "Nagsusulat siya ng napakagandang tula",
+          "ur": "وہ بہت خوبصورت نظمیں لکھتا/لکھتی ہے",
+          "vi": "Anh/cô ấy viết thơ rất hay",
+          "zh": "他/她写的诗非常美",
+          "zh_Hant": "他/她寫的詩非常美"
+        },
+        "out_of_scope_words": [
+          "ຂຽນ",
+          "ສວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open scroll or manuscript with elegant decorative script lines suggesting traditional poetry, alongside a quill or stylus, suitable for a language learning app, clean white background, warm golden tones, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂັນ": {
+    "definitions": {
+      "de": "Eine Schale oder ein Tablett, das traditionell in laotischen Zeremonien und Ritualen für Opfergaben, Wasser oder dekorative Zwecke verwendet wird; oft aus Silber oder Messing gefertigt",
+      "en": "A ceremonial bowl or tray traditionally used in Lao rituals and ceremonies for offerings, water, or decorative purposes; often made of silver or brass",
+      "es": "Un cuenco o bandeja ceremonial utilizado tradicionalmente en rituales y ceremonias lausianas para ofrendas, agua o propósitos decorativos; a menudo hecho de plata o latón",
+      "fr": "Un bol ou plateau cérémoniel utilisé traditionnellement dans les rituels et cérémonies laotiens pour les offrandes, l'eau ou des usages décoratifs; souvent en argent ou en laiton",
+      "hi": "एक औपचारिक कटोरा या थाली जो पारंपरिक रूप से लाओ अनुष्ठानों और समारोहों में भेंट, पानी या सजावटी उद्देश्यों के लिए उपयोग की जाती है; अक्सर चांदी या पीतल से बनी होती है",
+      "ja": "ラオスの儀式や式典で供物、水、または装飾目的に伝統的に使用される儀礼用の椀やトレー; しばしば銀や真鍮で作られる",
+      "km": "ចានពិធីការ ឬថាសដែលប្រើដោយប្រពៃណីក្នុងពិធីបុណ្យ និងពិធីសារ​ ឡាវ​ សម្រាប់ការបូជា ទឹក ឬគោលបំណងតុបតែង; ច្រើនតែធ្វើពីប្រាក់ ឬសំរឹទ្ធ",
+      "ko": "라오스의 의례와 의식에서 제물, 물 또는 장식 목적으로 전통적으로 사용되는 의식용 그릇 또는 쟁반; 종종 은이나 황동으로 만들어짐",
+      "ne": "एक औपचारिक कटोरा वा थाल जुन परम्परागत रूपमा लाओ अनुष्ठान र समारोहहरूमा भेटी, पानी वा सजावटी उद्देश्यका लागि प्रयोग गरिन्छ; प्रायः चाँदी वा पित्तलबाट बनेको",
+      "pt": "Uma tigela ou bandeja cerimonial usada tradicionalmente nos rituais e cerimônias lausianos para oferendas, água ou fins decorativos; frequentemente feita de prata ou latão",
+      "th": "ขันหรือถาดพิธีกรรมที่ใช้ตามประเพณีในพิธีกรรมและพิธีการของลาว สำหรับของบูชา น้ำ หรือการตกแต่ง มักทำจากเงินหรือทองเหลือง",
+      "tl": "Isang seremonyal na mangkok o bandehado na tradisyonal na ginagamit sa mga ritwal at seremonya ng Lao para sa mga alay, tubig, o dekorasyon; madalas na gawa sa pilak o tansong dilaw",
+      "ur": "ایک رسمی پیالہ یا ٹرے جو روایتی طور پر لاؤ رسوم اور تقریبات میں نذرانوں، پانی یا آرائشی مقاصد کے لیے استعمال ہوتی ہے؛ اکثر چاندی یا پیتل سے بنی ہوتی ہے",
+      "vi": "Một cái bát hoặc khay dùng trong nghi lễ, truyền thống được sử dụng trong các nghi lễ và lễ hội của Lào để dâng lễ vật, nước hoặc mục đích trang trí; thường làm bằng bạc hoặc đồng",
+      "zh": "一种仪式用碗或托盘，传统上用于老挝的仪式和典礼，用于供奉、盛水或装饰；通常由银或黄铜制成",
+      "zh_Hant": "一種儀式用碗或托盤，傳統上用於寮國的儀式和典禮，用於供奉、盛水或裝飾；通常由銀或黃銅製成"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰan˩˩˦",
+    "examples": [
+      {
+        "lao_script": "ເອົາຂັນນ້ຳຕັ້ງໄວ້ໃນພິທີ",
+        "romanization": "ao kʰan naːm taŋ waːj nai pʰiː tiː",
+        "translations": {
+          "de": "Stell die Wasserschale für die Zeremonie bereit",
+          "en": "Place the water bowl for the ceremony",
+          "es": "Coloca el cuenco de agua para la ceremonia",
+          "fr": "Posez le bol d'eau pour la cérémonie",
+          "hi": "समारोह के लिए पानी का कटोरा रख दो",
+          "ja": "儀式のために水の椀を置いて",
+          "km": "យកចានទឹកទុកក្នុងពិធី",
+          "ko": "의식을 위해 물그릇을 놓아둬",
+          "ne": "समारोहका लागि पानीको खान राखिदिनुस्",
+          "pt": "Coloque a tigela de água para a cerimônia",
+          "th": "เอาขันน้ำตั้งไว้ในพิธี",
+          "tl": "Ilagay ang mangkok ng tubig para sa seremonya",
+          "ur": "تقریب کے لیے پانی کا پیالہ رکھ دو",
+          "vi": "Đặt cái bát nước vào trong lễ",
+          "zh": "把盛水的碗摆在仪式上",
+          "zh_Hant": "把盛水的碗擺在儀式上"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ຕັ້ງ",
+          "ພິທີ"
+        ]
+      },
+      {
+        "lao_script": "ຂັນເງິນຂອງເຮືອນນີ້ສວຍງາມຫຼາຍ",
+        "romanization": "kʰan ŋɤːn kʰɔːŋ hɯːan niː suaj ŋaːm laːj",
+        "translations": {
+          "de": "Die Silberschale dieses Hauses ist wirklich sehr schön",
+          "en": "This house's silver bowl is very beautiful",
+          "es": "El cuenco de plata de esta casa es muy hermoso",
+          "fr": "Le bol en argent de cette maison est vraiment très beau",
+          "hi": "इस घर का चाँदी का कटोरा बहुत सुंदर है",
+          "ja": "この家の銀の椀はとても美しいね",
+          "km": "ចានប្រាក់នៃផ្ទះនេះស្អាតណាស់",
+          "ko": "이 집의 은 그릇은 정말 아름다워",
+          "ne": "यस घरको चाँदीको खान धेरै सुन्दर छ",
+          "pt": "A tigela de prata desta casa é muito bonita",
+          "th": "ขันเงินของบ้านนี้สวยงามมาก",
+          "tl": "Ang pilak na mangkok ng bahay na ito ay napakaganda",
+          "ur": "اس گھر کا چاندی کا پیالہ بہت خوبصورت ہے",
+          "vi": "Cái bát bạc của nhà này đẹp lắm",
+          "zh": "这家的银碗非常漂亮",
+          "zh_Hant": "這家的銀碗非常漂亮"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ເຮືອນ",
+          "ສວຍງາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional ornate ceremonial bowl or tray made of silver or brass, with decorative engravings, placed on a surface as if for a ritual offering, suitable for a language learning app, clean white background, warm metallic tones, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

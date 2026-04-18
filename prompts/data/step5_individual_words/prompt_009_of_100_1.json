@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດ້ວຍ",
+  "definitions": {
+    "de": "Mit; durch (Präposition, die ein Werkzeug, Mittel oder Begleitung ausdrückt)",
+    "en": "With; by means of (preposition indicating instrument, means, or accompaniment)",
+    "es": "Con; mediante (preposición que indica instrumento, medio o compañía)",
+    "fr": "Avec; au moyen de (préposition indiquant l'instrument, le moyen ou la compagnie)",
+    "hi": "के साथ; के द्वारा (एक उपकरण, साधन या साहचर्य को दर्शाने वाला पूर्वसर्ग)",
+    "ja": "〜で；〜を使って（手段・道具・同伴を表す前置詞）",
+    "km": "ដោយ; ជាមួយ (ធ្វើជាឧបករណ៍ ឬអមដំណើរ)",
+    "ko": "~로; ~와 함께 (수단, 도구 또는 동반을 나타내는 전치사)",
+    "ne": "सँग; द्वारा (साधन, उपकरण वा साथ जनाउने पूर्वसर्ग)",
+    "pt": "Com; por meio de (preposição que indica instrumento, meio ou companhia)",
+    "th": "ด้วย; โดย (คำบุพบทที่แสดงเครื่องมือ วิธีการ หรือการร่วมกัน)",
+    "tl": "Sa pamamagitan ng; kasama (preposisyon na nagpapahiwatig ng instrumento, paraan, o samahan)",
+    "ur": "کے ساتھ؛ کے ذریعے (آلے، ذریعے یا رفاقت کو ظاہر کرنے والا حرفِ جر)",
+    "vi": "Bằng; với (giới từ chỉ phương tiện, công cụ hoặc sự đồng hành)",
+    "zh": "用；以；和（表示工具、手段或陪伴的介词）",
+    "zh_Hant": "用；以；和（表示工具、手段或陪伴的介詞）"
+  },
+  "definition_en": "With; by means of (preposition indicating instrument, means, or accompaniment)",
+  "romanization": "dûay",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍກິນເຂົ້າດ້ວຍມື",
+      "romanization": "khôi kin khâo dûay meu",
+      "translation_en": "I eat rice with my hands."
+    },
+    {
+      "lao_script": "ເຂົາເວົ້າດ້ວຍສຽງດັງ",
+      "romanization": "khao vao dûay siang dang",
+      "translation_en": "He/she speaks with a loud voice."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two hands together or a hand holding a tool (like a spoon or pen), symbolizing 'with' or 'by means of', clean white background, colorful minimalist style suitable for a language learning app."
+}

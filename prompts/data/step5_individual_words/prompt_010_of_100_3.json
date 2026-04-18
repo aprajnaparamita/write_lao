@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຖິງ",
+  "definitions": {
+    "de": "Zu; bis; bis zu – Präposition, die ein Ziel, eine Grenze oder das Erreichen eines Punktes ausdrückt",
+    "en": "To; until; up to – preposition expressing a destination, limit, or the reaching of a point",
+    "es": "A; hasta; hasta llegar a – preposición que expresa un destino, un límite o el alcance de un punto",
+    "fr": "À ; jusqu'à ; jusqu'en – préposition exprimant une destination, une limite ou l'atteinte d'un point",
+    "hi": "तक; को; पहुँचना – एक गंतव्य, सीमा या किसी बिंदु तक पहुँचने को व्यक्त करने वाला परसर्ग",
+    "ja": "〜まで；〜に（到達）；〜へ – 目的地、限界、またはある地点への到達を表す前置詞",
+    "km": "ដល់; រហូតដល់ – ធ្នាក់ប្រើដើម្បីបញ្ជាក់គោលដៅ ដែនកំណត់ ឬការទៅដល់កន្លែងណាមួយ",
+    "ko": "까지; 에(도달); ~로 – 목적지, 한계, 또는 어떤 지점에 도달함을 나타내는 전치사",
+    "ne": "सम्म; मा पुग्नु; को लागि – गन्तव्य, सीमा, वा कुनै बिन्दुमा पुग्नु बुझाउने पूर्वसर्ग",
+    "pt": "Até; a; chegar a – preposição que expressa um destino, limite ou o alcance de um ponto",
+    "th": "ถึง; จนถึง; ไปยัง – คำบุพบทที่แสดงจุดหมาย ขีดจำกัด หรือการไปถึงจุดหนึ่ง",
+    "tl": "Hanggang; sa; papunta sa – pang-ukol na nagpapahayag ng patutunguhan, hangganan, o pag-abot sa isang punto",
+    "ur": "تک؛ کو؛ پہنچنا – ایک حرفِ جر جو منزل، حد، یا کسی مقام تک پہنچنے کو ظاہر کرتا ہے",
+    "vi": "Đến; tới; cho đến – giới từ diễn đạt điểm đến, giới hạn hoặc việc đạt đến một điểm nào đó",
+    "zh": "到；直到；至 – 介词，表示目的地、界限或到达某一点",
+    "zh_Hant": "到；直到；至 – 介詞，表示目的地、界限或到達某一點"
+  },
+  "definition_en": "To; until; up to – preposition expressing a destination, limit, or the reaching of a point",
+  "romanization": "/tʰɯŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຍ່າງເຖິງເຮືອນແລ້ວ",
+      "romanization": "khoi yang thueng hueang laew",
+      "translation_en": "I've already walked home / I've arrived home."
+    },
+    {
+      "lao_script": "ລໍຖ້າເຖິງວັນສຸກກ່ອນເນາະ",
+      "romanization": "lor thar thueng van suk kon nor",
+      "translation_en": "Just wait until Friday first, okay?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking along a path with an arrow pointing toward a destination marked by a house in the distance, suggesting movement toward a goal, clean white background, colorful, minimalist style suitable for a language learning app."
+}

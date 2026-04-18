@@ -1,0 +1,423 @@
+{
+  "ຂຶ້ນ": {
+    "definitions": {
+      "de": "Aufwärts bewegen; nach oben gehen; eine Richtungsergänzung, die Aufwärtsbewegung oder Zunahme anzeigt",
+      "en": "To go up; to rise; a directional complement indicating upward movement or increase",
+      "es": "Subir; ir hacia arriba; complemento direccional que indica movimiento ascendente o aumento",
+      "fr": "Monter; aller vers le haut; complément directionnel indiquant un mouvement vers le haut ou une augmentation",
+      "hi": "ऊपर जाना; चढ़ना; एक दिशात्मक पूरक जो ऊपर की ओर गति या वृद्धि दर्शाता है",
+      "ja": "上がる；上昇する；上方への動きや増加を示す方向補語",
+      "km": "ឡើង; ទៅខាងលើ; ឧបសគ្គទិសដៅដែលបង្ហាញពីចលនាទៅលើ ឬការកើនឡើង",
+      "ko": "올라가다; 위로 움직이다; 위쪽 방향의 움직임이나 증가를 나타내는 방향 보어",
+      "ne": "माथि जानु; उक्लनु; माथितर्फको गति वा वृद्धि जनाउने दिशात्मक पूरक",
+      "pt": "Subir; ir para cima; complemento direcional que indica movimento ascendente ou aumento",
+      "th": "ขึ้น; เคลื่อนที่ไปข้างบน; คำบอกทิศทางที่แสดงการเคลื่อนที่ขึ้นหรือการเพิ่มขึ้น",
+      "tl": "Umakyat; pumunta sa itaas; pandireksyong pandagdag na nagpapahiwatig ng galaw pataas o pagtaas",
+      "ur": "اوپر جانا؛ چڑھنا؛ ایک سمتی لاحقہ جو اوپر کی طرف حرکت یا اضافہ ظاہر کرتا ہے",
+      "vi": "Đi lên; leo lên; bổ ngữ hướng chỉ sự chuyển động lên trên hoặc sự tăng lên",
+      "zh": "上去；向上移动；表示向上运动或增加的方向补语",
+      "zh_Hant": "上去；向上移動；表示向上運動或增加的方向補語"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kʰɯ̂n",
+    "examples": [
+      {
+        "lao_script": "ລາຄາຂຶ້ນຫຼາຍເລີຍ",
+        "romanization": "laa-khaa kʰɯ̂n laaj ləəj",
+        "translations": {
+          "de": "Die Preise sind wirklich stark gestiegen.",
+          "en": "The prices have gone up a lot.",
+          "es": "Los precios han subido mucho.",
+          "fr": "Les prix ont vraiment beaucoup augmenté.",
+          "hi": "कीमतें बहुत ज्यादा बढ़ गई हैं।",
+          "ja": "値段がかなり上がったね。",
+          "km": "តម្លៃឡើងច្រើនណាស់មែន។",
+          "ko": "가격이 많이 올랐네요.",
+          "ne": "मूल्य धेरै बढेको छ।",
+          "pt": "Os preços subiram muito mesmo.",
+          "th": "ราคาขึ้นเยอะมากเลย",
+          "tl": "Ang mga presyo ay talagang tumaas nang husto.",
+          "ur": "قیمتیں بہت زیادہ بڑھ گئی ہیں۔",
+          "vi": "Giá cả đã tăng lên rất nhiều.",
+          "zh": "价格涨了好多啊。",
+          "zh_Hant": "價格漲了好多啊。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ຫຼາຍ",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ຂຶ້ນລົດໄຟໄດ້ແລ້ວ",
+        "romanization": "kʰɯ̂n lot-faj daaj lɛɛw",
+        "translations": {
+          "de": "Wir können jetzt in den Zug einsteigen.",
+          "en": "You can board the train now.",
+          "es": "Ya puedes subir al tren.",
+          "fr": "Tu peux monter dans le train maintenant.",
+          "hi": "अब ट्रेन में चढ़ सकते हो।",
+          "ja": "もう電車に乗れるよ。",
+          "km": "ឡើងរថភ្លើងបានហើយ។",
+          "ko": "이제 기차에 탈 수 있어요.",
+          "ne": "अब रेलमा चढ्न सकिन्छ।",
+          "pt": "Já pode embarcar no trem.",
+          "th": "ขึ้นรถไฟได้แล้ว",
+          "tl": "Maaari ka nang sumakay sa tren.",
+          "ur": "اب ٹرین میں سوار ہو سکتے ہیں۔",
+          "vi": "Có thể lên tàu rồi đó.",
+          "zh": "可以上火车了。",
+          "zh_Hant": "可以上火車了。"
+        },
+        "out_of_scope_words": [
+          "ລົດໄຟ",
+          "ໄດ້",
+          "ແລ້ວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking up a staircase or a rising arrow pointing upward, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຕ່": {
+    "definitions": {
+      "de": "Aber; jedoch; eine Konjunktion, die einen Gegensatz oder eine Einschränkung zwischen zwei Aussagen ausdrückt",
+      "en": "But; however; a conjunction expressing contrast or contradiction between two statements",
+      "es": "Pero; sin embargo; conjunción que expresa contraste o contradicción entre dos afirmaciones",
+      "fr": "Mais; cependant; conjonction exprimant un contraste ou une opposition entre deux affirmations",
+      "hi": "लेकिन; परंतु; एक संयोजन जो दो कथनों के बीच विरोध या अंतर व्यक्त करता है",
+      "ja": "しかし；でも；二つの発言の間の対比や矛盾を表す接続詞",
+      "km": "ប៉ុន្តែ; តែ;接続詞 ដែលបង្ហាញពីភាពផ្ទុយគ្នារវាងប្រយោគពីរ",
+      "ko": "하지만; 그러나; 두 문장 사이의 대조나 모순을 나타내는 접속사",
+      "ne": "तर; तथापि; दुई कथनहरू बीचको विरोधाभास वा अन्तर व्यक्त गर्ने संयोजन",
+      "pt": "Mas; porém; conjunção que expressa contraste ou contradição entre duas afirmações",
+      "th": "แต่; อย่างไรก็ตาม;接続詞 ที่แสดงความขัดแย้งหรือความต่างระหว่างสองประโยค",
+      "tl": "Ngunit; subalit; pangatnig na nagpapahayag ng pagkakaiba o pagkakasalungatan sa pagitan ng dalawang pahayag",
+      "ur": "لیکن؛ مگر؛ ایک接続詞 جو دو بیانات کے درمیان تضاد یا فرق ظاہر کرتا ہے",
+      "vi": "Nhưng; tuy nhiên; liên từ biểu đạt sự tương phản hoặc mâu thuẫn giữa hai mệnh đề",
+      "zh": "但是；然而；连接两个陈述之间的对比或矛盾关系的连词",
+      "zh_Hant": "但是；然而；連接兩個陳述之間對比或矛盾關係的連詞"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "tɛ̀ː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກໄປ ແຕ່ບໍ່ມີເວລາ",
+        "romanization": "kʰɔ̂j jaak paj tɛ̀ː bɔ̀ mii wee-laa",
+        "translations": {
+          "de": "Ich möchte gehen, aber ich habe keine Zeit.",
+          "en": "I want to go, but I don't have time.",
+          "es": "Quiero ir, pero no tengo tiempo.",
+          "fr": "Je veux y aller, mais je n'ai pas le temps.",
+          "hi": "मैं जाना चाहता हूँ, लेकिन मेरे पास समय नहीं है।",
+          "ja": "行きたいけど、時間がない。",
+          "km": "ខ្ញុំចង់ទៅ ប៉ុន្តែគ្មានពេល។",
+          "ko": "가고 싶은데 시간이 없어요.",
+          "ne": "म जान चाहन्छु, तर समय छैन।",
+          "pt": "Eu quero ir, mas não tenho tempo.",
+          "th": "ฉันอยากไป แต่ไม่มีเวลา",
+          "tl": "Gusto kong pumunta, ngunit wala akong oras.",
+          "ur": "میں جانا چاہتا ہوں، لیکن وقت نہیں ہے۔",
+          "vi": "Tôi muốn đi, nhưng không có thời gian.",
+          "zh": "我想去，但是没有时间。",
+          "zh_Hant": "我想去，但是沒有時間。"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ໄປ",
+          "ບໍ່ມີ",
+          "ເວລາ"
+        ]
+      },
+      {
+        "lao_script": "ອາຫານອັນນີ້ແພງ ແຕ່ອຮ່ອຍຫຼາຍ",
+        "romanization": "aa-hǎan an-nii pɛɛŋ tɛ̀ː saj laaj",
+        "translations": {
+          "de": "Dieses Essen ist teuer, aber sehr lecker.",
+          "en": "This food is expensive, but very delicious.",
+          "es": "Esta comida es cara, pero muy deliciosa.",
+          "fr": "Cette nourriture est chère, mais très délicieuse.",
+          "hi": "यह खाना महंगा है, लेकिन बहुत स्वादिष्ट है।",
+          "ja": "この料理は高いけど、とても美味しい。",
+          "km": "អាហារនេះថ្លៃ ប៉ុន្តែឆ្ងាញ់ណាស់។",
+          "ko": "이 음식은 비싸지만 매우 맛있어요.",
+          "ne": "यो खाना महँगो छ, तर धेरै स्वादिलो छ।",
+          "pt": "Esta comida é cara, mas muito deliciosa.",
+          "th": "อาหารอันนี้แพง แต่อร่อยมาก",
+          "tl": "Ang pagkain na ito ay mahal, ngunit napakasarap.",
+          "ur": "یہ کھانا مہنگا ہے، لیکن بہت لذیذ ہے۔",
+          "vi": "Món ăn này đắt, nhưng rất ngon.",
+          "zh": "这道菜很贵，但是非常好吃。",
+          "zh_Hant": "這道菜很貴，但是非常好吃。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ແພງ",
+          "ອຮ່ອຍ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two contrasting sides connected by an arrow or a 'but' symbol, like a sunny day on one side and a rainy day on the other, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເພື່ອ": {
+    "definitions": {
+      "de": "Für; um zu; eine Präposition oder Konjunktion, die Zweck oder Absicht ausdrückt",
+      "en": "For; in order to; a preposition or conjunction expressing purpose or intention",
+      "es": "Para; a fin de; preposición o conjunción que expresa propósito o intención",
+      "fr": "Pour; afin de; préposition ou conjonction exprimant un but ou une intention",
+      "hi": "के लिए; ताकि; एक पूर्वसर्ग या संयोजन जो उद्देश्य या इरादा व्यक्त करता है",
+      "ja": "〜のために；〜するために；目的や意図を表す前置詞または接続詞",
+      "km": "ដើម្បី; សម្រាប់; 介詞 ឬ接続詞 ដែលបង្ហាញពីគោលបំណង ឬចេតនា",
+      "ko": "~을 위해; ~하기 위해; 목적이나 의도를 나타내는 전치사 또는 접속사",
+      "ne": "को लागि; गर्न; उद्देश्य वा इरादा व्यक्त गर्ने पूर्वसर्ग वा संयोजन",
+      "pt": "Para; a fim de; preposição ou conjunção que expressa propósito ou intenção",
+      "th": "เพื่อ; เพื่อที่จะ; คำบุพบทหรือสันธานที่แสดงจุดประสงค์หรือความตั้งใจ",
+      "tl": "Para; upang; prepusisyon o pangatnig na nagpapahayag ng layunin o intensyon",
+      "ur": "کے لیے؛ تاکہ؛ ایک حرف جار یا接続詞 جو مقصد یا ارادہ ظاہر کرتا ہے",
+      "vi": "Để; vì; giới từ hoặc liên từ biểu đạt mục đích hoặc ý định",
+      "zh": "为了；以便；表达目的或意图的介词或连词",
+      "zh_Hant": "為了；以便；表達目的或意圖的介詞或連詞"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "pʰɯ̂a",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຮຽນໜັກ ເພື່ອຈະໄດ້ວຽກດີ",
+        "romanization": "kʰɔ̂j hian nàk pʰɯ̂a tɕa daaj wiak dii",
+        "translations": {
+          "de": "Ich lerne hart, um einen guten Job zu bekommen.",
+          "en": "I study hard in order to get a good job.",
+          "es": "Estudio mucho para conseguir un buen trabajo.",
+          "fr": "J'étudie dur pour avoir un bon travail.",
+          "hi": "मैं कड़ी मेहनत से पढ़ता हूँ ताकि अच्छी नौकरी मिल सके।",
+          "ja": "いい仕事に就くために一生懸命勉強している。",
+          "km": "ខ្ញុំរៀនខ្លាំង ដើម្បីទទួលបានការងារល្អ។",
+          "ko": "좋은 직장을 얻기 위해 열심히 공부해요.",
+          "ne": "राम्रो काम पाउन म कडा मेहनत गर्छु।",
+          "pt": "Eu estudo muito para conseguir um bom emprego.",
+          "th": "ฉันเรียนหนักเพื่อจะได้งานดีๆ",
+          "tl": "Nag-aaral ako nang husto upang makakuha ng magandang trabaho.",
+          "ur": "میں اچھی نوکری کے لیے محنت سے پڑھتا ہوں۔",
+          "vi": "Tôi học chăm chỉ để có được việc làm tốt.",
+          "zh": "我努力学习，为了找到一份好工作。",
+          "zh_Hant": "我努力學習，為了找到一份好工作。"
+        },
+        "out_of_scope_words": [
+          "ຮຽນ",
+          "ໜັກ",
+          "ຈະ",
+          "ໄດ້",
+          "ວຽກ",
+          "ດີ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາຕ້ອງປະຢັດເງິນ ເພື່ອຊື້ເຮືອນ",
+        "romanization": "haw tɔ̂ng pa-jàt ŋən pʰɯ̂a sɯ̂ː hɯan",
+        "translations": {
+          "de": "Wir müssen Geld sparen, um ein Haus zu kaufen.",
+          "en": "We need to save money in order to buy a house.",
+          "es": "Necesitamos ahorrar dinero para comprar una casa.",
+          "fr": "On doit économiser de l'argent pour acheter une maison.",
+          "hi": "हमें घर खरीदने के लिए पैसे बचाने होंगे।",
+          "ja": "家を買うためにお金を貯めないといけない。",
+          "km": "យើងត្រូវសន្សំប្រាក់ ដើម្បីទិញផ្ទះ។",
+          "ko": "집을 사기 위해 돈을 모아야 해요.",
+          "ne": "घर किन्नका लागि हामीले पैसा बचत गर्नुपर्छ।",
+          "pt": "A gente precisa economizar dinheiro para comprar uma casa.",
+          "th": "เราต้องประหยัดเงินเพื่อซื้อบ้าน",
+          "tl": "Kailangan nating mag-ipon ng pera upang makabili ng bahay.",
+          "ur": "ہمیں گھر خریدنے کے لیے پیسے بچانے ہوں گے۔",
+          "vi": "Chúng ta phải tiết kiệm tiền để mua nhà.",
+          "zh": "我们必须存钱，为了买房子。",
+          "zh_Hant": "我們必須存錢，為了買房子。"
+        },
+        "out_of_scope_words": [
+          "ເຮົາ",
+          "ຕ້ອງ",
+          "ປະຢັດ",
+          "ເງິນ",
+          "ຊື້",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a goal or target (like a trophy or a house) connected by an arrow to an action (like a person studying or working), representing purpose, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ງານ": {
+    "definitions": {
+      "de": "Arbeit; Job; Veranstaltung; eine häufig verwendete Bezeichnung für Beschäftigung oder eine gesellschaftliche Feier",
+      "en": "Work; job; event; a common noun referring to employment or a social celebration/festival",
+      "es": "Trabajo; empleo; evento; sustantivo común que hace referencia a una ocupación o a una celebración social",
+      "fr": "Travail; emploi; événement; nom commun désignant une occupation ou une célébration sociale",
+      "hi": "काम; नौकरी; कार्यक्रम; एक सामान्य संज्ञा जो रोजगार या सामाजिक उत्सव को दर्शाती है",
+      "ja": "仕事；イベント；職業や社会的な祝祭を指す一般名詞",
+      "km": "ការងារ; ព្រឹត្តិការណ៍; ពាក្យនាមទូទៅដែលសំដៅទៅលើការងារ ឬពិធីបុណ្យសង្គម",
+      "ko": "일; 직업; 행사; 직업이나 사회적 축제를 나타내는 일반 명사",
+      "ne": "काम; नोकरी; कार्यक्रम; रोजगार वा सामाजिक उत्सवलाई जनाउने सामान्य नाम",
+      "pt": "Trabalho; emprego; evento; substantivo comum que se refere a uma ocupação ou celebração social",
+      "th": "งาน; การทำงาน; กิจกรรม; คำนามทั่วไปที่หมายถึงการทำงานหรืองานเฉลิมฉลองทางสังคม",
+      "tl": "Trabaho; gawain; kaganapan; pangkaraniwang pangngalan na tumutukoy sa hanapbuhay o pagdiriwang",
+      "ur": "کام؛ ملازمت؛ تقریب؛ ایک عام اسم جو پیشے یا سماجی تہوار کو ظاہر کرتا ہے",
+      "vi": "Công việc; việc làm; sự kiện; danh từ thông dụng chỉ nghề nghiệp hoặc lễ hội xã hội",
+      "zh": "工作；职业；活动；指职业或社会庆典的常用名词",
+      "zh_Hant": "工作；職業；活動；指職業或社會慶典的常用名詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ŋáːn",
+    "examples": [
+      {
+        "lao_script": "ງານຂອງເຈົ້າເປັນຈັ່ງໃດແດ່",
+        "romanization": "ŋáːn kʰɔ̌ːŋ tɕâw pen tɕàŋ-daj dɛ̀ː",
+        "translations": {
+          "de": "Wie ist deine Arbeit so?",
+          "en": "How is your work going?",
+          "es": "¿Cómo te va en el trabajo?",
+          "fr": "Comment se passe ton travail ?",
+          "hi": "तुम्हारा काम कैसा चल रहा है?",
+          "ja": "仕事はどう？",
+          "km": "ការងាររបស់អ្នកដូចម្តេចដែរ?",
+          "ko": "일은 어때요?",
+          "ne": "तपाईंको काम कस्तो छ?",
+          "pt": "Como está seu trabalho?",
+          "th": "งานของแกเป็นยังไงบ้าง?",
+          "tl": "Kamusta na ang iyong trabaho?",
+          "ur": "تمہارا کام کیسا چل رہا ہے؟",
+          "vi": "Công việc của bạn thế nào rồi?",
+          "zh": "你的工作怎么样？",
+          "zh_Hant": "你的工作怎麼樣？"
+        },
+        "out_of_scope_words": [
+          "ຂອງ",
+          "ເຈົ້າ",
+          "ເປັນ",
+          "ຈັ່ງໃດ",
+          "ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ມີງານບຸນຢູ່ໃນໝູ່ບ້ານ",
+        "romanization": "mɯ̂ː-nii mii ŋáːn bun jùː nai mùː-bâːn",
+        "translations": {
+          "de": "Heute findet im Dorf ein Tempelfest statt.",
+          "en": "Today there's a merit-making festival in the village.",
+          "es": "Hoy hay un festival en el pueblo.",
+          "fr": "Aujourd'hui, il y a une fête au village.",
+          "hi": "आज गाँव में एक उत्सव है।",
+          "ja": "今日、村でお祭りがある。",
+          "km": "ថ្ងៃនេះមានពិធីបុណ្យនៅក្នុងភូមិ។",
+          "ko": "오늘 마을에 축제가 있어요.",
+          "ne": "आज गाउँमा एउटा उत्सव छ।",
+          "pt": "Hoje tem um festival no vilarejo.",
+          "th": "วันนี้มีงานบุญในหมู่บ้าน",
+          "tl": "Ngayon ay may pagdiriwang sa nayon.",
+          "ur": "آج گاؤں میں ایک تہوار ہے۔",
+          "vi": "Hôm nay có lễ hội ở trong làng.",
+          "zh": "今天村子里有一个节日庆典。",
+          "zh_Hant": "今天村子裡有一個節日慶典。"
+        },
+        "out_of_scope_words": [
+          "ມື້ນີ້",
+          "ມີ",
+          "ບຸນ",
+          "ຢູ່",
+          "ໃນ",
+          "ໝູ່ບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting at a desk working, with papers and a laptop, or alternatively a colorful festival scene with lanterns and people celebrating, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍັງ": {
+    "definitions": {
+      "de": "Noch; immer noch; noch nicht; ein Aspektmarker, der anzeigt, dass eine Handlung oder ein Zustand andauert oder noch nicht abgeschlossen ist",
+      "en": "Still; yet; an aspect marker indicating that an action or state is ongoing or has not yet been completed",
+      "es": "Todavía; aún; marcador de aspecto que indica que una acción o estado continúa o aún no se ha completado",
+      "fr": "Encore; toujours; marqueur d'aspect indiquant qu'une action ou un état se poursuit ou n'est pas encore terminé",
+      "hi": "अभी भी; अभी तक; एक पक्ष चिह्नक जो दर्शाता है कि कोई क्रिया या अवस्था जारी है या अभी पूरी नहीं हुई है",
+      "ja": "まだ；依然として；動作や状態が継続中であることや、まだ完了していないことを示すアスペクトマーカー",
+      "km": "នៅ; នៅតែ; សញ្ញាបំណែងដែលបង្ហាញថាសកម្មភាព ឬស្ថានភាពកំពុងបន្តអនុវត្ត ឬមិនទាន់បញ្ចប់",
+      "ko": "아직; 여전히; 동작이나 상태가 진행 중이거나 아직 완료되지 않았음을 나타내는 상 표지",
+      "ne": "अझै; अझैसम्म; एक पक्ष चिह्न जसले कुनै क्रिया वा अवस्था जारी रहेको वा अझसम्म पूरा नभएको जनाउँछ",
+      "pt": "Ainda; um marcador de aspecto que indica que uma ação ou estado está em curso ou ainda não foi concluído",
+      "th": "ยัง; ยังคง; คำบอกลักษณะที่แสดงว่าการกระทำหรือสภาวะยังคงดำเนินอยู่หรือยังไม่สิ้นสุด",
+      "tl": "Pa rin; hindi pa; isang pang-aspeto na nagpapahiwatig na ang isang kilos o kalagayan ay nagpapatuloy o hindi pa natapos",
+      "ur": "ابھی بھی؛ ابھی تک؛ ایک پہلو نشان جو ظاہر کرتا ہے کہ کوئی عمل یا حالت جاری ہے یا ابھی مکمل نہیں ہوئی",
+      "vi": "Vẫn; vẫn còn; chưa; một từ chỉ thể diện cho thấy một hành động hoặc trạng thái đang tiếp diễn hoặc chưa hoàn thành",
+      "zh": "还；仍然；尚未；表示动作或状态仍在持续或尚未完成的体貌标记",
+      "zh_Hant": "還；仍然；尚未；表示動作或狀態仍在持續或尚未完成的體貌標記"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "ɲáŋ",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຍັງກິນເຂົ້າບໍ່ທັນແມ່ນບໍ",
+        "romanization": "tɕâw ɲáŋ kin kʰâo bɔ̀ tʰán mɛ̄ːn bɔ̀",
+        "translations": {
+          "de": "Du hast noch nicht gegessen, oder?",
+          "en": "You still haven't eaten yet, right?",
+          "es": "Todavía no has comido, ¿verdad?",
+          "fr": "Tu n'as pas encore mangé, c'est ça ?",
+          "hi": "तुमने अभी तक खाना नहीं खाया, है ना?",
+          "ja": "まだご飯食べてないよね？",
+          "km": "អ្នកនៅមិនទាន់ញ៉ាំបាយទេ មែនទែ?",
+          "ko": "아직 밥 안 먹었죠?",
+          "ne": "तिमीले अझै खाना खाएको छैनौ, हैन र?",
+          "pt": "Você ainda não comeu, né?",
+          "th": "แกยังกินข้าวไม่ทันใช่มั้ย?",
+          "tl": "Hindi ka pa nakakakain, tama ba?",
+          "ur": "تم نے ابھی تک کھانا نہیں کھایا، ہے نا؟",
+          "vi": "Bạn vẫn chưa ăn cơm đúng không?",
+          "zh": "你还没吃饭，对吧？",
+          "zh_Hant": "你還沒吃飯，對吧？"
+        },
+        "out_of_scope_words": [
+          "ເຈົ້າ",
+          "ກິນ",
+          "ເຂົ້າ",
+          "ບໍ່ທັນ",
+          "ແມ່ນບໍ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຍັງຮັກເຈົ້າຢູ່ສະເໝີ",
+        "romanization": "kʰɔ̂j ɲáŋ hak tɕâw jùː sa-mə̌ː",
+        "translations": {
+          "de": "Ich liebe dich immer noch.",
+          "en": "I still love you always.",
+          "es": "Todavía te amo siempre.",
+          "fr": "Je t'aime encore toujours.",
+          "hi": "मैं तुमसे अभी भी प्यार करता हूँ।",
+          "ja": "今でもずっと好きだよ。",
+          "km": "ខ្ញុំនៅតែស្រលាញ់អ្នកជានិច្ច។",
+          "ko": "나는 여전히 항상 너를 사랑해.",
+          "ne": "म अझै पनि सधैं तिमीलाई माया गर्छु।",
+          "pt": "Eu ainda te amo sempre.",
+          "th": "ฉันยังรักแกอยู่เสมอ",
+          "tl": "Mahal pa rin kita palagi.",
+          "ur": "میں اب بھی تم سے ہمیشہ محبت کرتا ہوں۔",
+          "vi": "Tôi vẫn luôn yêu bạn.",
+          "zh": "我依然永远爱你。",
+          "zh_Hant": "我依然永遠愛你。"
+        },
+        "out_of_scope_words": [
+          "ຮັກ",
+          "ເຈົ້າ",
+          "ຢູ່",
+          "ສະເໝີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clock or hourglass with a figure still waiting or an ongoing action shown with a continuous arrow loop, representing 'still' or 'not yet done', suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

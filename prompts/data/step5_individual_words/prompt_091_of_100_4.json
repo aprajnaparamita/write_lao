@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປຸ້ນຊັບ",
+  "definitions": {
+    "de": "Rauben, plündern; jemandem gewaltsam Eigentum oder Wertgegenstände wegnehmen",
+    "en": "To rob or plunder; to forcibly take property or valuables from someone, often violently",
+    "es": "Robar, saquear; tomar a la fuerza la propiedad o los objetos de valor de alguien, generalmente con violencia",
+    "fr": "Voler, piller; prendre de force les biens ou les objets de valeur de quelqu'un, souvent avec violence",
+    "hi": "लूटना, डकैती डालना; किसी से जबरदस्ती संपत्ति या कीमती सामान छीनना, अक्सर हिंसक तरीके से",
+    "ja": "強奪する、略奪する；しばしば暴力を用いて、誰かから強制的に財産や貴重品を奪う",
+    "km": "ប្លន់ ឬលួចទ្រព្យ; យករបស់មានតម្លៃពីនរណាម្នាក់ដោយប្រើកម្លាំង",
+    "ko": "강도질하다, 약탈하다; 종종 폭력적으로 누군가로부터 강제로 재산이나 귀중품을 빼앗다",
+    "ne": "लुट्नु, डकैती गर्नु; कसैबाट जबरदस्ती सम्पत्ति वा मूल्यवान सामान छिन्नु, प्रायः हिंसात्मक रूपमा",
+    "pt": "Roubar, saquear; tomar à força bens ou objetos de valor de alguém, frequentemente com violência",
+    "th": "ปล้นทรัพย์; บังคับเอาทรัพย์สินหรือสิ่งมีค่าของผู้อื่นไปโดยใช้กำลัง",
+    "tl": "Magnakaw ng sapilitan, manloob; kunin nang sapilitan ang ari-arian o mahahalagang bagay mula sa isang tao, kadalasang may karahasan",
+    "ur": "لوٹنا، ڈکیتی کرنا؛ کسی سے زبردستی مال یا قیمتی چیزیں چھیننا، اکثر تشدد کے ساتھ",
+    "vi": "Cướp, cướp bóc; cưỡng đoạt tài sản hoặc đồ có giá trị của người khác, thường bằng bạo lực",
+    "zh": "抢劫、掠夺；强行夺取他人的财产或贵重物品，通常伴有暴力",
+    "zh_Hant": "搶劫、掠奪；強行奪取他人的財產或貴重物品，通常伴有暴力"
+  },
+  "definition_en": "To rob or plunder; to forcibly take property or valuables from someone, often violently",
+  "romanization": "pûn sáp",
+  "lao_examples": [
+    {
+      "lao_script": "ຄືນວານນີ້ມີຄົນປຸ້ນຊັບຮ້ານສະດວກຊື້",
+      "romanization": "kʰɯːn waːn níː mii kʰón pûn sáp hâːn sa.duːak sɯː",
+      "translation_en": "Last night, someone robbed a convenience store."
+    },
+    {
+      "lao_script": "ຕຳຫຼວດຈັບຜູ້ປຸ້ນຊັບໄດ້ແລ້ວ",
+      "romanization": "tam.luːat tɕàp pʰûː pûn sáp dâj lɛːw",
+      "translation_en": "The police have already caught the robber."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a masked thief running away with a bag of stolen goods, with a red warning symbol or alarm icon nearby, clean white background, bold outlines, minimalist cartoon style suitable for a language learning app."
+}

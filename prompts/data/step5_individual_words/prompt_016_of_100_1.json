@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສອງ",
+  "definitions": {
+    "de": "Zwei – die Zahl 2",
+    "en": "Two – the number 2",
+    "es": "Dos – el número 2",
+    "fr": "Deux – le chiffre 2",
+    "hi": "दो – अंक 2",
+    "ja": "二（に）– 数字の2",
+    "km": "ពីរ – លេខ ២",
+    "ko": "둘 – 숫자 2",
+    "ne": "दुई – अंक २",
+    "pt": "Dois – o número 2",
+    "th": "สอง – ตัวเลข 2",
+    "tl": "Dalawa – ang bilang 2",
+    "ur": "دو – عدد ۲",
+    "vi": "Hai – số 2",
+    "zh": "二 – 数字2",
+    "zh_Hant": "二 – 數字2"
+  },
+  "definition_en": "Two – the number 2",
+  "romanization": "/sɔːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍມີແມວສອງໂຕ",
+      "romanization": "khoi mii maew song to",
+      "translation_en": "I have two cats."
+    },
+    {
+      "lao_script": "ຂໍຂະໜົມສອງອັນເດີ",
+      "romanization": "kho kha-nom song an doe",
+      "translation_en": "Can I get two snacks, please?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing the number 2 alongside two bright red apples on a clean white background, colorful minimalist style suitable for a language learning app."
+}

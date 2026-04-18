@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອາຍຸ",
+  "definitions": {
+    "de": "Alter; die Anzahl der Jahre, die jemand oder etwas existiert hat",
+    "en": "Age; the number of years a person or thing has existed or lived",
+    "es": "Edad; el número de años que una persona o cosa ha existido o vivido",
+    "fr": "Âge; le nombre d'années qu'une personne ou une chose a existé ou vécu",
+    "hi": "उम्र; वह वर्षों की संख्या जितने समय से कोई व्यक्ति या वस्तु अस्तित्व में है",
+    "ja": "年齢；人や物が存在または生きてきた年数",
+    "km": "អាយុ; ចំនួនឆ្នាំដែលមនុស្ស ឬអ្វីមួយបានរស់ ឬបានមាន",
+    "ko": "나이; 사람이나 사물이 존재하거나 살아온 햇수",
+    "ne": "उमेर; कुनै व्यक्ति वा वस्तु अस्तित्वमा रहेको वर्षहरूको संख्या",
+    "pt": "Idade; o número de anos que uma pessoa ou coisa existiu ou viveu",
+    "th": "อายุ; จำนวนปีที่บุคคลหรือสิ่งของได้มีชีวิตหรือดำรงอยู่",
+    "tl": "Edad; ang bilang ng mga taon na ang isang tao o bagay ay nabuhay o umiral",
+    "ur": "عمر؛ وہ سال جتنے عرصے سے کوئی شخص یا چیز موجود ہے یا زندہ ہے",
+    "vi": "Tuổi; số năm mà một người hoặc vật đã tồn tại hoặc sống",
+    "zh": "年龄；一个人或事物存在或生活了多少年",
+    "zh_Hant": "年齡；一個人或事物存在或生活了多少年"
+  },
+  "definition_en": "Age; the number of years a person or thing has existed or lived",
+  "romanization": "/ʔáː.júː/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າອາຍຸຈັກປີແລ້ວ",
+      "romanization": "Jao a-yu jak pii laew?",
+      "translation_en": "How old are you?"
+    },
+    {
+      "lao_script": "ຂ້ອຍອາຍຸຊາວສາມປີແລ້ວ",
+      "romanization": "Khoi a-yu xao-sam pii laew.",
+      "translation_en": "I'm already twenty-three years old."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a birthday cake with candles and the number '23' on it, alongside a smiling young adult, clean white background, colorful and cheerful, minimalist style suitable for a language learning app."
+}

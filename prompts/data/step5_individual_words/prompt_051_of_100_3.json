@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫົວ",
+  "definitions": {
+    "de": "Kopf (Körperteil); auch verwendet für den oberen/vorderen Teil von Dingen",
+    "en": "Head (body part); also used for the top or front part of objects",
+    "es": "Cabeza (parte del cuerpo); también se usa para la parte superior o delantera de objetos",
+    "fr": "Tête (partie du corps); également utilisé pour la partie supérieure ou avant des objets",
+    "hi": "सिर (शरीर का अंग); वस्तुओं के ऊपरी या अगले हिस्से के लिए भी प्रयुक्त",
+    "ja": "頭（体の部位）；物の上部や先端部分にも使われる",
+    "km": "ក្បាល (ផ្នែករាងកាយ); ក៏ប្រើសម្រាប់ផ្នែកខាងលើ ឬខាងមុខរបស់វត្ថុផងដែរ",
+    "ko": "머리 (신체 부위); 사물의 위쪽이나 앞부분에도 사용됨",
+    "ne": "टाउको (शरीरको अंग); वस्तुहरूको माथिल्लो वा अगाडिको भागका लागि पनि प्रयोग हुन्छ",
+    "pt": "Cabeça (parte do corpo); também usada para a parte superior ou dianteira de objetos",
+    "th": "หัว (ส่วนของร่างกาย); ยังใช้กับส่วนบนหรือส่วนหน้าของสิ่งของ",
+    "tl": "Ulo (bahagi ng katawan); ginagamit din para sa itaas o harap na bahagi ng mga bagay",
+    "ur": "سر (جسم کا حصہ)؛ چیزوں کے اوپری یا اگلے حصے کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Đầu (bộ phận cơ thể); cũng dùng để chỉ phần trên hoặc phần trước của vật",
+    "zh": "头（身体部位）；也用于指物体的顶部或前端",
+    "zh_Hant": "頭（身體部位）；也用於指物體的頂部或前端"
+  },
+  "definition_en": "Head (body part); also used for the top or front part of objects",
+  "romanization": "hǔa",
+  "lao_examples": [
+    {
+      "lao_script": "ຫົວຂອງຂ້ອຍເຈັບຫຼາຍເລີຍ",
+      "romanization": "hǔa khɔ̌ːŋ khɔ̂ːj tɕep laːj ləːj",
+      "translation_en": "My head really hurts a lot."
+    },
+    {
+      "lao_script": "ລ້າງຫົວທຸກໆວັນດີຕໍ່ຜົມ",
+      "romanization": "laːŋ hǔa thúk thúk wan diː tɔ̀ː phǒm",
+      "translation_en": "Washing your hair every day is good for your hair."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a human head shown from the front with a neutral expression, with an arrow or highlight pointing to the head area, clean white background, colorful minimalist cartoon style suitable for a language learning app."
+}

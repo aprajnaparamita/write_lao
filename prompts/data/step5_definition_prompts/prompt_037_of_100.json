@@ -1,0 +1,395 @@
+{
+  "ສານ": {
+    "definitions": {
+      "de": "Gericht (Rechtsinstitution); auch: weben oder flechten",
+      "en": "Court (legal institution); also: to weave or braid",
+      "es": "Tribunal (institución legal); también: tejer o trenzar",
+      "fr": "Tribunal (institution juridique); aussi: tisser ou tresser",
+      "hi": "न्यायालय (कानूनी संस्था); साथ ही: बुनना या गूंथना",
+      "ja": "裁判所（法的機関）；また：織る、編む",
+      "km": "តុលាការ (ស្ថាប័នច្បាប់); ក៏មានន័យថា ត្បាញ ឬស្រែកស្រាំ",
+      "ko": "법원 (법적 기관); 또한: 짜다, 엮다",
+      "ne": "अदालत (कानुनी संस्था); साथै: बुन्नु वा गाँस्नु",
+      "pt": "Tribunal (instituição legal); também: tecer ou trançar",
+      "th": "ศาล (สถาบันทางกฎหมาย); ยังหมายถึง การทอหรือสาน",
+      "tl": "Hukuman (legal na institusyon); gayundin: humabi o magtirintas",
+      "ur": "عدالت (قانونی ادارہ)؛ نیز: بُننا یا گوندھنا",
+      "vi": "Tòa án (cơ quan pháp lý); cũng có nghĩa: dệt hoặc đan",
+      "zh": "法院（法律机构）；也指：编织或编结",
+      "zh_Hant": "法院（法律機構）；也指：編織或編結"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/saːn³³/",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນໄປສານມື້ນີ້ເພາະຄະດີ",
+        "romanization": "phoen pai saan muu-nih phaw kha-dii",
+        "translations": {
+          "de": "Er/Sie geht heute wegen eines Rechtsfalles zum Gericht.",
+          "en": "He/She is going to court today because of a legal case.",
+          "es": "Él/Ella va al tribunal hoy por un caso legal.",
+          "fr": "Il/Elle va au tribunal aujourd'hui à cause d'une affaire juridique.",
+          "hi": "वह आज एक मुकदमे के कारण अदालत जा रहा/रही है।",
+          "ja": "彼/彼女は今日、裁判の件で法廷に行きます。",
+          "km": "គាត់ទៅតុលាការថ្ងៃនេះដោយសារក្តី។",
+          "ko": "그/그녀는 오늘 소송 때문에 법원에 갑니다.",
+          "ne": "उहाँ आज मुद्दाको कारण अदालत जानुहुँछ।",
+          "pt": "Ele/Ela vai ao tribunal hoje por causa de um caso legal.",
+          "th": "เขา/เธอไปศาลวันนี้เพราะมีคดี",
+          "tl": "Pumunta siya sa hukuman ngayon dahil sa isang kaso.",
+          "ur": "وہ آج ایک مقدمے کی وجہ سے عدالت جا رہا/رہی ہے۔",
+          "vi": "Anh/Chị ấy đi tòa án hôm nay vì có vụ kiện.",
+          "zh": "他/她今天因为案子去法院。",
+          "zh_Hant": "他/她今天因為案子去法院。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ຄະດີ"
+        ]
+      },
+      {
+        "lao_script": "ສານນີ້ຢູ່ໃກ້ໆຕົວເມືອງ",
+        "romanization": "saan nih yuu glai-glai tua-mueang",
+        "translations": {
+          "de": "Dieses Gericht liegt in der Nähe des Stadtzentrums.",
+          "en": "This court is near the city center.",
+          "es": "Este tribunal está cerca del centro de la ciudad.",
+          "fr": "Ce tribunal est près du centre-ville.",
+          "hi": "यह अदालत शहर के केंद्र के पास है।",
+          "ja": "この裁判所は市の中心部の近くにあります。",
+          "km": "តុលាការនេះស្ថិតនៅជិតមជ្ឈមណ្ឌលក្រុង។",
+          "ko": "이 법원은 시내 중심가 근처에 있어요.",
+          "ne": "यो अदालत सहरको केन्द्र नजिकै छ।",
+          "pt": "Este tribunal fica perto do centro da cidade.",
+          "th": "ศาลนี้อยู่ใกล้ๆ ใจกลางเมือง",
+          "tl": "Ang hukumang ito ay malapit sa gitna ng lungsod.",
+          "ur": "یہ عدالت شہر کے مرکز کے قریب ہے۔",
+          "vi": "Tòa án này ở gần trung tâm thành phố.",
+          "zh": "这个法院就在市中心附近。",
+          "zh_Hant": "這個法院就在市中心附近。"
+        },
+        "out_of_scope_words": [
+          "ຕົວເມືອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a courthouse building with columns and a justice scale symbol above the entrance, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ກຳ": {
+    "definitions": {
+      "de": "Karma (das spirituelle Gesetz von Ursache und Wirkung im Buddhismus); auch: greifen, halten oder tragen",
+      "en": "Karma (the Buddhist concept of cause and effect); also: to grasp, hold, or carry",
+      "es": "Karma (concepto budista de causa y efecto); también: agarrar, sostener o cargar",
+      "fr": "Karma (concept bouddhiste de cause et effet); aussi: saisir, tenir ou porter",
+      "hi": "कर्म (बौद्ध धर्म में कारण और प्रभाव की अवधारणा); साथ ही: पकड़ना, थामना या उठाना",
+      "ja": "カルマ（仏教の因果応報の概念）；また：つかむ、持つ、運ぶ",
+      "km": "កម្ម (គំនិតព្រះពុទ្ធសាសនាអំពីហេតុផល); ក៏មានន័យថា ចាប់, កាន់, ឬផ្ទុក",
+      "ko": "업(불교의 인과응보 개념); 또한: 잡다, 쥐다, 들다",
+      "ne": "कर्म (बौद्ध धर्मको कारण र प्रभावको अवधारणा); साथै: समात्नु, थाम्नु वा बोक्नु",
+      "pt": "Karma (conceito budista de causa e efeito); também: agarrar, segurar ou carregar",
+      "th": "กรรม (แนวคิดทางพุทธศาสนาเรื่องเหตุและผล); ยังหมายถึง การจับ ถือ หรือแบก",
+      "tl": "Karma (konsepto ng Budismo tungkol sa sanhi at bunga); gayundin: humawak, kumapit, o magdala",
+      "ur": "کرما (بدھ مت میں سبب و اثر کا تصور)؛ نیز: پکڑنا، تھامنا یا اٹھانا",
+      "vi": "Nghiệp (khái niệm Phật giáo về nhân quả); cũng có nghĩa: nắm, cầm hoặc mang",
+      "zh": "业（佛教的因果概念）；也指：抓、握或携带",
+      "zh_Hant": "業（佛教的因果概念）；也指：抓、握或攜帶"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kaːm³³/",
+    "examples": [
+      {
+        "lao_script": "ເຮົາເຮັດດີ ກໍ່ໄດ້ຮັບກຳດີຄືນ",
+        "romanization": "hao het dii, gaw dai hap gam dii khuun",
+        "translations": {
+          "de": "Wenn wir Gutes tun, erhalten wir gutes Karma zurück.",
+          "en": "If we do good, we receive good karma in return.",
+          "es": "Si hacemos el bien, recibimos buen karma a cambio.",
+          "fr": "Si nous faisons le bien, nous recevons du bon karma en retour.",
+          "hi": "यदि हम अच्छा करते हैं, तो बदले में हमें अच्छा कर्म मिलता है।",
+          "ja": "良いことをすれば、良いカルマが返ってきます。",
+          "km": "ប្រសិនបើយើងធ្វើល្អ យើងទទួលបានកម្មល្អត្រឡប់មកវិញ។",
+          "ko": "우리가 선한 일을 하면 좋은 업을 돌려받아요.",
+          "ne": "हामीले राम्रो काम गर्यौं भने राम्रो कर्म फिर्ता पाउँछौं।",
+          "pt": "Se fazemos o bem, recebemos bom karma em troca.",
+          "th": "ถ้าเราทำดี ก็จะได้รับกรรมดีคืน",
+          "tl": "Kung gagawa tayo ng mabuti, makatatanggap tayo ng mabuting karma.",
+          "ur": "اگر ہم اچھا کریں تو اچھا کرما واپس ملتا ہے۔",
+          "vi": "Nếu chúng ta làm điều tốt, chúng ta sẽ nhận được nghiệp tốt trở lại.",
+          "zh": "我们做好事，就会得到好的业报。",
+          "zh_Hant": "我們做好事，就會得到好的業報。"
+        },
+        "out_of_scope_words": [
+          "ໄດ້ຮັບ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາເຊື່ອເລື່ອງກຳຫຼາຍ",
+        "romanization": "khao suea lueang gam laai",
+        "translations": {
+          "de": "Er glaubt sehr stark an Karma.",
+          "en": "He believes a lot in karma.",
+          "es": "Él cree mucho en el karma.",
+          "fr": "Il croit beaucoup au karma.",
+          "hi": "वह कर्म में बहुत विश्वास करता है।",
+          "ja": "彼はカルマをとても信じています。",
+          "km": "គាត់ជឿលើរឿងកម្មច្រើន។",
+          "ko": "그는 업을 많이 믿어요.",
+          "ne": "उसले कर्मलाई धेरै विश्वास गर्छ।",
+          "pt": "Ele acredita muito em karma.",
+          "th": "เขาเชื่อเรื่องกรรมมาก",
+          "tl": "Naniniwala siya nang husto sa karma.",
+          "ur": "وہ کرما پر بہت یقین رکھتا ہے۔",
+          "vi": "Anh ấy rất tin vào nghiệp.",
+          "zh": "他非常相信业报。",
+          "zh_Hant": "他非常相信業報。"
+        },
+        "out_of_scope_words": [
+          "ເຊື່ອ",
+          "ເລື່ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a glowing circular karma cycle symbol with a lotus flower at the center, representing cause and effect in Buddhism, clean white background, soft golden and orange colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊາວ": {
+    "definitions": {
+      "de": "Menschen, Volk (als Präfix für Nationalität oder ethnische Gruppe); auch: zwanzig (die Zahl 20)",
+      "en": "People, folk (used as a prefix for nationality or ethnic group); also: twenty (the number 20)",
+      "es": "Gente, pueblo (usado como prefijo de nacionalidad o grupo étnico); también: veinte (el número 20)",
+      "fr": "Peuple, gens (utilisé comme préfixe de nationalité ou groupe ethnique); aussi: vingt (le nombre 20)",
+      "hi": "लोग, जनता (राष्ट्रीयता या जातीय समूह के उपसर्ग के रूप में प्रयुक्त); साथ ही: बीस (संख्या 20)",
+      "ja": "人々、民族（国籍や民族グループの接頭辞として使用）；また：二十（数字の20）",
+      "km": "ប្រជាជន, ពួក (ប្រើជាបុព្វបទសម្រាប់សញ្ជាតិ ឬក្រុមជនជាតិ); ក៏មានន័យថា ម្ភៃ (លេខ 20)",
+      "ko": "사람들, 민족 (국적이나 민족 집단의 접두사로 사용); 또한: 이십 (숫자 20)",
+      "ne": "मानिसहरू, जनजाति (राष्ट्रियता वा जातीय समूहको उपसर्गको रूपमा प्रयोग); साथै: बीस (संख्या २०)",
+      "pt": "Povo, gente (usado como prefixo de nacionalidade ou grupo étnico); também: vinte (o número 20)",
+      "th": "ชาว (คำนำหน้าสัญชาติหรือกลุ่มชาติพันธุ์); ยังหมายถึง ยี่สิบ (ตัวเลข 20)",
+      "tl": "Mga tao, bayan (ginagamit bilang unlapi para sa nasyonalidad o pangkat etniko); gayundin: dalawampu (ang bilang 20)",
+      "ur": "لوگ، قوم (قومیت یا نسلی گروہ کے سابقے کے طور پر استعمال)؛ نیز: بیس (عدد 20)",
+      "vi": "Người, dân (dùng làm tiền tố chỉ quốc tịch hoặc nhóm dân tộc); cũng có nghĩa: hai mươi (số 20)",
+      "zh": "人，民（用作国籍或民族前缀）；也指：二十（数字20）",
+      "zh_Hant": "人，民（用作國籍或民族前綴）；也指：二十（數字20）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/saːw³³/",
+    "examples": [
+      {
+        "lao_script": "ຊາວລາວຮັກການກິນເຂົ້າ",
+        "romanization": "saao Laao hak gaan gin khao",
+        "translations": {
+          "de": "Die Laoten lieben es, Reis zu essen.",
+          "en": "Lao people love eating rice.",
+          "es": "Los laosianos aman comer arroz.",
+          "fr": "Les Laotiens adorent manger du riz.",
+          "hi": "लाओ लोग चावल खाना पसंद करते हैं।",
+          "ja": "ラオス人はご飯を食べるのが大好きです。",
+          "km": "ជនជាតិឡាវចូលចិត្តញ៉ាំបាយ។",
+          "ko": "라오스 사람들은 밥 먹는 것을 좋아해요.",
+          "ne": "लाओ मानिसहरू भात खान मन पराउँछन्।",
+          "pt": "Os laosianos adoram comer arroz.",
+          "th": "ชาวลาวชอบกินข้าว",
+          "tl": "Ang mga tao sa Laos ay mahilig kumain ng kanin.",
+          "ur": "لاؤ لوگ چاول کھانا پسند کرتے ہیں۔",
+          "vi": "Người Lào thích ăn cơm.",
+          "zh": "老挝人喜欢吃米饭。",
+          "zh_Hant": "寮國人喜歡吃米飯。"
+        },
+        "out_of_scope_words": [
+          "ຮັກ",
+          "ການກິນ",
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ມີຊາວປະມານຊາວຄົນມາງານ",
+        "romanization": "mii saao pa-maan saao khon maa ngaan",
+        "translations": {
+          "de": "Es kamen ungefähr zwanzig Leute zur Veranstaltung.",
+          "en": "About twenty people came to the event.",
+          "es": "Aproximadamente veinte personas vinieron al evento.",
+          "fr": "Environ vingt personnes sont venues à l'événement.",
+          "hi": "कार्यक्रम में लगभग बीस लोग आए।",
+          "ja": "イベントに約二十人が来ました。",
+          "km": "មានប្រមាណម្ភៃនាក់មកព្រឹត្តិការណ៍។",
+          "ko": "행사에 약 스무 명이 왔어요.",
+          "ne": "कार्यक्रममा करिब बीस जना आए।",
+          "pt": "Cerca de vinte pessoas vieram ao evento.",
+          "th": "มีคนประมาณยี่สิบคนมางาน",
+          "tl": "May humigit-kumulang dalawampung tao na pumunta sa okasyon.",
+          "ur": "تقریب میں تقریباً بیس لوگ آئے۔",
+          "vi": "Có khoảng hai mươi người đến sự kiện.",
+          "zh": "大约有二十个人来参加活动。",
+          "zh_Hant": "大約有二十個人來參加活動。"
+        },
+        "out_of_scope_words": [
+          "ປະມານ",
+          "ງານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a diverse group of smiling people standing together representing a community or nationality, with the number 20 displayed nearby in a friendly font, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍິງ": {
+    "definitions": {
+      "de": "Frau, weiblich; bezeichnet das weibliche Geschlecht oder eine Frau",
+      "en": "Woman, female; refers to the female gender or a woman",
+      "es": "Mujer, femenino; se refiere al género femenino o a una mujer",
+      "fr": "Femme, féminin; désigne le genre féminin ou une femme",
+      "hi": "महिला, स्त्री; स्त्री लिंग या एक महिला को संदर्भित करता है",
+      "ja": "女性、女；女性の性別または女性を指す",
+      "km": "ស្ត្រី, ភេទស្រី; សំដៅទៅលើភេទស្ត្រី ឬស្ត្រី",
+      "ko": "여자, 여성; 여성 성별이나 여자를 가리킴",
+      "ne": "महिला, स्त्री; स्त्री लिङ्ग वा महिलालाई जनाउँछ",
+      "pt": "Mulher, feminino; refere-se ao gênero feminino ou a uma mulher",
+      "th": "ผู้หญิง, หญิง; หมายถึงเพศหญิงหรือผู้หญิง",
+      "tl": "Babae, pambabae; tumutukoy sa kasarian ng babae o isang babae",
+      "ur": "عورت، مؤنث؛ مؤنث جنس یا ایک عورت کی طرف اشارہ کرتا ہے",
+      "vi": "Phụ nữ, nữ; chỉ giới tính nữ hoặc một người phụ nữ",
+      "zh": "女，女性；指女性性别或一名女性",
+      "zh_Hant": "女，女性；指女性性別或一名女性"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ɲiŋ³³/",
+    "examples": [
+      {
+        "lao_script": "ຜູ້ຍິງຄົນນັ້ນສວຍຫຼາຍ",
+        "romanization": "phu-ying khon nan suai laai",
+        "translations": {
+          "de": "Diese Frau ist sehr schön.",
+          "en": "That woman is very beautiful.",
+          "es": "Esa mujer es muy hermosa.",
+          "fr": "Cette femme est très belle.",
+          "hi": "वह महिला बहुत सुंदर है।",
+          "ja": "あの女性はとても美しいです。",
+          "km": "ស្ត្រីនោះស្អាតណាស់។",
+          "ko": "저 여자는 정말 예뻐요.",
+          "ne": "त्यो महिला धेरै सुन्दर छिन्।",
+          "pt": "Aquela mulher é muito bonita.",
+          "th": "ผู้หญิงคนนั้นสวยมาก",
+          "tl": "Ang babaeng iyon ay napakaganda.",
+          "ur": "وہ عورت بہت خوبصورت ہے۔",
+          "vi": "Người phụ nữ đó rất đẹp.",
+          "zh": "那个女人很漂亮。",
+          "zh_Hant": "那個女人很漂亮。"
+        },
+        "out_of_scope_words": [
+          "ສວຍ"
+        ]
+      },
+      {
+        "lao_script": "ນ້ອງຍິງຂອງຂ້ອຍຮຽນໜັງສືຢູ່",
+        "romanization": "nong ying khong khoi hian nang-sue yuu",
+        "translations": {
+          "de": "Meine jüngere Schwester studiert gerade.",
+          "en": "My younger sister is studying.",
+          "es": "Mi hermana menor está estudiando.",
+          "fr": "Ma petite sœur est en train d'étudier.",
+          "hi": "मेरी छोटी बहन पढ़ाई कर रही है।",
+          "ja": "私の妹は勉強しています。",
+          "km": "បងស្រីតូចរបស់ខ្ញុំកំពុងរៀន។",
+          "ko": "내 여동생은 공부하고 있어요.",
+          "ne": "मेरी सानी बहिनी पढ्दै छिन्।",
+          "pt": "Minha irmã mais nova está estudando.",
+          "th": "น้องสาวของฉันกำลังเรียนอยู่",
+          "tl": "Ang aking kapatid na babae ay nag-aaral.",
+          "ur": "میری چھوٹی بہن پڑھ رہی ہے۔",
+          "vi": "Em gái tôi đang học bài.",
+          "zh": "我的妹妹正在学习。",
+          "zh_Hant": "我的妹妹正在學習。"
+        },
+        "out_of_scope_words": [
+          "ນ້ອງ",
+          "ຮຽນໜັງສື"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling woman with short dark hair wearing casual clothes, depicted in a friendly and approachable way, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແກ້ວ": {
+    "definitions": {
+      "de": "Glas (Trinkgefäß); auch: Kristall, Edelstein; in der Lao-Kultur auch ein Kosename für geliebte Personen",
+      "en": "Glass (drinking vessel); also: crystal, gemstone; in Lao culture also a term of endearment",
+      "es": "Vaso (recipiente para beber); también: cristal, piedra preciosa; en la cultura laosiana también un término cariñoso",
+      "fr": "Verre (récipient pour boire); aussi: cristal, pierre précieuse; dans la culture laotienne aussi un terme affectueux",
+      "hi": "गिलास (पीने का बर्तन); साथ ही: क्रिस्टल, रत्न; लाओ संस्कृति में प्रियजनों के लिए प्यार का नाम भी",
+      "ja": "グラス（飲み物用の容器）；また：クリスタル、宝石；ラオス文化では愛称としても使われる",
+      "km": "កែវ (ពែងផឹក); ក៏មានន័យថា គ្រីស្តាល់, កែវពេជ្រ; ក្នុងវប្បធម៌ឡាវ ក៏ជាពាក្យស្រឡាញ់ផងដែរ",
+      "ko": "유리컵 (마시는 그릇); 또한: 수정, 보석; 라오스 문화에서는 애칭으로도 사용",
+      "ne": "गिलास (पिउने भाँडो); साथै: क्रिस्टल, रत्न; लाओ संस्कृतिमा प्रियजनका लागि प्यारको नाम पनि",
+      "pt": "Copo (recipiente para beber); também: cristal, pedra preciosa; na cultura laosiana também um termo de carinho",
+      "th": "แก้ว (ภาชนะดื่มน้ำ); ยังหมายถึง คริสตัล, อัญมณี; ในวัฒนธรรมลาวยังใช้เป็นคำเรียกแทนคนที่รัก",
+      "tl": "Baso (lalagyan ng inumin); gayundin: kristal, hiyas; sa kulturang Lao ay ginagamit din bilang tawag sa minamahal",
+      "ur": "گلاس (پینے کا برتن)؛ نیز: کرسٹل، قیمتی پتھر؛ لاؤ ثقافت میں عزیزوں کے لیے پیار کا نام بھی",
+      "vi": "Ly (cốc uống nước); cũng có nghĩa: pha lê, đá quý; trong văn hóa Lào cũng là tên gọi yêu thương",
+      "zh": "玻璃杯（饮用容器）；也指：水晶，宝石；在老挝文化中也用作对亲爱之人的爱称",
+      "zh_Hant": "玻璃杯（飲用容器）；也指：水晶，寶石；在寮國文化中也用作對親愛之人的愛稱"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kɛːw⁵³/",
+    "examples": [
+      {
+        "lao_script": "ເອົາແກ້ວນ້ຳມາໃຫ້ຂ້ອຍແດ່",
+        "romanization": "ao gaew nam maa hai khoi dae",
+        "translations": {
+          "de": "Bring mir bitte ein Glas Wasser.",
+          "en": "Please bring me a glass of water.",
+          "es": "Por favor, tráeme un vaso de agua.",
+          "fr": "Apporte-moi un verre d'eau, s'il te plaît.",
+          "hi": "मुझे एक गिलास पानी लाकर दो ना।",
+          "ja": "水を一杯持ってきてください。",
+          "km": "យកកែវទឹកមកឱ្យខ្ញុំផង។",
+          "ko": "물 한 잔 가져다줘.",
+          "ne": "मलाई एक गिलास पानी ल्याइदिनुस् न।",
+          "pt": "Me traga um copo de água, por favor.",
+          "th": "เอาแก้วน้ำมาให้ฉันหน่อยนะ",
+          "tl": "Pakidalhin mo sa akin ang isang basong tubig.",
+          "ur": "مجھے ایک گلاس پانی لا دو۔",
+          "vi": "Mang cho tôi một ly nước với.",
+          "zh": "给我拿一杯水来。",
+          "zh_Hant": "給我拿一杯水來。"
+        },
+        "out_of_scope_words": [
+          "ເອົາ",
+          "ນ້ຳ"
+        ]
+      },
+      {
+        "lao_script": "ແກ້ວໃບນີ້ສວຍ ຊື້ຢູ່ໃສ?",
+        "romanization": "gaew bai nih suai, sue yuu sai?",
+        "translations": {
+          "de": "Dieses Glas ist schön — wo hast du es gekauft?",
+          "en": "This glass is beautiful — where did you buy it?",
+          "es": "Este vaso es bonito, ¿dónde lo compraste?",
+          "fr": "Ce verre est beau — où l'as-tu acheté ?",
+          "hi": "यह गिलास सुंदर है — तुमने इसे कहाँ से खरीदा?",
+          "ja": "このグラスきれいだね。どこで買ったの？",
+          "km": "កែវនេះស្អាតណាស់ ទិញនៅឯណា?",
+          "ko": "이 잔 예쁘다 — 어디서 샀어?",
+          "ne": "यो गिलास राम्रो छ — तपाईंले कहाँ किन्नुभयो?",
+          "pt": "Este copo é bonito — onde você comprou?",
+          "th": "แก้วใบนี้สวย ซื้อมาจากไหน?",
+          "tl": "Maganda ang basong ito — saan mo binili?",
+          "ur": "یہ گلاس خوبصورت ہے — کہاں سے خریدا؟",
+          "vi": "Cái ly này đẹp quá — mua ở đâu vậy?",
+          "zh": "这个杯子很漂亮，在哪里买的？",
+          "zh_Hant": "這個杯子很漂亮，在哪裡買的？"
+        },
+        "out_of_scope_words": [
+          "ໃບ",
+          "ຊື້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clear drinking glass filled with water, sparkling with light reflections to suggest crystal or glass material, clean white background, light blue and white color palette, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

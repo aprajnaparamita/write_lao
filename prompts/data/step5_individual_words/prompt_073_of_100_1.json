@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນ້ອງ",
+  "definitions": {
+    "de": "Jüngeres Geschwisterteil (Bruder oder Schwester); auch als höfliche Anrede für jüngere Personen verwendet",
+    "en": "Younger sibling (brother or sister); also used as a polite term of address for younger people",
+    "es": "Hermano o hermana menor; también se usa como tratamiento cortés para personas más jóvenes",
+    "fr": "Frère ou sœur cadet(te); utilisé aussi comme terme d'adresse poli envers les personnes plus jeunes",
+    "hi": "छोटा भाई या छोटी बहन; छोटे लोगों को विनम्रता से संबोधित करने के लिए भी प्रयुक्त",
+    "ja": "年下の兄弟・姉妹（弟または妹）；年下の人への丁寧な呼びかけにも使われる",
+    "km": "បងប្អូនតូច (ប្រុស ឬ ស្រី); ប្រើជាពាក្យសំដៅទៅលើមនុស្សក្មេងជាងផងដែរ",
+    "ko": "남동생 또는 여동생; 손아랫사람을 정중하게 부를 때도 사용",
+    "ne": "सानो भाइ वा बहिनी; साना मानिसहरूलाई विनम्रतापूर्वक सम्बोधन गर्न पनि प्रयोग हुन्छ",
+    "pt": "Irmão ou irmã mais novo(a); também usado como forma de tratamento cortês para pessoas mais jovens",
+    "th": "น้องชายหรือน้องสาว; ใช้เรียกหรือพูดถึงคนที่อายุน้อยกว่าได้ด้วย",
+    "tl": "Kapatid na nakakabata (lalaki o babae); ginagamit din bilang magalang na tawag sa mga batang tao",
+    "ur": "چھوٹا بھائی یا چھوٹی بہن؛ چھوٹے لوگوں سے مؤدبانہ خطاب کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Em trai hoặc em gái; cũng dùng để gọi những người trẻ hơn một cách lịch sự",
+    "zh": "弟弟或妹妹；也用作对年龄较小者的礼貌称呼",
+    "zh_Hant": "弟弟或妹妹；也用作對年齡較小者的禮貌稱呼"
+  },
+  "definition_en": "Younger sibling (brother or sister); also used as a polite term of address for younger people",
+  "romanization": "nɔ́ɔŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ນ້ອງຂອງຂ້ອຍຮຽນຢູ່ໂຮງຮຽນ",
+      "romanization": "nɔ́ɔŋ khɔ̌ɔŋ khɔ̂i hian yùu hóong hian",
+      "translation_en": "My younger sibling is studying at school."
+    },
+    {
+      "lao_script": "ນ້ອງ, ມາກິນເຂົ້າແລ້ວ!",
+      "romanization": "nɔ́ɔŋ, maa kin khâo lɛ́ɛo!",
+      "translation_en": "Hey little one, come eat!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two children together, an older child standing protectively next to a smaller, younger child, both smiling, clean white background, colorful minimalist style suitable for a language learning app."
+}

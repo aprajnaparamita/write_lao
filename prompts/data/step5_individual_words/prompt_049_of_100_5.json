@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລາດ",
+  "definitions": {
+    "de": "Gießen / neigen / Hang – bedeutet eine Flüssigkeit ausgießen oder eine geneigte Fläche; in der Umgangssprache selten allein verwendet",
+    "en": "Pour / slope / incline – means to pour a liquid or refers to a sloped surface; limited use as a standalone word in spoken Lao",
+    "es": "Verter / inclinar / pendiente – significa verter un líquido o referirse a una superficie inclinada; uso limitado como palabra independiente en lao hablado",
+    "fr": "Verser / incliner / pente – signifie verser un liquide ou désigner une surface en pente ; usage limité comme mot autonome en laotien parlé",
+    "hi": "डालना / ढलान – किसी तरल को डालना या झुकी हुई सतह को दर्शाता है; बोली जाने वाली लाओ में अकेले कम प्रयोग होता है",
+    "ja": "注ぐ / 傾く / 坂 – 液体を注ぐ、または傾いた面を指す；口語ラオ語では単独での使用は限られる",
+    "km": "ចាក់ / ជម្រាល – មានន័យថាចាក់រាវ ឬសំដៅលើផ្ទៃទម្រេត ប្រើតែម្នាក់ឯងតិចក្នុងការនិយាយ",
+    "ko": "붓다 / 경사 / 비탈 – 액체를 붓거나 경사진 표면을 의미함; 구어 라오어에서 단독 사용은 제한적",
+    "ne": "खन्याउनु / ढलान – तरल पदार्थ खन्याउनु वा ढलानयुक्त सतह जनाउँछ; बोलिने लाओमा एक्लै कम प्रयोग हुन्छ",
+    "pt": "Derramar / inclinar / declive – significa derramar um líquido ou referir-se a uma superfície inclinada; uso limitado como palavra independente no lao falado",
+    "th": "เท / ลาด / ความลาดเอียง – หมายถึงการเทของเหลว หรือพื้นผิวที่ลาดเอียง ใช้เป็นคำเดี่ยวน้อยในภาษาลาวพูด",
+    "tl": "Ibuhos / dalisdis / pagkakahilig – nangangahulugang magbuhos ng likido o tumutukoy sa isang nakahilig na ibabaw; limitadong paggamit bilang nagsasariling salita sa sinasambit na Lao",
+    "ur": "انڈیلنا / ڈھلوان – کسی مائع کو انڈیلنا یا جھکی ہوئی سطح کی طرف اشارہ کرتا ہے؛ بولی جانے والی لاؤ میں اکیلے کم استعمال ہوتا ہے",
+    "vi": "Đổ / dốc / nghiêng – có nghĩa là đổ chất lỏng hoặc chỉ bề mặt nghiêng dốc; ít dùng độc lập trong tiếng Lào nói",
+    "zh": "倒 / 坡 / 斜坡 – 表示倒液体或指倾斜的表面；在口语老挝语中单独使用较少",
+    "zh_Hant": "倒 / 坡 / 斜坡 – 表示倒液體或指傾斜的表面；在口語寮語中單獨使用較少"
+  },
+  "definition_en": "Pour / slope / incline – means to pour a liquid or refers to a sloped surface; limited use as a standalone word in spoken Lao",
+  "romanization": "lāt",
+  "lao_examples": [
+    {
+      "lao_script": "ລາດນ້ຳໃສ່ຈອກໃຫ້ຂ້ອຍແດ່",
+      "romanization": "lāt nâm sâi jɔ̄k hâi khɔ̂y dɛ̀",
+      "translation_en": "Pour some water into the glass for me, please."
+    },
+    {
+      "lao_script": "ຖະໜົນຮ່ວງນີ້ລາດຊັນຫຼາຍ ລົດລົ້ມງ່າຍ",
+      "romanization": "tha nǒn huâng níi lāt san lǎi lót lôm ŋâi",
+      "translation_en": "This road is very steep, cars can easily tip over."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a hand pouring water from a pitcher into a glass; on the right, a car on a steep sloped road going downhill, clean white background, colorful minimalist style for a language learning app."
+}

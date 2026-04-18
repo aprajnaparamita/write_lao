@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເທດ",
+  "definitions": {
+    "de": "Predigen oder ein religiöses Fest; hauptsächlich in Verbindungen verwendet, z.B. ເທດສະການ (Festival/Feier) oder ເທດສະໜາ (predigen, eine Dhamma-Lehre halten); selten allein verwendet",
+    "en": "To preach or a festival/festivity; primarily used in compound forms such as ເທດສະການ (festival/event) or ເທດສະໜາ (to preach/deliver a sermon); rarely used in isolation",
+    "es": "Predicar o festival/festividad; se usa principalmente en formas compuestas como ເທດສະການ (festival/evento) o ເທດສະໜາ (predicar/dar un sermón); rara vez se usa de forma aislada",
+    "fr": "Prêcher ou festival/fête; utilisé principalement dans des formes composées telles que ເທດສະການ (festival/événement) ou ເທດສະໜາ (prêcher/donner un sermon); rarement utilisé seul",
+    "hi": "धर्मोपदेश देना या उत्सव; मुख्य रूप से ເທດສະການ (उत्सव/कार्यक्रम) या ເທດສະໜາ (धर्मोपदेश देना) जैसे यौगिक रूपों में उपयोग किया जाता है; अकेले शायद ही उपयोग किया जाता है",
+    "ja": "説教する、または祭り・祝祭；主にເທດສະການ（祭り・イベント）やເທດສະໜາ（説教する・法話を行う）などの複合形で使われ、単独ではほとんど使われない",
+    "km": "ផ្សព្វផ្សាយ ឬពិធីបុណ្យ/ពិធីជប់លៀង; ភាគច្រើនប្រើក្នុងទម្រង់ផ្សំដូចជា ເທດສະການ (ពិធីបុណ្យ/ព្រឹត្តិការណ៍) ឬ ເທດສະໜາ (ផ្សព្វផ្សាយ/ថ្លែងសម្ដី); កម្រប្រើម្នាក់ឯង",
+    "ko": "설교하다 또는 축제/행사; 주로 ເທດສະການ(축제/행사) 또는 ເທດສະໜາ(설교하다/법문을 전하다)와 같은 복합 형태로 사용되며 단독으로는 거의 사용되지 않음",
+    "ne": "उपदेश दिनु वा उत्सव/चाड; मुख्यतः ເທດສະການ (उत्सव/कार्यक्रम) वा ເທດສະໜາ (उपदेश दिनु/धर्मोपदेश) जस्ता यौगिक रूपहरूमा प्रयोग गरिन्छ; एक्लै विरलै प्रयोग हुन्छ",
+    "pt": "Pregar ou festival/festividade; usado principalmente em formas compostas como ເທດສະການ (festival/evento) ou ເທດສະໜາ (pregar/dar um sermão); raramente usado isoladamente",
+    "th": "เทศน์หรือเทศกาล/งานฉลอง; ส่วนใหญ่ใช้ในรูปแบบคำประสมเช่น ເທດສະການ (เทศกาล/งานกิจกรรม) หรือ ເທດສະໜາ (เทศน์/แสดงธรรม); ไม่ค่อยใช้เดี่ยวๆ",
+    "tl": "Mangaral o isang kapistahan/pagdiriwang; pangunahing ginagamit sa mga tambalang anyo tulad ng ເທດສະການ (kapistahan/kaganapan) o ເທດສະໜາ (mangaral/magbigay ng sermon); bihirang gamitin nang mag-isa",
+    "ur": "وعظ کرنا یا تہوار/جشن؛ بنیادی طور پر ເທດສະການ (تہوار/تقریب) یا ເທດສະໜາ (وعظ کرنا/خطبہ دینا) جیسی مرکب شکلوں میں استعمال ہوتا ہے؛ اکیلے کم ہی استعمال ہوتا ہے",
+    "vi": "Thuyết giáo hoặc lễ hội/lễ kỷ niệm; chủ yếu được dùng trong các dạng ghép như ເທດສະການ (lễ hội/sự kiện) hoặc ເທດສະໜາ (thuyết giáo/giảng đạo); ít khi dùng đơn lẻ",
+    "zh": "布道或节日/庆典；主要用于ເທດສະການ（节日/活动）或ເທດສະໜາ（布道/讲法）等复合词中；很少单独使用",
+    "zh_Hant": "布道或節日/慶典；主要用於ເທດສະການ（節日/活動）或ເທດສະໜາ（布道/講法）等複合詞中；很少單獨使用"
+  },
+  "definition_en": "To preach or a festival/festivity; primarily used in compound forms such as ເທດສະການ (festival/event) or ເທດສະໜາ (to preach/deliver a sermon); rarely used in isolation",
+  "romanization": "tʰeːt˥",
+  "lao_examples": [
+    {
+      "lao_script": "ເທດສະການທີ່ດີທີ່ສຸດຂອງປີນີ້ຄືບຸນນ້ຳ",
+      "romanization": "thetsakane thi di thi sut khong pi ni khue bun nam",
+      "translation_en": "The best festival of this year is the Water Festival"
+    },
+    {
+      "lao_script": "ພຣະເທດສະໜາທີ່ວັດມື້ນີ້ຍາວຫຼາຍ",
+      "romanization": "pha thet sana thi wat mue ni yao lai",
+      "translation_en": "The sermon at the temple today was very long"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a colorful Lao temple or Buddhist celebration with lanterns and festive decorations, a monk in orange robes standing at a podium, clean white background, bright warm colors, minimalist cartoon style suitable for a language learning app"
+}

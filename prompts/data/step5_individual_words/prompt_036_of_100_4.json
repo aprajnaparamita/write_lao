@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂ້າງ",
+  "definitions": {
+    "de": "Seite; neben; an der Seite von etwas oder jemandem; bezeichnet eine Richtung oder Position",
+    "en": "Side; beside; next to something or someone; indicating a direction or position",
+    "es": "Lado; al lado de; junto a algo o alguien; indica una dirección o posición",
+    "fr": "Côté ; à côté de ; près de quelque chose ou quelqu'un ; indique une direction ou une position",
+    "hi": "बगल; पास; किसी चीज़ या व्यक्ति के बगल में; दिशा या स्थिति दर्शाता है",
+    "ja": "横；隣；何かや誰かの脇；方向や位置を示す",
+    "km": "ខាង; ជាប់; នៅក្បែរ; បង្ហាញទិសដៅ ឬទីតាំង",
+    "ko": "옆; 곁; 무언가나 누군가의 옆에; 방향이나 위치를 나타냄",
+    "ne": "छेउ; बगलमा; कसैको वा केहीको छेउमा; दिशा वा स्थिति जनाउँछ",
+    "pt": "Lado; ao lado; perto de algo ou alguém; indica uma direção ou posição",
+    "th": "ข้าง; ด้านข้าง; อยู่ใกล้หรือติดกับสิ่งของหรือคน; บ่งบอกทิศทางหรือตำแหน่ง",
+    "tl": "Tabi; katabi; malapit sa isang bagay o tao; nagpapakita ng direksyon o posisyon",
+    "ur": "طرف؛ برابر میں؛ کسی چیز یا شخص کے پہلو میں؛ سمت یا مقام ظاہر کرتا ہے",
+    "vi": "Bên; bên cạnh; ở cạnh ai đó hoặc cái gì; chỉ hướng hoặc vị trí",
+    "zh": "旁边；侧面；在某物或某人旁边；表示方向或位置",
+    "zh_Hant": "旁邊；側面；在某物或某人旁邊；表示方向或位置"
+  },
+  "definition_en": "Side; beside; next to something or someone; indicating a direction or position",
+  "romanization": "kʰaːŋ³³",
+  "lao_examples": [
+    {
+      "lao_script": "ນັ່ງຂ້າງໆ ກັນເດີ້",
+      "romanization": "nang kʰaːŋ kʰaːŋ kan deː",
+      "translation_en": "Sit next to each other!"
+    },
+    {
+      "lao_script": "ຮ້ານອາຫານຢູ່ຂ້າງໂຮງຮຽນ",
+      "romanization": "haːn ʔaː haːn juː kʰaːŋ hoːŋ hian",
+      "translation_en": "The restaurant is beside the school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two objects side by side — such as a red house with a tree right next to it — with a clear arrow or label indicating 'beside/next to', suitable for a language learning app, clean white background, colorful, minimalist style."
+}

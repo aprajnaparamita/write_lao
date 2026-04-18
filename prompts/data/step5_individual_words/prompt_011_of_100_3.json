@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢ່າງ",
+  "definitions": {
+    "de": "Art, Weise, Typ – wird verwendet, um eine Art und Weise, Methode oder einen Typ zu beschreiben; auch ein adverbialer Marker",
+    "en": "Kind, type, manner, or way – used to describe how something is done or what type something is; also an adverbial marker",
+    "es": "Tipo, clase, manera o modo – se usa para describir cómo se hace algo o de qué tipo es algo; también es un marcador adverbial",
+    "fr": "Type, sorte, manière ou façon – utilisé pour décrire comment quelque chose est fait ou de quel type est quelque chose ; aussi un marqueur adverbial",
+    "hi": "प्रकार, तरह, तरीका – किसी काम को कैसे किया जाए या कोई चीज़ किस प्रकार की है, यह बताने के लिए प्रयुक्त; एक क्रियाविशेषण चिह्नक भी",
+    "ja": "種類、様子、方法 – 何かがどのように行われるか、またはそれがどのような種類かを表すために使われる副詞マーカー",
+    "km": "ប្រភេទ របៀប ឬវិធី – ប្រើដើម្បីពិពណ៌នាពីរបៀបដែលអ្វីមួយត្រូវបានធ្វើ ឬជាប្រភេទអ្វី",
+    "ko": "종류, 방식, 방법 – 무언가가 어떻게 이루어지는지 또는 어떤 종류인지를 설명하는 데 사용되는 부사 표지",
+    "ne": "प्रकार, तरिका, किसिम – कुनै काम कसरी गरिन्छ वा कस्तो किसिमको छ भनी वर्णन गर्न प्रयोग हुन्छ; क्रियाविशेषण चिह्नक पनि",
+    "pt": "Tipo, espécie, maneira ou modo – usado para descrever como algo é feito ou de que tipo é algo; também um marcador adverbial",
+    "th": "ชนิด ประเภท หรือวิธี – ใช้เพื่ออธิบายว่าสิ่งใดสิ่งหนึ่งทำอย่างไรหรือเป็นประเภทใด ยังเป็นคำบอกลักษณะวิธีการด้วย",
+    "tl": "Uri, klase, paraan, o pamamaraan – ginagamit upang ilarawan kung paano ginagawa ang isang bagay o kung anong uri ito; isang adverbial na marker din",
+    "ur": "قسم، طریقہ، انداز – یہ بتانے کے لیے استعمال ہوتا ہے کہ کوئی کام کیسے ہوتا ہے یا کوئی چیز کس قسم کی ہے؛ ایک ظرفی نشان بھی",
+    "vi": "Loại, kiểu, cách thức – dùng để mô tả cách một việc gì đó được thực hiện hoặc đó là loại gì; cũng là một từ đánh dấu trạng ngữ",
+    "zh": "种类、方式或方法——用于描述某事如何完成或属于哪种类型；也是一个状语标记词",
+    "zh_Hant": "種類、方式或方法——用於描述某事如何完成或屬於哪種類型；也是一個狀語標記詞"
+  },
+  "definition_en": "Kind, type, manner, or way – used to describe how something is done or what type something is; also an adverbial marker",
+  "romanization": "jaːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮັດຢ່າງໃດຈຶ່ງຈະສຳເລັດ?",
+      "romanization": "hét jaːŋ daǐ dʑɯŋ dʑaː sam-lét?",
+      "translation_en": "How do you do it to succeed?"
+    },
+    {
+      "lao_script": "ເຂົາເວົ້າຢ່າງຊ້າໆເພື່ອໃຫ້ຟັງທັນ",
+      "romanization": "kʰǎo wáo jaːŋ saːo saːo pʰɯːa haǐ fáŋ tʰan",
+      "translation_en": "He spoke slowly so that everyone could follow along."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two side-by-side images: one person doing something fast and one doing it slowly, with a label showing 'manner/way', suitable for a language learning app, clean white background, colorful, minimalist style."
+}

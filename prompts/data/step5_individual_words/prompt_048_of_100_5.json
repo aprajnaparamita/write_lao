@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເລີ່ມ",
+  "definitions": {
+    "de": "beginnen; anfangen; starten",
+    "en": "to begin; to start; to commence",
+    "es": "comenzar; empezar; iniciar",
+    "fr": "commencer; débuter; démarrer",
+    "hi": "शुरू करना; आरंभ करना",
+    "ja": "始める；開始する；スタートする",
+    "km": "ចាប់ផ្តើម; ចាប់ដំណើរការ",
+    "ko": "시작하다; 시작되다; 개시하다",
+    "ne": "सुरु गर्नु; आरम्भ गर्नु",
+    "pt": "começar; iniciar; dar início a",
+    "th": "เริ่ม; เริ่มต้น; ลงมือทำ",
+    "tl": "magsimula; simulan; maghanda",
+    "ur": "شروع کرنا؛ آغاز کرنا",
+    "vi": "bắt đầu; khởi đầu; mở đầu",
+    "zh": "开始；着手；启动",
+    "zh_Hant": "開始；著手；啟動"
+  },
+  "definition_en": "to begin; to start; to commence",
+  "romanization": "/lə̂ːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ຫນັງເລີ່ມແລ້ວ, ເຂົ້າໄປໄວໆ",
+      "romanization": "Nang loem laeo, khao pai wai wai",
+      "translation_en": "The movie has already started, get in quickly!"
+    },
+    {
+      "lao_script": "ເລີ່ມເຮັດການບ້ານໄດ້ເລີຍ, ຢ່າລໍ",
+      "romanization": "Loem het kan ban dai loei, ya lo",
+      "translation_en": "Just start doing your homework, don't wait."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pressing a large green 'START' button with an eager expression, symbolizing beginning or starting something, clean white background, colorful minimalist style suitable for a language learning app."
+}

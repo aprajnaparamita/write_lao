@@ -1,0 +1,398 @@
+{
+  "ຮ້ານ": {
+    "definitions": {
+      "de": "Ein Laden oder Geschäft, wo Waren oder Dienstleistungen verkauft werden",
+      "en": "A shop or store where goods or services are sold",
+      "es": "Una tienda o comercio donde se venden productos o servicios",
+      "fr": "Un magasin ou une boutique où l'on vend des produits ou des services",
+      "hi": "एक दुकान या स्टोर जहाँ सामान या सेवाएँ बेची जाती हैं",
+      "ja": "商品やサービスを販売する店や商店",
+      "km": "ហាង ឬទីកន្លែងលក់ទំនិញ ឬសេវាកម្ម",
+      "ko": "상품이나 서비스를 판매하는 가게 또는 상점",
+      "ne": "सामान वा सेवाहरू बेच्ने पसल वा दोकान",
+      "pt": "Uma loja ou estabelecimento comercial onde produtos ou serviços são vendidos",
+      "th": "ร้านค้าหรือสถานที่จำหน่ายสินค้าหรือบริการ",
+      "tl": "Isang tindahan o establisyamento kung saan ibinebenta ang mga produkto o serbisyo",
+      "ur": "ایک دکان یا اسٹور جہاں سامان یا خدمات فروخت کی جاتی ہیں",
+      "vi": "Một cửa hàng hoặc tiệm bán hàng hóa hay dịch vụ",
+      "zh": "出售商品或服务的商店或店铺",
+      "zh_Hant": "出售商品或服務的商店或店鋪"
+    },
+    "part_of_speech": "noun",
+    "romanization": "haan",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານນີ້ຂາຍເຂົ້າໜຽວອ່ອຍ",
+        "romanization": "haan nii khaai khao niao oi",
+        "translations": {
+          "de": "Dieser Laden verkauft leckeren Klebreis",
+          "en": "This shop sells delicious sticky rice",
+          "es": "Esta tienda vende arroz glutinoso delicioso",
+          "fr": "Cette boutique vend du riz gluant délicieux",
+          "hi": "इस दुकान में स्वादिष्ट चिपचिपा चावल बेचा जाता है",
+          "ja": "この店はおいしいもち米を売っている",
+          "km": "ហាងនេះលក់បាយដំណើបឆ្ងាញ់",
+          "ko": "이 가게는 맛있는 찹쌀밥을 팔아",
+          "ne": "यो पसलमा मिठो चिप्लो चामल बेचिन्छ",
+          "pt": "Esta loja vende arroz glutinoso delicioso",
+          "th": "ร้านนี้ขายข้าวเหนียวอร่อย",
+          "tl": "Ang tindahang ito ay nagbebenta ng masarap na malagkit na kanin",
+          "ur": "یہ دکان لذیذ چپچپا چاول بیچتی ہے",
+          "vi": "Cửa hàng này bán xôi ngon lắm",
+          "zh": "这家店卖的糯米饭很好吃",
+          "zh_Hant": "這家店賣的糯米飯很好吃"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າໜຽວ",
+          "ອ່ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ໄປຊື້ຂອງທີ່ຮ້ານໃກ້ໆ ແດ່",
+        "romanization": "pai seu khong thi haan kai kai dae",
+        "translations": {
+          "de": "Geh doch kurz in den nahegelegenen Laden einkaufen",
+          "en": "Go buy some things at the nearby shop",
+          "es": "Ve a comprar cosas a la tienda cercana",
+          "fr": "Va acheter des trucs à la boutique d'à côté",
+          "hi": "पास की दुकान से कुछ सामान खरीद आओ",
+          "ja": "近くの店で買い物してきて",
+          "km": "ទៅទិញអីវ៉ាន់នៅហាងជិតៗ",
+          "ko": "근처 가게에서 물건 좀 사 와",
+          "ne": "नजिकको पसलमा गएर सामान किनेर आउनु",
+          "pt": "Vai comprar umas coisas na loja aqui perto",
+          "th": "ไปซื้อของที่ร้านใกล้ๆ หน่อย",
+          "tl": "Pumunta ka sa tindahan sa malapit at bumili ng mga bagay",
+          "ur": "قریبی دکان سے کچھ چیزیں خرید کر آؤ",
+          "vi": "Đi mua đồ ở cửa hàng gần đây đi",
+          "zh": "去附近的店买点东西吧",
+          "zh_Hant": "去附近的店買點東西吧"
+        },
+        "out_of_scope_words": [
+          "ຊື້",
+          "ໃກ້ໆ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small neighborhood shop or store with a colorful storefront, shelves of products visible through an open door, a friendly shopkeeper standing at the entrance, clean white background, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບູ": {
+    "definitions": {
+      "de": "Ein Silbenfragment mit begrenzter eigenständiger Verwendung; erscheint hauptsächlich in Verbindungen oder Dialektwörtern",
+      "en": "A syllable fragment with limited standalone use; mainly appears in compound words or dialectal expressions",
+      "es": "Un fragmento de sílaba con uso independiente limitado; aparece principalmente en palabras compuestas o expresiones dialectales",
+      "fr": "Un fragment syllabique à usage autonome limité; apparaît principalement dans des mots composés ou des expressions dialectales",
+      "hi": "सीमित स्वतंत्र उपयोग वाला एक अक्षर खंड; मुख्यतः समास शब्दों या बोली अभिव्यक्तियों में प्रकट होता है",
+      "ja": "単独での使用が限られた音節の断片。主に複合語や方言表現に現れる",
+      "km": "បំណែកព្យាង្គដែលមានការប្រើប្រាស់តាមលំពែងខ្លួនឯងមានកំណត់ ភាគច្រើនលេចឡើងក្នុងពាក្យផ្សំ",
+      "ko": "단독 사용이 제한된 음절 조각; 주로 복합어나 방언 표현에 나타남",
+      "ne": "सीमित स्वतन्त्र प्रयोग भएको अक्षर खण्ड; मुख्यतः संयुक्त शब्द वा बोलीका अभिव्यक्तिहरूमा देखिन्छ",
+      "pt": "Um fragmento de sílaba com uso independente limitado; aparece principalmente em palavras compostas ou expressões dialetais",
+      "th": "พยางค์ที่มีการใช้งานแบบอิสระจำกัด มักปรากฏในคำประสมหรือสำนวนภาษาถิ่น",
+      "tl": "Isang bahagi ng pantig na may limitadong paggamit nang nagsasarili; kadalasang lumilitaw sa mga salitang tambalan o ekspresyong diyalektal",
+      "ur": "محدود آزادانہ استعمال والا ایک حرفی ٹکڑا؛ بنیادی طور پر مرکب الفاظ یا بولی کے تاثرات میں ظاہر ہوتا ہے",
+      "vi": "Một mảnh âm tiết với cách dùng độc lập hạn chế; chủ yếu xuất hiện trong các từ ghép hoặc biểu đạt phương ngữ",
+      "zh": "一个使用受限的音节片段，主要出现在复合词或方言表达中",
+      "zh_Hant": "一個使用受限的音節片段，主要出現在複合詞或方言表達中"
+    },
+    "part_of_speech": "particle",
+    "romanization": "buu",
+    "examples": [
+      {
+        "lao_script": "ຄຳວ່າ ບູ ບໍ່ຄ່ອຍໃຊ້ດຽວໆ",
+        "romanization": "kham waa buu bo khoi sai diao diao",
+        "translations": {
+          "de": "Das Wort 'buu' wird selten alleine verwendet",
+          "en": "The word 'buu' is rarely used on its own",
+          "es": "La palabra 'buu' raramente se usa sola",
+          "fr": "Le mot 'buu' est rarement utilisé seul",
+          "hi": "'बू' शब्द अकेले शायद ही कभी इस्तेमाल होता है",
+          "ja": "「ブー」という言葉は単独ではほとんど使われない",
+          "km": "ពាក្យ 'ບູ' កម្រប្រើតែម្នាក់ឯង",
+          "ko": "'부' 라는 단어는 혼자 쓰이는 경우가 거의 없어",
+          "ne": "'बू' शब्द एक्लै शायदै प्रयोग गरिन्छ",
+          "pt": "A palavra 'buu' raramente é usada sozinha",
+          "th": "คำว่า 'บู' ไม่ค่อยใช้คำเดียวโดดๆ",
+          "tl": "Ang salitang 'buu' ay bihirang gamitin nang mag-isa",
+          "ur": "لفظ 'بو' شاذ و نادر ہی اکیلا استعمال ہوتا ہے",
+          "vi": "Từ 'buu' hiếm khi được dùng một mình",
+          "zh": "'布'这个词很少单独使用",
+          "zh_Hant": "'布'這個詞很少單獨使用"
+        },
+        "out_of_scope_words": [
+          "ຄຳວ່າ",
+          "ບໍ່ຄ່ອຍ",
+          "ດຽວໆ"
+        ]
+      },
+      {
+        "lao_script": "ບູ ມັກຢູ່ໃນຄຳປະສົມ",
+        "romanization": "buu mak yu nai kham pa som",
+        "translations": {
+          "de": "'Buu' erscheint oft in zusammengesetzten Wörtern",
+          "en": "'Buu' often appears in compound words",
+          "es": "'Buu' aparece frecuentemente en palabras compuestas",
+          "fr": "'Buu' apparaît souvent dans des mots composés",
+          "hi": "'बू' अक्सर समास शब्दों में प्रकट होता है",
+          "ja": "「ブー」は複合語の中によく現れる",
+          "km": "'ບູ' តែងតែលេចឡើងនៅក្នុងពាក្យផ្សំ",
+          "ko": "'부'는 복합어에서 자주 나타나",
+          "ne": "'बू' प्रायः संयुक्त शब्दहरूमा देखिन्छ",
+          "pt": "'Buu' frequentemente aparece em palavras compostas",
+          "th": "'บู' มักอยู่ในคำประสม",
+          "tl": "Ang 'buu' ay madalas na lumilitaw sa mga salitang tambalan",
+          "ur": "'بو' اکثر مرکب الفاظ میں ظاہر ہوتا ہے",
+          "vi": "'Buu' thường xuất hiện trong các từ ghép",
+          "zh": "'布'经常出现在复合词中",
+          "zh_Hant": "'布'經常出現在複合詞中"
+        },
+        "out_of_scope_words": [
+          "ຄຳປະສົມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a puzzle piece or language building block with Lao script on it, representing a syllable fragment or partial word element, clean white background, soft colors, minimalist educational style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ພື້ນ": {
+    "definitions": {
+      "de": "Boden, Oberfläche oder Fläche; der untere Teil eines Raumes oder Gebietes, auf dem man geht oder steht",
+      "en": "Floor, surface, or area; the ground level of a room or space that one walks or stands on",
+      "es": "Piso, superficie o área; el nivel del suelo de una habitación o espacio sobre el que se camina o se está de pie",
+      "fr": "Sol, surface ou zone; le niveau du sol d'une pièce ou d'un espace sur lequel on marche ou se tient debout",
+      "hi": "फर्श, सतह या क्षेत्र; किसी कमरे या जगह का वह जमीनी स्तर जिस पर चला या खड़ा हुआ जाता है",
+      "ja": "床、地面、または表面。歩いたり立ったりする部屋や空間の地面レベル",
+      "km": "ជាន់ ផ្ទៃ ឬតំបន់ ដែលជាកម្រិតដីនៃបន្ទប់ ឬទីកន្លែងដែលអ្នកដើរឬឈរ",
+      "ko": "바닥, 표면 또는 구역; 걷거나 서 있는 방이나 공간의 지면 수준",
+      "ne": "भुइँ, सतह वा क्षेत्र; कोठा वा ठाउँको त्यो भूमि स्तर जसमा हिँडिन्छ वा उभिइन्छ",
+      "pt": "Chão, superfície ou área; o nível do chão de um cômodo ou espaço onde se anda ou fica de pé",
+      "th": "พื้น พื้นผิว หรือบริเวณ ระดับพื้นดินของห้องหรือพื้นที่ที่ใช้เดินหรือยืน",
+      "tl": "Sahig, ibabaw, o lugar; ang antas ng lupa ng isang silid o espasyo na pinagtataguan o nilalakaran",
+      "ur": "فرش، سطح یا علاقہ؛ کمرے یا جگہ کی زمینی سطح جس پر چلا یا کھڑا ہوا جاتا ہے",
+      "vi": "Sàn nhà, bề mặt hoặc khu vực; mặt đất của căn phòng hoặc không gian nơi người ta đi lại hoặc đứng",
+      "zh": "地板、表面或区域；房间或空间的地面层，用于行走或站立",
+      "zh_Hant": "地板、表面或區域；房間或空間的地面層，用於行走或站立"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pheun",
+    "examples": [
+      {
+        "lao_script": "ພື້ນຫ້ອງນອນສະອາດດີ",
+        "romanization": "pheun hong non sa-at dii",
+        "translations": {
+          "de": "Der Boden des Schlafzimmers ist schön sauber",
+          "en": "The bedroom floor is really clean",
+          "es": "El piso del dormitorio está muy limpio",
+          "fr": "Le sol de la chambre est vraiment propre",
+          "hi": "सोने के कमरे का फर्श बहुत साफ है",
+          "ja": "寝室の床がすごくきれいだ",
+          "km": "ជាន់បន្ទប់គេងស្អាតណាស់",
+          "ko": "침실 바닥이 정말 깨끗해",
+          "ne": "सुत्ने कोठाको भुइँ धेरै सफा छ",
+          "pt": "O chão do quarto está bem limpo",
+          "th": "พื้นห้องนอนสะอาดดี",
+          "tl": "Ang sahig ng kwarto ay napakaliinis",
+          "ur": "سونے کے کمرے کا فرش بہت صاف ہے",
+          "vi": "Sàn phòng ngủ sạch lắm",
+          "zh": "卧室的地板很干净",
+          "zh_Hant": "臥室的地板很乾淨"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງນອນ",
+          "ສະອາດ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່ານັ່ງຢູ່ພື້ນ ໜາວ",
+        "romanization": "yaa nang yu pheun naao",
+        "translations": {
+          "de": "Sitz nicht auf dem Boden, es ist kalt",
+          "en": "Don't sit on the floor, it's cold",
+          "es": "No te sientes en el suelo, hace frío",
+          "fr": "Ne t'assieds pas par terre, c'est froid",
+          "hi": "फर्श पर मत बैठो, ठंड है",
+          "ja": "床に座らないで、寒いよ",
+          "km": "កុំអង្គុយលើជាន់ ត្រជាក់",
+          "ko": "바닥에 앉지 마, 추워",
+          "ne": "भुइँमा नबस, चिसो छ",
+          "pt": "Não senta no chão, está frio",
+          "th": "อย่านั่งอยู่พื้น หนาว",
+          "tl": "Huwag umupo sa sahig, malamig",
+          "ur": "فرش پر مت بیٹھو، ٹھنڈا ہے",
+          "vi": "Đừng ngồi dưới sàn, lạnh lắm",
+          "zh": "别坐在地上，很冷",
+          "zh_Hant": "別坐在地上，很冷"
+        },
+        "out_of_scope_words": [
+          "ນັ່ງ",
+          "ໜາວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clean wooden floor inside a cozy room, viewed from a slight angle showing the floor surface clearly, clean white background, warm colors, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມວນ": {
+    "definitions": {
+      "de": "Masse oder Klumpen (in der Physik); als Teil von ມ່ວນ bedeutet es auch Spaß oder Freude; kann auch zum Rollen oder Zusammenwickeln verwendet werden",
+      "en": "Mass or lump (in physics context); as part of ມ່ວນ it means fun or enjoyment; can also refer to rolling or winding something into a bundle",
+      "es": "Masa o bulto (en contexto físico); como parte de ມ່ວນ significa diversión o placer; también puede referirse a enrollar o envolver algo en un paquete",
+      "fr": "Masse ou amas (dans le contexte physique); dans ມ່ວນ cela signifie amusement ou plaisir; peut aussi désigner l'action d'enrouler quelque chose en paquet",
+      "hi": "द्रव्यमान या गांठ (भौतिकी संदर्भ में); ມ່ວນ के भाग के रूप में इसका अर्थ है मज़ा या आनंद; किसी चीज़ को लपेटने या बंडल बनाने का संदर्भ भी हो सकता है",
+      "ja": "質量または塊（物理学の文脈で）；ມ່ວນの一部として楽しみや喜びを意味する；何かを丸めたり束ねたりすることも指す",
+      "km": "ម៉ាស់ ឬដុំ (ក្នុងបរិបទរូបវិទ្យា) ជាផ្នែកនៃ ມ່ວນ មានន័យថាការសប្បាយ ឬការរីករាយ អាចតំណាងឲ្យការរំកិល ឬព័ទ្ធជារ束ផង",
+      "ko": "질량 또는 덩어리 (물리학 맥락에서); ມ່ວນ의 일부로 재미나 즐거움을 의미하기도 함; 무언가를 말거나 묶는 것을 가리킬 수도 있음",
+      "ne": "द्रव्यमान वा गाँठो (भौतिकी सन्दर्भमा); ມ່ວນ को भागको रूपमा रमाइलो वा आनन्द बुझाउँछ; केही कुरा बेर्ने वा बाँध्ने सन्दर्भ पनि हुन सक्छ",
+      "pt": "Massa ou torrão (no contexto da física); como parte de ມ່ວນ significa diversão ou prazer; também pode se referir a enrolar ou embrulhar algo em um pacote",
+      "th": "มวล หรือก้อน (ในบริบทฟิสิกส์) เป็นส่วนหนึ่งของ ມ່ວນ ที่หมายถึงความสนุกหรือความเพลิดเพลิน อาจหมายถึงการม้วนหรือพันสิ่งของด้วย",
+      "tl": "Masa o tipak (sa konteksto ng pisika); bilang bahagi ng ມ່ວນ nangangahulugang kasiyahan o aliwan; maaari ring tumukoy sa pagpupulupot o pagbibigkis ng isang bagay",
+      "ur": "بڑے پیمانے پر یا ڈھیر (طبیعیات کے تناظر میں)؛ ມ່ວນ کے حصے کے طور پر مطلب مزہ یا خوشی؛ کسی چیز کو لپیٹنے یا گٹھری بنانے کا حوالہ بھی ہو سکتا ہے",
+      "vi": "Khối lượng hoặc cục (trong ngữ cảnh vật lý); là một phần của ມ່ວນ có nghĩa là vui vẻ hay thích thú; cũng có thể ám chỉ việc cuộn tròn hay bó lại",
+      "zh": "质量或块状物（物理学语境）；作为ມ່ວນ的一部分，表示乐趣或享乐；也可指将某物卷起或捆绑成束",
+      "zh_Hant": "質量或塊狀物（物理學語境）；作為ມ່ວນ的一部分，表示樂趣或享樂；也可指將某物捲起或捆綁成束"
+    },
+    "part_of_speech": "noun",
+    "romanization": "muan",
+    "examples": [
+      {
+        "lao_script": "ມວນຂອງສິ່ງນີ້ແມ່ນເທົ່າໃດ?",
+        "romanization": "muan khong sing nii maen thao dai",
+        "translations": {
+          "de": "Was ist die Masse dieses Dings?",
+          "en": "What is the mass of this thing?",
+          "es": "¿Cuál es la masa de esta cosa?",
+          "fr": "Quelle est la masse de cette chose?",
+          "hi": "इस चीज़ का द्रव्यमान कितना है?",
+          "ja": "これの質量はどのくらいですか？",
+          "km": "ម៉ាស់របស់វត្ថុនេះប៉ុន្មាន?",
+          "ko": "이것의 질량은 얼마야?",
+          "ne": "यो कुराको द्रव्यमान कति हो?",
+          "pt": "Qual é a massa desta coisa?",
+          "th": "มวลของสิ่งนี้เท่าไหร่?",
+          "tl": "Magkano ang masa ng bagay na ito?",
+          "ur": "اس چیز کی مقدار کتنی ہے؟",
+          "vi": "Khối lượng của cái này là bao nhiêu?",
+          "zh": "这东西的质量是多少？",
+          "zh_Hant": "這東西的質量是多少？"
+        },
+        "out_of_scope_words": [
+          "ສິ່ງ",
+          "ເທົ່າໃດ"
+        ]
+      },
+      {
+        "lao_script": "ຮຽນຮູ້ກ່ຽວກັບມວນໃນຫ້ອງຮຽນ",
+        "romanization": "hian huu kiao kap muan nai hong hian",
+        "translations": {
+          "de": "In der Klasse über Masse lernen",
+          "en": "Learning about mass in the classroom",
+          "es": "Aprender sobre la masa en el aula",
+          "fr": "Apprendre sur la masse en classe",
+          "hi": "कक्षा में द्रव्यमान के बारे में सीखना",
+          "ja": "教室で質量について学ぶ",
+          "km": "រៀនអំពីម៉ាស់នៅក្នុងថ្នាក់រៀន",
+          "ko": "교실에서 질량에 대해 배우기",
+          "ne": "कक्षामा द्रव्यमानको बारेमा सिक्नु",
+          "pt": "Aprender sobre massa na sala de aula",
+          "th": "เรียนรู้เกี่ยวกับมวลในห้องเรียน",
+          "tl": "Natututo tungkol sa masa sa silid-aralan",
+          "ur": "کلاس روم میں مقدار کے بارے میں سیکھنا",
+          "vi": "Học về khối lượng trong lớp học",
+          "zh": "在课堂上学习关于质量的知识",
+          "zh_Hant": "在課堂上學習關於質量的知識"
+        },
+        "out_of_scope_words": [
+          "ຮຽນຮູ້",
+          "ກ່ຽວກັບ",
+          "ຫ້ອງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a physics scale or balance with a labeled block on it representing mass or weight, clean white background, bright educational colors, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ໂລ": {
+    "definitions": {
+      "de": "Kilo-Präfix, das in zusammengesetzten Wörtern verwendet wird, um tausend einer Einheit anzuzeigen (z. B. ໂລກຼາມ = Kilogramm, ໂລແມັດ = Kilometer); wird nie alleine verwendet",
+      "en": "Kilo prefix used in compound words to indicate one thousand of a unit (e.g., ໂລກຼາມ = kilogram, ໂລແມັດ = kilometer); never used alone",
+      "es": "Prefijo kilo utilizado en palabras compuestas para indicar mil de una unidad (p. ej., ໂລກຼາມ = kilogramo, ໂລແມັດ = kilómetro); nunca se usa solo",
+      "fr": "Préfixe kilo utilisé dans les mots composés pour indiquer mille d'une unité (ex. ໂລກຼາມ = kilogramme, ໂລແມັດ = kilomètre); jamais utilisé seul",
+      "hi": "किलो उपसर्ग जो संयुक्त शब्दों में किसी इकाई के एक हजार को इंगित करने के लिए उपयोग किया जाता है (जैसे ໂລກຼາມ = किलोग्राम, ໂລແມັດ = किलोमीटर); कभी अकेले उपयोग नहीं होता",
+      "ja": "キロを表す接頭辞。複合語で千分の一単位を示すために使われる（例：ໂລກຼາມ = キログラム、ໂລແມັດ = キロメートル）。単独では使われない",
+      "km": "បុព្វបទ 'គីឡូ' ប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីមួយពាន់នៃឯកតាមួយ (ឧ. ໂລກຼາມ = គីឡូក្រាម, ໂລແມັດ = គីឡូម៉ែត្រ) មិនប្រើតែម្នាក់ឯងឡើយ",
+      "ko": "킬로 접두사로, 복합어에서 단위의 천 배를 나타내는 데 사용됨 (예: ໂລກຼາມ = 킬로그램, ໂລແມັດ = 킬로미터); 단독으로는 사용되지 않음",
+      "ne": "किलो उपसर्ग जुन संयुक्त शब्दहरूमा एक इकाईको एक हजार जनाउन प्रयोग गरिन्छ (जस्तै ໂລກຼາມ = किलोग्राम, ໂລແມັດ = किलोमिटर); कहिल्यै एक्लै प्रयोग हुँदैन",
+      "pt": "Prefixo quilo usado em palavras compostas para indicar mil de uma unidade (ex.: ໂລກຼາມ = quilograma, ໂລແມັດ = quilômetro); nunca usado sozinho",
+      "th": "คำอุปสรรค 'กิโล' ใช้ในคำประสมเพื่อระบุหนึ่งพันหน่วย (เช่น ໂລກຼາມ = กิโลกรัม, ໂລແມັດ = กิโลเมตร) ไม่ใช้คำเดียวโดดๆ",
+      "tl": "Prefix na kilo na ginagamit sa mga salitang tambalan upang ipahiwatig ang isang libo ng isang yunit (hal. ໂລກຼາມ = kilogramo, ໂລແມັດ = kilometro); hindi kailanman ginagamit nang nagsasarili",
+      "ur": "کلو سابقہ جو مرکب الفاظ میں کسی اکائی کا ایک ہزار ظاہر کرنے کے لیے استعمال ہوتا ہے (مثلاً ໂລກຼາມ = کلوگرام، ໂລແມັດ = کلومیٹر)؛ کبھی اکیلا استعمال نہیں ہوتا",
+      "vi": "Tiền tố kilo dùng trong các từ ghép để chỉ một nghìn đơn vị (ví dụ: ໂລກຼາມ = kilôgam, ໂລແມັດ = kilômét); không bao giờ dùng một mình",
+      "zh": "千（公）前缀，用于复合词中表示某单位的一千倍（如ໂລກຼາມ=千克，ໂລແມັດ=千米）；从不单独使用",
+      "zh_Hant": "千（公）前綴，用於複合詞中表示某單位的一千倍（如ໂລກຼາມ=千克，ໂລແມັດ=千米）；從不單獨使用"
+    },
+    "part_of_speech": "particle",
+    "romanization": "lo",
+    "examples": [
+      {
+        "lao_script": "ຊື້ໝາກເຜັດໜຶ່ງໂລ",
+        "romanization": "seu mak phet neung lo",
+        "translations": {
+          "de": "Ein Kilogramm Chili kaufen",
+          "en": "Buy one kilogram of chili peppers",
+          "es": "Comprar un kilogramo de chiles",
+          "fr": "Acheter un kilogramme de piments",
+          "hi": "एक किलोग्राम मिर्ची खरीदना",
+          "ja": "唐辛子を一キロ買う",
+          "km": "ទិញម្ទេសមួយគីឡូ",
+          "ko": "고추 한 킬로그램 사기",
+          "ne": "एक किलोग्राम खुर्सानी किन्नु",
+          "pt": "Comprar um quilograma de pimenta",
+          "th": "ซื้อพริกหนึ่งโล",
+          "tl": "Bumili ng isang kilogramo ng sili",
+          "ur": "ایک کلو گرام مرچ خریدنا",
+          "vi": "Mua một cân ớt",
+          "zh": "买一公斤辣椒",
+          "zh_Hant": "買一公斤辣椒"
+        },
+        "out_of_scope_words": [
+          "ໝາກເຜັດ",
+          "ໜຶ່ງ"
+        ]
+      },
+      {
+        "lao_script": "ໂລນີ້ໝາຍຄວາມວ່າໜຶ່ງພັນ",
+        "romanization": "lo nii maai khwam waa neung phan",
+        "translations": {
+          "de": "Dieses 'Lo' bedeutet eintausend",
+          "en": "This 'lo' means one thousand",
+          "es": "Este 'lo' significa mil",
+          "fr": "Ce 'lo' signifie mille",
+          "hi": "यह 'लो' का मतलब एक हजार है",
+          "ja": "この「ロ」は千を意味する",
+          "km": "'ໂລ' នេះមានន័យថាមួយពាន់",
+          "ko": "이 '로'는 천을 의미해",
+          "ne": "यो 'लो' को अर्थ एक हजार हो",
+          "pt": "Este 'lo' significa mil",
+          "th": "'โล' นี้หมายความว่าหนึ่งพัน",
+          "tl": "Ang 'lo' na ito ay nangangahulugang isang libo",
+          "ur": "یہ 'لو' کا مطلب ایک ہزار ہے",
+          "vi": "'Lo' này có nghĩa là một nghìn",
+          "zh": "这个'โล'的意思是一千",
+          "zh_Hant": "這個'โล'的意思是一千"
+        },
+        "out_of_scope_words": [
+          "ໝາຍຄວາມວ່າ",
+          "ໜຶ່ງພັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a weighing scale showing 1 kg with the kilo prefix symbol highlighted, alongside a road sign showing 1 km distance, clean white background, bright educational colors, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

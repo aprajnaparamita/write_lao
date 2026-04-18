@@ -1,0 +1,385 @@
+{
+  "ພໍ່": {
+    "definitions": {
+      "de": "Vater – ein männlicher Elternteil",
+      "en": "Father – a male parent",
+      "es": "Padre – el progenitor masculino",
+      "fr": "Père – parent de sexe masculin",
+      "hi": "पिता – पुरुष अभिभावक",
+      "ja": "父 – 男性の親",
+      "km": "ឪពុក – មាតាបិតាភេទប្រុស",
+      "ko": "아버지 – 남성 부모",
+      "ne": "बुबा – पुरुष अभिभावक",
+      "pt": "Pai – progenitor do sexo masculino",
+      "th": "พ่อ – ผู้ให้กำเนิดที่เป็นชาย",
+      "tl": "Ama – lalaking magulang",
+      "ur": "باپ – مرد والدین",
+      "vi": "Cha/Bố – người cha, phụ huynh nam",
+      "zh": "父亲 – 男性家长",
+      "zh_Hant": "父親 – 男性家長"
+    },
+    "part_of_speech": "noun",
+    "romanization": "phɔː˩˩",
+    "examples": [
+      {
+        "lao_script": "ພໍ່ຂອງຂ້ອຍເຮັດວຽກຢູ່ຕະຫຼາດ",
+        "romanization": "phɔː khɔ̌ːŋ khɔ̂i het viak yùː talàːt",
+        "translations": {
+          "de": "Mein Vater arbeitet auf dem Markt.",
+          "en": "My father works at the market.",
+          "es": "Mi padre trabaja en el mercado.",
+          "fr": "Mon père travaille au marché.",
+          "hi": "मेरे पिता बाज़ार में काम करते हैं।",
+          "ja": "私の父は市場で働いています。",
+          "km": "ឪពុករបស់ខ្ញុំធ្វើការនៅផ្សារ។",
+          "ko": "우리 아버지는 시장에서 일해요.",
+          "ne": "मेरो बुबा बजारमा काम गर्नुहुन्छ।",
+          "pt": "Meu pai trabalha no mercado.",
+          "th": "พ่อของฉันทำงานอยู่ที่ตลาด",
+          "tl": "Ang tatay ko ay nagtatrabaho sa palengke.",
+          "ur": "میرے باپ بازار میں کام کرتے ہیں۔",
+          "vi": "Bố tôi làm việc ở chợ.",
+          "zh": "我爸爸在市场工作。",
+          "zh_Hant": "我爸爸在市場工作。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ເຈົ້າຢູ່ໃສ?",
+        "romanization": "phɔː jâo yùː sǎi",
+        "translations": {
+          "de": "Wo ist dein Vater?",
+          "en": "Where is your father?",
+          "es": "¿Dónde está tu padre?",
+          "fr": "Où est ton père ?",
+          "hi": "तुम्हारे पिता कहाँ हैं?",
+          "ja": "あなたのお父さんはどこにいますか？",
+          "km": "ឪពុករបស់អ្នកនៅឯណា?",
+          "ko": "네 아버지는 어디 계세요?",
+          "ne": "तिम्रो बुबा कहाँ हुनुहुन्छ?",
+          "pt": "Onde está o seu pai?",
+          "th": "พ่อของแกอยู่ที่ไหน?",
+          "tl": "Nasaan ang tatay mo?",
+          "ur": "تمہارے باپ کہاں ہیں؟",
+          "vi": "Bố bạn đang ở đâu?",
+          "zh": "你爸爸在哪里？",
+          "zh_Hant": "你爸爸在哪裡？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly middle-aged man smiling warmly, standing beside a young child who looks up at him, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວາງ": {
+    "definitions": {
+      "de": "Hinlegen/Abstellen – etwas an einem Ort platzieren oder ablegen",
+      "en": "To put down or place – to set something in a particular spot",
+      "es": "Poner/colocar – situar algo en un lugar determinado",
+      "fr": "Poser/placer – mettre quelque chose à un endroit précis",
+      "hi": "रखना – किसी चीज़ को किसी जगह पर रखना",
+      "ja": "置く – 物をある場所に置くこと",
+      "km": "ដាក់/ដាក់ចុះ – ដាក់អ្វីមួយនៅកន្លែងណាមួយ",
+      "ko": "놓다 – 무언가를 특정 장소에 두다",
+      "ne": "राख्नु – कुनै चीज कुनै ठाउँमा राख्नु",
+      "pt": "Colocar/pousar – colocar algo em um lugar específico",
+      "th": "วาง – วางสิ่งของไว้ในที่ใดที่หนึ่ง",
+      "tl": "Ilagay/ipatong – ilagay ang isang bagay sa isang partikular na lugar",
+      "ur": "رکھنا – کسی چیز کو کسی جگہ پر رکھنا",
+      "vi": "Đặt xuống – để vật gì đó vào một vị trí cụ thể",
+      "zh": "放置 – 把某物放在某个地方",
+      "zh_Hant": "放置 – 把某物放在某個地方"
+    },
+    "part_of_speech": "verb",
+    "romanization": "váːŋ˥˩",
+    "examples": [
+      {
+        "lao_script": "ວາງຈານໄວ້ເທິງໂຕະດ້ວຍ",
+        "romanization": "váːŋ jàːn wâi thə̂ːŋ tó dûaj",
+        "translations": {
+          "de": "Stell den Teller auf den Tisch.",
+          "en": "Put the plate on the table.",
+          "es": "Pon el plato sobre la mesa.",
+          "fr": "Pose l'assiette sur la table.",
+          "hi": "प्लेट को मेज पर रख दो।",
+          "ja": "お皿をテーブルの上に置いて。",
+          "km": "ដាក់ចានទៅលើតុផង។",
+          "ko": "접시를 테이블 위에 놓아줘.",
+          "ne": "थाल टेबलमाथि राख।",
+          "pt": "Coloque o prato sobre a mesa.",
+          "th": "วางจานไว้บนโต๊ะด้วยนะ",
+          "tl": "Ilagay ang plato sa ibabaw ng mesa.",
+          "ur": "پلیٹ کو میز پر رکھو۔",
+          "vi": "Đặt cái đĩa lên bàn đi.",
+          "zh": "把盘子放到桌子上。",
+          "zh_Hant": "把盤子放到桌子上。"
+        },
+        "out_of_scope_words": [
+          "ຈານ",
+          "ໂຕະ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າວາງໂທລະສັບໄວ້ທີ່ນັ້ນ",
+        "romanization": "yàː váːŋ thoːlásáp wâi thî nan",
+        "translations": {
+          "de": "Leg das Handy nicht dort hin.",
+          "en": "Don't put the phone there.",
+          "es": "No pongas el teléfono ahí.",
+          "fr": "Ne pose pas le téléphone là-bas.",
+          "hi": "फ़ोन वहाँ मत रखो।",
+          "ja": "そこに携帯を置かないで。",
+          "km": "កុំដាក់ទូរស័ព្ទទៅត្រង់នោះ។",
+          "ko": "거기에 핸드폰 놓지 마.",
+          "ne": "त्यहाँ फोन नराख।",
+          "pt": "Não coloque o telefone lá.",
+          "th": "อย่าวางโทรศัพท์ไว้ที่นั่น",
+          "tl": "Huwag ilagay ang telepono doon.",
+          "ur": "وہاں فون مت رکھو۔",
+          "vi": "Đừng đặt điện thoại ở đó.",
+          "zh": "别把手机放在那里。",
+          "zh_Hant": "別把手機放在那裡。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a pair of hands gently placing a book onto a wooden table, viewed from a slight angle, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼວງ": {
+    "definitions": {
+      "de": "Königlich/Groß – königlich, bedeutsam oder groß; häufig in Ortsnamen verwendet (z. B. Luang Prabang)",
+      "en": "Royal/Great – meaning royal, grand, or great; commonly used in place names (e.g., Luang Prabang)",
+      "es": "Real/Grande – que es real, grandioso o importante; frecuente en nombres de lugares (p. ej., Luang Prabang)",
+      "fr": "Royal/Grand – signifie royal, grand ou important ; souvent utilisé dans des noms de lieux (ex. : Luang Prabang)",
+      "hi": "राजसी/महान – राजसी, भव्य या महान; प्रायः स्थान नामों में प्रयुक्त (जैसे, लुआंग प्राबांग)",
+      "ja": "王室の/偉大な – 王族的、壮大な、または偉大な意味を持つ；地名によく使われる（例：ルアンパバーン）",
+      "km": "រាជវង្ស/ធំ – មានន័យថាព្រះរាជ ឬ ធំ ឬ អស្ចារ្យ; ច្រើនប្រើក្នុងឈ្មោះទីកន្លែង (ឧ. ហ្លួងព្រះបាង)",
+      "ko": "왕실의/위대한 – 왕실, 웅장하거나 위대한 의미; 지명에 자주 사용됨 (예: 루앙프라방)",
+      "ne": "राजकीय/महान – राजसी, भव्य वा महान; प्रायः ठाउँका नामहरूमा प्रयोग हुन्छ (जस्तै, लुआङ प्राबाङ)",
+      "pt": "Real/Grande – real, grandioso ou grande; frequentemente usado em nomes de lugares (ex.: Luang Prabang)",
+      "th": "หลวง – หมายถึง หลวง, ยิ่งใหญ่ หรือ เป็นของหลวง; มักใช้ในชื่อสถานที่ (เช่น หลวงพระบาง)",
+      "tl": "Maharlikang/Dakila – nangangahulugang maharlika, maringal, o dakila; karaniwang ginagamit sa mga pangalan ng lugar (hal., Luang Prabang)",
+      "ur": "شاہی/عظیم – شاہی، شاندار یا عظیم معنی رکھتا ہے؛ اکثر جگہوں کے ناموں میں استعمال ہوتا ہے (مثلاً لوانگ پرابانگ)",
+      "vi": "Hoàng gia/Vĩ đại – có nghĩa là hoàng gia, vĩ đại hoặc lớn lao; thường dùng trong tên địa danh (ví dụ: Luang Prabang)",
+      "zh": "皇家的/伟大的 – 意为皇家、宏大或伟大；常用于地名（如琅勃拉邦）",
+      "zh_Hant": "皇家的/偉大的 – 意為皇家、宏大或偉大；常用於地名（如琅勃拉邦）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "lùaŋ˥˩",
+    "examples": [
+      {
+        "lao_script": "ຫຼວງພະບາງສວຍງາມຫຼາຍ",
+        "romanization": "lùaŋ pha báːŋ sùaj ŋáːm lǎːj",
+        "translations": {
+          "de": "Luang Prabang ist sehr schön.",
+          "en": "Luang Prabang is very beautiful.",
+          "es": "Luang Prabang es muy hermosa.",
+          "fr": "Luang Prabang est très beau.",
+          "hi": "लुआंग प्राबांग बहुत सुंदर है।",
+          "ja": "ルアンパバーンはとても美しいです。",
+          "km": "ហ្លួងព្រះបាងស្អាតណាស់។",
+          "ko": "루앙프라방은 정말 아름다워요.",
+          "ne": "लुआङ प्राबाङ धेरै सुन्दर छ।",
+          "pt": "Luang Prabang é muito bonito.",
+          "th": "หลวงพระบางสวยงามมากเลย",
+          "tl": "Ang Luang Prabang ay napakaganda.",
+          "ur": "لوانگ پرابانگ بہت خوبصورت ہے۔",
+          "vi": "Luang Prabang rất đẹp.",
+          "zh": "琅勃拉邦非常美丽。",
+          "zh_Hant": "琅勃拉邦非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ຫຼວງພະບາງ",
+          "ສວຍງາມ"
+        ]
+      },
+      {
+        "lao_script": "ນີ້ແມ່ນວັດຫຼວງ",
+        "romanization": "níː mɛ̂ːn vát lùaŋ",
+        "translations": {
+          "de": "Das ist der königliche Tempel.",
+          "en": "This is the royal temple.",
+          "es": "Este es el templo real.",
+          "fr": "C'est le temple royal.",
+          "hi": "यह राजकीय मंदिर है।",
+          "ja": "これは王室の寺院です。",
+          "km": "នេះជាវត្តរបស់ព្រះរាជ។",
+          "ko": "이것은 왕실 사원이에요.",
+          "ne": "यो राजकीय मन्दिर हो।",
+          "pt": "Este é o templo real.",
+          "th": "นี่คือวัดหลวง",
+          "tl": "Ito ang maharlikaing templo.",
+          "ur": "یہ شاہی مندر ہے۔",
+          "vi": "Đây là ngôi chùa hoàng gia.",
+          "zh": "这是皇家寺庙。",
+          "zh_Hant": "這是皇家寺廟。"
+        },
+        "out_of_scope_words": [
+          "ວັດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a grand, ornate Southeast Asian temple with golden spires and lush greenery, representing something royal and magnificent, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເລກ": {
+    "definitions": {
+      "de": "Zahl/Nummer – eine mathematische Zahl oder Ziffer",
+      "en": "Number – a mathematical number or numeral",
+      "es": "Número – un número o cifra matemática",
+      "fr": "Nombre/Numéro – un nombre ou chiffre mathématique",
+      "hi": "संख्या – एक गणितीय संख्या या अंक",
+      "ja": "数字 – 数学的な数や数字",
+      "km": "លេខ – ចំនួនគណិតវិទ្យា ឬ លេខ",
+      "ko": "숫자 – 수학적인 수나 번호",
+      "ne": "संख्या – गणितीय संख्या वा अंक",
+      "pt": "Número – um número ou algarismo matemático",
+      "th": "เลข – ตัวเลขหรือจำนวนทางคณิตศาสตร์",
+      "tl": "Numero – isang matematikong numero o digit",
+      "ur": "نمبر/عدد – ایک ریاضیاتی نمبر یا ہندسہ",
+      "vi": "Số – một con số hoặc chữ số toán học",
+      "zh": "数字 – 数学上的数或数字",
+      "zh_Hant": "數字 – 數學上的數或數字"
+    },
+    "part_of_speech": "noun",
+    "romanization": "léːk˥˩",
+    "examples": [
+      {
+        "lao_script": "ເລກໂທລະສັບຂອງເຈົ້າແມ່ນຫຍັງ?",
+        "romanization": "léːk thoːlásáp khɔ̌ːŋ jâo mɛ̂ːn ɲǎŋ",
+        "translations": {
+          "de": "Was ist deine Telefonnummer?",
+          "en": "What is your phone number?",
+          "es": "¿Cuál es tu número de teléfono?",
+          "fr": "Quel est ton numéro de téléphone ?",
+          "hi": "तुम्हारा फ़ोन नंबर क्या है?",
+          "ja": "あなたの電話番号は何ですか？",
+          "km": "លេខទូរស័ព្ទរបស់អ្នកជាអ្វី?",
+          "ko": "네 전화번호가 뭐야?",
+          "ne": "तिम्रो फोन नम्बर के हो?",
+          "pt": "Qual é o seu número de telefone?",
+          "th": "เบอร์โทรศัพท์ของแกคืออะไร?",
+          "tl": "Ano ang numero ng telepono mo?",
+          "ur": "تمہارا فون نمبر کیا ہے؟",
+          "vi": "Số điện thoại của bạn là gì?",
+          "zh": "你的电话号码是多少？",
+          "zh_Hant": "你的電話號碼是多少？"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຈຳເລກນີ້ບໍ່ໄດ້",
+        "romanization": "khɔ̂i kham léːk níː bɔ̀ː dâi",
+        "translations": {
+          "de": "Ich kann mir diese Zahl nicht merken.",
+          "en": "I can't remember this number.",
+          "es": "No puedo recordar este número.",
+          "fr": "Je n'arrive pas à me souvenir de ce numéro.",
+          "hi": "मुझे यह नंबर याद नहीं रहता।",
+          "ja": "この番号が覚えられません。",
+          "km": "ខ្ញុំចាំលេខនេះមិនបាន។",
+          "ko": "이 번호를 기억 못 하겠어.",
+          "ne": "मलाई यो नम्बर याद हुँदैन।",
+          "pt": "Não consigo me lembrar desse número.",
+          "th": "ฉันจำเลขนี้ไม่ได้",
+          "tl": "Hindi ko matandaan ang numerong ito.",
+          "ur": "مجھے یہ نمبر یاد نہیں رہتا۔",
+          "vi": "Tôi không nhớ được số này.",
+          "zh": "我记不住这个数字。",
+          "zh_Hant": "我記不住這個數字。"
+        },
+        "out_of_scope_words": [
+          "ຈຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of colorful numerals 1 through 5 arranged in a playful row, with a pencil nearby, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊື້": {
+    "definitions": {
+      "de": "Kaufen – etwas gegen Geld erwerben",
+      "en": "To buy – to obtain something by paying money for it",
+      "es": "Comprar – obtener algo pagando dinero por ello",
+      "fr": "Acheter – obtenir quelque chose en échange d'argent",
+      "hi": "खरीदना – पैसे देकर कुछ प्राप्त करना",
+      "ja": "買う – お金を払って何かを手に入れること",
+      "km": "ទិញ – ទទួលបានអ្វីមួយដោយចំណាយប្រាក់",
+      "ko": "사다 – 돈을 내고 무언가를 얻다",
+      "ne": "किन्नु – पैसा तिरेर केही प्राप्त गर्नु",
+      "pt": "Comprar – obter algo pagando dinheiro por isso",
+      "th": "ซื้อ – ได้รับสิ่งของโดยการจ่ายเงิน",
+      "tl": "Bumili – makakuha ng isang bagay sa pamamagitan ng pagbabayad ng pera",
+      "ur": "خریدنا – پیسے دے کر کوئی چیز حاصل کرنا",
+      "vi": "Mua – lấy thứ gì đó bằng cách trả tiền",
+      "zh": "买 – 付钱购买某物",
+      "zh_Hant": "買 – 付錢購買某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "sɯ̂ː˥˩",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກຊື້ເສື້ອໃໝ່",
+        "romanization": "khɔ̂i yàːk sɯ̂ː sɯ̂a mài",
+        "translations": {
+          "de": "Ich möchte ein neues Hemd kaufen.",
+          "en": "I want to buy a new shirt.",
+          "es": "Quiero comprar una camisa nueva.",
+          "fr": "Je veux acheter une nouvelle chemise.",
+          "hi": "मैं एक नई शर्ट खरीदना चाहता/चाहती हूँ।",
+          "ja": "新しいシャツを買いたいです。",
+          "km": "ខ្ញុំចង់ទិញអាវថ្មី។",
+          "ko": "나 새 셔츠 사고 싶어.",
+          "ne": "मलाई नयाँ कमिज किन्न मन छ।",
+          "pt": "Eu quero comprar uma camisa nova.",
+          "th": "ฉันอยากซื้อเสื้อใหม่",
+          "tl": "Gusto kong bumili ng bagong damit.",
+          "ur": "میں نئی قمیض خریدنا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn mua một cái áo mới.",
+          "zh": "我想买一件新衬衫。",
+          "zh_Hant": "我想買一件新襯衫。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຊື້ຂອງຢູ່ໃສ?",
+        "romanization": "jâo sɯ̂ː khɔ̌ːŋ yùː sǎi",
+        "translations": {
+          "de": "Wo hast du das eingekauft?",
+          "en": "Where did you buy that?",
+          "es": "¿Dónde compraste eso?",
+          "fr": "Où as-tu acheté ça ?",
+          "hi": "तुमने यह कहाँ से खरीदा?",
+          "ja": "どこでそれを買ったの？",
+          "km": "អ្នកទិញរបស់នោះនៅឯណា?",
+          "ko": "그거 어디서 샀어?",
+          "ne": "तिमीले त्यो कहाँ किन्यौ?",
+          "pt": "Onde você comprou isso?",
+          "th": "แกซื้อของที่ไหน?",
+          "tl": "Saan mo binili iyon?",
+          "ur": "تم نے یہ کہاں سے خریدا؟",
+          "vi": "Bạn mua cái đó ở đâu vậy?",
+          "zh": "你在哪里买的？",
+          "zh_Hant": "你在哪裡買的？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person handing money to a shopkeeper at a market stall with colorful goods on display, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພື້ນ",
+  "definitions": {
+    "de": "Boden, Oberfläche oder Fläche; der untere Teil eines Raumes oder Gebietes, auf dem man geht oder steht",
+    "en": "Floor, surface, or area; the ground level of a room or space that one walks or stands on",
+    "es": "Piso, superficie o área; el nivel del suelo de una habitación o espacio sobre el que se camina o se está de pie",
+    "fr": "Sol, surface ou zone; le niveau du sol d'une pièce ou d'un espace sur lequel on marche ou se tient debout",
+    "hi": "फर्श, सतह या क्षेत्र; किसी कमरे या जगह का वह जमीनी स्तर जिस पर चला या खड़ा हुआ जाता है",
+    "ja": "床、地面、または表面。歩いたり立ったりする部屋や空間の地面レベル",
+    "km": "ជាន់ ផ្ទៃ ឬតំបន់ ដែលជាកម្រិតដីនៃបន្ទប់ ឬទីកន្លែងដែលអ្នកដើរឬឈរ",
+    "ko": "바닥, 표면 또는 구역; 걷거나 서 있는 방이나 공간의 지면 수준",
+    "ne": "भुइँ, सतह वा क्षेत्र; कोठा वा ठाउँको त्यो भूमि स्तर जसमा हिँडिन्छ वा उभिइन्छ",
+    "pt": "Chão, superfície ou área; o nível do chão de um cômodo ou espaço onde se anda ou fica de pé",
+    "th": "พื้น พื้นผิว หรือบริเวณ ระดับพื้นดินของห้องหรือพื้นที่ที่ใช้เดินหรือยืน",
+    "tl": "Sahig, ibabaw, o lugar; ang antas ng lupa ng isang silid o espasyo na pinagtataguan o nilalakaran",
+    "ur": "فرش، سطح یا علاقہ؛ کمرے یا جگہ کی زمینی سطح جس پر چلا یا کھڑا ہوا جاتا ہے",
+    "vi": "Sàn nhà, bề mặt hoặc khu vực; mặt đất của căn phòng hoặc không gian nơi người ta đi lại hoặc đứng",
+    "zh": "地板、表面或区域；房间或空间的地面层，用于行走或站立",
+    "zh_Hant": "地板、表面或區域；房間或空間的地面層，用於行走或站立"
+  },
+  "definition_en": "Floor, surface, or area; the ground level of a room or space that one walks or stands on",
+  "romanization": "pheun",
+  "lao_examples": [
+    {
+      "lao_script": "ພື້ນຫ້ອງນອນສະອາດດີ",
+      "romanization": "pheun hong non sa-at dii",
+      "translation_en": "The bedroom floor is really clean"
+    },
+    {
+      "lao_script": "ຢ່ານັ່ງຢູ່ພື້ນ ໜາວ",
+      "romanization": "yaa nang yu pheun naao",
+      "translation_en": "Don't sit on the floor, it's cold"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clean wooden floor inside a cozy room, viewed from a slight angle showing the floor surface clearly, clean white background, warm colors, minimalist cartoon style suitable for a language learning app"
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທົ່ວ",
+  "definitions": {
+    "de": "Überall, durch und durch, im ganzen – gibt an, dass etwas alle Orte oder alle Teile umfasst",
+    "en": "Throughout, all over, everywhere – indicates something covers all places or all parts of something",
+    "es": "Por todo, en todas partes – indica que algo abarca todos los lugares o todas las partes de algo",
+    "fr": "Partout, dans tout – indique que quelque chose couvre tous les endroits ou toutes les parties de quelque chose",
+    "hi": "हर जगह, पूरे में – यह दर्शाता है कि कोई चीज़ सभी स्थानों या किसी चीज़ के सभी भागों को समेटती है",
+    "ja": "至る所に、全体にわたって – 何かがすべての場所またはある物の全体をカバーすることを示す",
+    "km": "ទូទាំង, គ្រប់ទិសទី – បង្ហាញថាអ្វីមួយគ្របដណ្ដប់លើទីកន្លែងទាំងអស់ ឬគ្រប់ផ្នែកទាំងអស់",
+    "ko": "전체에, 곳곳에 – 무언가가 모든 장소 또는 어떤 것의 모든 부분을 포함함을 나타냄",
+    "ne": "सर्वत्र, सबैतिर – कुनै चीज सबै ठाउँ वा कुनै वस्तुका सबै भागहरू ओगट्छ भन्ने जनाउँछ",
+    "pt": "Por todo, em toda parte – indica que algo abrange todos os lugares ou todas as partes de algo",
+    "th": "ทั่ว, ตลอดทั่ว – บ่งบอกว่าสิ่งใดสิ่งหนึ่งครอบคลุมทุกสถานที่หรือทุกส่วนของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Sa buong, sa lahat ng dako – nagpapahiwatig na ang isang bagay ay sumasaklaw sa lahat ng lugar o bahagi ng isang bagay",
+    "ur": "ہر جگہ، پوری طرح – اشارہ کرتا ہے کہ کوئی چیز تمام جگہوں یا کسی چیز کے تمام حصوں کو شامل کرتی ہے",
+    "vi": "Khắp nơi, toàn bộ – chỉ ra rằng điều gì đó bao phủ tất cả các nơi hoặc tất cả các phần của điều gì đó",
+    "zh": "到处，遍及 – 表示某事物覆盖所有地方或某物的所有部分",
+    "zh_Hant": "到處，遍及 – 表示某事物覆蓋所有地方或某物的所有部分"
+  },
+  "definition_en": "Throughout, all over, everywhere – indicates something covers all places or all parts of something",
+  "romanization": "tʰùa",
+  "lao_examples": [
+    {
+      "lao_script": "ຄົນທົ່ວໂລກຮັກດົນຕີ",
+      "romanization": "khon tʰùa lóːk hák don tìː",
+      "translation_en": "People all over the world love music."
+    },
+    {
+      "lao_script": "ຝົນຕົກທົ່ວເມືອງເລີຍ",
+      "romanization": "fon tok tʰùa mɯ̄aŋ ləːi",
+      "translation_en": "It's raining all over the city."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a globe or map with small icons spread across every part of it, representing 'all over' or 'throughout'. Clean white background, bright colors, minimalist style suitable for a language learning app."
+}

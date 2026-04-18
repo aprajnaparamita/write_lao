@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແພງ",
+  "definitions": {
+    "de": "teuer; kostspielig; hoher Preis",
+    "en": "expensive; costly; high-priced",
+    "es": "caro; costoso; de precio elevado",
+    "fr": "cher; coûteux; prix élevé",
+    "hi": "महंगा; महँगा; ऊँची कीमत वाला",
+    "ja": "高い；値段が高い；高価な",
+    "km": "ថ្លៃ; មានតម្លៃខ្ពស់",
+    "ko": "비싸다; 값이 높다; 고가의",
+    "ne": "महँगो; उच्च मूल्यको",
+    "pt": "caro; dispendioso; de preço alto",
+    "th": "แพง; ราคาสูง; มีราคาแพง",
+    "tl": "mahal; mataas ang presyo; magastos",
+    "ur": "مہنگا؛ قیمتی؛ اونچے دام کا",
+    "vi": "đắt; đắt tiền; giá cao",
+    "zh": "贵；价格高；昂贵",
+    "zh_Hant": "貴；價格高；昂貴"
+  },
+  "definition_en": "expensive; costly; high-priced",
+  "romanization": "phɛ́ːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ໂທລະສັບໃໝ່ເຄື່ອງນີ້ແພງຫຼາຍ ຊື້ບໍ່ໄດ້",
+      "romanization": "tʰóː lā sáp mài khɨ̂aŋ níː phɛ́ːŋ lǎːj, sɨ́ː bɔ̀ː dâj",
+      "translation_en": "This new phone is really expensive, I can't buy it."
+    },
+    {
+      "lao_script": "ຂອງຢູ່ຕະຫຼາດນີ້ແພງກວ່າໃນເມືອງ",
+      "romanization": "khɔ̌ːŋ yùː tā làːt níː phɛ́ːŋ kwàː naj mɨ́aŋ",
+      "translation_en": "Stuff at this market is more expensive than in the city."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a shocked person looking at a price tag with a large number on a product in a store, with a surprised expression, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

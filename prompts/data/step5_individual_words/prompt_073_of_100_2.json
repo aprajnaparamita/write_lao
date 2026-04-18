@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະຈຳ",
+  "definitions": {
+    "de": "Regelmäßig, ständig, dauerhaft; bezeichnet etwas, das habituell oder fest ist",
+    "en": "Regular, permanent, habitual; describes something that is routine, fixed, or ongoing",
+    "es": "Regular, permanente, habitual; describe algo que es rutinario, fijo o continuo",
+    "fr": "Régulier, permanent, habituel; décrit quelque chose de routinier, fixe ou continu",
+    "hi": "नियमित, स्थायी, अभ्यस्त; कुछ ऐसा जो नियमित रूप से या हमेशा के लिए हो",
+    "ja": "定期的な、常設の、習慣的な；日常的・固定的・継続的なことを表す",
+    "km": "ជាប្រចាំ, ទៀងទាត់, អចិន្ត្រៃ; សំដៅលើអ្វីដែលធ្វើជានិច្ច ឬជាអចិន្ត្រៃ",
+    "ko": "정기적인, 상시의, 습관적인; 규칙적이거나 고정적이거나 지속적인 것을 나타냄",
+    "ne": "नियमित, स्थायी, अभ्यस्त; कुनै कुरा जो नियमित रूपमा वा स्थायी रूपमा हुन्छ",
+    "pt": "Regular, permanente, habitual; descreve algo que é rotineiro, fixo ou contínuo",
+    "th": "ประจำ, สม่ำเสมอ, ถาวร; ใช้อธิบายสิ่งที่เป็นกิจวัตรหรือเป็นประจำ",
+    "tl": "Regular, permanente, karaniwang ginagawa; naglalarawan ng isang bagay na pang-araw-araw o nakatakda",
+    "ur": "باقاعدہ، مستقل، معمول کا؛ کسی ایسی چیز کو بیان کرتا ہے جو معمولاً یا ہمیشہ ہوتی ہو",
+    "vi": "Thường xuyên, cố định, thường lệ; chỉ điều gì đó diễn ra đều đặn hoặc lâu dài",
+    "zh": "固定的，经常性的，长期的；描述某事是例行的、定期的或持续性的",
+    "zh_Hant": "固定的，經常性的，長期的；描述某事是例行的、定期的或持續性的"
+  },
+  "definition_en": "Regular, permanent, habitual; describes something that is routine, fixed, or ongoing",
+  "romanization": "pa.càm",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວໄປອອກກຳລັງກາຍປະຈຳທຸກເຊົ້າ",
+      "romanization": "láo pai ɔ̀ɔk kam-lang-kaai pa.càm thúk sâo",
+      "translation_en": "He/She regularly goes to exercise every morning."
+    },
+    {
+      "lao_script": "ຮ້ານນີ້ມີລູກຄ້າປະຈຳຫຼາຍ",
+      "romanization": "hâan níi mii lûuk-kháa pa.càm lǎai",
+      "translation_en": "This shop has many regular customers."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a calendar showing repeated daily checkmarks, symbolizing a regular routine, clean white background, colorful minimalist style suitable for a language learning app."
+}

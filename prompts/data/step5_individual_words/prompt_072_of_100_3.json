@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອົກ",
+  "definitions": {
+    "de": "Brust, Brustkorb",
+    "en": "chest, breast (body part)",
+    "es": "pecho, tórax",
+    "fr": "poitrine, thorax",
+    "hi": "छाती, वक्ष",
+    "ja": "胸、胸部",
+    "km": "ទ្រូង, ដើមទ្រូង",
+    "ko": "가슴, 흉부",
+    "ne": "छाती",
+    "pt": "peito, tórax",
+    "th": "อก, หน้าอก",
+    "tl": "dibdib",
+    "ur": "سینہ، چھاتی",
+    "vi": "ngực",
+    "zh": "胸、胸部",
+    "zh_Hant": "胸、胸部"
+  },
+  "definition_en": "chest, breast (body part)",
+  "romanization": "ʔok",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍເຈັບອົກ.",
+      "romanization": "khɔ̀ːj tɕep ʔok",
+      "translation_en": "My chest hurts."
+    },
+    {
+      "lao_script": "ລາວເອົາມືວາງໃສ່ອົກ.",
+      "romanization": "láːw ʔao mɯ́ː vaːŋ saj ʔok",
+      "translation_en": "He put his hand on his chest."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a human body silhouette with the chest area highlighted or pointed to with an arrow, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

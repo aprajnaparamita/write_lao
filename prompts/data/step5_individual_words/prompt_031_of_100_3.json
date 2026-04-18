@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພາກ",
+  "definitions": {
+    "de": "Teil, Abschnitt, Region; ein geografisches Gebiet oder ein Teil eines größeren Ganzen (z. B. Norden, Süden, Kapitel eines Buches)",
+    "en": "Part, section, region; a geographic area or a portion of a larger whole (e.g., north, south, or a chapter of a book)",
+    "es": "Parte, sección, región; un área geográfica o una porción de un todo mayor (p. ej., norte, sur, o un capítulo de un libro)",
+    "fr": "Partie, section, région; une zone géographique ou une portion d'un tout plus grand (ex. : nord, sud, ou un chapitre d'un livre)",
+    "hi": "भाग, खंड, क्षेत्र; एक भौगोलिक क्षेत्र या किसी बड़े समग्र का एक हिस्सा (जैसे उत्तर, दक्षिण, या किताब का अध्याय)",
+    "ja": "部分、節、地域；地理的なエリアや大きな全体の一部（例：北部、南部、または本の章）",
+    "km": "ផ្នែក, តំបន់, ខេត្ត; តំបន់ភូមិសាស្ត្រ ឬផ្នែកមួយនៃទាំងអស់ (ឧ. ខាងជើង ខាងត្បូង ឬជំពូកនៅក្នុងសៀវភៅ)",
+    "ko": "부분, 구역, 지역; 지리적 구역이나 더 큰 전체의 일부 (예: 북부, 남부, 또는 책의 챕터)",
+    "ne": "भाग, खण्ड, क्षेत्र; एक भौगोलिक क्षेत्र वा ठूलो समग्रको एक अंश (जस्तै उत्तर, दक्षिण, वा पुस्तकको अध्याय)",
+    "pt": "Parte, seção, região; uma área geográfica ou uma porção de um todo maior (ex.: norte, sul ou um capítulo de livro)",
+    "th": "ภาค, ส่วน, บริเวณ; พื้นที่ทางภูมิศาสตร์หรือส่วนหนึ่งของสิ่งที่ใหญ่กว่า (เช่น ภาคเหนือ ภาคใต้ หรือบทในหนังสือ)",
+    "tl": "Bahagi, seksyon, rehiyon; isang lugar o bahagi ng isang mas malaking kabuuan (hal., hilaga, timog, o kabanata ng isang libro)",
+    "ur": "حصہ، قطعہ، علاقہ؛ ایک جغرافیائی علاقہ یا کسی بڑے کل کا ایک حصہ (جیسے شمال، جنوب، یا کتاب کا باب)",
+    "vi": "Phần, khu vực, vùng; một vùng địa lý hoặc một phần của tổng thể lớn hơn (ví dụ: phía Bắc, phía Nam, hoặc chương của cuốn sách)",
+    "zh": "部分、区域、地区；地理区域或更大整体的一部分（如北部、南部，或书的章节）",
+    "zh_Hant": "部分、區域、地區；地理區域或更大整體的一部分（如北部、南部，或書的章節）"
+  },
+  "definition_en": "Part, section, region; a geographic area or a portion of a larger whole (e.g., north, south, or a chapter of a book)",
+  "romanization": "/pʰaːk²²/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າມາຈາກພາກໃດຂອງລາວ",
+      "romanization": "jao maa jaak phaak dai khong laao",
+      "translation_en": "Which part of Laos do you come from?"
+    },
+    {
+      "lao_script": "ພາກເໜືອຂອງລາວອາກາດເຢັນກວ່າ",
+      "romanization": "phaak nuea khong laao aa-gaat yen kwaa",
+      "translation_en": "The northern part of Laos is cooler."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a map divided into clearly labeled colored regions or sections, with one region highlighted in a bright color, clean white background, minimalist style suitable for a language learning app."
+}

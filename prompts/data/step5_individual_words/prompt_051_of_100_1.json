@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດວງ",
+  "definitions": {
+    "de": "Stern; Schicksal/Glück; Klassifikator für Himmelskörper (Sonne, Mond, Sterne)",
+    "en": "Star; fortune/luck/fate; classifier for celestial bodies (sun, moon, stars)",
+    "es": "Estrella; fortuna/suerte/destino; clasificador para cuerpos celestes (sol, luna, estrellas)",
+    "fr": "Étoile; fortune/chance/destin; classificateur pour les corps célestes (soleil, lune, étoiles)",
+    "hi": "तारा; भाग्य/किस्मत; खगोलीय पिंडों (सूर्य, चंद्रमा, तारों) के लिए क्लासिफायर",
+    "ja": "星；運勢・運命；天体（太陽・月・星）の類別詞",
+    "km": "ផ្កាយ; ជោគវាសនា/សំណាង; ពាក្យចំណាត់ថ្នាក់សម្រាប់អាកាសវត្ថុ (ព្រះអាទិត្យ ព្រះចន្ទ ផ្កាយ)",
+    "ko": "별; 운/운명/행운; 천체(해, 달, 별)에 쓰이는 분류사",
+    "ne": "तारा; भाग्य/किस्मत; खगोलीय पिण्डहरू (सूर्य, चन्द्रमा, तारा) का लागि वर्गीकरण शब्द",
+    "pt": "Estrela; sorte/fortuna/destino; classificador para corpos celestes (sol, lua, estrelas)",
+    "th": "ดาว; ดวงชะตา/โชคชะตา; ลักษณนามสำหรับวัตถุท้องฟ้า (ดวงอาทิตย์ ดวงจันทร์ ดาว)",
+    "tl": "Bituin; kapalaran/swerte/tadhana; panluri para sa mga katawang pangkalawakan (araw, buwan, bituin)",
+    "ur": "ستارہ؛ قسمت/نصیب/تقدیر؛ آسمانی اجسام (سورج، چاند، ستاروں) کے لیے درجہ بندی کا لفظ",
+    "vi": "Ngôi sao; vận mệnh/may mắn/số phận; danh từ chỉ loại cho các thiên thể (mặt trời, mặt trăng, sao)",
+    "zh": "星星；运气/命运/福气；天体（太阳、月亮、星星）的量词",
+    "zh_Hant": "星星；運氣/命運/福氣；天體（太陽、月亮、星星）的量詞"
+  },
+  "definition_en": "Star; fortune/luck/fate; classifier for celestial bodies (sun, moon, stars)",
+  "romanization": "duaŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຄືນນີ້ດວງດາວສວຍຫຼາຍເນາະ",
+      "romanization": "khʉːn níː duaŋ daːw suay laːj nɔ",
+      "translation_en": "The stars are so beautiful tonight, aren't they?"
+    },
+    {
+      "lao_script": "ດວງຂອງຂ້ອຍດີຫຼາຍອາທິດນີ້",
+      "romanization": "duaŋ khɔ̌ːŋ khɔ̂ːj diː laːj ʔaː.thít níː",
+      "translation_en": "My luck/fortune is really good this week."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a bright glowing star in a dark night sky with a crescent moon, and below it a small fortune symbol or lucky charm, suitable for a language learning app, clean background, colorful and minimalist style."
+}

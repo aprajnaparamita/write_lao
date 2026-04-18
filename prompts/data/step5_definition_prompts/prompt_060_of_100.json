@@ -1,0 +1,388 @@
+{
+  "ທິດ": {
+    "definitions": {
+      "de": "Richtung (z. B. Norden, Süden, Osten, Westen); eine der Himmelsrichtungen oder eine allgemeine Richtungsangabe",
+      "en": "Direction; one of the cardinal or ordinal directions (e.g., north, south, east, west)",
+      "es": "Dirección; uno de los puntos cardinales u ordinales (p. ej., norte, sur, este, oeste)",
+      "fr": "Direction ; l'un des points cardinaux ou intermédiaires (p. ex., nord, sud, est, ouest)",
+      "hi": "दिशा; मुख्य या मध्यवर्ती दिशाओं में से एक (जैसे उत्तर, दक्षिण, पूर्व, पश्चिम)",
+      "ja": "方向；東西南北などの方角のひとつ",
+      "km": "ទិស; ទិសដៅមួយក្នុងចំណោមទិសមេ ឬទិសអនុ (ឧ. ខាងជើង ខាងត្បូង ខាងកើត ខាងលិច)",
+      "ko": "방향; 동서남북 등의 기본 방향 중 하나",
+      "ne": "दिशा; मुख्य वा मध्यवर्ती दिशाहरूमध्ये एक (जस्तै उत्तर, दक्षिण, पूर्व, पश्चिम)",
+      "pt": "Direção; um dos pontos cardeais ou colaterais (p. ex., norte, sul, leste, oeste)",
+      "th": "ทิศ; ทิศทางหลักหรือทิศทางรอง (เช่น เหนือ ใต้ ออก ตก)",
+      "tl": "Direksyon; isa sa mga pangunahing direksyon (hal., hilaga, timog, silangan, kanluran)",
+      "ur": "سمت؛ بنیادی یا ثانوی سمتوں میں سے ایک (مثلاً شمال، جنوب، مشرق، مغرب)",
+      "vi": "Hướng; một trong các hướng chính hoặc phụ (ví dụ: bắc, nam, đông, tây)",
+      "zh": "方向；东、西、南、北等基本方位之一",
+      "zh_Hant": "方向；東、西、南、北等基本方位之一"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tʰit/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໄປທິດໃດ?",
+        "romanization": "Jao pai thit dai?",
+        "translations": {
+          "de": "In welche Richtung gehst du?",
+          "en": "Which direction are you going?",
+          "es": "¿En qué dirección vas?",
+          "fr": "Tu vas dans quelle direction ?",
+          "hi": "तुम किस दिशा में जा रहे हो?",
+          "ja": "どの方向に行くの？",
+          "km": "អ្នកទៅទិសណា?",
+          "ko": "어느 방향으로 가요?",
+          "ne": "तिमी कुन दिशामा जाँदैछौ?",
+          "pt": "Para qual direção você vai?",
+          "th": "แกไปทิศไหน?",
+          "tl": "Saan kang direksyon pupunta?",
+          "ur": "تم کس سمت جا رہے ہو؟",
+          "vi": "Bạn đi hướng nào vậy?",
+          "zh": "你要去哪个方向？",
+          "zh_Hant": "你要去哪個方向？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຕາເວັນອອກຢູ່ທິດນີ້ແລ້ວ",
+        "romanization": "Ta-wen awk yu thit nii laew",
+        "translations": {
+          "de": "Die Sonne geht in dieser Richtung auf.",
+          "en": "The sun rises in this direction.",
+          "es": "El sol sale en esta dirección.",
+          "fr": "Le soleil se lève dans cette direction.",
+          "hi": "सूरज इस दिशा में उगता है।",
+          "ja": "太陽はこの方角から昇るよ。",
+          "km": "ព្រះអាទិត្យរះនៅទិសនេះ។",
+          "ko": "태양은 이 방향에서 뜨거든요.",
+          "ne": "सूर्य यस दिशामा उदाउँछ।",
+          "pt": "O sol nasce nessa direção.",
+          "th": "ดวงอาทิตย์ขึ้นทางทิศนี้แหละ",
+          "tl": "Ang araw ay sumisinag sa direksyong ito.",
+          "ur": "سورج اس سمت سے طلوع ہوتا ہے۔",
+          "vi": "Mặt trời mọc ở hướng này đấy.",
+          "zh": "太阳从这个方向升起。",
+          "zh_Hant": "太陽從這個方向升起。"
+        },
+        "out_of_scope_words": [
+          "ຕາເວັນອອກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a compass showing the four cardinal directions (north, south, east, west) with clear arrows, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບາ": {
+    "definitions": {
+      "de": "Ein Silbenfragment oder Partikel, das hauptsächlich in Kombinationen oder Namen vorkommt; als eigenständiges Wort selten verwendet",
+      "en": "A syllable fragment or particle primarily used in compound words or names; limited standalone meaning",
+      "es": "Fragmento silábico o partícula usada principalmente en palabras compuestas o nombres; uso independiente limitado",
+      "fr": "Fragment syllabique ou particule utilisé principalement dans des mots composés ou des noms ; usage autonome limité",
+      "hi": "एक शब्दांश खंड या कण जो मुख्यतः यौगिक शब्दों या नामों में प्रयुक्त होता है; स्वतंत्र उपयोग सीमित है",
+      "ja": "主に複合語や名前に使われる音節の断片または助詞；単独での使用は限られる",
+      "km": "ពាក្យបំណែកព្យាង្គ ឬភាគល្អិតដែលប្រើជាចម្បងក្នុងពាក្យផ្សំ ឬឈ្មោះ; ការប្រើប្រាស់តែម្នាក់ឯងមានកំណត់",
+      "ko": "주로 복합어나 이름에 사용되는 음절 단편 또는 조사; 단독 사용은 제한적",
+      "ne": "मुख्यतः यौगिक शब्द वा नामहरूमा प्रयोग हुने एक शब्दांश खण्ड वा कण; स्वतन्त्र प्रयोग सीमित",
+      "pt": "Fragmento silábico ou partícula usado principalmente em palavras compostas ou nomes; uso independente limitado",
+      "th": "ส่วนพยางค์หรืออนุภาคที่ใช้ส่วนใหญ่ในคำประสมหรือชื่อ; การใช้แบบอิสระมีจำกัด",
+      "tl": "Isang bahagi ng pantig o partikula na pangunahing ginagamit sa mga salitang tambalan o pangalan; limitadong paggamit nang mag-isa",
+      "ur": "ایک حرفی ٹکڑا یا ذرہ جو بنیادی طور پر مرکب الفاظ یا ناموں میں استعمال ہوتا ہے؛ اکیلے استعمال محدود ہے",
+      "vi": "Một mảnh âm tiết hoặc tiểu từ chủ yếu dùng trong từ ghép hoặc tên riêng; ít được dùng độc lập",
+      "zh": "主要用于复合词或名字中的音节片段或助词；单独使用有限",
+      "zh_Hant": "主要用於複合詞或名字中的音節片段或助詞；單獨使用有限"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/baː/",
+    "examples": [
+      {
+        "lao_script": "ຄຳນີ້ຂຶ້ນຕົ້ນດ້ວຍ ບາ",
+        "romanization": "Kham nii khuen ton duai baa",
+        "translations": {
+          "de": "Dieses Wort beginnt mit der Silbe 'ba'.",
+          "en": "This word starts with the syllable 'ba'.",
+          "es": "Esta palabra comienza con la sílaba 'ba'.",
+          "fr": "Ce mot commence par la syllabe 'ba'.",
+          "hi": "यह शब्द 'बा' अक्षर से शुरू होता है।",
+          "ja": "この単語は「バー」の音節で始まる。",
+          "km": "ពាក្យនេះចាប់ផ្តើមដោយព្យាង្គ 'ບາ'។",
+          "ko": "이 단어는 '바' 음절로 시작해요.",
+          "ne": "यो शब्द 'बा' अक्षरबाट सुरु हुन्छ।",
+          "pt": "Esta palavra começa com a sílaba 'ba'.",
+          "th": "คำนี้ขึ้นต้นด้วยพยางค์ 'บา'",
+          "tl": "Ang salitang ito ay nagsisimula sa pantig na 'ba'.",
+          "ur": "یہ لفظ 'با' کے حرف سے شروع ہوتا ہے۔",
+          "vi": "Từ này bắt đầu bằng âm tiết 'baa'.",
+          "zh": "这个词以音节'บา'开头。",
+          "zh_Hant": "這個詞以音節'บา'開頭。"
+        },
+        "out_of_scope_words": [
+          "ຂຶ້ນຕົ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ບາ ມັກໃຊ້ຢູ່ໃນຊື່ຄົນ",
+        "romanization": "Baa mak sai yu nai sue khon",
+        "translations": {
+          "de": "'Ba' wird oft in Personennamen verwendet.",
+          "en": "'Ba' is often used in people's names.",
+          "es": "'Ba' se usa frecuentemente en nombres de personas.",
+          "fr": "'Ba' est souvent utilisé dans les prénoms.",
+          "hi": "'बा' अक्सर लोगों के नामों में उपयोग किया जाता है।",
+          "ja": "「バー」は人名によく使われる。",
+          "km": "'ບາ' ត្រូវបានប្រើជាញឹកញាប់នៅក្នុងឈ្មោះមនុស្ស។",
+          "ko": "'바'는 사람 이름에 자주 쓰여요.",
+          "ne": "'बा' प्रायः मानिसका नाममा प्रयोग गरिन्छ।",
+          "pt": "'Ba' é frequentemente usado em nomes de pessoas.",
+          "th": "'บา' มักใช้อยู่ในชื่อคน",
+          "tl": "Ang 'ba' ay madalas gamitin sa mga pangalan ng tao.",
+          "ur": "'با' اکثر لوگوں کے ناموں میں استعمال ہوتا ہے۔",
+          "vi": "'Baa' thường được dùng trong tên người.",
+          "zh": "'บา'常用于人名中。",
+          "zh_Hant": "'บา'常用於人名中。"
+        },
+        "out_of_scope_words": [
+          "ຊື່ຄົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a speech bubble containing the syllable 'BA' in large, bold, colorful letters, representing a basic phonetic building block, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ເທິງ": {
+    "definitions": {
+      "de": "Auf, oben, oberhalb; Präposition oder Positionsangabe, die anzeigt, dass sich etwas auf der Oberfläche oder über etwas befindet",
+      "en": "On top of, above, on; a positional word indicating something is on the surface of or above something else",
+      "es": "Encima de, sobre, arriba; palabra posicional que indica que algo está sobre la superficie o por encima de algo",
+      "fr": "Sur, au-dessus de ; mot positionnel indiquant qu'une chose est sur la surface ou au-dessus d'une autre",
+      "hi": "ऊपर, पर; स्थानवाचक शब्द जो यह दर्शाता है कि कोई वस्तु किसी सतह पर या किसी चीज़ के ऊपर है",
+      "ja": "〜の上に、上；何かの表面の上または上方にあることを示す位置語",
+      "km": "លើ, ខាងលើ; ពាក្យទីតាំងដែលបង្ហាញថាអ្វីមួយស្ថិតនៅលើផ្ទៃ ឬខាងលើអ្វីផ្សេង",
+      "ko": "위에, 위; 무언가가 다른 것의 표면 위나 위쪽에 있음을 나타내는 위치어",
+      "ne": "माथि, उपर; स्थानवाचक शब्द जसले कुनै वस्तु अर्को वस्तुको सतहमाथि वा माथि रहेको संकेत गर्छ",
+      "pt": "Em cima de, sobre, acima; palavra posicional que indica que algo está na superfície ou acima de outra coisa",
+      "th": "บน, ข้างบน, เหนือ; คำบอกตำแหน่งที่บ่งบอกว่าสิ่งหนึ่งอยู่บนพื้นผิวหรือเหนือสิ่งอื่น",
+      "tl": "Sa ibabaw, sa itaas; salitang nagpapakita ng posisyon na ang isang bagay ay nasa ibabaw o nasa itaas ng isa pa",
+      "ur": "اوپر، پر؛ محل وقوع کا لفظ جو یہ ظاہر کرتا ہے کہ کوئی چیز کسی سطح پر یا کسی اور چیز کے اوپر ہے",
+      "vi": "Trên, ở trên; từ chỉ vị trí cho biết một vật nằm trên bề mặt hoặc phía trên một vật khác",
+      "zh": "在……上面、上方；位置词，表示某物在另一物的表面上或上方",
+      "zh_Hant": "在……上面、上方；位置詞，表示某物在另一物的表面上或上方"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "/tʰɤːŋ/",
+    "examples": [
+      {
+        "lao_script": "ໜັງສືຢູ່ເທິງໂຕະ",
+        "romanization": "Nang-seu yu theuang to",
+        "translations": {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "en": "The book is on the table.",
+          "es": "El libro está sobre la mesa.",
+          "fr": "Le livre est sur la table.",
+          "hi": "किताब मेज़ पर है।",
+          "ja": "本はテーブルの上にあるよ。",
+          "km": "សៀវភៅនៅលើតុ។",
+          "ko": "책이 테이블 위에 있어요.",
+          "ne": "किताब टेबलमाथि छ।",
+          "pt": "O livro está em cima da mesa.",
+          "th": "หนังสืออยู่บนโต๊ะ",
+          "tl": "Ang libro ay nasa ibabaw ng mesa.",
+          "ur": "کتاب میز پر ہے۔",
+          "vi": "Cuốn sách ở trên bàn.",
+          "zh": "书在桌子上面。",
+          "zh_Hant": "書在桌子上面。"
+        },
+        "out_of_scope_words": [
+          "ໜັງສື",
+          "ໂຕະ"
+        ]
+      },
+      {
+        "lao_script": "ແມວນອນຢູ່ເທິງຫຼັງຂ້ອຍ",
+        "romanization": "Maew non yu theuang lang khoi",
+        "translations": {
+          "de": "Die Katze schläft auf meinem Rücken.",
+          "en": "The cat is sleeping on my back.",
+          "es": "El gato está durmiendo encima de mi espalda.",
+          "fr": "Le chat dort sur mon dos.",
+          "hi": "बिल्ली मेरी पीठ पर सो रही है।",
+          "ja": "猫が私の背中の上で寝てるよ。",
+          "km": "សត្វឆ្មាដេកនៅលើខ្នងខ្ញុំ។",
+          "ko": "고양이가 내 등 위에서 자고 있어요.",
+          "ne": "बिरालो मेरो ढाडमाथि सुतिरहेको छ।",
+          "pt": "O gato está dormindo nas minhas costas.",
+          "th": "แมวนอนอยู่บนหลังฉัน",
+          "tl": "Ang pusa ay natutulog sa ibabaw ng aking likod.",
+          "ur": "بلی میری پیٹھ پر سو رہی ہے۔",
+          "vi": "Con mèo đang ngủ trên lưng tôi.",
+          "zh": "猫睡在我的背上。",
+          "zh_Hant": "貓睡在我的背上。"
+        },
+        "out_of_scope_words": [
+          "ແມວ",
+          "ຫຼັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a red apple sitting on top of a wooden table, with a clear upward arrow indicating 'on top', suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໂນ": {
+    "definitions": {
+      "de": "Silbe, die hauptsächlich in Eigennamen vorkommt; als eigenständiges Wort kaum gebräuchlich",
+      "en": "A syllable commonly found in personal names; limited standalone use as an independent word",
+      "es": "Sílaba que aparece comúnmente en nombres propios; uso independiente muy limitado",
+      "fr": "Syllabe que l'on trouve couramment dans les prénoms ; usage autonome très limité",
+      "hi": "व्यक्तिगत नामों में सामान्यतः पाया जाने वाला शब्दांश; स्वतंत्र शब्द के रूप में सीमित उपयोग",
+      "ja": "主に人名に見られる音節；独立した語としての使用は限られる",
+      "km": "ព្យាង្គដែលជាទូទៅឃើញក្នុងឈ្មោះបុគ្គល; ការប្រើប្រាស់ជាអ្វីដាច់ដោយឡែកមានកំណត់",
+      "ko": "주로 사람 이름에 나타나는 음절; 독립 단어로서의 사용은 제한적",
+      "ne": "व्यक्तिगत नाममा सामान्यतः पाइने एक शब्दांश; स्वतन्त्र शब्दको रूपमा सीमित प्रयोग",
+      "pt": "Sílaba comumente encontrada em nomes próprios; uso independente muito limitado",
+      "th": "พยางค์ที่มักพบในชื่อบุคคล; การใช้แบบอิสระมีจำกัดมาก",
+      "tl": "Isang pantig na karaniwang makikita sa mga personal na pangalan; limitadong paggamit bilang isang nagsasariling salita",
+      "ur": "ایک حرف جو عام طور پر ذاتی ناموں میں پایا جاتا ہے؛ آزاد لفظ کے طور پر استعمال بہت محدود ہے",
+      "vi": "Một âm tiết thường gặp trong tên riêng; ít dùng độc lập như một từ",
+      "zh": "常见于人名中的音节；作为独立词语的使用有限",
+      "zh_Hant": "常見於人名中的音節；作為獨立詞語的使用有限"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/noː/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ລາວຫຼາຍຄົນມີ ໂນ ຢູ່ດ້ວຍ",
+        "romanization": "Sue Lao lai khon mi no yu duai",
+        "translations": {
+          "de": "Viele laotische Namen enthalten die Silbe 'No'.",
+          "en": "Many Lao names include the syllable 'No'.",
+          "es": "Muchos nombres laosianos incluyen la sílaba 'No'.",
+          "fr": "De nombreux prénoms laotiens contiennent la syllabe 'No'.",
+          "hi": "कई लाओ नामों में 'नो' अक्षर शामिल होता है।",
+          "ja": "多くのラオ人の名前に「ノー」という音節が含まれている。",
+          "km": "ឈ្មោះឡាវជាច្រើនមានព្យាង្គ 'ໂນ' ផងដែរ។",
+          "ko": "많은 라오 이름에 '노' 음절이 들어가요.",
+          "ne": "धेरै लाओ नाममा 'नो' अक्षर समावेश हुन्छ।",
+          "pt": "Muitos nomes laosianos incluem a sílaba 'No'.",
+          "th": "ชื่อลาวหลายคนมีพยางค์ 'โน' อยู่ด้วย",
+          "tl": "Maraming pangalang Lao ang naglalaman ng pantig na 'No'.",
+          "ur": "بہت سے لاؤ ناموں میں 'نو' کا حرف شامل ہوتا ہے۔",
+          "vi": "Nhiều tên người Lào có chứa âm tiết 'Noo'.",
+          "zh": "许多老挝名字中含有'โน'这个音节。",
+          "zh_Hant": "許多寮國名字中含有'โน'這個音節。"
+        },
+        "out_of_scope_words": [
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ໂນ ຄືພຽງສ່ວນໜຶ່ງຂອງຊື່ເທົ່ານັ້ນ",
+        "romanization": "No kheu phiang suan nung khong sue thao nan",
+        "translations": {
+          "de": "'No' ist nur ein Teil eines Namens.",
+          "en": "'No' is just part of a name, that's all.",
+          "es": "'No' es solo una parte de un nombre, nada más.",
+          "fr": "'No' n'est qu'une partie d'un prénom, c'est tout.",
+          "hi": "'नो' बस एक नाम का हिस्सा है, बस इतना ही।",
+          "ja": "「ノー」は名前の一部に過ぎないよ。",
+          "km": "'ໂນ' គ្រាន់តែជាផ្នែកមួយនៃឈ្មោះប៉ុណ្ណោះ។",
+          "ko": "'노'는 그냥 이름의 일부일 뿐이에요.",
+          "ne": "'नो' केवल नामको एक भाग मात्र हो।",
+          "pt": "'No' é apenas parte de um nome, só isso.",
+          "th": "'โน' ก็แค่ส่วนหนึ่งของชื่อเท่านั้น",
+          "tl": "Ang 'No' ay bahagi lang ng isang pangalan, iyon lang.",
+          "ur": "'نو' صرف ایک نام کا حصہ ہے، بس۔",
+          "vi": "'Noo' chỉ là một phần của tên gọi thôi.",
+          "zh": "'โน'只是名字的一部分而已。",
+          "zh_Hant": "'โน'只是名字的一部分而已。"
+        },
+        "out_of_scope_words": [
+          "ພຽງ",
+          "ສ່ວນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or badge with 'NO' written prominently on it, surrounded by other name badges, suggesting it is part of a personal name, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ປະເທດ": {
+    "definitions": {
+      "de": "Land, Staat; ein souveräner Staat oder eine Nation mit eigenen Grenzen und Regierung",
+      "en": "Country, nation; a sovereign state with its own borders and government",
+      "es": "País, nación; un estado soberano con sus propias fronteras y gobierno",
+      "fr": "Pays, nation ; un État souverain avec ses propres frontières et son propre gouvernement",
+      "hi": "देश, राष्ट्र; अपनी सीमाओं और सरकार वाला एक संप्रभु राज्य",
+      "ja": "国、国家；独自の国境と政府を持つ主権国家",
+      "km": "ប្រទេស; រដ្ឋអធិបតេយ្យមួយដែលមានព្រំដែន និងរដ្ឋាភិបាលផ្ទាល់ខ្លួន",
+      "ko": "나라, 국가; 자체적인 국경과 정부를 가진 주권 국가",
+      "ne": "देश, राष्ट्र; आफ्नै सीमा र सरकार भएको एक सार्वभौम राज्य",
+      "pt": "País, nação; um estado soberano com suas próprias fronteiras e governo",
+      "th": "ประเทศ; รัฐที่มีอำนาจอธิปไตยพร้อมพรมแดนและรัฐบาลของตัวเอง",
+      "tl": "Bansa, nasyon; isang soberanong estado na may sariling hangganan at pamahalaan",
+      "ur": "ملک، قوم؛ اپنی سرحدوں اور حکومت کے ساتھ ایک خودمختار ریاست",
+      "vi": "Đất nước, quốc gia; một nhà nước có chủ quyền với biên giới và chính phủ riêng",
+      "zh": "国家；拥有自己边界和政府的主权国家",
+      "zh_Hant": "國家；擁有自己邊界和政府的主權國家"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pa.tʰeːt/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຢາກໄປປະເທດໃດ?",
+        "romanization": "Jao yak pai pa-thet dai?",
+        "translations": {
+          "de": "In welches Land möchtest du reisen?",
+          "en": "Which country do you want to go to?",
+          "es": "¿A qué país quieres ir?",
+          "fr": "Tu veux aller dans quel pays ?",
+          "hi": "तुम किस देश जाना चाहते हो?",
+          "ja": "どの国に行きたいの？",
+          "km": "អ្នកចង់ទៅប្រទេសណា?",
+          "ko": "어느 나라에 가고 싶어요?",
+          "ne": "तिमी कुन देश जान चाहन्छौ?",
+          "pt": "Para qual país você quer ir?",
+          "th": "แกอยากไปประเทศไหน?",
+          "tl": "Saang bansa ka gustong pumunta?",
+          "ur": "آپ کس ملک جانا چاہتے ہیں؟",
+          "vi": "Bạn muốn đi nước nào vậy?",
+          "zh": "你想去哪个国家？",
+          "zh_Hant": "你想去哪個國家？"
+        },
+        "out_of_scope_words": [
+          "ຢາກ"
+        ]
+      },
+      {
+        "lao_script": "ປະເທດລາວສວຍງາມຫຼາຍ",
+        "romanization": "Pa-thet Lao suay ngam lai",
+        "translations": {
+          "de": "Laos ist sehr schön.",
+          "en": "Laos is very beautiful.",
+          "es": "Laos es muy hermoso.",
+          "fr": "Le Laos est très beau.",
+          "hi": "लाओस बहुत सुंदर है।",
+          "ja": "ラオスはとても美しい国だよ。",
+          "km": "ប្រទេសឡាវស្អាតណាស់។",
+          "ko": "라오스는 정말 아름다워요.",
+          "ne": "लाओस देश धेरै सुन्दर छ।",
+          "pt": "O Laos é muito bonito.",
+          "th": "ประเทศลาวสวยงามมาก",
+          "tl": "Ang bansang Laos ay napakaganda.",
+          "ur": "لاؤس بہت خوبصورت ملک ہے۔",
+          "vi": "Đất nước Lào rất đẹp.",
+          "zh": "老挝国家非常美丽。",
+          "zh_Hant": "寮國非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ສວຍງາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a world map with one country highlighted in bright color, surrounded by small national flags, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຝົ້າ",
+  "definitions": {
+    "de": "Bewachen, beobachten oder hüten; jemanden oder etwas im Auge behalten, oft zum Schutz",
+    "en": "To watch over, guard, or keep an eye on someone or something; to stand watch or keep vigil",
+    "es": "Vigilar, cuidar o guardar; mantener un ojo en alguien o algo, a menudo para protegerlo",
+    "fr": "Surveiller, garder ou veiller sur; garder un œil sur quelqu'un ou quelque chose, souvent pour le protéger",
+    "hi": "किसी की देखभाल करना, पहरा देना या निगरानी रखना; किसी की रखवाली करना",
+    "ja": "見張る、守る、または目を離さずにいる；番をしたり見守ったりする",
+    "km": "ប្រុងប្រយ័ត្ន ការពារ ឬសំឡឹងមើល; ប្រុងមើលនរណាម្នាក់ ឬអ្វីមួយ ជាញឹកញាប់ដើម្បីការពារ",
+    "ko": "지키다, 감시하다, 또는 주시하다; 누군가나 무언가를 보호하기 위해 감시하거나 경계하다",
+    "ne": "हेर्नु, पहरा दिनु वा ध्यान राख्नु; कसैलाई वा केहीलाई प्राय: सुरक्षाका लागि हेर्नु",
+    "pt": "Vigiar, guardar ou tomar conta; ficar de olho em alguém ou algo, muitas vezes para proteger",
+    "th": "เฝ้าดู คุ้มกัน หรือระวังรักษา; คอยดูแลหรือเฝ้าระวังใครบางคนหรือสิ่งใดสิ่งหนึ่ง",
+    "tl": "Bantayan, ingatan, o alagaan; subaybayan ang isang tao o bagay, kadalasan para sa proteksyon",
+    "ur": "نگرانی کرنا، پہرہ دینا یا دیکھ بھال کرنا؛ کسی کی یا کسی چیز کی حفاظت کے لیے نظر رکھنا",
+    "vi": "Canh gác, trông chừng, hoặc theo dõi; đứng gác hoặc trông coi ai đó hay thứ gì đó",
+    "zh": "看守、守护或监视；照看或看护某人或某物，通常是为了保护",
+    "zh_Hant": "看守、守護或監視；照看或看護某人或某物，通常是為了保護"
+  },
+  "definition_en": "To watch over, guard, or keep an eye on someone or something; to stand watch or keep vigil",
+  "romanization": "/fāo/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍເຝົ້າເດັກນ້ອຍໄວ້ກ່ອນໄດ້ບໍ່",
+      "romanization": "suai fao dek noi wai kon dai bo",
+      "translation_en": "Can you watch the little kid for a moment?"
+    },
+    {
+      "lao_script": "ຕ້ອງເຝົ້າເຮືອນໄວ້ ຢ່າໃຫ້ຄົນເຂົ້າ",
+      "romanization": "tong fao huan wai, ya hai khon khao",
+      "translation_en": "You have to guard the house, don't let anyone come in."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing guard with arms crossed in front of a house or building, looking alert and watchful, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເສບ",
+  "definitions": {
+    "de": "Konsumieren (Drogen, Alkohol); ein Instrument spielen; genießen (im Sinne von Konsum oder Ausübung)",
+    "en": "To consume (drugs, alcohol); to play a musical instrument; to indulge in (a substance or activity)",
+    "es": "Consumir (drogas, alcohol); tocar un instrumento musical; disfrutar de (una sustancia o actividad)",
+    "fr": "Consommer (drogues, alcool); jouer d'un instrument de musique; s'adonner à (une substance ou activité)",
+    "hi": "सेवन करना (नशीले पदार्थ, शराब); वाद्य यंत्र बजाना; किसी वस्तु या गतिविधि में लिप्त होना",
+    "ja": "（薬物・アルコールを）摂取する；楽器を演奏する；（物質や行為に）ふける",
+    "km": "ប្រើប្រាស់ (ថ្នាំញៀន ស្រា); លេងឧបករណ៍តន្ត្រី; ចូលជ្រៅក្នុង (សារធាតុ ឬសកម្មភាព)",
+    "ko": "(마약, 알코올을) 복용하다; 악기를 연주하다; (어떤 물질이나 행위에) 탐닉하다",
+    "ne": "सेवन गर्नु (लागुपदार्थ, रक्सी); वाद्ययन्त्र बजाउनु; (कुनै पदार्थ वा गतिविधिमा) लिप्त हुनु",
+    "pt": "Consumir (drogas, álcool); tocar um instrumento musical; entregar-se a (uma substância ou atividade)",
+    "th": "เสพ (ยาเสพติด, แอลกอฮอล์); เล่นดนตรี; หมกมุ่นอยู่กับ (สิ่งใดสิ่งหนึ่ง)",
+    "tl": "Kumonsumo (ng droga, alkohol); tumugtog ng instrumento; maglaro o magpahinga sa (isang aktibidad)",
+    "ur": "استعمال کرنا (منشیات، شراب)؛ موسیقی کا آلہ بجانا؛ کسی چیز میں مشغول ہونا",
+    "vi": "Sử dụng (ma túy, rượu); chơi nhạc cụ; đắm chìm vào (một chất hoặc hoạt động)",
+    "zh": "吸食（毒品、酒精）；演奏乐器；沉迷于（某种物质或活动）",
+    "zh_Hant": "吸食（毒品、酒精）；演奏樂器；沉迷於（某種物質或活動）"
+  },
+  "definition_en": "To consume (drugs, alcohol); to play a musical instrument; to indulge in (a substance or activity)",
+  "romanization": "/séːp˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວເສບດົນຕີເກັ່ງຫຼາຍ",
+      "romanization": "lao sep don-ti keng lai",
+      "translation_en": "They play music really well."
+    },
+    {
+      "lao_script": "ຢ່າເສບຢາເດັດຂາດ ມັນອັນຕະລາຍຫຼາຍ",
+      "romanization": "ya sep ya det-khat, man an-ta-lai lai",
+      "translation_en": "Absolutely don't do drugs – it's very dangerous."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: one showing a person happily playing a traditional musical instrument, and one showing a crossed-out symbol over a drug substance, clean white background, bold colors, minimalist educational style suitable for a language learning app."
+}

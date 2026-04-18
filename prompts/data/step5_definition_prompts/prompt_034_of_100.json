@@ -1,0 +1,396 @@
+{
+  "ແຮງ": {
+    "definitions": {
+      "de": "Kraft, Stärke; körperliche oder physische Energie",
+      "en": "Force, strength; physical power or energy",
+      "es": "Fuerza, fortaleza; energía o poder físico",
+      "fr": "Force, puissance ; énergie ou pouvoir physique",
+      "hi": "बल, शक्ति; शारीरिक ऊर्जा या ताकत",
+      "ja": "力、強さ；体力や物理的なエネルギー",
+      "km": "កម្លាំង, ភាពរឹងមាំ; ថាមពលរាងកាយ",
+      "ko": "힘, 강함; 신체적 에너지 또는 물리적인 힘",
+      "ne": "बल, शक्ति; शारीरिक ऊर्जा वा ताकत",
+      "pt": "Força, poder; energia física ou corporal",
+      "th": "แรง, พลัง; พลังงานหรือความแข็งแกร่งทางกาย",
+      "tl": "Lakas, puwersa; pisikal na enerhiya o kapangyarihan",
+      "ur": "طاقت، قوت؛ جسمانی توانائی یا طاقت",
+      "vi": "Sức mạnh, lực; năng lượng hoặc sức lực thể chất",
+      "zh": "力量，力气；体力或物理能量",
+      "zh_Hant": "力量，力氣；體力或物理能量"
+    },
+    "part_of_speech": "noun",
+    "romanization": "hɛ́ŋ",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນມີແຮງຫຼາຍ, ຍົກຂອງໜັກໄດ້ງ່າຍ",
+        "romanization": "phəən mii hɛ́ŋ lǎaj, nyók khɔ̌ŋ nàk dâj ŋâaj",
+        "translations": {
+          "de": "Er/Sie ist sehr stark und kann schwere Dinge leicht heben.",
+          "en": "He/She is very strong and can lift heavy things easily.",
+          "es": "Él/Ella es muy fuerte y puede levantar cosas pesadas fácilmente.",
+          "fr": "Il/Elle est très fort(e) et peut soulever des choses lourdes facilement.",
+          "hi": "वह बहुत शक्तिशाली है और भारी चीजें आसानी से उठा सकता/सकती है।",
+          "ja": "彼/彼女はとても力が強くて、重いものを簡単に持ち上げられる。",
+          "km": "គាត់មានកម្លាំងខ្លាំងណាស់ អាចលើកវត្ថុធ្ងន់បានយ៉ាងងាយ។",
+          "ko": "그/그녀는 힘이 매우 세서 무거운 것을 쉽게 들 수 있어.",
+          "ne": "उसँग धेरै बल छ, भारी सामान सजिलै उठाउन सक्छ।",
+          "pt": "Ele/Ela é muito forte e consegue levantar coisas pesadas com facilidade.",
+          "th": "เขา/เธอมีแรงมาก ยกของหนักได้ง่ายเลย",
+          "tl": "Napakalakas niya at madali niyang matataas ang mabibigat na bagay.",
+          "ur": "وہ بہت طاقتور ہے اور بھاری چیزیں آسانی سے اٹھا سکتا/سکتی ہے۔",
+          "vi": "Anh/chị ấy rất khỏe và có thể nhấc đồ nặng dễ dàng.",
+          "zh": "他/她力气很大，能轻松举起重东西。",
+          "zh_Hant": "他/她力氣很大，能輕鬆舉起重東西。"
+        },
+        "out_of_scope_words": [
+          "ຍົກ",
+          "ໜັກ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ບໍ່ມີແຮງເລີຍ, ເມື່ອຍຫຼາຍ",
+        "romanization": "mýy níi bɔ̀ mii hɛ́ŋ ləəj, mýaj lǎaj",
+        "translations": {
+          "de": "Heute habe ich überhaupt keine Kraft, ich bin sehr müde.",
+          "en": "Today I have no energy at all, I'm very tired.",
+          "es": "Hoy no tengo nada de energía, estoy muy cansado/a.",
+          "fr": "Aujourd'hui je n'ai aucune énergie, je suis très fatigué(e).",
+          "hi": "आज बिल्कुल ताकत नहीं है, बहुत थका हुआ/थकी हुई हूँ।",
+          "ja": "今日は全然力が出ない、とても疲れている。",
+          "km": "ថ្ងៃនេះគ្មានកម្លាំងសោះ អស់កម្លាំងណាស់។",
+          "ko": "오늘은 기운이 하나도 없어, 너무 피곤해.",
+          "ne": "आज बिल्कुल शक्ति छैन, धेरै थकित छु।",
+          "pt": "Hoje não tenho energia nenhuma, estou muito cansado/a.",
+          "th": "วันนี้ไม่มีแรงเลย เหนื่อยมาก",
+          "tl": "Wala akong lakas ngayon, pagod na pagod ako.",
+          "ur": "آج بالکل طاقت نہیں ہے، بہت تھکا/تھکی ہوا/ہوئی ہوں۔",
+          "vi": "Hôm nay không có sức chút nào, mệt lắm.",
+          "zh": "今天完全没有力气，很累。",
+          "zh_Hant": "今天完全沒有力氣，很累。"
+        },
+        "out_of_scope_words": [
+          "ເມື່ອຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a strong person flexing their muscles with energy lines radiating from their body, suitable for a language learning app, clean white background, colorful, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກິນ": {
+    "definitions": {
+      "de": "Essen; Nahrung zu sich nehmen",
+      "en": "To eat; to consume food",
+      "es": "Comer; consumir alimentos",
+      "fr": "Manger ; consommer de la nourriture",
+      "hi": "खाना; भोजन करना",
+      "ja": "食べる；食物を摂取する",
+      "km": "ញ៉ាំ; ទទួលទានអាហារ",
+      "ko": "먹다; 음식을 섭취하다",
+      "ne": "खानु; खाना खाने काम गर्नु",
+      "pt": "Comer; ingerir alimentos",
+      "th": "กิน; รับประทานอาหาร",
+      "tl": "Kumain; ang pagkain ng pagkain",
+      "ur": "کھانا کھانا؛ غذا استعمال کرنا",
+      "vi": "Ăn; tiêu thụ thức ăn",
+      "zh": "吃；摄入食物",
+      "zh_Hant": "吃；攝入食物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kin",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າກິນເຂົ້າແລ້ວບໍ?",
+        "romanization": "jâo kin khâo lɛ́ɛo bɔ̀?",
+        "translations": {
+          "de": "Hast du schon gegessen?",
+          "en": "Have you eaten yet?",
+          "es": "¿Ya comiste?",
+          "fr": "Tu as déjà mangé ?",
+          "hi": "क्या तुमने खाना खा लिया?",
+          "ja": "もうご飯食べた？",
+          "km": "អ្នកញ៉ាំបាយហើយឬនៅ?",
+          "ko": "밥 먹었어?",
+          "ne": "तिमीले खाना खाइसक्यौ?",
+          "pt": "Você já comeu?",
+          "th": "กินข้าวแล้วหรือยัง?",
+          "tl": "Kumain ka na ba?",
+          "ur": "کیا تم نے کھانا کھا لیا؟",
+          "vi": "Bạn ăn cơm chưa?",
+          "zh": "你吃饭了吗？",
+          "zh_Hant": "你吃飯了嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຫິວ, ໄປກິນນຳກັນເດີ້",
+        "romanization": "khɔ̂j hiw, paj kin nám kan dəə",
+        "translations": {
+          "de": "Ich bin hungrig, lass uns zusammen essen gehen.",
+          "en": "I'm hungry, let's go eat together.",
+          "es": "Tengo hambre, vamos a comer juntos.",
+          "fr": "J'ai faim, allons manger ensemble.",
+          "hi": "मुझे भूख लगी है, चलो साथ में खाने चलते हैं।",
+          "ja": "お腹すいた、一緒に食べに行こう。",
+          "km": "ខ្ញុំឃ្លាន ទៅញ៉ាំជាមួយគ្នាមកម៉ែ។",
+          "ko": "나 배고파, 같이 먹으러 가자.",
+          "ne": "मलाई भोक लागेको छ, सँगै खान जाऔं।",
+          "pt": "Estou com fome, vamos comer juntos.",
+          "th": "หิวแล้ว ไปกินด้วยกันเลยนะ",
+          "tl": "Gutom na ako, halika at kumain tayo nang magkasama.",
+          "ur": "مجھے بھوک لگی ہے، چلو ساتھ مل کر کھانے چلتے ہیں۔",
+          "vi": "Tôi đói rồi, đi ăn cùng nhau đi.",
+          "zh": "我饿了，一起去吃饭吧。",
+          "zh_Hant": "我餓了，一起去吃飯吧。"
+        },
+        "out_of_scope_words": [
+          "ຫິວ",
+          "ນຳກັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a happy person sitting at a table eating a bowl of rice with chopsticks, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຢາ": {
+    "definitions": {
+      "de": "Medizin, Arznei; ein Mittel zur Behandlung von Krankheiten",
+      "en": "Medicine, drug; a substance used to treat illness or pain",
+      "es": "Medicina, medicamento; sustancia usada para tratar enfermedades",
+      "fr": "Médicament, remède ; substance utilisée pour traiter une maladie",
+      "hi": "दवा, औषधि; बीमारी या दर्द के इलाज में उपयोग होने वाला पदार्थ",
+      "ja": "薬；病気や痛みを治療するために使われる物質",
+      "km": "ថ្នាំ; សារធាតុដែលប្រើព្យាបាលជំងឺ",
+      "ko": "약; 질병이나 통증을 치료하는 데 사용되는 물질",
+      "ne": "औषधि; रोग वा दुखाइको उपचारमा प्रयोग गरिने पदार्थ",
+      "pt": "Remédio, medicamento; substância usada para tratar doenças",
+      "th": "ยา; สารที่ใช้รักษาโรคหรืออาการเจ็บปวด",
+      "tl": "Gamot; substansyang ginagamit para gamutin ang sakit",
+      "ur": "دوا؛ بیماری یا درد کے علاج میں استعمال ہونے والا مادہ",
+      "vi": "Thuốc; chất dùng để điều trị bệnh hoặc đau",
+      "zh": "药；用于治疗疾病或疼痛的物质",
+      "zh_Hant": "藥；用於治療疾病或疼痛的物質"
+    },
+    "part_of_speech": "noun",
+    "romanization": "jâa",
+    "examples": [
+      {
+        "lao_script": "ຢ່າລືມກິນຢາດ້ວຍນະ",
+        "romanization": "jàa lýym kin jâa dûaj ná",
+        "translations": {
+          "de": "Vergiss nicht, deine Medizin einzunehmen.",
+          "en": "Don't forget to take your medicine.",
+          "es": "No olvides tomar tu medicina.",
+          "fr": "N'oublie pas de prendre tes médicaments.",
+          "hi": "दवा लेना मत भूलना।",
+          "ja": "薬を飲むのを忘れないでね。",
+          "km": "កុំភ្លេចញ៉ាំថ្នាំផង។",
+          "ko": "약 먹는 거 잊지 마.",
+          "ne": "औषधि खान नबिर्सनु नि।",
+          "pt": "Não se esqueça de tomar o remédio.",
+          "th": "อย่าลืมกินยาด้วยนะ",
+          "tl": "Huwag kalimutang uminom ng gamot.",
+          "ur": "دوا لینا مت بھولنا۔",
+          "vi": "Đừng quên uống thuốc nhé.",
+          "zh": "别忘了吃药哦。",
+          "zh_Hant": "別忘了吃藥喔。"
+        },
+        "out_of_scope_words": [
+          "ລືມ"
+        ]
+      },
+      {
+        "lao_script": "ຢາໝົດແລ້ວ, ຕ້ອງໄປຊື້ອີກ",
+        "romanization": "jâa mòt lɛ́ɛo, tɔ̂ŋ paj sýy ìik",
+        "translations": {
+          "de": "Die Medizin ist alle, ich muss mehr kaufen gehen.",
+          "en": "The medicine is all gone, I need to go buy more.",
+          "es": "Se acabó el medicamento, tengo que ir a comprar más.",
+          "fr": "Il n'y a plus de médicaments, je dois aller en acheter encore.",
+          "hi": "दवा खत्म हो गई, और खरीदने जाना होगा।",
+          "ja": "薬がなくなった、また買いに行かないといけない。",
+          "km": "ថ្នាំអស់ហើយ ត្រូវទៅទិញទៀត។",
+          "ko": "약이 다 떨어졌어, 더 사러 가야 해.",
+          "ne": "औषधि सकियो, थप किन्न जानुपर्छ।",
+          "pt": "O remédio acabou, preciso ir comprar mais.",
+          "th": "ยาหมดแล้ว ต้องไปซื้ออีก",
+          "tl": "Naubos na ang gamot, kailangan pumunta para bumili pa.",
+          "ur": "دوا ختم ہو گئی، مزید خریدنے جانا ہوگا۔",
+          "vi": "Thuốc hết rồi, phải đi mua thêm thôi.",
+          "zh": "药用完了，得去买更多。",
+          "zh_Hant": "藥用完了，得去買更多。"
+        },
+        "out_of_scope_words": [
+          "ໝົດ",
+          "ຊື້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of medicine tablets and a small prescription bottle with a red cross symbol, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບົດ": {
+    "definitions": {
+      "de": "Lektion, Unterrichtsstunde; auch Artikel oder Abschnitt in einem Text",
+      "en": "Lesson, chapter, or article; a unit of study or a written piece",
+      "es": "Lección, capítulo o artículo; unidad de estudio o texto escrito",
+      "fr": "Leçon, chapitre ou article ; unité d'étude ou texte écrit",
+      "hi": "पाठ, अध्याय या लेख; अध्ययन की इकाई या लिखित रचना",
+      "ja": "課、章、または記事；学習の単位または文章",
+      "km": "មេរៀន, ជំពូក ឬអត្ថបទ; ឯកតានៃការសិក្សា",
+      "ko": "과, 수업 단원 또는 기사; 학습 단위 또는 글",
+      "ne": "पाठ, अध्याय वा लेख; अध्ययनको एकाइ वा लिखित रचना",
+      "pt": "Lição, capítulo ou artigo; unidade de estudo ou texto escrito",
+      "th": "บท, บทเรียน หรือบทความ; หน่วยการเรียนหรืองานเขียน",
+      "tl": "Aralin, kabanata, o artikulo; yunit ng pag-aaral o sulatin",
+      "ur": "سبق، باب یا مضمون؛ مطالعے کی اکائی یا تحریری کام",
+      "vi": "Bài học, chương hoặc bài viết; đơn vị học tập hoặc tác phẩm viết",
+      "zh": "课、章节或文章；学习单元或书面作品",
+      "zh_Hant": "課、章節或文章；學習單元或書面作品"
+    },
+    "part_of_speech": "noun",
+    "romanization": "bòt",
+    "examples": [
+      {
+        "lao_script": "ວັນນີ້ຄູສອນບົດທີສາມ",
+        "romanization": "wán níi khúu sɔ̌ɔn bòt thîi sǎam",
+        "translations": {
+          "de": "Heute unterrichtet der Lehrer Lektion drei.",
+          "en": "Today the teacher is teaching lesson three.",
+          "es": "Hoy el maestro enseña la lección tres.",
+          "fr": "Aujourd'hui le professeur enseigne la leçon trois.",
+          "hi": "आज शिक्षक तीसरा पाठ पढ़ा रहे हैं।",
+          "ja": "今日先生は第三課を教えている。",
+          "km": "ថ្ងៃនេះគ្រូបង្រៀនមេរៀនទីបី។",
+          "ko": "오늘 선생님이 세 번째 단원을 가르쳐.",
+          "ne": "आज शिक्षकले तेस्रो पाठ पढाउनुहुन्छ।",
+          "pt": "Hoje o professor está ensinando a lição três.",
+          "th": "วันนี้ครูสอนบทที่สาม",
+          "tl": "Ngayon ang guro ay nagtuturo ng ikatlong aralin.",
+          "ur": "آج استاد تیسرا سبق پڑھا رہے ہیں۔",
+          "vi": "Hôm nay thầy/cô dạy bài thứ ba.",
+          "zh": "今天老师教第三课。",
+          "zh_Hant": "今天老師教第三課。"
+        },
+        "out_of_scope_words": [
+          "ຄູ",
+          "ສອນ",
+          "ທີສາມ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າອ່ານບົດນີ້ແລ້ວບໍ, ມັນໜ້າສົນໃຈຫຼາຍ",
+        "romanization": "jâo àan bòt níi lɛ́ɛo bɔ̀, mán nâa sǒnjai lǎaj",
+        "translations": {
+          "de": "Hast du diesen Artikel schon gelesen? Er ist sehr interessant.",
+          "en": "Have you read this article yet? It's very interesting.",
+          "es": "¿Ya leíste este artículo? Es muy interesante.",
+          "fr": "Tu as déjà lu cet article ? Il est très intéressant.",
+          "hi": "क्या तुमने यह लेख पढ़ा? यह बहुत रोचक है।",
+          "ja": "もうこの記事読んだ？すごく面白いよ。",
+          "km": "អ្នកបានអានអត្ថបទនេះហើយឬនៅ? វាគួរឱ្យចាប់អារម្មណ៍ណាស់។",
+          "ko": "이 글 읽었어? 정말 흥미롭다.",
+          "ne": "के तिमीले यो लेख पढिसक्यौ? यो धेरै रोचक छ।",
+          "pt": "Você já leu este artigo? É muito interessante.",
+          "th": "อ่านบทนี้แล้วหรือยัง? น่าสนใจมากเลย",
+          "tl": "Nabasa mo na ba ang artikulong ito? Napaka-interesting nito.",
+          "ur": "کیا تم نے یہ مضمون پڑھا؟ یہ بہت دلچسپ ہے۔",
+          "vi": "Bạn đọc bài này chưa? Hay lắm đó.",
+          "zh": "你读过这篇文章了吗？很有意思。",
+          "zh_Hant": "你讀過這篇文章了嗎？很有意思。"
+        },
+        "out_of_scope_words": [
+          "ອ່ານ",
+          "ໜ້າສົນໃຈ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open textbook showing a numbered lesson page with a few lines of text and a small illustration inside it, suitable for a language learning app, clean white background, colorful, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສາຍ": {
+    "definitions": {
+      "de": "Spät am Morgen (ca. 9–11 Uhr); auch: Linie, Streifen oder Schnur",
+      "en": "Late morning (approximately 9–11 a.m.); also can mean a line, string, or stripe",
+      "es": "Mañana tardía (aproximadamente de 9 a 11 a.m.); también puede significar línea, cuerda o franja",
+      "fr": "Fin de matinée (environ 9h–11h) ; peut aussi signifier une ligne, une corde ou une rayure",
+      "hi": "देर सुबह (लगभग 9–11 बजे); इसका अर्थ रेखा, धागा या पट्टी भी हो सकता है",
+      "ja": "遅い午前（午前9時〜11時頃）；また、線、紐、縞模様を意味することもある",
+      "km": "ពេលព្រឹកយឺត (ប្រហែល ៩ ដល់ ១១ ព្រឹក); ក៏អាចមានន័យថា បន្ទាត់ ខ្សែ ឬបន្ទះ",
+      "ko": "늦은 오전 (대략 오전 9~11시); 선, 줄, 또는 줄무늬를 의미하기도 함",
+      "ne": "बिहानको ढिलो समय (लगभग ९–११ बजे); रेखा, धागो वा पट्टीको अर्थ पनि हुन सक्छ",
+      "pt": "Final da manhã (aproximadamente 9–11 da manhã); também pode significar linha, corda ou faixa",
+      "th": "สาย (ช่วงเช้าสาย ประมาณ 9-11 โมง); ยังหมายถึงเส้น เชือก หรือแถบได้ด้วย",
+      "tl": "Huling umaga (mga 9–11 ng umaga); maaari ring mangahulugang linya, sinulid, o guhit",
+      "ur": "دیر صبح (تقریباً صبح 9 سے 11 بجے)؛ لکیر، ڈوری یا دھاری کے معنی بھی ہو سکتے ہیں",
+      "vi": "Buổi sáng muộn (khoảng 9–11 giờ sáng); cũng có thể có nghĩa là đường thẳng, dây, hoặc sọc",
+      "zh": "上午较晚的时段（大约上午9至11点）；也可以指线条、绳子或条纹",
+      "zh_Hant": "上午較晚的時段（大約上午9至11點）；也可以指線條、繩子或條紋"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sǎaj",
+    "examples": [
+      {
+        "lao_script": "ຕື່ນສາຍ, ໄປຮຮຮຮຮຮຮຮ ຮຮ ບໍ່ທັນກິນເຂົ້າເຊົ້າ",
+        "romanization": "tʉ̀ʉn sǎaj, bɔ̀ than kin khâo sâo",
+        "translations": {
+          "de": "Zu spät aufgestanden, hatte keine Zeit, Frühstück zu essen.",
+          "en": "Woke up late in the morning, didn't have time to eat breakfast.",
+          "es": "Me desperté tarde en la mañana, no tuve tiempo de desayunar.",
+          "fr": "Réveillé(e) tard le matin, je n'ai pas eu le temps de prendre le petit-déjeuner.",
+          "hi": "सुबह देर से उठा/उठी, नाश्ता करने का समय नहीं मिला।",
+          "ja": "朝寝坊して、朝ごはんを食べる時間がなかった。",
+          "km": "ភ្ញាក់ដំណេកយឺត មិនទាន់ញ៉ាំបាយព្រឹកទេ។",
+          "ko": "늦게 일어나서 아침 밥 먹을 시간이 없었어.",
+          "ne": "बिहान ढिलो उठेँ, बिहानको खाजा खाने समय भएन।",
+          "pt": "Acordei tarde, não tive tempo de tomar café da manhã.",
+          "th": "ตื่นสาย ไม่ทันกินข้าวเช้าเลย",
+          "tl": "Nagising nang maaga sa umaga, wala akong panahon para kumain ng almusal.",
+          "ur": "صبح دیر سے اٹھا/اٹھی، ناشتہ کرنے کا وقت نہیں ملا۔",
+          "vi": "Thức dậy muộn, không kịp ăn sáng.",
+          "zh": "起床晚了，来不及吃早饭。",
+          "zh_Hant": "起床晚了，來不及吃早飯。"
+        },
+        "out_of_scope_words": [
+          "ຕື່ນ",
+          "ທັນ",
+          "ເຂົ້າເຊົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ສາຍໆ ແລ້ວ, ລຸກໄປອາບນໍ້າໄດ້ແລ້ວ",
+        "romanization": "sǎaj sǎaj lɛ́ɛo, lúk paj àap nám dâaj lɛ́ɛo",
+        "translations": {
+          "de": "Es ist schon spät am Morgen, du kannst jetzt aufstehen und duschen.",
+          "en": "It's already late morning, you can get up and take a shower now.",
+          "es": "Ya es tarde en la mañana, ya puedes levantarte a ducharte.",
+          "fr": "C'est déjà la fin de matinée, tu peux te lever et aller te doucher.",
+          "hi": "सुबह काफी हो गई है, अब उठकर नहा सकते हो।",
+          "ja": "もう遅い朝だよ、起きてシャワーを浴びていいよ。",
+          "km": "ព្រឹកយឺតហើយ អាចក្រោកទៅងូតទឹកបានហើយ។",
+          "ko": "벌써 늦은 아침이야, 이제 일어나서 샤워해도 돼.",
+          "ne": "बिहान धेरै भइसक्यो, अब उठेर नुहाउन सकिन्छ।",
+          "pt": "Já é tarde da manhã, você pode se levantar e tomar banho agora.",
+          "th": "สายแล้ว ลุกไปอาบน้ำได้แล้ว",
+          "tl": "Hapon na, pwede ka nang bumangon at maligo.",
+          "ur": "صبح کافی ہو گئی ہے، اب اٹھ کر نہا سکتے ہو۔",
+          "vi": "Đã muộn buổi sáng rồi, dậy đi tắm được rồi đó.",
+          "zh": "早上已经很晚了，可以起来洗澡了。",
+          "zh_Hant": "早上已經很晚了，可以起來洗澡了。"
+        },
+        "out_of_scope_words": [
+          "ລຸກ",
+          "ອາບນໍ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clock showing 10 o'clock in the morning with soft morning sunlight coming through a window, a person just waking up stretching in bed, suitable for a language learning app, clean white background, warm colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

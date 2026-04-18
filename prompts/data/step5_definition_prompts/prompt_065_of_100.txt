@@ -1,0 +1,180 @@
+You are a Lao language expert preparing vocabulary for a language learning app. For each of the 5 Lao words below, provide detailed information in ALL 16 supported locales, plus an image generation prompt.
+
+## Supported Locales:
+- `de` (German)
+- `en` (English)
+- `es` (Spanish)
+- `fr` (French)
+- `hi` (Hindi)
+- `ja` (Japanese)
+- `km` (Khmer)
+- `ko` (Korean)
+- `ne` (Nepali)
+- `pt` (Portuguese)
+- `th` (Thai)
+- `tl` (Tagalog)
+- `ur` (Urdu)
+- `vi` (Vietnamese)
+- `zh` (Chinese (Simplified))
+- `zh_Hant` (Chinese (Traditional))
+
+## For each word, provide:
+
+### 1. DEFINITIONS (in ALL 16 locales)
+```json
+"definitions": {
+    "de": "...",
+    "en": "...",
+    "es": "...",
+    "fr": "...",
+    "hi": "...",
+    "ja": "...",
+    "km": "...",
+    "ko": "...",
+    "ne": "...",
+    "pt": "...",
+    "th": "...",
+    "tl": "...",
+    "ur": "...",
+    "vi": "...",
+    "zh": "...",
+    "zh_Hant": "...",
+}
+```
+
+### 2. PART OF SPEECH
+```json
+"part_of_speech": "noun|verb|adjective|particle|classifier|pronoun|conjunction|adverb"
+```
+
+### 3. ROMANIZATION (IPA)
+```json
+"romanization": "..."
+```
+
+### 4. TWO EXAMPLE SENTENCES in informal spoken Lao
+Each example includes Lao script, romanization, AND translations in ALL 16 locales:
+```json
+"examples": [
+  {
+    "lao_script": "...",
+    "romanization": "...",
+    "translations": {
+      "de": "...",
+      "en": "...",
+      "es": "...",
+      "fr": "...",
+      "hi": "...",
+      "ja": "...",
+      "km": "...",
+      "ko": "...",
+      "ne": "...",
+      "pt": "...",
+      "th": "...",
+      "tl": "...",
+      "ur": "...",
+      "vi": "...",
+      "zh": "...",
+      "zh_Hant": "...",
+    },
+    "out_of_scope_words": ["..."]
+  },
+  {
+    "lao_script": "...",
+    "romanization": "...",
+    "translations": {
+      "de": "...",
+      "en": "...",
+      "es": "...",
+      "fr": "...",
+      "hi": "...",
+      "ja": "...",
+      "km": "...",
+      "ko": "...",
+      "ne": "...",
+      "pt": "...",
+      "th": "...",
+      "tl": "...",
+      "ur": "...",
+      "vi": "...",
+      "zh": "...",
+      "zh_Hant": "...",
+    },
+    "out_of_scope_words": ["..."]
+  }
+]
+```
+
+### 5. IMAGE PROMPT
+Write a prompt for an AI image generator (like DALL-E, Midjourney, Stable Diffusion) that creates a clear, simple illustration of the word's meaning.
+
+Guidelines:
+- Write in English for best image generation results
+- Keep it simple and clear - suitable for language learning
+- Include relevant context (e.g., "a smiling woman" not just "woman")
+- Use style descriptors: "flat illustration", "simple cartoon", "minimalist design"
+- Avoid complex scenes or text in the image
+- Maximum 2-3 sentences
+```json
+"image_prompt": "A simple flat illustration of [concept], suitable for a language learning app, clean white background, colorful, minimalist style"
+```
+
+### 6. REGISTER FLAG
+```json
+"register": "everyday|polite|formal|slang"
+```
+
+### 7. CONFIDENCE
+```json
+"confidence": "high|medium|low"
+```
+
+## OUTPUT FORMAT
+Return as JSON with the Lao word as the key:
+```json
+{
+  "WORD": {
+    "definitions": {
+    "de": "...",
+    "en": "...",
+    "es": "...",
+    "fr": "...",
+    "hi": "...",
+    "ja": "...",
+    "km": "...",
+    "ko": "...",
+    "ne": "...",
+    "pt": "...",
+    "th": "...",
+    "tl": "...",
+    "ur": "...",
+    "vi": "...",
+    "zh": "...",
+    "zh_Hant": "...",
+    },
+    "part_of_speech": "...",
+    "romanization": "...",
+    "examples": [...],
+    "image_prompt": "...",
+    "register": "...",
+    "confidence": "..."
+  }
+}
+```
+
+## IMPORTANT:
+- Write ALL definitions in ALL 16 locales (de, en, es, fr, hi, ja, km, ko, ne, pt, th, tl, ur, vi, zh, zh_Hant)
+- Write ALL example sentence translations in ALL 16 locales
+- Flag any words in examples that are NOT in our 500-word vocabulary list with "out_of_scope_words": ["WORD"]
+- Keep Lao script examples in informal/spoken register
+- Use natural, conversational translations appropriate for each language
+- Image prompts should be clear, simple, and suitable for educational use
+
+---
+
+Words to define:
+- ເນ (content) — Syllable fragment — limited standalone use
+- ເນື້ອ (content) — Meat/flesh — essential food noun
+- ຄຽງ (content) — Beside/side by side — positional word
+- ຊອກ (content) — Look for — spoken verb
+- ຕ້ານ (content) — Oppose/resist — useful verb

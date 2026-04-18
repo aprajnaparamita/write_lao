@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກາງ",
+  "definitions": {
+    "de": "Mitte / Zentrum – der mittlere Punkt oder Bereich zwischen zwei Seiten",
+    "en": "Middle / center – the midpoint or central area between two sides",
+    "es": "Medio / centro – el punto central entre dos lados",
+    "fr": "Milieu / centre – le point ou la zone centrale entre deux côtés",
+    "hi": "बीच / केंद्र – दो ओर के बीच का मध्य बिंदु या क्षेत्र",
+    "ja": "真ん中・中央 – 二つの側の間の中間点または中心部分",
+    "km": "កណ្តាល – ចំណុច ឬតំបន់នៅចន្លោះពីរផ្នែក",
+    "ko": "가운데 / 중간 – 두 쪽 사이의 중간 지점 또는 중심부",
+    "ne": "बीच / केन्द्र – दुई पक्षको बीचको मध्यबिन्दु वा क्षेत्र",
+    "pt": "Meio / centro – o ponto ou área central entre dois lados",
+    "th": "กลาง – จุดหรือบริเวณตรงกลางระหว่างสองด้าน",
+    "tl": "Gitna / sentro – ang gitnang punto o lugar sa pagitan ng dalawang bahagi",
+    "ur": "درمیان / مرکز – دو طرف کے بیچ کا نقطہ یا علاقہ",
+    "vi": "Giữa / trung tâm – điểm hoặc khu vực ở giữa hai phía",
+    "zh": "中间 / 中央 – 两侧之间的中间点或区域",
+    "zh_Hant": "中間 / 中央 – 兩側之間的中間點或區域"
+  },
+  "definition_en": "Middle / center – the midpoint or central area between two sides",
+  "romanization": "/kaːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ນັ່ງກາງຫ້ອງເລີຍ",
+      "romanization": "nang kaang hong loei",
+      "translation_en": "Just sit in the middle of the room."
+    },
+    {
+      "lao_script": "ໂຮງຮຽນຢູ່ກາງເມືອງ",
+      "romanization": "hong hian yuu kaang mueang",
+      "translation_en": "The school is in the center of the city."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a red dot placed exactly in the center of a circle or grid, with arrows pointing to the middle, clean white background, bright colors, minimalist style for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕ່າງ",
+  "definitions": {
+    "de": "Unterschiedlich; nicht gleich; anders als etwas anderes",
+    "en": "Different; not the same; distinct from something else",
+    "es": "Diferente; distinto; no igual a otra cosa",
+    "fr": "Différent; distinct; qui n'est pas pareil à autre chose",
+    "hi": "अलग; भिन्न; किसी और चीज़ से असमान",
+    "ja": "違う；異なる；別のものと同じではない",
+    "km": "ខុសគ្នា; មិនដូចគ្នា; មានភាពខុសប្លែកពីអ្វីផ្សេង",
+    "ko": "다른; 같지 않은; 다른 것과 구별되는",
+    "ne": "फरक; भिन्न; अर्को कुराभन्दा असमान",
+    "pt": "Diferente; distinto; não igual a outra coisa",
+    "th": "ต่าง; แตกต่าง; ไม่เหมือนกัน",
+    "tl": "Iba; hindi pareho; naiiba mula sa iba pang bagay",
+    "ur": "مختلف؛ الگ؛ کسی اور چیز سے غیر مماثل",
+    "vi": "Khác; không giống nhau; phân biệt với thứ khác",
+    "zh": "不同；有差异；与其他事物不一样",
+    "zh_Hant": "不同；有差異；與其他事物不一樣"
+  },
+  "definition_en": "Different; not the same; distinct from something else",
+  "romanization": "tàng",
+  "lao_examples": [
+    {
+      "lao_script": "ສີຂອງເສື້ອສອງໂຕນີ້ຕ່າງກັນຫຼາຍ",
+      "romanization": "sii khong suea song to nii tang kan laai",
+      "translation_en": "The colors of these two shirts are very different."
+    },
+    {
+      "lao_script": "ຄົນລາວກັບຄົນໄທເວົ້າພາສາຕ່າງກັນ",
+      "romanization": "khon Lao kap khon Thai wao pha-saa tang kan",
+      "translation_en": "Lao people and Thai people speak different languages."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two objects side by side (such as a red apple and a green pear) with a 'not equal' or contrast symbol between them, clean white background, colorful minimalist style suitable for a language learning app."
+}

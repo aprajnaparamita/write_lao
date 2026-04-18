@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລີ",
+  "definitions": {
+    "de": "Eine Silbe, die hauptsächlich in laotischen Eigennamen vorkommt; hat keine eigenständige Standardbedeutung im Alltag.",
+    "en": "A syllable primarily found in Lao personal names; has no common standalone meaning in everyday usage.",
+    "es": "Una sílaba que aparece principalmente en nombres propios laosianos; no tiene un significado independiente común en el uso cotidiano.",
+    "fr": "Une syllabe que l'on trouve principalement dans les noms propres laotiens ; n'a pas de signification autonome courante dans l'usage quotidien.",
+    "hi": "एक शब्दांश जो मुख्यतः लाओ व्यक्तिवाचक नामों में पाया जाता है; दैनिक उपयोग में इसका कोई सामान्य स्वतंत्र अर्थ नहीं है।",
+    "ja": "主にラオス人の人名に見られる音節。日常的な単独使用での一般的な意味はない。",
+    "km": "ព្យាង្គដែលត្រូវបានប្រើជាចម្បងក្នុងឈ្មោះបុគ្គលភាសាឡាវ; គ្មានន័យឯករាជ្យទូទៅក្នុងការប្រើប្រាស់ប្រចាំថ្ងៃ។",
+    "ko": "주로 라오스 인명에 사용되는 음절로, 일상적인 단독 사용에서는 일반적인 독립적 의미가 없다.",
+    "ne": "मुख्यतः लाओ व्यक्तिवाचक नामहरूमा पाइने एउटा शब्दांश; दैनिक प्रयोगमा यसको कुनै सामान्य स्वतन्त्र अर्थ छैन।",
+    "pt": "Uma sílaba encontrada principalmente em nomes próprios laocianos; não tem um significado independente comum no uso cotidiano.",
+    "th": "พยางค์ที่พบส่วนใหญ่ในชื่อบุคคลชาวลาว ไม่มีความหมายที่ใช้โดยลำพังในชีวิตประจำวัน",
+    "tl": "Isang pantig na pangunahing makikita sa mga personal na pangalan ng mga Lao; walang karaniwang independyenteng kahulugan sa pang-araw-araw na paggamit.",
+    "ur": "ایک حرف جو بنیادی طور پر لاؤ ناموں میں پایا جاتا ہے؛ روزمرہ استعمال میں اس کا کوئی عام آزادانہ معنی نہیں ہے۔",
+    "vi": "Một âm tiết chủ yếu xuất hiện trong tên riêng của người Lào; không có nghĩa độc lập phổ biến trong sử dụng hàng ngày.",
+    "zh": "主要出现在老挝人名中的一个音节，在日常使用中没有常见的独立含义。",
+    "zh_Hant": "主要出現在寮國人名中的一個音節，在日常使用中沒有常見的獨立含義。"
+  },
+  "definition_en": "A syllable primarily found in Lao personal names; has no common standalone meaning in everyday usage.",
+  "romanization": "liː³³",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂອງຂ້ອຍຊື່ ລີ, ລາວໃຈດີຫຼາຍ.",
+      "romanization": "phʉan khɔng khɔj sʉː liː, laːw tɕaj diː laːj",
+      "translation_en": "My friend's name is Li, she is very kind."
+    },
+    {
+      "lao_script": "ລີ ເປັນຊື່ທີ່ຄົນລາວຊອບໃຊ້ຫຼາຍ.",
+      "romanization": "liː pen sʉː thiː khon laːw sɔːp saːj laːj",
+      "translation_en": "Li is a name that Lao people use very often."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or badge with the name 'Li' written on it, decorated with a small Lao-style floral motif, clean white background, colorful pastel colors, minimalist style suitable for a language learning app."
+}

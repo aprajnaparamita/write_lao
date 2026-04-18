@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖາ",
+  "definitions": {
+    "de": "Präfixsilbe, die in zusammengesetzten Wörtern verwendet wird, oft um Fragen oder Bedingungen einzuleiten (z. B. ຖາມ – fragen, ຖ້າ – wenn/falls)",
+    "en": "A prefix syllable used in compound words, often introducing questions or conditions (e.g., ຖາມ – to ask, ຖ້າ – if/wait)",
+    "es": "Sílaba prefija usada en palabras compuestas, que a menudo introduce preguntas o condiciones (p. ej., ຖາມ – preguntar, ຖ້າ – si/esperar)",
+    "fr": "Syllabe préfixe utilisée dans les mots composés, introduisant souvent des questions ou des conditions (ex. : ຖາມ – demander, ຖ້າ – si/attendre)",
+    "hi": "एक उपसर्ग अक्षर जो यौगिक शब्दों में प्रयुक्त होता है, अक्सर प्रश्न या शर्त को व्यक्त करता है (जैसे ຖາມ – पूछना, ຖ້າ – अगर/इंतजार करना)",
+    "ja": "複合語に使われる接頭音節で、質問や条件を導入することが多い（例：ຖາມ – 尋ねる、ຖ້າ – もし/待つ）",
+    "km": "ព្យាង្គបុព្វបទដែលប្រើក្នុងពាក្យផ្សំ ជារឿយៗណែនាំសំណួរ ឬលក្ខខណ្ឌ (ឧ. ຖາມ – សួរ, ຖ້າ – បើ/រង់ចាំ)",
+    "ko": "복합어에 사용되는 접두 음절로, 종종 질문이나 조건을 나타낼 때 씀 (예: ຖາມ – 묻다, ຖ້າ – 만약/기다리다)",
+    "ne": "यौगिक शब्दहरूमा प्रयोग हुने उपसर्ग अक्षर, प्रायः प्रश्न वा सर्त बुझाउँछ (जस्तै ຖາມ – सोध्नु, ຖ້າ – यदि/पर्खनु)",
+    "pt": "Sílaba prefixo usada em palavras compostas, frequentemente introduzindo perguntas ou condições (ex.: ຖາມ – perguntar, ຖ້າ – se/esperar)",
+    "th": "พยางค์นำที่ใช้ในคำประสม มักนำหน้าคำถามหรือเงื่อนไข (เช่น ຖາມ – ถาม, ຖ້າ – ถ้า/รอ)",
+    "tl": "Isang prefix na pantig na ginagamit sa mga tambalang salita, madalas na nagpapakilala ng mga tanong o kondisyon (hal., ຖາມ – magtanong, ຖ້າ – kung/maghintay)",
+    "ur": "ایک سابقہ حرف جو مرکب الفاظ میں استعمال ہوتا ہے، اکثر سوالات یا شرائط متعارف کراتا ہے (مثلاً ຖາມ – پوچھنا، ຖ້າ – اگر/انتظار کرنا)",
+    "vi": "Âm tiết tiền tố dùng trong các từ ghép, thường mở đầu cho câu hỏi hoặc điều kiện (ví dụ: ຖາມ – hỏi, ຖ້າ – nếu/chờ)",
+    "zh": "用于复合词的前缀音节，常用于引入疑问或条件（如 ຖາມ – 问，ຖ້າ – 如果/等待）",
+    "zh_Hant": "用於複合詞的前綴音節，常用於引入疑問或條件（如 ຖາມ – 問，ຖ້າ – 如果/等待）"
+  },
+  "definition_en": "A prefix syllable used in compound words, often introducing questions or conditions (e.g., ຖາມ – to ask, ຖ້າ – if/wait)",
+  "romanization": "tʰaː³³",
+  "lao_examples": [
+    {
+      "lao_script": "ຖາມເພິ່ນກ່ອນເດີ້ ຖ້າບໍ່ຮູ້",
+      "romanization": "tʰaam pʰɤn kɔːn deː, tʰaː bɔː huː",
+      "translation_en": "Ask them first if you don't know."
+    },
+    {
+      "lao_script": "ຖ້າມື້ອື່ນຝົນຕົກ ເຮົາບໍ່ໄປ",
+      "romanization": "tʰaː mɯː ɯːn fon tok, hao bɔː pai",
+      "translation_en": "If it rains tomorrow, we won't go."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a speech bubble with a question mark inside, next to a branching path indicating a choice or condition, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

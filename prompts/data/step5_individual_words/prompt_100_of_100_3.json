@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດົມ",
+  "definitions": {
+    "de": "An etwas riechen oder schnüffeln; den Geruch von etwas wahrnehmen",
+    "en": "To smell or sniff something; to perceive the scent of something using the nose",
+    "es": "Oler o olfatear algo; percibir el aroma de algo con la nariz",
+    "fr": "Sentir ou renifler quelque chose; percevoir l'odeur de quelque chose avec le nez",
+    "hi": "किसी चीज़ को सूंघना; नाक से किसी चीज़ की गंध को महसूस करना",
+    "ja": "何かにおいをかぐ、または嗅ぐ；鼻で何かの香りを感じる",
+    "km": "ស្ដាប់ក្លិន ឬស្ទុះក្លិនអ្វីមួយ; ដឹងពីក្លិនរបស់អ្វីមួយតាមច្រមុះ",
+    "ko": "무언가 냄새를 맡다 또는 코로 킁킁거리다; 코로 냄새를 감지하다",
+    "ne": "केही चीजको गन्ध लिनु वा सुँघ्नु; नाकले गन्ध महसुस गर्नु",
+    "pt": "Cheirar ou farejar algo; perceber o aroma de algo com o nariz",
+    "th": "ดม; สูดกลิ่นหรือสูดอากาศเพื่อรับรู้กลิ่นของบางสิ่ง",
+    "tl": "Amuin o ngimutin ang isang bagay; maramdaman ang amoy ng isang bagay gamit ang ilong",
+    "ur": "کسی چیز کو سونگھنا؛ ناک سے کسی چیز کی خوشبو یا بدبو محسوس کرنا",
+    "vi": "Ngửi hoặc hít hương thơm của thứ gì đó; cảm nhận mùi của thứ gì đó bằng mũi",
+    "zh": "闻或嗅某物；用鼻子感知某物的气味",
+    "zh_Hant": "聞或嗅某物；用鼻子感知某物的氣味"
+  },
+  "definition_en": "To smell or sniff something; to perceive the scent of something using the nose",
+  "romanization": "/dom/",
+  "lao_examples": [
+    {
+      "lao_script": "ດົມເບິ່ງ! ດອກໄມ້ນີ້ຫອມຫຼາຍ",
+      "romanization": "dom boeng! dok maai ni hom laai",
+      "translation_en": "Smell this! This flower smells really nice"
+    },
+    {
+      "lao_script": "ດົມນ້ຳນີ້ກ່ອນ ຂ້ອຍຢ້ານວ່າມັນເນົ່າແລ້ວ",
+      "romanization": "dom nam ni gon, khoi yaang waa man nao laeo",
+      "translation_en": "Smell this milk first, I'm afraid it's already gone bad"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person leaning in to smell a blooming flower, with small wavy scent lines rising from the flower to indicate aroma, clean white background, bright cheerful colors, minimalist style suitable for a language learning app."
+}

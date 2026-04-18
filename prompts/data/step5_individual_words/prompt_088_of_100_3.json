@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈໍ",
+  "definitions": {
+    "de": "Bildschirm, Monitor; eine flache Anzeigefläche eines elektronischen Geräts wie eines Computers, Fernsehers oder Smartphones",
+    "en": "Screen, monitor, display; the flat visual display surface of an electronic device such as a computer, television, or smartphone",
+    "es": "Pantalla, monitor, visualizador; la superficie de visualización plana de un dispositivo electrónico como una computadora, televisión o teléfono inteligente",
+    "fr": "Écran, moniteur, affichage; la surface d'affichage plate d'un appareil électronique tel qu'un ordinateur, une télévision ou un smartphone",
+    "hi": "स्क्रीन, मॉनीटर, डिस्प्ले; कंप्यूटर, टेलीविजन या स्मार्टफोन जैसे इलेक्ट्रॉनिक उपकरण की सपाट दृश्य प्रदर्शन सतह",
+    "ja": "スクリーン、モニター、ディスプレイ；コンピューター、テレビ、スマートフォンなどの電子機器の平らな映像表示面",
+    "km": "អេក្រង់ ម៉ូនីទ័រ ឧបករណ៍បង្ហាញ; ផ្ទៃបង្ហាញព័ត៌មានរបស់ឧបករណ៍អេឡិចត្រូនិចដូចជាកុំព្យូទ័រ ទូរទស្សន៍ ឬស្មាតហ្វូន",
+    "ko": "화면, 모니터, 디스플레이; 컴퓨터, 텔레비전, 스마트폰 등 전자 기기의 평평한 시각적 표시 화면",
+    "ne": "स्क्रिन, मनिटर, डिस्प्ले; कम्प्युटर, टेलिभिजन वा स्मार्टफोन जस्ता इलेक्ट्रोनिक उपकरणको सपाट दृश्य प्रदर्शन सतह",
+    "pt": "Tela, monitor, display; a superfície de exibição plana de um dispositivo eletrônico como computador, televisão ou smartphone",
+    "th": "หน้าจอ จอมอนิเตอร์ จอแสดงผล; พื้นผิวแสดงภาพแบบแบนของอุปกรณ์อิเล็กทรอนิกส์ เช่น คอมพิวเตอร์ โทรทัศน์ หรือสมาร์ทโฟน",
+    "tl": "Screen, monitor, display; ang patag na visual na ibabaw ng isang elektronikong aparato tulad ng computer, telebisyon, o smartphone",
+    "ur": "اسکرین، مانیٹر، ڈسپلے؛ کمپیوٹر، ٹیلی ویژن یا اسمارٹ فون جیسے الیکٹرانک آلے کی چپٹی بصری ڈسپلے سطح",
+    "vi": "Màn hình, màn hiển thị; bề mặt hiển thị hình ảnh phẳng của một thiết bị điện tử như máy tính, tivi hoặc điện thoại thông minh",
+    "zh": "屏幕、显示器；电脑、电视或智能手机等电子设备的平面视觉显示界面",
+    "zh_Hant": "螢幕、顯示器；電腦、電視或智慧型手機等電子設備的平面視覺顯示介面"
+  },
+  "definition_en": "Screen, monitor, display; the flat visual display surface of an electronic device such as a computer, television, or smartphone",
+  "romanization": "tɕɔ̄ː",
+  "lao_examples": [
+    {
+      "lao_script": "ຈໍຄອມຂອງຂ້ອຍແຕກແລ້ວ ຕ້ອງໄປຊ່ອມ",
+      "romanization": "tɕɔ̄ː khɔ̂m khɔ̌ːŋ khɔ̑j tɛ̀ːk lɛ́ːw tɔ̂ŋ pāj sɔ̂ːm",
+      "translation_en": "My computer screen is broken, I need to go get it fixed"
+    },
+    {
+      "lao_script": "ຈໍໂທລະສັບຂອງລາວໃຫຍ່ຫຼາຍ ເບິ່ງວິດີໂອສະບາຍດີ",
+      "romanization": "tɕɔ̄ː tʰōː lá sáp khɔ̌ːŋ láːw ɲàj lǎːj bɤ̄ŋ wí díː ōː sā bāːj dîː",
+      "translation_en": "Their phone screen is very big, watching videos is comfortable"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a computer monitor or smartphone displaying a bright colorful screen, clean white background, glowing display, minimalist cartoon style suitable for a language learning app"
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄປ",
+  "definitions": {
+    "de": "gehen; sich bewegen; (nach Verb) weg (direktionaler Marker)",
+    "en": "to go; to move; (after verb) away (directional marker)",
+    "es": "ir; moverse; (tras verbo) alejarse (marcador direccional)",
+    "fr": "aller; se déplacer; (après un verbe) s'éloigner (marqueur directionnel)",
+    "hi": "जाना; चलना; (क्रिया के बाद) दूर (दिशावाचक)",
+    "ja": "行く／動く（動詞の後で'離れる'を示す補助動詞）",
+    "km": "ទៅ／ធ្វើដំណើរ (ឈ្នាប់ទិសដៅ)",
+    "ne": "जानु／(क्रियापछि) 'टाढा' दिशासूचक",
+    "ko": "가다／(동사 뒤에서) 떠나가다 (방향 표지)",
+    "pt": "ir; mover-se; (depois do verbo) embora (marcador direcional)",
+    "th": "ไป (เคลื่อนที่ออกจากผู้พูด หรือคำบอกทิศ)",
+    "tl": "pumunta／lumayo (pagkilos o direksyon palayo)",
+    "ur": "جانا؛ (فعل کے بعد) چلے جانا (سمت کی علامت)",
+    "vi": "đi; (sau động từ) đi xa (dấu hiệu hướng)",
+    "zh": "去／走／（动词后）'去了'（方向标记）",
+    "zh_Hant": "去／走／（動詞後）「去了」（方向標記）"
+  },
+  "definition_en": "to go; to move; (after verb) away (directional marker)",
+  "romanization": "pàj",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ໄປ ໂຮງຮຽນ",
+      "romanization": "kʰɔ̂ːj pàj hóːŋ.híːən",
+      "translation_en": "I'm going to school."
+    },
+    {
+      "lao_script": "ເອົາ ຂວດ ນ້ຳ ໄປ ກິນ",
+      "romanization": "ʔàw kʰùːət nâːm pàj kìn",
+      "translation_en": "Take the water bottle to drink."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon figure walking to the right with a directional arrow, representing going or movement away, suitable for a language learning app, clean white background, minimalist style."
+}

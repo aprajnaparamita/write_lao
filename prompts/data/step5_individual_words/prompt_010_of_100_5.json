@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທັງ",
+  "definitions": {
+    "de": "Beide; alle; sowohl ... als auch – Quantifikator, der auf alle Mitglieder einer Gruppe verweist",
+    "en": "Both; all; the whole of – quantifier referring to all members of a group or the entirety of something",
+    "es": "Ambos; todos; tanto ... como – cuantificador que se refiere a todos los miembros de un grupo",
+    "fr": "Les deux ; tous ; à la fois – quantificateur désignant tous les membres d'un groupe ou la totalité de quelque chose",
+    "hi": "दोनों; सभी; पूरा – एक परिमाणवाचक शब्द जो किसी समूह के सभी सदस्यों या किसी चीज़ की समग्रता को व्यक्त करता है",
+    "ja": "両方；すべて；〜全体 – グループのすべてのメンバーや何かの全体を指す数量詞",
+    "km": "ទាំងពីរ; ទាំងអស់; ទាំងមូល – ពាក្យបរិមាណដែលសំដៅទៅលើសមាជិកទាំងអស់នៃក្រុម",
+    "ko": "둘 다; 모두; 전체 – 그룹의 모든 구성원이나 어떤 것의 전체를 가리키는 수량사",
+    "ne": "दुवै; सबै; सम्पूर्ण – समूहका सबै सदस्य वा कुनै चीजको समग्रतालाई जनाउने परिमाणवाचक",
+    "pt": "Ambos; todos; o todo – quantificador que se refere a todos os membros de um grupo ou à totalidade de algo",
+    "th": "ทั้งคู่; ทั้งหมด; ทั้งสิ้น – คำแสดงปริมาณที่หมายถึงสมาชิกทุกคนในกลุ่มหรือทั้งหมดของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Pareho; lahat; kapwa – pang-uri ng dami na tumutukoy sa lahat ng miyembro ng isang grupo",
+    "ur": "دونوں؛ سب؛ تمام – ایک مقدار بتانے والا لفظ جو کسی گروپ کے تمام ارکان یا کسی چیز کی مکمل حالت کو ظاہر کرتا ہے",
+    "vi": "Cả hai; tất cả; toàn bộ – từ chỉ số lượng đề cập đến tất cả các thành viên của một nhóm",
+    "zh": "两者都；全部；整个 – 指代一个群体中所有成员或某事物整体的量词",
+    "zh_Hant": "兩者都；全部；整個 – 指代一個群體中所有成員或某事物整體的量詞"
+  },
+  "definition_en": "Both; all; the whole of – quantifier referring to all members of a group or the entirety of something",
+  "romanization": "/tʰaŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ທັງສອງຄົນມາດ້ວຍກັນ",
+      "romanization": "thang song khon ma duai kan",
+      "translation_en": "Both of them came together."
+    },
+    {
+      "lao_script": "ຂ້ອຍຊອບທັງກິນທັງນອນ",
+      "romanization": "khoi sob thang kin thang non",
+      "translation_en": "I love both eating and sleeping."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two apples side by side with a bracket or highlight around both of them indicating 'both' or 'all', clean white background, colorful, minimalist style suitable for a language learning app."
+}

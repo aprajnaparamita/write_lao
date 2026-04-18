@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສື່",
+  "definitions": {
+    "de": "Medien; Kommunikationsmittel oder -kanal (z. B. soziale Medien, Nachrichtenmedien)",
+    "en": "Media; a means or channel of communication (e.g., social media, news media)",
+    "es": "Medios; un canal o medio de comunicación (p. ej., redes sociales, medios de noticias)",
+    "fr": "Média ; un moyen ou canal de communication (ex. : réseaux sociaux, médias d'information)",
+    "hi": "मीडिया; संचार का एक माध्यम या चैनल (जैसे सोशल मीडिया, समाचार मीडिया)",
+    "ja": "メディア；コミュニケーションの手段やチャンネル（例：ソーシャルメディア、ニュースメディア）",
+    "km": "មីឌៀ; មធ្យោបាយឬបណ្តាញទំនាក់ទំនង (ឧ. បណ្តាញសង្គម ព័ត៌មាន)",
+    "ko": "미디어; 소통의 수단 또는 채널 (예: 소셜 미디어, 뉴스 미디어)",
+    "ne": "मिडिया; सञ्चारको माध्यम वा च्यानल (जस्तै सामाजिक मिडिया, समाचार मिडिया)",
+    "pt": "Mídia; um meio ou canal de comunicação (ex.: redes sociais, mídia de notícias)",
+    "th": "สื่อ; ช่องทางหรือวิธีการสื่อสาร (เช่น โซเชียลมีเดีย, สื่อข่าว)",
+    "tl": "Media; isang paraan o channel ng komunikasyon (hal. social media, balita)",
+    "ur": "میڈیا؛ مواصلات کا ذریعہ یا چینل (مثلاً سوشل میڈیا، خبری میڈیا)",
+    "vi": "Phương tiện truyền thông; kênh hoặc phương tiện giao tiếp (ví dụ: mạng xã hội, truyền thông tin tức)",
+    "zh": "媒体；传播或通信的渠道（如社交媒体、新闻媒体）",
+    "zh_Hant": "媒體；傳播或通訊的渠道（如社交媒體、新聞媒體）"
+  },
+  "definition_en": "Media; a means or channel of communication (e.g., social media, news media)",
+  "romanization": "/sɯː⁴/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນໃຊ້ສື່ສັງຄົມທຸກວັນ",
+      "romanization": "phoen sai sɯː sang-khom thuk van",
+      "translation_en": "He/She uses social media every day."
+    },
+    {
+      "lao_script": "ສື່ຂ່າວໃນລາວມີຫຼາຍຊ່ອງ",
+      "romanization": "sɯː khao nai lao mii laai song",
+      "translation_en": "There are many news media channels in Laos."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of various media icons — a newspaper, a smartphone showing a social media feed, and a television — arranged together on a clean white background, colorful minimalist style suitable for a language learning app."
+}

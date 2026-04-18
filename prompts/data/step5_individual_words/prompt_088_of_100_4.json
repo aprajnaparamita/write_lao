@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊອບ",
+  "definitions": {
+    "de": "Mögen, gern haben, jemanden/etwas mögen; ein positives Gefühl der Zuneigung oder Vorliebe für jemanden oder etwas ausdrücken",
+    "en": "To like, to be fond of; to feel positive affection or preference toward someone or something; commonly used to express enjoyment or appreciation",
+    "es": "Gustar, ser aficionado a; sentir afecto positivo o preferencia hacia alguien o algo; comúnmente usado para expresar disfrute o apreciación",
+    "fr": "Aimer, apprécier, avoir de l'affection pour; ressentir une affection positive ou une préférence envers quelqu'un ou quelque chose",
+    "hi": "पसंद करना, प्रिय लगना; किसी व्यक्ति या वस्तु के प्रति सकारात्मक स्नेह या पसंद महसूस करना",
+    "ja": "好きである、気に入る；誰かまたは何かに対して好意的な感情や好みを持つこと",
+    "km": "ចូលចិត្ត ស្រឡាញ់; មានអារម្មណ៍ល្អ ឬចូលចិត្តចំពោះនរណាម្នាក់ ឬអ្វីមួយ",
+    "ko": "좋아하다, 마음에 들다; 누군가 또는 무언가에 대해 긍정적인 애정이나 선호를 느끼다",
+    "ne": "मन पर्नु, रुचाउनु; कसैलाई वा कुनै कुराप्रति सकारात्मक स्नेह वा रुचि महसुस गर्नु",
+    "pt": "Gostar, ter apreço por; sentir afeição positiva ou preferência em relação a alguém ou algo",
+    "th": "ชอบ หลงใหล; รู้สึกถึงความรักใคร่หรือความชอบในเชิงบวกต่อบุคคลหรือสิ่งของ",
+    "tl": "Magustuhan, mahilig sa; maramdaman ang positibong pagmamahal o kagustuhan sa isang tao o bagay",
+    "ur": "پسند کرنا، شوق رکھنا؛ کسی شخص یا چیز کے لیے مثبت محبت یا ترجیح محسوس کرنا",
+    "vi": "Thích, có cảm tình với; cảm thấy yêu thích hoặc ưa thích đối với ai đó hoặc điều gì đó",
+    "zh": "喜欢，喜爱；对某人或某事感到积极的喜爱或偏好",
+    "zh_Hant": "喜歡，喜愛；對某人或某事感到積極的喜愛或偏好"
+  },
+  "definition_en": "To like, to be fond of; to feel positive affection or preference toward someone or something; commonly used to express enjoyment or appreciation",
+  "romanization": "sɔ̑p",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຊອບກິນໝາກໂມຫຼາຍ ໂດຍສະເພາະຕອນຮ້ອນ",
+      "romanization": "khɔ̑j sɔ̑p kīn māk mōː lǎːj dōːj sā phɔ̀ː tɔ̄ːn hɔ́ːn",
+      "translation_en": "I really like eating watermelon, especially when it's hot"
+    },
+    {
+      "lao_script": "ເຈົ້າຊອບດົນຕີປະເພດໃດ?",
+      "romanization": "tɕâw sɔ̑p dòn tîː pā phêːt dāj",
+      "translation_en": "What kind of music do you like?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person giving a thumbs up or hugging their favorite item (like a book or food), with a heart symbol nearby, clean white background, bright warm colors, minimalist cartoon style suitable for a language learning app"
+}

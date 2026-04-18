@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທັນສະໄໝ",
+  "definitions": {
+    "de": "Modern, zeitgemäß; auf dem neuesten Stand",
+    "en": "Modern, up-to-date, contemporary",
+    "es": "Moderno, actualizado, contemporáneo",
+    "fr": "Moderne, contemporain, à la pointe",
+    "hi": "आधुनिक, समसामयिक, अद्यतन",
+    "ja": "現代的な、最新の、モダンな",
+    "km": "ទំនើប, សម័យទំនើប, ទាន់សម័យ",
+    "ko": "현대적인, 최신의, 시대에 맞는",
+    "ne": "आधुनिक, समसामयिक, अद्यावधिक",
+    "pt": "Moderno, atualizado, contemporâneo",
+    "th": "ทันสมัย, สมัยใหม่, ร่วมสมัย",
+    "tl": "Moderno, makabago, napapanahon",
+    "ur": "جدید، عصری، تازہ ترین",
+    "vi": "Hiện đại, cập nhật, đương đại",
+    "zh": "现代的，时髦的，与时俱进的",
+    "zh_Hant": "現代的，時髦的，與時俱進的"
+  },
+  "definition_en": "Modern, up-to-date, contemporary",
+  "romanization": "than sa mai",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂອງລາວທັນສະໄໝຫຼາຍເດີ້",
+      "romanization": "Hüan khong lao than sa mai lai döe",
+      "translation_en": "Their house is really modern."
+    },
+    {
+      "lao_script": "ຢາກໄດ້ໂທລະສັບທັນສະໄໝໆ ໄວ້ໃຊ້",
+      "romanization": "Yak dai tholasap than sa mai than sa mai wai chai",
+      "translation_en": "I want to get a modern smartphone to use."
+    }
+  ],
+  "image_prompt": "A simple flat illustration comparing an old-fashioned house on the left and a sleek, modern house on the right with an arrow pointing to the modern one, clean white background, colorful minimalist style suitable for a language learning app."
+}

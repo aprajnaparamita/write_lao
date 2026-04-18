@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈ້າວ",
+  "definitions": {
+    "de": "Boss, Eigentümer, Herr; eine Person, die Autorität, Eigentum oder Kontrolle über etwas oder jemanden hat; auch als respektvolle Anrede verwendet",
+    "en": "Boss, owner, master, lord; a person who has authority, ownership, or control over something or someone; also used as a respectful form of address",
+    "es": "Jefe, dueño, amo, señor; persona que tiene autoridad, propiedad o control sobre algo o alguien; también se usa como forma de tratamiento respetuoso",
+    "fr": "Patron, propriétaire, maître, seigneur; une personne qui a autorité, propriété ou contrôle sur quelque chose ou quelqu'un; aussi utilisé comme forme d'adresse respectueuse",
+    "hi": "मालिक, स्वामी, सरदार; वह व्यक्ति जिसके पास किसी चीज़ या किसी पर अधिकार, स्वामित्व या नियंत्रण हो; सम्मानजनक संबोधन के रूप में भी प्रयुक्त",
+    "ja": "ボス、オーナー、主人、領主；何かまたは誰かに対して権威、所有権、または支配力を持つ人物；敬意を込めた呼びかけとしても使われる",
+    "km": "ចៅហ្វាយ ម្ចាស់ អ្នកដឹកនាំ; មនុស្សដែលមានអំណាច ភាពជាម្ចាស់ ឬការគ្រប់គ្រងលើអ្វីមួយឬនរណាម្នាក់",
+    "ko": "상사, 주인, 주군, 사장; 무언가 또는 누군가에 대해 권위, 소유권 또는 통제권을 가진 사람; 존경스러운 호칭으로도 사용됨",
+    "ne": "मालिक, स्वामी, मुखिया; कसैको वा कुनै कुराको अधिकार, स्वामित्व वा नियन्त्रण भएको व्यक्ति; सम्मानजनक सम्बोधनको रूपमा पनि प्रयोग गरिन्छ",
+    "pt": "Chefe, dono, senhor, mestre; uma pessoa que tem autoridade, propriedade ou controle sobre algo ou alguém; também usado como forma respeitosa de tratamento",
+    "th": "เจ้านาย เจ้าของ นาย; บุคคลที่มีอำนาจ ความเป็นเจ้าของ หรือการควบคุมเหนือสิ่งใดสิ่งหนึ่งหรือบุคคลใดบุคคลหนึ่ง",
+    "tl": "Boss, may-ari, panginoon; isang taong may awtoridad, pagmamay-ari, o kontrol sa isang bagay o tao; ginagamit din bilang magalang na paraan ng pagtawag",
+    "ur": "مالک، آقا، سردار؛ وہ شخص جس کے پاس کسی چیز یا کسی شخص پر اختیار، ملکیت یا کنٹرول ہو؛ احترام کے طور پر بھی استعمال ہوتا ہے",
+    "vi": "Sếp, chủ, chủ nhân, lãnh chúa; người có quyền hành, quyền sở hữu hoặc kiểm soát đối với một thứ gì đó hoặc ai đó; cũng được dùng như cách xưng hô tôn kính",
+    "zh": "老板、主人、领主；对某物或某人拥有权威、所有权或控制权的人；也用作尊称",
+    "zh_Hant": "老闆、主人、領主；對某物或某人擁有權威、所有權或控制權的人；也用作尊稱"
+  },
+  "definition_en": "Boss, owner, master, lord; a person who has authority, ownership, or control over something or someone; also used as a respectful form of address",
+  "romanization": "tɕâːw",
+  "lao_examples": [
+    {
+      "lao_script": "ຈ້າວຂອງຮ້ານນີ້ໃຈດີຫຼາຍເລີຍ",
+      "romanization": "tɕâːw khɔ̌ːŋ hâːn níː tɕāj dîː lǎːj lɤ̄j",
+      "translation_en": "The owner of this shop is really very kind"
+    },
+    {
+      "lao_script": "ຈ້າວບອກໃຫ້ຂ້ອຍໄປເຮັດວຽກວັນອາທິດດ້ວຍ",
+      "romanization": "tɕâːw bɔ̀ːk hâj khɔ̑j pāj hét wíak wán ʔāː tʰít dûaj",
+      "translation_en": "The boss told me to go to work on Sunday too"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a confident business owner or boss standing in front of a small shop with a key in hand, clean white background, bright colors, friendly expression, minimalist cartoon style suitable for a language learning app"
+}

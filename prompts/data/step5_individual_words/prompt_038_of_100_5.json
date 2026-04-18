@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທ້າຍ",
+  "definitions": {
+    "de": "Ende, letzter; bezeichnet das Ende von etwas oder die letzte Position in einer Reihe.",
+    "en": "End, last; refers to the final part or position of something in a sequence or series.",
+    "es": "Final, último; se refiere a la parte o posición final de algo en una secuencia o serie.",
+    "fr": "Fin, dernier; désigne la partie ou la position finale de quelque chose dans une séquence ou série.",
+    "hi": "अंत, आखिरी; किसी क्रम या श्रृंखला में किसी चीज़ के अंतिम भाग या स्थान को दर्शाता है।",
+    "ja": "終わり、最後；順序や並びにおける最終部分または位置を指す。",
+    "km": "ចុងក្រោយ, ចប់; សំដៅទៅលើផ្នែក ឬទីតាំងចុងក្រោយនៃអ្វីមួយក្នុងលំដាប់ ឬស៊េរី។",
+    "ko": "끝, 마지막; 순서나 연속에서 어떤 것의 마지막 부분이나 위치를 가리킵니다.",
+    "ne": "अन्त्य, अन्तिम; कुनै क्रम वा श्रृंखलामा कुनै चीजको अन्तिम भाग वा स्थितिलाई जनाउँछ।",
+    "pt": "Fim, último; refere-se à parte ou posição final de algo em uma sequência ou série.",
+    "th": "ท้าย, สุดท้าย; หมายถึงส่วนท้ายหรือตำแหน่งสุดท้ายของสิ่งใดสิ่งหนึ่งในลำดับหรือชุด",
+    "tl": "Katapusan, huli; tumutukoy sa huling bahagi o posisyon ng isang bagay sa isang pagkakasunod-sunod o serye.",
+    "ur": "آخر، آخری؛ کسی سلسلے یا ترتیب میں کسی چیز کے آخری حصے یا مقام کو ظاہر کرتا ہے۔",
+    "vi": "Cuối, cuối cùng; chỉ phần hoặc vị trí cuối cùng của điều gì đó trong một chuỗi hoặc dãy.",
+    "zh": "末尾，最后；指某事物在序列或一系列中的最终部分或位置。",
+    "zh_Hant": "末尾，最後；指某事物在序列或一系列中的最終部分或位置。"
+  },
+  "definition_en": "End, last; refers to the final part or position of something in a sequence or series.",
+  "romanization": "tʰaːj",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍນັ່ງຢູ່ທ້າຍຫ້ອງສະເໝີ",
+      "romanization": "khoi nang yuu tʰaːj hɔːng sa-mɤː",
+      "translation_en": "I always sit at the back of the room."
+    },
+    {
+      "lao_script": "ທ້າຍເດືອນນີ້ ເຮົາໄປທ່ຽວກັນເດີ",
+      "romanization": "tʰaːj dɯːan nii, hao pai thiao kan dəːi",
+      "translation_en": "At the end of this month, let's travel together."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a finish line at the end of a road or race track, with a flag or banner marking 'THE END', clean white background, colorful minimalist style suitable for a language learning app."
+}

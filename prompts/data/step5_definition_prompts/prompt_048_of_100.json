@@ -1,0 +1,395 @@
+{
+  "ຟັງ": {
+    "definitions": {
+      "de": "zuhören; auf etwas hören",
+      "en": "to listen; to hear attentively",
+      "es": "escuchar; prestar atención al sonido",
+      "fr": "écouter; prêter attention à un son",
+      "hi": "सुनना; ध्यान से सुनना",
+      "ja": "聞く；耳を傾ける",
+      "km": "ស្តាប់; យកចិត្តទុកដាក់ស្តាប់",
+      "ko": "듣다; 귀를 기울이다",
+      "ne": "सुन्नु; ध्यानपूर्वक सुन्नु",
+      "pt": "ouvir; escutar com atenção",
+      "th": "ฟัง; ตั้งใจฟัง",
+      "tl": "makinig; pakinggan nang mabuti",
+      "ur": "سننا؛ توجہ سے سننا",
+      "vi": "nghe; lắng nghe chú ý",
+      "zh": "听；倾听",
+      "zh_Hant": "聽；傾聽"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/fáŋ/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຟັງເພງນີ້ບໍ່?",
+        "romanization": "Jao fang pheng ni bo?",
+        "translations": {
+          "de": "Hörst du dieses Lied?",
+          "en": "Do you listen to this song?",
+          "es": "¿Escuchas esta canción?",
+          "fr": "Tu écoutes cette chanson ?",
+          "hi": "क्या तुम यह गाना सुनते हो?",
+          "ja": "この曲を聴いてる？",
+          "km": "តើអ្នកស្តាប់បទចម្រៀងនេះទេ?",
+          "ko": "이 노래 들어?",
+          "ne": "तिमी यो गाना सुन्छौ?",
+          "pt": "Você ouve essa música?",
+          "th": "แกฟังเพลงนี้ไหม?",
+          "tl": "Nakikinig ka ba sa kantang ito?",
+          "ur": "کیا تم یہ گانا سنتے ہو؟",
+          "vi": "Bạn có nghe bài hát này không?",
+          "zh": "你听这首歌吗？",
+          "zh_Hant": "你聽這首歌嗎？"
+        },
+        "out_of_scope_words": [
+          "ເພງ"
+        ]
+      },
+      {
+        "lao_script": "ຟັງໃຫ້ດີນະ, ຂ້ອຍຈະບອກຄັ້ງດຽວ",
+        "romanization": "Fang hai dee na, khoi ja bok khang diao",
+        "translations": {
+          "de": "Hör gut zu, ich sage es nur einmal.",
+          "en": "Listen carefully, I'll only say it once.",
+          "es": "Escucha bien, lo diré solo una vez.",
+          "fr": "Écoute bien, je le dirai une seule fois.",
+          "hi": "ध्यान से सुनो, मैं एक बार ही बोलूँगा।",
+          "ja": "よく聞いて、一回しか言わないよ。",
+          "km": "ស្តាប់ឱ្យបានល្អ ខ្ញុំនឹងប្រាប់តែម្តងប៉ុណ្ណោះ។",
+          "ko": "잘 들어, 한 번만 말할게.",
+          "ne": "राम्ररी सुन, म एकपटक मात्र भन्छु।",
+          "pt": "Ouça bem, vou dizer apenas uma vez.",
+          "th": "ฟังให้ดีนะ ฉันจะบอกแค่ครั้งเดียว",
+          "tl": "Makinig nang mabuti, isang beses ko lang sasabihin.",
+          "ur": "غور سے سنو، میں صرف ایک بار کہوں گا۔",
+          "vi": "Nghe kỹ nhé, tao chỉ nói một lần thôi.",
+          "zh": "好好听，我只说一次。",
+          "zh_Hant": "好好聽，我只說一次。"
+        },
+        "out_of_scope_words": [
+          "ຄັ້ງດຽວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with their hand cupped to their ear, actively listening with a focused expression, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊັ້ນ": {
+    "definitions": {
+      "de": "Stockwerk; Etage; Schicht; Ebene",
+      "en": "floor; level; storey; layer",
+      "es": "piso; nivel; planta; capa",
+      "fr": "étage; niveau; couche; palier",
+      "hi": "मंजिल; तल; स्तर; परत",
+      "ja": "階；フロア；層；レベル",
+      "km": "ជាន់; កម្រិត; ស្រទាប់",
+      "ko": "층; 바닥; 단계; 층위",
+      "ne": "तला; तह; स्तर; माला",
+      "pt": "andar; pavimento; nível; camada",
+      "th": "ชั้น; ระดับ; ชั้นของอาคาร",
+      "tl": "palapag; antas; sahig;층",
+      "ur": "منزل؛ درجہ؛ تہہ؛ سطح",
+      "vi": "tầng; lớp; mức; tầng lầu",
+      "zh": "层；楼层；级别；层次",
+      "zh_Hant": "層；樓層；級別；層次"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sán/",
+    "examples": [
+      {
+        "lao_script": "ຫ້ອງຂ້ອຍຢູ່ຊັ້ນສາມ",
+        "romanization": "Hong khoi yu san sam",
+        "translations": {
+          "de": "Mein Zimmer ist im dritten Stock.",
+          "en": "My room is on the third floor.",
+          "es": "Mi habitación está en el tercer piso.",
+          "fr": "Ma chambre est au troisième étage.",
+          "hi": "मेरा कमरा तीसरी मंजिल पर है।",
+          "ja": "私の部屋は3階にあります。",
+          "km": "បន្ទប់របស់ខ្ញុំនៅជាន់ទីបី។",
+          "ko": "내 방은 3층에 있어.",
+          "ne": "मेरो कोठा तेस्रो तलामा छ।",
+          "pt": "Meu quarto fica no terceiro andar.",
+          "th": "ห้องฉันอยู่ชั้นสาม",
+          "tl": "Ang kwarto ko ay nasa ikatlong palapag.",
+          "ur": "میرا کمرہ تیسری منزل پر ہے۔",
+          "vi": "Phòng tao ở tầng ba.",
+          "zh": "我的房间在三楼。",
+          "zh_Hant": "我的房間在三樓。"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງ"
+        ]
+      },
+      {
+        "lao_script": "ລິຟຢູ່ໃສ? ຂ້ອຍຢາກຂຶ້ນຊັ້ນເທິງ",
+        "romanization": "Lip yu sai? Khoi yak kheun san theung",
+        "translations": {
+          "de": "Wo ist der Aufzug? Ich möchte in die obere Etage.",
+          "en": "Where is the elevator? I want to go up to the upper floor.",
+          "es": "¿Dónde está el ascensor? Quiero subir al piso de arriba.",
+          "fr": "Où est l'ascenseur ? Je veux monter à l'étage supérieur.",
+          "hi": "लिफ्ट कहाँ है? मैं ऊपरी मंजिल पर जाना चाहता हूँ।",
+          "ja": "エレベーターはどこ？上の階に行きたい。",
+          "km": "លើហ្វ្យូនៅឯណា? ខ្ញុំចង់ឡើងជាន់លើ។",
+          "ko": "엘리베이터 어디 있어? 위층에 올라가고 싶어.",
+          "ne": "लिफ्ट कहाँ छ? म माथिल्लो तलामा जान चाहन्छु।",
+          "pt": "Onde fica o elevador? Quero subir para o andar de cima.",
+          "th": "ลิฟต์อยู่ไหน? ฉันอยากขึ้นไปชั้นบน",
+          "tl": "Nasaan ang elevator? Gusto kong pumunta sa itaas na palapag.",
+          "ur": "لفٹ کہاں ہے؟ میں اوپر کی منزل پر جانا چاہتا ہوں۔",
+          "vi": "Thang máy ở đâu? Tao muốn lên tầng trên.",
+          "zh": "电梯在哪？我想上楼。",
+          "zh_Hant": "電梯在哪？我想上樓。"
+        },
+        "out_of_scope_words": [
+          "ລິຟ",
+          "ຂຶ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a multi-storey building with clearly numbered floors visible (1, 2, 3), each floor highlighted in a different color, clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊາ": {
+    "definitions": {
+      "de": "Tee (Getränk); langsam (Eigenschaft)",
+      "en": "tea (the drink); slow (adjective/adverb)",
+      "es": "té (bebida); lento (adjetivo)",
+      "fr": "thé (boisson) ; lent (adjectif)",
+      "hi": "चाय (पेय); धीमा (विशेषण)",
+      "ja": "お茶（飲み物）；遅い（形容詞）",
+      "km": "តែ (ភេសជ្ជៈ); យឺត (គុណសព្ទ)",
+      "ko": "차 (음료); 느리다 (형용사)",
+      "ne": "चिया (पेय); ढिलो (विशेषण)",
+      "pt": "chá (bebida); lento (adjetivo)",
+      "th": "ชา (เครื่องดื่ม); ช้า (คำคุณศัพท์)",
+      "tl": "tsaa (inumin); mabagal (pang-uri)",
+      "ur": "چائے (مشروب)؛ سست (صفت)",
+      "vi": "trà (đồ uống); chậm (tính từ)",
+      "zh": "茶（饮料）；慢（形容词）",
+      "zh_Hant": "茶（飲料）；慢（形容詞）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sáː/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າດື່ມຊາຮ້ອນຫຼືເຢັນ?",
+        "romanization": "Jao deum sa hon leu yen?",
+        "translations": {
+          "de": "Trinkst du heißen oder kalten Tee?",
+          "en": "Do you drink hot or cold tea?",
+          "es": "¿Bebes té caliente o frío?",
+          "fr": "Tu bois du thé chaud ou froid ?",
+          "hi": "तुम गरम चाय पीते हो या ठंडी?",
+          "ja": "ホットとアイス、どっちのお茶を飲む？",
+          "km": "តើអ្នកផឹកតែក្តៅឬត្រជាក់?",
+          "ko": "뜨거운 차 마셔? 아니면 차가운 차?",
+          "ne": "तिमी तातो चिया पिउँछौ कि चिसो?",
+          "pt": "Você bebe chá quente ou gelado?",
+          "th": "แกดื่มชาร้อนหรือเย็น?",
+          "tl": "Umiinom ka ba ng mainit o malamig na tsaa?",
+          "ur": "تم گرم چائے پیتے ہو یا ٹھنڈی؟",
+          "vi": "Bạn uống trà nóng hay lạnh?",
+          "zh": "你喝热茶还是冷茶？",
+          "zh_Hant": "你喝熱茶還是冷茶？"
+        },
+        "out_of_scope_words": [
+          "ດື່ມ",
+          "ຮ້ອນ",
+          "ເຢັນ"
+        ]
+      },
+      {
+        "lao_script": "ລົດຄັນນັ້ນຊາຫຼາຍ, ຂ້ອຍຈະໄປກ່ອນ",
+        "romanization": "Lot khan nan sa lai, khoi ja pai kon",
+        "translations": {
+          "de": "Dieses Auto ist sehr langsam, ich fahre schon mal vor.",
+          "en": "That car is very slow, I'll go ahead.",
+          "es": "Ese carro es muy lento, me voy adelante.",
+          "fr": "Cette voiture est très lente, je vais partir en avance.",
+          "hi": "वह गाड़ी बहुत धीमी है, मैं पहले चलता हूँ।",
+          "ja": "あの車はすごく遅いから、先に行くね。",
+          "km": "រថយន្តនោះយឺតណាស់ ខ្ញុំទៅមុនហើយ។",
+          "ko": "저 차 너무 느려, 나 먼저 갈게.",
+          "ne": "त्यो गाडी धेरै ढिलो छ, म पहिले जान्छु।",
+          "pt": "Aquele carro é muito lento, eu vou na frente.",
+          "th": "รถคันนั้นช้ามาก ฉันไปก่อนนะ",
+          "tl": "Napakabagal ng sasakyang iyon, mauna na ako.",
+          "ur": "وہ گاڑی بہت سست ہے، میں پہلے جاتا ہوں۔",
+          "vi": "Xe đó chậm lắm, tao đi trước nhé.",
+          "zh": "那辆车很慢，我先走了。",
+          "zh_Hant": "那輛車很慢，我先走了。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ຄັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a steaming cup of tea on a saucer with a tea bag label hanging over the side, warm colors, clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕົ້ນ": {
+    "definitions": {
+      "de": "Baum; Anfang; Ursprung; Stamm (einer Pflanze)",
+      "en": "tree; plant; beginning; origin; trunk (classifier for trees and plants)",
+      "es": "árbol; planta; comienzo; origen; tronco",
+      "fr": "arbre; plante; début; origine; tronc",
+      "hi": "पेड़; पौधा; शुरुआत; मूल; तना",
+      "ja": "木；植物；始まり；起源；幹",
+      "km": "ដើមឈើ; ដើម; ការចាប់ផ្តើម; ដើមកំណើត",
+      "ko": "나무; 식물; 시작; 기원; 줄기",
+      "ne": "रूख; बिरुवा; शुरुआत; उत्पत्ति; बोट",
+      "pt": "árvore; planta; começo; origem; tronco",
+      "th": "ต้น (ต้นไม้); ต้นกำเนิด; จุดเริ่มต้น",
+      "tl": "puno; halaman; simula; pinagmulan; tangkay",
+      "ur": "درخت؛ پودا؛ شروع؛ اصل؛ تنا",
+      "vi": "cây; gốc; sự khởi đầu; nguồn gốc; thân cây",
+      "zh": "树；植物；开始；起源；树干",
+      "zh_Hant": "樹；植物；開始；起源；樹幹"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tón/",
+    "examples": [
+      {
+        "lao_script": "ຕົ້ນໄມ້ຕົ້ນນີ້ສູງຫຼາຍ",
+        "romanization": "Ton mai ton ni sung lai",
+        "translations": {
+          "de": "Dieser Baum ist sehr groß.",
+          "en": "This tree is very tall.",
+          "es": "Este árbol es muy alto.",
+          "fr": "Cet arbre est très grand.",
+          "hi": "यह पेड़ बहुत ऊँचा है।",
+          "ja": "この木はとても高い。",
+          "km": "ដើមឈើនេះខ្ពស់ណាស់។",
+          "ko": "이 나무 엄청 키가 커.",
+          "ne": "यो रूख धेरै अग्लो छ।",
+          "pt": "Esta árvore é muito alta.",
+          "th": "ต้นไม้ต้นนี้สูงมาก",
+          "tl": "Napakataas ng punong ito.",
+          "ur": "یہ درخت بہت اونچا ہے۔",
+          "vi": "Cây này cao lắm.",
+          "zh": "这棵树很高。",
+          "zh_Hant": "這棵樹很高。"
+        },
+        "out_of_scope_words": [
+          "ໄມ້",
+          "ສູງ"
+        ]
+      },
+      {
+        "lao_script": "ຕົ້ນເດືອນນີ້ຂ້ອຍບໍ່ມີເງິນເລີຍ",
+        "romanization": "Ton deuan ni khoi bo mi ngoen loei",
+        "translations": {
+          "de": "Anfang dieses Monats habe ich kein Geld.",
+          "en": "At the beginning of this month I have no money at all.",
+          "es": "A principios de este mes no tengo nada de dinero.",
+          "fr": "En début de ce mois, je n'ai pas d'argent du tout.",
+          "hi": "इस महीने की शुरुआत में मेरे पास बिल्कुल पैसे नहीं हैं।",
+          "ja": "今月の初めはお金が全然ない。",
+          "km": "នៅដើមខែនេះ ខ្ញុំគ្មានលុយទាល់តែសោះ។",
+          "ko": "이번 달 초에 돈이 하나도 없어.",
+          "ne": "यो महिनाको सुरुमा मसँग पैसा नै छैन।",
+          "pt": "No início deste mês não tenho dinheiro nenhum.",
+          "th": "ต้นเดือนนี้ฉันไม่มีเงินเลย",
+          "tl": "Sa simula ng buwang ito wala akong pera.",
+          "ur": "اس مہینے کے شروع میں میرے پاس بالکل پیسے نہیں ہیں۔",
+          "vi": "Đầu tháng này tao không có tiền luôn.",
+          "zh": "这个月初我一点钱都没有。",
+          "zh_Hant": "這個月初我一點錢都沒有。"
+        },
+        "out_of_scope_words": [
+          "ເດືອນ",
+          "ເງິນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a tall, leafy green tree with a thick brown trunk standing on a grassy patch, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເລີ່ມ": {
+    "definitions": {
+      "de": "beginnen; anfangen; starten",
+      "en": "to begin; to start; to commence",
+      "es": "comenzar; empezar; iniciar",
+      "fr": "commencer; débuter; démarrer",
+      "hi": "शुरू करना; आरंभ करना",
+      "ja": "始める；開始する；スタートする",
+      "km": "ចាប់ផ្តើម; ចាប់ដំណើរការ",
+      "ko": "시작하다; 시작되다; 개시하다",
+      "ne": "सुरु गर्नु; आरम्भ गर्नु",
+      "pt": "começar; iniciar; dar início a",
+      "th": "เริ่ม; เริ่มต้น; ลงมือทำ",
+      "tl": "magsimula; simulan; maghanda",
+      "ur": "شروع کرنا؛ آغاز کرنا",
+      "vi": "bắt đầu; khởi đầu; mở đầu",
+      "zh": "开始；着手；启动",
+      "zh_Hant": "開始；著手；啟動"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/lə̂ːm/",
+    "examples": [
+      {
+        "lao_script": "ຫນັງເລີ່ມແລ້ວ, ເຂົ້າໄປໄວໆ",
+        "romanization": "Nang loem laeo, khao pai wai wai",
+        "translations": {
+          "de": "Der Film hat schon angefangen, geh schnell rein!",
+          "en": "The movie has already started, get in quickly!",
+          "es": "La película ya comenzó, ¡entra rápido!",
+          "fr": "Le film a déjà commencé, rentre vite !",
+          "hi": "फिल्म शुरू हो गई, जल्दी अंदर जाओ!",
+          "ja": "映画もう始まったよ、早く入って！",
+          "km": "កុនចាប់ផ្តើមមកហើយ ចូលទៅលឿនៗ!",
+          "ko": "영화 이미 시작했어, 빨리 들어가!",
+          "ne": "फिल्म सुरु भइसक्यो, छिटो भित्र जाओ!",
+          "pt": "O filme já começou, entra logo!",
+          "th": "หนังเริ่มแล้ว รีบเข้าไปเลย!",
+          "tl": "Nagsimula na ang pelikula, pumasok na agad!",
+          "ur": "فلم شروع ہو گئی، جلدی اندر جاؤ!",
+          "vi": "Phim bắt đầu rồi, vào nhanh thôi!",
+          "zh": "电影已经开始了，快进去！",
+          "zh_Hant": "電影已經開始了，快進去！"
+        },
+        "out_of_scope_words": [
+          "ຫນັງ",
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເລີ່ມເຮັດການບ້ານໄດ້ເລີຍ, ຢ່າລໍ",
+        "romanization": "Loem het kan ban dai loei, ya lo",
+        "translations": {
+          "de": "Fang einfach mit den Hausaufgaben an, warte nicht.",
+          "en": "Just start doing your homework, don't wait.",
+          "es": "Empieza a hacer la tarea de una vez, no esperes.",
+          "fr": "Commence tes devoirs maintenant, n'attends pas.",
+          "hi": "अभी से होमवर्क शुरू करो, इंतजार मत करो।",
+          "ja": "宿題をさっさと始めなよ、待たないで。",
+          "km": "ចាប់ផ្តើមធ្វើការ宿題ទៅ មិនត្រូវរង់ចាំ។",
+          "ko": "숙제 지금 시작해, 기다리지 말고.",
+          "ne": "गृहकार्य गर्न सुरु गर अहिले नै, पर्खनु पर्दैन।",
+          "pt": "Começa a fazer o dever de casa logo, não espera.",
+          "th": "เริ่มทำการบ้านได้เลย อย่ารอ",
+          "tl": "Simulan mo na ang takdang aralin, huwag nang maghintay.",
+          "ur": "ابھی گھر کا کام شروع کرو، انتظار مت کرو۔",
+          "vi": "Bắt đầu làm bài tập luôn đi, đừng chờ nữa.",
+          "zh": "现在就开始做作业吧，别等了。",
+          "zh_Hant": "現在就開始做作業吧，別等了。"
+        },
+        "out_of_scope_words": [
+          "ການບ້ານ",
+          "ລໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pressing a large green 'START' button with an eager expression, symbolizing beginning or starting something, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

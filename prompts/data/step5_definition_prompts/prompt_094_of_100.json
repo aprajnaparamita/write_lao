@@ -1,0 +1,386 @@
+{
+  "ສະຫະລັດ": {
+    "definitions": {
+      "de": "Die Vereinigten Staaten (von Amerika); ein Land in Nordamerika",
+      "en": "The United States (of America); a country in North America",
+      "es": "Los Estados Unidos (de América); un país en América del Norte",
+      "fr": "Les États-Unis (d'Amérique); un pays en Amérique du Nord",
+      "hi": "संयुक्त राज्य (अमेरिका); उत्तरी अमेरिका में एक देश",
+      "ja": "アメリカ合衆国；北アメリカにある国",
+      "km": "សហរដ្ឋអាមេរិក; ប្រទេសមួយនៅអាមេរិកខាងជើង",
+      "ko": "미국(아메리카 합중국); 북아메리카에 있는 나라",
+      "ne": "संयुक्त राज्य (अमेरिका); उत्तर अमेरिकामा एउटा देश",
+      "pt": "Os Estados Unidos (da América); um país na América do Norte",
+      "th": "สหรัฐ(อเมริกา); ประเทศในทวีปอเมริกาเหนือ",
+      "tl": "Ang Estados Unidos (ng Amerika); isang bansa sa Hilagang Amerika",
+      "ur": "ریاستہائے متحدہ (امریکہ)؛ شمالی امریکہ میں ایک ملک",
+      "vi": "Hoa Kỳ (Mỹ); một quốc gia ở Bắc Mỹ",
+      "zh": "美利坚合众国（美国）；北美洲的一个国家",
+      "zh_Hant": "美利堅合眾國（美國）；北美洲的一個國家"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/saʔ.haʔ.lat/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍໄປຮຽນຢູ່ສະຫະລັດ",
+        "romanization": "phuean khong khoi pai hian yu sa-ha-lat",
+        "translations": {
+          "de": "Mein Freund ist zum Studieren in die USA gegangen.",
+          "en": "My friend went to study in the United States.",
+          "es": "Mi amigo fue a estudiar a los Estados Unidos.",
+          "fr": "Mon ami est parti étudier aux États-Unis.",
+          "hi": "मेरा दोस्त अमेरिका में पढ़ने गया।",
+          "ja": "友達がアメリカに留学しに行った。",
+          "km": "មិត្តភក្តិរបស់ខ្ញុំទៅរៀននៅសហរដ្ឋអាមេរិក។",
+          "ko": "내 친구는 미국으로 공부하러 갔어.",
+          "ne": "मेरो साथी अमेरिकामा पढ्न गयो।",
+          "pt": "Meu amigo foi estudar nos Estados Unidos.",
+          "th": "เพื่อนของฉันไปเรียนที่สหรัฐอเมริกา",
+          "tl": "Ang kaibigan ko ay pumunta sa Estados Unidos para mag-aral.",
+          "ur": "میرا دوست امریکہ میں پڑھنے گیا۔",
+          "vi": "Bạn tôi đã đi học ở Mỹ.",
+          "zh": "我的朋友去美国读书了。",
+          "zh_Hant": "我的朋友去美國讀書了。"
+        },
+        "out_of_scope_words": [
+          "ຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ສະຫະລັດເປັນປະເທດໃຫຍ່ຫຼາຍ",
+        "romanization": "sa-ha-lat pen pa-thet nyai lai",
+        "translations": {
+          "de": "Die USA sind ein sehr großes Land.",
+          "en": "The United States is a very large country.",
+          "es": "Los Estados Unidos es un país muy grande.",
+          "fr": "Les États-Unis sont un très grand pays.",
+          "hi": "अमेरिका बहुत बड़ा देश है।",
+          "ja": "アメリカはとても大きな国だ。",
+          "km": "សហរដ្ឋអាមេរិកជាប្រទេសធំណាស់។",
+          "ko": "미국은 아주 큰 나라야.",
+          "ne": "अमेरिका धेरै ठूलो देश हो।",
+          "pt": "Os Estados Unidos é um país muito grande.",
+          "th": "สหรัฐอเมริกาเป็นประเทศที่ใหญ่มาก",
+          "tl": "Ang Estados Unidos ay isang napakalakin bansa.",
+          "ur": "امریکہ ایک بہت بڑا ملک ہے۔",
+          "vi": "Mỹ là một đất nước rất rộng lớn.",
+          "zh": "美国是一个非常大的国家。",
+          "zh_Hant": "美國是一個非常大的國家。"
+        },
+        "out_of_scope_words": [
+          "ປະເທດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the United States of America, showing a recognizable outline map of the USA filled with the American flag's red, white, and blue colors, on a clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສ່ວນຮ້ອຍ": {
+    "definitions": {
+      "de": "Prozent; ein Hundertstel eines Ganzen, verwendet in Mathematik und Alltag",
+      "en": "Percent; one hundredth of a whole, used in math and everyday contexts",
+      "es": "Por ciento; una centésima parte de un todo, usado en matemáticas y la vida diaria",
+      "fr": "Pourcentage / pour cent; un centième d'un tout, utilisé en mathématiques et au quotidien",
+      "hi": "प्रतिशत; किसी पूरे का सौवाँ हिस्सा, गणित और रोज़मर्रा में उपयोग",
+      "ja": "パーセント；全体の百分の一、数学や日常で使われる",
+      "km": "ភាគរយ; មួយក្នុងរយ ប្រើក្នុងគណិតវិទ្យានិងប្រចាំថ្ងៃ",
+      "ko": "퍼센트; 전체의 100분의 1, 수학 및 일상에서 사용",
+      "ne": "प्रतिशत; पूर्णको सयौं भाग, गणित र दैनिक जीवनमा प्रयोग हुने",
+      "pt": "Por cento / percentagem; um centésimo de um todo, usado em matemática e no dia a dia",
+      "th": "เปอร์เซ็นต์; หนึ่งในร้อยของทั้งหมด ใช้ในคณิตศาสตร์และชีวิตประจำวัน",
+      "tl": "Porsyento; isang daangdalawang bahagi ng kabuuan, ginagamit sa matematika at pang-araw-araw",
+      "ur": "فیصد؛ کسی کل کا سوواں حصہ، ریاضی اور روزمرہ میں استعمال",
+      "vi": "Phần trăm; một phần trăm của tổng thể, dùng trong toán học và đời sống hàng ngày",
+      "zh": "百分之……；整体的百分之一，用于数学和日常生活",
+      "zh_Hant": "百分之……；整體的百分之一，用於數學和日常生活"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/suanˀ.hɔːj/",
+    "examples": [
+      {
+        "lao_script": "ຂອງລົດໂລດ ຫຼຸດ ສິບສ່ວນຮ້ອຍ",
+        "romanization": "khong lot lot hut sip suan hoi",
+        "translations": {
+          "de": "Die Sachen sind um zehn Prozent reduziert.",
+          "en": "The items are discounted by ten percent.",
+          "es": "Los artículos tienen un descuento del diez por ciento.",
+          "fr": "Les articles sont réduits de dix pour cent.",
+          "hi": "सामान पर दस प्रतिशत की छूट है।",
+          "ja": "商品が十パーセント引きだ。",
+          "km": "ទំនិញបញ្ចុះតម្លៃដប់ភាគរយ។",
+          "ko": "물건이 10퍼센트 할인됐어.",
+          "ne": "सामान दस प्रतिशत छुट छ।",
+          "pt": "Os produtos têm desconto de dez por cento.",
+          "th": "ของลดราคาสิบเปอร์เซ็นต์",
+          "tl": "Ang mga bagay ay may diskwento na sampung porsyento.",
+          "ur": "اشیاء دس فیصد چھوٹ پر ہیں۔",
+          "vi": "Hàng hóa giảm giá mười phần trăm.",
+          "zh": "商品打了九折（减了十个百分点）。",
+          "zh_Hant": "商品打了九折（減了十個百分點）。"
+        },
+        "out_of_scope_words": [
+          "ຫຼຸດ"
+        ]
+      },
+      {
+        "lao_script": "ນັກຮຽນ ເກົ້າສິບ ສ່ວນຮ້ອຍ ສອບໄດ້",
+        "romanization": "nak hian kao-sip suan hoi sop dai",
+        "translations": {
+          "de": "Neunzig Prozent der Schüler haben die Prüfung bestanden.",
+          "en": "Ninety percent of the students passed the exam.",
+          "es": "El noventa por ciento de los estudiantes aprobaron el examen.",
+          "fr": "Quatre-vingt-dix pour cent des élèves ont réussi l'examen.",
+          "hi": "नब्बे प्रतिशत छात्र परीक्षा में पास हुए।",
+          "ja": "生徒の九十パーセントが試験に合格した。",
+          "km": "សិស្សប្រាំបួនដប់ភាគរយជាប់សោហ៊ុយ។",
+          "ko": "학생들의 90퍼센트가 시험에 합격했어.",
+          "ne": "नब्बे प्रतिशत विद्यार्थीहरू परीक्षामा पास भए।",
+          "pt": "Noventa por cento dos alunos passaram na prova.",
+          "th": "นักเรียนเก้าสิบเปอร์เซ็นต์สอบผ่าน",
+          "tl": "Siyamnapung porsyento ng mga estudyante ay pumasa sa pagsusulit.",
+          "ur": "نوے فیصد طلباء امتحان میں پاس ہوئے۔",
+          "vi": "Chín mươi phần trăm học sinh đã thi đậu.",
+          "zh": "百分之九十的学生通过了考试。",
+          "zh_Hant": "百分之九十的學生通過了考試。"
+        },
+        "out_of_scope_words": [
+          "ນັກຮຽນ",
+          "ສອບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a percentage symbol (%) in bold, colorful style, with a pie chart nearby showing a portion highlighted, on a clean white background, minimalist and educational style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫລັກ": {
+    "definitions": {
+      "de": "Haupt-, wichtigster; grundlegend; auch: Säule, Pfosten (als Nomen)",
+      "en": "Main, principal, primary; also used as a noun meaning pillar or post",
+      "es": "Principal, principal, primario; también se usa como sustantivo que significa pilar o poste",
+      "fr": "Principal, majeur, primaire; utilisé aussi comme nom signifiant pilier ou poteau",
+      "hi": "मुख्य, प्रमुख; संज्ञा के रूप में: स्तंभ, खंभा",
+      "ja": "主な、主要な；名詞として柱・杭の意味でも使われる",
+      "km": "សំខាន់ ចម្បង; ក៏ប្រើជានាមន័យថាសសរ ឬសសរ",
+      "ko": "주요한, 주된; 명사로는 기둥, 말뚝의 의미도 있음",
+      "ne": "मुख्य, प्रमुख; संज्ञाको रूपमा: स्तम्भ, खम्बा",
+      "pt": "Principal, primário; também usado como substantivo com o significado de pilar ou poste",
+      "th": "หลัก, สำคัญ, หลัก; ยังใช้เป็นคำนามหมายถึงเสาหรือหลัก",
+      "tl": "Pangunahin, pangunahin; ginagamit din bilang pangngalan na nangangahulugang haligi o poste",
+      "ur": "مرکزی، اہم، بنیادی؛ اسم کے طور پر: ستون، کھمبا",
+      "vi": "Chính, chủ yếu, quan trọng nhất; cũng dùng như danh từ nghĩa là cột, cọc",
+      "zh": "主要的，主要；也用作名词，意为柱子、桩",
+      "zh_Hant": "主要的，主要；也用作名詞，意為柱子、樁"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/lak/",
+    "examples": [
+      {
+        "lao_script": "ນີ້ແມ່ນຖະໜົນຫລັກຂອງເມືອງ",
+        "romanization": "ni maen tha-non lak khong mueang",
+        "translations": {
+          "de": "Das ist die Hauptstraße der Stadt.",
+          "en": "This is the main road of the city.",
+          "es": "Esta es la calle principal de la ciudad.",
+          "fr": "C'est la rue principale de la ville.",
+          "hi": "यह शहर की मुख्य सड़क है।",
+          "ja": "これが町のメインストリートだ。",
+          "km": "នេះជាផ្លូវចម្បងនៃក្រុង។",
+          "ko": "이게 도시의 주요 도로야.",
+          "ne": "यो शहरको मुख्य सडक हो।",
+          "pt": "Esta é a rua principal da cidade.",
+          "th": "นี่คือถนนหลักของเมือง",
+          "tl": "Ito ang pangunahing kalsada ng lungsod.",
+          "ur": "یہ شہر کی مرکزی سڑک ہے۔",
+          "vi": "Đây là đường chính của thành phố.",
+          "zh": "这是城市的主要街道。",
+          "zh_Hant": "這是城市的主要街道。"
+        },
+        "out_of_scope_words": [
+          "ຖະໜົນ",
+          "ເມືອງ"
+        ]
+      },
+      {
+        "lao_script": "ສາເຫດຫລັກຄືຫຍັງ?",
+        "romanization": "sa-het lak khue nyang?",
+        "translations": {
+          "de": "Was ist der Hauptgrund?",
+          "en": "What is the main reason?",
+          "es": "¿Cuál es la razón principal?",
+          "fr": "Quelle est la raison principale?",
+          "hi": "मुख्य कारण क्या है?",
+          "ja": "主な理由は何？",
+          "km": "អ្វីជាហេតុផលចម្បង?",
+          "ko": "주된 이유가 뭐야?",
+          "ne": "मुख्य कारण के हो?",
+          "pt": "Qual é a razão principal?",
+          "th": "สาเหตุหลักคืออะไร?",
+          "tl": "Ano ang pangunahing dahilan?",
+          "ur": "بنیادی وجہ کیا ہے؟",
+          "vi": "Lý do chính là gì?",
+          "zh": "主要原因是什么？",
+          "zh_Hant": "主要原因是什麼？"
+        },
+        "out_of_scope_words": [
+          "ສາເຫດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a large central pillar or column highlighted in bold color among smaller ones, with a star or emphasis mark indicating 'main' or 'principal', on a clean white background, minimalist educational style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫົງ": {
+    "definitions": {
+      "de": "Reis kochen (in einem Topf dämpfen oder kochen); Grundkochvorgang in der laotischen Küche",
+      "en": "To cook rice (by steaming or boiling); a fundamental cooking action in Lao cuisine",
+      "es": "Cocinar arroz (al vapor o hervido); una acción culinaria fundamental en la cocina laosiana",
+      "fr": "Cuire le riz (à la vapeur ou à l'eau bouillante); une action culinaire fondamentale dans la cuisine laotienne",
+      "hi": "चावल पकाना (भाप में या उबालकर); लाओ खाना पकाने की एक मूल क्रिया",
+      "ja": "ご飯を炊く（蒸すまたは茹でる）；ラオス料理の基本的な調理行為",
+      "km": "ដាំបាយ (ដោយចំហុយឬដាំ); ដំណើរការចម្អិនអាហារជាមូលដ្ឋាននៅក្នុងម្ហូបឡាវ",
+      "ko": "밥을 짓다 (쪄서 또는 삶아서); 라오 요리의 기본 조리 행위",
+      "ne": "भात पकाउनु (भाफमा वा उमालेर); लाओ खानामा आधारभूत खाना पकाउने क्रिया",
+      "pt": "Cozinhar arroz (no vapor ou fervendo); uma ação culinária fundamental na cozinha laosiana",
+      "th": "หุงข้าว (นึ่งหรือต้ม); การกระทำที่พื้นฐานในการทำอาหารลาว",
+      "tl": "Magluto ng kanin (sa singaw o pagpapakulo); isang pangunahing gawaing pagluluto sa lutuing Lao",
+      "ur": "چاول پکانا (بھاپ میں یا ابال کر)؛ لاؤ کھانے میں ایک بنیادی کھانا پکانے کا عمل",
+      "vi": "Nấu cơm (bằng hơi hoặc luộc); một hành động nấu ăn cơ bản trong ẩm thực Lào",
+      "zh": "煮饭（蒸或煮）；老挝烹饪中的基本烹调动作",
+      "zh_Hant": "煮飯（蒸或煮）；寮國烹飪中的基本烹調動作"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/hoŋ/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ກຳລັງຫົງເຂົ້າຢູ່ໃນເຮືອນຄົວ",
+        "romanization": "mae gam-lang hong khao yu nai huan khua",
+        "translations": {
+          "de": "Mama kocht gerade Reis in der Küche.",
+          "en": "Mom is cooking rice in the kitchen right now.",
+          "es": "Mamá está cocinando arroz en la cocina ahora mismo.",
+          "fr": "Maman est en train de cuire le riz dans la cuisine.",
+          "hi": "माँ अभी रसोई में चावल पका रही है।",
+          "ja": "お母さんが今台所でご飯を炊いている。",
+          "km": "មាតាកំពុងដាំបាយនៅក្នុងផ្ទះបាយ។",
+          "ko": "엄마가 지금 주방에서 밥을 짓고 있어.",
+          "ne": "आमा अहिले भान्सामा भात पकाउँदै हुनुहुन्छ।",
+          "pt": "A mãe está cozinhando arroz na cozinha agora.",
+          "th": "แม่กำลังหุงข้าวอยู่ในครัว",
+          "tl": "Nagluluto ng kanin si nanay sa kusina ngayon.",
+          "ur": "ماں ابھی باورچی خانے میں چاول پکا رہی ہے۔",
+          "vi": "Mẹ đang nấu cơm trong bếp.",
+          "zh": "妈妈正在厨房里煮饭。",
+          "zh_Hant": "媽媽正在廚房裡煮飯。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນຄົວ"
+        ]
+      },
+      {
+        "lao_script": "ຫົງເຂົ້າໃຫ້ໝົດກ່ອນໄປ",
+        "romanization": "hong khao hai mot gon pai",
+        "translations": {
+          "de": "Koch den Reis fertig, bevor du gehst.",
+          "en": "Finish cooking the rice before you go.",
+          "es": "Termina de cocinar el arroz antes de irte.",
+          "fr": "Finis de cuire le riz avant de partir.",
+          "hi": "जाने से पहले चावल पकाना पूरा करो।",
+          "ja": "行く前にご飯を炊き終えてね。",
+          "km": "ដាំបាយឱ្យអស់មុននឹងទៅ។",
+          "ko": "가기 전에 밥 다 지어놔.",
+          "ne": "जानु अघि भात पकाएर सिध्याउनु।",
+          "pt": "Termine de cozinhar o arroz antes de ir.",
+          "th": "หุงข้าวให้หมดก่อนจะไป",
+          "tl": "Tapusin muna ang pagluluto ng kanin bago umalis.",
+          "ur": "جانے سے پہلے چاول پکانا مکمل کرو۔",
+          "vi": "Nấu cơm xong rồi hãy đi.",
+          "zh": "先把饭煮好再走。",
+          "zh_Hant": "先把飯煮好再走。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a steaming pot of rice being cooked on a stove, with visible steam rising from the pot, on a clean white background, warm colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫ້ວຍ": {
+    "definitions": {
+      "de": "Bach, kleiner Fluss; ein natürlicher kleiner Wasserlauf in der Landschaft",
+      "en": "Stream, creek; a small natural watercourse flowing through the landscape",
+      "es": "Arroyo, riachuelo; un pequeño curso de agua natural que fluye por el paisaje",
+      "fr": "Ruisseau, petit cours d'eau; un petit cours d'eau naturel qui coule dans le paysage",
+      "hi": "नाला, छोटी नदी; प्राकृतिक परिदृश्य में बहने वाली एक छोटी जलधारा",
+      "ja": "小川、せせらぎ；自然の中を流れる小さな水の流れ",
+      "km": "ស្ទឹងតូច, ច្រានទឹក; ដងទឹកតូចធម្មជាតិដែលហូរកាត់ទេសភូមិ",
+      "ko": "개울, 시내; 자연 경관을 흐르는 작은 자연 수로",
+      "ne": "खोला, नाला; परिदृश्यमा बग्ने सानो प्राकृतिक जलधारा",
+      "pt": "Riacho, córrego; um pequeno curso d'água natural que flui pela paisagem",
+      "th": "ห้วย, ลำธาร; ทางน้ำธรรมชาติขนาดเล็กที่ไหลผ่านภูมิประเทศ",
+      "tl": "Sapa, maliit na ilog; isang maliit na natural na agos ng tubig sa kalikasan",
+      "ur": "ندی، نالہ؛ ایک چھوٹا قدرتی آبی راستہ جو زمین سے گزرتا ہے",
+      "vi": "Suối, lạch; dòng nước tự nhiên nhỏ chảy qua cảnh quan",
+      "zh": "溪流，小溪；流经自然景观的小型天然水道",
+      "zh_Hant": "溪流，小溪；流經自然景觀的小型天然水道"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/huaj˥/",
+    "examples": [
+      {
+        "lao_script": "ເດັກໆລົງຫຼິ້ນນໍ້າໃນຫ້ວຍ",
+        "romanization": "dek dek long lin nam nai huai",
+        "translations": {
+          "de": "Die Kinder spielen im Bach.",
+          "en": "The kids go down to play in the stream.",
+          "es": "Los niños bajan a jugar en el arroyo.",
+          "fr": "Les enfants descendent jouer dans le ruisseau.",
+          "hi": "बच्चे नाले में खेलने उतरते हैं।",
+          "ja": "子どもたちが小川に降りて遊んでいる。",
+          "km": "កុមារៗចុះទៅលេងទឹកក្នុងស្ទឹងតូច។",
+          "ko": "아이들이 개울에 내려가서 물놀이를 해.",
+          "ne": "बच्चाहरू खोलामा खेल्न ओर्लन्छन्।",
+          "pt": "As crianças descem para brincar no riacho.",
+          "th": "เด็กๆ ลงไปเล่นน้ำในห้วย",
+          "tl": "Ang mga bata ay bumababa para maglaro sa sapa.",
+          "ur": "بچے نالے میں کھیلنے اترتے ہیں۔",
+          "vi": "Bọn trẻ xuống suối chơi nước.",
+          "zh": "孩子们下到小溪里玩水。",
+          "zh_Hant": "孩子們下到小溪裡玩水。"
+        },
+        "out_of_scope_words": [
+          "ເດັກໆ",
+          "ຫຼິ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ຫ້ວຍນີ້ນໍ້າໃສຫຼາຍ",
+        "romanization": "huai ni nam sai lai",
+        "translations": {
+          "de": "Das Wasser in diesem Bach ist sehr klar.",
+          "en": "The water in this stream is very clear.",
+          "es": "El agua de este arroyo es muy clara.",
+          "fr": "L'eau de ce ruisseau est très claire.",
+          "hi": "इस नाले का पानी बहुत साफ है।",
+          "ja": "この小川の水はとても澄んでいる。",
+          "km": "ទឹកក្នុងស្ទឹងនេះ맑ណាស់។",
+          "ko": "이 개울의 물은 매우 맑아.",
+          "ne": "यो खोलाको पानी धेरै सफा छ।",
+          "pt": "A água deste riacho é muito clara.",
+          "th": "น้ำในห้วยนี้ใสมาก",
+          "tl": "Ang tubig sa sapang ito ay napaka-linaw.",
+          "ur": "اس نالے کا پانی بہت صاف ہے۔",
+          "vi": "Nước ở suối này rất trong.",
+          "zh": "这条小溪的水非常清澈。",
+          "zh_Hant": "這條小溪的水非常清澈。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clear shallow stream or creek flowing through green grass and small rocks, with gentle ripples in the water, on a clean white background, bright natural colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

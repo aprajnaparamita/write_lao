@@ -1,0 +1,390 @@
+{
+  "ນອນ": {
+    "definitions": {
+      "de": "schlafen; sich hinlegen und ruhen",
+      "en": "to sleep; to lie down and rest",
+      "es": "dormir; acostarse y descansar",
+      "fr": "dormir; s'allonger et se reposer",
+      "hi": "सोना; लेटकर आराम करना",
+      "ja": "寝る；横になって休む",
+      "km": "គេង; ដេកសម្រាក",
+      "ko": "자다; 누워서 쉬다",
+      "ne": "सुत्नु; सुतेर आराम गर्नु",
+      "pt": "dormir; deitar-se e descansar",
+      "th": "นอน; นอนหลับพักผ่อน",
+      "tl": "matulog; humiga at magpahinga",
+      "ur": "سونا؛ لیٹ کر آرام کرنا",
+      "vi": "ngủ; nằm xuống nghỉ ngơi",
+      "zh": "睡觉；躺下休息",
+      "zh_Hant": "睡覺；躺下休息"
+    },
+    "part_of_speech": "verb",
+    "romanization": "nɔːn",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກນອນແລ້ວ ເມື່ອຍຫຼາຍ",
+        "romanization": "khɔ̂i yàak nɔːn lɛ́ːw, mɨ̂aj lǎːj",
+        "translations": {
+          "de": "Ich will jetzt schlafen, ich bin sehr müde.",
+          "en": "I want to sleep already, I'm so tired.",
+          "es": "Ya quiero dormir, estoy muy cansado/a.",
+          "fr": "Je veux déjà dormir, je suis vraiment fatigué(e).",
+          "hi": "मैं अभी सोना चाहता/चाहती हूँ, बहुत थक गया/गई हूँ।",
+          "ja": "もう寝たい、すごく疲れた。",
+          "km": "ខ្ញុំចង់គេងហើយ ហត់ណាស់។",
+          "ko": "이제 자고 싶어, 너무 피곤해.",
+          "ne": "म अहिले सुत्न चाहन्छु, धेरै थकित भएँ।",
+          "pt": "Já quero dormir, estou muito cansado/a.",
+          "th": "ฉันอยากนอนแล้ว เหนื่อยมากเลย",
+          "tl": "Gusto ko nang matulog, pagod na ako nang husto.",
+          "ur": "میں ابھی سونا چاہتا/چاہتی ہوں، بہت تھک گیا/گئی ہوں۔",
+          "vi": "Tôi muốn ngủ rồi, mệt lắm.",
+          "zh": "我想睡觉了，好累啊。",
+          "zh_Hant": "我想睡覺了，好累啊。"
+        },
+        "out_of_scope_words": [
+          "ເມື່ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ເຈົ້ານອນຈັກໂມງ",
+        "romanization": "mɨ́ː níː tɕâo nɔːn tɕàk móːŋ",
+        "translations": {
+          "de": "Wann bist du heute schlafen gegangen?",
+          "en": "What time did you go to sleep tonight?",
+          "es": "¿A qué hora te dormiste esta noche?",
+          "fr": "À quelle heure tu t'es couché(e) ce soir ?",
+          "hi": "आज तुम कितने बजे सोए/सोईं?",
+          "ja": "今日は何時に寝たの？",
+          "km": "យប់នេះអ្នកគេងម៉ោងប៉ុន្មាន?",
+          "ko": "오늘 몇 시에 잤어?",
+          "ne": "आज तिमी कति बजे सुत्यौ?",
+          "pt": "Que horas você foi dormir hoje à noite?",
+          "th": "วันนี้แกนอนกี่โมง",
+          "tl": "Anong oras ka natulog ngayong gabi?",
+          "ur": "آج تم کتنے بجے سوئے/سوئیں؟",
+          "vi": "Tối nay mày ngủ lúc mấy giờ?",
+          "zh": "你今天几点睡的？",
+          "zh_Hant": "你今天幾點睡的？"
+        },
+        "out_of_scope_words": [
+          "ຈັກໂມງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sleeping peacefully in bed, eyes closed, with a pillow and blanket, suitable for a language learning app, clean white background, soft colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສິນຄ້າ": {
+    "definitions": {
+      "de": "Waren; Handelsgüter; Produkte, die verkauft werden",
+      "en": "goods; merchandise; products that are bought and sold",
+      "es": "mercancía; bienes; productos que se compran y venden",
+      "fr": "marchandises; biens; produits achetés et vendus",
+      "hi": "माल; वस्तुएँ; खरीदी और बेची जाने वाली चीज़ें",
+      "ja": "商品；売買される物品・製品",
+      "km": "ទំនិញ; ទំនិញដែលត្រូវបានទិញនិងលក់",
+      "ko": "상품; 물건; 사고팔리는 제품",
+      "ne": "सामान; व्यापारिक वस्तुहरू; किन्ने-बेच्ने उत्पादनहरू",
+      "pt": "mercadoria; bens; produtos que são comprados e vendidos",
+      "th": "สินค้า; ของที่ซื้อขาย; ผลิตภัณฑ์",
+      "tl": "kalakal; mga produktong binibili at ibinebenta",
+      "ur": "مال؛ تجارتی سامان؛ خریدے اور بیچے جانے والی اشیاء",
+      "vi": "hàng hóa; sản phẩm mua bán",
+      "zh": "商品；货物；买卖的物品",
+      "zh_Hant": "商品；貨物；買賣的物品"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sǐn kháː",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານນີ້ມີສິນຄ້າຫຼາຍຊະນິດ",
+        "romanization": "hâːn níː míː sǐn kháː lǎːj sā nít",
+        "translations": {
+          "de": "Dieser Laden hat viele verschiedene Waren.",
+          "en": "This shop has many kinds of goods.",
+          "es": "Esta tienda tiene muchos tipos de mercancía.",
+          "fr": "Ce magasin a beaucoup de types de marchandises.",
+          "hi": "इस दुकान में कई तरह का माल है।",
+          "ja": "このお店にはたくさんの種類の商品がある。",
+          "km": "ហាងនេះមានទំនិញច្រើនប្រភេទ។",
+          "ko": "이 가게에는 많은 종류의 상품이 있어.",
+          "ne": "यो पसलमा धेरै किसिमका सामानहरू छन्।",
+          "pt": "Esta loja tem muitos tipos de mercadoria.",
+          "th": "ร้านนี้มีสินค้าหลายชนิดเลย",
+          "tl": "Ang tindahang ito ay may maraming uri ng kalakal.",
+          "ur": "اس دکان میں بہت طرح کا سامان ہے۔",
+          "vi": "Cửa hàng này có nhiều loại hàng hóa lắm.",
+          "zh": "这家店有很多种商品。",
+          "zh_Hant": "這家店有很多種商品。"
+        },
+        "out_of_scope_words": [
+          "ຊະນິດ"
+        ]
+      },
+      {
+        "lao_script": "ສິນຄ້າໃໝ່ມາຮອດແລ້ວ ລາຄາດີຫຼາຍ",
+        "romanization": "sǐn kháː mài máː hɔ̂t lɛ́ːw, láː kháː díː lǎːj",
+        "translations": {
+          "de": "Die neuen Waren sind angekommen, der Preis ist sehr gut.",
+          "en": "The new goods have arrived, the price is really good.",
+          "es": "La nueva mercancía ha llegado, el precio es muy bueno.",
+          "fr": "Les nouvelles marchandises sont arrivées, le prix est vraiment bien.",
+          "hi": "नया माल आ गया है, कीमत बहुत अच्छी है।",
+          "ja": "新しい商品が届いた、値段がすごくいい。",
+          "km": "ទំនិញថ្មីមកដល់ហើយ តម្លៃល្អណាស់។",
+          "ko": "새 상품이 도착했어, 가격이 정말 좋아.",
+          "ne": "नयाँ सामान आइपुग्यो, मूल्य धेरै राम्रो छ।",
+          "pt": "A nova mercadoria chegou, o preço é muito bom.",
+          "th": "สินค้าใหม่มาถึงแล้ว ราคาดีมากเลย",
+          "tl": "Dumating na ang bagong kalakal, napakaganda ng presyo.",
+          "ur": "نیا سامان آ گیا ہے، قیمت بہت اچھی ہے۔",
+          "vi": "Hàng mới về rồi, giá tốt lắm.",
+          "zh": "新商品到货了，价格非常好。",
+          "zh_Hant": "新商品到貨了，價格非常好。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a market stall or shop shelf neatly displaying various colorful goods and products, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮ້າຍ": {
+    "definitions": {
+      "de": "schlecht; böse; wild; gefährlich; grausam",
+      "en": "bad; fierce; wicked; dangerous; cruel",
+      "es": "malo; feroz; malvado; peligroso; cruel",
+      "fr": "mauvais; féroce; méchant; dangereux; cruel",
+      "hi": "बुरा; खूंखार; क्रूर; खतरनाक; दुष्ट",
+      "ja": "悪い；凶暴な；危険な；残酷な",
+      "km": "អាក្រក់; គ្រោះថ្នាក់; ដាញ់; ឃោរឃៅ",
+      "ko": "나쁜; 사나운; 위험한; 잔인한",
+      "ne": "नराम्रो; हिंस्रक; खतरनाक; क्रूर",
+      "pt": "mau; feroz; perigoso; cruel; malvado",
+      "th": "ร้าย; ดุร้าย; อันตราย; ชั่วร้าย",
+      "tl": "masama; mabangis; mapanganib; ma残cruel",
+      "ur": "برا؛ خونخوار؛ خطرناک؛ ظالم",
+      "vi": "xấu; hung dữ; nguy hiểm; tàn ác",
+      "zh": "坏；凶猛；危险；残忍",
+      "zh_Hant": "壞；兇猛；危險；殘忍"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "hâːj",
+    "examples": [
+      {
+        "lao_script": "ໝາຂອງເພື່ອນຂ້ອຍຮ້າຍຫຼາຍ ຢ່າໄປໃກ້",
+        "romanization": "mǎː khɔ̌ːŋ pɨ̂an khɔ̂i hâːj lǎːj, yàː paj klâj",
+        "translations": {
+          "de": "Der Hund meines Freundes ist sehr wild, geh nicht zu nah ran.",
+          "en": "My friend's dog is really fierce, don't go near it.",
+          "es": "El perro de mi amigo es muy feroz, no te acerques.",
+          "fr": "Le chien de mon ami est très féroce, ne t'en approche pas.",
+          "hi": "मेरे दोस्त का कुत्ता बहुत खूंखार है, उसके पास मत जाओ।",
+          "ja": "友達の犬はすごく凶暴だから、近づかないで。",
+          "km": "សុនខរបស់មិត្តខ្ញុំដាញ់ណាស់ កុំទៅជិត។",
+          "ko": "내 친구 개는 엄청 사나워, 가까이 가지 마.",
+          "ne": "मेरो साथीको कुकुर धेरै हिंस्रक छ, नजिक नजाऊ।",
+          "pt": "O cachorro do meu amigo é muito feroz, não chegue perto.",
+          "th": "หมาของเพื่อนฉันดุมากเลย อย่าเข้าไปใกล้",
+          "tl": "Ang aso ng kaibigan ko ay napakabangis, huwag kang lumapit.",
+          "ur": "میرے دوست کا کتا بہت خونخوار ہے، قریب مت جاؤ۔",
+          "vi": "Con chó của bạn tôi hung dữ lắm, đừng lại gần.",
+          "zh": "我朋友的狗非常凶，不要靠近。",
+          "zh_Hant": "我朋友的狗非常兇，不要靠近。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ໃກ້"
+        ]
+      },
+      {
+        "lao_script": "ຄົນນັ້ນໃຈຮ້າຍງ່າຍ ລະວັງດ້ວຍ",
+        "romanization": "khón nân tɕâj hâːj ŋàːj, lā wáŋ dûaj",
+        "translations": {
+          "de": "Diese Person wird leicht wütend, pass auf.",
+          "en": "That person gets angry easily, be careful.",
+          "es": "Esa persona se enoja fácilmente, ten cuidado.",
+          "fr": "Cette personne se met facilement en colère, fais attention.",
+          "hi": "वह इंसान आसानी से गुस्सा हो जाता/जाती है, सावधान रहो।",
+          "ja": "あの人はすぐ怒るから、気をつけて。",
+          "km": "មនុស្សនោះខឹងងាយ សូមប្រយ័ត្ន។",
+          "ko": "저 사람은 쉽게 화내, 조심해.",
+          "ne": "त्यो मान्छे सजिलै रिसाउँछ, सावधान रह।",
+          "pt": "Aquela pessoa fica com raiva facilmente, tome cuidado.",
+          "th": "คนนั้นใจร้ายง่าย ระวังด้วยนะ",
+          "tl": "Ang taong iyon ay madaling magalit, mag-ingat ka.",
+          "ur": "وہ شخص آسانی سے غصہ ہو جاتا/جاتی ہے، محتاط رہو۔",
+          "vi": "Người đó dễ nổi giận lắm, cẩn thận đó.",
+          "zh": "那个人很容易发火，小心点。",
+          "zh_Hant": "那個人很容易發火，小心點。"
+        },
+        "out_of_scope_words": [
+          "ລະວັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a fierce-looking growling dog with bared teeth, shown as a cartoon character with an angry expression, suitable for a language learning app, clean white background, bold colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເກັບ": {
+    "definitions": {
+      "de": "sammeln; aufheben; aufbewahren; einsammeln",
+      "en": "to collect; to pick up; to keep; to store away",
+      "es": "recoger; guardar; coleccionar; almacenar",
+      "fr": "ramasser; collecter; garder; ranger; conserver",
+      "hi": "इकट्ठा करना; उठाना; रखना; संग्रह करना",
+      "ja": "集める；拾う；しまう；保管する",
+      "km": "រើស; ប្រមូល; រក្សា; ដាក់ទុក",
+      "ko": "모으다; 줍다; 보관하다; 치우다",
+      "ne": "सङ्कलन गर्नु; उठाउनु; राख्नु; जम्मा गर्नु",
+      "pt": "colecionar; guardar; recolher; armazenar",
+      "th": "เก็บ; รวบรวม; เก็บรักษา; หยิบเก็บ",
+      "tl": "mangolekta; mag-ipon; itago; kunin",
+      "ur": "جمع کرنا؛ اٹھانا؛ رکھنا؛ محفوظ کرنا",
+      "vi": "thu thập; nhặt; cất đi; giữ lại",
+      "zh": "收集；捡起；保存；收起来",
+      "zh_Hant": "收集；撿起；保存；收起來"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kép",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍເກັບຂອງໃຫ້ແດ່ ຈະອອກໄປແລ້ວ",
+        "romanization": "sùaj kép khɔ̌ːŋ hâj dɛ̀ː, tɕā ɔ̀ːk paj lɛ́ːw",
+        "translations": {
+          "de": "Hilf mir bitte, die Sachen wegzuräumen, wir gehen gleich.",
+          "en": "Help me put the stuff away, we're about to leave.",
+          "es": "Ayúdame a guardar las cosas, ya nos vamos.",
+          "fr": "Aide-moi à ranger les affaires, on est sur le point de partir.",
+          "hi": "चीज़ें रखने में मदद करो, हम अभी निकलने वाले हैं।",
+          "ja": "荷物をしまうのを手伝って、もう出かけるよ。",
+          "km": "ជួយដាក់ទុករបស់ផង ចេញទៅហើយ។",
+          "ko": "짐 좀 치우는 거 도와줘, 이제 나갈 거야.",
+          "ne": "सामान राख्न मद्दत गर, हामी अहिले जाँदैछौं।",
+          "pt": "Me ajuda a guardar as coisas, já vamos sair.",
+          "th": "ช่วยเก็บของให้หน่อยนะ จะออกไปแล้ว",
+          "tl": "Tulungan mo akong itago ang mga gamit, aalis na tayo.",
+          "ur": "سامان رکھنے میں مدد کرو، ہم ابھی نکلنے والے ہیں۔",
+          "vi": "Giúp tao dọn đồ đi, sắp ra ngoài rồi.",
+          "zh": "帮我把东西收起来，马上要出发了。",
+          "zh_Hant": "幫我把東西收起來，馬上要出發了。"
+        },
+        "out_of_scope_words": [
+          "ອອກ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເກັບເງິນໄວ້ຫຼາຍບໍ່",
+        "romanization": "tɕâo kép ŋɤ́n wáj lǎːj bɔ̀ː",
+        "translations": {
+          "de": "Hast du viel Geld gespart?",
+          "en": "Have you saved up a lot of money?",
+          "es": "¿Has ahorrado mucho dinero?",
+          "fr": "Tu as mis de côté beaucoup d'argent ?",
+          "hi": "क्या तुमने बहुत पैसे बचाए हैं?",
+          "ja": "お金たくさん貯めてる？",
+          "km": "តើអ្នកសន្សំប្រាក់បានច្រើនទេ?",
+          "ko": "돈 많이 모아뒀어?",
+          "ne": "तिमीले धेरै पैसा जम्मा गरेका छौ?",
+          "pt": "Você guardou muito dinheiro?",
+          "th": "แกเก็บเงินไว้เยอะไหม",
+          "tl": "Nag-ipon ka na ba ng maraming pera?",
+          "ur": "کیا تم نے بہت پیسے جمع کیے ہیں؟",
+          "vi": "Mày có dành dụm được nhiều tiền không?",
+          "zh": "你存了很多钱吗？",
+          "zh_Hant": "你存了很多錢嗎？"
+        },
+        "out_of_scope_words": [
+          "ເງິນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person picking up and collecting items into a box or basket, shown in a tidy room, suitable for a language learning app, clean white background, cheerful colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແພງ": {
+    "definitions": {
+      "de": "teuer; kostspielig; hoher Preis",
+      "en": "expensive; costly; high-priced",
+      "es": "caro; costoso; de precio elevado",
+      "fr": "cher; coûteux; prix élevé",
+      "hi": "महंगा; महँगा; ऊँची कीमत वाला",
+      "ja": "高い；値段が高い；高価な",
+      "km": "ថ្លៃ; មានតម្លៃខ្ពស់",
+      "ko": "비싸다; 값이 높다; 고가의",
+      "ne": "महँगो; उच्च मूल्यको",
+      "pt": "caro; dispendioso; de preço alto",
+      "th": "แพง; ราคาสูง; มีราคาแพง",
+      "tl": "mahal; mataas ang presyo; magastos",
+      "ur": "مہنگا؛ قیمتی؛ اونچے دام کا",
+      "vi": "đắt; đắt tiền; giá cao",
+      "zh": "贵；价格高；昂贵",
+      "zh_Hant": "貴；價格高；昂貴"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "phɛ́ːŋ",
+    "examples": [
+      {
+        "lao_script": "ໂທລະສັບໃໝ່ເຄື່ອງນີ້ແພງຫຼາຍ ຊື້ບໍ່ໄດ້",
+        "romanization": "tʰóː lā sáp mài khɨ̂aŋ níː phɛ́ːŋ lǎːj, sɨ́ː bɔ̀ː dâj",
+        "translations": {
+          "de": "Dieses neue Handy ist sehr teuer, ich kann es mir nicht leisten.",
+          "en": "This new phone is really expensive, I can't buy it.",
+          "es": "Este nuevo teléfono es muy caro, no puedo comprarlo.",
+          "fr": "Ce nouveau téléphone est vraiment cher, je ne peux pas l'acheter.",
+          "hi": "यह नया फोन बहुत महंगा है, मैं इसे खरीद नहीं सकता/सकती।",
+          "ja": "この新しい携帯はすごく高くて、買えない。",
+          "km": "ទូរស័ព្ទថ្មីនេះថ្លៃណាស់ មិនអាចទិញបានទេ។",
+          "ko": "이 새 휴대폰 너무 비싸, 살 수가 없어.",
+          "ne": "यो नयाँ फोन धेरै महँगो छ, किन्न सकिँदैन।",
+          "pt": "Este celular novo é muito caro, não consigo comprar.",
+          "th": "โทรศัพท์ใหม่เครื่องนี้แพงมาก ซื้อไม่ได้เลย",
+          "tl": "Ang bagong telepono na ito ay napakamamahal, hindi ko mabibili.",
+          "ur": "یہ نیا فون بہت مہنگا ہے، خرید نہیں سکتا/سکتی۔",
+          "vi": "Cái điện thoại mới này đắt lắm, mua không nổi.",
+          "zh": "这部新手机太贵了，买不起。",
+          "zh_Hant": "這部新手機太貴了，買不起。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ເຄື່ອງ"
+        ]
+      },
+      {
+        "lao_script": "ຂອງຢູ່ຕະຫຼາດນີ້ແພງກວ່າໃນເມືອງ",
+        "romanization": "khɔ̌ːŋ yùː tā làːt níː phɛ́ːŋ kwàː naj mɨ́aŋ",
+        "translations": {
+          "de": "Die Waren auf diesem Markt sind teurer als in der Stadt.",
+          "en": "Stuff at this market is more expensive than in the city.",
+          "es": "Las cosas en este mercado son más caras que en la ciudad.",
+          "fr": "Les articles de ce marché sont plus chers que ceux en ville.",
+          "hi": "इस बाजार में चीज़ें शहर से ज़्यादा महंगी हैं।",
+          "ja": "このマーケットのものは市内より高い。",
+          "km": "របស់នៅផ្សារនេះថ្លៃជាងក្នុងក្រុង។",
+          "ko": "이 시장 물건들이 시내보다 더 비싸.",
+          "ne": "यो बजारका सामानहरू सहरभन्दा महँगो छन्।",
+          "pt": "As coisas neste mercado são mais caras do que na cidade.",
+          "th": "ของที่ตลาดนี้แพงกว่าในเมืองเลย",
+          "tl": "Ang mga bagay sa palengkeng ito ay mas mahal kaysa sa lungsod.",
+          "ur": "اس بازار کی چیزیں شہر سے زیادہ مہنگی ہیں۔",
+          "vi": "Đồ ở chợ này đắt hơn trong thành phố.",
+          "zh": "这个市场的东西比城里贵。",
+          "zh_Hant": "這個市場的東西比城裡貴。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ",
+          "ເມືອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a shocked person looking at a price tag with a large number on a product in a store, with a surprised expression, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

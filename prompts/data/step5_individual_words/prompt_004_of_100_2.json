@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວັນ",
+  "definitions": {
+    "de": "Tag (24-Stunden-Zeitraum, Wochentag)",
+    "en": "day (24-hour period; day of the week)",
+    "es": "día (período de 24 horas; día de la semana)",
+    "fr": "jour (période de 24 heures; jour de la semaine)",
+    "hi": "दिन (24 घंटे का समय; सप्ताह का दिन)",
+    "ja": "日／曜日（24時間の期間、週の日）",
+    "km": "ថ្ងៃ (រយៈពេល២៤ម៉ោង ឬថ្ងៃនៃសប្តាហ៍)",
+    "ko": "날／요일 (24시간 혹은 요일)",
+    "ne": "दिन (२४ घण्टे समय वा हप्ताको दिन)",
+    "pt": "dia (período de 24 horas; dia da semana)",
+    "th": "วัน (ช่วงเวลา 24 ชั่วโมง หรือวันในสัปดาห์)",
+    "tl": "araw (24 oras na panahon o araw ng linggo)",
+    "ur": "دن (چوبیس گھنٹے کا دورانیہ یا ہفتے کا دن)",
+    "vi": "ngày (khoảng 24 giờ; ngày trong tuần)",
+    "zh": "日／天（24 小时的一段或星期中的一天）",
+    "zh_Hant": "日／天（24 小時的一段或星期中的一天）"
+  },
+  "definition_en": "day (24-hour period; day of the week)",
+  "romanization": "wán",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ ນີ້ ເປັນ ວັນ ດີ",
+      "romanization": "mɯ̂ː nîː pēn wán dìː",
+      "translation_en": "Today is a good day."
+    },
+    {
+      "lao_script": "ຂ້ອຍ ເຮັດ ວຽກ ທຸກ ວັນ",
+      "romanization": "kʰɔ̂ːj hēt wîːək tʰūk wán",
+      "translation_en": "I work every day."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a sun rising over a horizon with a small calendar icon beside it, representing a day, suitable for a language learning app, clean white background, minimalist style."
+}

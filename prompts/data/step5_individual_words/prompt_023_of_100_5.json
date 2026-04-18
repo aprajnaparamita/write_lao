@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລ້ານ",
+  "definitions": {
+    "de": "Million (die Zahl 1.000.000); auch ein poetischer Name für Laos (Land der Millionen Elefanten)",
+    "en": "Million (the number 1,000,000); also a poetic name for Laos (land of a million elephants)",
+    "es": "Millón (el número 1.000.000); también un nombre poético para Laos (tierra del millón de elefantes)",
+    "fr": "Million (le nombre 1 000 000); aussi un nom poétique pour le Laos (pays du million d'éléphants)",
+    "hi": "दस लाख या दस लाख (संख्या 1,000,000); लाओस का एक काव्यात्मक नाम भी (दस लाख हाथियों की भूमि)",
+    "ja": "百万（1,000,000という数）；また、ラオスの詩的な呼び名（百万頭の象の国）",
+    "km": "មួយលាន (លេខ ១.០០០.០០០); ក៏ជាឈ្មោះកាព្យសម្រាប់ប្រទេសឡាវ (ដែននៃដំរីមួយលាន)",
+    "ko": "백만 (숫자 1,000,000); 라오스의 시적 이름이기도 함 (백만 마리 코끼리의 땅)",
+    "ne": "दस लाख (संख्या १,०००,०००); लाओसको काव्यात्मक नाम पनि (दस लाख हात्तीको भूमि)",
+    "pt": "Milhão (o número 1.000.000); também um nome poético para o Laos (terra do milhão de elefantes)",
+    "th": "ล้าน (ตัวเลข 1,000,000); ยังเป็นชื่อกวีของลาว (แผ่นดินแห่งช้างล้านตัว)",
+    "tl": "Milyon (ang bilang na 1,000,000); isa rin itong makatang pangalan para sa Laos (lupain ng isang milyong elepante)",
+    "ur": "دس لاکھ (عدد 1,000,000)؛ لاؤس کا ایک شاعرانہ نام بھی (دس لاکھ ہاتھیوں کی سرزمین)",
+    "vi": "Triệu (số 1.000.000); cũng là tên thơ của Lào (đất nước triệu voi)",
+    "zh": "百万（数字1,000,000）；也是老挝的诗意名称（百万大象之国）",
+    "zh_Hant": "百萬（數字1,000,000）；也是寮國的詩意名稱（百萬大象之國）"
+  },
+  "definition_en": "Million (the number 1,000,000); also a poetic name for Laos (land of a million elephants)",
+  "romanization": "laːn",
+  "lao_examples": [
+    {
+      "lao_script": "ລາຄານີ້ແພງຫຼາຍ, ສາມລ້ານກີບ",
+      "romanization": "laː kʰaː níː pɛːŋ laːj, saːm laːn kíːp",
+      "translation_en": "This price is really expensive, three million kip"
+    },
+    {
+      "lao_script": "ຄົນທົ່ວໂລກຫຼາຍກວ່າເຈັດພັນລ້ານຄົນ",
+      "romanization": "kʰon tʰua loːk laːj kwaː tɕet pʰan laːn kʰon",
+      "translation_en": "There are more than seven billion people in the whole world"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the number 1,000,000 displayed in large bold digits with colorful coins or stars around it to represent a large amount of money or a big number, suitable for a language learning app, clean white background, minimalist style"
+}

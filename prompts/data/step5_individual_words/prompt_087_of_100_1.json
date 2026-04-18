@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໝັ້ນ",
+  "definitions": {
+    "de": "Fest, entschlossen, sicher; auch: verlobt (in einer festen Beziehung)",
+    "en": "Firm, steadfast, certain; also used to mean engaged (as in betrothed)",
+    "es": "Firme, decidido, seguro; también se usa para indicar que alguien está comprometido (prometido en matrimonio)",
+    "fr": "Ferme, résolu, certain; aussi utilisé pour dire fiancé(e) ou engagé(e) dans une relation",
+    "hi": "दृढ़, स्थिर, निश्चित; इसका उपयोग सगाई (मंगेतर) के अर्थ में भी होता है",
+    "ja": "しっかりしている、確固とした、確かな；婚約しているという意味でも使われる",
+    "km": "រឹងមាំ, ស្ថិតស្ថេរ, ប្រាកដ; ក៏ប្រើដើម្បីបញ្ជាក់ថាបានដណ្តឹងគ្នាផងដែរ",
+    "ko": "확고한, 굳건한, 확실한; 약혼했다는 의미로도 사용됨",
+    "ne": "दृढ़, स्थिर, निश्चित; सगाई भएको (मंगल सूत्र) भन्ने अर्थमा पनि प्रयोग हुन्छ",
+    "pt": "Firme, resoluto, certo; também usado para indicar noivado (comprometido em casamento)",
+    "th": "มั่นคง, แน่วแน่, แน่ใจ; ยังใช้ในความหมายว่าหมั้นหมาย (คู่หมั้น) ด้วย",
+    "tl": "Matatag, matibay, tiyak; ginagamit din para sabihing katipan (nakatakdang ikasal)",
+    "ur": "مضبوط، پختہ، یقینی؛ منگنی (نامزد) کے مفہوم میں بھی استعمال ہوتا ہے",
+    "vi": "Vững chắc, kiên định, chắc chắn; cũng dùng để chỉ đã đính hôn (đã đính ước)",
+    "zh": "坚定的，稳固的，确定的；也用于表示已订婚（未婚夫/妻）",
+    "zh_Hant": "堅定的，穩固的，確定的；也用於表示已訂婚（未婚夫/妻）"
+  },
+  "definition_en": "Firm, steadfast, certain; also used to mean engaged (as in betrothed)",
+  "romanization": "/man˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົາເຈົ້າໝັ້ນກັນແລ້ວ ຍິ້ມດີຫຼາຍ",
+      "romanization": "khao jao man kan laew, yim di lai",
+      "translation_en": "They're engaged now – they're smiling so happily."
+    },
+    {
+      "lao_script": "ໃຈຂອງລາວໝັ້ນຫຼາຍ ບໍ່ຫວັ່ນໄຫວເລີຍ",
+      "romanization": "jai khong lao man lai, bo wan wai loei",
+      "translation_en": "His heart is very firm – he doesn't waver at all."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a couple wearing traditional Lao engagement bracelets, smiling and holding hands, clean white background, warm colors, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢ້ຽມ",
+  "definitions": {
+    "de": "Besuchen; jemanden aufsuchen; vorbeischauen",
+    "en": "To visit; to go and see someone; to drop by",
+    "es": "Visitar; ir a ver a alguien; pasar a ver",
+    "fr": "Rendre visite ; aller voir quelqu'un ; passer voir",
+    "hi": "मिलने जाना; किसी से मिलने आना; देखने जाना",
+    "ja": "訪問する；会いに行く；立ち寄る",
+    "km": "មកលេង; ទៅជួប; ចូលទៅគាំទ្រ",
+    "ko": "방문하다; 누군가를 만나러 가다; 들르다",
+    "ne": "भेट्न जानु; कसैलाई हेर्न जानु; अड्किनु",
+    "pt": "Visitar; ir ver alguém; dar uma passagem",
+    "th": "ไปเยี่ยม; ไปหา; แวะเยี่ยมเยียน",
+    "tl": "Bumisita; pumunta upang makita ang isang tao; dumaan",
+    "ur": "ملنے جانا؛ کسی سے ملاقات کرنا؛ عیادت کرنا",
+    "vi": "Thăm; đi thăm ai đó; ghé thăm",
+    "zh": "拜访；探望；去看望某人",
+    "zh_Hant": "拜訪；探望；去看望某人"
+  },
+  "definition_en": "To visit; to go and see someone; to drop by",
+  "romanization": "ɲiːam³³",
+  "lao_examples": [
+    {
+      "lao_script": "ເດືອນໜ້າ ຂ້ອຍຈະໄປຢ້ຽມຍ່າ",
+      "romanization": "dɯːan naː, kʰɔːj tɕaː pai ɲiːam ɲaː",
+      "translation_en": "Next month, I'm going to visit my grandma."
+    },
+    {
+      "lao_script": "ໄປຢ້ຽມໝູ່ທີ່ເຈັບຢູ່ໂຮງໝໍ",
+      "romanization": "pai ɲiːam muː tʰiː tɕep juː hoːŋ mɔː",
+      "translation_en": "I went to visit my friend who is sick in the hospital."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person holding flowers, standing at the doorway of a house to visit a friend who is welcoming them, suitable for a language learning app, clean white background, warm colors, minimalist cartoon style."
+}

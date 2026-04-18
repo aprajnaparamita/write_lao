@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໜຸ່ມ",
+  "definitions": {
+    "de": "Junger Mann – ein soziales Substantiv, das einen jungen unverheirateten oder jugendlichen Mann bezeichnet",
+    "en": "Young man – a social noun referring to a young, typically unmarried or youthful male",
+    "es": "Hombre joven – sustantivo social que se refiere a un varón joven, generalmente soltero o adolescente",
+    "fr": "Jeune homme – nom social désignant un jeune homme, généralement célibataire ou adolescent",
+    "hi": "युवा पुरुष – एक सामाजिक संज्ञा जो एक युवा, आमतौर पर अविवाहित या किशोर पुरुष को संदर्भित करती है",
+    "ja": "若い男性 – 若い、一般的に未婚または青年期の男性を指す社会的名詞",
+    "km": "យុវវ័យប្រុស – នាមសង្គមសម្តៅទៅលើបុរសវ័យក្មេង ជាធម្មតាមិនទាន់រៀបការ",
+    "ko": "젊은 남자 – 젊고 대개 미혼이거나 청소년기의 남성을 가리키는 사회적 명사",
+    "ne": "युवा पुरुष – एउटा सामाजिक संज्ञा जसले एक युवा, सामान्यतः अविवाहित वा किशोर पुरुषलाई सन्दर्भ गर्छ",
+    "pt": "Rapaz / Jovem – substantivo social que se refere a um homem jovem, geralmente solteiro ou adolescente",
+    "th": "หนุ่ม – คำนามทางสังคมที่หมายถึงชายหนุ่ม มักใช้กับชายที่ยังโสดหรืออยู่ในวัยหนุ่ม",
+    "tl": "Binata / Kabataang lalaki – isang panlipunang pangngalan na tumutukoy sa isang batang lalaki, karaniwang hindi pa kasal",
+    "ur": "نوجوان آدمی – ایک سماجی اسم جو ایک نوجوان، عام طور پر غیر شادی شدہ یا کم عمر مرد کو ظاہر کرتا ہے",
+    "vi": "Chàng trai / Thanh niên – danh từ xã hội chỉ một người đàn ông trẻ, thường chưa kết hôn",
+    "zh": "年轻男子 – 社会名词，指年轻的、通常未婚或处于青年期的男性",
+    "zh_Hant": "年輕男子 – 社會名詞，指年輕的、通常未婚或處於青年期的男性"
+  },
+  "definition_en": "Young man – a social noun referring to a young, typically unmarried or youthful male",
+  "romanization": "/nùm/",
+  "lao_examples": [
+    {
+      "lao_script": "ໜຸ່ມຄົນນັ້ນຫຼິ້ນກີຕ້າເກັ່ງຫຼາຍ",
+      "romanization": "num khon nan lin gi taa geng laai",
+      "translation_en": "That young man plays guitar really well."
+    },
+    {
+      "lao_script": "ໜຸ່ມໆ ໃນບ້ານຊ່ວຍກັນເຮັດວຽກ",
+      "romanization": "num num nai baan suai kan het wiak",
+      "translation_en": "The young men in the village help each other with work."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful young man in casual clothes, standing confidently with a friendly smile, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

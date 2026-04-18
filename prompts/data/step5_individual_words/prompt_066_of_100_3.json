@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທິ້ມ",
+  "definitions": {
+    "de": "Werfen, wegwerfen, weglegen; etwas loslassen oder entsorgen",
+    "en": "To throw, toss, discard, or abandon; to let go of something",
+    "es": "Tirar, lanzar, desechar; soltar o deshacerse de algo",
+    "fr": "Jeter, lancer, se débarrasser de; lâcher quelque chose",
+    "hi": "फेंकना, छोड़ देना, त्याग करना; किसी चीज़ को जाने देना",
+    "ja": "投げる、捨てる、放棄する；何かを手放す",
+    "km": "បោះ ចោល ឬលះបង់; ដាក់ចោលអ្វីមួយ",
+    "ko": "던지다, 버리다, 내다 버리다; 무언가를 놓아버리다",
+    "ne": "फाल्नु, छोड्नु, त्याग गर्नु; केही चिजलाई जान दिनु",
+    "pt": "Jogar, atirar, descartar, abandonar; largar algo",
+    "th": "โยน ทิ้ง หรือละทิ้ง; ปล่อยหรือกำจัดสิ่งใดสิ่งหนึ่ง",
+    "tl": "Itapon, ihagis, iwanan; pakawalan o alisin ang isang bagay",
+    "ur": "پھینکنا، چھوڑنا، ترک کرنا؛ کسی چیز کو جانے دینا",
+    "vi": "Ném, vứt bỏ, từ bỏ; buông bỏ thứ gì đó",
+    "zh": "扔、丢弃、抛弃；放开或处理掉某物",
+    "zh_Hant": "扔、丟棄、拋棄；放開或處理掉某物"
+  },
+  "definition_en": "To throw, toss, discard, or abandon; to let go of something",
+  "romanization": "/tʰím/",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າທິ້ມຂີ້ເຫຍື້ອລົງຖະໜົນ",
+      "romanization": "yàa thím khîi ɲɯ̂a long thhanǒn",
+      "translation_en": "Don't throw trash on the street."
+    },
+    {
+      "lao_script": "ເຈົ້າທິ້ມໂທລະສັບລົງໃສ່ຖົງໄດ້ເລີຍ",
+      "romanization": "jao thím tholasap long sài thong dâi loei",
+      "translation_en": "Just toss your phone into the bag."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person tossing a piece of trash into a trash can with a throwing motion, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

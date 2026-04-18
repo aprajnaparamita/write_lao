@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕັ້ງ",
+  "definitions": {
+    "de": "Aufstellen / gründen / seit – etwas aufstellen oder einrichten; auch verwendet, um einen Zeitpunkt anzugeben (seit)",
+    "en": "Set up / establish / since – to place or establish something upright; also used to indicate a starting point in time (since)",
+    "es": "Establecer / colocar / desde – colocar o establecer algo; también usado para indicar un punto de inicio en el tiempo (desde)",
+    "fr": "Installer / établir / depuis – poser ou établir quelque chose; aussi utilisé pour indiquer un point de départ dans le temps (depuis)",
+    "hi": "स्थापित करना / रखना / से – कुछ खड़ा करना या स्थापित करना; समय के शुरुआती बिंदु को भी इंगित करता है (से/तब से)",
+    "ja": "設置する・設立する・〜から – 何かを立てたり設立したりする；時間の起点（〜から）を示すのにも使われる",
+    "km": "បង្កើត / ដំឡើង / តាំងពី – ដាក់ ឬបង្កើតអ្វីមួយ; ក៏ប្រើដើម្បីបង្ហាញចំណុចចាប់ផ្តើមនៃពេលវេលា (តាំងពី)",
+    "ko": "세우다 / 설립하다 / 부터 – 무언가를 세우거나 설치하다; 시간의 시작점(~부터)을 나타낼 때도 사용",
+    "ne": "स्थापना गर्नु / राख्नु / देखि – केही खडा गर्नु वा स्थापित गर्नु; समयको सुरुवाती बिन्दु (देखि) जनाउन पनि प्रयोग हुन्छ",
+    "pt": "Instalar / estabelecer / desde – colocar ou estabelecer algo; também usado para indicar um ponto de início no tempo (desde)",
+    "th": "ตั้ง – วางตั้ง / ก่อตั้ง / ตั้งแต่; ใช้ได้ทั้งในความหมายของการวางสิ่งของและการระบุจุดเริ่มต้นของเวลา",
+    "tl": "Itayo / itatag / mula noong – maglagay o magtatag ng isang bagay; ginagamit din upang ipahiwatig ang simula ng isang panahon (mula noong)",
+    "ur": "قائم کرنا / لگانا / سے – کچھ کھڑا کرنا یا قائم کرنا؛ وقت کے نقطہ آغاز (سے) کو ظاہر کرنے کے لیے بھی استعمال",
+    "vi": "Dựng lên / thành lập / từ khi – đặt hoặc thành lập thứ gì đó; cũng dùng để chỉ điểm bắt đầu trong thời gian (từ khi / từ lúc)",
+    "zh": "设立 / 放置 / 自从 – 竖立或建立某物；也用于表示时间起点（自从）",
+    "zh_Hant": "設立 / 放置 / 自從 – 豎立或建立某物；也用於表示時間起點（自從）"
+  },
+  "definition_en": "Set up / establish / since – to place or establish something upright; also used to indicate a starting point in time (since)",
+  "romanization": "/taŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຕັ້ງໂຕະໃຫ້ຂ້ອຍແດ່",
+      "romanization": "suai tang to hai khoi dae",
+      "translation_en": "Can you set up the table for me?"
+    },
+    {
+      "lao_script": "ຕັ້ງແຕ່ເຊົ້າຂ້ອຍຍັງບໍ່ໄດ້ກິນເຂົ້າ",
+      "romanization": "tang tae sao khoi yang bo dai kin khao",
+      "translation_en": "Since this morning I still haven't eaten."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person placing and setting up a small sign or flag upright on a surface, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,396 @@
+{
+  "ຂີດ": {
+    "definitions": {
+      "de": "Eine Linie ziehen oder ein Zeichen machen; einen Strich machen",
+      "en": "To draw a line, make a mark, or scratch a surface; a line or mark",
+      "es": "Trazar una línea, hacer una marca o rayar una superficie; una raya o marca",
+      "fr": "Tracer une ligne, faire une marque ou rayer une surface ; une ligne ou marque",
+      "hi": "एक रेखा खींचना, निशान लगाना, या किसी सतह पर खरोंचना; एक रेखा या निशान",
+      "ja": "線を引く、印をつける、または表面に傷をつける；線や印",
+      "km": "ការគូរបន្ទាត់ ធ្វើសញ្ញា ឬកោសសម្រាប់លើផ្ទៃមួយ; បន្ទាត់ ឬសញ្ញា",
+      "ko": "선을 긋거나 표시를 하거나 표면을 긁다; 선 또는 표시",
+      "ne": "रेखा कोर्नु, चिन्ह लगाउनु, वा सतहमा खरोंच्नु; एक रेखा वा चिन्ह",
+      "pt": "Desenhar uma linha, fazer uma marca ou riscar uma superfície; uma linha ou marca",
+      "th": "การขีดเส้น ทำเครื่องหมาย หรือขูดบนพื้นผิว; เส้นหรือเครื่องหมาย",
+      "tl": "Gumuhit ng linya, gumawa ng marka, o kumalmot ng ibabaw; isang linya o marka",
+      "ur": "ایک لکیر کھینچنا، نشان لگانا، یا کسی سطح کو کھرچنا؛ ایک لکیر یا نشان",
+      "vi": "Vẽ một đường thẳng, đánh dấu, hoặc gạch lên bề mặt; một đường kẻ hoặc dấu",
+      "zh": "画线、做标记或划刻表面；一条线或标记",
+      "zh_Hant": "畫線、做標記或劃刻表面；一條線或標記"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kʰiːt",
+    "examples": [
+      {
+        "lao_script": "ຂີດເສັ້ນຕ່ຳໆເທິງເຈ້ຍດ້ວຍດິນສໍເລີຍ",
+        "romanization": "kʰiːt sên tàm tàm tʰəːŋ tɕîa dûaj din sɔː ləːj",
+        "translations": {
+          "de": "Zieh einfach eine leichte Linie auf das Papier mit einem Bleistift",
+          "en": "Just draw a light line on the paper with a pencil",
+          "es": "Solo traza una línea suave sobre el papel con un lápiz",
+          "fr": "Trace juste une ligne légère sur le papier avec un crayon",
+          "hi": "बस पेंसिल से कागज़ पर एक हल्की रेखा खींचो",
+          "ja": "鉛筆で紙に軽く線を引いてみて",
+          "km": "គូរបន្ទាត់ស្រាលៗលើក្រដាសដោយប្រើខ្មៅដៃជាមុនសិន",
+          "ko": "연필로 종이에 가볍게 선을 그어봐",
+          "ne": "पेन्सिलले कागजमा हल्का रेखा कोर",
+          "pt": "Só desenha uma linha leve no papel com um lápis",
+          "th": "ขีดเส้นเบาๆ บนกระดาษด้วยดินสอก็ได้",
+          "tl": "Mag-draw lang ng magaang na linya sa papel gamit ang lapis",
+          "ur": "بس پنسل سے کاغذ پر ایک ہلکی لکیر کھینچو",
+          "vi": "Cứ kẻ một đường nhẹ lên giấy bằng bút chì thôi",
+          "zh": "用铅笔在纸上轻轻画一条线就行了",
+          "zh_Hant": "用鉛筆在紙上輕輕畫一條線就好了"
+        },
+        "out_of_scope_words": [
+          "ເສັ້ນ",
+          "ດິນສໍ",
+          "ເຈ້ຍ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຂີດຝາເດີ້ ແມ່ຈະໂກດ",
+        "romanization": "jaː kʰiːt faː dəː mɛː tɕaʔ koːt",
+        "translations": {
+          "de": "Mal nicht auf die Wand, sonst wird Mama wütend",
+          "en": "Don't draw on the wall, Mom will be angry",
+          "es": "No rajes la pared, mamá se va a enojar",
+          "fr": "Ne griffe pas le mur, maman va se mettre en colère",
+          "hi": "दीवार पर मत खींचो, माँ गुस्सा होगी",
+          "ja": "壁に落書きしないで、お母さんが怒るよ",
+          "km": "កុំគូរលើជញ្ជាំងទេ ម្តាយនឹងខឹង",
+          "ko": "벽에 낙서하지 마, 엄마가 화낼 거야",
+          "ne": "भित्तामा नकोर्, आमा रिसाउनुहुन्छ",
+          "pt": "Não risca a parede não, a mãe vai ficar brava",
+          "th": "อย่าขีดฝาเลย แม่จะโกรธนะ",
+          "tl": "Huwag kalmot ang dingding, magagalit si Mama",
+          "ur": "دیوار پر مت کھینچو، ماں غصہ ہوگی",
+          "vi": "Đừng có vẽ lên tường, mẹ sẽ giận đấy",
+          "zh": "别在墙上画，妈妈会生气的",
+          "zh_Hant": "不要在牆上畫，媽媽會生氣的"
+        },
+        "out_of_scope_words": [
+          "ຝາ",
+          "ໂກດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand holding a pencil drawing a straight line on white paper, with a small checkmark or tick mark nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂໍ້ມູນ": {
+    "definitions": {
+      "de": "Daten oder Informationen, insbesondere digitale oder faktenbasierte Inhalte",
+      "en": "Data or information, especially digital or factual content",
+      "es": "Datos o información, especialmente contenido digital o factual",
+      "fr": "Données ou informations, en particulier numériques ou factuelles",
+      "hi": "डेटा या जानकारी, विशेष रूप से डिजिटल या तथ्यात्मक सामग्री",
+      "ja": "データや情報、特にデジタルや事実に基づく内容",
+      "km": "ទិន្នន័យ ឬព័ត៌មាន ជាពិសេសសម្រាប់មាតិកាឌីជីថល ឬការពិត",
+      "ko": "데이터 또는 정보, 특히 디지털이나 사실 기반 콘텐츠",
+      "ne": "डाटा वा जानकारी, विशेष गरी डिजिटल वा तथ्यमा आधारित सामग्री",
+      "pt": "Dados ou informações, especialmente conteúdo digital ou factual",
+      "th": "ข้อมูลหรือสารสนเทศ โดยเฉพาะเนื้อหาดิจิทัลหรือข้อเท็จจริง",
+      "tl": "Data o impormasyon, lalo na ang digital o nakabatay sa katotohanan na nilalaman",
+      "ur": "ڈیٹا یا معلومات، خاص طور پر ڈیجیٹل یا حقیقت پر مبنی مواد",
+      "vi": "Dữ liệu hoặc thông tin, đặc biệt là nội dung kỹ thuật số hoặc thực tế",
+      "zh": "数据或信息，尤其是数字化或基于事实的内容",
+      "zh_Hant": "數據或資訊，尤其是數位化或基於事實的內容"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰɔː muːn",
+    "examples": [
+      {
+        "lao_script": "ຂໍ້ມູນໃນໂທລະສັບຂອງຂ້ອຍເຕັມແລ້ວ",
+        "romanization": "kʰɔː muːn naɪ tʰoː laʔ sap kʰɔːŋ kʰɔːj tem lɛːw",
+        "translations": {
+          "de": "Der Speicher in meinem Handy ist voll",
+          "en": "The data/storage on my phone is already full",
+          "es": "El almacenamiento de mi teléfono ya está lleno",
+          "fr": "Le stockage de mon téléphone est déjà plein",
+          "hi": "मेरे फोन का डेटा/स्टोरेज पहले से भर गया है",
+          "ja": "私のスマホのデータがもういっぱいになった",
+          "km": "ទិន្នន័យក្នុងទូរស័ព្ទរបស់ខ្ញុំពេញហើយ",
+          "ko": "내 핸드폰 저장공간이 벌써 꽉 찼어",
+          "ne": "मेरो फोनको डाटा/स्टोरेज पहिले नै भरियो",
+          "pt": "O armazenamento do meu celular já tá cheio",
+          "th": "ข้อมูลในโทรศัพท์ฉันเต็มแล้ว",
+          "tl": "Puno na ang data/storage ng aking telepono",
+          "ur": "میرے فون کا ڈیٹا پہلے سے بھر گیا ہے",
+          "vi": "Dữ liệu trong điện thoại tôi đầy rồi",
+          "zh": "我手机里的数据/存储已经满了",
+          "zh_Hant": "我手機裡的數據/儲存空間已經滿了"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ເຕັມ"
+        ]
+      },
+      {
+        "lao_script": "ສົ່ງຂໍ້ມູນໃຫ້ຂ້ອຍແດ່ ຈະໄດ້ເຮັດວຽກ",
+        "romanization": "sòŋ kʰɔː muːn haɪ kʰɔːj dɛː tɕaʔ daɪ het wîak",
+        "translations": {
+          "de": "Schick mir die Informationen, damit ich arbeiten kann",
+          "en": "Send me the information so I can get the work done",
+          "es": "Mándame la información para poder hacer el trabajo",
+          "fr": "Envoie-moi les informations pour que je puisse travailler",
+          "hi": "मुझे जानकारी भेजो ताकि मैं काम कर सकूँ",
+          "ja": "情報を送ってくれたら仕事ができるから",
+          "km": "បញ្ជូនព័ត៌មានមកខ្ញុំផង ដើម្បីអាចធ្វើការបាន",
+          "ko": "나한테 정보 보내줘, 그래야 일할 수 있지",
+          "ne": "मलाई जानकारी पठाऊ, काम गर्न सकियोस्",
+          "pt": "Me manda as informações pra eu conseguir trabalhar",
+          "th": "ส่งข้อมูลให้ฉันหน่อย จะได้ทำงานได้",
+          "tl": "Ipadala mo sa akin ang impormasyon para makagawa ako ng trabaho",
+          "ur": "مجھے معلومات بھیجو تاکہ میں کام کر سکوں",
+          "vi": "Gửi thông tin cho tôi với, để tôi còn làm việc được chứ",
+          "zh": "把信息发给我，这样才能做事",
+          "zh_Hant": "把資訊發給我，這樣才能做事"
+        },
+        "out_of_scope_words": [
+          "ສົ່ງ",
+          "ວຽກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a laptop or tablet screen showing charts, graphs, and data icons with small document and folder symbols around it, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ງື່ມ": {
+    "definitions": {
+      "de": "Trinken (dialektaler Ausdruck, hauptsächlich in nordlaotischen Dialekten verwendet, gleichbedeutend mit ດື່ມ)",
+      "en": "To drink (dialectal form mainly used in northern Lao dialects, equivalent to ດື່ມ)",
+      "es": "Beber (forma dialectal usada principalmente en dialectos del norte de Laos, equivalente a ດື່ມ)",
+      "fr": "Boire (forme dialectale utilisée principalement dans les dialectes du nord du Laos, équivalent à ດື່ມ)",
+      "hi": "पीना (बोलीगत रूप, मुख्य रूप से उत्तरी लाओ बोलियों में प्रयुक्त, ດື່ມ के समतुल्य)",
+      "ja": "飲む（主に北部ラオス方言で使われる方言形、ດື່ມに相当）",
+      "km": "ផឹក (ទម្រង់ភាសាក្រៅផ្លូវការ ជាចម្បងប្រើក្នុងភាសាលាវភាគខាងជើង ស្មើនឹង ດື່ມ)",
+      "ko": "마시다 (주로 북부 라오스 방언에서 사용되는 방언형, ດື່ມ과 동일한 의미)",
+      "ne": "पिउनु (द्वन्द्वात्मक रूप, मुख्यतः उत्तरी लाओ बोलीहरूमा प्रयोग हुन्छ, ດື່ມ सँग समतुल्य)",
+      "pt": "Beber (forma dialetal usada principalmente nos dialetos do norte do Laos, equivalente a ດື່ມ)",
+      "th": "ดื่ม (รูปแบบภาษาถิ่นที่ใช้ส่วนใหญ่ในภาษาลาวถิ่นเหนือ เทียบเท่ากับ ດື່ມ)",
+      "tl": "Uminom (anyong diyalekto na pangunahing ginagamit sa mga hilagang diyalekto ng Lao, katumbas ng ດື່ມ)",
+      "ur": "پینا (بولی کی شکل، بنیادی طور پر شمالی لاؤ بولیوں میں استعمال ہوتی ہے، ດື່ມ کے مترادف)",
+      "vi": "Uống (dạng phương ngữ chủ yếu dùng trong các phương ngữ Lào miền Bắc, tương đương với ດື່ມ)",
+      "zh": "喝（方言形式，主要用于老挝北部方言，相当于 ດື່ມ）",
+      "zh_Hant": "喝（方言形式，主要用於老撾北部方言，相當於 ດື່ມ）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ŋɯːm",
+    "examples": [
+      {
+        "lao_script": "ງື່ມນ້ຳເພີ່ນໄດ້ເລີຍ ຢູ່ໃນຕູ້ເຢັນ",
+        "romanization": "ŋɯːm naːm pʰəːn daɪ ləːj juː naɪ tuː jɛn",
+        "translations": {
+          "de": "Du kannst ruhig sein Wasser trinken, es ist im Kühlschrank",
+          "en": "Just go ahead and drink his water, it's in the fridge",
+          "es": "Puedes tomar su agua nomás, está en el refrigerador",
+          "fr": "Tu peux boire son eau, elle est dans le frigo",
+          "hi": "उसका पानी पी लो, फ्रिज में है",
+          "ja": "あの人の水を飲んでいいよ、冷蔵庫の中にあるから",
+          "km": "ផឹកទឹករបស់គាត់ចុះ វាស្ថិតក្នុងទូទឹកកក",
+          "ko": "그 사람 물 마셔도 돼, 냉장고에 있잖아",
+          "ne": "उहाँको पानी पिउनुस् है, फ्रिजमा छ",
+          "pt": "Pode beber a água dele, tá na geladeira",
+          "th": "ดื่มน้ำของเขาได้เลย อยู่ในตู้เย็น",
+          "tl": "Inumin mo na lang ang tubig niya, nasa ref naman",
+          "ur": "ان کا پانی پی لو، فریج میں ہے",
+          "vi": "Cứ uống nước của ổng đi, ở trong tủ lạnh đấy",
+          "zh": "直接喝他的水吧，在冰箱里",
+          "zh_Hant": "直接喝他的水吧，在冰箱裡"
+        },
+        "out_of_scope_words": [
+          "ເພີ່ນ",
+          "ຕູ້ເຢັນ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ຮ້ອນຫຼາຍ ງື່ມນ້ຳໄດ້ດີ",
+        "romanization": "mɯː niː hɔːn laːj ŋɯːm naːm daɪ diː",
+        "translations": {
+          "de": "Heute ist es sehr heiß, Wasser trinken ist gut",
+          "en": "It's really hot today, drinking water feels great",
+          "es": "Hoy hace mucho calor, tomar agua está muy bien",
+          "fr": "Il fait très chaud aujourd'hui, boire de l'eau fait du bien",
+          "hi": "आज बहुत गर्मी है, पानी पीना अच्छा लगता है",
+          "ja": "今日はすごく暑いから、水を飲むのが気持ちいい",
+          "km": "ថ្ងៃនេះក្តៅណាស់ ផឹកទឹកល្អណាស់",
+          "ko": "오늘 너무 더워, 물 마시니까 좋다",
+          "ne": "आज धेरै गर्मी छ, पानी पिउनु राम्रो छ",
+          "pt": "Hoje tá muito quente, tomar água é ótimo",
+          "th": "วันนี้ร้อนมาก ดื่มน้ำได้ดีเลย",
+          "tl": "Mainit talaga ngayon, masarap uminom ng tubig",
+          "ur": "آج بہت گرمی ہے، پانی پینا اچھا لگتا ہے",
+          "vi": "Hôm nay nóng quá, uống nước mát quá",
+          "zh": "今天好热，喝水感觉很好",
+          "zh_Hant": "今天好熱，喝水感覺很好"
+        },
+        "out_of_scope_words": [
+          "ຮ້ອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person happily drinking a glass of water, with clear droplets and a refreshed expression, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ງົວ": {
+    "definitions": {
+      "de": "Kuh oder Ochse; ein domestiziertes Rind, das häufig in der Landwirtschaft in Laos anzutreffen ist",
+      "en": "Cow or ox; a domesticated bovine animal commonly found on farms in Laos",
+      "es": "Vaca o buey; animal bovino domesticado que se encuentra comúnmente en las granjas de Laos",
+      "fr": "Vache ou bœuf ; animal bovin domestiqué couramment trouvé dans les fermes du Laos",
+      "hi": "गाय या बैल; एक पालतू मवेशी जो लाओस के खेतों में आमतौर पर पाया जाता है",
+      "ja": "牛または雄牛；ラオスの農場でよく見られる家畜の牛",
+      "km": "គោ ឬកងោ; សត្វដែលស្រុះស្រួលដែលត្រូវបានរកឃើញជាទូទៅនៅទីណាក់ ក្នុងប្រទេសឡាវ",
+      "ko": "소 또는 황소; 라오스 농장에서 흔히 볼 수 있는 가축",
+      "ne": "गाई वा बैल; लाओसका खेतहरूमा सामान्यतः पाइने एक पालतू गाईवस्तु",
+      "pt": "Vaca ou boi; um animal bovino domesticado comumente encontrado em fazendas no Laos",
+      "th": "วัวหรือโค; สัตว์เลี้ยงประเภทโคที่พบได้ทั่วไปตามฟาร์มในลาว",
+      "tl": "Baka o toro; isang domestikadong baka na karaniwang matatagpuan sa mga bukid sa Laos",
+      "ur": "گائے یا بیل؛ ایک پالتو مویشی جو لاؤس کے کھیتوں میں عام طور پر پایا جاتا ہے",
+      "vi": "Con bò hay con trâu đực; động vật gia súc được thuần hóa thường thấy ở các trang trại tại Lào",
+      "zh": "牛或公牛；老挝农场中常见的驯养牛类动物",
+      "zh_Hant": "牛或公牛；老撾農場中常見的馴養牛類動物"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ŋua",
+    "examples": [
+      {
+        "lao_script": "ໃນບ້ານນ້ອຍໆ ເຫັນງົວຢູ່ທຸ່ງນາ",
+        "romanization": "naɪ baːn nɔːj nɔːj hɛn ŋua juː tʰuŋ naː",
+        "translations": {
+          "de": "In dem kleinen Dorf sieht man Kühe auf den Reisfeldern",
+          "en": "In the small village, you can see cows in the rice fields",
+          "es": "En el pequeño pueblo, se ven vacas en los arrozales",
+          "fr": "Dans le petit village, on voit des vaches dans les rizières",
+          "hi": "छोटे गाँव में, धान के खेतों में गायें दिखती हैं",
+          "ja": "小さな村では、田んぼに牛がいるのが見える",
+          "km": "នៅក្នុងភូមិតូចៗ ឃើញគោនៅវាលស្រែ",
+          "ko": "작은 마을에서는 논에 소가 있는 걸 볼 수 있어",
+          "ne": "सानो गाउँमा धानखेतमा गाई देखिन्छन्",
+          "pt": "No vilarejo pequeno, dá pra ver vacas nos arrozais",
+          "th": "ในหมู่บ้านเล็กๆ เห็นวัวอยู่ในทุ่งนา",
+          "tl": "Sa maliit na nayon, makikita ang mga baka sa palayan",
+          "ur": "چھوٹے گاؤں میں، دھان کے کھیتوں میں گائیں نظر آتی ہیں",
+          "vi": "Ở cái làng nhỏ nhỏ đó, thấy bò đang ở ngoài đồng ruộng",
+          "zh": "在小村庄里，可以看到稻田里有牛",
+          "zh_Hant": "在小村莊裡，可以看到稻田裡有牛"
+        },
+        "out_of_scope_words": [
+          "ທຸ່ງນາ"
+        ]
+      },
+      {
+        "lao_script": "ງົວຂອງພໍ່ຂ້ອຍໃຫ່ຍຫຼາຍ ກິນຫຍ້າຢູ່ຫຼັງບ້ານ",
+        "romanization": "ŋua kʰɔːŋ pʰɔː kʰɔːj ɲaɪ laːj kin ɲaː juː laŋ baːn",
+        "translations": {
+          "de": "Die Kuh meines Vaters ist sehr groß und frisst Gras hinter dem Haus",
+          "en": "My dad's cow is really big and is eating grass behind the house",
+          "es": "La vaca de mi papá es muy grande y está comiendo pasto detrás de la casa",
+          "fr": "La vache de mon père est très grande et mange de l'herbe derrière la maison",
+          "hi": "मेरे पिता की गाय बहुत बड़ी है और घर के पीछे घास खा रही है",
+          "ja": "お父さんの牛はすごく大きくて、家の裏で草を食べてるよ",
+          "km": "គោរបស់ឪពុកខ្ញុំធំណាស់ ហើយកំពុងស៊ីស្មៅនៅក្រោយផ្ទះ",
+          "ko": "우리 아빠 소는 엄청 커, 집 뒤에서 풀을 먹고 있어",
+          "ne": "मेरो बाबाको गाई धेरै ठूलो छ र घर पछाडि घाँस खाँदैछ",
+          "pt": "A vaca do meu pai é muito grande e tá comendo grama atrás de casa",
+          "th": "วัวของพ่อฉันตัวใหญ่มาก กินหญ้าอยู่หลังบ้าน",
+          "tl": "Ang baka ng aking tatay ay napakaliit at kumakain ng damo sa likod ng bahay",
+          "ur": "میرے باپ کی گائے بہت بڑی ہے اور گھر کے پیچھے گھاس کھا رہی ہے",
+          "vi": "Con bò của ba tôi to lắm, đang ăn cỏ ở sau nhà",
+          "zh": "我爸的牛很大，正在房子后面吃草",
+          "zh_Hant": "我爸的牛很大，正在房子後面吃草"
+        },
+        "out_of_scope_words": [
+          "ຫຍ້າ",
+          "ຫຼັງບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly brown and white cow standing in a green grassy field with a clear blue sky, clean white background, colorful and minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ງ່າຍໆ": {
+    "definitions": {
+      "de": "Einfach oder leicht; wird verwendet, um auszudrücken, dass etwas keine Mühe oder Schwierigkeit erfordert",
+      "en": "Easy or easily; used to express that something requires little effort or difficulty, often with a casual, breezy tone",
+      "es": "Fácil o fácilmente; se usa para expresar que algo requiere poco esfuerzo, a menudo con un tono relajado",
+      "fr": "Facile ou facilement ; utilisé pour exprimer que quelque chose ne demande pas beaucoup d'effort, souvent avec un ton décontracté",
+      "hi": "आसान या आसानी से; यह व्यक्त करने के लिए उपयोग किया जाता है कि किसी चीज़ में कम प्रयास लगता है, अक्सर एक सामान्य लहजे में",
+      "ja": "簡単に、または容易に；何かが少ない労力や困難さで済むことを表す、しばしばカジュアルなトーンで使われる",
+      "km": "ងាយ ឬដោយងាយ; ប្រើដើម្បីបង្ហាញថាអ្វីមួយមិនត្រូវការការខំប្រឹងប្រែងច្រើន ជាញឹកញាប់ប្រើក្នុងន័យធម្មតា",
+      "ko": "쉽거나 쉽게; 어떤 것이 별로 힘들지 않다는 것을 나타낼 때 사용하며, 종종 가볍고 편안한 어조로 쓰임",
+      "ne": "सजिलो वा सजिलैसँग; कुनै कुरा कम प्रयासमा गर्न सकिन्छ भन्न प्रयोग गरिन्छ, प्रायः सामान्य लहजामा",
+      "pt": "Fácil ou facilmente; usado para expressar que algo não requer muito esforço, muitas vezes com um tom descontraído",
+      "th": "ง่ายหรืออย่างง่ายดาย; ใช้เพื่อบอกว่าสิ่งใดสิ่งหนึ่งไม่ต้องใช้ความพยายามมาก มักใช้ในน้ำเสียงสบายๆ",
+      "tl": "Madali o nang madali; ginagamit upang ipahayag na ang isang bagay ay hindi nangangailangan ng maraming pagsisikap, kadalasang may kaswal na tono",
+      "ur": "آسان یا آسانی سے؛ یہ ظاہر کرنے کے لیے استعمال ہوتا ہے کہ کسی چیز میں کم محنت لگتی ہے، اکثر آرام دہ لہجے میں",
+      "vi": "Dễ hoặc dễ dàng; dùng để diễn đạt rằng điều gì đó không đòi hỏi nhiều nỗ lực, thường mang giọng điệu nhẹ nhàng thoải mái",
+      "zh": "简单或容易地；用于表达某事不需要太多努力，通常带有轻松随意的语气",
+      "zh_Hant": "簡單或容易地；用於表達某事不需要太多努力，通常帶有輕鬆隨意的語氣"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "ŋaːj ŋaːj",
+    "examples": [
+      {
+        "lao_script": "ແບບຝຶກຫັດນີ້ງ່າຍໆ ເຮັດໄດ້ຂີ້ຫຍາກ",
+        "romanization": "bɛːp fɯk hat niː ŋaːj ŋaːj het daɪ kʰiː ɲaːk",
+        "translations": {
+          "de": "Diese Übung ist ganz leicht, du schaffst das locker",
+          "en": "This exercise is super easy, you can do it no problem",
+          "es": "Este ejercicio es súper fácil, lo puedes hacer sin problemas",
+          "fr": "Cet exercice est super facile, tu peux le faire sans problème",
+          "hi": "यह अभ्यास बिल्कुल आसान है, आसानी से कर सकते हो",
+          "ja": "この練習問題はとても簡単だよ、楽々できるよ",
+          "km": "លំហាត់នេះងាយណាស់ ធ្វើបានដោយមិនលំបាក",
+          "ko": "이 연습문제는 엄청 쉬워, 아무 문제없이 할 수 있어",
+          "ne": "यो अभ्यास धेरै सजिलो छ, सजिलैसँग गर्न सकिन्छ",
+          "pt": "Esse exercício é bem fácil, você consegue fazer de boa",
+          "th": "แบบฝึกหัดนี้ง่ายๆ ทำได้แน่นอน",
+          "tl": "Ang exercise na ito ay napakadali, kaya mo ito nang walang problema",
+          "ur": "یہ مشق بالکل آسان ہے، آسانی سے کر سکتے ہو",
+          "vi": "Bài tập này dễ ợt, làm được thôi mà",
+          "zh": "这道练习题超简单，随随便便就能做",
+          "zh_Hant": "這道練習題超簡單，隨隨便便就能做"
+        },
+        "out_of_scope_words": [
+          "ແບບຝຶກຫັດ",
+          "ຂີ້ຫຍາກ"
+        ]
+      },
+      {
+        "lao_script": "ເຮັດອາຫານລາວງ່າຍໆ ບໍ່ຕ້ອງຊຊ",
+        "romanization": "het ʔaː haːn laːw ŋaːj ŋaːj bɔː tɔːŋ sɔːk",
+        "translations": {
+          "de": "Laotisches Essen zu kochen ist ganz leicht, nicht wirklich kompliziert",
+          "en": "Cooking Lao food is pretty easy, not complicated at all",
+          "es": "Cocinar comida laosiana es bastante fácil, no es nada complicado",
+          "fr": "Cuisiner de la nourriture laotienne c'est assez facile, pas compliqué du tout",
+          "hi": "लाओ खाना बनाना बिल्कुल आसान है, जटिल नहीं है",
+          "ja": "ラオス料理を作るのは簡単だよ、全然難しくないよ",
+          "km": "ធ្វើម្ហូបឡាវវាងាយដែរ មិនពិបាកទេ",
+          "ko": "라오 음식 만들기 꽤 쉬워, 전혀 복잡하지 않아",
+          "ne": "लाओ खाना बनाउनु सजिलो छ, जटिल छैन",
+          "pt": "Cozinhar comida laosiana é bem fácil, não é nada complicado",
+          "th": "ทำอาหารลาวง่ายๆ ไม่ซับซ้อนเลย",
+          "tl": "Ang pagluluto ng pagkaing Lao ay medyo madali, hindi kumplikado",
+          "ur": "لاؤ کھانا پکانا بالکل آسان ہے، پیچیدہ نہیں ہے",
+          "vi": "Nấu đồ ăn Lào dễ lắm, không phức tạp gì cả",
+          "zh": "做老挝菜挺简单的，一点都不复杂",
+          "zh_Hant": "做老撾菜挺簡單的，一點都不複雜"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ສຊ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person giving a thumbs up next to a checkmark or a simple completed task list, with a bright, cheerful color palette, clean white background, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

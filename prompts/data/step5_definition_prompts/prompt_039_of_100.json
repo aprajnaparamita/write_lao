@@ -1,0 +1,392 @@
+{
+  "ຂຽນ": {
+    "definitions": {
+      "de": "Schreiben; etwas mit einem Stift oder einem anderen Werkzeug auf eine Oberfläche aufzeichnen",
+      "en": "To write; to form letters, words, or symbols on a surface using a pen, pencil, or other tool",
+      "es": "Escribir; trazar letras, palabras o símbolos en una superficie usando un bolígrafo, lápiz u otra herramienta",
+      "fr": "Écrire; former des lettres, des mots ou des symboles sur une surface à l'aide d'un stylo, d'un crayon ou d'un autre outil",
+      "hi": "लिखना; कलम, पेंसिल या अन्य उपकरण से किसी सतह पर अक्षर, शब्द या चिह्न बनाना",
+      "ja": "書く；ペン、鉛筆、またはその他の道具を使って表面に文字、言葉、または記号を記すこと",
+      "km": "សរសេរ; ការបង្កើតអក្សរ ពាក្យ ឬនិមិត្តសញ្ញានៅលើផ្ទៃមួយដោយប្រើប៊ិច ខ្មៅដៃ ឬឧបករណ៍ផ្សេងទៀត",
+      "ko": "쓰다; 펜, 연필 또는 다른 도구를 사용하여 표면에 글자, 단어 또는 기호를 적는 것",
+      "ne": "लेख्नु; कलम, पेन्सिल वा अन्य उपकरणले कुनै सतहमा अक्षर, शब्द वा चिह्न बनाउनु",
+      "pt": "Escrever; formar letras, palavras ou símbolos numa superfície usando uma caneta, lápis ou outra ferramenta",
+      "th": "เขียน; การขีดเขียนตัวอักษร คำ หรือสัญลักษณ์บนพื้นผิวโดยใช้ปากกา ดินสอ หรืออุปกรณ์อื่น",
+      "tl": "Sumulat; bumuo ng mga titik, salita, o simbolo sa isang ibabaw gamit ang panulat, lapis, o iba pang kasangkapan",
+      "ur": "لکھنا؛ قلم، پنسل یا کسی اور آلے سے کسی سطح پر حروف، الفاظ یا علامات بنانا",
+      "vi": "Viết; tạo ra các chữ cái, từ ngữ hoặc ký hiệu trên một bề mặt bằng bút, bút chì hoặc công cụ khác",
+      "zh": "写；用笔、铅笔或其他工具在表面上书写字母、文字或符号",
+      "zh_Hant": "寫；用筆、鉛筆或其他工具在表面上書寫字母、文字或符號"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰiːan/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຂຽນຊື່ເຈົ້າໃສ່ກະດາດນີ້ໄດ້ບໍ່?",
+        "romanization": "jao khian sue jao sai kadaat nii dai boo?",
+        "translations": {
+          "de": "Kannst du deinen Namen auf dieses Papier schreiben?",
+          "en": "Can you write your name on this paper?",
+          "es": "¿Puedes escribir tu nombre en este papel?",
+          "fr": "Tu peux écrire ton nom sur ce papier ?",
+          "hi": "क्या तुम इस कागज़ पर अपना नाम लिख सकते हो?",
+          "ja": "この紙に名前を書いてもらえる？",
+          "km": "តើអ្នកអាចសរសេរឈ្មោះរបស់អ្នកនៅលើក្រដាសនេះបានទេ?",
+          "ko": "이 종이에 네 이름을 써줄 수 있어?",
+          "ne": "के तिमी यो कागजमा आफ्नो नाम लेख्न सक्छौ?",
+          "pt": "Você consegue escrever o seu nome neste papel?",
+          "th": "เขียนชื่อของนายลงบนกระดาษนี้ได้ไหม?",
+          "tl": "Kaya mo bang isulat ang iyong pangalan sa papel na ito?",
+          "ur": "کیا تم اس کاغذ پر اپنا نام لکھ سکتے ہو؟",
+          "vi": "Bạn có thể viết tên của bạn lên tờ giấy này không?",
+          "zh": "你能在这张纸上写你的名字吗？",
+          "zh_Hant": "你能在這張紙上寫你的名字嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ກະດາດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍກຳລັງຂຽນຈົດໝາຍຫາແມ່",
+        "romanization": "khooi kamlang khian jodmaai haa mae",
+        "translations": {
+          "de": "Ich schreibe gerade einen Brief an meine Mutter.",
+          "en": "I'm writing a letter to my mom.",
+          "es": "Estoy escribiendo una carta a mi mamá.",
+          "fr": "Je suis en train d'écrire une lettre à ma mère.",
+          "hi": "मैं अपनी माँ को एक पत्र लिख रहा/रही हूँ।",
+          "ja": "お母さんに手紙を書いているところ。",
+          "km": "ខ្ញុំកំពុងសរសេរលិខិតទៅអ្នកម្តាយ។",
+          "ko": "나 지금 엄마한테 편지 쓰고 있어.",
+          "ne": "म आमालाई चिठी लेखिरहेको छु।",
+          "pt": "Estou escrevendo uma carta para a minha mãe.",
+          "th": "ฉันกำลังเขียนจดหมายถึงแม่อยู่",
+          "tl": "Nagsusulat ako ng liham para sa aking nanay.",
+          "ur": "میں اپنی ماں کو خط لکھ رہا/رہی ہوں۔",
+          "vi": "Tôi đang viết thư cho mẹ.",
+          "zh": "我正在给妈妈写信。",
+          "zh_Hant": "我正在給媽媽寫信。"
+        },
+        "out_of_scope_words": [
+          "ຈົດໝາຍ",
+          "ກຳລັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person happily writing on a piece of paper with a pen at a desk, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕາ": {
+    "definitions": {
+      "de": "1. Auge: das Sehorgan am Gesicht. 2. Großvater mütterlicherseits: der Vater der Mutter (im Lao gebräuchliche Verwandtschaftsbezeichnung)",
+      "en": "1. Eye: the organ of sight on the face. 2. Maternal grandfather: the mother's father (common kinship term in Lao)",
+      "es": "1. Ojo: el órgano de la vista en el rostro. 2. Abuelo materno: el padre de la madre (término de parentesco común en lao)",
+      "fr": "1. Œil : l'organe de la vue sur le visage. 2. Grand-père maternel : le père de la mère (terme de parenté courant en laotien)",
+      "hi": "1. आँख: चेहरे पर दृष्टि का अंग। 2. नाना: माँ के पिता (लाओ में सामान्य रिश्तेदारी शब्द)",
+      "ja": "1. 目：顔にある視覚器官。2. 母方の祖父：母親の父（ラオス語でよく使われる親族呼称）",
+      "km": "1. ភ្នែក: អវយវៈនៃការមើលឃើញនៅលើមុខ។ 2. ជីដូនជីតា (តាម្តាយ): ឪពុករបស់ម្តាយ (ពាក្យញាតិសាច់ញាតិទូទៅក្នុងភាសាឡាវ)",
+      "ko": "1. 눈: 얼굴에 있는 시각 기관. 2. 외할아버지: 어머니의 아버지 (라오어에서 흔히 쓰이는 친족 호칭)",
+      "ne": "1. आँखा: अनुहारमा रहेको दृष्टि अंग। 2. नाना: आमाका बुबा (लाओ भाषामा प्रचलित नातेदारी शब्द)",
+      "pt": "1. Olho: o órgão da visão no rosto. 2. Avô materno: o pai da mãe (termo de parentesco comum em lao)",
+      "th": "1. ตา: อวัยวะรับภาพบนใบหน้า 2. ตา (ปู่ฝ่ายแม่): พ่อของแม่ (คำเรียกญาติที่ใช้ทั่วไปในภาษาลาว)",
+      "tl": "1. Mata: ang organ ng paningin sa mukha. 2. Lolo sa tuhod (panig ng ina): ang ama ng ina (karaniwang termino ng pagkakamag-anak sa Lao)",
+      "ur": "1. آنکھ: چہرے پر بینائی کا عضو۔ 2. نانا: ماں کے والد (لاؤ میں رشتہ داری کی عام اصطلاح)",
+      "vi": "1. Mắt: cơ quan thị giác trên khuôn mặt. 2. Ông ngoại: cha của mẹ (thuật ngữ thân tộc phổ biến trong tiếng Lào)",
+      "zh": "1. 眼睛：脸上的视觉器官。2. 外祖父（姥爷）：母亲的父亲（老挝语中常用的亲属称谓）",
+      "zh_Hant": "1. 眼睛：臉上的視覺器官。2. 外祖父（姥爺）：母親的父親（寮語中常用的親屬稱謂）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/taː/",
+    "examples": [
+      {
+        "lao_script": "ຕາຂອງເຈົ້າສວຍຫຼາຍເດີ",
+        "romanization": "taa khoong jao suai laai dee",
+        "translations": {
+          "de": "Deine Augen sind wirklich schön!",
+          "en": "Your eyes are really beautiful!",
+          "es": "¡Tus ojos son muy bonitos!",
+          "fr": "Tes yeux sont vraiment beaux !",
+          "hi": "तुम्हारी आँखें बहुत सुंदर हैं!",
+          "ja": "あなたの目、本当にきれいだね！",
+          "km": "ភ្នែករបស់អ្នកស្អាតណាស់!",
+          "ko": "너 눈이 정말 예쁘다!",
+          "ne": "तिम्रा आँखाहरू साँच्चै सुन्दर छन्!",
+          "pt": "Os seus olhos são muito bonitos!",
+          "th": "ตาของแกสวยมากเลยนะ!",
+          "tl": "Ang ganda-ganda ng iyong mga mata!",
+          "ur": "تمہاری آنکھیں واقعی بہت خوبصورت ہیں!",
+          "vi": "Mắt bạn đẹp lắm đấy!",
+          "zh": "你的眼睛真的很漂亮！",
+          "zh_Hant": "你的眼睛真的很漂亮！"
+        },
+        "out_of_scope_words": [
+          "ສວຍ"
+        ]
+      },
+      {
+        "lao_script": "ຕາຂອງຂ້ອຍຢູ່ບ້ານນອກ",
+        "romanization": "taa khoong khooi yuu baan nook",
+        "translations": {
+          "de": "Mein Großvater (mütterlicherseits) wohnt auf dem Land.",
+          "en": "My grandfather (on my mom's side) lives in the countryside.",
+          "es": "Mi abuelo (por parte de mi mamá) vive en el campo.",
+          "fr": "Mon grand-père (côté maternel) habite à la campagne.",
+          "hi": "मेरे नाना गाँव में रहते हैं।",
+          "ja": "お母さん方のおじいちゃんは田舎に住んでいる。",
+          "km": "តារបស់ខ្ញុំ (ជីដូនជីតាតាមម្តាយ) រស់នៅជនបទ។",
+          "ko": "우리 외할아버지는 시골에 사셔.",
+          "ne": "मेरा नाना गाउँमा बस्नुहुन्छ।",
+          "pt": "O meu avô (da parte da minha mãe) mora no campo.",
+          "th": "ตาของฉันอยู่บ้านนอก",
+          "tl": "Ang lolo ko (sa panig ng nanay) ay nakatira sa probinsya.",
+          "ur": "میرے نانا دیہات میں رہتے ہیں۔",
+          "vi": "Ông ngoại tôi sống ở quê.",
+          "zh": "我外公住在农村。",
+          "zh_Hant": "我外公住在農村。"
+        },
+        "out_of_scope_words": [
+          "ບ້ານນອກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two images side by side: a close-up of a human eye with long lashes, and a friendly elderly man waving, labeled with a split design, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວັດ": {
+    "definitions": {
+      "de": "Tempel; ein buddhistischer Sakralbau oder Klosterkomplex, der als Ort der Anbetung, religiösen Praxis und Gemeinschaftsleben dient",
+      "en": "Temple; a Buddhist sacred building or monastery complex that serves as a place of worship, religious practice, and community life",
+      "es": "Templo; un edificio sagrado budista o complejo monástico que sirve como lugar de culto, práctica religiosa y vida comunitaria",
+      "fr": "Temple ; un bâtiment sacré bouddhiste ou un complexe monastique servant de lieu de culte, de pratique religieuse et de vie communautaire",
+      "hi": "मंदिर/विहार; एक बौद्ध पवित्र भवन या मठ परिसर जो पूजा, धार्मिक अभ्यास और सामुदायिक जीवन का स्थान है",
+      "ja": "寺院；礼拝、宗教的実践、地域生活の場として機能する仏教の聖なる建物または僧院の複合施設",
+      "km": "វត្ត; អគារពិធីបុណ្យព្រះពុទ្ធសាសនា ឬ​សហគមន៍អារាម​ដែលជា​កន្លែង​សក្ការៈ​បូជា ការ​អនុវត្ត​សាសនា និង​ជីវភាព​សហគមន៍",
+      "ko": "사원; 예배, 종교적 수행, 공동체 생활의 장소로 기능하는 불교 성지 건물 또는 사원 단지",
+      "ne": "मन्दिर/विहार; एक बौद्ध पवित्र भवन वा मठ परिसर जुन पूजा, धार्मिक अभ्यास र सामुदायिक जीवनको स्थान हो",
+      "pt": "Templo; um edifício sagrado budista ou complexo monástico que serve como local de culto, prática religiosa e vida comunitária",
+      "th": "วัด; อาคารศักดิ์สิทธิ์ทางพุทธศาสนาหรือคณะวัดที่ทำหน้าที่เป็นสถานที่สักการบูชา การปฏิบัติธรรม และชีวิตชุมชน",
+      "tl": "Templo; isang sagradong gusali ng Budismo o kompleks ng monasteryo na nagsisilbing lugar ng pagsamba, relihiyosong pagsasanay, at buhay ng komunidad",
+      "ur": "مندر/خانقاہ؛ ایک بدھ مت کی مقدس عمارت یا خانقاہ کا احاطہ جو عبادت، مذہبی مشق اور اجتماعی زندگی کی جگہ کے طور پر کام کرتا ہے",
+      "vi": "Chùa/Wat; một tòa nhà thiêng liêng của Phật giáo hoặc quần thể tu viện phục vụ như nơi thờ phụng, thực hành tôn giáo và đời sống cộng đồng",
+      "zh": "寺庙/寺院；佛教圣地建筑或寺院建筑群，作为礼拜、宗教修行和社区生活的场所",
+      "zh_Hant": "寺廟/寺院；佛教聖地建築或寺院建築群，作為禮拜、宗教修行和社區生活的場所"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ʋát/",
+    "examples": [
+      {
+        "lao_script": "ເຊົ້ານີ້ຂ້ອຍໄປວັດກັບແມ່",
+        "romanization": "sao nii khooi pai wat gap mae",
+        "translations": {
+          "de": "Heute Morgen bin ich mit meiner Mutter zum Tempel gegangen.",
+          "en": "This morning I went to the temple with my mom.",
+          "es": "Esta mañana fui al templo con mi mamá.",
+          "fr": "Ce matin, je suis allé(e) au temple avec ma mère.",
+          "hi": "आज सुबह मैं माँ के साथ मंदिर गया/गई।",
+          "ja": "今朝、お母さんと一緒にお寺に行ってきた。",
+          "km": "ព្រឹកនេះ ខ្ញុំបានទៅវត្តជាមួយម្តាយ។",
+          "ko": "오늘 아침에 엄마랑 절에 갔어.",
+          "ne": "आज बिहान म आमासँग मन्दिर गएँ।",
+          "pt": "Esta manhã fui ao templo com a minha mãe.",
+          "th": "เช้านี้ฉันไปวัดกับแม่",
+          "tl": "Ngayong umaga, pumunta ako sa templo kasama ang aking nanay.",
+          "ur": "آج صبح میں ماں کے ساتھ مندر گیا/گئی۔",
+          "vi": "Sáng nay tôi đi chùa với mẹ.",
+          "zh": "今天早上我和妈妈去了寺庙。",
+          "zh_Hant": "今天早上我和媽媽去了寺廟。"
+        },
+        "out_of_scope_words": [
+          "ເຊົ້ານີ້"
+        ]
+      },
+      {
+        "lao_script": "ວັດໃນລາວສວຍງາມຫຼາຍ",
+        "romanization": "wat nai laao suai ngaam laai",
+        "translations": {
+          "de": "Die Tempel in Laos sind sehr schön.",
+          "en": "The temples in Laos are very beautiful.",
+          "es": "Los templos en Laos son muy hermosos.",
+          "fr": "Les temples au Laos sont très beaux.",
+          "hi": "लाओस के मंदिर बहुत सुंदर हैं।",
+          "ja": "ラオスのお寺はとても美しい。",
+          "km": "វត្តនៅប្រទេសឡាវស្អាតណាស់។",
+          "ko": "라오스의 절들은 정말 아름다워.",
+          "ne": "लाओसका मन्दिरहरू धेरै सुन्दर छन्।",
+          "pt": "Os templos no Laos são muito bonitos.",
+          "th": "วัดในลาวสวยงามมากเลย",
+          "tl": "Ang mga templo sa Laos ay napakaganda.",
+          "ur": "لاؤس کے مندر بہت خوبصورت ہیں۔",
+          "vi": "Các ngôi chùa ở Lào rất đẹp.",
+          "zh": "老挝的寺庙非常美丽。",
+          "zh_Hant": "寮國的寺廟非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ສວຍງາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional Lao Buddhist temple with a golden multi-tiered roof, surrounded by lush green trees, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄພ": {
+    "definitions": {
+      "de": "Gefahr; eine ernsthafte Bedrohung, Katastrophe oder ein schädliches Ereignis, das Schaden oder Verluste verursacht",
+      "en": "Danger; a serious threat, disaster, or harmful event that causes damage or loss",
+      "es": "Peligro; una amenaza grave, desastre o evento dañino que causa daño o pérdida",
+      "fr": "Danger ; une menace grave, une catastrophe ou un événement nuisible qui cause des dommages ou des pertes",
+      "hi": "खतरा/आपदा; एक गंभीर खतरा, आपदा या हानिकारक घटना जो नुकसान या हानि का कारण बनती है",
+      "ja": "危険；損害や損失を引き起こす深刻な脅威、災害、または有害な出来事",
+      "km": "គ្រោះថ្នាក់; ការគំរាមកំហែងធ្ងន់ធ្ងរ មហន្តរាយ ឬព្រឹត្តិការណ៍ដែលបង្កឱ្យមានការខូចខាតឬការបាត់បង់",
+      "ko": "위험; 손해나 손실을 초래하는 심각한 위협, 재해 또는 해로운 사건",
+      "ne": "खतरा/प्रकोप; गम्भीर खतरा, विपद् वा हानिकारक घटना जसले क्षति वा नोक्सानी पुर्‍याउँछ",
+      "pt": "Perigo; uma ameaça grave, desastre ou evento prejudicial que causa dano ou perda",
+      "th": "ภัย; ภัยคุกคามร้ายแรง ภัยพิบัติ หรือเหตุการณ์อันตรายที่ก่อให้เกิดความเสียหายหรือสูญเสีย",
+      "tl": "Panganib; isang seryosong banta, sakuna, o mapanganib na pangyayari na nagdudulot ng pinsala o pagkawala",
+      "ur": "خطرہ/آفت؛ ایک سنگین خطرہ، آفت یا نقصاندہ واقعہ جو نقصان یا خسارہ پہنچاتا ہے",
+      "vi": "Hiểm nguy/thảm họa; một mối đe dọa nghiêm trọng, thảm họa hoặc sự kiện gây hại dẫn đến thiệt hại hoặc mất mát",
+      "zh": "危险/灾害；造成损害或损失的严重威胁、灾难或有害事件",
+      "zh_Hant": "危險/災害；造成損害或損失的嚴重威脅、災難或有害事件"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰáj/",
+    "examples": [
+      {
+        "lao_script": "ນ້ຳຖ້ວມເປັນໄພທີ່ໃຫຍ່ຫຼວງຂອງລາວ",
+        "romanization": "naam thuam pen phai tii nyai luang khoong laao",
+        "translations": {
+          "de": "Überschwemmungen sind eine der größten Katastrophen in Laos.",
+          "en": "Flooding is a major disaster in Laos.",
+          "es": "Las inundaciones son un gran desastre en Laos.",
+          "fr": "Les inondations sont une grande catastrophe au Laos.",
+          "hi": "बाढ़ लाओस की एक बड़ी आपदा है।",
+          "ja": "洪水はラオスの大きな災害のひとつだ。",
+          "km": "ទឹកជំនន់គឺជាមហន្តរាយដ៏ធំមួយរបស់ប្រទេសឡាវ។",
+          "ko": "홍수는 라오스의 큰 재해야.",
+          "ne": "बाढी लाओसको ठूलो प्रकोप हो।",
+          "pt": "As cheias são uma grande catástrofe no Laos.",
+          "th": "น้ำท่วมเป็นภัยใหญ่หลวงของลาว",
+          "tl": "Ang baha ay isang malaking sakuna sa Laos.",
+          "ur": "سیلاب لاؤس کی ایک بڑی آفت ہے۔",
+          "vi": "Lũ lụt là thảm họa lớn của Lào.",
+          "zh": "洪水是老挝的一大灾害。",
+          "zh_Hant": "洪水是寮國的一大災害。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳຖ້ວມ",
+          "ໃຫຍ່ຫຼວງ"
+        ]
+      },
+      {
+        "lao_script": "ລະວັງໄພຈາກໄຟ, ຢ່າລືມດັບ",
+        "romanization": "lawang phai jaak fai, yaa leum dap",
+        "translations": {
+          "de": "Sei vorsichtig vor Feuergefahr – vergiss nicht, es zu löschen.",
+          "en": "Watch out for fire danger, don't forget to put it out.",
+          "es": "Ten cuidado con el peligro del fuego, no olvides apagarlo.",
+          "fr": "Attention au danger du feu, n'oublie pas de l'éteindre.",
+          "hi": "आग के खतरे से सावधान रहो, उसे बुझाना मत भूलो।",
+          "ja": "火の危険に気をつけて、消すのを忘れないで。",
+          "km": "ប្រយ័ត្នគ្រោះថ្នាក់ពីភ្លើង ចំណាំថាត្រូវអុតវា។",
+          "ko": "불 위험 조심해, 끄는 거 잊지 마.",
+          "ne": "आगोको खतराबाट सावधान रह, निभाउन नबिर्स।",
+          "pt": "Cuidado com o perigo do fogo, não se esqueça de apagá-lo.",
+          "th": "ระวังภัยจากไฟ อย่าลืมดับด้วยนะ",
+          "tl": "Mag-ingat sa panganib ng apoy, huwag kalimutang patayin ito.",
+          "ur": "آگ کے خطرے سے بچو، اسے بجھانا مت بھولو۔",
+          "vi": "Cẩn thận với nguy hiểm từ lửa, đừng quên dập tắt nhé.",
+          "zh": "小心火灾危险，不要忘记把火扑灭。",
+          "zh_Hant": "小心火災危險，不要忘記把火撲滅。"
+        },
+        "out_of_scope_words": [
+          "ລະວັງ",
+          "ດັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a warning triangle sign with a flame symbol inside representing fire danger, with a cautionary red color scheme, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊຽນ": {
+    "definitions": {
+      "de": "Ein Namenselement; in der Regel als Teil eines Personennamens verwendet, kein eigenständiges allgemeines Wort mit breiter Bedeutung im modernen gesprochenen Lao",
+      "en": "A name element; typically used as part of a personal name (e.g., in the city name Vientiane 'ວຽງຈັນ'), with very limited standalone use as a common word in modern spoken Lao",
+      "es": "Un elemento de nombre; generalmente usado como parte de un nombre propio (por ejemplo, en el nombre de la ciudad Vientiane 'ວຽງຈັນ'), con uso independiente muy limitado como palabra común en el lao hablado moderno",
+      "fr": "Un élément de nom ; généralement utilisé comme partie d'un nom propre (par exemple, dans le nom de la ville Vientiane 'ວຽງຈັນ'), avec une utilisation autonome très limitée comme mot courant en lao parlé moderne",
+      "hi": "एक नाम तत्व; आमतौर पर किसी व्यक्ति के नाम के हिस्से के रूप में उपयोग किया जाता है (जैसे, वियनतियाने नाम में), आधुनिक बोली जाने वाली लाओ में स्वतंत्र रूप से सामान्य शब्द के रूप में बहुत सीमित उपयोग के साथ",
+      "ja": "名前の要素；通常、人名の一部として使われる（例：都市名ヴィエンチャン「ວຽງຈັນ」など）。現代の話し言葉のラオス語では、単独の一般語としての使用は非常に限られている",
+      "km": "ធាតុឈ្មោះ; ជាធម្មតាប្រើជាផ្នែកមួយនៃឈ្មោះបុគ្គល (ឧ. ក្នុងឈ្មោះក្រុង Vientiane 'ວຽງຈັນ') ដោយមានការប្រើប្រាស់ឯករាជ្យតិចតួចណាស់ជាពាក្យទូទៅក្នុងភាសាឡាវដែលនិយាយទំនើប",
+      "ko": "이름 요소; 주로 인명의 일부로 사용됨 (예: 도시 이름 비엔티안 'ວຽງຈັນ'). 현대 구어 라오어에서 독립적인 일반 단어로서의 사용은 매우 제한적임",
+      "ne": "नाम तत्व; सामान्यतया व्यक्तिगत नामको अंशको रूपमा प्रयोग गरिन्छ (जस्तै, सहर नाम भिएन्तियानेमा), आधुनिक बोलिने लाओमा स्वतन्त्र सामान्य शब्दको रूपमा धेरै सीमित उपयोगसहित",
+      "pt": "Um elemento de nome; tipicamente usado como parte de um nome próprio (por exemplo, no nome da cidade Vientiane 'ວຽງຈັນ'), com uso autónomo muito limitado como palavra comum no lao falado moderno",
+      "th": "ส่วนประกอบของชื่อ; มักใช้เป็นส่วนหนึ่งของชื่อบุคคล (เช่น ในชื่อเมืองเวียงจันทน์ 'ວຽງຈັນ') โดยมีการใช้เป็นคำทั่วไปแบบอิสระน้อยมากในภาษาลาวพูดสมัยใหม่",
+      "tl": "Isang bahagi ng pangalan; karaniwang ginagamit bilang bahagi ng isang personal na pangalan (hal., sa pangalan ng lungsod na Vientiane 'ວຽງຈັນ'), na may napaka-limitadong paggamit bilang isang karaniwang salita sa modernong sinasalitang Lao",
+      "ur": "ایک نام کا عنصر؛ عام طور پر کسی شخص کے نام کے حصے کے طور پر استعمال ہوتا ہے (مثلاً شہر کے نام Vientiane 'ວຽງຈັນ' میں)، جدید بولی جانے والی لاؤ میں ایک عام لفظ کے طور پر آزادانہ استعمال بہت محدود ہے",
+      "vi": "Một yếu tố tên; thường được dùng như một phần của tên riêng (ví dụ: trong tên thành phố Vientiane 'ວຽງຈັນ'), với việc sử dụng độc lập như một từ thông thường rất hạn chế trong tiếng Lào nói hiện đại",
+      "zh": "名字元素；通常作为人名的一部分使用（例如，在城市名称万象'ວຽງຈັນ'中），在现代口语老挝语中作为独立普通词使用非常有限",
+      "zh_Hant": "名字元素；通常作為人名的一部分使用（例如，在城市名稱萬象'ວຽງຈັນ'中），在現代口語寮語中作為獨立普通詞使用非常有限"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sʰiːan/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ຂອງລາວແມ່ນ ວິໄລຊຽນ",
+        "romanization": "sue khoong lao maen Wilaisian",
+        "translations": {
+          "de": "Ihr Name ist Wilaisian.",
+          "en": "Her name is Wilaisian.",
+          "es": "Su nombre es Wilaisian.",
+          "fr": "Son prénom est Wilaisian.",
+          "hi": "उसका नाम विलाईसियन है।",
+          "ja": "彼女の名前はウィライシアンです。",
+          "km": "ឈ្មោះរបស់នាងគឺ Wilaisian ។",
+          "ko": "그녀의 이름은 윌라이시안이야.",
+          "ne": "उनको नाम विलाईसियन हो।",
+          "pt": "O nome dela é Wilaisian.",
+          "th": "ชื่อของเธอคือ วิไลเชียน",
+          "tl": "Ang kanyang pangalan ay Wilaisian.",
+          "ur": "اس کا نام ولائیسیان ہے۔",
+          "vi": "Tên của cô ấy là Wilaisian.",
+          "zh": "她的名字叫维莱斯安。",
+          "zh_Hant": "她的名字叫維萊斯安。"
+        },
+        "out_of_scope_words": [
+          "ວິໄລຊຽນ"
+        ]
+      },
+      {
+        "lao_script": "ຊຽນ ມັກຖືກໃຊ້ໃນຊື່ຄົນລາວ",
+        "romanization": "sian mak thuuk sai nai sue khon laao",
+        "translations": {
+          "de": "'Sian' wird häufig in laotischen Personennamen verwendet.",
+          "en": "'Sian' is often used in Lao people's names.",
+          "es": "'Sian' se usa frecuentemente en los nombres de las personas laosinas.",
+          "fr": "« Sian » est souvent utilisé dans les noms des Laotiens.",
+          "hi": "'सियान' अक्सर लाओ लोगों के नामों में प्रयोग किया जाता है।",
+          "ja": "「シアン」はラオス人の名前によく使われる。",
+          "km": "'Sian' ត្រូវបានប្រើញឹកញាប់ក្នុងឈ្មោះបុគ្គលរបស់ជនជាតិឡាវ។",
+          "ko": "'시안'은 라오 사람들의 이름에 자주 쓰여.",
+          "ne": "'सियान' लाओ मानिसहरूको नाममा प्राय: प्रयोग हुन्छ।",
+          "pt": "'Sian' é frequentemente usado em nomes de pessoas laosianas.",
+          "th": "'เชียน' มักถูกใช้ในชื่อคนลาว",
+          "tl": "Ang 'Sian' ay madalas na ginagamit sa mga pangalan ng mga Lao.",
+          "ur": "'سیان' اکثر لاؤ لوگوں کے ناموں میں استعمال ہوتا ہے۔",
+          "vi": "'Sian' thường được dùng trong tên người Lào.",
+          "zh": "'斯安'常被用于老挝人的名字中。",
+          "zh_Hant": "'斯安'常被用於寮國人的名字中。"
+        },
+        "out_of_scope_words": [
+          "ມັກ",
+          "ຖືກໃຊ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or name card with decorative Lao-style patterns, showing a Lao personal name written on it, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  }
+}

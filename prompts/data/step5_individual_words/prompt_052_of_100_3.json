@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈຳນວນ",
+  "definitions": {
+    "de": "Anzahl, Menge oder Betrag von Dingen oder Personen",
+    "en": "A number, quantity, or amount of things or people",
+    "es": "Un número, cantidad o monto de cosas o personas",
+    "fr": "Un nombre, une quantité ou un montant de choses ou de personnes",
+    "hi": "चीज़ों या लोगों की संख्या, मात्रा या राशि",
+    "ja": "物や人の数、数量、または量",
+    "km": "ចំនួន បរិមាណ ឬទំហំនៃអ្វីៗ ឬមនុស្ស",
+    "ko": "사물이나 사람의 수, 수량 또는 양",
+    "ne": "वस्तु वा मानिसहरूको संख्या, परिमाण वा मात्रा",
+    "pt": "Um número, quantidade ou montante de coisas ou pessoas",
+    "th": "จำนวน ปริมาณ หรือจำนวนเงินของสิ่งของหรือบุคคล",
+    "tl": "Isang bilang, dami, o halaga ng mga bagay o tao",
+    "ur": "چیزوں یا لوگوں کی تعداد، مقدار یا رقم",
+    "vi": "Số lượng, số đếm hoặc tổng số của sự vật hoặc con người",
+    "zh": "事物或人的数目、数量或金额",
+    "zh_Hant": "事物或人的數目、數量或金額"
+  },
+  "definition_en": "A number, quantity, or amount of things or people",
+  "romanization": "jam-nuan",
+  "lao_examples": [
+    {
+      "lao_script": "ຈຳນວນຄົນທີ່ມາງານຫຼາຍຫຼາຍ",
+      "romanization": "jam-nuan khon thi ma ngan lai lai",
+      "translation_en": "The number of people who came to the event was really a lot"
+    },
+    {
+      "lao_script": "ເຈົ້າຮູ້ຈຳນວນທີ່ຖືກຕ້ອງບໍ?",
+      "romanization": "jao hu jam-nuan thi thuek tong bo?",
+      "translation_en": "Do you know the correct number?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a collection of colorful objects being counted with number labels (1, 2, 3...) above them, clean white background, bright colors, minimalist educational style suitable for a language learning app"
+}

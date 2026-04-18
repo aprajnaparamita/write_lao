@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສານ",
+  "definitions": {
+    "de": "Gericht (Rechtsinstitution); auch: weben oder flechten",
+    "en": "Court (legal institution); also: to weave or braid",
+    "es": "Tribunal (institución legal); también: tejer o trenzar",
+    "fr": "Tribunal (institution juridique); aussi: tisser ou tresser",
+    "hi": "न्यायालय (कानूनी संस्था); साथ ही: बुनना या गूंथना",
+    "ja": "裁判所（法的機関）；また：織る、編む",
+    "km": "តុលាការ (ស្ថាប័នច្បាប់); ក៏មានន័យថា ត្បាញ ឬស្រែកស្រាំ",
+    "ko": "법원 (법적 기관); 또한: 짜다, 엮다",
+    "ne": "अदालत (कानुनी संस्था); साथै: बुन्नु वा गाँस्नु",
+    "pt": "Tribunal (instituição legal); também: tecer ou trançar",
+    "th": "ศาล (สถาบันทางกฎหมาย); ยังหมายถึง การทอหรือสาน",
+    "tl": "Hukuman (legal na institusyon); gayundin: humabi o magtirintas",
+    "ur": "عدالت (قانونی ادارہ)؛ نیز: بُننا یا گوندھنا",
+    "vi": "Tòa án (cơ quan pháp lý); cũng có nghĩa: dệt hoặc đan",
+    "zh": "法院（法律机构）；也指：编织或编结",
+    "zh_Hant": "法院（法律機構）；也指：編織或編結"
+  },
+  "definition_en": "Court (legal institution); also: to weave or braid",
+  "romanization": "/saːn³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນໄປສານມື້ນີ້ເພາະຄະດີ",
+      "romanization": "phoen pai saan muu-nih phaw kha-dii",
+      "translation_en": "He/She is going to court today because of a legal case."
+    },
+    {
+      "lao_script": "ສານນີ້ຢູ່ໃກ້ໆຕົວເມືອງ",
+      "romanization": "saan nih yuu glai-glai tua-mueang",
+      "translation_en": "This court is near the city center."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a courthouse building with columns and a justice scale symbol above the entrance, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

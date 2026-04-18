@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນານ",
+  "definitions": {
+    "de": "Lang (Zeit); eine lange Zeitspanne; seit langem",
+    "en": "A long time; for a long duration; taking much time",
+    "es": "Mucho tiempo; de larga duración; que tarda bastante",
+    "fr": "Longtemps; une longue durée; qui prend beaucoup de temps",
+    "hi": "लंबे समय तक; बहुत देर; काफी समय",
+    "ja": "長い時間；長い間；時間がかかる",
+    "km": "យូរ; ចំណាយពេលយូរ; រយៈពេលយូរ",
+    "ko": "오랫동안; 오래; 긴 시간",
+    "ne": "लामो समय; धेरै समयसम्म; समय लाग्ने",
+    "pt": "Muito tempo; por longa duração; que demora bastante",
+    "th": "นาน; เป็นเวลานาน; ใช้เวลานาน",
+    "tl": "Matagal; mahabang panahon; tumatagal ng maraming oras",
+    "ur": "طویل وقت؛ کافی عرصہ؛ بہت دیر",
+    "vi": "Lâu; thời gian dài; mất nhiều thời gian",
+    "zh": "长时间；很久；耗时长",
+    "zh_Hant": "長時間；很久；耗時長"
+  },
+  "definition_en": "A long time; for a long duration; taking much time",
+  "romanization": "naan",
+  "lao_examples": [
+    {
+      "lao_script": "ລໍຖ້ານານຫຼາຍ, ລົດເມບໍ່ມາເທື່ອ",
+      "romanization": "lo thaa naan laai, lot me bo maa thuea",
+      "translation_en": "I've been waiting for a really long time and the bus still hasn't come."
+    },
+    {
+      "lao_script": "ເຈົ້າຢູ່ວຽງຈັນນານແລ້ວບໍ?",
+      "romanization": "jao yuu Wiangjan naan laeo bo?",
+      "translation_en": "Have you been in Vientiane for a long time?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting on a bench looking at a large clock with a long wait indicated by zzz marks or a very long hour hand, clean white background, colorful minimalist style suitable for a language learning app."
+}

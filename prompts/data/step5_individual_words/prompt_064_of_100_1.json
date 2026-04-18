@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈ່າຍ",
+  "definitions": {
+    "de": "bezahlen; Geld für etwas ausgeben oder übergeben",
+    "en": "to pay; to hand over money in exchange for goods or services",
+    "es": "pagar; entregar dinero a cambio de bienes o servicios",
+    "fr": "payer; donner de l'argent en échange de biens ou de services",
+    "hi": "भुगतान करना; वस्तुओं या सेवाओं के बदले पैसे देना",
+    "ja": "支払う；商品やサービスの代金としてお金を渡す",
+    "km": "បង់ប្រាក់; ប្រគល់ប្រាក់ជាថ្នូរនឹងទំនិញឬសេវាកម្ម",
+    "ko": "지불하다; 상품이나 서비스의 대가로 돈을 건네다",
+    "ne": "तिर्नु; सामान वा सेवाको बदलामा पैसा दिनु",
+    "pt": "pagar; entregar dinheiro em troca de bens ou serviços",
+    "th": "จ่าย; มอบเงินเพื่อแลกกับสินค้าหรือบริการ",
+    "tl": "magbayad; ibigay ang pera kapalit ng mga kalakal o serbisyo",
+    "ur": "ادا کرنا؛ سامان یا خدمات کے بدلے پیسے دینا",
+    "vi": "trả tiền; đưa tiền để đổi lấy hàng hóa hoặc dịch vụ",
+    "zh": "支付；为商品或服务交付金钱",
+    "zh_Hant": "支付；為商品或服務交付金錢"
+  },
+  "definition_en": "to pay; to hand over money in exchange for goods or services",
+  "romanization": "jaːj²²",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຈ່າຍເທົ່າໃດແລ້ວ?",
+      "romanization": "jao jaːj tʰao daːj lɛːw?",
+      "translation_en": "How much have you paid already?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຈ່າຍຄ່າກິນເອງໄດ້ເລີຍ",
+      "romanization": "kʰɔːj jaːj kʰaː kin ʔeːŋ daːj ləːj",
+      "translation_en": "I can pay for the food myself."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person handing paper money or tapping a phone to pay at a shop counter, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

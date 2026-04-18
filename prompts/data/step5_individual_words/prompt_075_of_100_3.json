@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮ້າຍ",
+  "definitions": {
+    "de": "schlecht; böse; wild; gefährlich; grausam",
+    "en": "bad; fierce; wicked; dangerous; cruel",
+    "es": "malo; feroz; malvado; peligroso; cruel",
+    "fr": "mauvais; féroce; méchant; dangereux; cruel",
+    "hi": "बुरा; खूंखार; क्रूर; खतरनाक; दुष्ट",
+    "ja": "悪い；凶暴な；危険な；残酷な",
+    "km": "អាក្រក់; គ្រោះថ្នាក់; ដាញ់; ឃោរឃៅ",
+    "ko": "나쁜; 사나운; 위험한; 잔인한",
+    "ne": "नराम्रो; हिंस्रक; खतरनाक; क्रूर",
+    "pt": "mau; feroz; perigoso; cruel; malvado",
+    "th": "ร้าย; ดุร้าย; อันตราย; ชั่วร้าย",
+    "tl": "masama; mabangis; mapanganib; ma残cruel",
+    "ur": "برا؛ خونخوار؛ خطرناک؛ ظالم",
+    "vi": "xấu; hung dữ; nguy hiểm; tàn ác",
+    "zh": "坏；凶猛；危险；残忍",
+    "zh_Hant": "壞；兇猛；危險；殘忍"
+  },
+  "definition_en": "bad; fierce; wicked; dangerous; cruel",
+  "romanization": "hâːj",
+  "lao_examples": [
+    {
+      "lao_script": "ໝາຂອງເພື່ອນຂ້ອຍຮ້າຍຫຼາຍ ຢ່າໄປໃກ້",
+      "romanization": "mǎː khɔ̌ːŋ pɨ̂an khɔ̂i hâːj lǎːj, yàː paj klâj",
+      "translation_en": "My friend's dog is really fierce, don't go near it."
+    },
+    {
+      "lao_script": "ຄົນນັ້ນໃຈຮ້າຍງ່າຍ ລະວັງດ້ວຍ",
+      "romanization": "khón nân tɕâj hâːj ŋàːj, lā wáŋ dûaj",
+      "translation_en": "That person gets angry easily, be careful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a fierce-looking growling dog with bared teeth, shown as a cartoon character with an angry expression, suitable for a language learning app, clean white background, bold colors, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄາດ",
+  "definitions": {
+    "de": "Erwarten / schätzen – ein nützliches Verb, das bedeutet, etwas zu erwarten, vorauszusagen oder zu schätzen",
+    "en": "To expect / to estimate – a useful verb meaning to anticipate something, make a prediction, or roughly calculate",
+    "es": "Esperar / estimar – verbo útil que significa anticipar algo, hacer una predicción o calcular aproximadamente",
+    "fr": "S'attendre à / estimer – verbe utile signifiant anticiper quelque chose, faire une prédiction ou calculer approximativement",
+    "hi": "उम्मीद करना / अनुमान लगाना – एक उपयोगी क्रिया जिसका अर्थ है किसी चीज़ की प्रत्याशा करना, भविष्यवाणी करना, या मोटे तौर पर गणना करना",
+    "ja": "予想する／見積もる – 何かを予期したり、予測したり、おおよそ計算したりすることを意味する便利な動詞",
+    "km": "រំពឹង / ប៉ាន់ប្រមាណ – កិរិយាព្យាង្គដ៏មានប្រយោជន៍ ដែលមានន័យថាទន្ទឹងរង់ចាំអ្វីមួយ ព្យាករណ៍ ឬគណនាប្រហាក់ប្រហែល",
+    "ko": "기대하다 / 추정하다 – 무언가를 예상하거나, 예측하거나, 대략 계산한다는 뜻의 유용한 동사",
+    "ne": "अपेक्षा गर्नु / अनुमान लगाउनु – एउटा उपयोगी क्रिया जसको अर्थ केही प्रत्याशा गर्नु, भविष्यवाणी गर्नु, वा लगभग गणना गर्नु हो",
+    "pt": "Esperar / estimar – verbo útil que significa antecipar algo, fazer uma previsão ou calcular aproximadamente",
+    "th": "คาดหวัง / ประมาณ – กริยาที่มีประโยชน์ หมายถึงการคาดการณ์ล่วงหน้า ทำนาย หรือคำนวณโดยประมาณ",
+    "tl": "Umasa / tantiyahin – isang kapaki-pakinabang na pandiwa na nangangahulugang asahan ang isang bagay, gumawa ng hula, o magsagawa ng magaspang na pagkalkula",
+    "ur": "توقع کرنا / اندازہ لگانا – ایک مفید فعل جس کا مطلب ہے کسی چیز کی توقع کرنا، پیشگوئی کرنا، یا تقریباً حساب لگانا",
+    "vi": "Kỳ vọng / ước tính – động từ hữu ích có nghĩa là mong đợi điều gì đó, đưa ra dự đoán, hoặc tính toán sơ bộ",
+    "zh": "预期/估计 – 一个有用的动词，意思是预期某事、做出预测或粗略计算",
+    "zh_Hant": "預期/估計 – 一個有用的動詞，意思是預期某事、做出預測或粗略計算"
+  },
+  "definition_en": "To expect / to estimate – a useful verb meaning to anticipate something, make a prediction, or roughly calculate",
+  "romanization": "/kʰâːt/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຄາດວ່າລາວຈະມາຮອດທ່ຽງ",
+      "romanization": "khoi khat waa lao ja maa hod thiang",
+      "translation_en": "I expect that he/she will arrive by noon."
+    },
+    {
+      "lao_script": "ເຂົາຄາດລາຄາໄວ້ປະມານສາມຮ້ອຍພັນ",
+      "romanization": "khao khat laa khaa wai pa maan sam hoi phan",
+      "translation_en": "He estimated the price at around three hundred thousand."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a thoughtful expression looking at a calendar and a price tag with a question mark, suggesting anticipation and estimation, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

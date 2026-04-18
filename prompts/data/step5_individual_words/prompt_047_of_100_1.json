@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພໍ່",
+  "definitions": {
+    "de": "Vater – ein männlicher Elternteil",
+    "en": "Father – a male parent",
+    "es": "Padre – el progenitor masculino",
+    "fr": "Père – parent de sexe masculin",
+    "hi": "पिता – पुरुष अभिभावक",
+    "ja": "父 – 男性の親",
+    "km": "ឪពុក – មាតាបិតាភេទប្រុស",
+    "ko": "아버지 – 남성 부모",
+    "ne": "बुबा – पुरुष अभिभावक",
+    "pt": "Pai – progenitor do sexo masculino",
+    "th": "พ่อ – ผู้ให้กำเนิดที่เป็นชาย",
+    "tl": "Ama – lalaking magulang",
+    "ur": "باپ – مرد والدین",
+    "vi": "Cha/Bố – người cha, phụ huynh nam",
+    "zh": "父亲 – 男性家长",
+    "zh_Hant": "父親 – 男性家長"
+  },
+  "definition_en": "Father – a male parent",
+  "romanization": "phɔː˩˩",
+  "lao_examples": [
+    {
+      "lao_script": "ພໍ່ຂອງຂ້ອຍເຮັດວຽກຢູ່ຕະຫຼາດ",
+      "romanization": "phɔː khɔ̌ːŋ khɔ̂i het viak yùː talàːt",
+      "translation_en": "My father works at the market."
+    },
+    {
+      "lao_script": "ພໍ່ເຈົ້າຢູ່ໃສ?",
+      "romanization": "phɔː jâo yùː sǎi",
+      "translation_en": "Where is your father?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly middle-aged man smiling warmly, standing beside a young child who looks up at him, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

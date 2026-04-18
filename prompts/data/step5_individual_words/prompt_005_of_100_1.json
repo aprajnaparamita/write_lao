@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຂົ້າ",
+  "definitions": {
+    "de": "Reis (Nahrungsmittel); (als Verb) eintreten/hineingehen",
+    "en": "rice (staple food); (as verb) to enter/go in",
+    "es": "arroz (alimento básico); (como verbo) entrar",
+    "fr": "riz (aliment de base); (comme verbe) entrer",
+    "hi": "चावल (मुख्य भोजन); (क्रिया) अंदर जाना/प्रवेश करना",
+    "ja": "米／ご飯（主食）／入る（動詞）",
+    "km": "បាយ／អង្ករ／ចូល (ម្ហូបមេ ឬកិរិយា 'ចូល')",
+    "ko": "쌀／밥／들어가다 (주식 쌀 혹은 동사 '들어가다')",
+    "ne": "चामल／भात／छिर्नु (मुख्य अन्न वा क्रिया 'प्रवेश गर्नु')",
+    "pt": "arroz (alimento básico); (como verbo) entrar",
+    "th": "ข้าว／เข้า (ข้าวสาร ข้าวสวย หรือคำกริยา 'เข้าไป')",
+    "tl": "bigas／kanin／pumasok (pagkain o pandiwang 'pumasok')",
+    "ur": "چاول؛ داخل ہونا (بنیادی غذا یا فعل 'داخل ہونا')",
+    "vi": "cơm／gạo／vào (lương thực chính hoặc động từ 'vào')",
+    "zh": "米／饭／进入（主食或动词'进入'）",
+    "zh_Hant": "米／飯／進入（主食或動詞「進入」）"
+  },
+  "definition_en": "rice (staple food); (as verb) to enter/go in",
+  "romanization": "kʰȁw",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ຢາກ ກິນ ເຂົ້າ",
+      "romanization": "kʰɔ̂ːj jȁːk kìn kʰȁw",
+      "translation_en": "I want to eat rice."
+    },
+    {
+      "lao_script": "ລາວ ເຂົ້າ ຫ້ອງ ແລ້ວ",
+      "romanization": "láːw kʰȁw hɔ̂ŋ lɛ̂ːw",
+      "translation_en": "He/She has entered the room."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a steaming bowl of white rice with chopsticks beside it, suitable for a language learning app, clean white background, minimalist cartoon style, warm colors."
+}

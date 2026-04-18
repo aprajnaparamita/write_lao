@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊັ່ນ",
+  "definitions": {
+    "de": "Zum Beispiel / wie zum Beispiel / solche wie; wird verwendet, um Beispiele einzuführen oder eine Liste von Dingen zu nennen, die zu einer bestimmten Kategorie gehören",
+    "en": "Such as / for example / like; used to introduce examples or list things that belong to a particular category",
+    "es": "Como / por ejemplo / tales como; se usa para introducir ejemplos o enumerar cosas que pertenecen a una categoría particular",
+    "fr": "Tel que / par exemple / comme; utilisé pour introduire des exemples ou énumérer des choses appartenant à une catégorie particulière",
+    "hi": "जैसे / उदाहरण के लिए / जैसे कि; किसी विशेष श्रेणी से संबंधित उदाहरण प्रस्तुत करने या चीज़ें सूचीबद्ध करने के लिए उपयोग किया जाता है",
+    "ja": "〜など／例えば／〜のような；特定のカテゴリに属する例を挙げたり、リストアップするために使う",
+    "km": "ដូចជា / ឧទាហរណ៍ / ដូច; ប្រើដើម្បីណែនាំឧទាហរណ៍ ឬរៀបរាប់អំពីអ្វីៗដែលជាកម្មសិទ្ធិរបស់ប្រភេទជាក់លាក់មួយ",
+    "ko": "예를 들어 / ~같은 / ~와 같이; 특정 범주에 속하는 예시를 소개하거나 나열할 때 사용",
+    "ne": "जस्तै / उदाहरणका लागि / जस्ता; कुनै विशेष वर्गसँग सम्बन्धित उदाहरणहरू प्रस्तुत गर्न वा सूचीबद्ध गर्न प्रयोग हुन्छ",
+    "pt": "Como / por exemplo / tais como; usado para introduzir exemplos ou listar coisas que pertencem a uma categoria específica",
+    "th": "เช่น / ยกตัวอย่างเช่น / อย่างเช่น; ใช้เพื่อแนะนำตัวอย่างหรือระบุสิ่งที่อยู่ในหมวดหมู่ใดหมวดหมู่หนึ่ง",
+    "tl": "Halimbawa / tulad ng / gaya ng; ginagamit upang magpakilala ng mga halimbawa o maglista ng mga bagay na kabilang sa isang partikular na kategorya",
+    "ur": "جیسے / مثلاً / جیسے کہ؛ کسی خاص زمرے سے تعلق رکھنے والی چیزوں کی مثالیں پیش کرنے یا فہرست بنانے کے لیے استعمال ہوتا ہے",
+    "vi": "Chẳng hạn như / ví dụ / như là; dùng để đưa ra ví dụ hoặc liệt kê những thứ thuộc một danh mục cụ thể",
+    "zh": "例如／比如／诸如；用于引入示例或列举属于某一特定类别的事物",
+    "zh_Hant": "例如／比如／諸如；用於引入示例或列舉屬於某一特定類別的事物"
+  },
+  "definition_en": "Such as / for example / like; used to introduce examples or list things that belong to a particular category",
+  "romanization": "sên",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍມັກຜັກເຊັ່ນໝາກເຜັດ ແລະ ໝາກຖົ່ວ",
+      "romanization": "khɔ̂i mák phák sên mâak phèt láe mâak thùa",
+      "translation_en": "I like vegetables such as chilies and beans."
+    },
+    {
+      "lao_script": "ວັນພັກເຊັ່ນວັນສາດ ຂ້ອຍຢາກຢູ່ບ້ານ",
+      "romanization": "wan phák sên wan sàat khɔ̂i yàak yùu bâan",
+      "translation_en": "On holidays such as festival days, I want to stay home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a list with examples — a large label saying 'Fruit' at the top with three items below it (apple, banana, orange) connected by bullet points, representing the concept of 'such as' or giving examples, clean white background, colorful, minimalist style, suitable for a language learning app."
+}

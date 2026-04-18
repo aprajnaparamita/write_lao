@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍາວ",
+  "definitions": {
+    "de": "Lang; beschreibt etwas mit großer Ausdehnung in der Länge oder langer Dauer",
+    "en": "Long; describes something of great length or extended duration",
+    "es": "Largo; describe algo de gran longitud o larga duración",
+    "fr": "Long; décrit quelque chose d'une grande longueur ou d'une longue durée",
+    "hi": "लंबा; किसी चीज़ की बड़ी लंबाई या लंबी अवधि का वर्णन करता है",
+    "ja": "長い；物の長さや時間の長さを表す形容詞",
+    "km": "វែង; ពណ៌នាអ្វីមួយដែលមានប្រវែងខ្លាំង ឬរយៈពេលយូរ",
+    "ko": "길다; 길이나 기간이 긴 것을 묘사하는 형용사",
+    "ne": "लामो; कुनै चीजको लम्बाइ वा अवधि ठूलो भएको वर्णन गर्दछ",
+    "pt": "Longo, comprido; descreve algo de grande extensão ou longa duração",
+    "th": "ยาว; บอกว่าสิ่งใดสิ่งหนึ่งมีความยาวมากหรือใช้เวลานาน",
+    "tl": "Mahaba; naglalarawan ng isang bagay na may malaking haba o matagal na tagal",
+    "ur": "لمبا؛ کسی چیز کی بڑی لمبائی یا طویل مدت کو بیان کرتا ہے",
+    "vi": "Dài; mô tả điều gì đó có chiều dài lớn hoặc kéo dài lâu",
+    "zh": "长；形容事物长度大或持续时间久",
+    "zh_Hant": "長；形容事物長度大或持續時間久"
+  },
+  "definition_en": "Long; describes something of great length or extended duration",
+  "romanization": "/ɲáːw/",
+  "lao_examples": [
+    {
+      "lao_script": "ຜົມຂອງເຈົ້າຍາວຫຼາຍເລີຍ",
+      "romanization": "phom khǒng jao ɲáːw lǎːj loei",
+      "translation_en": "Your hair is so long!"
+    },
+    {
+      "lao_script": "ທາງໄປຕະຫຼາດຍາວບໍ?",
+      "romanization": "thaang pai talàat ɲáːw bò?",
+      "translation_en": "Is the way to the market far/long?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration comparing a short rope and a long rope side by side, with the long one labeled visually, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

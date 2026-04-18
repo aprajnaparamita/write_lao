@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊຸມ",
+  "definitions": {
+    "de": "Gemeinschaft oder Gruppe; wird oft in zusammengesetzten Wörtern verwendet, um eine Versammlung von Menschen oder eine Gemeinschaft zu bezeichnen",
+    "en": "Community or group; often used in compound words to indicate a gathering of people or a collective community",
+    "es": "Comunidad o grupo; frecuentemente usado en palabras compuestas para indicar una reunión de personas o una comunidad colectiva",
+    "fr": "Communauté ou groupe; souvent utilisé dans des mots composés pour désigner un rassemblement de personnes ou une communauté collective",
+    "hi": "समुदाय या समूह; अक्सर यौगिक शब्दों में लोगों की सभा या सामूहिक समुदाय को दर्शाने के लिए उपयोग किया जाता है",
+    "ja": "コミュニティまたはグループ；人々の集まりや集合的なコミュニティを示す複合語に使われることが多い",
+    "km": "សហគមន៍ ឬក្រុម; ជារឿយៗប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីការប្រមូលផ្តុំមនុស្ស ឬសហគមន៍រួម",
+    "ko": "공동체 또는 그룹; 사람들의 모임이나 집단적 공동체를 나타내는 복합어에 자주 사용됨",
+    "ne": "समुदाय वा समूह; प्रायः यौगिक शब्दहरूमा मानिसहरूको भेला वा सामूहिक समुदाय जनाउन प्रयोग हुन्छ",
+    "pt": "Comunidade ou grupo; frequentemente usado em palavras compostas para indicar uma reunião de pessoas ou uma comunidade coletiva",
+    "th": "ชุมชนหรือกลุ่ม; มักใช้ในคำประสมเพื่อบ่งบอกถึงการรวมตัวของผู้คนหรือชุมชนโดยรวม",
+    "tl": "Komunidad o grupo; madalas na ginagamit sa mga tambalang salita upang ipahiwatig ang pagtitipon ng mga tao o isang kolektibong komunidad",
+    "ur": "برادری یا گروہ؛ اکثر مرکب الفاظ میں لوگوں کے اجتماع یا اجتماعی برادری کو ظاہر کرنے کے لیے استعمال ہوتا ہے",
+    "vi": "Cộng đồng hoặc nhóm; thường được dùng trong các từ ghép để chỉ sự tập hợp của mọi người hoặc một cộng đồng tập thể",
+    "zh": "社区或群体；常用于复合词中，表示人群的聚集或集体社区",
+    "zh_Hant": "社區或群體；常用於複合詞中，表示人群的聚集或集體社區"
+  },
+  "definition_en": "Community or group; often used in compound words to indicate a gathering of people or a collective community",
+  "romanization": "súm",
+  "lao_examples": [
+    {
+      "lao_script": "ຊຸມຊົນນີ້ຄົນດີຫຼາຍ",
+      "romanization": "súm sʰon niː kʰon diː laːj",
+      "translation_en": "There are many good people in this community."
+    },
+    {
+      "lao_script": "ພວກເຮົາຊຸມກັນທຸກວັນອາທິດ",
+      "romanization": "pʰûak hao súm kan tʰúk wan aː tʰít",
+      "translation_en": "We gather together every Sunday."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a diverse group of cheerful people standing together in a circle forming a community, clean white background, bright warm colors, minimalist style suitable for a language learning app."
+}

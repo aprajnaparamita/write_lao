@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄົ້ນ",
+  "definitions": {
+    "de": "Suchen; recherchieren; etwas durch Nachforschung herausfinden",
+    "en": "To search; to look for; to research or investigate something",
+    "es": "Buscar; investigar; indagar algo con esfuerzo",
+    "fr": "Chercher; rechercher; fouiller pour trouver quelque chose",
+    "hi": "खोजना; तलाश करना; किसी चीज़ की जाँच-पड़ताल करना",
+    "ja": "探す；調べる；研究・調査する",
+    "km": "ស្វែងរក; ស្រាវជ្រាវ; ពិនិត្យរកព័ត៌មាន",
+    "ko": "찾다; 탐색하다; 조사하거나 연구하다",
+    "ne": "खोज्नु; अनुसन्धान गर्नु; कुनै कुरा पत्ता लगाउनु",
+    "pt": "Pesquisar; procurar; investigar algo com esforço",
+    "th": "ค้นหา; สืบค้น; ค้นคว้าหาข้อมูล",
+    "tl": "Maghanap; mag-imbestiga; maghanapng impormasyon",
+    "ur": "تلاش کرنا؛ کھوجنا؛ کسی چیز کی تحقیق کرنا",
+    "vi": "Tìm kiếm; tra cứu; nghiên cứu hoặc điều tra điều gì đó",
+    "zh": "搜索；查找；研究或调查某事",
+    "zh_Hant": "搜索；查找；研究或調查某事"
+  },
+  "definition_en": "To search; to look for; to research or investigate something",
+  "romanization": "/kʰon˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຄົ້ນຫາຂໍ້ມູນໃນອິນເຕີເນັດໄດ້ເລີຍ",
+      "romanization": "jao khon haa khaw muun nai in-tee-net dai loei",
+      "translation_en": "You can just search for information on the internet."
+    },
+    {
+      "lao_script": "ຂ້ອຍຄົ້ນຫາຄຳສັບໃໝ່ທຸກວັນ",
+      "romanization": "khoi khon haa kham sap mai thuk wan",
+      "translation_en": "I search for new words every day."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting at a desk using a laptop or smartphone to search online, with a magnifying glass icon on the screen, clean white background, colorful and minimalist style suitable for a language learning app."
+}

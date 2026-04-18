@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼັກ",
+  "definitions": {
+    "de": "Pfosten/Säule/Pfahl (physisch); Hauptsächlich/primär (als Adjektiv); Grundprinzip/Grundsatz (abstrakt); Grundlage/Kern einer Sache",
+    "en": "Post/pillar/stake (physical object); main/primary/principal (as adjective); fundamental principle/rule (abstract); the core or foundation of something",
+    "es": "Poste/pilar/estaca (objeto físico); principal/primario (como adjetivo); principio fundamental/regla (abstracto); el núcleo o fundamento de algo",
+    "fr": "Poteau/pilier/piquet (objet physique); principal/primaire (comme adjectif); principe fondamental/règle (abstrait); le noyau ou la base de quelque chose",
+    "hi": "खंभा/स्तंभ/खूँटा (भौतिक वस्तु); मुख्य/प्राथमिक (विशेषण के रूप में); मूलभूत सिद्धांत/नियम (अमूर्त); किसी चीज़ का मूल या आधार",
+    "ja": "柱/杭/ポスト（物理的な物体）；主要な/主な（形容詞として）；基本原則/規則（抽象的）；物事の核心や基礎",
+    "km": "សសរ/សសរ/សសរ (វត្ថុប្រភេទ); ចម្បង/សំខាន់ (ជាគុណនាម); គោលការណ៍ជាមូលដ្ឋាន/ច្បាប់ (អរូបី); ស្នូល ឬគ្រឹះនៃអ្វីមួយ",
+    "ko": "기둥/말뚝/포스트(물리적 물체); 주요한/기본적인(형용사로); 기본 원칙/규칙(추상적); 어떤 것의 핵심이나 기초",
+    "ne": "खम्बा/स्तम्भ/मेखा (भौतिक वस्तु); मुख्य/प्राथमिक (विशेषणको रूपमा); मौलिक सिद्धान्त/नियम (अमूर्त); कुनै कुराको मूल वा आधार",
+    "pt": "Poste/pilar/estaca (objeto físico); principal/primário (como adjetivo); princípio fundamental/regra (abstrato); o núcleo ou fundação de algo",
+    "th": "เสา/หลัก/หมุด (วัตถุจริง); หลัก/สำคัญ (ในฐานะคำคุณศัพท์); หลักการพื้นฐาน/กฎ (นามธรรม); แก่นกลางหรือรากฐานของบางสิ่ง",
+    "tl": "Poste/haligi/tulos (pisikal na bagay); pangunahin/pangunahing (bilang pang-uri); pangunahing prinsipyo/tuntunin (abstract); ang pundasyon o puso ng isang bagay",
+    "ur": "ستون/کھمبہ/میخ (مادی چیز)؛ بنیادی/اصلی (بطور صفت)؛ بنیادی اصول/قانون (تجریدی)؛ کسی چیز کا مرکز یا بنیاد",
+    "vi": "Cột/cọc/trụ (vật thể); chính/chủ yếu (dùng như tính từ); nguyên tắc cơ bản/quy tắc (trừu tượng); cốt lõi hay nền tảng của điều gì đó",
+    "zh": "柱子/桩/主要支撑物（实体）；主要的/主要（作形容词）；基本原则/规则（抽象）；某事物的核心或基础",
+    "zh_Hant": "柱子/樁/主要支撐物（實體）；主要的/主要（作形容詞）；基本原則/規則（抽象）；某事物的核心或基礎"
+  },
+  "definition_en": "Post/pillar/stake (physical object); main/primary/principal (as adjective); fundamental principle/rule (abstract); the core or foundation of something",
+  "romanization": "/lak˦˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ນີ້ແມ່ນຫຼັກການສຳຄັນທີ່ສຸດ",
+      "romanization": "nii mɛɛn lak kaan sam khan thii sut",
+      "translation_en": "This is the most important fundamental principle."
+    },
+    {
+      "lao_script": "ຫຼັກນີ້ຢູ່ກາງສວນ",
+      "romanization": "lak nii yuu kaang suan",
+      "translation_en": "This post is in the middle of the garden."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a wooden post or pillar standing firmly in the ground as a central support, with a clean garden background, suitable for a language learning app, white background, colorful, minimalist style."
+}

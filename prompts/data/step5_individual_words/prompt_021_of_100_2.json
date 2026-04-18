@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແທນ",
+  "definitions": {
+    "de": "Statt; ersetzen; anstelle von etwas oder jemandem stehen",
+    "en": "Instead; to replace or substitute something or someone",
+    "es": "En vez de; reemplazar; sustituir algo o a alguien",
+    "fr": "À la place de; remplacer; se substituer à quelque chose ou quelqu'un",
+    "hi": "बजाय; प्रतिस्थापित करना; किसी चीज़ या व्यक्ति की जगह लेना",
+    "ja": "代わりに；代替する；何かや誰かの代わりになる",
+    "km": "ជំនួស; ជំនួយ; ធ្វើជំនួសអ្វីមួយ ឬនរណាម្នាក់",
+    "ko": "대신; 대체하다; 무언가 또는 누군가를 대신하다",
+    "ne": "सट्टामा; प्रतिस्थापन गर्नु; कसैको वा केहीको ठाउँ लिनु",
+    "pt": "Em vez de; substituir; tomar o lugar de algo ou alguém",
+    "th": "แทน; แทนที่; ทำหน้าที่แทนสิ่งหรือบุคคลอื่น",
+    "tl": "Sa halip; palitan; kumatawan o pumalit sa isang bagay o tao",
+    "ur": "بجائے؛ تبدیل کرنا؛ کسی چیز یا شخص کی جگہ لینا",
+    "vi": "Thay vì; thay thế; đại diện cho người hoặc vật khác",
+    "zh": "代替；替换；取代某人或某物",
+    "zh_Hant": "代替；替換；取代某人或某物"
+  },
+  "definition_en": "Instead; to replace or substitute something or someone",
+  "romanization": "then",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ຂ້ອຍຈະກິນເຂົ້າໜຽວແທນເຂົ້າຈ້າວ",
+      "romanization": "mue nii khoi ja kin khao niao then khao jao",
+      "translation_en": "Today I'll eat sticky rice instead of regular rice."
+    },
+    {
+      "lao_script": "ເຈົ້າຊ່ວຍໄປແທນຂ້ອຍໄດ້ບໍ່",
+      "romanization": "jao suai pai then khoi dai bo",
+      "translation_en": "Can you go instead of me?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two arrows, one replacing the other, with two similar objects side by side where one is swapping places with the other, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

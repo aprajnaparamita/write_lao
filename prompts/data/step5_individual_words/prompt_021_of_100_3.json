@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພົບ",
+  "definitions": {
+    "de": "Treffen; finden; auf jemanden oder etwas stoßen",
+    "en": "To meet or find; to encounter someone or discover something",
+    "es": "Encontrar; reunirse con alguien o descubrir algo",
+    "fr": "Rencontrer; trouver; tomber sur quelqu'un ou quelque chose",
+    "hi": "मिलना; ढूंढना; किसी से मिलना या कुछ खोजना",
+    "ja": "会う；見つける；誰かに出会う、または何かを発見する",
+    "km": "ជួប; រក; ជួបប្រទះនរណាម្នាក់ ឬរកឃើញអ្វីមួយ",
+    "ko": "만나다; 찾다; 누군가를 만나거나 무언가를 발견하다",
+    "ne": "भेट्नु; फेला पार्नु; कसैसँग भेट हुनु वा केही पत्ता लगाउनु",
+    "pt": "Encontrar; se encontrar com alguém ou descobrir algo",
+    "th": "พบ; เจอ; พบปะกับใครหรือค้นพบบางสิ่ง",
+    "tl": "Makatagpo; mahanap; makita o matuklasan ang isang tao o bagay",
+    "ur": "ملنا; ڈھونڈنا; کسی سے ملنا یا کچھ دریافت کرنا",
+    "vi": "Gặp; tìm thấy; tình cờ gặp ai đó hoặc khám phá điều gì",
+    "zh": "遇见；找到；与某人相遇或发现某事",
+    "zh_Hant": "遇見；找到；與某人相遇或發現某事"
+  },
+  "definition_en": "To meet or find; to encounter someone or discover something",
+  "romanization": "phop",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍພົບໝູ່ເກົ່າຢູ່ຕະຫຼາດເມື່ອວານ",
+      "romanization": "khoi phop muu kao yu talat muean van",
+      "translation_en": "Yesterday I ran into an old friend at the market."
+    },
+    {
+      "lao_script": "ເຮົາຈະໄປພົບກັນຢູ່ໃສດີ",
+      "romanization": "hao ja pai phop kan yu sai dii",
+      "translation_en": "Where should we meet?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two smiling people warmly greeting each other with a handshake or wave, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

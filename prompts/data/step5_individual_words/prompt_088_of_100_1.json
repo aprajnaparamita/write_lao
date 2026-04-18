@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈຽນ",
+  "definitions": {
+    "de": "Schreiben (literarisch/altertümlich); etwas in schriftlicher Form festhalten, oft in formellen oder traditionellen Texten verwendet",
+    "en": "To write (literary/archaic); to compose or inscribe text, typically used in formal, classical, or literary contexts rather than everyday speech",
+    "es": "Escribir (literario/arcaico); componer o inscribir texto, usado típicamente en contextos formales, clásicos o literarios en lugar del habla cotidiana",
+    "fr": "Écrire (littéraire/archaïque); composer ou inscrire un texte, généralement utilisé dans des contextes formels, classiques ou littéraires plutôt que dans le langage courant",
+    "hi": "लिखना (साहित्यिक/पुरातन); पाठ को लिखना या उत्कीर्ण करना, आमतौर पर औपचारिक, शास्त्रीय या साहित्यिक संदर्भों में उपयोग किया जाता है",
+    "ja": "書く（文語・古語）；テキストを作成または刻み込むこと。日常会話よりも、改まった、古典的、または文学的な文脈で使われることが多い",
+    "km": "សរសេរ (វណ្ណកម្ម/បុរាណ); ការតែងឬចារអក្សរ ជាទូទៅប្រើក្នុងបរិបទផ្លូវការ ឬអក្សរសិល្ប៍",
+    "ko": "쓰다 (문어체/고어); 텍스트를 작성하거나 새기는 것으로, 일상 대화보다는 격식체, 고전적, 또는 문학적 맥락에서 주로 사용됨",
+    "ne": "लेख्नु (साहित्यिक/पुरातन); पाठ रचना गर्नु वा उत्कीर्ण गर्नु, सामान्यतः औपचारिक, शास्त्रीय वा साहित्यिक सन्दर्भमा प्रयोग गरिन्छ",
+    "pt": "Escrever (literário/arcaico); compor ou inscrever texto, tipicamente usado em contextos formais, clássicos ou literários em vez da fala cotidiana",
+    "th": "เขียน (แบบวรรณคดี/โบราณ); การแต่งหรือจารึกข้อความ มักใช้ในบริบทที่เป็นทางการ คลาสสิก หรือวรรณกรรม มากกว่าภาษาพูดทั่วไป",
+    "tl": "Sumulat (pampanitikan/arkaiko); ang gumawa o mag-ukit ng teksto, karaniwang ginagamit sa pormal, klasikal, o pampanitikang konteksto kaysa sa pang-araw-araw na pagsasalita",
+    "ur": "لکھنا (ادبی/قدیم)؛ متن لکھنا یا کندہ کرنا، عام طور پر روزمرہ کی بجائے رسمی، کلاسیکی یا ادبی سیاق و سباق میں استعمال ہوتا ہے",
+    "vi": "Viết (văn học/cổ điển); soạn thảo hoặc khắc chữ, thường được dùng trong các ngữ cảnh trang trọng, cổ điển hoặc văn học hơn là trong lời nói hàng ngày",
+    "zh": "书写（文学/古语）；撰写或刻写文字，通常用于正式、古典或文学语境，而非日常口语",
+    "zh_Hant": "書寫（文學/古語）；撰寫或刻寫文字，通常用於正式、古典或文學語境，而非日常口語"
+  },
+  "definition_en": "To write (literary/archaic); to compose or inscribe text, typically used in formal, classical, or literary contexts rather than everyday speech",
+  "romanization": "tɕìan",
+  "lao_examples": [
+    {
+      "lao_script": "ພໍ່ຈຽນຈົດໝາຍຫາພີ່ນ້ອງທີ່ຢູ່ໄກ",
+      "romanization": "phɔ̄ː tɕìan tɕot māːj hǎː phîː nɔ́ːŋ tʰîː jùː klāj",
+      "translation_en": "Father writes a letter to the relatives who live far away"
+    },
+    {
+      "lao_script": "ນັກຮຽນຈຽນບົດກະວີສົ່ງຄູ",
+      "romanization": "nák hían tɕìan bòt kā wîː sòŋ kʰúː",
+      "translation_en": "The student writes a poem to submit to the teacher"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person writing with a traditional pen or quill on paper or a scroll, suggesting a classical or literary writing scene, clean white background, warm colors, minimalist style suitable for a language learning app"
+}

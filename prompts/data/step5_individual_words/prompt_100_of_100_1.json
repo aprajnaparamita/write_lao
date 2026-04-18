@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດັດ",
+  "definitions": {
+    "de": "Etwas anpassen, geraderichten oder korrigieren; eine Form oder Position verändern",
+    "en": "To adjust, straighten, or correct something; to alter the shape or position of something",
+    "es": "Ajustar, enderezar o corregir algo; cambiar la forma o posición de algo",
+    "fr": "Ajuster, redresser ou corriger quelque chose; modifier la forme ou la position de quelque chose",
+    "hi": "किसी चीज़ को समायोजित करना, सीधा करना या ठीक करना; किसी चीज़ का आकार या स्थिति बदलना",
+    "ja": "何かを調整する、まっすぐにする、または修正する；形や位置を変える",
+    "km": "កែសម្រួល ត្រង់ឡើង ឬកែតម្រូវអ្វីមួយ; ផ្លាស់ប្តូររូបរាង ឬទីតាំងនៃអ្វីមួយ",
+    "ko": "무언가를 조정하거나, 바르게 하거나, 교정하다; 모양이나 위치를 바꾸다",
+    "ne": "केही चीज मिलाउनु, सिधा पार्नु वा सच्याउनु; कुनै चीजको आकार वा स्थिति परिवर्तन गर्नु",
+    "pt": "Ajustar, endireitar ou corrigir algo; alterar a forma ou posição de algo",
+    "th": "ปรับ ดัด หรือแก้ไขบางสิ่ง; เปลี่ยนรูปร่างหรือตำแหน่งของบางสิ่ง",
+    "tl": "Ayusin, ituwid, o itama ang isang bagay; baguhin ang hugis o posisyon ng isang bagay",
+    "ur": "کسی چیز کو ٹھیک کرنا، سیدھا کرنا یا درست کرنا؛ کسی چیز کی شکل یا پوزیشن تبدیل کرنا",
+    "vi": "Điều chỉnh, uốn thẳng hoặc sửa chữa thứ gì đó; thay đổi hình dạng hoặc vị trí của thứ gì đó",
+    "zh": "调整、矫正或校正某物；改变某物的形状或位置",
+    "zh_Hant": "調整、矯正或校正某物；改變某物的形狀或位置"
+  },
+  "definition_en": "To adjust, straighten, or correct something; to alter the shape or position of something",
+  "romanization": "/dat/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຊ່ວຍດັດສາຍໄຟໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ່?",
+      "romanization": "jao suai dat saai fai hai khoi dae dai bor?",
+      "translation_en": "Can you help me straighten the wire?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຕ້ອງດັດຜົມໃໝ່ເພາະມັນບໍ່ສວຍ",
+      "romanization": "khoi tong dat phom mai phao man bor suai",
+      "translation_en": "I need to redo my hair because it doesn't look nice"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person straightening or adjusting a bent wire or rod with their hands, showing the before (bent/crooked) and after (straight) result, clean white background, colorful, minimalist style suitable for a language learning app."
+}

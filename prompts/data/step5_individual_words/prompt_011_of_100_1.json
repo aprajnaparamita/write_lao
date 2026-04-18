@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທາງ",
+  "definitions": {
+    "de": "Weg, Straße, Richtung – bezeichnet einen physischen Pfad oder eine Richtung, in die man sich bewegt",
+    "en": "Way, road, or direction – refers to a path, route, or direction of movement",
+    "es": "Camino, carretera o dirección – se refiere a un sendero, ruta o dirección de movimiento",
+    "fr": "Chemin, route ou direction – désigne un sentier, un itinéraire ou une direction de déplacement",
+    "hi": "रास्ता, सड़क या दिशा – किसी पथ, मार्ग या गति की दिशा को दर्शाता है",
+    "ja": "道、道路、または方向 – 道筋、ルート、または移動の方向を指す",
+    "km": "ផ្លូវ ទិសដៅ ឬមាគ៌ា – សំដៅលើផ្លូវ ឬទិសដៅនៃការធ្វើដំណើរ",
+    "ko": "길, 도로 또는 방향 – 경로, 루트 또는 이동 방향을 나타냄",
+    "ne": "बाटो, सडक वा दिशा – कुनै मार्ग, रुट वा गतिको दिशालाई जनाउँछ",
+    "pt": "Caminho, estrada ou direção – refere-se a um trajeto, rota ou direção de movimento",
+    "th": "ทาง ถนน หรือทิศทาง – หมายถึงเส้นทาง เส้นทางเดินทาง หรือทิศทางการเคลื่อนที่",
+    "tl": "Daan, kalsada, o direksyon – tumutukoy sa landas, ruta, o direksyon ng paggalaw",
+    "ur": "راستہ، سڑک یا سمت – کسی راہ، روٹ یا نقل و حرکت کی سمت کو ظاہر کرتا ہے",
+    "vi": "Đường, con đường hoặc hướng đi – chỉ một lối đi, tuyến đường hoặc hướng di chuyển",
+    "zh": "路、道路或方向——指某条路径、路线或移动的方向",
+    "zh_Hant": "路、道路或方向——指某條路徑、路線或移動的方向"
+  },
+  "definition_en": "Way, road, or direction – refers to a path, route, or direction of movement",
+  "romanization": "tʰaːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ທາງໄປຕະຫຼາດຢູ່ໃສ?",
+      "romanization": "tʰaːŋ pai ta-laːt yùː saǐ?",
+      "translation_en": "Which way is it to the market?"
+    },
+    {
+      "lao_script": "ໄປທາງນີ້ແລ້ວຈະເຫັນຮ້ານ",
+      "romanization": "pai tʰaːŋ niː lɛːw dʑaː hěn haːn",
+      "translation_en": "Go this way and you'll see the shop."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a road or path stretching forward with a directional arrow, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

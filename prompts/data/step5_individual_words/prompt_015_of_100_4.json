@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະ",
+  "definitions": {
+    "de": "Verlassen, zurücklassen, liegenlassen; auch gebräuchliches Verbpräfix in zusammengesetzten Wörtern, das eine abgeschlossene oder aufgegebene Handlung anzeigt",
+    "en": "To leave behind, abandon, or put down; also a very common verb prefix in compound words indicating an action done to something or leaving something in a state",
+    "es": "Dejar, abandonar, colocar; también es un prefijo verbal muy común en palabras compuestas que indica una acción realizada sobre algo o dejar algo en un estado",
+    "fr": "Laisser, abandonner, poser; aussi un préfixe verbal très courant dans les mots composés indiquant une action faite sur quelque chose ou laisser quelque chose dans un état",
+    "hi": "छोड़ना, पीछे छोड़ना, रख देना; यौगिक शब्दों में एक सामान्य क्रिया उपसर्ग भी जो किसी चीज़ पर की गई क्रिया या किसी अवस्था में छोड़ना दर्शाता है",
+    "ja": "置いていく、捨てる、残す；また、複合語で非常によく使われる動詞接頭辞で、何かに対する行為や何かをある状態に残すことを示す",
+    "km": "ទុក, បោះបង់, ចោល; ក៏ជាបុព្វបទកិរិយាស័ព្ទដែលប្រើញឹកញាប់ក្នុងពាក្យផ្សំដែលបង្ហាញពីសកម្មភាពដែលបានធ្វើ ឬទុកអ្វីមួយក្នុងស្ថានភាពណាមួយ",
+    "ko": "두고 가다, 버리다, 남겨두다; 또한 복합어에서 매우 자주 쓰이는 동사 접두사로, 무언가에 대한 행동이나 무언가를 어떤 상태로 남겨둠을 나타냄",
+    "ne": "छोडेर जानु, त्याग्नु, राखिदिनु; यौगिक शब्दहरूमा एक सामान्य क्रिया उपसर्ग पनि जो केहीमा गरिएको कार्य वा केहीलाई कुनै अवस्थामा छोड्ने संकेत गर्छ",
+    "pt": "Deixar para trás, abandonar, largar; também é um prefixo verbal muito comum em palavras compostas indicando uma ação feita sobre algo ou deixar algo em um estado",
+    "th": "ทิ้ง, ปล่อย, วาง; ยังเป็นคำอุปสรรคกริยาที่ใช้บ่อยมากในคำประสมที่แสดงการกระทำต่อสิ่งใดสิ่งหนึ่ง หรือการทิ้งบางสิ่งไว้ในสภาพหนึ่ง",
+    "tl": "Iwan, talikuran, ibaba; isa rin itong napaka-karaniwang unlapi ng pandiwa sa mga salitang tambalan na nagpapahiwatig ng isang kilos na ginawa sa isang bagay o pag-iwan ng isang bagay sa isang kalagayan",
+    "ur": "چھوڑ جانا، پیچھے چھوڑنا، رکھ دینا؛ مرکب الفاظ میں ایک بہت عام فعلی سابقہ بھی جو کسی چیز پر کی گئی کارروائی یا کسی چیز کو کسی حال میں چھوڑنے کا اشارہ دیتا ہے",
+    "vi": "Để lại, bỏ lại, đặt xuống; cũng là tiền tố động từ rất phổ biến trong từ ghép, chỉ một hành động được thực hiện lên cái gì đó hoặc để lại điều gì đó trong một trạng thái",
+    "zh": "留下，丢下，放下；也是复合词中非常常见的动词前缀，表示对某物做出的动作或将某物留在某种状态",
+    "zh_Hant": "留下，丟下，放下；也是複合詞中非常常見的動詞前綴，表示對某物做出的動作或將某物留在某種狀態"
+  },
+  "definition_en": "To leave behind, abandon, or put down; also a very common verb prefix in compound words indicating an action done to something or leaving something in a state",
+  "romanization": "/páʔ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າປະຂອງໄວ້ຕໍ່ງ ຈະຫາຍໄດ້",
+      "romanization": "yaa pa khong wai too, ja haai dai",
+      "translation_en": "Don't leave your things outside, they might get lost"
+    },
+    {
+      "lao_script": "ລາວປະເຮືອນໄວ້ຄົນດຽວໄປຕ່າງປະເທດ",
+      "romanization": "lao pa heuan wai khon diao, pai taang pa thet",
+      "translation_en": "They left the house alone and went abroad"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking away and leaving a bag or object behind on the ground, with an arrow showing the person leaving, clean white background, colorful minimalist style suitable for a language learning app."
+}

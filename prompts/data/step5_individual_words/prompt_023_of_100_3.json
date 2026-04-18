@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຝ່າຍ",
+  "definitions": {
+    "de": "Seite, Partei oder Fraktion in einem Streit oder einer Gruppe; Abteilung oder Zweig einer Organisation",
+    "en": "Side, party, or faction in a dispute or group; department or branch of an organization",
+    "es": "Lado, partido o facción en una disputa o grupo; departamento o rama de una organización",
+    "fr": "Côté, parti ou faction dans un différend ou un groupe; département ou branche d'une organisation",
+    "hi": "किसी विवाद या समूह में पक्ष, दल या गुट; किसी संगठन का विभाग या शाखा",
+    "ja": "争いやグループにおける側・党派・派閥；組織の部門や部署",
+    "km": "ភាគី ឬក្រុម​នៅក្នុងជម្លោះ ឬក្រុម; នាយកដ្ឋាន ឬសាខានៃស្ថាប័ន",
+    "ko": "분쟁이나 집단에서의 측, 당파, 파벌; 조직의 부서나 지부",
+    "ne": "विवाद वा समूहमा पक्ष, दल वा गुट; संगठनको विभाग वा शाखा",
+    "pt": "Lado, partido ou facção em uma disputa ou grupo; departamento ou ramo de uma organização",
+    "th": "ฝ่าย กลุ่ม หรือพรรคในข้อพิพาทหรือกลุ่ม; แผนกหรือสาขาขององค์กร",
+    "tl": "Panig, partido, o paksyon sa isang pagtatalo o grupo; departamento o sangay ng isang organisasyon",
+    "ur": "تنازعے یا گروہ میں طرف، جماعت یا گروہ بندی؛ کسی تنظیم کا محکمہ یا شعبہ",
+    "vi": "Phía, đảng phái, hoặc phe nhóm trong tranh chấp hay tập thể; bộ phận hoặc chi nhánh của tổ chức",
+    "zh": "争端或群体中的一方、党派或派系；组织的部门或分支",
+    "zh_Hant": "爭端或群體中的一方、黨派或派系；組織的部門或分支"
+  },
+  "definition_en": "Side, party, or faction in a dispute or group; department or branch of an organization",
+  "romanization": "faːj",
+  "lao_examples": [
+    {
+      "lao_script": "ສອງຝ່າຍຕ້ອງລົມກັນກ່ອນຈຶ່ງຕັດສິນ",
+      "romanization": "sɔːŋ faːj tɔːŋ lom kan kɔːn tɕɯŋ tat sin",
+      "translation_en": "Both sides need to talk to each other before making a decision"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢູ່ຝ່າຍດຽວກັນກັບເຈົ້າ, ຢ່າກັງວົນ",
+      "romanization": "kʰɔːj juː faːj diaːw kan kap tɕâo, jaː kaŋ wón",
+      "translation_en": "I'm on the same side as you, don't worry"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two groups of people facing each other on opposite sides with a dividing line in the middle, suitable for a language learning app, clean white background, colorful, minimalist cartoon style"
+}

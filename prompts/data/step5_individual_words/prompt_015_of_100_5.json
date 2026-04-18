@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສີ",
+  "definitions": {
+    "de": "Farbe (Substantiv); auch das Zahlwort für vier (4) im Laotischen",
+    "en": "Color (noun); also the word for the number four (4) in Lao",
+    "es": "Color (sustantivo); también es la palabra para el número cuatro (4) en lao",
+    "fr": "Couleur (nom); aussi le mot pour le nombre quatre (4) en laotien",
+    "hi": "रंग (संज्ञा); लाओ भाषा में संख्या चार (4) के लिए भी प्रयुक्त शब्द",
+    "ja": "色（名詞）；また、ラオ語で数字の4を意味する語でもある",
+    "km": "ពណ៌ (នាម); ក៏ជាពាក្យសម្រាប់លេខបួន (4) ក្នុងភាសាឡាវ",
+    "ko": "색, 색깔 (명사); 라오어에서 숫자 4를 의미하기도 함",
+    "ne": "रंग (संज्ञा); लाओ भाषामा संख्या चार (४) को लागि पनि प्रयोग गरिने शब्द",
+    "pt": "Cor (substantivo); também a palavra para o número quatro (4) em laosiano",
+    "th": "สี (คำนาม); ยังหมายถึงตัวเลขสี่ (4) ในภาษาลาวด้วย",
+    "tl": "Kulay (pangngalan); ito rin ang salita para sa bilang na apat (4) sa wikang Lao",
+    "ur": "رنگ (اسم)؛ لاؤ زبان میں عدد چار (4) کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Màu sắc (danh từ); cũng là từ chỉ số bốn (4) trong tiếng Lào",
+    "zh": "颜色（名词）；在老挝语中也是数字四（4）的词",
+    "zh_Hant": "顏色（名詞）；在寮語中也是數字四（4）的詞"
+  },
+  "definition_en": "Color (noun); also the word for the number four (4) in Lao",
+  "romanization": "/síː/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຊອບສີຫຍັງຫຼາຍສຸດ ຂ້ອຍຊອບສີຟ້າ",
+      "romanization": "jao saawp sii nyaang laai soot, khoi saawp sii faa",
+      "translation_en": "What color do you like the most? I like blue the most"
+    },
+    {
+      "lao_script": "ເສື້ອສີນີ້ງາມຫຼາຍ ຊື້ໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ່",
+      "romanization": "suua sii nii ngaam laai, suuu hai khoi dae dai boo",
+      "translation_en": "This colored shirt is really nice, can you buy it for me?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a colorful palette of paint swatches or color blocks in red, blue, yellow, and green arranged neatly, clean white background, minimalist style suitable for a language learning app."
+}

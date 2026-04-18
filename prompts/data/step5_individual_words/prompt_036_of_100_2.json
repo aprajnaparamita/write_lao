@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄູ່",
+  "definitions": {
+    "de": "Ein Paar; zwei zusammengehörende Dinge oder Personen; auch verwendet als Klassifikator für paarige Objekte",
+    "en": "A pair or couple; two matching or related things or people; also used as a classifier for paired objects",
+    "es": "Un par o pareja; dos cosas o personas que van juntas; también se usa como clasificador para objetos en pares",
+    "fr": "Une paire ou un couple ; deux choses ou personnes qui vont ensemble ; utilisé aussi comme classificateur pour les objets en paires",
+    "hi": "एक जोड़ा; दो मेल खाने वाली वस्तुएँ या लोग; जोड़े में आने वाली वस्तुओं के लिए वर्गीकरण शब्द के रूप में भी प्रयुक्त",
+    "ja": "ペア、カップル；対になる二つの物や人；対になった物の類別詞としても使われる",
+    "km": "គូ; វត្ថុ ឬមនុស្សពីរដែលទៅគ្នា; ក៏ប្រើជាលក្ខណៈនាមសម្រាប់វត្ថុគូផងដែរ",
+    "ko": "한 쌍; 짝을 이루는 두 개의 물건이나 사람; 쌍을 이루는 사물에 쓰이는 분류사로도 사용됨",
+    "ne": "जोडी; दुई मेल खाने वस्तु वा मान्छे; जोडीमा आउने वस्तुहरूको लागि वर्गीकरण शब्दको रूपमा पनि प्रयोग",
+    "pt": "Um par ou casal; duas coisas ou pessoas que combinam; também usado como classificador para objetos em pares",
+    "th": "คู่; สิ่งของหรือคนสองอย่างที่จับคู่กัน; ใช้เป็นลักษณนามสำหรับสิ่งของที่เป็นคู่ด้วย",
+    "tl": "Isang pares o mag-asawa; dalawang bagay o taong magkasama; ginagamit din bilang klasipikador para sa mga bagay na pares",
+    "ur": "ایک جوڑا؛ دو ملتی جلتی چیزیں یا لوگ؛ جوڑے میں آنے والی چیزوں کے لیے کلاسیفائر کے طور پر بھی استعمال",
+    "vi": "Một cặp đôi; hai vật hoặc người đi cùng nhau; cũng dùng làm loại từ cho các đồ vật đi thành đôi",
+    "zh": "一对；两个相配的事物或人；也用作成对物品的量词",
+    "zh_Hant": "一對；兩個相配的事物或人；也用作成對物品的量詞"
+  },
+  "definition_en": "A pair or couple; two matching or related things or people; also used as a classifier for paired objects",
+  "romanization": "kʰuː²⁴",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື້ຮອງເທົ້າຄູ່ໃໝ່ມາເດີ້",
+      "romanization": "sɯː hɔːŋ tʰao kʰuː mai maa deː",
+      "translation_en": "I bought a new pair of shoes."
+    },
+    {
+      "lao_script": "ສອງຄູ່ນັ້ນຮັກກັນຫຼາຍ",
+      "romanization": "sɔːŋ kʰuː nan hak kan laːj",
+      "translation_en": "Those two couples love each other a lot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two matching items side by side — such as a pair of colorful shoes or a pair of gloves — with the number 2 subtly indicated, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

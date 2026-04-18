@@ -1,0 +1,419 @@
+{
+  "ເອີ້ນ": {
+    "definitions": {
+      "de": "rufen / nennen – jemanden beim Namen rufen oder etwas benennen",
+      "en": "to call / to name – to call out to someone or to give something a name",
+      "es": "llamar / nombrar – llamar a alguien o dar nombre a algo",
+      "fr": "appeler / nommer – appeler quelqu'un ou donner un nom à quelque chose",
+      "hi": "बुलाना / नाम रखना – किसी को पुकारना या किसी चीज़ का नाम रखना",
+      "ja": "呼ぶ／名付ける – 誰かを呼ぶ、または何かに名前をつける",
+      "km": "ហៅ / ដាក់ឈ្មោះ – ហៅនរណាម្នាក់ ឬដាក់ឈ្មោះអ្វីមួយ",
+      "ko": "부르다 / 이름 짓다 – 누군가를 부르거나 무언가에 이름을 붙이다",
+      "ne": "बोलाउनु / नाम राख्नु – कसैलाई बोलाउनु वा कुनै कुरालाई नाम दिनु",
+      "pt": "chamar / nomear – chamar alguém ou dar nome a algo",
+      "th": "เรียก / ตั้งชื่อ – เรียกหาใครบางคน หรือตั้งชื่อให้กับบางสิ่ง",
+      "tl": "tumawag / pangalanan – tumawag sa isang tao o bigyan ng pangalan ang isang bagay",
+      "ur": "بلانا / نام رکھنا – کسی کو پکارنا یا کسی چیز کو نام دینا",
+      "vi": "gọi / đặt tên – gọi ai đó hoặc đặt tên cho cái gì đó",
+      "zh": "叫 / 称呼 – 叫某人或给某物命名",
+      "zh_Hant": "叫 / 稱呼 – 叫某人或給某物命名"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔəːn˥˩/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າເອີ້ນຂ້ອຍວ່າແນວໃດ?",
+        "romanization": "jao ʔəːn khɔːj vaː nɛːw daɪ?",
+        "translations": {
+          "de": "Wie rufst du mich?",
+          "en": "What do you call me?",
+          "es": "¿Cómo me llamas?",
+          "fr": "Comment tu m'appelles ?",
+          "hi": "तुम मुझे क्या कहकर बुलाते हो?",
+          "ja": "あなたは私を何と呼びますか？",
+          "km": "អ្នកហៅខ្ញុំថាអ្វី?",
+          "ko": "너는 나를 어떻게 부르니?",
+          "ne": "तिमी मलाई के भनेर बोलाउँछौ?",
+          "pt": "Como você me chama?",
+          "th": "แกเรียกฉันว่าอะไร?",
+          "tl": "Ano ang itawag mo sa akin?",
+          "ur": "تم مجھے کیا کہہ کر بلاتے ہو؟",
+          "vi": "Bạn gọi tôi là gì?",
+          "zh": "你怎么叫我？",
+          "zh_Hant": "你怎麼叫我？"
+        },
+        "out_of_scope_words": [
+          "ວ່າ",
+          "ແນວໃດ"
+        ]
+      },
+      {
+        "lao_script": "ແມ່ເອີ້ນຊື່ລູກວ່າ ນ້ອຍ",
+        "romanization": "mɛː ʔəːn sɯː luːk vaː nɔːj",
+        "translations": {
+          "de": "Die Mutter nennt ihr Kind Noi.",
+          "en": "The mother names her child Noi.",
+          "es": "La madre llama a su hijo Noi.",
+          "fr": "La mère appelle son enfant Noi.",
+          "hi": "माँ अपने बच्चे को नोय कहकर बुलाती है।",
+          "ja": "お母さんは子どもをノイと名付けた。",
+          "km": "ម្តាយដាក់ឈ្មោះកូនថា នូយ។",
+          "ko": "어머니는 아이를 노이라고 부른다.",
+          "ne": "आमाले आफ्नो बच्चाको नाम नोई राख्छिन्।",
+          "pt": "A mãe chama seu filho de Noi.",
+          "th": "แม่ตั้งชื่อลูกว่า น้อย",
+          "tl": "Pinangalanan ng ina ang kanyang anak na Noi.",
+          "ur": "ماں نے اپنے بچے کا نام نوئی رکھا۔",
+          "vi": "Mẹ đặt tên con là Noi.",
+          "zh": "妈妈给孩子取名叫诺伊。",
+          "zh_Hant": "媽媽給孩子取名叫諾伊。"
+        },
+        "out_of_scope_words": [
+          "ແມ່",
+          "ຊື່",
+          "ລູກ",
+          "ນ້ອຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person waving and calling out to a friend across the street, with a speech bubble showing a name, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແກ່ນ": {
+    "definitions": {
+      "de": "Kern / Samen / Stein – der innere Kern einer Frucht oder ein Pflanzensamen; übertragen auch das Wesentliche einer Sache",
+      "en": "seed / core / pit – the inner seed or pit of a fruit; figuratively, the core or essence of something",
+      "es": "semilla / núcleo / hueso – la semilla o hueso interior de una fruta; figuradamente, la esencia de algo",
+      "fr": "graine / noyau / cœur – le noyau ou la graine d'un fruit ; au sens figuré, l'essence de quelque chose",
+      "hi": "बीज / गुठली / सार – फल का अंदरूनी बीज या गुठली; आलंकारिक रूप में किसी चीज़ का मूल",
+      "ja": "種／核／芯 – 果物の種や核；比喩的に何かの本質や核心",
+      "km": "គ្រាប់ / ចំណុចស្នូល – គ្រាប់ ឬចំណុចស្នូលនៃផ្លែឈើ; តាមន័យប្រៀបធៀប មានន័យថាខ្លឹមសារ",
+      "ko": "씨 / 핵심 / 씨앗 – 과일의 씨앗이나 핵; 비유적으로 무언가의 본질이나 핵심",
+      "ne": "बीउ / गेडा / सार – फलको भित्री बीउ वा गेडा; लाक्षणिक अर्थमा कुनै कुराको सार",
+      "pt": "semente / caroço / núcleo – a semente ou caroço de uma fruta; figurativamente, a essência de algo",
+      "th": "เมล็ด / แกน / เนื้อใน – เมล็ดหรือแกนของผลไม้ โดยเปรียบเทียบหมายถึงแก่นสารของบางสิ่ง",
+      "tl": "buto / butil / kaibuturan – ang loob na buto ng prutas; sa makasagisag na kahulugan, ang kaibuturan ng isang bagay",
+      "ur": "بیج / گٹھلی / جوہر – پھل کا اندرونی بیج یا گٹھلی؛ مجازی طور پر کسی چیز کا جوہر",
+      "vi": "hạt / nhân / lõi – hạt hoặc nhân bên trong của quả; theo nghĩa bóng là cốt lõi của điều gì đó",
+      "zh": "种子 / 果核 / 核心 – 水果的内核或种子；比喻某事物的精髓或核心",
+      "zh_Hant": "種子 / 果核 / 核心 – 水果的內核或種子；比喻某事物的精髓或核心"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kɛːn˨˩/",
+    "examples": [
+      {
+        "lao_script": "ໝາກມ່ວງນີ້ມີແກ່ນໃຫຍ່ຫຼາຍ",
+        "romanization": "maːk muaŋ niː miː kɛːn ɲaɪ laːj",
+        "translations": {
+          "de": "Diese Mango hat einen sehr großen Kern.",
+          "en": "This mango has a really big seed.",
+          "es": "Este mango tiene un hueso muy grande.",
+          "fr": "Cette mangue a un très gros noyau.",
+          "hi": "इस आम की गुठली बहुत बड़ी है।",
+          "ja": "このマンゴーはとても大きな種がある。",
+          "km": "មាន់ស្វាយនេះមានគ្រាប់ធំណាស់។",
+          "ko": "이 망고는 씨가 정말 크다.",
+          "ne": "यो आँपको गेडा धेरै ठूलो छ।",
+          "pt": "Esta manga tem um caroço muito grande.",
+          "th": "มะม่วงลูกนี้มีเมล็ดใหญ่มาก",
+          "tl": "Ang manggang ito ay may napakalalaking buto.",
+          "ur": "اس آم کی گٹھلی بہت بڑی ہے۔",
+          "vi": "Quả xoài này có hạt rất to.",
+          "zh": "这个芒果的核很大。",
+          "zh_Hant": "這個芒果的核很大。"
+        },
+        "out_of_scope_words": [
+          "ໝາກມ່ວງ",
+          "ໃຫຍ່",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ເອົາແກ່ນໝາກຖົ່ວໄປປູກແດ່",
+        "romanization": "ʔaw kɛːn maːk tʰua paɪ puːk dɛː",
+        "translations": {
+          "de": "Nimm die Erdnusskerne und pflanze sie.",
+          "en": "Take the peanut seeds and go plant them.",
+          "es": "Toma las semillas de maní y ve a plantarlas.",
+          "fr": "Prends les graines de cacahuète et va les planter.",
+          "hi": "मूंगफली के बीज लेकर जाओ और उन्हें बो दो।",
+          "ja": "ピーナッツの種を持って行って植えてね。",
+          "km": "យកគ្រាប់សណ្តែកដីទៅដាំផង។",
+          "ko": "땅콩 씨앗을 가지고 가서 심어.",
+          "ne": "बदामका बीउ लिएर गएर रोप।",
+          "pt": "Pega as sementes de amendoim e vai plantá-las.",
+          "th": "เอาเมล็ดถั่วลิสงไปปลูกหน่อย",
+          "tl": "Kunin ang mga buto ng mani at itanim.",
+          "ur": "مونگ پھلی کے بیج لے جاؤ اور لگاؤ۔",
+          "vi": "Lấy hạt đậu phộng đem đi trồng đi.",
+          "zh": "把花生的种子带去种。",
+          "zh_Hant": "把花生的種子帶去種。"
+        },
+        "out_of_scope_words": [
+          "ເອົາ",
+          "ໝາກຖົ່ວ",
+          "ປູກ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a cut-open mango with the large pit/seed visible in the center, alongside a few small seeds on a white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຂ່ງ": {
+    "definitions": {
+      "de": "wettkämpfen / ein Rennen fahren – an einem Wettbewerb oder Rennen teilnehmen",
+      "en": "to compete / to race – to take part in a competition or race against others",
+      "es": "competir / correr una carrera – participar en una competencia o carrera",
+      "fr": "concourir / faire la course – participer à une compétition ou à une course",
+      "hi": "प्रतिस्पर्धा करना / दौड़ लगाना – किसी प्रतियोगिता या दौड़ में भाग लेना",
+      "ja": "競争する／レースをする – 競技やレースに参加する",
+      "km": "ប្រកួត / ប្រណាំង – ចូលរួមការប្រកួតប្រជែង ឬការប្រណាំង",
+      "ko": "경쟁하다 / 경주하다 – 대회나 경주에 참가하다",
+      "ne": "प्रतिस्पर्धा गर्नु / दौड लाग्नु – कुनै प्रतियोगिता वा दौडमा भाग लिनु",
+      "pt": "competir / correr – participar de uma competição ou corrida",
+      "th": "แข่งขัน / แข่งรถ – เข้าร่วมการแข่งขันหรือการแข่งกัน",
+      "tl": "makipaglaban / makipagtakbuhan – lumahok sa isang paligsahan o karera",
+      "ur": "مقابلہ کرنا / ریس لگانا – کسی مقابلے یا دوڑ میں حصہ لینا",
+      "vi": "thi đấu / đua – tham gia cuộc thi hoặc cuộc đua với người khác",
+      "zh": "比赛 / 竞赛 – 参加比赛或竞争",
+      "zh_Hant": "比賽 / 競賽 – 參加比賽或競爭"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰɛːŋ˨˩/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຢາກແຂ່ງລົດກັບຂ້ອຍບໍ?",
+        "romanization": "jao jaːk kʰɛːŋ lot kap kʰɔːj bɔː?",
+        "translations": {
+          "de": "Willst du mit mir ein Autorennen machen?",
+          "en": "Do you want to race cars with me?",
+          "es": "¿Quieres competir en carrera de autos conmigo?",
+          "fr": "Tu veux faire la course en voiture avec moi ?",
+          "hi": "क्या तुम मेरे साथ कार रेस करना चाहते हो?",
+          "ja": "私と一緒に車でレースしたい？",
+          "km": "អ្នកចង់ប្រណាំងរថយន្តជាមួយខ្ញុំទេ?",
+          "ko": "나랑 자동차 경주할래?",
+          "ne": "के तिमी मसँग कार रेस गर्न चाहन्छौ?",
+          "pt": "Você quer fazer uma corrida de carros comigo?",
+          "th": "แกอยากแข่งรถกับฉันไหม?",
+          "tl": "Gusto mo bang makipaglaro ng karera ng sasakyan sa akin?",
+          "ur": "کیا تم میرے ساتھ گاڑی کی ریس لگانا چاہتے ہو؟",
+          "vi": "Bạn có muốn đua xe với tôi không?",
+          "zh": "你想跟我赛车吗？",
+          "zh_Hant": "你想跟我賽車嗎？"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ລົດ",
+          "ກັບ",
+          "ບໍ"
+        ]
+      },
+      {
+        "lao_script": "ພວກເຮົາແຂ່ງກີລາທຸກປີ",
+        "romanization": "pʰuak haw kʰɛːŋ kiːlaː tʰuk piː",
+        "translations": {
+          "de": "Wir nehmen jedes Jahr an Sportwettkämpfen teil.",
+          "en": "We compete in sports every year.",
+          "es": "Competimos en deportes cada año.",
+          "fr": "Nous participons aux compétitions sportives chaque année.",
+          "hi": "हम हर साल खेल प्रतियोगिता में भाग लेते हैं।",
+          "ja": "私たちは毎年スポーツ大会に出場する。",
+          "km": "ពួកយើងប្រកួតកីឡារៀងរាល់ឆ្នាំ។",
+          "ko": "우리는 매년 스포츠 경기에 참가한다.",
+          "ne": "हामी हरेक वर्ष खेलकुदमा प्रतिस्पर्धा गर्छौं।",
+          "pt": "Nós competimos em esportes todo ano.",
+          "th": "พวกเราแข่งกีฬาทุกปี",
+          "tl": "Nakikipaglaban kami sa palakasan bawat taon.",
+          "ur": "ہم ہر سال کھیلوں میں مقابلہ کرتے ہیں۔",
+          "vi": "Chúng tôi thi đấu thể thao mỗi năm.",
+          "zh": "我们每年都参加体育比赛。",
+          "zh_Hant": "我們每年都參加體育比賽。"
+        },
+        "out_of_scope_words": [
+          "ພວກເຮົາ",
+          "ກີລາ",
+          "ທຸກປີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon runners racing each other on a track, both leaning forward with determination, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຈງ": {
+    "definitions": {
+      "de": "erklären / mitteilen / informieren – jemandem etwas erklären oder eine Information weitergeben",
+      "en": "to explain / to inform / to clarify – to explain something to someone or to pass on information",
+      "es": "explicar / informar / aclarar – explicar algo a alguien o comunicar una información",
+      "fr": "expliquer / informer / clarifier – expliquer quelque chose à quelqu'un ou communiquer une information",
+      "hi": "समझाना / बताना / सूचित करना – किसी को कुछ समझाना या जानकारी देना",
+      "ja": "説明する／伝える／知らせる – 誰かに何かを説明したり情報を伝えたりする",
+      "km": "ពន្យល់ / ជម្រាប / ប្រាប់ – ពន្យល់អ្វីមួយដល់នរណាម្នាក់ ឬផ្តល់ព័ត៌មាន",
+      "ko": "설명하다 / 알리다 / 전달하다 – 누군가에게 무언가를 설명하거나 정보를 전달하다",
+      "ne": "बुझाउनु / जानकारी दिनु / स्पष्ट गर्नु – कसैलाई केही बुझाउनु वा जानकारी दिनु",
+      "pt": "explicar / informar / esclarecer – explicar algo a alguém ou transmitir uma informação",
+      "th": "อธิบาย / แจ้ง / ชี้แจง – อธิบายบางสิ่งให้ใครทราบ หรือส่งต่อข้อมูล",
+      "tl": "ipaliwanag / ipaalam / linawin – ipaliwanag ang isang bagay sa isang tao o magbigay ng impormasyon",
+      "ur": "سمجھانا / بتانا / آگاہ کرنا – کسی کو کچھ سمجھانا یا معلومات دینا",
+      "vi": "giải thích / thông báo / làm rõ – giải thích điều gì đó cho ai hoặc truyền đạt thông tin",
+      "zh": "解释 / 说明 / 告知 – 向某人解释某事或传达信息",
+      "zh_Hant": "解釋 / 說明 / 告知 – 向某人解釋某事或傳達資訊"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tɕɛːŋ˨˩/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍແຈງໃຫ້ຂ້ອຍຟັງແດ່ວ່າຕ້ອງເຮັດແນວໃດ",
+        "romanization": "suaj tɕɛːŋ haɪ kʰɔːj faŋ dɛː vaː tɔŋ het nɛːw daɪ",
+        "translations": {
+          "de": "Bitte erkläre mir, wie ich es machen soll.",
+          "en": "Please explain to me how I should do it.",
+          "es": "Por favor, explícame cómo debo hacerlo.",
+          "fr": "Explique-moi s'il te plaît comment je dois faire.",
+          "hi": "कृपया मुझे समझाओ कि यह कैसे करना है।",
+          "ja": "どうすればいいか教えてください。",
+          "km": "សូមពន្យល់ឱ្យខ្ញុំស្តាប់ផងថាត្រូវធ្វើដូចម្តេច។",
+          "ko": "어떻게 해야 하는지 나한테 설명해줘.",
+          "ne": "कसरी गर्नुपर्छ भनेर मलाई बुझाइदेऊ।",
+          "pt": "Por favor, me explica como eu devo fazer.",
+          "th": "ช่วยอธิบายให้ฉันฟังหน่อยว่าต้องทำยังไง",
+          "tl": "Pakipaliwanag sa akin kung paano dapat gawin.",
+          "ur": "براہ کرم مجھے سمجھاؤ کہ یہ کیسے کرنا ہے۔",
+          "vi": "Làm ơn giải thích cho tôi nghe là phải làm thế nào.",
+          "zh": "请跟我解释一下该怎么做。",
+          "zh_Hant": "請跟我解釋一下該怎麼做。"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ຟັງ",
+          "ແດ່",
+          "ວ່າ",
+          "ຕ້ອງ",
+          "ເຮັດ",
+          "ແນວໃດ"
+        ]
+      },
+      {
+        "lao_script": "ຄູແຈງບົດຮຽນໃໝ່ໃຫ້ນັກຮຽນ",
+        "romanization": "kʰuː tɕɛːŋ bot hian maɪ haɪ nak hian",
+        "translations": {
+          "de": "Der Lehrer erklärt den Schülern die neue Lektion.",
+          "en": "The teacher explains the new lesson to the students.",
+          "es": "El maestro explica la nueva lección a los alumnos.",
+          "fr": "Le professeur explique la nouvelle leçon aux élèves.",
+          "hi": "शिक्षक छात्रों को नया पाठ समझा रहे हैं।",
+          "ja": "先生が生徒に新しい授業内容を説明する。",
+          "km": "គ្រូពន្យល់មេរៀនថ្មីដល់សិស្ស។",
+          "ko": "선생님이 학생들에게 새 수업을 설명한다.",
+          "ne": "शिक्षकले विद्यार्थीहरूलाई नयाँ पाठ बुझाउनुहुन्छ।",
+          "pt": "O professor explica a nova lição aos alunos.",
+          "th": "ครูอธิบายบทเรียนใหม่ให้นักเรียน",
+          "tl": "Ipinagpaliwanag ng guro ang bagong aralin sa mga mag-aaral.",
+          "ur": "استاد طلباء کو نیا سبق سمجھاتے ہیں۔",
+          "vi": "Thầy giáo giải thích bài học mới cho học sinh.",
+          "zh": "老师向学生讲解新课程。",
+          "zh_Hant": "老師向學生講解新課程。"
+        },
+        "out_of_scope_words": [
+          "ຄູ",
+          "ບົດຮຽນ",
+          "ໃໝ່",
+          "ນັກຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a teacher standing at a whiteboard pointing to a diagram, explaining to a small group of students who are listening attentively, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຮມ": {
+    "definitions": {
+      "de": "übernachten / irgendwo bleiben – die Nacht irgendwo verbringen, z. B. bei Freunden oder in einem Hotel",
+      "en": "to stay overnight / to lodge – to spend the night somewhere, such as at a friend's place or a hotel",
+      "es": "quedarse a dormir / alojarse – pasar la noche en algún lugar, como en casa de un amigo o en un hotel",
+      "fr": "passer la nuit / loger – passer la nuit quelque part, comme chez un ami ou dans un hôtel",
+      "hi": "रात रुकना / ठहरना – कहीं रात गुज़ारना, जैसे किसी दोस्त के घर या होटल में",
+      "ja": "泊まる／宿泊する – 友人の家やホテルなど、どこかで夜を過ごす",
+      "km": "ស្នាក់យប់ / ស្នាក់នៅ – ចំណាយពេលយប់នៅកន្លែងណាមួយ ដូចជានៅផ្ទះមិត្ត ឬសណ្ឋាគារ",
+      "ko": "하룻밤 묵다 / 숙박하다 – 친구 집이나 호텔 등 어딘가에서 밤을 보내다",
+      "ne": "रात बस्नु / बास बस्नु – कुनै ठाउँमा रात बिताउनु, जस्तै साथीको घरमा वा होटलमा",
+      "pt": "pernoitar / ficar – passar a noite em algum lugar, como na casa de um amigo ou em um hotel",
+      "th": "ค้างคืน / พักแรม – ใช้เวลาคืนที่ไหนสักแห่ง เช่น บ้านเพื่อนหรือโรงแรม",
+      "tl": "matulog nang isang gabi / tumigil – gumastos ng isang gabi sa isang lugar, tulad ng sa bahay ng kaibigan o hotel",
+      "ur": "رات رکنا / قیام کرنا – کہیں رات گزارنا، جیسے کسی دوست کے گھر یا ہوٹل میں",
+      "vi": "ở lại qua đêm / trú lại – ở lại một nơi nào đó qua đêm, chẳng hạn ở nhà bạn bè hoặc khách sạn",
+      "zh": "过夜 / 住宿 – 在某处过夜，例如在朋友家或酒店",
+      "zh_Hant": "過夜 / 住宿 – 在某處過夜，例如在朋友家或酒店"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/hɛːm˦˥/",
+    "examples": [
+      {
+        "lao_script": "ຄືນນີ້ຂ້ອຍຂໍແຮມທີ່ເຮືອນເຈົ້າໄດ້ບໍ?",
+        "romanization": "kʰɯːn niː kʰɔːj kʰɔː hɛːm tʰiː hɯan tɕaw daɪ bɔː?",
+        "translations": {
+          "de": "Kann ich heute Nacht bei dir übernachten?",
+          "en": "Can I stay overnight at your place tonight?",
+          "es": "¿Puedo quedarme a dormir en tu casa esta noche?",
+          "fr": "Je peux dormir chez toi ce soir ?",
+          "hi": "क्या मैं आज रात तुम्हारे घर रुक सकता हूँ?",
+          "ja": "今夜、あなたの家に泊まっていい？",
+          "km": "យប់នេះខ្ញុំអាចស្នាក់នៅផ្ទះអ្នកបានទេ?",
+          "ko": "오늘 밤 너희 집에서 자도 돼?",
+          "ne": "आज रात म तिम्रो घरमा बास बस्न पाउँछु?",
+          "pt": "Posso pernoitar na sua casa hoje à noite?",
+          "th": "คืนนี้ขอค้างคืนที่บ้านแกได้ไหม?",
+          "tl": "Pwede ba akong matulog sa inyong bahay ngayong gabi?",
+          "ur": "کیا میں آج رات تمہارے گھر رک سکتا ہوں؟",
+          "vi": "Tối nay tôi có thể ở lại nhà bạn qua đêm được không?",
+          "zh": "今晚我能在你家过夜吗？",
+          "zh_Hant": "今晚我能在你家過夜嗎？"
+        },
+        "out_of_scope_words": [
+          "ຄືນນີ້",
+          "ຂໍ",
+          "ທີ່",
+          "ເຮືອນ",
+          "ໄດ້",
+          "ບໍ"
+        ]
+      },
+      {
+        "lao_script": "ລາວໄປທ່ຽວແລ້ວແຮມຢູ່ໂຮງແຮມ",
+        "romanization": "laːw paɪ tʰiao lɛːw hɛːm juː hoːŋ hɛːm",
+        "translations": {
+          "de": "Er/Sie ist verreist und übernachtet im Hotel.",
+          "en": "He/She went traveling and is staying at a hotel.",
+          "es": "Fue de viaje y se hospedó en un hotel.",
+          "fr": "Il/Elle est parti(e) en voyage et loge à l'hôtel.",
+          "hi": "वह घूमने गया/गई और होटल में ठहरा/ठहरी।",
+          "ja": "彼/彼女は旅行に行き、ホテルに泊まった。",
+          "km": "គាត់ទៅលេចហើយស្នាក់នៅសណ្ឋាគារ។",
+          "ko": "그/그녀는 여행을 가서 호텔에 묵었다.",
+          "ne": "उ घुम्न गएर होटलमा बास बस्यो।",
+          "pt": "Ele/Ela foi viajar e ficou hospedado(a) no hotel.",
+          "th": "เขา/เธอไปเที่ยวแล้วค้างคืนอยู่โรงแรม",
+          "tl": "Pumunta siya sa paglalakbay at natulog sa hotel.",
+          "ur": "وہ سیر کو گیا/گئی اور ہوٹل میں رکا/رکی۔",
+          "vi": "Anh/Cô ấy đi du lịch và ở lại khách sạn.",
+          "zh": "他/她去旅游，住在酒店。",
+          "zh_Hant": "他/她去旅遊，住在酒店。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ໄປທ່ຽວ",
+          "ແລ້ວ",
+          "ຢູ່",
+          "ໂຮງແຮມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traveler with a small suitcase checking into a cozy hotel, a smiling receptionist handing over a room key, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "ໃຕ້": {
+    "definitions": {
+      "de": "Unter / Süden – gibt eine Position unterhalb von etwas oder eine südliche Richtung an",
+      "en": "Under / south – indicates a position below something or a southward direction",
+      "es": "Debajo / sur – indica una posición debajo de algo o una dirección hacia el sur",
+      "fr": "Sous / sud – indique une position en dessous de quelque chose ou une direction vers le sud",
+      "hi": "नीचे / दक्षिण – किसी चीज़ के नीचे की स्थिति या दक्षिण दिशा को दर्शाता है",
+      "ja": "下／南 – 何かの下の位置、または南の方向を示す",
+      "km": "ក្រោម / ខាងត្បូង – បង្ហាញទីតាំងនៅក្រោមមួយចំណែក ឬទិសទៅខាងត្បូង",
+      "ko": "아래 / 남쪽 – 무언가의 아래 위치 또는 남쪽 방향을 나타냄",
+      "ne": "तल / दक्षिण – कुनै चीजको तल हुने स्थिति वा दक्षिण दिशा जनाउँछ",
+      "pt": "Embaixo / sul – indica uma posição abaixo de algo ou uma direção ao sul",
+      "th": "ใต้ / ทางใต้ – บ่งบอกตำแหน่งที่อยู่ด้านล่างของบางสิ่ง หรือทิศทางทางใต้",
+      "tl": "Sa ilalim / timog – nagpapahiwatig ng posisyon sa ibaba ng isang bagay o direksyong timog",
+      "ur": "نیچے / جنوب – کسی چیز کے نیچے کی پوزیشن یا جنوبی سمت کو ظاہر کرتا ہے",
+      "vi": "Dưới / phía nam – chỉ vị trí bên dưới thứ gì đó hoặc hướng về phía nam",
+      "zh": "下面 / 南方 – 表示在某物下方的位置，或向南的方向",
+      "zh_Hant": "下面 / 南方 – 表示在某物下方的位置，或向南的方向"
+    },
+    "part_of_speech": "particle",
+    "romanization": "tâi",
+    "examples": [
+      {
+        "lao_script": "ແມວຢູ່ໃຕ້ໂຕະ",
+        "romanization": "mǣo yū tâi to",
+        "translations": {
+          "de": "Die Katze ist unter dem Tisch.",
+          "en": "The cat is under the table.",
+          "es": "El gato está debajo de la mesa.",
+          "fr": "Le chat est sous la table.",
+          "hi": "बिल्ली मेज के नीचे है।",
+          "ja": "猫はテーブルの下にいる。",
+          "km": "ឆ្មាស្ថិតនៅក្រោមមេសា។",
+          "ko": "고양이가 테이블 아래에 있어.",
+          "ne": "बिरालो टेबलको मुनि छ।",
+          "pt": "O gato está embaixo da mesa.",
+          "th": "แมวอยู่ใต้โต๊ะ",
+          "tl": "Ang pusa ay nasa ilalim ng mesa.",
+          "ur": "بلی میز کے نیچے ہے۔",
+          "vi": "Con mèo đang ở dưới bàn.",
+          "zh": "猫在桌子下面。",
+          "zh_Hant": "貓在桌子下面。"
+        },
+        "out_of_scope_words": [
+          "ແມວ",
+          "ໂຕະ"
+        ]
+      },
+      {
+        "lao_script": "ບ້ານຂອງຂ້ອຍຢູ່ໃຕ້ດິນ",
+        "romanization": "bân khɔ̌ng khɔ̂y yū tâi din",
+        "translations": {
+          "de": "Mein Haus liegt im Süden des Landes.",
+          "en": "My house is in the south.",
+          "es": "Mi casa está en el sur.",
+          "fr": "Ma maison est au sud.",
+          "hi": "मेरा घर दक्षिण में है।",
+          "ja": "私の家は南にある。",
+          "km": "ផ្ទះរបស់ខ្ញុំស្ថិតនៅភាគខាងត្បូង។",
+          "ko": "내 집은 남쪽에 있어.",
+          "ne": "मेरो घर दक्षिणमा छ।",
+          "pt": "Minha casa fica no sul.",
+          "th": "บ้านของฉันอยู่ทางใต้",
+          "tl": "Ang bahay ko ay nasa timog.",
+          "ur": "میرا گھر جنوب میں ہے۔",
+          "vi": "Nhà của tôi ở phía nam.",
+          "zh": "我的家在南方。",
+          "zh_Hant": "我的家在南方。"
+        },
+        "out_of_scope_words": [
+          "ດິນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a cat sitting underneath a wooden table, with a directional compass arrow pointing south in the corner, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄຸນ": {
+    "definitions": {
+      "de": "Tugend / Qualität / Güte – bezieht sich auf eine positive Eigenschaft oder moralischen Wert; Teil des Ausdrucks ຂອບຄຸນ (danke)",
+      "en": "Virtue / quality / goodness – refers to a positive attribute or moral value; used in ຂອບຄຸນ (thank you)",
+      "es": "Virtud / cualidad / bondad – se refiere a un atributo positivo o valor moral; usado en ຂອບຄຸນ (gracias)",
+      "fr": "Vertu / qualité / bonté – désigne un attribut positif ou une valeur morale ; utilisé dans ຂອບຄຸນ (merci)",
+      "hi": "गुण / सद्गुण / भलाई – किसी सकारात्मक विशेषता या नैतिक मूल्य को दर्शाता है; ຂອບຄຸນ (धन्यवाद) में प्रयुक्त",
+      "ja": "徳 / 美質 / 善良さ – ポジティブな特性や道徳的な価値を表す；ຂອບຄຸນ（ありがとう）の一部",
+      "km": "គុណ / គុណភាព / ភាពល្អ – សំដៅលើគុណសម្បត្តិដ៏ល្អ ឬតម្លៃសីលធម៌ ប្រើក្នុង ຂອບຄຸນ (អរគុណ)",
+      "ko": "덕 / 품질 / 선함 – 긍정적인 속성이나 도덕적 가치를 나타냄; ຂອບຄຸນ(감사합니다)에 사용됨",
+      "ne": "गुण / सद्गुण / भलाइ – सकारात्मक विशेषता वा नैतिक मूल्यलाई जनाउँछ; ຂອບຄຸນ (धन्यवाद) मा प्रयोग हुन्छ",
+      "pt": "Virtude / qualidade / bondade – refere-se a um atributo positivo ou valor moral; usado em ຂອບຄຸນ (obrigado)",
+      "th": "คุณ / คุณธรรม / ความดี – หมายถึงคุณลักษณะเชิงบวกหรือคุณค่าทางศีลธรรม ใช้ใน ຂອບຄຸນ (ขอบคุณ)",
+      "tl": "Kabutihan / kalidad / birtud – tumutukoy sa isang positibong katangian o moral na halaga; ginagamit sa ຂອບຄຸນ (salamat)",
+      "ur": "فضیلت / خوبی / اچھائی – کسی مثبت خصوصیت یا اخلاقی قدر کو ظاہر کرتا ہے؛ ຂອບຄຸນ (شکریہ) میں استعمال ہوتا ہے",
+      "vi": "Đức hạnh / phẩm chất / lòng tốt – chỉ một đặc điểm tích cực hoặc giá trị đạo đức; dùng trong ຂອບຄຸນ (cảm ơn)",
+      "zh": "恩德 / 品质 / 善良 – 指积极的特质或道德价值；用于 ຂອບຄຸນ（谢谢）",
+      "zh_Hant": "恩德 / 品質 / 善良 – 指積極的特質或道德價值；用於 ຂອບຄຸນ（謝謝）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "khún",
+    "examples": [
+      {
+        "lao_script": "ຂອບຄຸນຫຼາຍໆນະ ທີ່ຊ່ວຍຂ້ອຍ",
+        "romanization": "khɔ̀p khún lǎi lǎi na thi sùay khɔ̂y",
+        "translations": {
+          "de": "Vielen Dank, dass du mir geholfen hast!",
+          "en": "Thank you so much for helping me!",
+          "es": "¡Muchas gracias por ayudarme!",
+          "fr": "Merci beaucoup de m'avoir aidé !",
+          "hi": "मेरी मदद करने के लिए बहुत-बहुत धन्यवाद!",
+          "ja": "助けてくれて本当にありがとう！",
+          "km": "អរគុណច្រើណាស់ ដែលបានជួយខ្ញុំ!",
+          "ko": "도와줘서 정말 고마워!",
+          "ne": "मलाई सहायता गर्नुभएकोमा धेरै-धेरै धन्यवाद!",
+          "pt": "Muito obrigado por me ajudar!",
+          "th": "ขอบคุณมากๆ เลยนะที่ช่วยฉัน!",
+          "tl": "Maraming salamat sa pagtulong mo sa akin!",
+          "ur": "میری مدد کرنے کے لیے بہت بہت شکریہ!",
+          "vi": "Cảm ơn bạn rất nhiều vì đã giúp tôi!",
+          "zh": "非常感谢你帮助我！",
+          "zh_Hant": "非常感謝你幫助我！"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ"
+        ]
+      },
+      {
+        "lao_script": "ຄຸນຂອງລາວດີຫຼາຍ ທຸກຄົນຮັກລາວ",
+        "romanization": "khún khɔ̌ng lāo dī lǎi thuk khon hák lāo",
+        "translations": {
+          "de": "Er hat sehr gute Tugenden, alle mögen ihn.",
+          "en": "His virtues are very good, everyone likes him.",
+          "es": "Sus virtudes son muy buenas, todos lo quieren.",
+          "fr": "Ses vertus sont très bonnes, tout le monde l'aime.",
+          "hi": "उनके गुण बहुत अच्छे हैं, सभी उन्हें पसंद करते हैं।",
+          "ja": "彼の徳はとても高く、みんなが彼を好きだ。",
+          "km": "គុណសម្បត្តិរបស់គាត់ល្អណាស់ មនុស្សគ្រប់គ្នាចូលចិត្តគាត់។",
+          "ko": "그의 덕성이 정말 훌륭해서 모두가 그를 좋아해.",
+          "ne": "उनको गुण धेरै राम्रो छ, सबैले उनलाई मन पराउँछन्।",
+          "pt": "As virtudes dele são muito boas, todos gostam dele.",
+          "th": "คุณของเขาดีมาก ทุกคนชอบเขา",
+          "tl": "Napakagaling ng kanyang mga kabutihan, lahat ay nagmamahal sa kanya.",
+          "ur": "اس کی خوبیاں بہت اچھی ہیں، سب اسے پسند کرتے ہیں۔",
+          "vi": "Đức hạnh của anh ấy rất tốt, mọi người đều yêu quý anh ấy.",
+          "zh": "他的品德非常好，大家都喜欢他。",
+          "zh_Hant": "他的品德非常好，大家都喜歡他。"
+        },
+        "out_of_scope_words": [
+          "ທຸກຄົນ",
+          "ຮັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two people, one bowing slightly and saying thank you to another with a warm smile, a glowing golden star above them symbolizing virtue and goodness, clean white background, colorful minimalist style for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອິດ": {
+    "definitions": {
+      "de": "Müde – beschreibt einen Zustand körperlicher oder geistiger Erschöpfung",
+      "en": "Tired – describes a state of physical or mental fatigue",
+      "es": "Cansado – describe un estado de fatiga física o mental",
+      "fr": "Fatigué – décrit un état de fatigue physique ou mentale",
+      "hi": "थका हुआ – शारीरिक या मानसिक थकान की अवस्था का वर्णन करता है",
+      "ja": "疲れた – 身体的または精神的な疲労の状態を表す",
+      "km": "អស់កម្លាំង / នឿយហត់ – ពិពណ៌នាអំពីស្ថានភាពអស់កម្លាំងរាងកាយ ឬផ្លូវចិត្ត",
+      "ko": "피곤한 – 신체적 또는 정신적 피로 상태를 나타냄",
+      "ne": "थकित – शारीरिक वा मानसिक थकानको अवस्था वर्णन गर्छ",
+      "pt": "Cansado – descreve um estado de fadiga física ou mental",
+      "th": "เหนื่อย / อ่อนเพลีย – อธิบายสภาวะความเหนื่อยล้าทางร่างกายหรือจิตใจ",
+      "tl": "Pagod – naglalarawan ng kondisyon ng pisikal o mental na pagkapagod",
+      "ur": "تھکا ہوا – جسمانی یا ذہنی تھکاوٹ کی حالت بیان کرتا ہے",
+      "vi": "Mệt – mô tả trạng thái mệt mỏi về thể chất hoặc tinh thần",
+      "zh": "累 / 疲惫 – 描述身体或精神上疲惫的状态",
+      "zh_Hant": "累 / 疲憊 – 描述身體或精神上疲憊的狀態"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "ìt",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍອິດຫຼາຍ ເຮັດວຽກມາທັງມື້",
+        "romanization": "khɔ̂y ìt lǎi hét wīak mā thang mū",
+        "translations": {
+          "de": "Ich bin so müde, ich habe den ganzen Tag gearbeitet.",
+          "en": "I'm so tired, I've been working all day.",
+          "es": "Estoy muy cansado, he estado trabajando todo el día.",
+          "fr": "Je suis très fatigué, j'ai travaillé toute la journée.",
+          "hi": "मैं बहुत थका हुआ हूँ, मैं पूरे दिन काम करता रहा।",
+          "ja": "すごく疲れた、一日中働いてた。",
+          "km": "ខ្ញុំនឿយហត់ណាស់ ខ្ញុំបានធ្វើការពេញមួយថ្ងៃ។",
+          "ko": "나 너무 피곤해, 하루 종일 일했어.",
+          "ne": "म धेरै थकित छु, पूरा दिन काम गरेँ।",
+          "pt": "Estou muito cansado, trabalhei o dia todo.",
+          "th": "ฉันเหนื่อยมากเลย ทำงานมาทั้งวัน",
+          "tl": "Pagod na pagod na ako, nagtrabaho ako buong araw.",
+          "ur": "میں بہت تھکا ہوا ہوں، پورا دن کام کیا۔",
+          "vi": "Tôi mệt lắm, làm việc cả ngày rồi.",
+          "zh": "我好累，干了一整天的活。",
+          "zh_Hant": "我好累，做了一整天的事。"
+        },
+        "out_of_scope_words": [
+          "ເຮັດວຽກ",
+          "ທັງມື້"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າອິດບໍ? ນັ່ງພັກກ່ອນເດີ",
+        "romanization": "jâo ìt bɔ̄? nâng phák kɔ̀n dœ̄",
+        "translations": {
+          "de": "Bist du müde? Setz dich erst mal hin und ruh dich aus.",
+          "en": "Are you tired? Sit down and rest first.",
+          "es": "¿Estás cansado? Siéntate y descansa primero.",
+          "fr": "Tu es fatigué ? Assieds-toi et repose-toi d'abord.",
+          "hi": "क्या तुम थके हो? पहले बैठो और आराम करो।",
+          "ja": "疲れた？まず座って休んでよ。",
+          "km": "តើអ្នកនឿយហត់ទេ? អង្គុយសម្រាកសិន។",
+          "ko": "피곤해? 일단 앉아서 쉬어.",
+          "ne": "तिमी थकित छौ? पहिले बस र आराम गर।",
+          "pt": "Você está cansado? Sente e descanse primeiro.",
+          "th": "เธอเหนื่อยไหม? นั่งพักก่อนนะ",
+          "tl": "Pagod ka na ba? Umupo ka muna at magpahinga.",
+          "ur": "کیا تم تھکے ہوئے ہو؟ پہلے بیٹھو اور آرام کرو۔",
+          "vi": "Bạn có mệt không? Ngồi xuống nghỉ ngơi trước đi.",
+          "zh": "你累了吗？先坐下来休息一下吧。",
+          "zh_Hant": "你累了嗎？先坐下來休息一下吧。"
+        },
+        "out_of_scope_words": [
+          "ນັ່ງ",
+          "ພັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person slumped tiredly in a chair with drooping eyes and a yawning expression, small 'zzz' symbols near their head, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍາກ": {
+    "definitions": {
+      "de": "Schwierig / schwer – beschreibt etwas, das Mühe oder Aufwand erfordert",
+      "en": "Difficult / hard – describes something that requires effort or is not easy to do",
+      "es": "Difícil – describe algo que requiere esfuerzo o que no es fácil de hacer",
+      "fr": "Difficile – décrit quelque chose qui demande des efforts ou qui n'est pas facile à faire",
+      "hi": "कठिन / मुश्किल – किसी ऐसी चीज़ का वर्णन करता है जिसमें प्रयास लगे या जो आसान न हो",
+      "ja": "難しい – 努力を要する、または簡単ではないことを表す",
+      "km": "ពិបាក – ពិពណ៌នាអំពីអ្វីដែលត្រូវការការខិតខំប្រឹងប្រែង ឬមិនងាយស្រួល",
+      "ko": "어려운 – 노력이 필요하거나 쉽지 않은 것을 나타냄",
+      "ne": "गाह्रो / कठिन – कुनै काम जसमा प्रयास लाग्छ वा सजिलो छैन भन्ने वर्णन गर्छ",
+      "pt": "Difícil – descreve algo que requer esforço ou que não é fácil de fazer",
+      "th": "ยาก – อธิบายสิ่งที่ต้องใช้ความพยายามหรือทำได้ไม่ง่าย",
+      "tl": "Mahirap – naglalarawan ng isang bagay na nangangailangan ng pagsisikap o hindi madaling gawin",
+      "ur": "مشکل – کسی ایسی چیز کو بیان کرتا ہے جس میں محنت کی ضرورت ہو یا جو آسان نہ ہو",
+      "vi": "Khó – mô tả điều gì đó đòi hỏi nỗ lực hoặc không dễ thực hiện",
+      "zh": "困难 / 难 – 描述需要努力或不容易做到的事情",
+      "zh_Hant": "困難 / 難 – 描述需要努力或不容易做到的事情"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "ñāk",
+    "examples": [
+      {
+        "lao_script": "ພາສາລາວຍາກບໍ ສຳລັບເຈົ້າ?",
+        "romanization": "phāsā lāo ñāk bɔ̄ sǎm lâp jâo?",
+        "translations": {
+          "de": "Ist Laotisch schwierig für dich?",
+          "en": "Is Lao difficult for you?",
+          "es": "¿Es el laosiano difícil para ti?",
+          "fr": "Le laotien est-il difficile pour toi ?",
+          "hi": "क्या लाओ भाषा तुम्हारे लिए कठिन है?",
+          "ja": "ラオス語は難しい？",
+          "km": "តើភាសាឡាវពិបាកសម្រាប់អ្នកទេ?",
+          "ko": "라오어가 너한테 어려워?",
+          "ne": "लाओ भाषा तिम्रो लागि गाह्रो छ?",
+          "pt": "O laociano é difícil para você?",
+          "th": "ภาษาลาวยากสำหรับเธอไหม?",
+          "tl": "Mahirap ba ang Lao para sa iyo?",
+          "ur": "کیا لاؤ زبان تمہارے لیے مشکل ہے؟",
+          "vi": "Tiếng Lào có khó với bạn không?",
+          "zh": "老挝语对你来说难吗？",
+          "zh_Hant": "寮語對你來說難嗎？"
+        },
+        "out_of_scope_words": [
+          "ສຳລັບ"
+        ]
+      },
+      {
+        "lao_script": "ຂໍ້ສອບຍາກຫຼາຍ ຂ້ອຍຕອບບໍ່ຖືກ",
+        "romanization": "khɔ̂ sɔ̄p ñāk lǎi khɔ̂y tɔ̀p bɔ̄ thūk",
+        "translations": {
+          "de": "Die Prüfungsfragen waren sehr schwer, ich konnte sie nicht richtig beantworten.",
+          "en": "The exam questions were very difficult, I couldn't answer them correctly.",
+          "es": "Las preguntas del examen eran muy difíciles, no pude responderlas correctamente.",
+          "fr": "Les questions de l'examen étaient très difficiles, je n'ai pas pu y répondre correctement.",
+          "hi": "परीक्षा के प्रश्न बहुत कठिन थे, मैं सही उत्तर नहीं दे सका।",
+          "ja": "試験の問題がとても難しくて、正しく答えられなかった。",
+          "km": "សំណួរប្រឡងពិបាកណាស់ ខ្ញុំឆ្លើយមិនត្រូវ។",
+          "ko": "시험 문제가 너무 어려워서 제대로 답을 못 했어.",
+          "ne": "परीक्षाका प्रश्नहरू धेरै गाह्रो थिए, मैले सही जवाफ दिन सकिनँ।",
+          "pt": "As questões da prova eram muito difíceis, não consegui responder corretamente.",
+          "th": "ข้อสอบยากมากเลย ฉันตอบไม่ถูก",
+          "tl": "Napakahirap ng mga tanong sa pagsusulit, hindi ko nasagot nang tama.",
+          "ur": "امتحان کے سوالات بہت مشکل تھے، میں صحیح جواب نہ دے سکا۔",
+          "vi": "Đề thi khó lắm, tôi trả lời không được đúng.",
+          "zh": "考试题很难，我答不对。",
+          "zh_Hant": "考試題很難，我答不對。"
+        },
+        "out_of_scope_words": [
+          "ຂໍ້ສອບ",
+          "ຕອບ",
+          "ຖືກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a student sitting at a desk looking puzzled and stressed, staring at a paper full of complicated math problems with a large question mark above their head, clean white background, colorful minimalist style for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລາດ": {
+    "definitions": {
+      "de": "Gießen / neigen / Hang – bedeutet eine Flüssigkeit ausgießen oder eine geneigte Fläche; in der Umgangssprache selten allein verwendet",
+      "en": "Pour / slope / incline – means to pour a liquid or refers to a sloped surface; limited use as a standalone word in spoken Lao",
+      "es": "Verter / inclinar / pendiente – significa verter un líquido o referirse a una superficie inclinada; uso limitado como palabra independiente en lao hablado",
+      "fr": "Verser / incliner / pente – signifie verser un liquide ou désigner une surface en pente ; usage limité comme mot autonome en laotien parlé",
+      "hi": "डालना / ढलान – किसी तरल को डालना या झुकी हुई सतह को दर्शाता है; बोली जाने वाली लाओ में अकेले कम प्रयोग होता है",
+      "ja": "注ぐ / 傾く / 坂 – 液体を注ぐ、または傾いた面を指す；口語ラオ語では単独での使用は限られる",
+      "km": "ចាក់ / ជម្រាល – មានន័យថាចាក់រាវ ឬសំដៅលើផ្ទៃទម្រេត ប្រើតែម្នាក់ឯងតិចក្នុងការនិយាយ",
+      "ko": "붓다 / 경사 / 비탈 – 액체를 붓거나 경사진 표면을 의미함; 구어 라오어에서 단독 사용은 제한적",
+      "ne": "खन्याउनु / ढलान – तरल पदार्थ खन्याउनु वा ढलानयुक्त सतह जनाउँछ; बोलिने लाओमा एक्लै कम प्रयोग हुन्छ",
+      "pt": "Derramar / inclinar / declive – significa derramar um líquido ou referir-se a uma superfície inclinada; uso limitado como palavra independente no lao falado",
+      "th": "เท / ลาด / ความลาดเอียง – หมายถึงการเทของเหลว หรือพื้นผิวที่ลาดเอียง ใช้เป็นคำเดี่ยวน้อยในภาษาลาวพูด",
+      "tl": "Ibuhos / dalisdis / pagkakahilig – nangangahulugang magbuhos ng likido o tumutukoy sa isang nakahilig na ibabaw; limitadong paggamit bilang nagsasariling salita sa sinasambit na Lao",
+      "ur": "انڈیلنا / ڈھلوان – کسی مائع کو انڈیلنا یا جھکی ہوئی سطح کی طرف اشارہ کرتا ہے؛ بولی جانے والی لاؤ میں اکیلے کم استعمال ہوتا ہے",
+      "vi": "Đổ / dốc / nghiêng – có nghĩa là đổ chất lỏng hoặc chỉ bề mặt nghiêng dốc; ít dùng độc lập trong tiếng Lào nói",
+      "zh": "倒 / 坡 / 斜坡 – 表示倒液体或指倾斜的表面；在口语老挝语中单独使用较少",
+      "zh_Hant": "倒 / 坡 / 斜坡 – 表示倒液體或指傾斜的表面；在口語寮語中單獨使用較少"
+    },
+    "part_of_speech": "verb",
+    "romanization": "lāt",
+    "examples": [
+      {
+        "lao_script": "ລາດນ້ຳໃສ່ຈອກໃຫ້ຂ້ອຍແດ່",
+        "romanization": "lāt nâm sâi jɔ̄k hâi khɔ̂y dɛ̀",
+        "translations": {
+          "de": "Gieß mir bitte etwas Wasser ins Glas.",
+          "en": "Pour some water into the glass for me, please.",
+          "es": "Sírveme agua en el vaso, por favor.",
+          "fr": "Verse de l'eau dans le verre pour moi, s'il te plaît.",
+          "hi": "कृपया मेरे लिए गिलास में पानी डाल दो।",
+          "ja": "コップに水を注いでくれない？",
+          "km": "ចាក់ទឹកដាក់ក្នុងកែវឱ្យខ្ញុំផង។",
+          "ko": "컵에 물 좀 따라줘.",
+          "ne": "मेरो लागि गिलासमा पानी खन्याइदे।",
+          "pt": "Coloca água no copo pra mim, por favor.",
+          "th": "เทน้ำใส่แก้วให้ฉันหน่อยนะ",
+          "tl": "Ibuhos mo ang tubig sa baso para sa akin.",
+          "ur": "مجھے گلاس میں پانی ڈال دو۔",
+          "vi": "Rót nước vào ly cho tôi với.",
+          "zh": "帮我往杯子里倒点水吧。",
+          "zh_Hant": "幫我往杯子裡倒點水吧。"
+        },
+        "out_of_scope_words": [
+          "ຈອກ"
+        ]
+      },
+      {
+        "lao_script": "ຖະໜົນຮ່ວງນີ້ລາດຊັນຫຼາຍ ລົດລົ້ມງ່າຍ",
+        "romanization": "tha nǒn huâng níi lāt san lǎi lót lôm ŋâi",
+        "translations": {
+          "de": "Diese abschüssige Straße ist sehr steil, Autos kippen leicht um.",
+          "en": "This road is very steep, cars can easily tip over.",
+          "es": "Esta carretera tiene una pendiente muy pronunciada, los autos pueden volcar fácilmente.",
+          "fr": "Cette route est très escarpée, les voitures peuvent facilement se renverser.",
+          "hi": "यह सड़क बहुत खड़ी ढलान वाली है, गाड़ियाँ आसानी से पलट सकती हैं।",
+          "ja": "この道はとても急な坂で、車が簡単にひっくり返ってしまう。",
+          "km": "ផ្លូវទម្រេតនេះមានជម្រាលច្រើនណាស់ ឡានងាយផ្ទាំងបាន។",
+          "ko": "이 길은 경사가 너무 심해서 차가 쉽게 넘어질 수 있어.",
+          "ne": "यो बाटो धेरै ठाडो ढलान भएको छ, गाडी सजिलै पल्टिन सक्छ।",
+          "pt": "Essa estrada tem uma inclinação muito acentuada, os carros podem capotar facilmente.",
+          "th": "ถนนลาดชันนี้ลาดมากเลย รถล้มง่าย",
+          "tl": "Ang kalsadang ito ay napakatarik, madaling mabaligtad ang sasakyan.",
+          "ur": "یہ سڑک بہت تیز ڈھلوان ہے، گاڑیاں آسانی سے پلٹ سکتی ہیں۔",
+          "vi": "Con đường dốc này nghiêng lắm, xe dễ bị lật.",
+          "zh": "这条坡路非常陡，车子容易翻。",
+          "zh_Hant": "這條坡路非常陡，車子容易翻。"
+        },
+        "out_of_scope_words": [
+          "ຖະໜົນ",
+          "ຮ່ວງ",
+          "ຊັນ",
+          "ລົດ",
+          "ລົ້ມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a hand pouring water from a pitcher into a glass; on the right, a car on a steep sloped road going downhill, clean white background, colorful minimalist style for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

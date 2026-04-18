@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃນ",
+  "definitions": {
+    "de": "in/innerhalb (Präposition, die Ort, Zeit oder Zustand angibt)",
+    "en": "in/inside (preposition indicating location, time, or state)",
+    "es": "en/dentro de (preposición que indica lugar, tiempo o estado)",
+    "fr": "dans/à l'intérieur de (préposition indiquant un lieu, un temps ou un état)",
+    "hi": "में/के अंदर (स्थान, समय या अवस्था दर्शाने वाला पूर्वसर्ग)",
+    "ja": "〜の中に／〜で（場所・時間・状態を示す前置詞）",
+    "km": "ក្នុង／នៅក្នុង (បុព្វបទបង្ហាញទីកន្លែង ពេលវេលា ឬស្ថានភាព)",
+    "ko": "~안에／~에서 (장소·시간·상태를 나타내는 전치사)",
+    "ne": "मा／भित्र (स्थान, समय वा अवस्था जनाउने नामयोगी)",
+    "pt": "em/dentro de (preposição que indica lugar, tempo ou estado)",
+    "th": "ใน／ข้างใน (คำบุพบทบอกสถานที่ เวลา หรือสภาพ)",
+    "tl": "sa/sa loob ng (pang-ukol na nagsasaad ng lugar, panahon, o kalagayan)",
+    "ur": "میں／کے اندر (جگہ، وقت یا حالت ظاہر کرنے والا حرفِ جر)",
+    "vi": "trong/ở trong (giới từ chỉ nơi chốn, thời gian hoặc trạng thái)",
+    "zh": "在……里／在（表示处所、时间或状态的介词）",
+    "zh_Hant": "在……裡／在（表示處所、時間或狀態的介詞）"
+  },
+  "definition_en": "in/inside (preposition indicating location, time, or state)",
+  "romanization": "nàj",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ຢູ່ ໃນ ເຮືອນ",
+      "romanization": "kʰɔ̂ːj jūː nàj hɯ́ːən",
+      "translation_en": "I am in the house."
+    },
+    {
+      "lao_script": "ມີ ຄົນ ຫຼາຍ ໃນ ເມືອງ",
+      "romanization": "míː kʰón lǎːj nàj mɯ́ːəŋ",
+      "translation_en": "There are many people in the city."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small cartoon object placed inside a transparent box, with a clear arrow pointing inward, suitable for a language learning app, clean white background, minimalist design, bright colors."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊ້າງ",
+  "definitions": {
+    "de": "Elefant; ein großes graues Tier, das das Nationalsymbol von Laos ist und in der laotischen Kultur eine tiefe Bedeutung hat",
+    "en": "elephant; a large grey animal that is the national symbol of Laos and holds deep significance in Lao culture",
+    "es": "elefante; un gran animal gris que es el símbolo nacional de Laos y tiene un profundo significado en la cultura laosiana",
+    "fr": "éléphant; un grand animal gris qui est le symbole national du Laos et revêt une profonde signification dans la culture laotienne",
+    "hi": "हाथी; एक बड़ा भूरा-ग्रे जानवर जो लाओस का राष्ट्रीय प्रतीक है और लाओ संस्कृति में गहरा महत्व रखता है",
+    "ja": "象；ラオスの国家シンボルであり、ラオス文化に深い意味を持つ大きな灰色の動物",
+    "km": "ដំរី; សត្វធំពណ៌ប្រផេះ ដែលជារូបសញ្ញាជាតិរបស់ប្រទេសឡាវ និងមានន័យជ្រៅជ្រះក្នុងវប្បធម៌ឡាវ",
+    "ko": "코끼리; 라오스의 국가 상징이며 라오 문화에서 깊은 의미를 가진 큰 회색 동물",
+    "ne": "हात्ती; एउटा ठूलो खैरो जनावर जुन लाओसको राष्ट्रिय प्रतीक हो र लाओ संस्कृतिमा गहिरो महत्त्व राख्छ",
+    "pt": "elefante; um grande animal cinza que é o símbolo nacional do Laos e tem um profundo significado na cultura laosiana",
+    "th": "ช้าง; สัตว์สีเทาขนาดใหญ่ที่เป็นสัญลักษณ์ประจำชาติของลาวและมีความสำคัญอย่างลึกซึ้งในวัฒนธรรมลาว",
+    "tl": "elepante; isang malaking kulabing-abong hayop na simbolo ng bansa ng Laos at may malalim na kahalagahan sa kulturang Lao",
+    "ur": "ہاتھی؛ ایک بڑا سرمئی جانور جو لاؤس کا قومی نشان ہے اور لاؤ ثقافت میں گہری اہمیت رکھتا ہے",
+    "vi": "voi; một con vật màu xám lớn là biểu tượng quốc gia của Lào và có ý nghĩa sâu sắc trong văn hóa Lào",
+    "zh": "大象；一种大型灰色动物，是老挝的国家象征，在老挝文化中具有深刻意义",
+    "zh_Hant": "大象；一種大型灰色動物，是寮國的國家象徵，在寮國文化中具有深刻意義"
+  },
+  "definition_en": "elephant; a large grey animal that is the national symbol of Laos and holds deep significance in Lao culture",
+  "romanization": "saːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ້າງເປັນສັດທີ່ໃຫຍ່ທີ່ສຸດໃນລາວ",
+      "romanization": "saːŋ pen sat tʰiː ɲaj tʰiː sut naːj laːw",
+      "translation_en": "The elephant is the largest animal in Laos."
+    },
+    {
+      "lao_script": "ຕອນເດັກໆ ຂ້ອຍຢາກຂີ່ຊ້າງ",
+      "romanization": "tɔːn dek dek khoːj jaːk kʰiː saːŋ",
+      "translation_en": "When I was little, I always wanted to ride an elephant."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly grey elephant standing in profile view, with large ears and a gentle expression, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫວັງ",
+  "definitions": {
+    "de": "Hoffen; den Wunsch oder die Erwartung haben, dass etwas Gutes oder Positives geschieht",
+    "en": "To hope; to wish or expect that something good or positive will happen",
+    "es": "Esperar; desear o anticipar que algo bueno o positivo suceda",
+    "fr": "Espérer; souhaiter ou s'attendre à ce que quelque chose de bien ou de positif se produise",
+    "hi": "आशा करना; यह इच्छा या उम्मीद रखना कि कुछ अच्छा या सकारात्मक होगा",
+    "ja": "希望する；何か良いことや前向きなことが起こることを願ったり期待したりすること",
+    "km": "សង្ឃឹម; ប្រាថ្នា ឬរំពឹងថានឹងមានអ្វីល្អ ឬវិជ្ជមានកើតឡើង",
+    "ko": "희망하다; 좋거나 긍정적인 일이 일어나기를 바라거나 기대하다",
+    "ne": "आशा गर्नु; केही राम्रो वा सकारात्मक हुनेछ भनी इच्छा वा अपेक्षा राख्नु",
+    "pt": "Esperar; desejar ou antecipar que algo bom ou positivo aconteça",
+    "th": "หวัง; ปรารถนาหรือคาดหวังว่าจะมีสิ่งดีหรือสิ่งบวกเกิดขึ้น",
+    "tl": "Umasa; magnais o umasa na may magandang mangyayari",
+    "ur": "امید کرنا؛ یہ خواہش یا توقع رکھنا کہ کوئی اچھی یا مثبت بات ہوگی",
+    "vi": "Hy vọng; mong muốn hoặc kỳ vọng rằng điều gì đó tốt đẹp hoặc tích cực sẽ xảy ra",
+    "zh": "希望；期望或盼望某件好事或积极的事情发生",
+    "zh_Hant": "希望；期望或盼望某件好事或積極的事情發生"
+  },
+  "definition_en": "To hope; to wish or expect that something good or positive will happen",
+  "romanization": "/wǎŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຫວັງວ່າຈະໄດ້ວຽກໃໝ່",
+      "romanization": "Khoi wang wa ja dai wiak mai.",
+      "translation_en": "I hope I get a new job."
+    },
+    {
+      "lao_script": "ຫວັງວ່າອາກາດຈະດີພຸ້ງນີ້ນຳ",
+      "romanization": "Wang wa a-kat ja dii phung-nih nam.",
+      "translation_en": "Hopefully the weather will be nice tomorrow too."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person looking upward with a hopeful, optimistic expression and hands clasped together, a soft glowing light or star above them symbolizing hope, clean white background, warm colors, minimalist style suitable for a language learning app."
+}

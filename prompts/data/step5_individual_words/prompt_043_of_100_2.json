@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດາ",
+  "definitions": {
+    "de": "Eine Silbe, die häufig in laotischen Eigennamen vorkommt; hat als eigenständiges Wort keine gebräuchliche Bedeutung",
+    "en": "A syllable commonly found in Lao personal names; has no widely used standalone meaning as an independent word",
+    "es": "Una sílaba que aparece frecuentemente en nombres propios laocianos; no tiene un significado independiente de uso común",
+    "fr": "Une syllabe couramment utilisée dans les prénoms laotiens; n'a pas de signification autonome courante en tant que mot indépendant",
+    "hi": "लाओ व्यक्तिगत नामों में पाई जाने वाली एक अक्षर; स्वतंत्र शब्द के रूप में इसका कोई प्रचलित अर्थ नहीं है",
+    "ja": "ラオスの人名によく使われる音節；独立した単語としての一般的な意味はない",
+    "km": "ព្យាង្គមួយដែលមានក្នុងឈ្មោះផ្ទាល់ខ្លួនរបស់ជនជាតិឡាវ; មិនមានន័យឯករាជ្យទូទៅ",
+    "ko": "라오스 개인 이름에 자주 등장하는 음절; 독립적인 단어로서의 일반적인 의미는 없음",
+    "ne": "लाओ व्यक्तिगत नाममा सामान्यतः पाइने एउटा अक्षर; स्वतन्त्र शब्दको रूपमा यसको कुनै प्रचलित अर्थ छैन",
+    "pt": "Uma sílaba comumente encontrada em nomes próprios laocianos; não possui significado autônomo amplamente utilizado",
+    "th": "พยางค์ที่มักพบในชื่อบุคคลของชาวลาว ไม่มีความหมายที่ใช้โดยทั่วไปในฐานะคำอิสระ",
+    "tl": "Isang pantig na madalas na makikita sa mga pangalan ng mga Lao; walang karaniwang sariling kahulugan bilang isang independyenteng salita",
+    "ur": "لاؤ ذاتی ناموں میں عام طور پر پائی جانے والی ایک ہجے؛ بطور آزاد لفظ اس کا کوئی عام مستقل معنی نہیں",
+    "vi": "Một âm tiết thường xuất hiện trong tên riêng của người Lào; không có nghĩa độc lập phổ biến khi đứng một mình",
+    "zh": "常见于老挝人名中的音节；作为独立单词没有广泛使用的含义",
+    "zh_Hant": "常見於寮國人名中的音節；作為獨立單詞沒有廣泛使用的含義"
+  },
+  "definition_en": "A syllable commonly found in Lao personal names; has no widely used standalone meaning as an independent word",
+  "romanization": "/dāː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ຂອງລາວແມ່ນ ດາວີ",
+      "romanization": "sʉ̄ khɔ̄ng lāo mɛ̄n dā-wīː",
+      "translation_en": "Her name is Davi."
+    },
+    {
+      "lao_script": "ດາ ເປັນຊື່ທີ່ໃຊ້ຫຼາຍໃນລາວ",
+      "romanization": "dā pēn sʉ̄ tī sāi lǎi nai lāo",
+      "translation_en": "Da is a name element used a lot in Laos."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or identity card with the syllable 'Da' written on it in a friendly font, surrounded by small decorative Lao-style patterns, clean white background, colorful, minimalist style suitable for a language learning app."
+}

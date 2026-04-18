@@ -1,0 +1,389 @@
+{
+  "ຈຸດ": {
+    "definitions": {
+      "de": "Punkt; ein kleiner Fleck oder eine markierte Stelle; auch verwendet für einen bestimmten Ort oder eine Position",
+      "en": "Point; dot; a small marked spot or location; also used to refer to a specific place or position",
+      "es": "Punto; mancha pequeña o lugar marcado; también se usa para referirse a un lugar o posición específica",
+      "fr": "Point ; tache ; petit endroit marqué ; utilisé aussi pour désigner un lieu ou une position précise",
+      "hi": "बिंदु; छोटा चिह्नित स्थान; किसी विशेष स्थान या स्थिति को दर्शाने के लिए भी उपयोग किया जाता है",
+      "ja": "点；小さな印や場所；特定の地点や位置を指すためにも使われる",
+      "km": "ចំណុច; កន្លែងតូចមួយដែលត្រូវបានសម្គាល់; ក៏ប្រើសម្រាប់សំដៅទៅលើទីកន្លែង ឬទីតាំងជាក់លាក់ផងដែរ",
+      "ko": "점; 작은 표시된 지점 또는 위치; 특정 장소나 위치를 가리키는 데도 사용됨",
+      "ne": "बिन्दु; सानो चिह्नित ठाउँ वा स्थान; कुनै विशेष ठाउँ वा स्थिति जनाउन पनि प्रयोग गरिन्छ",
+      "pt": "Ponto; mancha pequena ou local marcado; também usado para se referir a um lugar ou posição específica",
+      "th": "จุด; รอยหรือตำแหน่งเล็กๆ ที่มีการทำเครื่องหมาย; ใช้เพื่ออ้างถึงสถานที่หรือตำแหน่งเฉพาะเจาะจง",
+      "tl": "Tuldok; maliit na markang lugar o posisyon; ginagamit din para tumukoy sa isang partikular na lugar o posisyon",
+      "ur": "نقطہ؛ ایک چھوٹا نشان یا جگہ؛ کسی مخصوص مقام یا پوزیشن کو ظاہر کرنے کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Điểm; chấm; một vị trí nhỏ được đánh dấu; cũng dùng để chỉ một địa điểm hoặc vị trí cụ thể",
+      "zh": "点；小的标记位置；也用于指代特定地点或位置",
+      "zh_Hant": "點；小的標記位置；也用於指代特定地點或位置"
+    },
+    "part_of_speech": "noun",
+    "romanization": "t͡ɕut",
+    "examples": [
+      {
+        "lao_script": "ຈຸດນີ້ຢູ່ໃສ່ແຜນທີ່?",
+        "romanization": "tɕut niː jùː sǎj pʰɛ̌n tʰîː?",
+        "translations": {
+          "de": "Wo ist dieser Punkt auf der Karte?",
+          "en": "Where is this point on the map?",
+          "es": "¿Dónde está este punto en el mapa?",
+          "fr": "Où est ce point sur la carte ?",
+          "hi": "यह बिंदु नक्शे पर कहाँ है?",
+          "ja": "この地点は地図のどこにありますか？",
+          "km": "ចំណុចនេះស្ថិតនៅឯណាលើផែនទី?",
+          "ko": "이 지점은 지도 어디에 있어요?",
+          "ne": "यो बिन्दु नक्शामा कहाँ छ?",
+          "pt": "Onde fica este ponto no mapa?",
+          "th": "จุดนี้อยู่ที่ไหนบนแผนที่?",
+          "tl": "Nasaan ang puntong ito sa mapa?",
+          "ur": "یہ نقطہ نقشے پر کہاں ہے؟",
+          "vi": "Điểm này ở đâu trên bản đồ?",
+          "zh": "这个点在地图上在哪里？",
+          "zh_Hant": "這個點在地圖上在哪裡？"
+        },
+        "out_of_scope_words": [
+          "ແຜນທີ່"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາພົບກັນຢູ່ຈຸດນັດພົບ",
+        "romanization": "haw pʰop kan jùː tɕut nat pʰop",
+        "translations": {
+          "de": "Wir treffen uns am Treffpunkt.",
+          "en": "We meet at the meeting point.",
+          "es": "Nos encontramos en el punto de encuentro.",
+          "fr": "On se retrouve au point de rendez-vous.",
+          "hi": "हम मिलने की जगह पर मिलते हैं।",
+          "ja": "待ち合わせ場所で会いましょう。",
+          "km": "យើងជួបគ្នានៅចំណុចណាត់ជួប។",
+          "ko": "우리는 만남의 장소에서 만나요.",
+          "ne": "हामी भेटघाटको बिन्दुमा भेट्छौं।",
+          "pt": "A gente se encontra no ponto de encontro.",
+          "th": "เราเจอกันที่จุดนัดพบ",
+          "tl": "Nagkikita tayo sa meeting point.",
+          "ur": "ہم ملاقات کے مقام پر ملتے ہیں۔",
+          "vi": "Chúng ta gặp nhau ở điểm hẹn.",
+          "zh": "我们在集合地点见面。",
+          "zh_Hant": "我們在集合地點見面。"
+        },
+        "out_of_scope_words": [
+          "ນັດພົບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a map with a bright red dot marking a specific location, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊາຍ": {
+    "definitions": {
+      "de": "Mann; männlich; ein Wort, das das männliche Geschlecht bezeichnet oder einen Mann beschreibt",
+      "en": "Male; man; a word indicating the male gender or describing a male person",
+      "es": "Hombre; masculino; palabra que indica el género masculino o describe a una persona de sexo masculino",
+      "fr": "Homme ; masculin ; mot indiquant le genre masculin ou décrivant une personne de sexe masculin",
+      "hi": "पुरुष; नर; पुरुष लिंग को दर्शाने वाला या किसी पुरुष व्यक्ति का वर्णन करने वाला शब्द",
+      "ja": "男性；男；男性の性別を示す、または男性を表す言葉",
+      "km": "បុរស; ភេទប្រុស; ពាក្យដែលបង្ហាញពីភេទប្រុស ឬពណ៌នាអំពីបុរស",
+      "ko": "남성; 남자; 남성 성별을 나타내거나 남성을 묘사하는 단어",
+      "ne": "पुरुष; नर; पुरुष लिङ्गलाई जनाउने वा पुरुष व्यक्तिको वर्णन गर्ने शब्द",
+      "pt": "Homem; masculino; palavra que indica o gênero masculino ou descreve uma pessoa do sexo masculino",
+      "th": "ชาย; เพศชาย; คำที่ใช้บ่งบอกเพศชายหรืออธิบายบุคคลเพศชาย",
+      "tl": "Lalaki; panlalaki; salitang nagpapahiwatig ng kasarian na lalaki o naglalarawan ng isang taong lalaki",
+      "ur": "مرد؛ مذکر؛ ایک لفظ جو مردانہ جنس کو ظاہر کرتا ہے یا مرد شخص کو بیان کرتا ہے",
+      "vi": "Nam; đàn ông; từ chỉ giới tính nam hoặc mô tả một người đàn ông",
+      "zh": "男；男性；表示男性性别或描述男性的词",
+      "zh_Hant": "男；男性；表示男性性別或描述男性的詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sáːj",
+    "examples": [
+      {
+        "lao_script": "ຄົນຊາຍຄົນນັ້ນຊື່ຫຍັງ?",
+        "romanization": "kʰon sáːj kʰon nan sʉ̂ː ɲǎŋ?",
+        "translations": {
+          "de": "Wie heißt dieser Mann?",
+          "en": "What is that man's name?",
+          "es": "¿Cómo se llama ese hombre?",
+          "fr": "Comment s'appelle cet homme ?",
+          "hi": "उस आदमी का नाम क्या है?",
+          "ja": "あの男性の名前は何ですか？",
+          "km": "បុរសនោះឈ្មោះអ្វី?",
+          "ko": "저 남자의 이름이 뭐예요?",
+          "ne": "त्यो मान्छेको नाम के हो?",
+          "pt": "Qual é o nome daquele homem?",
+          "th": "ผู้ชายคนนั้นชื่ออะไร?",
+          "tl": "Ano ang pangalan ng lalaking iyon?",
+          "ur": "اس مرد کا نام کیا ہے؟",
+          "vi": "Người đàn ông đó tên là gì?",
+          "zh": "那个男人叫什么名字？",
+          "zh_Hant": "那個男人叫什麼名字？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ນ້ອງຊາຍຂອງຂ້ອຍອາຍຸ 10 ປີ",
+        "romanization": "nɔ́ːŋ sáːj kʰɔ̌ːŋ kʰɔ̂ːj ʔáːjú sip piː",
+        "translations": {
+          "de": "Mein jüngerer Bruder ist 10 Jahre alt.",
+          "en": "My younger brother is 10 years old.",
+          "es": "Mi hermano menor tiene 10 años.",
+          "fr": "Mon petit frère a 10 ans.",
+          "hi": "मेरा छोटा भाई 10 साल का है।",
+          "ja": "私の弟は10歳です。",
+          "km": "ប្អូនប្រុសរបស់ខ្ញុំអាយុ ១០ ឆ្នាំ។",
+          "ko": "내 남동생은 10살이에요.",
+          "ne": "मेरो साना भाइको उमेर १० वर्ष छ।",
+          "pt": "Meu irmão mais novo tem 10 anos.",
+          "th": "น้องชายของฉันอายุ 10 ปี",
+          "tl": "Ang aking kapatid na lalaki ay 10 taong gulang.",
+          "ur": "میرا چھوٹا بھائی 10 سال کا ہے۔",
+          "vi": "Em trai tôi 10 tuổi.",
+          "zh": "我的弟弟10岁了。",
+          "zh_Hant": "我的弟弟10歲了。"
+        },
+        "out_of_scope_words": [
+          "ນ້ອງ",
+          "ອາຍຸ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly smiling young man standing upright, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທ່ຽວ": {
+    "definitions": {
+      "de": "Reisen; einen Ausflug machen; sich zur Freizeitgestaltung an einen anderen Ort begeben",
+      "en": "To travel; to go on a trip; to visit a place for leisure or sightseeing",
+      "es": "Viajar; hacer una excursión; visitar un lugar por placer o turismo",
+      "fr": "Voyager ; faire une excursion ; visiter un endroit pour le plaisir ou le tourisme",
+      "hi": "यात्रा करना; सैर के लिए जाना; मनोरंजन या दर्शनीय स्थलों के लिए किसी जगह जाना",
+      "ja": "旅行する；観光に行く；レジャーや観光のために場所を訪れる",
+      "km": "ធ្វើដំណើរ; ទៅលេង; ទៅទស្សនាកន្លែងណាមួយដើម្បីសម្រាកលំហែ ឬទស្សនាកម្សាន្ត",
+      "ko": "여행하다; 나들이 가다; 여가나 관광을 위해 어떤 장소를 방문하다",
+      "ne": "यात्रा गर्नु; घुम्न जानु; मनोरञ्जन वा दर्शनीय स्थल हेर्न कुनै ठाउँमा जानु",
+      "pt": "Viajar; fazer uma excursão; visitar um lugar por lazer ou turismo",
+      "th": "เที่ยว; ท่องเที่ยว; ไปเยี่ยมชมสถานที่เพื่อพักผ่อนหย่อนใจหรือท่องเที่ยว",
+      "tl": "Maglakbay; pumunta sa isang lugar para maglibang o mamasyal; mag-tour",
+      "ur": "سفر کرنا؛ گھومنا پھرنا؛ تفریح یا سیاحت کے لیے کسی جگہ جانا",
+      "vi": "Đi chơi; du lịch; đến thăm một nơi để giải trí hoặc tham quan",
+      "zh": "旅游；出游；为了休闲或观光而前往某地",
+      "zh_Hant": "旅遊；出遊；為了休閒或觀光而前往某地"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tʰîːaw",
+    "examples": [
+      {
+        "lao_script": "ອາທິດນີ້ເຮົາໄປທ່ຽວວຽງຈັນກັນເດີ້",
+        "romanization": "ʔáːtʰit níː haw paj tʰîːaw wîːaŋ tɕan kan dɤ̂ː",
+        "translations": {
+          "de": "Lass uns diese Woche nach Vientiane reisen!",
+          "en": "Let's go travel to Vientiane this week!",
+          "es": "¡Vayamos a Vientián esta semana!",
+          "fr": "Allons voyager à Vientiane cette semaine !",
+          "hi": "इस हफ्ते हम वियनतियान घूमने चलते हैं!",
+          "ja": "今週ビエンチャンに旅行しようよ！",
+          "km": "សប្តាហ៍នេះ ចូរយើងទៅលេងវៀងចន្ទន៍!",
+          "ko": "이번 주에 비엔티안에 여행 가자!",
+          "ne": "यो हप्ता हामी भियन्टियन घुम्न जाऔं!",
+          "pt": "Vamos viajar para Vientiane essa semana!",
+          "th": "อาทิตย์นี้เราไปเที่ยววียงจันทน์กันเลย!",
+          "tl": "Pumunta tayo sa Vientiane ngayong linggo!",
+          "ur": "اس ہفتے ہم وینٹیان گھومنے چلتے ہیں!",
+          "vi": "Tuần này chúng ta đi chơi Viêng Chăn đi!",
+          "zh": "这周我们去万象旅游吧！",
+          "zh_Hant": "這週我們去萬象旅遊吧！"
+        },
+        "out_of_scope_words": [
+          "ອາທິດ",
+          "ວຽງຈັນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຊອບໄປທ່ຽວບ່ອນໃດຫຼາຍທີ່ສຸດ?",
+        "romanization": "tɕâw sɔ̂p paj tʰîːaw bɔ̀ːn daj lǎːj tʰîː sùt?",
+        "translations": {
+          "de": "Wo reist du am liebsten hin?",
+          "en": "Where do you like to travel the most?",
+          "es": "¿A dónde te gusta viajar más?",
+          "fr": "Où aimes-tu voyager le plus ?",
+          "hi": "तुम्हें सबसे ज्यादा कहाँ घूमना पसंद है?",
+          "ja": "一番好きな旅行先はどこですか？",
+          "km": "តើអ្នកចូលចិត្តទៅលេងកន្លែងណាជាងគេ?",
+          "ko": "어디 여행 가는 걸 제일 좋아해요?",
+          "ne": "तिमीलाई कहाँ घुम्न सबैभन्दा मन पर्छ?",
+          "pt": "Onde você mais gosta de viajar?",
+          "th": "คุณชอบไปเที่ยวที่ไหนมากที่สุด?",
+          "tl": "Saan ka pinaka-gusto maglakbay?",
+          "ur": "آپ کو سب سے زیادہ کہاں گھومنا پسند ہے؟",
+          "vi": "Bạn thích đi chơi ở đâu nhất?",
+          "zh": "你最喜欢去哪里旅游？",
+          "zh_Hant": "你最喜歡去哪裡旅遊？"
+        },
+        "out_of_scope_words": [
+          "ຊອບ",
+          "ຫຼາຍທີ່ສຸດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a happy person with a backpack and camera sightseeing at a scenic outdoor location, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລຳ": {
+    "definitions": {
+      "de": "Lam — traditionelle laotische Gesangsform; auch Klassifikator für längliche Gegenstände wie Boote und Bäume; Stamm (eines Baumes)",
+      "en": "Lam — traditional Lao folk singing/music style; also a classifier for long cylindrical objects such as boats, trees, or trunks; trunk or stalk",
+      "es": "Lam — estilo tradicional de canto folclórico lao; también es un clasificador para objetos cilíndricos largos como botes, árboles o troncos; tronco o tallo",
+      "fr": "Lam — style de chant folk traditionnel lao ; aussi un classificateur pour les objets longs et cylindriques comme les bateaux, les arbres ou les troncs ; tronc ou tige",
+      "hi": "लाम — पारंपरिक लाओ लोक संगीत/गायन शैली; नाव, पेड़ या तने जैसी लंबी बेलनाकार वस्तुओं के लिए वर्गीकारक; तना",
+      "ja": "ラム — ラオスの伝統的な民謡スタイル；船・木・幹などの長い円筒形のものに使う類別詞；幹・茎",
+      "km": "ឡាំ — រចនាប័ទ្មចម្រៀងប្រជាប្រិយដ៏ប្រពៃណីរបស់ឡាវ; ក៏ជាពាក្យចាត់ថ្នាក់សម្រាប់វត្ថុស្រួចពីក្រោមមូលដូចជាទូក ដើមឈើ ឬដើម; ដើម",
+      "ko": "람 — 라오스 전통 민속 노래 스타일; 배, 나무, 줄기 등 길고 원통형인 물체에 사용하는 분류사; 줄기, 몸통",
+      "ne": "लाम — लाओसको परम्परागत लोक गायन शैली; डुङ्गा, रुख वा ट्रंक जस्ता लामो बेलनाकार वस्तुहरूको लागि वर्गीकारक; ट्रंक वा डाँठ",
+      "pt": "Lam — estilo tradicional de canto folclórico lao; também é um classificador para objetos longos e cilíndricos como barcos, árvores ou troncos; tronco ou caule",
+      "th": "ลำ — รูปแบบการร้องเพลงพื้นบ้านลาวแบบดั้งเดิม; ยังเป็นลักษณนามสำหรับวัตถุทรงกระบอกยาว เช่น เรือ ต้นไม้ หรือลำต้น; ลำต้น",
+      "tl": "Lam — tradisyonal na estilo ng folk singing ng Lao; ginagamit din bilang panlapi para sa mahabang bilugang bagay tulad ng bangka, puno, o katawan; katawan o tangkay",
+      "ur": "لام — لاؤس کی روایتی لوک گائیکی کا انداز؛ کشتیوں، درختوں یا تنوں جیسی لمبی بیلناکار چیزوں کے لیے درجہ بند کنندہ؛ تنہ یا ڈنٹھل",
+      "vi": "Lam — thể loại âm nhạc/hát dân gian truyền thống Lào; cũng là loại từ dùng cho các vật thể dài hình trụ như thuyền, cây hoặc thân cây; thân cây",
+      "zh": "拉姆——老挝传统民间歌唱形式；也是用于船只、树木或树干等长圆柱形物体的量词；树干",
+      "zh_Hant": "拉姆——寮國傳統民間歌唱形式；也是用於船隻、樹木或樹幹等長圓柱形物體的量詞；樹幹"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "láːm",
+    "examples": [
+      {
+        "lao_script": "ເຂົາຮ້ອງລຳໄດ້ເພິ່ງຫຼາຍ",
+        "romanization": "kʰâw hɔ́ːŋ láːm dâj pʰɤ̂ŋ lǎːj",
+        "translations": {
+          "de": "Er kann sehr gut Lam-Musik singen.",
+          "en": "He can sing Lam really well.",
+          "es": "Él puede cantar Lam muy bien.",
+          "fr": "Il sait très bien chanter le Lam.",
+          "hi": "वह लाम बहुत अच्छा गा सकता है।",
+          "ja": "彼はラムをとても上手に歌えます。",
+          "km": "គាត់អាចច្រៀងឡាំបានល្អណាស់។",
+          "ko": "그는 람을 정말 잘 부를 수 있어요.",
+          "ne": "उसले लाम धेरै राम्रोसँग गाउन सक्छ।",
+          "pt": "Ele consegue cantar Lam muito bem.",
+          "th": "เขาร้องลำได้เก่งมาก",
+          "tl": "Napakagaling niyang kumanta ng Lam.",
+          "ur": "وہ لام بہت اچھی طرح گا سکتا ہے۔",
+          "vi": "Anh ấy có thể hát Lam rất hay.",
+          "zh": "他能唱非常好听的拉姆。",
+          "zh_Hant": "他能唱非常好聽的拉姆。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ງ"
+        ]
+      },
+      {
+        "lao_script": "ລຳຕົ້ນໄມ້ນັ້ນໃຫຍ່ຫຼາຍ",
+        "romanization": "láːm tôn máːj nan ɲàj lǎːj",
+        "translations": {
+          "de": "Der Stamm dieses Baumes ist sehr groß.",
+          "en": "The trunk of that tree is very big.",
+          "es": "El tronco de ese árbol es muy grande.",
+          "fr": "Le tronc de cet arbre est très grand.",
+          "hi": "उस पेड़ का तना बहुत बड़ा है।",
+          "ja": "あの木の幹はとても大きいです。",
+          "km": "ដើមឈើនោះមានដើមធំណាស់។",
+          "ko": "저 나무 기둥이 정말 크네요.",
+          "ne": "त्यो रुखको ट्रंक धेरै ठूलो छ।",
+          "pt": "O tronco daquela árvore é muito grande.",
+          "th": "ลำต้นไม้นั้นใหญ่มาก",
+          "tl": "Napakalaki ng katawan ng punong iyon.",
+          "ur": "اس درخت کا تنا بہت بڑا ہے۔",
+          "vi": "Thân cây đó rất to.",
+          "zh": "那棵树的树干非常大。",
+          "zh_Hant": "那棵樹的樹幹非常大。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a Lao musician in traditional clothing performing folk singing, and on the right, a large tree trunk; suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ປ້ອງ": {
+    "definitions": {
+      "de": "Schützen; verteidigen; bewachen; wird oft in der Verbindung ປ້ອງກັນ (Schutz/Prävention) verwendet",
+      "en": "To protect; to defend; to guard; often used in the compound ປ້ອງກັນ meaning protection or prevention",
+      "es": "Proteger; defender; guardar; a menudo se usa en el compuesto ປ້ອງກັນ que significa protección o prevención",
+      "fr": "Protéger ; défendre ; garder ; souvent utilisé dans le composé ປ້ອງກັນ signifiant protection ou prévention",
+      "hi": "रक्षा करना; बचाव करना; सुरक्षित रखना; अक्सर ປ້ອງກັນ (सुरक्षा/रोकथाम) यौगिक में उपयोग किया जाता है",
+      "ja": "守る；保護する；防ぐ；ປ້ອງກັນ（保護・予防）という複合語でよく使われる",
+      "km": "ការពារ; ការពារខ្លួន; ជួយថែរក្សា; តែងតែប្រើក្នុងពាក្យផ្សំ ປ້ອງກັນ ដែលមានន័យថា ការការពារ ឬការបង្ការ",
+      "ko": "보호하다; 방어하다; 지키다; 보통 ປ້ອງກັນ(보호/예방)이라는 복합어로 사용됨",
+      "ne": "सुरक्षा गर्नु; बचाउनु; रक्षा गर्नु; प्रायः ປ້ອງກັນ (सुरक्षा/रोकथाम) यौगिकमा प्रयोग गरिन्छ",
+      "pt": "Proteger; defender; guardar; frequentemente usado no composto ປ້ອງກັນ que significa proteção ou prevenção",
+      "th": "ปกป้อง; ป้องกัน; คุ้มครอง; มักใช้ในคำประสม ປ້ອງກັນ ที่หมายถึงการป้องกันหรือการคุ้มครอง",
+      "tl": "Protektahan; ipagtanggol; bantayan; kadalasang ginagamit sa tambalan na ປ້ອງກັນ na nangangahulugang proteksyon o pag-iwas",
+      "ur": "حفاظت کرنا؛ دفاع کرنا؛ بچانا؛ اکثر ປ້ອງກັນ (تحفظ/بچاؤ) مرکب لفظ میں استعمال ہوتا ہے",
+      "vi": "Bảo vệ; bảo hộ; phòng thủ; thường dùng trong từ ghép ປ້ອງກັນ có nghĩa là bảo vệ hoặc phòng ngừa",
+      "zh": "保护；防御；守护；常用于复合词 ປ້ອງກັນ，意为保护或预防",
+      "zh_Hant": "保護；防禦；守護；常用於複合詞 ປ້ອງກັນ，意為保護或預防"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pɔ̂ːŋ",
+    "examples": [
+      {
+        "lao_script": "ເຮົາຕ້ອງປ້ອງກັນສຸຂະພາບຂອງຕົວເອງ",
+        "romanization": "haw tɔ̂ŋ pɔ̂ːŋ kan sùkʰaʔpʰâːp kʰɔ̌ːŋ tùa ʔeːŋ",
+        "translations": {
+          "de": "Wir müssen unsere eigene Gesundheit schützen.",
+          "en": "We need to protect our own health.",
+          "es": "Necesitamos proteger nuestra propia salud.",
+          "fr": "Nous devons protéger notre propre santé.",
+          "hi": "हमें अपने स्वास्थ्य की रक्षा करनी चाहिए।",
+          "ja": "自分の健康を守らなければなりません。",
+          "km": "យើងត្រូវការពារសុខភាពរបស់ខ្លួនឯង។",
+          "ko": "우리는 자신의 건강을 지켜야 해요.",
+          "ne": "हामीले आफ्नै स्वास्थ्यको सुरक्षा गर्नु पर्छ।",
+          "pt": "Precisamos proteger a nossa própria saúde.",
+          "th": "เราต้องปกป้องสุขภาพของตัวเอง",
+          "tl": "Kailangan nating protektahan ang ating sariling kalusugan.",
+          "ur": "ہمیں اپنی صحت کی حفاظت کرنی چاہیے۔",
+          "vi": "Chúng ta cần bảo vệ sức khỏe của bản thân.",
+          "zh": "我们需要保护自己的健康。",
+          "zh_Hant": "我們需要保護自己的健康。"
+        },
+        "out_of_scope_words": [
+          "ສຸຂະພາບ",
+          "ຕົວເອງ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ແມ່ປ້ອງລູກທຸກເທື່ອ",
+        "romanization": "pʰɔ̂ː mɛ̂ː pɔ̂ːŋ lûːk tʰúk tʰɯ́a",
+        "translations": {
+          "de": "Eltern schützen ihre Kinder immer.",
+          "en": "Parents always protect their children.",
+          "es": "Los padres siempre protegen a sus hijos.",
+          "fr": "Les parents protègent toujours leurs enfants.",
+          "hi": "माता-पिता हमेशा अपने बच्चों की रक्षा करते हैं।",
+          "ja": "親はいつも子どもを守ります。",
+          "km": "ឪពុកម្តាយតែងតែការពារកូនរបស់ពួកគេ។",
+          "ko": "부모는 항상 자녀를 보호해요.",
+          "ne": "आमाबाबाले सधैं आफ्नो बच्चाको सुरक्षा गर्छन्।",
+          "pt": "Os pais sempre protegem seus filhos.",
+          "th": "พ่อแม่ปกป้องลูกทุกครั้ง",
+          "tl": "Lagi nilang pinoprotektahan ng mga magulang ang kanilang mga anak.",
+          "ur": "والدین ہمیشہ اپنے بچوں کی حفاظت کرتے ہیں۔",
+          "vi": "Cha mẹ luôn luôn bảo vệ con cái của mình.",
+          "zh": "父母总是保护自己的孩子。",
+          "zh_Hant": "父母總是保護自己的孩子。"
+        },
+        "out_of_scope_words": [
+          "ທຸກເທື່ອ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a parent gently shielding a small child under their arm, with a soft protective glow around them, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

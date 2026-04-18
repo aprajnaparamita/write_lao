@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫ້າມ",
+  "definitions": {
+    "de": "verbieten; etwas untersagen oder nicht erlauben",
+    "en": "to forbid; to prohibit or not allow something",
+    "es": "prohibir; no permitir o vedar algo",
+    "fr": "interdire ; ne pas permettre quelque chose",
+    "hi": "मना करना; किसी चीज़ को प्रतिबंधित या अस्वीकृत करना",
+    "ja": "禁止する；何かを許可しない、禁ずる",
+    "km": "ហាមឃាត់; មិនអនុញ្ញាតឱ្យធ្វើអ្វីមួយ",
+    "ko": "금지하다; 무언가를 허락하지 않거나 금하다",
+    "ne": "निषेध गर्नु; कुनै कुरा नगर्न रोक लगाउनु",
+    "pt": "proibir; não permitir ou vedar algo",
+    "th": "ห้าม; ไม่อนุญาตหรือสั่งไม่ให้ทำสิ่งใดสิ่งหนึ่ง",
+    "tl": "ipagbawal; hindi pahintulutan o pagbawalan ang isang bagay",
+    "ur": "منع کرنا؛ کسی چیز کی اجازت نہ دینا یا روکنا",
+    "vi": "cấm; không cho phép hoặc ngăn cấm điều gì đó",
+    "zh": "禁止；不允许或制止某事",
+    "zh_Hant": "禁止；不允許或制止某事"
+  },
+  "definition_en": "to forbid; to prohibit or not allow something",
+  "romanization": "hâam",
+  "lao_examples": [
+    {
+      "lao_script": "ຢູ່ນີ້ຫ້າມສູບຢາເດີ້",
+      "romanization": "yuu nii hâam suup yaa dee",
+      "translation_en": "Smoking is not allowed here, okay?"
+    },
+    {
+      "lao_script": "ແມ່ຫ້າມຂ້ອຍໄປຫຼິ້ນດຶກ",
+      "romanization": "mɛɛ hâam khɔ̂i pai lîn dʉk",
+      "translation_en": "My mom forbids me from going out to play late at night."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a red prohibition sign with a hand raised in a 'stop' gesture, with a cigarette crossed out beneath it, clean white background, bold colors, minimalist style suitable for a language learning app."
+}

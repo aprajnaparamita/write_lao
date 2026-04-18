@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເອີ້ນ",
+  "definitions": {
+    "de": "rufen / nennen – jemanden beim Namen rufen oder etwas benennen",
+    "en": "to call / to name – to call out to someone or to give something a name",
+    "es": "llamar / nombrar – llamar a alguien o dar nombre a algo",
+    "fr": "appeler / nommer – appeler quelqu'un ou donner un nom à quelque chose",
+    "hi": "बुलाना / नाम रखना – किसी को पुकारना या किसी चीज़ का नाम रखना",
+    "ja": "呼ぶ／名付ける – 誰かを呼ぶ、または何かに名前をつける",
+    "km": "ហៅ / ដាក់ឈ្មោះ – ហៅនរណាម្នាក់ ឬដាក់ឈ្មោះអ្វីមួយ",
+    "ko": "부르다 / 이름 짓다 – 누군가를 부르거나 무언가에 이름을 붙이다",
+    "ne": "बोलाउनु / नाम राख्नु – कसैलाई बोलाउनु वा कुनै कुरालाई नाम दिनु",
+    "pt": "chamar / nomear – chamar alguém ou dar nome a algo",
+    "th": "เรียก / ตั้งชื่อ – เรียกหาใครบางคน หรือตั้งชื่อให้กับบางสิ่ง",
+    "tl": "tumawag / pangalanan – tumawag sa isang tao o bigyan ng pangalan ang isang bagay",
+    "ur": "بلانا / نام رکھنا – کسی کو پکارنا یا کسی چیز کو نام دینا",
+    "vi": "gọi / đặt tên – gọi ai đó hoặc đặt tên cho cái gì đó",
+    "zh": "叫 / 称呼 – 叫某人或给某物命名",
+    "zh_Hant": "叫 / 稱呼 – 叫某人或給某物命名"
+  },
+  "definition_en": "to call / to name – to call out to someone or to give something a name",
+  "romanization": "/ʔəːn˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າເອີ້ນຂ້ອຍວ່າແນວໃດ?",
+      "romanization": "jao ʔəːn khɔːj vaː nɛːw daɪ?",
+      "translation_en": "What do you call me?"
+    },
+    {
+      "lao_script": "ແມ່ເອີ້ນຊື່ລູກວ່າ ນ້ອຍ",
+      "romanization": "mɛː ʔəːn sɯː luːk vaː nɔːj",
+      "translation_en": "The mother names her child Noi."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person waving and calling out to a friend across the street, with a speech bubble showing a name, clean white background, colorful minimalist style suitable for a language learning app."
+}

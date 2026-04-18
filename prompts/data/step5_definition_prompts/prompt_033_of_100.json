@@ -1,0 +1,401 @@
+{
+  "ກາ": {
+    "definitions": {
+      "de": "Krähe (ein schwarzer Vogel) oder Wasserkocher (ein Gefäß zum Kochen von Wasser)",
+      "en": "Crow (a black bird) or kettle (a vessel for boiling water)",
+      "es": "Cuervo (un pájaro negro) o hervidor (un recipiente para hervir agua)",
+      "fr": "Corbeau (un oiseau noir) ou bouilloire (un récipient pour faire bouillir de l'eau)",
+      "hi": "कौआ (एक काला पक्षी) या केतली (पानी उबालने का बर्तन)",
+      "ja": "カラス（黒い鳥）またはやかん（お湯を沸かす容器）",
+      "km": "ត្រមោច (បក្សីពណ៌ខ្មៅ) ឬកូនឆ្នាំង (ប្រដាប់ដាំទឹក)",
+      "ko": "까마귀(검은 새) 또는 주전자(물을 끓이는 용기)",
+      "ne": "काग (एक कालो चरा) वा केटली (पानी उमाल्ने भाँडो)",
+      "pt": "Corvo (um pássaro preto) ou chaleira (um recipiente para ferver água)",
+      "th": "อีกา (นกสีดำ) หรือกาน้ำ (ภาชนะสำหรับต้มน้ำ)",
+      "tl": "Uwak (isang itim na ibon) o kettle (lalagyan para sa pagpapakulo ng tubig)",
+      "ur": "کوا (ایک کالا پرندہ) یا کیتلی (پانی ابالنے کا برتن)",
+      "vi": "Con quạ (một loài chim màu đen) hoặc ấm đun nước (dụng cụ đun sôi nước)",
+      "zh": "乌鸦（一种黑色的鸟）或水壶（烧水的容器）",
+      "zh_Hant": "烏鴉（一種黑色的鳥）或水壺（燒水的容器）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kaː˧/",
+    "examples": [
+      {
+        "lao_script": "ມີກາດຳຕົວນຶ່ງບິນຜ່ານຫຼັງບ້ານ",
+        "romanization": "mii kaa dam tua nung bin phaan lang baan",
+        "translations": {
+          "de": "Eine schwarze Krähe flog hinter dem Haus vorbei.",
+          "en": "A black crow flew past behind the house.",
+          "es": "Un cuervo negro voló detrás de la casa.",
+          "fr": "Un corbeau noir a volé derrière la maison.",
+          "hi": "एक काला कौआ घर के पीछे से उड़ कर गया।",
+          "ja": "黒いカラスが家の裏を飛んで行った。",
+          "km": "ត្រមោចខ្មៅមួយបានហើរកាត់ក្រោយផ្ទះ។",
+          "ko": "검은 까마귀 한 마리가 집 뒤로 날아갔어.",
+          "ne": "एउटा कालो काग घरको पछाडिबाट उड्दै गयो।",
+          "pt": "Um corvo preto voou atrás da casa.",
+          "th": "อีกาดำตัวหนึ่งบินผ่านหลังบ้าน",
+          "tl": "May isang itim na uwak na lumipas sa likod ng bahay.",
+          "ur": "ایک کالا کوا گھر کے پیچھے سے اڑتا ہوا گزرا۔",
+          "vi": "Một con quạ đen bay qua phía sau nhà.",
+          "zh": "一只黑色的乌鸦从房子后面飞过。",
+          "zh_Hant": "一隻黑色的烏鴉從房子後面飛過。"
+        },
+        "out_of_scope_words": [
+          "ດຳ",
+          "ບິນ",
+          "ຜ່ານ",
+          "ຫຼັງ"
+        ]
+      },
+      {
+        "lao_script": "ເອົາກາໄປຕັ້ງໄຟແດ່ ຂ້ອຍຢາກດື່ມຊາ",
+        "romanization": "ao kaa pai tang fai daeh, khoi yaak duem saa",
+        "translations": {
+          "de": "Stell doch den Wasserkocher auf das Feuer, ich möchte Tee trinken.",
+          "en": "Put the kettle on the fire, I want to drink tea.",
+          "es": "Pon la hervidor en el fuego, quiero tomar té.",
+          "fr": "Mets la bouilloire sur le feu, je veux boire du thé.",
+          "hi": "केतली को आग पर रख दो, मुझे चाय पीनी है।",
+          "ja": "やかんを火にかけてよ、お茶が飲みたいんだ。",
+          "km": "យកកូនឆ្នាំងទៅដាក់លើភ្លើងផង ខ្ញុំចង់ផឹកតែ។",
+          "ko": "주전자를 불에 올려줘, 나 차 마시고 싶어.",
+          "ne": "केटली आगोमा राखिदेऊ, मलाई चिया पिउनु छ।",
+          "pt": "Coloca a chaleira no fogo, eu quero tomar chá.",
+          "th": "เอากาไปตั้งไฟหน่อย ฉันอยากดื่มชา",
+          "tl": "Ilagay ang kettle sa apoy, gusto kong uminom ng tsaa.",
+          "ur": "کیتلی کو آگ پر رکھ دو، مجھے چائے پینی ہے۔",
+          "vi": "Đặt ấm lên bếp đi, tôi muốn uống trà.",
+          "zh": "把水壶放到火上，我想喝茶。",
+          "zh_Hant": "把水壺放到火上，我想喝茶。"
+        },
+        "out_of_scope_words": [
+          "ຕັ້ງໄຟ",
+          "ດື່ມ",
+          "ຊາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two meanings side by side: a black crow perched on a branch on the left, and a traditional metal kettle on the right, clean white background, colorful minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກຸ່ມ": {
+    "definitions": {
+      "de": "Gruppe; eine Ansammlung von Menschen, Tieren oder Dingen zusammen",
+      "en": "Group; a collection of people, animals, or things together",
+      "es": "Grupo; un conjunto de personas, animales o cosas juntas",
+      "fr": "Groupe ; un ensemble de personnes, d'animaux ou de choses réunis",
+      "hi": "समूह; लोगों, जानवरों या चीज़ों का एक साथ इकट्ठा होना",
+      "ja": "グループ；人・動物・物などの集まり",
+      "km": "ក្រុម; ការប្រមូលផ្តុំមនុស្ស សត្វ ឬវត្ថុជាមួយគ្នា",
+      "ko": "그룹; 사람, 동물, 또는 사물의 모임",
+      "ne": "समूह; मानिस, जनावर वा वस्तुहरूको सँगठन",
+      "pt": "Grupo; uma coleção de pessoas, animais ou coisas juntas",
+      "th": "กลุ่ม; การรวมตัวของคน สัตว์ หรือสิ่งของ",
+      "tl": "Grupo; isang koleksyon ng mga tao, hayop, o bagay na magkasama",
+      "ur": "گروہ؛ لوگوں، جانوروں یا چیزوں کا ایک ساتھ اکٹھا ہونا",
+      "vi": "Nhóm; một tập hợp người, động vật hoặc đồ vật ở cùng nhau",
+      "zh": "群体；人、动物或事物的集合",
+      "zh_Hant": "群體；人、動物或事物的集合"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kum˥˩/",
+    "examples": [
+      {
+        "lao_script": "ກຸ່ມເພື່ອນຂ້ອຍໄປກິນຂ້າວນຳກັນທຸກວັນ",
+        "romanization": "kum phuean khoi pai kin khao nam kan thuk van",
+        "translations": {
+          "de": "Meine Freundesgruppe geht jeden Tag zusammen essen.",
+          "en": "My friend group goes to eat together every day.",
+          "es": "Mi grupo de amigos va a comer juntos todos los días.",
+          "fr": "Mon groupe d'amis va manger ensemble tous les jours.",
+          "hi": "मेरे दोस्तों का ग्रुप हर दिन एक साथ खाना खाने जाता है।",
+          "ja": "私の友達グループは毎日一緒にご飯を食べに行く。",
+          "km": "ក្រុមមិត្តភក្តិខ្ញុំទៅញ៉ាំបាយជាមួយគ្នារៀងរាល់ថ្ងៃ។",
+          "ko": "내 친구 그룹은 매일 같이 밥을 먹으러 가.",
+          "ne": "मेरो साथी समूह हरेक दिन सँगै खाना खान जान्छ।",
+          "pt": "Meu grupo de amigos vai comer junto todo dia.",
+          "th": "กลุ่มเพื่อนฉันไปกินข้าวด้วยกันทุกวัน",
+          "tl": "Ang grupo ng aking mga kaibigan ay sabay-sabay na kumakain araw-araw.",
+          "ur": "میرے دوستوں کا گروہ ہر روز ساتھ کھانا کھانے جاتا ہے۔",
+          "vi": "Nhóm bạn của tôi đi ăn cùng nhau mỗi ngày.",
+          "zh": "我的朋友群每天一起去吃饭。",
+          "zh_Hant": "我的朋友群每天一起去吃飯。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ກິນຂ້າວ",
+          "ທຸກວັນ"
+        ]
+      },
+      {
+        "lao_script": "ພວກເຮົາຕ້ອງແບ່ງເປັນສາມກຸ່ມ",
+        "romanization": "phuak hao tong baeng pen saam kum",
+        "translations": {
+          "de": "Wir müssen uns in drei Gruppen aufteilen.",
+          "en": "We need to split into three groups.",
+          "es": "Tenemos que dividirnos en tres grupos.",
+          "fr": "Nous devons nous diviser en trois groupes.",
+          "hi": "हमें तीन समूहों में बाँटना होगा।",
+          "ja": "私たちは三つのグループに分かれないといけない。",
+          "km": "យើងត្រូវបែងចែកជាបីក្រុម។",
+          "ko": "우리는 세 그룹으로 나눠야 해.",
+          "ne": "हामीलाई तीन समूहमा बाँड्नु पर्छ।",
+          "pt": "Precisamos nos dividir em três grupos.",
+          "th": "พวกเราต้องแบ่งเป็นสามกลุ่ม",
+          "tl": "Kailangan nating hatiin sa tatlong grupo.",
+          "ur": "ہمیں تین گروہوں میں تقسیم ہونا ہوگا۔",
+          "vi": "Chúng ta cần chia thành ba nhóm.",
+          "zh": "我们需要分成三组。",
+          "zh_Hant": "我們需要分成三組。"
+        },
+        "out_of_scope_words": [
+          "ແບ່ງ",
+          "ສາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a group of five diverse cartoon people standing together and smiling, clean white background, bright colors, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊີ": {
+    "definitions": {
+      "de": "Eine Silbe, die häufig in laotischen Namen vorkommt; als eigenständiges Wort kaum in der Alltagssprache verwendet",
+      "en": "A syllable commonly found in Lao personal names; rarely used as a standalone word in everyday conversation",
+      "es": "Una sílaba que aparece frecuentemente en nombres personales laosianos; raramente se usa como palabra independiente en la conversación cotidiana",
+      "fr": "Une syllabe couramment présente dans les prénoms laotiens ; rarement utilisée comme mot autonome dans la conversation quotidienne",
+      "hi": "एक अक्षर जो लाओ व्यक्तिगत नामों में सामान्यतः पाया जाता है; रोज़मर्रा की बातचीत में अकेले शब्द के रूप में शायद ही प्रयोग होता है",
+      "ja": "ラオス語の人名によく使われる音節。日常会話での単独使用はほとんどない",
+      "km": "ព្យាង្គដែលច្រើនមាននៅក្នុងឈ្មោះបុគ្គលរបស់ជនជាតិឡាវ; កម្រប្រើជាពាក្យឯករាជ្យក្នុងការសន្ទនាប្រចាំថ្ងៃ",
+      "ko": "라오스 개인 이름에 자주 등장하는 음절; 일상 대화에서 단독 단어로는 거의 사용되지 않음",
+      "ne": "लाओ व्यक्तिगत नाममा सामान्यतः पाइने एउटा शब्दांश; दैनिक कुराकानीमा स्वतन्त्र शब्दको रूपमा विरलै प्रयोग हुन्छ",
+      "pt": "Uma sílaba comumente encontrada em nomes pessoais laosianos; raramente usada como palavra independente na conversa cotidiana",
+      "th": "พยางค์ที่มักพบในชื่อบุคคลของชาวลาว ไม่ค่อยใช้เป็นคำเดี่ยวในการสนทนาทั่วไป",
+      "tl": "Isang pantig na madalas makita sa mga personal na pangalan ng mga Lao; bihirang gamitin bilang isang nagsasariling salita sa pang-araw-araw na pag-uusap",
+      "ur": "ایک حرف جو عام طور پر لاؤشین ذاتی ناموں میں پایا جاتا ہے؛ روزمرہ گفتگو میں بطور الگ لفظ شاذ و نادر استعمال ہوتا ہے",
+      "vi": "Một âm tiết thường xuất hiện trong tên riêng của người Lào; hiếm khi được dùng như một từ độc lập trong hội thoại hàng ngày",
+      "zh": "常见于老挝人名中的一个音节；在日常对话中几乎不作为独立词语使用",
+      "zh_Hant": "常見於老撾人名中的一個音節；在日常對話中幾乎不作為獨立詞語使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/siː˧/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ລາວຫຼາຍຊື່ມີຄຳວ່າ ຊີ ຢູ່ໃນນັ້ນ",
+        "romanization": "sue lao lai sue mii kham waa sii yuu nai nan",
+        "translations": {
+          "de": "Viele laotische Namen enthalten die Silbe 'Sii'.",
+          "en": "Many Lao names contain the syllable 'Sii' in them.",
+          "es": "Muchos nombres laosianos contienen la sílaba 'Sii'.",
+          "fr": "Beaucoup de prénoms laotiens contiennent la syllabe 'Sii'.",
+          "hi": "बहुत से लाओ नामों में 'ຊີ' अक्षर होता है।",
+          "ja": "多くのラオス語の名前には「ຊີ」という音節が含まれている。",
+          "km": "ឈ្មោះឡាវជាច្រើនមានព្យាង្គ 'ຊີ' នៅក្នុងនោះ។",
+          "ko": "많은 라오스 이름에는 'ຊີ'라는 음절이 들어 있어.",
+          "ne": "धेरै लाओ नाममा 'ຊີ' भन्ने शब्दांश हुन्छ।",
+          "pt": "Muitos nomes laosianos contêm a sílaba 'Sii'.",
+          "th": "ชื่อลาวหลายชื่อมีพยางค์ว่า 'ຊີ' อยู่ในนั้น",
+          "tl": "Maraming pangalan ng Lao ang naglalaman ng pantig na 'Sii'.",
+          "ur": "بہت سے لاؤ ناموں میں 'ຊີ' حرف شامل ہوتا ہے۔",
+          "vi": "Nhiều tên tiếng Lào chứa âm tiết 'Sii' trong đó.",
+          "zh": "很多老挝名字里含有'ຊີ'这个音节。",
+          "zh_Hant": "很多老撾名字裡含有'ຊີ'這個音節。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ຄຳ"
+        ]
+      },
+      {
+        "lao_script": "ເພື່ອນຂ້ອຍຊື່ ວັນຊີ ເປັນຄົນດີຫຼາຍ",
+        "romanization": "phuean khoi sue Van-sii, pen khon dii lai",
+        "translations": {
+          "de": "Mein Freund heißt Vansii und ist ein sehr netter Mensch.",
+          "en": "My friend's name is Vansii and they are a very good person.",
+          "es": "Mi amigo se llama Vansii y es una persona muy buena.",
+          "fr": "Mon ami s'appelle Vansii et c'est une très bonne personne.",
+          "hi": "मेरे दोस्त का नाम वानसी है और वो बहुत अच्छे इंसान हैं।",
+          "ja": "私の友達の名前はヴァンシーで、とても良い人だ。",
+          "km": "មិត្តភក្តិខ្ញុំឈ្មោះ វ័នស៊ី ជាមនុស្សល្អណាស់។",
+          "ko": "내 친구 이름은 반시이고 아주 좋은 사람이야.",
+          "ne": "मेरो साथीको नाम वानसी हो र उनी धेरै राम्रो मान्छे हुन्।",
+          "pt": "Meu amigo se chama Vansii e é uma pessoa muito boa.",
+          "th": "เพื่อนฉันชื่อวันซีเป็นคนดีมาก",
+          "tl": "Ang pangalan ng aking kaibigan ay Vansii at siya ay napakabuting tao.",
+          "ur": "میرے دوست کا نام وانسی ہے اور وہ بہت اچھے انسان ہیں۔",
+          "vi": "Bạn tôi tên là Vansii và là một người rất tốt.",
+          "zh": "我朋友叫万西，是个很好的人。",
+          "zh_Hant": "我朋友叫萬西，是個很好的人。"
+        },
+        "out_of_scope_words": [
+          "ວັນຊີ",
+          "ດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or nameplate with decorative Lao-style patterns on the border, showing a sample name, clean white background, colorful minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ເຊີນ": {
+    "definitions": {
+      "de": "Einladen / bitte (als höfliche Aufforderung); jemanden herzlich willkommen heißen oder auffordern, etwas zu tun",
+      "en": "To invite; please (as a polite gesture or command); to welcome someone or politely urge them to do something",
+      "es": "Invitar; por favor (como gesto o mandato cortés); dar la bienvenida a alguien o instarlo cortésmente a hacer algo",
+      "fr": "Inviter ; s'il vous plaît (en tant que geste ou ordre poli) ; accueillir quelqu'un ou l'inciter poliment à faire quelque chose",
+      "hi": "आमंत्रित करना; कृपया (एक विनम्र अनुरोध के रूप में); किसी का स्वागत करना या विनम्रता से कुछ करने के लिए प्रेरित करना",
+      "ja": "招待する；どうぞ（丁寧な勧めとして）；誰かを歓迎したり、礼儀正しく何かをするよう促したりする",
+      "km": "អញ្ជើញ; សូម (ជា身振身振ចេស្តា ឬពាក្យបញ្ជាដោយការគួរសម); ស្វាគមន៍នរណាម្នាក់ ឬជំរុញពួកគេដោយការគួរសមឱ្យធ្វើអ្វីមួយ",
+      "ko": "초대하다; 어서 (정중한 권유나 명령으로); 누군가를 환영하거나 공손하게 무언가를 하도록 권유하다",
+      "ne": "आमन्त्रण गर्नु; कृपया (विनम्र संकेत वा आदेशको रूपमा); कसैलाई स्वागत गर्नु वा विनम्रतापूर्वक केही गर्न प्रोत्साहित गर्नु",
+      "pt": "Convidar; por favor (como gesto ou comando cortês); receber alguém com boas-vindas ou instá-lo educadamente a fazer algo",
+      "th": "เชิญ; กรุณา (ในฐานะท่าทางหรือคำสั่งที่สุภาพ); ต้อนรับใครบางคนหรือสุภาพชักชวนให้ทำบางอย่าง",
+      "tl": "Mag-imbita; pakiusap (bilang magalang na kilos o utos); salubungin ang isang tao o magalang na himukin silang gumawa ng isang bagay",
+      "ur": "مدعو کرنا؛ براہ کرم (بطور شائستہ اشارہ یا حکم)؛ کسی کا خیر مقدم کرنا یا انہیں شائستگی سے کچھ کرنے پر آمادہ کرنا",
+      "vi": "Mời; làm ơn / xin mời (như một cử chỉ hoặc mệnh lệnh lịch sự); chào đón ai đó hoặc lịch sự thúc giục họ làm điều gì đó",
+      "zh": "邀请；请（作为礼貌的手势或命令）；欢迎某人或礼貌地催促他们做某事",
+      "zh_Hant": "邀請；請（作為禮貌的手勢或命令）；歡迎某人或禮貌地催促他們做某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sɤːn˧/",
+    "examples": [
+      {
+        "lao_script": "ເຊີນເຂົ້າມາກ່ອນເລີຍ ຢ່າຢືນຢູ່ຂ້າງນອກ",
+        "romanization": "soen khao maa kon loei, yaa yuen yuu khaang nok",
+        "translations": {
+          "de": "Komm doch erst herein, steh nicht draußen.",
+          "en": "Please come inside first, don't stand outside.",
+          "es": "Por favor, entra primero, no te quedes afuera.",
+          "fr": "Entre d'abord, s'il te plaît, ne reste pas dehors.",
+          "hi": "पहले अंदर आ जाओ, बाहर मत खड़े रहो।",
+          "ja": "どうぞまず中に入って、外に立っていなくていいよ。",
+          "km": "សូមចូលមកមុនសិន កុំឈរនៅខាងក្រៅ។",
+          "ko": "어서 먼저 들어와요, 밖에 서 있지 말고.",
+          "ne": "पहिले भित्र आउनुस्, बाहिर नउभिनुस्।",
+          "pt": "Por favor, entre primeiro, não fique do lado de fora.",
+          "th": "เชิญเข้ามาก่อนเลย อย่ายืนอยู่ข้างนอก",
+          "tl": "Mangyaring pumasok muna, huwag tumayo sa labas.",
+          "ur": "پہلے اندر آجائیں، باہر کھڑے نہ رہیں۔",
+          "vi": "Mời vào đi, đừng đứng ngoài đó.",
+          "zh": "请先进来吧，不要站在外面。",
+          "zh_Hant": "請先進來吧，不要站在外面。"
+        },
+        "out_of_scope_words": [
+          "ຢືນ",
+          "ຂ້າງນອກ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກເຊີນເຈົ້າມາງານລ້ຽງທີ່ເຮືອນ",
+        "romanization": "khoi yaak soen jao maa ngaan liang thi huean",
+        "translations": {
+          "de": "Ich möchte dich zur Party bei mir zu Hause einladen.",
+          "en": "I want to invite you to a party at my house.",
+          "es": "Quiero invitarte a una fiesta en mi casa.",
+          "fr": "Je veux t'inviter à une fête chez moi.",
+          "hi": "मैं तुम्हें अपने घर की पार्टी में आमंत्रित करना चाहता/चाहती हूँ।",
+          "ja": "私の家のパーティーに招待したいんだ。",
+          "km": "ខ្ញុំចង់អញ្ជើញអ្នកមកពិធីជប់លៀងនៅផ្ទះ។",
+          "ko": "우리 집 파티에 너를 초대하고 싶어.",
+          "ne": "म तिमीलाई मेरो घरमा पार्टीमा आमन्त्रण गर्न चाहन्छु।",
+          "pt": "Quero te convidar para uma festa na minha casa.",
+          "th": "ฉันอยากเชิญเธอมางานเลี้ยงที่บ้าน",
+          "tl": "Gusto kitang imbitahan sa isang handaan sa aking bahay.",
+          "ur": "میں آپ کو اپنے گھر کی پارٹی میں مدعو کرنا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn mời bạn đến dự tiệc tại nhà tôi.",
+          "zh": "我想邀请你来我家的派对。",
+          "zh_Hant": "我想邀請你來我家的派對。"
+        },
+        "out_of_scope_words": [
+          "ງານລ້ຽງ",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person gesturing with an open hand welcoming gesture, as if politely inviting someone to enter or sit down, clean white background, warm colors, minimalist style, suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ພາບ": {
+    "definitions": {
+      "de": "Bild; Foto; Gemälde; eine visuelle Darstellung oder ein Abbild von etwas",
+      "en": "Image; picture; photo; a visual representation or depiction of something",
+      "es": "Imagen; foto; pintura; una representación visual o ilustración de algo",
+      "fr": "Image ; photo ; tableau ; une représentation visuelle ou une illustration de quelque chose",
+      "hi": "चित्र; तस्वीर; फोटो; किसी चीज़ का दृश्य प्रतिनिधित्व या चित्रण",
+      "ja": "画像；写真；絵；何かの視覚的な表現や描写",
+      "km": "រូបភាព; រូបថត; ការបង្ហាញដោយភ្នែករបស់អ្វីមួយ",
+      "ko": "이미지; 사진; 그림; 무언가의 시각적 표현이나 묘사",
+      "ne": "तस्बिर; फोटो; चित्र; कुनै चीजको दृश्य प्रतिनिधित्व वा चित्रण",
+      "pt": "Imagem; foto; ilustração; uma representação visual ou retrato de algo",
+      "th": "ภาพ; รูปถ่าย; รูปวาด; การแสดงภาพหรือการพรรณนาทางสายตาของบางสิ่ง",
+      "tl": "Larawan; litrato; imahe; isang visual na representasyon o paglalarawan ng isang bagay",
+      "ur": "تصویر; فوٹو؛ کسی چیز کی بصری نمائندگی یا تصویر کشی",
+      "vi": "Hình ảnh; bức ảnh; tranh; sự biểu đạt hoặc mô tả bằng hình ảnh về điều gì đó",
+      "zh": "图像；照片；图画；某事物的视觉表现或描绘",
+      "zh_Hant": "圖像；照片；圖畫；某事物的視覺表現或描繪"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰaːp˥˩/",
+    "examples": [
+      {
+        "lao_script": "ພາບນີ້ສວຍຫຼາຍ ເຈົ້າຖ່າຍເອງບໍ",
+        "romanization": "phaap nii suay lai, jao thaai eng bo",
+        "translations": {
+          "de": "Dieses Bild ist sehr schön, hast du es selbst gemacht?",
+          "en": "This picture is very beautiful, did you take it yourself?",
+          "es": "Esta foto es muy bonita, ¿la tomaste tú mismo?",
+          "fr": "Cette photo est très belle, tu l'as prise toi-même ?",
+          "hi": "यह तस्वीर बहुत खूबसूरत है, क्या तुमने खुद खींची?",
+          "ja": "この写真すごくきれいだね、自分で撮ったの？",
+          "km": "រូបភាពនេះស្អាតណាស់ អ្នកថតដោយខ្លួនឯងទេ?",
+          "ko": "이 사진 정말 예쁘다, 네가 직접 찍은 거야?",
+          "ne": "यो तस्बिर धेरै सुन्दर छ, तिमीले आफैँ खिचेको हो?",
+          "pt": "Esta foto é muito bonita, você mesma tirou?",
+          "th": "ภาพนี้สวยมาก เธอถ่ายเองเหรอ",
+          "tl": "Ang larawang ito ay napakaganda, ikaw ba mismo ang kumuha nito?",
+          "ur": "یہ تصویر بہت خوبصورت ہے، کیا آپ نے خود کھینچی؟",
+          "vi": "Bức ảnh này đẹp lắm, bạn tự chụp à?",
+          "zh": "这张照片很漂亮，是你自己拍的吗？",
+          "zh_Hant": "這張照片很漂亮，是你自己拍的嗎？"
+        },
+        "out_of_scope_words": [
+          "ສວຍ",
+          "ຖ່າຍ"
+        ]
+      },
+      {
+        "lao_script": "ສົ່ງພາບນັ້ນໃຫ້ຂ້ອຍຜ່ານໂທລະສັບແດ່",
+        "romanization": "song phaap nan hai khoi phaan thola-sap daeh",
+        "translations": {
+          "de": "Schick mir das Bild bitte über das Handy.",
+          "en": "Send me that picture through the phone please.",
+          "es": "Envíame esa foto por el teléfono, por favor.",
+          "fr": "Envoie-moi cette photo par téléphone s'il te plaît.",
+          "hi": "वो तस्वीर मुझे फोन के ज़रिए भेज दो।",
+          "ja": "その写真、電話で送ってよ。",
+          "km": "ផ្ញើរូបភាពនោះមកខ្ញុំតាមទូរស័ព្ទផង។",
+          "ko": "그 사진 핸드폰으로 나한테 보내줘.",
+          "ne": "त्यो तस्बिर फोनमार्फत मलाई पठाऊ।",
+          "pt": "Me manda essa foto pelo celular.",
+          "th": "ส่งภาพนั้นให้ฉันทางโทรศัพท์หน่อยนะ",
+          "tl": "Ipadala mo sa akin ang larawang iyon sa pamamagitan ng telepono.",
+          "ur": "وہ تصویر مجھے فون کے ذریعے بھیجیں۔",
+          "vi": "Gửi cái ảnh đó cho tôi qua điện thoại nhé.",
+          "zh": "把那张照片通过手机发给我吧。",
+          "zh_Hant": "把那張照片透過手機發給我吧。"
+        },
+        "out_of_scope_words": [
+          "ສົ່ງ",
+          "ໂທລະສັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a framed photograph or picture leaning against a wall, showing a colorful landscape inside the frame, clean white background, bright colors, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

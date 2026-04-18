@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈຸດ",
+  "definitions": {
+    "de": "Punkt; ein kleiner Fleck oder eine markierte Stelle; auch verwendet für einen bestimmten Ort oder eine Position",
+    "en": "Point; dot; a small marked spot or location; also used to refer to a specific place or position",
+    "es": "Punto; mancha pequeña o lugar marcado; también se usa para referirse a un lugar o posición específica",
+    "fr": "Point ; tache ; petit endroit marqué ; utilisé aussi pour désigner un lieu ou une position précise",
+    "hi": "बिंदु; छोटा चिह्नित स्थान; किसी विशेष स्थान या स्थिति को दर्शाने के लिए भी उपयोग किया जाता है",
+    "ja": "点；小さな印や場所；特定の地点や位置を指すためにも使われる",
+    "km": "ចំណុច; កន្លែងតូចមួយដែលត្រូវបានសម្គាល់; ក៏ប្រើសម្រាប់សំដៅទៅលើទីកន្លែង ឬទីតាំងជាក់លាក់ផងដែរ",
+    "ko": "점; 작은 표시된 지점 또는 위치; 특정 장소나 위치를 가리키는 데도 사용됨",
+    "ne": "बिन्दु; सानो चिह्नित ठाउँ वा स्थान; कुनै विशेष ठाउँ वा स्थिति जनाउन पनि प्रयोग गरिन्छ",
+    "pt": "Ponto; mancha pequena ou local marcado; também usado para se referir a um lugar ou posição específica",
+    "th": "จุด; รอยหรือตำแหน่งเล็กๆ ที่มีการทำเครื่องหมาย; ใช้เพื่ออ้างถึงสถานที่หรือตำแหน่งเฉพาะเจาะจง",
+    "tl": "Tuldok; maliit na markang lugar o posisyon; ginagamit din para tumukoy sa isang partikular na lugar o posisyon",
+    "ur": "نقطہ؛ ایک چھوٹا نشان یا جگہ؛ کسی مخصوص مقام یا پوزیشن کو ظاہر کرنے کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Điểm; chấm; một vị trí nhỏ được đánh dấu; cũng dùng để chỉ một địa điểm hoặc vị trí cụ thể",
+    "zh": "点；小的标记位置；也用于指代特定地点或位置",
+    "zh_Hant": "點；小的標記位置；也用於指代特定地點或位置"
+  },
+  "definition_en": "Point; dot; a small marked spot or location; also used to refer to a specific place or position",
+  "romanization": "t͡ɕut",
+  "lao_examples": [
+    {
+      "lao_script": "ຈຸດນີ້ຢູ່ໃສ່ແຜນທີ່?",
+      "romanization": "tɕut niː jùː sǎj pʰɛ̌n tʰîː?",
+      "translation_en": "Where is this point on the map?"
+    },
+    {
+      "lao_script": "ເຮົາພົບກັນຢູ່ຈຸດນັດພົບ",
+      "romanization": "haw pʰop kan jùː tɕut nat pʰop",
+      "translation_en": "We meet at the meeting point."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a map with a bright red dot marking a specific location, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

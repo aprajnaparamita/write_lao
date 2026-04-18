@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມູນ",
+  "definitions": {
+    "de": "Grundlage, Basis; Daten, Informationen (häufig in Zusammensetzungen wie ຂໍ້ມູນ = Daten/Information)",
+    "en": "Foundation, base; data, information (most commonly found in compounds like ຂໍ້ມູນ meaning 'data/information')",
+    "es": "Base, fundamento; datos, información (frecuentemente en compuestos como ຂໍ້ມູນ que significa 'datos/información')",
+    "fr": "Base, fondation ; données, informations (surtout dans les composés comme ຂໍ້ມູນ signifiant 'données/informations')",
+    "hi": "आधार, नींव; डेटा, जानकारी (अक्सर ຂໍ້ມູນ जैसे यौगिकों में मिलता है जिसका अर्थ 'डेटा/जानकारी' है)",
+    "ja": "基盤、土台；データ、情報（主にຂໍ້ມູນ「データ・情報」などの複合語で使われる）",
+    "km": "មូលដ្ឋាន, ទិន្នន័យ, ព័ត៌មាន (ភាគច្រើនប្រើក្នុងពាក្យផ្សំដូចជា ຂໍ້ມູນ មានន័យថា 'ទិន្នន័យ/ព័ត៌មាន')",
+    "ko": "기반, 토대; 데이터, 정보 (주로 ຂໍ້ມູນ '데이터/정보' 같은 복합어로 사용됨)",
+    "ne": "आधार, जग; डेटा, जानकारी (प्रायः ຂໍ້ມູນ जस्ता यौगिकमा प्रयोग हुन्छ जसको अर्थ 'डेटा/जानकारी' हो)",
+    "pt": "Base, fundação; dados, informações (frequentemente em compostos como ຂໍ້ມູນ significando 'dados/informações')",
+    "th": "รากฐาน, ฐาน; ข้อมูล, สารสนเทศ (มักพบในคำประสมเช่น ຂໍ້ມູນ แปลว่า 'ข้อมูล/สารสนเทศ')",
+    "tl": "Pundasyon, batayan; datos, impormasyon (madalas makita sa mga tambalang salita tulad ng ຂໍ້ມູນ na nangangahulugang 'datos/impormasyon')",
+    "ur": "بنیاد، اساس؛ ڈیٹا، معلومات (اکثر ຂໍ້ມູນ جیسے مرکبات میں پایا جاتا ہے جس کا مطلب 'ڈیٹا/معلومات' ہے)",
+    "vi": "Nền tảng, cơ sở; dữ liệu, thông tin (thường dùng trong các từ ghép như ຂໍ້ມູນ nghĩa là 'dữ liệu/thông tin')",
+    "zh": "基础；数据，信息（常见于如ຂໍ້ມູນ（数据/信息）等复合词中）",
+    "zh_Hant": "基礎；數據，資訊（常見於如ຂໍ້ມູນ（數據/資訊）等複合詞中）"
+  },
+  "definition_en": "Foundation, base; data, information (most commonly found in compounds like ຂໍ້ມູນ meaning 'data/information')",
+  "romanization": "/múːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂໍ້ມູນໃນໂທລະສັບຂ້ອຍເຕັມແລ້ວ",
+      "romanization": "khao mun nai tho la sap khoi tem laew",
+      "translation_en": "The data/storage on my phone is already full."
+    },
+    {
+      "lao_script": "ເຈົ້າມີຂໍ້ມູນກ່ຽວກັບບ້ານຫຼັງນັ້ນບໍ່",
+      "romanization": "jao mi khao mun kiao kap ban lang nan bo",
+      "translation_en": "Do you have any information about that house?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a digital database icon or a folder containing documents and data charts on a screen, representing information and data, clean white background, colorful minimalist style suitable for a language learning app."
+}

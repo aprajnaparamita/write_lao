@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊຽງ",
+  "definitions": {
+    "de": "Ein Element in laotischen Ortsnamen, das häufig in zusammengesetzten Toponymen wie 'Vientiane' (ວຽງຈັນ) oder 'Xiang Khouang' vorkommt; bedeutet oft eine befestigte Stadt oder Siedlung",
+    "en": "A place name element commonly found in Lao and regional toponyms, often meaning a town, fortified settlement, or city; not typically used as a standalone word in everyday speech",
+    "es": "Elemento toponímico que se encuentra comúnmente en nombres de lugares laosianos y regionales; a menudo significa una ciudad o asentamiento fortificado; no se usa como palabra independiente en el habla cotidiana",
+    "fr": "Élément toponymique que l'on retrouve couramment dans les noms de lieux laotiens et régionaux; signifie souvent une ville ou un établissement fortifié; pas utilisé seul dans le langage courant",
+    "hi": "लाओ और क्षेत्रीय स्थान नामों में आमतौर पर पाया जाने वाला एक स्थान नाम तत्व; अक्सर एक शहर या किलेबंद बस्ती का अर्थ होता है; रोज़मर्रा की बातचीत में अकेले उपयोग नहीं होता",
+    "ja": "ラオスや地域の地名によく見られる地名要素で、町や要塞化された集落、都市を意味することが多い；日常会話では単独では使われない",
+    "km": "ធាតុឈ្មោះទីកន្លែងដែលត្រូវបានរកឃើញជាទូទៅនៅក្នុងឈ្មោះទីកន្លែងរបស់ឡាវ និងតំបន់; ជារឿយៗមានន័យថាក្រុង ឬការតាំងទីលំនៅដែលមានជំហររ; មិនត្រូវបានប្រើតែម្នាក់ឯងក្នុងការនិយាយប្រចាំថ្ងៃ",
+    "ko": "라오스 및 지역 지명에서 흔히 발견되는 지명 요소로, 종종 마을이나 요새화된 정착지를 의미함; 일상 대화에서 단독으로 사용되지 않음",
+    "ne": "लाओ र क्षेत्रीय स्थान नामहरूमा सामान्यतया पाइने स्थान नाम तत्व; प्रायः एउटा शहर वा किल्लेबन्द बस्तीको अर्थ हुन्छ; दैनिक बोलचालमा एक्लै प्रयोग गरिँदैन",
+    "pt": "Elemento toponímico comumente encontrado em topônimos laocianos e regionais; frequentemente significa uma cidade ou assentamento fortificado; não usado como palavra independente na fala cotidiana",
+    "th": "ส่วนประกอบของชื่อสถานที่ที่พบทั่วไปในชื่อภูมิศาสตร์ของลาวและภูมิภาค; มักหมายถึงเมืองหรือนิคมที่มีป้อมปราการ; ไม่ใช้เป็นคำเดี่ยวในการสนทนาประจำวัน",
+    "tl": "Isang elemento ng pangalan ng lugar na karaniwang makikita sa mga Lao at regional na lugar; kadalasang nangangahulugang isang bayan o napapaligiran na pamayanan; hindi ginagamit nang mag-isa sa pang-araw-araw na pagsasalita",
+    "ur": "لاؤ اور علاقائی جگہوں کے ناموں میں عام طور پر پایا جانے والا ایک مقامی نام کا عنصر؛ اکثر ایک قصبے یا قلعہ بند بستی کا مطلب ہوتا ہے؛ روزمرہ کی بات چیت میں تنہا استعمال نہیں ہوتا",
+    "vi": "Một yếu tố địa danh thường thấy trong địa danh Lào và khu vực; thường có nghĩa là thị trấn hoặc khu định cư có thành lũy; không dùng độc lập trong giao tiếp hàng ngày",
+    "zh": "常见于老挝和地区地名中的地名元素，通常指城镇或有防御工事的聚落；在日常对话中不单独使用",
+    "zh_Hant": "常見於老撾和地區地名中的地名元素，通常指城鎮或有防禦工事的聚落；在日常對話中不單獨使用"
+  },
+  "definition_en": "A place name element commonly found in Lao and regional toponyms, often meaning a town, fortified settlement, or city; not typically used as a standalone word in everyday speech",
+  "romanization": "siaŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຊຽງຂວາງເປັນແຂວງໜຶ່ງໃນລາວ.",
+      "romanization": "siaŋ khwaːŋ pen khɛːŋ nɨŋ nai laːo.",
+      "translation_en": "Xieng Khouang is a province in Laos."
+    },
+    {
+      "lao_script": "ເຈົ້າເຄີຍໄປຊຽງໃໝ່ບໍ?",
+      "romanization": "jao khəːi pai siaŋ mài bɔː?",
+      "translation_en": "Have you ever been to Chiang Mai?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a map of Southeast Asia with a location pin marking a Lao town or city, surrounded by simple mountain and river icons, clean white background, muted earthy tones with a highlighted marker, minimalist style suitable for a language learning app."
+}

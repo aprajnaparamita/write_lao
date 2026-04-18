@@ -1,0 +1,386 @@
+{
+  "ຈານ": {
+    "definitions": {
+      "de": "Teller; ein flaches Gefäß zum Servieren oder Essen von Speisen",
+      "en": "Plate; a flat dish used for serving or eating food",
+      "es": "Plato; recipiente plano usado para servir o comer alimentos",
+      "fr": "Assiette; récipient plat utilisé pour servir ou manger des aliments",
+      "hi": "थाली; खाना परोसने या खाने के लिए उपयोग किया जाने वाला चपटा बर्तन",
+      "ja": "皿；食べ物を盛ったり食べたりするための平たい食器",
+      "km": "ចាន; ថាសសំរាប់ដាក់អាហារ ឬញ៉ាំអាហារ",
+      "ko": "접시; 음식을 담거나 먹을 때 사용하는 납작한 그릇",
+      "ne": "थाली; खाना परोस्न वा खान प्रयोग हुने सपाट भाँडो",
+      "pt": "Prato; utensílio plano usado para servir ou comer alimentos",
+      "th": "จาน; ภาชนะแบนสำหรับใส่หรือรับประทานอาหาร",
+      "tl": "Plato; patag na sisidlan na ginagamit para sa pagserve o pagkain ng pagkain",
+      "ur": "پلیٹ؛ کھانا پیش کرنے یا کھانے کے لیے استعمال ہونے والا چپٹا برتن",
+      "vi": "Đĩa; vật dụng phẳng dùng để đựng hoặc ăn thức ăn",
+      "zh": "盘子；用于盛放或进食食物的平底餐具",
+      "zh_Hant": "盤子；用於盛放或進食食物的平底餐具"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ɟaːn",
+    "examples": [
+      {
+        "lao_script": "ເອົາຈານມາໃຫ້ຂ້ອຍແດ່ເນາະ",
+        "romanization": "ao jaan maa hai khoi dae noh",
+        "translations": {
+          "de": "Kannst du mir bitte den Teller geben?",
+          "en": "Can you pass me the plate?",
+          "es": "¿Me puedes pasar el plato?",
+          "fr": "Tu peux me passer l'assiette ?",
+          "hi": "क्या तुम मुझे थाली दे सकते हो?",
+          "ja": "お皿を取ってくれる？",
+          "km": "អាចយកចានឱ្យខ្ញុំបានទេ?",
+          "ko": "접시 좀 줄 수 있어?",
+          "ne": "मलाई थाली दिन सक्छौ?",
+          "pt": "Você pode me passar o prato?",
+          "th": "เอาจานมาให้ฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo bang iabot sa akin ang plato?",
+          "ur": "کیا تم مجھے پلیٹ دے سکتے ہو؟",
+          "vi": "Bạn có thể đưa cho tôi cái đĩa không?",
+          "zh": "你能把盘子递给我吗？",
+          "zh_Hant": "你能把盤子遞給我嗎？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຈານນີ້ສະອາດດີແລ້ວ",
+        "romanization": "jaan nii sa-aat dii laew",
+        "translations": {
+          "de": "Dieser Teller ist schon sauber.",
+          "en": "This plate is already clean.",
+          "es": "Este plato ya está limpio.",
+          "fr": "Cette assiette est déjà propre.",
+          "hi": "यह थाली पहले से साफ है।",
+          "ja": "このお皿はもうきれいだよ。",
+          "km": "ចាននេះស្អាតហើយ។",
+          "ko": "이 접시는 이미 깨끗해.",
+          "ne": "यो थाली पहिले नै सफा छ।",
+          "pt": "Este prato já está limpo.",
+          "th": "จานนี้สะอาดแล้ว",
+          "tl": "Malinis na ang platong ito.",
+          "ur": "یہ پلیٹ پہلے سے صاف ہے۔",
+          "vi": "Cái đĩa này đã sạch rồi.",
+          "zh": "这个盘子已经干净了。",
+          "zh_Hant": "這個盤子已經乾淨了。"
+        },
+        "out_of_scope_words": [
+          "ສະອາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clean white ceramic dinner plate viewed from slightly above, suitable for a language learning app, clean white background, colorful minimalist style with a subtle shadow beneath the plate.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈິດໃຈ": {
+    "definitions": {
+      "de": "Geist/Seele; das innere Bewusstsein, Gefühle und der mentale Zustand einer Person",
+      "en": "Mind/spirit; a person's inner consciousness, feelings, and mental or emotional state",
+      "es": "Mente/espíritu; la conciencia interior, los sentimientos y el estado mental o emocional de una persona",
+      "fr": "Esprit/âme; la conscience intérieure, les sentiments et l'état mental ou émotionnel d'une personne",
+      "hi": "मन/आत्मा; किसी व्यक्ति की आंतरिक चेतना, भावनाएँ और मानसिक या भावनात्मक अवस्था",
+      "ja": "心・精神；人の内なる意識、感情、精神的または感情的な状態",
+      "km": "ចិត្ត/ស្មារតី; ស្មារតីខាងក្នុង អារម្មណ៍ និងស្ថានភាពផ្លូវចិត្តរបស់មនុស្ស",
+      "ko": "마음/정신; 사람의 내면 의식, 감정, 정신적 또는 감정적 상태",
+      "ne": "मन/आत्मा; व्यक्तिको आन्तरिक चेतना, भावना र मानसिक अवस्था",
+      "pt": "Mente/espírito; a consciência interior, os sentimentos e o estado mental ou emocional de uma pessoa",
+      "th": "จิตใจ; ความรู้สึกนึกคิด จิตวิญญาณ และสภาวะทางอารมณ์ภายในของบุคคล",
+      "tl": "Isip/kaluluwa; ang panloob na kamalayan, damdamin, at mental o emosyonal na kalagayan ng isang tao",
+      "ur": "ذہن/روح؛ کسی شخص کا باطنی شعور، جذبات اور ذہنی یا جذباتی کیفیت",
+      "vi": "Tâm trí/tinh thần; ý thức nội tâm, cảm xúc và trạng thái tinh thần hoặc cảm xúc của một người",
+      "zh": "心灵/精神；一个人的内在意识、情感以及心理或情绪状态",
+      "zh_Hant": "心靈/精神；一個人的內在意識、情感以及心理或情緒狀態"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ɟit ɟaj",
+    "examples": [
+      {
+        "lao_script": "ຈິດໃຈຂ້ອຍບໍ່ດີມື້ນີ້",
+        "romanization": "jit jai khoi boo dii muu nii",
+        "translations": {
+          "de": "Meine Stimmung ist heute nicht gut.",
+          "en": "My spirits aren't good today.",
+          "es": "Hoy no me siento bien mentalmente.",
+          "fr": "Je ne suis pas dans mon assiette aujourd'hui.",
+          "hi": "आज मेरा मन ठीक नहीं है।",
+          "ja": "今日は気分がよくないな。",
+          "km": "ចិត្តខ្ញុំមិនល្អថ្ងៃនេះទេ។",
+          "ko": "오늘 기분이 안 좋아.",
+          "ne": "आज मेरो मन ठिक छैन।",
+          "pt": "Meu ânimo não está bom hoje.",
+          "th": "วันนี้จิตใจฉันไม่ดีเลย",
+          "tl": "Hindi maganda ang aking kalooban ngayon.",
+          "ur": "آج میرا دل ٹھیک نہیں ہے۔",
+          "vi": "Hôm nay tâm trạng tôi không tốt.",
+          "zh": "我今天心情不好。",
+          "zh_Hant": "我今天心情不好。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຕ້ອງດູແລຈິດໃຈຕົວເອງດ້ວຍນະ",
+        "romanization": "tong duu laae jit jai tua eng duay na",
+        "translations": {
+          "de": "Du musst auch auf deine seelische Gesundheit achten.",
+          "en": "You need to take care of your own mental well-being too.",
+          "es": "También debes cuidar tu bienestar mental.",
+          "fr": "Tu dois aussi prendre soin de ta santé mentale.",
+          "hi": "तुम्हें अपने मन का भी ध्यान रखना चाहिए।",
+          "ja": "自分の心の健康も大切にしないとね。",
+          "km": "ត្រូវថែរក្សាចិត្តរបស់ខ្លួនឯងផងដែរ។",
+          "ko": "자기 자신의 마음도 잘 돌봐야 해.",
+          "ne": "आफ्नो मनको पनि ख्याल राख्नु पर्छ है।",
+          "pt": "Você também precisa cuidar do seu bem-estar mental.",
+          "th": "ต้องดูแลจิตใจของตัวเองด้วยนะ",
+          "tl": "Kailangan mo ring alagaan ang iyong sariling kaluluwa.",
+          "ur": "اپنے ذہنی سکون کا بھی خیال رکھنا چاہیے۔",
+          "vi": "Bạn cũng cần chăm sóc sức khỏe tinh thần của mình nữa đấy.",
+          "zh": "你也要照顾好自己的内心。",
+          "zh_Hant": "你也要照顧好自己的內心。"
+        },
+        "out_of_scope_words": [
+          "ດູແລ",
+          "ຕົວເອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting peacefully in a meditation pose with a soft glowing light around their chest area representing inner spirit or mind, clean white background, warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊະນິດ": {
+    "definitions": {
+      "de": "Art/Sorte/Typ; eine Kategorie oder Klasse von Dingen mit gemeinsamen Merkmalen",
+      "en": "Kind/type/sort; a category or class of things sharing common characteristics",
+      "es": "Tipo/clase/variedad; una categoría o clase de cosas con características comunes",
+      "fr": "Type/sorte/genre; une catégorie ou classe de choses ayant des caractéristiques communes",
+      "hi": "प्रकार/किस्म/तरह; समान विशेषताओं वाली चीजों की एक श्रेणी या वर्ग",
+      "ja": "種類；共通の特徴を持つものの分類やカテゴリー",
+      "km": "ប្រភេទ/ប្រការ; ប្រភេទ ឬចំណាត់ថ្នាក់នៃអ្វីដែលមានលក្ខណៈដូចគ្នា",
+      "ko": "종류/유형/부류; 공통된 특성을 가진 것들의 범주나 분류",
+      "ne": "प्रकार/किसिम; समान विशेषता भएका वस्तुहरूको वर्ग वा श्रेणी",
+      "pt": "Tipo/espécie/variedade; uma categoria ou classe de coisas com características comuns",
+      "th": "ชนิด/ประเภท; หมวดหมู่หรือกลุ่มของสิ่งที่มีลักษณะร่วมกัน",
+      "tl": "Uri/klase/tipo; isang kategorya o grupo ng mga bagay na may magkaparehong katangian",
+      "ur": "قسم/نوع; مشترک خصوصیات والی چیزوں کی ایک قسم یا زمرہ",
+      "vi": "Loại/kiểu/dạng; một phạm trù hoặc nhóm các thứ có đặc điểm chung",
+      "zh": "种类/类型；具有共同特征的事物的类别或群体",
+      "zh_Hant": "種類/類型；具有共同特徵的事物的類別或群體"
+    },
+    "part_of_speech": "noun",
+    "romanization": "saʔ.nit",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຊອບກິນໝາກໄມ້ຊະນິດໃດ?",
+        "romanization": "jao sop kin maak mai sa-nit dai",
+        "translations": {
+          "de": "Welche Art von Obst magst du?",
+          "en": "What kind of fruit do you like to eat?",
+          "es": "¿Qué tipo de fruta te gusta comer?",
+          "fr": "Quel type de fruit aimes-tu manger ?",
+          "hi": "तुम्हें कौन-सा फल खाना पसंद है?",
+          "ja": "どんな種類の果物が好き？",
+          "km": "អ្នកចូលចិត្តញ៉ាំផ្លែឈើប្រភេទណា?",
+          "ko": "어떤 종류의 과일을 좋아해?",
+          "ne": "तिमीलाई कुन किसिमको फलफूल खान मन पर्छ?",
+          "pt": "Que tipo de fruta você gosta de comer?",
+          "th": "เธอชอบกินผลไม้ชนิดไหน?",
+          "tl": "Anong uri ng prutas ang gusto mong kainin?",
+          "ur": "تم کس قسم کا پھل کھانا پسند کرتے ہو؟",
+          "vi": "Bạn thích ăn loại trái cây nào?",
+          "zh": "你喜欢吃哪种水果？",
+          "zh_Hant": "你喜歡吃哪種水果？"
+        },
+        "out_of_scope_words": [
+          "ໝາກໄມ້"
+        ]
+      },
+      {
+        "lao_script": "ໝາ ຊະນິດນີ້ ໜ້າຮັກຫຼາຍ",
+        "romanization": "maa sa-nit nii naa hak laai",
+        "translations": {
+          "de": "Diese Art von Hund ist sehr süß.",
+          "en": "This kind of dog is really cute.",
+          "es": "Este tipo de perro es muy adorable.",
+          "fr": "Ce type de chien est vraiment mignon.",
+          "hi": "इस प्रकार का कुत्ता बहुत प्यारा है।",
+          "ja": "この種類の犬、すごくかわいいね。",
+          "km": "សុនខប្រភេទនេះគួរឱ្យស្រឡាញ់ណាស់។",
+          "ko": "이 종류의 개는 정말 귀엽다.",
+          "ne": "यस किसिमको कुकुर धेरै प्यारो छ।",
+          "pt": "Este tipo de cachorro é muito fofo.",
+          "th": "สุนัขชนิดนี้น่ารักมากเลย",
+          "tl": "Napakaawaing ng ganitong uri ng aso.",
+          "ur": "اس قسم کا کتا بہت پیارا ہے۔",
+          "vi": "Loại chó này dễ thương lắm.",
+          "zh": "这种狗真的很可爱。",
+          "zh_Hant": "這種狗真的很可愛。"
+        },
+        "out_of_scope_words": [
+          "ໜ້າຮັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing three different types of colorful fruit (apple, banana, orange) grouped with labels showing they are different 'kinds' or 'types', clean white background, bright colors, minimalist educational style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊັນ": {
+    "definitions": {
+      "de": "Harz/Schicht; (1) das klebrige Harz, das von Bäumen ausgeschieden wird; (2) eine Schicht oder Lage von etwas",
+      "en": "Resin/layer; (1) the sticky substance secreted by trees; (2) a layer or stratum of something",
+      "es": "Resina/capa; (1) la sustancia pegajosa secretada por los árboles; (2) una capa o estrato de algo",
+      "fr": "Résine/couche; (1) la substance collante sécrétée par les arbres; (2) une couche ou strate de quelque chose",
+      "hi": "राल/परत; (1) पेड़ों से निकलने वाला चिपचिपा पदार्थ; (2) किसी चीज़ की एक परत या स्तर",
+      "ja": "樹脂・層；(1) 木から出る粘着性の物質（ヤニ）；(2) 何かの層や地層",
+      "km": "ជ័រ/ស្រទាប់; (1) សារធាតុស្អិតដែលចេញពីដើមឈើ; (2) ស្រទាប់នៃអ្វីមួយ",
+      "ko": "수지/층; (1) 나무에서 분비되는 끈적한 물질; (2) 무언가의 층이나 지층",
+      "ne": "राल/तह; (1) रूखहरूले निकाल्ने टाँसिने पदार्थ; (2) कुनै चीजको तह वा स्तर",
+      "pt": "Resina/camada; (1) a substância pegajosa secretada pelas árvores; (2) uma camada ou estrato de algo",
+      "th": "ยางไม้/ชั้น; (1) สารเหนียวที่หลั่งออกมาจากต้นไม้; (2) ชั้นหรือระดับของบางสิ่ง",
+      "tl": "Resin/layer; (1) ang malagkit na sangkap na inilalabas ng mga puno; (2) isang layer o stratum ng isang bagay",
+      "ur": "رال/تہ; (1) درختوں سے نکلنے والا چپچپا مادہ؛ (2) کسی چیز کی ایک تہ یا پرت",
+      "vi": "Nhựa cây/lớp; (1) chất nhựa dính tiết ra từ cây; (2) một lớp hoặc tầng của vật gì đó",
+      "zh": "树脂/层；(1) 树木分泌的黏性物质；(2) 某物的一层或层次",
+      "zh_Hant": "樹脂/層；(1) 樹木分泌的黏性物質；(2) 某物的一層或層次"
+    },
+    "part_of_speech": "noun",
+    "romanization": "san",
+    "examples": [
+      {
+        "lao_script": "ຕົ້ນໄມ້ຕົ້ນນັ້ນໄຫຼຊັນອອກມາຫຼາຍ",
+        "romanization": "ton maai ton nan lai san ook maa laai",
+        "translations": {
+          "de": "Dieser Baum scheidet viel Harz aus.",
+          "en": "That tree is oozing out a lot of resin.",
+          "es": "Ese árbol está exudando mucha resina.",
+          "fr": "Cet arbre dégage beaucoup de résine.",
+          "hi": "उस पेड़ से बहुत अधिक राल निकल रही है।",
+          "ja": "あの木はヤニがたくさん出てるね。",
+          "km": "ដើមឈើនោះហូរជ័រច្រើនណាស់។",
+          "ko": "저 나무에서 수지가 많이 흘러나오고 있어.",
+          "ne": "त्यो रूखबाट धेरै राल बगिरहेको छ।",
+          "pt": "Aquela árvore está exsudando muita resina.",
+          "th": "ต้นไม้ต้นนั้นไหลยางออกมาเยอะมาก",
+          "tl": "Maraming resin na dumadaloy mula sa punong iyon.",
+          "ur": "اس درخت سے بہت زیادہ رال نکل رہی ہے۔",
+          "vi": "Cây đó đang chảy ra rất nhiều nhựa.",
+          "zh": "那棵树流出了很多树脂。",
+          "zh_Hant": "那棵樹流出了很多樹脂。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້",
+          "ໄຫຼ"
+        ]
+      },
+      {
+        "lao_script": "ທາຊັນໃສ່ໄມ້ກ່ອນເນາະ ຈະໄດ້ທົນ",
+        "romanization": "thaa san sai maai gon noh ja dai ton",
+        "translations": {
+          "de": "Trag das Harz zuerst auf das Holz auf, damit es haltbarer wird.",
+          "en": "Apply resin to the wood first so it'll be more durable.",
+          "es": "Aplica la resina en la madera primero para que sea más duradera.",
+          "fr": "Applique d'abord la résine sur le bois pour qu'il soit plus solide.",
+          "hi": "पहले लकड़ी पर राल लगाओ, ताकि वह टिकाऊ हो।",
+          "ja": "まず木にヤニを塗っておいたら丈夫になるよ。",
+          "km": "លាបជ័រលើឈើជាមុនសិន ដើម្បីឱ្យវាមានដំរង់ ។",
+          "ko": "나무에 수지를 먼저 발라야 더 튼튼해져.",
+          "ne": "काठमा पहिले राल लगाउनु, ताकि टिकाउ होस्।",
+          "pt": "Aplique a resina na madeira primeiro para que fique mais durável.",
+          "th": "ทายางใส่ไม้ก่อนนะ จะได้ทนทาน",
+          "tl": "Ilagay muna ang resin sa kahoy para mas matibay.",
+          "ur": "پہلے لکڑی پر رال لگاؤ تاکہ یہ زیادہ مضبوط ہو۔",
+          "vi": "Hãy phết nhựa lên gỗ trước nhé, để nó bền hơn.",
+          "zh": "先在木头上涂上树脂，这样会更耐用。",
+          "zh_Hant": "先在木頭上塗上樹脂，這樣會更耐用。"
+        },
+        "out_of_scope_words": [
+          "ທາ",
+          "ທົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a tree trunk with golden-amber resin or sap oozing from a cut in the bark, with a small collection vessel below, clean white background, warm earthy colors, minimalist educational style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຊ່າງ": {
+    "definitions": {
+      "de": "Handwerker/Techniker/Mechaniker; eine Person, die eine handwerkliche oder technische Fähigkeit ausübt",
+      "en": "Craftsman/mechanic/technician; a skilled person who practices a trade or technical craft",
+      "es": "Artesano/mecánico/técnico; una persona habilidosa que practica un oficio o trabajo técnico",
+      "fr": "Artisan/mécanicien/technicien; une personne qualifiée qui exerce un métier ou un travail technique",
+      "hi": "कारीगर/मैकेनिक/तकनीशियन; एक कुशल व्यक्ति जो कोई शिल्प या तकनीकी कार्य करता है",
+      "ja": "職人・技術者・修理工；技能や専門的な仕事を行う熟練した人",
+      "km": "ជាងឯក/ជាងម៉ាស៊ីន/ជ្រុល; មនុស្សដែលមានជំនាញក្នុងការបំពេញការងារជាងជំនាញ",
+      "ko": "장인/기술자/정비공; 기술적인 일이나 공예를 수행하는 숙련된 사람",
+      "ne": "कारिगर/मेकानिक/प्राविधिक; कुनै दक्षता वा प्राविधिक काम गर्ने व्यक्ति",
+      "pt": "Artesão/mecânico/técnico; uma pessoa habilidosa que exerce um ofício ou trabalho técnico",
+      "th": "ช่าง; ผู้ที่มีความชำนาญในการทำงานฝีมือหรืองานช่างเทคนิค",
+      "tl": "Manggagawa/mekaniko/teknisyan; isang dalubhasang tao na gumaganap ng isang propesyon o teknikal na trabaho",
+      "ur": "کاریگر/مکینک/ٹیکنیشن؛ ایک ہنرمند شخص جو کوئی فن یا تکنیکی کام کرتا ہے",
+      "vi": "Thợ thủ công/thợ máy/kỹ thuật viên; người có kỹ năng thực hành một nghề hoặc công việc kỹ thuật",
+      "zh": "工匠/技工/修理工；从事某种技艺或技术性工作的熟练人员",
+      "zh_Hant": "工匠/技工/修理工；從事某種技藝或技術性工作的熟練人員"
+    },
+    "part_of_speech": "noun",
+    "romanization": "saːŋ",
+    "examples": [
+      {
+        "lao_script": "ຕ້ອງໂທຫາຊ່າງມາແກ້ໄຂ",
+        "romanization": "tong thoo haa saang maa gae khai",
+        "translations": {
+          "de": "Wir müssen einen Handwerker anrufen, der es repariert.",
+          "en": "We need to call a repairman to come fix it.",
+          "es": "Hay que llamar a un técnico para que lo arregle.",
+          "fr": "Il faut appeler un technicien pour venir le réparer.",
+          "hi": "हमें एक मैकेनिक को बुलाकर इसे ठीक करवाना होगा।",
+          "ja": "修理の人を呼んで直してもらわないとね。",
+          "km": "ត្រូវហៅជាងមកជួសជុល។",
+          "ko": "수리공을 불러서 고쳐야 해.",
+          "ne": "मर्मत गर्न मेकानिक बोलाउनु पर्छ।",
+          "pt": "Precisamos chamar um técnico para consertar.",
+          "th": "ต้องโทรหาช่างมาแก้ไข",
+          "tl": "Kailangan tumawag ng mekaniko para ayusin ito.",
+          "ur": "ٹھیک کرنے کے لیے مکینک کو بلانا پڑے گا۔",
+          "vi": "Phải gọi thợ đến sửa thôi.",
+          "zh": "需要打电话叫修理工来修。",
+          "zh_Hant": "需要打電話叫修理工來修。"
+        },
+        "out_of_scope_words": [
+          "ແກ້ໄຂ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່າງຄົນນັ້ນເຮັດວຽກເກັ່ງຫຼາຍ",
+        "romanization": "saang khon nan het wiak geng laai",
+        "translations": {
+          "de": "Dieser Handwerker arbeitet sehr gut.",
+          "en": "That craftsman works really well.",
+          "es": "Ese artesano trabaja muy bien.",
+          "fr": "Cet artisan travaille très bien.",
+          "hi": "वह कारीगर बहुत अच्छा काम करता है।",
+          "ja": "あの職人はとても仕事が上手だよ。",
+          "km": "ជាងម្នាក់នោះធ្វើការបានល្អណាស់។",
+          "ko": "저 기술자는 일을 정말 잘해.",
+          "ne": "त्यो कारिगरले काम धेरै राम्रो गर्छ।",
+          "pt": "Aquele artesão trabalha muito bem.",
+          "th": "ช่างคนนั้นทำงานเก่งมาก",
+          "tl": "Napakagaling ng trabaho ng manggagawang iyon.",
+          "ur": "وہ کاریگر بہت اچھا کام کرتا ہے۔",
+          "vi": "Người thợ đó làm việc rất giỏi.",
+          "zh": "那个工匠工作得非常好。",
+          "zh_Hant": "那個工匠工作得非常好。"
+        },
+        "out_of_scope_words": [
+          "ເກັ່ງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling male mechanic or craftsman wearing a work uniform and holding a wrench, standing confidently, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

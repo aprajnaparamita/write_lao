@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບາດ",
+  "definitions": {
+    "de": "Eine Wunde oder Verletzung auf der Haut; kann auch als Lehnwort für die thailändische Währung Baht verwendet werden",
+    "en": "A wound or cut on the body; can also be used as a loanword referring to the Thai currency, baht",
+    "es": "Una herida o cortada en el cuerpo; también puede usarse como préstamo lingüístico para referirse a la moneda tailandesa, el baht",
+    "fr": "Une blessure ou une coupure sur le corps; peut aussi être utilisé comme emprunt pour désigner la monnaie thaïlandaise, le baht",
+    "hi": "शरीर पर घाव या कट; इसे थाई मुद्रा 'बाट' के लिए उधार शब्द के रूप में भी इस्तेमाल किया जा सकता है",
+    "ja": "体の傷や切り傷；タイの通貨バーツを指す借用語としても使われる",
+    "km": "របួស ឬស្នាមចែកនៅលើរាងកាយ; អាចប្រើជាពាក្យខ្ចីសម្រាប់រូបិយប័ណ្ណថៃ គឺបាត",
+    "ko": "몸의 상처나 베인 곳; 태국 화폐 바트를 나타내는 외래어로도 사용됨",
+    "ne": "शरीरमा घाउ वा काटेको ठाउँ; थाई मुद्रा 'बाट' को लागि उधारिएको शब्दको रूपमा पनि प्रयोग हुन सक्छ",
+    "pt": "Uma ferida ou corte no corpo; também pode ser usado como empréstimo linguístico referindo-se à moeda tailandesa, o baht",
+    "th": "บาดแผลหรือรอยตัดบนร่างกาย; อาจใช้เป็นคำยืมหมายถึงสกุลเงินไทย คือ บาท",
+    "tl": "Isang sugat o hiwa sa katawan; maaari ring gamitin bilang hiniram na salita para sa pera ng Thailand na baht",
+    "ur": "جسم پر زخم یا کٹ؛ تھائی کرنسی 'بات' کے لیے مستعار لفظ کے طور پر بھی استعمال ہو سکتا ہے",
+    "vi": "Vết thương hoặc vết cắt trên cơ thể; cũng có thể được dùng như từ vay mượn để chỉ đơn vị tiền tệ Thái Lan, baht",
+    "zh": "身体上的伤口或割伤；也可作为借词指泰国货币泰铢",
+    "zh_Hant": "身體上的傷口或割傷；也可作為借詞指泰國貨幣泰銖"
+  },
+  "definition_en": "A wound or cut on the body; can also be used as a loanword referring to the Thai currency, baht",
+  "romanization": "bàːt",
+  "lao_examples": [
+    {
+      "lao_script": "ມີດຕັດມື, ບາດໃຫຍ່ຫຼາຍ",
+      "romanization": "míːt tàt mɯː, bàːt ɲàj laːj",
+      "translation_en": "The knife cut my hand, it's a big wound."
+    },
+    {
+      "lao_script": "ບາດນີ້ຕ້ອງໄປຫາໝໍ",
+      "romanization": "bàːt niː tɔ̂ŋ bpaj haː mɔ̌ː",
+      "translation_en": "This wound needs to see a doctor."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand with a small bandage covering a wound or cut, with a first aid kit nearby, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

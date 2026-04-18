@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກິດ",
+  "definitions": {
+    "de": "Aktivität oder Tätigkeit – wird hauptsächlich in der Verbindung ກິດຈະກຳ (Aktivitäten/Tätigkeiten) verwendet",
+    "en": "Activity or task – primarily used in the compound word ກິດຈະກຳ (activities/undertakings)",
+    "es": "Actividad o tarea – se usa principalmente en el compuesto ກິດຈະກຳ (actividades/tareas)",
+    "fr": "Activité ou tâche – principalement utilisé dans le mot composé ກິດຈະກຳ (activités/entreprises)",
+    "hi": "गतिविधि या कार्य – मुख्य रूप से समास शब्द ກິດຈະກຳ (गतिविधियाँ/कार्य) में प्रयुक्त",
+    "ja": "活動や業務 – 主に複合語 ກິດຈະກຳ（活動・事業）の中で使われる",
+    "km": "សកម្មភាព ឬកិច្ចការ – ប្រើជាចម្បងក្នុងពាក្យផ្សំ ກິດຈະກຳ (សកម្មភាព/ការងារ)",
+    "ko": "활동 또는 업무 – 주로 복합어 ກິດຈະກຳ (활동/사업)에서 사용됨",
+    "ne": "गतिविधि वा काम – मुख्यतः समास शब्द ກິດຈະກຳ (गतिविधि/कार्य) मा प्रयोग हुन्छ",
+    "pt": "Atividade ou tarefa – usado principalmente no composto ກິດຈະກຳ (atividades/empreendimentos)",
+    "th": "กิจกรรมหรืองาน – ส่วนใหญ่ใช้ในคำประสม ກິດຈະກຳ (กิจกรรม/งาน)",
+    "tl": "Aktibidad o gawain – pangunahing ginagamit sa salitang tambalan na ກິດຈະກຳ (mga aktibidad/gawain)",
+    "ur": "سرگرمی یا کام – بنیادی طور پر مرکب لفظ ກິດຈະກຳ (سرگرمیاں/کاموں) میں استعمال ہوتا ہے",
+    "vi": "Hoạt động hoặc công việc – chủ yếu được dùng trong từ ghép ກິດຈະກຳ (các hoạt động/công việc)",
+    "zh": "活动或任务——主要用于复合词 ກິດຈະກຳ（活动/事务）中",
+    "zh_Hant": "活動或任務——主要用於複合詞 ກິດຈະກຳ（活動/事務）中"
+  },
+  "definition_en": "Activity or task – primarily used in the compound word ກິດຈະກຳ (activities/undertakings)",
+  "romanization": "/kít/",
+  "lao_examples": [
+    {
+      "lao_script": "ກິດຈະກຳຂອງໂຮງຮຽນມີຫຼາຍຢ່າງເລີຍ",
+      "romanization": "kít-ja-kam khong hong hian mii laai yaang loei",
+      "translation_en": "The school has so many activities."
+    },
+    {
+      "lao_script": "ມື້ນີ້ມີກິດຈະກຳຫຍັງແດ່?",
+      "romanization": "mue nii mii kít-ja-kam nyang dae?",
+      "translation_en": "What activities are there today?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a group of colorful icons representing different activities such as sports, art, and reading arranged in a circle, clean white background, bright cheerful colors, minimalist style suitable for a language learning app."
+}

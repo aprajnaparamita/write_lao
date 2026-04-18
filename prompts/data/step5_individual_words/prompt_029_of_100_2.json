@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເອກ",
+  "definitions": {
+    "de": "Erst-, Haupt-, Prima- – Präfix oder Adjektiv für 'erster Rang' oder 'vorrangig'; meist in formellen Zusammensetzungen verwendet",
+    "en": "First, prime, primary – used to indicate the highest rank or most important; mostly appears in formal compound words",
+    "es": "Primero, principal – indica el rango más alto o lo más importante; usado principalmente en compuestos formales",
+    "fr": "Premier, principal – indique le rang le plus élevé ou le plus important ; utilisé surtout dans les composés formels",
+    "hi": "प्रथम, मुख्य – सर्वोच्च दर्जे या सबसे महत्वपूर्ण को दर्शाता है; अधिकतर औपचारिक यौगिक शब्दों में प्रयुक्त",
+    "ja": "第一、主要 – 最高位または最も重要であることを示す。主に正式な複合語に使われる",
+    "km": "ទីមួយ, សំខាន់ – បង្ហាញថ្នាក់ខ្ពស់បំផុត ឬសំខាន់បំផុត; ភាគច្រើនប្រើក្នុងពាក្យផ្សំផ្លូវការ",
+    "ko": "제일, 주요한 – 가장 높은 등급이나 가장 중요함을 나타냄. 주로 공식적인 복합어에 사용됨",
+    "ne": "प्रथम, मुख्य – सर्वोच्च पद वा सबैभन्दा महत्त्वपूर्णलाई जनाउँछ; प्रायः औपचारिक यौगिक शब्दहरूमा प्रयोग हुन्छ",
+    "pt": "Primeiro, principal – indica o mais alto grau ou o mais importante; usado principalmente em compostos formais",
+    "th": "ที่หนึ่ง, หลัก, เอก – ใช้บ่งบอกอันดับสูงสุดหรือสำคัญที่สุด มักปรากฏในคำประสมที่เป็นทางการ",
+    "tl": "Una, pangunahin – nagpapahiwatig ng pinakamataas na antas o pinaka-importanteng bagay; kadalasang ginagamit sa mga pormal na salitang tambalan",
+    "ur": "اول، بنیادی – سب سے اعلیٰ درجے یا سب سے اہم کو ظاہر کرتا ہے؛ زیادہ تر رسمی مرکب الفاظ میں استعمال ہوتا ہے",
+    "vi": "Nhất, chính, hàng đầu – chỉ cấp bậc cao nhất hoặc quan trọng nhất; thường xuất hiện trong các từ ghép trang trọng",
+    "zh": "第一、主要 – 表示最高级别或最重要的；多用于正式复合词中",
+    "zh_Hant": "第一、主要 – 表示最高級別或最重要的；多用於正式複合詞中"
+  },
+  "definition_en": "First, prime, primary – used to indicate the highest rank or most important; mostly appears in formal compound words",
+  "romanization": "ʔèːk",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວເປັນນັກຮຽນເອກຂອງໂຮງຮຽນນີ້",
+      "romanization": "láo pen nák hían ʔèːk khɔ̌ŋ hóːŋ hían níi",
+      "translation_en": "He/She is the top student of this school."
+    },
+    {
+      "lao_script": "ສາຍເອກຂອງລາວຄືດົນຕີ",
+      "romanization": "sǎːi ʔèːk khɔ̌ŋ láo khɯ̌ː don tìː",
+      "translation_en": "His/Her major is music."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a gold number one medal or first-place ribbon with a star, symbolizing 'prime' or 'first rank'. Clean white background, bright gold and blue colors, minimalist style suitable for a language learning app."
+}

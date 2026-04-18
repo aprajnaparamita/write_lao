@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຄື່ອນ",
+  "definitions": {
+    "de": "Sich bewegen; die Position oder den Ort von etwas oder jemandem ändern",
+    "en": "To move; to change the position or location of something or someone",
+    "es": "Mover; cambiar la posición o ubicación de algo o alguien",
+    "fr": "Bouger; changer la position ou l'emplacement de quelque chose ou de quelqu'un",
+    "hi": "हिलना/हिलाना; किसी वस्तु या व्यक्ति की स्थिति या जगह बदलना",
+    "ja": "動く・動かす；何かや誰かの位置や場所を変える",
+    "km": "ផ្លាស់ទី; ប្តូរទីតាំង ឬទីកន្លែងរបស់អ្វីមួយ ឬអ្នកណាម្នាក់",
+    "ko": "움직이다; 무언가 또는 누군가의 위치나 장소를 바꾸다",
+    "ne": "सर्नु/सार्नु; कुनै वस्तु वा व्यक्तिको स्थान वा ठाउँ परिवर्तन गर्नु",
+    "pt": "Mover; mudar a posição ou o lugar de algo ou alguém",
+    "th": "เคลื่อน; เปลี่ยนตำแหน่งหรือที่อยู่ของบางสิ่งหรือบางคน",
+    "tl": "Gumalaw; baguhin ang posisyon o lokasyon ng isang bagay o tao",
+    "ur": "حرکت کرنا؛ کسی چیز یا شخص کی پوزیشن یا جگہ بدلنا",
+    "vi": "Di chuyển; thay đổi vị trí hoặc chỗ đứng của một vật hoặc một người",
+    "zh": "移动；改变某物或某人的位置或地点",
+    "zh_Hant": "移動；改變某物或某人的位置或地點"
+  },
+  "definition_en": "To move; to change the position or location of something or someone",
+  "romanization": "/kʰɯ̂an/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍເຄື່ອນໂຕ່ະນັ້ນໄປໄວ້ຢູ່ແຈຫ້ອງແດ່",
+      "romanization": "Suai khuean to nan pai wai yu jae hong dae.",
+      "translation_en": "Help me move that table to the corner of the room, please."
+    },
+    {
+      "lao_script": "ລົດນັ້ນບໍ່ໄດ້ເຄື່ອນເລີຍ ອາດຈະເສຍ",
+      "romanization": "Lot nan bo dai khuean loei, at ja sia.",
+      "translation_en": "That car hasn't moved at all – it might be broken."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pushing a large cardboard box across the floor, arrows indicating movement direction, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

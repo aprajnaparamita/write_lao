@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄຳ",
+  "definitions": {
+    "de": "Wort; Gold (Substantiv mit zwei Hauptbedeutungen: Wort/Ausdruck und Gold)",
+    "en": "word/phrase; gold (noun with two main senses: word/utterance and gold)",
+    "es": "palabra/expresión; oro (sustantivo con dos sentidos principales)",
+    "fr": "mot/parole; or (nom ayant deux sens principaux : parole et or)",
+    "hi": "शब्द/वचन; सोना (दो मुख्य अर्थ वाले संज्ञा)",
+    "ja": "言葉／金（言葉・金の二つの意味）",
+    "km": "ពាក្យ／មាស (នាមមានន័យពីរ: ពាក្យសម្ដី ឬមាស)",
+    "ko": "말／금 (말 또는 금, 두 가지 뜻의 명사)",
+    "ne": "शब्द／सुन (शब्द वा सुन अर्थको नाम)",
+    "pt": "palavra; ouro (substantivo com dois sentidos principais)",
+    "th": "คำ／ทอง (คำพูดหรือทองคำ)",
+    "tl": "salita／ginto (pangngalan na may dalawang pangunahing kahulugan)",
+    "ur": "لفظ؛ سونا (دو مفاہیم والا اسم)",
+    "vi": "lời/từ; vàng (danh từ với hai nghĩa chính)",
+    "zh": "字／词／金（字词或黄金）",
+    "zh_Hant": "字／詞／金（字詞或黃金）"
+  },
+  "definition_en": "word/phrase; gold (noun with two main senses: word/utterance and gold)",
+  "romanization": "kʰám",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳ ນີ້ ແປ ວ່າ ຫຍັງ?",
+      "romanization": "kʰám nîː pɛ̀ː wāː ɲǎŋ",
+      "translation_en": "What does this word mean?"
+    },
+    {
+      "lao_script": "ແຫວນ ຄຳ ສວຍ ຫຼາຍ",
+      "romanization": "wɛ̌ːn kʰám sǔːəj lǎːj",
+      "translation_en": "The gold ring is very beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a speech bubble containing the letter A next to a small gold nugget, representing the dual meaning of 'word' and 'gold', suitable for a language learning app, clean white background, minimalist style."
+}

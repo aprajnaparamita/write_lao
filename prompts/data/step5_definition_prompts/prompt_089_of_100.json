@@ -1,0 +1,397 @@
+{
+  "ຍຸກ": {
+    "definitions": {
+      "de": "Eine Ära oder Epoche; ein bestimmter Zeitabschnitt in der Geschichte oder Entwicklung",
+      "en": "An era or epoch; a distinct period of time in history or development",
+      "es": "Una era o época; un período de tiempo distintivo en la historia o el desarrollo",
+      "fr": "Une ère ou époque ; une période de temps distincte dans l'histoire ou le développement",
+      "hi": "एक युग या काल; इतिहास या विकास में एक विशिष्ट समयावधि",
+      "ja": "時代や紀元；歴史や発展における特定の期間",
+      "km": "យុគ ឬសម័យ; រយៈពេលជាក់លាក់មួយក្នុងប្រវត្តិសាស្ត្រ ឬការអភិវឌ្ឍ",
+      "ko": "시대 또는 에포크; 역사나 발전에서 뚜렷한 특정 기간",
+      "ne": "एक युग वा काल; इतिहास वा विकासमा एक विशिष्ट समयावधि",
+      "pt": "Uma era ou época; um período de tempo distinto na história ou no desenvolvimento",
+      "th": "ยุคหรือสมัย; ช่วงเวลาที่เฉพาะเจาะจงในประวัติศาสตร์หรือพัฒนาการ",
+      "tl": "Isang panahon o yugto; isang natatanging tagal ng panahon sa kasaysayan o pag-unlad",
+      "ur": "ایک دور یا عہد؛ تاریخ یا ترقی میں ایک مخصوص وقت کا دور",
+      "vi": "Một kỷ nguyên hoặc thời đại; một giai đoạn thời gian đặc biệt trong lịch sử hoặc sự phát triển",
+      "zh": "一个时代或纪元；历史或发展中的特定时期",
+      "zh_Hant": "一個時代或紀元；歷史或發展中的特定時期"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ɲúk",
+    "examples": [
+      {
+        "lao_script": "ຕອນນີ້ແມ່ນຍຸກເທັກໂນໂລຊີ ທຸກຄົນໃຊ້ໂທລະສັບ",
+        "romanization": "tɔ̄ɔn níi mɛ̄ɛn ɲúk thék-noo-lóo-síi, thúk khón sâi thoo-la-sàp",
+        "translations": {
+          "de": "Heute ist das Zeitalter der Technologie, jeder benutzt ein Handy",
+          "en": "Nowadays it's the era of technology, everyone uses a mobile phone",
+          "es": "Hoy en día es la era de la tecnología, todo el mundo usa un teléfono móvil",
+          "fr": "De nos jours, c'est l'ère de la technologie, tout le monde utilise un téléphone portable",
+          "hi": "आजकल यह प्रौद्योगिकी का युग है, हर कोई मोबाइल फोन इस्तेमाल करता है",
+          "ja": "今はテクノロジーの時代で、みんなが携帯電話を使っている",
+          "km": "សព្វថ្ងៃនេះជាយុគបច្ចេកវិទ្យា មនុស្សគ្រប់គ្នាប្រើទូរស័ព្ទ",
+          "ko": "요즘은 기술의 시대라 모두가 휴대폰을 사용한다",
+          "ne": "आजकल प्रविधिको युग हो, सबैले मोबाइल फोन प्रयोग गर्छन्",
+          "pt": "Hoje em dia é a era da tecnologia, todo mundo usa celular",
+          "th": "ตอนนี้เป็นยุคเทคโนโลยี ทุกคนใช้โทรศัพท์มือถือ",
+          "tl": "Ngayon ay panahon ng teknolohiya, lahat ay gumagamit ng cellphone",
+          "ur": "آج کل ٹیکنالوجی کا دور ہے، ہر کوئی موبائل فون استعمال کرتا ہے",
+          "vi": "Bây giờ là thời đại công nghệ, mọi người đều dùng điện thoại di động",
+          "zh": "现在是科技时代，每个人都用手机",
+          "zh_Hant": "現在是科技時代，每個人都用手機"
+        },
+        "out_of_scope_words": [
+          "ເທັກໂນໂລຊີ",
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ຍຸກກ່ອນຊີວິດຍາກກວ່ານີ້ຫຼາຍ",
+        "romanization": "ɲúk kɔ̀ɔn, síi-wít ɲâak kwàa níi lǎai",
+        "translations": {
+          "de": "In der Vergangenheit war das Leben viel schwieriger als heute",
+          "en": "In the old era, life was much harder than this",
+          "es": "En la época pasada, la vida era mucho más difícil que ahora",
+          "fr": "Dans l'ère passée, la vie était beaucoup plus difficile qu'aujourd'hui",
+          "hi": "पुराने युग में, जीवन आज से कहीं अधिक कठिन था",
+          "ja": "昔の時代は、今よりずっと生活が大変だった",
+          "km": "នៅយុគមុន ជីវិតលំបាកជាងនេះច្រើន",
+          "ko": "예전 시대에는 지금보다 삶이 훨씬 더 힘들었다",
+          "ne": "पहिलेको युगमा जीवन यसभन्दा धेरै कठिन थियो",
+          "pt": "Na época antiga, a vida era muito mais difícil do que agora",
+          "th": "ยุคก่อนชีวิตยากกว่านี้มาก",
+          "tl": "Noong nakaraang panahon, ang buhay ay mas mahirap kaysa ngayon",
+          "ur": "پرانے دور میں زندگی اس سے بہت زیادہ مشکل تھی",
+          "vi": "Thời xưa, cuộc sống khó khăn hơn bây giờ nhiều",
+          "zh": "以前那个年代，生活比现在艰难多了",
+          "zh_Hant": "以前那個年代，生活比現在艱難多了"
+        },
+        "out_of_scope_words": [
+          "ຊີວິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a timeline with two distinct eras — ancient times on the left with a temple or traditional symbol, and modern times on the right with a smartphone or city skyline, connected by an arrow. Clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດ່ານ": {
+    "definitions": {
+      "de": "Ein Kontrollpunkt, Tor oder eine Schranke; häufig ein Grenzübergang oder eine Kontrollstelle an Straßen",
+      "en": "A checkpoint, gate, or barrier; commonly a border crossing point or control post on roads",
+      "es": "Un puesto de control, puerta o barrera; comúnmente un cruce fronterizo o puesto de control en carreteras",
+      "fr": "Un poste de contrôle, une porte ou une barrière ; généralement un passage frontalier ou un poste de contrôle sur les routes",
+      "hi": "एक चेकपॉइंट, गेट या बाधा; आमतौर पर सीमा पार करने का स्थान या सड़कों पर नियंत्रण चौकी",
+      "ja": "検問所、ゲート、または関所；一般的に国境越えや道路上の検問地点",
+      "km": "ច្រកត្រួតពិនិត្យ ច្រកទ្វារ ឬរបាំង; ជាទូទៅជាចំណុចឆ្លងព្រំដែន ឬច្រកត្រួតពិនិត្យតាមបណ្តោយផ្លូវ",
+      "ko": "검문소, 게이트 또는 장벽; 일반적으로 국경 통과 지점이나 도로상의 검문 초소",
+      "ne": "एक जाँच चौकी, ढोका वा अवरोध; सामान्यतः सीमा नाका वा सडकमा नियन्त्रण चौकी",
+      "pt": "Um posto de controle, portão ou barreira; geralmente um posto de fronteira ou ponto de fiscalização em estradas",
+      "th": "ด่านตรวจ ประตู หรือจุดกั้น; โดยทั่วไปคือจุดผ่านแดนหรือด่านตรวจบนถนน",
+      "tl": "Isang checkpoint, pintuan, o hadlang; karaniwang isang punto ng pagtawid sa hangganan o control post sa mga daan",
+      "ur": "ایک چیک پوسٹ، دروازہ یا رکاوٹ؛ عام طور پر سرحدی گزرگاہ یا سڑکوں پر کنٹرول پوسٹ",
+      "vi": "Một trạm kiểm soát, cổng hoặc rào chắn; thường là điểm vượt biên hoặc trạm kiểm soát trên đường",
+      "zh": "检查站、关卡或障碍物；通常是边境口岸或道路上的检查点",
+      "zh_Hant": "檢查站、關卡或障礙物；通常是邊境口岸或道路上的檢查點"
+    },
+    "part_of_speech": "noun",
+    "romanization": "dàan",
+    "examples": [
+      {
+        "lao_script": "ລົດຕ້ອງຈອດຢູ່ດ່ານກ່ອນຂ້າມໄປເມືອງໄທ",
+        "romanization": "lót tɔ̂ng jɔ̀ɔt ɲùu dàan kɔ̀ɔn khâam pai mʉ́ang thai",
+        "translations": {
+          "de": "Das Auto muss am Kontrollpunkt anhalten, bevor es nach Thailand überquert",
+          "en": "The car has to stop at the checkpoint before crossing over to Thailand",
+          "es": "El coche tiene que parar en el puesto de control antes de cruzar a Tailandia",
+          "fr": "La voiture doit s'arrêter au poste de contrôle avant de passer en Thaïlande",
+          "hi": "थाईलैंड पार करने से पहले कार को चेकपॉइंट पर रुकना होगा",
+          "ja": "タイに渡る前に、車は検問所で止まらなければならない",
+          "km": "រថយន្តត្រូវឈប់នៅច្រកត្រួតពិនិត្យ មុនពេលឆ្លងទៅប្រទេសថៃ",
+          "ko": "태국으로 넘어가기 전에 차가 검문소에서 멈춰야 한다",
+          "ne": "थाइल्याण्ड तर्फ जानु अघि गाडीले जाँच चौकीमा रोक्नु पर्छ",
+          "pt": "O carro precisa parar no posto de controle antes de cruzar para a Tailândia",
+          "th": "รถต้องจอดที่ด่านก่อนข้ามไปเมืองไทย",
+          "tl": "Ang sasakyan ay kailangang tumigil sa checkpoint bago tumawid patungong Thailand",
+          "ur": "تھائی لینڈ جانے سے پہلے گاڑی کو چیک پوسٹ پر رکنا پڑتا ہے",
+          "vi": "Xe phải dừng lại ở trạm kiểm soát trước khi sang Thái Lan",
+          "zh": "车辆必须在关卡停下来，然后才能过境泰国",
+          "zh_Hant": "車輛必須在關卡停下來，然後才能過境泰國"
+        },
+        "out_of_scope_words": [
+          "ຂ້າມ",
+          "ເມືອງໄທ"
+        ]
+      },
+      {
+        "lao_script": "ດ່ານນີ້ເປີດຕອນເຊົ້າເຈັດໂມງ",
+        "romanization": "dàan níi pə̄ət tɔ̄ɔn sâo jét móong",
+        "translations": {
+          "de": "Dieser Kontrollpunkt öffnet morgens um sieben Uhr",
+          "en": "This checkpoint opens at seven in the morning",
+          "es": "Este puesto de control abre a las siete de la mañana",
+          "fr": "Ce poste de contrôle ouvre à sept heures du matin",
+          "hi": "यह चेकपॉइंट सुबह सात बजे खुलता है",
+          "ja": "このゲートは朝の7時に開く",
+          "km": "ច្រកនេះបើកម៉ោងប្រាំពីរពេលព្រឹក",
+          "ko": "이 검문소는 아침 7시에 열린다",
+          "ne": "यो चौकी बिहान सात बजे खुल्छ",
+          "pt": "Este posto de controle abre às sete da manhã",
+          "th": "ด่านนี้เปิดตอนเช้าเจ็ดโมง",
+          "tl": "Ang checkpoint na ito ay nagbubukas ng alas syete ng umaga",
+          "ur": "یہ چیک پوسٹ صبح سات بجے کھلتی ہے",
+          "vi": "Trạm kiểm soát này mở cửa lúc bảy giờ sáng",
+          "zh": "这个关卡早上七点开放",
+          "zh_Hant": "這個關卡早上七點開放"
+        },
+        "out_of_scope_words": [
+          "ເປີດ",
+          "ເຈັດໂມງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a road checkpoint with a red and white striped barrier gate, a small guard booth on the side, and a road stretching ahead. Clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕະຫລາດ": {
+    "definitions": {
+      "de": "Ein Markt; ein Ort, an dem Waren und Lebensmittel gekauft und verkauft werden",
+      "en": "A market; a place where goods and food are bought and sold",
+      "es": "Un mercado; un lugar donde se compran y venden bienes y alimentos",
+      "fr": "Un marché ; un endroit où des marchandises et des aliments sont achetés et vendus",
+      "hi": "एक बाज़ार; एक ऐसी जगह जहाँ सामान और खाना खरीदा और बेचा जाता है",
+      "ja": "市場；商品や食べ物を売買する場所",
+      "km": "ទីផ្សារ; កន្លែងដែលទំនិញ និងអាហារត្រូវបានទិញ និងលក់",
+      "ko": "시장; 물건과 음식을 사고 파는 곳",
+      "ne": "एक बजार; जहाँ सामान र खाना किनिन्छ र बेचिन्छ",
+      "pt": "Um mercado; um lugar onde produtos e alimentos são comprados e vendidos",
+      "th": "ตลาด; สถานที่ที่มีการซื้อขายสินค้าและอาหาร",
+      "tl": "Isang palengke; isang lugar kung saan binibili at ibinibenta ang mga kalakal at pagkain",
+      "ur": "ایک بازار؛ ایک جگہ جہاں سامان اور کھانا خریدا اور بیچا جاتا ہے",
+      "vi": "Một chợ; nơi mua bán hàng hóa và thực phẩm",
+      "zh": "市场；买卖商品和食物的地方",
+      "zh_Hant": "市場；買賣商品和食物的地方"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ta.làat",
+    "examples": [
+      {
+        "lao_script": "ເຊົ້ານີ້ແມ່ໄປຊື້ເຂົ້າຂອງຢູ່ຕະຫລາດ",
+        "romanization": "sâo níi, mɛ̄ɛ pai sʉ́ɯ khâo khɔ̌ɔng ɲùu ta.làat",
+        "translations": {
+          "de": "Heute Morgen ist Mama auf den Markt gegangen, um Lebensmittel einzukaufen",
+          "en": "This morning Mom went to the market to buy groceries",
+          "es": "Esta mañana mamá fue al mercado a comprar víveres",
+          "fr": "Ce matin, maman est allée au marché faire des courses",
+          "hi": "आज सुबह माँ बाज़ार गई सामान खरीदने",
+          "ja": "今朝お母さんは市場に買い物に行った",
+          "km": "ព្រឹកនេះម្តាយទៅទិញឥវ៉ាន់នៅទីផ្សារ",
+          "ko": "오늘 아침 엄마가 시장에 장 보러 갔다",
+          "ne": "आज बिहान आमा बजारमा सामान किन्न गई",
+          "pt": "Esta manhã a mãe foi ao mercado comprar mantimentos",
+          "th": "เช้านี้แม่ไปซื้อของที่ตลาด",
+          "tl": "Ngumaga pumunta ang nanay sa palengke para mamili",
+          "ur": "آج صبح امی بازار سامان خریدنے گئیں",
+          "vi": "Sáng nay mẹ đi chợ mua đồ",
+          "zh": "今天早上妈妈去市场买东西了",
+          "zh_Hant": "今天早上媽媽去市場買東西了"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າຂອງ"
+        ]
+      },
+      {
+        "lao_script": "ຕະຫລາດເຊົ້າຂາຍອາຫານສົດຫຼາຍຊະນິດ",
+        "romanization": "ta.làat sâo, khǎai aa-hǎan sód lǎai sa.nít",
+        "translations": {
+          "de": "Der Morgenmarkt verkauft viele Arten von frischen Lebensmitteln",
+          "en": "The morning market sells many kinds of fresh food",
+          "es": "El mercado matutino vende muchos tipos de comida fresca",
+          "fr": "Le marché du matin vend de nombreux types d'aliments frais",
+          "hi": "सुबह के बाज़ार में कई तरह का ताज़ा खाना बिकता है",
+          "ja": "朝市ではたくさんの種類の新鮮な食べ物が売られている",
+          "km": "ផ្សារព្រឹកលក់អាហារស្រស់ច្រើនប្រភេទ",
+          "ko": "아침 시장에서는 많은 종류의 신선한 음식을 판다",
+          "ne": "बिहानको बजारमा धेरै प्रकारका ताजा खाना बेचिन्छ",
+          "pt": "O mercado matinal vende muitos tipos de alimentos frescos",
+          "th": "ตลาดเช้าขายอาหารสดหลายชนิด",
+          "tl": "Ang morning market ay nagbebenta ng maraming uri ng sariwang pagkain",
+          "ur": "صبح کا بازار بہت سی قسم کا تازہ کھانا بیچتا ہے",
+          "vi": "Chợ sáng bán rất nhiều loại thực phẩm tươi sống",
+          "zh": "早市卖很多种新鲜食物",
+          "zh_Hant": "早市賣很多種新鮮食物"
+        },
+        "out_of_scope_words": [
+          "ອາຫານສົດ",
+          "ຊະນິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a colorful outdoor market with stalls displaying fresh vegetables, fruits, and goods. Friendly vendors behind the stalls, bright awnings overhead. Clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕີນ": {
+    "definitions": {
+      "de": "Der Fuß; der unterste Teil des Beines, der zum Gehen verwendet wird",
+      "en": "The foot; the lower part of the leg used for walking and standing",
+      "es": "El pie; la parte inferior de la pierna que se usa para caminar y estar de pie",
+      "fr": "Le pied ; la partie inférieure de la jambe utilisée pour marcher et se tenir debout",
+      "hi": "पैर; पाँव — पैर का निचला हिस्सा जो चलने और खड़े होने के लिए उपयोग किया जाता है",
+      "ja": "足；歩いたり立ったりするために使う脚の下部",
+      "km": "ជើង; ផ្នែកខាងក្រោមនៃជើងដែលប្រើសម្រាប់걷 walking និងឈរ",
+      "ko": "발; 걷고 서는 데 사용되는 다리의 아랫부분",
+      "ne": "खुट्टा; हिँड्न र उभिन प्रयोग गरिने खुट्टाको तल्लो भाग",
+      "pt": "O pé; a parte inferior da perna usada para caminhar e ficar de pé",
+      "th": "เท้า; ส่วนล่างของขาที่ใช้เดินและยืน",
+      "tl": "Paa; ang ibabang bahagi ng binti na ginagamit para maglakad at tumayo",
+      "ur": "پاؤں؛ ٹانگ کا نچلا حصہ جو چلنے اور کھڑے ہونے کے لیے استعمال ہوتا ہے",
+      "vi": "Bàn chân; phần dưới của chân dùng để đi lại và đứng",
+      "zh": "脚；腿的下部，用于行走和站立",
+      "zh_Hant": "腳；腿的下部，用於行走和站立"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tǐin",
+    "examples": [
+      {
+        "lao_script": "ຕີນຂອງຂ້ອຍເຈັບຫຼາຍເພາະຍ່າງທາງໄກ",
+        "romanization": "tǐin khɔ̌ɔng khɔ̂i jép lǎai, phɔ́ ɲâang thaang klai",
+        "translations": {
+          "de": "Meine Füße schmerzen sehr, weil ich einen weiten Weg gelaufen bin",
+          "en": "My feet hurt a lot because I walked a long way",
+          "es": "Me duelen mucho los pies porque caminé un largo trecho",
+          "fr": "Mes pieds me font très mal parce que j'ai marché loin",
+          "hi": "मेरे पैर बहुत दर्द कर रहे हैं क्योंकि मैं बहुत दूर चला",
+          "ja": "遠くまで歩いたので足がとても痛い",
+          "km": "ជើងខ្ញុំឈឺខ្លាំងណាស់ ព្រោះដើរផ្លូវឆ្ងាយ",
+          "ko": "멀리 걸어서 발이 많이 아프다",
+          "ne": "धेरै टाढा हिँडेकोले मेरो खुट्टा धेरै दुख्यो",
+          "pt": "Meus pés doem muito porque eu caminhei um longo caminho",
+          "th": "เท้าของฉันเจ็บมากเพราะเดินทางไกล",
+          "tl": "Ang aking mga paa ay sumasakit nang husto dahil matagal akong naglakad",
+          "ur": "میرے پاؤں بہت درد کر رہے ہیں کیونکہ میں بہت دور چلا",
+          "vi": "Chân tôi rất đau vì đi bộ xa quá",
+          "zh": "我走了很远的路，脚很痛",
+          "zh_Hant": "我走了很遠的路，腳很痛"
+        },
+        "out_of_scope_words": [
+          "ຍ່າງ",
+          "ທາງໄກ"
+        ]
+      },
+      {
+        "lao_script": "ຖອດເກີບອອກກ່ອນເຂົ້າເຮືອນ ຕີນຈະໄດ້ສະອາດ",
+        "romanization": "thɔ̀ɔt kə̄əp ɔ̀ɔk kɔ̀ɔn khâo hʉ́an, tǐin ja dâi sa.àat",
+        "translations": {
+          "de": "Zieh die Schuhe aus, bevor du ins Haus gehst, damit die Füße sauber bleiben",
+          "en": "Take off your shoes before entering the house so your feet stay clean",
+          "es": "Quítate los zapatos antes de entrar a la casa para que los pies estén limpios",
+          "fr": "Enlève tes chaussures avant d'entrer dans la maison pour que les pieds restent propres",
+          "hi": "घर में घुसने से पहले जूते उतार लो, पैर साफ रहेंगे",
+          "ja": "家に入る前に靴を脱ぐと足が清潔に保てる",
+          "km": "ខាត់ស្បែកជើងចេញមុនពេលចូលផ្ទះ ជើងនឹងស្អាត",
+          "ko": "집에 들어가기 전에 신발을 벗으면 발이 깨끗하게 유지된다",
+          "ne": "घरमा छिर्नु अघि जुत्ता खोल्नुस्, खुट्टा सफा रहन्छ",
+          "pt": "Tire os sapatos antes de entrar em casa para que os pés fiquem limpos",
+          "th": "ถอดรองเท้าก่อนเข้าบ้าน เท้าจะได้สะอาด",
+          "tl": "Hubarin ang sapatos bago pumasok sa bahay para manatiling malinis ang mga paa",
+          "ur": "گھر میں داخل ہونے سے پہلے جوتے اتار لو تاکہ پاؤں صاف رہیں",
+          "vi": "Cởi giày trước khi vào nhà để chân được sạch sẽ",
+          "zh": "进屋前先脱鞋，脚就会保持干净",
+          "zh_Hant": "進屋前先脫鞋，腳就會保持乾淨"
+        },
+        "out_of_scope_words": [
+          "ຖອດ",
+          "ເກີບ",
+          "ສະອາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a single bare human foot viewed from the side, with clear and friendly anatomical styling. Clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຖິ້ມ": {
+    "definitions": {
+      "de": "Wegwerfen oder entsorgen; etwas loswerden, das nicht mehr benötigt wird",
+      "en": "To throw away or discard; to get rid of something that is no longer needed",
+      "es": "Tirar o desechar; deshacerse de algo que ya no se necesita",
+      "fr": "Jeter ou se débarrasser de quelque chose ; se débarrasser de ce qui n'est plus nécessaire",
+      "hi": "फेंकना या त्यागना; किसी ऐसी चीज़ को हटाना जिसकी अब ज़रूरत नहीं है",
+      "ja": "捨てる、廃棄する；不要になったものを処分する",
+      "km": "បោះចោល ឬលែងប្រើ; ការកម្ចាត់នូវអ្វីដែលលែងត្រូវការទៀតហើយ",
+      "ko": "버리거나 폐기하다; 더 이상 필요하지 않은 것을 처분하다",
+      "ne": "फ्याँक्नु वा त्याग्नु; जुन चीज अब चाहिँदैन त्यसलाई हटाउनु",
+      "pt": "Jogar fora ou descartar; se livrar de algo que não é mais necessário",
+      "th": "ทิ้งหรือทำให้หายไป; กำจัดสิ่งที่ไม่ต้องการอีกต่อไป",
+      "tl": "Itapon o itakwil; mapahid ng isang bagay na hindi na kailangan",
+      "ur": "پھینکنا یا ضائع کرنا؛ کسی ایسی چیز سے چھٹکارا پانا جس کی اب ضرورت نہ ہو",
+      "vi": "Vứt bỏ hoặc loại bỏ; tống khứ thứ không còn cần thiết",
+      "zh": "扔掉或丢弃；处理掉不再需要的东西",
+      "zh_Hant": "扔掉或丟棄；處理掉不再需要的東西"
+    },
+    "part_of_speech": "verb",
+    "romanization": "thîm",
+    "examples": [
+      {
+        "lao_script": "ຢ່າຖິ້ມຂີ້ເຫຍື້ອລົງຖະໜົນ ຜິດກົດໝາຍ",
+        "romanization": "ɲàa thîm khîi-ɲʉ́a long tha.nón, phìt kót mǎai",
+        "translations": {
+          "de": "Wirf den Müll nicht auf die Straße, das ist illegal",
+          "en": "Don't throw trash on the road, it's against the law",
+          "es": "No tires basura en la calle, es contra la ley",
+          "fr": "Ne jette pas les ordures sur la route, c'est illégal",
+          "hi": "सड़क पर कचरा मत फेंको, यह कानून के खिलाफ है",
+          "ja": "道路にゴミを捨てるな、違法だ",
+          "km": "កុំបោះសំរាមចុះលើដង្វែង វាខុសច្បាប់",
+          "ko": "도로에 쓰레기를 버리지 마라, 법을 어기는 것이다",
+          "ne": "सडकमा फोहोर नफ्याँक्नुस्, यो कानूनविरुद्ध छ",
+          "pt": "Não jogue lixo na estrada, é contra a lei",
+          "th": "อย่าทิ้งขยะลงถนน ผิดกฎหมาย",
+          "tl": "Huwag magtapon ng basura sa daan, ito ay labag sa batas",
+          "ur": "سڑک پر کچرا مت پھینکو، یہ قانون کے خلاف ہے",
+          "vi": "Đừng vứt rác xuống đường, vi phạm pháp luật đó",
+          "zh": "不要把垃圾扔在路上，违法的",
+          "zh_Hant": "不要把垃圾扔在路上，違法的"
+        },
+        "out_of_scope_words": [
+          "ຂີ້ເຫຍື້ອ",
+          "ຖະໜົນ",
+          "ກົດໝາຍ"
+        ]
+      },
+      {
+        "lao_script": "ເສື້ອໂຕນີ້ເກົ່າຫຼາຍ ຖິ້ມໄປດີກວ່າ",
+        "romanization": "sʉ̂a too níi kào lǎai, thîm pai dii kwàa",
+        "translations": {
+          "de": "Dieses Hemd ist sehr alt, es ist besser, es wegzuwerfen",
+          "en": "This shirt is very old, it's better to just throw it away",
+          "es": "Esta camisa es muy vieja, es mejor tirarla",
+          "fr": "Cette chemise est très vieille, il vaut mieux la jeter",
+          "hi": "यह कमीज़ बहुत पुरानी है, इसे फेंक देना बेहतर है",
+          "ja": "このシャツはとても古いから、捨てた方がいい",
+          "km": "អាវនេះចាស់ណាស់ ចោលវាទៅប្រសើរជាង",
+          "ko": "이 옷은 너무 낡았어, 그냥 버리는 게 낫겠어",
+          "ne": "यो सर्ट धेरै पुरानो छ, फ्याँकिदिनु नै राम्रो",
+          "pt": "Essa camisa está muito velha, é melhor jogá-la fora",
+          "th": "เสื้อตัวนี้เก่ามากแล้ว ทิ้งไปดีกว่า",
+          "tl": "Ang damit na ito ay napakaluma na, mas mabuting itapon na",
+          "ur": "یہ قمیض بہت پرانی ہے، اسے پھینک دینا بہتر ہے",
+          "vi": "Cái áo này cũ quá rồi, vứt đi thôi",
+          "zh": "这件衣服太旧了，还是扔掉算了",
+          "zh_Hant": "這件衣服太舊了，還是扔掉算了"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ",
+          "ເກົ່າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person tossing a crumpled piece of paper or an old object into a trash can, with a clear arc showing the throwing motion. Clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

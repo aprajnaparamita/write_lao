@@ -1,0 +1,398 @@
+{
+  "ຕ່າງ": {
+    "definitions": {
+      "de": "Unterschiedlich; nicht gleich; anders als etwas anderes",
+      "en": "Different; not the same; distinct from something else",
+      "es": "Diferente; distinto; no igual a otra cosa",
+      "fr": "Différent; distinct; qui n'est pas pareil à autre chose",
+      "hi": "अलग; भिन्न; किसी और चीज़ से असमान",
+      "ja": "違う；異なる；別のものと同じではない",
+      "km": "ខុសគ្នា; មិនដូចគ្នា; មានភាពខុសប្លែកពីអ្វីផ្សេង",
+      "ko": "다른; 같지 않은; 다른 것과 구별되는",
+      "ne": "फरक; भिन्न; अर्को कुराभन्दा असमान",
+      "pt": "Diferente; distinto; não igual a outra coisa",
+      "th": "ต่าง; แตกต่าง; ไม่เหมือนกัน",
+      "tl": "Iba; hindi pareho; naiiba mula sa iba pang bagay",
+      "ur": "مختلف؛ الگ؛ کسی اور چیز سے غیر مماثل",
+      "vi": "Khác; không giống nhau; phân biệt với thứ khác",
+      "zh": "不同；有差异；与其他事物不一样",
+      "zh_Hant": "不同；有差異；與其他事物不一樣"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "tàng",
+    "examples": [
+      {
+        "lao_script": "ສີຂອງເສື້ອສອງໂຕນີ້ຕ່າງກັນຫຼາຍ",
+        "romanization": "sii khong suea song to nii tang kan laai",
+        "translations": {
+          "de": "Die Farben dieser beiden Hemden sind sehr unterschiedlich.",
+          "en": "The colors of these two shirts are very different.",
+          "es": "Los colores de estas dos camisas son muy diferentes.",
+          "fr": "Les couleurs de ces deux chemises sont très différentes.",
+          "hi": "इन दो कमीज़ों के रंग बहुत अलग हैं।",
+          "ja": "この2枚のシャツの色はとても違う。",
+          "km": "ពណ៌នៃអាវទាំងពីរនេះខុសគ្នាខ្លាំងណាស់។",
+          "ko": "이 두 셔츠의 색깔은 매우 달라요.",
+          "ne": "यी दुई कमिजका रङहरू धेरै फरक छन्।",
+          "pt": "As cores dessas duas camisas são muito diferentes.",
+          "th": "สีของเสื้อสองตัวนี้ต่างกันมาก",
+          "tl": "Ang mga kulay ng dalawang shirts na ito ay napaka-iba.",
+          "ur": "ان دو قمیضوں کے رنگ بہت مختلف ہیں۔",
+          "vi": "Màu sắc của hai chiếc áo này rất khác nhau.",
+          "zh": "这两件衬衫的颜色差别很大。",
+          "zh_Hant": "這兩件襯衫的顏色差別很大。"
+        },
+        "out_of_scope_words": [
+          "ສີ",
+          "ເສື້ອ",
+          "ໂຕ"
+        ]
+      },
+      {
+        "lao_script": "ຄົນລາວກັບຄົນໄທເວົ້າພາສາຕ່າງກັນ",
+        "romanization": "khon Lao kap khon Thai wao pha-saa tang kan",
+        "translations": {
+          "de": "Laoten und Thais sprechen unterschiedliche Sprachen.",
+          "en": "Lao people and Thai people speak different languages.",
+          "es": "Los laosianos y los tailandeses hablan idiomas diferentes.",
+          "fr": "Les Laotiens et les Thaïlandais parlent des langues différentes.",
+          "hi": "लाओ लोग और थाई लोग अलग-अलग भाषाएँ बोलते हैं।",
+          "ja": "ラオス人とタイ人は異なる言語を話す。",
+          "km": "ជនជាតិឡាវ និងជនជាតិថៃនិយាយភាសាខុសគ្នា។",
+          "ko": "라오스 사람과 태국 사람은 서로 다른 언어를 사용해요.",
+          "ne": "लाओ मानिस र थाई मानिसहरू फरक भाषा बोल्छन्।",
+          "pt": "Os laocianos e os tailandeses falam línguas diferentes.",
+          "th": "คนลาวกับคนไทยพูดภาษาต่างกัน",
+          "tl": "Ang mga tao sa Laos at Thailand ay nagsasalita ng iba't ibang wika.",
+          "ur": "لاؤ اور تھائی لوگ مختلف زبانیں بولتے ہیں۔",
+          "vi": "Người Lào và người Thái nói những ngôn ngữ khác nhau.",
+          "zh": "老挝人和泰国人说的语言不一样。",
+          "zh_Hant": "寮國人和泰國人說的語言不一樣。"
+        },
+        "out_of_scope_words": [
+          "ຄົນ",
+          "ພາສາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two objects side by side (such as a red apple and a green pear) with a 'not equal' or contrast symbol between them, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນານ": {
+    "definitions": {
+      "de": "Lang (Zeit); eine lange Zeitspanne; seit langem",
+      "en": "A long time; for a long duration; taking much time",
+      "es": "Mucho tiempo; de larga duración; que tarda bastante",
+      "fr": "Longtemps; une longue durée; qui prend beaucoup de temps",
+      "hi": "लंबे समय तक; बहुत देर; काफी समय",
+      "ja": "長い時間；長い間；時間がかかる",
+      "km": "យូរ; ចំណាយពេលយូរ; រយៈពេលយូរ",
+      "ko": "오랫동안; 오래; 긴 시간",
+      "ne": "लामो समय; धेरै समयसम्म; समय लाग्ने",
+      "pt": "Muito tempo; por longa duração; que demora bastante",
+      "th": "นาน; เป็นเวลานาน; ใช้เวลานาน",
+      "tl": "Matagal; mahabang panahon; tumatagal ng maraming oras",
+      "ur": "طویل وقت؛ کافی عرصہ؛ بہت دیر",
+      "vi": "Lâu; thời gian dài; mất nhiều thời gian",
+      "zh": "长时间；很久；耗时长",
+      "zh_Hant": "長時間；很久；耗時長"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "naan",
+    "examples": [
+      {
+        "lao_script": "ລໍຖ້ານານຫຼາຍ, ລົດເມບໍ່ມາເທື່ອ",
+        "romanization": "lo thaa naan laai, lot me bo maa thuea",
+        "translations": {
+          "de": "Ich habe sehr lange gewartet, aber der Bus ist immer noch nicht gekommen.",
+          "en": "I've been waiting for a really long time and the bus still hasn't come.",
+          "es": "Llevo esperando mucho tiempo y el autobús todavía no ha llegado.",
+          "fr": "J'attends depuis très longtemps et le bus n'est toujours pas arrivé.",
+          "hi": "मैं बहुत देर से इंतज़ार कर रहा हूँ, बस अभी तक नहीं आई।",
+          "ja": "ずっと長い間待っているのに、バスがまだ来ない。",
+          "km": "រង់ចាំយូរណាស់ ឡានក្រុងមិនទាន់មកទេ។",
+          "ko": "오래 기다렸는데 버스가 아직도 안 왔어요.",
+          "ne": "धेरै लामो समयदेखि पर्खिरहेछु, बस अझै आएको छैन।",
+          "pt": "Estou esperando há muito tempo e o ônibus ainda não veio.",
+          "th": "รอนานมากแล้ว รถเมล์ยังไม่มาเลย",
+          "tl": "Matagal na akong naghihintay, hindi pa dumarating ang bus.",
+          "ur": "بہت دیر سے انتظار کر رہا ہوں، بس ابھی تک نہیں آئی۔",
+          "vi": "Chờ lâu lắm rồi mà xe buýt vẫn chưa đến.",
+          "zh": "等了好久了，公共汽车还没来。",
+          "zh_Hant": "等了好久了，公共汽車還沒來。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ລົດເມ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຢູ່ວຽງຈັນນານແລ້ວບໍ?",
+        "romanization": "jao yuu Wiangjan naan laeo bo?",
+        "translations": {
+          "de": "Bist du schon lange in Vientiane?",
+          "en": "Have you been in Vientiane for a long time?",
+          "es": "¿Llevas mucho tiempo en Vientián?",
+          "fr": "Ça fait longtemps que tu es à Vientiane?",
+          "hi": "क्या तुम वियनतियाने में बहुत समय से हो?",
+          "ja": "ビエンチャンに長くいるの？",
+          "km": "តើអ្នកនៅវៀងចន្ទន៍យូរហើយឬ?",
+          "ko": "비엔티안에 오래 있었어요?",
+          "ne": "तिमी भिएन्टियानमा धेरै समयदेखि छौ?",
+          "pt": "Você já está em Vientiane há muito tempo?",
+          "th": "อยู่เวียงจันทน์นานแล้วหรือเปล่า?",
+          "tl": "Matagal ka na ba sa Vientiane?",
+          "ur": "کیا آپ وینتیان میں کافی عرصے سے ہیں؟",
+          "vi": "Bạn ở Viêng Chăn lâu chưa?",
+          "zh": "你在万象待很久了吗？",
+          "zh_Hant": "你在萬象待很久了嗎？"
+        },
+        "out_of_scope_words": [
+          "ວຽງຈັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting on a bench looking at a large clock with a long wait indicated by zzz marks or a very long hour hand, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພາ": {
+    "definitions": {
+      "de": "Jemanden mitnehmen oder führen; jemanden irgendwohin bringen",
+      "en": "To lead, take, or bring someone somewhere; to escort or guide a person",
+      "es": "Llevar o acompañar a alguien a algún lugar; guiar a alguien",
+      "fr": "Emmener ou conduire quelqu'un quelque part; accompagner une personne",
+      "hi": "किसी को कहीं ले जाना; किसी की अगुवाई करना या साथ ले जाना",
+      "ja": "誰かをどこかに連れて行く；案内する；引率する",
+      "km": "នាំ ឬដឹកនាំអ្នកណាម្នាក់ទៅកន្លែងណាមួយ; បញ្ជូនភ្ញៀវ",
+      "ko": "누군가를 어딘가로 데려가다; 안내하다; 이끌다",
+      "ne": "कसैलाई कतै लैजानु; नेतृत्व गर्नु; साथमा लैजानु",
+      "pt": "Levar ou conduzir alguém a algum lugar; acompanhar uma pessoa",
+      "th": "พา; นำพาใครไปที่ไหนสักแห่ง; พาคนไป",
+      "tl": "Samahan o dalhin ang isang tao sa isang lugar; gabayan ang isang tao",
+      "ur": "کسی کو کہیں لے جانا؛ رہنمائی کرنا؛ ساتھ لے جانا",
+      "vi": "Dẫn hoặc đưa ai đó đến đâu đó; hướng dẫn ai đó",
+      "zh": "带领某人去某处；引导；陪同某人前往",
+      "zh_Hant": "帶領某人去某處；引導；陪同某人前往"
+    },
+    "part_of_speech": "verb",
+    "romanization": "phaa",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຈະພາເຈົ້າໄປກິນເຂົ້າຄືນນີ້",
+        "romanization": "khoi ja phaa jao pai kin khao khueen nii",
+        "translations": {
+          "de": "Ich werde dich heute Abend zum Essen mitnehmen.",
+          "en": "I'll take you out to eat tonight.",
+          "es": "Esta noche te llevaré a comer.",
+          "fr": "Ce soir, je t'emmène manger.",
+          "hi": "आज रात मैं तुम्हें खाना खिलाने ले जाऊँगा।",
+          "ja": "今夜、ご飯を食べに連れて行ってあげるよ。",
+          "km": "យប់នេះខ្ញុំនឹងនាំអ្នកទៅញ៉ាំបាយ។",
+          "ko": "오늘 밤 밥 먹으러 데려갈게요.",
+          "ne": "आज राति म तिमीलाई खाना खान लैजान्छु।",
+          "pt": "Esta noite vou te levar para comer.",
+          "th": "คืนนี้ฉันจะพาเธอไปกินข้าว",
+          "tl": "Dadalhin kita kumain ngayong gabi.",
+          "ur": "آج رات میں تمہیں کھانا کھلانے لے جاؤں گا۔",
+          "vi": "Tối nay tôi sẽ đưa bạn đi ăn cơm.",
+          "zh": "今晚我带你去吃饭。",
+          "zh_Hant": "今晚我帶你去吃飯。"
+        },
+        "out_of_scope_words": [
+          "ກິນເຂົ້າ",
+          "ຄືນນີ້"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍພານ້ອງໄປໂຮງຮຽນດ້ວຍແດ່",
+        "romanization": "suai phaa nong pai hong hian duai dae",
+        "translations": {
+          "de": "Kannst du bitte meinen jüngeren Geschwister zur Schule bringen?",
+          "en": "Please take my younger sibling to school for me.",
+          "es": "Por favor, lleva a mi hermanito/a a la escuela.",
+          "fr": "Peux-tu emmener mon petit frère/ma petite sœur à l'école, s'il te plaît?",
+          "hi": "कृपया मेरे छोटे भाई/बहन को स्कूल ले जाओ।",
+          "ja": "弟/妹を学校に連れて行ってあげてくれる？",
+          "km": "សូមជួយនាំប្អូនទៅសាលារៀនផង។",
+          "ko": "동생을 학교에 데려다줘요.",
+          "ne": "कृपया भाइ/बहिनीलाई स्कूल लैजान मद्दत गर्नुहोस्।",
+          "pt": "Por favor, leve meu irmão/irmã mais novo(a) para a escola.",
+          "th": "ช่วยพาน้องไปโรงเรียนด้วยนะ",
+          "tl": "Pakisama ang kapatid ko sa paaralan.",
+          "ur": "براہ کرم چھوٹے بھائی/بہن کو اسکول لے جائیں۔",
+          "vi": "Làm ơn đưa em đi học giúp tôi với.",
+          "zh": "帮我送弟弟/妹妹去学校。",
+          "zh_Hant": "幫我送弟弟/妹妹去學校。"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ນ້ອງ",
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an adult holding the hand of a child and walking together toward a destination, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫາຍ": {
+    "definitions": {
+      "de": "Verschwinden; nicht mehr da sein; auch: atmen (ຫາຍໃຈ)",
+      "en": "To disappear; to vanish; to no longer be present; also used in ຫາຍໃຈ (to breathe)",
+      "es": "Desaparecer; desvanecerse; ya no estar presente; también usado en ຫາຍໃຈ (respirar)",
+      "fr": "Disparaître; s'évanouir; ne plus être présent; utilisé aussi dans ຫາຍໃຈ (respirer)",
+      "hi": "गायब होना; लुप्त होना; अब मौजूद न रहना; ຫາຍໃຈ (साँस लेना) में भी प्रयुक्त",
+      "ja": "消える；見えなくなる；なくなる；ຫາຍໃຈ（呼吸する）にも使われる",
+      "km": "បាត់; រលាយ; លែងមានវត្តមាន; ប្រើផងក្នុង ຫາຍໃຈ (ដកដង្ហើម)",
+      "ko": "사라지다; 없어지다; 더 이상 존재하지 않다; ຫາຍໃຈ(숨쉬다)에도 사용됨",
+      "ne": "हराउनु; अदृश्य हुनु; अब उपस्थित नहुनु; ຫາຍໃຈ (सास फेर्नु) मा पनि प्रयोग हुन्छ",
+      "pt": "Desaparecer; sumir; não estar mais presente; também usado em ຫາຍໃຈ (respirar)",
+      "th": "หาย; หายไป; ไม่มีอีกต่อไป; ใช้ใน ຫາຍໃຈ (หายใจ) ด้วย",
+      "tl": "Mawala; maglaho; hindi na naroon; ginagamit din sa ຫາຍໃຈ (huminga)",
+      "ur": "غائب ہونا؛ ناپید ہونا؛ اب موجود نہ رہنا؛ ຫາຍໃຈ (سانس لینا) میں بھی استعمال ہوتا ہے",
+      "vi": "Biến mất; không còn ở đó nữa; cũng dùng trong ຫາຍໃຈ (thở)",
+      "zh": "消失；不见了；不再存在；也用于 ຫາຍໃຈ（呼吸）",
+      "zh_Hant": "消失；不見了；不再存在；也用於 ຫາຍໃຈ（呼吸）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "haai",
+    "examples": [
+      {
+        "lao_script": "ກະເປົ໋າຂອງຂ້ອຍຫາຍໄປໃສ?",
+        "romanization": "ka-pao khong khoi haai pai sai?",
+        "translations": {
+          "de": "Wo ist meine Tasche hin? Sie ist weg!",
+          "en": "Where did my bag go? It disappeared!",
+          "es": "¿A dónde fue mi bolso? ¡Desapareció!",
+          "fr": "Où est passé mon sac? Il a disparu!",
+          "hi": "मेरा बैग कहाँ गया? गायब हो गया!",
+          "ja": "私のかばんどこ行ったの？消えた！",
+          "km": "កាបូបរបស់ខ្ញុំបាត់ទៅណា?",
+          "ko": "내 가방 어디 갔어요? 사라졌어요!",
+          "ne": "मेरो झोला कहाँ गयो? हराएछ!",
+          "pt": "Onde foi parar minha bolsa? Sumiu!",
+          "th": "กระเป๋าของฉันหายไปไหน?",
+          "tl": "Saan napunta ang aking bag? Nawala!",
+          "ur": "میرا بیگ کہاں گیا؟ غائب ہو گیا!",
+          "vi": "Túi của tôi đi đâu rồi? Biến mất rồi!",
+          "zh": "我的包去哪了？不见了！",
+          "zh_Hant": "我的包去哪了？不見了！"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ເຈັບຫົວຂ້ອຍຫາຍແລ້ວ ຫຼັງຈາກກິນຢາ",
+        "romanization": "jep hua khoi haai laeo lang jaak kin yaa",
+        "translations": {
+          "de": "Meine Kopfschmerzen sind nach der Einnahme der Medizin verschwunden.",
+          "en": "My headache is gone after taking medicine.",
+          "es": "Mi dolor de cabeza desapareció después de tomar la medicina.",
+          "fr": "Mon mal de tête a disparu après avoir pris le médicament.",
+          "hi": "दवाई लेने के बाद मेरा सिरदर्द ठीक हो गया।",
+          "ja": "薬を飲んだら頭痛が消えた。",
+          "km": "ឈឺក្បាលរបស់ខ្ញុំបានបាត់ហើយបន្ទាប់ពីលេបថ្នាំ។",
+          "ko": "약을 먹고 나서 두통이 사라졌어요.",
+          "ne": "औषधि खाएपछि मेरो टाउको दुखाइ हरायो।",
+          "pt": "Minha dor de cabeça sumiu depois de tomar o remédio.",
+          "th": "ปวดหัวฉันหายแล้วหลังจากกินยา",
+          "tl": "Nawala na ang aking sakit ng ulo pagkatapos uminom ng gamot.",
+          "ur": "دوائی لینے کے بعد میرا سردرد ختم ہو گیا۔",
+          "vi": "Cơn đau đầu của tôi đã hết sau khi uống thuốc.",
+          "zh": "吃了药之后我的头痛消失了。",
+          "zh_Hant": "吃了藥之後我的頭痛消失了。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບຫົວ",
+          "ຢາ",
+          "ຫຼັງຈາກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an object (like a hat or a key) with a dotted outline fading away or disappearing into thin air, with a surprised person nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຕັມ": {
+    "definitions": {
+      "de": "Voll; bis zum Rand gefüllt; kein Platz mehr vorhanden",
+      "en": "Full; filled to capacity; no space or room left",
+      "es": "Lleno; lleno hasta el tope; sin espacio disponible",
+      "fr": "Plein; rempli à ras bord; plus de place disponible",
+      "hi": "भरा हुआ; पूर्ण; कोई जगह नहीं बची",
+      "ja": "いっぱい；満杯；空きがない",
+      "km": "ពេញ; ពោរពេញ; គ្មានកន្លែងទំនេរ",
+      "ko": "가득 찬; 꽉 찬; 빈자리가 없는",
+      "ne": "भरिएको; पूर्ण; कुनै ठाउँ बाँकी नभएको",
+      "pt": "Cheio; lotado; sem espaço disponível",
+      "th": "เต็ม; เต็มความจุ; ไม่มีที่ว่างเหลือ",
+      "tl": "Puno; puno na; walang natitira pang espasyo",
+      "ur": "بھرا ہوا؛ مکمل بھرا؛ کوئی جگہ باقی نہیں",
+      "vi": "Đầy; chứa đầy; không còn chỗ trống",
+      "zh": "满；装满；没有剩余空间",
+      "zh_Hant": "滿；裝滿；沒有剩餘空間"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "tem",
+    "examples": [
+      {
+        "lao_script": "ແກ້ວນໍ້ານີ້ເຕັມແລ້ວ, ຢ່າເທເພີ່ມ",
+        "romanization": "kaew nam nii tem laeo, yaa the phoem",
+        "translations": {
+          "de": "Dieses Glas Wasser ist schon voll, gieß nicht mehr rein.",
+          "en": "This glass of water is already full, don't pour more in.",
+          "es": "Este vaso de agua ya está lleno, no eches más.",
+          "fr": "Ce verre d'eau est déjà plein, n'en verse pas davantage.",
+          "hi": "यह पानी का गिलास पहले से भरा हुआ है, और मत डालो।",
+          "ja": "このコップはもう水がいっぱいだから、もう注がないで。",
+          "km": "កែវទឹកនេះពេញហើយ កុំចាក់បន្ថែម។",
+          "ko": "이 물컵은 이미 가득 찼어요, 더 붓지 마세요.",
+          "ne": "यो पानीको गिलास पहिले नै भरिएको छ, थप नखन्याउनु।",
+          "pt": "Este copo de água já está cheio, não coloque mais.",
+          "th": "แก้วน้ำนี้เต็มแล้ว อย่าเทเพิ่ม",
+          "tl": "Puno na ang basong ito ng tubig, huwag nang magdagdag.",
+          "ur": "پانی کا یہ گلاس پہلے سے بھرا ہوا ہے، مزید مت ڈالیں۔",
+          "vi": "Ly nước này đã đầy rồi, đừng rót thêm nữa.",
+          "zh": "这杯水已经满了，不要再倒了。",
+          "zh_Hant": "這杯水已經滿了，不要再倒了。"
+        },
+        "out_of_scope_words": [
+          "ແກ້ວນໍ້າ",
+          "ເທ"
+        ]
+      },
+      {
+        "lao_script": "ລົດເມເຕັມຄົນ, ຂ້ອຍຂຶ້ນບໍ່ໄດ້",
+        "romanization": "lot me tem khon, khoi khueen bo dai",
+        "translations": {
+          "de": "Der Bus ist voller Menschen, ich kann nicht einsteigen.",
+          "en": "The bus is packed with people, I can't get on.",
+          "es": "El autobús está lleno de gente, no puedo subir.",
+          "fr": "Le bus est plein de monde, je ne peux pas monter.",
+          "hi": "बस में लोग खचाखच भरे हैं, मैं चढ़ नहीं सकता।",
+          "ja": "バスが人でいっぱいで、乗れない。",
+          "km": "ឡានក្រុងពេញដោយមនុស្ស ខ្ញុំមិនអាចឡើងបានទេ។",
+          "ko": "버스에 사람이 가득 차서 탈 수가 없어요.",
+          "ne": "बस मानिसले भरिभराउ छ, म चढ्न सक्दिन।",
+          "pt": "O ônibus está lotado de gente, não consigo entrar.",
+          "th": "รถเมล์เต็มคน ฉันขึ้นไม่ได้",
+          "tl": "Puno ng tao ang bus, hindi ako makasakay.",
+          "ur": "بس لوگوں سے بھری ہوئی ہے، میں سوار نہیں ہو سکتا۔",
+          "vi": "Xe buýt chật kín người, tôi không lên được.",
+          "zh": "公共汽车挤满了人，我上不去。",
+          "zh_Hant": "公共汽車擠滿了人，我上不去。"
+        },
+        "out_of_scope_words": [
+          "ລົດເມ",
+          "ຂຶ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clear glass or cup filled completely to the brim with water, with a few drops spilling over the edge, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

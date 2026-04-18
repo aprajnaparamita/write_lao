@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮຽນ",
+  "definitions": {
+    "de": "Lernen; studieren; Wissen oder Fähigkeiten durch Unterricht oder Übung erwerben",
+    "en": "To study; to learn; to acquire knowledge or skills through instruction or practice",
+    "es": "Estudiar; aprender; adquirir conocimientos o habilidades a través de la instrucción o la práctica",
+    "fr": "Étudier; apprendre; acquérir des connaissances ou des compétences par l'instruction ou la pratique",
+    "hi": "पढ़ना; सीखना; शिक्षा या अभ्यास के माध्यम से ज्ञान या कौशल प्राप्त करना",
+    "ja": "勉強する；学ぶ；教育や練習を通じて知識やスキルを習得する",
+    "km": "រៀន; សិក្សា; ទទួលបានចំណេះដឹងឬជំនាញតាមរយៈការណែនាំ ឬការអនុវត្ត",
+    "ko": "공부하다; 배우다; 교육이나 연습을 통해 지식이나 기술을 습득하다",
+    "ne": "पढ्नु; सिक्नु; शिक्षा वा अभ्यासद्वारा ज्ञान वा सीप आर्जन गर्नु",
+    "pt": "Estudar; aprender; adquirir conhecimento ou habilidades por meio de instrução ou prática",
+    "th": "เรียน; ศึกษา; รับความรู้หรือทักษะผ่านการสอนหรือการฝึกฝน",
+    "tl": "Mag-aral; matuto; makakuha ng kaalaman o kasanayan sa pamamagitan ng pagtuturo o pagsasanay",
+    "ur": "پڑھنا؛ سیکھنا؛ تعلیم یا مشق کے ذریعے علم یا مہارت حاصل کرنا",
+    "vi": "Học; nghiên cứu; tiếp thu kiến thức hoặc kỹ năng thông qua hướng dẫn hoặc thực hành",
+    "zh": "学习；通过教学或练习获取知识或技能",
+    "zh_Hant": "學習；通過教學或練習獲取知識或技能"
+  },
+  "definition_en": "To study; to learn; to acquire knowledge or skills through instruction or practice",
+  "romanization": "/hían/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຮຽນພາສາລາວທຸກວັນ",
+      "romanization": "khɔ̄i hían phā̀sǎː lāo thúk wan",
+      "translation_en": "I study Lao every day."
+    },
+    {
+      "lao_script": "ເຈົ້າຢາກຮຽນຫຍັງ?",
+      "romanization": "jâo yāk hían ɲǎŋ?",
+      "translation_en": "What do you want to study?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a student sitting at a desk reading an open book with a pencil in hand, a small chalkboard in the background with simple writing, clean white background, colorful, minimalist style suitable for a language learning app."
+}

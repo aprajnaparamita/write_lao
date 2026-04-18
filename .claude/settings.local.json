@@ -59,7 +59,9 @@
       "Bash(/Users/dara/dev/flutter/bin/flutter build *)",
       "Bash(/Users/dara/dev/flutter/bin/flutter install *)",
       "Bash(/Users/dara/dev/flutter/bin/flutter gen-l10n *)",
-      "Bash(/Users/dara/dev/flutter/bin/flutter pub *)"
+      "Bash(/Users/dara/dev/flutter/bin/flutter pub *)",
+      "Read(//Users/dara/**)",
+      "Bash(awk -F'_' '{print $2}')"
     ]
   }
 }

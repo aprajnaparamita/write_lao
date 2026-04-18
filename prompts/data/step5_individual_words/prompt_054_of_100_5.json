@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂລ",
+  "definitions": {
+    "de": "Kilo-Präfix, das in zusammengesetzten Wörtern verwendet wird, um tausend einer Einheit anzuzeigen (z. B. ໂລກຼາມ = Kilogramm, ໂລແມັດ = Kilometer); wird nie alleine verwendet",
+    "en": "Kilo prefix used in compound words to indicate one thousand of a unit (e.g., ໂລກຼາມ = kilogram, ໂລແມັດ = kilometer); never used alone",
+    "es": "Prefijo kilo utilizado en palabras compuestas para indicar mil de una unidad (p. ej., ໂລກຼາມ = kilogramo, ໂລແມັດ = kilómetro); nunca se usa solo",
+    "fr": "Préfixe kilo utilisé dans les mots composés pour indiquer mille d'une unité (ex. ໂລກຼາມ = kilogramme, ໂລແມັດ = kilomètre); jamais utilisé seul",
+    "hi": "किलो उपसर्ग जो संयुक्त शब्दों में किसी इकाई के एक हजार को इंगित करने के लिए उपयोग किया जाता है (जैसे ໂລກຼາມ = किलोग्राम, ໂລແມັດ = किलोमीटर); कभी अकेले उपयोग नहीं होता",
+    "ja": "キロを表す接頭辞。複合語で千分の一単位を示すために使われる（例：ໂລກຼາມ = キログラム、ໂລແມັດ = キロメートル）。単独では使われない",
+    "km": "បុព្វបទ 'គីឡូ' ប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីមួយពាន់នៃឯកតាមួយ (ឧ. ໂລກຼາມ = គីឡូក្រាម, ໂລແມັດ = គីឡូម៉ែត្រ) មិនប្រើតែម្នាក់ឯងឡើយ",
+    "ko": "킬로 접두사로, 복합어에서 단위의 천 배를 나타내는 데 사용됨 (예: ໂລກຼາມ = 킬로그램, ໂລແມັດ = 킬로미터); 단독으로는 사용되지 않음",
+    "ne": "किलो उपसर्ग जुन संयुक्त शब्दहरूमा एक इकाईको एक हजार जनाउन प्रयोग गरिन्छ (जस्तै ໂລກຼາມ = किलोग्राम, ໂລແມັດ = किलोमिटर); कहिल्यै एक्लै प्रयोग हुँदैन",
+    "pt": "Prefixo quilo usado em palavras compostas para indicar mil de uma unidade (ex.: ໂລກຼາມ = quilograma, ໂລແມັດ = quilômetro); nunca usado sozinho",
+    "th": "คำอุปสรรค 'กิโล' ใช้ในคำประสมเพื่อระบุหนึ่งพันหน่วย (เช่น ໂລກຼາມ = กิโลกรัม, ໂລແມັດ = กิโลเมตร) ไม่ใช้คำเดียวโดดๆ",
+    "tl": "Prefix na kilo na ginagamit sa mga salitang tambalan upang ipahiwatig ang isang libo ng isang yunit (hal. ໂລກຼາມ = kilogramo, ໂລແມັດ = kilometro); hindi kailanman ginagamit nang nagsasarili",
+    "ur": "کلو سابقہ جو مرکب الفاظ میں کسی اکائی کا ایک ہزار ظاہر کرنے کے لیے استعمال ہوتا ہے (مثلاً ໂລກຼາມ = کلوگرام، ໂລແມັດ = کلومیٹر)؛ کبھی اکیلا استعمال نہیں ہوتا",
+    "vi": "Tiền tố kilo dùng trong các từ ghép để chỉ một nghìn đơn vị (ví dụ: ໂລກຼາມ = kilôgam, ໂລແມັດ = kilômét); không bao giờ dùng một mình",
+    "zh": "千（公）前缀，用于复合词中表示某单位的一千倍（如ໂລກຼາມ=千克，ໂລແມັດ=千米）；从不单独使用",
+    "zh_Hant": "千（公）前綴，用於複合詞中表示某單位的一千倍（如ໂລກຼາມ=千克，ໂລແມັດ=千米）；從不單獨使用"
+  },
+  "definition_en": "Kilo prefix used in compound words to indicate one thousand of a unit (e.g., ໂລກຼາມ = kilogram, ໂລແມັດ = kilometer); never used alone",
+  "romanization": "lo",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື້ໝາກເຜັດໜຶ່ງໂລ",
+      "romanization": "seu mak phet neung lo",
+      "translation_en": "Buy one kilogram of chili peppers"
+    },
+    {
+      "lao_script": "ໂລນີ້ໝາຍຄວາມວ່າໜຶ່ງພັນ",
+      "romanization": "lo nii maai khwam waa neung phan",
+      "translation_en": "This 'lo' means one thousand"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a weighing scale showing 1 kg with the kilo prefix symbol highlighted, alongside a road sign showing 1 km distance, clean white background, bright educational colors, minimalist cartoon style suitable for a language learning app"
+}

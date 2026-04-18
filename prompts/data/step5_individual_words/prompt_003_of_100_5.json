@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມາ",
+  "definitions": {
+    "de": "kommen; herkommen; (Aspektmarker) bis jetzt",
+    "en": "to come; to arrive; (aspect marker) up to now",
+    "es": "venir; llegar; (marcador aspectual) hasta ahora",
+    "fr": "venir; arriver; (marqueur d'aspect) jusqu'à maintenant",
+    "hi": "आना; पहुँचना; (पहलू चिह्न) अब तक",
+    "ja": "来る／到着する（アスペクト助詞として「これまで」）",
+    "km": "មក／មកដល់ (ឬបច្ច័យបង្ហាញអំពើរហូតមកដល់ពេលនេះ)",
+    "ko": "오다／도착하다／(상 표지) 지금까지",
+    "ne": "आउनु／आइपुग्नु／(आस्पेक्ट) अहिलेसम्म",
+    "pt": "vir; chegar; (marcador de aspecto) até agora",
+    "th": "มา／มาถึง (หรือเครื่องหมายช่วงเวลาถึงปัจจุบัน)",
+    "tl": "pumunta／dumating／(panandang aspekto) hanggang ngayon",
+    "ur": "آنا؛ پہنچنا؛ (پہلو کی علامت) اب تک",
+    "vi": "đến; tới; (dấu hiệu thể) đến nay",
+    "zh": "来／到来（或体标记'至今')",
+    "zh_Hant": "來／到來（或體標記「至今」）"
+  },
+  "definition_en": "to come; to arrive; (aspect marker) up to now",
+  "romanization": "máː",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນ ມາ ຫາ ຂ້ອຍ",
+      "romanization": "pʰɯ̄ːən máː hǎː kʰɔ̂ːj",
+      "translation_en": "A friend comes to visit me."
+    },
+    {
+      "lao_script": "ເຈົ້າ ມາ ແຕ່ ໃສ?",
+      "romanization": "càw máː tɛ̄ː sǎj",
+      "translation_en": "Where did you come from?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon figure walking forward with a directional arrow pointing toward the viewer, representing arrival, suitable for a language learning app, clean white background, minimalist style."
+}

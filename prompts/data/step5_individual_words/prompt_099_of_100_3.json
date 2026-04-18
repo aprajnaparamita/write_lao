@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊະນິດ",
+  "definitions": {
+    "de": "Art/Sorte/Typ; eine Kategorie oder Klasse von Dingen mit gemeinsamen Merkmalen",
+    "en": "Kind/type/sort; a category or class of things sharing common characteristics",
+    "es": "Tipo/clase/variedad; una categoría o clase de cosas con características comunes",
+    "fr": "Type/sorte/genre; une catégorie ou classe de choses ayant des caractéristiques communes",
+    "hi": "प्रकार/किस्म/तरह; समान विशेषताओं वाली चीजों की एक श्रेणी या वर्ग",
+    "ja": "種類；共通の特徴を持つものの分類やカテゴリー",
+    "km": "ប្រភេទ/ប្រការ; ប្រភេទ ឬចំណាត់ថ្នាក់នៃអ្វីដែលមានលក្ខណៈដូចគ្នា",
+    "ko": "종류/유형/부류; 공통된 특성을 가진 것들의 범주나 분류",
+    "ne": "प्रकार/किसिम; समान विशेषता भएका वस्तुहरूको वर्ग वा श्रेणी",
+    "pt": "Tipo/espécie/variedade; uma categoria ou classe de coisas com características comuns",
+    "th": "ชนิด/ประเภท; หมวดหมู่หรือกลุ่มของสิ่งที่มีลักษณะร่วมกัน",
+    "tl": "Uri/klase/tipo; isang kategorya o grupo ng mga bagay na may magkaparehong katangian",
+    "ur": "قسم/نوع; مشترک خصوصیات والی چیزوں کی ایک قسم یا زمرہ",
+    "vi": "Loại/kiểu/dạng; một phạm trù hoặc nhóm các thứ có đặc điểm chung",
+    "zh": "种类/类型；具有共同特征的事物的类别或群体",
+    "zh_Hant": "種類/類型；具有共同特徵的事物的類別或群體"
+  },
+  "definition_en": "Kind/type/sort; a category or class of things sharing common characteristics",
+  "romanization": "saʔ.nit",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຊອບກິນໝາກໄມ້ຊະນິດໃດ?",
+      "romanization": "jao sop kin maak mai sa-nit dai",
+      "translation_en": "What kind of fruit do you like to eat?"
+    },
+    {
+      "lao_script": "ໝາ ຊະນິດນີ້ ໜ້າຮັກຫຼາຍ",
+      "romanization": "maa sa-nit nii naa hak laai",
+      "translation_en": "This kind of dog is really cute."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing three different types of colorful fruit (apple, banana, orange) grouped with labels showing they are different 'kinds' or 'types', clean white background, bright colors, minimalist educational style suitable for a language learning app."
+}

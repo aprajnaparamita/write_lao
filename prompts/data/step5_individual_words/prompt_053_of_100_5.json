@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮູບ",
+  "definitions": {
+    "de": "Bild / Foto – eine visuelle Darstellung oder Fotografie von etwas oder jemandem",
+    "en": "Picture / photo – a visual image or photograph of something or someone",
+    "es": "Imagen / foto – una representación visual o fotografía de algo o alguien",
+    "fr": "Image / photo – une représentation visuelle ou photographie de quelque chose ou de quelqu'un",
+    "hi": "तस्वीर / फोटो – किसी चीज़ या व्यक्ति की दृश्य छवि या फोटोग्राफ",
+    "ja": "写真・絵 – 何かまたは誰かの視覚的なイメージや写真",
+    "km": "រូបភាព / រូបថត – រូបភាពមើលឃើញ ឬរូបថតរបស់អ្វីមួយ ឬនរណាម្នាក់",
+    "ko": "사진 / 그림 – 무언가 또는 누군가의 시각적 이미지나 사진",
+    "ne": "तस्वीर / फोटो – कुनै चीज वा व्यक्तिको दृश्य छवि वा फोटोग्राफ",
+    "pt": "Imagem / foto – uma representação visual ou fotografia de algo ou alguém",
+    "th": "รูปภาพ / รูปถ่าย – ภาพหรือรูปถ่ายของบางสิ่งหรือบางคน",
+    "tl": "Larawan / litrato – isang visual na imahe o larawan ng isang bagay o tao",
+    "ur": "تصویر / فوٹو – کسی چیز یا شخص کی بصری تصویر یا فوٹوگراف",
+    "vi": "Hình / ảnh – hình ảnh trực quan hoặc bức ảnh chụp của ai đó hoặc thứ gì đó",
+    "zh": "图片 / 照片 – 某事物或某人的视觉图像或照片",
+    "zh_Hant": "圖片 / 照片 – 某事物或某人的視覺圖像或照片"
+  },
+  "definition_en": "Picture / photo – a visual image or photograph of something or someone",
+  "romanization": "/húːp/",
+  "lao_examples": [
+    {
+      "lao_script": "ຮູບນີ້ສວຍຫຼາຍ ຖ່າຍດ້ວຍໂທລະສັບຫຍັງ",
+      "romanization": "hup nii suai laai, thaai duai tholasap nyang",
+      "translation_en": "This photo is so beautiful – what phone did you take it with?"
+    },
+    {
+      "lao_script": "ສົ່ງຮູບງານລ້ຽງຄືນນີ້ໃຫ້ຂ້ອຍດ້ວຍເນາະ",
+      "romanization": "song hup ngaan liang khuun nii hai khooi duai nao",
+      "translation_en": "Send me the photos from tonight's party too, okay?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person holding up a smartphone showing a bright photo on its screen, with a small picture frame icon nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

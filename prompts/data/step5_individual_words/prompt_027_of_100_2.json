@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂລກ",
+  "definitions": {
+    "de": "Die Erde oder die gesamte Welt; auch im übertragenen Sinne für eine bestimmte Welt oder Sphäre",
+    "en": "The world; the Earth; a realm or sphere of existence",
+    "es": "El mundo; la Tierra; un ámbito o esfera de existencia",
+    "fr": "Le monde ; la Terre ; un domaine ou une sphère d'existence",
+    "hi": "दुनिया; पृथ्वी; अस्तित्व का एक क्षेत्र",
+    "ja": "世界；地球；ある領域や世界",
+    "km": "ពិភពលោក; ផែនដី; វិស័យឬទំហំនៃការដឹកនាំ",
+    "ko": "세계; 지구; 존재의 영역이나 범위",
+    "ne": "संसार; पृथ्वी; अस्तित्वको एक क्षेत्र",
+    "pt": "O mundo; a Terra; um domínio ou esfera de existência",
+    "th": "โลก; พื้นพิภพ; ขอบเขตหรือสภาวะของการดำรงอยู่",
+    "tl": "Ang mundo; ang Lupa; isang larangan o globo ng pag-iral",
+    "ur": "دنیا؛ زمین؛ وجود کا ایک دائرہ یا میدان",
+    "vi": "Thế giới; Trái Đất; một lĩnh vực hay phạm vi tồn tại",
+    "zh": "世界；地球；某一领域或范畴",
+    "zh_Hant": "世界；地球；某一領域或範疇"
+  },
+  "definition_en": "The world; the Earth; a realm or sphere of existence",
+  "romanization": "/lôːk/",
+  "lao_examples": [
+    {
+      "lao_script": "ໂລກນີ້ໃຫຍ່ຫຼາຍເນາະ",
+      "romanization": "lôːk níi ɲài lǎːj nɔ́",
+      "translation_en": "This world is really big, isn't it?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກທ່ຽວໂລກສักເທື່ອ",
+      "romanization": "khòi yàːk thîao lôːk sák thʉ̄a",
+      "translation_en": "I want to travel the world someday."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of planet Earth with colorful continents visible, shown as a globe against a clean white background, minimalist and friendly style suitable for a language learning app."
+}

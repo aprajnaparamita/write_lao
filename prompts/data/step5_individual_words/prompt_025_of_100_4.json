@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລົດ",
+  "definitions": {
+    "de": "Auto; Fahrzeug; ein motorisiertes Transportmittel, besonders ein PKW",
+    "en": "Car; vehicle; a motorized means of transportation, especially an automobile",
+    "es": "Carro; vehículo; un medio de transporte motorizado, especialmente un automóvil",
+    "fr": "Voiture; véhicule; un moyen de transport motorisé, en particulier une automobile",
+    "hi": "कार; वाहन; एक मोटर चालित परिवहन का साधन, विशेष रूप से एक मोटरगाड़ी",
+    "ja": "車；乗り物；特に自動車などの動力付き交通手段",
+    "km": "រថយន្ត; យានជំនិះ; មធ្យោបាយដឹកជញ្ជូនដែលប្រើម៉ាស៊ីន",
+    "ko": "자동차; 차량; 특히 승용차와 같은 동력 교통수단",
+    "ne": "कार; सवारी साधन; मोटरचालित यातायात साधन, विशेष गरी अटोमोबाइल",
+    "pt": "Carro; veículo; um meio de transporte motorizado, especialmente um automóvel",
+    "th": "รถ; ยานพาหนะ; รถยนต์หรือพาหนะที่ใช้เครื่องยนต์",
+    "tl": "Kotse; sasakyan; isang motorisadong paraan ng transportasyon, lalo na ang awto",
+    "ur": "گاڑی؛ موٹر گاڑی؛ ایک موٹر سے چلنے والی سواری، خصوصاً کار",
+    "vi": "Xe; xe hơi; phương tiện giao thông có động cơ, đặc biệt là ô tô",
+    "zh": "车；汽车；机动交通工具，尤指轿车",
+    "zh_Hant": "車；汽車；機動交通工具，尤指轎車"
+  },
+  "definition_en": "Car; vehicle; a motorized means of transportation, especially an automobile",
+  "romanization": "/lot²²/",
+  "lao_examples": [
+    {
+      "lao_script": "ລົດຂອງຂ້ອຍສີແດງ",
+      "romanization": "lot khawng khoi si daeng",
+      "translation_en": "My car is red."
+    },
+    {
+      "lao_script": "ລົດຕິດຫຼາຍໃນຕອນເຊົ້າ",
+      "romanization": "lot tit lai nai tawn sao",
+      "translation_en": "There's a lot of traffic in the morning."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright red car viewed from the side on a clean road, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແກ່ນ",
+  "definitions": {
+    "de": "Kern / Samen / Stein – der innere Kern einer Frucht oder ein Pflanzensamen; übertragen auch das Wesentliche einer Sache",
+    "en": "seed / core / pit – the inner seed or pit of a fruit; figuratively, the core or essence of something",
+    "es": "semilla / núcleo / hueso – la semilla o hueso interior de una fruta; figuradamente, la esencia de algo",
+    "fr": "graine / noyau / cœur – le noyau ou la graine d'un fruit ; au sens figuré, l'essence de quelque chose",
+    "hi": "बीज / गुठली / सार – फल का अंदरूनी बीज या गुठली; आलंकारिक रूप में किसी चीज़ का मूल",
+    "ja": "種／核／芯 – 果物の種や核；比喩的に何かの本質や核心",
+    "km": "គ្រាប់ / ចំណុចស្នូល – គ្រាប់ ឬចំណុចស្នូលនៃផ្លែឈើ; តាមន័យប្រៀបធៀប មានន័យថាខ្លឹមសារ",
+    "ko": "씨 / 핵심 / 씨앗 – 과일의 씨앗이나 핵; 비유적으로 무언가의 본질이나 핵심",
+    "ne": "बीउ / गेडा / सार – फलको भित्री बीउ वा गेडा; लाक्षणिक अर्थमा कुनै कुराको सार",
+    "pt": "semente / caroço / núcleo – a semente ou caroço de uma fruta; figurativamente, a essência de algo",
+    "th": "เมล็ด / แกน / เนื้อใน – เมล็ดหรือแกนของผลไม้ โดยเปรียบเทียบหมายถึงแก่นสารของบางสิ่ง",
+    "tl": "buto / butil / kaibuturan – ang loob na buto ng prutas; sa makasagisag na kahulugan, ang kaibuturan ng isang bagay",
+    "ur": "بیج / گٹھلی / جوہر – پھل کا اندرونی بیج یا گٹھلی؛ مجازی طور پر کسی چیز کا جوہر",
+    "vi": "hạt / nhân / lõi – hạt hoặc nhân bên trong của quả; theo nghĩa bóng là cốt lõi của điều gì đó",
+    "zh": "种子 / 果核 / 核心 – 水果的内核或种子；比喻某事物的精髓或核心",
+    "zh_Hant": "種子 / 果核 / 核心 – 水果的內核或種子；比喻某事物的精髓或核心"
+  },
+  "definition_en": "seed / core / pit – the inner seed or pit of a fruit; figuratively, the core or essence of something",
+  "romanization": "/kɛːn˨˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ໝາກມ່ວງນີ້ມີແກ່ນໃຫຍ່ຫຼາຍ",
+      "romanization": "maːk muaŋ niː miː kɛːn ɲaɪ laːj",
+      "translation_en": "This mango has a really big seed."
+    },
+    {
+      "lao_script": "ເອົາແກ່ນໝາກຖົ່ວໄປປູກແດ່",
+      "romanization": "ʔaw kɛːn maːk tʰua paɪ puːk dɛː",
+      "translation_en": "Take the peanut seeds and go plant them."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a cut-open mango with the large pit/seed visible in the center, alongside a few small seeds on a white background, colorful and minimalist style suitable for a language learning app."
+}

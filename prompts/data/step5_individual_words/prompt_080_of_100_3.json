@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແໜ້ນ",
+  "definitions": {
+    "de": "fest, eng, straff; beschreibt etwas, das eng sitzend, fest gebunden oder dicht ist",
+    "en": "tight, firm, or taut; describes something closely fitted, securely fastened, or densely packed",
+    "es": "apretado, firme, tenso; describe algo bien ajustado, firmemente atado o densamente compactado",
+    "fr": "serré, ferme, tendu; décrit quelque chose de bien ajusté, solidement attaché ou densément compacté",
+    "hi": "कसा हुआ, मजबूत, तंग; किसी ऐसी चीज़ का वर्णन करता है जो कसकर फिट हो, मजबूती से बंधी हो या घनी हो",
+    "ja": "きつい、しっかりした、ぴったりの；しっかり固定されているまたは密に詰まっていることを表す",
+    "km": "តឹង, ត្រឹតត្រឹត, រឹង; ពណ៌នាអ្វីដែលខ្ចឹបខ្ចប់ ចងសិទ្ធ ឬអ៊ុតជិតស្និទ្ធ",
+    "ko": "꽉 끼는, 단단한, 팽팽한; 딱 맞거나 단단히 고정되거나 빽빽하게 채워진 것을 묘사함",
+    "ne": "कसिलो, दृढ, टाइट; राम्रोसँग फिट भएको, सुरक्षित रूपमा बाँधिएको वा सघन रूपमा भरिएको कुरालाई वर्णन गर्दछ",
+    "pt": "apertado, firme, tenso; descreve algo bem ajustado, firmemente preso ou densamente compactado",
+    "th": "แน่น, แข็งแรง, กระชับ; ใช้อธิบายสิ่งที่กระชับพอดี ผูกแน่น หรืออัดแน่น",
+    "tl": "masikip, matigas, mahigpit; naglalarawan ng isang bagay na akma nang husto, matibay na nakatali, o siksik",
+    "ur": "کسا ہوا، مضبوط، تنگ؛ کسی ایسی چیز کو بیان کرتا ہے جو مضبوطی سے فٹ ہو، مضبوطی سے بندھی ہو یا گھنی ہو",
+    "vi": "chặt, chắc, căng; mô tả thứ gì đó vừa khít, được buộc chắc chắn hoặc chặt chẽ",
+    "zh": "紧，结实，紧绷；描述紧密合身、牢固固定或紧密压实的东西",
+    "zh_Hant": "緊，結實，緊繃；描述緊密合身、牢固固定或緊密壓實的東西"
+  },
+  "definition_en": "tight, firm, or taut; describes something closely fitted, securely fastened, or densely packed",
+  "romanization": "nɛːn",
+  "lao_examples": [
+    {
+      "lao_script": "ເກີບຄູ່ນີ້ແໜ້ນຫຼາຍ, ສວມໃສ່ບໍ່ສະດວກ",
+      "romanization": "kɤːp khuː niː nɛːn laːj, suam saːj bɔː sa duak",
+      "translation_en": "This pair of shoes is very tight, it's uncomfortable to wear."
+    },
+    {
+      "lao_script": "ຜູກໃຫ້ແໜ້ນໆເດ້, ຢ່າໃຫ້ຫຼຸດ",
+      "romanization": "phuːk haːj nɛːn nɛːn deː, jaː haːj lut",
+      "translation_en": "Tie it tightly so it doesn't come loose."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person tying a knot very tightly on a rope or package, with visual lines showing tension and tightness, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

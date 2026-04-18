@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕົກ",
+  "definitions": {
+    "de": "fallen; herunterfallen (von einem höheren Ort nach unten bewegen)",
+    "en": "to fall; to drop (to move downward from a higher position)",
+    "es": "caer; caerse (moverse hacia abajo desde una posición más alta)",
+    "fr": "tomber; chuter (se déplacer vers le bas depuis une position plus haute)",
+    "hi": "गिरना; नीचे आना (ऊँची जगह से नीचे की ओर आना)",
+    "ja": "落ちる；落下する（高い場所から下に移動する）",
+    "km": "ធ្លាក់; រលំ (ធ្លាក់ចុះពីកន្លែងខ្ពស់)",
+    "ko": "떨어지다; 낙하하다 (높은 곳에서 아래로 내려오다)",
+    "ne": "खस्नु; झर्नु (माथिबाट तल आउनु)",
+    "pt": "cair; tombar (mover-se para baixo a partir de uma posição mais alta)",
+    "th": "ตก; หล่น (เคลื่อนที่ลงจากที่สูง)",
+    "tl": "mahulog; bumagsak (gumalaw pababa mula sa mas mataas na posisyon)",
+    "ur": "گرنا؛ نیچے آنا (اونچی جگہ سے نیچے کی طرف آنا)",
+    "vi": "rơi; ngã (di chuyển xuống phía dưới từ vị trí cao hơn)",
+    "zh": "落下；跌落（从较高的位置向下移动）",
+    "zh_Hant": "落下；跌落（從較高的位置向下移動）"
+  },
+  "definition_en": "to fall; to drop (to move downward from a higher position)",
+  "romanization": "/tók/",
+  "lao_examples": [
+    {
+      "lao_script": "ໝາກໄມ້ຕົກລົງຈາກຕົ້ນໄມ້",
+      "romanization": "maak mai tok long jaak ton mai",
+      "translation_en": "The fruit falls down from the tree."
+    },
+    {
+      "lao_script": "ລະວັງຢ່າຕົກ ທາງນີ້ລື່ນ",
+      "romanization": "la wang yaa tok, thaang nii luen",
+      "translation_en": "Be careful not to fall – this path is slippery."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a ripe apple falling from a tree branch toward the ground, with a clear downward motion arrow, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

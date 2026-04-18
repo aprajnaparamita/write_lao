@@ -1,0 +1,402 @@
+{
+  "ນ້ອງ": {
+    "definitions": {
+      "de": "Jüngeres Geschwisterteil (Bruder oder Schwester); auch als höfliche Anrede für jüngere Personen verwendet",
+      "en": "Younger sibling (brother or sister); also used as a polite term of address for younger people",
+      "es": "Hermano o hermana menor; también se usa como tratamiento cortés para personas más jóvenes",
+      "fr": "Frère ou sœur cadet(te); utilisé aussi comme terme d'adresse poli envers les personnes plus jeunes",
+      "hi": "छोटा भाई या छोटी बहन; छोटे लोगों को विनम्रता से संबोधित करने के लिए भी प्रयुक्त",
+      "ja": "年下の兄弟・姉妹（弟または妹）；年下の人への丁寧な呼びかけにも使われる",
+      "km": "បងប្អូនតូច (ប្រុស ឬ ស្រី); ប្រើជាពាក្យសំដៅទៅលើមនុស្សក្មេងជាងផងដែរ",
+      "ko": "남동생 또는 여동생; 손아랫사람을 정중하게 부를 때도 사용",
+      "ne": "सानो भाइ वा बहिनी; साना मानिसहरूलाई विनम्रतापूर्वक सम्बोधन गर्न पनि प्रयोग हुन्छ",
+      "pt": "Irmão ou irmã mais novo(a); também usado como forma de tratamento cortês para pessoas mais jovens",
+      "th": "น้องชายหรือน้องสาว; ใช้เรียกหรือพูดถึงคนที่อายุน้อยกว่าได้ด้วย",
+      "tl": "Kapatid na nakakabata (lalaki o babae); ginagamit din bilang magalang na tawag sa mga batang tao",
+      "ur": "چھوٹا بھائی یا چھوٹی بہن؛ چھوٹے لوگوں سے مؤدبانہ خطاب کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Em trai hoặc em gái; cũng dùng để gọi những người trẻ hơn một cách lịch sự",
+      "zh": "弟弟或妹妹；也用作对年龄较小者的礼貌称呼",
+      "zh_Hant": "弟弟或妹妹；也用作對年齡較小者的禮貌稱呼"
+    },
+    "part_of_speech": "noun",
+    "romanization": "nɔ́ɔŋ",
+    "examples": [
+      {
+        "lao_script": "ນ້ອງຂອງຂ້ອຍຮຽນຢູ່ໂຮງຮຽນ",
+        "romanization": "nɔ́ɔŋ khɔ̌ɔŋ khɔ̂i hian yùu hóong hian",
+        "translations": {
+          "de": "Mein jüngeres Geschwisterteil geht zur Schule.",
+          "en": "My younger sibling is studying at school.",
+          "es": "Mi hermano/hermana menor estudia en la escuela.",
+          "fr": "Mon/ma cadet(te) étudie à l'école.",
+          "hi": "मेरा छोटा भाई/बहन स्कूल में पढ़ता/पढ़ती है।",
+          "ja": "私の弟/妹は学校で勉強しています。",
+          "km": "បងប្អូនតូចរបស់ខ្ញុំកំពុងរៀននៅសាលា។",
+          "ko": "내 남동생/여동생은 학교에서 공부하고 있어.",
+          "ne": "मेरो सानो भाइ/बहिनी स्कुलमा पढ्दैछ।",
+          "pt": "Meu irmão/minha irmã mais novo(a) está estudando na escola.",
+          "th": "น้องของฉันกำลังเรียนอยู่ที่โรงเรียน",
+          "tl": "Ang kapatid ko ay nag-aaral sa paaralan.",
+          "ur": "میرا چھوٹا بھائی/بہن اسکول میں پڑھتا/پڑھتی ہے۔",
+          "vi": "Em của tôi đang học ở trường.",
+          "zh": "我的弟弟/妹妹在学校上学。",
+          "zh_Hant": "我的弟弟/妹妹在學校上學。"
+        },
+        "out_of_scope_words": [
+          "ຮຽນ",
+          "ໂຮງຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ນ້ອງ, ມາກິນເຂົ້າແລ້ວ!",
+        "romanization": "nɔ́ɔŋ, maa kin khâo lɛ́ɛo!",
+        "translations": {
+          "de": "Hey, Kleines, komm essen!",
+          "en": "Hey little one, come eat!",
+          "es": "¡Pequeño/a, ven a comer!",
+          "fr": "Petit(e), viens manger !",
+          "hi": "छोटे/छोटी, आओ खाना खाओ!",
+          "ja": "ねえ、ごはんできたよ、こっちおいで！",
+          "km": "ប្អូន មកញ៉ាំបាយហើយ!",
+          "ko": "얘야, 밥 먹으러 와!",
+          "ne": "सानो, खाना खान आउ!",
+          "pt": "Criança, vem comer!",
+          "th": "น้อง มากินข้าวแล้ว!",
+          "tl": "Bunso, halika nang kumain!",
+          "ur": "چھوٹے/چھوٹی، آؤ کھانا کھاؤ!",
+          "vi": "Em ơi, ra ăn cơm đi!",
+          "zh": "小的，过来吃饭了！",
+          "zh_Hant": "小的，過來吃飯了！"
+        },
+        "out_of_scope_words": [
+          "ກິນ",
+          "ເຂົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two children together, an older child standing protectively next to a smaller, younger child, both smiling, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປະຈຳ": {
+    "definitions": {
+      "de": "Regelmäßig, ständig, dauerhaft; bezeichnet etwas, das habituell oder fest ist",
+      "en": "Regular, permanent, habitual; describes something that is routine, fixed, or ongoing",
+      "es": "Regular, permanente, habitual; describe algo que es rutinario, fijo o continuo",
+      "fr": "Régulier, permanent, habituel; décrit quelque chose de routinier, fixe ou continu",
+      "hi": "नियमित, स्थायी, अभ्यस्त; कुछ ऐसा जो नियमित रूप से या हमेशा के लिए हो",
+      "ja": "定期的な、常設の、習慣的な；日常的・固定的・継続的なことを表す",
+      "km": "ជាប្រចាំ, ទៀងទាត់, អចិន្ត្រៃ; សំដៅលើអ្វីដែលធ្វើជានិច្ច ឬជាអចិន្ត្រៃ",
+      "ko": "정기적인, 상시의, 습관적인; 규칙적이거나 고정적이거나 지속적인 것을 나타냄",
+      "ne": "नियमित, स्थायी, अभ्यस्त; कुनै कुरा जो नियमित रूपमा वा स्थायी रूपमा हुन्छ",
+      "pt": "Regular, permanente, habitual; descreve algo que é rotineiro, fixo ou contínuo",
+      "th": "ประจำ, สม่ำเสมอ, ถาวร; ใช้อธิบายสิ่งที่เป็นกิจวัตรหรือเป็นประจำ",
+      "tl": "Regular, permanente, karaniwang ginagawa; naglalarawan ng isang bagay na pang-araw-araw o nakatakda",
+      "ur": "باقاعدہ، مستقل، معمول کا؛ کسی ایسی چیز کو بیان کرتا ہے جو معمولاً یا ہمیشہ ہوتی ہو",
+      "vi": "Thường xuyên, cố định, thường lệ; chỉ điều gì đó diễn ra đều đặn hoặc lâu dài",
+      "zh": "固定的，经常性的，长期的；描述某事是例行的、定期的或持续性的",
+      "zh_Hant": "固定的，經常性的，長期的；描述某事是例行的、定期的或持續性的"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "pa.càm",
+    "examples": [
+      {
+        "lao_script": "ລາວໄປອອກກຳລັງກາຍປະຈຳທຸກເຊົ້າ",
+        "romanization": "láo pai ɔ̀ɔk kam-lang-kaai pa.càm thúk sâo",
+        "translations": {
+          "de": "Er/Sie geht jeden Morgen regelmäßig Sport treiben.",
+          "en": "He/She regularly goes to exercise every morning.",
+          "es": "Él/Ella va regularmente a hacer ejercicio cada mañana.",
+          "fr": "Il/Elle va régulièrement faire de l'exercice chaque matin.",
+          "hi": "वह हर सुबह नियमित रूप से व्यायाम करने जाता/जाती है।",
+          "ja": "彼/彼女は毎朝いつも運動しに行きます。",
+          "km": "គាត់ទៅហាត់ប្រាណជាប្រចាំរៀងរាល់ព្រឹក។",
+          "ko": "그/그녀는 매일 아침 규칙적으로 운동하러 가요.",
+          "ne": "उ हरेक बिहान नियमित रूपमा व्यायाम गर्न जान्छ/जान्छे।",
+          "pt": "Ele/Ela vai regularmente se exercitar toda manhã.",
+          "th": "เขา/เธอไปออกกำลังกายเป็นประจำทุกเช้า",
+          "tl": "Siya ay regular na nag-eehersisyo tuwing umaga.",
+          "ur": "وہ ہر صبح باقاعدگی سے ورزش کرنے جاتا/جاتی ہے۔",
+          "vi": "Anh/Cô ấy thường xuyên đi tập thể dục mỗi buổi sáng.",
+          "zh": "他/她每天早上都坚持锻炼。",
+          "zh_Hant": "他/她每天早上都堅持鍛鍊。"
+        },
+        "out_of_scope_words": [
+          "ອອກກຳລັງກາຍ",
+          "ທຸກ",
+          "ເຊົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ຮ້ານນີ້ມີລູກຄ້າປະຈຳຫຼາຍ",
+        "romanization": "hâan níi mii lûuk-kháa pa.càm lǎai",
+        "translations": {
+          "de": "Dieses Geschäft hat viele Stammkunden.",
+          "en": "This shop has many regular customers.",
+          "es": "Esta tienda tiene muchos clientes regulares.",
+          "fr": "Cette boutique a beaucoup de clients réguliers.",
+          "hi": "इस दुकान के बहुत सारे नियमित ग्राहक हैं।",
+          "ja": "この店には常連客がたくさんいます。",
+          "km": "ហាងនេះមានអតិថិជនប្រចាំច្រើន។",
+          "ko": "이 가게는 단골손님이 많아요.",
+          "ne": "यस पसलमा धेरै नियमित ग्राहकहरू छन्।",
+          "pt": "Esta loja tem muitos clientes regulares.",
+          "th": "ร้านนี้มีลูกค้าประจำเยอะมาก",
+          "tl": "Ang tindahang ito ay may maraming sukìng mamimili.",
+          "ur": "اس دکان کے بہت سے مستقل گاہک ہیں۔",
+          "vi": "Cửa hàng này có nhiều khách hàng thường xuyên.",
+          "zh": "这家店有很多固定顾客。",
+          "zh_Hant": "這家店有很多固定顧客。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ",
+          "ລູກຄ້າ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a calendar showing repeated daily checkmarks, symbolizing a regular routine, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫໍ": {
+    "definitions": {
+      "de": "Turm oder Halle; ein hohes Gebäude oder eine bedeutende öffentliche Halle, oft mit kultureller oder religiöser Bedeutung",
+      "en": "Tower or hall; a tall structure or significant public hall, often with cultural or religious significance",
+      "es": "Torre o sala; una estructura alta o sala pública importante, a menudo con significado cultural o religioso",
+      "fr": "Tour ou salle; une haute structure ou une salle publique importante, souvent à signification culturelle ou religieuse",
+      "hi": "मीनार या भवन; एक ऊँची संरचना या महत्वपूर्ण सार्वजनिक भवन, जिसका सांस्कृतिक या धार्मिक महत्व होता है",
+      "ja": "塔またはホール；文化的・宗教的な意味を持つことが多い、高い建造物または重要な公共の建物",
+      "km": "ប៉មឬសាល; អគារខ្ពស់ ឬសាលសាធារណៈសំខាន់ ដែលជារឿយៗមានសារៈសំខាន់ខាងវប្បធម៌ ឬសាសនា",
+      "ko": "탑 또는 홀; 문화적·종교적 의미를 지닌 높은 건축물 또는 중요한 공공 건물",
+      "ne": "मीनार वा हल; एउटा अग्लो संरचना वा महत्त्वपूर्ण सार्वजनिक भवन, प्रायः सांस्कृतिक वा धार्मिक महत्त्वको",
+      "pt": "Torre ou salão; uma estrutura alta ou salão público importante, frequentemente com significado cultural ou religioso",
+      "th": "หอ หรือ ห้องโถง; สิ่งก่อสร้างสูงหรืออาคารสาธารณะสำคัญ มักมีความหมายทางวัฒนธรรมหรือศาสนา",
+      "tl": "Tore o bulwagan; isang mataas na gusali o mahalagang pampublikong bulwagan, madalas na may kultural o relihiyosong kahalagahan",
+      "ur": "مینار یا ہال؛ ایک اونچی عمارت یا اہم عوامی ہال، جو اکثر ثقافتی یا مذہبی اہمیت رکھتا ہے",
+      "vi": "Tháp hoặc hội trường; một công trình cao hoặc hội trường công cộng quan trọng, thường mang ý nghĩa văn hóa hoặc tôn giáo",
+      "zh": "塔楼或大厅；高耸的建筑物或重要的公共大厅，通常具有文化或宗教意义",
+      "zh_Hant": "塔樓或大廳；高聳的建築物或重要的公共大廳，通常具有文化或宗教意義"
+    },
+    "part_of_speech": "noun",
+    "romanization": "hɔ̌ɔ",
+    "examples": [
+      {
+        "lao_script": "ຫໍສະໝຸດຢູ່ໃກ້ໂຮງຮຽນ",
+        "romanization": "hɔ̌ɔ sa-mùt yùu kâi hóong hian",
+        "translations": {
+          "de": "Die Bibliothek ist in der Nähe der Schule.",
+          "en": "The library is near the school.",
+          "es": "La biblioteca está cerca de la escuela.",
+          "fr": "La bibliothèque est près de l'école.",
+          "hi": "पुस्तकालय स्कूल के पास है।",
+          "ja": "図書館は学校の近くにあります。",
+          "km": "បណ្ណាល័យស្ថិតនៅជិតសាលារៀន។",
+          "ko": "도서관은 학교 근처에 있어요.",
+          "ne": "पुस्तकालय स्कुलको नजिकै छ।",
+          "pt": "A biblioteca fica perto da escola.",
+          "th": "ห้องสมุดอยู่ใกล้โรงเรียน",
+          "tl": "Ang aklatan ay malapit sa paaralan.",
+          "ur": "لائبریری اسکول کے قریب ہے۔",
+          "vi": "Thư viện ở gần trường học.",
+          "zh": "图书馆在学校附近。",
+          "zh_Hant": "圖書館在學校附近。"
+        },
+        "out_of_scope_words": [
+          "ສະໝຸດ",
+          "ໃກ້",
+          "ໂຮງຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ຫໍນັ້ນສູງຫຼາຍ, ສວຍງາມດີ",
+        "romanization": "hɔ̌ɔ nán sǔung lǎai, suai ngaam dii",
+        "translations": {
+          "de": "Dieser Turm ist sehr hoch, er ist wirklich schön.",
+          "en": "That tower is very tall, it's really beautiful.",
+          "es": "Esa torre es muy alta, es realmente hermosa.",
+          "fr": "Cette tour est très haute, elle est vraiment belle.",
+          "hi": "वह मीनार बहुत ऊँची है, बहुत सुंदर है।",
+          "ja": "あの塔はとても高くて、本当に美しいです。",
+          "km": "ប៉មនោះខ្ពស់ណាស់ សង្ហាដែរ។",
+          "ko": "저 탑은 정말 높고 아주 아름다워요.",
+          "ne": "त्यो मीनार धेरै अग्लो छ, साँच्चै सुन्दर छ।",
+          "pt": "Aquela torre é muito alta, é muito bonita.",
+          "th": "หอนั้นสูงมาก สวยงามดีเลย",
+          "tl": "Ang tore na iyon ay napakataas, napakaganda.",
+          "ur": "وہ مینار بہت اونچا ہے، واقعی بہت خوبصورت ہے۔",
+          "vi": "Cái tháp đó rất cao, đẹp lắm.",
+          "zh": "那座塔很高，真的很美。",
+          "zh_Hant": "那座塔很高，真的很美。"
+        },
+        "out_of_scope_words": [
+          "ສູງ",
+          "ສວຍງາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a tall traditional Southeast Asian tower or library hall building with a pointed roof, standing alone against a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເກດ": {
+    "definitions": {
+      "de": "Ein gebräuchlicher laotischer Vorname; als eigenständiges Wort hat es begrenzte Verwendung außerhalb von Personennamen",
+      "en": "A common Lao given name; as a standalone word it has limited use outside of personal names, though it can relate to a type of lotus or water plant",
+      "es": "Un nombre propio lao común; como palabra independiente tiene uso limitado fuera de los nombres personales, aunque puede referirse a un tipo de loto o planta acuática",
+      "fr": "Un prénom lao courant; en tant que mot autonome, il a une utilisation limitée en dehors des prénoms, bien qu'il puisse désigner un type de lotus ou de plante aquatique",
+      "hi": "एक सामान्य लाओ नाम; स्वतंत्र शब्द के रूप में इसका उपयोग व्यक्तिगत नामों के बाहर सीमित है, हालांकि यह एक प्रकार के कमल या जलीय पौधे से भी संबंधित हो सकता है",
+      "ja": "一般的なラオスの人名；単独の単語としては人名以外での使用は限られているが、蓮の一種や水草を指すこともある",
+      "km": "ឈ្មោះដែលប្រើជាទូទៅក្នុងភាសាឡាវ; ជាពាក្យឯករាជ្យ វាមានការប្រើប្រាស់កំណត់ក្រៅពីឈ្មោះបុគ្គល ទោះបីជាអាចទាក់ទងនឹងប្រភេទផ្កាឈូករ ឬរុក្ខជាតិទឹកក៏ដោយ",
+      "ko": "라오스에서 흔히 쓰이는 이름; 단독 단어로는 인명 외 사용이 제한적이나, 특정 연꽃이나 수생식물을 가리키기도 함",
+      "ne": "एउटा सामान्य लाओ नाम; स्वतन्त्र शब्दको रूपमा व्यक्तिगत नामबाहिर यसको प्रयोग सीमित छ, यद्यपि यो एक प्रकारको कमल वा जलीय बिरुवासँग पनि सम्बन्धित हुन सक्छ",
+      "pt": "Um nome próprio lao comum; como palavra independente tem uso limitado fora de nomes pessoais, embora possa se referir a um tipo de lótus ou planta aquática",
+      "th": "ชื่อที่ใช้กันทั่วไปในภาษาลาว; ในฐานะคำเดี่ยวมีการใช้งานจำกัดนอกเหนือจากชื่อบุคคล แต่อาจหมายถึงพืชน้ำหรือบัวชนิดหนึ่ง",
+      "tl": "Isang karaniwang pangalan ng tao sa Lao; bilang isang salitang nagsasarili, limitado ang paggamit nito sa labas ng mga personal na pangalan, bagaman maaari itong tumukoy sa isang uri ng lotus o halamang-tubig",
+      "ur": "ایک عام لاؤ نام؛ بطور آزاد لفظ ذاتی ناموں سے باہر اس کا استعمال محدود ہے، اگرچہ یہ ایک قسم کے کنول یا آبی پودے سے بھی متعلق ہو سکتا ہے",
+      "vi": "Một tên riêng phổ biến trong tiếng Lào; là từ đơn lẻ, nó có ít cách dùng ngoài tên người, dù đôi khi có thể chỉ một loại sen hay cây thủy sinh",
+      "zh": "常见的老挝人名；作为独立词汇，在人名之外的使用十分有限，但也可能与某种莲花或水生植物有关",
+      "zh_Hant": "常見的老撾人名；作為獨立詞彙，在人名之外的使用十分有限，但也可能與某種蓮花或水生植物有關"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kéet",
+    "examples": [
+      {
+        "lao_script": "ເກດເປັນຊື່ທີ່ຄົນລາວໃຊ້ຫຼາຍ",
+        "romanization": "kéet pen sùu thîi khon láo sâi lǎai",
+        "translations": {
+          "de": "Keet ist ein Name, den viele Laoten verwenden.",
+          "en": "Keet is a name that many Lao people use.",
+          "es": "Keet es un nombre que muchos laotianos usan.",
+          "fr": "Keet est un prénom que beaucoup de Laotiens utilisent.",
+          "hi": "केट एक ऐसा नाम है जिसे बहुत सारे लाओ लोग उपयोग करते हैं।",
+          "ja": "ケートはラオス人がよく使う名前です。",
+          "km": "Keet គឺជាឈ្មោះដែលជនជាតិឡាវប្រើជាច្រើន។",
+          "ko": "Keet는 라오스 사람들이 많이 쓰는 이름이에요.",
+          "ne": "केट एउटा नाम हो जुन धेरै लाओ मानिसहरूले प्रयोग गर्छन्।",
+          "pt": "Keet é um nome que muitos laocianos usam.",
+          "th": "เกดเป็นชื่อที่คนลาวใช้กันเยอะ",
+          "tl": "Ang Keet ay isang pangalang maraming Lao ang gumagamit.",
+          "ur": "کیت ایک ایسا نام ہے جسے بہت سے لاؤ لوگ استعمال کرتے ہیں۔",
+          "vi": "Keet là một cái tên được nhiều người Lào sử dụng.",
+          "zh": "凯特是很多老挝人常用的名字。",
+          "zh_Hant": "凱特是很多老撾人常用的名字。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ຄົນລາວ",
+          "ໃຊ້"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາເອີ້ນລາວວ່າ ເກດ",
+        "romanization": "hao ʔəən láo wâa kéet",
+        "translations": {
+          "de": "Wir nennen ihn/sie Keet.",
+          "en": "We call him/her Keet.",
+          "es": "Le llamamos Keet.",
+          "fr": "Nous l'appelons Keet.",
+          "hi": "हम उसे केट कहते हैं।",
+          "ja": "私たちは彼/彼女をケートと呼んでいます。",
+          "km": "យើងហៅគាត់ថា Keet ។",
+          "ko": "우리는 그/그녀를 케트라고 불러요.",
+          "ne": "हामी उसलाई केट भन्छौं।",
+          "pt": "Nós a/o chamamos de Keet.",
+          "th": "เราเรียกเขา/เธอว่า เกด",
+          "tl": "Tinatawag namin siyang Keet.",
+          "ur": "ہم اسے کیت کہتے ہیں۔",
+          "vi": "Chúng tôi gọi anh/cô ấy là Keet.",
+          "zh": "我们叫他/她凯特。",
+          "zh_Hant": "我們叫他/她凱特。"
+        },
+        "out_of_scope_words": [
+          "ເຮົາ",
+          "ເອີ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or name card with the word 'Keet' written on it, decorated with a small lotus flower motif, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ເພງ": {
+    "definitions": {
+      "de": "Lied, Song; ein musikalisches Stück mit oder ohne Text",
+      "en": "Song; a piece of music, especially one with lyrics meant to be sung",
+      "es": "Canción; una pieza musical, especialmente con letra para ser cantada",
+      "fr": "Chanson; un morceau de musique, surtout avec des paroles destinées à être chantées",
+      "hi": "गाना, गीत; संगीत का एक टुकड़ा, विशेष रूप से जिसे गाया जाता है",
+      "ja": "歌；特に歌詞のある音楽の一曲",
+      "km": "បទចម្រៀង; ទំនុកតម្កើង ឬតន្ត្រី ជាពិសេសដែលមានពាក្យបទ",
+      "ko": "노래; 특히 가사가 있어 부르는 음악",
+      "ne": "गीत; एक संगीत टुक्रा, विशेष गरी बोलसहितको जुन गाइन्छ",
+      "pt": "Canção, música; uma peça musical, especialmente com letra para ser cantada",
+      "th": "เพลง; บทเพลงหรือดนตรี โดยเฉพาะที่มีเนื้อร้อง",
+      "tl": "Kanta; isang piraso ng musika, lalo na yung may mga salita na inaawitom",
+      "ur": "گانا، نغمہ؛ موسیقی کا ایک ٹکڑا، خاص طور پر جو گایا جاتا ہے",
+      "vi": "Bài hát, ca khúc; một tác phẩm âm nhạc, đặc biệt là có lời để hát",
+      "zh": "歌曲；一首音乐作品，尤指有歌词可以演唱的",
+      "zh_Hant": "歌曲；一首音樂作品，尤指有歌詞可以演唱的"
+    },
+    "part_of_speech": "noun",
+    "romanization": "phéeng",
+    "examples": [
+      {
+        "lao_script": "ເພງນີ້ເພິ່ນຫຼາຍ, ຂ້ອຍຊອບ",
+        "romanization": "phéeng níi phə̂n lǎai, khɔ̂i sɔ̂ɔp",
+        "translations": {
+          "de": "Dieses Lied ist sehr berühmt, ich mag es.",
+          "en": "This song is very popular, I like it.",
+          "es": "Esta canción es muy popular, me gusta.",
+          "fr": "Cette chanson est très populaire, je l'aime bien.",
+          "hi": "यह गाना बहुत लोकप्रिय है, मुझे पसंद है।",
+          "ja": "この歌はとても有名で、好きです。",
+          "km": "បទចម្រៀងនេះល្បីណាស់ ខ្ញុំចូលចិត្ត។",
+          "ko": "이 노래 엄청 유명해, 나 좋아해.",
+          "ne": "यो गीत धेरै लोकप्रिय छ, मलाई मन पर्छ।",
+          "pt": "Essa música é muito famosa, eu gosto.",
+          "th": "เพลงนี้ดังมาก ฉันชอบ",
+          "tl": "Ang kantang ito ay sikat na sikat, gusto ko.",
+          "ur": "یہ گانا بہت مشہور ہے، مجھے پسند ہے۔",
+          "vi": "Bài hát này nổi tiếng lắm, tôi thích.",
+          "zh": "这首歌很有名，我很喜欢。",
+          "zh_Hant": "這首歌很有名，我很喜歡。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ຊອບ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍຫຼິ້ນເພງນຶ່ງໃຫ້ຂ້ອຍແດ່",
+        "romanization": "suai lîn phéeng nəəng hâi khɔ̂i dɛ̀ɛ",
+        "translations": {
+          "de": "Spiel mir bitte ein Lied.",
+          "en": "Please play a song for me.",
+          "es": "Por favor, tócame una canción.",
+          "fr": "S'il te plaît, joue-moi une chanson.",
+          "hi": "कृपया मेरे लिए एक गाना बजाओ।",
+          "ja": "一曲弾いてください。",
+          "km": "សូមលេងបទចម្រៀងមួយឲ្យខ្ញុំផង។",
+          "ko": "나한테 노래 하나 틀어줘요.",
+          "ne": "कृपया मलाई एउटा गीत बजाइदिनुस्।",
+          "pt": "Por favor, toque uma música para mim.",
+          "th": "ช่วยเปิดเพลงให้หน่อยได้ไหม",
+          "tl": "Pakiplay naman ng isang kanta para sa akin.",
+          "ur": "برائے مہربانی میرے لیے ایک گانا بجائیں۔",
+          "vi": "Bạn hãy mở cho tôi nghe một bài hát.",
+          "zh": "请给我放一首歌吧。",
+          "zh_Hant": "請給我放一首歌吧。"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ຫຼິ້ນ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of colorful musical notes floating above a speaker or microphone, symbolizing a song being played, clean white background, vibrant and cheerful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

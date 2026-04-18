@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລູກ",
+  "definitions": {
+    "de": "Kind – ein junger Mensch; Sohn oder Tochter; auch als Zählwort für runde Objekte wie Früchte verwendet",
+    "en": "Child – a young person; one's son or daughter; also used as a classifier for round objects like fruit",
+    "es": "Hijo/hija; niño/niña – persona joven; también usado como clasificador para objetos redondos como frutas",
+    "fr": "Enfant; fils/fille – jeune personne; également utilisé comme classificateur pour des objets ronds comme les fruits",
+    "hi": "बच्चा; बेटा/बेटी – एक युवा व्यक्ति; गोल वस्तुओं जैसे फलों के लिए वर्गीकारक के रूप में भी प्रयुक्त",
+    "ja": "子ども・息子・娘 – 若い人; 丸い物（果物など）の数え方としても使われる",
+    "km": "កូន – មនុស្សវ័យក្មេង; កូនប្រុស ឬកូនស្រី; ប្រើជាលេខរៀបសម្រាប់វត្ថុមូលដូចផ្លែឈើ",
+    "ko": "아이; 자녀 – 어린 사람; 아들이나 딸; 과일 같은 둥근 물건의 분류사로도 사용",
+    "ne": "बच्चा; छोरा/छोरी – युवा व्यक्ति; फलफूल जस्ता गोलाकार वस्तुहरूको वर्गीकारकको रूपमा पनि प्रयोग हुन्छ",
+    "pt": "Filho/filha; criança – pessoa jovem; também usado como classificador para objetos redondos como frutas",
+    "th": "ลูก – เด็ก; ลูกชายหรือลูกสาว; ยังใช้เป็นลักษณนามสำหรับของกลม เช่น ผลไม้",
+    "tl": "Anak; bata – isang batang tao; anak na lalaki o babae; ginagamit din bilang pantukoy para sa mga bilugang bagay tulad ng prutas",
+    "ur": "بچہ؛ بیٹا/بیٹی – ایک کم عمر شخص؛ گول اشیاء جیسے پھلوں کے لیے درجہ بندی کے طور پر بھی استعمال",
+    "vi": "Con; đứa trẻ – người trẻ; con trai hoặc con gái; cũng dùng làm loại từ cho các vật tròn như trái cây",
+    "zh": "孩子；子女 – 年幼的人；儿子或女儿；也用作圆形物体如水果的量词",
+    "zh_Hant": "孩子；子女 – 年幼的人；兒子或女兒；也用作圓形物體如水果的量詞"
+  },
+  "definition_en": "Child – a young person; one's son or daughter; also used as a classifier for round objects like fruit",
+  "romanization": "/lûːk/",
+  "lao_examples": [
+    {
+      "lao_script": "ລູກຂອງຂ້ອຍຍັງນ້ອຍຢູ່",
+      "romanization": "luk khong khoi yang noi yu",
+      "translation_en": "My child is still young."
+    },
+    {
+      "lao_script": "ລູກຂອງເພື່ອນຂ້ອຍຮຽນເກັ່ງ",
+      "romanization": "luk khong pheuan khoi hian keng",
+      "translation_en": "My friend's child is a great student."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a happy young child with a big smile, wearing colorful clothes, standing with arms slightly outstretched in a cheerful pose, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

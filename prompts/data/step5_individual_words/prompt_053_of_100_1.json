@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສິງ",
+  "definitions": {
+    "de": "Löwe – auch bekannt als das Symbol auf dem Beer Lao Etikett",
+    "en": "Lion – also the iconic animal on the Beer Lao label",
+    "es": "León – también el animal icónico en la etiqueta de Beer Lao",
+    "fr": "Lion – aussi l'animal emblématique sur l'étiquette de Beer Lao",
+    "hi": "शेर – बियर लाओ के लेबल पर प्रतिष्ठित जानवर भी",
+    "ja": "ライオン – ビアラオのラベルにも描かれている象徴的な動物",
+    "km": "តោ – សត្វដែលស្គាល់ជាសញ្ញានៅលើស្លាក Beer Lao",
+    "ko": "사자 – 비어 라오 라벨의 상징적인 동물",
+    "ne": "सिंह – बियर लाओको लेबलमा भएको प्रतिष्ठित जनावर पनि",
+    "pt": "Leão – também o animal icônico no rótulo da Beer Lao",
+    "th": "สิงโต – สัตว์สัญลักษณ์บนฉลาก Beer Lao",
+    "tl": "Leon – ang iconic na hayop sa label ng Beer Lao",
+    "ur": "شیر – بیئر لاؤ کے لیبل پر موجود علامتی جانور",
+    "vi": "Sư tử – cũng là con vật biểu tượng trên nhãn bia Beer Lao",
+    "zh": "狮子 – 也是啤酒老挝标签上的标志性动物",
+    "zh_Hant": "獅子 – 也是啤酒寮國標籤上的標誌性動物"
+  },
+  "definition_en": "Lion – also the iconic animal on the Beer Lao label",
+  "romanization": "/sǐŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເບຍສິງອັນນີ້ເຢັນດີ ດື່ມໄດ້ເລີຍ",
+      "romanization": "bia sing an nii yen dii, deum dai loei",
+      "translation_en": "This Beer Lao is really cold, we can drink it right away."
+    },
+    {
+      "lao_script": "ຮູບສິງຢູ່ເທິງຂວດເບຍສວຍຫຼາຍ",
+      "romanization": "hup sing yuu thoeng khuat bia suai laai",
+      "translation_en": "The lion picture on the beer bottle is really beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a proud golden lion sitting upright, with a green Beer Lao bottle placed next to it for cultural context, clean white background, colorful minimalist style suitable for a language learning app."
+}

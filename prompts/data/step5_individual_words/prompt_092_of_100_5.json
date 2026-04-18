@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢວນ",
+  "definitions": {
+    "de": "Yuon; ein ethnisches Exonym, das in Laos traditionell für Vietnamesen verwendet wird; kann je nach Kontext als informell oder abwertend empfunden werden",
+    "en": "Yuon; an ethnonym traditionally used in Laos to refer to Vietnamese people; may be considered informal or offensive depending on context",
+    "es": "Yuon; un etnónimo utilizado tradicionalmente en Laos para referirse a los vietnamitas; puede considerarse informal u ofensivo según el contexto",
+    "fr": "Yuon; un ethnonyme utilisé traditionnellement au Laos pour désigner les Vietnamiens; peut être considéré comme informel ou offensant selon le contexte",
+    "hi": "युओन; लाओस में वियतनामी लोगों को संदर्भित करने के लिए पारंपरिक रूप से उपयोग किया जाने वाला एक जातीय नाम; संदर्भ के अनुसार अनौपचारिक या आपत्तिजनक माना जा सकता है",
+    "ja": "ユオン；ラオスでベトナム人を指すために伝統的に使われる民族名称；文脈によっては非公式または侮辱的と見なされる場合がある",
+    "km": "យួន; ពាក្យប្រើហៅជនជាតិវៀតណាមដែលប្រើប្រាស់ប្រពៃណីនៅឡាវ; អាចចាត់ទុកជាពាក្យក្រៅផ្លូវការឬប្រមាថអាស្រ័យលើបរិបទ",
+    "ko": "유온; 라오스에서 전통적으로 베트남 사람을 지칭하는 민족명; 맥락에 따라 비공식적이거나 모욕적으로 여겨질 수 있음",
+    "ne": "युओन; लाओसमा भियतनामी मानिसहरूलाई सम्बोधन गर्न परम्परागत रूपमा प्रयोग गरिने जातीय नाम; सन्दर्भ अनुसार अनौपचारिक वा अपमानजनक मानिन सक्छ",
+    "pt": "Yuon; um etnônimo usado tradicionalmente no Laos para se referir aos vietnamitas; pode ser considerado informal ou ofensivo dependendo do contexto",
+    "th": "ยวน; ชื่อเรียกชาติพันธุ์ที่ใช้ในลาวเพื่อหมายถึงชาวเวียดนาม; อาจถือว่าไม่เป็นทางการหรือดูถูกได้ขึ้นอยู่กับบริบท",
+    "tl": "Yuon; isang etnonimong tradisyonal na ginagamit sa Laos para sa mga Vietnamese; maaaring ituring na impormal o nakakasakit depende sa konteksto",
+    "ur": "یوون؛ لاؤس میں ویتنامیوں کو روایتی طور پر کہنے کے لیے استعمال ہونے والا نسلی نام؛ سیاق و سباق کے لحاظ سے غیر رسمی یا توہین آمیز سمجھا جا سکتا ہے",
+    "vi": "Duon/Yuon; một tộc danh truyền thống ở Lào dùng để chỉ người Việt Nam; có thể bị coi là không chính thức hoặc mang tính xúc phạm tùy theo ngữ cảnh",
+    "zh": "越人；老挝传统上用来称呼越南人的民族名称；根据语境可能被视为非正式或带有冒犯性",
+    "zh_Hant": "越人；老撾傳統上用來稱呼越南人的民族名稱；根據語境可能被視為非正式或帶有冒犯性"
+  },
+  "definition_en": "Yuon; an ethnonym traditionally used in Laos to refer to Vietnamese people; may be considered informal or offensive depending on context",
+  "romanization": "/ñúan/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂ້ອຍຄົນໜຶ່ງເປັນຢວນ",
+      "romanization": "phûuan khɔ̂ɔj khón nùung pen ñúan",
+      "translation_en": "One of my friends is Vietnamese."
+    },
+    {
+      "lao_script": "ອາຫານຢວນແຊບຫຼາຍ",
+      "romanization": "ʔaa-hǎan ñúan sɛ̂ɛp lǎaj",
+      "translation_en": "Vietnamese food is very delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a Vietnamese-style bowl of pho noodle soup with chopsticks and fresh herbs, representing Vietnamese culture and food, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

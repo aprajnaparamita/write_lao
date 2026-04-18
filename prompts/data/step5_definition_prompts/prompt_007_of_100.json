@@ -1,0 +1,367 @@
+{
+  "ຈາກ": {
+    "definitions": {
+      "de": "von/aus (Quelle/Herkunft); trennen/sich trennen",
+      "en": "from (source/origin); to depart/separate",
+      "es": "de/desde (origen/fuente); partir/separarse",
+      "fr": "de/depuis (origine/source); partir/se séparer",
+      "hi": "से (स्रोत/मूल); छोड़ना/बिछड़ना",
+      "ja": "〜から／離れる（出発点または別れ）",
+      "km": "ពី／ចាកចេញ (ប្រភព ឬចេញឆ្ងាយ)",
+      "ko": "~에서／떠나다 (출발점 또는 이별)",
+      "ne": "बाट／छुट्टिनु (स्रोत वा बिदा)",
+      "pt": "de/desde (origem); partir/separar-se",
+      "th": "จาก (มาจาก หรือจากไป)",
+      "tl": "galing sa／mula sa／umalis (pinagmulan o paghihiwalay)",
+      "ur": "سے؛ رخصت ہونا (منبع یا علیحدگی)",
+      "vi": "từ; rời khỏi (nguồn gốc hoặc rời đi)",
+      "zh": "从／离开（来源或离别）",
+      "zh_Hant": "從／離開（來源或離別）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "càːk",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ມາ ຈາກ ອາເມລິກາ",
+        "romanization": "kʰɔ̂ːj máː càːk ʔàː.méː.líʔ.kàː",
+        "translations": {
+          "de": "Ich komme aus Amerika.",
+          "en": "I'm from America.",
+          "es": "Soy de Estados Unidos.",
+          "fr": "Je viens des États-Unis.",
+          "hi": "मैं अमेरिका से हूँ।",
+          "ja": "私はアメリカから来ました。",
+          "km": "ខ្ញុំមកពីអាមេរិក។",
+          "ko": "저는 미국에서 왔어요.",
+          "ne": "म अमेरिकाबाट आएको हुँ।",
+          "pt": "Eu sou dos Estados Unidos.",
+          "th": "ฉันมาจากอเมริกา",
+          "tl": "Galing ako sa Amerika.",
+          "ur": "میں امریکہ سے ہوں۔",
+          "vi": "Tôi đến từ Mỹ.",
+          "zh": "我来自美国。",
+          "zh_Hant": "我來自美國。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ອາເມລິກາ"]
+      },
+      {
+        "lao_script": "ລາວ ຈາກ ໄປ ແລ້ວ",
+        "romanization": "láːw càːk pàj lɛ̂ːw",
+        "translations": {
+          "de": "Er/Sie ist schon weggegangen.",
+          "en": "He/She has already left.",
+          "es": "Él/Ella ya se fue.",
+          "fr": "Il/Elle est déjà parti(e).",
+          "hi": "वह पहले ही चला गया।",
+          "ja": "彼／彼女はもう去りました。",
+          "km": "គាត់បានចាកចេញហើយ។",
+          "ko": "그/그녀는 벌써 떠났어요.",
+          "ne": "उहाँ पहिले नै गइसक्नुभयो।",
+          "pt": "Ele/Ela já partiu.",
+          "th": "เขาจากไปแล้ว",
+          "tl": "Umalis na siya.",
+          "ur": "وہ چلا گیا ہے۔",
+          "vi": "Anh/chị ấy đã đi rồi.",
+          "zh": "他/她已经离开了。",
+          "zh_Hant": "他/她已經離開了。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an arrow leaving a labeled location point, representing origin or departure, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄປ": {
+    "definitions": {
+      "de": "gehen; sich bewegen; (nach Verb) weg (direktionaler Marker)",
+      "en": "to go; to move; (after verb) away (directional marker)",
+      "es": "ir; moverse; (tras verbo) alejarse (marcador direccional)",
+      "fr": "aller; se déplacer; (après un verbe) s'éloigner (marqueur directionnel)",
+      "hi": "जाना; चलना; (क्रिया के बाद) दूर (दिशावाचक)",
+      "ja": "行く／動く（動詞の後で'離れる'を示す補助動詞）",
+      "km": "ទៅ／ធ្វើដំណើរ (ឈ្នាប់ទិសដៅ)",
+      "ne": "जानु／(क्रियापछि) 'टाढा' दिशासूचक",
+      "ko": "가다／(동사 뒤에서) 떠나가다 (방향 표지)",
+      "pt": "ir; mover-se; (depois do verbo) embora (marcador direcional)",
+      "th": "ไป (เคลื่อนที่ออกจากผู้พูด หรือคำบอกทิศ)",
+      "tl": "pumunta／lumayo (pagkilos o direksyon palayo)",
+      "ur": "جانا؛ (فعل کے بعد) چلے جانا (سمت کی علامت)",
+      "vi": "đi; (sau động từ) đi xa (dấu hiệu hướng)",
+      "zh": "去／走／（动词后）'去了'（方向标记）",
+      "zh_Hant": "去／走／（動詞後）「去了」（方向標記）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pàj",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ໄປ ໂຮງຮຽນ",
+        "romanization": "kʰɔ̂ːj pàj hóːŋ.híːən",
+        "translations": {
+          "de": "Ich gehe zur Schule.",
+          "en": "I'm going to school.",
+          "es": "Voy a la escuela.",
+          "fr": "Je vais à l'école.",
+          "hi": "मैं स्कूल जा रहा हूँ।",
+          "ja": "私は学校に行きます。",
+          "km": "ខ្ញុំទៅសាលា។",
+          "ko": "저는 학교에 가요.",
+          "ne": "म विद्यालय जान्छु।",
+          "pt": "Eu vou para a escola.",
+          "th": "ฉันไปโรงเรียน",
+          "tl": "Pupunta ako sa paaralan.",
+          "ur": "میں اسکول جا رہا ہوں۔",
+          "vi": "Tôi đi học.",
+          "zh": "我去学校。",
+          "zh_Hant": "我去學校。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ໂຮງຮຽນ"]
+      },
+      {
+        "lao_script": "ເອົາ ຂວດ ນ້ຳ ໄປ ກິນ",
+        "romanization": "ʔàw kʰùːət nâːm pàj kìn",
+        "translations": {
+          "de": "Nimm die Wasserflasche mit zum Trinken.",
+          "en": "Take the water bottle to drink.",
+          "es": "Lleva la botella de agua para beber.",
+          "fr": "Emporte la bouteille d'eau pour boire.",
+          "hi": "पानी की बोतल पीने के लिए ले जाओ।",
+          "ja": "水のボトルを飲むために持っていって。",
+          "km": "យកដបទឹកទៅផឹក។",
+          "ko": "물병을 가져가서 마셔요.",
+          "ne": "पानीको बोतल पिउन लैजाऊ।",
+          "pt": "Leva a garrafa de água para beber.",
+          "th": "เอาขวดน้ำไปกิน",
+          "tl": "Dalhin mo ang bote ng tubig para inumin.",
+          "ur": "پانی کی بوتل پینے کے لیے لے جاؤ۔",
+          "vi": "Mang chai nước đi uống.",
+          "zh": "把水瓶带去喝。",
+          "zh_Hant": "把水瓶帶去喝。"
+        },
+        "out_of_scope_words": ["ຂວດ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon figure walking to the right with a directional arrow, representing going or movement away, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກັບ": {
+    "definitions": {
+      "de": "mit/und (Präposition); zurückkehren (Verb)",
+      "en": "with/and (preposition); to return/go back (verb)",
+      "es": "con/y (preposición); volver/regresar (verbo)",
+      "fr": "avec/et (préposition); retourner/revenir (verbe)",
+      "hi": "के साथ (पूर्वसर्ग); लौटना (क्रिया)",
+      "ja": "〜と（〜と一緒に）／戻る",
+      "km": "ជាមួយ／ត្រឡប់ (បុព្វបទ ឬកិរិយា 'ត្រឡប់មកវិញ')",
+      "ne": "सँग／फर्कनु (साथमा वा फर्केर आउनु)",
+      "ko": "~와／돌아가다 (전치사 또는 동사 '돌아가다')",
+      "pt": "com/e (preposição); voltar (verbo)",
+      "th": "กับ／กลับ (คำบุพบทหรือกริยา 'กลับ')",
+      "tl": "kasama／bumalik (pang-ukol o pandiwang 'bumalik')",
+      "ur": "کے ساتھ؛ واپس آنا (حرفِ جر یا فعل 'لوٹنا')",
+      "vi": "với; trở về (giới từ hoặc động từ 'quay lại')",
+      "zh": "和／跟／回（介词或动词'返回')",
+      "zh_Hant": "和／跟／回（介詞或動詞「返回」）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "káp",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ໄປ ກັບ ເພື່ອນ",
+        "romanization": "kʰɔ̂ːj pàj káp pʰɯ̄ːən",
+        "translations": {
+          "de": "Ich gehe mit einem Freund.",
+          "en": "I'm going with a friend.",
+          "es": "Voy con un amigo.",
+          "fr": "Je pars avec un ami.",
+          "hi": "मैं दोस्त के साथ जा रहा हूँ।",
+          "ja": "友達と一緒に行きます。",
+          "km": "ខ្ញុំទៅជាមួយមិត្តភក្តិ។",
+          "ko": "저는 친구와 같이 가요.",
+          "ne": "म साथीसँग जान्छु।",
+          "pt": "Eu vou com um amigo.",
+          "th": "ฉันไปกับเพื่อน",
+          "tl": "Kasama ko ang kaibigan ko.",
+          "ur": "میں دوست کے ساتھ جا رہا ہوں۔",
+          "vi": "Tôi đi với bạn.",
+          "zh": "我和朋友一起去。",
+          "zh_Hant": "我和朋友一起去。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ລາວ ກັບ ບ້ານ ແລ້ວ",
+        "romanization": "láːw káp bâːn lɛ̂ːw",
+        "translations": {
+          "de": "Er/Sie ist schon nach Hause zurück.",
+          "en": "He/She has returned home.",
+          "es": "Él/Ella ya volvió a casa.",
+          "fr": "Il/Elle est déjà rentré(e) à la maison.",
+          "hi": "वह घर लौट आया है।",
+          "ja": "彼／彼女はもう家に帰りました。",
+          "km": "គាត់បានត្រឡប់ទៅផ្ទះហើយ។",
+          "ko": "그/그녀는 집에 돌아갔어요.",
+          "ne": "उहाँ घर फर्किसक्नुभयो।",
+          "pt": "Ele/Ela já voltou para casa.",
+          "th": "เขากลับบ้านแล้ว",
+          "tl": "Umuwi na siya.",
+          "ur": "وہ گھر واپس آ گیا ہے۔",
+          "vi": "Anh/chị ấy đã về nhà rồi.",
+          "zh": "他/她已经回家了。",
+          "zh_Hant": "他/她已經回家了。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two figures walking side by side connected by a bracket, representing togetherness, with a small return arrow nearby, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກັນ": {
+    "definitions": {
+      "de": "einander; gemeinsam (Reziprokpartikel)",
+      "en": "each other; together (reciprocal particle)",
+      "es": "el uno al otro; juntos (partícula recíproca)",
+      "fr": "l'un l'autre; ensemble (particule réciproque)",
+      "hi": "एक-दूसरे को; साथ में (आपसी क्रिया-सूचक)",
+      "ja": "互いに／一緒に（相互を表す助詞）",
+      "km": "គ្នា (បច្ច័យបង្ហាញភាពគ្នាទៅវិញទៅមក)",
+      "ko": "서로／함께 (상호를 나타내는 조사)",
+      "ne": "एकआपसमा／सँगै (आपसी क्रिया जनाउने)",
+      "pt": "um ao outro; juntos (partícula recíproca)",
+      "th": "กัน (คำเสริมบอกการกระทำร่วมกัน)",
+      "tl": "sa isa't isa／magkasama (pangatnig para sa pagkilos ng magkasama)",
+      "ur": "ایک دوسرے کو؛ ساتھ مل کر (باہم کا ذرّہ)",
+      "vi": "nhau; cùng nhau (tiểu từ tương hỗ)",
+      "zh": "互相／一起（表示相互的助词）",
+      "zh_Hant": "互相／一起（表示相互的助詞）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "kàn",
+    "examples": [
+      {
+        "lao_script": "ພວກ ເຮົາ ຮັກ ກັນ",
+        "romanization": "pʰùːək háw hāk kàn",
+        "translations": {
+          "de": "Wir lieben uns gegenseitig.",
+          "en": "We love each other.",
+          "es": "Nos queremos.",
+          "fr": "Nous nous aimons.",
+          "hi": "हम एक-दूसरे से प्यार करते हैं।",
+          "ja": "私たちは愛し合っています。",
+          "km": "ពួកយើងស្រលាញ់គ្នា។",
+          "ko": "우리는 서로 사랑해요.",
+          "ne": "हामी एकआपसमा माया गर्छौं।",
+          "pt": "Nós nos amamos.",
+          "th": "พวกเรารักกัน",
+          "tl": "Mahal namin ang isa't isa.",
+          "ur": "ہم ایک دوسرے سے محبت کرتے ہیں۔",
+          "vi": "Chúng tôi yêu nhau.",
+          "zh": "我们彼此相爱。",
+          "zh_Hant": "我們彼此相愛。"
+        },
+        "out_of_scope_words": ["ພວກ", "ເຮົາ"]
+      },
+      {
+        "lao_script": "ໄປ ກິນ ເຂົ້າ ນຳ ກັນ",
+        "romanization": "pàj kìn kʰȁw nám kàn",
+        "translations": {
+          "de": "Lass uns zusammen essen gehen.",
+          "en": "Let's go eat together.",
+          "es": "Vamos a comer juntos.",
+          "fr": "Allons manger ensemble.",
+          "hi": "चलो साथ में खाना खाते हैं।",
+          "ja": "一緒にご飯を食べに行こう。",
+          "km": "ទៅញ៉ាំបាយជាមួយគ្នា។",
+          "ko": "같이 밥 먹으러 가요.",
+          "ne": "सँगै भात खान जाऔं।",
+          "pt": "Vamos comer juntos.",
+          "th": "ไปกินข้าวด้วยกัน",
+          "tl": "Magkasabay tayong kumain.",
+          "ur": "آؤ مل کر کھانا کھائیں۔",
+          "vi": "Đi ăn cơm cùng nhau nào.",
+          "zh": "一起去吃饭吧。",
+          "zh_Hant": "一起去吃飯吧。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon figures holding hands in a circle gesture, representing mutual action, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄຳ": {
+    "definitions": {
+      "de": "Wort; Gold (Substantiv mit zwei Hauptbedeutungen: Wort/Ausdruck und Gold)",
+      "en": "word/phrase; gold (noun with two main senses: word/utterance and gold)",
+      "es": "palabra/expresión; oro (sustantivo con dos sentidos principales)",
+      "fr": "mot/parole; or (nom ayant deux sens principaux : parole et or)",
+      "hi": "शब्द/वचन; सोना (दो मुख्य अर्थ वाले संज्ञा)",
+      "ja": "言葉／金（言葉・金の二つの意味）",
+      "km": "ពាក្យ／មាស (នាមមានន័យពីរ: ពាក្យសម្ដី ឬមាស)",
+      "ko": "말／금 (말 또는 금, 두 가지 뜻의 명사)",
+      "ne": "शब्द／सुन (शब्द वा सुन अर्थको नाम)",
+      "pt": "palavra; ouro (substantivo com dois sentidos principais)",
+      "th": "คำ／ทอง (คำพูดหรือทองคำ)",
+      "tl": "salita／ginto (pangngalan na may dalawang pangunahing kahulugan)",
+      "ur": "لفظ؛ سونا (دو مفاہیم والا اسم)",
+      "vi": "lời/từ; vàng (danh từ với hai nghĩa chính)",
+      "zh": "字／词／金（字词或黄金）",
+      "zh_Hant": "字／詞／金（字詞或黃金）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰám",
+    "examples": [
+      {
+        "lao_script": "ຄຳ ນີ້ ແປ ວ່າ ຫຍັງ?",
+        "romanization": "kʰám nîː pɛ̀ː wāː ɲǎŋ",
+        "translations": {
+          "de": "Was bedeutet dieses Wort?",
+          "en": "What does this word mean?",
+          "es": "¿Qué significa esta palabra?",
+          "fr": "Que signifie ce mot ?",
+          "hi": "इस शब्द का मतलब क्या है?",
+          "ja": "この言葉はどういう意味ですか？",
+          "km": "ពាក្យនេះមានន័យយ៉ាងណា?",
+          "ko": "이 단어는 무슨 뜻이에요?",
+          "ne": "यो शब्दको अर्थ के हो?",
+          "pt": "O que significa esta palavra?",
+          "th": "คำนี้แปลว่าอะไร?",
+          "tl": "Ano ang ibig sabihin ng salitang ito?",
+          "ur": "اس لفظ کا کیا مطلب ہے؟",
+          "vi": "Từ này nghĩa là gì?",
+          "zh": "这个词是什么意思？",
+          "zh_Hant": "這個詞是什麼意思？"
+        },
+        "out_of_scope_words": ["ແປ", "ຫຍັງ"]
+      },
+      {
+        "lao_script": "ແຫວນ ຄຳ ສວຍ ຫຼາຍ",
+        "romanization": "wɛ̌ːn kʰám sǔːəj lǎːj",
+        "translations": {
+          "de": "Der Goldring ist sehr schön.",
+          "en": "The gold ring is very beautiful.",
+          "es": "El anillo de oro es muy bonito.",
+          "fr": "La bague en or est très belle.",
+          "hi": "सोने की अंगूठी बहुत सुंदर है।",
+          "ja": "金の指輪はとてもきれいです。",
+          "km": "ចិញ្ចៀនមាសស្អាតណាស់។",
+          "ko": "금반지가 아주 예뻐요.",
+          "ne": "सुनको औंठी धेरै राम्रो छ।",
+          "pt": "O anel de ouro é muito bonito.",
+          "th": "แหวนทองสวยมาก",
+          "tl": "Napakaganda ng gintong singsing.",
+          "ur": "سونے کی انگوٹھی بہت خوبصورت ہے۔",
+          "vi": "Chiếc nhẫn vàng rất đẹp.",
+          "zh": "金戒指很漂亮。",
+          "zh_Hant": "金戒指很漂亮。"
+        },
+        "out_of_scope_words": ["ແຫວນ", "ສວຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a speech bubble containing the letter A next to a small gold nugget, representing the dual meaning of 'word' and 'gold', suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

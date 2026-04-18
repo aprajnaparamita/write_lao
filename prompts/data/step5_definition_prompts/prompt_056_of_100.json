@@ -1,0 +1,409 @@
+{
+  "ສື່": {
+    "definitions": {
+      "de": "Medien; Kommunikationsmittel oder -kanal (z. B. soziale Medien, Nachrichtenmedien)",
+      "en": "Media; a means or channel of communication (e.g., social media, news media)",
+      "es": "Medios; un canal o medio de comunicación (p. ej., redes sociales, medios de noticias)",
+      "fr": "Média ; un moyen ou canal de communication (ex. : réseaux sociaux, médias d'information)",
+      "hi": "मीडिया; संचार का एक माध्यम या चैनल (जैसे सोशल मीडिया, समाचार मीडिया)",
+      "ja": "メディア；コミュニケーションの手段やチャンネル（例：ソーシャルメディア、ニュースメディア）",
+      "km": "មីឌៀ; មធ្យោបាយឬបណ្តាញទំនាក់ទំនង (ឧ. បណ្តាញសង្គម ព័ត៌មាន)",
+      "ko": "미디어; 소통의 수단 또는 채널 (예: 소셜 미디어, 뉴스 미디어)",
+      "ne": "मिडिया; सञ्चारको माध्यम वा च्यानल (जस्तै सामाजिक मिडिया, समाचार मिडिया)",
+      "pt": "Mídia; um meio ou canal de comunicação (ex.: redes sociais, mídia de notícias)",
+      "th": "สื่อ; ช่องทางหรือวิธีการสื่อสาร (เช่น โซเชียลมีเดีย, สื่อข่าว)",
+      "tl": "Media; isang paraan o channel ng komunikasyon (hal. social media, balita)",
+      "ur": "میڈیا؛ مواصلات کا ذریعہ یا چینل (مثلاً سوشل میڈیا، خبری میڈیا)",
+      "vi": "Phương tiện truyền thông; kênh hoặc phương tiện giao tiếp (ví dụ: mạng xã hội, truyền thông tin tức)",
+      "zh": "媒体；传播或通信的渠道（如社交媒体、新闻媒体）",
+      "zh_Hant": "媒體；傳播或通訊的渠道（如社交媒體、新聞媒體）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sɯː⁴/",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນໃຊ້ສື່ສັງຄົມທຸກວັນ",
+        "romanization": "phoen sai sɯː sang-khom thuk van",
+        "translations": {
+          "de": "Er/Sie benutzt jeden Tag soziale Medien.",
+          "en": "He/She uses social media every day.",
+          "es": "Él/Ella usa las redes sociales todos los días.",
+          "fr": "Il/Elle utilise les réseaux sociaux tous les jours.",
+          "hi": "वह हर दिन सोशल मीडिया का उपयोग करता/करती है।",
+          "ja": "彼/彼女は毎日ソーシャルメディアを使っています。",
+          "km": "គាត់ប្រើប្រាស់បណ្តាញសង្គមរាល់ថ្ងៃ។",
+          "ko": "그/그녀는 매일 소셜 미디어를 사용합니다.",
+          "ne": "उनी हरेक दिन सामाजिक मिडिया प्रयोग गर्छन्।",
+          "pt": "Ele/Ela usa as redes sociais todos os dias.",
+          "th": "เขา/เธอใช้โซเชียลมีเดียทุกวัน",
+          "tl": "Ginagamit niya ang social media araw-araw.",
+          "ur": "وہ ہر روز سوشل میڈیا استعمال کرتا/کرتی ہے۔",
+          "vi": "Anh ấy/Cô ấy dùng mạng xã hội mỗi ngày.",
+          "zh": "他/她每天都用社交媒体。",
+          "zh_Hant": "他/她每天都用社交媒體。"
+        },
+        "out_of_scope_words": [
+          "ສັງຄົມ",
+          "ທຸກວັນ",
+          "ໃຊ້",
+          "ເພິ່ນ"
+        ]
+      },
+      {
+        "lao_script": "ສື່ຂ່າວໃນລາວມີຫຼາຍຊ່ອງ",
+        "romanization": "sɯː khao nai lao mii laai song",
+        "translations": {
+          "de": "In Laos gibt es viele Nachrichtenkanäle.",
+          "en": "There are many news media channels in Laos.",
+          "es": "Hay muchos canales de medios de noticias en Laos.",
+          "fr": "Il y a beaucoup de chaînes médiatiques d'information au Laos.",
+          "hi": "लाओस में कई समाचार मीडिया चैनल हैं।",
+          "ja": "ラオスにはニュースメディアのチャンネルがたくさんあります。",
+          "km": "នៅឡាវមានបណ្តាញព័ត៌មានច្រើន។",
+          "ko": "라오스에는 뉴스 미디어 채널이 많이 있습니다.",
+          "ne": "लाओसमा धेरै समाचार मिडिया च्यानलहरू छन्।",
+          "pt": "Há muitos canais de mídia de notícias no Laos.",
+          "th": "ในลาวมีช่องสื่อข่าวหลายช่อง",
+          "tl": "Maraming channel ng news media sa Laos.",
+          "ur": "لاؤس میں بہت سارے خبری میڈیا چینل ہیں۔",
+          "vi": "Ở Lào có nhiều kênh truyền thông tin tức.",
+          "zh": "老挝有很多新闻媒体频道。",
+          "zh_Hant": "寮國有很多新聞媒體頻道。"
+        },
+        "out_of_scope_words": [
+          "ຂ່າວ",
+          "ຊ່ອງ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of various media icons — a newspaper, a smartphone showing a social media feed, and a television — arranged together on a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຊື່ອ": {
+    "definitions": {
+      "de": "Glauben; etwas für wahr halten oder jemandem vertrauen",
+      "en": "To believe; to accept something as true or to trust someone",
+      "es": "Creer; aceptar algo como verdadero o confiar en alguien",
+      "fr": "Croire ; accepter quelque chose comme vrai ou faire confiance à quelqu'un",
+      "hi": "विश्वास करना; किसी बात को सच मानना या किसी पर भरोसा करना",
+      "ja": "信じる；何かを真実として受け入れる、または誰かを信頼する",
+      "km": "ជឿ; ទទួលយកអ្វីមួយថាជាការពិត ឬទុកចិត្តលើអ្នកណាម្នាក់",
+      "ko": "믿다; 무언가를 사실로 받아들이거나 누군가를 신뢰하다",
+      "ne": "विश्वास गर्नु; कुनै कुरा सत्य मान्नु वा कसैलाई भरोसा गर्नु",
+      "pt": "Acreditar; aceitar algo como verdadeiro ou confiar em alguém",
+      "th": "เชื่อ; ยอมรับบางสิ่งว่าเป็นความจริง หรือไว้วางใจบางคน",
+      "tl": "Maniwala; tanggapin ang isang bagay bilang totoo o magtiwala sa isang tao",
+      "ur": "یقین کرنا؛ کسی بات کو سچ ماننا یا کسی پر بھروسہ کرنا",
+      "vi": "Tin; chấp nhận điều gì đó là thật hoặc tin tưởng vào ai đó",
+      "zh": "相信；认为某事是真的，或信任某人",
+      "zh_Hant": "相信；認為某事是真的，或信任某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sɯa³³/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍບໍ່ເຊື່ອວ່າລາວເວົ້າຄວາມຈິງ",
+        "romanization": "khoi bo sɯa waa lao wao khwam-sing",
+        "translations": {
+          "de": "Ich glaube nicht, dass er/sie die Wahrheit sagt.",
+          "en": "I don't believe that he/she is telling the truth.",
+          "es": "No creo que él/ella esté diciendo la verdad.",
+          "fr": "Je ne crois pas qu'il/elle dise la vérité.",
+          "hi": "मुझे नहीं लगता कि वह सच बोल रहा/रही है।",
+          "ja": "私は彼/彼女が本当のことを言っているとは思いません。",
+          "km": "ខ្ញុំមិនជឿថាគាត់និយាយការពិតទេ។",
+          "ko": "나는 그/그녀가 진실을 말하고 있다고 생각하지 않아.",
+          "ne": "मलाई विश्वास छैन कि उनी सत्य बोल्दैछन्।",
+          "pt": "Eu não acredito que ele/ela esteja dizendo a verdade.",
+          "th": "ฉันไม่เชื่อว่าเขา/เธอพูดความจริง",
+          "tl": "Hindi ako naniniwala na sinasabi niya ang katotohanan.",
+          "ur": "مجھے یقین نہیں کہ وہ سچ بول رہا/رہی ہے۔",
+          "vi": "Tôi không tin rằng anh ấy/cô ấy đang nói thật.",
+          "zh": "我不相信他/她说的是真话。",
+          "zh_Hant": "我不相信他/她說的是真話。"
+        },
+        "out_of_scope_words": [
+          "ຄວາມຈິງ",
+          "ເວົ້າ",
+          "ລາວ"
+        ]
+      },
+      {
+        "lao_script": "ເຊື່ອຂ້ອຍເດີ, ອາຫານຮ້ານນີ້ແຊບຫຼາຍ",
+        "romanization": "sɯa khoi doe, aa-haan haan nii saep laai",
+        "translations": {
+          "de": "Glaub mir, das Essen in diesem Restaurant ist sehr lecker.",
+          "en": "Believe me, the food at this restaurant is really delicious.",
+          "es": "Créeme, la comida de este restaurante está muy rica.",
+          "fr": "Crois-moi, la nourriture de ce restaurant est vraiment délicieuse.",
+          "hi": "मेरा यकीन करो, इस रेस्तरां का खाना बहुत स्वादिष्ट है।",
+          "ja": "信じて、このレストランの食べ物はすごくおいしいよ。",
+          "km": "ជឿខ្ញុំចុះ អាហារភោជនីយដ្ឋាននេះឆ្ងាញ់ណាស់។",
+          "ko": "나 믿어봐, 이 식당 음식이 정말 맛있어.",
+          "ne": "मलाई विश्वास गर, यो रेस्टुराँको खाना धेरै मिठो छ।",
+          "pt": "Acredita em mim, a comida deste restaurante é muito deliciosa.",
+          "th": "เชื่อฉันเถอะ อาหารร้านนี้อร่อยมาก",
+          "tl": "Maniwala ka sa akin, ang pagkain sa restaurant na ito ay napakasarap.",
+          "ur": "مجھ پر یقین کرو، اس ریستوران کا کھانا بہت لذیذ ہے۔",
+          "vi": "Tin tôi đi, đồ ăn ở nhà hàng này ngon lắm.",
+          "zh": "相信我，这家餐厅的食物真的很好吃。",
+          "zh_Hant": "相信我，這家餐廳的食物真的很好吃。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ຮ້ານ",
+          "ແຊບ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of one person nodding confidently with a thought bubble showing a glowing lightbulb or a checkmark, symbolizing belief or trust, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນອກ": {
+    "definitions": {
+      "de": "Draußen; außerhalb eines Raumes, Gebäudes oder Bereichs",
+      "en": "Outside; beyond or exterior to a place, building, or boundary",
+      "es": "Afuera; en el exterior de un lugar, edificio o límite",
+      "fr": "Dehors ; à l'extérieur d'un lieu, d'un bâtiment ou d'une limite",
+      "hi": "बाहर; किसी स्थान, इमारत या सीमा के बाहर",
+      "ja": "外；ある場所、建物、または境界の外側",
+      "km": "ខាងក្រៅ; នៅក្រៅទីកន្លែង អគារ ឬព្រំដែន",
+      "ko": "밖; 어떤 장소, 건물, 또는 경계의 외부",
+      "ne": "बाहिर; कुनै ठाउँ, भवन वा सीमाभन्दा बाहिर",
+      "pt": "Fora; exterior a um lugar, edifício ou limite",
+      "th": "ข้างนอก; ภายนอกของสถานที่ อาคาร หรือขอบเขต",
+      "tl": "Sa labas; nasa labas ng isang lugar, gusali, o hangganan",
+      "ur": "باہر؛ کسی جگہ، عمارت یا حد کے خارج میں",
+      "vi": "Bên ngoài; ở phía ngoài của một nơi, tòa nhà, hoặc ranh giới",
+      "zh": "外面；在某个地方、建筑物或边界的外部",
+      "zh_Hant": "外面；在某個地方、建築物或邊界的外部"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "/nɔːk⁵/",
+    "examples": [
+      {
+        "lao_script": "ອາກາດນອກເຢັນຫຼາຍ, ໃສ່ເສື້ອກັນໜາວດ້ວຍ",
+        "romanization": "aa-kaat nɔːk yen laai, sai sɯa kan nao duai",
+        "translations": {
+          "de": "Draußen ist es sehr kalt, zieh einen Pullover an.",
+          "en": "It's very cold outside, put on a jacket too.",
+          "es": "Afuera hace mucho frío, ponte también una chaqueta.",
+          "fr": "Il fait très froid dehors, mets aussi une veste.",
+          "hi": "बाहर बहुत ठंड है, जैकेट भी पहन लो।",
+          "ja": "外はとても寒いから、上着も着てね。",
+          "km": "ខាងក្រៅត្រជាក់ណាស់ ត្រូវពាក់អាវក្រៅផងដែរ។",
+          "ko": "밖이 많이 추우니까 재킷도 입어.",
+          "ne": "बाहिर धेरै चिसो छ, ज्याकेट पनि लगाउनु।",
+          "pt": "Lá fora está muito frio, coloca um casaco também.",
+          "th": "ข้างนอกหนาวมาก ใส่เสื้อกันหนาวด้วยนะ",
+          "tl": "Napakaginaw sa labas, magsuot ka rin ng jacket.",
+          "ur": "باہر بہت سردی ہے، جیکٹ بھی پہن لو۔",
+          "vi": "Bên ngoài lạnh lắm, mặc thêm áo khoác vào.",
+          "zh": "外面很冷，也穿上外套吧。",
+          "zh_Hant": "外面很冷，也穿上外套吧。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ",
+          "ເຢັນ",
+          "ເສື້ອກັນໜາວ",
+          "ໃສ່"
+        ]
+      },
+      {
+        "lao_script": "ລໍຖ້າຢູ່ນອກກ່ອນເດີ້",
+        "romanization": "lo thaa yuu nɔːk kon doe",
+        "translations": {
+          "de": "Warte erstmal draußen.",
+          "en": "Wait outside first, okay.",
+          "es": "Espera afuera primero, ¿de acuerdo?",
+          "fr": "Attends dehors d'abord, d'accord.",
+          "hi": "पहले बाहर इंतज़ार करो, ठीक है।",
+          "ja": "まず外で待っててね。",
+          "km": "រង់ចាំនៅខាងក្រៅសិនណា។",
+          "ko": "일단 밖에서 기다려.",
+          "ne": "पहिले बाहिर पर्खनु, है।",
+          "pt": "Espera lá fora primeiro, tá?",
+          "th": "รอข้างนอกก่อนนะ",
+          "tl": "Maghintay ka muna sa labas, ha.",
+          "ur": "پہلے باہر انتظار کرو۔",
+          "vi": "Đợi ở ngoài trước nhé.",
+          "zh": "先在外面等一下哦。",
+          "zh_Hant": "先在外面等一下哦。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ກ່ອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing outside a house near an open door, with a clear distinction between the indoor and outdoor space, bright sunshine outside, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບອກ": {
+    "definitions": {
+      "de": "Sagen, mitteilen; jemandem etwas erzählen oder informieren",
+      "en": "To tell; to inform or communicate something to someone",
+      "es": "Decir, informar; comunicar algo a alguien",
+      "fr": "Dire, informer ; communiquer quelque chose à quelqu'un",
+      "hi": "बताना; किसी को कुछ सूचित करना या कहना",
+      "ja": "言う、教える；誰かに何かを伝える、知らせる",
+      "km": "ប្រាប់; ជូនដំណឹង ឬប្រាស្រ័យទាក់ទងអ្វីមួយដល់អ្នកណាម្នាក់",
+      "ko": "말하다, 알리다; 누군가에게 무언가를 전달하거나 알리다",
+      "ne": "बताउनु; कसैलाई केही जानकारी दिनु वा भन्नु",
+      "pt": "Dizer, contar; informar ou comunicar algo a alguém",
+      "th": "บอก; แจ้งหรือสื่อสารบางสิ่งให้กับใครสักคน",
+      "tl": "Sabihin, ipaalam; iparating o iulat ang isang bagay sa isang tao",
+      "ur": "بتانا؛ کسی کو کچھ بتانا یا آگاہ کرنا",
+      "vi": "Nói, cho biết; thông báo hoặc truyền đạt điều gì đó cho ai đó",
+      "zh": "告诉；将某事通知或传达给某人",
+      "zh_Hant": "告訴；將某事通知或傳達給某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/bɔːk⁵/",
+    "examples": [
+      {
+        "lao_script": "ບອກຂ້ອຍແມ່ນແລ້ວ, ເຈົ້າໄປໃສ?",
+        "romanization": "bɔːk khoi men laeo, jao pai sai",
+        "translations": {
+          "de": "Sag mir doch, wo bist du hingegangen?",
+          "en": "Just tell me, where did you go?",
+          "es": "Dime de una vez, ¿a dónde fuiste?",
+          "fr": "Dis-moi franchement, où es-tu allé(e) ?",
+          "hi": "बस मुझे बताओ, तुम कहाँ गए थे?",
+          "ja": "正直に言って、どこに行ったの？",
+          "km": "ប្រាប់ខ្ញុំផងចុះ អ្នកទៅណា?",
+          "ko": "그냥 나한테 말해, 어디 갔어?",
+          "ne": "मलाई नै भन, तिमी कहाँ गएका थियौ?",
+          "pt": "Me fala logo, onde você foi?",
+          "th": "บอกฉันเลยนะ ไปไหนมา",
+          "tl": "Sabihin mo na sa akin, saan ka pumunta?",
+          "ur": "مجھے بتاؤ تو سہی، تم کہاں گئے تھے؟",
+          "vi": "Cứ nói cho tôi biết đi, bạn đã đi đâu vậy?",
+          "zh": "就告诉我吧，你去哪儿了？",
+          "zh_Hant": "就告訴我吧，你去哪兒了？"
+        },
+        "out_of_scope_words": [
+          "ແມ່ນແລ້ວ",
+          "ໄປ",
+          "ໃສ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າລືມບອກແມ່ດ້ວຍນະ",
+        "romanization": "yaa leum bɔːk mae duai na",
+        "translations": {
+          "de": "Vergiss nicht, es auch deiner Mutter zu sagen.",
+          "en": "Don't forget to tell mom too.",
+          "es": "No olvides decírselo a mamá también.",
+          "fr": "N'oublie pas de le dire à maman aussi.",
+          "hi": "माँ को भी बताना मत भूलना।",
+          "ja": "お母さんにも忘れずに言ってね。",
+          "km": "កុំភ្លេចប្រាប់ម៉ាក់ផងណា។",
+          "ko": "엄마한테도 꼭 말해줘.",
+          "ne": "आमालाई पनि भन्न नबिर्सनु है।",
+          "pt": "Não esquece de contar pra mamãe também.",
+          "th": "อย่าลืมบอกแม่ด้วยนะ",
+          "tl": "Huwag kalimutang sabihin sa nanay ha.",
+          "ur": "امی کو بتانا مت بھولنا۔",
+          "vi": "Đừng quên nói với mẹ nhé.",
+          "zh": "别忘了也告诉妈妈哦。",
+          "zh_Hant": "別忘了也告訴媽媽哦。"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ລືມ",
+          "ແມ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of one person speaking to another, with a speech bubble coming from their mouth, both characters looking engaged in conversation, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອ່ານ": {
+    "definitions": {
+      "de": "Lesen; Wörter oder Texte betrachten und verstehen",
+      "en": "To read; to look at and understand written words or text",
+      "es": "Leer; mirar y entender palabras o textos escritos",
+      "fr": "Lire ; regarder et comprendre des mots ou des textes écrits",
+      "hi": "पढ़ना; लिखे हुए शब्दों या पाठ को देखकर समझना",
+      "ja": "読む；書かれた言葉やテキストを見て理解する",
+      "km": "អាន; មើល និងយល់ពាក្យ ឬអត្ថបទដែលបានសរសេរ",
+      "ko": "읽다; 쓰인 글자나 텍스트를 보고 이해하다",
+      "ne": "पढ्नु; लेखिएका शब्द वा पाठ हेरेर बुझ्नु",
+      "pt": "Ler; olhar e entender palavras ou textos escritos",
+      "th": "อ่าน; มองและทำความเข้าใจคำหรือข้อความที่เขียนไว้",
+      "tl": "Magbasa; tingnan at unawain ang mga nakasulat na salita o teksto",
+      "ur": "پڑھنا؛ لکھے ہوئے الفاظ یا متن کو دیکھ کر سمجھنا",
+      "vi": "Đọc; nhìn và hiểu các từ hoặc văn bản được viết ra",
+      "zh": "读，阅读；看懂书写的文字或文本",
+      "zh_Hant": "讀，閱讀；看懂書寫的文字或文本"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔaːn²²/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຊອບອ່ານໜັງສືກ່ອນນອນ",
+        "romanization": "khoi sop ʔaːn nang-seu kon non",
+        "translations": {
+          "de": "Ich lese gerne vor dem Schlafen Bücher.",
+          "en": "I like to read books before sleeping.",
+          "es": "Me gusta leer libros antes de dormir.",
+          "fr": "J'aime lire des livres avant de dormir.",
+          "hi": "मुझे सोने से पहले किताबें पढ़ना पसंद है।",
+          "ja": "私は寝る前に本を読むのが好きです。",
+          "km": "ខ្ញុំចូលចិត្តអានសៀវភៅមុននឹងគេង។",
+          "ko": "나는 자기 전에 책 읽는 걸 좋아해.",
+          "ne": "मलाई सुत्नु अघि किताब पढ्न मन पर्छ।",
+          "pt": "Eu gosto de ler livros antes de dormir.",
+          "th": "ฉันชอบอ่านหนังสือก่อนนอน",
+          "tl": "Mahilig akong magbasa ng libro bago matulog.",
+          "ur": "مجھے سونے سے پہلے کتابیں پڑھنا پسند ہے۔",
+          "vi": "Tôi thích đọc sách trước khi ngủ.",
+          "zh": "我喜欢睡前读书。",
+          "zh_Hant": "我喜歡睡前讀書。"
+        },
+        "out_of_scope_words": [
+          "ຊອບ",
+          "ໜັງສື",
+          "ກ່ອນນອນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າອ່ານຂໍ້ຄວາມນີ້ໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ?",
+        "romanization": "jao ʔaːn khok-khwam nii hai khoi dae dai bo",
+        "translations": {
+          "de": "Kannst du mir diese Nachricht vorlesen?",
+          "en": "Can you read this message to me?",
+          "es": "¿Puedes leerme este mensaje?",
+          "fr": "Tu peux me lire ce message ?",
+          "hi": "क्या तुम यह संदेश मुझे पढ़कर सुना सकते हो?",
+          "ja": "このメッセージを読んでくれる？",
+          "km": "តើអ្នកអានសារនេះឱ្យខ្ញុំបានទេ?",
+          "ko": "이 메시지 나한테 읽어줄 수 있어?",
+          "ne": "के तिमी यो सन्देश मलाई पढेर सुनाउन सक्छौ?",
+          "pt": "Você consegue ler essa mensagem pra mim?",
+          "th": "อ่านข้อความนี้ให้ฉันหน่อยได้ไหม",
+          "tl": "Mababasa mo ba ang mensaheng ito para sa akin?",
+          "ur": "کیا تم یہ پیغام مجھے پڑھ کر سنا سکتے ہو؟",
+          "vi": "Bạn có thể đọc tin nhắn này cho tôi nghe không?",
+          "zh": "你能帮我读一下这条消息吗？",
+          "zh_Hant": "你能幫我讀一下這條訊息嗎？"
+        },
+        "out_of_scope_words": [
+          "ຂໍ້ຄວາມ",
+          "ໃຫ້",
+          "ໄດ້ບໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting comfortably and reading an open book, with a small smile on their face, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

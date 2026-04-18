@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແມັດ",
+  "definitions": {
+    "de": "Meter; eine Maßeinheit der Länge im metrischen System (1 Meter = 100 Zentimeter)",
+    "en": "meter (metre); a unit of length in the metric system equal to 100 centimeters",
+    "es": "metro; una unidad de longitud del sistema métrico igual a 100 centímetros",
+    "fr": "mètre; une unité de longueur du système métrique égale à 100 centimètres",
+    "hi": "मीटर; मेट्रिक प्रणाली में लंबाई की एक इकाई जो 100 सेंटीमीटर के बराबर है",
+    "ja": "メートル；メートル法の長さの単位、100センチメートルに相当する",
+    "km": "ម៉ែត្រ; ឯកតានៃប្រវែងក្នុងប្រព័ន្ធម៉ែត្រ ស្មើនឹង ១០០ សង់ទីម៉ែត្រ",
+    "ko": "미터; 미터법의 길이 단위로 100센티미터와 같음",
+    "ne": "मिटर; मेट्रिक प्रणालीमा लम्बाइको एकाइ जुन १०० सेन्टिमिटर बराबर हो",
+    "pt": "metro; uma unidade de comprimento no sistema métrico igual a 100 centímetros",
+    "th": "เมตร; หน่วยวัดความยาวในระบบเมตริกซึ่งเท่ากับ 100 เซนติเมตร",
+    "tl": "metro; isang yunit ng haba sa sistemang metriko na katumbas ng 100 sentimetro",
+    "ur": "میٹر؛ میٹرک نظام میں لمبائی کی ایک اکائی جو 100 سینٹی میٹر کے برابر ہے",
+    "vi": "mét; đơn vị đo chiều dài trong hệ mét, bằng 100 xentimét",
+    "zh": "米；公制长度单位，等于100厘米",
+    "zh_Hant": "米；公制長度單位，等於100公分"
+  },
+  "definition_en": "meter (metre); a unit of length in the metric system equal to 100 centimeters",
+  "romanization": "/mɛːt/",
+  "lao_examples": [
+    {
+      "lao_script": "ຫ້ອງນີ້ກວ້າງສີ່ແມັດ",
+      "romanization": "hong nii kwang sii maet",
+      "translation_en": "This room is four meters wide."
+    },
+    {
+      "lao_script": "ລາວສູງເກືອບສອງແມັດ",
+      "romanization": "lao suung kuap song maet",
+      "translation_en": "He is almost two meters tall."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a measuring tape or ruler clearly showing a one-meter length with the label '1m', suitable for a language learning app, clean white background, bold colors, minimalist educational style."
+}

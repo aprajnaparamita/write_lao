@@ -1,0 +1,404 @@
+{
+  "ກຽດ": {
+    "definitions": {
+      "de": "Ehre, Ansehen, Prestige – das soziale Ansehen oder die Würde einer Person",
+      "en": "Honor, prestige, or dignity – the respect and esteem one holds in society",
+      "es": "Honor, prestigio o dignidad – el respeto y estima que una persona tiene en la sociedad",
+      "fr": "Honneur, prestige ou dignité – le respect et l'estime qu'une personne détient dans la société",
+      "hi": "सम्मान, प्रतिष्ठा या गरिमा – समाज में किसी व्यक्ति को मिलने वाला आदर और सम्मान",
+      "ja": "名誉、威信、品位 – 社会における人の尊敬や評価",
+      "km": "កិត្តិយស កេរ្តិ៍ឈ្មោះ ឬសេចក្តីថ្លៃថ្នូរ – ការគោរពនិងការកោតសរសើររបស់មនុស្សម្នាក់នៅក្នុងសង្គម",
+      "ko": "명예, 위신, 품위 – 사회에서 한 사람이 가지는 존경과 존중",
+      "ne": "सम्मान, प्रतिष्ठा वा मर्यादा – समाजमा कुनै व्यक्तिले पाउने आदर र सम्मान",
+      "pt": "Honra, prestígio ou dignidade – o respeito e a estima que uma pessoa detém na sociedade",
+      "th": "เกียรติ ศักดิ์ศรี หรือความมีหน้ามีตา – ความเคารพนับถือและชื่อเสียงที่บุคคลมีในสังคม",
+      "tl": "Karangalan, prestihiyo, o dignidad – ang paggalang at pagpapahalaga sa isang tao sa lipunan",
+      "ur": "عزت، وقار یا وجاہت – معاشرے میں کسی شخص کو حاصل احترام اور قدر",
+      "vi": "Danh dự, uy tín hoặc phẩm giá – sự tôn trọng và kính nể mà một người có được trong xã hội",
+      "zh": "荣誉、声望或尊严——一个人在社会中所拥有的尊重与威望",
+      "zh_Hant": "榮譽、聲望或尊嚴——一個人在社會中所擁有的尊重與威望"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kìat/",
+    "examples": [
+      {
+        "lao_script": "ລາວຮັກສາກຽດຂອງຄອບຄົວໄວ້ສະເໝີ",
+        "romanization": "lao hak saa kìat khong khop khua wai sa-moe",
+        "translations": {
+          "de": "Er/Sie bewahrt immer die Ehre der Familie.",
+          "en": "He/She always maintains the family's honor.",
+          "es": "Él/Ella siempre mantiene el honor de la familia.",
+          "fr": "Il/Elle préserve toujours l'honneur de la famille.",
+          "hi": "वह हमेशा परिवार की इज्जत बनाए रखता/रखती है।",
+          "ja": "彼/彼女はいつも家族の名誉を守っている。",
+          "km": "គាត់តែងតែថែរក្សាកិត្តិយសរបស់គ្រួសារ។",
+          "ko": "그/그녀는 항상 가족의 명예를 지킨다.",
+          "ne": "उसले सधैं परिवारको इज्जत राख्छ/राख्छे।",
+          "pt": "Ele/Ela sempre preserva a honra da família.",
+          "th": "เขา/เธอรักษาเกียรติของครอบครัวเสมอ",
+          "tl": "Palagi niyang pinapanatili ang karangalan ng kanyang pamilya.",
+          "ur": "وہ ہمیشہ خاندان کی عزت کی حفاظت کرتا/کرتی ہے۔",
+          "vi": "Anh/Cô ấy luôn giữ gìn danh dự của gia đình.",
+          "zh": "他/她总是维护家族的荣誉。",
+          "zh_Hant": "他/她總是維護家族的榮譽。"
+        },
+        "out_of_scope_words": [
+          "ຮັກສາ",
+          "ຄອບຄົວ",
+          "ສະເໝີ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າເຮັດໃຫ້ກຽດຂອງເຮົາເສຍເດີ້",
+        "romanization": "yaa het hai kìat khong hao sia doe",
+        "translations": {
+          "de": "Tu nichts, was unsere Ehre beschädigt, okay?",
+          "en": "Don't do anything to ruin our honor, okay?",
+          "es": "No hagas nada que arruine nuestro honor, ¿de acuerdo?",
+          "fr": "Ne fais rien qui porte atteinte à notre honneur, d'accord ?",
+          "hi": "कुछ ऐसा मत करो जो हमारी इज्जत खराब करे, ठीक है?",
+          "ja": "俺たちの名誉を傷つけるようなことはしないでくれよ。",
+          "km": "កុំធ្វើអ្វីដែលបំផ្លាញកិត្តិយសរបស់យើងទាំងអស់គ្នានេះ។",
+          "ko": "우리 명예를 망치는 짓은 하지 마, 알았지?",
+          "ne": "हाम्रो इज्जत बिगार्ने काम नगर है।",
+          "pt": "Não faça nada para arruinar nossa honra, tá?",
+          "th": "อย่าทำอะไรให้เสียเกียรติของเรานะ",
+          "tl": "Huwag kang gumawa ng anumang makakasira sa ating karangalan, ha?",
+          "ur": "ہماری عزت کو نقصان پہنچانے والا کوئی کام مت کرنا۔",
+          "vi": "Đừng làm gì để mất đi danh dự của chúng ta nhé.",
+          "zh": "不要做任何有损我们荣誉的事，知道吗？",
+          "zh_Hant": "不要做任何有損我們榮譽的事，知道嗎？"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ເສຍ",
+          "ເດີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a golden medal or trophy with a glowing aura symbolizing honor and prestige, clean white background, warm gold and yellow tones, minimalist style suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ກິດ": {
+    "definitions": {
+      "de": "Aktivität oder Tätigkeit – wird hauptsächlich in der Verbindung ກິດຈະກຳ (Aktivitäten/Tätigkeiten) verwendet",
+      "en": "Activity or task – primarily used in the compound word ກິດຈະກຳ (activities/undertakings)",
+      "es": "Actividad o tarea – se usa principalmente en el compuesto ກິດຈະກຳ (actividades/tareas)",
+      "fr": "Activité ou tâche – principalement utilisé dans le mot composé ກິດຈະກຳ (activités/entreprises)",
+      "hi": "गतिविधि या कार्य – मुख्य रूप से समास शब्द ກິດຈະກຳ (गतिविधियाँ/कार्य) में प्रयुक्त",
+      "ja": "活動や業務 – 主に複合語 ກິດຈະກຳ（活動・事業）の中で使われる",
+      "km": "សកម្មភាព ឬកិច្ចការ – ប្រើជាចម្បងក្នុងពាក្យផ្សំ ກິດຈະກຳ (សកម្មភាព/ការងារ)",
+      "ko": "활동 또는 업무 – 주로 복합어 ກິດຈະກຳ (활동/사업)에서 사용됨",
+      "ne": "गतिविधि वा काम – मुख्यतः समास शब्द ກິດຈະກຳ (गतिविधि/कार्य) मा प्रयोग हुन्छ",
+      "pt": "Atividade ou tarefa – usado principalmente no composto ກິດຈະກຳ (atividades/empreendimentos)",
+      "th": "กิจกรรมหรืองาน – ส่วนใหญ่ใช้ในคำประสม ກິດຈະກຳ (กิจกรรม/งาน)",
+      "tl": "Aktibidad o gawain – pangunahing ginagamit sa salitang tambalan na ກິດຈະກຳ (mga aktibidad/gawain)",
+      "ur": "سرگرمی یا کام – بنیادی طور پر مرکب لفظ ກິດຈະກຳ (سرگرمیاں/کاموں) میں استعمال ہوتا ہے",
+      "vi": "Hoạt động hoặc công việc – chủ yếu được dùng trong từ ghép ກິດຈະກຳ (các hoạt động/công việc)",
+      "zh": "活动或任务——主要用于复合词 ກິດຈະກຳ（活动/事务）中",
+      "zh_Hant": "活動或任務——主要用於複合詞 ກິດຈະກຳ（活動/事務）中"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kít/",
+    "examples": [
+      {
+        "lao_script": "ກິດຈະກຳຂອງໂຮງຮຽນມີຫຼາຍຢ່າງເລີຍ",
+        "romanization": "kít-ja-kam khong hong hian mii laai yaang loei",
+        "translations": {
+          "de": "Die Schule hat wirklich viele Aktivitäten.",
+          "en": "The school has so many activities.",
+          "es": "La escuela tiene muchísimas actividades.",
+          "fr": "L'école a vraiment beaucoup d'activités.",
+          "hi": "स्कूल में बहुत सारी गतिविधियाँ हैं।",
+          "ja": "学校には本当にたくさんの活動がある。",
+          "km": "សាលារៀននេះមានសកម្មភាពច្រើនណាស់។",
+          "ko": "학교에 활동이 정말 많다.",
+          "ne": "विद्यालयमा धेरै गतिविधिहरू छन्।",
+          "pt": "A escola tem muitas atividades.",
+          "th": "โรงเรียนมีกิจกรรมเยอะมากเลย",
+          "tl": "Napakaraming aktibidad sa paaralan.",
+          "ur": "اسکول میں بہت ساری سرگرمیاں ہیں۔",
+          "vi": "Trường học có rất nhiều hoạt động.",
+          "zh": "学校有好多活动。",
+          "zh_Hant": "學校有好多活動。"
+        },
+        "out_of_scope_words": [
+          "ກິດຈະກຳ",
+          "ໂຮງຮຽນ",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ມີກິດຈະກຳຫຍັງແດ່?",
+        "romanization": "mue nii mii kít-ja-kam nyang dae?",
+        "translations": {
+          "de": "Was für Aktivitäten gibt es heute?",
+          "en": "What activities are there today?",
+          "es": "¿Qué actividades hay hoy?",
+          "fr": "Quelles activités y a-t-il aujourd'hui ?",
+          "hi": "आज कौन-कौन सी गतिविधियाँ हैं?",
+          "ja": "今日はどんな活動があるの？",
+          "km": "ថ្ងៃនេះមានសកម្មភាពអ្វីខ្លះ?",
+          "ko": "오늘 무슨 활동이 있어?",
+          "ne": "आज के-के गतिविधिहरू छन्?",
+          "pt": "Que atividades tem hoje?",
+          "th": "วันนี้มีกิจกรรมอะไรบ้าง?",
+          "tl": "Anong mga aktibidad ang mayroon ngayon?",
+          "ur": "آج کیا کیا سرگرمیاں ہیں؟",
+          "vi": "Hôm nay có những hoạt động gì vậy?",
+          "zh": "今天有什么活动？",
+          "zh_Hant": "今天有什麼活動？"
+        },
+        "out_of_scope_words": [
+          "ກິດຈະກຳ",
+          "ມື້ນີ້",
+          "ຫຍັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a group of colorful icons representing different activities such as sports, art, and reading arranged in a circle, clean white background, bright cheerful colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂໍ້": {
+    "definitions": {
+      "de": "Gelenk, Klausel, Punkt oder Abschnitt – bezeichnet einen Knoten, ein Gelenk am Körper, oder wird als Zählwort für Punkte, Artikel und Klauseln in einem Dokument verwendet",
+      "en": "Joint, clause, item, or point – refers to a knuckle or joint of the body, or used as a classifier for items, clauses, and points in a list or document",
+      "es": "Articulación, cláusula, punto o ítem – se refiere a un nudillo o articulación del cuerpo, o se usa como clasificador para puntos, artículos y cláusulas en una lista o documento",
+      "fr": "Articulation, clause, point ou article – désigne un nœud ou une articulation du corps, ou utilisé comme classificateur pour les points, articles et clauses dans une liste ou un document",
+      "hi": "जोड़, खंड, मद या बिंदु – शरीर के जोड़ या गाँठ को संदर्भित करता है, या किसी सूची या दस्तावेज़ में बिंदुओं, धाराओं और मदों के लिए वर्गीकरण के रूप में प्रयुक्त",
+      "ja": "関節、条項、項目、またはポイント – 体の関節や節を指すか、リストや文書の項目・条項のための類別詞として使われる",
+      "km": "ข้อต่อ ចំណុច ឬប្រការ – សំដៅទៅលើข้อต่อឬ​ថ្នាំ​ងារ​ក្នុងរាងកាយ ឬប្រើជាលេខប្រយោគសម្រាប់ចំណុច​ ​ប្រការ​ ​និងបទបញ្ញត្តិ​ក្នុងឯកសារ",
+      "ko": "관절, 조항, 항목 또는 요점 – 신체의 관절이나 마디를 가리키거나, 목록이나 문서의 항목, 조항을 세는 분류사로 사용됨",
+      "ne": "जोर्नी, खण्ड, मद वा बुँदा – शरीरको जोर्नी वा गाँठोलाई जनाउँछ, वा सूची वा कागजातमा बुँदाहरू, धाराहरू र मदहरूको लागि वर्गीकरण शब्दको रूपमा प्रयुक्त",
+      "pt": "Articulação, cláusula, item ou ponto – refere-se a uma articulação do corpo, ou usado como classificador para itens, cláusulas e pontos em uma lista ou documento",
+      "th": "ข้อต่อ ข้อความ หัวข้อ หรือรายการ – หมายถึงข้อต่อหรือข้อนิ้วของร่างกาย หรือใช้เป็นลักษณนามสำหรับหัวข้อ ข้อความ และข้อกำหนดในเอกสาร",
+      "tl": "Kasukasuan, sugnay, aytem, o punto – tumutukoy sa kasukasuan o buhol ng katawan, o ginagamit bilang panluri para sa mga aytem, sugnay, at punto sa isang listahan o dokumento",
+      "ur": "جوڑ، شق، آئٹم یا نکتہ – جسم کے جوڑ یا گرہ کو ظاہر کرتا ہے، یا کسی فہرست یا دستاویز میں نکات، شقوں اور آئٹمز کے لیے شمارک کے طور پر استعمال ہوتا ہے",
+      "vi": "Khớp, điều khoản, mục hoặc điểm – chỉ khớp xương hoặc đốt ngón tay của cơ thể, hoặc dùng như lượng từ cho các mục, điều khoản và điểm trong danh sách hoặc tài liệu",
+      "zh": "关节、条款、项目或要点——指身体的关节或指节，或用作清单或文件中条目、条款和要点的量词",
+      "zh_Hant": "關節、條款、項目或要點——指身體的關節或指節，或用作清單或文件中條目、條款和要點的量詞"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "/khɔ̂:/",
+    "examples": [
+      {
+        "lao_script": "ສັນຍາມີສາມຂໍ້ທີ່ສຳຄັນ",
+        "romanization": "san-nyaa mii saam khɔ̂: thii sam-khan",
+        "translations": {
+          "de": "Der Vertrag hat drei wichtige Punkte/Klauseln.",
+          "en": "The contract has three important clauses.",
+          "es": "El contrato tiene tres cláusulas importantes.",
+          "fr": "Le contrat comporte trois clauses importantes.",
+          "hi": "अनुबंध में तीन महत्वपूर्ण धाराएँ हैं।",
+          "ja": "契約書には重要な条項が三つある。",
+          "km": "កិច្ចសន្យានេះមានប្រការសំខាន់បីចំណុច។",
+          "ko": "계약서에는 중요한 조항이 세 가지 있다.",
+          "ne": "सम्झौतामा तीनवटा महत्त्वपूर्ण धाराहरू छन्।",
+          "pt": "O contrato tem três cláusulas importantes.",
+          "th": "สัญญามีสามข้อที่สำคัญ",
+          "tl": "Ang kontrata ay may tatlong mahahalagang sugnay.",
+          "ur": "معاہدے میں تین اہم شقیں ہیں۔",
+          "vi": "Hợp đồng có ba điều khoản quan trọng.",
+          "zh": "合同有三条重要条款。",
+          "zh_Hant": "合約有三條重要條款。"
+        },
+        "out_of_scope_words": [
+          "ສັນຍາ",
+          "ສຳຄັນ"
+        ]
+      },
+      {
+        "lao_script": "ຂໍ້ນິ້ວມືຂອງລາວເຈັບຫຼາຍ",
+        "romanization": "khɔ̂: niu mue khong lao jep laai",
+        "translations": {
+          "de": "Seine/Ihre Fingerknöchel tun sehr weh.",
+          "en": "His/Her finger joints hurt a lot.",
+          "es": "Sus nudillos le duelen mucho.",
+          "fr": "Ses articulations des doigts lui font très mal.",
+          "hi": "उसकी उँगलियों के जोड़ बहुत दर्द कर रहे हैं।",
+          "ja": "彼/彼女の指の関節がとても痛い。",
+          "km": "ข้อนิ้វដៃរបស់គាត់ឈឺខ្លាំងណាស់។",
+          "ko": "그/그녀의 손가락 관절이 많이 아프다.",
+          "ne": "उसको औंलाको जोर्नी धेरै दुख्छ।",
+          "pt": "As articulações dos dedos dele/dela doem muito.",
+          "th": "ข้อนิ้วมือของเขา/เธอเจ็บมาก",
+          "tl": "Masakit na masakit ang mga kasukasuan ng kanyang mga daliri.",
+          "ur": "اس کی انگلیوں کے جوڑ بہت دردناک ہیں۔",
+          "vi": "Các đốt ngón tay của anh/cô ấy rất đau.",
+          "zh": "他/她的手指关节很痛。",
+          "zh_Hant": "他/她的手指關節很痛。"
+        },
+        "out_of_scope_words": [
+          "ນິ້ວ",
+          "ເຈັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two images side by side: a human hand with a highlighted finger joint glowing in blue, and a numbered list with three bullet points on a piece of paper, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄ່າ": {
+    "definitions": {
+      "de": "Preis, Wert oder Gebühr – bezeichnet den Geldwert einer Ware oder Dienstleistung; auch im übertragenen Sinne für den Wert von etwas",
+      "en": "Price, value, or fee – refers to the monetary cost of a good or service; also used figuratively for the worth or value of something",
+      "es": "Precio, valor o tarifa – se refiere al costo monetario de un bien o servicio; también se usa figurativamente para el valor de algo",
+      "fr": "Prix, valeur ou frais – désigne le coût monétaire d'un bien ou d'un service ; aussi utilisé au sens figuré pour la valeur de quelque chose",
+      "hi": "मूल्य, कीमत या शुल्क – किसी वस्तु या सेवा की मौद्रिक लागत; आलंकारिक रूप से किसी चीज़ के मूल्य के लिए भी प्रयुक्त",
+      "ja": "価格、価値、または料金 – 商品やサービスの金銭的なコスト；比喩的に何かの価値を表すためにも使われる",
+      "km": "តម្លៃ ឬថ្លៃ – សំដៅទៅលើតម្លៃជាប្រាក់នៃទំនិញឬសេវាកម្ម ក៏ប្រើផ្នែកអាត្ថន័យផ្ទៃក្នុងសម្រាប់គុណតម្លៃរបស់អ្វីមួយ",
+      "ko": "가격, 가치 또는 요금 – 상품이나 서비스의 금전적 비용; 비유적으로 무언가의 가치를 나타내기도 함",
+      "ne": "मूल्य, कीमत वा शुल्क – कुनै वस्तु वा सेवाको मौद्रिक लागत; लाक्षणिक रूपमा कुनै चीजको मूल्यको लागि पनि प्रयुक्त",
+      "pt": "Preço, valor ou taxa – refere-se ao custo monetário de um bem ou serviço; também usado figurativamente para o valor de algo",
+      "th": "ราคา ค่าใช้จ่าย หรือมูลค่า – หมายถึงต้นทุนเป็นตัวเงินของสินค้าหรือบริการ ใช้ในเชิงอุปมาสำหรับคุณค่าของบางสิ่งด้วย",
+      "tl": "Presyo, halaga, o bayad – tumutukoy sa gastos na pera ng isang kalakal o serbisyo; ginagamit din sa matalinhagang paraan para sa halaga ng isang bagay",
+      "ur": "قیمت، قدر، یا فیس – کسی چیز یا خدمت کی مالی لاگت؛ مجازی طور پر کسی چیز کی قدر و قیمت کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Giá cả, giá trị hoặc phí – chỉ chi phí bằng tiền của hàng hóa hoặc dịch vụ; cũng được dùng theo nghĩa bóng cho giá trị của điều gì đó",
+      "zh": "价格、价值或费用——指商品或服务的货币成本；也比喻性地用于某事物的价值",
+      "zh_Hant": "價格、價值或費用——指商品或服務的貨幣成本；也比喻性地用於某事物的價值"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/khâː/",
+    "examples": [
+      {
+        "lao_script": "ຄ່ານີ້ແພງໂພດ ຊື້ບໍ່ໄດ້ຫຼາຍ",
+        "romanization": "khâː nii phaeng phot sue bɔ̀ː dai laai",
+        "translations": {
+          "de": "Dieser Preis ist so teuer, ich kann mir nicht viel leisten.",
+          "en": "This price is so expensive, I can't buy much.",
+          "es": "Este precio es tan caro, no puedo comprar mucho.",
+          "fr": "Ce prix est si cher, je ne peux pas en acheter beaucoup.",
+          "hi": "यह कीमत बहुत महंगी है, मैं ज़्यादा नहीं खरीद सकता/सकती।",
+          "ja": "この値段は高すぎて、たくさん買えない。",
+          "km": "តម្លៃនេះថ្លៃណាស់ ខ្ញុំមិនអាចទិញបានច្រើនទេ។",
+          "ko": "이 가격은 너무 비싸서 많이 살 수가 없어.",
+          "ne": "यो मूल्य एकदम महँगो छ, धेरै किन्न सकिँदैन।",
+          "pt": "Esse preço é caro demais, não consigo comprar muito.",
+          "th": "ราคานี้แพงมากเลย ซื้อไม่ได้เยอะหรอก",
+          "tl": "Napakamahal ng presyong ito, hindi ako makakabili ng marami.",
+          "ur": "یہ قیمت بہت مہنگی ہے، زیادہ خریدنا ممکن نہیں۔",
+          "vi": "Giá này đắt quá, tôi không mua được nhiều đâu.",
+          "zh": "这个价格太贵了，买不了多少。",
+          "zh_Hant": "這個價格太貴了，買不了多少。"
+        },
+        "out_of_scope_words": [
+          "ແພງ",
+          "ໂພດ",
+          "ຊື້"
+        ]
+      },
+      {
+        "lao_script": "ຄ່າໄຟເດືອນນີ້ສູງຂຶ້ນອີກແລ້ວ",
+        "romanization": "khâː fai duan nii suung khuen iik laew",
+        "translations": {
+          "de": "Die Stromrechnung ist diesen Monat wieder gestiegen.",
+          "en": "The electricity bill has gone up again this month.",
+          "es": "La factura de electricidad ha subido de nuevo este mes.",
+          "fr": "La facture d'électricité a encore augmenté ce mois-ci.",
+          "hi": "इस महीने बिजली का बिल फिर बढ़ गया।",
+          "ja": "今月また電気代が上がった。",
+          "km": "ថ្លៃអគ្គិសនីខែនេះឡើងទៀតហើយ។",
+          "ko": "이번 달 전기 요금이 또 올랐어.",
+          "ne": "यो महिना बिजुलीको बिल फेरि बढ्यो।",
+          "pt": "A conta de luz subiu de novo este mês.",
+          "th": "ค่าไฟเดือนนี้ขึ้นอีกแล้ว",
+          "tl": "Umakyat na naman ang bayad sa kuryente ngayong buwan.",
+          "ur": "اس مہینے بجلی کا بل پھر بڑھ گیا۔",
+          "vi": "Tiền điện tháng này lại tăng rồi.",
+          "zh": "这个月电费又涨了。",
+          "zh_Hant": "這個月電費又漲了。"
+        },
+        "out_of_scope_words": [
+          "ຄ່າໄຟ",
+          "ເດືອນ",
+          "ສູງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a price tag with a currency symbol and numbers on it, hanging on a colorful item in a market setting, clean white background, bright and cheerful colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂັ້ນ": {
+    "definitions": {
+      "de": "Stufe, Ebene oder Schritt – bezeichnet eine Stufe auf einer Treppe, ein Level in einer Hierarchie oder einen Schritt in einem Prozess",
+      "en": "Level, step, or rung – refers to a step on a staircase, a level in a hierarchy, or a stage in a process",
+      "es": "Nivel, peldaño o etapa – se refiere a un escalón en una escalera, un nivel en una jerarquía o una etapa en un proceso",
+      "fr": "Niveau, marche ou échelon – désigne une marche d'escalier, un niveau dans une hiérarchie ou une étape dans un processus",
+      "hi": "स्तर, सीढ़ी या चरण – सीढ़ी की एक पायदान, पदानुक्रम में एक स्तर, या किसी प्रक्रिया के एक चरण को संदर्भित करता है",
+      "ja": "段、レベル、またはステップ – 階段の段、階層内のレベル、またはプロセスのステージを指す",
+      "km": "កម្រិត ជំហាន ឬថ្នាក់ – សំដៅទៅលើថ្នាក់ជណ្ដើរ កម្រិតក្នុងឋានានុក្រម ឬដំណាក់កាលក្នុងដំណើរការ",
+      "ko": "단계, 레벨 또는 계단 – 계단의 한 칸, 위계 내의 레벨, 또는 과정의 단계를 가리킴",
+      "ne": "स्तर, सिँढी वा चरण – भर्‍याङको एउटा खुड्किलो, पदसोपानमा एक स्तर, वा प्रक्रियाको एक चरणलाई जनाउँछ",
+      "pt": "Nível, degrau ou etapa – refere-se a um degrau de escada, um nível em uma hierarquia ou uma etapa em um processo",
+      "th": "ขั้น ระดับ หรือขั้นตอน – หมายถึงขั้นบันได ระดับในลำดับชั้น หรือขั้นตอนในกระบวนการ",
+      "tl": "Antas, hakbang, o baytang – tumutukoy sa isang baytang ng hagdan, isang antas sa isang hierarchy, o isang yugto sa isang proseso",
+      "ur": "سطح، قدم، یا زینہ – سیڑھی کی ایک سیڑھی، درجہ بندی میں ایک سطح، یا کسی عمل میں ایک مرحلے کو ظاہر کرتا ہے",
+      "vi": "Cấp độ, bậc hoặc bước – chỉ một bậc thang, một cấp trong hệ thống phân cấp, hoặc một giai đoạn trong quá trình",
+      "zh": "级别、阶梯或步骤——指楼梯上的一级台阶、层级中的一个等级，或流程中的一个阶段",
+      "zh_Hant": "級別、階梯或步驟——指樓梯上的一級台階、層級中的一個等級，或流程中的一個階段"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/khân/",
+    "examples": [
+      {
+        "lao_script": "ລາວຮຽນລາວຂັ້ນກາງແລ້ວ",
+        "romanization": "lao hian lao khân kaang laew",
+        "translations": {
+          "de": "Er/Sie lernt bereits Lao auf mittlerem Niveau.",
+          "en": "He/She is already studying Lao at the intermediate level.",
+          "es": "Él/Ella ya estudia lao en el nivel intermedio.",
+          "fr": "Il/Elle étudie déjà le laotien au niveau intermédiaire.",
+          "hi": "वह पहले से ही मध्यवर्ती स्तर पर लाओ भाषा सीख रहा/रही है।",
+          "ja": "彼/彼女はすでに中級レベルのラオス語を学んでいる。",
+          "km": "គាត់​រៀន​ភាសា​ឡាវ​ចំណេះ​ជំនាញ​កម្រិត​មធ្យម​ហើយ។",
+          "ko": "그/그녀는 이미 중급 라오어를 배우고 있어.",
+          "ne": "उसले मध्यम स्तरमा लाओ भाषा सिकिसक्यो।",
+          "pt": "Ele/Ela já está estudando lao no nível intermediário.",
+          "th": "เขา/เธอเรียนภาษาลาวขั้นกลางแล้ว",
+          "tl": "Nag-aaral na siya ng Lao sa intermediate na antas.",
+          "ur": "وہ پہلے سے ہی درمیانی سطح پر لاؤ زبان سیکھ رہا/رہی ہے۔",
+          "vi": "Anh/Cô ấy đã học tiếng Lào ở cấp độ trung cấp rồi.",
+          "zh": "他/她已经在学中级老挝语了。",
+          "zh_Hant": "他/她已經在學中級寮語了。"
+        },
+        "out_of_scope_words": [
+          "ຮຽນ",
+          "ກາງ"
+        ]
+      },
+      {
+        "lao_script": "ເດີນຂຶ້ນຂັ້ນບັນໄດຊ້າໆ ຢ່າໄວ",
+        "romanization": "doen khuen khân ban-dai saa saa yaa wai",
+        "translations": {
+          "de": "Geh langsam die Treppenstufen hoch, nicht schnell.",
+          "en": "Walk up the stairs slowly, don't go fast.",
+          "es": "Sube los escalones despacio, no vayas rápido.",
+          "fr": "Monte les marches lentement, ne va pas vite.",
+          "hi": "सीढ़ियाँ धीरे-धीरे चढ़ो, जल्दी मत करो।",
+          "ja": "階段をゆっくり上がって、急がないで。",
+          "km": "ដើរឡើងជណ្ដើរយឺតៗ កុំដើរលឿន។",
+          "ko": "계단을 천천히 올라가, 빨리 가지 마.",
+          "ne": "भर्‍याङ बिस्तारै चढ, हतार नगर।",
+          "pt": "Suba as escadas devagar, não vá rápido.",
+          "th": "เดินขึ้นขั้นบันไดช้าๆ อย่าเร็ว",
+          "tl": "Umakyat ng hagdan nang dahan-dahan, huwag magmadali.",
+          "ur": "سیڑھیاں آہستہ آہستہ چڑھو، جلدی مت کرو۔",
+          "vi": "Đi lên cầu thang chậm thôi, đừng nhanh.",
+          "zh": "慢慢走上楼梯，不要走快。",
+          "zh_Hant": "慢慢走上樓梯，不要走快。"
+        },
+        "out_of_scope_words": [
+          "ບັນໄດ",
+          "ຊ້າໆ",
+          "ຢ່າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a staircase with numbered steps (1, 2, 3) going upward, with a small figure climbing the stairs, clean white background, bright blue and green colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

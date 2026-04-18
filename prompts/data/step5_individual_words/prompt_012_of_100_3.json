@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕໍ່",
+  "definitions": {
+    "de": "Zu/an/gegenüber/pro; eine Präposition, die Richtung, Verbindung, Fortsetzung oder ein Verhältnis ausdrückt",
+    "en": "To/towards/per/against; a preposition expressing direction, connection, continuation, or a ratio between things",
+    "es": "A/hacia/por/contra; preposición que expresa dirección, conexión, continuación o una relación entre cosas",
+    "fr": "À/vers/par/contre; préposition exprimant la direction, la connexion, la continuation ou un rapport entre les choses",
+    "hi": "की ओर/प्रति/के विरुद्ध; एक पूर्वसर्ग जो दिशा, संबंध, निरंतरता या अनुपात व्यक्त करता है",
+    "ja": "～へ/～に対して/～につき/続ける；方向・関係・継続・比率を表す前置詞",
+    "km": "ទៅ/ឆ្ពោះ/ក្នុងមួយ/ប្រឆាំង; ធ្នាក់ដែលបញ្ជាក់ទិសដៅ ការតភ្ជាប់ ការបន្ត ឬសមាមាត្រ",
+    "ko": "~에게/~를 향해/~당/~에 대해; 방향, 연결, 계속 또는 비율을 나타내는 전치사",
+    "ne": "तिर/प्रति/अनुसार; दिशा, सम्बन्ध, निरन्तरता वा अनुपात व्यक्त गर्ने परसर्ग",
+    "pt": "Para/em direção a/por/contra; preposição que expressa direção, conexão, continuação ou uma proporção",
+    "th": "ไปยัง/ต่อ/ถึง; คำบุพบทที่แสดงทิศทาง การเชื่อมต่อ การต่อเนื่อง หรืออัตราส่วน",
+    "tl": "Patungo sa/para sa/bawat; isang prepositional na nagpapahayag ng direksyon, koneksyon, pagpapatuloy, o ratio",
+    "ur": "کی طرف/فی/کے خلاف؛ ایک حرف جر جو سمت، تعلق، تسلسل یا تناسب ظاہر کرتا ہے",
+    "vi": "Đến/về phía/mỗi/với; giới từ diễn đạt hướng, sự kết nối, sự tiếp tục hoặc tỉ lệ giữa các sự vật",
+    "zh": "向/对/每/继续；表示方向、关系、延续或比例的介词",
+    "zh_Hant": "向/對/每/繼續；表示方向、關係、延續或比例的介詞"
+  },
+  "definition_en": "To/towards/per/against; a preposition expressing direction, connection, continuation, or a ratio between things",
+  "romanization": "/tɔ̀ː⁵/",
+  "lao_examples": [
+    {
+      "lao_script": "ເວົ້າຕໍ່ໄປເລີຍ, ຢ່າຢຸດ",
+      "romanization": "wao toh pai loei, yaa yut",
+      "translation_en": "Just keep talking, don't stop."
+    },
+    {
+      "lao_script": "ລາຄານີ້ຄິດຕໍ່ຫົວຄົນ",
+      "romanization": "laa-khaa nih khit toh hua khon",
+      "translation_en": "This price is calculated per person."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two arrows pointing towards each other with a small bridge or connector between them, symbolizing direction and connection, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

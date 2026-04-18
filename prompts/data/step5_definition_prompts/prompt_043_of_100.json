@@ -1,0 +1,404 @@
+{
+  "ຮັກ": {
+    "definitions": {
+      "de": "Liebe; jemanden oder etwas lieben, tiefe Zuneigung empfinden",
+      "en": "To love; to feel deep affection for someone or something",
+      "es": "Amar; sentir un profundo afecto por alguien o algo; amor",
+      "fr": "Aimer; ressentir une profonde affection pour quelqu'un ou quelque chose; amour",
+      "hi": "प्यार करना; किसी के प्रति गहरा स्नेह महसूस करना; प्यार",
+      "ja": "愛する；誰かや何かに深い愛情を感じること；愛",
+      "km": "ស្រឡាញ់; មានអារម្មណ៍ស្នេហាជ្រៅជ្រះចំពោះនរណាម្នាក់ ឬអ្វីមួយ",
+      "ko": "사랑하다; 누군가 또는 무언가에 깊은 애정을 느끼다; 사랑",
+      "ne": "माया गर्नु; कसैप्रति गहिरो स्नेह महसुस गर्नु; प्रेम",
+      "pt": "Amar; sentir profunda afeição por alguém ou algo; amor",
+      "th": "รัก; รู้สึกรักและผูกพันอย่างลึกซึ้งต่อคนหรือสิ่งใดสิ่งหนึ่ง",
+      "tl": "Mahalin; maramdaman ang malalim na pagmamahal para sa isang tao o bagay; pag-ibig",
+      "ur": "محبت کرنا؛ کسی کے لیے گہری محبت اور لگاؤ محسوس کرنا؛ پیار",
+      "vi": "Yêu; cảm thấy tình cảm sâu sắc dành cho ai đó hoặc điều gì đó; tình yêu",
+      "zh": "爱；对某人或某事感到深厚的情感；爱情",
+      "zh_Hant": "愛；對某人或某事感到深厚的情感；愛情"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/hák/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຮັກແມ່ຂອງຂ້ອຍຫຼາຍ",
+        "romanization": "khɔ̄i hák mɛ̀ khɔ̄ng khɔ̄i lǎi",
+        "translations": {
+          "de": "Ich liebe meine Mutter sehr.",
+          "en": "I love my mom a lot.",
+          "es": "Quiero mucho a mi mamá.",
+          "fr": "J'aime beaucoup ma maman.",
+          "hi": "मैं अपनी माँ से बहुत प्यार करता/करती हूँ।",
+          "ja": "私はお母さんがとても大好きです。",
+          "km": "ខ្ញុំស្រឡាញ់មាតារបស់ខ្ញុំណាស់។",
+          "ko": "나는 엄마를 많이 사랑해.",
+          "ne": "म मेरी आमालाई धेरै माया गर्छु।",
+          "pt": "Eu amo muito minha mãe.",
+          "th": "ฉันรักแม่ของฉันมากๆ",
+          "tl": "Mahal ko talaga ang aking nanay.",
+          "ur": "میں اپنی ماں سے بہت محبت کرتا/کرتی ہوں۔",
+          "vi": "Tôi rất yêu mẹ của tôi.",
+          "zh": "我非常爱我的妈妈。",
+          "zh_Hant": "我非常愛我的媽媽。"
+        },
+        "out_of_scope_words": [
+          "ແມ່",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຮັກອາຫານລາວບໍ?",
+        "romanization": "jâo hák ā̀hǎn lāo bɔ̄?",
+        "translations": {
+          "de": "Magst du laotisches Essen?",
+          "en": "Do you love Lao food?",
+          "es": "¿Te encanta la comida laosiana?",
+          "fr": "Tu aimes la cuisine laotienne?",
+          "hi": "क्या तुम लाओ खाना पसंद करते/करती हो?",
+          "ja": "ラオス料理が好きですか？",
+          "km": "តើអ្នកចូលចិត្តម្ហូបឡាវទេ?",
+          "ko": "라오 음식 좋아해?",
+          "ne": "के तिमीलाई लाओ खाना मन पर्छ?",
+          "pt": "Você ama comida laosiana?",
+          "th": "แกชอบอาหารลาวไหม?",
+          "tl": "Gusto mo ba ang pagkain ng Laos?",
+          "ur": "کیا آپ کو لاؤ کھانا پسند ہے؟",
+          "vi": "Bạn có thích đồ ăn Lào không?",
+          "zh": "你喜欢老挝食物吗？",
+          "zh_Hant": "你喜歡寮國食物嗎？"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ລາວ",
+          "ບໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a glowing red heart held in two open hands, warm and inviting, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດາ": {
+    "definitions": {
+      "de": "Eine Silbe, die häufig in laotischen Eigennamen vorkommt; hat als eigenständiges Wort keine gebräuchliche Bedeutung",
+      "en": "A syllable commonly found in Lao personal names; has no widely used standalone meaning as an independent word",
+      "es": "Una sílaba que aparece frecuentemente en nombres propios laocianos; no tiene un significado independiente de uso común",
+      "fr": "Une syllabe couramment utilisée dans les prénoms laotiens; n'a pas de signification autonome courante en tant que mot indépendant",
+      "hi": "लाओ व्यक्तिगत नामों में पाई जाने वाली एक अक्षर; स्वतंत्र शब्द के रूप में इसका कोई प्रचलित अर्थ नहीं है",
+      "ja": "ラオスの人名によく使われる音節；独立した単語としての一般的な意味はない",
+      "km": "ព្យាង្គមួយដែលមានក្នុងឈ្មោះផ្ទាល់ខ្លួនរបស់ជនជាតិឡាវ; មិនមានន័យឯករាជ្យទូទៅ",
+      "ko": "라오스 개인 이름에 자주 등장하는 음절; 독립적인 단어로서의 일반적인 의미는 없음",
+      "ne": "लाओ व्यक्तिगत नाममा सामान्यतः पाइने एउटा अक्षर; स्वतन्त्र शब्दको रूपमा यसको कुनै प्रचलित अर्थ छैन",
+      "pt": "Uma sílaba comumente encontrada em nomes próprios laocianos; não possui significado autônomo amplamente utilizado",
+      "th": "พยางค์ที่มักพบในชื่อบุคคลของชาวลาว ไม่มีความหมายที่ใช้โดยทั่วไปในฐานะคำอิสระ",
+      "tl": "Isang pantig na madalas na makikita sa mga pangalan ng mga Lao; walang karaniwang sariling kahulugan bilang isang independyenteng salita",
+      "ur": "لاؤ ذاتی ناموں میں عام طور پر پائی جانے والی ایک ہجے؛ بطور آزاد لفظ اس کا کوئی عام مستقل معنی نہیں",
+      "vi": "Một âm tiết thường xuất hiện trong tên riêng của người Lào; không có nghĩa độc lập phổ biến khi đứng một mình",
+      "zh": "常见于老挝人名中的音节；作为独立单词没有广泛使用的含义",
+      "zh_Hant": "常見於寮國人名中的音節；作為獨立單詞沒有廣泛使用的含義"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/dāː/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ຂອງລາວແມ່ນ ດາວີ",
+        "romanization": "sʉ̄ khɔ̄ng lāo mɛ̄n dā-wīː",
+        "translations": {
+          "de": "Ihr Name ist Dawi.",
+          "en": "Her name is Davi.",
+          "es": "Su nombre es Davi.",
+          "fr": "Son prénom est Davi.",
+          "hi": "उसका नाम दावी है।",
+          "ja": "彼女の名前はダーウィーです。",
+          "km": "ឈ្មោះរបស់នាងគឺ ដាវី។",
+          "ko": "그녀의 이름은 다위야.",
+          "ne": "उनको नाम दावी हो।",
+          "pt": "O nome dela é Davi.",
+          "th": "ชื่อของเธอคือ ດາວີ",
+          "tl": "Ang pangalan niya ay Davi.",
+          "ur": "اس کا نام داوی ہے۔",
+          "vi": "Tên của cô ấy là Đa-vi.",
+          "zh": "她的名字是达维。",
+          "zh_Hant": "她的名字是達維。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ດາວີ"
+        ]
+      },
+      {
+        "lao_script": "ດາ ເປັນຊື່ທີ່ໃຊ້ຫຼາຍໃນລາວ",
+        "romanization": "dā pēn sʉ̄ tī sāi lǎi nai lāo",
+        "translations": {
+          "de": "Da ist ein Name, der in Laos häufig verwendet wird.",
+          "en": "Da is a name element used a lot in Laos.",
+          "es": "Da es un elemento de nombre muy usado en Laos.",
+          "fr": "Da est un élément de prénom très utilisé au Laos.",
+          "hi": "दा लाओस में बहुत उपयोग किया जाने वाला नाम तत्व है।",
+          "ja": "「ダー」はラオスでよく使われる名前の要素です。",
+          "km": "ដា គឺជាធាតុនៃឈ្មោះដែលប្រើច្រើននៅឡាវ។",
+          "ko": "'다'는 라오스에서 많이 쓰이는 이름 요소야.",
+          "ne": "दा लाओसमा धेरै प्रयोग हुने नाम तत्व हो।",
+          "pt": "Da é um elemento de nome muito usado no Laos.",
+          "th": "ດາ เป็นส่วนของชื่อที่ใช้กันมากในลาว",
+          "tl": "Ang Da ay isang bahagi ng pangalan na madalas gamitin sa Laos.",
+          "ur": "دا لاؤس میں بہت استعمال ہونے والا نام کا عنصر ہے۔",
+          "vi": "Đa là thành tố tên được dùng nhiều ở Lào.",
+          "zh": "达是老挝常用的名字音节。",
+          "zh_Hant": "達是寮國常用的名字音節。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ໃຊ້",
+          "ຫຼາຍ",
+          "ລາວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or identity card with the syllable 'Da' written on it in a friendly font, surrounded by small decorative Lao-style patterns, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຮຽນ": {
+    "definitions": {
+      "de": "Lernen; studieren; Wissen oder Fähigkeiten durch Unterricht oder Übung erwerben",
+      "en": "To study; to learn; to acquire knowledge or skills through instruction or practice",
+      "es": "Estudiar; aprender; adquirir conocimientos o habilidades a través de la instrucción o la práctica",
+      "fr": "Étudier; apprendre; acquérir des connaissances ou des compétences par l'instruction ou la pratique",
+      "hi": "पढ़ना; सीखना; शिक्षा या अभ्यास के माध्यम से ज्ञान या कौशल प्राप्त करना",
+      "ja": "勉強する；学ぶ；教育や練習を通じて知識やスキルを習得する",
+      "km": "រៀន; សិក្សា; ទទួលបានចំណេះដឹងឬជំនាញតាមរយៈការណែនាំ ឬការអនុវត្ត",
+      "ko": "공부하다; 배우다; 교육이나 연습을 통해 지식이나 기술을 습득하다",
+      "ne": "पढ्नु; सिक्नु; शिक्षा वा अभ्यासद्वारा ज्ञान वा सीप आर्जन गर्नु",
+      "pt": "Estudar; aprender; adquirir conhecimento ou habilidades por meio de instrução ou prática",
+      "th": "เรียน; ศึกษา; รับความรู้หรือทักษะผ่านการสอนหรือการฝึกฝน",
+      "tl": "Mag-aral; matuto; makakuha ng kaalaman o kasanayan sa pamamagitan ng pagtuturo o pagsasanay",
+      "ur": "پڑھنا؛ سیکھنا؛ تعلیم یا مشق کے ذریعے علم یا مہارت حاصل کرنا",
+      "vi": "Học; nghiên cứu; tiếp thu kiến thức hoặc kỹ năng thông qua hướng dẫn hoặc thực hành",
+      "zh": "学习；通过教学或练习获取知识或技能",
+      "zh_Hant": "學習；通過教學或練習獲取知識或技能"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/hían/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຮຽນພາສາລາວທຸກວັນ",
+        "romanization": "khɔ̄i hían phā̀sǎː lāo thúk wan",
+        "translations": {
+          "de": "Ich lerne jeden Tag Laotisch.",
+          "en": "I study Lao every day.",
+          "es": "Estudio lao todos los días.",
+          "fr": "J'apprends le laotien tous les jours.",
+          "hi": "मैं हर दिन लाओ भाषा पढ़ता/पढ़ती हूँ।",
+          "ja": "私は毎日ラオス語を勉強しています。",
+          "km": "ខ្ញុំរៀនភាសាឡាវរៀងរាល់ថ្ងៃ។",
+          "ko": "나는 매일 라오어를 공부해.",
+          "ne": "म प्रत्येक दिन लाओ भाषा पढ्छु।",
+          "pt": "Eu estudo lao todos os dias.",
+          "th": "ฉันเรียนภาษาลาวทุกวัน",
+          "tl": "Nag-aaral ako ng wikang Lao araw-araw.",
+          "ur": "میں ہر روز لاؤ زبان پڑھتا/پڑھتی ہوں۔",
+          "vi": "Tôi học tiếng Lào mỗi ngày.",
+          "zh": "我每天学习老挝语。",
+          "zh_Hant": "我每天學習寮語。"
+        },
+        "out_of_scope_words": [
+          "ພາສາ",
+          "ທຸກວັນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຢາກຮຽນຫຍັງ?",
+        "romanization": "jâo yāk hían ɲǎŋ?",
+        "translations": {
+          "de": "Was möchtest du lernen?",
+          "en": "What do you want to study?",
+          "es": "¿Qué quieres aprender?",
+          "fr": "Qu'est-ce que tu veux apprendre?",
+          "hi": "तुम क्या सीखना चाहते/चाहती हो?",
+          "ja": "何を勉強したいですか？",
+          "km": "តើអ្នកចង់រៀនអ្វី?",
+          "ko": "너 뭘 배우고 싶어?",
+          "ne": "तिमी के सिक्न चाहन्छौ?",
+          "pt": "O que você quer aprender?",
+          "th": "แกอยากเรียนอะไร?",
+          "tl": "Ano ang gusto mong pag-aralan?",
+          "ur": "آپ کیا سیکھنا چاہتے/چاہتی ہیں؟",
+          "vi": "Bạn muốn học gì?",
+          "zh": "你想学什么？",
+          "zh_Hant": "你想學什麼？"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ຫຍັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a student sitting at a desk reading an open book with a pencil in hand, a small chalkboard in the background with simple writing, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລິ": {
+    "definitions": {
+      "de": "Eine gebundene Präfix-Silbe im Laotischen, die an Wörter angehängt wird und keine eigenständige Bedeutung hat; dient als phonetisches oder morphologisches Element in zusammengesetzten Wörtern oder Namen",
+      "en": "A bound prefix syllable in Lao that attaches to words and has no independent meaning on its own; functions as a phonetic or morphological element in compound words or names",
+      "es": "Una sílaba prefija ligada en lao que se adjunta a palabras y no tiene significado independiente por sí sola; funciona como elemento fonético o morfológico en palabras compuestas o nombres",
+      "fr": "Une syllabe préfixe liée en laotien qui s'attache aux mots et n'a pas de signification indépendante; fonctionne comme élément phonétique ou morphologique dans les mots composés ou les prénoms",
+      "hi": "लाओ में एक बद्ध उपसर्ग अक्षर जो शब्दों से जुड़ता है और स्वतंत्र रूप से इसका कोई अर्थ नहीं है; यौगिक शब्दों या नामों में ध्वन्यात्मक या रूपात्मक तत्व के रूप में कार्य करता है",
+      "ja": "ラオス語において単語に付加される拘束前置音節で、単独では意味を持たない；複合語や名前の中で音韻的・形態的要素として機能する",
+      "km": "ព្យាង្គបុព្វបទដែលភ្ជាប់ជាមួយពាក្យក្នុងភាសាឡាវ ហើយមិនមានន័យឯករាជ្យ; ដំណើរការជាធាតុសូរស័ព្ទ ឬសណ្ឋានសាស្ត្រក្នុងពាក្យផ្សំ ឬឈ្មោះ",
+      "ko": "라오어에서 단어에 붙는 의존적인 접두사 음절로, 독자적인 의미가 없음; 복합어나 이름에서 음운적 또는 형태적 요소로 기능함",
+      "ne": "लाओमा एउटा बद्ध उपसर्ग अक्षर जो शब्दहरूसँग जोडिन्छ र स्वतन्त्र रूपमा यसको आफ्नै कुनै अर्थ छैन; यौगिक शब्द वा नाममा ध्वन्यात्मक वा रूपात्मक तत्वको रूपमा कार्य गर्छ",
+      "pt": "Uma sílaba prefixo presa no lao que se une a palavras e não possui significado independente; funciona como elemento fonético ou morfológico em palavras compostas ou nomes",
+      "th": "พยางค์คำอุปสรรคที่ผูกติดกับคำในภาษาลาว ไม่มีความหมายอิสระ ทำหน้าที่เป็นองค์ประกอบทางสัทศาสตร์หรือสัณฐานวิทยาในคำประสมหรือชื่อ",
+      "tl": "Isang nakatali na prefix na pantig sa wikang Lao na nagkakabit sa mga salita at walang sariling kahulugan; gumaganap bilang ponolohikal o morpolohikal na elemento sa mga salitang tambalan o pangalan",
+      "ur": "لاؤ میں ایک مقید سابقہ ہجہ جو الفاظ سے جڑتا ہے اور خود سے کوئی آزاد معنی نہیں رکھتا؛ مرکب الفاظ یا ناموں میں صوتی یا صرفی عنصر کے طور پر کام کرتا ہے",
+      "vi": "Một âm tiết tiền tố bị ràng buộc trong tiếng Lào, gắn vào các từ và không có nghĩa độc lập; hoạt động như một yếu tố ngữ âm hoặc hình thái trong các từ ghép hoặc tên riêng",
+      "zh": "老挝语中的一个粘附前缀音节，附着于词语上，单独没有独立含义；在复合词或名字中作为语音或形态要素发挥作用",
+      "zh_Hant": "寮語中的一個黏附前綴音節，附著於詞語上，單獨沒有獨立含義；在複合詞或名字中作為語音或形態要素發揮作用"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/lí/",
+    "examples": [
+      {
+        "lao_script": "ຄຳວ່າ ລິ ມັກໃຊ້ຢູ່ໃນຊື່ຄົນ",
+        "romanization": "kham wā lí mák sāi yū nai sʉ̄ khon",
+        "translations": {
+          "de": "Das Wort 'Li' wird oft in Personennamen verwendet.",
+          "en": "The syllable 'Li' is often used in people's names.",
+          "es": "La sílaba 'Li' se usa a menudo en nombres de personas.",
+          "fr": "La syllabe 'Li' est souvent utilisée dans les prénoms.",
+          "hi": "शब्द 'लि' अक्सर लोगों के नामों में उपयोग किया जाता है।",
+          "ja": "「リ」という音節はよく人名に使われます。",
+          "km": "ព្យាង្គ ' លិ' ត្រូវបានប្រើញឹកញាប់នៅក្នុងឈ្មោះមនុស្ស។",
+          "ko": "'리' 음절은 사람 이름에 자주 쓰여.",
+          "ne": "'लि' अक्षर प्रायः मान्छेका नामहरूमा प्रयोग गरिन्छ।",
+          "pt": "A sílaba 'Li' é frequentemente usada em nomes de pessoas.",
+          "th": "พยางค์ 'ລິ' มักใช้ในชื่อของคน",
+          "tl": "Ang pantig na 'Li' ay madalas gamitin sa mga pangalan ng tao.",
+          "ur": "ہجہ 'لی' اکثر لوگوں کے ناموں میں استعمال ہوتا ہے۔",
+          "vi": "Âm tiết 'Li' thường được dùng trong tên người.",
+          "zh": "'利'这个音节常用于人名中。",
+          "zh_Hant": "'利'這個音節常用於人名中。"
+        },
+        "out_of_scope_words": [
+          "ຄຳ",
+          "ມັກ",
+          "ໃຊ້",
+          "ຊື່",
+          "ຄົນ"
+        ]
+      },
+      {
+        "lao_script": "ລິ ບໍ່ມີຄວາມໝາຍຢູ່ດ່ຽວໆ",
+        "romanization": "lí bɔ̄ mī khwām mǎi yū diao diao",
+        "translations": {
+          "de": "'Li' hat keine Bedeutung, wenn es allein steht.",
+          "en": "'Li' has no meaning when it stands alone.",
+          "es": "'Li' no tiene significado cuando está solo.",
+          "fr": "'Li' n'a pas de signification lorsqu'il est seul.",
+          "hi": "'लि' का अकेले खड़े होने पर कोई अर्थ नहीं होता।",
+          "ja": "「リ」は単独では意味を持ちません。",
+          "km": "'ลิ' មិនមានន័យនៅពេលវាឈរតែម្នាក់ឯង។",
+          "ko": "'리'는 단독으로는 의미가 없어.",
+          "ne": "'लि' को एक्लै उभिँदा कुनै अर्थ हुँदैन।",
+          "pt": "'Li' não tem significado quando fica sozinho.",
+          "th": "'ລິ' ไม่มีความหมายเมื่ออยู่คนเดียว",
+          "tl": "Ang 'Li' ay walang kahulugan kapag nag-iisa ito.",
+          "ur": "'لی' کا اکیلے کھڑے ہونے پر کوئی معنی نہیں۔",
+          "vi": "'Li' không có nghĩa khi đứng một mình.",
+          "zh": "'利'单独出现时没有意义。",
+          "zh_Hant": "'利'單獨出現時沒有意義。"
+        },
+        "out_of_scope_words": [
+          "ຄວາມໝາຍ",
+          "ດ່ຽວໆ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a single puzzle piece labeled with the syllable 'Li' in a friendly font, suggesting it connects to other pieces to form a complete word, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ລຸນ": {
+    "definitions": {
+      "de": "Eine Silbe, die als Namenselement in laotischen Eigennamen vorkommt; als eigenständiges Wort nicht gebräuchlich",
+      "en": "A syllable used as a name element in Lao personal names; not commonly used as a standalone word",
+      "es": "Una sílaba usada como elemento de nombre en los nombres propios laocianos; no se usa comúnmente como palabra independiente",
+      "fr": "Une syllabe utilisée comme élément de prénom dans les noms laotiens; n'est pas couramment utilisé comme mot indépendant",
+      "hi": "लाओ व्यक्तिगत नामों में नाम तत्व के रूप में उपयोग की जाने वाली एक अक्षर; स्वतंत्र शब्द के रूप में सामान्यतः उपयोग नहीं होती",
+      "ja": "ラオスの人名において名前の要素として使われる音節；独立した単語としては一般的に使われない",
+      "km": "ព្យាង្គដែលប្រើជាធាតុនៃឈ្មោះក្នុងឈ្មោះផ្ទាល់ខ្លួនរបស់ជនជាតិឡាវ; មិនត្រូវបានប្រើជាទូទៅជាពាក្យឯករាជ្យ",
+      "ko": "라오스 개인 이름에서 이름 요소로 사용되는 음절; 독립적인 단어로는 일반적으로 사용되지 않음",
+      "ne": "लाओ व्यक्तिगत नामहरूमा नाम तत्वको रूपमा प्रयोग हुने एउटा अक्षर; स्वतन्त्र शब्दको रूपमा सामान्यतः प्रयोग गरिँदैन",
+      "pt": "Uma sílaba usada como elemento de nome em nomes próprios laocianos; não é comumente usada como palavra independente",
+      "th": "พยางค์ที่ใช้เป็นส่วนประกอบของชื่อในชื่อบุคคลของชาวลาว ไม่ค่อยใช้เป็นคำอิสระ",
+      "tl": "Isang pantig na ginagamit bilang bahagi ng pangalan sa mga Lao na personal na pangalan; hindi karaniwang ginagamit bilang isang sariling salita",
+      "ur": "لاؤ ذاتی ناموں میں نام کے عنصر کے طور پر استعمال ہونے والی ہجہ؛ آزاد لفظ کے طور پر عام طور پر استعمال نہیں ہوتی",
+      "vi": "Một âm tiết được dùng như thành tố tên trong tên riêng của người Lào; không thường được dùng như một từ độc lập",
+      "zh": "用作老挝人名中名字组成部分的音节；通常不作为独立词语使用",
+      "zh_Hant": "用作寮國人名中名字組成部分的音節；通常不作為獨立詞語使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lún/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ຂອງເພື່ອນຂ້ອຍແມ່ນ ລຸນ",
+        "romanization": "sʉ̄ khɔ̄ng phɯ̄an khɔ̄i mɛ̄n lún",
+        "translations": {
+          "de": "Der Name meines Freundes ist Lun.",
+          "en": "My friend's name is Lun.",
+          "es": "El nombre de mi amigo es Lun.",
+          "fr": "Le prénom de mon ami est Lun.",
+          "hi": "मेरे दोस्त का नाम लुन है।",
+          "ja": "私の友達の名前はルンです。",
+          "km": "ឈ្មោះរបស់មិត្តខ្ញុំគឺ ឡូន។",
+          "ko": "내 친구 이름은 룬이야.",
+          "ne": "मेरो साथीको नाम लुन हो।",
+          "pt": "O nome do meu amigo é Lun.",
+          "th": "ชื่อเพื่อนฉันคือ ລຸນ",
+          "tl": "Ang pangalan ng aking kaibigan ay Lun.",
+          "ur": "میرے دوست کا نام لُن ہے۔",
+          "vi": "Tên bạn tôi là Lun.",
+          "zh": "我朋友的名字叫伦。",
+          "zh_Hant": "我朋友的名字叫倫。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ເພື່ອນ"
+        ]
+      },
+      {
+        "lao_script": "ລຸນ ເປັນຊື່ຜູ້ຊາຍທີ່ດີ",
+        "romanization": "lún pēn sʉ̄ phū sāi tī dī",
+        "translations": {
+          "de": "Lun ist ein guter Männername.",
+          "en": "Lun is a nice male name.",
+          "es": "Lun es un buen nombre masculino.",
+          "fr": "Lun est un joli prénom masculin.",
+          "hi": "लुन एक अच्छा पुरुष नाम है।",
+          "ja": "ルンはいい男性名です。",
+          "km": "ឡូន គឺជាឈ្មោះបុរសដ៏ល្អ។",
+          "ko": "룬은 좋은 남자 이름이야.",
+          "ne": "लुन एउटा राम्रो पुरुष नाम हो।",
+          "pt": "Lun é um bom nome masculino.",
+          "th": "ລຸນ เป็นชื่อผู้ชายที่ดี",
+          "tl": "Ang Lun ay isang magandang pangalan para sa lalaki.",
+          "ur": "لُن ایک اچھا مردانہ نام ہے۔",
+          "vi": "Lun là một cái tên nam hay.",
+          "zh": "伦是个好听的男性名字。",
+          "zh_Hant": "倫是個好聽的男性名字。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ຜູ້ຊາຍ",
+          "ດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful young Lao man wearing traditional Lao clothing with a name badge that reads 'Lun', smiling and waving hello, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

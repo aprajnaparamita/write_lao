@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢາມ",
+  "definitions": {
+    "de": "1. Wachen, bewachen. 2. (Zeit) Ein Zeitabschnitt, eine Wache. 3. (Konjunktion) Wenn, zur Zeit als",
+    "en": "1. To guard, watch over. 2. A period of time, a watch/shift. 3. (conjunction) When, at the time that",
+    "es": "1. Vigilar, hacer guardia. 2. Un período de tiempo, un turno de guardia. 3. (conjunción) Cuando, en el momento en que",
+    "fr": "1. Garder, surveiller. 2. Une période de temps, une garde. 3. (conjonction) Quand, au moment où",
+    "hi": "1. पहरा देना, रक्षा करना। 2. समय का एक अंश, पहरे की पाली। 3. (संयोजन) जब, उस समय जब",
+    "ja": "1. 見張る、護衛する。2. 時間帯、番（交代）。3. （接続詞）〜のとき、〜する際に",
+    "km": "1. ល្បាត យាម។ 2. ដំណាក់កាលពេលវេលា វេនយាម។ 3. (接続詞) នៅពេល នៅខណៈ",
+    "ko": "1. 지키다, 경계하다. 2. 시간의 한 구간, 당번. 3. (접속사) ~할 때, ~하는 동안",
+    "ne": "1. पहरा दिनु, रक्षा गर्नु। 2. समयको एक खण्ड, पहराको पाली। 3. (संयोजन) जब, जुन बेला",
+    "pt": "1. Guardar, vigiar. 2. Um período de tempo, uma guarda/turno. 3. (conjunção) Quando, no momento em que",
+    "th": "1. เฝ้า คุ้มกัน. 2. ช่วงเวลา ยาม. 3. (接続詞) ตอนที่ เมื่อ",
+    "tl": "1. Bantayan, magbantay. 2. Isang panahon ng oras, isang bantay. 3. (pangatnig) Kapag, noong",
+    "ur": "1. پہرہ دینا، نگرانی کرنا۔ 2. وقت کا ایک حصہ، پہرے کی باری۔ 3. (接続詞) جب، اس وقت جب",
+    "vi": "1. Canh gác, bảo vệ. 2. Một khoảng thời gian, ca gác. 3. (接続詞) Khi, lúc",
+    "zh": "1. 守卫，看守。2. 一段时间，值班。3. （连词）当……时，在……的时候",
+    "zh_Hant": "1. 守衛，看守。2. 一段時間，值班。3. （連詞）當……時，在……的時候"
+  },
+  "definition_en": "1. To guard, watch over. 2. A period of time, a watch/shift. 3. (conjunction) When, at the time that",
+  "romanization": "ɲáam",
+  "lao_examples": [
+    {
+      "lao_script": "ຢາມລາວນອນຢູ່, ໝາຮ້ອງ.",
+      "romanization": "ɲáam lǎo nɔɔn yùu, mǎa hɔ́ɔŋ.",
+      "translation_en": "When he was sleeping, the dog barked."
+    },
+    {
+      "lao_script": "ໃຜຢາມຢາມຄືນນີ້?",
+      "romanization": "phǎi ɲáam ɲáam khɯɯn níi?",
+      "translation_en": "Who is on guard duty tonight?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a security guard standing watch at a doorway at night, holding a flashlight, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

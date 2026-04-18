@@ -1,0 +1,401 @@
+{
+  "ສ້າງ": {
+    "definitions": {
+      "de": "bauen, erschaffen, errichten – etwas Neues herstellen oder konstruieren",
+      "en": "to build, create, or construct – to make something new or bring something into existence",
+      "es": "construir, crear, edificar – hacer algo nuevo o dar existencia a algo",
+      "fr": "construire, créer, bâtir – faire quelque chose de nouveau ou donner existence à quelque chose",
+      "hi": "बनाना, निर्माण करना – कुछ नया तैयार करना या अस्तित्व में लाना",
+      "ja": "建てる、作る、創造する – 何か新しいものを作り上げたり構築したりすること",
+      "km": "សាង សង់ បង្កើត – ធ្វើឱ្យមានអ្វីថ្មី ឬសាងសង់អ្វីមួយ",
+      "ko": "짓다, 만들다, 창조하다 – 새로운 것을 만들거나 무언가를 세우는 것",
+      "ne": "बनाउनु, निर्माण गर्नु – कुनै नयाँ कुरा तयार गर्नु वा अस्तित्वमा ल्याउनु",
+      "pt": "construir, criar, edificar – fazer algo novo ou dar existência a algo",
+      "th": "สร้าง, ก่อสร้าง, สร้างสรรค์ – การทำสิ่งใหม่ขึ้นมาหรือก่อตั้งบางสิ่ง",
+      "tl": "magtayo, lumikha, bumuo – gumawa ng bago o magtatag ng isang bagay",
+      "ur": "بنانا، تعمیر کرنا، تخلیق کرنا – کچھ نیا بنانا یا وجود میں لانا",
+      "vi": "xây dựng, tạo ra, kiến tạo – làm ra cái gì đó mới hoặc đưa thứ gì đó vào tồn tại",
+      "zh": "建造、创建、构建——制造新事物或使某事物存在",
+      "zh_Hant": "建造、創建、構建——製造新事物或使某事物存在"
+    },
+    "part_of_speech": "verb",
+    "romanization": "saːŋ⁴",
+    "examples": [
+      {
+        "lao_script": "ພໍ່ຂອງຂ້ອຍສ້າງເຮືອນດ້ວຍມືຂອງລາວເອງ",
+        "romanization": "phɔː khɔːŋ khɔːj saːŋ hɯan duaj mɯː khɔːŋ laːw eːŋ",
+        "translations": {
+          "de": "Mein Vater hat das Haus mit seinen eigenen Händen gebaut.",
+          "en": "My dad built the house with his own hands.",
+          "es": "Mi papá construyó la casa con sus propias manos.",
+          "fr": "Mon père a construit la maison de ses propres mains.",
+          "hi": "मेरे पिताजी ने घर अपने हाथों से बनाया।",
+          "ja": "お父さんは自分の手で家を建てた。",
+          "km": "ឪពុករបស់ខ្ញុំសាងសង់ផ្ទះដោយដៃរបស់គាត់ផ្ទាល់។",
+          "ko": "우리 아버지는 직접 손으로 집을 지으셨어.",
+          "ne": "मेरा बुबाले आफ्नै हातले घर बनाउनुभयो।",
+          "pt": "Meu pai construiu a casa com as próprias mãos.",
+          "th": "พ่อของฉันสร้างบ้านด้วยมือของตัวเอง",
+          "tl": "Itinayo ng aking tatay ang bahay gamit ang kanyang sariling mga kamay.",
+          "ur": "میرے باپ نے اپنے ہاتھوں سے گھر بنایا۔",
+          "vi": "Bố tôi tự tay xây ngôi nhà.",
+          "zh": "我爸爸亲手建造了这座房子。",
+          "zh_Hant": "我爸爸親手建造了這座房子。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ມື"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາຢາກສ້າງທຸລະກິດຂອງຕົວເອງ",
+        "romanization": "hao jaːk saːŋ thulakit khɔːŋ tua eːŋ",
+        "translations": {
+          "de": "Ich möchte mein eigenes Unternehmen aufbauen.",
+          "en": "I want to build my own business.",
+          "es": "Quiero crear mi propio negocio.",
+          "fr": "Je veux créer ma propre entreprise.",
+          "hi": "मैं अपना खुद का व्यवसाय बनाना चाहता/चाहती हूँ।",
+          "ja": "自分のビジネスを作りたい。",
+          "km": "ខ្ញុំចង់បង្កើតអាជីវកម្មផ្ទាល់ខ្លួន។",
+          "ko": "나는 내 사업을 만들고 싶어.",
+          "ne": "म आफ्नै व्यवसाय बनाउन चाहन्छु।",
+          "pt": "Eu quero criar o meu próprio negócio.",
+          "th": "ฉันอยากสร้างธุรกิจของตัวเอง",
+          "tl": "Gusto kong itayo ang sarili kong negosyo.",
+          "ur": "میں اپنا کاروبار بنانا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn xây dựng doanh nghiệp của riêng mình.",
+          "zh": "我想创建自己的生意。",
+          "zh_Hant": "我想創建自己的生意。"
+        },
+        "out_of_scope_words": [
+          "ທຸລະກິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person happily building a small house with their hands, bricks and tools visible, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວິນາທີ": {
+    "definitions": {
+      "de": "Sekunde – die kleinste gebräuchliche Zeiteinheit, ein Sechzigstel einer Minute",
+      "en": "second – a unit of time equal to one-sixtieth of a minute",
+      "es": "segundo – unidad de tiempo equivalente a la sexagésima parte de un minuto",
+      "fr": "seconde – unité de temps égale à un soixantième de minute",
+      "hi": "सेकंड – समय की एक इकाई जो एक मिनट का साठवाँ भाग होती है",
+      "ja": "秒 – 1分の60分の1に相当する時間の単位",
+      "km": "វិនាទី – ឯកតាពេលវេលាស្មើនឹងមួយភាគហុកសិបនៃមួយនាទី",
+      "ko": "초 – 1분의 60분의 1에 해당하는 시간 단위",
+      "ne": "सेकेन्ड – समयको एक इकाई जुन एक मिनेटको साठौं भाग हो",
+      "pt": "segundo – unidade de tempo equivalente a um sessenta avos de um minuto",
+      "th": "วินาที – หน่วยเวลาที่เท่ากับหนึ่งในหกสิบของหนึ่งนาที",
+      "tl": "segundo – yunit ng oras na katumbas ng isang-animnapung bahagi ng isang minuto",
+      "ur": "سیکنڈ – وقت کی ایک اکائی جو ایک منٹ کا ساٹھواں حصہ ہوتی ہے",
+      "vi": "giây – đơn vị thời gian bằng một phần sáu mươi của một phút",
+      "zh": "秒——时间单位，等于一分钟的六十分之一",
+      "zh_Hant": "秒——時間單位，等於一分鐘的六十分之一"
+    },
+    "part_of_speech": "noun",
+    "romanization": "winaːtʰiː",
+    "examples": [
+      {
+        "lao_script": "ລໍຖ້າແປບນຶ່ງ ສອງສາມວິນາທີເທົ່ານັ້ນ",
+        "romanization": "lɔː thaː pɛːp nɯŋ sɔːŋ saːm winaːtʰiː thao nan",
+        "translations": {
+          "de": "Warte kurz, nur zwei, drei Sekunden.",
+          "en": "Wait a moment, just two or three seconds.",
+          "es": "Espera un momento, solo dos o tres segundos.",
+          "fr": "Attends un instant, juste deux ou trois secondes.",
+          "hi": "एक पल रुको, बस दो-तीन सेकंड।",
+          "ja": "ちょっと待って、2〜3秒だけだよ。",
+          "km": "រង់ចាំបន្តិច តែពីរបីវិនាទីប៉ុណ្ណោះ។",
+          "ko": "잠깐만 기다려, 2~3초밖에 안 걸려.",
+          "ne": "एक छिन कुर, दुई-तीन सेकेन्ड मात्र।",
+          "pt": "Espera um pouco, só dois ou três segundos.",
+          "th": "รอแป๊บนึง แค่สองสามวินาทีเท่านั้น",
+          "tl": "Sandali lang, dalawa o tatlong segundo lang.",
+          "ur": "ایک لمحہ رکو، بس دو تین سیکنڈ۔",
+          "vi": "Đợi một chút thôi, chỉ hai ba giây thôi.",
+          "zh": "等一下，就两三秒而已。",
+          "zh_Hant": "等一下，就兩三秒而已。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ສອງ",
+          "ສາມ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາແລ່ນໄວຫຼາຍ ຈົນຊະນະພາຍໃນສິບວິນາທີ",
+        "romanization": "khao lɛn waj laːj tɕon saʔnaː phaːj naj sip winaːtʰiː",
+        "translations": {
+          "de": "Er lief so schnell, dass er innerhalb von zehn Sekunden gewann.",
+          "en": "He ran so fast that he won within ten seconds.",
+          "es": "Corrió tan rápido que ganó en diez segundos.",
+          "fr": "Il a couru si vite qu'il a gagné en dix secondes.",
+          "hi": "वह इतनी तेज़ दौड़ा कि दस सेकंड में जीत गया।",
+          "ja": "彼は10秒以内に勝つほど速く走った。",
+          "km": "គាត់រត់លឿនណាស់ ដល់ម្លេះឈ្នះក្នុងរយៈពេលដប់វិនាទី។",
+          "ko": "그는 너무 빨리 달려서 10초 안에 이겼어.",
+          "ne": "उ यति छिटो दौड्यो कि दस सेकेन्डभित्रै जित्यो।",
+          "pt": "Ele correu tão rápido que venceu em dez segundos.",
+          "th": "เขาวิ่งเร็วมากจนชนะภายในสิบวินาที",
+          "tl": "Tumakbo siya nang napakabilis kaya nanalo sa loob ng sampung segundo.",
+          "ur": "وہ اتنی تیز دوڑا کہ دس سیکنڈ میں جیت گیا۔",
+          "vi": "Anh ấy chạy nhanh đến nỗi thắng trong vòng mười giây.",
+          "zh": "他跑得很快，在十秒内就赢了。",
+          "zh_Hant": "他跑得很快，在十秒內就贏了。"
+        },
+        "out_of_scope_words": [
+          "ແລ່ນ",
+          "ຊະນະ",
+          "ສິບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a large stopwatch or timer displaying a countdown of seconds, with a clear second hand or digital seconds display, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສ່ວນ": {
+    "definitions": {
+      "de": "Teil, Abschnitt, Portion – ein Stück oder ein Anteil eines größeren Ganzen",
+      "en": "part, portion, section – a piece or share of a larger whole",
+      "es": "parte, porción, sección – un fragmento o una cuota de un todo mayor",
+      "fr": "partie, portion, section – un morceau ou une part d'un tout plus grand",
+      "hi": "भाग, हिस्सा, अंश – किसी बड़े पूरे का एक टुकड़ा या हिस्सा",
+      "ja": "部分、部位、割合 – より大きな全体の一部または分け前",
+      "km": "ផ្នែក, ចំណែក, ចំណុច – ផ្នែកមួយ ឬ몫មួយនៃទាំងមូល",
+      "ko": "부분, 일부, 몫 – 더 큰 전체의 한 조각이나 비율",
+      "ne": "भाग, अंश, हिस्सा – कुनै ठूलो सम्पूर्णको एक टुक्रा वा हिस्सा",
+      "pt": "parte, porção, seção – um pedaço ou parcela de um todo maior",
+      "th": "ส่วน, ส่วนหนึ่ง, ส่วนแบ่ง – ชิ้นส่วนหรือสัดส่วนหนึ่งของสิ่งที่ใหญ่กว่า",
+      "tl": "bahagi, parte, piraso – isang tipak o bahagi ng isang mas malaking kabuuan",
+      "ur": "حصہ، جزء، قسم – کسی بڑے کل کا ایک ٹکڑا یا حصہ",
+      "vi": "phần, bộ phận, phần chia – một mảnh hoặc phần của một tổng thể lớn hơn",
+      "zh": "部分、份额、区段——较大整体的一个片段或份额",
+      "zh_Hant": "部分、份額、區段——較大整體的一個片段或份額"
+    },
+    "part_of_speech": "noun",
+    "romanization": "suan²",
+    "examples": [
+      {
+        "lao_script": "ເອົາສ່ວນຂອງເຈົ້າໄປເລີຍ ບໍ່ຕ້ອງຖ້າ",
+        "romanization": "ao suan khɔːŋ tɕao paj ləːj bɔː tɔŋ thaː",
+        "translations": {
+          "de": "Nimm deinen Teil und geh, du musst nicht warten.",
+          "en": "Take your portion and go, no need to wait.",
+          "es": "Toma tu parte y vete, no necesitas esperar.",
+          "fr": "Prends ta part et vas-y, tu n'as pas besoin d'attendre.",
+          "hi": "अपना हिस्सा ले जाओ, रुकने की जरूरत नहीं।",
+          "ja": "自分の分を持って行って、待たなくていいよ。",
+          "km": "យក​ចំណែក​របស់​អ្នក​ទៅ​មិន​ចាំ​បាច់​រង់ចាំ​ទេ។",
+          "ko": "네 몫 가져가, 기다릴 필요 없어.",
+          "ne": "आफ्नो हिस्सा लिएर जाऊ, कुर्नु पर्दैन।",
+          "pt": "Pega a tua parte e vai, não precisa esperar.",
+          "th": "เอาส่วนของแกไปเลย ไม่ต้องรอหรอก",
+          "tl": "Kunin mo na ang bahagi mo at umalis ka na, hindi na kailangang maghintay.",
+          "ur": "اپنا حصہ لے جاؤ، انتظار کرنے کی ضرورت نہیں۔",
+          "vi": "Lấy phần của bạn đi thôi, không cần phải đợi.",
+          "zh": "拿你的那份走吧，不用等了。",
+          "zh_Hant": "拿你的那份走吧，不用等了。"
+        },
+        "out_of_scope_words": [
+          "ຖ້າ"
+        ]
+      },
+      {
+        "lao_script": "ສ່ວນໃຫຍ່ຂອງໝູ່ຂ້ອຍມັກກິນເຂົ້າຕອນເຊົ້າ",
+        "romanization": "suan jaj khɔːŋ muː khɔːj mak kin khao tɔːn saːo",
+        "translations": {
+          "de": "Die meisten meiner Freunde essen morgens gerne Reis.",
+          "en": "Most of my friends like eating rice in the morning.",
+          "es": "La mayoría de mis amigos prefieren comer arroz por la mañana.",
+          "fr": "La plupart de mes amis aiment manger du riz le matin.",
+          "hi": "मेरे ज़्यादातर दोस्त सुबह चावल खाना पसंद करते हैं।",
+          "ja": "友達のほとんどは朝ごはんにご飯を食べるのが好きだ。",
+          "km": "មិត្តភក្ដិភាគច្រើនរបស់ខ្ញុំចូលចិត្តញ៉ាំបាយពេលព្រឹក។",
+          "ko": "내 친구들 대부분은 아침에 밥 먹는 걸 좋아해.",
+          "ne": "मेरा अधिकांश साथीहरू बिहान भात खान मन पराउँछन्।",
+          "pt": "A maioria dos meus amigos gosta de comer arroz de manhã.",
+          "th": "เพื่อนของฉันส่วนใหญ่ชอบกินข้าวตอนเช้า",
+          "tl": "Karamihan sa aking mga kaibigan ay mahilig kumain ng kanin sa umaga.",
+          "ur": "میرے زیادہ تر دوست صبح کے وقت چاول کھانا پسند کرتے ہیں۔",
+          "vi": "Hầu hết bạn bè tôi thích ăn cơm vào buổi sáng.",
+          "zh": "我大部分朋友喜欢早上吃米饭。",
+          "zh_Hant": "我大部分朋友喜歡早上吃米飯。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່",
+          "ກິນ",
+          "ເຂົ້າ",
+          "ຕອນເຊົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a circular pie chart divided into clearly colored sections, with one slice being pulled out to highlight a 'part' or 'portion', clean white background, bright colors, minimalist style for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໜຶ່ງ": {
+    "definitions": {
+      "de": "eins – die Zahl 1, die grundlegendste positive ganze Zahl",
+      "en": "one – the number 1, the most basic positive whole number",
+      "es": "uno – el número 1, el número entero positivo más básico",
+      "fr": "un – le chiffre 1, le nombre entier positif le plus fondamental",
+      "hi": "एक – संख्या 1, सबसे बुनियादी धनात्मक पूर्ण संख्या",
+      "ja": "一（いち） – 数字の1、最も基本的な正の整数",
+      "km": "មួយ – លេខ ១ ជាលេខគត់វិជ្ជមានដែលមានលំដាប់លំដោយជាងគេ",
+      "ko": "하나, 일 – 숫자 1, 가장 기본적인 양의 정수",
+      "ne": "एक – अंक १, सबैभन्दा आधारभूत धनात्मक पूर्णांक",
+      "pt": "um – o número 1, o número inteiro positivo mais básico",
+      "th": "หนึ่ง – ตัวเลข ๑ จำนวนเต็มบวกที่พื้นฐานที่สุด",
+      "tl": "isa – ang bilang 1, ang pinaka-pangunahing positibong buong numero",
+      "ur": "ایک – ہندسہ 1، سب سے بنیادی مثبت پورا عدد",
+      "vi": "một – số 1, số nguyên dương cơ bản nhất",
+      "zh": "一——数字1，最基本的正整数",
+      "zh_Hant": "一——數字1，最基本的正整數"
+    },
+    "part_of_speech": "noun",
+    "romanization": "nɯŋ²",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກໄດ້ໜຶ່ງຈອກນ້ຳເຢັນ",
+        "romanization": "khɔːj jaːk dai nɯŋ tɕɔːk naːm jeːn",
+        "translations": {
+          "de": "Ich möchte ein Glas kaltes Wasser.",
+          "en": "I'd like one glass of cold water.",
+          "es": "Me gustaría un vaso de agua fría.",
+          "fr": "Je voudrais un verre d'eau froide.",
+          "hi": "मुझे एक गिलास ठंडा पानी चाहिए।",
+          "ja": "冷たい水を一杯ください。",
+          "km": "ខ្ញុំចង់បានទឹកត្រជាក់មួយកែវ។",
+          "ko": "차가운 물 한 잔 마시고 싶어.",
+          "ne": "मलाई एक गिलास चिसो पानी चाहियो।",
+          "pt": "Eu quero um copo de água fria.",
+          "th": "ฉันอยากได้น้ำเย็นหนึ่งแก้ว",
+          "tl": "Gusto ko ng isang baso ng malamig na tubig.",
+          "ur": "مجھے ایک گلاس ٹھنڈا پانی چاہیے۔",
+          "vi": "Tôi muốn một ly nước lạnh.",
+          "zh": "我想要一杯冷水。",
+          "zh_Hant": "我想要一杯冷水。"
+        },
+        "out_of_scope_words": [
+          "ຈອກ",
+          "ນ້ຳ",
+          "ເຢັນ"
+        ]
+      },
+      {
+        "lao_script": "ພວກເຮົາມີໝາໜຶ່ງໂຕຢູ່ທີ່ບ້ານ",
+        "romanization": "phuak hao miː maː nɯŋ toː juː thiː baːn",
+        "translations": {
+          "de": "Wir haben einen Hund zu Hause.",
+          "en": "We have one dog at home.",
+          "es": "Tenemos un perro en casa.",
+          "fr": "Nous avons un chien à la maison.",
+          "hi": "हमारे घर में एक कुत्ता है।",
+          "ja": "家に犬が一匹いるよ。",
+          "km": "យើងមានឆ្កែមួយក្បាលនៅផ្ទះ។",
+          "ko": "우리 집에 강아지가 한 마리 있어.",
+          "ne": "हाम्रो घरमा एउटा कुकुर छ।",
+          "pt": "Nós temos um cachorro em casa.",
+          "th": "พวกเรามีหมาหนึ่งตัวอยู่ที่บ้าน",
+          "tl": "May isa kaming aso sa bahay.",
+          "ur": "ہمارے گھر میں ایک کتا ہے۔",
+          "vi": "Nhà tôi có một con chó.",
+          "zh": "我们家有一条狗。",
+          "zh_Hant": "我們家有一條狗。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ໂຕ",
+          "ບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the numeral '1' displayed large and bold alongside one single bright red apple, clean white background, minimalist and colorful style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອອກແບບ": {
+    "definitions": {
+      "de": "entwerfen, gestalten, designen – etwas visuell oder funktional planen und kreieren",
+      "en": "to design – to plan and create the look or function of something, often visually or technically",
+      "es": "diseñar – planificar y crear el aspecto o la función de algo, generalmente de forma visual o técnica",
+      "fr": "concevoir, designer – planifier et créer l'apparence ou la fonction de quelque chose, souvent visuellement ou techniquement",
+      "hi": "डिज़ाइन करना – किसी चीज़ की बनावट या कार्यप्रणाली की योजना बनाना और उसे बनाना",
+      "ja": "デザインする、設計する – 何かの見た目や機能を計画して作り上げること",
+      "km": "រចនា, ដិសាញ – គ្រោងការណ៍ និងបង្កើតរូបរាង ឬមុខងារអ្វីមួយ",
+      "ko": "디자인하다, 설계하다 – 무언가의 외관이나 기능을 계획하고 만들어 내다",
+      "ne": "डिजाइन गर्नु – कुनै चीजको रूपरेखा वा कार्यप्रणाली योजना बनाउनु र तयार पार्नु",
+      "pt": "criar design, projetar – planejar e criar a aparência ou a função de algo, geralmente de forma visual ou técnica",
+      "th": "ออกแบบ – วางแผนและสร้างรูปลักษณ์หรือฟังก์ชันของบางสิ่ง มักในเชิงภาพหรือเทคนิค",
+      "tl": "mag-disenyo – magplano at lumikha ng hitsura o function ng isang bagay, kadalasang biswal o teknikal",
+      "ur": "ڈیزائن کرنا – کسی چیز کی ظاہری شکل یا افعال کی منصوبہ بندی اور تخلیق کرنا",
+      "vi": "thiết kế – lên kế hoạch và tạo ra diện mạo hoặc chức năng của một thứ gì đó, thường theo hướng thị giác hoặc kỹ thuật",
+      "zh": "设计——规划并创造某物的外观或功能，通常具有视觉或技术性",
+      "zh_Hant": "設計——規劃並創造某物的外觀或功能，通常具有視覺或技術性"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ʔɔːk bɛːp²",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂ້ອຍອອກແບບໂລໂກ້ໃຫ້ບໍລິສັດ",
+        "romanization": "phɯan khɔːj ʔɔːk bɛːp loː koː hai boː liː sat",
+        "translations": {
+          "de": "Mein Freund hat das Logo für das Unternehmen entworfen.",
+          "en": "My friend designed the logo for the company.",
+          "es": "Mi amigo diseñó el logo para la empresa.",
+          "fr": "Mon ami a créé le logo pour l'entreprise.",
+          "hi": "मेरे दोस्त ने कंपनी के लिए लोगो डिज़ाइन किया।",
+          "ja": "友達が会社のロゴをデザインしたよ。",
+          "km": "មិត្តរបស់ខ្ញុំបានរចនាឡូហ្គោសម្រាប់ក្រុមហ៊ុន។",
+          "ko": "내 친구가 회사 로고를 디자인했어.",
+          "ne": "मेरो साथीले कम्पनीको लोगो डिजाइन गर्‍यो।",
+          "pt": "Meu amigo criou o logo para a empresa.",
+          "th": "เพื่อนฉันออกแบบโลโก้ให้บริษัท",
+          "tl": "Ang kaibigan ko ay nag-disenyo ng logo para sa kumpanya.",
+          "ur": "میرے دوست نے کمپنی کے لیے لوگو ڈیزائن کیا۔",
+          "vi": "Bạn tôi thiết kế logo cho công ty.",
+          "zh": "我的朋友为公司设计了标志。",
+          "zh_Hant": "我的朋友為公司設計了標誌。"
+        },
+        "out_of_scope_words": [
+          "ໂລໂກ້",
+          "ບໍລິສັດ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກອອກແບບເຮືອນຫຼັງໃໝ່ໃຫ້ສວຍໆ",
+        "romanization": "jaːk ʔɔːk bɛːp hɯan laŋ maj hai suaj suaj",
+        "translations": {
+          "de": "Ich möchte das neue Haus schön gestalten.",
+          "en": "I want to design the new house to look really beautiful.",
+          "es": "Quiero diseñar la nueva casa para que quede muy bonita.",
+          "fr": "Je veux concevoir la nouvelle maison pour qu'elle soit très belle.",
+          "hi": "मैं नए घर को बहुत सुंदर डिज़ाइन करना चाहता/चाहती हूँ।",
+          "ja": "新しい家をとてもきれいにデザインしたい。",
+          "km": "ខ្ញុំចង់រចនាផ្ទះថ្មីឱ្យស្អាតខ្លាំង។",
+          "ko": "새 집을 정말 예쁘게 디자인하고 싶어.",
+          "ne": "नयाँ घर धेरै सुन्दर बनाउन डिजाइन गर्न चाहन्छु।",
+          "pt": "Quero criar um design muito bonito para a casa nova.",
+          "th": "อยากออกแบบบ้านหลังใหม่ให้สวยๆ",
+          "tl": "Gusto kong i-disenyo ang bagong bahay na talagang maganda.",
+          "ur": "میں نئے گھر کو بہت خوبصورت طریقے سے ڈیزائن کرنا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn thiết kế ngôi nhà mới thật đẹp.",
+          "zh": "我想把新房子设计得非常漂亮。",
+          "zh_Hant": "我想把新房子設計得非常漂亮。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ສວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting at a desk drawing design blueprints or sketching a creative layout on paper with pencils and rulers, a small laptop nearby, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

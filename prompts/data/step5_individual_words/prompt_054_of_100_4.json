@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມວນ",
+  "definitions": {
+    "de": "Masse oder Klumpen (in der Physik); als Teil von ມ່ວນ bedeutet es auch Spaß oder Freude; kann auch zum Rollen oder Zusammenwickeln verwendet werden",
+    "en": "Mass or lump (in physics context); as part of ມ່ວນ it means fun or enjoyment; can also refer to rolling or winding something into a bundle",
+    "es": "Masa o bulto (en contexto físico); como parte de ມ່ວນ significa diversión o placer; también puede referirse a enrollar o envolver algo en un paquete",
+    "fr": "Masse ou amas (dans le contexte physique); dans ມ່ວນ cela signifie amusement ou plaisir; peut aussi désigner l'action d'enrouler quelque chose en paquet",
+    "hi": "द्रव्यमान या गांठ (भौतिकी संदर्भ में); ມ່ວນ के भाग के रूप में इसका अर्थ है मज़ा या आनंद; किसी चीज़ को लपेटने या बंडल बनाने का संदर्भ भी हो सकता है",
+    "ja": "質量または塊（物理学の文脈で）；ມ່ວນの一部として楽しみや喜びを意味する；何かを丸めたり束ねたりすることも指す",
+    "km": "ម៉ាស់ ឬដុំ (ក្នុងបរិបទរូបវិទ្យា) ជាផ្នែកនៃ ມ່ວນ មានន័យថាការសប្បាយ ឬការរីករាយ អាចតំណាងឲ្យការរំកិល ឬព័ទ្ធជារ束ផង",
+    "ko": "질량 또는 덩어리 (물리학 맥락에서); ມ່ວນ의 일부로 재미나 즐거움을 의미하기도 함; 무언가를 말거나 묶는 것을 가리킬 수도 있음",
+    "ne": "द्रव्यमान वा गाँठो (भौतिकी सन्दर्भमा); ມ່ວນ को भागको रूपमा रमाइलो वा आनन्द बुझाउँछ; केही कुरा बेर्ने वा बाँध्ने सन्दर्भ पनि हुन सक्छ",
+    "pt": "Massa ou torrão (no contexto da física); como parte de ມ່ວນ significa diversão ou prazer; também pode se referir a enrolar ou embrulhar algo em um pacote",
+    "th": "มวล หรือก้อน (ในบริบทฟิสิกส์) เป็นส่วนหนึ่งของ ມ່ວນ ที่หมายถึงความสนุกหรือความเพลิดเพลิน อาจหมายถึงการม้วนหรือพันสิ่งของด้วย",
+    "tl": "Masa o tipak (sa konteksto ng pisika); bilang bahagi ng ມ່ວນ nangangahulugang kasiyahan o aliwan; maaari ring tumukoy sa pagpupulupot o pagbibigkis ng isang bagay",
+    "ur": "بڑے پیمانے پر یا ڈھیر (طبیعیات کے تناظر میں)؛ ມ່ວນ کے حصے کے طور پر مطلب مزہ یا خوشی؛ کسی چیز کو لپیٹنے یا گٹھری بنانے کا حوالہ بھی ہو سکتا ہے",
+    "vi": "Khối lượng hoặc cục (trong ngữ cảnh vật lý); là một phần của ມ່ວນ có nghĩa là vui vẻ hay thích thú; cũng có thể ám chỉ việc cuộn tròn hay bó lại",
+    "zh": "质量或块状物（物理学语境）；作为ມ່ວນ的一部分，表示乐趣或享乐；也可指将某物卷起或捆绑成束",
+    "zh_Hant": "質量或塊狀物（物理學語境）；作為ມ່ວນ的一部分，表示樂趣或享樂；也可指將某物捲起或捆綁成束"
+  },
+  "definition_en": "Mass or lump (in physics context); as part of ມ່ວນ it means fun or enjoyment; can also refer to rolling or winding something into a bundle",
+  "romanization": "muan",
+  "lao_examples": [
+    {
+      "lao_script": "ມວນຂອງສິ່ງນີ້ແມ່ນເທົ່າໃດ?",
+      "romanization": "muan khong sing nii maen thao dai",
+      "translation_en": "What is the mass of this thing?"
+    },
+    {
+      "lao_script": "ຮຽນຮູ້ກ່ຽວກັບມວນໃນຫ້ອງຮຽນ",
+      "romanization": "hian huu kiao kap muan nai hong hian",
+      "translation_en": "Learning about mass in the classroom"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a physics scale or balance with a labeled block on it representing mass or weight, clean white background, bright educational colors, minimalist cartoon style suitable for a language learning app"
+}

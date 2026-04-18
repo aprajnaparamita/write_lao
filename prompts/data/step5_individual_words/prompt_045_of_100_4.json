@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃບ",
+  "definitions": {
+    "de": "Blatt (eines Baumes); auch ein Klassifikator für flache dünne Gegenstände wie Blätter, Papiere oder Quittungen",
+    "en": "Leaf (of a tree or plant); also used as a classifier for flat, thin objects such as leaves, sheets of paper, tickets, or receipts",
+    "es": "Hoja (de un árbol o planta); también se usa como clasificador para objetos planos y delgados como hojas de papel, boletos o recibos",
+    "fr": "Feuille (d'un arbre ou d'une plante) ; également utilisé comme classificateur pour les objets plats et minces tels que les feuilles de papier, les billets ou les reçus",
+    "hi": "पत्ता (किसी पेड़ या पौधे का); साथ ही चपटी, पतली वस्तुओं जैसे कागज की शीट, टिकट या रसीदों के लिए वर्गीकरण शब्द के रूप में भी प्रयुक्त",
+    "ja": "葉（木や植物の）；また、紙、チケット、レシートなど平らで薄いものを数える類別詞としても使われる",
+    "km": "ស្លឹក (នៃដើមឈើ ឬរុក្ខជាតិ); ក៏ប្រើជាលក្ខន្តិកៈសម្រាប់វត្ថុស្តើងៗ ដូចជាស្លឹកក្រដាស សំបុត្រ ឬវិក្កយបត្រ",
+    "ko": "잎 (나무나 식물의); 또한 종이, 티켓, 영수증 등 납작하고 얇은 물건을 세는 분류사로도 사용됨",
+    "ne": "पात (रुख वा बिरुवाको); साथै कागजको पाना, टिकट वा रसिद जस्ता चेप्टा, पातला वस्तुहरूको लागि वर्गीकरण शब्दको रूपमा पनि प्रयोग हुन्छ",
+    "pt": "Folha (de uma árvore ou planta); também usado como classificador para objetos planos e finos como folhas de papel, ingressos ou recibos",
+    "th": "ใบ (ของต้นไม้หรือพืช); ยังใช้เป็นลักษณนามสำหรับวัตถุแบนและบางอย่างเช่น กระดาษ ตั๋ว หรือใบเสร็จ",
+    "tl": "Dahon (ng puno o halaman); ginagamit din bilang panlaping panguri para sa mga patag at manipis na bagay tulad ng mga dahon ng papel, tiket, o resibo",
+    "ur": "پتہ (کسی درخت یا پودے کا)؛ اسے چپٹی، پتلی اشیاء جیسے کاغذ کی شیٹ، ٹکٹ یا رسید کے لیے درجہ بندی کے طور پر بھی استعمال کیا جاتا ہے",
+    "vi": "Lá (của cây hoặc thực vật); cũng dùng làm loại từ cho các vật phẳng, mỏng như tờ giấy, vé hoặc hóa đơn",
+    "zh": "叶子（树木或植物的）；也用作量词，用于纸张、票据、收据等扁平薄物",
+    "zh_Hant": "葉子（樹木或植物的）；也用作量詞，用於紙張、票據、收據等扁平薄物"
+  },
+  "definition_en": "Leaf (of a tree or plant); also used as a classifier for flat, thin objects such as leaves, sheets of paper, tickets, or receipts",
+  "romanization": "bai",
+  "lao_examples": [
+    {
+      "lao_script": "ໃບໄມ້ຫຼົ່ນລົງໃສ່ດິນ",
+      "romanization": "bai mái lòn long sai din",
+      "translation_en": "A leaf fell down to the ground."
+    },
+    {
+      "lao_script": "ເອົາໃບບິນມາໃຫ້ຂ້ອຍແດ່",
+      "romanization": "ao bai bin maa hâi khɔ̂i dɛ̀",
+      "translation_en": "Please bring me the bill."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright green leaf from a tree alongside a sheet of paper and a ticket, showing the dual meaning as a nature word and classifier, clean white background, colorful, minimalist style, suitable for a language learning app."
+}

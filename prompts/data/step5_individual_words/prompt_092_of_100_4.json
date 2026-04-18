@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມິງ",
+  "definitions": {
+    "de": "Ming; ein Element in Personennamen, das Glanz, Helligkeit oder Ruhm bedeutet; wird häufig als Bestandteil von Eigennamen verwendet",
+    "en": "Ming; a name element meaning brightness, brilliance, or fame; commonly used as part of personal names rather than as a standalone word",
+    "es": "Ming; un elemento de nombre que significa brillo, brillantez o fama; se usa comúnmente como parte de nombres propios",
+    "fr": "Ming; un élément de prénom signifiant éclat, brillance ou renommée; souvent utilisé comme composant de prénoms",
+    "hi": "मिंग; एक नाम का तत्व जिसका अर्थ है चमक, प्रतिभा या प्रसिद्धि; आमतौर पर व्यक्तिगत नामों के हिस्से के रूप में उपयोग किया जाता है",
+    "ja": "ミン；輝き、才能、名声を意味する名前の要素；独立した単語よりも個人名の一部として使われることが多い",
+    "km": "មីង; ធាតុឈ្មោះដែលមានន័យថា ភ្លឺ, ល្បី, ឬ​ចំណេះដឹង; ជាធម្មតាប្រើជាផ្នែកនៃឈ្មោះផ្ទាល់ខ្លួន",
+    "ko": "밍; 빛남, 총명함, 또는 명성을 의미하는 이름 요소; 주로 인명의 일부로 사용됨",
+    "ne": "मिङ; चमक, प्रतिभा वा प्रसिद्धि बुझाउने नाम तत्व; सामान्यतया व्यक्तिगत नामहरूको भागको रूपमा प्रयोग गरिन्छ",
+    "pt": "Ming; um elemento de nome que significa brilho, brilhantismo ou fama; comumente usado como parte de nomes próprios",
+    "th": "มิ้ง; ส่วนประกอบของชื่อที่หมายถึงความสว่าง ความเฉลียวฉลาด หรือชื่อเสียง; มักใช้เป็นส่วนหนึ่งของชื่อบุคคล",
+    "tl": "Ming; isang bahagi ng pangalan na nangangahulugang liwanag, katalinuhan, o katanyagan; karaniwang ginagamit bilang bahagi ng pangalan ng tao",
+    "ur": "مِنگ؛ ایک نامی عنصر جس کا مطلب روشنی، ذہانت یا شہرت ہے؛ عموماً ذاتی ناموں کے حصے کے طور پر استعمال ہوتا ہے",
+    "vi": "Minh; một yếu tố tên có nghĩa là sáng suốt, thông minh hoặc nổi tiếng; thường được dùng như một phần của tên riêng",
+    "zh": "明；名字中的一个元素，意为光明、聪明或名声；通常作为人名的组成部分使用",
+    "zh_Hant": "明；名字中的一個元素，意為光明、聰明或名聲；通常作為人名的組成部分使用"
+  },
+  "definition_en": "Ming; a name element meaning brightness, brilliance, or fame; commonly used as part of personal names rather than as a standalone word",
+  "romanization": "/míŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ຂອງລາວແມ່ນ ມິງ",
+      "romanization": "sûu khɔ̌ɔng lao mɛɛn míŋ",
+      "translation_en": "His/Her name is Ming."
+    },
+    {
+      "lao_script": "ມິງ ເປັນຊື່ທີ່ຂ້ອຍຊອບຫຼາຍ",
+      "romanization": "míŋ pen sûu thîi khɔ̂ɔj sɔ̂ɔp lǎaj",
+      "translation_en": "Ming is a name that I really like."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a glowing name tag or nameplate with the name 'Ming' written on it, surrounded by small stars or sparkles suggesting brightness and brilliance, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

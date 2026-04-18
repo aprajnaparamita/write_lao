@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທ່ານ",
+  "definitions": {
+    "de": "Sie (höfliche Anrede der zweiten Person, auch respektvolle dritte Person)",
+    "en": "you (formal second-person pronoun; also used respectfully for third person)",
+    "es": "usted (pronombre formal de segunda persona; también trato respetuoso)",
+    "fr": "vous (pronom de politesse à la deuxième personne; usage respectueux)",
+    "hi": "आप (सम्मानजनक द्वितीय पुरुष सर्वनाम)",
+    "ja": "あなた／〜様（敬意を示す二人称代名詞）",
+    "km": "លោក／លោកស្រី／អ្នក (សព្វនាមគោរពសម្រាប់មនុស្សទីពីរ)",
+    "ko": "당신／귀하／~님 (격식을 갖춘 2인칭 대명사)",
+    "ne": "तपाईं (आदरार्थी द्वितीय पुरुष सर्वनाम)",
+    "pt": "o senhor／a senhora／você (pronome formal de segunda pessoa)",
+    "th": "ท่าน (สรรพนามบุรุษที่สองอย่างสุภาพ)",
+    "tl": "kayo／po (magalang na panghalip para sa ikalawang panauhan)",
+    "ur": "آپ (دوسرے شخص کے لیے احترامی ضمیر)",
+    "vi": "ngài／ông／bà (đại từ nhân xưng ngôi thứ hai trang trọng)",
+    "zh": "您（对第二人称的尊称）",
+    "zh_Hant": "您（對第二人稱的尊稱）"
+  },
+  "definition_en": "you (formal second-person pronoun; also used respectfully for third person)",
+  "romanization": "tʰāːn",
+  "lao_examples": [
+    {
+      "lao_script": "ທ່ານ ມາ ຈາກ ໃສ?",
+      "romanization": "tʰāːn máː càːk sǎj",
+      "translation_en": "Where are you from?"
+    },
+    {
+      "lao_script": "ຂໍ ໃຫ້ ທ່ານ ໂຊກ ດີ",
+      "romanization": "kʰɔ̌ː hȁj tʰāːn sóːk dìː",
+      "translation_en": "I wish you good luck."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a polite smiling person bowing slightly with hands together in a respectful greeting gesture, suitable for a language learning app, clean white background, minimalist cartoon style, warm colors."
+}

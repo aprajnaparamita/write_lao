@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບາ",
+  "definitions": {
+    "de": "Ein Silbenfragment oder Partikel, das hauptsächlich in Kombinationen oder Namen vorkommt; als eigenständiges Wort selten verwendet",
+    "en": "A syllable fragment or particle primarily used in compound words or names; limited standalone meaning",
+    "es": "Fragmento silábico o partícula usada principalmente en palabras compuestas o nombres; uso independiente limitado",
+    "fr": "Fragment syllabique ou particule utilisé principalement dans des mots composés ou des noms ; usage autonome limité",
+    "hi": "एक शब्दांश खंड या कण जो मुख्यतः यौगिक शब्दों या नामों में प्रयुक्त होता है; स्वतंत्र उपयोग सीमित है",
+    "ja": "主に複合語や名前に使われる音節の断片または助詞；単独での使用は限られる",
+    "km": "ពាក្យបំណែកព្យាង្គ ឬភាគល្អិតដែលប្រើជាចម្បងក្នុងពាក្យផ្សំ ឬឈ្មោះ; ការប្រើប្រាស់តែម្នាក់ឯងមានកំណត់",
+    "ko": "주로 복합어나 이름에 사용되는 음절 단편 또는 조사; 단독 사용은 제한적",
+    "ne": "मुख्यतः यौगिक शब्द वा नामहरूमा प्रयोग हुने एक शब्दांश खण्ड वा कण; स्वतन्त्र प्रयोग सीमित",
+    "pt": "Fragmento silábico ou partícula usado principalmente em palavras compostas ou nomes; uso independente limitado",
+    "th": "ส่วนพยางค์หรืออนุภาคที่ใช้ส่วนใหญ่ในคำประสมหรือชื่อ; การใช้แบบอิสระมีจำกัด",
+    "tl": "Isang bahagi ng pantig o partikula na pangunahing ginagamit sa mga salitang tambalan o pangalan; limitadong paggamit nang mag-isa",
+    "ur": "ایک حرفی ٹکڑا یا ذرہ جو بنیادی طور پر مرکب الفاظ یا ناموں میں استعمال ہوتا ہے؛ اکیلے استعمال محدود ہے",
+    "vi": "Một mảnh âm tiết hoặc tiểu từ chủ yếu dùng trong từ ghép hoặc tên riêng; ít được dùng độc lập",
+    "zh": "主要用于复合词或名字中的音节片段或助词；单独使用有限",
+    "zh_Hant": "主要用於複合詞或名字中的音節片段或助詞；單獨使用有限"
+  },
+  "definition_en": "A syllable fragment or particle primarily used in compound words or names; limited standalone meaning",
+  "romanization": "/baː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳນີ້ຂຶ້ນຕົ້ນດ້ວຍ ບາ",
+      "romanization": "Kham nii khuen ton duai baa",
+      "translation_en": "This word starts with the syllable 'ba'."
+    },
+    {
+      "lao_script": "ບາ ມັກໃຊ້ຢູ່ໃນຊື່ຄົນ",
+      "romanization": "Baa mak sai yu nai sue khon",
+      "translation_en": "'Ba' is often used in people's names."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a speech bubble containing the syllable 'BA' in large, bold, colorful letters, representing a basic phonetic building block, suitable for a language learning app, clean white background, minimalist style."
+}

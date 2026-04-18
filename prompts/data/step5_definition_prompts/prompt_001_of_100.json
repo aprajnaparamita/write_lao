@@ -1,0 +1,367 @@
+{
+  "ແລະ": {
+    "definitions": {
+      "de": "und (Konjunktion, verbindet Wörter, Sätze oder Satzteile)",
+      "en": "and (conjunction used to connect words, phrases, or clauses)",
+      "es": "y (conjunción que une palabras, frases o cláusulas)",
+      "fr": "et (conjonction qui relie des mots, phrases ou propositions)",
+      "hi": "और (शब्दों, वाक्यांशों या उपवाक्यों को जोड़ने वाला समुच्चयबोधक)",
+      "ja": "〜と／そして（語句や文をつなぐ接続詞）",
+      "km": "និង (ឈ្នាប់ភ្ជាប់ពាក្យ ឃ្លា ឬប្រយោគ)",
+      "ko": "그리고／와／과 (단어·구·절을 연결하는 접속사)",
+      "ne": "र (शब्द, वाक्यांश वा उपवाक्य जोड्ने योजक)",
+      "pt": "e (conjunção que liga palavras, frases ou orações)",
+      "th": "และ (คำเชื่อมที่ใช้เชื่อมคำ วลี หรือประโยค)",
+      "tl": "at (pangatnig na nag-uugnay ng mga salita, parirala, o sugnay)",
+      "ur": "اور (ایک ربطی لفظ جو الفاظ، فقرے یا جملوں کو جوڑتا ہے)",
+      "vi": "và (liên từ dùng để nối từ, cụm từ hoặc mệnh đề)",
+      "zh": "和／并且（连接词语、短语或句子的连词）",
+      "zh_Hant": "和／並且（連接詞語、短語或句子的連詞）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "lɛ́ʔ",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ແລະ ເພື່ອນ ໄປ ຕະຫຼາດ",
+        "romanization": "kʰɔ̂ːj lɛ́ʔ pʰɯ̄ːən pàj tā.làːt",
+        "translations": {
+          "de": "Mein Freund und ich gehen zum Markt.",
+          "en": "My friend and I are going to the market.",
+          "es": "Mi amigo y yo vamos al mercado.",
+          "fr": "Mon ami et moi allons au marché.",
+          "hi": "मैं और मेरा दोस्त बाज़ार जा रहे हैं।",
+          "ja": "私と友達は市場に行きます。",
+          "km": "ខ្ញុំនិងមិត្តរបស់ខ្ញុំទៅផ្សារ។",
+          "ko": "저와 친구는 시장에 가요.",
+          "ne": "म र मेरो साथी बजार जाँदैछौं।",
+          "pt": "Eu e meu amigo vamos ao mercado.",
+          "th": "ฉันกับเพื่อนไปตลาด",
+          "tl": "Pupunta kami ng kaibigan ko sa palengke.",
+          "ur": "میں اور میرا دوست بازار جا رہے ہیں۔",
+          "vi": "Tôi và bạn tôi đi chợ.",
+          "zh": "我和朋友去市场。",
+          "zh_Hant": "我和朋友去市場。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ຕະຫຼາດ"]
+      },
+      {
+        "lao_script": "ລາວ ຊື້ ເຂົ້າ ແລະ ປາ",
+        "romanization": "láːw sɯ̂ː kʰȁw lɛ́ʔ pàː",
+        "translations": {
+          "de": "Er/Sie kauft Reis und Fisch.",
+          "en": "He/She buys rice and fish.",
+          "es": "Él/Ella compra arroz y pescado.",
+          "fr": "Il/Elle achète du riz et du poisson.",
+          "hi": "वह चावल और मछली खरीदता है।",
+          "ja": "彼／彼女はお米と魚を買います。",
+          "km": "គាត់ទិញអង្ករនិងត្រី។",
+          "ko": "그/그녀는 쌀과 생선을 사요.",
+          "ne": "उहाँले चामल र माछा किन्नुहुन्छ।",
+          "pt": "Ele/Ela compra arroz e peixe.",
+          "th": "เขาซื้อข้าวและปลา",
+          "tl": "Bumibili siya ng bigas at isda.",
+          "ur": "وہ چاول اور مچھلی خریدتا ہے۔",
+          "vi": "Anh/chị ấy mua gạo và cá.",
+          "zh": "他/她买米和鱼。",
+          "zh_Hant": "他/她買米和魚。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two friends standing side by side connected by a plus sign between them, suitable for a language learning app, clean white background, minimalist cartoon style, bright colors.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃນ": {
+    "definitions": {
+      "de": "in/innerhalb (Präposition, die Ort, Zeit oder Zustand angibt)",
+      "en": "in/inside (preposition indicating location, time, or state)",
+      "es": "en/dentro de (preposición que indica lugar, tiempo o estado)",
+      "fr": "dans/à l'intérieur de (préposition indiquant un lieu, un temps ou un état)",
+      "hi": "में/के अंदर (स्थान, समय या अवस्था दर्शाने वाला पूर्वसर्ग)",
+      "ja": "〜の中に／〜で（場所・時間・状態を示す前置詞）",
+      "km": "ក្នុង／នៅក្នុង (បុព្វបទបង្ហាញទីកន្លែង ពេលវេលា ឬស្ថានភាព)",
+      "ko": "~안에／~에서 (장소·시간·상태를 나타내는 전치사)",
+      "ne": "मा／भित्र (स्थान, समय वा अवस्था जनाउने नामयोगी)",
+      "pt": "em/dentro de (preposição que indica lugar, tempo ou estado)",
+      "th": "ใน／ข้างใน (คำบุพบทบอกสถานที่ เวลา หรือสภาพ)",
+      "tl": "sa/sa loob ng (pang-ukol na nagsasaad ng lugar, panahon, o kalagayan)",
+      "ur": "میں／کے اندر (جگہ، وقت یا حالت ظاہر کرنے والا حرفِ جر)",
+      "vi": "trong/ở trong (giới từ chỉ nơi chốn, thời gian hoặc trạng thái)",
+      "zh": "在……里／在（表示处所、时间或状态的介词）",
+      "zh_Hant": "在……裡／在（表示處所、時間或狀態的介詞）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "nàj",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ຢູ່ ໃນ ເຮືອນ",
+        "romanization": "kʰɔ̂ːj jūː nàj hɯ́ːən",
+        "translations": {
+          "de": "Ich bin im Haus.",
+          "en": "I am in the house.",
+          "es": "Estoy en la casa.",
+          "fr": "Je suis dans la maison.",
+          "hi": "मैं घर के अंदर हूँ।",
+          "ja": "私は家の中にいます。",
+          "km": "ខ្ញុំនៅក្នុងផ្ទះ។",
+          "ko": "저는 집 안에 있어요.",
+          "ne": "म घरभित्र छु।",
+          "pt": "Eu estou em casa.",
+          "th": "ฉันอยู่ในบ้าน",
+          "tl": "Nasa loob ako ng bahay.",
+          "ur": "میں گھر کے اندر ہوں۔",
+          "vi": "Tôi ở trong nhà.",
+          "zh": "我在家里。",
+          "zh_Hant": "我在家裡。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ມີ ຄົນ ຫຼາຍ ໃນ ເມືອງ",
+        "romanization": "míː kʰón lǎːj nàj mɯ́ːəŋ",
+        "translations": {
+          "de": "Es sind viele Menschen in der Stadt.",
+          "en": "There are many people in the city.",
+          "es": "Hay mucha gente en la ciudad.",
+          "fr": "Il y a beaucoup de gens dans la ville.",
+          "hi": "शहर में बहुत लोग हैं।",
+          "ja": "町にたくさんの人がいます。",
+          "km": "មានមនុស្សច្រើននៅក្នុងទីក្រុង។",
+          "ko": "도시에 사람이 많아요.",
+          "ne": "सहरमा धेरै मानिस छन्।",
+          "pt": "Há muitas pessoas na cidade.",
+          "th": "มีคนมากในเมือง",
+          "tl": "Maraming tao sa lungsod.",
+          "ur": "شہر میں بہت لوگ ہیں۔",
+          "vi": "Có nhiều người trong thành phố.",
+          "zh": "城里有很多人。",
+          "zh_Hant": "城裡有很多人。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small cartoon object placed inside a transparent box, with a clear arrow pointing inward, suitable for a language learning app, clean white background, minimalist design, bright colors.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທ່ານ": {
+    "definitions": {
+      "de": "Sie (höfliche Anrede der zweiten Person, auch respektvolle dritte Person)",
+      "en": "you (formal second-person pronoun; also used respectfully for third person)",
+      "es": "usted (pronombre formal de segunda persona; también trato respetuoso)",
+      "fr": "vous (pronom de politesse à la deuxième personne; usage respectueux)",
+      "hi": "आप (सम्मानजनक द्वितीय पुरुष सर्वनाम)",
+      "ja": "あなた／〜様（敬意を示す二人称代名詞）",
+      "km": "លោក／លោកស្រី／អ្នក (សព្វនាមគោរពសម្រាប់មនុស្សទីពីរ)",
+      "ko": "당신／귀하／~님 (격식을 갖춘 2인칭 대명사)",
+      "ne": "तपाईं (आदरार्थी द्वितीय पुरुष सर्वनाम)",
+      "pt": "o senhor／a senhora／você (pronome formal de segunda pessoa)",
+      "th": "ท่าน (สรรพนามบุรุษที่สองอย่างสุภาพ)",
+      "tl": "kayo／po (magalang na panghalip para sa ikalawang panauhan)",
+      "ur": "آپ (دوسرے شخص کے لیے احترامی ضمیر)",
+      "vi": "ngài／ông／bà (đại từ nhân xưng ngôi thứ hai trang trọng)",
+      "zh": "您（对第二人称的尊称）",
+      "zh_Hant": "您（對第二人稱的尊稱）"
+    },
+    "part_of_speech": "pronoun",
+    "romanization": "tʰāːn",
+    "examples": [
+      {
+        "lao_script": "ທ່ານ ມາ ຈາກ ໃສ?",
+        "romanization": "tʰāːn máː càːk sǎj",
+        "translations": {
+          "de": "Woher kommen Sie?",
+          "en": "Where are you from?",
+          "es": "¿De dónde es usted?",
+          "fr": "D'où venez-vous ?",
+          "hi": "आप कहाँ से हैं?",
+          "ja": "あなたはどこから来ましたか？",
+          "km": "លោកមកពីណា?",
+          "ko": "어디서 오셨어요?",
+          "ne": "तपाईं कहाँबाट आउनुभएको हो?",
+          "pt": "De onde o senhor é?",
+          "th": "ท่านมาจากไหน?",
+          "tl": "Saan po kayo nanggaling?",
+          "ur": "آپ کہاں سے ہیں؟",
+          "vi": "Ngài từ đâu đến?",
+          "zh": "您从哪里来？",
+          "zh_Hant": "您從哪裡來？"
+        },
+        "out_of_scope_words": ["ໃສ"]
+      },
+      {
+        "lao_script": "ຂໍ ໃຫ້ ທ່ານ ໂຊກ ດີ",
+        "romanization": "kʰɔ̌ː hȁj tʰāːn sóːk dìː",
+        "translations": {
+          "de": "Ich wünsche Ihnen viel Glück.",
+          "en": "I wish you good luck.",
+          "es": "Le deseo buena suerte.",
+          "fr": "Je vous souhaite bonne chance.",
+          "hi": "मैं आपको शुभकामनाएँ देता हूँ।",
+          "ja": "あなたの幸運をお祈りします。",
+          "km": "សូមឱ្យលោកមានសំណាងល្អ។",
+          "ko": "행운을 빕니다.",
+          "ne": "तपाईंलाई शुभकामना।",
+          "pt": "Desejo-lhe boa sorte.",
+          "th": "ขอให้ท่านโชคดี",
+          "tl": "Suwertehin po kayo.",
+          "ur": "میں آپ کی خوش قسمتی کی دعا کرتا ہوں۔",
+          "vi": "Chúc ngài may mắn.",
+          "zh": "祝您好运。",
+          "zh_Hant": "祝您好運。"
+        },
+        "out_of_scope_words": ["ໂຊກ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a polite smiling person bowing slightly with hands together in a respectful greeting gesture, suitable for a language learning app, clean white background, minimalist cartoon style, warm colors.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ທີ່": {
+    "definitions": {
+      "de": "der/die/das/welche (Relativpronomen); an/in (Ortsmarker)",
+      "en": "that/which/who (relative clause marker); at/in (locative marker)",
+      "es": "que/el cual/donde (pronombre relativo; también marcador de lugar)",
+      "fr": "qui/que/où (pronom relatif; aussi marqueur de lieu)",
+      "hi": "जो/जिस/कि (संबंधवाचक सर्वनाम); पर/में (स्थानसूचक)",
+      "ja": "〜という／〜の（関係節を導く助詞・場所を表す）",
+      "km": "ដែល／នៅ (សព្វនាមសម្ព័ន្ធ ឬបញ្ជាក់ទីកន្លែង)",
+      "ko": "~하는／~에서 (관계절 표지・장소 표지)",
+      "ne": "जुन／जहाँ／कि (सम्बन्धवाचक, स्थानवाचक)",
+      "pt": "que/o qual/onde (pronome relativo; também marcador de lugar)",
+      "th": "ที่ (คำเชื่อมประโยคสัมพัทธ์ หรือบอกสถานที่)",
+      "tl": "na／kung saan (pang-ugnay ng sugnay o panlugar)",
+      "ur": "جو／جہاں／پر (موصولی ضمیر اور مقام کا اشارہ)",
+      "vi": "mà／ở／tại (đại từ quan hệ; dấu hiệu nơi chốn)",
+      "zh": "的／在（关系词标记或地点标记）",
+      "zh_Hant": "的／在（關係詞標記或地點標記）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "tʰīː",
+    "examples": [
+      {
+        "lao_script": "ບ້ານ ທີ່ ລາວ ຢູ່ ໃຫຍ່ ຫຼາຍ",
+        "romanization": "bâːn tʰīː láːw jūː ɲájʔ lǎːj",
+        "translations": {
+          "de": "Das Haus, in dem er/sie wohnt, ist sehr groß.",
+          "en": "The house that he/she lives in is very big.",
+          "es": "La casa en la que vive es muy grande.",
+          "fr": "La maison où il/elle habite est très grande.",
+          "hi": "जिस घर में वह रहता है, वह बहुत बड़ा है।",
+          "ja": "彼／彼女が住んでいる家はとても大きいです。",
+          "km": "ផ្ទះដែលគាត់រស់នៅគឺធំណាស់។",
+          "ko": "그/그녀가 사는 집은 아주 커요.",
+          "ne": "उहाँ बस्ने घर एकदम ठूलो छ।",
+          "pt": "A casa em que ele/ela mora é muito grande.",
+          "th": "บ้านที่เขาอยู่ใหญ่มาก",
+          "tl": "Ang bahay na tinitirhan niya ay napakalaki.",
+          "ur": "جس گھر میں وہ رہتا ہے وہ بہت بڑا ہے۔",
+          "vi": "Ngôi nhà mà anh/chị ấy ở rất lớn.",
+          "zh": "他/她住的那间房子很大。",
+          "zh_Hant": "他/她住的那間房子很大。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍ ຢາກ ກິນ ເຂົ້າ ທີ່ ຮ້ານ ນັ້ນ",
+        "romanization": "kʰɔ̂ːj jȁːk kìn kʰȁw tʰīː hâːn nân",
+        "translations": {
+          "de": "Ich möchte in jenem Restaurant essen.",
+          "en": "I want to eat at that restaurant.",
+          "es": "Quiero comer en aquel restaurante.",
+          "fr": "Je veux manger à ce restaurant-là.",
+          "hi": "मैं उस दुकान पर खाना खाना चाहता हूँ।",
+          "ja": "あのお店で食べたいです。",
+          "km": "ខ្ញុំចង់ញ៉ាំបាយនៅហាងនោះ។",
+          "ko": "저 식당에서 밥을 먹고 싶어요.",
+          "ne": "म त्यो पसलमा खान चाहन्छु।",
+          "pt": "Quero comer naquele restaurante.",
+          "th": "ฉันอยากกินข้าวที่ร้านนั้น",
+          "tl": "Gusto kong kumain sa tindahang iyon.",
+          "ur": "میں اس دکان پر کھانا کھانا چاہتا ہوں۔",
+          "vi": "Tôi muốn ăn cơm ở quán đó.",
+          "zh": "我想在那家店吃饭。",
+          "zh_Hant": "我想在那家店吃飯。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ຢາກ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a pointing arrow connecting one item to a description bubble, representing a relative reference, suitable for a language learning app, clean white background, minimalist style, soft colors.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄດ້": {
+    "definitions": {
+      "de": "können; erhalten; Vergangenheits-/Fähigkeitspartikel (postverbal)",
+      "en": "can/be able to; receive/get; post-verbal particle marking ability or completed action",
+      "es": "poder; recibir/obtener; partícula posverbal de capacidad o acción completada",
+      "fr": "pouvoir; obtenir/recevoir; particule postverbale indiquant la capacité ou l'accompli",
+      "hi": "सकना; पाना; क्षमता या पूर्णता दर्शाने वाला पश्चक्रिया कण",
+      "ja": "〜できる／〜した／得る（可能・完了を示す助詞、動詞としては「得る」）",
+      "km": "បាន (អាច ឬទទួល, បច្ច័យកិរិយាបង្ហាញសមត្ថភាព ឬអំពើបានសម្រេច)",
+      "ko": "~할 수 있다／~했다／얻다 (능력·완료를 나타내는 후치 조사 및 동사)",
+      "ne": "सक्नु; पाउनु; क्षमता वा सम्पन्नता जनाउने क्रियाप्रत्यय",
+      "pt": "poder; conseguir/receber; partícula pós-verbal de capacidade ou ação concluída",
+      "th": "ได้ (สามารถ; ได้รับ; คำท้ายกริยาบอกความสามารถหรือการเสร็จสิ้น)",
+      "tl": "puwede／nakaya／nakuha (panghalili sa likod ng pandiwa para sa kakayahan o nagawang aksyon)",
+      "ur": "سکنا؛ پانا؛ صلاحیت یا ہو چکنے کی علامت (فعل کے بعد آنے والا ذرّہ)",
+      "vi": "được; có thể; nhận được (tiểu từ sau động từ chỉ khả năng hoặc hoàn tất)",
+      "zh": "能／可以／得到／完成（动词后助词，表能力或已完成）",
+      "zh_Hant": "能／可以／得到／完成（動詞後助詞，表能力或已完成）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "dâj",
+    "examples": [
+      {
+        "lao_script": "ລາວ ໄປ ຕະຫຼາດ ໄດ້ ແລ້ວ",
+        "romanization": "láːw pàj tā.làːt dâj lɛ̂ːw",
+        "translations": {
+          "de": "Er/Sie ist schon zum Markt gegangen.",
+          "en": "He/She has already gone to the market.",
+          "es": "Él/Ella ya ha ido al mercado.",
+          "fr": "Il/Elle est déjà allé(e) au marché.",
+          "hi": "वह पहले ही बाज़ार जा चुका/चुकी है।",
+          "ja": "彼／彼女はもう市場に行きました。",
+          "km": "គាត់បានទៅផ្សាររួចហើយ។",
+          "ko": "그/그녀는 벌써 시장에 갔어요.",
+          "ne": "उहाँ बजार गइसक्नुभयो।",
+          "pt": "Ele/Ela já foi ao mercado.",
+          "th": "เขาไปตลาดแล้ว",
+          "tl": "Nakapunta na siya sa palengke.",
+          "ur": "وہ بازار جا چکا/چکی ہے۔",
+          "vi": "Anh/chị ấy đã đi chợ rồi.",
+          "zh": "他/她已经去市场了。",
+          "zh_Hant": "他/她已經去市場了。"
+        },
+        "out_of_scope_words": ["ຕະຫຼາດ"]
+      },
+      {
+        "lao_script": "ຂ້ອຍ ເວົ້າ ພາສາ ລາວ ໄດ້",
+        "romanization": "kʰɔ̂ːj wȃw pʰàː.sǎː láːw dâj",
+        "translations": {
+          "de": "Ich kann Laotisch sprechen.",
+          "en": "I can speak Lao.",
+          "es": "Puedo hablar lao.",
+          "fr": "Je peux parler lao.",
+          "hi": "मैं लाओ भाषा बोल सकता हूँ।",
+          "ja": "私はラオス語を話せます。",
+          "km": "ខ្ញុំអាចនិយាយភាសាឡាវបាន។",
+          "ko": "저는 라오어를 할 수 있어요.",
+          "ne": "म लाओ भाषा बोल्न सक्छु।",
+          "pt": "Eu sei falar laociano.",
+          "th": "ฉันพูดภาษาลาวได้",
+          "tl": "Marunong akong magsalita ng Lao.",
+          "ur": "میں لاؤ زبان بول سکتا ہوں۔",
+          "vi": "Tôi có thể nói tiếng Lào.",
+          "zh": "我会说老挝语。",
+          "zh_Hant": "我會說寮語。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ພາສາ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person giving a confident thumbs-up with a green check mark beside them, representing ability or accomplishment, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

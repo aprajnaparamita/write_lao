@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄົນ",
+  "definitions": {
+    "de": "Person/Mensch; Klassifikator für Menschen",
+    "en": "person/people; classifier for humans",
+    "es": "persona/gente; clasificador para personas",
+    "fr": "personne/gens; classificateur pour les personnes",
+    "hi": "व्यक्ति/लोग; मनुष्यों के लिए वर्गचिह्न",
+    "ja": "人／〜人（人を数える助数詞）",
+    "km": "មនុស្ស／នាក់ (នាមឬពាក្យចាត់ថ្នាក់សម្រាប់មនុស្ស)",
+    "ko": "사람／~명 (사람 또는 사람 분류사)",
+    "ne": "मान्छे／जना (व्यक्ति वा मानिसको वर्गीकारक)",
+    "pt": "pessoa; classificador para pessoas",
+    "th": "คน (บุคคล หรือลักษณนามของคน)",
+    "tl": "tao (panao o pangtaong pambilang)",
+    "ur": "شخص؛ لوگ؛ انسانوں کا شمار",
+    "vi": "người (người hoặc loại từ cho người)",
+    "zh": "人／个（指人或人的量词）",
+    "zh_Hant": "人／個（指人或人的量詞）"
+  },
+  "definition_en": "person/people; classifier for humans",
+  "romanization": "kʰón",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວ ເປັນ ຄົນ ດີ",
+      "romanization": "láːw pēn kʰón dìː",
+      "translation_en": "He/She is a good person."
+    },
+    {
+      "lao_script": "ມີ ຄົນ ສາມ ຄົນ ຢູ່ ໃນ ຫ້ອງ",
+      "romanization": "míː kʰón sǎːm kʰón jūː nàj hɔ̂ŋ",
+      "translation_en": "There are three people in the room."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of three cartoon people standing side by side with friendly smiles, representing people, suitable for a language learning app, clean white background, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ງານ",
+  "definitions": {
+    "de": "Arbeit; Job; Veranstaltung; eine häufig verwendete Bezeichnung für Beschäftigung oder eine gesellschaftliche Feier",
+    "en": "Work; job; event; a common noun referring to employment or a social celebration/festival",
+    "es": "Trabajo; empleo; evento; sustantivo común que hace referencia a una ocupación o a una celebración social",
+    "fr": "Travail; emploi; événement; nom commun désignant une occupation ou une célébration sociale",
+    "hi": "काम; नौकरी; कार्यक्रम; एक सामान्य संज्ञा जो रोजगार या सामाजिक उत्सव को दर्शाती है",
+    "ja": "仕事；イベント；職業や社会的な祝祭を指す一般名詞",
+    "km": "ការងារ; ព្រឹត្តិការណ៍; ពាក្យនាមទូទៅដែលសំដៅទៅលើការងារ ឬពិធីបុណ្យសង្គម",
+    "ko": "일; 직업; 행사; 직업이나 사회적 축제를 나타내는 일반 명사",
+    "ne": "काम; नोकरी; कार्यक्रम; रोजगार वा सामाजिक उत्सवलाई जनाउने सामान्य नाम",
+    "pt": "Trabalho; emprego; evento; substantivo comum que se refere a uma ocupação ou celebração social",
+    "th": "งาน; การทำงาน; กิจกรรม; คำนามทั่วไปที่หมายถึงการทำงานหรืองานเฉลิมฉลองทางสังคม",
+    "tl": "Trabaho; gawain; kaganapan; pangkaraniwang pangngalan na tumutukoy sa hanapbuhay o pagdiriwang",
+    "ur": "کام؛ ملازمت؛ تقریب؛ ایک عام اسم جو پیشے یا سماجی تہوار کو ظاہر کرتا ہے",
+    "vi": "Công việc; việc làm; sự kiện; danh từ thông dụng chỉ nghề nghiệp hoặc lễ hội xã hội",
+    "zh": "工作；职业；活动；指职业或社会庆典的常用名词",
+    "zh_Hant": "工作；職業；活動；指職業或社會慶典的常用名詞"
+  },
+  "definition_en": "Work; job; event; a common noun referring to employment or a social celebration/festival",
+  "romanization": "ŋáːn",
+  "lao_examples": [
+    {
+      "lao_script": "ງານຂອງເຈົ້າເປັນຈັ່ງໃດແດ່",
+      "romanization": "ŋáːn kʰɔ̌ːŋ tɕâw pen tɕàŋ-daj dɛ̀ː",
+      "translation_en": "How is your work going?"
+    },
+    {
+      "lao_script": "ມື້ນີ້ມີງານບຸນຢູ່ໃນໝູ່ບ້ານ",
+      "romanization": "mɯ̂ː-nii mii ŋáːn bun jùː nai mùː-bâːn",
+      "translation_en": "Today there's a merit-making festival in the village."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting at a desk working, with papers and a laptop, or alternatively a colorful festival scene with lanterns and people celebrating, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

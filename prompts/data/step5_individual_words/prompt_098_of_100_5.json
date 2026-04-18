@@ -1,0 +1,36 @@
+{
+  "lao_word": "ງ່າຍໆ",
+  "definitions": {
+    "de": "Einfach oder leicht; wird verwendet, um auszudrücken, dass etwas keine Mühe oder Schwierigkeit erfordert",
+    "en": "Easy or easily; used to express that something requires little effort or difficulty, often with a casual, breezy tone",
+    "es": "Fácil o fácilmente; se usa para expresar que algo requiere poco esfuerzo, a menudo con un tono relajado",
+    "fr": "Facile ou facilement ; utilisé pour exprimer que quelque chose ne demande pas beaucoup d'effort, souvent avec un ton décontracté",
+    "hi": "आसान या आसानी से; यह व्यक्त करने के लिए उपयोग किया जाता है कि किसी चीज़ में कम प्रयास लगता है, अक्सर एक सामान्य लहजे में",
+    "ja": "簡単に、または容易に；何かが少ない労力や困難さで済むことを表す、しばしばカジュアルなトーンで使われる",
+    "km": "ងាយ ឬដោយងាយ; ប្រើដើម្បីបង្ហាញថាអ្វីមួយមិនត្រូវការការខំប្រឹងប្រែងច្រើន ជាញឹកញាប់ប្រើក្នុងន័យធម្មតា",
+    "ko": "쉽거나 쉽게; 어떤 것이 별로 힘들지 않다는 것을 나타낼 때 사용하며, 종종 가볍고 편안한 어조로 쓰임",
+    "ne": "सजिलो वा सजिलैसँग; कुनै कुरा कम प्रयासमा गर्न सकिन्छ भन्न प्रयोग गरिन्छ, प्रायः सामान्य लहजामा",
+    "pt": "Fácil ou facilmente; usado para expressar que algo não requer muito esforço, muitas vezes com um tom descontraído",
+    "th": "ง่ายหรืออย่างง่ายดาย; ใช้เพื่อบอกว่าสิ่งใดสิ่งหนึ่งไม่ต้องใช้ความพยายามมาก มักใช้ในน้ำเสียงสบายๆ",
+    "tl": "Madali o nang madali; ginagamit upang ipahayag na ang isang bagay ay hindi nangangailangan ng maraming pagsisikap, kadalasang may kaswal na tono",
+    "ur": "آسان یا آسانی سے؛ یہ ظاہر کرنے کے لیے استعمال ہوتا ہے کہ کسی چیز میں کم محنت لگتی ہے، اکثر آرام دہ لہجے میں",
+    "vi": "Dễ hoặc dễ dàng; dùng để diễn đạt rằng điều gì đó không đòi hỏi nhiều nỗ lực, thường mang giọng điệu nhẹ nhàng thoải mái",
+    "zh": "简单或容易地；用于表达某事不需要太多努力，通常带有轻松随意的语气",
+    "zh_Hant": "簡單或容易地；用於表達某事不需要太多努力，通常帶有輕鬆隨意的語氣"
+  },
+  "definition_en": "Easy or easily; used to express that something requires little effort or difficulty, often with a casual, breezy tone",
+  "romanization": "ŋaːj ŋaːj",
+  "lao_examples": [
+    {
+      "lao_script": "ແບບຝຶກຫັດນີ້ງ່າຍໆ ເຮັດໄດ້ຂີ້ຫຍາກ",
+      "romanization": "bɛːp fɯk hat niː ŋaːj ŋaːj het daɪ kʰiː ɲaːk",
+      "translation_en": "This exercise is super easy, you can do it no problem"
+    },
+    {
+      "lao_script": "ເຮັດອາຫານລາວງ່າຍໆ ບໍ່ຕ້ອງຊຊ",
+      "romanization": "het ʔaː haːn laːw ŋaːj ŋaːj bɔː tɔːŋ sɔːk",
+      "translation_en": "Cooking Lao food is pretty easy, not complicated at all"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person giving a thumbs up next to a checkmark or a simple completed task list, with a bright, cheerful color palette, clean white background, minimalist cartoon style suitable for a language learning app."
+}

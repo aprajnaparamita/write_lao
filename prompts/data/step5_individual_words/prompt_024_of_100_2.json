@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເດືອນ",
+  "definitions": {
+    "de": "Monat; auch: Mond",
+    "en": "Month; also: Moon",
+    "es": "Mes; también: Luna",
+    "fr": "Mois ; aussi : Lune",
+    "hi": "महीना; चाँद भी",
+    "ja": "月（つき）；月（がつ）",
+    "km": "ខែ; ក៏មានន័យថា ព្រះចន្ទ",
+    "ko": "달 (한 달); 달 (천체)",
+    "ne": "महिना; जून/चन्द्रमा पनि",
+    "pt": "Mês; também: Lua",
+    "th": "เดือน (ช่วงเวลา); ยังหมายถึงดวงจันทร์",
+    "tl": "Buwan (tagal ng panahon); pati na rin ang Buwan (kalangitan)",
+    "ur": "مہینہ؛ چاند بھی",
+    "vi": "Tháng; cũng có nghĩa là Mặt trăng",
+    "zh": "月份；也指月亮",
+    "zh_Hant": "月份；也指月亮"
+  },
+  "definition_en": "Month; also: Moon",
+  "romanization": "/dɯ̀an/",
+  "lao_examples": [
+    {
+      "lao_script": "ເດືອນນີ້ຂ້ອຍຫຍຸ້ງຫຼາຍເລີຍ",
+      "romanization": "duan ni, khoi nyung lai loei",
+      "translation_en": "This month I'm really very busy."
+    },
+    {
+      "lao_script": "ເດືອນນີ້ແມ່ນເດືອນຫຍັງແລ້ວ",
+      "romanization": "duan ni maen duan nyang laew",
+      "translation_en": "What month is it now?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a calendar page showing one month grid, with a glowing crescent moon in the top corner on a clean white background, colorful and minimalist style suitable for a language learning app."
+}

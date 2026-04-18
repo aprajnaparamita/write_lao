@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄ່ອຍ",
+  "definitions": {
+    "de": "Langsam oder sanft; beschreibt eine Handlung, die mit geringer Geschwindigkeit oder Kraft ausgeführt wird",
+    "en": "Slowly or softly; describes an action done at a gentle pace or with light force",
+    "es": "Lentamente o suavemente; describe una acción realizada a un ritmo tranquilo o con poca fuerza",
+    "fr": "Lentement ou doucement; décrit une action effectuée à un rythme calme ou avec peu de force",
+    "hi": "धीरे या धीमे से; किसी काम को आराम से या हल्के तरीके से करने का वर्णन करता है",
+    "ja": "ゆっくりまたは静かに；穏やかなペースや軽い力で行われる動作を表す副詞",
+    "km": "យឺតៗ ឬស្រទន់; ពិពណ៌នាអំពីសកម្មភាពដែលធ្វើឡើងដោយល្បឿនយឺត ឬដោយកម្លាំងស្រាល",
+    "ko": "천천히 또는 부드럽게; 느린 속도나 가벼운 힘으로 행해지는 동작을 묘사하는 부사",
+    "ne": "बिस्तारै वा नरमसँग; कुनै काम सुस्त गतिमा वा हल्का शक्तिसँग गरिएको वर्णन गर्छ",
+    "pt": "Devagar ou suavemente; descreve uma ação realizada em ritmo calmo ou com pouca força",
+    "th": "อย่างช้าๆ หรืออย่างเบาๆ; ใช้บรรยายการกระทำที่ทำด้วยความช้าหรือด้วยแรงเบา",
+    "tl": "Dahan-dahan o mahinahon; naglalarawan ng isang kilos na ginagawa nang mabagal o magaan",
+    "ur": "آہستہ یا نرمی سے؛ کسی کام کو سکون سے یا ہلکی طاقت سے کرنے کو بیان کرتا ہے",
+    "vi": "Từ từ hoặc nhẹ nhàng; mô tả một hành động được thực hiện với tốc độ chậm hoặc lực nhẹ",
+    "zh": "慢慢地或轻柔地；描述以缓慢的速度或轻微的力量进行的动作",
+    "zh_Hant": "慢慢地或輕柔地；描述以緩慢的速度或輕微的力量進行的動作"
+  },
+  "definition_en": "Slowly or softly; describes an action done at a gentle pace or with light force",
+  "romanization": "kʰɔ̀j",
+  "lao_examples": [
+    {
+      "lao_script": "ຄ່ອຍໆ ເດີນ, ບ່ອນນີ້ລື່ນ",
+      "romanization": "kʰɔ̀j kʰɔ̀j dəːn, bɔ̀ːn niː lɯːn",
+      "translation_en": "Walk slowly, it's slippery here."
+    },
+    {
+      "lao_script": "ເວົ້າຄ່ອຍໆ ໜ່ອຍ, ຂ້ອຍບໍ່ໄດ້ຍິນ",
+      "romanization": "wâo kʰɔ̀j kʰɔ̀j nɔ̀j, kʰɔ̂j bɔ̀ dâj ɲin",
+      "translation_en": "Speak a little softer, I can't hear you."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking carefully and slowly on a slippery wet floor, with slow-motion lines around their feet to indicate slow movement, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈາກ",
+  "definitions": {
+    "de": "von/aus (Quelle/Herkunft); trennen/sich trennen",
+    "en": "from (source/origin); to depart/separate",
+    "es": "de/desde (origen/fuente); partir/separarse",
+    "fr": "de/depuis (origine/source); partir/se séparer",
+    "hi": "से (स्रोत/मूल); छोड़ना/बिछड़ना",
+    "ja": "〜から／離れる（出発点または別れ）",
+    "km": "ពី／ចាកចេញ (ប្រភព ឬចេញឆ្ងាយ)",
+    "ko": "~에서／떠나다 (출발점 또는 이별)",
+    "ne": "बाट／छुट्टिनु (स्रोत वा बिदा)",
+    "pt": "de/desde (origem); partir/separar-se",
+    "th": "จาก (มาจาก หรือจากไป)",
+    "tl": "galing sa／mula sa／umalis (pinagmulan o paghihiwalay)",
+    "ur": "سے؛ رخصت ہونا (منبع یا علیحدگی)",
+    "vi": "từ; rời khỏi (nguồn gốc hoặc rời đi)",
+    "zh": "从／离开（来源或离别）",
+    "zh_Hant": "從／離開（來源或離別）"
+  },
+  "definition_en": "from (source/origin); to depart/separate",
+  "romanization": "càːk",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ມາ ຈາກ ອາເມລິກາ",
+      "romanization": "kʰɔ̂ːj máː càːk ʔàː.méː.líʔ.kàː",
+      "translation_en": "I'm from America."
+    },
+    {
+      "lao_script": "ລາວ ຈາກ ໄປ ແລ້ວ",
+      "romanization": "láːw càːk pàj lɛ̂ːw",
+      "translation_en": "He/She has already left."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an arrow leaving a labeled location point, representing origin or departure, suitable for a language learning app, clean white background, minimalist style."
+}

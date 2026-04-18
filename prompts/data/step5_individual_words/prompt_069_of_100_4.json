@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫາຍ",
+  "definitions": {
+    "de": "Verschwinden; nicht mehr da sein; auch: atmen (ຫາຍໃຈ)",
+    "en": "To disappear; to vanish; to no longer be present; also used in ຫາຍໃຈ (to breathe)",
+    "es": "Desaparecer; desvanecerse; ya no estar presente; también usado en ຫາຍໃຈ (respirar)",
+    "fr": "Disparaître; s'évanouir; ne plus être présent; utilisé aussi dans ຫາຍໃຈ (respirer)",
+    "hi": "गायब होना; लुप्त होना; अब मौजूद न रहना; ຫາຍໃຈ (साँस लेना) में भी प्रयुक्त",
+    "ja": "消える；見えなくなる；なくなる；ຫາຍໃຈ（呼吸する）にも使われる",
+    "km": "បាត់; រលាយ; លែងមានវត្តមាន; ប្រើផងក្នុង ຫາຍໃຈ (ដកដង្ហើម)",
+    "ko": "사라지다; 없어지다; 더 이상 존재하지 않다; ຫາຍໃຈ(숨쉬다)에도 사용됨",
+    "ne": "हराउनु; अदृश्य हुनु; अब उपस्थित नहुनु; ຫາຍໃຈ (सास फेर्नु) मा पनि प्रयोग हुन्छ",
+    "pt": "Desaparecer; sumir; não estar mais presente; também usado em ຫາຍໃຈ (respirar)",
+    "th": "หาย; หายไป; ไม่มีอีกต่อไป; ใช้ใน ຫາຍໃຈ (หายใจ) ด้วย",
+    "tl": "Mawala; maglaho; hindi na naroon; ginagamit din sa ຫາຍໃຈ (huminga)",
+    "ur": "غائب ہونا؛ ناپید ہونا؛ اب موجود نہ رہنا؛ ຫາຍໃຈ (سانس لینا) میں بھی استعمال ہوتا ہے",
+    "vi": "Biến mất; không còn ở đó nữa; cũng dùng trong ຫາຍໃຈ (thở)",
+    "zh": "消失；不见了；不再存在；也用于 ຫາຍໃຈ（呼吸）",
+    "zh_Hant": "消失；不見了；不再存在；也用於 ຫາຍໃຈ（呼吸）"
+  },
+  "definition_en": "To disappear; to vanish; to no longer be present; also used in ຫາຍໃຈ (to breathe)",
+  "romanization": "haai",
+  "lao_examples": [
+    {
+      "lao_script": "ກະເປົ໋າຂອງຂ້ອຍຫາຍໄປໃສ?",
+      "romanization": "ka-pao khong khoi haai pai sai?",
+      "translation_en": "Where did my bag go? It disappeared!"
+    },
+    {
+      "lao_script": "ເຈັບຫົວຂ້ອຍຫາຍແລ້ວ ຫຼັງຈາກກິນຢາ",
+      "romanization": "jep hua khoi haai laeo lang jaak kin yaa",
+      "translation_en": "My headache is gone after taking medicine."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an object (like a hat or a key) with a dotted outline fading away or disappearing into thin air, with a surprised person nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

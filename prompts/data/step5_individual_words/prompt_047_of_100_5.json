@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊື້",
+  "definitions": {
+    "de": "Kaufen – etwas gegen Geld erwerben",
+    "en": "To buy – to obtain something by paying money for it",
+    "es": "Comprar – obtener algo pagando dinero por ello",
+    "fr": "Acheter – obtenir quelque chose en échange d'argent",
+    "hi": "खरीदना – पैसे देकर कुछ प्राप्त करना",
+    "ja": "買う – お金を払って何かを手に入れること",
+    "km": "ទិញ – ទទួលបានអ្វីមួយដោយចំណាយប្រាក់",
+    "ko": "사다 – 돈을 내고 무언가를 얻다",
+    "ne": "किन्नु – पैसा तिरेर केही प्राप्त गर्नु",
+    "pt": "Comprar – obter algo pagando dinheiro por isso",
+    "th": "ซื้อ – ได้รับสิ่งของโดยการจ่ายเงิน",
+    "tl": "Bumili – makakuha ng isang bagay sa pamamagitan ng pagbabayad ng pera",
+    "ur": "خریدنا – پیسے دے کر کوئی چیز حاصل کرنا",
+    "vi": "Mua – lấy thứ gì đó bằng cách trả tiền",
+    "zh": "买 – 付钱购买某物",
+    "zh_Hant": "買 – 付錢購買某物"
+  },
+  "definition_en": "To buy – to obtain something by paying money for it",
+  "romanization": "sɯ̂ː˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກຊື້ເສື້ອໃໝ່",
+      "romanization": "khɔ̂i yàːk sɯ̂ː sɯ̂a mài",
+      "translation_en": "I want to buy a new shirt."
+    },
+    {
+      "lao_script": "ເຈົ້າຊື້ຂອງຢູ່ໃສ?",
+      "romanization": "jâo sɯ̂ː khɔ̌ːŋ yùː sǎi",
+      "translation_en": "Where did you buy that?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person handing money to a shopkeeper at a market stall with colorful goods on display, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

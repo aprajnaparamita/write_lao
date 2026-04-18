@@ -1,0 +1,411 @@
+{
+  "ພ້ອມ": {
+    "definitions": {
+      "de": "Bereit; zusammen mit – wird verwendet, um Vorbereitung oder Begleitung auszudrücken",
+      "en": "Ready; together with – used to express preparedness or accompaniment",
+      "es": "Listo; junto con – se usa para expresar preparación o acompañamiento",
+      "fr": "Prêt ; avec – utilisé pour exprimer la préparation ou l'accompagnement",
+      "hi": "तैयार; के साथ – तैयारी या साथ होने को व्यक्त करने के लिए प्रयोग किया जाता है",
+      "ja": "準備ができている；〜と一緒に – 準備や同伴を表すために使われる",
+      "km": "រួចរាល់; រួមជាមួយ – ប្រើដើម្បីបញ្ជាក់ការត្រៀមខ្លួន ឬការអមដំណើរ",
+      "ko": "준비된; 함께 – 준비 상태나 동반을 나타낼 때 사용",
+      "ne": "तयार; सँगै – तयारी वा साथ हुनु व्यक्त गर्न प्रयोग गरिन्छ",
+      "pt": "Pronto; junto com – usado para expressar prontidão ou acompanhamento",
+      "th": "พร้อม; พร้อมกับ – ใช้แสดงความพร้อมหรือการอยู่ร่วมกัน",
+      "tl": "Handa; kasama – ginagamit upang ipahayag ang pagiging handa o pagsama",
+      "ur": "تیار؛ کے ساتھ – تیاری یا ساتھ ہونے کو ظاہر کرنے کے لیے استعمال ہوتا ہے",
+      "vi": "Sẵn sàng; cùng với – dùng để diễn đạt sự chuẩn bị hoặc đi kèm",
+      "zh": "准备好了；一起/与……一起 – 用于表示准备就绪或陪同",
+      "zh_Hant": "準備好了；一起/與……一起 – 用於表示準備就緒或陪同"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/pʰɔ́ːm/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າພ້ອມແລ້ວບໍ?",
+        "romanization": "jao phom laew bor?",
+        "translations": {
+          "de": "Bist du schon bereit?",
+          "en": "Are you ready yet?",
+          "es": "¿Ya estás listo?",
+          "fr": "Tu es déjà prêt ?",
+          "hi": "क्या तुम तैयार हो?",
+          "ja": "もう準備できた？",
+          "km": "អ្នករួចរាល់ហើយឬនៅ?",
+          "ko": "너 벌써 준비됐어?",
+          "ne": "तिमी तयार भइसक्यौ?",
+          "pt": "Você já está pronto?",
+          "th": "แกพร้อมแล้วหรือยัง?",
+          "tl": "Handa ka na ba?",
+          "ur": "کیا تم تیار ہو گئے؟",
+          "vi": "Bạn sẵn sàng chưa?",
+          "zh": "你准备好了吗？",
+          "zh_Hant": "你準備好了嗎？"
+        },
+        "out_of_scope_words": [
+          "ແລ້ວ",
+          "ບໍ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍໄປພ້ອມໝູ່ເລີຍ",
+        "romanization": "khoi pai phom mu loei",
+        "translations": {
+          "de": "Ich gehe zusammen mit meinen Freunden.",
+          "en": "I'm going together with my friends.",
+          "es": "Voy junto con mis amigos.",
+          "fr": "Je pars avec mes amis.",
+          "hi": "मैं अपने दोस्तों के साथ जा रहा हूँ।",
+          "ja": "友達と一緒に行くよ。",
+          "km": "ខ្ញុំទៅជាមួយមិត្តភក្តិ។",
+          "ko": "나 친구들이랑 같이 가.",
+          "ne": "म साथीहरूसँगै जाँदैछु।",
+          "pt": "Eu vou junto com meus amigos.",
+          "th": "ฉันไปพร้อมกับเพื่อนเลย",
+          "tl": "Pumunta ako kasama ang aking mga kaibigan.",
+          "ur": "میں اپنے دوستوں کے ساتھ جا رہا ہوں۔",
+          "vi": "Tôi đi cùng với bạn bè luôn.",
+          "zh": "我和朋友们一起去。",
+          "zh_Hant": "我和朋友們一起去。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person giving a thumbs up with a big smile, wearing a backpack and standing at a door ready to go, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈັນ": {
+    "definitions": {
+      "de": "Montag; Mond – der erste Wochentag (nach Sonntag) sowie der Mond am Himmel",
+      "en": "Monday; moon – the first weekday (after Sunday) as well as the moon in the sky",
+      "es": "Lunes; luna – el primer día de la semana laboral (después del domingo) y también la luna en el cielo",
+      "fr": "Lundi ; lune – le premier jour de la semaine (après dimanche) ainsi que la lune dans le ciel",
+      "hi": "सोमवार; चाँद – सप्ताह का पहला दिन (रविवार के बाद) तथा आकाश में चंद्रमा",
+      "ja": "月曜日；月 – 週の最初の平日（日曜日の後）、また空の月",
+      "km": "ថ្ងៃច័ន្ទ; ព្រះច័ន្ទ – ថ្ងៃដំបូងនៃសប្តាហ៍ (បន្ទាប់ពីថ្ងៃអាទិត្យ) និងព្រះច័ន្ទនៅលើមេឃ",
+      "ko": "월요일; 달 – 한 주의 첫 번째 평일(일요일 다음)이자 하늘의 달",
+      "ne": "सोमबार; चन्द्रमा – हप्ताको पहिलो कार्यदिन (आइतबारपछि) र आकाशको चन्द्रमा",
+      "pt": "Segunda-feira; lua – o primeiro dia útil da semana (depois do domingo) e também a lua no céu",
+      "th": "วันจันทร์; ดวงจันทร์ – วันแรกของสัปดาห์ (หลังวันอาทิตย์) รวมถึงดวงจันทร์บนท้องฟ้า",
+      "tl": "Lunes; buwan – ang unang araw ng linggo (pagkatapos ng Linggo) at ang buwan sa langit",
+      "ur": "پیر؛ چاند – ہفتے کا پہلا کاروباری دن (اتوار کے بعد) نیز آسمان کا چاند",
+      "vi": "Thứ Hai; mặt trăng – ngày đầu tuần (sau Chủ nhật) và cũng là mặt trăng trên bầu trời",
+      "zh": "星期一；月亮 – 一周的第一个工作日（周日之后），也指天空中的月亮",
+      "zh_Hant": "星期一；月亮 – 一週的第一個工作日（週日之後），也指天空中的月亮"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tɕan/",
+    "examples": [
+      {
+        "lao_script": "ວັນຈັນນີ້ຂ້ອຍຕ້ອງໄປເຮັດວຽກ",
+        "romanization": "van jan ni khoi tong pai het viak",
+        "translations": {
+          "de": "Diesen Montag muss ich arbeiten gehen.",
+          "en": "This Monday I have to go to work.",
+          "es": "Este lunes tengo que ir a trabajar.",
+          "fr": "Ce lundi, je dois aller travailler.",
+          "hi": "इस सोमवार मुझे काम पर जाना है।",
+          "ja": "今週の月曜日は仕事に行かなきゃ。",
+          "km": "ថ្ងៃច័ន្ទនេះ ខ្ញុំត្រូវទៅធ្វើការ។",
+          "ko": "이번 월요일에 나 일하러 가야 해.",
+          "ne": "यो सोमबार मलाई काममा जानुपर्छ।",
+          "pt": "Nesta segunda-feira eu tenho que ir trabalhar.",
+          "th": "วันจันทร์นี้ฉันต้องไปทำงาน",
+          "tl": "Ngayong Lunes kailangan ko pang pumasok sa trabaho.",
+          "ur": "اس پیر مجھے کام پر جانا ہے۔",
+          "vi": "Thứ Hai này tôi phải đi làm.",
+          "zh": "这个星期一我得去上班。",
+          "zh_Hant": "這個星期一我得去上班。"
+        },
+        "out_of_scope_words": [
+          "ວັນ",
+          "ຕ້ອງ",
+          "ເຮັດວຽກ"
+        ]
+      },
+      {
+        "lao_script": "ຄືນນີ້ຈັນສວຍຫຼາຍເລີຍ",
+        "romanization": "khuenni jan suay lai loei",
+        "translations": {
+          "de": "Heute Nacht ist der Mond sehr schön.",
+          "en": "Tonight the moon is so beautiful.",
+          "es": "Esta noche la luna está muy hermosa.",
+          "fr": "Ce soir, la lune est vraiment belle.",
+          "hi": "आज रात चाँद बहुत सुंदर है।",
+          "ja": "今夜の月はすごくきれいだね。",
+          "km": "យប់នេះព្រះច័ន្ទស្អាតណាស់។",
+          "ko": "오늘 밤 달이 정말 예쁘다.",
+          "ne": "आज राति चन्द्रमा धेरै सुन्दर छ।",
+          "pt": "Esta noite a lua está muito bonita.",
+          "th": "คืนนี้ดวงจันทร์สวยมากเลย",
+          "tl": "Kagabi napakaganda ng buwan.",
+          "ur": "آج رات چاند بہت خوبصورت ہے۔",
+          "vi": "Tối nay trăng đẹp quá.",
+          "zh": "今晚月亮真的好美。",
+          "zh_Hant": "今晚月亮真的好美。"
+        },
+        "out_of_scope_words": [
+          "ຄືນນີ້",
+          "ສວຍ",
+          "ຫຼາຍ",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a calendar page showing Monday highlighted in blue, and on the right, a glowing crescent moon against a dark night sky with small stars, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຖິງ": {
+    "definitions": {
+      "de": "Zu; bis; bis zu – Präposition, die ein Ziel, eine Grenze oder das Erreichen eines Punktes ausdrückt",
+      "en": "To; until; up to – preposition expressing a destination, limit, or the reaching of a point",
+      "es": "A; hasta; hasta llegar a – preposición que expresa un destino, un límite o el alcance de un punto",
+      "fr": "À ; jusqu'à ; jusqu'en – préposition exprimant une destination, une limite ou l'atteinte d'un point",
+      "hi": "तक; को; पहुँचना – एक गंतव्य, सीमा या किसी बिंदु तक पहुँचने को व्यक्त करने वाला परसर्ग",
+      "ja": "〜まで；〜に（到達）；〜へ – 目的地、限界、またはある地点への到達を表す前置詞",
+      "km": "ដល់; រហូតដល់ – ធ្នាក់ប្រើដើម្បីបញ្ជាក់គោលដៅ ដែនកំណត់ ឬការទៅដល់កន្លែងណាមួយ",
+      "ko": "까지; 에(도달); ~로 – 목적지, 한계, 또는 어떤 지점에 도달함을 나타내는 전치사",
+      "ne": "सम्म; मा पुग्नु; को लागि – गन्तव्य, सीमा, वा कुनै बिन्दुमा पुग्नु बुझाउने पूर्वसर्ग",
+      "pt": "Até; a; chegar a – preposição que expressa um destino, limite ou o alcance de um ponto",
+      "th": "ถึง; จนถึง; ไปยัง – คำบุพบทที่แสดงจุดหมาย ขีดจำกัด หรือการไปถึงจุดหนึ่ง",
+      "tl": "Hanggang; sa; papunta sa – pang-ukol na nagpapahayag ng patutunguhan, hangganan, o pag-abot sa isang punto",
+      "ur": "تک؛ کو؛ پہنچنا – ایک حرفِ جر جو منزل، حد، یا کسی مقام تک پہنچنے کو ظاہر کرتا ہے",
+      "vi": "Đến; tới; cho đến – giới từ diễn đạt điểm đến, giới hạn hoặc việc đạt đến một điểm nào đó",
+      "zh": "到；直到；至 – 介词，表示目的地、界限或到达某一点",
+      "zh_Hant": "到；直到；至 – 介詞，表示目的地、界限或到達某一點"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/tʰɯŋ/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຍ່າງເຖິງເຮືອນແລ້ວ",
+        "romanization": "khoi yang thueng hueang laew",
+        "translations": {
+          "de": "Ich bin schon zu Hause angekommen (zu Fuß).",
+          "en": "I've already walked home / I've arrived home.",
+          "es": "Ya llegué caminando a casa.",
+          "fr": "Je suis déjà arrivé à la maison à pied.",
+          "hi": "मैं चलकर घर पहुँच गया।",
+          "ja": "もう家まで歩いて着いたよ。",
+          "km": "ខ្ញុំដើរដល់ផ្ទះហើយ។",
+          "ko": "나 걸어서 집에 도착했어.",
+          "ne": "म हिँडेर घर पुगिसकेँ।",
+          "pt": "Eu já cheguei em casa caminhando.",
+          "th": "ฉันเดินถึงบ้านแล้ว",
+          "tl": "Nakalakad na ako papunta sa bahay.",
+          "ur": "میں چل کر گھر پہنچ گیا۔",
+          "vi": "Tôi đã đi bộ về đến nhà rồi.",
+          "zh": "我已经走到家了。",
+          "zh_Hant": "我已經走到家了。"
+        },
+        "out_of_scope_words": [
+          "ຍ່າງ",
+          "ເຮືອນ",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ລໍຖ້າເຖິງວັນສຸກກ່ອນເນາະ",
+        "romanization": "lor thar thueng van suk kon nor",
+        "translations": {
+          "de": "Warte erst mal bis Freitag, okay?",
+          "en": "Just wait until Friday first, okay?",
+          "es": "Espera hasta el viernes primero, ¿eh?",
+          "fr": "Attends jusqu'à vendredi d'abord, d'accord ?",
+          "hi": "पहले शुक्रवार तक इंतज़ार करो, ठीक है?",
+          "ja": "まず金曜日まで待ってみてよ、ね？",
+          "km": "រង់ចាំដល់ថ្ងៃសុក្រសិនណា?",
+          "ko": "일단 금요일까지 기다려봐, 응?",
+          "ne": "पहिले शुक्रबारसम्म कुर है?",
+          "pt": "Espera até sexta-feira primeiro, tá?",
+          "th": "รอถึงวันศุกร์ก่อนนะ",
+          "tl": "Hintayin muna hanggang Biyernes, ha?",
+          "ur": "پہلے جمعہ تک انتظار کرو، ٹھیک ہے؟",
+          "vi": "Đợi đến thứ Sáu đã nhé.",
+          "zh": "先等到星期五嘛。",
+          "zh_Hant": "先等到星期五嘛。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ວັນສຸກ",
+          "ກ່ອນ",
+          "ເນາະ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking along a path with an arrow pointing toward a destination marked by a house in the distance, suggesting movement toward a goal, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈັດ": {
+    "definitions": {
+      "de": "Arrangieren; organisieren; ordnen – etwas in eine bestimmte Ordnung bringen oder eine Veranstaltung planen",
+      "en": "To arrange; to organize; to set up – to put things in order or to plan and prepare an event",
+      "es": "Arreglar; organizar; ordenar – poner las cosas en orden o planificar y preparar un evento",
+      "fr": "Arranger ; organiser ; préparer – mettre de l'ordre dans quelque chose ou planifier et préparer un événement",
+      "hi": "व्यवस्थित करना; सजाना; आयोजन करना – चीज़ों को क्रम में रखना या किसी कार्यक्रम की योजना बनाना",
+      "ja": "整える；手配する；準備する – 物を整理したり、イベントを計画・準備したりする",
+      "km": "រៀបចំ; តុបតែង; រៀបក្បួន – ដាក់របស់ឱ្យមានរបៀបរៀបរយ ឬរៀបចំព្រឹត្តិការណ៍",
+      "ko": "정리하다; 준비하다; 주관하다 – 물건을 정돈하거나 행사를 계획하고 준비하다",
+      "ne": "व्यवस्था गर्नु; मिलाउनु; आयोजन गर्नु – चीजहरू व्यवस्थित गर्नु वा कार्यक्रम योजना गर्नु",
+      "pt": "Organizar; arranjar; preparar – colocar as coisas em ordem ou planejar e preparar um evento",
+      "th": "จัด; จัดเตรียม; จัดงาน – การวางสิ่งของให้เป็นระเบียบหรือการวางแผนและเตรียมงาน",
+      "tl": "Mag-ayos; mag-organisa; maghanda – ang paglalagay ng mga bagay sa ayos o pagpaplano at paghahanda ng isang kaganapan",
+      "ur": "ترتیب دینا؛ منظم کرنا؛ انتظام کرنا – چیزوں کو ترتیب میں رکھنا یا کسی تقریب کی منصوبہ بندی کرنا",
+      "vi": "Sắp xếp; tổ chức; chuẩn bị – đặt mọi thứ vào trật tự hoặc lên kế hoạch và chuẩn bị sự kiện",
+      "zh": "安排；整理；组织 – 将事物整理有序或策划、准备某项活动",
+      "zh_Hant": "安排；整理；組織 – 將事物整理有序或策劃、準備某項活動"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tɕat/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍຈັດໂຕ໊ະໃຫ້ແດ່ເນາະ",
+        "romanization": "suai jat to hai dae nor",
+        "translations": {
+          "de": "Kannst du bitte den Tisch herrichten?",
+          "en": "Can you help set up the table, please?",
+          "es": "¿Puedes ayudar a arreglar la mesa?",
+          "fr": "Tu peux aider à préparer la table, s'il te plaît ?",
+          "hi": "क्या तुम मेज़ लगाने में मदद कर सकते हो?",
+          "ja": "テーブルを準備するのを手伝ってくれる？",
+          "km": "ជួយរៀបតុផងណា?",
+          "ko": "테이블 정리하는 거 좀 도와줘, 응?",
+          "ne": "टेबल मिलाउन मद्दत गर्दिनौ है?",
+          "pt": "Você pode ajudar a arrumar a mesa?",
+          "th": "ช่วยจัดโต๊ะให้หน่อยนะ",
+          "tl": "Pakiayos naman ang mesa, ha?",
+          "ur": "ذرا میز ترتیب دینے میں مدد کرو نا۔",
+          "vi": "Giúp dọn bàn cho mình với nhé.",
+          "zh": "帮忙布置一下桌子好吗？",
+          "zh_Hant": "幫忙布置一下桌子好嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ໂຕ໊ະ",
+          "ໃຫ້",
+          "ແດ່",
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາຈັດງານລ້ຽງຢູ່ເຮືອນ",
+        "romanization": "khao jat ngan liang yu hueang",
+        "translations": {
+          "de": "Er organisiert eine Party zu Hause.",
+          "en": "He's organizing a party at home.",
+          "es": "Él está organizando una fiesta en casa.",
+          "fr": "Il organise une fête chez lui.",
+          "hi": "वह घर पर पार्टी का आयोजन कर रहा है।",
+          "ja": "彼は家でパーティーを開くよ。",
+          "km": "គាត់រៀបចំពិធីជប់លៀងនៅផ្ទះ។",
+          "ko": "그는 집에서 파티를 준비하고 있어.",
+          "ne": "उसले घरमा पार्टी आयोजना गर्दैछ।",
+          "pt": "Ele está organizando uma festa em casa.",
+          "th": "เขาจัดงานเลี้ยงที่บ้าน",
+          "tl": "Nag-oorganisa siya ng handaan sa bahay.",
+          "ur": "وہ گھر میں پارٹی کا انتظام کر رہا ہے۔",
+          "vi": "Anh ấy tổ chức tiệc ở nhà.",
+          "zh": "他在家里举办派对。",
+          "zh_Hant": "他在家裡舉辦派對。"
+        },
+        "out_of_scope_words": [
+          "ເຂົາ",
+          "ງານລ້ຽງ",
+          "ຢູ່",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person neatly arranging items on a table, with boxes and objects being organized in tidy rows, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທັງ": {
+    "definitions": {
+      "de": "Beide; alle; sowohl ... als auch – Quantifikator, der auf alle Mitglieder einer Gruppe verweist",
+      "en": "Both; all; the whole of – quantifier referring to all members of a group or the entirety of something",
+      "es": "Ambos; todos; tanto ... como – cuantificador que se refiere a todos los miembros de un grupo",
+      "fr": "Les deux ; tous ; à la fois – quantificateur désignant tous les membres d'un groupe ou la totalité de quelque chose",
+      "hi": "दोनों; सभी; पूरा – एक परिमाणवाचक शब्द जो किसी समूह के सभी सदस्यों या किसी चीज़ की समग्रता को व्यक्त करता है",
+      "ja": "両方；すべて；〜全体 – グループのすべてのメンバーや何かの全体を指す数量詞",
+      "km": "ទាំងពីរ; ទាំងអស់; ទាំងមូល – ពាក្យបរិមាណដែលសំដៅទៅលើសមាជិកទាំងអស់នៃក្រុម",
+      "ko": "둘 다; 모두; 전체 – 그룹의 모든 구성원이나 어떤 것의 전체를 가리키는 수량사",
+      "ne": "दुवै; सबै; सम्पूर्ण – समूहका सबै सदस्य वा कुनै चीजको समग्रतालाई जनाउने परिमाणवाचक",
+      "pt": "Ambos; todos; o todo – quantificador que se refere a todos os membros de um grupo ou à totalidade de algo",
+      "th": "ทั้งคู่; ทั้งหมด; ทั้งสิ้น – คำแสดงปริมาณที่หมายถึงสมาชิกทุกคนในกลุ่มหรือทั้งหมดของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Pareho; lahat; kapwa – pang-uri ng dami na tumutukoy sa lahat ng miyembro ng isang grupo",
+      "ur": "دونوں؛ سب؛ تمام – ایک مقدار بتانے والا لفظ جو کسی گروپ کے تمام ارکان یا کسی چیز کی مکمل حالت کو ظاہر کرتا ہے",
+      "vi": "Cả hai; tất cả; toàn bộ – từ chỉ số lượng đề cập đến tất cả các thành viên của một nhóm",
+      "zh": "两者都；全部；整个 – 指代一个群体中所有成员或某事物整体的量词",
+      "zh_Hant": "兩者都；全部；整個 – 指代一個群體中所有成員或某事物整體的量詞"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "/tʰaŋ/",
+    "examples": [
+      {
+        "lao_script": "ທັງສອງຄົນມາດ້ວຍກັນ",
+        "romanization": "thang song khon ma duai kan",
+        "translations": {
+          "de": "Beide kamen zusammen.",
+          "en": "Both of them came together.",
+          "es": "Los dos vinieron juntos.",
+          "fr": "Ils sont venus tous les deux ensemble.",
+          "hi": "दोनों एक साथ आए।",
+          "ja": "二人とも一緒に来たよ。",
+          "km": "ទាំងពីរនាក់មកជាមួយគ្នា។",
+          "ko": "둘 다 같이 왔어.",
+          "ne": "दुवैजना सँगै आए।",
+          "pt": "Os dois vieram juntos.",
+          "th": "ทั้งสองคนมาด้วยกัน",
+          "tl": "Pareho silang dumating nang magkasama.",
+          "ur": "دونوں ایک ساتھ آئے۔",
+          "vi": "Cả hai người cùng đến với nhau.",
+          "zh": "他们两个一起来的。",
+          "zh_Hant": "他們兩個一起來的。"
+        },
+        "out_of_scope_words": [
+          "ສອງ",
+          "ຄົນ",
+          "ມາ",
+          "ດ້ວຍກັນ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຊອບທັງກິນທັງນອນ",
+        "romanization": "khoi sob thang kin thang non",
+        "translations": {
+          "de": "Ich mag es sowohl zu essen als auch zu schlafen.",
+          "en": "I love both eating and sleeping.",
+          "es": "Me encanta tanto comer como dormir.",
+          "fr": "J'adore à la fois manger et dormir.",
+          "hi": "मुझे खाना और सोना दोनों पसंद हैं।",
+          "ja": "食べることも寝ることも好きだよ。",
+          "km": "ខ្ញុំចូលចិត្តទាំងញ៉ាំទាំងដេក។",
+          "ko": "나는 먹는 것도 자는 것도 다 좋아.",
+          "ne": "मलाई खानु र सुत्नु दुवै मन पर्छ।",
+          "pt": "Eu adoro tanto comer quanto dormir.",
+          "th": "ฉันชอบทั้งกินทั้งนอน",
+          "tl": "Gustong-gusto ko ang parehong kumain at matulog.",
+          "ur": "مجھے کھانا اور سونا دونوں پسند ہیں۔",
+          "vi": "Tôi thích cả ăn lẫn ngủ.",
+          "zh": "我既喜欢吃，也喜欢睡觉。",
+          "zh_Hant": "我既喜歡吃，也喜歡睡覺。"
+        },
+        "out_of_scope_words": [
+          "ຊອບ",
+          "ກິນ",
+          "ນອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two apples side by side with a bracket or highlight around both of them indicating 'both' or 'all', clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

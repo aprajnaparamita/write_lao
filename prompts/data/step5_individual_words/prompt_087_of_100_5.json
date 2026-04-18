@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຜາ",
+  "definitions": {
+    "de": "Felswand, Klippe, steiler Fels; kann je nach Kontext auch ein bestimmtes Stück Stoff oder Tuch bedeuten",
+    "en": "Cliff, rocky face, steep rock; in some contexts can also refer to a piece of cloth or fabric",
+    "es": "Acantilado, pared rocosa, roca escarpada; en algunos contextos también puede referirse a una tela o tejido",
+    "fr": "Falaise, paroi rocheuse, roche escarpée; dans certains contextes peut aussi désigner un morceau de tissu",
+    "hi": "चट्टान, खड़ी चट्टान; कुछ संदर्भों में कपड़े या वस्त्र के टुकड़े को भी संदर्भित कर सकता है",
+    "ja": "崖、断崖、岩壁；文脈によっては布や生地を指すこともある",
+    "km": "របាំង​ថ្ម, ចំណោត; ក្នុងបរិបទខ្លះ ក៏អាចមានន័យថាកំណាត់ក្រណាត់ ឬក្រណាត់",
+    "ko": "절벽, 암벽, 가파른 바위; 문맥에 따라 천 조각을 의미하기도 함",
+    "ne": "चट्टान, भिरालो शिला, खडेरी चट्टान; केही सन्दर्भमा कपडाको टुक्रा पनि बुझाउँछ",
+    "pt": "Falésia, paredão rochoso, rocha íngreme; em alguns contextos também pode se referir a um pedaço de tecido",
+    "th": "ผา, หน้าผา, หินชัน; ในบางบริบทอาจหมายถึงผืนผ้าหรือผ้าผืนหนึ่งด้วย",
+    "tl": "Bangin, pader ng bato, matarik na bato; sa ilang konteksto maaari ring tumukoy sa piraso ng tela",
+    "ur": "چٹان، کھڑی چٹان، پہاڑی دیوار؛ بعض سیاق و سباق میں کپڑے کے ٹکڑے کے لیے بھی استعمال",
+    "vi": "Vách đá, vách núi dựng đứng; trong một số ngữ cảnh cũng có thể chỉ một mảnh vải",
+    "zh": "悬崖，峭壁，岩壁；在某些语境中也可以指一块布料",
+    "zh_Hant": "懸崖，峭壁，岩壁；在某些語境中也可以指一塊布料"
+  },
+  "definition_en": "Cliff, rocky face, steep rock; in some contexts can also refer to a piece of cloth or fabric",
+  "romanization": "/pʰaː˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ຜາສູງນັ້ນສວຍງາມຫຼາຍ ຢາກໄປຖ່າຍຮູບ",
+      "romanization": "pha sung nan suay ngam lai, yak pai thai hup",
+      "translation_en": "That tall cliff is so beautiful – I want to go take photos there."
+    },
+    {
+      "lao_script": "ລະວັງໆ ຢ່າຍ່າງໃກ້ຜາ ອັນຕະລາຍ",
+      "romanization": "la wang la wang, ya yang kai pha, an ta lai",
+      "translation_en": "Careful, careful – don't walk near the cliff, it's dangerous."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a dramatic rocky cliff face with green vegetation at the top, set against a clear blue sky, clean background, minimalist cartoon style suitable for a language learning app, bright and colorful."
+}

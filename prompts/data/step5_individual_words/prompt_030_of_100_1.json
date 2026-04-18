@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕື່ມ",
+  "definitions": {
+    "de": "mehr hinzufügen, nachfüllen, auffüllen",
+    "en": "to add more, to refill, to top up",
+    "es": "agregar más, rellenar, añadir",
+    "fr": "ajouter, remplir à nouveau, compléter",
+    "hi": "और जोड़ना, दोबारा भरना, ऊपर से डालना",
+    "ja": "追加する、足す、補充する",
+    "km": "បន្ថែម, ចាក់បំពេញ, បន្ថែមទៀត",
+    "ko": "더 추가하다, 다시 채우다, 보충하다",
+    "ne": "थप गर्नु, फेरि भर्नु, थपिदिनु",
+    "pt": "adicionar mais, reabastecer, completar",
+    "th": "เติม, เพิ่มเติม, เติมให้เต็ม",
+    "tl": "magdagdag pa, mag-refill, punan",
+    "ur": "مزید شامل کرنا، دوبارہ بھرنا، اضافہ کرنا",
+    "vi": "thêm vào, đổ thêm, bổ sung",
+    "zh": "再加、续杯、添加",
+    "zh_Hant": "再加、續杯、添加"
+  },
+  "definition_en": "to add more, to refill, to top up",
+  "romanization": "tɯːm",
+  "lao_examples": [
+    {
+      "lao_script": "ຕື່ມນໍ້າໃຫ້ຂ້ອຍແດ່ເນາະ",
+      "romanization": "tɯːm naːm haː kʰɔːj dɛː nɔ",
+      "translation_en": "Can you refill my water for me, please?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກຕື່ມນໍ້າມັນລົດ",
+      "romanization": "kʰɔːj jaːk tɯːm naːm man lot",
+      "translation_en": "I want to fill up the car with gas."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pouring water from a pitcher into a glass to refill it, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

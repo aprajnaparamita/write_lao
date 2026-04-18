@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄນ",
+  "definitions": {
+    "de": "Nylon; ein synthetisches Material aus Kunststoff, das für Kleidung und Fäden verwendet wird (Lehnwort aus dem Englischen)",
+    "en": "nylon; a synthetic plastic material used for clothing, thread, or fabric (loanword from English)",
+    "es": "nylon; un material plástico sintético utilizado para ropa, hilo o tela (préstamo del inglés)",
+    "fr": "nylon; un matériau synthétique en plastique utilisé pour les vêtements, le fil ou le tissu (emprunt à l'anglais)",
+    "hi": "नायलॉन; एक सिंथेटिक प्लास्टिक सामग्री जो कपड़ों, धागे या कपड़े के लिए उपयोग की जाती है (अंग्रेजी से उधार लिया गया शब्द)",
+    "ja": "ナイロン；衣類・糸・布地に使われる合成プラスチック素材（英語からの外来語）",
+    "km": "នីឡុង; សម្ភារៈប្លាស្ទិកសំយោគដែលប្រើសម្រាប់សំលៀកបំពាក់ ខ្សែ ឬក្រណាត់ (ពាក្យខ្ចីពីភាសាអង់គ្លេស)",
+    "ko": "나일론; 의류, 실 또는 직물에 사용되는 합성 플라스틱 소재 (영어에서 온 외래어)",
+    "ne": "नाइलन; कपडा, धागो वा कपडाको लागि प्रयोग हुने सिन्थेटिक प्लास्टिक सामग्री (अंग्रेजीबाट ऋण लिइएको शब्द)",
+    "pt": "nylon; um material sintético de plástico usado para roupas, fios ou tecidos (palavra emprestada do inglês)",
+    "th": "ไนลอน; วัสดุพลาสติกสังเคราะห์ที่ใช้ทำเสื้อผ้า ด้าย หรือผ้า (คำยืมจากภาษาอังกฤษ)",
+    "tl": "nylon; isang sintetikong materyal na plastik na ginagamit para sa damit, sinulid, o tela (hiram na salita mula sa Ingles)",
+    "ur": "نائلون؛ ایک مصنوعی پلاسٹک مواد جو کپڑوں، دھاگے یا کپڑے کے لیے استعمال ہوتا ہے (انگریزی سے لیا گیا لفظ)",
+    "vi": "nylon; vật liệu nhựa tổng hợp dùng cho quần áo, sợi chỉ hoặc vải (từ mượn từ tiếng Anh)",
+    "zh": "尼龙；一种用于服装、线或布料的合成塑料材料（来自英语的借词）",
+    "zh_Hant": "尼龍；一種用於服裝、線或布料的合成塑料材料（來自英語的借詞）"
+  },
+  "definition_en": "nylon; a synthetic plastic material used for clothing, thread, or fabric (loanword from English)",
+  "romanization": "/naj˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ຖົງໄນນີ້ໃຊ້ໄດ້ຫຼາຍຄັ້ງ",
+      "romanization": "thong nai nii chai dai lai khang",
+      "translation_en": "This nylon bag can be used many times."
+    },
+    {
+      "lao_script": "ເຊືອກໄນໜຽວແລະທົນທານ",
+      "romanization": "suak nai niao lae thon-than",
+      "translation_en": "Nylon rope is tough and durable."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a nylon shopping bag and a spool of nylon thread side by side, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

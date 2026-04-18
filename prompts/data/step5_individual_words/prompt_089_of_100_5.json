@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖິ້ມ",
+  "definitions": {
+    "de": "Wegwerfen oder entsorgen; etwas loswerden, das nicht mehr benötigt wird",
+    "en": "To throw away or discard; to get rid of something that is no longer needed",
+    "es": "Tirar o desechar; deshacerse de algo que ya no se necesita",
+    "fr": "Jeter ou se débarrasser de quelque chose ; se débarrasser de ce qui n'est plus nécessaire",
+    "hi": "फेंकना या त्यागना; किसी ऐसी चीज़ को हटाना जिसकी अब ज़रूरत नहीं है",
+    "ja": "捨てる、廃棄する；不要になったものを処分する",
+    "km": "បោះចោល ឬលែងប្រើ; ការកម្ចាត់នូវអ្វីដែលលែងត្រូវការទៀតហើយ",
+    "ko": "버리거나 폐기하다; 더 이상 필요하지 않은 것을 처분하다",
+    "ne": "फ्याँक्नु वा त्याग्नु; जुन चीज अब चाहिँदैन त्यसलाई हटाउनु",
+    "pt": "Jogar fora ou descartar; se livrar de algo que não é mais necessário",
+    "th": "ทิ้งหรือทำให้หายไป; กำจัดสิ่งที่ไม่ต้องการอีกต่อไป",
+    "tl": "Itapon o itakwil; mapahid ng isang bagay na hindi na kailangan",
+    "ur": "پھینکنا یا ضائع کرنا؛ کسی ایسی چیز سے چھٹکارا پانا جس کی اب ضرورت نہ ہو",
+    "vi": "Vứt bỏ hoặc loại bỏ; tống khứ thứ không còn cần thiết",
+    "zh": "扔掉或丢弃；处理掉不再需要的东西",
+    "zh_Hant": "扔掉或丟棄；處理掉不再需要的東西"
+  },
+  "definition_en": "To throw away or discard; to get rid of something that is no longer needed",
+  "romanization": "thîm",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າຖິ້ມຂີ້ເຫຍື້ອລົງຖະໜົນ ຜິດກົດໝາຍ",
+      "romanization": "ɲàa thîm khîi-ɲʉ́a long tha.nón, phìt kót mǎai",
+      "translation_en": "Don't throw trash on the road, it's against the law"
+    },
+    {
+      "lao_script": "ເສື້ອໂຕນີ້ເກົ່າຫຼາຍ ຖິ້ມໄປດີກວ່າ",
+      "romanization": "sʉ̂a too níi kào lǎai, thîm pai dii kwàa",
+      "translation_en": "This shirt is very old, it's better to just throw it away"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person tossing a crumpled piece of paper or an old object into a trash can, with a clear arc showing the throwing motion. Clean white background, colorful, minimalist style suitable for a language learning app."
+}

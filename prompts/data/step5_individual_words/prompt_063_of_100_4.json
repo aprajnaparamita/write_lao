@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບ່າຍ",
+  "definitions": {
+    "de": "Nachmittag; die Tageszeit zwischen Mittag und Abend, typischerweise von 12:00 bis 18:00 Uhr",
+    "en": "afternoon; the time of day between noon and evening, typically from 12:00 to 6:00 PM",
+    "es": "tarde; el período del día entre el mediodía y la noche, típicamente de las 12:00 a las 18:00 horas",
+    "fr": "après-midi ; la période de la journée entre midi et le soir, généralement de 12h00 à 18h00",
+    "hi": "दोपहर; दिन का वह समय जो दोपहर और शाम के बीच होता है, आमतौर पर 12:00 से 18:00 बजे तक",
+    "ja": "午後；正午から夕方までの時間帯、一般的に12時から18時まで",
+    "km": "រសៀល; ពេលវេលានៅចន្លោះថ្ងៃត្រង់និងពេលល្ងាច ជាធម្មតាពី 12:00 ដល់ 18:00",
+    "ko": "오후; 정오와 저녁 사이의 시간대, 일반적으로 오후 12시부터 6시까지",
+    "ne": "दिउँसो; दिनको मध्यान्ह र साँझको बीचको समय, सामान्यतः दिउँसो १२ देखि ६ बजेसम्म",
+    "pt": "tarde; o período do dia entre o meio-dia e a noite, tipicamente das 12h às 18h",
+    "th": "บ่าย; ช่วงเวลาของวันระหว่างเที่ยงวันถึงเย็น โดยทั่วไปตั้งแต่ 12:00 ถึง 18:00 น.",
+    "tl": "hapon; ang oras ng araw sa pagitan ng tanghali at gabi, karaniwang mula 12:00 hanggang 18:00",
+    "ur": "دوپہر بعد؛ دن کا وہ وقت جو دوپہر اور شام کے درمیان ہوتا ہے، عام طور پر دوپہر 12:00 سے شام 6:00 بجے تک",
+    "vi": "buổi chiều; khoảng thời gian trong ngày từ buổi trưa đến buổi tối, thường từ 12:00 đến 18:00",
+    "zh": "下午；一天中从中午到傍晚的时间段，通常为下午12点至18点",
+    "zh_Hant": "下午；一天中從中午到傍晚的時間段，通常為下午12點至18點"
+  },
+  "definition_en": "afternoon; the time of day between noon and evening, typically from 12:00 to 6:00 PM",
+  "romanization": "/baːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ບ່າຍນີ້ເຮົາໄປຫາໝູ່ກັນເດີ",
+      "romanization": "baai nii hao pai haa muu gan dei",
+      "translation_en": "This afternoon let's go visit friends together!"
+    },
+    {
+      "lao_script": "ຕອນບ່າຍອາກາດຮ້ອນຫຼາຍ",
+      "romanization": "ton baai aa gaat hon laai",
+      "translation_en": "In the afternoon the weather is very hot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright afternoon sun positioned in the sky at around 3 o'clock angle, casting warm light over a calm scene, with a clock or sun-position indicator showing afternoon time, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເປັນ",
+  "definitions": {
+    "de": "sein (Kopula); werden; können (eine Fähigkeit haben)",
+    "en": "to be (copula); to become; to be able/to know how",
+    "es": "ser/estar (cópula); volverse; saber cómo/poder",
+    "fr": "être (copule); devenir; savoir/pouvoir",
+    "hi": "होना (संयोजक क्रिया); बनना; जानना/सक्षम होना",
+    "ja": "〜である／〜になる／〜できる（連結動詞・変化・能力）",
+    "km": "ជា／ក្លាយជា／ចេះ (កិរិយាសព្ទភ្ជាប់ ឬបង្ហាញសមត្ថភាព)",
+    "ko": "~이다／되다／할 줄 알다 (계사·변화·능력)",
+    "ne": "हुनु／बन्नु／जान्नु (संयोजक क्रिया, परिवर्तन वा क्षमता)",
+    "pt": "ser/estar (verbo de ligação); tornar-se; saber/ser capaz de",
+    "th": "เป็น (กริยาเชื่อม; กลายเป็น; ทำเป็น/สามารถ)",
+    "tl": "maging／naging／marunong (pandiwang pantambalan o kakayahan)",
+    "ur": "ہونا؛ بننا؛ جاننا (ربطی فعل، تبدیلی یا صلاحیت)",
+    "vi": "là; trở thành; biết (hệ từ, biến chuyển hoặc khả năng)",
+    "zh": "是／成为／会（系动词、变化或能力）",
+    "zh_Hant": "是／成為／會（系動詞、變化或能力）"
+  },
+  "definition_en": "to be (copula); to become; to be able/to know how",
+  "romanization": "pēn",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວ ເປັນ ຄົນ ດີ",
+      "romanization": "láːw pēn kʰón dìː",
+      "translation_en": "He/She is a good person."
+    },
+    {
+      "lao_script": "ຂ້ອຍ ເປັນ ຫວັດ",
+      "romanization": "kʰɔ̂ːj pēn wát",
+      "translation_en": "I have a cold."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing next to an equals sign connected to an identity label or role tag, representing 'to be', suitable for a language learning app, clean white background, minimalist cartoon style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທີມ",
+  "definitions": {
+    "de": "Team; eine Gruppe von Personen, die zusammenarbeiten, um ein gemeinsames Ziel zu erreichen, besonders im Sport oder am Arbeitsplatz (Lehnwort aus dem Englischen)",
+    "en": "Team; a group of people who work together toward a common goal, especially in sports or in a workplace context (loanword from English)",
+    "es": "Equipo; un grupo de personas que trabajan juntas para lograr un objetivo común, especialmente en deportes o en el ámbito laboral (préstamo del inglés)",
+    "fr": "Équipe ; un groupe de personnes qui travaillent ensemble pour atteindre un objectif commun, notamment dans le sport ou au travail (emprunt à l'anglais)",
+    "hi": "टीम; लोगों का एक समूह जो एक साझा लक्ष्य की ओर मिलकर काम करता है, विशेष रूप से खेल या कार्यस्थल के संदर्भ में (अंग्रेज़ी से लिया गया शब्द)",
+    "ja": "チーム；共通の目標に向けて一緒に働く人々のグループ。特にスポーツや職場の文脈で使われる（英語からの借用語）",
+    "km": "ក្រុម; ក្រុមមនុស្សដែលធ្វើការជាមួយគ្នាដើម្បីសម្រេចគោលដៅរួម ជាពិសេសសម្រាប់កីឡា ឬការងារ (ពាក្យខ្ចីពីភាសាអង់គ្លេស)",
+    "ko": "팀; 특히 스포츠나 직장에서 공동 목표를 위해 함께 일하는 사람들의 그룹 (영어 차용어)",
+    "ne": "टिम; साझा लक्ष्यको दिशामा सँगै काम गर्ने मान्छेहरूको समूह, विशेष गरी खेलकुद वा कार्यस्थल सन्दर्भमा (अंग्रेजीबाट लिइएको शब्द)",
+    "pt": "Time ou equipe; um grupo de pessoas que trabalham juntas em direção a um objetivo comum, especialmente em esportes ou no ambiente de trabalho (empréstimo do inglês)",
+    "th": "ทีม; กลุ่มคนที่ทำงานร่วมกันเพื่อเป้าหมายร่วมกัน โดยเฉพาะในกีฬาหรือในที่ทำงาน (คำยืมจากภาษาอังกฤษ)",
+    "tl": "Tim; isang grupo ng mga tao na nagtutulungan upang makamit ang isang karaniwang layunin, lalo na sa palakasan o sa lugar ng trabaho (hiniram mula sa Ingles)",
+    "ur": "ٹیم؛ لوگوں کا ایک گروہ جو ایک مشترکہ ہدف کی طرف مل کر کام کرتا ہے، خاص طور پر کھیل یا کام کی جگہ کے سیاق و سباق میں (انگریزی سے لیا گیا لفظ)",
+    "vi": "Đội hoặc nhóm; một nhóm người cùng làm việc hướng đến mục tiêu chung, đặc biệt trong thể thao hoặc nơi làm việc (từ mượn từ tiếng Anh)",
+    "zh": "队伍或团队；为共同目标一起合作的一群人，尤其是在体育或工作场合（源自英语的借词）",
+    "zh_Hant": "隊伍或團隊；為共同目標一起合作的一群人，尤其是在體育或工作場合（源自英語的借詞）"
+  },
+  "definition_en": "Team; a group of people who work together toward a common goal, especially in sports or in a workplace context (loanword from English)",
+  "romanization": "thiim",
+  "lao_examples": [
+    {
+      "lao_script": "ທີມຂອງເຮົາຊະນະເກມມື້ວານນີ້",
+      "romanization": "thiim khɔ̌ng hao sá nà geem mʉ́ʉ waan níi",
+      "translation_en": "Our team won the game yesterday."
+    },
+    {
+      "lao_script": "ເຈົ້າຢູ່ທີມໃດ?",
+      "romanization": "jâo yùu thiim dai?",
+      "translation_en": "Which team are you on?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a group of five diverse people wearing matching colored jerseys standing together with their hands stacked in a team huddle, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

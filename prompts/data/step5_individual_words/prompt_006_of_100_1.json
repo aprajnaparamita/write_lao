@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເບິ່ງ",
+  "definitions": {
+    "de": "sehen; ansehen; sich kümmern um",
+    "en": "to look; to watch; to take care of",
+    "es": "mirar; ver; cuidar",
+    "fr": "regarder; voir; s'occuper de",
+    "hi": "देखना; निहारना; देखभाल करना",
+    "ja": "見る／見つめる／世話する",
+    "km": "មើល／ថែរក្សា (មើលមើល ឬថែទាំ)",
+    "ko": "보다／쳐다보다／돌보다",
+    "ne": "हेर्नु／ध्यान दिनु／हेरचाह गर्नु",
+    "pt": "olhar; ver; cuidar",
+    "th": "เบิ่ง／มอง／ดูแล (มองดู ดูแล)",
+    "tl": "tingnan／manood／alagaan",
+    "ur": "دیکھنا؛ دیکھ بھال کرنا",
+    "vi": "nhìn; xem; trông nom",
+    "zh": "看／注视／照看",
+    "zh_Hant": "看／注視／照看"
+  },
+  "definition_en": "to look; to watch; to take care of",
+  "romanization": "bə̄ŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ເບິ່ງ ໜັງ ທຸກ ຄືນ",
+      "romanization": "kʰɔ̂ːj bə̄ŋ nǎŋ tʰūk kʰɯ́ːn",
+      "translation_en": "I watch a movie every night."
+    },
+    {
+      "lao_script": "ແມ່ ເບິ່ງ ລູກ ຢູ່ ບ້ານ",
+      "romanization": "mɛ̄ː bə̄ŋ lûːk jūː bâːn",
+      "translation_en": "Mom takes care of the child at home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon eye looking at a small object placed in front, with gentle rays showing attention, suitable for a language learning app, clean white background, minimalist style."
+}

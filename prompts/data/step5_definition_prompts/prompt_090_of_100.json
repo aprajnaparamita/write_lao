@@ -1,0 +1,399 @@
+{
+  "ທັນສະໄໝ": {
+    "definitions": {
+      "de": "Modern, zeitgemäß; auf dem neuesten Stand",
+      "en": "Modern, up-to-date, contemporary",
+      "es": "Moderno, actualizado, contemporáneo",
+      "fr": "Moderne, contemporain, à la pointe",
+      "hi": "आधुनिक, समसामयिक, अद्यतन",
+      "ja": "現代的な、最新の、モダンな",
+      "km": "ទំនើប, សម័យទំនើប, ទាន់សម័យ",
+      "ko": "현대적인, 최신의, 시대에 맞는",
+      "ne": "आधुनिक, समसामयिक, अद्यावधिक",
+      "pt": "Moderno, atualizado, contemporâneo",
+      "th": "ทันสมัย, สมัยใหม่, ร่วมสมัย",
+      "tl": "Moderno, makabago, napapanahon",
+      "ur": "جدید، عصری، تازہ ترین",
+      "vi": "Hiện đại, cập nhật, đương đại",
+      "zh": "现代的，时髦的，与时俱进的",
+      "zh_Hant": "現代的，時髦的，與時俱進的"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "than sa mai",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂອງລາວທັນສະໄໝຫຼາຍເດີ້",
+        "romanization": "Hüan khong lao than sa mai lai döe",
+        "translations": {
+          "de": "Sein/Ihr Haus ist wirklich modern.",
+          "en": "Their house is really modern.",
+          "es": "Su casa es muy moderna.",
+          "fr": "Sa maison est vraiment moderne.",
+          "hi": "उनका घर बहुत आधुनिक है।",
+          "ja": "彼/彼女の家はとても現代的だね。",
+          "km": "ផ្ទះរបស់គាត់ទំនើបណាស់។",
+          "ko": "그/그녀의 집은 정말 현대적이네.",
+          "ne": "उनको घर धेरै आधुनिक छ।",
+          "pt": "A casa dele/dela é muito moderna.",
+          "th": "บ้านของเขา/เธอทันสมัยมากเลย",
+          "tl": "Ang bahay niya ay talagang moderno.",
+          "ur": "اس کا گھر واقعی جدید ہے۔",
+          "vi": "Nhà của họ rất hiện đại đấy.",
+          "zh": "他/她的房子真的很现代。",
+          "zh_Hant": "他/她的房子真的很現代。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ລາວ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກໄດ້ໂທລະສັບທັນສະໄໝໆ ໄວ້ໃຊ້",
+        "romanization": "Yak dai tholasap than sa mai than sa mai wai chai",
+        "translations": {
+          "de": "Ich möchte ein modernes Handy zum Benutzen haben.",
+          "en": "I want to get a modern smartphone to use.",
+          "es": "Quiero tener un teléfono moderno para usar.",
+          "fr": "Je veux avoir un téléphone moderne à utiliser.",
+          "hi": "मुझे इस्तेमाल के लिए एक आधुनिक फ़ोन चाहिए।",
+          "ja": "使うための最新のスマートフォンが欲しい。",
+          "km": "ចង់បានទូរស័ព្ទទំនើបៗទុកប្រើ។",
+          "ko": "쓸 수 있는 최신 스마트폰을 갖고 싶어.",
+          "ne": "प्रयोग गर्न आधुनिक फोन पाउन चाहन्छु।",
+          "pt": "Quero ter um celular moderno para usar.",
+          "th": "อยากได้โทรศัพท์ทันสมัยๆ ไว้ใช้",
+          "tl": "Gusto kong makakuha ng modernong telepono para gamitin.",
+          "ur": "میں استعمال کے لیے ایک جدید فون لینا چاہتا/چاہتی ہوں۔",
+          "vi": "Muốn có một chiếc điện thoại hiện đại để dùng.",
+          "zh": "想要一部现代智能手机来用。",
+          "zh_Hant": "想要一部現代智慧型手機來用。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ໃຊ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration comparing an old-fashioned house on the left and a sleek, modern house on the right with an arrow pointing to the modern one, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທົບ": {
+    "definitions": {
+      "de": "Falten, verdoppeln; (Mathematik) multiplizieren",
+      "en": "To fold; to double or multiply (also used in mathematical contexts)",
+      "es": "Doblar, plegar; multiplicar (también en contexto matemático)",
+      "fr": "Plier, doubler; multiplier (aussi en contexte mathématique)",
+      "hi": "मोड़ना, दोगुना करना; गुणा करना (गणितीय संदर्भ में भी)",
+      "ja": "折る、二倍にする；（数学的に）掛け算をする",
+      "km": "បត់, គុណ (លេខ), ធ្វើឲ្យទ្វេដង",
+      "ko": "접다, 두 배로 하다; (수학적으로) 곱하다",
+      "ne": "तह लगाउनु, दोब्बर गर्नु; गुणा गर्नु (गणितीय सन्दर्भमा पनि)",
+      "pt": "Dobrar, multiplicar; (em contexto matemático) multiplicar",
+      "th": "พับ, ทบ, คูณ (ในบริบทคณิตศาสตร์)",
+      "tl": "Tiklop, doblehin; i-multiply (sa kontekstong matematikal)",
+      "ur": "موڑنا، دوگنا کرنا؛ (ریاضیاتی تناظر میں) ضرب دینا",
+      "vi": "Gấp lại, gấp đôi; nhân (trong ngữ cảnh toán học)",
+      "zh": "折叠，翻倍；（数学上）乘法",
+      "zh_Hant": "折疊，翻倍；（數學上）乘法"
+    },
+    "part_of_speech": "verb",
+    "romanization": "thop",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍທົບເຈ້ຍໃຫ້ເປັນສອງທ່ອນໜ່ອຍໄດ້ບໍ",
+        "romanization": "Suai thop jia hai pen song thon noi dai bo",
+        "translations": {
+          "de": "Kannst du das Papier bitte in zwei Hälften falten?",
+          "en": "Can you help fold the paper in half for me?",
+          "es": "¿Puedes ayudarme a doblar el papel por la mitad?",
+          "fr": "Tu peux m'aider à plier le papier en deux ?",
+          "hi": "क्या आप कागज़ को आधा मोड़ने में मदद कर सकते हैं?",
+          "ja": "紙を半分に折るのを手伝ってもらえる？",
+          "km": "ជួយបត់ក្រដាសជាពីរចំណែកបានទេ?",
+          "ko": "종이를 반으로 접어줄 수 있어?",
+          "ne": "कागज आधा तह लगाउन मद्दत गर्न सक्नुहुन्छ?",
+          "pt": "Você pode me ajudar a dobrar o papel ao meio?",
+          "th": "ช่วยพับกระดาษให้เป็นสองท่อนหน่อยได้ไหม",
+          "tl": "Makakatulong ka bang tiklupan ang papel nang kalahati?",
+          "ur": "کیا آپ کاغذ آدھا موڑنے میں مدد کر سکتے ہیں؟",
+          "vi": "Có thể giúp gấp tờ giấy làm đôi không?",
+          "zh": "能帮我把纸折成两半吗？",
+          "zh_Hant": "能幫我把紙折成兩半嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຈ້ຍ",
+          "ສອງ",
+          "ທ່ອນ"
+        ]
+      },
+      {
+        "lao_script": "ສາມທົບສີ່ໄດ້ເທົ່າໃດ?",
+        "romanization": "Sam thop si dai thao dai",
+        "translations": {
+          "de": "Wie viel ist drei mal vier?",
+          "en": "What is three times four?",
+          "es": "¿Cuánto es tres por cuatro?",
+          "fr": "Combien font trois fois quatre ?",
+          "hi": "तीन गुणा चार कितना होता है?",
+          "ja": "三かける四はいくつ？",
+          "km": "បីគុណបួនស្មើប៉ុន្មាន?",
+          "ko": "삼 곱하기 사는 얼마야?",
+          "ne": "तीन गुणा चार कति हुन्छ?",
+          "pt": "Quanto é três vezes quatro?",
+          "th": "สามคูณสี่ได้เท่าไหร่?",
+          "tl": "Magkano ang tatlo times apat?",
+          "ur": "تین ضرب چار کتنا ہوتا ہے؟",
+          "vi": "Ba nhân bốn bằng bao nhiêu?",
+          "zh": "三乘以四等于多少？",
+          "zh_Hant": "三乘以四等於多少？"
+        },
+        "out_of_scope_words": [
+          "ສາມ",
+          "ສີ່",
+          "ເທົ່າໃດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two steps: a flat sheet of paper on the left, and the same paper being folded in half on the right with dotted fold lines, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນະຄອນຫລວງ": {
+    "definitions": {
+      "de": "Hauptstadt (eines Landes oder einer Region)",
+      "en": "Capital city (of a country or region)",
+      "es": "Ciudad capital (de un país o región)",
+      "fr": "Capitale (d'un pays ou d'une région)",
+      "hi": "राजधानी (किसी देश या क्षेत्र की)",
+      "ja": "首都（国または地域の）",
+      "km": "រាជធានី (របស់ប្រទេស ឬតំបន់)",
+      "ko": "수도 (국가나 지역의)",
+      "ne": "राजधानी (कुनै देश वा क्षेत्रको)",
+      "pt": "Capital (de um país ou região)",
+      "th": "เมืองหลวง (ของประเทศหรือภูมิภาค)",
+      "tl": "Kabisera (ng isang bansa o rehiyon)",
+      "ur": "دارالحکومت (کسی ملک یا علاقے کا)",
+      "vi": "Thủ đô (của một quốc gia hoặc vùng)",
+      "zh": "首都（一个国家或地区的）",
+      "zh_Hant": "首都（一個國家或地區的）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "na khon luang",
+    "examples": [
+      {
+        "lao_script": "ວຽງຈັນແມ່ນນະຄອນຫລວງຂອງລາວ",
+        "romanization": "Wiang jan maen na khon luang khong Lao",
+        "translations": {
+          "de": "Vientiane ist die Hauptstadt von Laos.",
+          "en": "Vientiane is the capital city of Laos.",
+          "es": "Vientián es la capital de Laos.",
+          "fr": "Vientiane est la capitale du Laos.",
+          "hi": "वियनतियाने लाओस की राजधानी है।",
+          "ja": "ビエンチャンはラオスの首都です。",
+          "km": "វៀងច័ន្ទន៍គឺជារាជធានីរបស់ប្រទេសឡាវ។",
+          "ko": "비엔티안은 라오스의 수도야.",
+          "ne": "भियन्तियान लाओसको राजधानी हो।",
+          "pt": "Vientiane é a capital do Laos.",
+          "th": "เวียงจันทน์คือเมืองหลวงของลาว",
+          "tl": "Ang Vientiane ang kabisera ng Laos.",
+          "ur": "ویانتیان لاؤس کا دارالحکومت ہے۔",
+          "vi": "Viêng Chăn là thủ đô của Lào.",
+          "zh": "万象是老挝的首都。",
+          "zh_Hant": "萬象是寮國的首都。"
+        },
+        "out_of_scope_words": [
+          "ວຽງຈັນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເຄີຍໄປນະຄອນຫລວງບໍ?",
+        "romanization": "Jao khöi pai na khon luang bo",
+        "translations": {
+          "de": "Bist du schon mal in die Hauptstadt gegangen?",
+          "en": "Have you ever been to the capital city?",
+          "es": "¿Alguna vez has ido a la capital?",
+          "fr": "Tu es déjà allé(e) dans la capitale ?",
+          "hi": "क्या आप कभी राजधानी गए हैं?",
+          "ja": "首都に行ったことある？",
+          "km": "តើអ្នកធ្លាប់ទៅរាជធានីទេ?",
+          "ko": "수도에 가본 적 있어?",
+          "ne": "तपाईं कहिल्यै राजधानी जानुभएको छ?",
+          "pt": "Você já foi à capital?",
+          "th": "เคยไปเมืองหลวงไหม?",
+          "tl": "Nakapunta ka na ba sa kabisera?",
+          "ur": "کیا آپ کبھی دارالحکومت گئے ہیں؟",
+          "vi": "Bạn đã từng đến thủ đô chưa?",
+          "zh": "你去过首都吗？",
+          "zh_Hant": "你去過首都嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຄີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a grand government building or palace with a national flag flying above it, representing a capital city, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນິວ": {
+    "definitions": {
+      "de": "Neu- (Lehnwort-Silbe, nur in Komposita verwendet, z. B. ນິວຊີແລນ – Neuseeland)",
+      "en": "New- (loanword syllable used only in compound words, e.g., ນິວຊີແລນ – New Zealand, ນິວຢອກ – New York)",
+      "es": "Nueva/Nuevo- (sílaba prestada usada solo en palabras compuestas, p. ej., ນິວຊີແລນ – Nueva Zelanda)",
+      "fr": "Nouveau/Nouvelle- (syllabe empruntée utilisée uniquement dans des mots composés, ex. ນິວຊີແລນ – Nouvelle-Zélande)",
+      "hi": "नया- (केवल यौगिक शब्दों में प्रयुक्त उधार शब्दांश, जैसे ນິວຊີແລນ – न्यूज़ीलैंड)",
+      "ja": "ニュー-（複合語のみで使われる借用音節、例：ນິວຊີແລນ – ニュージーランド）",
+      "km": "ញូ- (ព្យាង្គខ្ចីប្រើតែក្នុងពាក្យផ្សំ ដូចជា ນິວຊີແລນ – នូវែលហ្សេឡង់)",
+      "ko": "뉴- (복합어에서만 사용되는 외래어 음절, 예: ນິວຊີແລນ – 뉴질랜드)",
+      "ne": "नयाँ- (केवल यौगिक शब्दहरूमा प्रयोग हुने ऋण शब्दांश, जस्तै ນິວຊີແລນ – न्युजिल्यान्ड)",
+      "pt": "Nova/Novo- (sílaba emprestada usada apenas em palavras compostas, ex. ນິວຊີແລນ – Nova Zelândia)",
+      "th": "นิว- (พยางค์ที่ยืมมาใช้เฉพาะในคำประสม เช่น ນິວຊີແລນ – นิวซีแลนด์)",
+      "tl": "Bago- / New- (syllabang hiniram na ginagamit lamang sa mga tambalang salita, hal. ນິວຊີແລນ – New Zealand)",
+      "ur": "نیو- (صرف مرکب الفاظ میں استعمال ہونے والی مستعار ہجا، مثلاً ນິວຊີແລນ – نیوزی لینڈ)",
+      "vi": "New- (âm tiết vay mượn chỉ dùng trong các từ ghép, ví dụ ນິວຊີແລນ – New Zealand)",
+      "zh": "纽/新- （仅用于合成词的借词音节，例如 ນິວຊີແລນ – 新西兰）",
+      "zh_Hant": "紐/新- （僅用於合成詞的借詞音節，例如 ນິວຊີແລນ – 紐西蘭）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "niu",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂ້ອຍຍ້າຍໄປຢູ່ນິວຊີແລນແລ້ວ",
+        "romanization": "Phüan khoi yai pai yu niu si laen laeo",
+        "translations": {
+          "de": "Mein Freund/meine Freundin ist schon nach Neuseeland gezogen.",
+          "en": "My friend has already moved to New Zealand.",
+          "es": "Mi amigo/a ya se mudó a Nueva Zelanda.",
+          "fr": "Mon/ma ami(e) a déjà déménagé en Nouvelle-Zélande.",
+          "hi": "मेरा दोस्त न्यूज़ीलैंड चला/चली गया/गई।",
+          "ja": "友達はもうニュージーランドに引っ越したよ。",
+          "km": "មិត្តភ័ក្ដិខ្ញុំប្តូរទៅរស់នៅនូវែលហ្សេឡង់ហើយ។",
+          "ko": "내 친구는 이미 뉴질랜드로 이사했어.",
+          "ne": "मेरो साथी न्युजिल्यान्ड सरिसक्यो।",
+          "pt": "Meu/Minha amigo(a) já se mudou para a Nova Zelândia.",
+          "th": "เพื่อนฉันย้ายไปอยู่นิวซีแลนด์แล้ว",
+          "tl": "Lumipat na ang kaibigan ko sa New Zealand.",
+          "ur": "میرا دوست نیوزی لینڈ جا چکا/چکی ہے۔",
+          "vi": "Bạn tôi đã chuyển đến New Zealand rồi.",
+          "zh": "我朋友已经搬去新西兰了。",
+          "zh_Hant": "我朋友已經搬去紐西蘭了。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ຍ້າຍ",
+          "ນິວຊີແລນ"
+        ]
+      },
+      {
+        "lao_script": "ນິວຢອກເປັນເມືອງໃຫຍ່ທີ່ສຸດໃນອາເມລິກາ",
+        "romanization": "Niu yok pen müang yai thi sut nai a me li ka",
+        "translations": {
+          "de": "New York ist die größte Stadt in Amerika.",
+          "en": "New York is the largest city in America.",
+          "es": "Nueva York es la ciudad más grande de América.",
+          "fr": "New York est la plus grande ville d'Amérique.",
+          "hi": "न्यूयॉर्क अमेरिका का सबसे बड़ा शहर है।",
+          "ja": "ニューヨークはアメリカ最大の都市だよ。",
+          "km": "នូវយ៉កគឺជាទីក្រុងធំបំផុតនៅអាមេរិក។",
+          "ko": "뉴욕은 미국에서 가장 큰 도시야.",
+          "ne": "न्युयोर्क अमेरिकाको सबैभन्दा ठूलो शहर हो।",
+          "pt": "Nova York é a maior cidade dos Estados Unidos.",
+          "th": "นิวยอร์กเป็นเมืองที่ใหญ่ที่สุดในอเมริกา",
+          "tl": "Ang New York ang pinakamalaking lungsod sa Amerika.",
+          "ur": "نیویارک امریکہ کا سب سے بڑا شہر ہے۔",
+          "vi": "New York là thành phố lớn nhất ở Mỹ.",
+          "zh": "纽约是美国最大的城市。",
+          "zh_Hant": "紐約是美國最大的城市。"
+        },
+        "out_of_scope_words": [
+          "ນິວຢອກ",
+          "ເມືອງ",
+          "ໃຫຍ່",
+          "ອາເມລິກາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a world map with two locations highlighted and labeled: New Zealand and New York, connected by dotted lines, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ບຶງ": {
+    "definitions": {
+      "de": "Teich, See (kleines bis mittelgroßes natürliches Gewässer)",
+      "en": "Pond or lake (a small to medium-sized natural body of water)",
+      "es": "Estanque o lago (masa de agua natural de tamaño pequeño a mediano)",
+      "fr": "Étang ou lac (étendue d'eau naturelle de taille petite à moyenne)",
+      "hi": "तालाब या झील (एक छोटा से मध्यम आकार का प्राकृतिक जलाशय)",
+      "ja": "池または湖（小～中程度の自然の水域）",
+      "km": "បឹង, ស្រះ (ប្រភពទឹកធម្មជាតិតូចរហូតដល់មធ្យម)",
+      "ko": "연못 또는 호수 (작은~중간 크기의 자연 수역)",
+      "ne": "तलाव वा ताल (साना देखि मध्यम आकारको प्राकृतिक जलाशय)",
+      "pt": "Lago ou lagoa (massa de água natural de tamanho pequeno a médio)",
+      "th": "บึง หรือทะเลสาบขนาดเล็ก (แหล่งน้ำธรรมชาติขนาดเล็กถึงกลาง)",
+      "tl": "Lawa o palakol (katamtaman hanggang malaking katubigan sa kalikasan)",
+      "ur": "تالاب یا جھیل (چھوٹا سے درمیانے سائز کا قدرتی آبی ذخیرہ)",
+      "vi": "Ao hoặc hồ (vùng nước tự nhiên nhỏ đến trung bình)",
+      "zh": "池塘或湖泊（小型至中型的天然水体）",
+      "zh_Hant": "池塘或湖泊（小型至中型的天然水體）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "büng",
+    "examples": [
+      {
+        "lao_script": "ໃກ້ໆ ບ້ານຂ້ອຍມີບຶງໃຫຍ່ຫຼາຍ",
+        "romanization": "Kai kai ban khoi mi büng yai lai",
+        "translations": {
+          "de": "In der Nähe meines Hauses gibt es einen sehr großen Teich.",
+          "en": "Near my house there is a very big pond.",
+          "es": "Cerca de mi casa hay un estanque muy grande.",
+          "fr": "Près de chez moi, il y a un très grand étang.",
+          "hi": "मेरे घर के पास एक बहुत बड़ा तालाब है।",
+          "ja": "家の近くにとても大きな池があるよ。",
+          "km": "នៅជិតផ្ទះខ្ញុំមានបឹងធំណាស់។",
+          "ko": "우리 집 근처에 아주 큰 연못이 있어.",
+          "ne": "मेरो घर नजिकै धेरै ठूलो तालाब छ।",
+          "pt": "Perto da minha casa tem um lago muito grande.",
+          "th": "ใกล้ๆ บ้านฉันมีบึงใหญ่มาก",
+          "tl": "Malapit sa aming bahay may napakalaking lawa.",
+          "ur": "میرے گھر کے قریب ایک بہت بڑا تالاب ہے۔",
+          "vi": "Gần nhà tôi có một cái ao rất lớn.",
+          "zh": "我家附近有一个很大的池塘。",
+          "zh_Hant": "我家附近有一個很大的池塘。"
+        },
+        "out_of_scope_words": [
+          "ບ້ານ"
+        ]
+      },
+      {
+        "lao_script": "ໄປຈັບປາທີ່ບຶງນຳກັນບໍ?",
+        "romanization": "Pai jap pa thi büng nam kan bo",
+        "translations": {
+          "de": "Sollen wir zusammen am Teich Fische fangen gehen?",
+          "en": "Want to go fishing at the pond together?",
+          "es": "¿Quieres ir a pescar al estanque juntos?",
+          "fr": "On va pêcher à l'étang ensemble ?",
+          "hi": "क्या तालाब में साथ मछली पकड़ने चलते हैं?",
+          "ja": "一緒に池に魚を捕りに行かない？",
+          "km": "ទៅចាប់ត្រីនៅបឹងជាមួយគ្នាទេ?",
+          "ko": "같이 연못에 낚시하러 갈래?",
+          "ne": "तालाबमा सँगै माछा मार्न जाने?",
+          "pt": "Quer ir pescar no lago juntos?",
+          "th": "ไปจับปลาที่บึงด้วยกันไหม?",
+          "tl": "Gusto mo bang pumunta sa lawa para mangisda nang magkasama?",
+          "ur": "کیا تالاب میں ساتھ مل کر مچھلی پکڑنے چلیں؟",
+          "vi": "Cùng đi câu cá ở ao không?",
+          "zh": "要不要一起去池塘钓鱼？",
+          "zh_Hant": "要不要一起去池塘釣魚？"
+        },
+        "out_of_scope_words": [
+          "ຈັບ",
+          "ປາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a calm blue pond or small lake surrounded by green grass and a few trees, with ducks or lily pads on the surface, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

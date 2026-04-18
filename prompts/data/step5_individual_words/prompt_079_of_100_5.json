@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຕະ",
+  "definitions": {
+    "de": "Treten; etwas oder jemanden mit dem Fuß schlagen, besonders einen Ball im Sport",
+    "en": "To kick; to strike something or someone with the foot, especially a ball in sports",
+    "es": "Patear; golpear algo o a alguien con el pie, especialmente una pelota en deportes",
+    "fr": "Donner un coup de pied; frapper quelque chose ou quelqu'un avec le pied, surtout un ballon dans les sports",
+    "hi": "लात मारना; पैर से किसी चीज़ या व्यक्ति को मारना, विशेषकर खेलों में गेंद को",
+    "ja": "蹴る；足で何かや誰かを蹴ること、特にスポーツでボールを蹴ること",
+    "km": "បោះជើង; ប្រើជើងទាត់អ្វីមួយ ឬនរណាម្នាក់ ជាពិសេសបាល់ក្នុងកីឡា",
+    "ko": "차다; 발로 무언가나 누군가를 치다, 특히 스포츠에서 공을 차다",
+    "ne": "लात हान्नु; खुट्टाले केही वा कसैलाई हान्नु, विशेष गरी खेलकुदमा बललाई",
+    "pt": "Chutar; golpear algo ou alguém com o pé, especialmente uma bola em esportes",
+    "th": "เตะ; การใช้เท้าต่อยหรือตีบางอย่างหรือบางคน โดยเฉพาะลูกบอลในกีฬา",
+    "tl": "Sipain; ang tamaan ng paa ang isang bagay o tao, lalo na ang bola sa palakasan",
+    "ur": "لات مارنا؛ پاؤں سے کسی چیز یا شخص کو مارنا، خاص طور پر کھیلوں میں گیند کو",
+    "vi": "Đá; dùng chân đánh vào vật gì hoặc ai đó, đặc biệt là quả bóng trong thể thao",
+    "zh": "踢；用脚踢某物或某人，尤其是在运动中踢球",
+    "zh_Hant": "踢；用腳踢某物或某人，尤其是在運動中踢球"
+  },
+  "definition_en": "To kick; to strike something or someone with the foot, especially a ball in sports",
+  "romanization": "/tèʔ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຕະບານໃຫ້ຂ້ອຍແດ່ ຂ້ອຍຈະຂວ້າງຄືນ",
+      "romanization": "Te ban hai khoi dae, khoi ja khwang khuun.",
+      "translation_en": "Kick the ball to me, I'll throw it back."
+    },
+    {
+      "lao_script": "ນັກກິລາຄົນນັ້ນເຕະໄດ້ແຮງຫຼາຍ",
+      "romanization": "Nak-ki-la khon nan te dai haeng lai.",
+      "translation_en": "That athlete can kick really hard."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a child kicking a soccer ball on a green field, the ball shown mid-air with motion lines, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼັງ",
+  "definitions": {
+    "de": "Rücken (Körperteil); hinten (Position); nach (zeitlich); bezeichnet den hinteren Teil von etwas oder den Zeitraum nach einem Ereignis",
+    "en": "Back (body part); behind (position); after (time); refers to the rear of something or a time period following an event",
+    "es": "Espalda (parte del cuerpo); detrás (posición); después (tiempo); se refiere a la parte trasera de algo o a un período de tiempo después de un evento",
+    "fr": "Dos (partie du corps); derrière (position); après (temps); désigne l'arrière de quelque chose ou une période de temps après un événement",
+    "hi": "पीठ (शरीर का अंग); पीछे (स्थिति); बाद में (समय); किसी चीज़ के पिछले हिस्से या किसी घटना के बाद की समयावधि को दर्शाता है",
+    "ja": "背中（体の部位）；後ろ（位置）；後で（時間）；物事の後方や出来事の後の時間を指す",
+    "km": "ខ្នង (ផ្នែករបស់រាងកាយ); ខាងក្រោយ (ទីតាំង); ក្រោយ (ពេលវេលា); សំដៅទៅលើផ្នែកខាងក្រោយ ឬរយៈពេលក្រោយព្រឹត្តិការណ៍",
+    "ko": "등 (신체 부위); 뒤 (위치); 후 (시간); 무언가의 뒷부분 또는 사건 이후의 시간을 나타냄",
+    "ne": "पिठ्यूँ (शरीरको अंग); पछाडि (स्थिति); पछि (समय); कुनै चिजको पछाडि भाग वा घटना पछिको समयलाई जनाउँछ",
+    "pt": "Costas (parte do corpo); atrás (posição); depois (tempo); refere-se à parte traseira de algo ou a um período de tempo após um evento",
+    "th": "หลัง (ส่วนของร่างกาย); ข้างหลัง (ตำแหน่ง); หลังจาก (เวลา); หมายถึงด้านหลังของสิ่งใดสิ่งหนึ่งหรือช่วงเวลาหลังจากเหตุการณ์",
+    "tl": "Likod (bahagi ng katawan); sa likod (posisyon); pagkatapos (oras); tumutukoy sa likurang bahagi ng isang bagay o panahon pagkatapos ng isang pangyayari",
+    "ur": "پیٹھ (جسم کا حصہ); پیچھے (پوزیشن); بعد میں (وقت); کسی چیز کے پچھلے حصے یا کسی واقعے کے بعد کی مدت کا حوالہ دیتا ہے",
+    "vi": "Lưng (bộ phận cơ thể); phía sau (vị trí); sau (thời gian); chỉ phần sau của vật gì đó hoặc khoảng thời gian sau một sự kiện",
+    "zh": "背部（身体部位）；后面（位置）；之后（时间）；指某物的后部或事件之后的时间段",
+    "zh_Hant": "背部（身體部位）；後面（位置）；之後（時間）；指某物的後部或事件之後的時間段"
+  },
+  "definition_en": "Back (body part); behind (position); after (time); refers to the rear of something or a time period following an event",
+  "romanization": "lǎŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຫຼັງກິນເຂົ້າແລ້ວ ຂ້ອຍຈະໄປນອນ",
+      "romanization": "lǎŋ kin kʰâw lɛ́ːw kʰɔ̂ːj tɕàʔ paj nɔːn",
+      "translation_en": "After eating, I'm going to go sleep."
+    },
+    {
+      "lao_script": "ເຈ็ບຫຼັງຫຼາຍ ນັ່ງດົນໄປ",
+      "romanization": "tɕép lǎŋ lǎːj nâŋ don paj",
+      "translation_en": "My back really hurts — I've been sitting too long."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a person pointing to their back (body), and on the right, a clock with an arrow showing 'before' and 'after' to represent the concept of 'after', clean white background, colorful minimalist style suitable for a language learning app."
+}

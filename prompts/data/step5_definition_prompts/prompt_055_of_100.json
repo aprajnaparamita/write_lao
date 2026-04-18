@@ -1,0 +1,408 @@
+{
+  "ໄວ": {
+    "definitions": {
+      "de": "Schnell; beschreibt eine hohe Geschwindigkeit oder rasche Ausführung einer Handlung",
+      "en": "Fast; quick; describes high speed or rapid action",
+      "es": "Rápido; veloz; describe alta velocidad o acción rápida",
+      "fr": "Rapide; vite; décrit une grande vitesse ou une action rapide",
+      "hi": "तेज़; जल्दी; उच्च गति या तीव्र क्रिया का वर्णन करता है",
+      "ja": "速い；素早い；高速または迅速な動作を表す形容詞",
+      "km": "លឿន; រហ័ស; ពិពណ៌នាអំពីល្បឿនខ្ពស់ ឬសកម្មភាពដែលធ្វើបានយ៉ាងឆាប់រហ័ស",
+      "ko": "빠른; 신속한; 높은 속도나 빠른 동작을 묘사하는 형용사",
+      "ne": "छिटो; तीव्र; उच्च गति वा द्रुत कार्यको वर्णन गर्दछ",
+      "pt": "Rápido; veloz; descreve alta velocidade ou ação rápida",
+      "th": "เร็ว; รวดเร็ว; ใช้อธิบายความเร็วสูงหรือการกระทำที่รวดเร็ว",
+      "tl": "Mabilis; matulin; naglalarawan ng mataas na bilis o mabilis na kilos",
+      "ur": "تیز؛ سریع؛ اعلیٰ رفتار یا تیز عمل کو بیان کرتا ہے",
+      "vi": "Nhanh; mau; diễn tả tốc độ cao hoặc hành động nhanh chóng",
+      "zh": "快；迅速；形容速度高或行动迅速",
+      "zh_Hant": "快；迅速；形容速度高或行動迅速"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/wáj/",
+    "examples": [
+      {
+        "lao_script": "ລົດຂອງເຂົາໄວຫຼາຍເລີຍ",
+        "romanization": "lot khong khao wai lai loei",
+        "translations": {
+          "de": "Sein Auto ist wirklich sehr schnell.",
+          "en": "His car is really very fast.",
+          "es": "Su carro es realmente muy rápido.",
+          "fr": "Sa voiture est vraiment très rapide.",
+          "hi": "उसकी गाड़ी सच में बहुत तेज़ है।",
+          "ja": "彼の車は本当にとても速い。",
+          "km": "រថយន្តរបស់គាត់លឿនណាស់មែន។",
+          "ko": "그의 차는 정말 엄청 빨라.",
+          "ne": "उसको गाडी साँच्चै धेरै छिटो छ।",
+          "pt": "O carro dele é realmente muito rápido.",
+          "th": "รถของเขาเร็วมากเลย",
+          "tl": "Ang kotse niya ay talagang napakabilis.",
+          "ur": "اس کی گاڑی واقعی بہت تیز ہے۔",
+          "vi": "Xe của anh ấy nhanh thật đấy.",
+          "zh": "他的车真的很快。",
+          "zh_Hant": "他的車真的很快。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ເຂົາ",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ເດີນໄວໆໜ່ອຍ ເຮົາຈະໄປສາຍແລ້ວ",
+        "romanization": "doen wai wai noi, hao ja pai sai laeo",
+        "translations": {
+          "de": "Geh ein bisschen schneller, wir werden sonst zu spät kommen.",
+          "en": "Walk a bit faster, we're going to be late.",
+          "es": "Camina un poco más rápido, vamos a llegar tarde.",
+          "fr": "Marche un peu plus vite, on va être en retard.",
+          "hi": "थोड़ा तेज़ चलो, हम देर हो जाएंगे।",
+          "ja": "もう少し早く歩いて、遅刻しちゃうよ。",
+          "km": "ដើរឱ្យបានលឿនបន្តិច យើងនឹងទៅយឺតហើយ។",
+          "ko": "좀 더 빨리 걸어, 우리 늦겠어.",
+          "ne": "अलि छिटो हिँड, हामी ढिला हुन्छौं।",
+          "pt": "Anda um pouco mais rápido, vamos nos atrasar.",
+          "th": "เดินเร็วๆ หน่อย เราจะไปสายแล้ว",
+          "tl": "Maglakad nang mas mabilis, mahahuli na tayo.",
+          "ur": "تھوڑا تیز چلو، ہم لیٹ ہو جائیں گے۔",
+          "vi": "Đi nhanh lên một chút, chúng ta sắp trễ rồi.",
+          "zh": "走快一点，我们要迟到了。",
+          "zh_Hant": "走快一點，我們要遲到了。"
+        },
+        "out_of_scope_words": [
+          "ເດີນ",
+          "ເຮົາ",
+          "ໄປ",
+          "ສາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a running cheetah or a speeding cartoon car with motion blur lines, suggesting speed and quickness, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄືນ": {
+    "definitions": {
+      "de": "Nacht (Substantiv); zurückkehren/zurückgeben (Verb); bezeichnet die dunkle Tageszeit oder die Rückkehr zu einem Ausgangspunkt",
+      "en": "Night (noun); to return / to give back (verb); refers to the nighttime hours or the act of going back / returning something",
+      "es": "Noche (sustantivo); regresar / devolver (verbo); se refiere a las horas nocturnas o al acto de volver o devolver algo",
+      "fr": "Nuit (nom); retourner / rendre (verbe); désigne les heures de la nuit ou l'action de revenir ou de rendre quelque chose",
+      "hi": "रात (संज्ञा); वापस जाना / वापस करना (क्रिया); रात के समय या किसी चीज़ को लौटाने की क्रिया को दर्शाता है",
+      "ja": "夜（名詞）；戻る・返す（動詞）；夜の時間帯、または何かを返したり帰ったりする行為を指す",
+      "km": "យប់ (នាម); ត្រឡប់មកវិញ / បង្វិលសង (កិរិយា); សំដៅលើពេលយប់ ឬការវិលត្រឡប់ទៅកន្លែងដើម",
+      "ko": "밤 (명사); 돌아가다 / 돌려주다 (동사); 야간 시간대 또는 돌아오거나 무언가를 반납하는 행위를 의미함",
+      "ne": "रात (संज्ञा); फर्कनु / फिर्ता गर्नु (क्रिया); रातको समय वा कुनै ठाउँमा फर्कने वा केही फिर्ता गर्ने कार्यलाई जनाउँछ",
+      "pt": "Noite (substantivo); retornar / devolver (verbo); refere-se ao período noturno ou ao ato de voltar ou devolver algo",
+      "th": "คืน (คำนาม) หมายถึงเวลากลางคืน; หรือ (คำกริยา) หมายถึงการกลับ/คืนสิ่งของ",
+      "tl": "Gabi (pangngalan); bumalik / ibalik (pandiwa); tumutukoy sa oras ng gabi o sa kilos ng pagbabalik o pag-ibalik ng isang bagay",
+      "ur": "رات (اسم)؛ واپس جانا / واپس کرنا (فعل)؛ رات کے اوقات یا کسی چیز کو واپس کرنے کے عمل کو ظاہر کرتا ہے",
+      "vi": "Đêm (danh từ); trả lại / quay lại (động từ); chỉ thời gian ban đêm hoặc hành động trở về hay hoàn trả thứ gì đó",
+      "zh": "夜晚（名词）；归还/返回（动词）；指夜间时段或返回、归还某物的动作",
+      "zh_Hant": "夜晚（名詞）；歸還/返回（動詞）；指夜間時段或返回、歸還某物的動作"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kʰɯːn/",
+    "examples": [
+      {
+        "lao_script": "ຄືນນີ້ດາວສວຍຫຼາຍເນາະ",
+        "romanization": "khuen ni dao suay lai nao",
+        "translations": {
+          "de": "Heute Nacht sind die Sterne so schön, oder?",
+          "en": "The stars are so beautiful tonight, aren't they?",
+          "es": "Esta noche las estrellas están muy bonitas, ¿verdad?",
+          "fr": "Ce soir les étoiles sont vraiment belles, non ?",
+          "hi": "आज रात तारे बहुत सुंदर हैं, है ना?",
+          "ja": "今夜は星がすごくきれいだね。",
+          "km": "យប់នេះ ផ្កាយស្អាតណាស់មែនទេ?",
+          "ko": "오늘 밤 별이 정말 예쁘다, 그치?",
+          "ne": "आज रात ताराहरू कति सुन्दर छन् है!",
+          "pt": "Esta noite as estrelas estão muito bonitas, não é?",
+          "th": "คืนนี้ดาวสวยมากเลยนะ",
+          "tl": "Napakaganda ng mga bituin ngayong gabi, 'no?",
+          "ur": "آج رات ستارے بہت خوبصورت ہیں، ہے نا؟",
+          "vi": "Tối nay sao đẹp quá nhỉ?",
+          "zh": "今晚的星星真的很美，对吧？",
+          "zh_Hant": "今晚的星星真的很美，對吧？"
+        },
+        "out_of_scope_words": [
+          "ດາວ",
+          "ສວຍ",
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ຢືມເງິນໄປແລ້ວຢ່າລືມຄືນດ້ວຍນະ",
+        "romanization": "yuem ngoen pai laeo, ya luem khuen duay na",
+        "translations": {
+          "de": "Du hast Geld geliehen, vergiss nicht, es zurückzugeben.",
+          "en": "You borrowed money, don't forget to return it.",
+          "es": "Pediste dinero prestado, no olvides devolverlo.",
+          "fr": "Tu as emprunté de l'argent, n'oublie pas de le rendre.",
+          "hi": "तुमने पैसे उधार लिए, वापस करना मत भूलना।",
+          "ja": "お金を借りたんだから、返すの忘れないでよ。",
+          "km": "ខ្ចីប្រាក់ទៅហើយ កុំភ្លេចបង្វិលសងវិញណា។",
+          "ko": "돈 빌려갔으니까 돌려주는 거 잊지 마.",
+          "ne": "पैसा सापटी लियौ, फिर्ता गर्न नबिर्सनु है।",
+          "pt": "Você pegou dinheiro emprestado, não esqueça de devolver.",
+          "th": "ยืมเงินไปแล้วอย่าลืมคืนด้วยนะ",
+          "tl": "Nangutang ka ng pera, huwag kalimutang ibalik.",
+          "ur": "پیسے ادھار لیے ہیں، واپس کرنا مت بھولنا۔",
+          "vi": "Mượn tiền rồi đừng quên trả lại nhé.",
+          "zh": "借了钱别忘了还哦。",
+          "zh_Hant": "借了錢別忘了還哦。"
+        },
+        "out_of_scope_words": [
+          "ຢືມ",
+          "ເງິນ",
+          "ລືມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a peaceful night sky with a moon and stars (representing 'night'); on the right, a person handing back an object to another smiling person (representing 'return'). Clean white background, soft colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດອກ": {
+    "definitions": {
+      "de": "Blume; Blüte; eine Pflanze mit farbenfrohen Blütenblättern, oft als Zierpflanze oder Symbol der Schönheit verwendet",
+      "en": "Flower; blossom; a plant with colorful petals, often used as decoration or a symbol of beauty",
+      "es": "Flor; la parte colorida de una planta, usada frecuentemente como decoración o símbolo de belleza",
+      "fr": "Fleur; la partie colorée d'une plante, souvent utilisée comme décoration ou symbole de beauté",
+      "hi": "फूल; पौधे का रंगीन भाग, जो अक्सर सजावट या सुंदरता के प्रतीक के रूप में उपयोग किया जाता है",
+      "ja": "花；植物の色鮮やかな部分で、装飾や美の象徴としてよく使われる",
+      "km": "ផ្កា; ផ្នែកដែលមានពណ៌ស្រស់ស្អាតនៃរុក្ខជាតិ ដែលមักប្រើសម្រាប់តុបតែង ឬជាសញ្ញានៃភាពស្អាត",
+      "ko": "꽃; 식물의 화려한 부분으로, 장식이나 아름다움의 상징으로 자주 사용됨",
+      "ne": "फूल; बिरुवाको रंगीन भाग, जुन प्रायः सजावट वा सुन्दरताको प्रतीकको रूपमा प्रयोग गरिन्छ",
+      "pt": "Flor; a parte colorida de uma planta, frequentemente usada como decoração ou símbolo de beleza",
+      "th": "ดอกไม้; ส่วนที่มีสีสันสดใสของพืช มักใช้เป็นของตกแต่งหรือสัญลักษณ์แห่งความงาม",
+      "tl": "Bulaklak; ang makulay na bahagi ng isang halaman, madalas na ginagamit bilang dekorasyon o simbolo ng kagandahan",
+      "ur": "پھول؛ پودے کا رنگین حصہ، جو اکثر سجاوٹ یا خوبصورتی کی علامت کے طور پر استعمال ہوتا ہے",
+      "vi": "Hoa; phần có màu sắc rực rỡ của cây, thường được dùng làm đồ trang trí hoặc biểu tượng của vẻ đẹp",
+      "zh": "花；植物色彩鲜艳的部分，常用作装饰或美丽的象征",
+      "zh_Hant": "花；植物色彩鮮豔的部分，常用作裝飾或美麗的象徵"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/dɔːk/",
+    "examples": [
+      {
+        "lao_script": "ດອກໄມ້ໃນສວນສວຍຫຼາຍ",
+        "romanization": "dok mai nai suan suay lai",
+        "translations": {
+          "de": "Die Blumen im Garten sind sehr schön.",
+          "en": "The flowers in the garden are very beautiful.",
+          "es": "Las flores del jardín son muy bonitas.",
+          "fr": "Les fleurs dans le jardin sont très belles.",
+          "hi": "बगीचे में फूल बहुत सुंदर हैं।",
+          "ja": "庭の花はとてもきれいだ。",
+          "km": "ផ្កាឈើក្នុងសួននោះស្អាតណាស់។",
+          "ko": "정원의 꽃들이 정말 예뻐.",
+          "ne": "बगैँचामा फूलहरू धेरै सुन्दर छन्।",
+          "pt": "As flores no jardim são muito bonitas.",
+          "th": "ดอกไม้ในสวนสวยมาก",
+          "tl": "Napakaganda ng mga bulaklak sa hardin.",
+          "ur": "باغ میں پھول بہت خوبصورت ہیں۔",
+          "vi": "Những bông hoa trong vườn đẹp lắm.",
+          "zh": "花园里的花很漂亮。",
+          "zh_Hant": "花園裡的花很漂亮。"
+        },
+        "out_of_scope_words": [
+          "ໄມ້",
+          "ສວນ",
+          "ສວຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາຊື້ດອກໄມ້ໃຫ້ແຟນ",
+        "romanization": "khao sue dok mai hai faen",
+        "translations": {
+          "de": "Er kaufte seiner Freundin Blumen.",
+          "en": "He bought flowers for his girlfriend.",
+          "es": "Él le compró flores a su novia.",
+          "fr": "Il a acheté des fleurs pour sa petite amie.",
+          "hi": "उसने अपनी गर्लफ्रेंड के लिए फूल खरीदे।",
+          "ja": "彼は彼女に花を買ってあげた。",
+          "km": "គាត់ទិញផ្កាឱ្យមិត្តស្រីរបស់គាត់។",
+          "ko": "그는 여자친구에게 꽃을 사줬어.",
+          "ne": "उसले आफ्नी गर्लफ्रेन्डलाई फूल किन्यो।",
+          "pt": "Ele comprou flores para a namorada.",
+          "th": "เขาซื้อดอกไม้ให้แฟน",
+          "tl": "Bumili siya ng bulaklak para sa kanyang nobya.",
+          "ur": "اس نے اپنی گرل فرینڈ کے لیے پھول خریدے۔",
+          "vi": "Anh ấy mua hoa cho bạn gái.",
+          "zh": "他买了花送给女朋友。",
+          "zh_Hant": "他買了花送給女朋友。"
+        },
+        "out_of_scope_words": [
+          "ຊື້",
+          "ໄມ້",
+          "ແຟນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright, colorful flower with petals and a green stem, shown close-up against a clean white background, cheerful and vibrant colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທໍ່": {
+    "definitions": {
+      "de": "Rohr; Röhre; ein hohler zylindrischer Gegenstand, der zum Leiten von Flüssigkeiten oder Gasen verwendet wird",
+      "en": "Pipe; tube; a hollow cylindrical object used to carry liquids or gases",
+      "es": "Tubo; tubería; objeto cilíndrico hueco usado para transportar líquidos o gases",
+      "fr": "Tuyau; tube; objet cylindrique creux utilisé pour transporter des liquides ou des gaz",
+      "hi": "पाइप; नली; एक खोखली बेलनाकार वस्तु जो तरल पदार्थ या गैस ले जाने के लिए उपयोग की जाती है",
+      "ja": "パイプ；管；液体や気体を運ぶために使われる中空の円筒形の物体",
+      "km": "បំពង់; បំពង់ចែកទឹក; វត្ថុមូលចោញ ដែលប្រើដើម្បីដឹកជញ្ជូនទឹក ឬឧស្ម័ន",
+      "ko": "파이프; 관; 액체나 기체를 운반하는 데 사용되는 속이 빈 원통형 물체",
+      "ne": "पाइप; नली; खोक्रो बेलनाकार वस्तु जुन तरल पदार्थ वा ग्याँस सार्न प्रयोग गरिन्छ",
+      "pt": "Cano; tubo; objeto cilíndrico oco usado para transportar líquidos ou gases",
+      "th": "ท่อ; หลอด; วัตถุทรงกระบอกกลวงที่ใช้ลำเลียงของเหลวหรือก๊าซ",
+      "tl": "Tubo; isang guwang na bilog na bagay na ginagamit para magdala ng likido o gas",
+      "ur": "پائپ؛ نلکا؛ ایک کھوکھلی بیلناکار چیز جو مائع یا گیس لے جانے کے لیے استعمال ہوتی ہے",
+      "vi": "Ống; ống dẫn; vật hình trụ rỗng dùng để dẫn chất lỏng hoặc khí",
+      "zh": "管道；管子；用于输送液体或气体的空心圆柱形物体",
+      "zh_Hant": "管道；管子；用於輸送液體或氣體的空心圓柱形物體"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tʰɔː/",
+    "examples": [
+      {
+        "lao_script": "ທໍ່ນ້ຳໃນເຮືອນແຕກແລ້ວ",
+        "romanization": "tho nam nai huean taek laeo",
+        "translations": {
+          "de": "Das Wasserrohr im Haus ist gebrochen.",
+          "en": "The water pipe in the house is broken.",
+          "es": "La tubería de agua en la casa está rota.",
+          "fr": "Le tuyau d'eau dans la maison est cassé.",
+          "hi": "घर में पानी का पाइप टूट गया है।",
+          "ja": "家の水道管が壊れた。",
+          "km": "បំពង់ទឹកក្នុងផ្ទះបាក់ហើយ។",
+          "ko": "집 수도관이 터졌어.",
+          "ne": "घरमा पानीको पाइप फुटिसक्यो।",
+          "pt": "O cano de água da casa quebrou.",
+          "th": "ท่อน้ำในบ้านแตกแล้ว",
+          "tl": "Nasira na ang tubo ng tubig sa bahay.",
+          "ur": "گھر میں پانی کا پائپ ٹوٹ گیا ہے۔",
+          "vi": "Ống nước trong nhà bị vỡ rồi.",
+          "zh": "家里的水管破了。",
+          "zh_Hant": "家裡的水管破了。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ເຮືອນ",
+          "ແຕກ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່າງຕ້ອງມາສ້ອມທໍ່ທີ່ເສຍ",
+        "romanization": "saang tong ma som tho thi sia",
+        "translations": {
+          "de": "Der Handwerker muss kommen und das kaputte Rohr reparieren.",
+          "en": "The repairman needs to come and fix the broken pipe.",
+          "es": "El técnico tiene que venir a reparar la tubería dañada.",
+          "fr": "Le technicien doit venir réparer le tuyau endommagé.",
+          "hi": "मिस्त्री को आकर टूटे हुए पाइप की मरम्मत करनी होगी।",
+          "ja": "修理屋さんが壊れたパイプを直しに来なければならない。",
+          "km": "ช่างต้องมาซ่อมท่อที่เสีย",
+          "ko": "수리공이 와서 고장난 파이프를 고쳐야 해.",
+          "ne": "मिस्त्रीले आएर बिग्रिएको पाइप मर्मत गर्नुपर्छ।",
+          "pt": "O técnico precisa vir consertar o cano com defeito.",
+          "th": "ช่างต้องมาซ่อมท่อที่เสีย",
+          "tl": "Kailangang pumunta ang manggagawa para ayusin ang sirang tubo.",
+          "ur": "مستری کو آ کر خراب پائپ ٹھیک کرنا ہوگا۔",
+          "vi": "Thợ cần đến sửa cái ống bị hỏng.",
+          "zh": "工人需要来修坏掉的管道。",
+          "zh_Hant": "工人需要來修壞掉的管道。"
+        },
+        "out_of_scope_words": [
+          "ຊ່າງ",
+          "ສ້ອມ",
+          "ເສຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a gray or silver pipe or tube, shown in cross-section or as a straight cylinder with water flowing through it, clean white background, clear and simple design, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນ້ອຍ": {
+    "definitions": {
+      "de": "Klein; winzig; beschreibt etwas von geringer Größe oder geringem Ausmaß",
+      "en": "Small; little; describes something of limited size or extent",
+      "es": "Pequeño; chico; describe algo de tamaño o magnitud reducida",
+      "fr": "Petit; minuscule; décrit quelque chose de taille ou d'étendue réduite",
+      "hi": "छोटा; लघु; किसी वस्तु की सीमित आकार या मात्रा का वर्णन करता है",
+      "ja": "小さい；少ない；サイズや程度が限られていることを表す形容詞",
+      "km": "តូច; តូចតាច; ពិពណ៌នាអំពីអ្វីដែលមានទំហំ ឬបរិមាណតិចតួច",
+      "ko": "작은; 적은; 크기나 정도가 제한적임을 나타내는 형용사",
+      "ne": "सानो; थोरै; कुनै वस्तुको सीमित आकार वा परिमाणको वर्णन गर्दछ",
+      "pt": "Pequeno; pouco; descreve algo de tamanho ou extensão limitada",
+      "th": "เล็ก; น้อย; ใช้อธิบายสิ่งที่มีขนาดหรือปริมาณน้อย",
+      "tl": "Maliit; kaunti; naglalarawan ng bagay na may limitadong sukat o dami",
+      "ur": "چھوٹا؛ تھوڑا؛ کسی چیز کے محدود حجم یا مقدار کو بیان کرتا ہے",
+      "vi": "Nhỏ; ít; diễn tả kích thước hoặc mức độ hạn chế của một vật",
+      "zh": "小；少；形容某物体积或数量有限",
+      "zh_Hant": "小；少；形容某物體積或數量有限"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/nɔːj/",
+    "examples": [
+      {
+        "lao_script": "ໝາຂອງຂ້ອຍນ້ອຍຫຼາຍ ໜ້າຮັກເລີຍ",
+        "romanization": "ma khong khoi noi lai, na hak loei",
+        "translations": {
+          "de": "Mein Hund ist so klein, er ist so niedlich.",
+          "en": "My dog is so small, it's really cute.",
+          "es": "Mi perro es muy pequeño, es muy tierno.",
+          "fr": "Mon chien est très petit, il est tellement mignon.",
+          "hi": "मेरा कुत्ता बहुत छोटा है, बहुत प्यारा है।",
+          "ja": "私の犬はとても小さくて、すごくかわいい。",
+          "km": "សត្វឆ្កែរបស់ខ្ញុំតូចណាស់ គួរឱ្យស្រឡាញ់ណាស់។",
+          "ko": "내 강아지는 너무 작아서 정말 귀여워.",
+          "ne": "मेरो कुकुर धेरै सानो छ, धेरै प्यारो छ।",
+          "pt": "Meu cachorro é muito pequeno, é muito fofo.",
+          "th": "หมาของฉันตัวเล็กมาก น่ารักมากเลย",
+          "tl": "Napakaliit ng aking aso, talagang cute.",
+          "ur": "میرا کتا بہت چھوٹا ہے، بہت پیارا لگتا ہے۔",
+          "vi": "Con chó của tôi rất nhỏ, dễ thương lắm.",
+          "zh": "我的狗好小，好可爱。",
+          "zh_Hant": "我的狗好小，好可愛。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ໜ້າຮັກ",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ເອົານ້ຳໜ້ອຍໜຶ່ງໄດ້ບໍ່",
+        "romanization": "ao nam noi nung dai bo",
+        "translations": {
+          "de": "Kann ich ein bisschen Wasser haben?",
+          "en": "Can I have a little bit of water?",
+          "es": "¿Me puedes dar un poco de agua?",
+          "fr": "Est-ce que je peux avoir un peu d'eau ?",
+          "hi": "क्या मुझे थोड़ा पानी मिल सकता है?",
+          "ja": "水を少しもらえますか？",
+          "km": "សុំទឹកបន្តិចបានទេ?",
+          "ko": "물 조금만 줄 수 있어?",
+          "ne": "अलिकति पानी पाउँछु?",
+          "pt": "Posso pegar um pouquinho de água?",
+          "th": "ขอน้ำหน่อยได้ไหม",
+          "tl": "Pwede ba akong kumuha ng kaunting tubig?",
+          "ur": "کیا مجھے تھوڑا پانی مل سکتا ہے؟",
+          "vi": "Cho tôi xin chút nước được không?",
+          "zh": "可以给我一点水吗？",
+          "zh_Hant": "可以給我一點水嗎？"
+        },
+        "out_of_scope_words": [
+          "ເອົາ",
+          "ນ້ຳ",
+          "ໄດ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a size comparison: a large object (like a big dog or large ball) next to a very small version of the same object, clearly highlighting the concept of 'small' or 'little', clean white background, bright friendly colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

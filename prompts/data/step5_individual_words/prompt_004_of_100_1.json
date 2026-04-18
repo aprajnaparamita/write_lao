@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທີ",
+  "definitions": {
+    "de": "Ordinalzahlmarker; Mal/Gelegenheit",
+    "en": "ordinal number marker; time/occasion",
+    "es": "marcador ordinal; vez/ocasión",
+    "fr": "marqueur ordinal; fois/occasion",
+    "hi": "क्रमवाचक चिह्न; बार/अवसर",
+    "ja": "序数を示す助詞／〜回",
+    "km": "ទី (បង្ហាញលេខរៀង ឬគ្រា)",
+    "ko": "제~／~번째 (서수 표지 또는 번·회)",
+    "ne": "क्रमवाचक चिन्ह／पटक",
+    "pt": "marcador ordinal; vez/ocasião",
+    "th": "ที่ (เครื่องหมายเลขลำดับ หรือครั้ง)",
+    "tl": "pang-／ika-／beses (pambatay sa ordinal o beses)",
+    "ur": "ترتیبی عدد کی علامت؛ بار",
+    "vi": "thứ (chỉ số thứ tự); lần",
+    "zh": "第／次（序数标记或次数）",
+    "zh_Hant": "第／次（序數標記或次數）"
+  },
+  "definition_en": "ordinal number marker; time/occasion",
+  "romanization": "tʰíː",
+  "lao_examples": [
+    {
+      "lao_script": "ຄັ້ງ ທີ ສອງ ລາວ ຊະນະ",
+      "romanization": "kʰáŋ tʰíː sɔ̌ːŋ láːw sā.nāʔ",
+      "translation_en": "The second time, he/she won."
+    },
+    {
+      "lao_script": "ບົດ ທີ ໜຶ່ງ ຍາກ ຫຼາຍ",
+      "romanization": "bòt tʰíː nɯ̀ŋ ɲȁːk lǎːj",
+      "translation_en": "The first chapter is very difficult."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a podium with numbers 1, 2, 3 labeled on the steps, representing ordinal ranking, suitable for a language learning app, clean white background, minimalist style."
+}

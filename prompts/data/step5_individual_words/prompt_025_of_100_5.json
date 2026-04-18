@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເພີ່ມ",
+  "definitions": {
+    "de": "Hinzufügen; erhöhen; vermehren; etwas vergrößern oder ergänzen",
+    "en": "To add; to increase; to augment; to make something more or greater in amount",
+    "es": "Añadir; aumentar; incrementar; hacer que algo sea más en cantidad o tamaño",
+    "fr": "Ajouter; augmenter; accroître; rendre quelque chose plus grand ou plus nombreux",
+    "hi": "जोड़ना; बढ़ाना; वृद्धि करना; किसी चीज़ की मात्रा या संख्या अधिक करना",
+    "ja": "加える；増やす；増加させる；量や数を多くする",
+    "km": "បន្ថែម; បង្កើន; ធ្វើឱ្យកាន់តែច្រើន ឬធំជាងមុន",
+    "ko": "추가하다; 늘리다; 증가시키다; 양이나 수를 더 많게 하다",
+    "ne": "थप्नु; बढाउनु; वृद्धि गर्नु; कुनै चिजको मात्रा वा संख्या बढाउनु",
+    "pt": "Adicionar; aumentar; acrescentar; tornar algo maior em quantidade ou tamanho",
+    "th": "เพิ่ม; เพิ่มขึ้น; เพิ่มเติม; ทำให้มากขึ้นหรือใหญ่ขึ้น",
+    "tl": "Magdagdag; magpalakas; magpalaki; gawing mas marami o mas malaki ang isang bagay",
+    "ur": "اضافہ کرنا؛ بڑھانا؛ کسی چیز کی مقدار یا تعداد زیادہ کرنا",
+    "vi": "Thêm; tăng; tăng thêm; làm cho số lượng hoặc kích thước trở nên nhiều hơn",
+    "zh": "增加；添加；加上；使数量或规模变得更多或更大",
+    "zh_Hant": "增加；添加；加上；使數量或規模變得更多或更大"
+  },
+  "definition_en": "To add; to increase; to augment; to make something more or greater in amount",
+  "romanization": "/pʰɤːm³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກເພີ່ມເຄື່ອງເທດໃນອາຫານ",
+      "romanization": "khoi yak phoem khuang thet nai a han",
+      "translation_en": "I want to add more spices to the food."
+    },
+    {
+      "lao_script": "ເພີ່ມໝໍ້ຂ້າວອີກໜ້ອຍໄດ້ບໍ?",
+      "romanization": "phoem mo khao ik noi dai bo",
+      "translation_en": "Can I have a little more rice?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a plus sign with arrows pointing upward and outward, representing the concept of adding or increasing, with small colorful icons of objects being added together, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

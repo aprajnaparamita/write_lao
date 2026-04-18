@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼຽນ",
+  "definitions": {
+    "de": "Münze oder Medaille; eine runde Metallscheibe, die als Geld oder Auszeichnung verwendet wird",
+    "en": "Coin or medal; a round flat piece of metal used as money or as an award",
+    "es": "Moneda o medalla; pieza redonda de metal usada como dinero o como distinción",
+    "fr": "Pièce de monnaie ou médaille; disque métallique rond utilisé comme argent ou récompense",
+    "hi": "सिक्का या पदक; एक गोल धातु का टुकड़ा जो पैसे या पुरस्कार के रूप में उपयोग होता है",
+    "ja": "コインまたはメダル；お金や賞として使われる丸い金属の板",
+    "km": "កាក់ ឬមេដាយ; ដុំលោហៈមូលប្រើជាប្រាក់ ឬជារង្វាន់",
+    "ko": "동전 또는 메달; 돈이나 상으로 사용되는 둥근 금속 조각",
+    "ne": "सिक्का वा पदक; पैसा वा पुरस्कारको रूपमा प्रयोग हुने गोलाकार धातुको टुक्रा",
+    "pt": "Moeda ou medalha; peça redonda de metal usada como dinheiro ou prêmio",
+    "th": "เหรียญ; แผ่นโลหะกลมที่ใช้เป็นเงินหรือรางวัล",
+    "tl": "Barya o medalya; isang bilog na piraso ng metal na ginagamit bilang pera o gantimpala",
+    "ur": "سکہ یا تمغہ؛ دھات کا گول ٹکڑا جو پیسے یا انعام کے طور پر استعمال ہوتا ہے",
+    "vi": "Đồng xu hoặc huy chương; miếng kim loại tròn dùng làm tiền hoặc phần thưởng",
+    "zh": "硬币或奖章；用作货币或奖励的圆形金属片",
+    "zh_Hant": "硬幣或獎章；用作貨幣或獎勵的圓形金屬片"
+  },
+  "definition_en": "Coin or medal; a round flat piece of metal used as money or as an award",
+  "romanization": "liːən²",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຫາຫຼຽນໃນກະເປົ໋າບໍ່ເຈີ",
+      "romanization": "khɔ̄ːj hǎː liːən nai kapǎo bɔ̄ː tɕəː",
+      "translation_en": "I can't find a coin in my pocket."
+    },
+    {
+      "lao_script": "ນັກກິລາໄດ້ຮັບຫຼຽນທອງ",
+      "romanization": "nak kilaː dâj háp liːən tʰɔːŋ",
+      "translation_en": "The athlete received a gold medal."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a shiny gold medal with a ribbon, and a few silver coins beside it, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສຸກ",
+  "definitions": {
+    "de": "Reif (von Früchten), gar (von Speisen); auch: Freitag",
+    "en": "Ripe (of fruit), cooked/done (of food); also means Friday",
+    "es": "Maduro (de frutas), cocido/listo (de comida); también significa viernes",
+    "fr": "Mûr (pour les fruits), cuit/prêt (pour la nourriture); signifie aussi vendredi",
+    "hi": "पका हुआ (फल के लिए), पकाया हुआ/तैयार (खाने के लिए); शुक्रवार भी",
+    "ja": "熟れた（果物）、火が通った/できあがった（食べ物）；金曜日の意味もある",
+    "km": "ទុំ (សម្រាប់ផ្លែឈើ),익은/ចម្អិនរួច (សម្រាប់អាហារ); ក៏មានន័យថា ថ្ងៃសុក្រ",
+    "ko": "익은 (과일), 익힌/다 된 (음식); 금요일이라는 뜻도 있음",
+    "ne": "पाकेको (फलफूलको लागि), पकाइएको/तयार (खानाको लागि); शुक्रबार पनि",
+    "pt": "Maduro (de frutas), cozido/pronto (de comida); também significa sexta-feira",
+    "th": "สุก (ของผลไม้), สุก/พร้อม (ของอาหาร); ยังหมายถึงวันศุกร์ด้วย",
+    "tl": "Hinog (para sa prutas), luto/tapos na (para sa pagkain); nangangahulugang Biyernes din",
+    "ur": "پکا ہوا (پھل کے لیے)، پکایا ہوا/تیار (کھانے کے لیے)؛ جمعہ کا دن بھی",
+    "vi": "Chín (đối với quả), chín/sẵn sàng (đối với thức ăn); cũng có nghĩa là thứ Sáu",
+    "zh": "成熟的（水果），熟的/做好的（食物）；也指星期五",
+    "zh_Hant": "成熟的（水果），熟的/做好的（食物）；也指星期五"
+  },
+  "definition_en": "Ripe (of fruit), cooked/done (of food); also means Friday",
+  "romanization": "/súk/",
+  "lao_examples": [
+    {
+      "lao_script": "ໝາກໂມນີ້ສຸກແລ້ວ ກິນໄດ້ເລີຍ",
+      "romanization": "mak mo ni suk laew, kin dai loei",
+      "translation_en": "This watermelon is already ripe, you can eat it right away."
+    },
+    {
+      "lao_script": "ມື້ສຸກນີ້ເຈົ້າຫວ່າງບໍ່",
+      "romanization": "mue suk ni, jao wang bo",
+      "translation_en": "Are you free this Friday?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a ripe, bright red watermelon cut in half showing juicy red flesh, alongside a small calendar icon showing Friday, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,405 @@
+{
+  "ປັດຈຸບັນ": {
+    "definitions": {
+      "de": "Gegenwart; der aktuelle Moment oder die heutige Zeit",
+      "en": "Present; the current time or moment; nowadays",
+      "es": "Presente; el momento o tiempo actual; actualmente",
+      "fr": "Présent; le moment ou la période actuelle; de nos jours",
+      "hi": "वर्तमान; अभी का समय या क्षण; आजकल",
+      "ja": "現在；今の時間や時点；現代",
+      "km": "បច្ចុប្បន្ន; ពេលវេលាឬមោមេនបច្ចុប្បន្ន; សព្វថ្ងៃ",
+      "ko": "현재; 지금 이 순간 또는 현재의 시간; 요즘",
+      "ne": "वर्तमान; हालको समय वा क्षण; आजकाल",
+      "pt": "Presente; o momento ou tempo atual; atualmente; hoje em dia",
+      "th": "ปัจจุบัน; เวลาหรือช่วงเวลาปัจจุบัน; ในปัจจุบัน",
+      "tl": "Kasalukuyan; ang kasalukuyang panahon o sandali; ngayon",
+      "ur": "حال؛ موجودہ وقت یا لمحہ؛ آج کل",
+      "vi": "Hiện tại; thời điểm hoặc thời gian hiện tại; ngày nay",
+      "zh": "现在；当前时刻或时期；如今",
+      "zh_Hant": "現在；當前時刻或時期；如今"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pát.tɕu.bán/",
+    "examples": [
+      {
+        "lao_script": "ປັດຈຸບັນນີ້ ຂ້ອຍກຳລັງຮຽນພາສາລາວຢູ່",
+        "romanization": "pat-tchu-ban nii, khoi gam-lang hian pha-sa lao yu",
+        "translations": {
+          "de": "Im Moment lerne ich gerade Laotisch.",
+          "en": "Right now, I'm currently studying Lao.",
+          "es": "En este momento, estoy estudiando lao.",
+          "fr": "En ce moment, je suis en train d'apprendre le laotien.",
+          "hi": "अभी, मैं लाओ भाषा सीख रहा हूँ।",
+          "ja": "今、私はラオス語を勉強しているところです。",
+          "km": "ពេលនេះ ខ្ញុំកំពុងរៀនភាសាឡាវ។",
+          "ko": "지금 저는 라오어를 공부하고 있어요.",
+          "ne": "हाल, म लाओ भाषा पढिरहेको छु।",
+          "pt": "Agora, estou estudando laosiano.",
+          "th": "ตอนนี้ ฉันกำลังเรียนภาษาลาวอยู่",
+          "tl": "Sa kasalukuyan, nag-aaral ako ng wikang Lao.",
+          "ur": "ابھی، میں لاؤ زبان سیکھ رہا ہوں۔",
+          "vi": "Hiện tại, tôi đang học tiếng Lào.",
+          "zh": "现在，我正在学习老挝语。",
+          "zh_Hant": "現在，我正在學習老撾語。"
+        },
+        "out_of_scope_words": [
+          "ກຳລັງ",
+          "ຮຽນ",
+          "ພາສາ"
+        ]
+      },
+      {
+        "lao_script": "ໃນປັດຈຸບັນ ຄົນສ່ວນຫຼາຍໃຊ້ໂທລະສັບໝົດ",
+        "romanization": "nai pat-tchu-ban, khon suan lak sai tho-la-sap mot",
+        "translations": {
+          "de": "Heutzutage benutzen die meisten Menschen ständig ihr Handy.",
+          "en": "Nowadays, most people use their phones all the time.",
+          "es": "Hoy en día, la mayoría de la gente usa su teléfono todo el tiempo.",
+          "fr": "De nos jours, la plupart des gens utilisent leur téléphone tout le temps.",
+          "hi": "आजकल, ज़्यादातर लोग अपना फोन हर समय इस्तेमाल करते हैं।",
+          "ja": "現代では、ほとんどの人がずっとスマホを使っています。",
+          "km": "បច្ចុប្បន្ននេះ មនុស្សភាគច្រើនប្រើទូរស័ព្ទពេញមួយថ្ងៃ។",
+          "ko": "요즘에는 대부분의 사람들이 항상 휴대폰을 사용해요.",
+          "ne": "आजकाल, धेरैजसो मानिसहरू सधैँ फोन प्रयोग गर्छन्।",
+          "pt": "Hoje em dia, a maioria das pessoas usa o celular o tempo todo.",
+          "th": "ในปัจจุบัน คนส่วนใหญ่ใช้โทรศัพท์ตลอดเวลา",
+          "tl": "Sa kasalukuyan, karamihan sa mga tao ay gumagamit ng telepono sa lahat ng oras.",
+          "ur": "آج کل، زیادہ تر لوگ ہر وقت فون استعمال کرتے ہیں۔",
+          "vi": "Ngày nay, hầu hết mọi người dùng điện thoại suốt ngày.",
+          "zh": "如今，大多数人整天都在用手机。",
+          "zh_Hant": "如今，大多數人整天都在用手機。"
+        },
+        "out_of_scope_words": [
+          "ສ່ວນຫຼາຍ",
+          "ໂທລະສັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a calendar with 'today' highlighted and a clock showing the current time, representing the concept of 'the present moment', clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປາກ": {
+    "definitions": {
+      "de": "Mund; die Körperöffnung zum Essen, Trinken und Sprechen",
+      "en": "Mouth; the opening in the face used for eating, drinking, and speaking",
+      "es": "Boca; la apertura en el rostro usada para comer, beber y hablar",
+      "fr": "Bouche; l'ouverture du visage utilisée pour manger, boire et parler",
+      "hi": "मुँह; चेहरे का वह हिस्सा जो खाने, पीने और बोलने के लिए उपयोग होता है",
+      "ja": "口；食べたり、飲んだり、話したりするための顔の開口部",
+      "km": "មាត់; ช่องเปิดบนใบหน้าสำหรับกิน ดื่ม และพูด",
+      "ko": "입; 먹고 마시고 말하는 데 사용되는 얼굴의 구멍",
+      "ne": "मुख; अनुहारको त्यो भाग जुन खाने, पिउने र बोल्नका लागि प्रयोग हुन्छ",
+      "pt": "Boca; a abertura no rosto usada para comer, beber e falar",
+      "th": "ปาก; ช่องเปิดบนใบหน้าที่ใช้สำหรับกิน ดื่ม และพูด",
+      "tl": "Bibig; ang bukas na bahagi ng mukha na ginagamit para kumain, uminom, at magsalita",
+      "ur": "منہ؛ چہرے کا وہ حصہ جو کھانے، پینے اور بولنے کے لیے استعمال ہوتا ہے",
+      "vi": "Miệng; phần mở trên khuôn mặt dùng để ăn, uống và nói chuyện",
+      "zh": "嘴；脸上用于进食、饮水和说话的开口",
+      "zh_Hant": "嘴；臉上用於進食、飲水和說話的開口"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/páːk/",
+    "examples": [
+      {
+        "lao_script": "ເຈັບປາກຫຼາຍ ກິນເຂົ້າບໍ່ໄດ້ເລີຍ",
+        "romanization": "jep pak lai, gin khao bo dai loei",
+        "translations": {
+          "de": "Mein Mund tut sehr weh, ich kann überhaupt nichts essen.",
+          "en": "My mouth hurts a lot, I can't eat anything at all.",
+          "es": "Me duele mucho la boca, no puedo comer nada.",
+          "fr": "J'ai très mal à la bouche, je ne peux rien manger du tout.",
+          "hi": "मुँह बहुत दर्द कर रहा है, कुछ भी नहीं खा सकता।",
+          "ja": "口がとても痛くて、全然ご飯が食べられない。",
+          "km": "ឈឺមាត់ណាស់ ញ៉ាំបាយមិនបានសោះ។",
+          "ko": "입이 너무 아파서 밥을 전혀 못 먹겠어요.",
+          "ne": "मुख धेरै दुखेको छ, खाना खान सकिँदैन।",
+          "pt": "Minha boca está doendo muito, não consigo comer nada.",
+          "th": "เจ็บปากมาก กินข้าวไม่ได้เลย",
+          "tl": "Sobrang sakit ng bibig ko, hindi ako makakain ng kahit ano.",
+          "ur": "منہ بہت درد کر رہا ہے، کچھ بھی کھا نہیں سکتا۔",
+          "vi": "Đau miệng lắm, không ăn được gì cả.",
+          "zh": "嘴巴好痛，根本吃不下东西。",
+          "zh_Hant": "嘴巴好痛，根本吃不下東西。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບ",
+          "ກິນ",
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ອ້າປາກກ້ວາງໆໄວ້ ໝໍຈະກວດໃຫ້",
+        "romanization": "a pak kwang-kwang wai, mo ja kuat hai",
+        "translations": {
+          "de": "Mund weit aufmachen, der Arzt wird es untersuchen.",
+          "en": "Open your mouth wide, the doctor is going to examine it.",
+          "es": "Abre la boca bien grande, el doctor te va a examinar.",
+          "fr": "Ouvre bien grand la bouche, le médecin va t'examiner.",
+          "hi": "मुँह चौड़ा खोलो, डॉक्टर जाँच करेंगे।",
+          "ja": "口を大きく開けて、お医者さんが診てくれるから。",
+          "km": "ហាមាត់ធំៗ ទុកឲ្យគ្រូពេទ្យពិនិត្យឱ្យ។",
+          "ko": "입을 크게 벌려요, 의사 선생님이 진찰해 줄 거예요.",
+          "ne": "मुख चौडा खोल, डाक्टरले जाँच गरिदिन्छन्।",
+          "pt": "Abra bem a boca, o médico vai examinar.",
+          "th": "อ้าปากกว้างๆ ไว้ หมอจะตรวจให้",
+          "tl": "Ibuka ng malawak ang bibig, susuriin ka ng doktor.",
+          "ur": "منہ خوب کھولو، ڈاکٹر چیک کریں گے۔",
+          "vi": "Há miệng to ra, bác sĩ sẽ khám cho.",
+          "zh": "把嘴巴张大一点，医生要给你检查。",
+          "zh_Hant": "把嘴巴張大一點，醫生要給你檢查。"
+        },
+        "out_of_scope_words": [
+          "ໝໍ",
+          "ກວດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a human face with the mouth clearly highlighted and labeled, showing lips and teeth in a friendly open smile, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພັດທະນາ": {
+    "definitions": {
+      "de": "Entwickeln; etwas verbessern oder ausbauen; Fortschritt machen",
+      "en": "To develop; to improve or advance something; to make progress",
+      "es": "Desarrollar; mejorar o avanzar algo; progresar",
+      "fr": "Développer; améliorer ou faire progresser quelque chose; progresser",
+      "hi": "विकास करना; किसी चीज़ को सुधारना या आगे बढ़ाना; प्रगति करना",
+      "ja": "発展させる；何かを改善または進歩させる；発達する",
+      "km": "អភិវឌ្ឍ; កែលម្អ ឬផ្លាស់ប្តូររឿងអ្វីមួយ; ធ្វើឱ្យប្រសើរឡើង",
+      "ko": "발전시키다; 무언가를 개선하거나 향상시키다; 진보하다",
+      "ne": "विकास गर्नु; केही सुधार्नु वा अगाडि बढाउनु; प्रगति गर्नु",
+      "pt": "Desenvolver; melhorar ou avançar algo; progredir",
+      "th": "พัฒนา; ปรับปรุงหรือส่งเสริมบางสิ่ง; ก้าวหน้า",
+      "tl": "Paunlarin; pagbutihin o isulong ang isang bagay; umunlad",
+      "ur": "ترقی کرنا؛ کسی چیز کو بہتر بنانا یا آگے بڑھانا",
+      "vi": "Phát triển; cải thiện hoặc thúc đẩy điều gì đó; tiến bộ",
+      "zh": "发展；改善或推动某事；取得进步",
+      "zh_Hant": "發展；改善或推動某事；取得進步"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pʰát.tʰa.náː/",
+    "examples": [
+      {
+        "lao_script": "ລາວຢາກພັດທະນາຕົນເອງໃຫ້ດີຂຶ້ນທຸກວັນ",
+        "romanization": "lao yak phat-tha-na ton-eng hai di khun thuk wan",
+        "translations": {
+          "de": "Er/Sie möchte sich jeden Tag verbessern und weiterentwickeln.",
+          "en": "He/She wants to develop themselves and get better every day.",
+          "es": "Él/Ella quiere desarrollarse y mejorar cada día.",
+          "fr": "Il/Elle veut se développer et s'améliorer chaque jour.",
+          "hi": "वह हर दिन खुद को बेहतर बनाना और विकसित करना चाहता/चाहती है।",
+          "ja": "彼/彼女は毎日自分自身を高め、成長したいと思っています。",
+          "km": "គាត់ចង់អភិវឌ្ឍខ្លួនឯងឱ្យកាន់តែល្អប្រសើរជារៀងរាល់ថ្ងៃ។",
+          "ko": "그/그녀는 매일 스스로 발전하고 더 나아지길 원해요.",
+          "ne": "उनी हरेक दिन आफूलाई विकास गरेर राम्रो बन्न चाहन्छन्।",
+          "pt": "Ele/Ela quer se desenvolver e melhorar a cada dia.",
+          "th": "เขา/เธออยากพัฒนาตัวเองให้ดีขึ้นทุกวัน",
+          "tl": "Gusto niyang paunlarin ang kanyang sarili at maging mas mahusay araw-araw.",
+          "ur": "وہ ہر روز خود کو بہتر بنانا اور ترقی کرنا چاہتا/چاہتی ہے۔",
+          "vi": "Anh/Cô ấy muốn phát triển bản thân và trở nên tốt hơn mỗi ngày.",
+          "zh": "他/她想每天提升自己，变得更好。",
+          "zh_Hant": "他/她想每天提升自己，變得更好。"
+        },
+        "out_of_scope_words": [
+          "ຕົນເອງ",
+          "ທຸກວັນ"
+        ]
+      },
+      {
+        "lao_script": "ບ້ານເຮົາພັດທະນາໄວຫຼາຍໃນຊ່ວງ 10 ປີມານີ້",
+        "romanization": "ban hao phat-tha-na wai lai nai suang sip pi ma ni",
+        "translations": {
+          "de": "Unser Dorf hat sich in den letzten 10 Jahren sehr schnell entwickelt.",
+          "en": "Our village has developed very quickly in the past 10 years.",
+          "es": "Nuestro pueblo se ha desarrollado muy rápido en los últimos 10 años.",
+          "fr": "Notre village s'est développé très rapidement ces 10 dernières années.",
+          "hi": "हमारा गाँव पिछले 10 सालों में बहुत तेज़ी से विकसित हुआ है।",
+          "ja": "私たちの村はここ10年でとても速く発展しました。",
+          "km": "ភូមិរបស់យើងបានអភិវឌ្ឍយ៉ាងលឿននៅក្នុងរយៈពេល ១០ ឆ្នាំចុងក្រោយនេះ។",
+          "ko": "우리 마을은 지난 10년 동안 매우 빠르게 발전했어요.",
+          "ne": "हाम्रो गाउँ पछिल्लो १० वर्षमा धेरै छिट्टै विकास भएको छ।",
+          "pt": "Nossa aldeia se desenvolveu muito rapidamente nos últimos 10 anos.",
+          "th": "บ้านเราพัฒนาเร็วมากในช่วง 10 ปีที่ผ่านมา",
+          "tl": "Ang aming nayon ay mabilis na umunlad sa nakalipas na 10 taon.",
+          "ur": "ہمارا گاؤں پچھلے 10 سالوں میں بہت تیزی سے ترقی کر چکا ہے۔",
+          "vi": "Làng chúng tôi đã phát triển rất nhanh trong 10 năm qua.",
+          "zh": "我们村庄在过去10年里发展得非常快。",
+          "zh_Hant": "我們村莊在過去10年裡發展得非常快。"
+        },
+        "out_of_scope_words": [
+          "ບ້ານ",
+          "ໄວ",
+          "ຊ່ວງ",
+          "ປີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a upward-trending growth arrow over a small village transforming into a modern town with trees and buildings, representing the concept of 'development and progress', clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຕືອນ": {
+    "definitions": {
+      "de": "Warnen; jemanden auf eine Gefahr oder etwas Wichtiges hinweisen; erinnern",
+      "en": "To warn; to alert someone about a danger or something important; to remind",
+      "es": "Advertir; alertar a alguien sobre un peligro o algo importante; recordar",
+      "fr": "Avertir; alerter quelqu'un d'un danger ou de quelque chose d'important; rappeler",
+      "hi": "चेतावनी देना; किसी को किसी खतरे या महत्वपूर्ण बात के बारे में सावधान करना; याद दिलाना",
+      "ja": "警告する；危険や重要なことについて誰かに注意を促す；思い出させる",
+      "km": "ព្រមាន; ប្រាប់ឱ្យដឹងអំពីគ្រោះថ្នាក់ ឬរឿងសំខាន់; រំលឹក",
+      "ko": "경고하다; 위험이나 중요한 것에 대해 누군가에게 알리다; 상기시키다",
+      "ne": "चेतावनी दिनु; कसैलाई खतरा वा महत्वपूर्ण कुराबारे सचेत गराउनु; सम्झाउनु",
+      "pt": "Avisar; alertar alguém sobre um perigo ou algo importante; lembrar",
+      "th": "เตือน; แจ้งให้ใครทราบเกี่ยวกับอันตรายหรือสิ่งสำคัญ; เตือนความจำ",
+      "tl": "Magbabala; alertuhan ang isang tao tungkol sa panganib o isang mahalagang bagay; magpaalala",
+      "ur": "خبردار کرنا؛ کسی کو خطرے یا کسی اہم بات سے آگاہ کرنا؛ یاد دلانا",
+      "vi": "Cảnh báo; thông báo cho ai đó về nguy hiểm hoặc điều quan trọng; nhắc nhở",
+      "zh": "警告；提醒某人注意危险或重要的事情；提醒",
+      "zh_Hant": "警告；提醒某人注意危險或重要的事情；提醒"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tɯ̀an/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ເຕືອນຂ້ອຍໃຫ້ລະວັງລົດທຸກຄັ້ງ",
+        "romanization": "mae tuean khoi hai la-wang lot thuk khan",
+        "translations": {
+          "de": "Meine Mutter mahnt mich jedes Mal, auf Autos zu achten.",
+          "en": "My mom warns me to be careful of cars every time.",
+          "es": "Mi mamá me advierte que tenga cuidado con los autos cada vez.",
+          "fr": "Ma mère m'avertit à chaque fois de faire attention aux voitures.",
+          "hi": "मेरी माँ मुझे हर बार गाड़ियों से सावधान रहने की चेतावनी देती है।",
+          "ja": "お母さんはいつも車に気をつけるよう注意してくれます。",
+          "km": "ម្តាយប្រាប់ខ្ញុំឱ្យប្រយ័ត្នរថយន្តរាល់ដង។",
+          "ko": "엄마는 매번 차 조심하라고 경고해요.",
+          "ne": "आमाले मलाई हरेक पटक गाडी सावधानीपूर्वक हेर्न चेतावनी दिनुहुन्छ।",
+          "pt": "Minha mãe me avisa para ter cuidado com os carros toda vez.",
+          "th": "แม่เตือนฉันให้ระวังรถทุกครั้ง",
+          "tl": "Lagi akong binabalaan ng nanay ko na mag-ingat sa mga sasakyan.",
+          "ur": "میری ماں مجھے ہر بار گاڑیوں سے خبردار رہنے کی تنبیہ کرتی ہیں۔",
+          "vi": "Mẹ luôn nhắc tôi phải cẩn thận với xe mỗi lần ra đường.",
+          "zh": "妈妈每次都警告我要小心汽车。",
+          "zh_Hant": "媽媽每次都警告我要小心汽車。"
+        },
+        "out_of_scope_words": [
+          "ລະວັງ",
+          "ລົດ",
+          "ທຸກຄັ້ງ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກເຕືອນເພື່ອນວ່າມື້ອື່ນມີສອບ",
+        "romanization": "khoi yak tuean phuean wa mue-un mi sop",
+        "translations": {
+          "de": "Ich möchte meinen Freund daran erinnern, dass morgen eine Prüfung ist.",
+          "en": "I want to remind my friend that there's an exam tomorrow.",
+          "es": "Quiero recordarle a mi amigo que mañana hay examen.",
+          "fr": "Je veux rappeler à mon ami qu'il y a un examen demain.",
+          "hi": "मैं अपने दोस्त को याद दिलाना चाहता हूँ कि कल परीक्षा है।",
+          "ja": "友達に明日試験があることを知らせてあげたいです。",
+          "km": "ខ្ញុំចង់រំលឹកមិត្តភក្ដិថាថ្ងៃស្អែកមានប្រឡង។",
+          "ko": "친구에게 내일 시험이 있다고 알려주고 싶어요.",
+          "ne": "मैले साथीलाई भोलि परीक्षा छ भनेर सम्झाउन चाहन्छु।",
+          "pt": "Quero lembrar ao meu amigo que amanhã tem prova.",
+          "th": "ฉันอยากเตือนเพื่อนว่าพรุ่งนี้มีสอบ",
+          "tl": "Gusto kong ipaalala sa kaibigan ko na bukas may pagsusulit.",
+          "ur": "میں اپنے دوست کو یاد دلانا چاہتا ہوں کہ کل امتحان ہے۔",
+          "vi": "Tôi muốn nhắc bạn rằng ngày mai có thi.",
+          "zh": "我想提醒朋友明天有考试。",
+          "zh_Hant": "我想提醒朋友明天有考試。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ມື້ອື່ນ",
+          "ສອບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person holding up one hand as a warning gesture while another person looks alert and attentive, with a small caution sign nearby, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເບື້ອງ": {
+    "definitions": {
+      "de": "Seite; Richtung; die Seite oder der Bereich in Bezug auf eine bestimmte Richtung",
+      "en": "Side; direction; a particular side or area in relation to a direction or reference point",
+      "es": "Lado; dirección; un lado o área particular en relación a una dirección o punto de referencia",
+      "fr": "Côté; direction; un côté ou une zone particulière par rapport à une direction ou un point de référence",
+      "hi": "तरफ; दिशा; किसी दिशा या संदर्भ बिंदु के संबंध में एक विशेष पक्ष या क्षेत्र",
+      "ja": "側；方向；ある方向や基準点に対する特定の側面や領域",
+      "km": "ខាង; ទិសដៅ; ផ្នែកឬតំបន់ជាក់លាក់ទាក់ទងនឹងទិសដៅ ឬចំណុចយោង",
+      "ko": "쪽; 방향; 특정 방향이나 기준점에 대한 특정 면이나 구역",
+      "ne": "तर्फ; दिशा; कुनै दिशा वा सन्दर्भ बिन्दुको सम्बन्धमा एक विशेष पक्ष वा क्षेत्र",
+      "pt": "Lado; direção; um lado ou área particular em relação a uma direção ou ponto de referência",
+      "th": "ด้าน; ทิศทาง; ด้านหรือพื้นที่เฉพาะที่เกี่ยวข้องกับทิศทางหรือจุดอ้างอิง",
+      "tl": "Panig; direksyon; isang partikular na gilid o lugar kaugnay ng isang direksyon o sangguniang punto",
+      "ur": "جانب؛ سمت؛ کسی سمت یا حوالہ نقطے کے سلسلے میں ایک خاص طرف یا علاقہ",
+      "vi": "Phía; hướng; một phía hoặc khu vực cụ thể liên quan đến một hướng hay điểm tham chiếu",
+      "zh": "方面；方向；相对于某个方向或参考点的特定一侧或区域",
+      "zh_Hant": "方面；方向；相對於某個方向或參考點的特定一側或區域"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/bɯ̂aŋ/",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານໄປສະດວກຢູ່ເບື້ອງຊ້າຍຂອງທະນາຄານ",
+        "romanization": "han pai-sa-duak yu bueang sai khong tha-na-khan",
+        "translations": {
+          "de": "Der Convenience Store befindet sich auf der linken Seite der Bank.",
+          "en": "The convenience store is on the left side of the bank.",
+          "es": "La tienda de conveniencia está al lado izquierdo del banco.",
+          "fr": "Le magasin de proximité est sur le côté gauche de la banque.",
+          "hi": "सुविधा स्टोर बैंक के बाईं तरफ है।",
+          "ja": "コンビニは銀行の左側にあります。",
+          "km": "ហាងស្ដួចស្ដើងនៅខាងឆ្វេងនៃធនាគារ។",
+          "ko": "편의점은 은행 왼쪽에 있어요.",
+          "ne": "सुविधा पसल बैंकको बाँया तर्फ छ।",
+          "pt": "O mercadinho fica no lado esquerdo do banco.",
+          "th": "ร้านสะดวกซื้ออยู่ด้านซ้ายของธนาคาร",
+          "tl": "Ang convenience store ay nasa kaliwang panig ng bangko.",
+          "ur": "کنوینینس اسٹور بینک کے بائیں جانب ہے۔",
+          "vi": "Cửa hàng tiện lợi ở phía bên trái của ngân hàng.",
+          "zh": "便利店在银行的左边。",
+          "zh_Hant": "便利店在銀行的左邊。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ",
+          "ໄປສະດວກ",
+          "ຊ້າຍ",
+          "ທະນາຄານ"
+        ]
+      },
+      {
+        "lao_script": "ນັ່ງເບື້ອງໃດກໍໄດ້ ບໍ່ຕ້ອງຖາມ",
+        "romanization": "nang bueang dai go dai, bo tong tham",
+        "translations": {
+          "de": "Sitz einfach auf welcher Seite du willst, du musst nicht fragen.",
+          "en": "Sit on whichever side you want, you don't need to ask.",
+          "es": "Siéntate en cualquier lado que quieras, no tienes que preguntar.",
+          "fr": "Assieds-toi du côté que tu veux, tu n'as pas besoin de demander.",
+          "hi": "जिस तरफ चाहो बैठो, पूछने की ज़रूरत नहीं।",
+          "ja": "どっちの側に座ってもいいよ、聞かなくていいから。",
+          "km": "អង្គុយខាងណាក៏បាន មិនចាំបាច់សួរទេ។",
+          "ko": "어느 쪽에든 앉아도 돼요, 물어볼 필요 없어요.",
+          "ne": "जुन तर्फ पनि बस, सोध्न पर्दैन।",
+          "pt": "Pode sentar em qualquer lado que quiser, não precisa perguntar.",
+          "th": "นั่งด้านไหนก็ได้ ไม่ต้องถาม",
+          "tl": "Maupo sa kahit anong panig, hindi mo kailangang magtanong.",
+          "ur": "جس طرف چاہو بیٹھو، پوچھنے کی ضرورت نہیں۔",
+          "vi": "Ngồi bên nào cũng được, không cần hỏi đâu.",
+          "zh": "随便坐哪边都行，不用问的。",
+          "zh_Hant": "隨便坐哪邊都行，不用問的。"
+        },
+        "out_of_scope_words": [
+          "ນັ່ງ",
+          "ຖາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a directional diagram showing left and right sides clearly labeled with arrows pointing in both directions from a central reference point, representing the concept of 'side or direction', clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

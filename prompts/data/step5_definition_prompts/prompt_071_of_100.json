@@ -1,0 +1,388 @@
+{
+  "ຫ້າມ": {
+    "definitions": {
+      "de": "verbieten; etwas untersagen oder nicht erlauben",
+      "en": "to forbid; to prohibit or not allow something",
+      "es": "prohibir; no permitir o vedar algo",
+      "fr": "interdire ; ne pas permettre quelque chose",
+      "hi": "मना करना; किसी चीज़ को प्रतिबंधित या अस्वीकृत करना",
+      "ja": "禁止する；何かを許可しない、禁ずる",
+      "km": "ហាមឃាត់; មិនអនុញ្ញាតឱ្យធ្វើអ្វីមួយ",
+      "ko": "금지하다; 무언가를 허락하지 않거나 금하다",
+      "ne": "निषेध गर्नु; कुनै कुरा नगर्न रोक लगाउनु",
+      "pt": "proibir; não permitir ou vedar algo",
+      "th": "ห้าม; ไม่อนุญาตหรือสั่งไม่ให้ทำสิ่งใดสิ่งหนึ่ง",
+      "tl": "ipagbawal; hindi pahintulutan o pagbawalan ang isang bagay",
+      "ur": "منع کرنا؛ کسی چیز کی اجازت نہ دینا یا روکنا",
+      "vi": "cấm; không cho phép hoặc ngăn cấm điều gì đó",
+      "zh": "禁止；不允许或制止某事",
+      "zh_Hant": "禁止；不允許或制止某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "hâam",
+    "examples": [
+      {
+        "lao_script": "ຢູ່ນີ້ຫ້າມສູບຢາເດີ້",
+        "romanization": "yuu nii hâam suup yaa dee",
+        "translations": {
+          "de": "Hier ist das Rauchen verboten, okay?",
+          "en": "Smoking is not allowed here, okay?",
+          "es": "Aquí está prohibido fumar, ¿de acuerdo?",
+          "fr": "Il est interdit de fumer ici, d'accord ?",
+          "hi": "यहाँ धूम्रपान मना है, ठीक है?",
+          "ja": "ここでは喫煙禁止だよ、わかった？",
+          "km": "នៅទីនេះហាមឃាត់ជក់បារី នឹងទេ?",
+          "ko": "여기서 담배 피우면 안 돼, 알겠지?",
+          "ne": "यहाँ सुर्ती खान निषेध छ, ठिक छ?",
+          "pt": "É proibido fumar aqui, tá bom?",
+          "th": "ที่นี่ห้ามสูบบุหรี่นะ",
+          "tl": "Ipinagbabawal ang paninigarilyo dito, ha?",
+          "ur": "یہاں سگریٹ پینا منع ہے، ٹھیک ہے؟",
+          "vi": "Ở đây cấm hút thuốc nha.",
+          "zh": "这里禁止抽烟，知道吗？",
+          "zh_Hant": "這裡禁止抽菸，知道嗎？"
+        },
+        "out_of_scope_words": [
+          "ສູບຢາ"
+        ]
+      },
+      {
+        "lao_script": "ແມ່ຫ້າມຂ້ອຍໄປຫຼິ້ນດຶກ",
+        "romanization": "mɛɛ hâam khɔ̂i pai lîn dʉk",
+        "translations": {
+          "de": "Meine Mutter verbietet mir, bis spät in der Nacht spielen zu gehen.",
+          "en": "My mom forbids me from going out to play late at night.",
+          "es": "Mi mamá me prohíbe ir a jugar hasta tarde en la noche.",
+          "fr": "Ma mère m'interdit d'aller jouer tard le soir.",
+          "hi": "मेरी माँ मुझे रात को देर तक खेलने जाने से मना करती है।",
+          "ja": "お母さんは私が夜遅くまで遊びに行くのを禁止している。",
+          "km": "ម្តាយហាមឃាត់ខ្ញុំមិនឱ្យទៅលេងយប់ជ្រៅ។",
+          "ko": "엄마가 나한테 밤늦게 놀러 가는 걸 금지했어.",
+          "ne": "आमाले मलाई राति ढिलो खेल्न जान मना गर्नुहुन्छ।",
+          "pt": "Minha mãe me proíbe de sair para brincar até tarde da noite.",
+          "th": "แม่ห้ามฉันไปเล่นดึก",
+          "tl": "Ipinagbabawal ng nanay ko na lumabas at maglaro nang magdamag.",
+          "ur": "میری ماں مجھے رات دیر تک کھیلنے جانے سے منع کرتی ہے۔",
+          "vi": "Mẹ tao cấm tao đi chơi về khuya.",
+          "zh": "我妈妈禁止我晚上出去玩到很晚。",
+          "zh_Hant": "我媽媽禁止我晚上出去玩到很晚。"
+        },
+        "out_of_scope_words": [
+          "ຫຼິ້ນດຶກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a red prohibition sign with a hand raised in a 'stop' gesture, with a cigarette crossed out beneath it, clean white background, bold colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໂທ": {
+    "definitions": {
+      "de": "anrufen; jemanden per Telefon kontaktieren",
+      "en": "to call; to contact someone by phone",
+      "es": "llamar; contactar a alguien por teléfono",
+      "fr": "appeler ; contacter quelqu'un par téléphone",
+      "hi": "फ़ोन करना; किसी को फ़ोन द्वारा संपर्क करना",
+      "ja": "電話する；電話で誰かに連絡する",
+      "km": "ហៅទូរស័ព្ទ; ទំនាក់ទំនងនរណាម្នាក់តាមទូរស័ព្ទ",
+      "ko": "전화하다; 전화로 누군가에게 연락하다",
+      "ne": "फोन गर्नु; कसैलाई फोनमार्फत सम्पर्क गर्नु",
+      "pt": "ligar; contatar alguém por telefone",
+      "th": "โทร; ติดต่อใครบางคนทางโทรศัพท์",
+      "tl": "tumawag; makipag-ugnayan sa isang tao sa pamamagitan ng telepono",
+      "ur": "فون کرنا؛ کسی کو فون کے ذریعے رابطہ کرنا",
+      "vi": "gọi điện; liên lạc với ai đó qua điện thoại",
+      "zh": "打电话；通过电话联系某人",
+      "zh_Hant": "打電話；透過電話聯繫某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "thoo",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໂທຫາຂ້ອຍໄດ້ເລີຍ",
+        "romanization": "jâo thoo haa khɔ̂i dâi ləəi",
+        "translations": {
+          "de": "Du kannst mich einfach anrufen.",
+          "en": "You can just call me anytime.",
+          "es": "Puedes llamarme cuando quieras.",
+          "fr": "Tu peux m'appeler quand tu veux.",
+          "hi": "तुम मुझे कभी भी फ़ोन कर सकते हो।",
+          "ja": "いつでも電話してくれていいよ。",
+          "km": "អ្នកអាចហៅទូរស័ព្ទមកខ្ញុំបានតែម្តង។",
+          "ko": "나한테 그냥 전화해도 돼.",
+          "ne": "तिमी मलाई कहिले पनि फोन गर्न सक्छौ।",
+          "pt": "Pode me ligar a qualquer hora.",
+          "th": "โทรหาฉันได้เลยนะ",
+          "tl": "Pwede mo akong tawagan kahit kailan.",
+          "ur": "تم مجھے کبھی بھی فون کر سکتے ہو۔",
+          "vi": "Cứ gọi cho tao bất cứ lúc nào cũng được.",
+          "zh": "你可以随时给我打电话。",
+          "zh_Hant": "你可以隨時給我打電話。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍໂທຫາເຈົ້າມາຕະຫຼອດແຕ່ບໍ່ຮັບ",
+        "romanization": "khɔ̂i thoo haa jâo maa talɔ̀ɔt tɛɛ bɔ̀ hap",
+        "translations": {
+          "de": "Ich habe dich die ganze Zeit angerufen, aber du hast nicht rangegangen.",
+          "en": "I kept calling you but you didn't pick up.",
+          "es": "Te estuve llamando todo el tiempo pero no contestaste.",
+          "fr": "Je t'ai appelé sans arrêt mais tu n'as pas répondu.",
+          "hi": "मैं तुम्हें लगातार फ़ोन करता रहा लेकिन तुमने उठाया नहीं।",
+          "ja": "ずっと電話してたのに出なかったじゃん。",
+          "km": "ខ្ញុំហៅទូរស័ព្ទទៅអ្នកជាច្រើនដងប៉ុន្តែអ្នកមិនទទួល។",
+          "ko": "계속 전화했는데 안 받았잖아.",
+          "ne": "मैले तिमीलाई सधैं फोन गरिरहें तर तिमीले उठाएनौ।",
+          "pt": "Fiquei te ligando o tempo todo, mas você não atendeu.",
+          "th": "ฉันโทรหาเธอตลอดเลยแต่ไม่รับ",
+          "tl": "Paulit-ulit kitang tinawagan pero hindi ka sumagot.",
+          "ur": "میں تمہیں بار بار فون کرتا رہا لیکن تم نے نہیں اٹھایا۔",
+          "vi": "Tao gọi cho mày mãi mà không thấy bắt máy.",
+          "zh": "我一直打电话给你，但你没接。",
+          "zh_Hant": "我一直打電話給你，但你沒接。"
+        },
+        "out_of_scope_words": [
+          "ມາຕະຫຼອດ",
+          "ຮັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person holding a smartphone to their ear and smiling while making a phone call, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃກ້": {
+    "definitions": {
+      "de": "nah; in geringer Entfernung oder kurz bevorstehend",
+      "en": "near; close in distance or time",
+      "es": "cerca; a poca distancia o próximo en el tiempo",
+      "fr": "près ; à faible distance ou proche dans le temps",
+      "hi": "पास; दूरी या समय में करीब",
+      "ja": "近い；距離や時間が短い",
+      "km": "ជិត; នៅចម្ងាយដែលមិនឆ្ងាយ ឬនៅពេលខាងមុខ",
+      "ko": "가깝다; 거리나 시간이 짧다",
+      "ne": "नजिक; दूरी वा समयमा नजिकको",
+      "pt": "perto; próximo em distância ou tempo",
+      "th": "ใกล้; อยู่ในระยะทางหรือเวลาที่ไม่ไกล",
+      "tl": "malapit; hindi malayo sa distansya o panahon",
+      "ur": "قریب؛ فاصلے یا وقت میں نزدیک",
+      "vi": "gần; ở khoảng cách hoặc thời gian không xa",
+      "zh": "近；距离或时间上不远",
+      "zh_Hant": "近；距離或時間上不遠"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "kâi",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານອາຫານຢູ່ໃກ້ໆນີ້ແລ້ວ",
+        "romanization": "hâan aahǎan yuu kâi kâi nii lɛ́ɛo",
+        "translations": {
+          "de": "Das Restaurant ist ganz in der Nähe.",
+          "en": "The restaurant is right nearby.",
+          "es": "El restaurante está muy cerca de aquí.",
+          "fr": "Le restaurant est tout près d'ici.",
+          "hi": "रेस्तराँ यहाँ बिल्कुल पास में ही है।",
+          "ja": "レストランはもうすぐそこだよ。",
+          "km": "ភោជនីយដ្ឋាននៅជិតៗទីនេះហើយ។",
+          "ko": "식당이 바로 근처에 있어.",
+          "ne": "रेस्टुरेन्ट यहीँ नजिकै छ।",
+          "pt": "O restaurante fica bem pertinho daqui.",
+          "th": "ร้านอาหารอยู่ใกล้ๆ นี้เลย",
+          "tl": "Malapit lang ang restaurant dito.",
+          "ur": "ریستوران یہاں بالکل قریب ہے۔",
+          "vi": "Nhà hàng ở gần đây thôi.",
+          "zh": "餐厅就在附近。",
+          "zh_Hant": "餐廳就在附近。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານອາຫານ"
+        ]
+      },
+      {
+        "lao_script": "ເຮືອນຂອງຂ້ອຍຢູ່ໃກ້ໂຮງຮຽນຫຼາຍ",
+        "romanization": "hʉan khɔ̌ɔng khɔ̂i yuu kâi hóong hian lǎai",
+        "translations": {
+          "de": "Mein Haus ist sehr nah an der Schule.",
+          "en": "My house is very close to the school.",
+          "es": "Mi casa está muy cerca de la escuela.",
+          "fr": "Ma maison est très proche de l'école.",
+          "hi": "मेरा घर स्कूल के बहुत पास है।",
+          "ja": "私の家は学校にとても近い。",
+          "km": "ផ្ទះរបស់ខ្ញុំនៅជិតសាលារៀនណាស់។",
+          "ko": "우리 집이 학교에서 엄청 가까워.",
+          "ne": "मेरो घर स्कूलको धेरै नजिक छ।",
+          "pt": "Minha casa é bem pertinho da escola.",
+          "th": "บ้านฉันอยู่ใกล้โรงเรียนมาก",
+          "tl": "Ang bahay ko ay napakalapit sa paaralan.",
+          "ur": "میرا گھر اسکول کے بہت قریب ہے۔",
+          "vi": "Nhà tao ở rất gần trường học.",
+          "zh": "我家离学校很近。",
+          "zh_Hant": "我家離學校很近。"
+        },
+        "out_of_scope_words": [
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two houses side by side with a short distance between them, indicated by a small double-headed arrow labeled 'near', clean white background, bright cheerful colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກວມ": {
+    "definitions": {
+      "de": "abdecken; umfassen oder einen Anteil von etwas ausmachen",
+      "en": "to cover; to encompass or account for a portion of something",
+      "es": "cubrir; abarcar o representar una parte de algo",
+      "fr": "couvrir ; englober ou représenter une part de quelque chose",
+      "hi": "ढकना/शामिल करना; किसी चीज़ के एक हिस्से को कवर करना या उसमें शामिल होना",
+      "ja": "覆う；含む、または何かの一部を占める",
+      "km": "គ្របដណ្តប់; រួមបញ្ចូល ឬតំណាងឱ្យផ្នែកមួយនៃអ្វីមួយ",
+      "ko": "포함하다; 어떤 것의 일부를 차지하거나 포괄하다",
+      "ne": "ढाक्नु; कुनै चीजको भागलाई समेट्नु वा समावेश गर्नु",
+      "pt": "cobrir; abranger ou representar uma parte de algo",
+      "th": "ครอบคลุม; รวมถึงหรือคิดเป็นส่วนหนึ่งของสิ่งใดสิ่งหนึ่ง",
+      "tl": "saklawin; sumasaklaw o bumubuo ng isang bahagi ng isang bagay",
+      "ur": "ڈھکنا/شامل کرنا؛ کسی چیز کے ایک حصے کو شامل کرنا یا احاطہ کرنا",
+      "vi": "bao gồm; chiếm một phần hoặc bao quát điều gì đó",
+      "zh": "涵盖；包含或占某事物的一部分",
+      "zh_Hant": "涵蓋；包含或佔某事物的一部分"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kuam",
+    "examples": [
+      {
+        "lao_script": "ລາຄານີ້ກວມທຸກຢ່າງແລ້ວ",
+        "romanization": "laakhaa nii kuam thuk yàang lɛ́ɛo",
+        "translations": {
+          "de": "Dieser Preis deckt bereits alles ab.",
+          "en": "This price already covers everything.",
+          "es": "Este precio ya cubre todo.",
+          "fr": "Ce prix couvre déjà tout.",
+          "hi": "यह कीमत पहले से ही सब कुछ शामिल है।",
+          "ja": "この値段で全部含まれてるよ。",
+          "km": "តម្លៃនេះគ្របដណ្តប់ទាំងអស់ហើយ។",
+          "ko": "이 가격이면 이미 다 포함돼 있어.",
+          "ne": "यो मूल्यमा सबै कुरा समावेश छ।",
+          "pt": "Esse preço já cobre tudo.",
+          "th": "ราคานี้ครอบคลุมทุกอย่างแล้ว",
+          "tl": "Sinasaklaw na ng presyong ito ang lahat.",
+          "ur": "یہ قیمت پہلے سے سب کچھ شامل ہے۔",
+          "vi": "Giá này đã bao gồm tất cả rồi.",
+          "zh": "这个价格已经涵盖所有东西了。",
+          "zh_Hant": "這個價格已經涵蓋所有東西了。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ທຸກຢ່າງ"
+        ]
+      },
+      {
+        "lao_script": "ຄ່າຮຽນກວມເຖິງປຶ້ມແລ້ວບໍ",
+        "romanization": "khâa hian kuam thʉ̌ng pʉ̂m lɛ́ɛo bɔ̀",
+        "translations": {
+          "de": "Ist das Schulgeld schon mit den Büchern abgedeckt?",
+          "en": "Does the tuition fee already cover the books?",
+          "es": "¿La matrícula ya cubre los libros?",
+          "fr": "Les frais de scolarité couvrent-ils déjà les livres ?",
+          "hi": "क्या ट्यूशन फीस में किताबें भी शामिल हैं?",
+          "ja": "授業料に教科書も含まれてる？",
+          "km": "តើថ្លៃសិក្សារួមបញ្ចូលសៀវភៅផងដែរទេ?",
+          "ko": "수업료에 책값도 포함돼 있어?",
+          "ne": "के पढाइ शुल्कमा किताब पनि समावेश छ?",
+          "pt": "A mensalidade já cobre os livros também?",
+          "th": "ค่าเรียนครอบคลุมถึงหนังสือด้วยไหม",
+          "tl": "Sinasaklaw na ba ng bayad sa pag-aaral ang mga libro?",
+          "ur": "کیا ٹیوشن فیس میں کتابیں بھی شامل ہیں؟",
+          "vi": "Học phí có bao gồm cả sách không?",
+          "zh": "学费已经包含书本费了吗？",
+          "zh_Hant": "學費已經包含書本費了嗎？"
+        },
+        "out_of_scope_words": [
+          "ຄ່າຮຽນ",
+          "ປຶ້ມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an umbrella covering several objects underneath it, symbolizing the concept of covering or encompassing, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ກາຍ": {
+    "definitions": {
+      "de": "werden; sich verändern oder sich in einen anderen Zustand verwandeln; auch: vergehen oder vorbeigehen",
+      "en": "to become; to change into a different state; also to pass or go beyond",
+      "es": "llegar a ser; cambiar a un estado diferente; también pasar o ir más allá",
+      "fr": "devenir ; changer d'état ; aussi passer ou dépasser",
+      "hi": "बनना; किसी अलग अवस्था में बदलना; साथ ही गुज़र जाना या आगे बढ़ना",
+      "ja": "なる；別の状態に変わる；また、過ぎる・通り過ぎる",
+      "km": "ក្លាយជា; ផ្លាស់ប្តូរទៅជាស្ថានភាពមួយផ្សេង; ក៏មានន័យថា កន្លងផ្តាច់ ឬហួស",
+      "ko": "되다; 다른 상태로 변하다; 또는 지나가다, 넘어서다",
+      "ne": "बन्नु; अर्को अवस्थामा परिवर्तन हुनु; साथै गुज्रनु वा पार हुनु",
+      "pt": "tornar-se; mudar para um estado diferente; também passar ou ultrapassar",
+      "th": "กลายเป็น; เปลี่ยนไปสู่สภาพอื่น; หรือผ่านไป, เลยไป",
+      "tl": "maging; magbago sa ibang estado; pati na rin lumampas o lumipas",
+      "ur": "بننا؛ کسی مختلف حالت میں تبدیل ہونا؛ نیز گزرنا یا آگے بڑھنا",
+      "vi": "trở thành; thay đổi sang trạng thái khác; cũng có nghĩa là đi qua hoặc vượt qua",
+      "zh": "变成；变为另一种状态；也有经过、超过的意思",
+      "zh_Hant": "變成；變為另一種狀態；也有經過、超過的意思"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kaai",
+    "examples": [
+      {
+        "lao_script": "ເຂົາກາຍເປັນຄົນດັງແລ້ວ",
+        "romanization": "khǎo kaai pen khon dang lɛ́ɛo",
+        "translations": {
+          "de": "Er ist inzwischen berühmt geworden.",
+          "en": "He has already become famous.",
+          "es": "Ya se ha vuelto famoso.",
+          "fr": "Il est déjà devenu célèbre.",
+          "hi": "वह पहले से ही मशहूर हो गया है।",
+          "ja": "彼はもう有名になったよ。",
+          "km": "គាត់បានក្លាយជាមនុស្សល្បីល្បាញហើយ។",
+          "ko": "그는 이미 유명해졌어.",
+          "ne": "उ पहिले नै प्रसिद्ध भइसक्यो।",
+          "pt": "Ele já se tornou famoso.",
+          "th": "เขากลายเป็นคนดังแล้ว",
+          "tl": "Sikat na siya ngayon.",
+          "ur": "وہ پہلے سے مشہور ہو گیا ہے۔",
+          "vi": "Anh ấy đã trở nên nổi tiếng rồi.",
+          "zh": "他已经变成名人了。",
+          "zh_Hant": "他已經變成名人了。"
+        },
+        "out_of_scope_words": [
+          "ຄົນດັງ"
+        ]
+      },
+      {
+        "lao_script": "ເວລາກາຍໄປໄວຫຼາຍ",
+        "romanization": "wee-laa kaai pai wai lǎai",
+        "translations": {
+          "de": "Die Zeit vergeht sehr schnell.",
+          "en": "Time passes very quickly.",
+          "es": "El tiempo pasa muy rápido.",
+          "fr": "Le temps passe très vite.",
+          "hi": "समय बहुत तेज़ी से गुज़र जाता है।",
+          "ja": "時間が経つのはとても早い。",
+          "km": "ពេលវេលាកន្លងផ្តាច់លឿនណាស់។",
+          "ko": "시간이 정말 빨리 지나가.",
+          "ne": "समय धेरै छिट्टो गुज्रिन्छ।",
+          "pt": "O tempo passa muito rápido.",
+          "th": "เวลาผ่านไปเร็วมาก",
+          "tl": "Napakabilis lumipas ng oras.",
+          "ur": "وقت بہت تیزی سے گزر جاتا ہے۔",
+          "vi": "Thời gian trôi qua rất nhanh.",
+          "zh": "时间过得非常快。",
+          "zh_Hant": "時間過得非常快。"
+        },
+        "out_of_scope_words": [
+          "ເວລາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a caterpillar transforming into a butterfly, with an arrow showing the change, representing the concept of 'becoming', clean white background, soft bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

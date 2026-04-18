@@ -1,0 +1,382 @@
+{
+  "ໂອນ": {
+    "definitions": {
+      "de": "Geld überweisen oder übertragen",
+      "en": "To transfer (money or items) from one place or person to another",
+      "es": "Transferir (dinero u objetos) de un lugar o persona a otro",
+      "fr": "Transférer (de l'argent ou des objets) d'un endroit ou d'une personne à une autre",
+      "hi": "पैसे या वस्तुएँ एक जगह से दूसरी जगह भेजना या स्थानांतरित करना",
+      "ja": "お金や物を別の場所や人に移す・送金する",
+      "km": "ផ្ទេរ (ប្រាក់ ឬវត្ថុ) ពីទីកន្លែងមួយ ឬមនុស្សម្នាក់ទៅមួយទៀត",
+      "ko": "돈이나 물건을 한 곳이나 사람에서 다른 곳이나 사람에게 이체하다/송금하다",
+      "ne": "पैसा वा वस्तुहरू एउटा ठाउँ वा व्यक्तिबाट अर्कोमा हस्तान्तरण गर्नु",
+      "pt": "Transferir (dinheiro ou objetos) de um lugar ou pessoa para outro",
+      "th": "โอน (เงินหรือสิ่งของ) จากที่หนึ่งหรือคนหนึ่งไปยังอีกที่หนึ่งหรืออีกคนหนึ่ง",
+      "tl": "Mag-transfer ng (pera o bagay) mula sa isang lugar o tao patungo sa isa pa",
+      "ur": "پیسے یا اشیاء کو ایک جگہ یا شخص سے دوسری جگہ یا شخص کو منتقل کرنا",
+      "vi": "Chuyển (tiền hoặc đồ vật) từ nơi này hoặc người này sang nơi khác hoặc người khác",
+      "zh": "将（钱或物品）从一个地方或人转移到另一个地方或人",
+      "zh_Hant": "將（錢或物品）從一個地方或人轉移到另一個地方或人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔóːn/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໂອນເງິນໃຫ້ຂ້ອຍໄດ້ບໍ່?",
+        "romanization": "Jao ohn ngoen hai khoi dai bor?",
+        "translations": {
+          "de": "Kannst du mir Geld überweisen?",
+          "en": "Can you transfer money to me?",
+          "es": "¿Puedes transferirme dinero?",
+          "fr": "Tu peux me transférer de l'argent ?",
+          "hi": "क्या तुम मुझे पैसे ट्रांसफर कर सकते हो?",
+          "ja": "お金を振り込んでくれる？",
+          "km": "តើអ្នកអាចផ្ទេរប្រាក់ឱ្យខ្ញុំបានទេ?",
+          "ko": "나한테 돈 이체해 줄 수 있어?",
+          "ne": "के तिमी मलाई पैसा ट्रान्सफर गर्न सक्छौ?",
+          "pt": "Você consegue me transferir dinheiro?",
+          "th": "โอนเงินให้ฉันได้ไหม?",
+          "tl": "Kaya mo bang mag-transfer ng pera sa akin?",
+          "ur": "کیا تم مجھے پیسے ٹرانسفر کر سکتے ہو؟",
+          "vi": "Bạn có thể chuyển tiền cho tôi không?",
+          "zh": "你能给我转钱吗？",
+          "zh_Hant": "你能給我轉錢嗎？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍໂອນເງິນຜ່ານແອັບໄປແລ້ວ",
+        "romanization": "Khoi ohn ngoen phan aep pai laeo",
+        "translations": {
+          "de": "Ich habe das Geld bereits per App überwiesen.",
+          "en": "I already transferred the money through the app.",
+          "es": "Ya te transferí el dinero por la app.",
+          "fr": "J'ai déjà transféré l'argent via l'appli.",
+          "hi": "मैंने ऐप के ज़रिए पैसे ट्रांसफर कर दिए हैं।",
+          "ja": "もうアプリでお金を送金したよ。",
+          "km": "ខ្ញុំបានផ្ទេរប្រាក់តាមកម្មវិធីរួចហើយ។",
+          "ko": "앱으로 이미 돈 이체했어.",
+          "ne": "मैले एपबाट पैसा ट्रान्सफर गरिसकेँ।",
+          "pt": "Já transferi o dinheiro pelo aplicativo.",
+          "th": "โอนเงินผ่านแอปไปแล้ว",
+          "tl": "Na-transfer na namin ang pera sa pamamagitan ng app.",
+          "ur": "میں نے ایپ کے ذریعے پیسے ٹرانسفر کر دیے ہیں۔",
+          "vi": "Tôi đã chuyển tiền qua app rồi.",
+          "zh": "我已经通过应用程序转账了。",
+          "zh_Hant": "我已經透過應用程式轉帳了。"
+        },
+        "out_of_scope_words": [
+          "ແອັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smartphone screen showing a bank transfer or mobile payment app with an arrow moving money between two accounts, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄໝ້": {
+    "definitions": {
+      "de": "Brennen; etwas in Flammen aufgehen lassen oder verbrennen",
+      "en": "To burn; to be on fire or to set something on fire",
+      "es": "Quemar; estar en llamas o prender fuego a algo",
+      "fr": "Brûler ; être en feu ou mettre le feu à quelque chose",
+      "hi": "जलाना; आग लगाना या किसी चीज़ को जलाना",
+      "ja": "燃える・燃やす；火がつく、または火をつける",
+      "km": "ឆេះ; នៅក្នុងភ្លើង ឬដុតផ្លើង",
+      "ko": "불타다; 불이 붙거나 불을 지르다",
+      "ne": "जल्नु; आगो लाग्नु वा कुनै चिज जलाउनु",
+      "pt": "Queimar; pegar fogo ou incendiar algo",
+      "th": "ไหม้; ติดไฟหรือเผาสิ่งของ",
+      "tl": "Masunog; maging nasa apoy o sunugin ang isang bagay",
+      "ur": "جلنا؛ آگ لگنا یا کسی چیز کو آگ لگانا",
+      "vi": "Cháy; bốc lửa hoặc đốt cháy thứ gì đó",
+      "zh": "燃烧；着火或点燃某物",
+      "zh_Hant": "燃燒；著火或點燃某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/mâj/",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂ້າງໆໄໝ້ຄືນນີ້ເລີຍ",
+        "romanization": "Heuon khang khang mai kheun ni loei",
+        "translations": {
+          "de": "Das Nachbarhaus brannte heute Nacht.",
+          "en": "The house next door burned down last night.",
+          "es": "La casa de al lado se incendió anoche.",
+          "fr": "La maison d'à côté a brûlé cette nuit.",
+          "hi": "कल रात बगल वाला घर जल गया।",
+          "ja": "昨夜、隣の家が燃えてしまった。",
+          "km": "ផ្ទះនៅជិតៗឆេះនៅយប់នេះ។",
+          "ko": "옆집이 어젯밤에 불탔어.",
+          "ne": "छेउको घर हिजो रात जल्यो।",
+          "pt": "A casa do lado pegou fogo esta noite.",
+          "th": "บ้านข้างๆ ไหม้เมื่อคืนนี้เลย",
+          "tl": "Ang bahay sa tabi ay nasunog kagabi.",
+          "ur": "پڑوس کا گھر کل رات جل گیا۔",
+          "vi": "Nhà bên cạnh bị cháy tối qua.",
+          "zh": "隔壁的房子昨晚烧掉了。",
+          "zh_Hant": "隔壁的房子昨晚燒掉了。"
+        },
+        "out_of_scope_words": [
+          "ຄືນນີ້"
+        ]
+      },
+      {
+        "lao_script": "ລະວັງ! ອາຫານໄໝ້ຢູ່ແລ້ວ",
+        "romanization": "La wang! Ahan mai yu laeo",
+        "translations": {
+          "de": "Vorsicht! Das Essen verbrennt gerade!",
+          "en": "Careful! The food is burning!",
+          "es": "¡Cuidado! ¡La comida se está quemando!",
+          "fr": "Attention ! La nourriture est en train de brûler !",
+          "hi": "सावधान! खाना जल रहा है!",
+          "ja": "気をつけて！料理が燃えてる（焦げてる）！",
+          "km": "ប្រយ័ត្ន! អាហារកំពុងឆេះហើយ!",
+          "ko": "조심해! 음식 타고 있어!",
+          "ne": "सावधान! खाना जलिरहेको छ!",
+          "pt": "Cuidado! A comida está queimando!",
+          "th": "ระวัง! อาหารไหม้แล้ว!",
+          "tl": "Mag-ingat! Naisusunog na ang pagkain!",
+          "ur": "خبردار! کھانا جل رہا ہے!",
+          "vi": "Cẩn thận! Đồ ăn đang cháy rồi!",
+          "zh": "小心！食物快烧焦了！",
+          "zh_Hant": "小心！食物快燒焦了！"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small campfire or a piece of food burning on a pan with orange and red flames and smoke rising, clean white background, bright and colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໜໍ່": {
+    "definitions": {
+      "de": "Bambussprossen; junge, essbare Triebe der Bambus­pflanze, ein häufiges Zutat in der laotischen Küche",
+      "en": "Bamboo shoot; the young, edible sprout of a bamboo plant, commonly used in Lao cooking",
+      "es": "Brote de bambú; el tallo joven y comestible de la planta de bambú, muy usado en la cocina laosiana",
+      "fr": "Pousse de bambou ; la jeune pousse comestible du bambou, couramment utilisée dans la cuisine laotienne",
+      "hi": "बाँस की कोंपल; बाँस के पौधे की नई, खाने योग्य कोंपल, जो लाओस के खाने में बहुत उपयोग होती है",
+      "ja": "タケノコ；竹の若い食用の芽で、ラオス料理によく使われる",
+      "km": "ចំណុចបំណែកឫស្សី; ពន្លករឫស្សីវ័យក្មេងដែលអាចញ៉ាំបាន ប្រើច្រើននៅក្នុងម្ហូបឡាវ",
+      "ko": "죽순; 대나무의 어리고 식용 가능한 새싹으로, 라오스 요리에 자주 사용됨",
+      "ne": "बाँसको कोपिला; बाँस बिरुवाको जवान खान मिल्ने अंकुर, लाओसी खाना पकाउनमा सामान्यतः प्रयोग गरिन्छ",
+      "pt": "Broto de bambu; o broto jovem e comestível da planta de bambu, muito usado na culinária laosiana",
+      "th": "หน่อไม้; ยอดอ่อนที่กินได้ของต้นไผ่ ใช้บ่อยในการปรุงอาหารลาว",
+      "tl": "Usbong ng kawayan; ang batang, nakakain na usbong ng halaman ng kawayan, karaniwang ginagamit sa pagluluto ng Lao",
+      "ur": "بانس کی کونپل؛ بانس کے پودے کی نئی، کھانے کے قابل کونپل، جو لاؤسی کھانے میں عام طور پر استعمال ہوتی ہے",
+      "vi": "Măng; chồi non ăn được của cây tre, thường dùng trong ẩm thực Lào",
+      "zh": "竹笋；竹子的嫩芽，可食用，常用于老挝烹饪",
+      "zh_Hant": "竹筍；竹子的嫩芽，可食用，常用於寮國烹飪"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/nɔ̀ː/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຊື້ໜໍ່ມາຫຼາຍຫລາຍ",
+        "romanization": "Mae seu nor ma lai lai",
+        "translations": {
+          "de": "Mama hat eine Menge Bambussprossen gekauft.",
+          "en": "Mom bought a lot of bamboo shoots.",
+          "es": "Mamá compró muchos brotes de bambú.",
+          "fr": "Maman a acheté beaucoup de pousses de bambou.",
+          "hi": "माँ ने बहुत सारी बाँस की कोंपलें खरीदीं।",
+          "ja": "お母さんがたくさんたけのこを買ってきた。",
+          "km": "មាតាបានទិញចំណុចបំណែកឫស្សីច្រើន។",
+          "ko": "엄마가 죽순을 엄청 많이 사왔어.",
+          "ne": "आमाले धेरै बाँसका कोपिलाहरू किनिन्।",
+          "pt": "A mamãe comprou muitos brotos de bambu.",
+          "th": "แม่ซื้อหน่อไม้มาเยอะมาก",
+          "tl": "Maraming usbong ng kawayan ang binili ni Nanay.",
+          "ur": "امی نے بہت ساری بانس کی کونپلیں خریدیں۔",
+          "vi": "Mẹ mua nhiều măng lắm.",
+          "zh": "妈妈买了好多竹笋。",
+          "zh_Hant": "媽媽買了好多竹筍。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ແກງໜໍ່ຂອງເຈົ້າແຊບຫຼາຍ",
+        "romanization": "Gaeng nor khong jao saep lai",
+        "translations": {
+          "de": "Deine Bambussprosse-Suppe ist wirklich lecker.",
+          "en": "Your bamboo shoot soup is really delicious.",
+          "es": "Tu sopa de brotes de bambú está muy rica.",
+          "fr": "Ta soupe de pousses de bambou est vraiment délicieuse.",
+          "hi": "तुम्हारी बाँस की कोंपल की करी बहुत स्वादिष्ट है।",
+          "ja": "あなたのたけのこカレーはとても美味しい。",
+          "km": "ស្ងោរចំណុចបំណែកឫស្សីរបស់អ្នកឆ្ងាញ់ណាស់។",
+          "ko": "너의 죽순 국 정말 맛있어.",
+          "ne": "तिम्रो बाँसको कोपिलाको तरकारी धेरै मिठो छ।",
+          "pt": "O seu curry de broto de bambu é muito gostoso.",
+          "th": "แกงหน่อของเธออร่อยมาก",
+          "tl": "Masarap talaga ang iyong nilaga ng usbong ng kawayan.",
+          "ur": "تمہاری بانس کی کونپل کی سبزی بہت لذیذ ہے۔",
+          "vi": "Canh măng của bạn ngon lắm.",
+          "zh": "你做的竹笋汤真的很好吃。",
+          "zh_Hant": "你做的竹筍湯真的很好吃。"
+        },
+        "out_of_scope_words": [
+          "ແກງ",
+          "ແຊບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of fresh bamboo shoots, both whole and sliced, shown on a clean white background with a few green bamboo leaves nearby, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກັກ": {
+    "definitions": {
+      "de": "Einschließen, festhalten oder unter Quarantäne stellen; jemanden oder etwas an einem Ort festhalten",
+      "en": "To confine, detain, or quarantine; to restrict a person or animal to a specific place",
+      "es": "Confinar, detener o poner en cuarentena; restringir a una persona o animal a un lugar específico",
+      "fr": "Confiner, détenir ou mettre en quarantaine ; restreindre une personne ou un animal à un endroit précis",
+      "hi": "बंद करना, रोकना या क्वारंटाइन करना; किसी व्यक्ति या जानवर को एक निश्चित स्थान पर सीमित करना",
+      "ja": "閉じ込める・隔離する；人や動物を特定の場所に制限する",
+      "km": "ដាក់ឱ្យនៅឯកោ ឬដាក់ឱ្យនៅក្នុងបន្ទប់; ដាក់កម្រិតមនុស្ស ឬសត្វឱ្យនៅទីតាំងជាក់លាក់",
+      "ko": "가두다, 격리하다; 사람이나 동물을 특정 장소에 제한하다",
+      "ne": "थुन्नु, नजरबन्द राख्नु वा क्वारेन्टाइन गर्नु; कुनै व्यक्ति वा जनावरलाई निश्चित ठाउँमा सीमित गर्नु",
+      "pt": "Confinar, deter ou colocar em quarentena; restringir uma pessoa ou animal a um local específico",
+      "th": "กักขัง กักตัว หรือกักกัน; จำกัดบุคคลหรือสัตว์ให้อยู่ในสถานที่เฉพาะ",
+      "tl": "Ikukulong, ikulong, o mag-quarantine; paghigpitan ang isang tao o hayop sa isang partikular na lugar",
+      "ur": "قید کرنا، نظر بند کرنا یا قرنطینہ کرنا؛ کسی شخص یا جانور کو ایک مخصوص جگہ تک محدود کرنا",
+      "vi": "Giam giữ, cách ly hoặc kiểm dịch; hạn chế người hoặc động vật ở một nơi cụ thể",
+      "zh": "关押、拘留或隔离；将人或动物限制在某个特定地点",
+      "zh_Hant": "關押、拘留或隔離；將人或動物限制在某個特定地點"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kàk/",
+    "examples": [
+      {
+        "lao_script": "ຕອນໂຄວິດ ຂ້ອຍຖືກກັກຢູ່ບ້ານ 14 ວັນ",
+        "romanization": "Ton Khowit, khoi theuk kak yu ban sib si wan",
+        "translations": {
+          "de": "Während COVID musste ich 14 Tage zu Hause in Quarantäne.",
+          "en": "During COVID, I was confined at home for 14 days.",
+          "es": "Durante el COVID, estuve confinado en casa durante 14 días.",
+          "fr": "Pendant le COVID, j'ai été confiné chez moi pendant 14 jours.",
+          "hi": "कोविड के दौरान, मुझे 14 दिन घर में बंद रहना पड़ा।",
+          "ja": "コロナの時、14日間家に閉じ込められた。",
+          "km": "ក្នុងអំឡុងពេលកូវីដ ខ្ញុំត្រូវបានដាក់ឱ្យនៅក្នុងផ្ទះ 14 ថ្ងៃ។",
+          "ko": "코로나 때 나는 14일 동안 집에 격리됐어.",
+          "ne": "कोभिडको बेला म 14 दिन घरमा थुनिएको थिएँ।",
+          "pt": "Durante a COVID, fiquei confinado em casa por 14 dias.",
+          "th": "ตอนโควิด ฉันถูกกักตัวอยู่บ้าน 14 วัน",
+          "tl": "Noong COVID, nakukulong ako sa bahay nang 14 na araw.",
+          "ur": "کوویڈ کے دوران، میں 14 دنوں تک گھر میں بند رہا۔",
+          "vi": "Trong thời COVID, tôi bị cách ly ở nhà 14 ngày.",
+          "zh": "新冠期间，我被关在家里14天。",
+          "zh_Hant": "新冠期間，我被關在家裡14天。"
+        },
+        "out_of_scope_words": [
+          "ໂຄວິດ"
+        ]
+      },
+      {
+        "lao_script": "ຕຳຫຼວດກັກໂຈນໄວ້ທີ່ສະຖານີ",
+        "romanization": "Tam luad kak jone wai thi sa thani",
+        "translations": {
+          "de": "Die Polizei hat den Dieb auf dem Revier festgehalten.",
+          "en": "The police detained the thief at the station.",
+          "es": "La policía retuvo al ladrón en la comisaría.",
+          "fr": "La police a détenu le voleur au poste.",
+          "hi": "पुलिस ने चोर को थाने में बंद कर लिया।",
+          "ja": "警察が泥棒を警察署に拘留した。",
+          "km": "ប៉ូលិសបានឃុំខ្លួនចោរនៅការិយាល័យ។",
+          "ko": "경찰이 도둑을 경찰서에 억류했어.",
+          "ne": "पुलिसले चोरलाई थानामा थुनेको छ।",
+          "pt": "A polícia deteve o ladrão na delegacia.",
+          "th": "ตำรวจกักตัวโจรไว้ที่สถานี",
+          "tl": "Ikinulong ng pulis ang magnanakaw sa istasyon.",
+          "ur": "پولیس نے چور کو تھانے میں بند کر لیا۔",
+          "vi": "Cảnh sát giam tên trộm tại đồn.",
+          "zh": "警察在警察局扣押了小偷。",
+          "zh_Hant": "警察在警察局扣押了小偷。"
+        },
+        "out_of_scope_words": [
+          "ຕຳຫຼວດ",
+          "ໂຈນ",
+          "ສະຖານີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing inside a house with a quarantine symbol or a lock on the door, indicating confinement or quarantine, clean white background, minimalist and colorful style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ການເງິນ": {
+    "definitions": {
+      "de": "Finanzen; das Management von Geld, Einnahmen und Ausgaben",
+      "en": "Finance; the management of money, including income, expenses, and investments",
+      "es": "Finanzas; la gestión del dinero, incluyendo ingresos, gastos e inversiones",
+      "fr": "Finance ; la gestion de l'argent, y compris les revenus, les dépenses et les investissements",
+      "hi": "वित्त; पैसे का प्रबंधन, जिसमें आय, व्यय और निवेश शामिल हैं",
+      "ja": "財務・金融；収入、支出、投資などのお金の管理",
+      "km": "ហិរញ្ញវត្ថុ; ការគ្រប់គ្រងប្រាក់ រួមមាន ចំណូល ចំណាយ និងការវិនិយោគ",
+      "ko": "재정/금융; 수입, 지출, 투자를 포함한 돈의 관리",
+      "ne": "वित्त; आय, खर्च र लगानी सहित पैसाको व्यवस्थापन",
+      "pt": "Finanças; a gestão do dinheiro, incluindo receitas, despesas e investimentos",
+      "th": "การเงิน; การจัดการเงิน รวมถึงรายได้ รายจ่าย และการลงทุน",
+      "tl": "Pananalapi; ang pamamahala ng pera, kabilang ang kita, gastos, at pamumuhunan",
+      "ur": "مالیات؛ پیسے کا انتظام، بشمول آمدنی، اخراجات اور سرمایہ کاری",
+      "vi": "Tài chính; việc quản lý tiền bạc bao gồm thu nhập, chi tiêu và đầu tư",
+      "zh": "财务/金融；对金钱的管理，包括收入、支出和投资",
+      "zh_Hant": "財務/金融；對金錢的管理，包括收入、支出和投資"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kaːn.ŋɤːn/",
+    "examples": [
+      {
+        "lao_script": "ເຂົາເຮັດວຽກດ້ານການເງິນຢູ່ທະນາຄານ",
+        "romanization": "Khao het wiak dan kan ngoen yu tha na khan",
+        "translations": {
+          "de": "Er arbeitet im Finanzbereich bei einer Bank.",
+          "en": "He works in finance at a bank.",
+          "es": "Él trabaja en finanzas en un banco.",
+          "fr": "Il travaille dans la finance dans une banque.",
+          "hi": "वह बैंक में वित्त विभाग में काम करता है।",
+          "ja": "彼は銀行で金融関係の仕事をしている。",
+          "km": "គាត់ធ្វើការក្នុងផ្នែកហិរញ្ញវត្ថុនៅធនាគារ។",
+          "ko": "그는 은행에서 금융 분야에서 일해.",
+          "ne": "उ बैंकमा वित्त क्षेत्रमा काम गर्छ।",
+          "pt": "Ele trabalha na área de finanças em um banco.",
+          "th": "เขาทำงานด้านการเงินอยู่ที่ธนาคาร",
+          "tl": "Nagtatrabaho siya sa pananalapi sa isang bangko.",
+          "ur": "وہ ایک بینک میں مالیات کے شعبے میں کام کرتا ہے۔",
+          "vi": "Anh ấy làm việc trong lĩnh vực tài chính tại ngân hàng.",
+          "zh": "他在银行从事金融工作。",
+          "zh_Hant": "他在銀行從事金融工作。"
+        },
+        "out_of_scope_words": [
+          "ທະນາຄານ"
+        ]
+      },
+      {
+        "lao_script": "ການເງິນຂອງເຮົາຕອນນີ້ບໍ່ຄ່ອຍດີ",
+        "romanization": "Kan ngoen khong hao ton ni bor khoi di",
+        "translations": {
+          "de": "Unsere finanzielle Lage ist gerade nicht so gut.",
+          "en": "Our finances are not so great right now.",
+          "es": "Nuestra situación financiera no está muy bien ahora.",
+          "fr": "Nos finances ne sont pas très bonnes en ce moment.",
+          "hi": "अभी हमारी आर्थिक स्थिति ज़्यादा अच्छी नहीं है।",
+          "ja": "今、うちの財政状況はあまりよくない。",
+          "km": "ហិរញ្ញវត្ថុរបស់យើងឥឡូវនេះមិនសូវល្អទេ។",
+          "ko": "우리 재정 상황이 지금 별로 안 좋아.",
+          "ne": "हाम्रो वित्तीय अवस्था अहिले धेरै राम्रो छैन।",
+          "pt": "Nossas finanças não estão muito boas agora.",
+          "th": "การเงินของเราตอนนี้ไม่ค่อยดี",
+          "tl": "Hindi masyadong mabuti ang aming pananalapi ngayon.",
+          "ur": "ابھی ہمارے مالی حالات زیادہ اچھے نہیں ہیں۔",
+          "vi": "Tài chính của chúng tôi hiện tại không được tốt lắm.",
+          "zh": "我们现在的财务状况不太好。",
+          "zh_Hant": "我們現在的財務狀況不太好。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of coins, banknotes, and a bar chart or pie chart representing financial management or budgeting, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

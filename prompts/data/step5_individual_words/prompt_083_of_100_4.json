@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖານ",
+  "definitions": {
+    "de": "Basis, Fundament, Sockel (die Grundlage oder Unterlage, auf der etwas steht oder aufgebaut ist)",
+    "en": "Base, foundation, pedestal (the ground or underlying support on which something is built or stands)",
+    "es": "Base, fundamento, pedestal (la base o soporte sobre el que algo se construye o se apoya)",
+    "fr": "Base, fondation, socle (le support ou la fondation sur lequel quelque chose est construit ou repose)",
+    "hi": "आधार, नींव, पेडस्टल (वह आधार जिस पर कुछ बना हो या खड़ा हो)",
+    "ja": "基盤、土台、台座（何かが建てられたり立っている基礎や支え）",
+    "km": "មូលដ្ឋាន, គ្រឹះ, ជើង (ជំនួយ ឬគ្រឹះដែលអ្វីមួយសាងសង់ ឬដំណើរការ)",
+    "ko": "기반, 토대, 받침 (무언가가 세워지거나 서 있는 기초나 지지대)",
+    "ne": "आधार, जग, पेडस्टल (त्यो आधार जसमा केही निर्मित वा खडा छ)",
+    "pt": "Base, fundação, pedestal (a base ou suporte sobre o qual algo é construído ou se apoia)",
+    "th": "ฐาน, รากฐาน, แท่น (พื้นฐานหรือสิ่งรองรับที่สิ่งใดสิ่งหนึ่งถูกสร้างหรือตั้งอยู่)",
+    "tl": "Pundasyon, base, pedestal (ang pundasyon o suporta kung saan nakatayo o naitayo ang isang bagay)",
+    "ur": "بنیاد، بیس، پیڈسٹل (وہ بنیاد یا سہارا جس پر کوئی چیز بنی ہو یا کھڑی ہو)",
+    "vi": "Nền tảng, cơ sở, bệ (phần nền hoặc chỗ đỡ mà thứ gì đó được xây dựng hoặc đứng trên đó)",
+    "zh": "基础、底座、台基（某物建立或站立于其上的根基或支撑）",
+    "zh_Hant": "基礎、底座、台基（某物建立或站立於其上的根基或支撐）"
+  },
+  "definition_en": "Base, foundation, pedestal (the ground or underlying support on which something is built or stands)",
+  "romanization": "tʰaːn",
+  "lao_examples": [
+    {
+      "lao_script": "ຖານຂອງເສົາໂຕນີ້ບໍ່ແຂງແຮງ",
+      "romanization": "tʰaːn kʰɔːŋ sao to niː bɔː kʰɛŋ hɛːŋ",
+      "translation_en": "The base of this pillar is not strong."
+    },
+    {
+      "lao_script": "ຕ້ອງສ້າງຖານໃຫ້ດີກ່ອນ",
+      "romanization": "tɔːŋ saːŋ tʰaːn haj diː kɔːn",
+      "translation_en": "You have to build a good foundation first."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a stone pedestal or base with a pillar or statue standing on top of it, highlighting the solid foundation beneath, clean white background, colorful minimalist style, suitable for a language learning app."
+}

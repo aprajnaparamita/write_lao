@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພາບ",
+  "definitions": {
+    "de": "Bild; Foto; Gemälde; eine visuelle Darstellung oder ein Abbild von etwas",
+    "en": "Image; picture; photo; a visual representation or depiction of something",
+    "es": "Imagen; foto; pintura; una representación visual o ilustración de algo",
+    "fr": "Image ; photo ; tableau ; une représentation visuelle ou une illustration de quelque chose",
+    "hi": "चित्र; तस्वीर; फोटो; किसी चीज़ का दृश्य प्रतिनिधित्व या चित्रण",
+    "ja": "画像；写真；絵；何かの視覚的な表現や描写",
+    "km": "រូបភាព; រូបថត; ការបង្ហាញដោយភ្នែករបស់អ្វីមួយ",
+    "ko": "이미지; 사진; 그림; 무언가의 시각적 표현이나 묘사",
+    "ne": "तस्बिर; फोटो; चित्र; कुनै चीजको दृश्य प्रतिनिधित्व वा चित्रण",
+    "pt": "Imagem; foto; ilustração; uma representação visual ou retrato de algo",
+    "th": "ภาพ; รูปถ่าย; รูปวาด; การแสดงภาพหรือการพรรณนาทางสายตาของบางสิ่ง",
+    "tl": "Larawan; litrato; imahe; isang visual na representasyon o paglalarawan ng isang bagay",
+    "ur": "تصویر; فوٹو؛ کسی چیز کی بصری نمائندگی یا تصویر کشی",
+    "vi": "Hình ảnh; bức ảnh; tranh; sự biểu đạt hoặc mô tả bằng hình ảnh về điều gì đó",
+    "zh": "图像；照片；图画；某事物的视觉表现或描绘",
+    "zh_Hant": "圖像；照片；圖畫；某事物的視覺表現或描繪"
+  },
+  "definition_en": "Image; picture; photo; a visual representation or depiction of something",
+  "romanization": "/pʰaːp˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ພາບນີ້ສວຍຫຼາຍ ເຈົ້າຖ່າຍເອງບໍ",
+      "romanization": "phaap nii suay lai, jao thaai eng bo",
+      "translation_en": "This picture is very beautiful, did you take it yourself?"
+    },
+    {
+      "lao_script": "ສົ່ງພາບນັ້ນໃຫ້ຂ້ອຍຜ່ານໂທລະສັບແດ່",
+      "romanization": "song phaap nan hai khoi phaan thola-sap daeh",
+      "translation_en": "Send me that picture through the phone please."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a framed photograph or picture leaning against a wall, showing a colorful landscape inside the frame, clean white background, bright colors, minimalist style, suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມານ",
+  "definitions": {
+    "de": "Mara; ein böser Geist oder Dämon in der buddhistischen Mythologie; symbolisiert Versuchung und das Böse",
+    "en": "Mara; a demon or evil spirit in Buddhist mythology; symbolizes temptation and evil forces",
+    "es": "Mara; un demonio o espíritu maligno en la mitología budista; simboliza la tentación y las fuerzas del mal",
+    "fr": "Mara; un démon ou un esprit maléfique dans la mythologie bouddhiste; symbolise la tentation et les forces du mal",
+    "hi": "मार; बौद्ध पौराणिक कथाओं में एक राक्षस या दुष्ट आत्मा; प्रलोभन और बुरी शक्तियों का प्रतीक",
+    "ja": "マーラ；仏教神話における悪魔または邪悪な霊；誘惑と悪の力を象徴する",
+    "km": "មារ; អារក្សឬវិញ្ញាណអាក្រក់នៅក្នុងព្រះពុទ្ធសាសនា; តំណាងឱ្យការល្បួងនិងអំពើអាក្រក់",
+    "ko": "마라; 불교 신화에서 악마 또는 악령; 유혹과 악의 세력을 상징함",
+    "ne": "मार; बौद्ध पौराणिक कथाहरूमा एक राक्षस वा दुष्ट आत्मा; प्रलोभन र दुष्ट शक्तिहरूको प्रतीक",
+    "pt": "Mara; um demônio ou espírito maligno na mitologia budista; simboliza a tentação e as forças do mal",
+    "th": "มาร; ปีศาจหรือภูตผีในตำนานพระพุทธศาสนา; เป็นสัญลักษณ์ของการยั่วยวนและพลังชั่วร้าย",
+    "tl": "Mara; isang demonyo o masamang espiritu sa mitolohiyang Budista; sumasalamin sa tukso at masasamang puwersa",
+    "ur": "مارا؛ بدھ مت کی داستانوں میں ایک شیطان یا برا روح؛ آزمائش اور برائی کی علامت",
+    "vi": "Ma; một con quỷ hoặc linh hồn ác trong thần thoại Phật giáo; tượng trưng cho cám dỗ và các thế lực xấu xa",
+    "zh": "魔；佛教神话中的恶魔或邪灵；象征诱惑和邪恶力量",
+    "zh_Hant": "魔；佛教神話中的惡魔或邪靈；象徵誘惑和邪惡力量"
+  },
+  "definition_en": "Mara; a demon or evil spirit in Buddhist mythology; symbolizes temptation and evil forces",
+  "romanization": "/māan/",
+  "lao_examples": [
+    {
+      "lao_script": "ໃນນິທານ ມານພະຍາຍາມລໍ້ລວງຄົນ",
+      "romanization": "nai ni-thaan, māan phá-yaa-yaam lɔ̂ɔ-luang khón",
+      "translation_en": "In the story, the demon tries to tempt people."
+    },
+    {
+      "lao_script": "ພໍ່ເວົ້າວ່າ ມານຊົ່ວ ຄວນລະວັງ",
+      "romanization": "phɔ̂ɔ vao vâa, māan sûa, khuan lá-wang",
+      "translation_en": "Dad says the demon is evil; one should be careful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a shadowy demon figure with dark wings and glowing red eyes in a Buddhist mythological style, suitable for a language learning app, clean light background, colorful but slightly ominous, minimalist style."
+}

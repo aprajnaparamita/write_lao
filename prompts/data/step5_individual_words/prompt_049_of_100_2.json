@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄຸນ",
+  "definitions": {
+    "de": "Tugend / Qualität / Güte – bezieht sich auf eine positive Eigenschaft oder moralischen Wert; Teil des Ausdrucks ຂອບຄຸນ (danke)",
+    "en": "Virtue / quality / goodness – refers to a positive attribute or moral value; used in ຂອບຄຸນ (thank you)",
+    "es": "Virtud / cualidad / bondad – se refiere a un atributo positivo o valor moral; usado en ຂອບຄຸນ (gracias)",
+    "fr": "Vertu / qualité / bonté – désigne un attribut positif ou une valeur morale ; utilisé dans ຂອບຄຸນ (merci)",
+    "hi": "गुण / सद्गुण / भलाई – किसी सकारात्मक विशेषता या नैतिक मूल्य को दर्शाता है; ຂອບຄຸນ (धन्यवाद) में प्रयुक्त",
+    "ja": "徳 / 美質 / 善良さ – ポジティブな特性や道徳的な価値を表す；ຂອບຄຸນ（ありがとう）の一部",
+    "km": "គុណ / គុណភាព / ភាពល្អ – សំដៅលើគុណសម្បត្តិដ៏ល្អ ឬតម្លៃសីលធម៌ ប្រើក្នុង ຂອບຄຸນ (អរគុណ)",
+    "ko": "덕 / 품질 / 선함 – 긍정적인 속성이나 도덕적 가치를 나타냄; ຂອບຄຸນ(감사합니다)에 사용됨",
+    "ne": "गुण / सद्गुण / भलाइ – सकारात्मक विशेषता वा नैतिक मूल्यलाई जनाउँछ; ຂອບຄຸນ (धन्यवाद) मा प्रयोग हुन्छ",
+    "pt": "Virtude / qualidade / bondade – refere-se a um atributo positivo ou valor moral; usado em ຂອບຄຸນ (obrigado)",
+    "th": "คุณ / คุณธรรม / ความดี – หมายถึงคุณลักษณะเชิงบวกหรือคุณค่าทางศีลธรรม ใช้ใน ຂອບຄຸນ (ขอบคุณ)",
+    "tl": "Kabutihan / kalidad / birtud – tumutukoy sa isang positibong katangian o moral na halaga; ginagamit sa ຂອບຄຸນ (salamat)",
+    "ur": "فضیلت / خوبی / اچھائی – کسی مثبت خصوصیت یا اخلاقی قدر کو ظاہر کرتا ہے؛ ຂອບຄຸນ (شکریہ) میں استعمال ہوتا ہے",
+    "vi": "Đức hạnh / phẩm chất / lòng tốt – chỉ một đặc điểm tích cực hoặc giá trị đạo đức; dùng trong ຂອບຄຸນ (cảm ơn)",
+    "zh": "恩德 / 品质 / 善良 – 指积极的特质或道德价值；用于 ຂອບຄຸນ（谢谢）",
+    "zh_Hant": "恩德 / 品質 / 善良 – 指積極的特質或道德價值；用於 ຂອບຄຸນ（謝謝）"
+  },
+  "definition_en": "Virtue / quality / goodness – refers to a positive attribute or moral value; used in ຂອບຄຸນ (thank you)",
+  "romanization": "khún",
+  "lao_examples": [
+    {
+      "lao_script": "ຂອບຄຸນຫຼາຍໆນະ ທີ່ຊ່ວຍຂ້ອຍ",
+      "romanization": "khɔ̀p khún lǎi lǎi na thi sùay khɔ̂y",
+      "translation_en": "Thank you so much for helping me!"
+    },
+    {
+      "lao_script": "ຄຸນຂອງລາວດີຫຼາຍ ທຸກຄົນຮັກລາວ",
+      "romanization": "khún khɔ̌ng lāo dī lǎi thuk khon hák lāo",
+      "translation_en": "His virtues are very good, everyone likes him."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two people, one bowing slightly and saying thank you to another with a warm smile, a glowing golden star above them symbolizing virtue and goodness, clean white background, colorful minimalist style for a language learning app."
+}

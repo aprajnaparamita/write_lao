@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄົມ",
+  "definitions": {
+    "de": "Scharf (z. B. ein Messer oder eine Klinge); auch übertragen: scharfsinnig, klug",
+    "en": "Sharp (as in a blade or knife); also used figuratively to mean clever or sharp-minded",
+    "es": "Afilado (como un cuchillo o una hoja); también se usa figurativamente para indicar inteligente o agudo",
+    "fr": "Tranchant, aiguisé (comme une lame ou un couteau); aussi utilisé figurativement pour dire intelligent ou perspicace",
+    "hi": "तेज़ धार (जैसे चाकू या ब्लेड); अलंकारिक रूप से चतुर या तीक्ष्ण बुद्धि के लिए भी उपयोग",
+    "ja": "鋭い（刃やナイフなど）；比喩的に頭が切れるという意味でも使われる",
+    "km": "មុត (ដូចដាវ ឬកាំបិត); ក៏ប្រើក្នុងន័យប្រៀបផ្ទឹមថា똑智ាស់ ឬប៉ិនប្រសប់",
+    "ko": "날카로운 (칼날처럼); 비유적으로 영리하거나 예리한 의미로도 사용됨",
+    "ne": "धारिलो (जस्तै चाकु वा ब्लेड); अलंकारिक रूपमा चतुर वा तीक्ष्ण बुद्धि भन्ने अर्थमा पनि प्रयोग",
+    "pt": "Afiado (como uma faca ou lâmina); também usado figurativamente para indicar esperto ou perspicaz",
+    "th": "คม (เช่น มีดหรือใบมีด); ใช้ในความหมายเปรียบเทียบว่าฉลาดหรือแหลมคมด้วย",
+    "tl": "Matalas (tulad ng talim o kutsilyo); ginagamit din sa makabagong kahulugan na matalino o matalinong isipan",
+    "ur": "تیز دھار (جیسے چاقو یا بلیڈ)؛ مجازی طور پر ذہین یا تیز فہم کے لیے بھی استعمال",
+    "vi": "Sắc bén (như dao hoặc lưỡi dao); cũng dùng theo nghĩa bóng để chỉ thông minh, sắc sảo",
+    "zh": "锋利的（如刀刃）；也比喻思维敏锐、聪明",
+    "zh_Hant": "鋒利的（如刀刃）；也比喻思維敏銳、聰明"
+  },
+  "definition_en": "Sharp (as in a blade or knife); also used figuratively to mean clever or sharp-minded",
+  "romanization": "/kʰom˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ມີດນີ້ຄົມຫຼາຍ ລະວັງຈ່ໍ",
+      "romanization": "mid ni khom lai, la wang jo",
+      "translation_en": "This knife is very sharp – be careful!"
+    },
+    {
+      "lao_script": "ເດັກນ້ອຍຄົນນັ້ນຄົມຫຼາຍ ຮຽນດີທຸກວິຊາ",
+      "romanization": "dek noi khon nan khom lai, hian di thuk wicha",
+      "translation_en": "That child is very sharp – they do well in every subject."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a sharp kitchen knife with a gleaming blade on a clean white background, with a small shine effect on the edge to indicate sharpness, minimalist cartoon style suitable for a language learning app."
+}

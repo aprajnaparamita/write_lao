@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂກ",
+  "definitions": {
+    "de": "Silbe, die in Eigennamen und Lehnwörtern aus dem Chinesischen, Vietnamesischen oder anderen Sprachen vorkommt; hat keine eigenständige Bedeutung im Lao",
+    "en": "A syllable appearing in proper names and loanwords borrowed from Chinese, Vietnamese, or other languages; has no independent meaning in standard Lao",
+    "es": "Sílaba que aparece en nombres propios y préstamos lingüísticos del chino, vietnamita u otros idiomas; no tiene significado independiente en lao estándar",
+    "fr": "Syllabe apparaissant dans des noms propres et des emprunts du chinois, du vietnamien ou d'autres langues ; n'a pas de signification indépendante en lao standard",
+    "hi": "चीनी, वियतनामी या अन्य भाषाओं से आए उचित नामों और ऋणशब्दों में प्रयुक्त अक्षर; मानक लाओ में इसका कोई स्वतंत्र अर्थ नहीं है",
+    "ja": "中国語、ベトナム語などからの固有名詞や借用語に現れる音節で、標準ラオ語では独立した意味を持たない",
+    "km": "ព្យាង្គដែលលេចឡើងក្នុងឈ្មោះអ្នក និងពាក្យខ្ចីពីភាសាចិន វៀតណាម ឬភាសាផ្សេងទៀត; គ្មានន័យឯករាជ្យក្នុងភាសាឡាវស្តង់ដារ",
+    "ko": "중국어, 베트남어 등에서 차용된 고유명사나 외래어에 나타나는 음절로, 표준 라오어에서는 독립적인 의미가 없음",
+    "ne": "चिनियाँ, भियतनामी वा अन्य भाषाबाट लिइएका उचित नाम र ऋणशब्दहरूमा देखिने अक्षर; मानक लाओमा यसको कुनै स्वतन्त्र अर्थ छैन",
+    "pt": "Sílaba que aparece em nomes próprios e empréstimos do chinês, vietnamita ou outras línguas; não tem significado independente no lao padrão",
+    "th": "พยางค์ที่ปรากฏในชื่อเฉพาะและคำยืมจากภาษาจีน เวียดนาม หรือภาษาอื่น ไม่มีความหมายอิสระในภาษาลาวมาตรฐาน",
+    "tl": "Isang pantig na lumalabas sa mga pangalan at mga salitang hiniram mula sa Tsino, Biyetnamese, o iba pang mga wika; walang sariling kahulugan sa karaniwang wikang Lao",
+    "ur": "چینی، ویتنامی یا دیگر زبانوں سے لیے گئے ناموں اور قرضہ الفاظ میں آنے والا ایک حرف؛ معیاری لاؤ میں اس کا کوئی آزاد مفہوم نہیں",
+    "vi": "Một âm tiết xuất hiện trong tên riêng và từ mượn từ tiếng Trung, tiếng Việt hoặc ngôn ngữ khác; không có nghĩa độc lập trong tiếng Lào chuẩn",
+    "zh": "出现在源自汉语、越南语或其他语言的专有名词和借词中的音节；在标准老挝语中无独立含义",
+    "zh_Hant": "出現在源自漢語、越南語或其他語言的專有名詞和借詞中的音節；在標準寮語中無獨立含義"
+  },
+  "definition_en": "A syllable appearing in proper names and loanwords borrowed from Chinese, Vietnamese, or other languages; has no independent meaning in standard Lao",
+  "romanization": "/kóː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ລາວຫຼາຍຊື່ມີໂກຢູ່ໃນນັ້ນ",
+      "romanization": "sue lao laai sue mii ko yuu nai nan",
+      "translation_en": "Many Lao names have the syllable 'ໂກ' in them."
+    },
+    {
+      "lao_script": "ໂກ ເປັນພະຍາງທີ່ມາຈາກພາສາອື່ນ",
+      "romanization": "ko pen pha yaang tii maa jaak phaa saa uun",
+      "translation_en": "'ໂກ' is a syllable that comes from another language."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or label with stylized syllable blocks arranged together, representing a borrowed word or name component, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

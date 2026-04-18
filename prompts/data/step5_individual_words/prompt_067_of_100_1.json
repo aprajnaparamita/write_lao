@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກູ້",
+  "definitions": {
+    "de": "retten, bergen; (Geld) leihen, einen Kredit aufnehmen",
+    "en": "to rescue, salvage; to borrow (money), take out a loan",
+    "es": "rescatar, salvar; pedir prestado (dinero), obtener un préstamo",
+    "fr": "secourir, sauver; emprunter (de l'argent), contracter un prêt",
+    "hi": "बचाना, उद्धार करना; (पैसा) उधार लेना",
+    "ja": "救助する、救い出す；（お金を）借りる、融資を受ける",
+    "km": "សង្គ្រោះ, ជួយសង្គ្រោះ; ខ្ចី (ប្រាក់), កម្ចី",
+    "ko": "구조하다, 구하다; (돈을) 빌리다, 대출받다",
+    "ne": "उद्धार गर्नु, बचाउनु; (पैसा) ऋण लिनु",
+    "pt": "resgatar, salvar; pedir emprestado (dinheiro), obter um empréstimo",
+    "th": "กู้ (ช่วยเหลือ); กู้ยืม (เงิน)",
+    "tl": "sagipin, iligtas; humiram (ng pera), kumuha ng utang",
+    "ur": "بچانا، نجات دلانا؛ (پیسہ) ادھار لینا، قرض لینا",
+    "vi": "cứu, cứu hộ; vay (tiền), vay mượn",
+    "zh": "救助，挽救；借（钱），贷款",
+    "zh_Hant": "救助，挽救；借（錢），貸款"
+  },
+  "definition_en": "to rescue, salvage; to borrow (money), take out a loan",
+  "romanization": "kûː",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກກູ້ເງິນຈາກທະນາຄານ.",
+      "romanization": "kʰɔ̏ːj jȁːk kûː ŋə́n t͡ɕàːk tʰā.nāː.kʰáːn",
+      "translation_en": "I want to borrow money from the bank."
+    },
+    {
+      "lao_script": "ເຂົາກູ້ຊີວິດເດັກນ້ອຍອອກຈາກນ້ຳ.",
+      "romanization": "kʰǎw kûː síː.wīt dék.nɔ̂ːj ʔɔ̏ːk t͡ɕàːk nâm",
+      "translation_en": "He rescued the child from the water."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a rescuer pulling a person to safety, with a small icon of a hand receiving a coin beside it, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

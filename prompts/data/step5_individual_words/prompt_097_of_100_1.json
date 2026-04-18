@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂອນ",
+  "definitions": {
+    "de": "Geld überweisen oder übertragen",
+    "en": "To transfer (money or items) from one place or person to another",
+    "es": "Transferir (dinero u objetos) de un lugar o persona a otro",
+    "fr": "Transférer (de l'argent ou des objets) d'un endroit ou d'une personne à une autre",
+    "hi": "पैसे या वस्तुएँ एक जगह से दूसरी जगह भेजना या स्थानांतरित करना",
+    "ja": "お金や物を別の場所や人に移す・送金する",
+    "km": "ផ្ទេរ (ប្រាក់ ឬវត្ថុ) ពីទីកន្លែងមួយ ឬមនុស្សម្នាក់ទៅមួយទៀត",
+    "ko": "돈이나 물건을 한 곳이나 사람에서 다른 곳이나 사람에게 이체하다/송금하다",
+    "ne": "पैसा वा वस्तुहरू एउटा ठाउँ वा व्यक्तिबाट अर्कोमा हस्तान्तरण गर्नु",
+    "pt": "Transferir (dinheiro ou objetos) de um lugar ou pessoa para outro",
+    "th": "โอน (เงินหรือสิ่งของ) จากที่หนึ่งหรือคนหนึ่งไปยังอีกที่หนึ่งหรืออีกคนหนึ่ง",
+    "tl": "Mag-transfer ng (pera o bagay) mula sa isang lugar o tao patungo sa isa pa",
+    "ur": "پیسے یا اشیاء کو ایک جگہ یا شخص سے دوسری جگہ یا شخص کو منتقل کرنا",
+    "vi": "Chuyển (tiền hoặc đồ vật) từ nơi này hoặc người này sang nơi khác hoặc người khác",
+    "zh": "将（钱或物品）从一个地方或人转移到另一个地方或人",
+    "zh_Hant": "將（錢或物品）從一個地方或人轉移到另一個地方或人"
+  },
+  "definition_en": "To transfer (money or items) from one place or person to another",
+  "romanization": "/ʔóːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໂອນເງິນໃຫ້ຂ້ອຍໄດ້ບໍ່?",
+      "romanization": "Jao ohn ngoen hai khoi dai bor?",
+      "translation_en": "Can you transfer money to me?"
+    },
+    {
+      "lao_script": "ຂ້ອຍໂອນເງິນຜ່ານແອັບໄປແລ້ວ",
+      "romanization": "Khoi ohn ngoen phan aep pai laeo",
+      "translation_en": "I already transferred the money through the app."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smartphone screen showing a bank transfer or mobile payment app with an arrow moving money between two accounts, clean white background, colorful and minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໜັກ",
+  "definitions": {
+    "de": "schwer (Gewicht), ernst, schwerwiegend",
+    "en": "heavy (in weight), serious, severe, grave",
+    "es": "pesado, grave, serio, severo",
+    "fr": "lourd, grave, sérieux, sévère",
+    "hi": "भारी, गंभीर, कठिन",
+    "ja": "重い、深刻な、重大な",
+    "km": "ធ្ងន់, ធ្ងន់ធ្ងរ, គ្រោះថ្នាក់",
+    "ko": "무거운, 심각한, 중대한",
+    "ne": "गह्रौं, गम्भीर, भारी",
+    "pt": "pesado, grave, sério, severo",
+    "th": "หนัก, รุนแรง, หนักแน่น",
+    "tl": "mabigat, malubha, seryoso",
+    "ur": "بھاری، سنگین، سنجیدہ",
+    "vi": "nặng, nghiêm trọng, nặng nề",
+    "zh": "重的，沉的，严重的",
+    "zh_Hant": "重的，沉的，嚴重的"
+  },
+  "definition_en": "heavy (in weight), serious, severe, grave",
+  "romanization": "/nák/",
+  "lao_examples": [
+    {
+      "lao_script": "ກະເປົ໋າໃບນີ້ໜັກຫຼາຍ, ຊ່ວຍຖືໜ້ອຍໄດ້ບໍ?",
+      "romanization": "gapao bai nii nak lai, suai thue noi dai bor?",
+      "translation_en": "This bag is really heavy. Can you hold it for a sec?"
+    },
+    {
+      "lao_script": "ອາການຂອງລາວໜັກຫຼາຍ ຕ້ອງໄປໂຮງໝໍດ່ວນ",
+      "romanization": "aakaan khong lao nak lai, tong pai hong mor duan",
+      "translation_en": "His condition is very serious. He needs to go to the hospital right away."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person struggling to lift a very heavy box or weight, with sweat drops and a strained expression, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

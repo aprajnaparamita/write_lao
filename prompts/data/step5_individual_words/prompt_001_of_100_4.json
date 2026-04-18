@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທີ່",
+  "definitions": {
+    "de": "der/die/das/welche (Relativpronomen); an/in (Ortsmarker)",
+    "en": "that/which/who (relative clause marker); at/in (locative marker)",
+    "es": "que/el cual/donde (pronombre relativo; también marcador de lugar)",
+    "fr": "qui/que/où (pronom relatif; aussi marqueur de lieu)",
+    "hi": "जो/जिस/कि (संबंधवाचक सर्वनाम); पर/में (स्थानसूचक)",
+    "ja": "〜という／〜の（関係節を導く助詞・場所を表す）",
+    "km": "ដែល／នៅ (សព្វនាមសម្ព័ន្ធ ឬបញ្ជាក់ទីកន្លែង)",
+    "ko": "~하는／~에서 (관계절 표지・장소 표지)",
+    "ne": "जुन／जहाँ／कि (सम्बन्धवाचक, स्थानवाचक)",
+    "pt": "que/o qual/onde (pronome relativo; também marcador de lugar)",
+    "th": "ที่ (คำเชื่อมประโยคสัมพัทธ์ หรือบอกสถานที่)",
+    "tl": "na／kung saan (pang-ugnay ng sugnay o panlugar)",
+    "ur": "جو／جہاں／پر (موصولی ضمیر اور مقام کا اشارہ)",
+    "vi": "mà／ở／tại (đại từ quan hệ; dấu hiệu nơi chốn)",
+    "zh": "的／在（关系词标记或地点标记）",
+    "zh_Hant": "的／在（關係詞標記或地點標記）"
+  },
+  "definition_en": "that/which/who (relative clause marker); at/in (locative marker)",
+  "romanization": "tʰīː",
+  "lao_examples": [
+    {
+      "lao_script": "ບ້ານ ທີ່ ລາວ ຢູ່ ໃຫຍ່ ຫຼາຍ",
+      "romanization": "bâːn tʰīː láːw jūː ɲájʔ lǎːj",
+      "translation_en": "The house that he/she lives in is very big."
+    },
+    {
+      "lao_script": "ຂ້ອຍ ຢາກ ກິນ ເຂົ້າ ທີ່ ຮ້ານ ນັ້ນ",
+      "romanization": "kʰɔ̂ːj jȁːk kìn kʰȁw tʰīː hâːn nân",
+      "translation_en": "I want to eat at that restaurant."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a pointing arrow connecting one item to a description bubble, representing a relative reference, suitable for a language learning app, clean white background, minimalist style, soft colors."
+}

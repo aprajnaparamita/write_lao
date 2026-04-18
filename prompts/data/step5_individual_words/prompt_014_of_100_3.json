@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈີນ",
+  "definitions": {
+    "de": "China (das Land); Chinesisch (die Sprache oder das Volk). Bezeichnet die Volksrepublik China, die chinesische Sprache oder die chinesische Ethnie.",
+    "en": "China (the country); Chinese (the language or people). Refers to the People's Republic of China, the Chinese language, or the Chinese ethnic group.",
+    "es": "China (el país); chino/china (el idioma o el pueblo). Se refiere a la República Popular China, el idioma chino o el grupo étnico chino.",
+    "fr": "Chine (le pays) ; chinois/chinoise (la langue ou le peuple). Désigne la République populaire de Chine, la langue chinoise ou l'ethnie chinoise.",
+    "hi": "चीन (देश); चीनी (भाषा या लोग)। चीन जनवादी गणराज्य, चीनी भाषा, या चीनी जातीय समूह को दर्शाता है।",
+    "ja": "中国（国名）；中国語または中国人。中華人民共和国、中国語、または中国民族を指す。",
+    "km": "ចិន (ប្រទេស); ចិន (ភាសា ឬជនជាតិ)។ សំដៅលើសាធារណរដ្ឋប្រជាមានិតចិន ភាសាចិន ឬក្រុមជនជាតិចិន។",
+    "ko": "중국 (나라); 중국어 또는 중국인. 중화인민공화국, 중국어, 또는 중국 민족을 가리킨다.",
+    "ne": "चीन (देश); चिनियाँ (भाषा वा जनता)। चीन जनवादी गणतन्त्र, चिनियाँ भाषा, वा चिनियाँ जातीय समूहलाई जनाउँछ।",
+    "pt": "China (o país); chinês/chinesa (o idioma ou o povo). Refere-se à República Popular da China, ao idioma chinês ou ao grupo étnico chinês.",
+    "th": "จีน (ประเทศ); ภาษาจีนหรือชาวจีน หมายถึงสาธารณรัฐประชาชนจีน ภาษาจีน หรือกลุ่มชาติพันธุ์จีน",
+    "tl": "Tsina (ang bansa); Tsino/Tsina (ang wika o tao). Tumutukoy sa Republika ng Bayan ng Tsina, ang wikang Tsino, o ang grupong etniko ng mga Tsino.",
+    "ur": "چین (ملک)؛ چینی (زبان یا لوگ)۔ عوامی جمہوریہ چین، چینی زبان، یا چینی نسلی گروہ کو ظاہر کرتا ہے۔",
+    "vi": "Trung Quốc (đất nước); tiếng Trung hoặc người Trung Quốc. Chỉ Cộng hòa Nhân dân Trung Hoa, tiếng Trung Quốc, hoặc dân tộc Trung Hoa.",
+    "zh": "中国（国家）；中文或中国人。指中华人民共和国、中文语言或中国民族。",
+    "zh_Hant": "中國（國家）；中文或中國人。指中華人民共和國、中文語言或中國民族。"
+  },
+  "definition_en": "China (the country); Chinese (the language or people). Refers to the People's Republic of China, the Chinese language, or the Chinese ethnic group.",
+  "romanization": "/tɕìːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂອງຂ້ອຍມາຈາກຈີນ",
+      "romanization": "phuean khong khoi maa jaak jiin",
+      "translation_en": "My friend comes from China."
+    },
+    {
+      "lao_script": "ສິນຄ້ານີ້ເຮັດຢູ່ຈີນ",
+      "romanization": "sin-khaa nii het yuu jiin",
+      "translation_en": "This product is made in China."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the Chinese flag with red background and yellow stars, next to a small outline map of China, clean white background, minimalist colorful style suitable for a language learning app."
+}

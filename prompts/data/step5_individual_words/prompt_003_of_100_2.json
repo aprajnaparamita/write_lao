@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລາວ",
+  "definitions": {
+    "de": "er/sie (dritte Person Singular); Lao (Nationalität/Sprache)",
+    "en": "he/she (third-person pronoun); Lao (nationality/language)",
+    "es": "él/ella (pronombre de tercera persona); lao (nacionalidad/idioma)",
+    "fr": "il/elle (pronom troisième personne); lao (nationalité/langue)",
+    "hi": "वह (तृतीय पुरुष सर्वनाम); लाओ (राष्ट्रीयता/भाषा)",
+    "ja": "彼／彼女（三人称代名詞）／ラオス（国・言語）",
+    "km": "គាត់／ឡាវ (សព្វនាមបុគ្គលទីបី ឬប្រទេសឡាវ)",
+    "ko": "그／그녀／라오스 (3인칭 대명사 또는 라오스 사람·언어)",
+    "ne": "उहाँ／लाओ (तेस्रो पुरुष सर्वनाम वा लाओ राष्ट्रियता)",
+    "pt": "ele/ela (pronome de terceira pessoa); laociano (nacionalidade/idioma)",
+    "th": "เขา／ลาว (สรรพนามบุรุษที่สาม หรือสัญชาติ/ภาษา)",
+    "tl": "siya／Lao (panghalip sa ikatlong panauhan o Laos)",
+    "ur": "وہ؛ لاؤ (تیسرے شخص کا ضمیر یا لاؤ قوم/زبان)",
+    "vi": "anh/chị ấy; Lào (đại từ ngôi thứ ba hoặc người/tiếng Lào)",
+    "zh": "他／她／老挝（第三人称代词或老挝民族/语言）",
+    "zh_Hant": "他／她／寮國（第三人稱代詞或寮國民族/語言）"
+  },
+  "definition_en": "he/she (third-person pronoun); Lao (nationality/language)",
+  "romanization": "láːw",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວ ເປັນ ຄົນ ລາວ",
+      "romanization": "láːw pēn kʰón láːw",
+      "translation_en": "He/She is Lao."
+    },
+    {
+      "lao_script": "ລາວ ເວົ້າ ກັບ ຂ້ອຍ ເມື່ອ ວານ",
+      "romanization": "láːw wȃw káp kʰɔ̂ːj mɯ̄ːə wáːn",
+      "translation_en": "He/She talked with me yesterday."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a neutral cartoon figure with an arrow pointing to them and a small Lao flag beside, representing third-person reference and Lao identity, suitable for a language learning app, clean white background, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເກັບ",
+  "definitions": {
+    "de": "sammeln; aufheben; aufbewahren; einsammeln",
+    "en": "to collect; to pick up; to keep; to store away",
+    "es": "recoger; guardar; coleccionar; almacenar",
+    "fr": "ramasser; collecter; garder; ranger; conserver",
+    "hi": "इकट्ठा करना; उठाना; रखना; संग्रह करना",
+    "ja": "集める；拾う；しまう；保管する",
+    "km": "រើស; ប្រមូល; រក្សា; ដាក់ទុក",
+    "ko": "모으다; 줍다; 보관하다; 치우다",
+    "ne": "सङ्कलन गर्नु; उठाउनु; राख्नु; जम्मा गर्नु",
+    "pt": "colecionar; guardar; recolher; armazenar",
+    "th": "เก็บ; รวบรวม; เก็บรักษา; หยิบเก็บ",
+    "tl": "mangolekta; mag-ipon; itago; kunin",
+    "ur": "جمع کرنا؛ اٹھانا؛ رکھنا؛ محفوظ کرنا",
+    "vi": "thu thập; nhặt; cất đi; giữ lại",
+    "zh": "收集；捡起；保存；收起来",
+    "zh_Hant": "收集；撿起；保存；收起來"
+  },
+  "definition_en": "to collect; to pick up; to keep; to store away",
+  "romanization": "kép",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍເກັບຂອງໃຫ້ແດ່ ຈະອອກໄປແລ້ວ",
+      "romanization": "sùaj kép khɔ̌ːŋ hâj dɛ̀ː, tɕā ɔ̀ːk paj lɛ́ːw",
+      "translation_en": "Help me put the stuff away, we're about to leave."
+    },
+    {
+      "lao_script": "ເຈົ້າເກັບເງິນໄວ້ຫຼາຍບໍ່",
+      "romanization": "tɕâo kép ŋɤ́n wáj lǎːj bɔ̀ː",
+      "translation_en": "Have you saved up a lot of money?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person picking up and collecting items into a box or basket, shown in a tidy room, suitable for a language learning app, clean white background, cheerful colors, minimalist cartoon style."
+}

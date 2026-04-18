@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສູນ",
+  "definitions": {
+    "de": "Null; die Zahl 0; auch 'Zentrum' oder 'Mittelpunkt', oft in formellen oder institutionellen Kontexten verwendet",
+    "en": "Zero; the number 0; also means 'center' or 'hub', often used in formal or institutional contexts such as a training center or cultural center",
+    "es": "Cero; el número 0; también significa 'centro' o 'núcleo', usado frecuentemente en contextos formales o institucionales como un centro de capacitación o cultural",
+    "fr": "Zéro; le chiffre 0; signifie aussi 'centre' ou 'hub', souvent utilisé dans des contextes formels ou institutionnels comme un centre de formation ou culturel",
+    "hi": "शून्य; संख्या 0; इसका अर्थ 'केंद्र' भी है, जो अक्सर औपचारिक या संस्थागत संदर्भों जैसे प्रशिक्षण केंद्र या सांस्कृतिक केंद्र में उपयोग किया जाता है",
+    "ja": "ゼロ；数字の0；また「センター」や「中心」を意味し、研修センターや文化センターなど公式・制度的な文脈でよく使われる",
+    "km": "សូន្យ; លេខ 0; ក៏មានន័យថា 'មជ្ឈមណ្ឌល' ឬ 'មជ្ឈភាព' ដែលតែងប្រើក្នុងបរិបទផ្លូវការ ដូចជាមជ្ឈមណ្ឌលបណ្តុះបណ្តាល ឬវប្បធម៌",
+    "ko": "영; 숫자 0; '센터' 또는 '중심'을 의미하기도 하며, 교육 센터나 문화 센터 같은 공식적·제도적 맥락에서 자주 사용됨",
+    "ne": "शून्य; संख्या 0; 'केन्द्र' वा 'हब' पनि जनाउँछ, प्राय: प्रशिक्षण केन्द्र वा सांस्कृतिक केन्द्र जस्ता औपचारिक वा संस्थागत सन्दर्भमा प्रयोग गरिन्छ",
+    "pt": "Zero; o número 0; também significa 'centro' ou 'hub', frequentemente usado em contextos formais ou institucionais como um centro de treinamento ou cultural",
+    "th": "ศูนย์; ตัวเลข 0; ยังหมายถึง 'ศูนย์กลาง' หรือ 'ฮับ' มักใช้ในบริบทที่เป็นทางการหรือด้านสถาบัน เช่น ศูนย์ฝึกอบรมหรือศูนย์วัฒนธรรม",
+    "tl": "Zero; ang bilang 0; nangangahulugan din ng 'sentro' o 'hub', madalas na ginagamit sa mga pormal o institusyonal na konteksto tulad ng sentro ng pagsasanay o kultural na sentro",
+    "ur": "صفر; ہندسہ 0; 'مرکز' یا 'ہب' کا مطلب بھی رکھتا ہے، اکثر رسمی یا ادارہ جاتی تناظر میں استعمال ہوتا ہے جیسے تربیتی مرکز یا ثقافتی مرکز",
+    "vi": "Không; số 0; cũng có nghĩa là 'trung tâm' hoặc 'trung tâm điều phối', thường dùng trong các ngữ cảnh trang trọng hoặc thể chế như trung tâm đào tạo hay trung tâm văn hóa",
+    "zh": "零；数字0；也意味着'中心'或'核心'，常在正式或机构性语境中使用，如培训中心或文化中心",
+    "zh_Hant": "零；數字0；也意味著'中心'或'核心'，常在正式或機構性語境中使用，如培訓中心或文化中心"
+  },
+  "definition_en": "Zero; the number 0; also means 'center' or 'hub', often used in formal or institutional contexts such as a training center or cultural center",
+  "romanization": "/suːn³/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄະແນນຂອງເຂົາເຈົ້າໄດ້ສູນຄະແນນ",
+      "romanization": "kha-naen khong khao jao dai suun kha-naen",
+      "translation_en": "Their score was zero points."
+    },
+    {
+      "lao_script": "ສູນການຮຽນຢູ່ໃຈກາງເມືອງ",
+      "romanization": "suun gaan hian yuu jai gaang meuang",
+      "translation_en": "The learning center is in the middle of the city."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing the number zero (0) in bold on the left side and a building labeled as a center with a location pin in the middle on the right side, representing both meanings of the word, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫ້ອງ",
+  "definitions": {
+    "de": "Zimmer, Raum – ein abgegrenzter Bereich innerhalb eines Gebäudes",
+    "en": "Room – an enclosed space within a building, such as a bedroom or classroom",
+    "es": "Habitación – espacio cerrado dentro de un edificio, como un dormitorio o aula",
+    "fr": "Pièce, salle – espace délimité à l'intérieur d'un bâtiment, comme une chambre ou une salle de classe",
+    "hi": "कमरा – किसी इमारत के अंदर एक बंद जगह, जैसे बेडरूम या कक्षा",
+    "ja": "部屋 – 建物の中の仕切られた空間。寝室や教室など",
+    "km": "បន្ទប់ – ទីកន្លែងដែលបិទជិតនៅក្នុងអាគារ ដូចជាបន្ទប់គេង ឬថ្នាក់រៀន",
+    "ko": "방 – 건물 안의 구획된 공간. 침실이나 교실 등",
+    "ne": "कोठा – भवनभित्रको बन्द ठाउँ, जस्तै सुत्ने कोठा वा कक्षाकोठा",
+    "pt": "Quarto, sala – espaço fechado dentro de um edifício, como um dormitório ou sala de aula",
+    "th": "ห้อง – พื้นที่ปิดล้อมภายในอาคาร เช่น ห้องนอนหรือห้องเรียน",
+    "tl": "Silid – isang saradong espasyo sa loob ng isang gusali, tulad ng kwarto o silid-aralan",
+    "ur": "کمرہ – کسی عمارت کے اندر ایک بند جگہ، جیسے سونے کا کمرہ یا کلاس روم",
+    "vi": "Phòng – không gian kín trong một tòa nhà, chẳng hạn như phòng ngủ hoặc phòng học",
+    "zh": "房间 – 建筑物内的封闭空间，如卧室或教室",
+    "zh_Hant": "房間 – 建築物內的封閉空間，如臥室或教室"
+  },
+  "definition_en": "Room – an enclosed space within a building, such as a bedroom or classroom",
+  "romanization": "hɔ̂ŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຫ້ອງຂອງຂ້ອຍຢູ່ຊັ້ນສອງ",
+      "romanization": "hɔ̂ŋ khɔ̌ŋ khɔ̂i yùu sán sɔ̌ŋ",
+      "translation_en": "My room is on the second floor."
+    },
+    {
+      "lao_script": "ຫ້ອງນ້ຳຢູ່ໃສ?",
+      "romanization": "hɔ̂ŋ náam yùu sǎi",
+      "translation_en": "Where is the bathroom?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cozy room interior with a bed, window, and small desk, viewed from the doorway. Clean white background, bright colors, minimalist style suitable for a language learning app."
+}

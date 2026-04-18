@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນາ",
+  "definitions": {
+    "de": "Reisfeld; ein überflutetes oder bewässertes Feld, auf dem Reis angebaut wird",
+    "en": "Rice paddy; a flooded or irrigated field where rice is grown",
+    "es": "Arrozal; campo inundado o irrigado donde se cultiva el arroz",
+    "fr": "Rizière; champ inondé ou irrigué où l'on cultive le riz",
+    "hi": "धान का खेत; एक सिंचित या जलमग्न खेत जहाँ चावल उगाया जाता है",
+    "ja": "水田；稲を育てるための水を張った田んぼ",
+    "km": "វាលស្រែ; ទីធ្លាដែលត្រូវបានប្រើដាំដំណាំស្រូវ",
+    "ko": "논; 벼를 재배하는 물이 고인 경작지",
+    "ne": "धानको खेत; सिँचित वा डुबाइएको खेत जहाँ धान उब्जाइन्छ",
+    "pt": "Arrozal; campo alagado ou irrigado onde o arroz é cultivado",
+    "th": "นาข้าว; ทุ่งนาที่ใช้ปลูกข้าว มักมีน้ำขัง",
+    "tl": "Palayan; isang luwad o patubigan na bukid kung saan pinalaki ang palay",
+    "ur": "دھان کا کھیت؛ ایک سیراب یا پانی بھرا کھیت جہاں چاول اگایا جاتا ہے",
+    "vi": "Ruộng lúa; cánh đồng ngập nước hoặc được tưới tiêu để trồng lúa",
+    "zh": "稻田；种植水稻的水浇地或淹水农田",
+    "zh_Hant": "稻田；種植水稻的水澆地或淹水農田"
+  },
+  "definition_en": "Rice paddy; a flooded or irrigated field where rice is grown",
+  "romanization": "/naː³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ພໍ່ຂອງຂ້ອຍໄປເຮັດນາທຸກໆເຊົ້າ",
+      "romanization": "phaw khawng khoi pai het na thuk thuk sao",
+      "translation_en": "My dad goes to work the rice field every morning."
+    },
+    {
+      "lao_script": "ນາຂອງຄອບຄົວເຮົາຢູ່ໃກ້ໆແມ່ນ້ຳ",
+      "romanization": "na khawng khop khua hao yu kai kai mae nam",
+      "translation_en": "Our family's rice field is near the river."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a lush green rice paddy field with rows of rice plants growing in shallow water, a bright sunny sky in the background, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

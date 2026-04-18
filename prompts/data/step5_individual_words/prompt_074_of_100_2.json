@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແບ່ງ",
+  "definitions": {
+    "de": "Teilen, aufteilen, verteilen; etwas in Teile aufteilen oder mit anderen teilen",
+    "en": "To divide, share, or distribute; to split something into parts or share it with others",
+    "es": "Dividir, compartir, distribuir; separar algo en partes o compartirlo con otros",
+    "fr": "Diviser, partager, distribuer; séparer quelque chose en parties ou le partager avec d'autres",
+    "hi": "बाँटना, विभाजित करना, वितरित करना; किसी चीज़ को हिस्सों में बाँटना या दूसरों के साथ साझा करना",
+    "ja": "分ける、分割する、分配する；何かを部分に分けたり、他の人と共有したりする",
+    "km": "ចែករំលែក, បែងចែក, ចែកចាយ; ចែកអ្វីមួយជាផ្នែកៗ ឬចែករំលែកជាមួយអ្នកដទៃ",
+    "ko": "나누다, 분배하다, 공유하다; 무언가를 부분으로 나누거나 다른 사람과 함께 나누다",
+    "ne": "बाँड्नु, विभाजन गर्नु, वितरण गर्नु; कुनै चीज टुक्रामा बाँड्नु वा अरूसँग साझा गर्नु",
+    "pt": "Dividir, compartilhar, distribuir; separar algo em partes ou partilhar com outros",
+    "th": "แบ่ง, แบ่งปัน, แจกจ่าย; แยกบางสิ่งออกเป็นส่วนๆ หรือแบ่งให้ผู้อื่น",
+    "tl": "Hatiin, ibahagi, ipamahagi; paghiwalayin ang isang bagay sa mga bahagi o ibahagi sa iba",
+    "ur": "تقسیم کرنا، بانٹنا، تقسیم کرنا؛ کسی چیز کو حصوں میں تقسیم کرنا یا دوسروں کے ساتھ بانٹنا",
+    "vi": "Chia, phân chia, phân phối; tách cái gì đó thành các phần hoặc chia sẻ với người khác",
+    "zh": "分，分享，分配；将某物分成几份或与他人共享",
+    "zh_Hant": "分，分享，分配；將某物分成幾份或與他人共享"
+  },
+  "definition_en": "To divide, share, or distribute; to split something into parts or share it with others",
+  "romanization": "bɛːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາແບ່ງເຂົ້າກັນກິນເນາະ.",
+      "romanization": "hao bɛːŋ khao kan kin nɔ.",
+      "translation_en": "Let's share the food together, okay?"
+    },
+    {
+      "lao_script": "ຊ່ວຍແບ່ງເງິນໃຫ້ນ້ອງດ້ວຍໄດ້ບໍ?",
+      "romanization": "suai bɛːŋ ngən hai nɔːŋ duai dai bɔː?",
+      "translation_en": "Could you help share the money with my younger sibling too?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon children happily sharing a pizza, each holding a slice, clean white background, warm and friendly colors, minimalist style suitable for a language learning app."
+}

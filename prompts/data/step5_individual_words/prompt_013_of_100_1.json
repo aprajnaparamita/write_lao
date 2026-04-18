@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບ້ານ",
+  "definitions": {
+    "de": "Haus oder Dorf; ein Gebäude, in dem Menschen wohnen, oder eine kleine ländliche Gemeinschaft",
+    "en": "House or village; a building where people live, or a small rural community",
+    "es": "Casa o aldea; un edificio donde vive la gente, o una pequeña comunidad rural",
+    "fr": "Maison ou village; un bâtiment où les gens habitent, ou une petite communauté rurale",
+    "hi": "घर या गाँव; एक इमारत जहाँ लोग रहते हैं, या एक छोटा ग्रामीण समुदाय",
+    "ja": "家または村；人が住む建物、または小さな農村コミュニティ",
+    "km": "ផ្ទះ ឬភូមិ; អគារដែលមនុស្សរស់នៅ ឬសហគមន៍តូចមួយនៅជនបទ",
+    "ko": "집 또는 마을; 사람들이 사는 건물, 또는 작은 농촌 공동체",
+    "ne": "घर वा गाउँ; एउटा भवन जहाँ मानिसहरू बस्छन्, वा एउटा सानो ग्रामीण समुदाय",
+    "pt": "Casa ou aldeia; um edifício onde as pessoas moram, ou uma pequena comunidade rural",
+    "th": "บ้านหรือหมู่บ้าน; อาคารที่คนอาศัยอยู่ หรือชุมชนชนบทขนาดเล็ก",
+    "tl": "Bahay o nayon; isang gusali kung saan naninirahan ang mga tao, o isang maliit na komunidad sa kanayunan",
+    "ur": "گھر یا گاؤں؛ ایک عمارت جہاں لوگ رہتے ہیں، یا ایک چھوٹی دیہی برادری",
+    "vi": "Nhà hoặc làng; một tòa nhà nơi mọi người sinh sống, hoặc một cộng đồng nông thôn nhỏ",
+    "zh": "房子或村庄；人们居住的建筑物，或一个小型农村社区",
+    "zh_Hant": "房子或村莊；人們居住的建築物，或一個小型農村社區"
+  },
+  "definition_en": "House or village; a building where people live, or a small rural community",
+  "romanization": "bâan",
+  "lao_examples": [
+    {
+      "lao_script": "ບ້ານຂອງຂ້ອຍຢູ່ໃກ້ຕະຫຼາດ",
+      "romanization": "bâan khɔ̌ng khɔ̂i yùu glâi talàat",
+      "translation_en": "My house is near the market."
+    },
+    {
+      "lao_script": "ເຈົ້າຢູ່ບ້ານໃດ?",
+      "romanization": "jâo yùu bâan dâi?",
+      "translation_en": "Which village do you live in?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional Lao wooden house with a sloped roof surrounded by tropical trees, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

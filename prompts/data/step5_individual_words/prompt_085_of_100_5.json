@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປາວ",
+  "definitions": {
+    "de": "Ankündigen oder ausrufen; ein weniger gebräuchliches Verb, das das öffentliche Bekanntmachen von etwas beschreibt",
+    "en": "To announce or proclaim; a less common verb describing the act of making something known publicly or loudly",
+    "es": "Anunciar o proclamar; un verbo menos común que describe el acto de hacer algo conocido públicamente o en voz alta",
+    "fr": "Annoncer ou proclamer; un verbe moins courant décrivant l'acte de rendre quelque chose connu publiquement ou à voix haute",
+    "hi": "घोषणा करना या प्रचार करना; एक कम सामान्य क्रिया जो किसी बात को सार्वजनिक रूप से या जोर से बताने की क्रिया का वर्णन करती है",
+    "ja": "発表する、宣言する；何かを公に、または大声で知らせる行為を表す比較的珍しい動詞",
+    "km": "ប្រកាស ឬអំពាវនាវ; ជាកិរិយាស័ព្ទដែលប្រើតិចជាងគេ ពិពណ៌នាអំពីការធ្វើឱ្យមានការដឹងជាសាធារណៈ ឬឮឮ",
+    "ko": "발표하다 또는 선언하다; 무언가를 공개적으로 또는 크게 알리는 행위를 묘사하는 덜 일반적인 동사",
+    "ne": "घोषणा गर्नु वा प्रचार गर्नु; कुनै कुरा सार्वजनिक रूपमा वा ठूलो स्वरमा जानकारी गराउने कार्यलाई वर्णन गर्ने कम सामान्य क्रिया",
+    "pt": "Anunciar ou proclamar; um verbo menos comum que descreve o ato de tornar algo conhecido publicamente ou em voz alta",
+    "th": "ประกาศหรือบอกกล่าว; กริยาที่ใช้น้อย หมายถึงการทำให้สิ่งใดสิ่งหนึ่งเป็นที่รู้จักต่อสาธารณะหรืออย่างดัง",
+    "tl": "Mag-anunsyo o mag-proklamasyon; isang hindi karaniwang pandiwa na naglalarawan ng pagpapaalam ng isang bagay sa publiko o malakas",
+    "ur": "اعلان کرنا یا منادی کرنا؛ ایک کم عام فعل جو کسی بات کو عوامی طور پر یا اونچی آواز میں بتانے کے عمل کو بیان کرتا ہے",
+    "vi": "Thông báo hoặc tuyên bố; một động từ ít phổ biến hơn mô tả hành động làm cho điều gì đó được biết đến công khai hoặc to tiếng",
+    "zh": "宣布或宣告；一个较少见的动词，描述公开或大声告知某事的行为",
+    "zh_Hant": "宣布或宣告；一個較少見的動詞，描述公開或大聲告知某事的行為"
+  },
+  "definition_en": "To announce or proclaim; a less common verb describing the act of making something known publicly or loudly",
+  "romanization": "páːw",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວປາວໃຫ້ທຸກຄົນຮູ້ຂ່າວດີ",
+      "romanization": "láːw páːw hâj tʰúk kʰon húː kʰào díː",
+      "translation_en": "He/She announced the good news to everyone."
+    },
+    {
+      "lao_script": "ປາວໃຫ້ຮູ້ກ່ອນ ບໍ່ດັ່ງນັ້ນຄົນບໍ່ມາ",
+      "romanization": "páːw hâj húː kɔ̀ːn, bɔ̀ daŋ nan kʰon bɔ̀ maː",
+      "translation_en": "Announce it beforehand, otherwise people won't come."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person using a megaphone or loudspeaker to make a public announcement, with small sound waves coming out, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

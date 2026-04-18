@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂທ",
+  "definitions": {
+    "de": "anrufen; jemanden per Telefon kontaktieren",
+    "en": "to call; to contact someone by phone",
+    "es": "llamar; contactar a alguien por teléfono",
+    "fr": "appeler ; contacter quelqu'un par téléphone",
+    "hi": "फ़ोन करना; किसी को फ़ोन द्वारा संपर्क करना",
+    "ja": "電話する；電話で誰かに連絡する",
+    "km": "ហៅទូរស័ព្ទ; ទំនាក់ទំនងនរណាម្នាក់តាមទូរស័ព្ទ",
+    "ko": "전화하다; 전화로 누군가에게 연락하다",
+    "ne": "फोन गर्नु; कसैलाई फोनमार्फत सम्पर्क गर्नु",
+    "pt": "ligar; contatar alguém por telefone",
+    "th": "โทร; ติดต่อใครบางคนทางโทรศัพท์",
+    "tl": "tumawag; makipag-ugnayan sa isang tao sa pamamagitan ng telepono",
+    "ur": "فون کرنا؛ کسی کو فون کے ذریعے رابطہ کرنا",
+    "vi": "gọi điện; liên lạc với ai đó qua điện thoại",
+    "zh": "打电话；通过电话联系某人",
+    "zh_Hant": "打電話；透過電話聯繫某人"
+  },
+  "definition_en": "to call; to contact someone by phone",
+  "romanization": "thoo",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໂທຫາຂ້ອຍໄດ້ເລີຍ",
+      "romanization": "jâo thoo haa khɔ̂i dâi ləəi",
+      "translation_en": "You can just call me anytime."
+    },
+    {
+      "lao_script": "ຂ້ອຍໂທຫາເຈົ້າມາຕະຫຼອດແຕ່ບໍ່ຮັບ",
+      "romanization": "khɔ̂i thoo haa jâo maa talɔ̀ɔt tɛɛ bɔ̀ hap",
+      "translation_en": "I kept calling you but you didn't pick up."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person holding a smartphone to their ear and smiling while making a phone call, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

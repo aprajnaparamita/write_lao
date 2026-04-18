@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດ້ອຍ",
+  "definitions": {
+    "de": "Minderwertig, unterlegen oder von geringerer Qualität; bezeichnet auch einen kleinen Hügel oder eine Erhebung im Gelände",
+    "en": "Inferior, lesser, or of lower quality/status; can also refer to a small hill or mound",
+    "es": "Inferior, menor o de menor calidad/estatus; también puede referirse a una pequeña colina o montículo",
+    "fr": "Inférieur, moindre ou de moindre qualité/statut; peut aussi désigner une petite colline ou butte",
+    "hi": "निम्न, कमतर, या कम गुणवत्ता/दर्जे का; एक छोटी पहाड़ी या टीले को भी संदर्भित कर सकता है",
+    "ja": "劣った、低い、または質や地位が低いこと；小さな丘や塚を指すこともある",
+    "km": "ទាបជាង, ថោកជាង ឬមានគុណភាព/ឋានៈទាប; អាចសំដៅទៅលើភ្នំតូចឬទំនប់ដីផងដែរ",
+    "ko": "열등한, 더 낮은, 또는 질/지위가 낮은; 작은 언덕이나 둔덕을 가리키기도 함",
+    "ne": "निम्न, कमजोर, वा कम गुणस्तर/हैसियतको; सानो पहाड वा टिला पनि बुझाउन सक्छ",
+    "pt": "Inferior, menor ou de menor qualidade/status; também pode se referir a uma pequena colina ou montículo",
+    "th": "ด้อย; ต่ำกว่า ด้อยกว่า หรือมีคุณภาพ/สถานะต่ำกว่า; ยังสามารถหมายถึงเนินเขาเล็กๆ ได้",
+    "tl": "Mababa, mas maba o may mas mababang kalidad/katayuan; maaari ding tumukoy sa isang maliit na burol",
+    "ur": "کمتر، ادنیٰ، یا کم معیار/حیثیت کا؛ ایک چھوٹی پہاڑی یا ٹیلے کو بھی ظاہر کر سکتا ہے",
+    "vi": "Kém hơn, thấp kém hơn, hoặc có chất lượng/địa vị thấp hơn; cũng có thể chỉ một ngọn đồi nhỏ",
+    "zh": "低劣的、较差的或质量/地位较低的；也可以指一个小山丘或土堆",
+    "zh_Hant": "低劣的、較差的或質量/地位較低的；也可以指一個小山丘或土堆"
+  },
+  "definition_en": "Inferior, lesser, or of lower quality/status; can also refer to a small hill or mound",
+  "romanization": "/dɔːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ສິນຄ້ານີ້ດ້ອຍກວ່າອັນທີ່ຂ້ອຍຊື້ຄັ້ງກ່ອນ",
+      "romanization": "sin-kha ni doi kwaa an thi khoi sue khang gon",
+      "translation_en": "This product is inferior to what I bought last time"
+    },
+    {
+      "lao_script": "ຢ່າຄິດວ່າຕົວເອງດ້ອຍກວ່າຄົນອື່ນ",
+      "romanization": "yaa khit waa tua-eng doi kwaa khon eun",
+      "translation_en": "Don't think that you are inferior to others"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two items side by side: one labeled as higher quality (bright, shiny, with a star) and one labeled as lower quality (dull, cracked, with a downward arrow), suitable for illustrating the concept of inferiority, clean white background, minimalist colorful style for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສາມ",
+  "definitions": {
+    "de": "drei; die Zahl 3",
+    "en": "three; the number 3",
+    "es": "tres; el número 3",
+    "fr": "trois ; le chiffre 3",
+    "hi": "तीन; संख्या 3",
+    "ja": "三、3；数字の3",
+    "km": "បី; លេខ 3",
+    "ko": "셋, 3; 숫자 3",
+    "ne": "तीन; संख्या ३",
+    "pt": "três; o número 3",
+    "th": "สาม; ตัวเลข 3",
+    "tl": "tatlo; ang bilang na 3",
+    "ur": "تین؛ عدد 3",
+    "vi": "ba; số 3",
+    "zh": "三；数字3",
+    "zh_Hant": "三；數字3"
+  },
+  "definition_en": "three; the number 3",
+  "romanization": "saːm³³",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍມີໝາສາມໂຕ",
+      "romanization": "kʰɔːj miː maː saːm toː",
+      "translation_en": "I have three dogs."
+    },
+    {
+      "lao_script": "ລໍຖ້າສາມນາທີກ່ອນເດີ້",
+      "romanization": "lɔː tʰaː saːm naː tiː kɔːn dəː",
+      "translation_en": "Just wait three minutes first."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the number 3 displayed prominently in bold, with three colorful stars or apples arranged below it to visually represent the quantity, suitable for a language learning app, clean white background, minimalist style."
+}

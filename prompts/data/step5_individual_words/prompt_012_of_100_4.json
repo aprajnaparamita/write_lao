@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຮັດ",
+  "definitions": {
+    "de": "Tun/machen; ein allgemeines Verb für das Ausführen oder Herstellen von etwas",
+    "en": "To do/to make; a general-purpose verb used for performing actions or creating things",
+    "es": "Hacer; verbo de uso general para realizar acciones o crear cosas",
+    "fr": "Faire; verbe polyvalent utilisé pour effectuer des actions ou créer des choses",
+    "hi": "करना/बनाना; एक सामान्य क्रिया जो कार्य करने या वस्तु बनाने के लिए उपयोग की जाती है",
+    "ja": "する/作る；行動を行ったり何かを作ったりするための汎用動詞",
+    "km": "ធ្វើ; កិរិយាសព្ទទូទៅសម្រាប់ការបំពេញសកម្មភាព ឬការបង្កើតអ្វីមួយ",
+    "ko": "하다/만들다; 행동을 수행하거나 무언가를 만드는 데 사용하는 일반 동사",
+    "ne": "गर्नु/बनाउनु; कार्य गर्न वा वस्तु बनाउनका लागि प्रयोग गरिने सामान्य क्रिया",
+    "pt": "Fazer; verbo geral usado para realizar ações ou criar coisas",
+    "th": "ทำ; กริยาทั่วไปที่ใช้สำหรับการปฏิบัติการหรือการสร้างสิ่งต่าง ๆ",
+    "tl": "Gumawa/gawin; isang pangkalahatang pandiwa na ginagamit para sa pagsasagawa ng mga gawain o paglikha ng mga bagay",
+    "ur": "کرنا/بنانا؛ ایک عام فعل جو کام انجام دینے یا چیز بنانے کے لیے استعمال ہوتا ہے",
+    "vi": "Làm/tạo ra; động từ đa năng dùng để thực hiện hành động hoặc tạo ra thứ gì đó",
+    "zh": "做/制作；用于执行动作或创造事物的通用动词",
+    "zh_Hant": "做/製作；用於執行動作或創造事物的通用動詞"
+  },
+  "definition_en": "To do/to make; a general-purpose verb used for performing actions or creating things",
+  "romanization": "/héːt⁵/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ເຈົ້າເຮັດຫຍັງຢູ່?",
+      "romanization": "mueh nih jao het nyang yuu?",
+      "translation_en": "What are you doing today?"
+    },
+    {
+      "lao_script": "ເຮັດວຽກຫຼາຍໆ ຢ່າລືມກິນເຂົ້າ",
+      "romanization": "het wiak laai laai, yaa leum gin khao",
+      "translation_en": "Even if you work a lot, don't forget to eat."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person using their hands to build or assemble something, with tools nearby, expressing the concept of doing or making, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

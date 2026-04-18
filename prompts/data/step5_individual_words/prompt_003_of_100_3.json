@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນີ້",
+  "definitions": {
+    "de": "dies/dieser/diese/dieses (nahes Demonstrativpronomen)",
+    "en": "this (proximal demonstrative)",
+    "es": "este/esta/esto (demostrativo cercano)",
+    "fr": "ce/cette/ceci (démonstratif de proximité)",
+    "hi": "यह (निकटवाचक सर्वनाम)",
+    "ja": "これ／この（近称指示詞）",
+    "km": "នេះ (សព្វនាមចង្អុលបង្ហាញវត្ថុនៅជិត)",
+    "ko": "이／이것 (근칭 지시사)",
+    "ne": "यो (नजिकको संकेतवाचक)",
+    "pt": "este/esta/isto (demonstrativo próximo)",
+    "th": "นี้／นี่ (สรรพนามชี้เฉพาะใกล้)",
+    "tl": "ito／itong (panturong panghalip na malapit)",
+    "ur": "یہ (قریب کا اشاری ضمیر)",
+    "vi": "này (đại từ chỉ gần)",
+    "zh": "这／这个（近指指示代词）",
+    "zh_Hant": "這／這個（近指指示代詞）"
+  },
+  "definition_en": "this (proximal demonstrative)",
+  "romanization": "nîː",
+  "lao_examples": [
+    {
+      "lao_script": "ບ້ານ ນີ້ ງາມ ຫຼາຍ",
+      "romanization": "bâːn nîː ŋáːm lǎːj",
+      "translation_en": "This house is very beautiful."
+    },
+    {
+      "lao_script": "ເຈົ້າ ເອົາ ນີ້ ໄປ ໃຫ້ ແມ່",
+      "romanization": "càw ʔàw nîː pàj hȁj mɛ̄ː",
+      "translation_en": "Take this to Mom."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a pointing index finger aimed at a nearby object, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

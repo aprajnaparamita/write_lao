@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫົງ",
+  "definitions": {
+    "de": "Reis kochen (in einem Topf dämpfen oder kochen); Grundkochvorgang in der laotischen Küche",
+    "en": "To cook rice (by steaming or boiling); a fundamental cooking action in Lao cuisine",
+    "es": "Cocinar arroz (al vapor o hervido); una acción culinaria fundamental en la cocina laosiana",
+    "fr": "Cuire le riz (à la vapeur ou à l'eau bouillante); une action culinaire fondamentale dans la cuisine laotienne",
+    "hi": "चावल पकाना (भाप में या उबालकर); लाओ खाना पकाने की एक मूल क्रिया",
+    "ja": "ご飯を炊く（蒸すまたは茹でる）；ラオス料理の基本的な調理行為",
+    "km": "ដាំបាយ (ដោយចំហុយឬដាំ); ដំណើរការចម្អិនអាហារជាមូលដ្ឋាននៅក្នុងម្ហូបឡាវ",
+    "ko": "밥을 짓다 (쪄서 또는 삶아서); 라오 요리의 기본 조리 행위",
+    "ne": "भात पकाउनु (भाफमा वा उमालेर); लाओ खानामा आधारभूत खाना पकाउने क्रिया",
+    "pt": "Cozinhar arroz (no vapor ou fervendo); uma ação culinária fundamental na cozinha laosiana",
+    "th": "หุงข้าว (นึ่งหรือต้ม); การกระทำที่พื้นฐานในการทำอาหารลาว",
+    "tl": "Magluto ng kanin (sa singaw o pagpapakulo); isang pangunahing gawaing pagluluto sa lutuing Lao",
+    "ur": "چاول پکانا (بھاپ میں یا ابال کر)؛ لاؤ کھانے میں ایک بنیادی کھانا پکانے کا عمل",
+    "vi": "Nấu cơm (bằng hơi hoặc luộc); một hành động nấu ăn cơ bản trong ẩm thực Lào",
+    "zh": "煮饭（蒸或煮）；老挝烹饪中的基本烹调动作",
+    "zh_Hant": "煮飯（蒸或煮）；寮國烹飪中的基本烹調動作"
+  },
+  "definition_en": "To cook rice (by steaming or boiling); a fundamental cooking action in Lao cuisine",
+  "romanization": "/hoŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ກຳລັງຫົງເຂົ້າຢູ່ໃນເຮືອນຄົວ",
+      "romanization": "mae gam-lang hong khao yu nai huan khua",
+      "translation_en": "Mom is cooking rice in the kitchen right now."
+    },
+    {
+      "lao_script": "ຫົງເຂົ້າໃຫ້ໝົດກ່ອນໄປ",
+      "romanization": "hong khao hai mot gon pai",
+      "translation_en": "Finish cooking the rice before you go."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a steaming pot of rice being cooked on a stove, with visible steam rising from the pot, on a clean white background, warm colors, minimalist cartoon style suitable for a language learning app."
+}

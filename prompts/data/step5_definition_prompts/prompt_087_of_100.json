@@ -1,0 +1,396 @@
+{
+  "ໝັ້ນ": {
+    "definitions": {
+      "de": "Fest, entschlossen, sicher; auch: verlobt (in einer festen Beziehung)",
+      "en": "Firm, steadfast, certain; also used to mean engaged (as in betrothed)",
+      "es": "Firme, decidido, seguro; también se usa para indicar que alguien está comprometido (prometido en matrimonio)",
+      "fr": "Ferme, résolu, certain; aussi utilisé pour dire fiancé(e) ou engagé(e) dans une relation",
+      "hi": "दृढ़, स्थिर, निश्चित; इसका उपयोग सगाई (मंगेतर) के अर्थ में भी होता है",
+      "ja": "しっかりしている、確固とした、確かな；婚約しているという意味でも使われる",
+      "km": "រឹងមាំ, ស្ថិតស្ថេរ, ប្រាកដ; ក៏ប្រើដើម្បីបញ្ជាក់ថាបានដណ្តឹងគ្នាផងដែរ",
+      "ko": "확고한, 굳건한, 확실한; 약혼했다는 의미로도 사용됨",
+      "ne": "दृढ़, स्थिर, निश्चित; सगाई भएको (मंगल सूत्र) भन्ने अर्थमा पनि प्रयोग हुन्छ",
+      "pt": "Firme, resoluto, certo; também usado para indicar noivado (comprometido em casamento)",
+      "th": "มั่นคง, แน่วแน่, แน่ใจ; ยังใช้ในความหมายว่าหมั้นหมาย (คู่หมั้น) ด้วย",
+      "tl": "Matatag, matibay, tiyak; ginagamit din para sabihing katipan (nakatakdang ikasal)",
+      "ur": "مضبوط، پختہ، یقینی؛ منگنی (نامزد) کے مفہوم میں بھی استعمال ہوتا ہے",
+      "vi": "Vững chắc, kiên định, chắc chắn; cũng dùng để chỉ đã đính hôn (đã đính ước)",
+      "zh": "坚定的，稳固的，确定的；也用于表示已订婚（未婚夫/妻）",
+      "zh_Hant": "堅定的，穩固的，確定的；也用於表示已訂婚（未婚夫/妻）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/man˥˩/",
+    "examples": [
+      {
+        "lao_script": "ເຂົາເຈົ້າໝັ້ນກັນແລ້ວ ຍິ້ມດີຫຼາຍ",
+        "romanization": "khao jao man kan laew, yim di lai",
+        "translations": {
+          "de": "Die beiden sind jetzt verlobt – sie lächeln so schön.",
+          "en": "They're engaged now – they're smiling so happily.",
+          "es": "Ellos ya están comprometidos, se les ve muy sonrientes.",
+          "fr": "Ils sont maintenant fiancés – ils sourient tellement.",
+          "hi": "वे दोनों अब सगाई कर चुके हैं – कितनी खुशी से मुस्कुरा रहे हैं।",
+          "ja": "あの二人はもう婚約したんだって。すごく嬉しそうに笑ってるよ。",
+          "km": "ពួកគេបានដណ្តឹងគ្នារួចហើយ – ញញឹមសប្បាយណាស់",
+          "ko": "그들은 이제 약혼했어 – 정말 행복하게 웃고 있잖아.",
+          "ne": "उनीहरू अब सगाई गरिसके – कति खुशीले मुस्कुराइरहेका छन्।",
+          "pt": "Eles já estão noivos – estão sorrindo muito felizes.",
+          "th": "พวกเขาหมั้นกันแล้ว ยิ้มดีมากเลย",
+          "tl": "Mag-katipan na sila ngayon – ngingiti silang masaya.",
+          "ur": "وہ اب منگنی کر چکے ہیں – کتنی خوشی سے مسکرا رہے ہیں۔",
+          "vi": "Họ đã đính hôn rồi – cười tươi lắm.",
+          "zh": "他们已经订婚了，笑得好开心。",
+          "zh_Hant": "他們已經訂婚了，笑得好開心。"
+        },
+        "out_of_scope_words": [
+          "ຍິ້ມ"
+        ]
+      },
+      {
+        "lao_script": "ໃຈຂອງລາວໝັ້ນຫຼາຍ ບໍ່ຫວັ່ນໄຫວເລີຍ",
+        "romanization": "jai khong lao man lai, bo wan wai loei",
+        "translations": {
+          "de": "Sein Herz ist sehr fest – er lässt sich überhaupt nicht erschüttern.",
+          "en": "His heart is very firm – he doesn't waver at all.",
+          "es": "Su corazón es muy firme, no vacila en absoluto.",
+          "fr": "Son cœur est très ferme – il ne vacille pas du tout.",
+          "hi": "उसका मन बहुत दृढ़ है – वह बिल्कुल भी डगमगाता नहीं।",
+          "ja": "彼の心はとても強くて、全く揺れない。",
+          "km": "ចិត្តរបស់គាត់រឹងមាំណាស់ – មិនញ័រញ័រទេ",
+          "ko": "그의 마음은 매우 굳건해 – 전혀 흔들리지 않아.",
+          "ne": "उसको मन धेरै दृढ़ छ – एकदम डगमगाउँदैन।",
+          "pt": "O coração dele é muito firme – ele não vacila nem um pouco.",
+          "th": "ใจของเขามั่นมาก ไม่หวั่นไหวเลย",
+          "tl": "Ang kanyang puso ay napakatatag – hindi siya natitinag.",
+          "ur": "اس کا دل بہت پختہ ہے – ذرا بھی نہیں ڈگمگاتا۔",
+          "vi": "Lòng anh ấy rất kiên định – không hề lung lay.",
+          "zh": "他的心很坚定，一点都不动摇。",
+          "zh_Hant": "他的心很堅定，一點都不動搖。"
+        },
+        "out_of_scope_words": [
+          "ຫວັ່ນໄຫວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a couple wearing traditional Lao engagement bracelets, smiling and holding hands, clean white background, warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄາ": {
+    "definitions": {
+      "de": "Galgant (Alpinia galanga); eine aromatische Wurzel, die in der südostasiatischen Küche als Gewürz verwendet wird",
+      "en": "Galangal (Alpinia galanga); an aromatic root used as a spice in Southeast Asian cooking",
+      "es": "Galanga (Alpinia galanga); una raíz aromática usada como especia en la cocina del sudeste asiático",
+      "fr": "Galanga (Alpinia galanga); une racine aromatique utilisée comme épice dans la cuisine du Sud-Est asiatique",
+      "hi": "गलंगल (Alpinia galanga); दक्षिण-पूर्व एशियाई खाना पकाने में मसाले के रूप में उपयोग की जाने वाली एक सुगंधित जड़",
+      "ja": "ガランガル（Alpinia galanga）；東南アジア料理でスパイスとして使われる香り高い根",
+      "km": "ខ្ទឹមទឹក (Alpinia galanga); ឫស្សីមានក្លិនក្រអូបដែលប្រើជាគ្រឿងទេសក្នុងការចម្អិនអាហារអាស៊ីអាគ្នេយ៍",
+      "ko": "갈랑갈(Alpinia galanga); 동남아시아 요리에서 향신료로 사용되는 향기로운 뿌리",
+      "ne": "गलंगल (Alpinia galanga); दक्षिण-पूर्व एसियाली खाना पकाउनमा मसलाको रूपमा प्रयोग गरिने एक सुगन्धित जरा",
+      "pt": "Galanga (Alpinia galanga); uma raiz aromática usada como tempero na culinária do Sudeste Asiático",
+      "th": "ข่า (Alpinia galanga); รากหอมที่ใช้เป็นเครื่องเทศในการทำอาหารเอเชียตะวันออกเฉียงใต้",
+      "tl": "Galangal (Alpinia galanga); isang mabangong ugat na ginagamit bilang pampalasa sa lutong Timog-Silangang Asya",
+      "ur": "گالنگل (Alpinia galanga)؛ ایک خوشبودار جڑ جو جنوب مشرقی ایشیا کے کھانوں میں مصالحے کے طور پر استعمال ہوتی ہے",
+      "vi": "Riềng (Alpinia galanga); một loại rễ thơm dùng làm gia vị trong ẩm thực Đông Nam Á",
+      "zh": "高良姜（Alpinia galanga）；一种用于东南亚烹饪中的香料根茎",
+      "zh_Hant": "高良薑（Alpinia galanga）；一種用於東南亞烹飪中的香料根莖"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kʰaː˧/",
+    "examples": [
+      {
+        "lao_script": "ເອົາຄາໃສ່ແກງດ້ວຍເນາະ ໃຫ້ຫອມດີ",
+        "romanization": "ao kha sai kaeng duay no, hai hom di",
+        "translations": {
+          "de": "Tu auch Galgant in die Suppe, damit sie schön duftet.",
+          "en": "Put some galangal in the curry too, so it smells nice.",
+          "es": "Pon galanga en el curry también, para que huela bien.",
+          "fr": "Mets aussi de la galanga dans le curry pour qu'il sente bon.",
+          "hi": "करी में गलंगल भी डालो, ताकि खुशबू आए।",
+          "ja": "カレーにガランガルも入れてね、いい香りになるから。",
+          "km": "ដាក់ខ្ទឹមទឹកក្នុងទឹកជ្រលក់ផងដែរ ឱ្យក្រអូប",
+          "ko": "카레에 갈랑갈도 넣어, 향이 좋아질 거야.",
+          "ne": "करीमा गलंगल पनि हाल्नुस् न, राम्रो सुगन्ध आउँछ।",
+          "pt": "Coloca galanga no curry também, para cheirar bem.",
+          "th": "เอาข่าใส่แกงด้วยนะ จะได้หอมดี",
+          "tl": "Lagyan mo rin ng galangal ang kari para mabango.",
+          "ur": "سالن میں گالنگل بھی ڈالو تاکہ خوشبو آئے۔",
+          "vi": "Cho riềng vào cà ri nữa nhé, thơm lắm.",
+          "zh": "咖喱里也放点高良姜，这样香味更好。",
+          "zh_Hant": "咖哩裡也放點高良薑，這樣香味更好。"
+        },
+        "out_of_scope_words": [
+          "ແກງ",
+          "ຫອມ"
+        ]
+      },
+      {
+        "lao_script": "ຮ້ານນີ້ຂາຍຄາສົດ ລາຄາຖືກດີ",
+        "romanization": "han ni khai kha sod, la kha theuk di",
+        "translations": {
+          "de": "Dieser Laden verkauft frischen Galgant – zu einem guten Preis.",
+          "en": "This shop sells fresh galangal at a good price.",
+          "es": "Esta tienda vende galanga fresca a buen precio.",
+          "fr": "Ce magasin vend de la galanga fraîche à bon prix.",
+          "hi": "यह दुकान ताजा गलंगल बेचती है, अच्छे दाम पर।",
+          "ja": "このお店では新鮮なガランガルを安く売っているよ。",
+          "km": "ហាងនេះលក់ខ្ទឹមទឹកស្រស់ ថ្លៃសមហេតុផល",
+          "ko": "이 가게는 신선한 갈랑갈을 저렴하게 팔아.",
+          "ne": "यो पसलमा ताजा गलंगल राम्रो दाममा बेचिन्छ।",
+          "pt": "Esta loja vende galanga fresca a um bom preço.",
+          "th": "ร้านนี้ขายข่าสด ราคาถูกดี",
+          "tl": "Nagbebenta ang tindahang ito ng sariwang galangal sa magandang presyo.",
+          "ur": "یہ دکان تازہ گالنگل اچھی قیمت پر بیچتی ہے۔",
+          "vi": "Cửa hàng này bán riềng tươi, giá rẻ lắm.",
+          "zh": "这家店卖新鲜的高良姜，价格实惠。",
+          "zh_Hant": "這家店賣新鮮的高良薑，價格實惠。"
+        },
+        "out_of_scope_words": [
+          "ສົດ",
+          "ລາຄາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of fresh galangal root on a clean white background, showing the knobbly beige-pink root with a few green leaves, minimalist style suitable for a language learning app, bright and colorful.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄົມ": {
+    "definitions": {
+      "de": "Scharf (z. B. ein Messer oder eine Klinge); auch übertragen: scharfsinnig, klug",
+      "en": "Sharp (as in a blade or knife); also used figuratively to mean clever or sharp-minded",
+      "es": "Afilado (como un cuchillo o una hoja); también se usa figurativamente para indicar inteligente o agudo",
+      "fr": "Tranchant, aiguisé (comme une lame ou un couteau); aussi utilisé figurativement pour dire intelligent ou perspicace",
+      "hi": "तेज़ धार (जैसे चाकू या ब्लेड); अलंकारिक रूप से चतुर या तीक्ष्ण बुद्धि के लिए भी उपयोग",
+      "ja": "鋭い（刃やナイフなど）；比喩的に頭が切れるという意味でも使われる",
+      "km": "មុត (ដូចដាវ ឬកាំបិត); ក៏ប្រើក្នុងន័យប្រៀបផ្ទឹមថា똑智ាស់ ឬប៉ិនប្រសប់",
+      "ko": "날카로운 (칼날처럼); 비유적으로 영리하거나 예리한 의미로도 사용됨",
+      "ne": "धारिलो (जस्तै चाकु वा ब्लेड); अलंकारिक रूपमा चतुर वा तीक्ष्ण बुद्धि भन्ने अर्थमा पनि प्रयोग",
+      "pt": "Afiado (como uma faca ou lâmina); também usado figurativamente para indicar esperto ou perspicaz",
+      "th": "คม (เช่น มีดหรือใบมีด); ใช้ในความหมายเปรียบเทียบว่าฉลาดหรือแหลมคมด้วย",
+      "tl": "Matalas (tulad ng talim o kutsilyo); ginagamit din sa makabagong kahulugan na matalino o matalinong isipan",
+      "ur": "تیز دھار (جیسے چاقو یا بلیڈ)؛ مجازی طور پر ذہین یا تیز فہم کے لیے بھی استعمال",
+      "vi": "Sắc bén (như dao hoặc lưỡi dao); cũng dùng theo nghĩa bóng để chỉ thông minh, sắc sảo",
+      "zh": "锋利的（如刀刃）；也比喻思维敏锐、聪明",
+      "zh_Hant": "鋒利的（如刀刃）；也比喻思維敏銳、聰明"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/kʰom˧/",
+    "examples": [
+      {
+        "lao_script": "ມີດນີ້ຄົມຫຼາຍ ລະວັງຈ່ໍ",
+        "romanization": "mid ni khom lai, la wang jo",
+        "translations": {
+          "de": "Dieses Messer ist sehr scharf – pass auf!",
+          "en": "This knife is very sharp – be careful!",
+          "es": "Este cuchillo está muy afilado, ¡ten cuidado!",
+          "fr": "Ce couteau est très tranchant – fais attention !",
+          "hi": "यह चाकू बहुत तेज़ है – सावधान रहो!",
+          "ja": "このナイフはとても鋭いよ – 気をつけて！",
+          "km": "កាំបិតនេះមុតណាស់ – ប្រយ័ត្នផង!",
+          "ko": "이 칼은 매우 날카로워 – 조심해!",
+          "ne": "यो चाकू धेरै धारिलो छ – सावधान!",
+          "pt": "Esta faca está muito afiada – cuidado!",
+          "th": "มีดนี้คมมาก ระวังด้วยนะ",
+          "tl": "Napaka-talas ng kutsilyo na ito – mag-ingat!",
+          "ur": "یہ چاقو بہت تیز ہے – سنبھل کر!",
+          "vi": "Con dao này sắc lắm – cẩn thận nhé!",
+          "zh": "这把刀很锋利——小心！",
+          "zh_Hant": "這把刀很鋒利——小心！"
+        },
+        "out_of_scope_words": [
+          "ມີດ",
+          "ລະວັງ"
+        ]
+      },
+      {
+        "lao_script": "ເດັກນ້ອຍຄົນນັ້ນຄົມຫຼາຍ ຮຽນດີທຸກວິຊາ",
+        "romanization": "dek noi khon nan khom lai, hian di thuk wicha",
+        "translations": {
+          "de": "Dieses Kind ist sehr klug – es ist in allen Fächern gut.",
+          "en": "That child is very sharp – they do well in every subject.",
+          "es": "Ese niño es muy listo, es bueno en todas las materias.",
+          "fr": "Cet enfant est très intelligent – il réussit dans toutes les matières.",
+          "hi": "वह बच्चा बहुत चतुर है – हर विषय में अच्छा करता है।",
+          "ja": "あの子はとても頭が切れて、全教科できるよ。",
+          "km": "កុមារនោះឆ្លាតណាស់ – រៀនបានល្អគ្រប់មុខវិជ្ជា",
+          "ko": "저 아이는 정말 영리해 – 모든 과목을 잘해.",
+          "ne": "त्यो बच्चा धेरै तीक्ष्ण छ – सबै विषयमा राम्रो गर्छ।",
+          "pt": "Aquela criança é muito esperta – vai bem em todas as matérias.",
+          "th": "เด็กคนนั้นฉลาดมาก เรียนดีทุกวิชา",
+          "tl": "Napaka-talino ng batang iyon – magaling sa lahat ng asignatura.",
+          "ur": "وہ بچہ بہت ذہین ہے – ہر مضمون میں اچھا کرتا ہے۔",
+          "vi": "Đứa trẻ đó rất thông minh – học giỏi tất cả các môn.",
+          "zh": "那个孩子很聪明——每门功课都很好。",
+          "zh_Hant": "那個孩子很聰明——每門功課都很好。"
+        },
+        "out_of_scope_words": [
+          "ເດັກນ້ອຍ",
+          "ຮຽນ",
+          "ວິຊາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a sharp kitchen knife with a gleaming blade on a clean white background, with a small shine effect on the edge to indicate sharpness, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປົກ": {
+    "definitions": {
+      "de": "Bedecken, abdecken; auch: regieren, verwalten (ein Land oder Gebiet)",
+      "en": "To cover (something); also to govern or rule (a country or area)",
+      "es": "Cubrir (algo); también gobernar o administrar (un país o área)",
+      "fr": "Couvrir (quelque chose); aussi gouverner ou administrer (un pays ou une région)",
+      "hi": "ढकना (कुछ); किसी देश या क्षेत्र पर शासन करना",
+      "ja": "覆う、かぶせる；また統治する、治める（国や地域を）",
+      "km": "គ្របដណ្តប់ (អ្វីមួយ); ក៏ដឹកនាំ ឬគ្រប់គ្រង (ប្រទេស ឬតំបន់) ផងដែរ",
+      "ko": "덮다, 가리다; 또한 (나라나 지역을) 통치하다, 지배하다",
+      "ne": "ढाक्नु (कुनै चीज); कुनै देश वा क्षेत्र शासन गर्नु वा नियन्त्रण गर्नु",
+      "pt": "Cobrir (algo); também governar ou administrar (um país ou área)",
+      "th": "ปกคลุม, คลุม; ยังหมายถึงปกครอง (ประเทศหรือพื้นที่)",
+      "tl": "Takpan (ang isang bagay); pamamahala o pag-govern (ng isang bansa o lugar)",
+      "ur": "ڈھانپنا (کوئی چیز)؛ کسی ملک یا علاقے پر حکومت کرنا",
+      "vi": "Che phủ, đậy lên (cái gì đó); cũng có nghĩa là cai trị, quản lý (một quốc gia hoặc vùng đất)",
+      "zh": "覆盖（某物）；也指统治、管辖（一个国家或地区）",
+      "zh_Hant": "覆蓋（某物）；也指統治、管轄（一個國家或地區）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pok˧/",
+    "examples": [
+      {
+        "lao_script": "ເອົາຜ້າປົກເຂົ້າໄວ້ ບໍ່ໃຫ້ແມງວັນຕອມ",
+        "romanization": "ao pha pok khao wai, bo hai maeng wan tom",
+        "translations": {
+          "de": "Deck das Essen mit einem Tuch ab, damit keine Fliegen draufkommen.",
+          "en": "Cover the rice with a cloth so flies don't get on it.",
+          "es": "Cubre el arroz con una tela para que las moscas no se pongan encima.",
+          "fr": "Couvre le riz avec un tissu pour que les mouches ne s'y posent pas.",
+          "hi": "चावल को कपड़े से ढक दो ताकि मक्खियाँ न बैठें।",
+          "ja": "ご飯に布をかぶせておいて、ハエが集まらないように。",
+          "km": "យកកម្រាលគ្របបាយទុក កុំឱ្យចៃតោម",
+          "ko": "밥에 천을 덮어둬 – 파리가 꼬이지 않게.",
+          "ne": "भात माथि कपडाले ढाकिदेउ, झिंगाले नखाओस्।",
+          "pt": "Cobre o arroz com um pano para que as moscas não poisem.",
+          "th": "เอาผ้าปกข้าวไว้ ไม่ให้แมลงวันตอม",
+          "tl": "Takpan ang kanin ng tela para hindi mapuntahan ng mga langaw.",
+          "ur": "چاول کو کپڑے سے ڈھانپ دو تاکہ مکھیاں نہ بیٹھیں۔",
+          "vi": "Lấy vải che cơm lại, đừng để ruồi bậu vào.",
+          "zh": "用布把饭盖起来，不要让苍蝇落上去。",
+          "zh_Hant": "用布把飯蓋起來，不要讓蒼蠅落上去。"
+        },
+        "out_of_scope_words": [
+          "ຜ້າ",
+          "ແມງວັນ",
+          "ຕອມ"
+        ]
+      },
+      {
+        "lao_script": "ລັດຖະບານປົກປະເທດຊາດຢ່າງດີ",
+        "romanization": "lat tha ban pok pa thet sat yang di",
+        "translations": {
+          "de": "Die Regierung regiert das Land sehr gut.",
+          "en": "The government governs the country well.",
+          "es": "El gobierno gobierna bien el país.",
+          "fr": "Le gouvernement gouverne bien le pays.",
+          "hi": "सरकार देश पर अच्छी तरह शासन करती है।",
+          "ja": "政府はうまく国を治めている。",
+          "km": "រដ្ឋាភិបាលគ្រប់គ្រងប្រទេសបានល្អ",
+          "ko": "정부가 나라를 잘 다스리고 있어.",
+          "ne": "सरकारले देशलाई राम्रोसँग शासन गर्छ।",
+          "pt": "O governo governa o país muito bem.",
+          "th": "รัฐบาลปกครองประเทศอย่างดี",
+          "tl": "Ang pamahalaan ay namamahala ng bansa nang maayos.",
+          "ur": "حکومت ملک کو اچھی طرح چلا رہی ہے۔",
+          "vi": "Chính phủ cai trị đất nước rất tốt.",
+          "zh": "政府很好地治理着这个国家。",
+          "zh_Hant": "政府很好地治理著這個國家。"
+        },
+        "out_of_scope_words": [
+          "ລັດຖະບານ",
+          "ປະເທດຊາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person placing a cloth cover over a bowl of food to protect it, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຜາ": {
+    "definitions": {
+      "de": "Felswand, Klippe, steiler Fels; kann je nach Kontext auch ein bestimmtes Stück Stoff oder Tuch bedeuten",
+      "en": "Cliff, rocky face, steep rock; in some contexts can also refer to a piece of cloth or fabric",
+      "es": "Acantilado, pared rocosa, roca escarpada; en algunos contextos también puede referirse a una tela o tejido",
+      "fr": "Falaise, paroi rocheuse, roche escarpée; dans certains contextes peut aussi désigner un morceau de tissu",
+      "hi": "चट्टान, खड़ी चट्टान; कुछ संदर्भों में कपड़े या वस्त्र के टुकड़े को भी संदर्भित कर सकता है",
+      "ja": "崖、断崖、岩壁；文脈によっては布や生地を指すこともある",
+      "km": "របាំង​ថ្ម, ចំណោត; ក្នុងបរិបទខ្លះ ក៏អាចមានន័យថាកំណាត់ក្រណាត់ ឬក្រណាត់",
+      "ko": "절벽, 암벽, 가파른 바위; 문맥에 따라 천 조각을 의미하기도 함",
+      "ne": "चट्टान, भिरालो शिला, खडेरी चट्टान; केही सन्दर्भमा कपडाको टुक्रा पनि बुझाउँछ",
+      "pt": "Falésia, paredão rochoso, rocha íngreme; em alguns contextos também pode se referir a um pedaço de tecido",
+      "th": "ผา, หน้าผา, หินชัน; ในบางบริบทอาจหมายถึงผืนผ้าหรือผ้าผืนหนึ่งด้วย",
+      "tl": "Bangin, pader ng bato, matarik na bato; sa ilang konteksto maaari ring tumukoy sa piraso ng tela",
+      "ur": "چٹان، کھڑی چٹان، پہاڑی دیوار؛ بعض سیاق و سباق میں کپڑے کے ٹکڑے کے لیے بھی استعمال",
+      "vi": "Vách đá, vách núi dựng đứng; trong một số ngữ cảnh cũng có thể chỉ một mảnh vải",
+      "zh": "悬崖，峭壁，岩壁；在某些语境中也可以指一块布料",
+      "zh_Hant": "懸崖，峭壁，岩壁；在某些語境中也可以指一塊布料"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰaː˧/",
+    "examples": [
+      {
+        "lao_script": "ຜາສູງນັ້ນສວຍງາມຫຼາຍ ຢາກໄປຖ່າຍຮູບ",
+        "romanization": "pha sung nan suay ngam lai, yak pai thai hup",
+        "translations": {
+          "de": "Diese hohe Klippe ist sehr schön – ich möchte dort Fotos machen.",
+          "en": "That tall cliff is so beautiful – I want to go take photos there.",
+          "es": "Ese acantilado tan alto es muy hermoso, quiero ir a tomar fotos.",
+          "fr": "Cette haute falaise est très belle – je veux y prendre des photos.",
+          "hi": "वह ऊँची चट्टान बहुत सुंदर है – मैं वहाँ फोटो खींचना चाहता हूँ।",
+          "ja": "あの高い崖はすごく綺麗だな – 写真を撮りに行きたい。",
+          "km": "ចំណោតខ្ពស់នោះស្រស់ស្អាតណាស់ – ចង់ទៅថតរូប",
+          "ko": "저 높은 절벽이 너무 아름다워 – 사진 찍으러 가고 싶어.",
+          "ne": "त्यो अग्लो चट्टान धेरै सुन्दर छ – फोटो खिच्न जान मन छ।",
+          "pt": "Aquele penhasco alto é muito lindo – quero ir lá tirar fotos.",
+          "th": "ผาสูงนั้นสวยงามมาก อยากไปถ่ายรูป",
+          "tl": "Ang mataas na banging iyon ay napakaganda – gusto kong pumunta para kumuha ng litrato.",
+          "ur": "وہ اونچی چٹان بہت خوبصورت ہے – وہاں تصویریں لینے جانا چاہتا ہوں۔",
+          "vi": "Vách đá cao đó đẹp lắm – muốn đến chụp ảnh quá.",
+          "zh": "那座高峭壁真的很美——我想去那里拍照。",
+          "zh_Hant": "那座高峭壁真的很美——我想去那裡拍照。"
+        },
+        "out_of_scope_words": [
+          "ສວຍງາມ",
+          "ຖ່າຍຮູບ"
+        ]
+      },
+      {
+        "lao_script": "ລະວັງໆ ຢ່າຍ່າງໃກ້ຜາ ອັນຕະລາຍ",
+        "romanization": "la wang la wang, ya yang kai pha, an ta lai",
+        "translations": {
+          "de": "Vorsicht, vorsicht – geh nicht nah an die Klippe, es ist gefährlich.",
+          "en": "Careful, careful – don't walk near the cliff, it's dangerous.",
+          "es": "Cuidado, cuidado – no camines cerca del acantilado, es peligroso.",
+          "fr": "Attention, attention – ne marche pas près de la falaise, c'est dangereux.",
+          "hi": "सावधान, सावधान – चट्टान के पास मत जाओ, खतरनाक है।",
+          "ja": "気をつけて、気をつけて – 崖の近くを歩いちゃダメ、危ないよ。",
+          "km": "ប្រយ័ត្នៗ – កុំដើរជិតចំណោត គ្រោះថ្នាក់",
+          "ko": "조심, 조심 – 절벽 가까이 걷지 마, 위험해.",
+          "ne": "सावधान, सावधान – चट्टान नजिक नहिड्नुस्, खतरनाक छ।",
+          "pt": "Cuidado, cuidado – não ande perto da falésia, é perigoso.",
+          "th": "ระวังๆ อย่าเดินใกล้ผา อันตราย",
+          "tl": "Mag-ingat, mag-ingat – huwag lumakad malapit sa bangin, mapanganib.",
+          "ur": "سنبھلو، سنبھلو – چٹان کے قریب مت جاؤ، خطرناک ہے۔",
+          "vi": "Cẩn thận, cẩn thận – đừng đi gần vách đá, nguy hiểm lắm.",
+          "zh": "小心，小心——不要走近峭壁，很危险。",
+          "zh_Hant": "小心，小心——不要走近峭壁，很危險。"
+        },
+        "out_of_scope_words": [
+          "ອັນຕະລາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a dramatic rocky cliff face with green vegetation at the top, set against a clear blue sky, clean background, minimalist cartoon style suitable for a language learning app, bright and colorful.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

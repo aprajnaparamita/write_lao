@@ -1,0 +1,393 @@
+{
+  "ສູງ": {
+    "definitions": {
+      "de": "Hoch, groß (in Bezug auf Höhe oder Statur)",
+      "en": "Tall or high; describing something or someone of great height",
+      "es": "Alto o elevado; que tiene gran altura",
+      "fr": "Grand ou élevé ; qui a une grande hauteur",
+      "hi": "ऊँचा या लंबा; किसी वस्तु या व्यक्ति की अधिक ऊँचाई का वर्णन करना",
+      "ja": "高い、背が高い；物や人の高さが大きいことを表す形容詞",
+      "km": "ខ្ពស់ ឬមានកម្ពស់ច្រើន; ប្រើដើម្បីពិពណ៌នាអ្វីមួយ ឬនរណាម្នាក់ដែលមានកម្ពស់ច្រើន",
+      "ko": "높은 또는 키가 큰; 높이가 큰 사물이나 사람을 묘사하는 형용사",
+      "ne": "अग्लो वा उच्च; कुनै वस्तु वा व्यक्तिको ठूलो उचाइ वर्णन गर्ने",
+      "pt": "Alto ou elevado; que descreve algo ou alguém de grande altura",
+      "th": "สูง; ใช้บอกความสูงของสิ่งของหรือบุคคล",
+      "tl": "Mataas o matangkad; naglalarawan ng isang bagay o taong may malaking taas",
+      "ur": "اونچا یا لمبا؛ کسی چیز یا شخص کی زیادہ اونچائی بیان کرنا",
+      "vi": "Cao; mô tả chiều cao lớn của người hoặc vật",
+      "zh": "高；形容人或物的高度大",
+      "zh_Hant": "高；形容人或物的高度大"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/suːŋ/",
+    "examples": [
+      {
+        "lao_script": "ຕົ້ນໄມ້ຕົ້ນນັ້ນສູງຫຼາຍ",
+        "romanization": "ton mai ton nan sung lai",
+        "translations": {
+          "de": "Dieser Baum ist sehr hoch.",
+          "en": "That tree is very tall.",
+          "es": "Ese árbol es muy alto.",
+          "fr": "Cet arbre est très grand.",
+          "hi": "वह पेड़ बहुत ऊँचा है।",
+          "ja": "あの木はとても高い。",
+          "km": "មែកឈើនោះខ្ពស់ណាស់។",
+          "ko": "저 나무는 매우 키가 크다.",
+          "ne": "त्यो रूख धेरै अग्लो छ।",
+          "pt": "Aquela árvore é muito alta.",
+          "th": "ต้นไม้ต้นนั้นสูงมาก",
+          "tl": "Ang punong iyon ay napakataas.",
+          "ur": "وہ درخت بہت اونچا ہے۔",
+          "vi": "Cái cây đó rất cao.",
+          "zh": "那棵树非常高。",
+          "zh_Hant": "那棵樹非常高。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້"
+        ]
+      },
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍສູງກວ່າຂ້ອຍ",
+        "romanization": "phuean khong khoi sung kwa khoi",
+        "translations": {
+          "de": "Mein Freund ist größer als ich.",
+          "en": "My friend is taller than me.",
+          "es": "Mi amigo es más alto que yo.",
+          "fr": "Mon ami est plus grand que moi.",
+          "hi": "मेरा दोस्त मुझसे लंबा है।",
+          "ja": "私の友達は私より背が高い。",
+          "km": "មិត្តរបស់ខ្ញុំខ្ពស់ជាងខ្ញុំ។",
+          "ko": "내 친구는 나보다 키가 크다.",
+          "ne": "मेरो साथी मभन्दा अग्लो छ।",
+          "pt": "Meu amigo é mais alto do que eu.",
+          "th": "เพื่อนฉันสูงกว่าฉัน",
+          "tl": "Ang aking kaibigan ay mas matangkad kaysa sa akin.",
+          "ur": "میرا دوست مجھ سے لمبا ہے۔",
+          "vi": "Bạn tôi cao hơn tôi.",
+          "zh": "我的朋友比我高。",
+          "zh_Hant": "我的朋友比我高。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a very tall tree next to a short tree for size comparison, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວຽກ": {
+    "definitions": {
+      "de": "Arbeit, Job oder Aufgabe; bezieht sich auf berufliche Tätigkeit oder eine zu erledigende Aufgabe",
+      "en": "Work, job, or task; refers to employment or a piece of work to be done",
+      "es": "Trabajo, empleo o tarea; se refiere a una ocupación o algo que hay que hacer",
+      "fr": "Travail, emploi ou tâche ; désigne une occupation professionnelle ou quelque chose à faire",
+      "hi": "काम, नौकरी या कार्य; रोजगार या करने योग्य किसी कार्य को संदर्भित करता है",
+      "ja": "仕事、職業、またはタスク；職業や行うべき作業を指す名詞",
+      "km": "ការងារ ឬភារកិច្ច; សំដៅទៅលើការងារ ឬអ្វីដែលត្រូវធ្វើ",
+      "ko": "일, 직업 또는 과제; 고용이나 해야 할 작업을 가리키는 명사",
+      "ne": "काम, जागिर वा कार्य; रोजगार वा गर्नुपर्ने काम जनाउँछ",
+      "pt": "Trabalho, emprego ou tarefa; refere-se a ocupação profissional ou algo a ser feito",
+      "th": "งาน, การทำงาน หรือภารกิจ; หมายถึงการจ้างงานหรืองานที่ต้องทำ",
+      "tl": "Trabaho, hanapbuhay, o gawain; tumutukoy sa isang propesyon o isang bagay na dapat gawin",
+      "ur": "کام، ملازمت یا کوئی کام؛ روزگار یا کرنے والے کام کو ظاہر کرتا ہے",
+      "vi": "Việc làm, công việc hoặc nhiệm vụ; chỉ nghề nghiệp hoặc công việc cần thực hiện",
+      "zh": "工作、职业或任务；指职业或需要完成的事情",
+      "zh_Hant": "工作、職業或任務；指職業或需要完成的事情"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/wiák/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ຂ້ອຍມີວຽກຫຼາຍ",
+        "romanization": "mue ni khoi mi wiak lai",
+        "translations": {
+          "de": "Heute habe ich viel Arbeit.",
+          "en": "Today I have a lot of work.",
+          "es": "Hoy tengo mucho trabajo.",
+          "fr": "Aujourd'hui j'ai beaucoup de travail.",
+          "hi": "आज मेरे पास बहुत काम है।",
+          "ja": "今日は仕事がたくさんある。",
+          "km": "ថ្ងៃនេះខ្ញុំមានការងារច្រើន។",
+          "ko": "오늘 나는 일이 많다.",
+          "ne": "आज मसँग धेरै काम छ।",
+          "pt": "Hoje eu tenho muito trabalho.",
+          "th": "วันนี้ฉันมีงานเยอะ",
+          "tl": "Ngayon ay marami akong trabaho.",
+          "ur": "آج میرے پاس بہت کام ہے۔",
+          "vi": "Hôm nay tôi có nhiều việc lắm.",
+          "zh": "今天我有很多工作。",
+          "zh_Hant": "今天我有很多工作。"
+        },
+        "out_of_scope_words": [
+          "ມື້ນີ້"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າໄດ້ວຽກໃໝ່ແລ້ວບໍ?",
+        "romanization": "chao dai wiak mai laeo bo",
+        "translations": {
+          "de": "Hast du schon einen neuen Job bekommen?",
+          "en": "Have you gotten a new job yet?",
+          "es": "¿Ya conseguiste un nuevo trabajo?",
+          "fr": "Tu as déjà trouvé un nouveau travail ?",
+          "hi": "क्या तुम्हें नई नौकरी मिल गई?",
+          "ja": "もう新しい仕事は見つかった？",
+          "km": "តើអ្នកបានការងារថ្មីហើយឬនៅ?",
+          "ko": "새 직장은 구했어?",
+          "ne": "के तिमीले नयाँ काम पाइसक्यौ?",
+          "pt": "Você já conseguiu um novo emprego?",
+          "th": "เธอได้งานใหม่แล้วหรือยัง?",
+          "tl": "Nakakuha ka na ba ng bagong trabaho?",
+          "ur": "کیا تمہیں نئی ملازمت مل گئی؟",
+          "vi": "Bạn đã tìm được việc làm mới chưa?",
+          "zh": "你找到新工作了吗？",
+          "zh_Hant": "你找到新工作了嗎？"
+        },
+        "out_of_scope_words": [
+          "ໃໝ່",
+          "ແລ້ວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting at a desk working on a laptop with papers nearby, clean white background, bright cheerful colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລົງ": {
+    "definitions": {
+      "de": "Hinunter, hinabsteigen; eine Bewegung nach unten oder in eine niedrigere Position anzeigen",
+      "en": "To go down, descend, or move downward; used as a directional complement indicating downward motion",
+      "es": "Bajar o descender; se usa como complemento direccional que indica movimiento hacia abajo",
+      "fr": "Descendre ou aller vers le bas ; utilisé comme complément directionnel indiquant un mouvement vers le bas",
+      "hi": "नीचे जाना, उतरना; नीचे की दिशा में गति को दर्शाने वाला दिशात्मक क्रिया-पूरक",
+      "ja": "下へ行く、降りる；下向きの動きを示す方向補語として使われる動詞",
+      "km": "ចុះ ឬចុះក្រោម; ប្រើជាការបំពេញទិសដៅដែលបញ្ជាក់ពីចលនាចុះក្រោម",
+      "ko": "내려가다, 하강하다; 아래 방향의 움직임을 나타내는 방향 보어로 사용되는 동사",
+      "ne": "तल जानु, ओर्लनु; तल्लो दिशामा गतिलाई जनाउने दिशात्मक क्रिया-पूरक",
+      "pt": "Descer ou ir para baixo; usado como complemento direcional indicando movimento para baixo",
+      "th": "ลง; ใช้บอกทิศทางการเคลื่อนที่ลงข้างล่าง",
+      "tl": "Bumaba o lumusong; ginagamit bilang pang-direksyonal na pandagdag na nagpapahiwatig ng paggalaw pababa",
+      "ur": "نیچے جانا یا اترنا؛ نیچے کی سمت حرکت کو ظاہر کرنے والا سمتی فعل",
+      "vi": "Đi xuống, xuống dưới; dùng như bổ ngữ chỉ hướng xuống",
+      "zh": "向下、下降；用作方向补语，表示向下的动作",
+      "zh_Hant": "向下、下降；用作方向補語，表示向下的動作"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/lóŋ/",
+    "examples": [
+      {
+        "lao_script": "ລົງຈາກລົດໄດ້ເລີຍ",
+        "romanization": "long chak lot dai loei",
+        "translations": {
+          "de": "Steig jetzt aus dem Auto aus.",
+          "en": "Get down from the car now.",
+          "es": "Bájate del carro ya.",
+          "fr": "Descends de la voiture maintenant.",
+          "hi": "अभी गाड़ी से उतर जाओ।",
+          "ja": "今すぐ車から降りて。",
+          "km": "ចុះពីរថយន្តបានហើយ។",
+          "ko": "지금 차에서 내려.",
+          "ne": "अहिले गाडीबाट ओर।",
+          "pt": "Desce do carro agora.",
+          "th": "ลงจากรถได้เลย",
+          "tl": "Bumaba na sa sasakyan ngayon.",
+          "ur": "ابھی گاڑی سے اتر جاؤ۔",
+          "vi": "Xuống xe đi thôi.",
+          "zh": "现在从车上下来吧。",
+          "zh_Hant": "現在從車上下來吧。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ໄດ້ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ລາຄາລົງໄປຫຼາຍໃນອາທິດນີ້",
+        "romanization": "la kha long pai lai nai a thit ni",
+        "translations": {
+          "de": "Der Preis ist diese Woche stark gesunken.",
+          "en": "The price has dropped a lot this week.",
+          "es": "El precio ha bajado mucho esta semana.",
+          "fr": "Le prix a beaucoup baissé cette semaine.",
+          "hi": "इस हफ्ते कीमत बहुत नीचे आ गई।",
+          "ja": "今週、値段がかなり下がった。",
+          "km": "តម្លៃបានធ្លាក់ចុះច្រើននៅសប្តាហ៍នេះ។",
+          "ko": "이번 주에 가격이 많이 내려갔다.",
+          "ne": "यस हप्ता मूल्य धेरै घट्यो।",
+          "pt": "O preço caiu muito esta semana.",
+          "th": "ราคาลงไปเยอะมากในอาทิตย์นี้",
+          "tl": "Bumaba nang malaki ang presyo ngayong linggo.",
+          "ur": "اس ہفتے قیمت بہت نیچے آگئی۔",
+          "vi": "Giá đã giảm nhiều trong tuần này.",
+          "zh": "这周价格下降了很多。",
+          "zh_Hant": "這週價格下降了很多。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ອາທິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking down a staircase, with a downward arrow indicating direction, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທອງ": {
+    "definitions": {
+      "de": "Gold (Metall) oder Bauch/Magen; ein häufiges Wort in laotischen Namen und als Substantiv für das Edelmetall oder den Körperteil",
+      "en": "Gold (the precious metal) or belly/stomach; commonly used in Lao names and as a noun for both the metal and the body part",
+      "es": "Oro (el metal precioso) o barriga/estómago; comúnmente usado en nombres laotianos y como sustantivo tanto para el metal como para la parte del cuerpo",
+      "fr": "Or (le métal précieux) ou ventre/estomac ; couramment utilisé dans les prénoms laotiens et comme nom désignant le métal ou la partie du corps",
+      "hi": "सोना (कीमती धातु) या पेट; लाओसी नामों में और धातु तथा शरीर के अंग दोनों के लिए संज्ञा के रूप में प्रयुक्त",
+      "ja": "金（貴金属）またはお腹・胃；ラオス人の名前によく使われ、金属や体の部位を表す名詞",
+      "km": "មាស (លោហៈថ្មីល្អ) ឬពោះ/胃; ប្រើជាទូទៅក្នុងឈ្មោះឡាវ និងជានាមសំដៅទៅលើលោហៈ ឬផ្នែករាងកាយ",
+      "ko": "금(귀금속) 또는 배/위장; 라오스 이름에 흔히 쓰이며 금속이나 신체 부위를 나타내는 명사",
+      "ne": "सुन (बहुमूल्य धातु) वा पेट; लाओ नामहरूमा सामान्य र धातु तथा शरीरको अंग दुवैको लागि संज्ञाका रूपमा प्रयोग",
+      "pt": "Ouro (o metal precioso) ou barriga/estômago; comumente usado em nomes laocianos e como substantivo tanto para o metal quanto para a parte do corpo",
+      "th": "ทอง (โลหะมีค่า) หรือท้อง/กระเพาะ; ใช้บ่อยในชื่อของคนลาวและเป็นคำนามสำหรับทั้งโลหะและส่วนของร่างกาย",
+      "tl": "Ginto (ang mahalagang metal) o tiyan/sikmura; karaniwang ginagamit sa mga pangalan ng Lao at bilang pangngalan para sa metal at bahagi ng katawan",
+      "ur": "سونا (قیمتی دھات) یا پیٹ/معدہ؛ لاؤ ناموں میں عام اور دھات اور جسم کے حصے دونوں کے لیے اسم کے طور پر استعمال",
+      "vi": "Vàng (kim loại quý) hoặc bụng/dạ dày; thường dùng trong tên người Lào và là danh từ chỉ kim loại hoặc bộ phận cơ thể",
+      "zh": "黄金（贵重金属）或肚子/胃；常用于老挝人名，也作为指代金属或身体部位的名词",
+      "zh_Hant": "黃金（貴重金屬）或肚子/胃；常用於寮國人名，也作為指代金屬或身體部位的名詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tʰɔːŋ/",
+    "examples": [
+      {
+        "lao_script": "ແຫວນທອງຂອງແມ່ສວຍຫຼາຍ",
+        "romanization": "haen thong khong mae suay lai",
+        "translations": {
+          "de": "Der Goldring meiner Mutter ist sehr schön.",
+          "en": "My mom's gold ring is very beautiful.",
+          "es": "El anillo de oro de mi mamá es muy bonito.",
+          "fr": "La bague en or de ma mère est très belle.",
+          "hi": "मेरी माँ की सोने की अंगूठी बहुत सुंदर है।",
+          "ja": "お母さんの金の指輪はとてもきれい。",
+          "km": "ចិញ្ចៀនមាសរបស់ម្តាយស្អាតណាស់។",
+          "ko": "엄마의 금반지는 매우 예쁘다.",
+          "ne": "आमाको सुनको औँठी धेरै सुन्दर छ।",
+          "pt": "O anel de ouro da minha mãe é muito bonito.",
+          "th": "แหวนทองของแม่สวยมาก",
+          "tl": "Ang gintong singsing ng aking nanay ay napakaganda.",
+          "ur": "میری ماں کی سونے کی انگوٹھی بہت خوبصورت ہے۔",
+          "vi": "Nhẫn vàng của mẹ tôi đẹp lắm.",
+          "zh": "妈妈的金戒指非常漂亮。",
+          "zh_Hant": "媽媽的金戒指非常漂亮。"
+        },
+        "out_of_scope_words": [
+          "ແຫວນ",
+          "ສວຍ"
+        ]
+      },
+      {
+        "lao_script": "ທອງຂອງຂ້ອຍເຈັບຫຼາຍ",
+        "romanization": "thong khong khoi chep lai",
+        "translations": {
+          "de": "Mein Bauch tut sehr weh.",
+          "en": "My belly hurts a lot.",
+          "es": "Mi barriga me duele mucho.",
+          "fr": "Mon ventre me fait très mal.",
+          "hi": "मेरा पेट बहुत दर्द कर रहा है।",
+          "ja": "お腹がとても痛い。",
+          "km": "ពោះខ្ញុំឈឺណាស់។",
+          "ko": "배가 많이 아프다.",
+          "ne": "मेरो पेट धेरै दुखिरहेको छ।",
+          "pt": "Minha barriga está doendo muito.",
+          "th": "ท้องของฉันเจ็บมาก",
+          "tl": "Ang aking tiyan ay masakit na masakit.",
+          "ur": "میرا پیٹ بہت درد کر رہا ہے۔",
+          "vi": "Bụng tôi đau lắm.",
+          "zh": "我的肚子很痛。",
+          "zh_Hant": "我的肚子很痛。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two images side by side: a shiny gold bar or coin on the left, and a cartoon person holding their belly on the right, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊ່ວຍ": {
+    "definitions": {
+      "de": "Helfen, unterstützen; jemandem bei einer Aufgabe oder in einer schwierigen Situation Hilfe leisten",
+      "en": "To help or assist; to give aid or support to someone in need",
+      "es": "Ayudar o asistir; dar apoyo o socorro a alguien que lo necesita",
+      "fr": "Aider ou assister ; apporter une aide ou un soutien à quelqu'un dans le besoin",
+      "hi": "मदद करना या सहायता देना; किसी जरूरतमंद को सहारा देना",
+      "ja": "助ける、手伝う；困っている人を援助するまたは支援する動詞",
+      "km": "ជួយ ឬដោះស្រាយ; ផ្តល់ជំនួយ ឬការគាំទ្រដល់អ្នកដែលត្រូវការ",
+      "ko": "돕다, 보조하다; 도움이 필요한 사람에게 지원을 제공하는 동사",
+      "ne": "मद्दत गर्नु वा सहयोग गर्नु; आवश्यकता परेको व्यक्तिलाई सहायता प्रदान गर्नु",
+      "pt": "Ajudar ou auxiliar; dar apoio ou assistência a alguém que precisa",
+      "th": "ช่วย หรือช่วยเหลือ; ให้ความช่วยเหลือหรือสนับสนุนแก่ผู้ที่ต้องการ",
+      "tl": "Tumulong o tulungan; magbigay ng tulong o suporta sa isang taong nangangailangan",
+      "ur": "مدد کرنا یا معاونت دینا؛ ضرورتمند کو سہارا دینا",
+      "vi": "Giúp đỡ hoặc hỗ trợ; cung cấp sự trợ giúp cho ai đó đang cần",
+      "zh": "帮助、协助；向需要的人提供援助或支持",
+      "zh_Hant": "幫助、協助；向需要的人提供援助或支持"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sùaj/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍຂ້ອຍດ້ວຍໄດ້ບໍ?",
+        "romanization": "suay khoi duay dai bo",
+        "translations": {
+          "de": "Kannst du mir bitte helfen?",
+          "en": "Can you help me, please?",
+          "es": "¿Puedes ayudarme, por favor?",
+          "fr": "Tu peux m'aider, s'il te plaît ?",
+          "hi": "क्या तुम मेरी मदद कर सकते हो?",
+          "ja": "ちょっと手伝ってもらえる？",
+          "km": "អ្នកអាចជួយខ្ញុំបានទេ?",
+          "ko": "나 좀 도와줄 수 있어?",
+          "ne": "के तिमी मलाई मद्दत गर्न सक्छौ?",
+          "pt": "Você pode me ajudar, por favor?",
+          "th": "ช่วยฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo ba akong tulungan?",
+          "ur": "کیا تم میری مدد کر سکتے ہو؟",
+          "vi": "Bạn có thể giúp tôi không?",
+          "zh": "你能帮帮我吗？",
+          "zh_Hant": "你能幫幫我嗎？"
+        },
+        "out_of_scope_words": [
+          "ດ້ວຍ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກຊ່ວຍເພື່ອນທີ່ລຳບາກ",
+        "romanization": "khoi yak suay phuean thi lam bak",
+        "translations": {
+          "de": "Ich möchte meinem Freund helfen, der Schwierigkeiten hat.",
+          "en": "I want to help my friend who is having a hard time.",
+          "es": "Quiero ayudar a mi amigo que está pasando por un momento difícil.",
+          "fr": "Je veux aider mon ami qui traverse une période difficile.",
+          "hi": "मैं अपने उस दोस्त की मदद करना चाहता हूँ जो मुश्किल में है।",
+          "ja": "大変な思いをしている友達を助けたい。",
+          "km": "ខ្ញុំចង់ជួយមិត្តដែលមានការលំបាក។",
+          "ko": "힘든 친구를 돕고 싶다.",
+          "ne": "म आफ्नो त्यस साथीलाई मद्दत गर्न चाहन्छु जो कठिनाइमा छ।",
+          "pt": "Eu quero ajudar meu amigo que está passando por dificuldades.",
+          "th": "ฉันอยากช่วยเพื่อนที่ลำบาก",
+          "tl": "Gusto kong tulungan ang aking kaibigan na nahihirapan.",
+          "ur": "میں اپنے اس دوست کی مدد کرنا چاہتا ہوں جو مشکل میں ہے۔",
+          "vi": "Tôi muốn giúp người bạn đang gặp khó khăn.",
+          "zh": "我想帮助正在困难中的朋友。",
+          "zh_Hant": "我想幫助正在困難中的朋友。"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ເພື່ອນ",
+          "ລຳບາກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of one person extending a hand to help another person up from the ground, both smiling, clean white background, bright warm colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

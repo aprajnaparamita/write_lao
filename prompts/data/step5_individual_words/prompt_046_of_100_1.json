@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫລາຍ",
+  "definitions": {
+    "de": "Viel, viele; eine große Menge oder Anzahl von etwas",
+    "en": "Many; a large quantity or number of something",
+    "es": "Mucho, muchos; una gran cantidad o número de algo",
+    "fr": "Beaucoup, nombreux; une grande quantité ou un grand nombre de quelque chose",
+    "hi": "बहुत, अनेक; किसी चीज़ की बड़ी मात्रा या संख्या",
+    "ja": "多い、たくさん；何かの大きな量や数",
+    "km": "ច្រើន; បរិមាណ ឬចំនួនច្រើននៃអ្វីមួយ",
+    "ko": "많다; 어떤 것의 많은 양이나 수",
+    "ne": "धेरै; कुनै कुराको ठूलो मात्रा वा संख्या",
+    "pt": "Muito, muitos; uma grande quantidade ou número de algo",
+    "th": "มาก, หลาย; จำนวนหรือปริมาณมากของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Marami; isang malaking dami o bilang ng isang bagay",
+    "ur": "بہت، زیادہ؛ کسی چیز کی بڑی مقدار یا تعداد",
+    "vi": "Nhiều; số lượng lớn của một thứ gì đó",
+    "zh": "很多，许多；大量或众多的事物",
+    "zh_Hant": "很多，許多；大量或眾多的事物"
+  },
+  "definition_en": "Many; a large quantity or number of something",
+  "romanization": "laːj³",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ມີຄົນຫລາຍຫລາຍເລີຍ",
+      "romanization": "mʉ̄ːniː miː khon laːj laːj ləːj",
+      "translation_en": "There are so many people today."
+    },
+    {
+      "lao_script": "ເຈົ້າກິນຫລາຍໂພດແລ້ວ",
+      "romanization": "tɕâo kin laːj pʰoːt lɛ́ːw",
+      "translation_en": "You've already eaten way too much."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a large group of colorful objects such as apples piled high in a basket, emphasizing abundance and quantity, clean white background, minimalist style suitable for a language learning app."
+}

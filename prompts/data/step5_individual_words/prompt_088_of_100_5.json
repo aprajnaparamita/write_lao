@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊິກ",
+  "definitions": {
+    "de": "Bruchstück, Splitter, Fragment; ein kleines abgebrochenes Stück von etwas; hat begrenzten eigenständigen Gebrauch und wird oft in Kombination mit anderen Wörtern verwendet",
+    "en": "Fragment, splinter, chip, small piece; a small broken-off piece of something; has limited standalone use and is often combined with other words or used in specific phrases",
+    "es": "Fragmento, astilla, trozo pequeño; un pequeño pedazo roto de algo; tiene uso independiente limitado y a menudo se combina con otras palabras o se usa en frases específicas",
+    "fr": "Fragment, éclat, petit morceau; un petit morceau cassé de quelque chose; a un usage autonome limité et est souvent combiné avec d'autres mots ou utilisé dans des expressions spécifiques",
+    "hi": "टुकड़ा, छिलका, किरच; किसी चीज़ का एक छोटा टूटा हुआ टुकड़ा; इसका स्वतंत्र उपयोग सीमित है और अक्सर अन्य शब्दों के साथ संयुक्त रूप में प्रयुक्त होता है",
+    "ja": "断片、破片、小さなかけら；何かから小さく割れた部分；単独での使用は限られており、他の語と組み合わせて使うことが多い",
+    "km": "បំណែក ចំណែក ចំណិត; ផ្នែកតូចដែលបាក់ចេញពីអ្វីមួយ; ការប្រើដោយឯករាជ្យមានដែនកំណត់",
+    "ko": "조각, 파편, 작은 부스러기; 무언가에서 작게 부서진 조각; 단독 사용이 제한적이며 종종 다른 단어와 결합하여 사용됨",
+    "ne": "टुक्रा, किर्चा, सानो टुक्रा; कुनै कुराबाट भाँचिएको सानो टुक्रा; स्वतन्त्र उपयोग सीमित छ र प्राय: अन्य शब्दहरूसँग मिलाएर प्रयोग गरिन्छ",
+    "pt": "Fragmento, estilhaço, pequeno pedaço; um pequeno pedaço quebrado de algo; tem uso independente limitado e frequentemente é combinado com outras palavras",
+    "th": "เศษ ชิ้นเล็กๆ เสี้ยน; ชิ้นส่วนเล็กๆ ที่แตกออกมาจากบางสิ่ง; มีการใช้งานแบบเดี่ยวที่จำกัด และมักใช้รวมกับคำอื่น",
+    "tl": "Piraso, basag, maliit na tipak; isang maliit na nabasag na piraso ng isang bagay; limitado ang paggamit nito nang mag-isa at madalas na pinagsama sa ibang mga salita",
+    "ur": "ٹکڑا، کِرچ، چھوٹا حصہ؛ کسی چیز کا چھوٹا ٹوٹا ہوا ٹکڑا؛ خود مختار استعمال محدود ہے اور اکثر دوسرے الفاظ کے ساتھ ملا کر استعمال ہوتا ہے",
+    "vi": "Mảnh vỡ, dăm, mảnh nhỏ; một mảnh nhỏ bị vỡ ra từ thứ gì đó; ít được dùng độc lập và thường kết hợp với các từ khác",
+    "zh": "碎片、碎屑、小片；从某物上脱落的小块；单独使用较为有限，常与其他词语组合使用",
+    "zh_Hant": "碎片、碎屑、小片；從某物上脫落的小塊；單獨使用較為有限，常與其他詞語組合使用"
+  },
+  "definition_en": "Fragment, splinter, chip, small piece; a small broken-off piece of something; has limited standalone use and is often combined with other words or used in specific phrases",
+  "romanization": "sík",
+  "lao_examples": [
+    {
+      "lao_script": "ແກ້ວແຕກ ມີຊິກຫ້ອຍທົ່ວພື້ນ ລະວັງຕີນດ້ວຍ",
+      "romanization": "kɛ̂ːw tɛ̀ːk míː sík hɔ̂j tûa phɯ̄ːn lā wáŋ tîːn dûaj",
+      "translation_en": "The glass broke, there are fragments scattered all over the floor, watch your feet"
+    },
+    {
+      "lao_script": "ຊິກໄມ້ທິ່ມເຂົ້າໄປໃນນິ້ວຂ້ອຍ ເຈັບຫຼາຍ",
+      "romanization": "sík māj tʰīm khâw pāj nāj níw khɔ̑j tɕép lǎːj",
+      "translation_en": "A wood splinter got into my finger, it hurts a lot"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a broken object (like a cracked ceramic cup or wooden plank) with small fragments or splinters scattered nearby, clean white background, clear and simple depiction of broken pieces, minimalist cartoon style suitable for a language learning app"
+}

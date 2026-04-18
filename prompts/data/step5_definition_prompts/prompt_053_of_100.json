@@ -1,0 +1,400 @@
+{
+  "ສິງ": {
+    "definitions": {
+      "de": "Löwe – auch bekannt als das Symbol auf dem Beer Lao Etikett",
+      "en": "Lion – also the iconic animal on the Beer Lao label",
+      "es": "León – también el animal icónico en la etiqueta de Beer Lao",
+      "fr": "Lion – aussi l'animal emblématique sur l'étiquette de Beer Lao",
+      "hi": "शेर – बियर लाओ के लेबल पर प्रतिष्ठित जानवर भी",
+      "ja": "ライオン – ビアラオのラベルにも描かれている象徴的な動物",
+      "km": "តោ – សត្វដែលស្គាល់ជាសញ្ញានៅលើស្លាក Beer Lao",
+      "ko": "사자 – 비어 라오 라벨의 상징적인 동물",
+      "ne": "सिंह – बियर लाओको लेबलमा भएको प्रतिष्ठित जनावर पनि",
+      "pt": "Leão – também o animal icônico no rótulo da Beer Lao",
+      "th": "สิงโต – สัตว์สัญลักษณ์บนฉลาก Beer Lao",
+      "tl": "Leon – ang iconic na hayop sa label ng Beer Lao",
+      "ur": "شیر – بیئر لاؤ کے لیبل پر موجود علامتی جانور",
+      "vi": "Sư tử – cũng là con vật biểu tượng trên nhãn bia Beer Lao",
+      "zh": "狮子 – 也是啤酒老挝标签上的标志性动物",
+      "zh_Hant": "獅子 – 也是啤酒寮國標籤上的標誌性動物"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sǐŋ/",
+    "examples": [
+      {
+        "lao_script": "ເບຍສິງອັນນີ້ເຢັນດີ ດື່ມໄດ້ເລີຍ",
+        "romanization": "bia sing an nii yen dii, deum dai loei",
+        "translations": {
+          "de": "Dieses Beer Lao ist schön kalt, man kann es gleich trinken.",
+          "en": "This Beer Lao is really cold, we can drink it right away.",
+          "es": "Esta Beer Lao está bien fría, ya se puede tomar.",
+          "fr": "Cette Beer Lao est bien froide, on peut la boire tout de suite.",
+          "hi": "यह बियर लाओ बहुत ठंडी है, अभी पी सकते हैं।",
+          "ja": "このビアラオはよく冷えてる、すぐ飲めるよ。",
+          "km": "ស្រា Beer Lao នេះត្រជាក់ល្អ ផឹកបានភ្លាមៗ។",
+          "ko": "이 비어 라오 정말 차갑다, 바로 마셔도 되겠다.",
+          "ne": "यो बियर लाओ राम्रोसँग चिसो छ, अहिलै पिउन सकिन्छ।",
+          "pt": "Essa Beer Lao está bem gelada, já dá pra beber.",
+          "th": "เบียร์สิงนี่เย็นดีเลย ดื่มได้เลย",
+          "tl": "Ang Beer Lao na ito ay malamig na, pwede na nating inumin.",
+          "ur": "یہ بیئر لاؤ بالکل ٹھنڈی ہے، ابھی پی سکتے ہیں۔",
+          "vi": "Bia Sư Tử này lạnh quá, uống được ngay luôn.",
+          "zh": "这瓶啤酒老挝好凉，可以马上喝了。",
+          "zh_Hant": "這瓶啤酒寮國好涼，可以馬上喝了。"
+        },
+        "out_of_scope_words": [
+          "ເບຍ",
+          "ເຢັນ",
+          "ດື່ມ"
+        ]
+      },
+      {
+        "lao_script": "ຮູບສິງຢູ່ເທິງຂວດເບຍສວຍຫຼາຍ",
+        "romanization": "hup sing yuu thoeng khuat bia suai laai",
+        "translations": {
+          "de": "Das Löwenbild auf der Bierflasche ist wirklich schön.",
+          "en": "The lion picture on the beer bottle is really beautiful.",
+          "es": "La imagen del león en la botella de cerveza es muy bonita.",
+          "fr": "L'image du lion sur la bouteille de bière est vraiment belle.",
+          "hi": "बियर की बोतल पर शेर की तस्वीर बहुत सुंदर है।",
+          "ja": "ビール瓶のライオンの絵、すごくきれいだね。",
+          "km": "រូបតោនៅលើដបស្រាស្អាតណាស់។",
+          "ko": "맥주병에 있는 사자 그림이 정말 예쁘다.",
+          "ne": "बियरको बोतलमा सिंहको तस्वीर धेरै सुन्दर छ।",
+          "pt": "A imagem do leão na garrafa de cerveja é muito bonita.",
+          "th": "รูปสิงโตบนขวดเบียร์สวยมากเลย",
+          "tl": "Ang larawan ng leon sa bote ng beer ay napakaganda.",
+          "ur": "بیئر کی بوتل پر شیر کی تصویر بہت خوبصورت ہے۔",
+          "vi": "Hình con sư tử trên chai bia đẹp lắm.",
+          "zh": "啤酒瓶上的狮子图案非常漂亮。",
+          "zh_Hant": "啤酒瓶上的獅子圖案非常漂亮。"
+        },
+        "out_of_scope_words": [
+          "ຂວດ",
+          "ເທິງ",
+          "ສວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a proud golden lion sitting upright, with a green Beer Lao bottle placed next to it for cultural context, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂາຍ": {
+    "definitions": {
+      "de": "Verkaufen – etwas gegen Bezahlung anbieten oder abgeben",
+      "en": "To sell – to offer or exchange something in return for money",
+      "es": "Vender – ofrecer o intercambiar algo a cambio de dinero",
+      "fr": "Vendre – proposer ou échanger quelque chose contre de l'argent",
+      "hi": "बेचना – पैसे के बदले में कुछ देना या व्यापार करना",
+      "ja": "売る – お金と引き換えに何かを渡すこと",
+      "km": "លក់ – ផ្តល់ឬប្តូរអ្វីមួយដើម្បីប្រាក់",
+      "ko": "팔다 – 돈을 받고 물건을 넘겨주다",
+      "ne": "बेच्नु – पैसाको बदलामा केही दिनु वा लेनदेन गर्नु",
+      "pt": "Vender – oferecer ou trocar algo em troca de dinheiro",
+      "th": "ขาย – นำสิ่งของแลกเปลี่ยนกับเงิน",
+      "tl": "Magbenta – mag-alok o mag-palitan ng isang bagay kapalit ng pera",
+      "ur": "بیچنا – پیسے کے بدلے میں کچھ دینا یا لین دین کرنا",
+      "vi": "Bán – trao đổi hoặc cung cấp thứ gì đó để lấy tiền",
+      "zh": "卖 – 用物品换取金钱",
+      "zh_Hant": "賣 – 用物品換取金錢"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰǎːj/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຂາຍຜັກຢູ່ຕະຫຼາດທຸກເຊົ້າ",
+        "romanization": "mae khaai phak yuu talaat thuk sao",
+        "translations": {
+          "de": "Meine Mutter verkauft jeden Morgen Gemüse auf dem Markt.",
+          "en": "My mom sells vegetables at the market every morning.",
+          "es": "Mi mamá vende verduras en el mercado todas las mañanas.",
+          "fr": "Ma mère vend des légumes au marché tous les matins.",
+          "hi": "मेरी माँ हर सुबह बाज़ार में सब्जियाँ बेचती है।",
+          "ja": "お母さんは毎朝市場で野菜を売ってる。",
+          "km": "ម្តាយខ្ញុំលក់បន្លែនៅទីផ្សារគ្រប់ព្រឹក។",
+          "ko": "엄마는 매일 아침 시장에서 채소를 팔아.",
+          "ne": "आमा हरेक बिहान बजारमा तरकारी बेच्नुहुन्छ।",
+          "pt": "Minha mãe vende legumes no mercado toda manhã.",
+          "th": "แม่ขายผักที่ตลาดทุกเช้า",
+          "tl": "Nagbebenta ang nanay ng gulay sa palengke tuwing umaga.",
+          "ur": "میری ماں ہر صبح بازار میں سبزیاں بیچتی ہے۔",
+          "vi": "Mẹ tôi bán rau ở chợ mỗi buổi sáng.",
+          "zh": "我妈妈每天早上在市场卖蔬菜。",
+          "zh_Hant": "我媽媽每天早上在市場賣蔬菜。"
+        },
+        "out_of_scope_words": [
+          "ຜັກ",
+          "ຕະຫຼາດ",
+          "ເຊົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຂາຍໂທລະສັບເກົ່າໄດ້ລາຄາດີບໍ",
+        "romanization": "jao khaai tholasap kao dai laakhaa dii bo",
+        "translations": {
+          "de": "Hast du dein altes Handy zu einem guten Preis verkauft?",
+          "en": "Did you sell your old phone for a good price?",
+          "es": "¿Vendiste tu celular viejo a buen precio?",
+          "fr": "Tu as vendu ton vieux téléphone à un bon prix ?",
+          "hi": "क्या तुमने अपना पुराना फोन अच्छे दाम में बेचा?",
+          "ja": "古いスマホ、いい値段で売れた？",
+          "km": "តើអ្នកលក់ទូរស័ព្ទចាស់បានតម្លៃល្អទេ?",
+          "ko": "오래된 폰 좋은 가격에 팔았어?",
+          "ne": "पुरानो फोन राम्रो दाममा बेच्न सक्यौ?",
+          "pt": "Você vendeu seu celular velho por um bom preço?",
+          "th": "แกขายโทรศัพท์เก่าได้ราคาดีไหม",
+          "tl": "Nabenta mo ba ang lumang telepono mo sa magandang presyo?",
+          "ur": "کیا تم نے اپنا پرانا فون اچھی قیمت پر بیچا؟",
+          "vi": "Mày bán điện thoại cũ được giá tốt không?",
+          "zh": "你把旧手机卖了个好价钱吗？",
+          "zh_Hant": "你把舊手機賣了個好價錢嗎？"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ເກົ່າ",
+          "ລາຄາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly market vendor standing behind a stall with vegetables and goods, handing an item to a customer, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຖາມ": {
+    "definitions": {
+      "de": "Fragen – jemanden um Informationen oder eine Antwort bitten",
+      "en": "To ask – to request information or an answer from someone",
+      "es": "Preguntar – pedir información o una respuesta a alguien",
+      "fr": "Demander – solliciter des informations ou une réponse de quelqu'un",
+      "hi": "पूछना – किसी से जानकारी या जवाब माँगना",
+      "ja": "聞く・尋ねる – 誰かに情報や答えを求めること",
+      "km": "សួរ – ស្នើសុំព័ត៌មានឬចម្លើយពីនរណាម្នាក់",
+      "ko": "묻다 – 누군가에게 정보나 대답을 요청하다",
+      "ne": "सोध्नु – कसैसँग जानकारी वा जवाफ माग्नु",
+      "pt": "Perguntar – pedir informações ou uma resposta a alguém",
+      "th": "ถาม – ขอข้อมูลหรือคำตอบจากใครสักคน",
+      "tl": "Magtanong – humingi ng impormasyon o sagot mula sa isang tao",
+      "ur": "پوچھنا – کسی سے معلومات یا جواب مانگنا",
+      "vi": "Hỏi – yêu cầu thông tin hoặc câu trả lời từ ai đó",
+      "zh": "问 – 向某人询问信息或寻求答案",
+      "zh_Hant": "問 – 向某人詢問資訊或尋求答案"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰǎːm/",
+    "examples": [
+      {
+        "lao_script": "ຖ້າບໍ່ຮູ້ກໍຖາມຄູໄດ້ເລີຍ",
+        "romanization": "tha bo huu go tham khuu dai loei",
+        "translations": {
+          "de": "Wenn du es nicht weißt, kannst du einfach den Lehrer fragen.",
+          "en": "If you don't know, just go ahead and ask the teacher.",
+          "es": "Si no sabes, puedes preguntarle al profesor directamente.",
+          "fr": "Si tu ne sais pas, tu peux demander au prof directement.",
+          "hi": "अगर नहीं पता तो सीधे टीचर से पूछ सकते हो।",
+          "ja": "わからなかったら、先生に聞いちゃえばいいよ。",
+          "km": "បើមិនដឹងសួរគ្រូបានភ្លាមៗ។",
+          "ko": "모르면 그냥 선생님한테 물어봐.",
+          "ne": "थाहा छैन भने शिक्षकलाई सोध्न सकिन्छ।",
+          "pt": "Se não saber, pode perguntar ao professor mesmo.",
+          "th": "ถ้าไม่รู้ก็ถามครูได้เลย",
+          "tl": "Kung hindi mo alam, tanungin mo na lang ang guro.",
+          "ur": "اگر نہیں جانتے تو استاد سے پوچھ سکتے ہو۔",
+          "vi": "Nếu không biết thì cứ hỏi thầy/cô luôn đi.",
+          "zh": "不知道的话直接问老师就行了。",
+          "zh_Hant": "不知道的話直接問老師就好了。"
+        },
+        "out_of_scope_words": [
+          "ຄູ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກຖາມເຈົ້າວ່າເຈົ້າສະບາຍດີບໍ",
+        "romanization": "khooi yaak tham jao waa jao sabaai dii bo",
+        "translations": {
+          "de": "Ich wollte dich fragen, ob es dir gut geht.",
+          "en": "I wanted to ask you if you're doing okay.",
+          "es": "Quería preguntarte si estás bien.",
+          "fr": "Je voulais te demander si tu allais bien.",
+          "hi": "मैं तुमसे पूछना चाहता था कि तुम ठीक हो?",
+          "ja": "ちょっと聞きたかったんだけど、元気？",
+          "km": "ខ្ញុំចង់សួរអ្នកថា អ្នកសុខសប្បាយទេ?",
+          "ko": "너한테 잘 지내는지 물어보고 싶었어.",
+          "ne": "मैले तिमीलाई सोध्न चाहन्थें कि तिमी ठीक छौ?",
+          "pt": "Eu queria te perguntar se você está bem.",
+          "th": "ฉันอยากถามแกว่าแกสบายดีไหม",
+          "tl": "Gusto ko sanang itanong kung ayos ka lang.",
+          "ur": "میں تم سے پوچھنا چاہتا تھا کہ تم ٹھیک ہو؟",
+          "vi": "Tao muốn hỏi mày xem mày có ổn không.",
+          "zh": "我想问问你，你还好吗？",
+          "zh_Hant": "我想問問你，你還好嗎？"
+        },
+        "out_of_scope_words": [
+          "ສະບາຍດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person raising their hand to ask a question, with a speech bubble containing a question mark above their head, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບັດ": {
+    "definitions": {
+      "de": "Karte – ein flaches Stück Papier oder Plastik mit Informationen, z. B. Ausweis, Bankkarte, Visitenkarte",
+      "en": "Card – a flat piece of paper or plastic carrying information, such as an ID card, bank card, or business card",
+      "es": "Tarjeta – un trozo plano de papel o plástico con información, como una tarjeta de identidad, bancaria o de visita",
+      "fr": "Carte – un morceau plat de papier ou de plastique portant des informations, comme une carte d'identité, bancaire ou de visite",
+      "hi": "कार्ड – एक सपाट कागज़ या प्लास्टिक का टुकड़ा जिस पर जानकारी होती है, जैसे पहचान पत्र, बैंक कार्ड, या विजिटिंग कार्ड",
+      "ja": "カード – 情報が記載された薄い紙やプラスチック、例えば身分証明書、銀行カード、名刺など",
+      "km": "កាត – ក្រដាស ឬប្លាស្ទិចស្តើងដែលមានព័ត៌មាន ដូចជាអត្តសញ្ញាណប័ណ្ណ កាតធនាគារ ឬនាមប័ណ្ណ",
+      "ko": "카드 – 신분증, 은행 카드, 명함 등 정보가 담긴 납작한 종이나 플라스틱",
+      "ne": "कार्ड – जानकारी बोकेको कागज वा प्लास्टिकको सपाट टुक्रा, जस्तै परिचय पत्र, बैंक कार्ड, वा भिजिटिङ कार्ड",
+      "pt": "Cartão – um pedaço plano de papel ou plástico com informações, como carteira de identidade, cartão bancário ou cartão de visita",
+      "th": "บัตร – กระดาษหรือพลาสติกแบนที่มีข้อมูล เช่น บัตรประชาชน บัตรธนาคาร หรือนามบัตร",
+      "tl": "Kard – isang patag na piraso ng papel o plastik na may impormasyon, tulad ng ID card, bank card, o business card",
+      "ur": "کارڈ – کاغذ یا پلاسٹک کا ایک چپٹا ٹکڑا جس پر معلومات ہوتی ہیں، جیسے شناختی کارڈ، بینک کارڈ، یا وزٹنگ کارڈ",
+      "vi": "Thẻ – một tờ giấy hoặc nhựa mỏng chứa thông tin, chẳng hạn như thẻ căn cước, thẻ ngân hàng, hoặc danh thiếp",
+      "zh": "卡 – 一种携带信息的扁平纸片或塑料，如身份证、银行卡或名片",
+      "zh_Hant": "卡 – 一種攜帶資訊的扁平紙片或塑膠，如身份證、銀行卡或名片"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/bàt/",
+    "examples": [
+      {
+        "lao_script": "ເອົາບັດປະຊາຊົນມາດ້ວຍເນາະ",
+        "romanization": "ao bat paxaaxon maa duai nao",
+        "translations": {
+          "de": "Bring bitte auch deinen Personalausweis mit.",
+          "en": "Make sure to bring your ID card too, okay?",
+          "es": "Trae también tu cédula de identidad, ¿de acuerdo?",
+          "fr": "N'oublie pas d'apporter ta carte d'identité aussi, hein.",
+          "hi": "अपना पहचान पत्र भी लाना, ठीक है?",
+          "ja": "身分証明書も持ってきてね。",
+          "km": "យក​អត្ត​សញ្ញាណប័ណ្ណ​មក​ដែរ​នៅ។",
+          "ko": "신분증도 꼭 가져와, 알겠지?",
+          "ne": "परिचय पत्र पनि लिएर आउनू है।",
+          "pt": "Traz a carteira de identidade também, tá?",
+          "th": "เอาบัตรประชาชนมาด้วยนะ",
+          "tl": "Dalhin mo rin ang iyong ID card ha.",
+          "ur": "شناختی کارڈ بھی ساتھ لے آنا۔",
+          "vi": "Nhớ mang theo chứng minh nhân dân nha.",
+          "zh": "记得把身份证也带来哦。",
+          "zh_Hant": "記得把身份證也帶來喔。"
+        },
+        "out_of_scope_words": [
+          "ປະຊາຊົນ",
+          "ເອົາ"
+        ]
+      },
+      {
+        "lao_script": "ບັດທະນາຄານຂອງຂ້ອຍຫາຍໄປແລ້ວ",
+        "romanization": "bat thanaakhaan khong khooi haai pai laeo",
+        "translations": {
+          "de": "Meine Bankkarte ist weg.",
+          "en": "My bank card is gone / I lost my bank card.",
+          "es": "Mi tarjeta bancaria se perdió.",
+          "fr": "Ma carte bancaire a disparu.",
+          "hi": "मेरा बैंक कार्ड गुम हो गया।",
+          "ja": "銀行カードなくしちゃった。",
+          "km": "កាតធនាគាររបស់ខ្ញុំបាត់ហើយ។",
+          "ko": "내 은행 카드가 없어졌어.",
+          "ne": "मेरो बैंक कार्ड हराइसक्यो।",
+          "pt": "Meu cartão bancário sumiu.",
+          "th": "บัตรธนาคารของฉันหายไปแล้ว",
+          "tl": "Nawala na ang aking bank card.",
+          "ur": "میرا بینک کارڈ گم ہو گیا۔",
+          "vi": "Thẻ ngân hàng của tao mất rồi.",
+          "zh": "我的银行卡丢了。",
+          "zh_Hant": "我的銀行卡丟了。"
+        },
+        "out_of_scope_words": [
+          "ທະນາຄານ",
+          "ຫາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cards side by side – one resembling an ID card with a photo placeholder and the other a bank card with a chip, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮູບ": {
+    "definitions": {
+      "de": "Bild / Foto – eine visuelle Darstellung oder Fotografie von etwas oder jemandem",
+      "en": "Picture / photo – a visual image or photograph of something or someone",
+      "es": "Imagen / foto – una representación visual o fotografía de algo o alguien",
+      "fr": "Image / photo – une représentation visuelle ou photographie de quelque chose ou de quelqu'un",
+      "hi": "तस्वीर / फोटो – किसी चीज़ या व्यक्ति की दृश्य छवि या फोटोग्राफ",
+      "ja": "写真・絵 – 何かまたは誰かの視覚的なイメージや写真",
+      "km": "រូបភាព / រូបថត – រូបភាពមើលឃើញ ឬរូបថតរបស់អ្វីមួយ ឬនរណាម្នាក់",
+      "ko": "사진 / 그림 – 무언가 또는 누군가의 시각적 이미지나 사진",
+      "ne": "तस्वीर / फोटो – कुनै चीज वा व्यक्तिको दृश्य छवि वा फोटोग्राफ",
+      "pt": "Imagem / foto – uma representação visual ou fotografia de algo ou alguém",
+      "th": "รูปภาพ / รูปถ่าย – ภาพหรือรูปถ่ายของบางสิ่งหรือบางคน",
+      "tl": "Larawan / litrato – isang visual na imahe o larawan ng isang bagay o tao",
+      "ur": "تصویر / فوٹو – کسی چیز یا شخص کی بصری تصویر یا فوٹوگراف",
+      "vi": "Hình / ảnh – hình ảnh trực quan hoặc bức ảnh chụp của ai đó hoặc thứ gì đó",
+      "zh": "图片 / 照片 – 某事物或某人的视觉图像或照片",
+      "zh_Hant": "圖片 / 照片 – 某事物或某人的視覺圖像或照片"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/húːp/",
+    "examples": [
+      {
+        "lao_script": "ຮູບນີ້ສວຍຫຼາຍ ຖ່າຍດ້ວຍໂທລະສັບຫຍັງ",
+        "romanization": "hup nii suai laai, thaai duai tholasap nyang",
+        "translations": {
+          "de": "Dieses Foto ist wirklich schön – mit welchem Handy hast du es aufgenommen?",
+          "en": "This photo is so beautiful – what phone did you take it with?",
+          "es": "Esta foto es muy bonita, ¿con qué celular la tomaste?",
+          "fr": "Cette photo est vraiment belle, tu l'as prise avec quel téléphone ?",
+          "hi": "यह तस्वीर बहुत सुंदर है, किस फोन से ली?",
+          "ja": "この写真すごくきれい、何のスマホで撮ったの？",
+          "km": "រូបនេះស្អាតណាស់ ថតដោយទូរស័ព្ទអ្វី?",
+          "ko": "이 사진 정말 예쁘다, 무슨 폰으로 찍었어?",
+          "ne": "यो तस्वीर धेरै सुन्दर छ, कुन फोनले खिचेको?",
+          "pt": "Essa foto é muito linda, com que celular você tirou?",
+          "th": "รูปนี้สวยมากเลย ถ่ายด้วยโทรศัพท์อะไร",
+          "tl": "Napakaganda ng larawang ito, anong telepono ang ginamit mo?",
+          "ur": "یہ تصویر بہت خوبصورت ہے، کس فون سے لی؟",
+          "vi": "Cái ảnh này đẹp quá, chụp bằng điện thoại gì vậy?",
+          "zh": "这张照片好漂亮，用什么手机拍的？",
+          "zh_Hant": "這張照片好漂亮，用什麼手機拍的？"
+        },
+        "out_of_scope_words": [
+          "ຖ່າຍ",
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ສົ່ງຮູບງານລ້ຽງຄືນນີ້ໃຫ້ຂ້ອຍດ້ວຍເນາະ",
+        "romanization": "song hup ngaan liang khuun nii hai khooi duai nao",
+        "translations": {
+          "de": "Schick mir bitte auch die Fotos von der heutigen Party.",
+          "en": "Send me the photos from tonight's party too, okay?",
+          "es": "Mándame las fotos de la fiesta de esta noche también, ¿sí?",
+          "fr": "Envoie-moi aussi les photos de la fête de ce soir, hein.",
+          "hi": "आज रात की पार्टी की तस्वीरें मुझे भी भेजना।",
+          "ja": "今夜のパーティーの写真も送ってね。",
+          "km": "ផ្ញើរូបថតពីពិធីបុណ្យយប់នេះមកខ្ញុំផងណា។",
+          "ko": "오늘 밤 파티 사진도 나한테 보내줘.",
+          "ne": "आजको पार्टीका तस्वीरहरू मलाई पनि पठाउनू है।",
+          "pt": "Me manda as fotos da festa de hoje à noite também, tá?",
+          "th": "ส่งรูปงานเลี้ยงคืนนี้ให้ฉันด้วยนะ",
+          "tl": "Ipadala mo rin sa akin ang mga larawan ng party ngayong gabi ha.",
+          "ur": "آج رات کی پارٹی کی تصاویر مجھے بھی بھیجنا۔",
+          "vi": "Gửi ảnh buổi tiệc tối nay cho tao với nha.",
+          "zh": "今晚派对的照片也发给我一下哦。",
+          "zh_Hant": "今晚派對的照片也發給我一下喔。"
+        },
+        "out_of_scope_words": [
+          "ງານລ້ຽງ",
+          "ສົ່ງ",
+          "ຄືນນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person holding up a smartphone showing a bright photo on its screen, with a small picture frame icon nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

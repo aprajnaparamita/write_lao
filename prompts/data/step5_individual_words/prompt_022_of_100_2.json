@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮູ້",
+  "definitions": {
+    "de": "Wissen; kennen — etwas wissen oder mit jemandem/etwas vertraut sein; eine Tatsache oder Information kennen",
+    "en": "To know — to have knowledge of something or someone; to be aware of a fact or information",
+    "es": "Saber; conocer — tener conocimiento de algo o alguien; estar al tanto de un hecho o información",
+    "fr": "Savoir; connaître — avoir connaissance de quelque chose ou de quelqu'un; être au courant d'un fait ou d'une information",
+    "hi": "जानना — किसी चीज़ या व्यक्ति के बारे में ज्ञान होना; किसी तथ्य या जानकारी से अवगत होना",
+    "ja": "知る；知っている — 何かや誰かについての知識を持つ；事実や情報を把握している",
+    "km": "ដឹង — មានចំណេះដឹងអំពីអ្វីមួយ ឬនរណាម្នាក់; ដឹងពីការពិតឬព័ត៌មានណាមួយ",
+    "ko": "알다 — 어떤 것이나 누군가에 대한 지식을 가지다; 사실이나 정보를 알고 있다",
+    "ne": "थाहा हुनु / जान्नु — कुनै चीज वा व्यक्तिबारे ज्ञान हुनु; कुनै तथ्य वा जानकारीबारे जानकार हुनु",
+    "pt": "Saber; conhecer — ter conhecimento de algo ou alguém; estar ciente de um fato ou informação",
+    "th": "รู้; ทราบ — มีความรู้เกี่ยวกับบางสิ่งหรือบางคน; ตระหนักรู้ถึงข้อเท็จจริงหรือข้อมูล",
+    "tl": "Malaman; makilala — magkaroon ng kaalaman tungkol sa isang bagay o tao; maging mulat sa isang katotohanan o impormasyon",
+    "ur": "جاننا — کسی چیز یا شخص کے بارے میں علم رکھنا؛ کسی حقیقت یا معلومات سے آگاہ ہونا",
+    "vi": "Biết — có kiến thức về điều gì đó hoặc ai đó; nhận thức được một sự thật hoặc thông tin",
+    "zh": "知道；了解 — 对某事或某人有所了解；知晓某个事实或信息",
+    "zh_Hant": "知道；了解 — 對某事或某人有所了解；知曉某個事實或資訊"
+  },
+  "definition_en": "To know — to have knowledge of something or someone; to be aware of a fact or information",
+  "romanization": "huː⁴",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຮູ້ຈັກລາວບໍ່?",
+      "romanization": "jâo hûu-jàk laao bɔ̀?",
+      "translation_en": "Do you know him/her?"
+    },
+    {
+      "lao_script": "ຂ້ອຍບໍ່ຮູ້ວ່າລາວຢູ່ໃສ",
+      "romanization": "khɔ̂i bɔ̀ hûu wâa laao yùu sǎi",
+      "translation_en": "I don't know where he/she is."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a bright lightbulb glowing above their head, representing knowledge and understanding, clean white background, colorful minimalist cartoon style suitable for a language learning app."
+}

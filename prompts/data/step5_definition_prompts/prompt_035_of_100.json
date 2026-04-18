@@ -1,0 +1,439 @@
+{
+  "ເຊ": {
+    "definitions": {
+      "de": "Eine Silbe, die in Verbindungen verwendet wird, um Zustimmung, Entspanntheit oder eine informelle Pause im Gespräch auszudrücken; oft in zusammengesetzten Wörtern wie ເຊົາ (aufhören) zu finden",
+      "en": "A syllable fragment used in combinations to express agreement, ease, or a casual pause in speech; often found in compound words such as ເຊົາ (to stop)",
+      "es": "Fragmento de sílaba usado en combinaciones para expresar acuerdo, relajación o una pausa informal en el discurso; frecuentemente encontrado en palabras compuestas como ເຊົາ (parar)",
+      "fr": "Fragment syllabique utilisé dans des combinaisons pour exprimer un accord, une aisance ou une pause informelle dans le discours ; souvent présent dans des mots composés comme ເຊົາ (s'arrêter)",
+      "hi": "एक अक्षर खंड जो संयोजनों में सहमति, सहजता, या बातचीत में अनौपचारिक विराम व्यक्त करने के लिए उपयोग किया जाता है; अक्सर ເຊົາ (रुकना) जैसे यौगिक शब्दों में पाया जाता है",
+      "ja": "組み合わせで使われる音節の断片で、同意、気軽さ、または会話の非公式な間を表す。ເຊົາ（止まる）などの複合語によく見られる",
+      "km": "ផ្នែកព្យាង្គដែលប្រើក្នុងការបន្សំដើម្បីបង្ហាញការយល់ព្រម ភាពស្រួល ឬការឈប់សម្រាកក្នុងការនិយាយ; ច្រើនជំរួបក្នុងពាក្យផ្សំដូចជា ເຊົາ (ឈប់)",
+      "ko": "조합에서 동의, 편안함, 또는 대화의 비격식적인 휴지를 표현하는 데 사용되는 음절 단편; ເຊົາ(멈추다)와 같은 복합어에서 자주 발견됨",
+      "ne": "एक अक्षर खण्ड जुन संयोजनहरूमा सहमति, सहजता, वा कुराकानीमा अनौपचारिक विराम व्यक्त गर्न प्रयोग गरिन्छ; प्रायः ເຊົາ (रोक्नु) जस्ता यौगिक शब्दहरूमा पाइन्छ",
+      "pt": "Fragmento silábico usado em combinações para expressar concordância, descontração ou uma pausa informal no discurso; frequentemente encontrado em palavras compostas como ເຊົາ (parar)",
+      "th": "ชิ้นส่วนพยางค์ที่ใช้ในการรวมคำเพื่อแสดงความเห็นด้วย ความผ่อนคลาย หรือการหยุดพักอย่างไม่เป็นทางการในการพูด; มักพบในคำประสมเช่น ເຊົາ (หยุด)",
+      "tl": "Isang bahagi ng pantig na ginagamit sa mga kumbinasyon upang ipahayag ang kasunduan, kaginhawaan, o isang impormal na pahinga sa pananalita; madalas na makita sa mga tambalang salita tulad ng ເຊົາ (huminto)",
+      "ur": "ایک حرف کا ٹکڑا جو مرکبات میں رضامندی، آسانی، یا گفتگو میں غیر رسمی وقفے کو ظاہر کرنے کے لیے استعمال ہوتا ہے؛ اکثر ເຊົາ (رکنا) جیسے مرکب الفاظ میں پایا جاتا ہے",
+      "vi": "Một mảnh âm tiết được dùng trong các tổ hợp để thể hiện sự đồng ý, sự thoải mái, hoặc một khoảng dừng không trang trọng trong lời nói; thường gặp trong các từ ghép như ເຊົາ (dừng lại)",
+      "zh": "一个音节片段，用于组合中表达同意、轻松或谈话中的非正式停顿；常见于ເຊົາ（停止）等复合词中",
+      "zh_Hant": "一個音節片段，用於組合中表達同意、輕鬆或談話中的非正式停頓；常見於ເຊົາ（停止）等複合詞中"
+    },
+    "part_of_speech": "particle",
+    "romanization": "seː˧",
+    "examples": [
+      {
+        "lao_script": "ເຊົາກິນເຂົ້າແລ້ວ, ອອກໄປຫຼິ້ນເຊ",
+        "romanization": "sao kin khao laew, ok pai lin se",
+        "translations": {
+          "de": "Fertig gegessen, jetzt geh raus und spiel schon",
+          "en": "Done eating, go out and play already",
+          "es": "Ya terminaste de comer, sal a jugar pues",
+          "fr": "Fini de manger, va jouer dehors alors",
+          "hi": "खाना खत्म हो गया, अब बाहर जाकर खेलो",
+          "ja": "もう食べ終わったから、外行って遊んでおいでよ",
+          "km": "ញ៉ាំបាយចប់ហើយ ចេញទៅលេងចុះ",
+          "ko": "밥 다 먹었으면, 이제 나가서 놀아",
+          "ne": "खाना सकियो, बाहिर गएर खेल न",
+          "pt": "Terminou de comer, vai lá brincar",
+          "th": "กินข้าวเสร็จแล้ว ออกไปเล่นซะ",
+          "tl": "Tapos na kumain, lumabas ka na at maglaro na",
+          "ur": "کھانا کھا لیا، اب باہر جا کر کھیلو",
+          "vi": "Ăn xong rồi, ra ngoài chơi đi",
+          "zh": "吃完饭了，出去玩吧",
+          "zh_Hant": "吃完飯了，出去玩吧"
+        },
+        "out_of_scope_words": [
+          "ເຊົາ",
+          "ກິນ",
+          "ເຂົ້າ",
+          "ແລ້ວ",
+          "ອອກ",
+          "ໄປ",
+          "ຫຼິ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ໄປດ້ວຍກັນເຊ, ຢ່າຢູ່ຄົນດຽວ",
+        "romanization": "pai duay kan se, ya yu khon diao",
+        "translations": {
+          "de": "Komm doch einfach mit, bleib nicht allein",
+          "en": "Just come along, don't stay alone",
+          "es": "Anda con nosotros pues, no te quedes solo",
+          "fr": "Viens avec nous, ne reste pas seul",
+          "hi": "साथ चलो न, अकेले मत रहो",
+          "ja": "一緒においでよ、一人でいないで",
+          "km": "មកជាមួយគ្នាទៅ កុំនៅម្នាក់ឯង",
+          "ko": "같이 가자, 혼자 있지 말고",
+          "ne": "सँगै जाऊ न, एक्लै नबस",
+          "pt": "Vem junto, não fiques sozinho",
+          "th": "ไปด้วยกันเลย อย่าอยู่คนเดียว",
+          "tl": "Samahan mo kami, huwag kang mag-isa",
+          "ur": "ساتھ چلو، اکیلے مت رہو",
+          "vi": "Cùng đi đi, đừng ở một mình",
+          "zh": "一起去嘛，别一个人待着",
+          "zh_Hant": "一起去嘛，別一個人待著"
+        },
+        "out_of_scope_words": [
+          "ດ້ວຍກັນ",
+          "ຢ່າ",
+          "ຢູ່",
+          "ຄົນດຽວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a speech bubble with a soft, casual expression mark inside, suggesting informal agreement or a gentle nudge in conversation, clean white background, pastel colors, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຕິດ": {
+    "definitions": {
+      "de": "Kleben, haften, anhängen; angeschlossen oder feststeckend sein; etwas wird befestigt oder bleibt stecken (vielseitiges Verb mit vielen zusammengesetzten Verwendungen)",
+      "en": "To stick, to attach, to be connected or stuck; used to describe adhesion, being adjacent, being addicted, or being caught up (versatile verb used in many compound forms)",
+      "es": "Pegar, adherir, estar conectado o atascado; se usa para describir adherencia, estar adyacente, estar adicto o quedarse enganchado (verbo versátil con muchos usos compuestos)",
+      "fr": "Coller, attacher, être connecté ou coincé; utilisé pour décrire l'adhérence, la proximité, l'addiction ou le fait d'être pris (verbe polyvalent utilisé dans de nombreuses formes composées)",
+      "hi": "चिपकना, जोड़ना, जुड़ा होना या फंसा होना; चिपकाव, निकटता, लत, या फंसे होने को दर्शाने के लिए उपयोग किया जाता है (कई यौगिक रूपों में उपयोग किया जाने वाला बहुमुखी क्रिया)",
+      "ja": "くっつく、付着する、繋がる、または詰まる；粘着、隣接、中毒、または引っかかっていることを表すために使われる（多くの複合形で使われる多用途の動詞）",
+      "km": "ស្អិត ភ្ជាប់ ត្រូវបានភ្ជាប់ ឬជាប់គាំង; ប្រើដើម្បីពណ៌នាការស្អិត ការនៅជិត ការញៀន ឬការជាប់គាំង (កិរិយាស័ព្ទពហុគោលបំណងដែលប្រើក្នុងទម្រង់ផ្សំជាច្រើន)",
+      "ko": "붙다, 부착하다, 연결되거나 막히다; 접착, 인접, 중독 또는 걸려 있음을 묘사하는 데 사용됨 (많은 복합 형태로 사용되는 다재다능한 동사)",
+      "ne": "टाँस्नु, जोड्नु, जोडिएको वा अड्किएको हुनु; चिपकाव, नजिकपन, लत, वा अड्किएको वर्णन गर्न प्रयोग गरिन्छ (धेरै यौगिक रूपहरूमा प्रयोग हुने बहुमुखी क्रिया)",
+      "pt": "Colar, anexar, estar conectado ou preso; usado para descrever adesão, proximidade, vício ou estar preso (verbo versátil com muitos usos compostos)",
+      "th": "ติด, ผนึก, เชื่อมต่อหรือติดขัด; ใช้เพื่ออธิบายการติดแน่น ความใกล้ชิด การติดยาเสพติด หรือการติดค้าง (กริยาที่ใช้งานได้หลากหลายในรูปแบบคำประสม)",
+      "tl": "Dumikit, ilakip, maikonekta o maipit; ginagamit upang ilarawan ang pagdikit, pagiging katabi, pagkaakit, o pagkabuntot (maraming gamit na pandiwa sa iba't ibang tambalan)",
+      "ur": "چپکنا، جوڑنا، جڑا ہوا یا پھنسا ہوا ہونا؛ چپکاؤ، قربت، لت، یا پھنسے ہونے کو بیان کرنے کے لیے استعمال ہوتا ہے (بہت سی مرکب شکلوں میں استعمال ہونے والا کثیرالمقاصد فعل)",
+      "vi": "Dính, gắn, kết nối hoặc bị mắc kẹt; dùng để mô tả sự dính, sự gần gũi, sự nghiện ngập hoặc bị vướng mắc (động từ linh hoạt dùng trong nhiều dạng ghép)",
+      "zh": "粘、附着、连接或卡住；用于描述粘附、相邻、上瘾或被卡住（用于许多复合形式的多功能动词）",
+      "zh_Hant": "黏、附著、連接或卡住；用於描述黏附、相鄰、上癮或被卡住（用於許多複合形式的多功能動詞）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tit˥",
+    "examples": [
+      {
+        "lao_script": "ເຈ້ຍຕິດນິ້ວຂ້ອຍ, ເອົາອອກບໍ່ໄດ້ເລີຍ",
+        "romanization": "jia tit niu khoy, ao ok bo dai loey",
+        "translations": {
+          "de": "Das Papier klebt an meinem Finger, ich krieg's einfach nicht ab",
+          "en": "The paper is stuck to my finger, I can't get it off at all",
+          "es": "El papel se pegó en mi dedo, no puedo quitarlo para nada",
+          "fr": "Le papier est collé à mon doigt, je n'arrive pas à l'enlever",
+          "hi": "कागज मेरी उंगली पर चिपक गया है, मैं इसे निकाल ही नहीं पा रहा",
+          "ja": "紙が指にくっついて、全然取れない",
+          "km": "ក្រដាសស្អិតម្រាមដៃខ្ញុំ ដោះមិនចេញសោះ",
+          "ko": "종이가 내 손가락에 붙어서 도저히 떼낼 수가 없어",
+          "ne": "कागज मेरो औंलामा टाँसियो, निकाल्नै सकिएन",
+          "pt": "O papel grudou no meu dedo, não consigo tirar de jeito nenhum",
+          "th": "กระดาษติดนิ้วฉัน เอาออกไม่ได้เลย",
+          "tl": "Nadikit ang papel sa aking daliri, hindi ko talaga matanggal",
+          "ur": "کاغذ میری انگلی سے چپک گیا، نکال ہی نہیں سکتا",
+          "vi": "Tờ giấy dính vào ngón tay tôi, gỡ ra không được luôn",
+          "zh": "纸粘在我手指上了，怎么都取不下来",
+          "zh_Hant": "紙黏在我手指上了，怎麼都取不下來"
+        },
+        "out_of_scope_words": [
+          "ເຈ້ຍ",
+          "ນິ້ວ",
+          "ຂ້ອຍ",
+          "ເອົາ",
+          "ອອກ",
+          "ບໍ່ໄດ້",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຕິດໂທລະສັບຫຼາຍ, ຖືຕະຫຼອດເວລາ",
+        "romanization": "lao tit tholasap lai, thue talot wela",
+        "translations": {
+          "de": "Er ist total von seinem Handy abhängig, er hält es die ganze Zeit in der Hand",
+          "en": "He's really addicted to his phone, he holds it all the time",
+          "es": "Él está muy enganchado a su teléfono, lo tiene en la mano todo el tiempo",
+          "fr": "Il est vraiment accro à son téléphone, il le tient tout le temps",
+          "hi": "वह अपने फोन का बहुत आदी है, हर वक्त हाथ में लिए रहता है",
+          "ja": "彼はスマホが本当に手放せなくて、いつも持ってる",
+          "km": "គាត់ជំពាក់ទូរស័ព្ទខ្លាំងណាស់ ចាប់វាគ្រប់ពេល",
+          "ko": "그는 정말 핸드폰에 중독돼서 항상 들고 다녀",
+          "ne": "उ मोबाइलमा धेरै लत परेको छ, सधैं समातिरहन्छ",
+          "pt": "Ele é muito viciado no celular, fica segurando o tempo todo",
+          "th": "เขาติดโทรศัพท์มาก ถือตลอดเวลา",
+          "tl": "Siya ay talagang adik sa telepono, hawak niya ito sa lahat ng oras",
+          "ur": "وہ موبائل کا بہت عادی ہے، ہر وقت پکڑے رہتا ہے",
+          "vi": "Anh ta nghiện điện thoại lắm, cầm suốt",
+          "zh": "他很沉迷手机，整天拿着",
+          "zh_Hant": "他很沉迷手機，整天拿著"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ໂທລະສັບ",
+          "ຫຼາຍ",
+          "ຖື",
+          "ຕະຫຼອດ",
+          "ເວລາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a piece of tape or sticker firmly attached to a surface, with a small hand trying to peel it off, clean white background, bright colors, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສິ່ງ": {
+    "definitions": {
+      "de": "Sache, Ding, Objekt; ein allgemeines Nomen, das auf abstrakte oder physische Dinge verweist, oft in Verbindungen verwendet wie ສິ່ງຂອງ (Besitztümer/Waren)",
+      "en": "Thing, object, matter; a general noun referring to abstract or physical things, often used in compounds such as ສິ່ງຂອງ (belongings/goods) and ສິ່ງທີ່ (that which/what)",
+      "es": "Cosa, objeto, asunto; un sustantivo general que se refiere a cosas abstractas o físicas, frecuentemente usado en compuestos como ສິ່ງຂອງ (pertenencias/bienes)",
+      "fr": "Chose, objet, affaire; un nom général faisant référence à des choses abstraites ou physiques, souvent utilisé dans des composés comme ສິ່ງຂອງ (affaires/biens)",
+      "hi": "चीज़, वस्तु, मामला; एक सामान्य संज्ञा जो अमूर्त या भौतिक चीजों को संदर्भित करती है, अक्सर ສິ່ງຂອງ (सामान/सामग्री) जैसे यौगिकों में उपयोग की जाती है",
+      "ja": "もの、物事、事柄；抽象的または物理的なものを指す一般名詞で、ສິ່ງຂອງ（持ち物・品物）などの複合語によく使われる",
+      "km": "របស់ វត្ថុ រឿង; នាមទូទៅដែលសំដៅទៅលើរបស់អរូបី ឬរូបី ច្រើនប្រើក្នុងពាក្យផ្សំដូចជា ສິ່ງຂອງ (របស់ / ទំនិញ)",
+      "ko": "것, 물건, 사항; 추상적이거나 물리적인 것을 가리키는 일반 명사로 ສິ່ງຂອງ(물건/소지품)과 같은 복합어에 자주 사용됨",
+      "ne": "चिज, वस्तु, विषय; एक सामान्य नाम जुन अमूर्त वा भौतिक चिजहरूलाई सन्दर्भ गर्छ, प्रायः ສິ່ງຂອງ (सामान/सामग्री) जस्ता यौगिकहरूमा प्रयोग गरिन्छ",
+      "pt": "Coisa, objeto, assunto; um substantivo geral que se refere a coisas abstratas ou físicas, frequentemente usado em compostos como ສິ່ງຂອງ (pertences/bens)",
+      "th": "สิ่ง ของ เรื่อง; คำนามทั่วไปที่หมายถึงสิ่งที่เป็นนามธรรมหรือสิ่งที่จับต้องได้ มักใช้ในคำประสมเช่น ສິ່ງຂອງ (ของใช้/สินค้า)",
+      "tl": "Bagay, objeto, usapin; isang pangkalahatang pangngalan na tumutukoy sa mga abstrakto o pisikal na bagay, madalas na ginagamit sa mga tambalan tulad ng ສິ່ງຂອງ (mga gamit/kalakal)",
+      "ur": "چیز، شے، معاملہ؛ ایک عام اسم جو خلاصی یا جسمانی چیزوں کو ظاہر کرتا ہے، اکثر ສິ່ງຂອງ (سامان/مال) جیسے مرکبات میں استعمال ہوتا ہے",
+      "vi": "Thứ, vật, sự việc; một danh từ chung chỉ các sự vật trừu tượng hoặc cụ thể, thường dùng trong các từ ghép như ສິ່ງຂອງ (đồ vật/hàng hóa)",
+      "zh": "东西、物品、事情；指代抽象或具体事物的通用名词，常用于ສິ່ງຂອງ（物品/货物）等复合词中",
+      "zh_Hant": "東西、物品、事情；指代抽象或具體事物的通用名詞，常用於ສິ່ງຂອງ（物品/貨物）等複合詞中"
+    },
+    "part_of_speech": "noun",
+    "romanization": "siŋ˨˩",
+    "examples": [
+      {
+        "lao_script": "ສິ່ງທີ່ຂ້ອຍຢາກໄດ້ຫຼາຍທີ່ສຸດຄືໂທລະສັບໃໝ່",
+        "romanization": "sing thi khoy yak dai lai thi sut khue tholasap mai",
+        "translations": {
+          "de": "Das, was ich am meisten haben möchte, ist ein neues Handy",
+          "en": "The thing I want the most is a new phone",
+          "es": "Lo que más quiero es un teléfono nuevo",
+          "fr": "La chose que je veux le plus, c'est un nouveau téléphone",
+          "hi": "जो चीज़ मैं सबसे ज़्यादा चाहता हूं वह एक नया फोन है",
+          "ja": "私が一番欲しいものは新しいスマホだ",
+          "km": "រឿងដែលខ្ញុំចង់បានបំផុតគឺទូរស័ព្ទថ្មី",
+          "ko": "내가 가장 갖고 싶은 건 새 핸드폰이야",
+          "ne": "मैले सबभन्दा बढी चाहेको चिज नयाँ फोन हो",
+          "pt": "A coisa que eu mais quero é um celular novo",
+          "th": "สิ่งที่ฉันอยากได้มากที่สุดคือโทรศัพท์ใหม่",
+          "tl": "Ang bagay na pinaka-gusto ko ay isang bagong telepono",
+          "ur": "جو چیز مجھے سب سے زیادہ چاہیے وہ ایک نیا فون ہے",
+          "vi": "Thứ tôi muốn nhất là một chiếc điện thoại mới",
+          "zh": "我最想要的东西是一部新手机",
+          "zh_Hant": "我最想要的東西是一部新手機"
+        },
+        "out_of_scope_words": [
+          "ທີ່",
+          "ຢາກ",
+          "ໄດ້",
+          "ຫຼາຍທີ່ສຸດ",
+          "ຄື",
+          "ໂທລະສັບ",
+          "ໃໝ່"
+        ]
+      },
+      {
+        "lao_script": "ມີຫຼາຍສິ່ງທີ່ຕ້ອງເຮັດມື້ນີ້",
+        "romanization": "mi lai sing thi tong het mue ni",
+        "translations": {
+          "de": "Heute gibt es viele Dinge zu erledigen",
+          "en": "There are many things to do today",
+          "es": "Hay muchas cosas que hacer hoy",
+          "fr": "Il y a beaucoup de choses à faire aujourd'hui",
+          "hi": "आज करने के लिए बहुत सारी चीजें हैं",
+          "ja": "今日はやることがたくさんある",
+          "km": "មានរឿងជាច្រើនត្រូវធ្វើថ្ងៃនេះ",
+          "ko": "오늘 해야 할 일이 많아",
+          "ne": "आज गर्नु पर्ने धेरै कुराहरू छन्",
+          "pt": "Há muitas coisas para fazer hoje",
+          "th": "มีหลายสิ่งที่ต้องทำวันนี้",
+          "tl": "Maraming bagay ang kailangang gawin ngayon",
+          "ur": "آج کرنے کے لیے بہت ساری چیزیں ہیں",
+          "vi": "Hôm nay có nhiều việc cần làm",
+          "zh": "今天有很多事情要做",
+          "zh_Hant": "今天有很多事情要做"
+        },
+        "out_of_scope_words": [
+          "ມີ",
+          "ຫຼາຍ",
+          "ຕ້ອງ",
+          "ເຮັດ",
+          "ມື້ນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing several diverse everyday objects (a book, an apple, a ball, a cup) floating on a clean white background, with a gentle question mark nearby suggesting 'things', colorful minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເທດ": {
+    "definitions": {
+      "de": "Predigen oder ein religiöses Fest; hauptsächlich in Verbindungen verwendet, z.B. ເທດສະການ (Festival/Feier) oder ເທດສະໜາ (predigen, eine Dhamma-Lehre halten); selten allein verwendet",
+      "en": "To preach or a festival/festivity; primarily used in compound forms such as ເທດສະການ (festival/event) or ເທດສະໜາ (to preach/deliver a sermon); rarely used in isolation",
+      "es": "Predicar o festival/festividad; se usa principalmente en formas compuestas como ເທດສະການ (festival/evento) o ເທດສະໜາ (predicar/dar un sermón); rara vez se usa de forma aislada",
+      "fr": "Prêcher ou festival/fête; utilisé principalement dans des formes composées telles que ເທດສະການ (festival/événement) ou ເທດສະໜາ (prêcher/donner un sermon); rarement utilisé seul",
+      "hi": "धर्मोपदेश देना या उत्सव; मुख्य रूप से ເທດສະການ (उत्सव/कार्यक्रम) या ເທດສະໜາ (धर्मोपदेश देना) जैसे यौगिक रूपों में उपयोग किया जाता है; अकेले शायद ही उपयोग किया जाता है",
+      "ja": "説教する、または祭り・祝祭；主にເທດສະການ（祭り・イベント）やເທດສະໜາ（説教する・法話を行う）などの複合形で使われ、単独ではほとんど使われない",
+      "km": "ផ្សព្វផ្សាយ ឬពិធីបុណ្យ/ពិធីជប់លៀង; ភាគច្រើនប្រើក្នុងទម្រង់ផ្សំដូចជា ເທດສະການ (ពិធីបុណ្យ/ព្រឹត្តិការណ៍) ឬ ເທດສະໜາ (ផ្សព្វផ្សាយ/ថ្លែងសម្ដី); កម្រប្រើម្នាក់ឯង",
+      "ko": "설교하다 또는 축제/행사; 주로 ເທດສະການ(축제/행사) 또는 ເທດສະໜາ(설교하다/법문을 전하다)와 같은 복합 형태로 사용되며 단독으로는 거의 사용되지 않음",
+      "ne": "उपदेश दिनु वा उत्सव/चाड; मुख्यतः ເທດສະການ (उत्सव/कार्यक्रम) वा ເທດສະໜາ (उपदेश दिनु/धर्मोपदेश) जस्ता यौगिक रूपहरूमा प्रयोग गरिन्छ; एक्लै विरलै प्रयोग हुन्छ",
+      "pt": "Pregar ou festival/festividade; usado principalmente em formas compostas como ເທດສະການ (festival/evento) ou ເທດສະໜາ (pregar/dar um sermão); raramente usado isoladamente",
+      "th": "เทศน์หรือเทศกาล/งานฉลอง; ส่วนใหญ่ใช้ในรูปแบบคำประสมเช่น ເທດສະການ (เทศกาล/งานกิจกรรม) หรือ ເທດສະໜາ (เทศน์/แสดงธรรม); ไม่ค่อยใช้เดี่ยวๆ",
+      "tl": "Mangaral o isang kapistahan/pagdiriwang; pangunahing ginagamit sa mga tambalang anyo tulad ng ເທດສະການ (kapistahan/kaganapan) o ເທດສະໜາ (mangaral/magbigay ng sermon); bihirang gamitin nang mag-isa",
+      "ur": "وعظ کرنا یا تہوار/جشن؛ بنیادی طور پر ເທດສະການ (تہوار/تقریب) یا ເທດສະໜາ (وعظ کرنا/خطبہ دینا) جیسی مرکب شکلوں میں استعمال ہوتا ہے؛ اکیلے کم ہی استعمال ہوتا ہے",
+      "vi": "Thuyết giáo hoặc lễ hội/lễ kỷ niệm; chủ yếu được dùng trong các dạng ghép như ເທດສະການ (lễ hội/sự kiện) hoặc ເທດສະໜາ (thuyết giáo/giảng đạo); ít khi dùng đơn lẻ",
+      "zh": "布道或节日/庆典；主要用于ເທດສະການ（节日/活动）或ເທດສະໜາ（布道/讲法）等复合词中；很少单独使用",
+      "zh_Hant": "布道或節日/慶典；主要用於ເທດສະການ（節日/活動）或ເທດສະໜາ（布道/講法）等複合詞中；很少單獨使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tʰeːt˥",
+    "examples": [
+      {
+        "lao_script": "ເທດສະການທີ່ດີທີ່ສຸດຂອງປີນີ້ຄືບຸນນ້ຳ",
+        "romanization": "thetsakane thi di thi sut khong pi ni khue bun nam",
+        "translations": {
+          "de": "Das beste Fest des Jahres ist das Wasserfest",
+          "en": "The best festival of this year is the Water Festival",
+          "es": "El mejor festival de este año es el Festival del Agua",
+          "fr": "Le meilleur festival de cette année est le Festival de l'eau",
+          "hi": "इस साल का सबसे अच्छा उत्सव जल उत्सव है",
+          "ja": "今年一番の祭りは水祭りだ",
+          "km": "ពិធីបុណ្យដ៏ល្អបំផុតនៃឆ្នាំនេះគឺបុណ្យទឹក",
+          "ko": "올해 최고의 축제는 물 축제야",
+          "ne": "यो वर्षको सबैभन्दा राम्रो उत्सव जल उत्सव हो",
+          "pt": "O melhor festival do ano é o Festival da Água",
+          "th": "เทศกาลที่ดีที่สุดของปีนี้คืองานบุญน้ำ",
+          "tl": "Ang pinakamahusay na kapistahan ngayong taon ay ang Water Festival",
+          "ur": "اس سال کا سب سے اچھا تہوار پانی کا تہوار ہے",
+          "vi": "Lễ hội tuyệt nhất năm nay là lễ hội té nước",
+          "zh": "今年最棒的节日是泼水节",
+          "zh_Hant": "今年最棒的節日是潑水節"
+        },
+        "out_of_scope_words": [
+          "ເທດສະການ",
+          "ດີທີ່ສຸດ",
+          "ຂອງ",
+          "ປີນີ້",
+          "ຄື",
+          "ບຸນນ້ຳ"
+        ]
+      },
+      {
+        "lao_script": "ພຣະເທດສະໜາທີ່ວັດມື້ນີ້ຍາວຫຼາຍ",
+        "romanization": "pha thet sana thi wat mue ni yao lai",
+        "translations": {
+          "de": "Die Predigt im Tempel heute war sehr lang",
+          "en": "The sermon at the temple today was very long",
+          "es": "El sermón en el templo hoy fue muy largo",
+          "fr": "Le sermon au temple aujourd'hui était très long",
+          "hi": "आज मंदिर में धर्मोपदेश बहुत लंबा था",
+          "ja": "今日のお寺の法話はとても長かった",
+          "km": "ធម្មទេសនានៅវត្តថ្ងៃនេះវែងណាស់",
+          "ko": "오늘 절에서 법문이 정말 길었어",
+          "ne": "आज मन्दिरमा धर्मोपदेश धेरै लामो भयो",
+          "pt": "O sermão no templo hoje foi muito longo",
+          "th": "พระเทศน์ที่วัดวันนี้ยาวมาก",
+          "tl": "Ang sermon sa templo ngayon ay napakalaba",
+          "ur": "آج مندر میں وعظ بہت لمبا تھا",
+          "vi": "Buổi thuyết pháp ở chùa hôm nay dài lắm",
+          "zh": "今天庙里的布道很长",
+          "zh_Hant": "今天廟裡的布道很長"
+        },
+        "out_of_scope_words": [
+          "ພຣະ",
+          "ເທດສະໜາ",
+          "ວັດ",
+          "ມື້ນີ້",
+          "ຍາວ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a colorful Lao temple or Buddhist celebration with lanterns and festive decorations, a monk in orange robes standing at a podium, clean white background, bright warm colors, minimalist cartoon style suitable for a language learning app",
+    "register": "polite",
+    "confidence": "medium"
+  },
+  "ໃສ່": {
+    "definitions": {
+      "de": "Anziehen, tragen (Kleidung, Schmuck, Schuhe); etwas in etwas hineingeben oder einlegen; auf etwas auftragen (z.B. Gewürze in ein Gericht geben)",
+      "en": "To put on or wear (clothing, jewelry, shoes); to put something into something; to add or apply to (e.g., to add spice to a dish); one of the most common everyday verbs in Lao",
+      "es": "Ponerse o llevar puesto (ropa, joyería, zapatos); poner algo dentro de algo; añadir o aplicar a (p. ej., añadir especias a un plato); uno de los verbos cotidianos más comunes en lao",
+      "fr": "Mettre ou porter (vêtements, bijoux, chaussures); mettre quelque chose dans quelque chose; ajouter ou appliquer à (ex. ajouter des épices à un plat); l'un des verbes quotidiens les plus courants en lao",
+      "hi": "पहनना या धारण करना (कपड़े, गहने, जूते); कुछ को कहीं डालना; जोड़ना या लगाना (जैसे किसी व्यंजन में मसाला डालना); लाओ में सबसे आम रोज़मर्रा के क्रियाओं में से एक",
+      "ja": "着る、身に着ける（服、アクセサリー、靴など）；何かに入れる；加える・かける（例：料理にスパイスを入れる）；ラオ語で最もよく使われる日常動詞のひとつ",
+      "km": "ស្លៀកពាក់ (ឬពាក់) (សំលៀកបំពាក់ គ្រឿងអលង្ការ ស្បែកជើង); ដាក់អ្វីម្យ៉ាងចូលក្នុងអ្វីម្យ៉ាង; បន្ថែម ឬលាប (ឧ. ដាក់គ្រឿងស្ទូចចូលក្នុងម្ហូប); ជាកិរិយាស័ព្ទប្រចាំថ្ងៃទូទៅបំផុតមួយក្នុងភាសាឡាវ",
+      "ko": "입다, 착용하다 (옷, 액세서리, 신발); 무언가를 무언가에 넣다; 더하다, 바르다 (예: 요리에 향신료를 넣다); 라오어에서 가장 일반적인 일상 동사 중 하나",
+      "ne": "लगाउनु वा पहिरनु (कपडा, गहना, जुत्ता); केही चिजलाई कतै राख्नु; थप्नु वा लगाउनु (जस्तै खानामा मसला थप्नु); लाओ भाषामा सबैभन्दा सामान्य दैनिक क्रियाहरूमध्ये एक",
+      "pt": "Colocar ou vestir (roupas, joias, sapatos); colocar algo dentro de algo; adicionar ou aplicar a (ex.: adicionar tempero a uma receita); um dos verbos cotidianos mais comuns em lao",
+      "th": "ใส่หรือสวมใส่ (เสื้อผ้า เครื่องประดับ รองเท้า); นำสิ่งของใส่ลงไปในบางอย่าง; เพิ่มหรือใส่ลงไป (เช่น ใส่เครื่องปรุงในอาหาร); เป็นหนึ่งในกริยาที่ใช้บ่อยที่สุดในภาษาลาว",
+      "tl": "Magsuot o magbihis (damit, alahas, sapatos); maglagay ng isang bagay sa loob ng isang bagay; magdagdag o mag-apply (hal., magdagdag ng pampalasa sa pagkain); isa sa pinakakaraniwang pang-araw-araw na pandiwa sa wikang Lao",
+      "ur": "پہننا یا زیب تن کرنا (کپڑے، زیورات، جوتے)؛ کچھ کسی چیز میں ڈالنا؛ شامل کرنا یا لگانا (مثلاً کھانے میں مسالہ ڈالنا)؛ لاؤ زبان میں سب سے عام روزمرہ کے فعلوں میں سے ایک",
+      "vi": "Mặc vào hoặc đeo (quần áo, trang sức, giày dép); cho thứ gì vào trong thứ gì đó; thêm hoặc cho vào (ví dụ: thêm gia vị vào món ăn); một trong những động từ hàng ngày phổ biến nhất trong tiếng Lào",
+      "zh": "穿上或戴上（衣服、首饰、鞋子）；将某物放入某物中；添加或涂抹（如在菜肴中加香料）；是老挝语中最常用的日常动词之一",
+      "zh_Hant": "穿上或戴上（衣服、首飾、鞋子）；將某物放入某物中；添加或塗抹（如在菜餚中加香料）；是寮語中最常用的日常動詞之一"
+    },
+    "part_of_speech": "verb",
+    "romanization": "saj˨˩",
+    "examples": [
+      {
+        "lao_script": "ໃສ່ເສື້ອໄປໂຮງຮຽນກ່ອນ, ໜາວຢູ່ຕອນເຊົ້າ",
+        "romanization": "sai suea pai hong hian kon, nao yu ton sao",
+        "translations": {
+          "de": "Zieh ein Hemd an bevor du zur Schule gehst, morgens ist es kalt",
+          "en": "Put on a shirt before going to school, it's cold in the morning",
+          "es": "Ponte una camisa antes de ir a la escuela, hace frío por la mañana",
+          "fr": "Mets une chemise avant d'aller à l'école, il fait froid le matin",
+          "hi": "स्कूल जाने से पहले शर्ट पहनो, सुबह ठंड होती है",
+          "ja": "学校に行く前にシャツを着て、朝は寒いよ",
+          "km": "ពាក់អាវទៅសាលារៀនសិន ព្រឹកនេះត្រជាក់",
+          "ko": "학교 가기 전에 셔츠 입어, 아침에 추워",
+          "ne": "स्कूल जानु अघि सर्ट लगाऊ, बिहान चिसो छ",
+          "pt": "Veste a camisa antes de ir para a escola, está frio de manhã",
+          "th": "ใส่เสื้อก่อนไปโรงเรียน หนาวอยู่ตอนเช้า",
+          "tl": "Magsuot ng polo bago pumunta sa paaralan, malamig sa umaga",
+          "ur": "اسکول جانے سے پہلے قمیض پہنو، صبح ٹھنڈ ہوتی ہے",
+          "vi": "Mặc áo trước khi đi học đi, sáng lạnh lắm",
+          "zh": "去上学之前穿件衬衫，早上很冷",
+          "zh_Hant": "去上學之前穿件襯衫，早上很冷"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ",
+          "ໄປ",
+          "ໂຮງຮຽນ",
+          "ກ່ອນ",
+          "ໜາວ",
+          "ຢູ່",
+          "ຕອນເຊົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ໃສ່ເກືອລົງໄປໃນແກງຫຼາຍໆໜ້ອຍ, ຈືດຫຼາຍ",
+        "romanization": "sai keua long pai nai kaeng lai lai noi, jued lai",
+        "translations": {
+          "de": "Gib noch ein bisschen mehr Salz in die Suppe, sie ist zu fade",
+          "en": "Add a bit more salt to the soup, it's way too bland",
+          "es": "Añade un poco más de sal a la sopa, está muy sosa",
+          "fr": "Rajoute encore un peu de sel dans la soupe, c'est trop fade",
+          "hi": "सूप में थोड़ा और नमक डालो, बहुत बेस्वाद है",
+          "ja": "スープにもう少し塩を入れて、味が薄すぎるよ",
+          "km": "ដាក់អំបិលបន្ថែមទៀតចូលក្នុងស្ងោរ ស្រាលពេក",
+          "ko": "국에 소금을 좀 더 넣어봐, 너무 싱거워",
+          "ne": "सूपमा अझ थोरै नुन थप, धेरै फिक्का छ",
+          "pt": "Coloca mais um pouco de sal na sopa, está muito sem gosto",
+          "th": "ใส่เกลือลงไปในแกงเพิ่มหน่อย จืดมาก",
+          "tl": "Maglagay pa ng kaunting asin sa sabaw, masyadong matabang",
+          "ur": "سوپ میں تھوڑا اور نمک ڈالو، بہت پھیکی ہے",
+          "vi": "Cho thêm chút muối vào canh đi, nhạt quá",
+          "zh": "往汤里多加点盐，太淡了",
+          "zh_Hant": "往湯裡多加點鹽，太淡了"
+        },
+        "out_of_scope_words": [
+          "ເກືອ",
+          "ລົງໄປ",
+          "ໃນ",
+          "ແກງ",
+          "ຫຼາຍໆໜ້ອຍ",
+          "ຈືດ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful person putting on a colorful shirt, with one arm already through the sleeve and smiling, clean white background, bright pastel colors, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

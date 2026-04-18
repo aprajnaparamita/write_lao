@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບໍ່ແຮ່",
+  "definitions": {
+    "de": "Erz; ein Gestein oder Mineral, das abgebaut wird, um wertvolle Metalle oder Mineralien zu gewinnen",
+    "en": "Ore; a naturally occurring rock or mineral from which metals or valuable minerals can be extracted",
+    "es": "Mineral; roca o mineral natural del que se pueden extraer metales u otros minerales valiosos",
+    "fr": "Minerai; roche ou minéral naturel dont on peut extraire des métaux ou des minéraux précieux",
+    "hi": "अयस्क; एक प्राकृतिक रूप से पाई जाने वाली चट्टान या खनिज जिससे धातु या मूल्यवान खनिज निकाले जा सकते हैं",
+    "ja": "鉱石；金属や貴重な鉱物を採取できる天然の岩石や鉱物",
+    "km": "រ៉ែ; រ៉ែធម្មជាតិ ឬដីខ្សាច់ដែលអាចស្រង់យកលោហៈ ឬរ៉ែមានតម្លៃផ្សេងៗ",
+    "ko": "광석; 금속이나 귀중한 광물을 추출할 수 있는 천연 암석이나 광물",
+    "ne": "खनिज अयस्क; प्राकृतिक रूपमा पाइने ढुंगा वा खनिज जसबाट धातु वा मूल्यवान खनिज निकाल्न सकिन्छ",
+    "pt": "Minério; rocha ou mineral natural do qual se podem extrair metais ou minerais valiosos",
+    "th": "แร่; หินหรือแร่ธาตุที่เกิดขึ้นตามธรรมชาติ ซึ่งสามารถสกัดเอาโลหะหรือแร่ธาตุมีค่าได้",
+    "tl": "Mineral na bato; natural na bato o mineral na maaaring kunin ang mga metal o mahalagang mineral",
+    "ur": "دھات کی کچ دھات؛ قدرتی طور پر پائی جانے والی چٹان یا معدن جس سے دھاتیں یا قیمتی معدنیات نکالی جا سکتی ہیں",
+    "vi": "Quặng; đá hoặc khoáng chất tự nhiên có thể khai thác để lấy kim loại hoặc khoáng vật có giá trị",
+    "zh": "矿石；天然存在的岩石或矿物，可从中提取金属或贵重矿物",
+    "zh_Hant": "礦石；天然存在的岩石或礦物，可從中提取金屬或珍貴礦物"
+  },
+  "definition_en": "Ore; a naturally occurring rock or mineral from which metals or valuable minerals can be extracted",
+  "romanization": "bɔː hɛː",
+  "lao_examples": [
+    {
+      "lao_script": "ແຂວງນີ້ມີບໍ່ແຮ່ຫຼາຍຊະນິດ",
+      "romanization": "khwɛːng níː mii bɔː hɛː laːj sa.nít",
+      "translation_en": "This province has many types of ore."
+    },
+    {
+      "lao_script": "ພວກເຮົາຂຸດບໍ່ແຮ່ທອງຄຳຢູ່ພູ",
+      "romanization": "pʰuːak haw khút bɔː hɛː tʰɔːŋ kʰam juː pʰuː",
+      "translation_en": "We mine gold ore in the mountains."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a pile of rough metallic ore rocks with visible gold and silver streaks, mining pickaxe nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

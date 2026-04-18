@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼຸດ",
+  "definitions": {
+    "de": "Reduzieren, verringern, senken (eine Menge, einen Preis oder ein Niveau vermindern)",
+    "en": "To reduce, to decrease, to lower (to make an amount, price, or level smaller)",
+    "es": "Reducir, disminuir, bajar (hacer que una cantidad, precio o nivel sea menor)",
+    "fr": "Réduire, diminuer, baisser (rendre une quantité, un prix ou un niveau plus petit)",
+    "hi": "कम करना, घटाना (किसी मात्रा, मूल्य या स्तर को कम करना)",
+    "ja": "減らす、下げる、削減する（量、価格、またはレベルを小さくする）",
+    "km": "កាត់បន្ថយ, ផ្ចិតផ្ចង់, ថយចុះ (ធ្វើឲ្យបរិមាណ, តម្លៃ ឬកម្រិតតូចចុះ)",
+    "ko": "줄이다, 낮추다, 감소시키다 (양, 가격, 수준을 작게 만들다)",
+    "ne": "घटाउनु, कम गर्नु (मात्रा, मूल्य वा स्तर सानो बनाउनु)",
+    "pt": "Reduzir, diminuir, baixar (tornar uma quantidade, preço ou nível menor)",
+    "th": "ลด, ลดลง (ทำให้จำนวน ราคา หรือระดับน้อยลง)",
+    "tl": "Bawasan, paliitin, ibaba (gawing mas maliit ang isang halaga, presyo, o antas)",
+    "ur": "کم کرنا، گھٹانا (مقدار، قیمت یا سطح کو کم کرنا)",
+    "vi": "Giảm, hạ thấp (làm cho lượng, giá cả hoặc mức độ nhỏ hơn)",
+    "zh": "减少、降低（使数量、价格或水平变小）",
+    "zh_Hant": "減少、降低（使數量、價格或水平變小）"
+  },
+  "definition_en": "To reduce, to decrease, to lower (to make an amount, price, or level smaller)",
+  "romanization": "lut",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານນີ້ຫຼຸດລາຄາໃຫ້ຂ້ອຍໄດ້ບໍ",
+      "romanization": "haːn niː lut laː.kʰaː haj kʰɔːj daːj bɔː",
+      "translation_en": "Can this shop reduce the price for me?"
+    },
+    {
+      "lao_script": "ຢາກຫຼຸດນ້ຳຫນັກຕ້ອງອອກກຳລັງກາຍ",
+      "romanization": "jaːk lut nam nak tɔːŋ ɔːk kam.laŋ kaːj",
+      "translation_en": "To lose weight, you have to exercise."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a price tag with a downward arrow showing a discount, or a scale with the needle moving to a lower number, clean white background, bright colors, minimalist cartoon style, suitable for a language learning app."
+}

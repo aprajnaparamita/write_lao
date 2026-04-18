@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມື",
+  "definitions": {
+    "de": "Hand; der Teil des menschlichen Körpers am Ende des Arms, der Finger und Handfläche umfasst",
+    "en": "Hand; the part of the human body at the end of the arm, including the fingers and palm",
+    "es": "Mano; la parte del cuerpo humano al final del brazo, que incluye los dedos y la palma",
+    "fr": "Main; la partie du corps humain au bout du bras, comprenant les doigts et la paume",
+    "hi": "हाथ; मानव शरीर का वह भाग जो बाँह के सिरे पर होता है, जिसमें उँगलियाँ और हथेली शामिल हैं",
+    "ja": "手；腕の先端にある人体の一部で、指と手のひらを含む",
+    "km": "ដៃ; ផ្នែកនៃរាងកាយមនុស្សនៅចុងដៃ រួមមានម្រាមដៃនិងបាតដៃ",
+    "ko": "손; 팔 끝에 있는 신체 부위로 손가락과 손바닥을 포함함",
+    "ne": "हात; मानव शरीरको बाहुको टुप्पोमा रहेको भाग, जसमा औँलाहरू र हत्केला समावेश छन्",
+    "pt": "Mão; a parte do corpo humano no final do braço, incluindo os dedos e a palma",
+    "th": "มือ; ส่วนของร่างกายมนุษย์ที่อยู่ปลายแขน ประกอบด้วยนิ้วมือและฝ่ามือ",
+    "tl": "Kamay; ang bahagi ng katawang pantao sa dulo ng braso, kabilang ang mga daliri at palad",
+    "ur": "ہاتھ؛ بازو کے سرے پر انسانی جسم کا وہ حصہ جس میں انگلیاں اور ہتھیلی شامل ہیں",
+    "vi": "Tay; bộ phận của cơ thể người ở cuối cánh tay, bao gồm các ngón tay và lòng bàn tay",
+    "zh": "手；人体手臂末端的部分，包括手指和手掌",
+    "zh_Hant": "手；人體手臂末端的部分，包括手指和手掌"
+  },
+  "definition_en": "Hand; the part of the human body at the end of the arm, including the fingers and palm",
+  "romanization": "muu",
+  "lao_examples": [
+    {
+      "lao_script": "ລ້າງມືກ່ອນກິນເຂົ້າແດ່",
+      "romanization": "lang muu kon kin khao dae",
+      "translation_en": "Wash your hands before eating, okay?"
+    },
+    {
+      "lao_script": "ມືຂອງລາວອ່ອນຫຼາຍ",
+      "romanization": "muu khong lao on lai",
+      "translation_en": "Her hands are very soft."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open human hand with palm facing upward, showing five fingers clearly, clean white background, warm skin tone, colorful minimalist style suitable for a language learning app"
+}

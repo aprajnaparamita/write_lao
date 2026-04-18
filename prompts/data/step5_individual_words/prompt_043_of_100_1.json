@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮັກ",
+  "definitions": {
+    "de": "Liebe; jemanden oder etwas lieben, tiefe Zuneigung empfinden",
+    "en": "To love; to feel deep affection for someone or something",
+    "es": "Amar; sentir un profundo afecto por alguien o algo; amor",
+    "fr": "Aimer; ressentir une profonde affection pour quelqu'un ou quelque chose; amour",
+    "hi": "प्यार करना; किसी के प्रति गहरा स्नेह महसूस करना; प्यार",
+    "ja": "愛する；誰かや何かに深い愛情を感じること；愛",
+    "km": "ស្រឡាញ់; មានអារម្មណ៍ស្នេហាជ្រៅជ្រះចំពោះនរណាម្នាក់ ឬអ្វីមួយ",
+    "ko": "사랑하다; 누군가 또는 무언가에 깊은 애정을 느끼다; 사랑",
+    "ne": "माया गर्नु; कसैप्रति गहिरो स्नेह महसुस गर्नु; प्रेम",
+    "pt": "Amar; sentir profunda afeição por alguém ou algo; amor",
+    "th": "รัก; รู้สึกรักและผูกพันอย่างลึกซึ้งต่อคนหรือสิ่งใดสิ่งหนึ่ง",
+    "tl": "Mahalin; maramdaman ang malalim na pagmamahal para sa isang tao o bagay; pag-ibig",
+    "ur": "محبت کرنا؛ کسی کے لیے گہری محبت اور لگاؤ محسوس کرنا؛ پیار",
+    "vi": "Yêu; cảm thấy tình cảm sâu sắc dành cho ai đó hoặc điều gì đó; tình yêu",
+    "zh": "爱；对某人或某事感到深厚的情感；爱情",
+    "zh_Hant": "愛；對某人或某事感到深厚的情感；愛情"
+  },
+  "definition_en": "To love; to feel deep affection for someone or something",
+  "romanization": "/hák/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຮັກແມ່ຂອງຂ້ອຍຫຼາຍ",
+      "romanization": "khɔ̄i hák mɛ̀ khɔ̄ng khɔ̄i lǎi",
+      "translation_en": "I love my mom a lot."
+    },
+    {
+      "lao_script": "ເຈົ້າຮັກອາຫານລາວບໍ?",
+      "romanization": "jâo hák ā̀hǎn lāo bɔ̄?",
+      "translation_en": "Do you love Lao food?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a glowing red heart held in two open hands, warm and inviting, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໜຶ່ງ",
+  "definitions": {
+    "de": "eins – die Zahl 1, die grundlegendste positive ganze Zahl",
+    "en": "one – the number 1, the most basic positive whole number",
+    "es": "uno – el número 1, el número entero positivo más básico",
+    "fr": "un – le chiffre 1, le nombre entier positif le plus fondamental",
+    "hi": "एक – संख्या 1, सबसे बुनियादी धनात्मक पूर्ण संख्या",
+    "ja": "一（いち） – 数字の1、最も基本的な正の整数",
+    "km": "មួយ – លេខ ១ ជាលេខគត់វិជ្ជមានដែលមានលំដាប់លំដោយជាងគេ",
+    "ko": "하나, 일 – 숫자 1, 가장 기본적인 양의 정수",
+    "ne": "एक – अंक १, सबैभन्दा आधारभूत धनात्मक पूर्णांक",
+    "pt": "um – o número 1, o número inteiro positivo mais básico",
+    "th": "หนึ่ง – ตัวเลข ๑ จำนวนเต็มบวกที่พื้นฐานที่สุด",
+    "tl": "isa – ang bilang 1, ang pinaka-pangunahing positibong buong numero",
+    "ur": "ایک – ہندسہ 1، سب سے بنیادی مثبت پورا عدد",
+    "vi": "một – số 1, số nguyên dương cơ bản nhất",
+    "zh": "一——数字1，最基本的正整数",
+    "zh_Hant": "一——數字1，最基本的正整數"
+  },
+  "definition_en": "one – the number 1, the most basic positive whole number",
+  "romanization": "nɯŋ²",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກໄດ້ໜຶ່ງຈອກນ້ຳເຢັນ",
+      "romanization": "khɔːj jaːk dai nɯŋ tɕɔːk naːm jeːn",
+      "translation_en": "I'd like one glass of cold water."
+    },
+    {
+      "lao_script": "ພວກເຮົາມີໝາໜຶ່ງໂຕຢູ່ທີ່ບ້ານ",
+      "romanization": "phuak hao miː maː nɯŋ toː juː thiː baːn",
+      "translation_en": "We have one dog at home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the numeral '1' displayed large and bold alongside one single bright red apple, clean white background, minimalist and colorful style suitable for a language learning app."
+}

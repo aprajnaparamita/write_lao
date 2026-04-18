@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮັດ",
+  "definitions": {
+    "de": "Festziehen, straff binden oder zusammendrücken; etwas fest umschließen oder einschnüren",
+    "en": "To tighten, bind, or squeeze; to fasten or cinch something firmly around something else",
+    "es": "Apretar, atar o exprimir; sujetar o ceñir algo firmemente alrededor de algo",
+    "fr": "Serrer, attacher ou presser; fixer ou sangler quelque chose fermement autour de quelque chose",
+    "hi": "कसना, बांधना या दबाना; किसी चीज़ को किसी दूसरी चीज़ के चारों ओर मजबूती से कसना",
+    "ja": "締める、縛る、または絞る；何かをしっかりと固定したり締め付けたりする",
+    "km": "ខ្សត់ ចងឬបញ្ចុះ; ចងឬបិទជ្រុងអ្វីមួយឱ្យជាប់",
+    "ko": "조이다, 묶다, 또는 꽉 잡다; 무언가를 단단히 고정하거나 졸라매다",
+    "ne": "कस्नु, बाँध्नु वा निचोर्नु; कुनै चीज वरिपरि कडाइले बाँध्नु",
+    "pt": "Apertar, amarrar ou comprimir; prender ou cingir algo firmemente ao redor de algo",
+    "th": "รัด ผูก หรือบีบ; มัดหรือรัดสิ่งใดสิ่งหนึ่งอย่างแน่นหนา",
+    "tl": "Higpitan, itali, o pisilin; ikabit o bigkisin nang mahigpit ang isang bagay",
+    "ur": "کسنا، باندھنا یا نچوڑنا؛ کسی چیز کو مضبوطی سے کسی اور چیز کے گرد باندھنا",
+    "vi": "Siết chặt, buộc, hoặc bóp; thắt hoặc cột chặt thứ gì đó quanh thứ khác",
+    "zh": "收紧、捆绑或挤压；将某物紧紧固定或扎紧在另一物周围",
+    "zh_Hant": "收緊、捆綁或擠壓；將某物緊緊固定或扎緊在另一物周圍"
+  },
+  "definition_en": "To tighten, bind, or squeeze; to fasten or cinch something firmly around something else",
+  "romanization": "/hát/",
+  "lao_examples": [
+    {
+      "lao_script": "ຮັດເຂັມຂັດໃຫ້ແໜ້ນໜ້ອຍ",
+      "romanization": "hat khem khat hai naen noi",
+      "translation_en": "Tighten your belt a little more."
+    },
+    {
+      "lao_script": "ຮັດເຊືອກໃຫ້ດີ ຢ່າໃຫ້ຫຼຸດ",
+      "romanization": "hat suea hai di, ya hai lud",
+      "translation_en": "Tie the rope tightly so it doesn't come undone."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two hands tying and tightening a rope or belt around a bundle, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

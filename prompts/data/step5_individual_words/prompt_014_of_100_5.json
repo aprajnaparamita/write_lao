@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃຊ້",
+  "definitions": {
+    "de": "Benutzen; verwenden; ausgeben (Geld). Bezeichnet den Gebrauch von Werkzeugen, Gegenständen oder Ressourcen sowie das Ausgeben von Geld.",
+    "en": "To use; to make use of; to spend (money). Refers to the act of using tools, objects, or resources, and also spending money.",
+    "es": "Usar; utilizar; gastar (dinero). Se refiere al acto de usar herramientas, objetos o recursos, y también gastar dinero.",
+    "fr": "Utiliser; se servir de; dépenser (de l'argent). Désigne l'acte d'utiliser des outils, des objets ou des ressources, ainsi que dépenser de l'argent.",
+    "hi": "उपयोग करना; इस्तेमाल करना; खर्च करना (पैसा)। उपकरणों, वस्तुओं या संसाधनों का उपयोग करने की क्रिया, तथा पैसा खर्च करने को दर्शाता है।",
+    "ja": "使う；利用する；使用する；（お金を）使う・費やす。道具・物・資源を使う動作、およびお金を使う・使い果たす意味もある。",
+    "km": "ប្រើ; ប្រើប្រាស់; ចំណាយ (ប្រាក់)។ សំដៅលើការប្រើឧបករណ៍ វត្ថុ ឬធនធាន ព្រមទាំងការចំណាយប្រាក់។",
+    "ko": "사용하다; 이용하다; (돈을) 쓰다. 도구, 물건, 자원을 사용하는 행위, 그리고 돈을 쓰는 것을 가리킨다.",
+    "ne": "प्रयोग गर्नु; उपयोग गर्नु; (पैसा) खर्च गर्नु। औजार, वस्तु वा स्रोतहरू प्रयोग गर्ने कार्य, साथै पैसा खर्च गर्नेलाई जनाउँछ।",
+    "pt": "Usar; utilizar; gastar (dinheiro). Refere-se ao ato de usar ferramentas, objetos ou recursos, e também gastar dinheiro.",
+    "th": "ใช้; ใช้งาน; ใช้จ่าย (เงิน) หมายถึงการใช้เครื่องมือ สิ่งของ หรือทรัพยากร รวมถึงการใช้จ่ายเงิน",
+    "tl": "Gamitin; gumamit ng; gumastos (ng pera). Tumutukoy sa pagkilos ng paggamit ng mga kagamitan, bagay, o likas na yaman, at pati na rin ang paggastos ng pera.",
+    "ur": "استعمال کرنا؛ کام میں لانا؛ خرچ کرنا (پیسہ)۔ اوزاروں، اشیاء یا وسائل کے استعمال کی فعل، اور پیسہ خرچ کرنے کو ظاہر کرتا ہے۔",
+    "vi": "Sử dụng; dùng; tiêu (tiền). Chỉ hành động sử dụng công cụ, đồ vật hoặc tài nguyên, cũng như tiêu tiền.",
+    "zh": "使用；用；花（钱）。指使用工具、物品或资源的行为，也指花钱。",
+    "zh_Hant": "使用；用；花（錢）。指使用工具、物品或資源的行為，也指花錢。"
+  },
+  "definition_en": "To use; to make use of; to spend (money). Refers to the act of using tools, objects, or resources, and also spending money.",
+  "romanization": "/sâj/",
+  "lao_examples": [
+    {
+      "lao_script": "ໃຊ້ໂທລະສັບຂອງຂ້ອຍໄດ້ເລີຍ",
+      "romanization": "sai tho-la-sap khong khoi dai loei",
+      "translation_en": "You can go ahead and use my phone."
+    },
+    {
+      "lao_script": "ເດືອນນີ້ ໃຊ້ເງິນຫຼາຍເກີນໄປ",
+      "romanization": "duean nii sai ngoen laai koen pai",
+      "translation_en": "This month I spent too much money."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person using a smartphone with one hand, and holding a coin or banknote in the other hand, representing the dual meaning of 'use' and 'spend', clean white background, colorful minimalist style suitable for a language learning app."
+}

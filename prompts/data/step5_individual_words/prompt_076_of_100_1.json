@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈຸ",
+  "definitions": {
+    "de": "Platz haben für; fassen (eine bestimmte Menge oder Anzahl aufnehmen können)",
+    "en": "To fit/hold (a certain capacity or amount); to have room for",
+    "es": "Caber; tener capacidad para (una cantidad determinada)",
+    "fr": "Contenir; avoir de la place pour (une certaine capacité ou quantité)",
+    "hi": "समाना; किसी निश्चित मात्रा या संख्या को धारण करना",
+    "ja": "収容できる；入る（ある量や人数が入るスペースがある）",
+    "km": "អាចផ្ទុកបាន; មានទំហំគ្រប់គ្រាន់សម្រាប់ (បរិមាណ ឬចំនួនជាក់លាក់មួយ)",
+    "ko": "수용하다; (일정 용량이나 양을) 담을 수 있다",
+    "ne": "अट्नु; (एक निश्चित मात्रा वा संख्या) समाउन सक्नु",
+    "pt": "Caber; comportar (uma certa capacidade ou quantidade)",
+    "th": "จุ; บรรจุได้ (ในปริมาณหรือจำนวนที่กำหนด)",
+    "tl": "Kasya; makakaangkop ng (isang tiyak na kapasidad o dami)",
+    "ur": "سمانا؛ کسی مخصوص مقدار یا تعداد کو رکھنے کی گنجائش ہونا",
+    "vi": "Chứa được; có sức chứa (một lượng hoặc số lượng nhất định)",
+    "zh": "容纳；能装下（一定的容量或数量）",
+    "zh_Hant": "容納；能裝下（一定的容量或數量）"
+  },
+  "definition_en": "To fit/hold (a certain capacity or amount); to have room for",
+  "romanization": "/tɕuʔ˩˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ຖົງໃບນີ້ຈຸຂອງໄດ້ຫຼາຍເລີຍ",
+      "romanization": "thong bai nih ju khong dai lai loei",
+      "translation_en": "This bag can hold a lot of stuff."
+    },
+    {
+      "lao_script": "ຫ້ອງນີ້ຈຸຄົນໄດ້ປະມານສິບຄົນ",
+      "romanization": "hong nih ju khon dai pa-man sip khon",
+      "translation_en": "This room can hold about ten people."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bag or container being filled with items, showing capacity or 'fits inside' concept, with items neatly going into an open bag, clean white background, colorful minimalist style suitable for a language learning app."
+}

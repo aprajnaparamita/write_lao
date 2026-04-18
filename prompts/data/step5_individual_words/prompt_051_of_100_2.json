@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທັນ",
+  "definitions": {
+    "de": "Rechtzeitig sein; einholen; es schaffen (etwas zu erreichen, bevor es zu spät ist)",
+    "en": "To be in time; to catch up; to make it (before a deadline or before something leaves)",
+    "es": "Llegar a tiempo; alcanzar; lograrlo (antes de que sea demasiado tarde o algo se vaya)",
+    "fr": "Être à temps; rattraper; y arriver (avant qu'il ne soit trop tard ou que quelque chose parte)",
+    "hi": "समय पर होना; पहुँचना; कुछ छूटने से पहले पकड़ लेना",
+    "ja": "間に合う；追いつく；（出発前などに）間に合わせる",
+    "km": "ទាន់ពេល;따라잡다; ទៀតទាត់ (មុនពេលវេលាកំណត់ ឬមុនពេលអ្វីមួយចាកចេញ)",
+    "ko": "제때 맞추다; 따라잡다; 늦지 않게 도착하다",
+    "ne": "समयमा पुग्नु; भेट्टाउनु; (कुनै चीज जानुभन्दा पहिले) पुग्नु",
+    "pt": "Estar a tempo; alcançar; chegar antes que seja tarde demais",
+    "th": "ทัน; ทันเวลา; ไล่ทัน (ก่อนที่จะสาย หรือก่อนที่บางสิ่งจะออกไป)",
+    "tl": "Makarating sa tamang oras; mahabol; makaabot (bago mahuli ang lahat o bago umalis ang isang bagay)",
+    "ur": "وقت پر ہونا؛ پکڑنا؛ (کچھ چھوٹنے سے پہلے) پہنچ جانا",
+    "vi": "Kịp thời; đuổi kịp; làm kịp (trước khi quá muộn hoặc trước khi ai/cái gì đó rời đi)",
+    "zh": "来得及；赶上；及时（在某事结束或离开之前到达）",
+    "zh_Hant": "來得及；趕上；及時（在某事結束或離開之前到達）"
+  },
+  "definition_en": "To be in time; to catch up; to make it (before a deadline or before something leaves)",
+  "romanization": "than",
+  "lao_examples": [
+    {
+      "lao_script": "ແລ່ນໄວໆ ບໍ່ດັ່ງນັ້ນທັນລົດບໍ່ທັນ",
+      "romanization": "lɛ̂n waj waj bɔ̀ daŋ nan than lót bɔ̀ than",
+      "translation_en": "Run fast, otherwise you won't catch the bus!"
+    },
+    {
+      "lao_script": "ໂຊກດີ ຂ້ອຍທັນກິນເຂົ້າທ່ຽງ",
+      "romanization": "soːk diː khɔ̂ːj than kin khâw thîaŋ",
+      "translation_en": "Luckily, I made it in time for lunch."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person running toward a bus that is just about to close its doors, with a clock showing they are just in time, clean white background, colorful minimalist style suitable for a language learning app."
+}

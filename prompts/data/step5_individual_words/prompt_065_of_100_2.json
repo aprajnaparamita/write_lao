@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເນື້ອ",
+  "definitions": {
+    "de": "Fleisch (von Tieren); auch allgemein für Fleisch oder Körpergewebe; eines der am häufigsten verwendeten Lebensmittelwörter im Lao",
+    "en": "Meat (from animals); also refers to flesh or body tissue in a broader sense; one of the most common food-related nouns in Lao",
+    "es": "Carne (de animales); también se refiere a la carne o tejido corporal en un sentido más amplio; uno de los sustantivos alimenticios más comunes en lao",
+    "fr": "Viande (animale); désigne aussi la chair ou le tissu corporel au sens large; l'un des noms alimentaires les plus courants en laotien",
+    "hi": "मांस (जानवरों का); व्यापक अर्थ में शरीर के मांस या ऊतक को भी संदर्भित करता है; लाओ भाषा में सबसे सामान्य खाद्य संज्ञाओं में से एक",
+    "ja": "肉（動物の）；広い意味で肉体や体の組織も指す；ラーオ語で最もよく使われる食べ物に関する名詞の一つ",
+    "km": "សាច់ (របស់សត្វ); ក៏សំដៅលើសាច់ ឬជាលិការបស់រាងកាយក្នុងន័យទូទៅ; ជាពាក្យទាក់ទងនឹងអាហារដែលប្រើជាទូទៅបំផុតក្នុងភាសាឡាវ",
+    "ko": "고기 (동물의); 넓은 의미로 살이나 체조직을 가리키기도 함; 라오어에서 가장 흔한 음식 관련 명사 중 하나",
+    "ne": "मासु (जनावरको); व्यापक अर्थमा शरीरको मासु वा तन्तुलाई पनि जनाउँछ; लाओ भाषामा सबैभन्दा सामान्य खाना सम्बन्धी संज्ञाहरूमध्ये एक",
+    "pt": "Carne (de animais); também se refere à carne ou tecido corporal num sentido mais amplo; um dos substantivos alimentares mais comuns no lao",
+    "th": "เนื้อ (ของสัตว์); ยังหมายถึงเนื้อหนังหรือเนื้อเยื่อของร่างกายในความหมายกว้าง; เป็นคำนามเกี่ยวกับอาหารที่ใช้บ่อยที่สุดในภาษาลาว",
+    "tl": "Karne (mula sa mga hayop); tumutukoy din sa laman o tisyu ng katawan sa mas malawak na kahulugan; isa sa mga pinakakaraniwang pangngalan na may kaugnayan sa pagkain sa Lao",
+    "ur": "گوشت (جانوروں کا)؛ وسیع معنوں میں جسم کے گوشت یا بافت کو بھی ظاہر کرتا ہے؛ لاؤ زبان میں کھانے سے متعلق سب سے عام اسموں میں سے ایک",
+    "vi": "Thịt (của động vật); cũng dùng để chỉ thịt hoặc mô cơ thể theo nghĩa rộng hơn; một trong những danh từ liên quan đến thực phẩm phổ biến nhất trong tiếng Lào",
+    "zh": "肉（动物的）；广义上也指身体的肌肉或组织；是老挝语中最常用的食物相关名词之一",
+    "zh_Hant": "肉（動物的）；廣義上也指身體的肌肉或組織；是寮語中最常用的食物相關名詞之一"
+  },
+  "definition_en": "Meat (from animals); also refers to flesh or body tissue in a broader sense; one of the most common food-related nouns in Lao",
+  "romanization": "nʉ́a",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ຢາກກິນເນື້ອ",
+      "romanization": "muu nii yaak kin nʉ́a",
+      "translation_en": "Today I feel like eating meat."
+    },
+    {
+      "lao_script": "ເນື້ອໃນຕະຫຼາດສົດໆ",
+      "romanization": "nʉ́a nai talaat sot sot",
+      "translation_en": "The meat at the market is really fresh."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a fresh cut of red meat on a clean white plate, with a small price tag or market context in the background, colorful and minimalist style, suitable for a language learning app, clean white background."
+}

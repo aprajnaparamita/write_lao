@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກັກ",
+  "definitions": {
+    "de": "Einschließen, festhalten oder unter Quarantäne stellen; jemanden oder etwas an einem Ort festhalten",
+    "en": "To confine, detain, or quarantine; to restrict a person or animal to a specific place",
+    "es": "Confinar, detener o poner en cuarentena; restringir a una persona o animal a un lugar específico",
+    "fr": "Confiner, détenir ou mettre en quarantaine ; restreindre une personne ou un animal à un endroit précis",
+    "hi": "बंद करना, रोकना या क्वारंटाइन करना; किसी व्यक्ति या जानवर को एक निश्चित स्थान पर सीमित करना",
+    "ja": "閉じ込める・隔離する；人や動物を特定の場所に制限する",
+    "km": "ដាក់ឱ្យនៅឯកោ ឬដាក់ឱ្យនៅក្នុងបន្ទប់; ដាក់កម្រិតមនុស្ស ឬសត្វឱ្យនៅទីតាំងជាក់លាក់",
+    "ko": "가두다, 격리하다; 사람이나 동물을 특정 장소에 제한하다",
+    "ne": "थुन्नु, नजरबन्द राख्नु वा क्वारेन्टाइन गर्नु; कुनै व्यक्ति वा जनावरलाई निश्चित ठाउँमा सीमित गर्नु",
+    "pt": "Confinar, deter ou colocar em quarentena; restringir uma pessoa ou animal a um local específico",
+    "th": "กักขัง กักตัว หรือกักกัน; จำกัดบุคคลหรือสัตว์ให้อยู่ในสถานที่เฉพาะ",
+    "tl": "Ikukulong, ikulong, o mag-quarantine; paghigpitan ang isang tao o hayop sa isang partikular na lugar",
+    "ur": "قید کرنا، نظر بند کرنا یا قرنطینہ کرنا؛ کسی شخص یا جانور کو ایک مخصوص جگہ تک محدود کرنا",
+    "vi": "Giam giữ, cách ly hoặc kiểm dịch; hạn chế người hoặc động vật ở một nơi cụ thể",
+    "zh": "关押、拘留或隔离；将人或动物限制在某个特定地点",
+    "zh_Hant": "關押、拘留或隔離；將人或動物限制在某個特定地點"
+  },
+  "definition_en": "To confine, detain, or quarantine; to restrict a person or animal to a specific place",
+  "romanization": "/kàk/",
+  "lao_examples": [
+    {
+      "lao_script": "ຕອນໂຄວິດ ຂ້ອຍຖືກກັກຢູ່ບ້ານ 14 ວັນ",
+      "romanization": "Ton Khowit, khoi theuk kak yu ban sib si wan",
+      "translation_en": "During COVID, I was confined at home for 14 days."
+    },
+    {
+      "lao_script": "ຕຳຫຼວດກັກໂຈນໄວ້ທີ່ສະຖານີ",
+      "romanization": "Tam luad kak jone wai thi sa thani",
+      "translation_en": "The police detained the thief at the station."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing inside a house with a quarantine symbol or a lock on the door, indicating confinement or quarantine, clean white background, minimalist and colorful style suitable for a language learning app."
+}

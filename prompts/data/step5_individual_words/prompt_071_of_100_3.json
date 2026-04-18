@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃກ້",
+  "definitions": {
+    "de": "nah; in geringer Entfernung oder kurz bevorstehend",
+    "en": "near; close in distance or time",
+    "es": "cerca; a poca distancia o próximo en el tiempo",
+    "fr": "près ; à faible distance ou proche dans le temps",
+    "hi": "पास; दूरी या समय में करीब",
+    "ja": "近い；距離や時間が短い",
+    "km": "ជិត; នៅចម្ងាយដែលមិនឆ្ងាយ ឬនៅពេលខាងមុខ",
+    "ko": "가깝다; 거리나 시간이 짧다",
+    "ne": "नजिक; दूरी वा समयमा नजिकको",
+    "pt": "perto; próximo em distância ou tempo",
+    "th": "ใกล้; อยู่ในระยะทางหรือเวลาที่ไม่ไกล",
+    "tl": "malapit; hindi malayo sa distansya o panahon",
+    "ur": "قریب؛ فاصلے یا وقت میں نزدیک",
+    "vi": "gần; ở khoảng cách hoặc thời gian không xa",
+    "zh": "近；距离或时间上不远",
+    "zh_Hant": "近；距離或時間上不遠"
+  },
+  "definition_en": "near; close in distance or time",
+  "romanization": "kâi",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານອາຫານຢູ່ໃກ້ໆນີ້ແລ້ວ",
+      "romanization": "hâan aahǎan yuu kâi kâi nii lɛ́ɛo",
+      "translation_en": "The restaurant is right nearby."
+    },
+    {
+      "lao_script": "ເຮືອນຂອງຂ້ອຍຢູ່ໃກ້ໂຮງຮຽນຫຼາຍ",
+      "romanization": "hʉan khɔ̌ɔng khɔ̂i yuu kâi hóong hian lǎai",
+      "translation_en": "My house is very close to the school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two houses side by side with a short distance between them, indicated by a small double-headed arrow labeled 'near', clean white background, bright cheerful colors, minimalist style suitable for a language learning app."
+}

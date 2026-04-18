@@ -1,0 +1,394 @@
+{
+  "ຕົກ": {
+    "definitions": {
+      "de": "fallen; herunterfallen (von einem höheren Ort nach unten bewegen)",
+      "en": "to fall; to drop (to move downward from a higher position)",
+      "es": "caer; caerse (moverse hacia abajo desde una posición más alta)",
+      "fr": "tomber; chuter (se déplacer vers le bas depuis une position plus haute)",
+      "hi": "गिरना; नीचे आना (ऊँची जगह से नीचे की ओर आना)",
+      "ja": "落ちる；落下する（高い場所から下に移動する）",
+      "km": "ធ្លាក់; រលំ (ធ្លាក់ចុះពីកន្លែងខ្ពស់)",
+      "ko": "떨어지다; 낙하하다 (높은 곳에서 아래로 내려오다)",
+      "ne": "खस्नु; झर्नु (माथिबाट तल आउनु)",
+      "pt": "cair; tombar (mover-se para baixo a partir de uma posição mais alta)",
+      "th": "ตก; หล่น (เคลื่อนที่ลงจากที่สูง)",
+      "tl": "mahulog; bumagsak (gumalaw pababa mula sa mas mataas na posisyon)",
+      "ur": "گرنا؛ نیچے آنا (اونچی جگہ سے نیچے کی طرف آنا)",
+      "vi": "rơi; ngã (di chuyển xuống phía dưới từ vị trí cao hơn)",
+      "zh": "落下；跌落（从较高的位置向下移动）",
+      "zh_Hant": "落下；跌落（從較高的位置向下移動）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tók/",
+    "examples": [
+      {
+        "lao_script": "ໝາກໄມ້ຕົກລົງຈາກຕົ້ນໄມ້",
+        "romanization": "maak mai tok long jaak ton mai",
+        "translations": {
+          "de": "Die Früchte fallen vom Baum herunter.",
+          "en": "The fruit falls down from the tree.",
+          "es": "La fruta cae del árbol.",
+          "fr": "Les fruits tombent de l'arbre.",
+          "hi": "फल पेड़ से नीचे गिरता है।",
+          "ja": "果物が木から落ちる。",
+          "km": "ផ្លែឈើធ្លាក់ចុះពីដើមឈើ។",
+          "ko": "과일이 나무에서 떨어진다.",
+          "ne": "फल रूखबाट तल खस्छ।",
+          "pt": "A fruta cai da árvore.",
+          "th": "ผลไม้ตกลงมาจากต้นไม้",
+          "tl": "Ang prutas ay nahuhulog mula sa puno.",
+          "ur": "پھل درخت سے گر گیا۔",
+          "vi": "Quả rơi xuống từ cây.",
+          "zh": "水果从树上落下来。",
+          "zh_Hant": "水果從樹上落下來。"
+        },
+        "out_of_scope_words": [
+          "ໝາກໄມ້",
+          "ຕົ້ນໄມ້"
+        ]
+      },
+      {
+        "lao_script": "ລະວັງຢ່າຕົກ ທາງນີ້ລື່ນ",
+        "romanization": "la wang yaa tok, thaang nii luen",
+        "translations": {
+          "de": "Pass auf, nicht hinzufallen – der Weg hier ist rutschig.",
+          "en": "Be careful not to fall – this path is slippery.",
+          "es": "Cuidado, no te caigas — este camino está resbaladizo.",
+          "fr": "Fais attention de ne pas tomber — ce chemin est glissant.",
+          "hi": "सावधान रहो, गिरो मत — यह रास्ता फिसलन भरा है।",
+          "ja": "気をつけて、転ばないように — この道は滑りやすいよ。",
+          "km": "ប្រយ័ត្នកុំធ្លាក់ ផ្លូវនេះរអិល។",
+          "ko": "조심해, 넘어지지 마 — 여기 길이 미끄러워.",
+          "ne": "ध्यान गर, नखस — यो बाटो चिप्लो छ।",
+          "pt": "Cuidado para não cair — esse caminho é escorregadio.",
+          "th": "ระวังอย่าตก ทางนี้ลื่น",
+          "tl": "Mag-ingat, huwag mahulog — madulas ang daang ito.",
+          "ur": "خبردار، گرنا مت — یہ راستہ پھسلن والا ہے۔",
+          "vi": "Cẩn thận đừng ngã — đường này trơn lắm.",
+          "zh": "小心别摔倒，这条路很滑。",
+          "zh_Hant": "小心別摔倒，這條路很滑。"
+        },
+        "out_of_scope_words": [
+          "ລະວັງ",
+          "ລື່ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a ripe apple falling from a tree branch toward the ground, with a clear downward motion arrow, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໂກ": {
+    "definitions": {
+      "de": "Silbe, die in Eigennamen und Lehnwörtern aus dem Chinesischen, Vietnamesischen oder anderen Sprachen vorkommt; hat keine eigenständige Bedeutung im Lao",
+      "en": "A syllable appearing in proper names and loanwords borrowed from Chinese, Vietnamese, or other languages; has no independent meaning in standard Lao",
+      "es": "Sílaba que aparece en nombres propios y préstamos lingüísticos del chino, vietnamita u otros idiomas; no tiene significado independiente en lao estándar",
+      "fr": "Syllabe apparaissant dans des noms propres et des emprunts du chinois, du vietnamien ou d'autres langues ; n'a pas de signification indépendante en lao standard",
+      "hi": "चीनी, वियतनामी या अन्य भाषाओं से आए उचित नामों और ऋणशब्दों में प्रयुक्त अक्षर; मानक लाओ में इसका कोई स्वतंत्र अर्थ नहीं है",
+      "ja": "中国語、ベトナム語などからの固有名詞や借用語に現れる音節で、標準ラオ語では独立した意味を持たない",
+      "km": "ព្យាង្គដែលលេចឡើងក្នុងឈ្មោះអ្នក និងពាក្យខ្ចីពីភាសាចិន វៀតណាម ឬភាសាផ្សេងទៀត; គ្មានន័យឯករាជ្យក្នុងភាសាឡាវស្តង់ដារ",
+      "ko": "중국어, 베트남어 등에서 차용된 고유명사나 외래어에 나타나는 음절로, 표준 라오어에서는 독립적인 의미가 없음",
+      "ne": "चिनियाँ, भियतनामी वा अन्य भाषाबाट लिइएका उचित नाम र ऋणशब्दहरूमा देखिने अक्षर; मानक लाओमा यसको कुनै स्वतन्त्र अर्थ छैन",
+      "pt": "Sílaba que aparece em nomes próprios e empréstimos do chinês, vietnamita ou outras línguas; não tem significado independente no lao padrão",
+      "th": "พยางค์ที่ปรากฏในชื่อเฉพาะและคำยืมจากภาษาจีน เวียดนาม หรือภาษาอื่น ไม่มีความหมายอิสระในภาษาลาวมาตรฐาน",
+      "tl": "Isang pantig na lumalabas sa mga pangalan at mga salitang hiniram mula sa Tsino, Biyetnamese, o iba pang mga wika; walang sariling kahulugan sa karaniwang wikang Lao",
+      "ur": "چینی، ویتنامی یا دیگر زبانوں سے لیے گئے ناموں اور قرضہ الفاظ میں آنے والا ایک حرف؛ معیاری لاؤ میں اس کا کوئی آزاد مفہوم نہیں",
+      "vi": "Một âm tiết xuất hiện trong tên riêng và từ mượn từ tiếng Trung, tiếng Việt hoặc ngôn ngữ khác; không có nghĩa độc lập trong tiếng Lào chuẩn",
+      "zh": "出现在源自汉语、越南语或其他语言的专有名词和借词中的音节；在标准老挝语中无独立含义",
+      "zh_Hant": "出現在源自漢語、越南語或其他語言的專有名詞和借詞中的音節；在標準寮語中無獨立含義"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/kóː/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ລາວຫຼາຍຊື່ມີໂກຢູ່ໃນນັ້ນ",
+        "romanization": "sue lao laai sue mii ko yuu nai nan",
+        "translations": {
+          "de": "Viele laotische Namen enthalten die Silbe 'ໂກ' darin.",
+          "en": "Many Lao names have the syllable 'ໂກ' in them.",
+          "es": "Muchos nombres laosianos tienen la sílaba 'ໂກ' en ellos.",
+          "fr": "De nombreux noms laotiens contiennent la syllabe 'ໂກ' en eux.",
+          "hi": "कई लाओ नामों में 'ໂກ' अक्षर होता है।",
+          "ja": "多くのラオスの名前に「ໂກ」という音節が含まれている。",
+          "km": "ឈ្មោះឡាវជាច្រើនមានព្យាង្គ 'ໂກ' នៅក្នុង។",
+          "ko": "많은 라오 이름에는 'ໂກ'라는 음절이 포함되어 있다.",
+          "ne": "धेरै लाओ नामहरूमा 'ໂກ' अक्षर हुन्छ।",
+          "pt": "Muitos nomes laosianos têm a sílaba 'ໂກ' neles.",
+          "th": "ชื่อลาวหลายชื่อมีพยางค์ 'ໂກ' อยู่ในนั้น",
+          "tl": "Maraming pangalan ng Lao ang may pantig na 'ໂກ' sa loob nito.",
+          "ur": "بہت سے لاؤ ناموں میں 'ໂກ' حرف موجود ہوتا ہے۔",
+          "vi": "Nhiều tên Lào có âm tiết 'ໂກ' trong đó.",
+          "zh": "很多老挝名字里含有'ໂກ'这个音节。",
+          "zh_Hant": "很多寮國名字裡含有'ໂກ'這個音節。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ໂກ ເປັນພະຍາງທີ່ມາຈາກພາສາອື່ນ",
+        "romanization": "ko pen pha yaang tii maa jaak phaa saa uun",
+        "translations": {
+          "de": "'ໂກ' ist eine Silbe, die aus einer anderen Sprache stammt.",
+          "en": "'ໂກ' is a syllable that comes from another language.",
+          "es": "'ໂກ' es una sílaba que viene de otro idioma.",
+          "fr": "'ໂກ' est une syllabe qui vient d'une autre langue.",
+          "hi": "'ໂກ' एक ऐसा अक्षर है जो दूसरी भाषा से आया है।",
+          "ja": "「ໂກ」は他の言語から来た音節だ。",
+          "km": "'ໂກ' គឺជាព្យាង្គដែលមកពីភាសាផ្សេង។",
+          "ko": "'ໂກ'는 다른 언어에서 온 음절이다.",
+          "ne": "'ໂກ' अर्को भाषाबाट आएको एउटा अक्षर हो।",
+          "pt": "'ໂກ' é uma sílaba que vem de outra língua.",
+          "th": "'ໂກ' เป็นพยางค์ที่มาจากภาษาอื่น",
+          "tl": "Ang 'ໂກ' ay isang pantig na nagmula sa ibang wika.",
+          "ur": "'ໂກ' ایک ایسا حرف ہے جو کسی اور زبان سے آیا ہے۔",
+          "vi": "'ໂກ' là một âm tiết đến từ ngôn ngữ khác.",
+          "zh": "'ໂກ'是一个来自其他语言的音节。",
+          "zh_Hant": "'ໂກ'是一個來自其他語言的音節。"
+        },
+        "out_of_scope_words": [
+          "ພະຍາງ",
+          "ພາສາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or label with stylized syllable blocks arranged together, representing a borrowed word or name component, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ງາມ": {
+    "definitions": {
+      "de": "schön; hübsch; ansprechend (wird verwendet, um etwas oder jemanden ästhetisch ansprechend zu beschreiben)",
+      "en": "beautiful; pretty; attractive (used to describe something or someone as aesthetically pleasing)",
+      "es": "hermoso; bonito; atractivo (se usa para describir algo o alguien estéticamente agradable)",
+      "fr": "beau; joli; attrayant (utilisé pour décrire quelque chose ou quelqu'un d'esthétiquement plaisant)",
+      "hi": "सुंदर; खूबसूरत; आकर्षक (किसी चीज़ या व्यक्ति को सौंदर्यपूर्ण रूप से सुखद बताने के लिए प्रयुक्त)",
+      "ja": "美しい；きれい；魅力的（何かや誰かが審美的に魅力的であることを表す）",
+      "km": "ស្អាត; ល្អ; គួរឱ្យទាក់ទាញ (ប្រើដើម្បីពិពណ៌នាអ្វីមួយ ឬនរណាម្នាក់ដែលគួរឱ្យចូលចិត្ត)",
+      "ko": "아름답다; 예쁘다; 매력적이다 (무언가나 누군가를 미적으로 매력적으로 묘사할 때 사용)",
+      "ne": "सुन्दर; राम्रो; आकर्षक (कुनै वस्तु वा व्यक्तिलाई सौन्दर्यात्मक रूपमा आनन्ददायक भनी वर्णन गर्न प्रयोग गरिन्छ)",
+      "pt": "bonito; belo; atraente (usado para descrever algo ou alguém como esteticamente agradável)",
+      "th": "งาม; สวย; สวยงาม (ใช้อธิบายสิ่งของหรือบุคคลที่มีความสวยงามน่าพึงพอใจ)",
+      "tl": "maganda; marikit; kaakit-akit (ginagamit upang ilarawan ang isang bagay o tao bilang maganda)",
+      "ur": "خوبصورت؛ حسین؛ دلکش (کسی چیز یا شخص کو جمالیاتی طور پر خوشنما بیان کرنے کے لیے استعمال ہوتا ہے)",
+      "vi": "đẹp; xinh; hấp dẫn (dùng để miêu tả điều gì đó hoặc ai đó hấp dẫn về mặt thẩm mỹ)",
+      "zh": "美丽；漂亮；好看（用于形容某事物或某人在审美上令人愉悦）",
+      "zh_Hant": "美麗；漂亮；好看（用於形容某事物或某人在審美上令人愉悅）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/ŋaːm/",
+    "examples": [
+      {
+        "lao_script": "ດອກໄມ້ນີ້ງາມຫຼາຍເດີ",
+        "romanization": "dok mai nii ngaam laai dei",
+        "translations": {
+          "de": "Diese Blume ist wirklich sehr schön!",
+          "en": "This flower is really very beautiful!",
+          "es": "¡Esta flor es realmente muy hermosa!",
+          "fr": "Cette fleur est vraiment très belle !",
+          "hi": "यह फूल सच में बहुत सुंदर है!",
+          "ja": "この花は本当にとても美しいね！",
+          "km": "ផ្កានេះស្អាតណាស់!",
+          "ko": "이 꽃은 정말 너무 예뻐!",
+          "ne": "यो फूल साँच्चै धेरै सुन्दर छ!",
+          "pt": "Esta flor é realmente muito bonita!",
+          "th": "ดอกไม้นี้งามมากเลย!",
+          "tl": "Ang bulaklak na ito ay talagang napakaganda!",
+          "ur": "یہ پھول واقعی بہت خوبصورت ہے!",
+          "vi": "Bông hoa này đẹp lắm đó!",
+          "zh": "这朵花真的很漂亮！",
+          "zh_Hant": "這朵花真的很漂亮！"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້"
+        ]
+      },
+      {
+        "lao_script": "ເມືອງລາວງາມທຸກລະດູ",
+        "romanization": "mueang lao ngaam thuk la duu",
+        "translations": {
+          "de": "Laos ist in jeder Jahreszeit schön.",
+          "en": "Laos is beautiful in every season.",
+          "es": "Laos es hermoso en cada estación.",
+          "fr": "Le Laos est beau en toutes saisons.",
+          "hi": "लाओस हर मौसम में सुंदर है।",
+          "ja": "ラオスはどの季節も美しい。",
+          "km": "ប្រទេសឡាវស្អាតគ្រប់រដូវ។",
+          "ko": "라오스는 모든 계절에 아름답다.",
+          "ne": "लाओस हर मौसममा सुन्दर छ।",
+          "pt": "O Laos é bonito em todas as estações.",
+          "th": "เมืองลาวงามทุกฤดู",
+          "tl": "Ang Laos ay maganda sa bawat panahon.",
+          "ur": "لاؤس ہر موسم میں خوبصورت ہے۔",
+          "vi": "Nước Lào đẹp trong mọi mùa.",
+          "zh": "老挝每个季节都很美。",
+          "zh_Hant": "寮國每個季節都很美。"
+        },
+        "out_of_scope_words": [
+          "ລະດູ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a vibrant blooming flower with a smiling face or sparkles around it, conveying beauty and attractiveness, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບ່າຍ": {
+    "definitions": {
+      "de": "Nachmittag; die Tageszeit zwischen Mittag und Abend, typischerweise von 12:00 bis 18:00 Uhr",
+      "en": "afternoon; the time of day between noon and evening, typically from 12:00 to 6:00 PM",
+      "es": "tarde; el período del día entre el mediodía y la noche, típicamente de las 12:00 a las 18:00 horas",
+      "fr": "après-midi ; la période de la journée entre midi et le soir, généralement de 12h00 à 18h00",
+      "hi": "दोपहर; दिन का वह समय जो दोपहर और शाम के बीच होता है, आमतौर पर 12:00 से 18:00 बजे तक",
+      "ja": "午後；正午から夕方までの時間帯、一般的に12時から18時まで",
+      "km": "រសៀល; ពេលវេលានៅចន្លោះថ្ងៃត្រង់និងពេលល្ងាច ជាធម្មតាពី 12:00 ដល់ 18:00",
+      "ko": "오후; 정오와 저녁 사이의 시간대, 일반적으로 오후 12시부터 6시까지",
+      "ne": "दिउँसो; दिनको मध्यान्ह र साँझको बीचको समय, सामान्यतः दिउँसो १२ देखि ६ बजेसम्म",
+      "pt": "tarde; o período do dia entre o meio-dia e a noite, tipicamente das 12h às 18h",
+      "th": "บ่าย; ช่วงเวลาของวันระหว่างเที่ยงวันถึงเย็น โดยทั่วไปตั้งแต่ 12:00 ถึง 18:00 น.",
+      "tl": "hapon; ang oras ng araw sa pagitan ng tanghali at gabi, karaniwang mula 12:00 hanggang 18:00",
+      "ur": "دوپہر بعد؛ دن کا وہ وقت جو دوپہر اور شام کے درمیان ہوتا ہے، عام طور پر دوپہر 12:00 سے شام 6:00 بجے تک",
+      "vi": "buổi chiều; khoảng thời gian trong ngày từ buổi trưa đến buổi tối, thường từ 12:00 đến 18:00",
+      "zh": "下午；一天中从中午到傍晚的时间段，通常为下午12点至18点",
+      "zh_Hant": "下午；一天中從中午到傍晚的時間段，通常為下午12點至18點"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/baːj/",
+    "examples": [
+      {
+        "lao_script": "ບ່າຍນີ້ເຮົາໄປຫາໝູ່ກັນເດີ",
+        "romanization": "baai nii hao pai haa muu gan dei",
+        "translations": {
+          "de": "Lass uns heute Nachmittag zusammen Freunde besuchen gehen!",
+          "en": "This afternoon let's go visit friends together!",
+          "es": "¡Esta tarde vamos a visitar a los amigos juntos!",
+          "fr": "Cet après-midi, allons rendre visite à des amis ensemble !",
+          "hi": "आज दोपहर चलो साथ में दोस्तों से मिलने चलते हैं!",
+          "ja": "今日の午後、一緒に友達を訪ねに行こう！",
+          "km": "រសៀលនេះ ពួកយើងទៅលេងមិត្តភក្តិជាមួយគ្នា!",
+          "ko": "오늘 오후에 같이 친구들 만나러 가자!",
+          "ne": "आज दिउँसो हामी सँगै साथीहरूलाई भेट्न जाऔं!",
+          "pt": "Esta tarde vamos visitar os amigos juntos!",
+          "th": "บ่ายนี้เราไปหาเพื่อนกันเถอะ!",
+          "tl": "Ngayong hapon pumunta tayo sa mga kaibigan nang magkasama!",
+          "ur": "آج دوپہر بعد ہم سب مل کر دوستوں سے ملنے چلتے ہیں!",
+          "vi": "Chiều nay chúng ta đi thăm bạn bè cùng nhau nhé!",
+          "zh": "今天下午我们一起去看朋友吧！",
+          "zh_Hant": "今天下午我們一起去看朋友吧！"
+        },
+        "out_of_scope_words": [
+          "ໝູ່"
+        ]
+      },
+      {
+        "lao_script": "ຕອນບ່າຍອາກາດຮ້ອນຫຼາຍ",
+        "romanization": "ton baai aa gaat hon laai",
+        "translations": {
+          "de": "Am Nachmittag ist es sehr heiß.",
+          "en": "In the afternoon the weather is very hot.",
+          "es": "Por la tarde el clima es muy caluroso.",
+          "fr": "L'après-midi, il fait très chaud.",
+          "hi": "दोपहर में मौसम बहुत गर्म होता है।",
+          "ja": "午後はとても暑い。",
+          "km": "ពេលរសៀល អាកាសធាតុក្តៅណាស់។",
+          "ko": "오후에는 날씨가 매우 덥다.",
+          "ne": "दिउँसो मौसम धेरै गर्मी हुन्छ।",
+          "pt": "À tarde o tempo está muito quente.",
+          "th": "ตอนบ่ายอากาศร้อนมาก",
+          "tl": "Sa hapon napakainit ng panahon.",
+          "ur": "دوپہر بعد موسم بہت گرم ہوتا ہے۔",
+          "vi": "Vào buổi chiều thời tiết rất nóng.",
+          "zh": "下午天气非常热。",
+          "zh_Hant": "下午天氣非常熱。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ",
+          "ຮ້ອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright afternoon sun positioned in the sky at around 3 o'clock angle, casting warm light over a calm scene, with a clock or sun-position indicator showing afternoon time, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປອດ": {
+    "definitions": {
+      "de": "sicher; frei von (etwas); ungefährdet; ohne Risiko oder Bedrohung",
+      "en": "safe; free from (something); secure; without risk or danger",
+      "es": "seguro; libre de (algo); sin riesgo ni peligro",
+      "fr": "sûr; libre de (quelque chose); sans risque ni danger",
+      "hi": "सुरक्षित; (किसी चीज़) से मुक्त; बिना खतरे के",
+      "ja": "安全な；（何かから）自由な；危険のない",
+      "km": "សុវត្ថិភាព; គ្មានការបារម្ភ; ផុតពី (អ្វីមួយ)",
+      "ko": "안전한; (어떤 것으로부터) 자유로운; 위험이 없는",
+      "ne": "सुरक्षित; (केहीबाट) मुक्त; खतरा नभएको",
+      "pt": "seguro; livre de (algo); sem risco ou perigo",
+      "th": "ปลอดภัย; ปราศจาก (บางสิ่ง); ไม่มีอันตราย",
+      "tl": "ligtas; malaya mula sa (isang bagay); walang panganib",
+      "ur": "محفوظ؛ (کسی چیز) سے آزاد؛ بے خطر",
+      "vi": "an toàn; thoát khỏi (điều gì đó); không có nguy hiểm",
+      "zh": "安全的；（从某事）解脱；没有危险的",
+      "zh_Hant": "安全的；（從某事）解脫；沒有危險的"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/pɔːt/",
+    "examples": [
+      {
+        "lao_script": "ຢູ່ເຮືອນຄື້ນ ປອດໄພຂຶ້ນ",
+        "romanization": "yuu huan kuun, pot phai khuen",
+        "translations": {
+          "de": "Zu Hause bleiben ist sicherer.",
+          "en": "Staying home is safer.",
+          "es": "Quedarse en casa es más seguro.",
+          "fr": "Rester à la maison, c'est plus sûr.",
+          "hi": "घर पर रहना ज़्यादा सुरक्षित है।",
+          "ja": "家にいる方が安全だよ。",
+          "km": "នៅផ្ទះមានសុវត្ថិភាពជាង។",
+          "ko": "집에 있는 게 더 안전해.",
+          "ne": "घरमा बस्नु अझ सुरक्षित छ।",
+          "pt": "Ficar em casa é mais seguro.",
+          "th": "อยู่บ้านดีกว่า ปลอดภัยขึ้น",
+          "tl": "Ang pananatili sa bahay ay mas ligtas.",
+          "ur": "گھر میں رہنا زیادہ محفوظ ہے۔",
+          "vi": "Ở nhà thì an toàn hơn.",
+          "zh": "待在家里更安全。",
+          "zh_Hant": "待在家裡更安全。"
+        },
+        "out_of_scope_words": [
+          "ໄພ"
+        ]
+      },
+      {
+        "lao_script": "ດຽວນີ້ປອດຄວັນລົດແລ້ວ ອາກາດດີຂຶ້ນ",
+        "romanization": "diao nii pot khwan lot laeo, aa gaat dii khuen",
+        "translations": {
+          "de": "Jetzt ist die Luft frei von Fahrzeugabgasen und die Luftqualität hat sich verbessert.",
+          "en": "Now it's free from vehicle smoke and the air quality has improved.",
+          "es": "Ahora está libre del humo de los vehículos y la calidad del aire ha mejorado.",
+          "fr": "Maintenant c'est libre de fumée de voiture et la qualité de l'air s'est améliorée.",
+          "hi": "अब गाड़ियों के धुएँ से मुक्त है और हवा की गुणवत्ता बेहतर हो गई है।",
+          "ja": "今は車の煙がなくなって、空気がよくなったよ。",
+          "km": "ឥឡូវគ្មានផ្សែងឡានហើយ គុណភាពខ្យល់ប្រសើរឡើង។",
+          "ko": "이제 차 연기도 없어지고 공기 질이 좋아졌어.",
+          "ne": "अहिले गाडीको धुवाँबाट मुक्त भयो र हावाको गुणस्तर सुधारियो।",
+          "pt": "Agora está livre da fumaça dos veículos e a qualidade do ar melhorou.",
+          "th": "ตอนนี้ปลอดควันรถแล้ว อากาศดีขึ้น",
+          "tl": "Ngayon ay malaya na mula sa usok ng sasakyan at ang kalidad ng hangin ay bumuti.",
+          "ur": "اب گاڑیوں کے دھویں سے آزاد ہے اور ہوا کا معیار بہتر ہو گیا ہے۔",
+          "vi": "Bây giờ thoát khỏi khói xe rồi, không khí tốt hơn rồi.",
+          "zh": "现在没有车辆废气了，空气质量改善了。",
+          "zh_Hant": "現在沒有車輛廢氣了，空氣質量改善了。"
+        },
+        "out_of_scope_words": [
+          "ຄວັນ",
+          "ລົດ",
+          "ອາກາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing inside a green protective shield or bubble with a checkmark, surrounded by calm and clear surroundings symbolizing safety and freedom from danger, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄຊ",
+  "definitions": {
+    "de": "Sieg; der Zustand des Gewinnens oder Triumphierens; häufig in Namen und zeremoniellen Ausrufen verwendet",
+    "en": "Victory; the state of winning or triumphing over something; commonly used in names and ceremonial exclamations",
+    "es": "Victoria; el estado de ganar o triunfar sobre algo; se usa comúnmente en nombres y exclamaciones ceremoniales",
+    "fr": "Victoire; l'état de gagner ou de triompher; couramment utilisé dans les noms propres et les exclamations cérémonielles",
+    "hi": "विजय; जीतने या किसी चीज़ पर विजय पाने की स्थिति; आमतौर पर नामों और औपचारिक उद्घोषों में उपयोग किया जाता है",
+    "ja": "勝利；何かに打ち勝つまたは勝つ状態；名前や儀礼的な感嘆詞によく使われる",
+    "km": "ជ័យជំនះ; ស្ថានភាពនៃការឈ្នះ ឬការទទួលបានជ័យជំនះ; ជាទូទៅប្រើក្នុងឈ្មោះ និងការស្រែកចំណោទ",
+    "ko": "승리; 무언가에 이기거나 승리하는 상태; 이름이나 의례적인 감탄사에 자주 사용됨",
+    "ne": "विजय; केही चीजमा जित्ने वा विजय हासिल गर्ने अवस्था; सामान्यतः नाम र औपचारिक उद्गारहरूमा प्रयोग हुन्छ",
+    "pt": "Vitória; o estado de vencer ou triunfar sobre algo; comumente usado em nomes e exclamações cerimoniais",
+    "th": "ชัยชนะ; สภาวะของการชนะหรือมีชัยเหนือสิ่งใด; มักใช้ในชื่อและการอุทานในพิธีการ",
+    "tl": "Tagumpay / Panalo; ang estado ng pagwawagi o pagtatagumpay; karaniwang ginagamit sa mga pangalan at seremonyal na pagbubulahaw",
+    "ur": "فتح؛ جیتنے یا کسی چیز پر غلبہ پانے کی حالت؛ عام طور پر ناموں اور رسمی نعروں میں استعمال ہوتا ہے",
+    "vi": "Chiến thắng; trạng thái chiến thắng hoặc khải hoàn; thường dùng trong tên người và các tiếng hô nghi lễ",
+    "zh": "胜利；赢得或征服某事的状态；常用于名字和仪式性的欢呼声中",
+    "zh_Hant": "勝利；贏得或征服某事的狀態；常用於名字和儀式性的歡呼聲中"
+  },
+  "definition_en": "Victory; the state of winning or triumphing over something; commonly used in names and ceremonial exclamations",
+  "romanization": "sái",
+  "lao_examples": [
+    {
+      "lao_script": "ທີມເຮົາໄດ້ໄຊໃນການແຂ່ງຂັນມື້ວານ",
+      "romanization": "thiim hao dâi sái nai gaan khɛ̀ng khán mʉ̄ waan",
+      "translation_en": "Our team won victory in yesterday's competition."
+    },
+    {
+      "lao_script": "ໄຊ! ພວກເຮົາຜ່ານການສອບເສັງແລ້ວ",
+      "romanization": "sái! phûak hao phàan gaan sɔ̀p sɛ̌ng lɛ́ɛo",
+      "translation_en": "Victory! We passed the exam!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a golden trophy cup with a star on it and colorful confetti falling around it, representing victory or winning, clean white background, bright colors, minimalist style, suitable for a language learning app."
+}

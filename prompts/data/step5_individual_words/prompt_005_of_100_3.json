@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈະ",
+  "definitions": {
+    "de": "werden (Futurmarker vor Verben)",
+    "en": "will (future tense marker before verbs)",
+    "es": "ir a/futuro (marcador de futuro antes del verbo)",
+    "fr": "aller/futur (marqueur du futur avant les verbes)",
+    "hi": "गा/गे/गी (भविष्यकाल सूचक)",
+    "ja": "〜する予定／〜するつもり（未来を示す助詞）",
+    "km": "នឹង (បច្ច័យបង្ហាញពេលអនាគត)",
+    "ko": "~할 것이다／~겠다 (미래 표지)",
+    "ne": "हुनेछ／गर्नेछ (भविष्यसूचक)",
+    "pt": "vai/irá (marcador de futuro antes do verbo)",
+    "th": "จะ (คำบอกอนาคต)",
+    "tl": "magiging／lalapit／(hinaharap na panandang panahunan)",
+    "ur": "گا／گی／گے (مستقبل کی علامت)",
+    "vi": "sẽ (dấu hiệu thời tương lai)",
+    "zh": "将／会／要（未来时标记）",
+    "zh_Hant": "將／會／要（未來時標記）"
+  },
+  "definition_en": "will (future tense marker before verbs)",
+  "romanization": "càʔ",
+  "lao_examples": [
+    {
+      "lao_script": "ພຸ່ງນີ້ ຂ້ອຍ ຈະ ໄປ ວຽງຈັນ",
+      "romanization": "pʰūŋ.nîː kʰɔ̂ːj càʔ pàj wíːəŋ.càn",
+      "translation_en": "Tomorrow I will go to Vientiane."
+    },
+    {
+      "lao_script": "ລາວ ຈະ ກິນ ເຂົ້າ ແລ້ວ",
+      "romanization": "láːw càʔ kìn kʰȁw lɛ̂ːw",
+      "translation_en": "He/She is about to eat."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a calendar with an arrow pointing to a future date and a small clock icon, representing future tense, suitable for a language learning app, clean white background, minimalist style."
+}

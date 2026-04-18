@@ -1,0 +1,403 @@
+{
+  "ໄກ": {
+    "definitions": {
+      "de": "Weit; eine große Entfernung beschreibend",
+      "en": "Far; describing a great distance away",
+      "es": "Lejos; que describe una gran distancia",
+      "fr": "Loin; décrivant une grande distance",
+      "hi": "दूर; किसी बड़ी दूरी का वर्णन करना",
+      "ja": "遠い；大きな距離を表す形容詞",
+      "km": "ឆ្ងាយ; ពិពណ៌នាអំពីចម្ងាយដ៏ធំ",
+      "ko": "멀다; 큰 거리를 나타내는 형용사",
+      "ne": "टाढा; ठूलो दूरी वर्णन गर्ने शब्द",
+      "pt": "Longe; descrevendo uma grande distância",
+      "th": "ไกล; บอกระยะทางที่ห่างออกไปมาก",
+      "tl": "Malayo; naglalarawan ng malaking distansya",
+      "ur": "دور؛ بڑے فاصلے کو ظاہر کرنے والا",
+      "vi": "Xa; mô tả khoảng cách lớn",
+      "zh": "远；形容距离大",
+      "zh_Hant": "遠；形容距離大"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/kàj/",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂອງເພື່ອນຂ້ອຍໄກຫຼາຍ",
+        "romanization": "hɯan khɔ̌ɔng phɯ̂an khɔ̂i kàj lǎaj",
+        "translations": {
+          "de": "Das Haus meines Freundes ist sehr weit weg.",
+          "en": "My friend's house is really far away.",
+          "es": "La casa de mi amigo está muy lejos.",
+          "fr": "La maison de mon ami est vraiment loin.",
+          "hi": "मेरे दोस्त का घर बहुत दूर है।",
+          "ja": "友達の家はとても遠い。",
+          "km": "ផ្ទះរបស់មិត្តខ្ញុំនៅឆ្ងាយណាស់។",
+          "ko": "내 친구 집은 정말 멀어.",
+          "ne": "मेरो साथीको घर धेरै टाढा छ।",
+          "pt": "A casa do meu amigo é muito longe.",
+          "th": "บ้านเพื่อนฉันอยู่ไกลมากเลย",
+          "tl": "Ang bahay ng aking kaibigan ay napakalayo.",
+          "ur": "میرے دوست کا گھر بہت دور ہے۔",
+          "vi": "Nhà của bạn tôi ở rất xa.",
+          "zh": "我朋友的家非常远。",
+          "zh_Hant": "我朋友的家非常遠。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ເພື່ອນ",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ຕະຫຼາດຢູ່ໄກບໍ?",
+        "romanization": "talàat jùu kàj bɔ̀?",
+        "translations": {
+          "de": "Ist der Markt weit weg?",
+          "en": "Is the market far?",
+          "es": "¿El mercado está lejos?",
+          "fr": "Est-ce que le marché est loin ?",
+          "hi": "क्या बाज़ार दूर है?",
+          "ja": "市場は遠いですか？",
+          "km": "តើផ្សារនៅឆ្ងាយទេ?",
+          "ko": "시장이 멀어요?",
+          "ne": "बजार टाढा छ?",
+          "pt": "O mercado é longe?",
+          "th": "ตลาดอยู่ไกลไหม?",
+          "tl": "Malayo ba ang palengke?",
+          "ur": "کیا بازار دور ہے؟",
+          "vi": "Chợ có xa không?",
+          "zh": "市场远吗？",
+          "zh_Hant": "市場遠嗎？"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two locations with a long winding road stretching between them, emphasizing great distance, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໜ້ອຍ": {
+    "definitions": {
+      "de": "Ein wenig; ein kleines bisschen; wird verwendet, um ein geringes Maß oder eine geringe Menge auszudrücken",
+      "en": "A little; slightly; a small amount or degree (variant spelling of ນ້ອຍ)",
+      "es": "Un poco; ligeramente; una pequeña cantidad o grado",
+      "fr": "Un peu ; légèrement ; une petite quantité ou un faible degré",
+      "hi": "थोड़ा; थोड़ी सी मात्रा या डिग्री",
+      "ja": "少し；わずか；少量や小さい程度を表す",
+      "km": "បន្តិច; តិចតួច; បរិមាណ ឬកម្រិតតូចមួយ",
+      "ko": "조금; 약간; 소량이나 낮은 정도를 나타냄",
+      "ne": "अलिकति; थोरै; सानो मात्रा वा स्तर",
+      "pt": "Um pouco; ligeiramente; uma pequena quantidade ou grau",
+      "th": "หน่อย; นิดหน่อย; แสดงปริมาณหรือระดับเล็กน้อย",
+      "tl": "Kaunti; bahagya; isang maliit na halaga o antas",
+      "ur": "تھوڑا؛ قدرے؛ تھوڑی مقدار یا درجہ",
+      "vi": "Một chút; hơi; một lượng hoặc mức độ nhỏ",
+      "zh": "一点；稍微；表示少量或小程度",
+      "zh_Hant": "一點；稍微；表示少量或小程度"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "/nɔ̂j/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຫິວໜ້ອຍໆ",
+        "romanization": "khɔ̂i hiw nɔ̂j nɔ̂j",
+        "translations": {
+          "de": "Ich bin ein bisschen hungrig.",
+          "en": "I'm a little hungry.",
+          "es": "Tengo un poco de hambre.",
+          "fr": "J'ai un peu faim.",
+          "hi": "मुझे थोड़ी भूख है।",
+          "ja": "少しお腹がすいた。",
+          "km": "ខ្ញុំឃ្លានបន្តិចបន្តួច។",
+          "ko": "나 조금 배고파.",
+          "ne": "मलाई अलिकति भोक लागेको छ।",
+          "pt": "Estou com um pouquinho de fome.",
+          "th": "ฉันหิวหน่อยๆ",
+          "tl": "Medyo gutom na ako.",
+          "ur": "مجھے تھوڑی بھوک لگی ہے۔",
+          "vi": "Tôi hơi đói một chút.",
+          "zh": "我有点饿。",
+          "zh_Hant": "我有點餓。"
+        },
+        "out_of_scope_words": [
+          "ຫິວ"
+        ]
+      },
+      {
+        "lao_script": "ລໍຖ້າໜ້ອຍເດີ",
+        "romanization": "lɔ̌ɔ thâa nɔ̂j dəə",
+        "translations": {
+          "de": "Warte kurz mal.",
+          "en": "Wait just a moment.",
+          "es": "Espera un momento.",
+          "fr": "Attends juste un moment.",
+          "hi": "बस एक पल रुको।",
+          "ja": "ちょっと待って。",
+          "km": "រង់ចាំបន្តិចសិន។",
+          "ko": "잠깐만 기다려.",
+          "ne": "एकछिन पर्ख।",
+          "pt": "Espera um momentinho.",
+          "th": "รอแป๊บนึงนะ",
+          "tl": "Sandali lang antayin mo.",
+          "ur": "بس ایک لمحہ انتظار کرو۔",
+          "vi": "Đợi một chút nhé.",
+          "zh": "等一下嘛。",
+          "zh_Hant": "等一下嘛。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ເດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small measuring cup with just a tiny amount of liquid inside, emphasizing 'a little', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂາດ": {
+    "definitions": {
+      "de": "Fehlen; mangeln; etwas ist nicht vorhanden oder wird vermisst",
+      "en": "To lack; to be missing; to be absent or deficient in something",
+      "es": "Carecer; faltar; estar ausente o ser deficiente en algo",
+      "fr": "Manquer ; faire défaut ; être absent ou insuffisant",
+      "hi": "कमी होना; अनुपस्थित होना; किसी चीज़ की कमी होना",
+      "ja": "欠ける；不足する；何かが欠けている・足りない",
+      "km": "ខ្វះ; បាត់; អ្វីមួយខ្វះខាត ឬមិនគ្រប់គ្រាន់",
+      "ko": "부족하다; 없다; 결핍되다",
+      "ne": "कमी हुनु; नहुनु; अनुपस्थित वा अभाव हुनु",
+      "pt": "Faltar; carecer; estar ausente ou em falta",
+      "th": "ขาด; ขาดแคลน; ไม่มีหรือพร่องสิ่งใดสิ่งหนึ่ง",
+      "tl": "Kulang; wala; kakulangan ng isang bagay",
+      "ur": "کمی ہونا؛ غائب ہونا؛ کسی چیز کا نہ ہونا",
+      "vi": "Thiếu; vắng mặt; không có hoặc không đủ thứ gì đó",
+      "zh": "缺少；缺乏；某物缺失或不足",
+      "zh_Hant": "缺少；缺乏；某物缺失或不足"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/khàat/",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂ້ອຍຂາດເກືອ",
+        "romanization": "hɯan khɔ̂i khàat kɯa",
+        "translations": {
+          "de": "In meinem Haus fehlt Salz.",
+          "en": "My house is out of salt.",
+          "es": "En mi casa falta sal.",
+          "fr": "Chez moi, il n'y a plus de sel.",
+          "hi": "मेरे घर में नमक नहीं है।",
+          "ja": "うちに塩がない。",
+          "km": "ផ្ទះខ្ញុំខ្វះអំបិល។",
+          "ko": "우리 집에 소금이 없어.",
+          "ne": "मेरो घरमा नुन छैन।",
+          "pt": "Na minha casa está faltando sal.",
+          "th": "บ้านฉันขาดเกลือ",
+          "tl": "Wala na kaming asin sa bahay.",
+          "ur": "میرے گھر میں نمک نہیں ہے۔",
+          "vi": "Nhà tôi hết muối rồi.",
+          "zh": "我家缺盐了。",
+          "zh_Hant": "我家缺鹽了。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ເກືອ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ລາວຂາດຮຽນ",
+        "romanization": "mɯ́ nîi lǎo khàat hian",
+        "translations": {
+          "de": "Heute hat er/sie den Unterricht verpasst.",
+          "en": "Today he/she was absent from class.",
+          "es": "Hoy él/ella faltó a clase.",
+          "fr": "Aujourd'hui, il/elle a manqué le cours.",
+          "hi": "आज वह कक्षा में अनुपस्थित था/थी।",
+          "ja": "今日、彼/彼女は授業を欠席した。",
+          "km": "ថ្ងៃនេះគាត់អវត្តមានពីថ្នាក់រៀន។",
+          "ko": "오늘 그/그녀는 수업에 빠졌어.",
+          "ne": "आज ऊ कक्षामा अनुपस्थित थियो।",
+          "pt": "Hoje ele/ela faltou à aula.",
+          "th": "วันนี้เขา/เธอขาดเรียน",
+          "tl": "Ngayon ay lumiban siya sa klase.",
+          "ur": "آج وہ کلاس سے غیر حاضر رہا/رہی۔",
+          "vi": "Hôm nay anh/cô ấy vắng học.",
+          "zh": "今天他/她缺课了。",
+          "zh_Hant": "今天他/她缺課了。"
+        },
+        "out_of_scope_words": [
+          "ມື້ນີ້",
+          "ລາວ",
+          "ຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an empty shelf or container with a question mark, showing something is missing or absent, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊູ": {
+    "definitions": {
+      "de": "Heben; hochheben; etwas nach oben tragen oder heben",
+      "en": "To raise; to lift; to carry or hold something up high",
+      "es": "Levantar; alzar; elevar algo hacia arriba",
+      "fr": "Lever ; soulever ; élever quelque chose vers le haut",
+      "hi": "उठाना; ऊपर उठाना; किसी चीज़ को ऊंचा करना",
+      "ja": "持ち上げる；上げる；何かを高く掲げる",
+      "km": "លើក; លើកឡើង; ការលើកអ្វីមួយឱ្យខ្ពស់",
+      "ko": "들다; 올리다; 무언가를 높이 들어 올리다",
+      "ne": "उठाउनु; माथि उठाउनु; केही तल्लो ठाउँबाट माथि लैजानु",
+      "pt": "Levantar; erguer; carregar ou segurar algo para cima",
+      "th": "ยก; ชู; ยกสิ่งของขึ้นสูง",
+      "tl": "Itaas; iangat; buhatin ang isang bagay pataas",
+      "ur": "اٹھانا؛ بلند کرنا؛ کچھ اوپر اٹھانا",
+      "vi": "Giơ lên; nâng lên; đưa thứ gì đó lên cao",
+      "zh": "举起；抬高；将某物向上举",
+      "zh_Hant": "舉起；抬高；將某物向上舉"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sûu/",
+    "examples": [
+      {
+        "lao_script": "ຊູມືຂຶ້ນຖ້າຮູ້ຄຳຕອບ",
+        "romanization": "sûu mɯɯ khɯ̂n thâa húu kham tɔ̀ɔp",
+        "translations": {
+          "de": "Heb die Hand hoch, wenn du die Antwort kennst.",
+          "en": "Raise your hand if you know the answer.",
+          "es": "Levanta la mano si sabes la respuesta.",
+          "fr": "Lève la main si tu connais la réponse.",
+          "hi": "अगर तुम्हें जवाब पता है तो हाथ उठाओ।",
+          "ja": "答えがわかったら手を挙げて。",
+          "km": "លើកដៃឡើងប្រសិនបើអ្នកដឹងចម្លើយ។",
+          "ko": "답을 알면 손 들어.",
+          "ne": "जवाफ थाहा छ भने हात उठाऊ।",
+          "pt": "Levante a mão se souber a resposta.",
+          "th": "ยกมือขึ้นถ้ารู้คำตอบ",
+          "tl": "Itaas ang kamay kung alam mo ang sagot.",
+          "ur": "اگر جواب معلوم ہے تو ہاتھ اٹھاؤ۔",
+          "vi": "Giơ tay lên nếu biết câu trả lời.",
+          "zh": "如果知道答案就举手。",
+          "zh_Hant": "如果知道答案就舉手。"
+        },
+        "out_of_scope_words": [
+          "ມື",
+          "ຂຶ້ນ",
+          "ຮູ້",
+          "ຄຳຕອບ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຊູຂອງໜັກຄົນດຽວ",
+        "romanization": "jàa sûu khɔ̌ɔng nàk khon diaw",
+        "translations": {
+          "de": "Heb schwere Sachen nicht alleine hoch.",
+          "en": "Don't lift heavy things by yourself.",
+          "es": "No levantes cosas pesadas tú solo.",
+          "fr": "Ne soulève pas des choses lourdes tout seul.",
+          "hi": "अकेले भारी चीजें मत उठाओ।",
+          "ja": "重いものを一人で持ち上げるな。",
+          "km": "កុំលើករបស់ធ្ងន់តែម្នាក់ឯង។",
+          "ko": "무거운 것 혼자 들지 마.",
+          "ne": "एक्लै गह्रौँ चिजहरू नउठाऊ।",
+          "pt": "Não levante coisas pesadas sozinho.",
+          "th": "อย่ายกของหนักคนเดียว",
+          "tl": "Huwag mag-angat ng mabibigat na bagay nang mag-isa.",
+          "ur": "بھاری چیزیں اکیلے مت اٹھاؤ۔",
+          "vi": "Đừng một mình nhấc đồ nặng.",
+          "zh": "不要一个人搬重东西。",
+          "zh_Hant": "不要一個人搬重東西。"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ຂອງ",
+          "ໜັກ",
+          "ຄົນດຽວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person lifting or raising a box above their head with both arms, showing the action of lifting, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ດອນ": {
+    "definitions": {
+      "de": "Insel; ein von Wasser umgebenes Stück Land; häufig in Ortsnamen verwendet",
+      "en": "Island; a piece of land surrounded by water; commonly used in place names",
+      "es": "Isla; una extensión de tierra rodeada de agua; comúnmente usada en nombres de lugares",
+      "fr": "Île ; une étendue de terre entourée d'eau ; couramment utilisé dans les noms de lieux",
+      "hi": "द्वीप; पानी से घिरी भूमि; स्थान नामों में सामान्यतः प्रयुक्त",
+      "ja": "島；水に囲まれた陸地；地名によく使われる",
+      "km": "កោះ; ដីដែល둘둘ព័ទ្ធដោយទឹក; ប្រើជាទូទៅក្នុងឈ្មោះទីកន្លែង",
+      "ko": "섬; 물로 둘러싸인 육지; 지명에 흔히 사용됨",
+      "ne": "टापु; पानीले घेरिएको जमिन; ठाउँको नाममा सामान्यतः प्रयोग हुन्छ",
+      "pt": "Ilha; uma porção de terra cercada de água; comumente usada em nomes de lugares",
+      "th": "เกาะ; แผ่นดินที่ล้อมรอบด้วยน้ำ; มักใช้ในชื่อสถานที่",
+      "tl": "Isla; isang piraso ng lupa na napapalibutan ng tubig; karaniwang ginagamit sa mga pangalan ng lugar",
+      "ur": "جزیرہ؛ پانی سے گھرا ہوا زمین کا ٹکڑا؛ عام طور پر جگہوں کے ناموں میں استعمال ہوتا ہے",
+      "vi": "Đảo; vùng đất bao quanh bởi nước; thường dùng trong tên địa danh",
+      "zh": "岛；被水环绕的陆地；常用于地名中",
+      "zh_Hant": "島；被水環繞的陸地；常用於地名中"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/dɔ̀ɔn/",
+    "examples": [
+      {
+        "lao_script": "ດອນຄອນຢູ່ທາງໃຕ້ຂອງລາວ",
+        "romanization": "dɔ̀ɔn khɔ̌ɔn jùu thaang tâj khɔ̌ɔng lǎo",
+        "translations": {
+          "de": "Don Khon liegt im Süden von Laos.",
+          "en": "Don Khon is in the south of Laos.",
+          "es": "Don Khon está en el sur de Laos.",
+          "fr": "Don Khon se trouve dans le sud du Laos.",
+          "hi": "डॉन खोन लाओस के दक्षिण में है।",
+          "ja": "ドーン・コーンはラオスの南にある。",
+          "km": "ដុនខោននៅភាគខាងត្បូងនៃប្រទេសឡាវ។",
+          "ko": "돈콘은 라오스 남부에 있어.",
+          "ne": "डोन खोन लाओसको दक्षिणमा छ।",
+          "pt": "Don Khon fica no sul do Laos.",
+          "th": "ดอนโขนอยู่ทางใต้ของลาว",
+          "tl": "Ang Don Khon ay nasa timog ng Laos.",
+          "ur": "ڈون کھون لاؤس کے جنوب میں ہے۔",
+          "vi": "Đảo Don Khon nằm ở miền nam Lào.",
+          "zh": "孔恩岛位于老挝南部。",
+          "zh_Hant": "孔恩島位於寮國南部。"
+        },
+        "out_of_scope_words": [
+          "ຄອນ",
+          "ທາງໃຕ້",
+          "ລາວ"
+        ]
+      },
+      {
+        "lao_script": "ດອນນັ້ນສວຍງາມຫຼາຍ",
+        "romanization": "dɔ̀ɔn nân suaj ngaam lǎaj",
+        "translations": {
+          "de": "Diese Insel ist sehr schön.",
+          "en": "That island is really beautiful.",
+          "es": "Esa isla es muy hermosa.",
+          "fr": "Cette île est vraiment magnifique.",
+          "hi": "वह द्वीप बहुत सुंदर है।",
+          "ja": "あの島はとても美しい。",
+          "km": "កោះនោះស្រស់ស្អាតណាស់។",
+          "ko": "저 섬은 정말 아름다워.",
+          "ne": "त्यो टापु धेरै सुन्दर छ।",
+          "pt": "Aquela ilha é muito bonita.",
+          "th": "เกาะนั้นสวยงามมากเลย",
+          "tl": "Ang islang iyon ay napakaganda.",
+          "ur": "وہ جزیرہ بہت خوبصورت ہے۔",
+          "vi": "Hòn đảo đó thật đẹp.",
+          "zh": "那个岛非常美丽。",
+          "zh_Hant": "那個島非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ນັ້ນ",
+          "ສວຍງາມ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small tropical island surrounded by blue water, with a few palm trees on it, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

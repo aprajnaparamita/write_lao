@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທຳ",
+  "definitions": {
+    "de": "Tun, machen, ausführen; oft in zusammengesetzten Verben verwendet, um eine Handlung oder Tätigkeit auszudrücken",
+    "en": "To do, make, or perform an action; commonly used in compound verbs to express doing or creating something",
+    "es": "Hacer, realizar, efectuar; comúnmente usado en verbos compuestos para expresar hacer o crear algo",
+    "fr": "Faire, réaliser, effectuer; couramment utilisé dans des verbes composés pour exprimer l'action de faire ou créer quelque chose",
+    "hi": "करना, बनाना, कार्य करना; यौगिक क्रियाओं में सामान्यतः प्रयुक्त जो कुछ करने या बनाने की क्रिया दर्शाता है",
+    "ja": "する、行う、作る；何かをすることや作ることを表す複合動詞でよく使われる",
+    "km": "ធ្វើ, បង្កើត, ប្រតិបត្តិ; ជាទូទៅប្រើក្នុងកិរិយាស័ព្ទផ្សំដើម្បីបង្ហាញការធ្វើ ឬបង្កើតអ្វីមួយ",
+    "ko": "하다, 만들다, 수행하다; 무언가를 하거나 만드는 것을 나타내는 복합 동사에 자주 쓰임",
+    "ne": "गर्नु, बनाउनु, कार्य गर्नु; केही गर्ने वा सिर्जना गर्ने क्रिया व्यक्त गर्न यौगिक क्रियाहरूमा सामान्यतः प्रयोग हुन्छ",
+    "pt": "Fazer, realizar, executar; comumente usado em verbos compostos para expressar fazer ou criar algo",
+    "th": "ทำ, กระทำ, สร้าง; มักใช้ในกริยาประสมเพื่อแสดงการกระทำหรือการสร้างบางสิ่ง",
+    "tl": "Gumawa, gawin, isagawa; karaniwang ginagamit sa mga tambalan na pandiwa upang ipahayag ang paggawa o paglikha ng isang bagay",
+    "ur": "کرنا، بنانا، انجام دینا؛ عموماً مرکب افعال میں استعمال ہوتا ہے تاکہ کچھ کرنے یا بنانے کا اظہار ہو",
+    "vi": "Làm, thực hiện, tạo ra; thường dùng trong động từ ghép để diễn đạt hành động làm hoặc tạo ra điều gì",
+    "zh": "做，制作，执行；常用于复合动词中表达做某事或创造某物",
+    "zh_Hant": "做，製作，執行；常用於複合動詞中表達做某事或創造某物"
+  },
+  "definition_en": "To do, make, or perform an action; commonly used in compound verbs to express doing or creating something",
+  "romanization": "/tʰam/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວທຳອາຫານເກັ່ງຫຼາຍ ກິນແລ້ວອຣ່ອຍທຸກເທື່ອ",
+      "romanization": "lao tham aa haan geng laai, kin laew aroi took thuua",
+      "translation_en": "They cook really well, it's always delicious every time"
+    },
+    {
+      "lao_script": "ຂ້ອຍທຳວຽກນີ້ບໍ່ໄດ້ ຍາກເກີນໄປ",
+      "romanization": "khoi tham wiak nii boo dai, yaak koen pai",
+      "translation_en": "I can't do this work, it's too difficult"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person actively doing or making something with their hands at a table, showing the concept of working or creating, clean white background, colorful minimalist style suitable for a language learning app."
+}

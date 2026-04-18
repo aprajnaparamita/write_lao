@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເລືອກ",
+  "definitions": {
+    "de": "Auswählen; wählen — aus mehreren Möglichkeiten etwas oder jemanden auswählen",
+    "en": "To choose; to select — to pick one option from among several available choices",
+    "es": "Elegir; seleccionar — escoger una opción entre varias disponibles",
+    "fr": "Choisir; sélectionner — choisir une option parmi plusieurs disponibles",
+    "hi": "चुनना; चयन करना — कई उपलब्ध विकल्पों में से एक को चुनना",
+    "ja": "選ぶ；選択する — いくつかの選択肢の中から一つを選ぶ",
+    "km": "ជ្រើសរើស; ពេញចិត្ត — ជ្រើសយកជម្រើសមួយពីជម្រើសច្រើន",
+    "ko": "선택하다; 고르다 — 여러 선택지 중에서 하나를 고르다",
+    "ne": "छान्नु; छनोट गर्नु — धेरै उपलब्ध विकल्पहरूमध्ये एउटा रोज्नु",
+    "pt": "Escolher; selecionar — escolher uma opção entre várias disponíveis",
+    "th": "เลือก; คัดเลือก — เลือกตัวเลือกหนึ่งจากหลายตัวเลือกที่มีอยู่",
+    "tl": "Pumili; mamili — pumili ng isang opsyon mula sa maraming pagpipilian",
+    "ur": "چننا؛ منتخب کرنا — دستیاب کئی اختیارات میں سے ایک کا انتخاب کرنا",
+    "vi": "Chọn; lựa chọn — chọn một tùy chọn trong số nhiều lựa chọn có sẵn",
+    "zh": "选择；挑选 — 从多个可选项中挑选一个",
+    "zh_Hant": "選擇；挑選 — 從多個可選項中挑選一個"
+  },
+  "definition_en": "To choose; to select — to pick one option from among several available choices",
+  "romanization": "lɯ́ak⁵",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຢາກເລືອກສີຫຍັງ?",
+      "romanization": "jâo yâak lɯ́ak sǐi ɲǎng?",
+      "translation_en": "What color do you want to choose?"
+    },
+    {
+      "lao_script": "ຍາກເລືອກຫຼາຍ ອັນໄດ ກໍ່ດີໝົດ",
+      "romanization": "ɲâak lɯ́ak laai, an dai gɔ̀ dii mòt",
+      "translation_en": "It's hard to choose — everything is good."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing in front of three colorful options or doors, with one hand raised as if deciding which to pick, clean white background, colorful minimalist cartoon style suitable for a language learning app."
+}

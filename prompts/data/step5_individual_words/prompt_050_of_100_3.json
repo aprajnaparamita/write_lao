@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຕີ",
+  "definitions": {
+    "de": "Silbenfragment, das hauptsächlich in zusammengesetzten Wörtern oder Phrasen vorkommt; als eigenständiges Wort von begrenztem Gebrauch. Oft Teil von Wörtern wie ເຕີບໂຕ (wachsen) oder ເຕີມ (hinzufügen/füllen).",
+    "en": "A syllable fragment with limited standalone use; most commonly appears as part of compound words or verb phrases, such as ເຕີບໂຕ (to grow) or ເຕີມ (to add/fill up).",
+    "es": "Fragmento silábico con uso independiente limitado; aparece principalmente como parte de palabras compuestas o frases verbales, como ເຕີບໂຕ (crecer) o ເຕີມ (añadir/rellenar).",
+    "fr": "Fragment syllabique avec un usage autonome limité; apparaît principalement dans des mots composés ou des locutions verbales, comme ເຕີບໂຕ (grandir) ou ເຕີມ (ajouter/remplir).",
+    "hi": "सीमित स्वतंत्र उपयोग वाला एक शब्दांश खंड; मुख्य रूप से यौगिक शब्दों या क्रिया वाक्यांशों के भाग के रूप में प्रकट होता है, जैसे ເຕີບໂຕ (बढ़ना) या ເຕີມ (जोड़ना/भरना)।",
+    "ja": "単独での使用が限られた音節断片；主に複合語や動詞句の一部として現れる。例：ເຕີບໂຕ（成長する）やເຕີມ（加える・満たす）。",
+    "km": "បំណែកព្យាង្គដែលមានការប្រើប្រាស់ឯករាជ្យមានកំណត់; ភាគច្រើនបង្ហាញជាផ្នែកនៃពាក្យផ្សំ ដូចជា ເຕີບໂຕ (ធំដឹងគុណ) ឬ ເຕີມ (បន្ថែម/បំពេញ)។",
+    "ko": "단독 사용이 제한적인 음절 단편; 주로 복합어나 동사구의 일부로 등장함. 예: ເຕີບໂຕ (성장하다) 또는 ເຕີມ (더하다/채우다).",
+    "ne": "सीमित स्वतन्त्र प्रयोग भएको शब्दांश खण्ड; मुख्यतः यौगिक शब्द वा क्रिया वाक्यांशहरूको भागको रूपमा देखिन्छ, जस्तै ເຕີບໂຕ (बढ्नु) वा ເຕີມ (थप्नु/भर्नु)।",
+    "pt": "Fragmento silábico com uso independente limitado; aparece principalmente como parte de palavras compostas ou locuções verbais, como ເຕີບໂຕ (crescer) ou ເຕີມ (adicionar/encher).",
+    "th": "ส่วนพยางค์ที่ใช้เดี่ยวได้จำกัด; มักปรากฏเป็นส่วนหนึ่งของคำประสมหรือวลีกริยา เช่น ເຕີບໂຕ (เติบโต) หรือ ເຕີມ (เติม/เพิ่ม)",
+    "tl": "Isang bahagi ng pantig na may limitadong paggamit nang mag-isa; kadalasang lumalabas bilang bahagi ng mga tambalang salita o parirala ng pandiwa, tulad ng ເຕີບໂຕ (lumago) o ເຕີມ (magdagdag/punan).",
+    "ur": "محدود آزادانہ استعمال کے ساتھ ایک حرف کا ٹکڑا؛ زیادہ تر مرکب الفاظ یا فعل کے جملوں کے حصے کے طور پر ظاہر ہوتا ہے، جیسے ເຕີບໂຕ (بڑھنا) یا ເຕີມ (شامل کرنا/بھرنا)۔",
+    "vi": "Mảnh âm tiết có ít công dụng độc lập; thường xuất hiện như một phần của từ ghép hoặc cụm động từ, chẳng hạn như ເຕີບໂຕ (lớn lên) hoặc ເຕີມ (thêm vào/đổ đầy).",
+    "zh": "使用场合有限的音节片段；主要作为复合词或动词短语的一部分出现，如 ເຕີບໂຕ（成长）或 ເຕີມ（添加/充满）。",
+    "zh_Hant": "使用場合有限的音節片段；主要作為複合詞或動詞短語的一部分出現，如 ເຕີບໂຕ（成長）或 ເຕີມ（添加/充滿）。"
+  },
+  "definition_en": "A syllable fragment with limited standalone use; most commonly appears as part of compound words or verb phrases, such as ເຕີບໂຕ (to grow) or ເຕີມ (to add/fill up).",
+  "romanization": "tɤː",
+  "lao_examples": [
+    {
+      "lao_script": "ລູກຂອງຂ້ອຍເຕີບໂຕໄວຫຼາຍ",
+      "romanization": "luːk kʰɔ̌ːŋ kʰɔ̂ːj tɤ̂ːp toː wáj lǎːj",
+      "translation_en": "My child is growing up very fast."
+    },
+    {
+      "lao_script": "ເຕີມນ້ຳໃຫ້ຂ້ອຍໜ້ອຍໄດ້ບໍ?",
+      "romanization": "tɤːm náːm hâj kʰɔ̂ːj nɔ̂ːj dâj bɔː",
+      "translation_en": "Can you fill up some water for me?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a plant sprouting and growing taller in stages (growth sequence) on a clean white background, with an arrow indicating upward growth, colorful minimalist style suitable for a language learning app."
+}

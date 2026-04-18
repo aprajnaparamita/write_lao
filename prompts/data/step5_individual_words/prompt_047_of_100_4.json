@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເລກ",
+  "definitions": {
+    "de": "Zahl/Nummer – eine mathematische Zahl oder Ziffer",
+    "en": "Number – a mathematical number or numeral",
+    "es": "Número – un número o cifra matemática",
+    "fr": "Nombre/Numéro – un nombre ou chiffre mathématique",
+    "hi": "संख्या – एक गणितीय संख्या या अंक",
+    "ja": "数字 – 数学的な数や数字",
+    "km": "លេខ – ចំនួនគណិតវិទ្យា ឬ លេខ",
+    "ko": "숫자 – 수학적인 수나 번호",
+    "ne": "संख्या – गणितीय संख्या वा अंक",
+    "pt": "Número – um número ou algarismo matemático",
+    "th": "เลข – ตัวเลขหรือจำนวนทางคณิตศาสตร์",
+    "tl": "Numero – isang matematikong numero o digit",
+    "ur": "نمبر/عدد – ایک ریاضیاتی نمبر یا ہندسہ",
+    "vi": "Số – một con số hoặc chữ số toán học",
+    "zh": "数字 – 数学上的数或数字",
+    "zh_Hant": "數字 – 數學上的數或數字"
+  },
+  "definition_en": "Number – a mathematical number or numeral",
+  "romanization": "léːk˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ເລກໂທລະສັບຂອງເຈົ້າແມ່ນຫຍັງ?",
+      "romanization": "léːk thoːlásáp khɔ̌ːŋ jâo mɛ̂ːn ɲǎŋ",
+      "translation_en": "What is your phone number?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຈຳເລກນີ້ບໍ່ໄດ້",
+      "romanization": "khɔ̂i kham léːk níː bɔ̀ː dâi",
+      "translation_en": "I can't remember this number."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of colorful numerals 1 through 5 arranged in a playful row, with a pencil nearby, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

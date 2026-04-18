@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສອນ",
+  "definitions": {
+    "de": "Lehren, unterrichten; jemandem Wissen, Fähigkeiten oder Verhaltensweisen beibringen",
+    "en": "To teach, to instruct; to impart knowledge, skills, or behaviors to someone",
+    "es": "Enseñar, instruir; impartir conocimientos, habilidades o comportamientos a alguien",
+    "fr": "Enseigner, instruire; transmettre des connaissances, des compétences ou des comportements à quelqu'un",
+    "hi": "सिखाना, पढ़ाना; किसी को ज्ञान, कौशल या आचरण सिखाना",
+    "ja": "教える、指導する；誰かに知識、スキル、または行動を教え伝える",
+    "km": "បង្រៀន, ណែនាំ; ផ្តល់ចំណេះដឹង ជំនាញ ឬអាកប្បកិរិយាដល់នរណាម្នាក់",
+    "ko": "가르치다, 교육하다; 누군가에게 지식, 기술 또는 행동을 전달하다",
+    "ne": "सिकाउनु, पढाउनु; कसैलाई ज्ञान, सीप वा व्यवहार सिकाउनु",
+    "pt": "Ensinar, instruir; transmitir conhecimentos, habilidades ou comportamentos a alguém",
+    "th": "สอน, สั่งสอน; ถ่ายทอดความรู้ ทักษะ หรือพฤติกรรมให้กับใครสักคน",
+    "tl": "Magturo, turuan; ipahayag ang kaalaman, kasanayan, o gawi sa isang tao",
+    "ur": "سکھانا، پڑھانا؛ کسی کو علم، مہارت یا طرز عمل سکھانا",
+    "vi": "Dạy, dạy học, hướng dẫn; truyền đạt kiến thức, kỹ năng hoặc hành vi cho ai đó",
+    "zh": "教，教导，传授；向某人传授知识、技能或行为",
+    "zh_Hant": "教，教導，傳授；向某人傳授知識、技能或行為"
+  },
+  "definition_en": "To teach, to instruct; to impart knowledge, skills, or behaviors to someone",
+  "romanization": "/sɔːn³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ສອນຂ້ອຍເຮັດອາຫານຕອນນ້ອຍ",
+      "romanization": "mae son khoi het aa-haan ton noi",
+      "translation_en": "My mom taught me how to cook when I was little."
+    },
+    {
+      "lao_script": "ເຈົ້າສອນພາສາລາວໃຫ້ຄົນຕ່າງປະເທດໄດ້ບໍ",
+      "romanization": "jao son phaa-saa laao hai khon taang-pa-thet dai bor",
+      "translation_en": "Can you teach Lao to foreigners?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful teacher standing in front of a small chalkboard, pointing to letters written on it, with one or two students sitting and listening, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,388 @@
+{
+  "ນາ": {
+    "definitions": {
+      "de": "Reisfeld; ein überflutetes oder bewässertes Feld, auf dem Reis angebaut wird",
+      "en": "Rice paddy; a flooded or irrigated field where rice is grown",
+      "es": "Arrozal; campo inundado o irrigado donde se cultiva el arroz",
+      "fr": "Rizière; champ inondé ou irrigué où l'on cultive le riz",
+      "hi": "धान का खेत; एक सिंचित या जलमग्न खेत जहाँ चावल उगाया जाता है",
+      "ja": "水田；稲を育てるための水を張った田んぼ",
+      "km": "វាលស្រែ; ទីធ្លាដែលត្រូវបានប្រើដាំដំណាំស្រូវ",
+      "ko": "논; 벼를 재배하는 물이 고인 경작지",
+      "ne": "धानको खेत; सिँचित वा डुबाइएको खेत जहाँ धान उब्जाइन्छ",
+      "pt": "Arrozal; campo alagado ou irrigado onde o arroz é cultivado",
+      "th": "นาข้าว; ทุ่งนาที่ใช้ปลูกข้าว มักมีน้ำขัง",
+      "tl": "Palayan; isang luwad o patubigan na bukid kung saan pinalaki ang palay",
+      "ur": "دھان کا کھیت؛ ایک سیراب یا پانی بھرا کھیت جہاں چاول اگایا جاتا ہے",
+      "vi": "Ruộng lúa; cánh đồng ngập nước hoặc được tưới tiêu để trồng lúa",
+      "zh": "稻田；种植水稻的水浇地或淹水农田",
+      "zh_Hant": "稻田；種植水稻的水澆地或淹水農田"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/naː³³/",
+    "examples": [
+      {
+        "lao_script": "ພໍ່ຂອງຂ້ອຍໄປເຮັດນາທຸກໆເຊົ້າ",
+        "romanization": "phaw khawng khoi pai het na thuk thuk sao",
+        "translations": {
+          "de": "Mein Vater geht jeden Morgen auf das Reisfeld.",
+          "en": "My dad goes to work the rice field every morning.",
+          "es": "Mi papá va al arrozal cada mañana.",
+          "fr": "Mon père va travailler à la rizière chaque matin.",
+          "hi": "मेरे पिताजी हर सुबह धान के खेत में जाते हैं।",
+          "ja": "私のお父さんは毎朝田んぼに行きます。",
+          "km": "ប៉ារបស់ខ្ញុំទៅធ្វើស្រែរៀងរាល់ព្រឹក។",
+          "ko": "우리 아버지는 매일 아침 논에 일하러 가세요.",
+          "ne": "मेरो बुबा हरेक बिहान धानखेतमा जानुहुन्छ।",
+          "pt": "Meu pai vai trabalhar no arrozal toda manhã.",
+          "th": "พ่อของฉันไปทำนาทุกเช้า",
+          "tl": "Ang aking tatay ay pumupunta sa palayan tuwing umaga.",
+          "ur": "میرے ابو ہر صبح دھان کے کھیت میں جاتے ہیں۔",
+          "vi": "Bố tôi đi làm ruộng mỗi buổi sáng.",
+          "zh": "我爸爸每天早上都去稻田干活。",
+          "zh_Hant": "我爸爸每天早上都去稻田幹活。"
+        },
+        "out_of_scope_words": [
+          "ເຮັດນາ",
+          "ທຸກໆເຊົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ນາຂອງຄອບຄົວເຮົາຢູ່ໃກ້ໆແມ່ນ້ຳ",
+        "romanization": "na khawng khop khua hao yu kai kai mae nam",
+        "translations": {
+          "de": "Das Reisfeld unserer Familie liegt in der Nähe des Flusses.",
+          "en": "Our family's rice field is near the river.",
+          "es": "El arrozal de nuestra familia está cerca del río.",
+          "fr": "La rizière de notre famille est près de la rivière.",
+          "hi": "हमारे परिवार का धान का खेत नदी के पास है।",
+          "ja": "私たちの家族の田んぼは川の近くにあります。",
+          "km": "វាលស្រែរបស់គ្រួសារយើងនៅជិតទន្លេ។",
+          "ko": "우리 가족의 논은 강 근처에 있어요.",
+          "ne": "हाम्रो परिवारको धानखेत नदी नजिकै छ।",
+          "pt": "O arrozal da nossa família fica perto do rio.",
+          "th": "นาของครอบครัวเราอยู่ใกล้แม่น้ำ",
+          "tl": "Ang palayan ng aming pamilya ay malapit sa ilog.",
+          "ur": "ہمارے خاندان کا دھان کا کھیت دریا کے قریب ہے۔",
+          "vi": "Ruộng lúa của gia đình tôi ở gần sông.",
+          "zh": "我们家的稻田在河边附近。",
+          "zh_Hant": "我們家的稻田在河邊附近。"
+        },
+        "out_of_scope_words": [
+          "ຄອບຄົວ",
+          "ແມ່ນ້ຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a lush green rice paddy field with rows of rice plants growing in shallow water, a bright sunny sky in the background, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເກີດ": {
+    "definitions": {
+      "de": "Geboren werden; entstehen; sich ereignen oder stattfinden",
+      "en": "To be born; to happen or occur; to arise or come into existence",
+      "es": "Nacer; ocurrir o suceder; surgir o llegar a existir",
+      "fr": "Naître; se produire ou arriver; surgir ou prendre naissance",
+      "hi": "जन्म लेना; होना या घटित होना; उत्पन्न होना या अस्तित्व में आना",
+      "ja": "生まれる；起こる・発生する；生じる・存在するようになる",
+      "km": "កើត; ប្រទាក់ ឬកើតឡើង; លេចឡើង ឬចាប់ផ្តើមមាន",
+      "ko": "태어나다; 발생하다 또는 일어나다; 생겨나다 또는 존재하게 되다",
+      "ne": "जन्मनु; हुनु वा घट्नु; उत्पन्न हुनु वा अस्तित्वमा आउनु",
+      "pt": "Nascer; acontecer ou ocorrer; surgir ou passar a existir",
+      "th": "เกิด; เกิดขึ้น; เกิดมีขึ้นหรือบังเกิดขึ้น",
+      "tl": "Ipanganak; mangyari o maganap; lumitaw o magsimulang umiral",
+      "ur": "پیدا ہونا؛ واقع ہونا یا ہونا؛ وجود میں آنا",
+      "vi": "Được sinh ra; xảy ra hoặc xảy đến; phát sinh hoặc xuất hiện",
+      "zh": "出生；发生；产生或出现",
+      "zh_Hant": "出生；發生；產生或出現"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kɤːt²¹/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍເກີດທີ່ວຽງຈັນ",
+        "romanization": "khoi koet thi wiang chan",
+        "translations": {
+          "de": "Ich bin in Vientiane geboren.",
+          "en": "I was born in Vientiane.",
+          "es": "Yo nací en Vientián.",
+          "fr": "Je suis né(e) à Vientiane.",
+          "hi": "मेरा जन्म वियनतियाने में हुआ था।",
+          "ja": "私はビエンチャンで生まれました。",
+          "km": "ខ្ញុំកើតនៅវៀងច័ន្ទ។",
+          "ko": "저는 비엔티안에서 태어났어요.",
+          "ne": "म भियन्चानमा जन्मिएको हुँ।",
+          "pt": "Eu nasci em Vientiane.",
+          "th": "ฉันเกิดที่เวียงจันทน์",
+          "tl": "Ipinanganak ako sa Vientiane.",
+          "ur": "میں ویانتیان میں پیدا ہوا/ہوئی۔",
+          "vi": "Tôi sinh ra ở Viêng Chăn.",
+          "zh": "我出生在万象。",
+          "zh_Hant": "我出生在萬象。"
+        },
+        "out_of_scope_words": [
+          "ວຽງຈັນ"
+        ]
+      },
+      {
+        "lao_script": "ເກີດຫຍັງຂຶ້ນແນ່ກັນຢູ່ຕະຫຼາດ?",
+        "romanization": "koet nyang kheun nae kan yu ta lat",
+        "translations": {
+          "de": "Was ist denn auf dem Markt passiert?",
+          "en": "What happened at the market just now?",
+          "es": "¿Qué pasó en el mercado?",
+          "fr": "Qu'est-ce qui s'est passé au marché ?",
+          "hi": "बाज़ार में क्या हुआ?",
+          "ja": "市場で何が起きたの？",
+          "km": "មានអ្វីកើតឡើងនៅទីផ្សារ?",
+          "ko": "시장에서 무슨 일이 있었어요?",
+          "ne": "बजारमा के भयो?",
+          "pt": "O que aconteceu no mercado?",
+          "th": "เกิดอะไรขึ้นที่ตลาดเนี่ย?",
+          "tl": "Ano ang nangyari sa palengke?",
+          "ur": "بازار میں کیا ہوا؟",
+          "vi": "Chuyện gì xảy ra ở chợ vậy?",
+          "zh": "市场上发生什么事了？",
+          "zh_Hant": "市場上發生什麼事了？"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a newborn baby wrapped in a soft blanket, with a bright glowing light symbolizing new life, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຂດ": {
+    "definitions": {
+      "de": "Zone; Gebiet; Bezirk; ein abgegrenzter geografischer oder administrativer Bereich",
+      "en": "Zone; area; district; a defined geographic or administrative region",
+      "es": "Zona; área; distrito; una región geográfica o administrativa definida",
+      "fr": "Zone; secteur; district; une région géographique ou administrative délimitée",
+      "hi": "क्षेत्र; इलाका; जिला; एक परिभाषित भौगोलिक या प्रशासनिक क्षेत्र",
+      "ja": "地域；エリア；区域；地区；地理的または行政的に区切られた範囲",
+      "km": "តំបន់; ភូមិភាគ; ក្រុង; តំបន់ភូមិសាស្ត្រ ឬរដ្ឋបាលដែលបានកំណត់",
+      "ko": "구역; 지역; 지구; 지리적 또는 행정적으로 구분된 영역",
+      "ne": "क्षेत्र; इलाका; जिल्ला; एक परिभाषित भौगोलिक वा प्रशासनिक क्षेत्र",
+      "pt": "Zona; área; distrito; uma região geográfica ou administrativa definida",
+      "th": "เขต; พื้นที่; เขตปกครอง; บริเวณที่กำหนดทางภูมิศาสตร์หรือการบริหาร",
+      "tl": "Sona; lugar; distrito; isang tinukoy na heograpikong o administratibong rehiyon",
+      "ur": "علاقہ؛ زون؛ ضلع؛ ایک متعین جغرافیائی یا انتظامی خطہ",
+      "vi": "Khu vực; vùng; quận; một khu vực địa lý hoặc hành chính được xác định",
+      "zh": "区域；地带；区；一个特定的地理或行政区域",
+      "zh_Hant": "區域；地帶；區；一個特定的地理或行政區域"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kʰeːt²²/",
+    "examples": [
+      {
+        "lao_script": "ເຂດນີ້ມີຮ້ານອາຫານດີຫຼາຍ",
+        "romanization": "khet ni mi han a han di lai",
+        "translations": {
+          "de": "In dieser Gegend gibt es viele gute Restaurants.",
+          "en": "This area has a lot of good restaurants.",
+          "es": "Esta zona tiene muchos buenos restaurantes.",
+          "fr": "Cette zone a beaucoup de bons restaurants.",
+          "hi": "इस इलाके में बहुत अच्छे रेस्तरां हैं।",
+          "ja": "この地区にはおいしいレストランがたくさんあります。",
+          "km": "តំបន់នេះមានភោជនីយដ្ឋានល្អៗច្រើន។",
+          "ko": "이 지역에는 좋은 음식점이 많아요.",
+          "ne": "यो क्षेत्रमा धेरै राम्रा रेस्टुरेन्टहरू छन्।",
+          "pt": "Esta área tem muitos bons restaurantes.",
+          "th": "เขตนี้มีร้านอาหารดีๆ เยอะมาก",
+          "tl": "Ang lugar na ito ay maraming magagandang restaurant.",
+          "ur": "اس علاقے میں بہت سے اچھے ریستوران ہیں۔",
+          "vi": "Khu vực này có rất nhiều nhà hàng ngon.",
+          "zh": "这个区域有很多好餐厅。",
+          "zh_Hant": "這個區域有很多好餐廳。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານອາຫານ"
+        ]
+      },
+      {
+        "lao_script": "ເຂດໄຫນທີ່ເຈົ້າຢູ່?",
+        "romanization": "khet dai thi chao yu",
+        "translations": {
+          "de": "In welchem Bezirk wohnst du?",
+          "en": "Which district do you live in?",
+          "es": "¿En qué zona vives?",
+          "fr": "Dans quel quartier habites-tu ?",
+          "hi": "तुम किस इलाके में रहते हो?",
+          "ja": "どの地区に住んでいるの？",
+          "km": "តំបន់ណាដែលអ្នករស់នៅ?",
+          "ko": "어느 구역에 살아요?",
+          "ne": "तपाईं कुन क्षेत्रमा बस्नुहुन्छ?",
+          "pt": "Em qual área você mora?",
+          "th": "เขตไหนที่เธออยู่?",
+          "tl": "Saang distrito ka nakatira?",
+          "ur": "آپ کس علاقے میں رہتے ہیں؟",
+          "vi": "Bạn sống ở khu vực nào?",
+          "zh": "你住在哪个区？",
+          "zh_Hant": "你住在哪個區？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a city map with clearly divided colored zones or districts marked with dotted boundary lines and small icons, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລົດ": {
+    "definitions": {
+      "de": "Auto; Fahrzeug; ein motorisiertes Transportmittel, besonders ein PKW",
+      "en": "Car; vehicle; a motorized means of transportation, especially an automobile",
+      "es": "Carro; vehículo; un medio de transporte motorizado, especialmente un automóvil",
+      "fr": "Voiture; véhicule; un moyen de transport motorisé, en particulier une automobile",
+      "hi": "कार; वाहन; एक मोटर चालित परिवहन का साधन, विशेष रूप से एक मोटरगाड़ी",
+      "ja": "車；乗り物；特に自動車などの動力付き交通手段",
+      "km": "រថយន្ត; យានជំនិះ; មធ្យោបាយដឹកជញ្ជូនដែលប្រើម៉ាស៊ីន",
+      "ko": "자동차; 차량; 특히 승용차와 같은 동력 교통수단",
+      "ne": "कार; सवारी साधन; मोटरचालित यातायात साधन, विशेष गरी अटोमोबाइल",
+      "pt": "Carro; veículo; um meio de transporte motorizado, especialmente um automóvel",
+      "th": "รถ; ยานพาหนะ; รถยนต์หรือพาหนะที่ใช้เครื่องยนต์",
+      "tl": "Kotse; sasakyan; isang motorisadong paraan ng transportasyon, lalo na ang awto",
+      "ur": "گاڑی؛ موٹر گاڑی؛ ایک موٹر سے چلنے والی سواری، خصوصاً کار",
+      "vi": "Xe; xe hơi; phương tiện giao thông có động cơ, đặc biệt là ô tô",
+      "zh": "车；汽车；机动交通工具，尤指轿车",
+      "zh_Hant": "車；汽車；機動交通工具，尤指轎車"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lot²²/",
+    "examples": [
+      {
+        "lao_script": "ລົດຂອງຂ້ອຍສີແດງ",
+        "romanization": "lot khawng khoi si daeng",
+        "translations": {
+          "de": "Mein Auto ist rot.",
+          "en": "My car is red.",
+          "es": "Mi carro es rojo.",
+          "fr": "Ma voiture est rouge.",
+          "hi": "मेरी कार लाल है।",
+          "ja": "私の車は赤いです。",
+          "km": "រថយន្តរបស់ខ្ញុំពណ៌ក្រហម។",
+          "ko": "제 차는 빨간색이에요.",
+          "ne": "मेरो कार रातो छ।",
+          "pt": "O meu carro é vermelho.",
+          "th": "รถของฉันสีแดง",
+          "tl": "Ang aking kotse ay pula.",
+          "ur": "میری گاڑی سرخ ہے۔",
+          "vi": "Xe của tôi màu đỏ.",
+          "zh": "我的车是红色的。",
+          "zh_Hant": "我的車是紅色的。"
+        },
+        "out_of_scope_words": [
+          "ສີແດງ"
+        ]
+      },
+      {
+        "lao_script": "ລົດຕິດຫຼາຍໃນຕອນເຊົ້າ",
+        "romanization": "lot tit lai nai tawn sao",
+        "translations": {
+          "de": "Morgens gibt es viel Stau.",
+          "en": "There's a lot of traffic in the morning.",
+          "es": "Hay mucho tráfico por la mañana.",
+          "fr": "Il y a beaucoup de circulation le matin.",
+          "hi": "सुबह के समय बहुत ट्रैफिक होती है।",
+          "ja": "朝は車がたくさん渋滞します。",
+          "km": "ការកកស្ទះចរាចរណ៍មានច្រើននៅពេលព្រឹក។",
+          "ko": "아침에는 차가 많이 막혀요.",
+          "ne": "बिहानको समयमा धेरै ट्राफिक जाम हुन्छ।",
+          "pt": "De manhã há muito trânsito.",
+          "th": "รถติดมากในตอนเช้า",
+          "tl": "Maraming trapiko sa umaga.",
+          "ur": "صبح کے وقت بہت ٹریفک ہوتی ہے۔",
+          "vi": "Buổi sáng kẹt xe nhiều lắm.",
+          "zh": "早上堵车很严重。",
+          "zh_Hant": "早上塞車很嚴重。"
+        },
+        "out_of_scope_words": [
+          "ລົດຕິດ",
+          "ຕອນເຊົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright red car viewed from the side on a clean road, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເພີ່ມ": {
+    "definitions": {
+      "de": "Hinzufügen; erhöhen; vermehren; etwas vergrößern oder ergänzen",
+      "en": "To add; to increase; to augment; to make something more or greater in amount",
+      "es": "Añadir; aumentar; incrementar; hacer que algo sea más en cantidad o tamaño",
+      "fr": "Ajouter; augmenter; accroître; rendre quelque chose plus grand ou plus nombreux",
+      "hi": "जोड़ना; बढ़ाना; वृद्धि करना; किसी चीज़ की मात्रा या संख्या अधिक करना",
+      "ja": "加える；増やす；増加させる；量や数を多くする",
+      "km": "បន្ថែម; បង្កើន; ធ្វើឱ្យកាន់តែច្រើន ឬធំជាងមុន",
+      "ko": "추가하다; 늘리다; 증가시키다; 양이나 수를 더 많게 하다",
+      "ne": "थप्नु; बढाउनु; वृद्धि गर्नु; कुनै चिजको मात्रा वा संख्या बढाउनु",
+      "pt": "Adicionar; aumentar; acrescentar; tornar algo maior em quantidade ou tamanho",
+      "th": "เพิ่ม; เพิ่มขึ้น; เพิ่มเติม; ทำให้มากขึ้นหรือใหญ่ขึ้น",
+      "tl": "Magdagdag; magpalakas; magpalaki; gawing mas marami o mas malaki ang isang bagay",
+      "ur": "اضافہ کرنا؛ بڑھانا؛ کسی چیز کی مقدار یا تعداد زیادہ کرنا",
+      "vi": "Thêm; tăng; tăng thêm; làm cho số lượng hoặc kích thước trở nên nhiều hơn",
+      "zh": "增加；添加；加上；使数量或规模变得更多或更大",
+      "zh_Hant": "增加；添加；加上；使數量或規模變得更多或更大"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pʰɤːm³³/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກເພີ່ມເຄື່ອງເທດໃນອາຫານ",
+        "romanization": "khoi yak phoem khuang thet nai a han",
+        "translations": {
+          "de": "Ich möchte dem Essen mehr Gewürze hinzufügen.",
+          "en": "I want to add more spices to the food.",
+          "es": "Quiero añadir más especias a la comida.",
+          "fr": "Je veux ajouter plus d'épices dans la nourriture.",
+          "hi": "मैं खाने में और मसाले डालना चाहता/चाहती हूँ।",
+          "ja": "食べ物にもっとスパイスを加えたいです。",
+          "km": "ខ្ញុំចង់បន្ថែមមប្រហុកទៅក្នុងអាហារ។",
+          "ko": "음식에 향신료를 더 넣고 싶어요.",
+          "ne": "म खानामा थप मसला थप्न चाहन्छु।",
+          "pt": "Eu quero adicionar mais temperos na comida.",
+          "th": "ฉันอยากเพิ่มเครื่องเทศในอาหาร",
+          "tl": "Gusto kong magdagdag ng pampalasa sa pagkain.",
+          "ur": "میں کھانے میں مزید مسالے ڈالنا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn thêm gia vị vào món ăn.",
+          "zh": "我想在食物里多加一些香料。",
+          "zh_Hant": "我想在食物裡多加一些香料。"
+        },
+        "out_of_scope_words": [
+          "ເຄື່ອງເທດ"
+        ]
+      },
+      {
+        "lao_script": "ເພີ່ມໝໍ້ຂ້າວອີກໜ້ອຍໄດ້ບໍ?",
+        "romanization": "phoem mo khao ik noi dai bo",
+        "translations": {
+          "de": "Kann ich noch ein bisschen mehr Reis haben?",
+          "en": "Can I have a little more rice?",
+          "es": "¿Me puedes dar un poco más de arroz?",
+          "fr": "Est-ce que je peux avoir un peu plus de riz ?",
+          "hi": "क्या मुझे थोड़ा और चावल मिल सकता है?",
+          "ja": "ご飯をもう少し追加してもらえますか？",
+          "km": "អាចបន្ថែមបាយទៀតបន្តិចទេ?",
+          "ko": "밥 좀 더 추가해도 될까요?",
+          "ne": "अलि थप भात थप्न मिल्छ?",
+          "pt": "Pode me dar mais um pouquinho de arroz?",
+          "th": "เพิ่มข้าวอีกนิดได้ไหม?",
+          "tl": "Maaari bang magdagdag pa ng kanin nang kaunti?",
+          "ur": "کیا تھوڑا اور چاول مل سکتا ہے؟",
+          "vi": "Cho tôi thêm chút cơm được không?",
+          "zh": "可以再加一点米饭吗？",
+          "zh_Hant": "可以再加一點米飯嗎？"
+        },
+        "out_of_scope_words": [
+          "ໝໍ້ຂ້າວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a plus sign with arrows pointing upward and outward, representing the concept of adding or increasing, with small colorful icons of objects being added together, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

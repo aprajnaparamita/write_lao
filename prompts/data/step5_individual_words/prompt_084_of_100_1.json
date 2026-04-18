@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອົບ",
+  "definitions": {
+    "de": "backen oder mit Wärme und Duft parfümieren; im Ofen garen oder mit Duft einräuchern",
+    "en": "to bake or to perfume/scent something with warmth; to oven-cook or to infuse with fragrance",
+    "es": "hornear o perfumar algo con calor; cocinar al horno o impregnar con fragancia",
+    "fr": "cuire au four ou parfumer quelque chose avec de la chaleur; infuser un arôme",
+    "hi": "बेक करना या किसी चीज़ को गर्मी से सुगंधित करना; ओवन में पकाना या सुगंध से भरना",
+    "ja": "焼く、またはあたたかさで香りをつける；オーブンで調理する、または香りを染み込ませる",
+    "km": "ដុតនំ ឬធ្វើឱ្យមានក្លិនក្រអូបដោយប្រើកំដៅ; ចំអិននៅក្នុងឡ ឬបញ្ចូលក្លិនក្រអូប",
+    "ko": "굽다 또는 열로 향기를 입히다; 오븐에서 요리하거나 향기를 스며들게 하다",
+    "ne": "बेक गर्नु वा तापले कुनै चीजलाई सुगन्धित बनाउनु; ओभनमा पकाउनु वा सुगन्ध भर्नु",
+    "pt": "assar ou perfumar algo com calor; cozinhar no forno ou infundir com fragrância",
+    "th": "อบหรือทำให้มีกลิ่นหอมด้วยความร้อน; ปรุงในเตาอบหรืออบกลิ่น",
+    "tl": "mag-bake o magbigay ng pabango gamit ang init; magluto sa oven o magpalakas ng halimuyak",
+    "ur": "بیک کرنا یا گرمی سے کچھ خوشبودار بنانا؛ اوون میں پکانا یا خوشبو سے بھرنا",
+    "vi": "nướng hoặc ủ hương thơm bằng nhiệt; nấu trong lò hoặc ướp hương",
+    "zh": "烘烤或用热气熏香；在烤箱中烹饪或熏入香气",
+    "zh_Hant": "烘烤或用熱氣薰香；在烤箱中烹飪或薰入香氣"
+  },
+  "definition_en": "to bake or to perfume/scent something with warmth; to oven-cook or to infuse with fragrance",
+  "romanization": "/ʔop˩˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ແມ່ອົບເຂົ້າຈີ່ຫອມຫຼາຍ",
+      "romanization": "muu-nii mae op khao-jii hom lai",
+      "translation_en": "Today mom baked bread, it smells so good."
+    },
+    {
+      "lao_script": "ເຂົາອົບດອກໄມ້ໃຫ້ຫອມເຄື່ອງ",
+      "romanization": "khao op dok-mai hai hom khuang",
+      "translation_en": "He perfumes the clothes with flowers to make them fragrant."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small home oven with golden-brown bread loaves baking inside, steam rising with wavy aroma lines, clean white background, warm colors, minimalist style suitable for a language learning app."
+}

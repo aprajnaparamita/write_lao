@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວັດ",
+  "definitions": {
+    "de": "Tempel; ein buddhistischer Sakralbau oder Klosterkomplex, der als Ort der Anbetung, religiösen Praxis und Gemeinschaftsleben dient",
+    "en": "Temple; a Buddhist sacred building or monastery complex that serves as a place of worship, religious practice, and community life",
+    "es": "Templo; un edificio sagrado budista o complejo monástico que sirve como lugar de culto, práctica religiosa y vida comunitaria",
+    "fr": "Temple ; un bâtiment sacré bouddhiste ou un complexe monastique servant de lieu de culte, de pratique religieuse et de vie communautaire",
+    "hi": "मंदिर/विहार; एक बौद्ध पवित्र भवन या मठ परिसर जो पूजा, धार्मिक अभ्यास और सामुदायिक जीवन का स्थान है",
+    "ja": "寺院；礼拝、宗教的実践、地域生活の場として機能する仏教の聖なる建物または僧院の複合施設",
+    "km": "វត្ត; អគារពិធីបុណ្យព្រះពុទ្ធសាសនា ឬ​សហគមន៍អារាម​ដែលជា​កន្លែង​សក្ការៈ​បូជា ការ​អនុវត្ត​សាសនា និង​ជីវភាព​សហគមន៍",
+    "ko": "사원; 예배, 종교적 수행, 공동체 생활의 장소로 기능하는 불교 성지 건물 또는 사원 단지",
+    "ne": "मन्दिर/विहार; एक बौद्ध पवित्र भवन वा मठ परिसर जुन पूजा, धार्मिक अभ्यास र सामुदायिक जीवनको स्थान हो",
+    "pt": "Templo; um edifício sagrado budista ou complexo monástico que serve como local de culto, prática religiosa e vida comunitária",
+    "th": "วัด; อาคารศักดิ์สิทธิ์ทางพุทธศาสนาหรือคณะวัดที่ทำหน้าที่เป็นสถานที่สักการบูชา การปฏิบัติธรรม และชีวิตชุมชน",
+    "tl": "Templo; isang sagradong gusali ng Budismo o kompleks ng monasteryo na nagsisilbing lugar ng pagsamba, relihiyosong pagsasanay, at buhay ng komunidad",
+    "ur": "مندر/خانقاہ؛ ایک بدھ مت کی مقدس عمارت یا خانقاہ کا احاطہ جو عبادت، مذہبی مشق اور اجتماعی زندگی کی جگہ کے طور پر کام کرتا ہے",
+    "vi": "Chùa/Wat; một tòa nhà thiêng liêng của Phật giáo hoặc quần thể tu viện phục vụ như nơi thờ phụng, thực hành tôn giáo và đời sống cộng đồng",
+    "zh": "寺庙/寺院；佛教圣地建筑或寺院建筑群，作为礼拜、宗教修行和社区生活的场所",
+    "zh_Hant": "寺廟/寺院；佛教聖地建築或寺院建築群，作為禮拜、宗教修行和社區生活的場所"
+  },
+  "definition_en": "Temple; a Buddhist sacred building or monastery complex that serves as a place of worship, religious practice, and community life",
+  "romanization": "/ʋát/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊົ້ານີ້ຂ້ອຍໄປວັດກັບແມ່",
+      "romanization": "sao nii khooi pai wat gap mae",
+      "translation_en": "This morning I went to the temple with my mom."
+    },
+    {
+      "lao_script": "ວັດໃນລາວສວຍງາມຫຼາຍ",
+      "romanization": "wat nai laao suai ngaam laai",
+      "translation_en": "The temples in Laos are very beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional Lao Buddhist temple with a golden multi-tiered roof, surrounded by lush green trees, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

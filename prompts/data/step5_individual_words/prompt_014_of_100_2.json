@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເງິນ",
+  "definitions": {
+    "de": "Geld; auch Silber (das Metall). Bezeichnet Währung oder Zahlungsmittel im Alltag sowie das Edelmetall Silber.",
+    "en": "Money; also silver (the metal). Refers to currency or payment in everyday life, as well as the precious metal silver.",
+    "es": "Dinero; también plata (el metal). Se refiere a la moneda o medio de pago en la vida cotidiana, así como al metal precioso plata.",
+    "fr": "Argent (monnaie) ; également argent (le métal). Désigne la monnaie ou le moyen de paiement dans la vie quotidienne, ainsi que le métal précieux argent.",
+    "hi": "पैसा; साथ ही चांदी (धातु)। रोजमर्रा की जिंदगी में मुद्रा या भुगतान के साधन को, तथा कीमती धातु चांदी को दर्शाता है।",
+    "ja": "お金；また銀（金属）。日常生活における通貨や支払い手段、また貴金属の銀を指す。",
+    "km": "ប្រាក់; ក៏ជាប្រាក់ (លោហៈ)។ សំដៅលើរូបិយប័ណ្ណ ឬមធ្យោបាយបង់ប្រាក់ក្នុងជីវិតប្រចាំថ្ងៃ ក៏ដូចជាលោហៈថ្លៃប្រាក់ផងដែរ។",
+    "ko": "돈; 또한 은(금속). 일상생활에서의 통화나 지불 수단, 또는 귀금속인 은을 가리킨다.",
+    "ne": "पैसा; साथै चाँदी (धातु)। दैनिक जीवनमा मुद्रा वा भुक्तानी साधन, साथै बहुमूल्य धातु चाँदीलाई जनाउँछ।",
+    "pt": "Dinheiro; também prata (o metal). Refere-se à moeda ou meio de pagamento na vida cotidiana, bem como ao metal precioso prata.",
+    "th": "เงิน; รวมถึงเงิน (โลหะเงิน) หมายถึงสกุลเงินหรือสื่อกลางการชำระเงินในชีวิตประจำวัน รวมถึงโลหะมีค่าเงิน",
+    "tl": "Pera; pati na rin pilak (ang metal). Tumutukoy sa pera o paraan ng pagbabayad sa pang-araw-araw na buhay, gayundin ang mahalagang metal na pilak.",
+    "ur": "پیسہ؛ نیز چاندی (دھات)۔ روزمرہ زندگی میں کرنسی یا ادائیگی کے ذریعہ، نیز قیمتی دھات چاندی کو ظاہر کرتا ہے۔",
+    "vi": "Tiền; cũng có nghĩa là bạc (kim loại). Chỉ tiền tệ hoặc phương tiện thanh toán trong cuộc sống hàng ngày, cũng như kim loại quý bạc.",
+    "zh": "钱；也指银（金属）。指日常生活中的货币或支付手段，以及贵金属银。",
+    "zh_Hant": "錢；也指銀（金屬）。指日常生活中的貨幣或支付手段，以及貴金屬銀。"
+  },
+  "definition_en": "Money; also silver (the metal). Refers to currency or payment in everyday life, as well as the precious metal silver.",
+  "romanization": "/ŋɤ̂n/",
+  "lao_examples": [
+    {
+      "lao_script": "ມີ້ ເງິນ ບໍ? ຢາກໄປກິນເຂົ້າ",
+      "romanization": "mii ngoen boo? yaak pai kin khaao",
+      "translation_en": "Do you have money? I want to go eat."
+    },
+    {
+      "lao_script": "ເງິນໝົດແລ້ວ ຕ້ອງໄປຖອນອີກ",
+      "romanization": "ngoen mot laeo, tong pai thon iik",
+      "translation_en": "The money is gone, I need to go withdraw more."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of colorful banknotes and coins scattered on a white background, representing money, with a subtle silver coin to hint at the silver meaning, clean minimalist style suitable for a language learning app."
+}

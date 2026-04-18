@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຜ່ານ",
+  "definitions": {
+    "de": "Vorbeigehen; durchgehen; passieren; auch: bestehen (z. B. eine Prüfung); vergehen (von Zeit). Drückt Bewegung durch oder an etwas vorbei aus.",
+    "en": "To pass; to go through; to pass by; also: to pass (e.g., an exam); to elapse (of time). Expresses movement through or past something.",
+    "es": "Pasar; atravesar; pasar por; también: aprobar (p. ej., un examen); transcurrir (del tiempo). Expresa movimiento a través de o más allá de algo.",
+    "fr": "Passer; traverser; passer par; aussi: réussir (p. ex., un examen); s'écouler (du temps). Exprime un mouvement à travers ou au-delà de quelque chose.",
+    "hi": "गुजरना; पार करना; पास होना (जैसे परीक्षा); बीतना (समय का)। किसी चीज से होकर या उसके पास से गुजरने की क्रिया व्यक्त करता है।",
+    "ja": "通る；通り抜ける；過ぎる；合格する（例：試験に）；経過する（時間が）。何かを通り抜けたり、傍らを過ぎたりする動作を表す。",
+    "km": "ឆ្លងកាត់; ទៅកាត់; ជ្រើសរើស (ឧ. ប្រឡង); ហួស (ពេលវេលា)។ បង្ហាញការចលនាឆ្លងកាត់ ឬកន្លងហួស។",
+    "ko": "지나가다; 통과하다; 합격하다 (예: 시험); 경과하다 (시간이). 무언가를 통과하거나 지나치는 동작을 나타낸다.",
+    "ne": "पार गर्नु; भएर जानु; उत्तीर्ण हुनु (जस्तै परीक्षा); बित्नु (समयको)। कुनै चीजबाट वा छेउबाट गुज्रने क्रिया व्यक्त गर्छ।",
+    "pt": "Passar; atravessar; passar por; também: passar (ex.: em um exame); decorrer (do tempo). Expressa movimento através de ou além de algo.",
+    "th": "ผ่าน; ข้ามผ่าน; ผ่านไป; รวมถึง: สอบผ่าน (เช่น การสอบ); ผ่านไป (ของเวลา) แสดงการเคลื่อนที่ผ่านหรือพ้นสิ่งใดสิ่งหนึ่ง",
+    "tl": "Dumaan; lumipas; makapasa (hal. sa pagsusulit); lumipas (ng oras). Nagpapahayag ng galaw sa pamamagitan ng o lampas sa isang bagay.",
+    "ur": "گزرنا؛ سے گزرنا؛ پاس ہونا (جیسے امتحان)؛ گزرنا (وقت کا)۔ کسی چیز سے گزرنے یا پار کرنے کی حرکت ظاہر کرتا ہے۔",
+    "vi": "Đi qua; vượt qua; qua; cũng dùng: thi đậu (ví dụ bài kiểm tra); trôi qua (thời gian). Diễn tả sự chuyển động qua hoặc ngang qua một thứ gì đó.",
+    "zh": "经过；通过；穿过；也指：通过（如考试）；流逝（时间）。表示穿过或经过某物的动作。",
+    "zh_Hant": "經過；通過；穿過；也指：通過（如考試）；流逝（時間）。表示穿過或經過某物的動作。"
+  },
+  "definition_en": "To pass; to go through; to pass by; also: to pass (e.g., an exam); to elapse (of time). Expresses movement through or past something.",
+  "romanization": "/pʰàːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ໄປຕາມທາງນີ້ ຜ່ານໂຮງໝໍ ແລ້ວກໍຮອດ",
+      "romanization": "pai taam thaang nii, phaan hong-moo, laeo ko hot",
+      "translation_en": "Go along this road, pass the hospital, and you'll arrive."
+    },
+    {
+      "lao_script": "ເວລາຜ່ານໄປໄວຫຼາຍ",
+      "romanization": "wee-laa phaan pai waai laai",
+      "translation_en": "Time passes by so quickly."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking through an open doorway or archway, shown from the side, representing the concept of passing through, clean white background, colorful minimalist style suitable for a language learning app."
+}

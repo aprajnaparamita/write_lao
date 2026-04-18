@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລຸນ",
+  "definitions": {
+    "de": "Eine Silbe, die als Namenselement in laotischen Eigennamen vorkommt; als eigenständiges Wort nicht gebräuchlich",
+    "en": "A syllable used as a name element in Lao personal names; not commonly used as a standalone word",
+    "es": "Una sílaba usada como elemento de nombre en los nombres propios laocianos; no se usa comúnmente como palabra independiente",
+    "fr": "Une syllabe utilisée comme élément de prénom dans les noms laotiens; n'est pas couramment utilisé comme mot indépendant",
+    "hi": "लाओ व्यक्तिगत नामों में नाम तत्व के रूप में उपयोग की जाने वाली एक अक्षर; स्वतंत्र शब्द के रूप में सामान्यतः उपयोग नहीं होती",
+    "ja": "ラオスの人名において名前の要素として使われる音節；独立した単語としては一般的に使われない",
+    "km": "ព្យាង្គដែលប្រើជាធាតុនៃឈ្មោះក្នុងឈ្មោះផ្ទាល់ខ្លួនរបស់ជនជាតិឡាវ; មិនត្រូវបានប្រើជាទូទៅជាពាក្យឯករាជ្យ",
+    "ko": "라오스 개인 이름에서 이름 요소로 사용되는 음절; 독립적인 단어로는 일반적으로 사용되지 않음",
+    "ne": "लाओ व्यक्तिगत नामहरूमा नाम तत्वको रूपमा प्रयोग हुने एउटा अक्षर; स्वतन्त्र शब्दको रूपमा सामान्यतः प्रयोग गरिँदैन",
+    "pt": "Uma sílaba usada como elemento de nome em nomes próprios laocianos; não é comumente usada como palavra independente",
+    "th": "พยางค์ที่ใช้เป็นส่วนประกอบของชื่อในชื่อบุคคลของชาวลาว ไม่ค่อยใช้เป็นคำอิสระ",
+    "tl": "Isang pantig na ginagamit bilang bahagi ng pangalan sa mga Lao na personal na pangalan; hindi karaniwang ginagamit bilang isang sariling salita",
+    "ur": "لاؤ ذاتی ناموں میں نام کے عنصر کے طور پر استعمال ہونے والی ہجہ؛ آزاد لفظ کے طور پر عام طور پر استعمال نہیں ہوتی",
+    "vi": "Một âm tiết được dùng như thành tố tên trong tên riêng của người Lào; không thường được dùng như một từ độc lập",
+    "zh": "用作老挝人名中名字组成部分的音节；通常不作为独立词语使用",
+    "zh_Hant": "用作寮國人名中名字組成部分的音節；通常不作為獨立詞語使用"
+  },
+  "definition_en": "A syllable used as a name element in Lao personal names; not commonly used as a standalone word",
+  "romanization": "/lún/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ຂອງເພື່ອນຂ້ອຍແມ່ນ ລຸນ",
+      "romanization": "sʉ̄ khɔ̄ng phɯ̄an khɔ̄i mɛ̄n lún",
+      "translation_en": "My friend's name is Lun."
+    },
+    {
+      "lao_script": "ລຸນ ເປັນຊື່ຜູ້ຊາຍທີ່ດີ",
+      "romanization": "lún pēn sʉ̄ phū sāi tī dī",
+      "translation_en": "Lun is a nice male name."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful young Lao man wearing traditional Lao clothing with a name badge that reads 'Lun', smiling and waving hello, clean white background, colorful, minimalist style suitable for a language learning app."
+}

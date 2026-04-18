@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດົນ",
+  "definitions": {
+    "de": "Eine lange Zeit; beschreibt eine Zeitspanne, die als lang oder ausgedehnt empfunden wird",
+    "en": "A long time; describes a period of time that is lengthy or extended",
+    "es": "Mucho tiempo; describe un período de tiempo que es largo o prolongado",
+    "fr": "Longtemps; décrit une période de temps qui est longue ou prolongée",
+    "hi": "लंबे समय तक; एक ऐसी समय अवधि का वर्णन करता है जो लंबी या विस्तृत हो",
+    "ja": "長い時間；長く続く時間の期間を表す形容詞",
+    "km": "ពេលយូរ; ពិពណ៌នាអំពីរយៈពេលដែលវែង ឬបន្តយូរ",
+    "ko": "오랜 시간; 길거나 오래 지속되는 시간을 묘사하는 형용사",
+    "ne": "लामो समय; एउटा समय अवधिलाई वर्णन गर्छ जुन लामो वा विस्तारित छ",
+    "pt": "Muito tempo; descreve um período de tempo longo ou prolongado",
+    "th": "นานหรือเป็นเวลานาน; ใช้บรรยายช่วงเวลาที่ยาวนานหรือต่อเนื่อง",
+    "tl": "Matagal; naglalarawan ng isang tagal ng panahon na mahaba o matagal",
+    "ur": "کافی عرصہ؛ ایک ایسے وقت کی مدت کو بیان کرتا ہے جو لمبی یا طویل ہو",
+    "vi": "Lâu; mô tả một khoảng thời gian dài hoặc kéo dài",
+    "zh": "很长时间；描述一段漫长或延续的时间",
+    "zh_Hant": "很長時間；描述一段漫長或延續的時間"
+  },
+  "definition_en": "A long time; describes a period of time that is lengthy or extended",
+  "romanization": "dón",
+  "lao_examples": [
+    {
+      "lao_script": "ລໍຖ້າດົນຫຼາຍ, ເຈົ້າໄປໃສມາ?",
+      "romanization": "lɔː tʰâː dón laːj, tɕâo bpaj sǎj maː",
+      "translation_en": "I waited for such a long time, where did you go?"
+    },
+    {
+      "lao_script": "ບໍ່ໄດ້ເຫັນກັນດົນແລ້ວ, ສະບາຍດີບໍ?",
+      "romanization": "bɔ̀ dâj hěn kan dón lɛ́ːw, sa baːj diː bɔ̄",
+      "translation_en": "We haven't seen each other for a long time, how are you?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting on a bench looking at a clock with long hands emphasizing the passage of a long time, with a sunset in the background to suggest duration, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

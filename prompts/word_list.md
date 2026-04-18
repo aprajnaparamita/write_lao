@@ -68,7 +68,7 @@ Merge this function-word set into your survivor list (union, not intersection).
 
 ## Step 5: Generate definitions and examples
 
-For each of the 500 words, send this prompt to the LLM (one word at a time, or in small batches of 5):
+For each of the 500 words, write a propmt out for the LLM (in small batches of 5):
 
 > For the Lao word `[WORD]`, provide:
 >
@@ -77,7 +77,7 @@ For each of the 500 words, send this prompt to the LLM (one word at a time, or i
 > 3. **Romanization** (using a consistent system, e.g., BGN/PCGN or IPA — specify which)
 > 4. **Two example sentences in informal spoken Lao**, each with:
 >    - Lao script
->    - Romanization
+>    - IPA romanization
 >    - English translation
 >    - A note if the example uses any word NOT in our 500-word list (flag it)
 > 5. **Register/usage flag**: `everyday` / `polite` / `formal` / `slang`
@@ -89,7 +89,6 @@ For each of the 500 words, send this prompt to the LLM (one word at a time, or i
 
 Before handing to human reviewers, run these automated checks:
 
-- Romanization matches Lao script character-by-character (flag mismatches)
 - Example sentences actually contain the target word
 - No duplicate words in the final list
 - All 500 entries have all required fields

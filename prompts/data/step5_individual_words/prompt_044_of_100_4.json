@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຮືອນ",
+  "definitions": {
+    "de": "Haus, Zuhause",
+    "en": "House, home",
+    "es": "Casa, hogar",
+    "fr": "Maison, foyer",
+    "hi": "घर, मकान",
+    "ja": "家、住まい",
+    "km": "ផ្ទះ, លំនៅ",
+    "ko": "집, 주택",
+    "ne": "घर",
+    "pt": "Casa, lar",
+    "th": "บ้าน, เรือน",
+    "tl": "Bahay, tahanan",
+    "ur": "گھر، مکان",
+    "vi": "Nhà, ngôi nhà",
+    "zh": "房子，家",
+    "zh_Hant": "房子，家"
+  },
+  "definition_en": "House, home",
+  "romanization": "/hɯ́an/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂ້ອຍຢູ່ໃກ້ຕະຫຼາດ.",
+      "romanization": "hɯ́an khɔ̏ːj jūː kȁj tā.lȁːt",
+      "translation_en": "My house is near the market."
+    },
+    {
+      "lao_script": "ກັບເຮືອນໄວໆເດີ້.",
+      "romanization": "káp hɯ́an vâj vâj dɤ̂ː",
+      "translation_en": "Come home quickly, okay?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional Lao wooden house on stilts with a peaceful setting, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

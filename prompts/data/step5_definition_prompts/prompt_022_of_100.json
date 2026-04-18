@@ -1,0 +1,418 @@
+{
+  "ໜ້າ": {
+    "definitions": {
+      "de": "Gesicht; Seite (eines Buches); Vorderseite — bezeichnet das Gesicht einer Person, eine Seite in einem Buch oder die Vorderseite von etwas",
+      "en": "Face; page (of a book); front side — refers to a person's face, a page in a book, or the front of something",
+      "es": "Cara; página (de un libro); parte delantera — se refiere al rostro de una persona, una página de un libro o la parte frontal de algo",
+      "fr": "Visage; page (d'un livre); face avant — désigne le visage d'une personne, une page dans un livre ou le devant de quelque chose",
+      "hi": "चेहरा; पृष्ठ (किसी पुस्तक का); सामने की तरफ — किसी व्यक्ति के चेहरे, किताब के पन्ने या किसी चीज़ के सामने के हिस्से को दर्शाता है",
+      "ja": "顔；ページ（本の）；表面・前面 — 人の顔、本のページ、または何かの前面を指す",
+      "km": "មុខ; ទំព័រ (នៃសៀវភៅ); ផ្នែកខាងមុខ — សំដៅលើមុខរបស់មនុស្ស, ទំព័រក្នុងសៀវភៅ ឬផ្នែកខាងមុខនៃអ្វីមួយ",
+      "ko": "얼굴; (책의) 페이지; 앞면 — 사람의 얼굴, 책의 페이지, 또는 무언가의 앞면을 가리킨다",
+      "ne": "अनुहार; पृष्ठ (कुनै किताबको); अगाडिको भाग — कुनै व्यक्तिको अनुहार, किताबको पृष्ठ वा कुनै चीजको अगाडिको भागलाई जनाउँछ",
+      "pt": "Rosto; página (de um livro); parte frontal — refere-se ao rosto de uma pessoa, uma página de um livro ou a parte da frente de algo",
+      "th": "หน้า — ใช้หมายถึงใบหน้าของคน, หน้า (ในหนังสือ) หรือด้านหน้าของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Mukha; pahina (ng isang libro); harapan — tumutukoy sa mukha ng isang tao, pahina ng isang libro, o harapan ng isang bagay",
+      "ur": "چہرہ؛ صفحہ (کتاب کا)؛ سامنے کی طرف — کسی شخص کے چہرے، کتاب کے صفحے یا کسی چیز کے سامنے والے حصے کو ظاہر کرتا ہے",
+      "vi": "Khuôn mặt; trang (của cuốn sách); mặt trước — chỉ khuôn mặt của một người, trang trong cuốn sách, hoặc mặt trước của một vật",
+      "zh": "脸；页（书的一页）；前面 — 指人的脸、书的某一页或某物的正面",
+      "zh_Hant": "臉；頁（書的一頁）；前面 — 指人的臉、書的某一頁或某物的正面"
+    },
+    "part_of_speech": "noun",
+    "romanization": "naː²",
+    "examples": [
+      {
+        "lao_script": "ໜ້າຂອງລາວສວຍຫຼາຍເລີຍ",
+        "romanization": "nâa khɔ̌ɔng laao suai laai ləəi",
+        "translations": {
+          "de": "Ihr/Sein Gesicht ist wirklich sehr schön.",
+          "en": "Her/His face is really very beautiful.",
+          "es": "Su cara es realmente muy hermosa.",
+          "fr": "Son visage est vraiment très beau.",
+          "hi": "उसका चेहरा सच में बहुत सुंदर है।",
+          "ja": "彼女／彼の顔はとても綺麗だね。",
+          "km": "មុខរបស់គាត់ស្អាតណាស់មែនទែន។",
+          "ko": "그/그녀의 얼굴이 정말 너무 예뻐요.",
+          "ne": "उसको अनुहार साँच्चिकै धेरै सुन्दर छ।",
+          "pt": "O rosto dela/dele é muito lindo mesmo.",
+          "th": "หน้าของเขา/เธอสวยมากเลย",
+          "tl": "Ang mukha niya ay talagang napakaganda.",
+          "ur": "اس کا چہرہ واقعی بہت خوبصورت ہے۔",
+          "vi": "Khuôn mặt của cô ấy/anh ấy đẹp lắm đó.",
+          "zh": "她/他的脸真的很漂亮。",
+          "zh_Hant": "她/他的臉真的很漂亮。"
+        },
+        "out_of_scope_words": [
+          "ສວຍ",
+          "ຫຼາຍ",
+          "ເລີຍ"
+        ]
+      },
+      {
+        "lao_script": "ເປີດໜ້າສາມຂອງໜັງສືໄດ້ເລີຍ",
+        "romanization": "pəət nâa sǎam khɔ̌ɔng nǎng-sǔu dâi ləəi",
+        "translations": {
+          "de": "Schlag einfach Seite drei des Buches auf.",
+          "en": "Just open page three of the book.",
+          "es": "Abre la página tres del libro.",
+          "fr": "Ouvre simplement la page trois du livre.",
+          "hi": "बस किताब का पृष्ठ तीन खोलो।",
+          "ja": "本の3ページを開いてみて。",
+          "km": "បើកទំព័របីនៃសៀវភៅបានទៅ។",
+          "ko": "그냥 책의 3페이지를 펼쳐봐.",
+          "ne": "किताबको पृष्ठ तीन खोल्नुस्।",
+          "pt": "Abre a página três do livro.",
+          "th": "เปิดหน้าสามของหนังสือได้เลย",
+          "tl": "Buksan na lang ang pahina tatlo ng libro.",
+          "ur": "کتاب کا صفحہ تین کھولیں۔",
+          "vi": "Mở trang ba của cuốn sách ra đi.",
+          "zh": "直接翻开书的第三页吧。",
+          "zh_Hant": "直接翻開書的第三頁吧。"
+        },
+        "out_of_scope_words": [
+          "ເປີດ",
+          "ສາມ",
+          "ໜັງສື",
+          "ໄດ້",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two meanings side by side: a friendly smiling cartoon face on the left, and an open book with a page number visible on the right, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮູ້": {
+    "definitions": {
+      "de": "Wissen; kennen — etwas wissen oder mit jemandem/etwas vertraut sein; eine Tatsache oder Information kennen",
+      "en": "To know — to have knowledge of something or someone; to be aware of a fact or information",
+      "es": "Saber; conocer — tener conocimiento de algo o alguien; estar al tanto de un hecho o información",
+      "fr": "Savoir; connaître — avoir connaissance de quelque chose ou de quelqu'un; être au courant d'un fait ou d'une information",
+      "hi": "जानना — किसी चीज़ या व्यक्ति के बारे में ज्ञान होना; किसी तथ्य या जानकारी से अवगत होना",
+      "ja": "知る；知っている — 何かや誰かについての知識を持つ；事実や情報を把握している",
+      "km": "ដឹង — មានចំណេះដឹងអំពីអ្វីមួយ ឬនរណាម្នាក់; ដឹងពីការពិតឬព័ត៌មានណាមួយ",
+      "ko": "알다 — 어떤 것이나 누군가에 대한 지식을 가지다; 사실이나 정보를 알고 있다",
+      "ne": "थाहा हुनु / जान्नु — कुनै चीज वा व्यक्तिबारे ज्ञान हुनु; कुनै तथ्य वा जानकारीबारे जानकार हुनु",
+      "pt": "Saber; conhecer — ter conhecimento de algo ou alguém; estar ciente de um fato ou informação",
+      "th": "รู้; ทราบ — มีความรู้เกี่ยวกับบางสิ่งหรือบางคน; ตระหนักรู้ถึงข้อเท็จจริงหรือข้อมูล",
+      "tl": "Malaman; makilala — magkaroon ng kaalaman tungkol sa isang bagay o tao; maging mulat sa isang katotohanan o impormasyon",
+      "ur": "جاننا — کسی چیز یا شخص کے بارے میں علم رکھنا؛ کسی حقیقت یا معلومات سے آگاہ ہونا",
+      "vi": "Biết — có kiến thức về điều gì đó hoặc ai đó; nhận thức được một sự thật hoặc thông tin",
+      "zh": "知道；了解 — 对某事或某人有所了解；知晓某个事实或信息",
+      "zh_Hant": "知道；了解 — 對某事或某人有所了解；知曉某個事實或資訊"
+    },
+    "part_of_speech": "verb",
+    "romanization": "huː⁴",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຮູ້ຈັກລາວບໍ່?",
+        "romanization": "jâo hûu-jàk laao bɔ̀?",
+        "translations": {
+          "de": "Kennst du ihn/sie?",
+          "en": "Do you know him/her?",
+          "es": "¿Lo/La conoces?",
+          "fr": "Tu le/la connais?",
+          "hi": "क्या तुम उसे जानते हो?",
+          "ja": "あの人のこと知ってる？",
+          "km": "តើអ្នកស្គាល់គាត់ទេ?",
+          "ko": "그/그녀를 알아요?",
+          "ne": "के तपाईंले उसलाई चिन्नुहुन्छ?",
+          "pt": "Você conhece ele/ela?",
+          "th": "แกรู้จักเขา/เธอไหม?",
+          "tl": "Kilala mo ba siya?",
+          "ur": "کیا آپ اسے جانتے ہیں؟",
+          "vi": "Bạn có biết anh ấy/cô ấy không?",
+          "zh": "你认识他/她吗？",
+          "zh_Hant": "你認識他/她嗎？"
+        },
+        "out_of_scope_words": [
+          "ຈັກ",
+          "ບໍ່"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍບໍ່ຮູ້ວ່າລາວຢູ່ໃສ",
+        "romanization": "khɔ̂i bɔ̀ hûu wâa laao yùu sǎi",
+        "translations": {
+          "de": "Ich weiß nicht, wo er/sie ist.",
+          "en": "I don't know where he/she is.",
+          "es": "No sé dónde está él/ella.",
+          "fr": "Je ne sais pas où il/elle est.",
+          "hi": "मुझे नहीं पता वो कहाँ है।",
+          "ja": "彼/彼女がどこにいるか分からない。",
+          "km": "ខ្ញុំមិនដឹងថាគាត់នៅឯណាទេ។",
+          "ko": "그/그녀가 어디 있는지 모르겠어.",
+          "ne": "मलाई थाहा छैन ऊ कहाँ छ।",
+          "pt": "Eu não sei onde ele/ela está.",
+          "th": "ฉันไม่รู้ว่าเขา/เธออยู่ที่ไหน",
+          "tl": "Hindi ko alam kung nasaan siya.",
+          "ur": "مجھے نہیں پتا کہ وہ کہاں ہے۔",
+          "vi": "Tôi không biết anh ấy/cô ấy ở đâu.",
+          "zh": "我不知道他/她在哪里。",
+          "zh_Hant": "我不知道他/她在哪裡。"
+        },
+        "out_of_scope_words": [
+          "ວ່າ",
+          "ຢູ່",
+          "ໃສ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a bright lightbulb glowing above their head, representing knowledge and understanding, clean white background, colorful minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕອນ": {
+    "definitions": {
+      "de": "Zeitabschnitt; Teil; Episode — bezeichnet einen bestimmten Zeitraum oder Abschnitt (z.B. morgens, abends), einen Teil von etwas oder eine Episode einer Serie",
+      "en": "Time period; part; episode — refers to a specific time of day or period, a section/part of something, or an episode of a series",
+      "es": "Período de tiempo; parte; episodio — se refiere a un momento específico del día o período, una sección de algo, o un episodio de una serie",
+      "fr": "Période de temps; partie; épisode — désigne un moment précis de la journée ou une période, une section de quelque chose, ou un épisode d'une série",
+      "hi": "समय काल; भाग; एपिसोड — दिन के किसी विशेष समय या अवधि, किसी चीज़ के हिस्से या किसी श्रृंखला के एपिसोड को दर्शाता है",
+      "ja": "時間帯；部分；エピソード — 特定の時間帯や時期、何かの一部分、またはシリーズのエピソードを指す",
+      "km": "ช่วงเวลา; ផ្នែក; ตอน — សំដៅលើช่วงเวลาជាក់លាក់នៃថ្ងៃ, ផ្នែកណាមួយ ឬตอนមួយនៃរឿង",
+      "ko": "시간대; 부분; 에피소드 — 하루의 특정 시간대나 기간, 무언가의 한 부분, 또는 시리즈의 한 에피소드를 가리킨다",
+      "ne": "समयावधि; भाग; एपिसोड — दिनको कुनै विशेष समय वा अवधि, कुनै चीजको भाग वा श्रृंखलाको एपिसोडलाई जनाउँछ",
+      "pt": "Período de tempo; parte; episódio — refere-se a um momento específico do dia ou período, uma seção de algo, ou um episódio de uma série",
+      "th": "ช่วงเวลา; ตอน; ส่วน — ใช้หมายถึงช่วงเวลาหนึ่งของวัน, ส่วนหนึ่งของบางสิ่ง หรือตอนหนึ่งของซีรีส์",
+      "tl": "Panahon; bahagi; episode — tumutukoy sa isang tiyak na oras ng araw o panahon, isang seksyon ng isang bagay, o isang episode ng isang serye",
+      "ur": "وقت کا دورانیہ؛ حصہ؛ ایپیسوڈ — دن کے کسی خاص وقت یا مدت، کسی چیز کے حصے یا کسی سلسلے کے ایپیسوڈ کو ظاہر کرتا ہے",
+      "vi": "Khoảng thời gian; phần; tập — chỉ một khoảng thời gian cụ thể trong ngày, một phần của điều gì đó, hoặc một tập của bộ phim",
+      "zh": "时间段；部分；集（电视剧的一集）— 指一天中的某个时间段、某物的一部分或某部剧集的一集",
+      "zh_Hant": "時間段；部分；集（電視劇的一集）— 指一天中的某個時間段、某物的一部分或某部劇集的一集"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tɔ̀ɔn¹",
+    "examples": [
+      {
+        "lao_script": "ຕອນເຊົ້າຂ້ອຍຊອບດື່ມກາເຟ",
+        "romanization": "tɔ̀ɔn sâo khɔ̂i sɔ̂ɔp dùum kaa-feh",
+        "translations": {
+          "de": "Morgens trinke ich gerne Kaffee.",
+          "en": "In the morning I like to drink coffee.",
+          "es": "Por la mañana me gusta tomar café.",
+          "fr": "Le matin, j'aime boire du café.",
+          "hi": "सुबह के समय मुझे कॉफी पीना पसंद है।",
+          "ja": "朝はコーヒーを飲むのが好きだよ。",
+          "km": "ពេលព្រឹកខ្ញុំចូលចិត្តផឹកកាហ្វេ។",
+          "ko": "아침에 나는 커피 마시는 걸 좋아해.",
+          "ne": "बिहान मलाई कफी पिउन मन पर्छ।",
+          "pt": "De manhã eu gosto de tomar café.",
+          "th": "ตอนเช้าฉันชอบดื่มกาแฟ",
+          "tl": "Sa umaga gusto kong uminom ng kape.",
+          "ur": "صبح کے وقت مجھے کافی پینا پسند ہے۔",
+          "vi": "Buổi sáng tôi thích uống cà phê.",
+          "zh": "早上我喜欢喝咖啡。",
+          "zh_Hant": "早上我喜歡喝咖啡。"
+        },
+        "out_of_scope_words": [
+          "ເຊົ້າ",
+          "ຊອບ",
+          "ດື່ມ",
+          "ກາເຟ"
+        ]
+      },
+      {
+        "lao_script": "ຕອນນີ້ເຈົ້າຢູ່ໃສ?",
+        "romanization": "tɔ̀ɔn níi jâo yùu sǎi?",
+        "translations": {
+          "de": "Wo bist du gerade?",
+          "en": "Where are you right now?",
+          "es": "¿Dónde estás ahora mismo?",
+          "fr": "Tu es où là maintenant?",
+          "hi": "अभी तुम कहाँ हो?",
+          "ja": "今どこにいるの?",
+          "km": "ឥឡូវអ្នកនៅឯណា?",
+          "ko": "지금 어디 있어?",
+          "ne": "अहिले तिमी कहाँ छौ?",
+          "pt": "Onde você está agora?",
+          "th": "ตอนนี้แกอยู่ที่ไหน?",
+          "tl": "Nasaan ka ngayon?",
+          "ur": "ابھی آپ کہاں ہیں؟",
+          "vi": "Bây giờ bạn đang ở đâu?",
+          "zh": "你现在在哪里？",
+          "zh_Hant": "你現在在哪裡？"
+        },
+        "out_of_scope_words": [
+          "ນີ້",
+          "ຢູ່",
+          "ໃສ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clock or timeline divided into labeled sections (morning, afternoon, evening) with a sun and moon icon, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂໍ": {
+    "definitions": {
+      "de": "Bitten; um etwas bitten; anfragen — höflich um etwas bitten oder eine Bitte äußern; auch als Einleitungspartikel für höfliche Bitten verwendet",
+      "en": "To request; to ask for; to beg — to politely ask for something or make a request; also used as a polite softening particle before a request",
+      "es": "Pedir; solicitar; rogar — pedir algo de manera cortés o hacer una solicitud; también se usa como partícula suavizadora antes de una petición",
+      "fr": "Demander; solliciter; prier — demander poliment quelque chose ou faire une requête; utilisé aussi comme particule d'adoucissement avant une demande",
+      "hi": "माँगना; निवेदन करना — विनम्रता से कुछ माँगना या अनुरोध करना; अनुरोध से पहले एक विनम्र कण के रूप में भी उपयोग होता है",
+      "ja": "頼む；お願いする；求める — 丁寧に何かをお願いする；依頼の前に使う丁寧な前置き表現としても使われる",
+      "km": "សុំ; ស្នើ; ទូលសុំ — សុំអ្វីមួយដោយគួរសម ឬធ្វើការស្នើ; ប្រើជាញឹកញាប់ជាការចាប់ផ្តើមមុននឹងនិយាយសុំ",
+      "ko": "요청하다; 부탁하다; 빌다 — 정중하게 무언가를 요청하거나 부탁하다; 요청 앞에 쓰이는 공손한 완화 표현으로도 사용됨",
+      "ne": "माग्नु; अनुरोध गर्नु — विनम्रतापूर्वक केही माग्नु वा अनुरोध गर्नु; अनुरोध अघि विनम्र कणको रूपमा पनि प्रयोग हुन्छ",
+      "pt": "Pedir; solicitar; implorar — pedir algo educadamente ou fazer uma solicitação; também usado como partícula suavizante antes de um pedido",
+      "th": "ขอ; ขอร้อง; ขอโทษ — ขอสิ่งใดสิ่งหนึ่งอย่างสุภาพ หรือแสดงการร้องขอ; ใช้นำหน้าคำขอร้องเพื่อความสุภาพ",
+      "tl": "Humiling; humagi; mamuhon — magmakaawa o humiling ng may kagalangan; ginagamit din bilang panimula ng isang magalang na kahilingan",
+      "ur": "مانگنا؛ درخواست کرنا؛ التجا کرنا — شائستگی سے کچھ مانگنا یا درخواست دینا؛ درخواست سے پہلے شائستہ اظہار کے طور پر بھی استعمال ہوتا ہے",
+      "vi": "Xin; yêu cầu; cầu xin — lịch sự yêu cầu điều gì đó hoặc đưa ra một yêu cầu; cũng được dùng như một hạt từ lịch sự trước câu xin",
+      "zh": "请求；要求；恳求 — 礼貌地要求某物或提出请求；也用作请求前的礼貌助词",
+      "zh_Hant": "請求；要求；懇求 — 禮貌地要求某物或提出請求；也用作請求前的禮貌助詞"
+    },
+    "part_of_speech": "verb",
+    "romanization": "khɔ̌ː³",
+    "examples": [
+      {
+        "lao_script": "ຂໍໂທດທີ ຂ້ອຍຊາຍໄປໜ້ອຍໄດ້ບໍ່?",
+        "romanization": "khɔ̌ː thôot thii, khɔ̂i saai pai nɔ̀i dâi bɔ̀?",
+        "translations": {
+          "de": "Entschuldigung, darf ich kurz vorbeigehen?",
+          "en": "Sorry, can I pass by for a moment?",
+          "es": "Perdona, ¿puedo pasar un momento?",
+          "fr": "Excuse-moi, je peux passer une seconde?",
+          "hi": "माफ़ करना, क्या मैं थोड़ा आगे जा सकता/सकती हूँ?",
+          "ja": "すみません、ちょっと通ってもいいですか？",
+          "km": "សុំទោសផង, ខ្ញុំអាចឆ្លងកាត់បន្តិចបានទេ?",
+          "ko": "죄송해요, 잠깐 지나가도 될까요?",
+          "ne": "माफ गर्नुस्, के म अलि अघि जान सक्छु?",
+          "pt": "Com licença, posso passar um segundo?",
+          "th": "ขอโทษนะ ขอเดินผ่านหน่อยได้ไหม?",
+          "tl": "Paumanhin, maaari ba akong dumaan sandali?",
+          "ur": "معاف کیجیے، کیا میں ذرا آگے نکل سکتا/سکتی ہوں؟",
+          "vi": "Xin lỗi, tôi có thể đi qua một chút được không?",
+          "zh": "不好意思，我可以过一下吗？",
+          "zh_Hant": "不好意思，我可以過一下嗎？"
+        },
+        "out_of_scope_words": [
+          "ໂທດ",
+          "ທີ",
+          "ຊາຍ",
+          "ໄປ",
+          "ໜ້ອຍ",
+          "ໄດ້",
+          "ບໍ່"
+        ]
+      },
+      {
+        "lao_script": "ຂໍນໍ້າຈອກນຶ່ງແດ່",
+        "romanization": "khɔ̌ː nâm jɔ̀ɔk nùeng dɛ̀ɛ",
+        "translations": {
+          "de": "Kann ich bitte ein Glas Wasser haben?",
+          "en": "Can I have a glass of water, please?",
+          "es": "¿Me puede dar un vaso de agua, por favor?",
+          "fr": "Un verre d'eau, s'il vous plaît.",
+          "hi": "कृपया एक गिलास पानी मिल सकता है?",
+          "ja": "水を一杯いただけますか？",
+          "km": "សុំទឹកមួយកែវផង។",
+          "ko": "물 한 잔 주세요.",
+          "ne": "एक गिलास पानी पाउन सक्छु?",
+          "pt": "Pode me dar um copo d'água, por favor?",
+          "th": "ขอน้ำแก้วนึงแด่",
+          "tl": "Maaari bang makakuha ng isang basong tubig?",
+          "ur": "کیا مجھے ایک گلاس پانی مل سکتا ہے؟",
+          "vi": "Cho tôi xin một ly nước.",
+          "zh": "请给我一杯水。",
+          "zh_Hant": "請給我一杯水。"
+        },
+        "out_of_scope_words": [
+          "ນໍ້າ",
+          "ຈອກ",
+          "ນຶ່ງ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with hands gently pressed together in a polite gesture, or a person extending one hand forward as if politely asking for something, clean white background, colorful minimalist cartoon style suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ເລືອກ": {
+    "definitions": {
+      "de": "Auswählen; wählen — aus mehreren Möglichkeiten etwas oder jemanden auswählen",
+      "en": "To choose; to select — to pick one option from among several available choices",
+      "es": "Elegir; seleccionar — escoger una opción entre varias disponibles",
+      "fr": "Choisir; sélectionner — choisir une option parmi plusieurs disponibles",
+      "hi": "चुनना; चयन करना — कई उपलब्ध विकल्पों में से एक को चुनना",
+      "ja": "選ぶ；選択する — いくつかの選択肢の中から一つを選ぶ",
+      "km": "ជ្រើសរើស; ពេញចិត្ត — ជ្រើសយកជម្រើសមួយពីជម្រើសច្រើន",
+      "ko": "선택하다; 고르다 — 여러 선택지 중에서 하나를 고르다",
+      "ne": "छान्नु; छनोट गर्नु — धेरै उपलब्ध विकल्पहरूमध्ये एउटा रोज्नु",
+      "pt": "Escolher; selecionar — escolher uma opção entre várias disponíveis",
+      "th": "เลือก; คัดเลือก — เลือกตัวเลือกหนึ่งจากหลายตัวเลือกที่มีอยู่",
+      "tl": "Pumili; mamili — pumili ng isang opsyon mula sa maraming pagpipilian",
+      "ur": "چننا؛ منتخب کرنا — دستیاب کئی اختیارات میں سے ایک کا انتخاب کرنا",
+      "vi": "Chọn; lựa chọn — chọn một tùy chọn trong số nhiều lựa chọn có sẵn",
+      "zh": "选择；挑选 — 从多个可选项中挑选一个",
+      "zh_Hant": "選擇；挑選 — 從多個可選項中挑選一個"
+    },
+    "part_of_speech": "verb",
+    "romanization": "lɯ́ak⁵",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຢາກເລືອກສີຫຍັງ?",
+        "romanization": "jâo yâak lɯ́ak sǐi ɲǎng?",
+        "translations": {
+          "de": "Welche Farbe möchtest du wählen?",
+          "en": "What color do you want to choose?",
+          "es": "¿Qué color quieres elegir?",
+          "fr": "Tu veux choisir quelle couleur?",
+          "hi": "तुम कौन सा रंग चुनना चाहते हो?",
+          "ja": "どの色を選びたい？",
+          "km": "អ្នកចង់ជ្រើសពណ៌អ្វី?",
+          "ko": "어떤 색을 고르고 싶어?",
+          "ne": "तिमी कुन रंग रोज्न चाहन्छौ?",
+          "pt": "Que cor você quer escolher?",
+          "th": "แกอยากเลือกสีอะไร?",
+          "tl": "Anong kulay ang gusto mong piliin?",
+          "ur": "آپ کون سا رنگ چننا چاہتے ہیں؟",
+          "vi": "Bạn muốn chọn màu gì?",
+          "zh": "你想选什么颜色？",
+          "zh_Hant": "你想選什麼顏色？"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ສີ",
+          "ຫຍັງ"
+        ]
+      },
+      {
+        "lao_script": "ຍາກເລືອກຫຼາຍ ອັນໄດ ກໍ່ດີໝົດ",
+        "romanization": "ɲâak lɯ́ak laai, an dai gɔ̀ dii mòt",
+        "translations": {
+          "de": "Es ist schwer zu wählen — alles ist gut.",
+          "en": "It's hard to choose — everything is good.",
+          "es": "Es difícil elegir — todo está bien.",
+          "fr": "C'est dur de choisir — tout est bien.",
+          "hi": "चुनना मुश्किल है — सब कुछ अच्छा है।",
+          "ja": "選ぶのが難しい — どれもいいよ。",
+          "km": "ជ្រើសរើសពិបាកណាស់ — គ្រប់យ៉ាងទាំងអស់ល្អ។",
+          "ko": "고르기 어렵다 — 다 좋아.",
+          "ne": "छान्न गाह्रो छ — सबै राम्रो छ।",
+          "pt": "É difícil escolher — tudo é bom.",
+          "th": "เลือกยากมาก อันไหนก็ดีหมด",
+          "tl": "Mahirap pumili — lahat ay maganda.",
+          "ur": "چننا مشکل ہے — سب کچھ اچھا ہے۔",
+          "vi": "Khó chọn quá — cái nào cũng ngon hết.",
+          "zh": "很难选 — 什么都好。",
+          "zh_Hant": "很難選 — 什麼都好。"
+        },
+        "out_of_scope_words": [
+          "ຍາກ",
+          "ຫຼາຍ",
+          "ອັນ",
+          "ໄດ",
+          "ກໍ່",
+          "ດີ",
+          "ໝົດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing in front of three colorful options or doors, with one hand raised as if deciding which to pick, clean white background, colorful minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມັກ",
+  "definitions": {
+    "de": "Mögen / bevorzugen – etwas oder jemanden gernhaben oder einer Sache den Vorzug geben",
+    "en": "Like / prefer – to feel fondness for something or someone, or to prefer one thing over another",
+    "es": "Gustar / preferir – sentir agrado por algo o alguien, o preferir una cosa sobre otra",
+    "fr": "Aimer / préférer – éprouver de l'affection pour quelque chose ou quelqu'un, ou préférer une chose à une autre",
+    "hi": "पसंद करना / पसंद होना – किसी चीज़ या व्यक्ति को अच्छा लगना या प्राथमिकता देना",
+    "ja": "好き（すき）/ 好む（このむ）– 何かや誰かを気に入っている、または好んでいる",
+    "km": "ចូលចិត្ត – មានអារម្មណ៍ស្រឡាញ់ ឬចូលចិត្តអ្វីមួយ ឬនរណាម្នាក់",
+    "ko": "좋아하다 / 선호하다 – 어떤 것이나 사람을 좋아하거나 더 선호하다",
+    "ne": "मन पर्नु / रुचि राख्नु – कुनै कुरा वा व्यक्तिलाई मन पराउनु वा प्राथमिकता दिनु",
+    "pt": "Gostar / preferir – sentir apreço por algo ou alguém, ou preferir uma coisa a outra",
+    "th": "ชอบ / ชอบมากกว่า – รู้สึกพอใจหรือชื่นชอบสิ่งใดสิ่งหนึ่งหรือบุคคลใด",
+    "tl": "Gusto / mas gusto – magkaroon ng pagmamahal para sa isang bagay o tao, o mas piliin ang isang bagay kaysa sa isa pa",
+    "ur": "پسند کرنا – کسی چیز یا شخص کو پسند کرنا یا ترجیح دینا",
+    "vi": "Thích / thích hơn – cảm thấy yêu thích điều gì đó hoặc ai đó, hoặc ưa thích điều này hơn điều kia",
+    "zh": "喜欢 / 偏好 – 对某事或某人感到喜爱，或更倾向于某件事",
+    "zh_Hant": "喜歡 / 偏好 – 對某事或某人感到喜愛，或更傾向於某件事"
+  },
+  "definition_en": "Like / prefer – to feel fondness for something or someone, or to prefer one thing over another",
+  "romanization": "mak",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍມັກກິນຂ້າວຫຼາຍ",
+      "romanization": "khɔːj mak kin kʰâːw laːj",
+      "translation_en": "I really like eating rice a lot."
+    },
+    {
+      "lao_script": "ເຈົ້າມັກສີຫຍັງ",
+      "romanization": "tɕâo mak siː ɲǎŋ",
+      "translation_en": "What color do you like?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person giving a thumbs up next to a heart symbol, indicating liking or preference, suitable for a language learning app, clean white background, colorful, minimalist cartoon style."
+}

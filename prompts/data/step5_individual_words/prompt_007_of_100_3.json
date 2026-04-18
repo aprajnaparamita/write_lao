@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກັບ",
+  "definitions": {
+    "de": "mit/und (Präposition); zurückkehren (Verb)",
+    "en": "with/and (preposition); to return/go back (verb)",
+    "es": "con/y (preposición); volver/regresar (verbo)",
+    "fr": "avec/et (préposition); retourner/revenir (verbe)",
+    "hi": "के साथ (पूर्वसर्ग); लौटना (क्रिया)",
+    "ja": "〜と（〜と一緒に）／戻る",
+    "km": "ជាមួយ／ត្រឡប់ (បុព្វបទ ឬកិរិយា 'ត្រឡប់មកវិញ')",
+    "ne": "सँग／फर्कनु (साथमा वा फर्केर आउनु)",
+    "ko": "~와／돌아가다 (전치사 또는 동사 '돌아가다')",
+    "pt": "com/e (preposição); voltar (verbo)",
+    "th": "กับ／กลับ (คำบุพบทหรือกริยา 'กลับ')",
+    "tl": "kasama／bumalik (pang-ukol o pandiwang 'bumalik')",
+    "ur": "کے ساتھ؛ واپس آنا (حرفِ جر یا فعل 'لوٹنا')",
+    "vi": "với; trở về (giới từ hoặc động từ 'quay lại')",
+    "zh": "和／跟／回（介词或动词'返回')",
+    "zh_Hant": "和／跟／回（介詞或動詞「返回」）"
+  },
+  "definition_en": "with/and (preposition); to return/go back (verb)",
+  "romanization": "káp",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ໄປ ກັບ ເພື່ອນ",
+      "romanization": "kʰɔ̂ːj pàj káp pʰɯ̄ːən",
+      "translation_en": "I'm going with a friend."
+    },
+    {
+      "lao_script": "ລາວ ກັບ ບ້ານ ແລ້ວ",
+      "romanization": "láːw káp bâːn lɛ̂ːw",
+      "translation_en": "He/She has returned home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two figures walking side by side connected by a bracket, representing togetherness, with a small return arrow nearby, suitable for a language learning app, clean white background, minimalist style."
+}

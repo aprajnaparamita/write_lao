@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄທ",
+  "definitions": {
+    "de": "Thailand; das Königreich Thailand, ein Land in Südostasien, Nachbar von Laos",
+    "en": "Thai; referring to Thailand, a country in Southeast Asia neighboring Laos, or anything of Thai origin",
+    "es": "tailandés/a; relativo a Tailandia, país del sudeste asiático vecino de Laos",
+    "fr": "thaïlandais(e); relatif à la Thaïlande, pays d'Asie du Sud-Est voisin du Laos",
+    "hi": "थाई; थाईलैंड से संबंधित, लाओस का पड़ोसी दक्षिण-पूर्व एशियाई देश",
+    "ja": "タイ；ラオスの隣国、東南アジアのタイ王国に関連するもの",
+    "km": "ថៃ; ទាក់ទងនឹងប្រទេសថៃ ដែលជាប្រទេសអាស៊ីអាគ្នេយ៍ជិតខាងនឹងឡាវ",
+    "ko": "태국; 라오스와 이웃한 동남아시아 국가 태국에 관련된 것",
+    "ne": "थाई; थाइल्याण्डसँग सम्बन्धित, लाओसको छिमेकी दक्षिण-पूर्व एसियाली देश",
+    "pt": "tailandês/a; relativo à Tailândia, país do sudeste asiático vizinho do Laos",
+    "th": "ไทย; เกี่ยวกับประเทศไทย ประเทศในเอเชียตะวันออกเฉียงใต้ที่อยู่ติดกับลาว",
+    "tl": "Thai; nauukol sa Thailand, isang bansang Timog-Silangang Asya na kapitbahay ng Laos",
+    "ur": "تھائی؛ تھائی لینڈ سے متعلق، لاؤس کا ہمسایہ جنوب مشرقی ایشیائی ملک",
+    "vi": "Thái; liên quan đến Thái Lan, quốc gia Đông Nam Á láng giềng của Lào",
+    "zh": "泰国的；与泰国相关，泰国是老挝的东南亚邻国",
+    "zh_Hant": "泰國的；與泰國相關，泰國是寮國的東南亞鄰國"
+  },
+  "definition_en": "Thai; referring to Thailand, a country in Southeast Asia neighboring Laos, or anything of Thai origin",
+  "romanization": "/tʰaj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າເຄີຍໄປໄທບໍ່?",
+      "romanization": "jao khoei pai Thai boo?",
+      "translation_en": "Have you ever been to Thailand?"
+    },
+    {
+      "lao_script": "ອາຫານໄທແຊບຫຼາຍ",
+      "romanization": "aa-haan Thai saep laai",
+      "translation_en": "Thai food is very delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the flag of Thailand with a small map outline of the country beside it, set against a clean white background, minimalist design suitable for a language learning app."
+}

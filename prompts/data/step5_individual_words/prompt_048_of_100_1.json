@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຟັງ",
+  "definitions": {
+    "de": "zuhören; auf etwas hören",
+    "en": "to listen; to hear attentively",
+    "es": "escuchar; prestar atención al sonido",
+    "fr": "écouter; prêter attention à un son",
+    "hi": "सुनना; ध्यान से सुनना",
+    "ja": "聞く；耳を傾ける",
+    "km": "ស្តាប់; យកចិត្តទុកដាក់ស្តាប់",
+    "ko": "듣다; 귀를 기울이다",
+    "ne": "सुन्नु; ध्यानपूर्वक सुन्नु",
+    "pt": "ouvir; escutar com atenção",
+    "th": "ฟัง; ตั้งใจฟัง",
+    "tl": "makinig; pakinggan nang mabuti",
+    "ur": "سننا؛ توجہ سے سننا",
+    "vi": "nghe; lắng nghe chú ý",
+    "zh": "听；倾听",
+    "zh_Hant": "聽；傾聽"
+  },
+  "definition_en": "to listen; to hear attentively",
+  "romanization": "/fáŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຟັງເພງນີ້ບໍ່?",
+      "romanization": "Jao fang pheng ni bo?",
+      "translation_en": "Do you listen to this song?"
+    },
+    {
+      "lao_script": "ຟັງໃຫ້ດີນະ, ຂ້ອຍຈະບອກຄັ້ງດຽວ",
+      "romanization": "Fang hai dee na, khoi ja bok khang diao",
+      "translation_en": "Listen carefully, I'll only say it once."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with their hand cupped to their ear, actively listening with a focused expression, clean white background, colorful minimalist style suitable for a language learning app."
+}

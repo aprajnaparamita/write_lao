@@ -1,0 +1,398 @@
+{
+  "ປະຈຸບັນ": {
+    "definitions": {
+      "de": "Gegenwart; aktuell, derzeit, im Moment",
+      "en": "Current, present, nowadays; referring to the present time",
+      "es": "Actual, presente, actualmente; que pertenece al tiempo presente",
+      "fr": "Actuel, présent, de nos jours; qui appartient au temps présent",
+      "hi": "वर्तमान, अभी, आजकल; वर्तमान समय से संबंधित",
+      "ja": "現在、今現在、現時点での",
+      "km": "បច្ចុប្បន្ន, សព្វថ្ងៃ, ពេលនេះ",
+      "ko": "현재, 지금, 요즘",
+      "ne": "हालको, अहिलेको, वर्तमान समयलाई जनाउने शब्द",
+      "pt": "Atual, presente, atualmente; referente ao tempo presente",
+      "th": "ปัจจุบัน, ตอนนี้, ในยุคนี้",
+      "tl": "Kasalukuyan, ngayon, sa kasalukuyang panahon",
+      "ur": "موجودہ، ابھی، آج کل؛ حال کے وقت سے متعلق",
+      "vi": "Hiện tại, hiện nay, bây giờ; thuộc về thời điểm hiện tại",
+      "zh": "现在，目前，当今；指当前时间",
+      "zh_Hant": "現在，目前，當今；指當前時間"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "/pa.tɕu.ban/",
+    "examples": [
+      {
+        "lao_script": "ປະຈຸບັນນີ້ຂ້ອຍຢູ່ວຽງຈັນ",
+        "romanization": "pa.tɕu.ban níi khɔ̑i yuu viang.tɕan",
+        "translations": {
+          "de": "Im Moment lebe ich in Vientiane.",
+          "en": "Right now I'm living in Vientiane.",
+          "es": "Actualmente vivo en Vientián.",
+          "fr": "En ce moment, je vis à Vientiane.",
+          "hi": "अभी मैं वियनतियाने में रह रहा/रही हूँ।",
+          "ja": "今、私はビエンチャンにいます。",
+          "km": "ឥឡូវនេះ ខ្ញុំរស់នៅទីក្រុងវៀងចន្ទន៍។",
+          "ko": "지금 저는 비엔티안에 살고 있어요.",
+          "ne": "अहिले म भियन्टियानमा बसिरहेको छु।",
+          "pt": "Atualmente estou morando em Vientiane.",
+          "th": "ตอนนี้ฉันอยู่ที่เวียงจันทน์",
+          "tl": "Sa kasalukuyan, nakatira ako sa Vientiane.",
+          "ur": "ابھی میں وینتیان میں رہ رہا/رہی ہوں۔",
+          "vi": "Hiện tại tôi đang sống ở Viêng Chăn.",
+          "zh": "现在我住在万象。",
+          "zh_Hant": "現在我住在萬象。"
+        },
+        "out_of_scope_words": [
+          "ວຽງຈັນ"
+        ]
+      },
+      {
+        "lao_script": "ປະຈຸບັນລາຄາຂ້າວແພງຂຶ້ນຫຼາຍ",
+        "romanization": "pa.tɕu.ban laa.khaa khâaw phɛɛŋ khɯ̂n laaj",
+        "translations": {
+          "de": "Heutzutage ist der Reisspreis sehr gestiegen.",
+          "en": "These days the price of rice has gone up a lot.",
+          "es": "Hoy en día el precio del arroz ha subido mucho.",
+          "fr": "De nos jours, le prix du riz a beaucoup augmenté.",
+          "hi": "आजकल चावल की कीमत बहुत बढ़ गई है।",
+          "ja": "最近、お米の値段がとても上がっています。",
+          "km": "សព្វថ្ងៃតម្លៃអង្ករបានឡើងថ្លៃខ្លាំងណាស់។",
+          "ko": "요즘 쌀 가격이 많이 올랐어요.",
+          "ne": "आजकाल चामलको मूल्य धेरै बढेको छ।",
+          "pt": "Atualmente o preço do arroz subiu muito.",
+          "th": "ปัจจุบันราคาข้าวแพงขึ้นมาก",
+          "tl": "Sa ngayon, ang presyo ng bigas ay tumaas nang husto.",
+          "ur": "آج کل چاول کی قیمت بہت بڑھ گئی ہے۔",
+          "vi": "Hiện nay giá gạo đã tăng lên rất nhiều.",
+          "zh": "现在大米的价格涨了很多。",
+          "zh_Hant": "現在大米的價格漲了很多。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ຂ້າວ",
+          "ແພງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a calendar or clock showing 'today' or 'now', with a highlighted present-day marker and soft glowing effect, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປັກ": {
+    "definitions": {
+      "de": "Pflanzen, einstecken, hineinstecken; etwas in den Boden oder eine Oberfläche stecken",
+      "en": "To plant, to stick into, to insert; to push or place something into a surface",
+      "es": "Plantar, clavar, insertar; empujar o colocar algo en una superficie",
+      "fr": "Planter, enfoncer, insérer; pousser ou placer quelque chose dans une surface",
+      "hi": "लगाना, गाड़ना, चुभोना; किसी चीज़ को किसी सतह में धकेलना या लगाना",
+      "ja": "植える、刺す、差し込む；何かを地面や面に突き刺すこと",
+      "km": "ដាំ, ចាក់, សម្រុក; ដាក់អ្វីមួយចូលក្នុងផ្ទៃ",
+      "ko": "심다, 꽂다, 박다; 무언가를 표면에 꽂거나 심는 것",
+      "ne": "रोप्नु, गाड्नु, घोच्नु; कुनै चीज सतहमा भित्र हाल्नु",
+      "pt": "Plantar, fincar, inserir; empurrar ou colocar algo em uma superfície",
+      "th": "ปัก, ปลูก, เสียบ; การนำสิ่งของปักลงบนพื้นผิว",
+      "tl": "Magtanim, itusok, ipasok; isuot o ilagay ang isang bagay sa isang ibabaw",
+      "ur": "لگانا، گاڑنا، چبھونا؛ کسی چیز کو کسی سطح میں دھکیلنا یا لگانا",
+      "vi": "Cắm, trồng, cắm vào; đẩy hoặc đặt thứ gì đó vào một bề mặt",
+      "zh": "插，种，钉入；将某物插入或植入某个表面",
+      "zh_Hant": "插，種，釘入；將某物插入或植入某個表面"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pák/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍປັກທຸງໃສ່ດິນໜ່ອຍໄດ້ບໍ",
+        "romanization": "sùaj pák tʰuŋ sài din nɔ̀j dâj bɔɔ",
+        "translations": {
+          "de": "Kannst du mir helfen, die Flagge in den Boden zu stecken?",
+          "en": "Can you help me stick the flag into the ground?",
+          "es": "¿Puedes ayudarme a clavar la bandera en el suelo?",
+          "fr": "Tu peux m'aider à planter le drapeau dans le sol ?",
+          "hi": "क्या तुम मुझे ज़मीन में झंडा गाड़ने में मदद कर सकते हो?",
+          "ja": "旗を地面に刺すのを手伝ってもらえますか？",
+          "km": "អាចជួយខ្ញុំចាក់ទង់ជាតិចូលក្នុងដីបានទេ?",
+          "ko": "땅에 깃발 꽂는 거 좀 도와줄 수 있어요?",
+          "ne": "ज़मिनमा झन्डा गाड्न मलाई मद्दत गर्न सक्छौ?",
+          "pt": "Você pode me ajudar a fincar a bandeira no chão?",
+          "th": "ช่วยปักธงลงดินหน่อยได้ไหม",
+          "tl": "Maaari mo ba akong tulungan na itusok ang bandila sa lupa?",
+          "ur": "کیا تم مجھے زمین میں جھنڈا گاڑنے میں مدد کر سکتے ہو؟",
+          "vi": "Bạn có thể giúp tôi cắm lá cờ xuống đất không?",
+          "zh": "你能帮我把旗子插到地里吗？",
+          "zh_Hant": "你能幫我把旗子插到地裡嗎？"
+        },
+        "out_of_scope_words": [
+          "ທຸງ",
+          "ດິນ"
+        ]
+      },
+      {
+        "lao_script": "ແມ່ປັກຕົ້ນໄມ້ຢູ່ສວນຫຼັງເຮືອນ",
+        "romanization": "mɛɛ pák tôn mâaj yuu sǔan lǎŋ hɯ́an",
+        "translations": {
+          "de": "Mama pflanzt Bäume im Garten hinter dem Haus.",
+          "en": "Mom is planting trees in the backyard.",
+          "es": "Mamá está plantando árboles en el jardín trasero.",
+          "fr": "Maman plante des arbres dans le jardin derrière la maison.",
+          "hi": "माँ घर के पीछे बगीचे में पेड़ लगा रही है।",
+          "ja": "お母さんが家の裏庭に木を植えています。",
+          "km": "មាម់ដាំដើមឈើនៅសួននៅខាងក្រោយផ្ទះ។",
+          "ko": "엄마가 집 뒤뜰에 나무를 심고 있어요.",
+          "ne": "आमाले घरपछाडिको बगैँचामा रूख रोप्दै हुनुहुन्छ।",
+          "pt": "A mamãe está plantando árvores no quintal.",
+          "th": "แม่ปักต้นไม้อยู่ที่สวนหลังบ้าน",
+          "tl": "Nagtatanim ng mga puno ang nanay sa likod ng bahay.",
+          "ur": "امی گھر کے پچھلے باغ میں درخت لگا رہی ہیں۔",
+          "vi": "Mẹ đang trồng cây ở vườn sau nhà.",
+          "zh": "妈妈在屋后的花园里种树。",
+          "zh_Hant": "媽媽在屋後的花園裡種樹。"
+        },
+        "out_of_scope_words": [
+          "ແມ່",
+          "ຕົ້ນໄມ້",
+          "ສວນ",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person's hands pushing a small plant or flag stick firmly into the soil, with visible dirt around the base, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຜິດ": {
+    "definitions": {
+      "de": "Falsch, unrichtig, schuldig; einen Fehler gemacht haben oder gegen eine Regel verstoßen",
+      "en": "Wrong, incorrect, guilty; having made a mistake or violated a rule",
+      "es": "Incorrecto, equivocado, culpable; haber cometido un error o violado una regla",
+      "fr": "Faux, incorrect, coupable; avoir commis une erreur ou violé une règle",
+      "hi": "गलत, अनुचित, दोषी; कोई गलती करना या नियम तोड़ना",
+      "ja": "間違っている、誤り、罪がある；誤りを犯したり規則に違反したりすること",
+      "km": "ខុស, មិនត្រឹមត្រូវ, មានកំហុស; ធ្វើខុស ឬបំពានច្បាប់",
+      "ko": "틀리다, 잘못되다, 죄가 있다; 실수를 하거나 규칙을 위반한 것",
+      "ne": "गलत, दोषी; कुनै गल्ती गरेको वा नियम तोडेको",
+      "pt": "Errado, incorreto, culpado; ter cometido um erro ou violado uma regra",
+      "th": "ผิด, ไม่ถูกต้อง, มีความผิด; ทำผิดพลาดหรือละเมิดกฎ",
+      "tl": "Mali, may sala, nagkamali; gumawa ng pagkakamali o lumabag sa panuntunan",
+      "ur": "غلط، ناصحیح، قصوروار؛ غلطی کرنا یا قاعدہ توڑنا",
+      "vi": "Sai, sai lầm, có tội; đã mắc lỗi hoặc vi phạm quy tắc",
+      "zh": "错，错误，有罪；犯了错误或违反了规则",
+      "zh_Hant": "錯，錯誤，有罪；犯了錯誤或違反了規則"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/pʰìt/",
+    "examples": [
+      {
+        "lao_script": "ຂໍໂທດ ຂ້ອຍຜິດເອງ",
+        "romanization": "khɔ̌ɔ tʰôot khɔ̑i pʰìt eeŋ",
+        "translations": {
+          "de": "Entschuldigung, es ist meine eigene Schuld.",
+          "en": "Sorry, it's my own fault.",
+          "es": "Lo siento, es mi propia culpa.",
+          "fr": "Désolé, c'est de ma propre faute.",
+          "hi": "माफ करना, यह मेरी अपनी गलती है।",
+          "ja": "ごめん、自分が悪かった。",
+          "km": "សុំទោស កំហុសគឺជាកំហុសខ្ញុំផ្ទាល់។",
+          "ko": "미안해요, 제 잘못이에요.",
+          "ne": "माफ गर्नुस्, यो मेरै गल्ती हो।",
+          "pt": "Desculpe, a culpa é minha.",
+          "th": "ขอโทษ ฉันผิดเอง",
+          "tl": "Paumanhin, kasalanan ko ito.",
+          "ur": "معاف کریں، یہ میری اپنی غلطی ہے۔",
+          "vi": "Xin lỗi, đó là lỗi của tôi.",
+          "zh": "对不起，是我自己的错。",
+          "zh_Hant": "對不起，是我自己的錯。"
+        },
+        "out_of_scope_words": [
+          "ຂໍໂທດ"
+        ]
+      },
+      {
+        "lao_script": "ຄຳຕອບນີ້ຜິດ ລອງໃໝ່ອີກເທື່ອ",
+        "romanization": "kʰam tɔ̀ɔp níi pʰìt lɔɔŋ mài ìik tʰɯ̀a",
+        "translations": {
+          "de": "Diese Antwort ist falsch, versuch es nochmal.",
+          "en": "This answer is wrong, try again.",
+          "es": "Esta respuesta está mal, inténtalo de nuevo.",
+          "fr": "Cette réponse est fausse, réessaie.",
+          "hi": "यह जवाब गलत है, फिर से कोशिश करो।",
+          "ja": "この答えは間違っています、もう一度試してみてください。",
+          "km": "ចម្លើយនេះខុស សាកល្បងម្តងទៀត។",
+          "ko": "이 답은 틀렸어요, 다시 해봐요.",
+          "ne": "यो जवाफ गलत छ, फेरि प्रयास गर्नुस्।",
+          "pt": "Essa resposta está errada, tente de novo.",
+          "th": "คำตอบนี้ผิด ลองใหม่อีกครั้ง",
+          "tl": "Mali ang sagot na ito, subukan ulit.",
+          "ur": "یہ جواب غلط ہے، دوبارہ کوشش کریں۔",
+          "vi": "Câu trả lời này sai rồi, thử lại đi.",
+          "zh": "这个答案是错的，再试一次吧。",
+          "zh_Hant": "這個答案是錯的，再試一次吧。"
+        },
+        "out_of_scope_words": [
+          "ຄຳຕອບ",
+          "ລອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a red X mark over a piece of paper with a written answer, representing something being wrong or incorrect, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພູ": {
+    "definitions": {
+      "de": "Berg; ein großer, hoher Hügel oder eine Erhebung aus Fels und Erde",
+      "en": "Mountain; a large natural elevation of earth and rock",
+      "es": "Montaña; una gran elevación natural de tierra y roca",
+      "fr": "Montagne; une grande élévation naturelle de terre et de roche",
+      "hi": "पहाड़; पृथ्वी और चट्टान की एक बड़ी प्राकृतिक ऊंचाई",
+      "ja": "山；土と岩からなる大きな自然の高まり",
+      "km": "ភ្នំ; ភ្នំដ៏ធំដែលជាបណ្តុំដីនិងថ្ម",
+      "ko": "산; 흙과 바위로 이루어진 큰 자연 지형",
+      "ne": "पहाड; माटो र ढुङ्गाको ठूलो प्राकृतिक उचाइ",
+      "pt": "Montanha; uma grande elevação natural de terra e rocha",
+      "th": "ภูเขา; ความสูงตามธรรมชาติขนาดใหญ่ของดินและหิน",
+      "tl": "Bundok; isang malaking natural na taas ng lupa at bato",
+      "ur": "پہاڑ؛ زمین اور چٹانوں کی ایک بڑی قدرتی بلندی",
+      "vi": "Núi; một vùng đất và đá nổi cao tự nhiên lớn",
+      "zh": "山；由土壤和岩石构成的大型自然高地",
+      "zh_Hant": "山；由土壤和岩石構成的大型自然高地"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰúu/",
+    "examples": [
+      {
+        "lao_script": "ພູໃນລາວສູງຫຼາຍ ສວຍງາມດີ",
+        "romanization": "pʰúu nai láaw sǔuŋ laaj suaj ŋaam dii",
+        "translations": {
+          "de": "Die Berge in Laos sind sehr hoch und wunderschön.",
+          "en": "The mountains in Laos are very tall and beautiful.",
+          "es": "Las montañas en Laos son muy altas y hermosas.",
+          "fr": "Les montagnes au Laos sont très hautes et magnifiques.",
+          "hi": "लाओस में पहाड़ बहुत ऊँचे और सुंदर हैं।",
+          "ja": "ラオスの山々はとても高くて美しいです。",
+          "km": "ភ្នំនៅប្រទេសឡាវខ្ពស់ណាស់ ហើយស្អាតផង។",
+          "ko": "라오스의 산들은 정말 높고 아름다워요.",
+          "ne": "लाओसका पहाडहरू धेरै अग्ला र सुन्दर छन्।",
+          "pt": "As montanhas no Laos são muito altas e bonitas.",
+          "th": "ภูเขาในลาวสูงมากและสวยงามดีมาก",
+          "tl": "Ang mga bundok sa Laos ay napakataas at maganda.",
+          "ur": "لاؤس کے پہاڑ بہت اونچے اور خوبصورت ہیں۔",
+          "vi": "Núi ở Lào rất cao và đẹp.",
+          "zh": "老挝的山非常高，景色很美。",
+          "zh_Hant": "老撾的山非常高，景色很美。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ສູງ",
+          "ສວຍງາມ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກຂຶ້ນໄປຢ່ຽວພູນຳໝູ່ວັນອາທິດ",
+        "romanization": "jàak khɯ̂n paj jîaw pʰúu nam mùu wan aa.tʰít",
+        "translations": {
+          "de": "Ich möchte am Sonntag mit Freunden auf den Berg gehen.",
+          "en": "I want to go up the mountain with friends on Sunday.",
+          "es": "Quiero subir la montaña con amigos el domingo.",
+          "fr": "Je veux monter sur la montagne avec des amis dimanche.",
+          "hi": "मैं रविवार को दोस्तों के साथ पहाड़ पर चढ़ना चाहता/चाहती हूँ।",
+          "ja": "日曜日に友達と山に登りたいです。",
+          "km": "ចង់ឡើងទៅលើភ្នំជាមួយមិត្តភក្តិនៅថ្ងៃអាទិត្យ។",
+          "ko": "일요일에 친구들이랑 산에 올라가고 싶어요.",
+          "ne": "आइतबार साथीहरूसँग पहाड चढ्न जान चाहन्छु।",
+          "pt": "Quero subir a montanha com amigos no domingo.",
+          "th": "อยากขึ้นไปเที่ยวภูกับเพื่อนวันอาทิตย์",
+          "tl": "Gusto kong umakyat sa bundok kasama ang mga kaibigan sa Linggo.",
+          "ur": "اتوار کو دوستوں کے ساتھ پہاڑ پر جانا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn đi lên núi với bạn bè vào Chủ nhật.",
+          "zh": "我想周日和朋友们去爬山。",
+          "zh_Hant": "我想週日和朋友們去爬山。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່",
+          "ວັນອາທິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a green mountain with a clear peak against a blue sky, with small trees on the slopes, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມຽນ": {
+    "definitions": {
+      "de": "Myanmar; ein Land in Südostasien, auch bekannt als Burma",
+      "en": "Myanmar; a country in Southeast Asia, also known as Burma",
+      "es": "Myanmar; un país en el sudeste asiático, también conocido como Birmania",
+      "fr": "Myanmar; un pays d'Asie du Sud-Est, également connu sous le nom de Birmanie",
+      "hi": "म्यांमार; दक्षिण-पूर्व एशिया का एक देश, जिसे बर्मा भी कहते हैं",
+      "ja": "ミャンマー；東南アジアの国で、ビルマとも呼ばれる",
+      "km": "មីយ៉ាន់ម៉ា; ប្រទេសមួយនៅអាស៊ីអាគ្នេយ៍ ហៅថាភូមា",
+      "ko": "미얀마; 버마라고도 불리는 동남아시아의 나라",
+      "ne": "म्यानमार; दक्षिण-पूर्व एशियाको एउटा देश, जसलाई बर्माको नामले पनि चिनिन्छ",
+      "pt": "Myanmar; um país no Sudeste Asiático, também conhecido como Birmânia",
+      "th": "เมียนมา; ประเทศในเอเชียตะวันออกเฉียงใต้ หรือที่รู้จักในชื่อพม่า",
+      "tl": "Myanmar; isang bansa sa Timog-silangang Asya, kilala rin bilang Burma",
+      "ur": "میانمار؛ جنوب مشرقی ایشیا کا ایک ملک، جسے برما بھی کہتے ہیں",
+      "vi": "Myanmar; một quốc gia ở Đông Nam Á, còn được gọi là Miến Điện",
+      "zh": "缅甸；东南亚的一个国家，也叫做缅甸",
+      "zh_Hant": "緬甸；東南亞的一個國家，也叫做緬甸"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/míen/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂ້ອຍມາຈາກມຽນ",
+        "romanization": "pʰɯ̂an khɔ̑i maa tɕàak míen",
+        "translations": {
+          "de": "Mein Freund kommt aus Myanmar.",
+          "en": "My friend comes from Myanmar.",
+          "es": "Mi amigo/a viene de Myanmar.",
+          "fr": "Mon ami(e) vient du Myanmar.",
+          "hi": "मेरा दोस्त म्यांमार से आया/आई है।",
+          "ja": "私の友達はミャンマー出身です。",
+          "km": "មិត្តរបស់ខ្ញុំមកពីមីយ៉ាន់ម៉ា។",
+          "ko": "제 친구는 미얀마에서 왔어요.",
+          "ne": "मेरो साथी म्यानमारबाट आएको छ।",
+          "pt": "Meu amigo/a vem de Myanmar.",
+          "th": "เพื่อนฉันมาจากเมียนมา",
+          "tl": "Ang aking kaibigan ay nanggaling sa Myanmar.",
+          "ur": "میرا دوست میانمار سے آیا/آئی ہے۔",
+          "vi": "Bạn tôi đến từ Myanmar.",
+          "zh": "我的朋友来自缅甸。",
+          "zh_Hant": "我的朋友來自緬甸。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ"
+        ]
+      },
+      {
+        "lao_script": "ມຽນຢູ່ຕິດກັບລາວທາງທິດຕາເວັນຕົກ",
+        "romanization": "míen yuu tìt kàp láaw tʰaaŋ tʰít taa.wen.tók",
+        "translations": {
+          "de": "Myanmar liegt westlich an Laos angrenzend.",
+          "en": "Myanmar is located on the western border of Laos.",
+          "es": "Myanmar está ubicado al oeste, fronterizo con Laos.",
+          "fr": "Le Myanmar est situé à l'ouest, à la frontière avec le Laos.",
+          "hi": "म्यांमार लाओस के पश्चिम में स्थित है।",
+          "ja": "ミャンマーはラオスの西側に接しています。",
+          "km": "មីយ៉ាន់ម៉ានៅជាប់នឹងប្រទេសឡាវវិជ្ជាខាងលិច។",
+          "ko": "미얀마는 라오스의 서쪽 국경에 위치해 있어요.",
+          "ne": "म्यानमार लाओसको पश्चिम दिशामा सीमा लागेको छ।",
+          "pt": "Myanmar fica localizado na fronteira oeste do Laos.",
+          "th": "เมียนมาอยู่ติดกับลาวทางทิศตะวันตก",
+          "tl": "Ang Myanmar ay nasa kanlurang hangganan ng Laos.",
+          "ur": "میانمار لاؤس کی مغربی سرحد پر واقع ہے۔",
+          "vi": "Myanmar nằm ở phía tây giáp với Lào.",
+          "zh": "缅甸位于老挝的西部边界。",
+          "zh_Hant": "緬甸位於老撾的西部邊界。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ທິດຕາເວັນຕົກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the map outline of Myanmar with its national flag displayed beside it, set against a clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

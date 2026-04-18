@@ -1,0 +1,393 @@
+{
+  "ດັດ": {
+    "definitions": {
+      "de": "Etwas anpassen, geraderichten oder korrigieren; eine Form oder Position verändern",
+      "en": "To adjust, straighten, or correct something; to alter the shape or position of something",
+      "es": "Ajustar, enderezar o corregir algo; cambiar la forma o posición de algo",
+      "fr": "Ajuster, redresser ou corriger quelque chose; modifier la forme ou la position de quelque chose",
+      "hi": "किसी चीज़ को समायोजित करना, सीधा करना या ठीक करना; किसी चीज़ का आकार या स्थिति बदलना",
+      "ja": "何かを調整する、まっすぐにする、または修正する；形や位置を変える",
+      "km": "កែសម្រួល ត្រង់ឡើង ឬកែតម្រូវអ្វីមួយ; ផ្លាស់ប្តូររូបរាង ឬទីតាំងនៃអ្វីមួយ",
+      "ko": "무언가를 조정하거나, 바르게 하거나, 교정하다; 모양이나 위치를 바꾸다",
+      "ne": "केही चीज मिलाउनु, सिधा पार्नु वा सच्याउनु; कुनै चीजको आकार वा स्थिति परिवर्तन गर्नु",
+      "pt": "Ajustar, endireitar ou corrigir algo; alterar a forma ou posição de algo",
+      "th": "ปรับ ดัด หรือแก้ไขบางสิ่ง; เปลี่ยนรูปร่างหรือตำแหน่งของบางสิ่ง",
+      "tl": "Ayusin, ituwid, o itama ang isang bagay; baguhin ang hugis o posisyon ng isang bagay",
+      "ur": "کسی چیز کو ٹھیک کرنا، سیدھا کرنا یا درست کرنا؛ کسی چیز کی شکل یا پوزیشن تبدیل کرنا",
+      "vi": "Điều chỉnh, uốn thẳng hoặc sửa chữa thứ gì đó; thay đổi hình dạng hoặc vị trí của thứ gì đó",
+      "zh": "调整、矫正或校正某物；改变某物的形状或位置",
+      "zh_Hant": "調整、矯正或校正某物；改變某物的形狀或位置"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/dat/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຊ່ວຍດັດສາຍໄຟໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ່?",
+        "romanization": "jao suai dat saai fai hai khoi dae dai bor?",
+        "translations": {
+          "de": "Kannst du mir helfen, das Kabel geradzurichten?",
+          "en": "Can you help me straighten the wire?",
+          "es": "¿Puedes ayudarme a enderezar el cable?",
+          "fr": "Tu peux m'aider à redresser le fil ?",
+          "hi": "क्या तुम मुझे तार सीधा करने में मदद कर सकते हो?",
+          "ja": "ワイヤーをまっすぐにするのを手伝ってくれる？",
+          "km": "អ្នកអាចជួយខ្ញុំត្រង់ខ្សែបានទេ?",
+          "ko": "철사 똑바로 펴는 것 좀 도와줄 수 있어?",
+          "ne": "के तिमी तार सिधा पार्न मलाई मद्दत गर्न सक्छौ?",
+          "pt": "Você pode me ajudar a endireitar o fio?",
+          "th": "ช่วยดัดลวดให้ฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo bang tulungan akong ituwid ang kawad?",
+          "ur": "کیا تم تار سیدھی کرنے میں میری مدد کر سکتے ہو؟",
+          "vi": "Bạn có thể giúp tôi uốn thẳng sợi dây không?",
+          "zh": "你能帮我把电线弄直吗？",
+          "zh_Hant": "你能幫我把電線弄直嗎？"
+        },
+        "out_of_scope_words": [
+          "ສາຍໄຟ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຕ້ອງດັດຜົມໃໝ່ເພາະມັນບໍ່ສວຍ",
+        "romanization": "khoi tong dat phom mai phao man bor suai",
+        "translations": {
+          "de": "Ich muss meine Haare neu frisieren, weil sie nicht schön aussehen",
+          "en": "I need to redo my hair because it doesn't look nice",
+          "es": "Necesito arreglarme el cabello de nuevo porque no se ve bien",
+          "fr": "Je dois me recoiffer parce que ça ne fait pas beau",
+          "hi": "मुझे अपने बाल फिर से ठीक करने होंगे क्योंकि वे अच्छे नहीं लग रहे",
+          "ja": "髪型がきれいじゃないから、やり直さないといけない",
+          "km": "ខ្ញុំត្រូវតែស្រាក់សក់ម្តងទៀតព្រោះវាមើលទៅមិនស្អាត",
+          "ko": "머리가 예쁘지 않아서 다시 손질해야 해",
+          "ne": "मेरो कपाल राम्रो नदेखिएकाले फेरि मिलाउनु पर्छ",
+          "pt": "Preciso arrumar meu cabelo de novo porque não está bonito",
+          "th": "ฉันต้องดัดผมใหม่เพราะมันไม่สวย",
+          "tl": "Kailangan kong ayusin muli ang aking buhok dahil hindi maganda ang hitsura nito",
+          "ur": "مجھے اپنے بال دوبارہ ٹھیک کرنے ہوں گے کیونکہ یہ اچھے نہیں لگ رہے",
+          "vi": "Tôi cần làm lại tóc vì trông không đẹp",
+          "zh": "我需要重新整理头发，因为看起来不好看",
+          "zh_Hant": "我需要重新整理頭髮，因為看起來不好看"
+        },
+        "out_of_scope_words": [
+          "ຜົມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person straightening or adjusting a bent wire or rod with their hands, showing the before (bent/crooked) and after (straight) result, clean white background, colorful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດັນ": {
+    "definitions": {
+      "de": "Etwas oder jemanden schieben oder drücken, um es/ihn zu bewegen",
+      "en": "To push something or someone in order to move it/them",
+      "es": "Empujar algo o a alguien para moverlo",
+      "fr": "Pousser quelque chose ou quelqu'un pour le/la déplacer",
+      "hi": "किसी चीज़ या व्यक्ति को हिलाने के लिए धकेलना",
+      "ja": "何かや誰かを動かすために押す",
+      "km": "штурхати щось або когось, щоб воно/вони рухалися; штовхати щось або когось вперед",
+      "ko": "무언가 또는 누군가를 움직이기 위해 밀다",
+      "ne": "केही वा कसैलाई सार्नको लागि धकेल्नु",
+      "pt": "Empurrar algo ou alguém para movê-lo",
+      "th": "ดัน; ผลักสิ่งของหรือบุคคลเพื่อให้เคลื่อนที่",
+      "tl": "Itulak ang isang bagay o tao upang maigalaw ito",
+      "ur": "کسی چیز یا شخص کو حرکت دینے کے لیے دھکیلنا",
+      "vi": "Đẩy thứ gì đó hoặc ai đó để di chuyển",
+      "zh": "推动某物或某人使其移动",
+      "zh_Hant": "推動某物或某人使其移動"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/dan/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍດັນປະຕູນີ້ໃຫ້ແດ່ ມັນຕິດຢູ່",
+        "romanization": "suai dan pa-tu ni hai dae, man tit yu",
+        "translations": {
+          "de": "Hilf mir, diese Tür aufzustoßen, sie klemmt",
+          "en": "Help me push this door, it's stuck",
+          "es": "Ayúdame a empujar esta puerta, está atascada",
+          "fr": "Aide-moi à pousser cette porte, elle est coincée",
+          "hi": "इस दरवाज़े को धकेलने में मेरी मदद करो, यह अटका हुआ है",
+          "ja": "このドアを押すのを手伝って、引っかかってるよ",
+          "km": "ជួយខ្ញុំштовхати ទ្វារនេះផង វាជាប់នៅ",
+          "ko": "이 문 미는 것 좀 도와줘, 끼었어",
+          "ne": "यो ढोका धकेल्न मद्दत गर, यो अड्किएको छ",
+          "pt": "Me ajuda a empurrar essa porta, ela está travada",
+          "th": "ช่วยดันประตูนี้หน่อย มันติดอยู่",
+          "tl": "Tulungan mo akong itulak ang pintuan na ito, nakadikit ito",
+          "ur": "اس دروازے کو دھکیلنے میں میری مدد کرو، یہ پھنسا ہوا ہے",
+          "vi": "Giúp tôi đẩy cái cửa này, nó bị kẹt rồi",
+          "zh": "帮我推一下这扇门，它卡住了",
+          "zh_Hant": "幫我推一下這扇門，它卡住了"
+        },
+        "out_of_scope_words": [
+          "ປະຕູ",
+          "ຕິດ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າດັນຂ້ອຍ, ຂ້ອຍຈະລົ້ມ",
+        "romanization": "yaa dan khoi, khoi ja lom",
+        "translations": {
+          "de": "Schubs mich nicht, ich falle hin",
+          "en": "Don't push me, I'll fall",
+          "es": "No me empujes, me voy a caer",
+          "fr": "Ne me pousse pas, je vais tomber",
+          "hi": "मुझे मत धकेलो, मैं गिर जाऊंगा/जाऊंगी",
+          "ja": "押さないで、転んじゃうよ",
+          "km": "កុំштовхати ខ្ញុំ ខ្ញុំនឹងដួល",
+          "ko": "나 밀지 마, 넘어질 것 같아",
+          "ne": "मलाई नधकेल, म लड्छु",
+          "pt": "Não me empurra, vou cair",
+          "th": "อย่าดันฉัน ฉันจะล้ม",
+          "tl": "Huwag mo akong itulak, malalaglag ako",
+          "ur": "مجھے مت دھکیلو، میں گر جاؤں گا/گی",
+          "vi": "Đừng đẩy tôi, tôi sẽ ngã đấy",
+          "zh": "别推我，我会摔倒的",
+          "zh_Hant": "別推我，我會摔倒的"
+        },
+        "out_of_scope_words": [
+          "ລົ້ມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pushing a large box across the floor with both hands, showing motion lines to indicate movement, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດົມ": {
+    "definitions": {
+      "de": "An etwas riechen oder schnüffeln; den Geruch von etwas wahrnehmen",
+      "en": "To smell or sniff something; to perceive the scent of something using the nose",
+      "es": "Oler o olfatear algo; percibir el aroma de algo con la nariz",
+      "fr": "Sentir ou renifler quelque chose; percevoir l'odeur de quelque chose avec le nez",
+      "hi": "किसी चीज़ को सूंघना; नाक से किसी चीज़ की गंध को महसूस करना",
+      "ja": "何かにおいをかぐ、または嗅ぐ；鼻で何かの香りを感じる",
+      "km": "ស្ដាប់ក្លិន ឬស្ទុះក្លិនអ្វីមួយ; ដឹងពីក្លិនរបស់អ្វីមួយតាមច្រមុះ",
+      "ko": "무언가 냄새를 맡다 또는 코로 킁킁거리다; 코로 냄새를 감지하다",
+      "ne": "केही चीजको गन्ध लिनु वा सुँघ्नु; नाकले गन्ध महसुस गर्नु",
+      "pt": "Cheirar ou farejar algo; perceber o aroma de algo com o nariz",
+      "th": "ดม; สูดกลิ่นหรือสูดอากาศเพื่อรับรู้กลิ่นของบางสิ่ง",
+      "tl": "Amuin o ngimutin ang isang bagay; maramdaman ang amoy ng isang bagay gamit ang ilong",
+      "ur": "کسی چیز کو سونگھنا؛ ناک سے کسی چیز کی خوشبو یا بدبو محسوس کرنا",
+      "vi": "Ngửi hoặc hít hương thơm của thứ gì đó; cảm nhận mùi của thứ gì đó bằng mũi",
+      "zh": "闻或嗅某物；用鼻子感知某物的气味",
+      "zh_Hant": "聞或嗅某物；用鼻子感知某物的氣味"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/dom/",
+    "examples": [
+      {
+        "lao_script": "ດົມເບິ່ງ! ດອກໄມ້ນີ້ຫອມຫຼາຍ",
+        "romanization": "dom boeng! dok maai ni hom laai",
+        "translations": {
+          "de": "Riech mal! Diese Blume duftet so schön",
+          "en": "Smell this! This flower smells really nice",
+          "es": "¡Huele! Esta flor huele muy bien",
+          "fr": "Sens ça ! Cette fleur sent vraiment bon",
+          "hi": "सूंघकर देखो! यह फूल बहुत खुशबूदार है",
+          "ja": "においを嗅いでみて！この花、すごくいい香りがするよ",
+          "km": "ស្ដាប់ក្លិនមើល! ផ្កានេះក្រអូបណាស់",
+          "ko": "냄새 맡아봐! 이 꽃 향기 정말 좋아",
+          "ne": "सुँघेर हेर! यो फूल धेरै सुगन्धित छ",
+          "pt": "Cheira isso! Esta flor cheira muito bem",
+          "th": "ดมดูสิ! ดอกไม้นี้หอมมากเลย",
+          "tl": "Amuin mo! Ang bulaklak na ito ay napakabango",
+          "ur": "سونگھ کر دیکھو! یہ پھول بہت خوشبودار ہے",
+          "vi": "Ngửi thử xem! Bông hoa này thơm lắm",
+          "zh": "闻闻看！这朵花好香啊",
+          "zh_Hant": "聞聞看！這朵花好香啊"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້",
+          "ຫອມ"
+        ]
+      },
+      {
+        "lao_script": "ດົມນ້ຳນີ້ກ່ອນ ຂ້ອຍຢ້ານວ່າມັນເນົ່າແລ້ວ",
+        "romanization": "dom nam ni gon, khoi yaang waa man nao laeo",
+        "translations": {
+          "de": "Riech zuerst an dieser Milch, ich befürchte, sie ist schon sauer",
+          "en": "Smell this milk first, I'm afraid it's already gone bad",
+          "es": "Huele esta leche primero, me temo que ya se echó a perder",
+          "fr": "Sens d'abord ce lait, j'ai peur qu'il soit déjà tourné",
+          "hi": "पहले इस दूध को सूंघो, मुझे डर है कि यह खराब हो गया है",
+          "ja": "まずこの牛乳においを嗅いで、もう腐ってるんじゃないかと心配",
+          "km": "ស្ដាប់ក្លិនទឹកដោះគោនេះជាមុនសិន ខ្ញុំខ្លាចថាវាខូចហើយ",
+          "ko": "이 우유 먼저 냄새 맡아봐, 벌써 상한 것 같아서",
+          "ne": "यो दूध पहिले सुँघ, मलाई डर छ यो खराब भइसक्यो",
+          "pt": "Cheira esse leite primeiro, acho que já estragou",
+          "th": "ดมนมนี้ก่อนเลย ฉันกลัวว่ามันจะเสียแล้ว",
+          "tl": "Amuin muna ang gatas na ito, natatakot ako na masama na ito",
+          "ur": "پہلے اس دودھ کو سونگھو، مجھے ڈر ہے کہ یہ خراب ہو گیا ہے",
+          "vi": "Ngửi cái sữa này trước đi, tôi sợ nó đã hỏng rồi",
+          "zh": "先闻一下这个牛奶，我担心它已经变质了",
+          "zh_Hant": "先聞一下這個牛奶，我擔心它已經變質了"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ເນົ່າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person leaning in to smell a blooming flower, with small wavy scent lines rising from the flower to indicate aroma, clean white background, bright cheerful colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດ້ອຍ": {
+    "definitions": {
+      "de": "Minderwertig, unterlegen oder von geringerer Qualität; bezeichnet auch einen kleinen Hügel oder eine Erhebung im Gelände",
+      "en": "Inferior, lesser, or of lower quality/status; can also refer to a small hill or mound",
+      "es": "Inferior, menor o de menor calidad/estatus; también puede referirse a una pequeña colina o montículo",
+      "fr": "Inférieur, moindre ou de moindre qualité/statut; peut aussi désigner une petite colline ou butte",
+      "hi": "निम्न, कमतर, या कम गुणवत्ता/दर्जे का; एक छोटी पहाड़ी या टीले को भी संदर्भित कर सकता है",
+      "ja": "劣った、低い、または質や地位が低いこと；小さな丘や塚を指すこともある",
+      "km": "ទាបជាង, ថោកជាង ឬមានគុណភាព/ឋានៈទាប; អាចសំដៅទៅលើភ្នំតូចឬទំនប់ដីផងដែរ",
+      "ko": "열등한, 더 낮은, 또는 질/지위가 낮은; 작은 언덕이나 둔덕을 가리키기도 함",
+      "ne": "निम्न, कमजोर, वा कम गुणस्तर/हैसियतको; सानो पहाड वा टिला पनि बुझाउन सक्छ",
+      "pt": "Inferior, menor ou de menor qualidade/status; também pode se referir a uma pequena colina ou montículo",
+      "th": "ด้อย; ต่ำกว่า ด้อยกว่า หรือมีคุณภาพ/สถานะต่ำกว่า; ยังสามารถหมายถึงเนินเขาเล็กๆ ได้",
+      "tl": "Mababa, mas maba o may mas mababang kalidad/katayuan; maaari ding tumukoy sa isang maliit na burol",
+      "ur": "کمتر، ادنیٰ، یا کم معیار/حیثیت کا؛ ایک چھوٹی پہاڑی یا ٹیلے کو بھی ظاہر کر سکتا ہے",
+      "vi": "Kém hơn, thấp kém hơn, hoặc có chất lượng/địa vị thấp hơn; cũng có thể chỉ một ngọn đồi nhỏ",
+      "zh": "低劣的、较差的或质量/地位较低的；也可以指一个小山丘或土堆",
+      "zh_Hant": "低劣的、較差的或質量/地位較低的；也可以指一個小山丘或土堆"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/dɔːj/",
+    "examples": [
+      {
+        "lao_script": "ສິນຄ້ານີ້ດ້ອຍກວ່າອັນທີ່ຂ້ອຍຊື້ຄັ້ງກ່ອນ",
+        "romanization": "sin-kha ni doi kwaa an thi khoi sue khang gon",
+        "translations": {
+          "de": "Dieses Produkt ist minderwertiger als das, was ich letztes Mal gekauft habe",
+          "en": "This product is inferior to what I bought last time",
+          "es": "Este producto es inferior al que compré la vez pasada",
+          "fr": "Ce produit est moins bon que celui que j'ai acheté la dernière fois",
+          "hi": "यह उत्पाद उससे घटिया है जो मैंने पिछली बार खरीदा था",
+          "ja": "この商品は前回買ったものより質が劣っている",
+          "km": "ទំនិញនេះទាបជាងអ្វីដែលខ្ញុំទិញលើកមុន",
+          "ko": "이 상품은 지난번에 샀던 것보다 질이 떨어져",
+          "ne": "यो उत्पादन मैले पहिले किनेको भन्दा कमजोर छ",
+          "pt": "Este produto é inferior ao que eu comprei da última vez",
+          "th": "สินค้านี้ด้อยกว่าที่ฉันซื้อครั้งก่อน",
+          "tl": "Ang produktong ito ay mas mababa kaysa sa binili ko noong nakaraan",
+          "ur": "یہ پروڈکٹ اس سے کمتر ہے جو میں نے پچھلی بار خریدا تھا",
+          "vi": "Sản phẩm này kém hơn cái tôi mua lần trước",
+          "zh": "这个产品比我上次买的要差",
+          "zh_Hant": "這個產品比我上次買的要差"
+        },
+        "out_of_scope_words": [
+          "ສິນຄ້າ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຄິດວ່າຕົວເອງດ້ອຍກວ່າຄົນອື່ນ",
+        "romanization": "yaa khit waa tua-eng doi kwaa khon eun",
+        "translations": {
+          "de": "Denk nicht, dass du schlechter bist als andere",
+          "en": "Don't think that you are inferior to others",
+          "es": "No pienses que eres inferior a los demás",
+          "fr": "Ne pense pas que tu es inférieur(e) aux autres",
+          "hi": "यह मत सोचो कि तुम दूसरों से कमतर हो",
+          "ja": "自分が他の人より劣っていると思わないで",
+          "km": "កុំគិតថាខ្លួនឯងទាបជាងអ្នកដទៃ",
+          "ko": "자신이 다른 사람보다 못하다고 생각하지 마",
+          "ne": "आफूलाई अरूभन्दा कमजोर सम्झिनुहुन्न",
+          "pt": "Não pense que você é inferior aos outros",
+          "th": "อย่าคิดว่าตัวเองด้อยกว่าคนอื่น",
+          "tl": "Huwag mong isipin na mas mababa ka kaysa sa iba",
+          "ur": "یہ مت سوچو کہ تم دوسروں سے کمتر ہو",
+          "vi": "Đừng nghĩ rằng bản thân mình kém hơn người khác",
+          "zh": "不要认为自己比别人差",
+          "zh_Hant": "不要認為自己比別人差"
+        },
+        "out_of_scope_words": [
+          "ຕົວເອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two items side by side: one labeled as higher quality (bright, shiny, with a star) and one labeled as lower quality (dull, cracked, with a downward arrow), suitable for illustrating the concept of inferiority, clean white background, minimalist colorful style for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຕັງ": {
+    "definitions": {
+      "de": "Etwas aufstellen, installieren oder einrichten; etwas an einem bestimmten Ort positionieren oder montieren",
+      "en": "To set up, install, or establish something; to position or mount something in a specific place",
+      "es": "Instalar, montar o establecer algo; colocar o posicionar algo en un lugar específico",
+      "fr": "Installer, monter ou mettre en place quelque chose; positionner ou fixer quelque chose à un endroit précis",
+      "hi": "कुछ स्थापित करना, इंस्टॉल करना या लगाना; किसी विशेष स्थान पर कुछ रखना या जोड़ना",
+      "ja": "何かを設置する、取り付ける、または設立する；特定の場所に何かを配置または固定する",
+      "km": "ដំឡើង ติดตั้ง ឬបង្កើតអ្វីមួយ; ដាក់ ឬឧបត្ថម្ភអ្វីមួយនៅកន្លែងជាក់លាក់",
+      "ko": "무언가를 설치하거나, 세우거나, 설립하다; 특정 장소에 무언가를 놓거나 고정하다",
+      "ne": "केही स्थापना गर्नु, जडान गर्नु वा लगाउनु; कुनै निश्चित ठाउँमा केही राख्नु वा जोड्नु",
+      "pt": "Instalar, montar ou configurar algo; posicionar ou fixar algo em um lugar específico",
+      "th": "ตั้ง; ติดตั้ง วางตั้ง หรือจัดตั้งบางสิ่ง; วางหรือยึดบางสิ่งในสถานที่เฉพาะ",
+      "tl": "Mag-set up, mag-install, o magtatag ng isang bagay; ilagay o i-mount ang isang bagay sa isang partikular na lugar",
+      "ur": "کچھ نصب کرنا، قائم کرنا یا لگانا؛ کسی مخصوص جگہ پر کچھ رکھنا یا لگانا",
+      "vi": "Lắp đặt, cài đặt hoặc thiết lập thứ gì đó; đặt hoặc gắn thứ gì đó ở một nơi cụ thể",
+      "zh": "安装、设立或架设某物；将某物放置或固定在特定位置",
+      "zh_Hant": "安裝、設立或架設某物；將某物放置或固定在特定位置"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/taŋ/",
+    "examples": [
+      {
+        "lao_script": "ເຮົາຕ້ອງຕັງເຕັນທ໌ກ່ອນຝົນຈະຕົກ",
+        "romanization": "hao tong tang ten gon fon ja tok",
+        "translations": {
+          "de": "Wir müssen das Zelt aufstellen, bevor es regnet",
+          "en": "We need to set up the tent before it rains",
+          "es": "Tenemos que armar la tienda de campaña antes de que llueva",
+          "fr": "On doit monter la tente avant qu'il pleuve",
+          "hi": "बारिश से पहले हमें तंबू लगाना होगा",
+          "ja": "雨が降る前にテントを張らないと",
+          "km": "យើងត្រូវតែដំឡើងតង់ជាមុន មុននឹងភ្លៀងធ្លាក់",
+          "ko": "비 오기 전에 텐트 쳐야 해",
+          "ne": "पानी पर्नु अघि हामीले पाल लगाउनु पर्छ",
+          "pt": "Precisamos montar a barraca antes de chover",
+          "th": "เราต้องตั้งเต็นท์ก่อนฝนจะตก",
+          "tl": "Kailangan nating i-set up ang tolda bago umulan",
+          "ur": "بارش سے پہلے ہمیں خیمہ لگانا ہوگا",
+          "vi": "Chúng ta phải dựng lều trước khi trời mưa",
+          "zh": "我们得在下雨之前搭好帐篷",
+          "zh_Hant": "我們得在下雨之前搭好帳篷"
+        },
+        "out_of_scope_words": [
+          "ເຕັນທ໌",
+          "ຝົນ",
+          "ຕົກ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ກຳລັງຕັງໂທລະທັດໃໝ່ຢູ່ໃນຫ້ອງ",
+        "romanization": "pho gam-lang tang tho-la-that mai yu nai hong",
+        "translations": {
+          "de": "Papa stellt gerade den neuen Fernseher im Zimmer auf",
+          "en": "Dad is setting up the new TV in the room",
+          "es": "Papá está instalando la televisión nueva en la habitación",
+          "fr": "Papa est en train d'installer la nouvelle télé dans la chambre",
+          "hi": "पिताजी कमरे में नया टेलीविजन लगा रहे हैं",
+          "ja": "お父さんが部屋に新しいテレビを設置しているところ",
+          "km": "ប៉ាកំពុងដំឡើងទូរទស្សន៍ថ្មីនៅក្នុងបន្ទប់",
+          "ko": "아빠가 방에 새 TV 설치하고 계셔",
+          "ne": "बुवाले कोठामा नयाँ टेलिभिजन राख्दै हुनुहुन्छ",
+          "pt": "O pai está instalando a TV nova no quarto",
+          "th": "พ่อกำลังตั้งโทรทัศน์เครื่องใหม่ในห้อง",
+          "tl": "Nag-i-set up ang tatay ng bagong TV sa kwarto",
+          "ur": "ابو کمرے میں نئی ٹیلیویژن لگا رہے ہیں",
+          "vi": "Bố đang lắp cái TV mới trong phòng",
+          "zh": "爸爸正在房间里安装新电视",
+          "zh_Hant": "爸爸正在房間裡安裝新電視"
+        },
+        "out_of_scope_words": [
+          "ໂທລະທັດ",
+          "ຫ້ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person setting up or assembling a tent outdoors, with tent poles being positioned and fabric spread out, clean white background with a hint of green grass, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

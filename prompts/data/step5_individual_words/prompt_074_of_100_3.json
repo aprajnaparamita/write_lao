@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄູ",
+  "definitions": {
+    "de": "Lehrer/in; eine Person, die andere unterrichtet, besonders in einer Schule",
+    "en": "Teacher; a person who instructs or educates others, especially in a school setting",
+    "es": "Maestro/maestra, profesor/profesora; persona que enseña o educa a otros, especialmente en la escuela",
+    "fr": "Enseignant(e), professeur(e); une personne qui instruit ou éduque les autres, surtout dans un contexte scolaire",
+    "hi": "शिक्षक/शिक्षिका; एक व्यक्ति जो दूसरों को पढ़ाता या शिक्षित करता है, विशेष रूप से स्कूल में",
+    "ja": "先生、教師；他の人を教育したり指導したりする人、特に学校での教師",
+    "km": "គ្រូ, គ្រូបង្រៀន; មនុស្សដែលបង្រៀន ឬអប់រំអ្នកដទៃ ជាពិសេសនៅក្នុងសាលារៀន",
+    "ko": "선생님, 교사; 다른 사람을 가르치거나 교육하는 사람, 특히 학교에서",
+    "ne": "शिक्षक/शिक्षिका; अरूलाई पढाउने वा शिक्षित गर्ने व्यक्ति, विशेष गरी विद्यालयमा",
+    "pt": "Professor/professora; uma pessoa que instrui ou educa outras, especialmente em ambiente escolar",
+    "th": "ครู, อาจารย์; บุคคลที่สอนหรือให้การศึกษาแก่ผู้อื่น โดยเฉพาะในโรงเรียน",
+    "tl": "Guro, titser; isang tao na nagtuturo o nagbibigay-edukasyon sa iba, lalo na sa paaralan",
+    "ur": "استاد، معلم؛ وہ شخص جو دوسروں کو پڑھاتا یا تعلیم دیتا ہے، خاص طور پر اسکول میں",
+    "vi": "Giáo viên, thầy/cô giáo; người dạy học hoặc giáo dục người khác, đặc biệt trong môi trường học đường",
+    "zh": "老师，教师；教导或教育他人的人，尤其是在学校环境中",
+    "zh_Hant": "老師，教師；教導或教育他人的人，尤其是在學校環境中"
+  },
+  "definition_en": "Teacher; a person who instructs or educates others, especially in a school setting",
+  "romanization": "khuː",
+  "lao_examples": [
+    {
+      "lao_script": "ຄູຂອງຂ້ອຍໃຈດີຫຼາຍເລີຍ.",
+      "romanization": "khuː khɔːng khɔːi jai dii laai ləːi.",
+      "translation_en": "My teacher is really very kind."
+    },
+    {
+      "lao_script": "ມື້ນີ້ຄູບໍ່ມາສອນ, ເລີຍໄດ້ພັກ.",
+      "romanization": "muː nii khuː bɔː maa sɔːn, ləːi dai phak.",
+      "translation_en": "Today the teacher didn't come to teach, so we got a break."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly female teacher standing in front of a green chalkboard with a smile, holding a piece of chalk, clean white background, bright and cheerful colors, minimalist cartoon style suitable for a language learning app."
+}

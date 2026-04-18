@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປາງ",
+  "definitions": {
+    "de": "Bild, Abbild oder Haltung/Pose; insbesondere eine Statue oder Abbildung des Buddha in einer bestimmten rituellen Pose oder Geste",
+    "en": "Image, posture, or pose; especially a statue or depiction of the Buddha in a specific ritual posture or gesture",
+    "es": "Imagen, postura o pose; especialmente una estatua o representación del Buda en una postura o gesto ritual específico",
+    "fr": "Image, posture ou pose; en particulier une statue ou représentation du Bouddha dans une posture ou un geste rituel spécifique",
+    "hi": "छवि, मुद्रा या आसन; विशेष रूप से बुद्ध की एक विशिष्ट अनुष्ठान मुद्रा या भाव-भंगिमा में मूर्ति या चित्रण",
+    "ja": "像、姿勢、ポーズ；特に特定の儀式的な姿勢や手印をとった仏陀の像や描写",
+    "km": "រូបភាព ឬអាការៈ; ជាពិសេសសំណាក់ ឬរូបតំណាងព្រះពុទ្ធក្នុងអាការៈពិធីជាក់លាក់",
+    "ko": "형상, 자세, 포즈; 특히 특정 의례적 자세나 손짓을 취한 부처의 조각상이나 묘사",
+    "ne": "छवि, मुद्रा वा आसन; विशेष गरी एक विशेष अनुष्ठानिक मुद्रा वा इशारामा बुद्धको मूर्ति वा चित्रण",
+    "pt": "Imagem, postura ou pose; especialmente uma estátua ou representação do Buda em uma postura ou gesto ritual específico",
+    "th": "ภาพ ท่าทาง หรือปาง; โดยเฉพาะรูปปั้นหรือภาพของพระพุทธเจ้าในท่าทางพิธีกรรมเฉพาะ",
+    "tl": "Imahe, postura, o pose; lalo na ang isang estatwa o larawan ng Buddha sa isang tiyak na ritwal na postura o kilos",
+    "ur": "تصویر، مجسمہ یا کرنسی؛ خاص طور پر کسی مخصوص رسمی کرنسی یا اشارے میں بدھ کا مجسمہ یا تصویر",
+    "vi": "Hình ảnh, tư thế hoặc dáng đứng; đặc biệt là tượng hoặc hình ảnh của Đức Phật trong một tư thế hay cử chỉ nghi lễ cụ thể",
+    "zh": "形象、姿势或姿态；尤指以特定仪式姿势或手印呈现的佛像",
+    "zh_Hant": "形象、姿勢或姿態；尤指以特定儀式姿勢或手印呈現的佛像"
+  },
+  "definition_en": "Image, posture, or pose; especially a statue or depiction of the Buddha in a specific ritual posture or gesture",
+  "romanization": "paːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ວັດນີ້ມີປາງພຣະພຸດທະຮູບສວຍງາມ",
+      "romanization": "wát níː mii paːŋ pʰá.pʰút.tʰa.húːp suːaj ŋaːm",
+      "translation_en": "This temple has a beautiful Buddha image/posture."
+    },
+    {
+      "lao_script": "ປາງນີ້ໝາຍຄວາມວ່າ ພຣະພຸດທະເຈົ້າກຳລັງໝັ່ນໄຕ່ຕອງ",
+      "romanization": "paːŋ níː maːj kʰwaːm waː pʰá.pʰút.tʰa.tɕâw kam.laŋ man taj.tɔːŋ",
+      "translation_en": "This posture means that the Buddha is in deep meditation."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a serene golden Buddha statue in a classic meditation posture, seated cross-legged with hands in a mudra gesture, clean white background, warm golden tones, minimalist style suitable for a language learning app."
+}

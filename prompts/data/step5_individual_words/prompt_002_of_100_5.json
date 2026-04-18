@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເວລາ",
+  "definitions": {
+    "de": "Zeit; Zeitpunkt; Gelegenheit (auch 'wenn/als' im Satzanfang)",
+    "en": "time; moment; occasion (also 'when' at the start of a clause)",
+    "es": "tiempo; momento; ocasión (también 'cuando' al inicio de oración)",
+    "fr": "temps; moment; occasion (aussi 'quand' en début de phrase)",
+    "hi": "समय; क्षण; अवसर (वाक्य की शुरुआत में 'जब')",
+    "ja": "時間／時／〜するとき（名詞および時の接続)",
+    "km": "ពេលវេលា／ពេល (នាមបង្ហាញពេល ឬឈ្នាប់ 'ពេលដែល')",
+    "ne": "समय／बेला／जब (समय वा अवसर जनाउने)",
+    "pt": "tempo; momento; ocasião (também 'quando' no início de oração)",
+    "th": "เวลา (ช่วงเวลา, โอกาส หรือคำเชื่อม 'เมื่อ')",
+    "ko": "시간／~할 때 (명사 또는 시간 부사)",
+    "tl": "oras／panahon／kapag (oras o okasyon)",
+    "ur": "وقت؛ لمحہ؛ جب (وقت یا موقع)",
+    "vi": "thời gian; lúc; khi (danh từ thời gian hoặc 'khi')",
+    "zh": "时间／时候（时间、时刻或'当……时'）",
+    "zh_Hant": "時間／時候（時間、時刻或「當……時」）"
+  },
+  "definition_en": "time; moment; occasion (also 'when' at the start of a clause)",
+  "romanization": "wéː.láː",
+  "lao_examples": [
+    {
+      "lao_script": "ເວລາ ນີ້ ຂ້ອຍ ບໍ່ ວ່າງ",
+      "romanization": "wéː.láː nîː kʰɔ̂ːj bɔ̀ː wāːŋ",
+      "translation_en": "Right now I'm not free."
+    },
+    {
+      "lao_script": "ເວລາ ກິນ ເຂົ້າ ມາ ແລ້ວ",
+      "romanization": "wéː.láː kìn kʰȁw máː lɛ̂ːw",
+      "translation_en": "It's time to eat."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a round analog clock with large clear hands, suitable for a language learning app, clean white background, minimalist cartoon style, bright colors."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຜິດ",
+  "definitions": {
+    "de": "Falsch, unrichtig, schuldig; einen Fehler gemacht haben oder gegen eine Regel verstoßen",
+    "en": "Wrong, incorrect, guilty; having made a mistake or violated a rule",
+    "es": "Incorrecto, equivocado, culpable; haber cometido un error o violado una regla",
+    "fr": "Faux, incorrect, coupable; avoir commis une erreur ou violé une règle",
+    "hi": "गलत, अनुचित, दोषी; कोई गलती करना या नियम तोड़ना",
+    "ja": "間違っている、誤り、罪がある；誤りを犯したり規則に違反したりすること",
+    "km": "ខុស, មិនត្រឹមត្រូវ, មានកំហុស; ធ្វើខុស ឬបំពានច្បាប់",
+    "ko": "틀리다, 잘못되다, 죄가 있다; 실수를 하거나 규칙을 위반한 것",
+    "ne": "गलत, दोषी; कुनै गल्ती गरेको वा नियम तोडेको",
+    "pt": "Errado, incorreto, culpado; ter cometido um erro ou violado uma regra",
+    "th": "ผิด, ไม่ถูกต้อง, มีความผิด; ทำผิดพลาดหรือละเมิดกฎ",
+    "tl": "Mali, may sala, nagkamali; gumawa ng pagkakamali o lumabag sa panuntunan",
+    "ur": "غلط، ناصحیح، قصوروار؛ غلطی کرنا یا قاعدہ توڑنا",
+    "vi": "Sai, sai lầm, có tội; đã mắc lỗi hoặc vi phạm quy tắc",
+    "zh": "错，错误，有罪；犯了错误或违反了规则",
+    "zh_Hant": "錯，錯誤，有罪；犯了錯誤或違反了規則"
+  },
+  "definition_en": "Wrong, incorrect, guilty; having made a mistake or violated a rule",
+  "romanization": "/pʰìt/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂໍໂທດ ຂ້ອຍຜິດເອງ",
+      "romanization": "khɔ̌ɔ tʰôot khɔ̑i pʰìt eeŋ",
+      "translation_en": "Sorry, it's my own fault."
+    },
+    {
+      "lao_script": "ຄຳຕອບນີ້ຜິດ ລອງໃໝ່ອີກເທື່ອ",
+      "romanization": "kʰam tɔ̀ɔp níi pʰìt lɔɔŋ mài ìik tʰɯ̀a",
+      "translation_en": "This answer is wrong, try again."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a red X mark over a piece of paper with a written answer, representing something being wrong or incorrect, clean white background, colorful, minimalist style suitable for a language learning app."
+}

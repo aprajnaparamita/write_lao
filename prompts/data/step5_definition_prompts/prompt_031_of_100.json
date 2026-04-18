@@ -1,0 +1,384 @@
+{
+  "ພາຍ": {
+    "definitions": {
+      "de": "Paddel; auch verwendet als Präfix in ພາຍໃນ (innerhalb) und ພາຍນອກ (außerhalb), um räumliche oder abstrakte Beziehungen auszudrücken",
+      "en": "Paddle; also used as a prefix in ພາຍໃນ (within/inside) and ພາຍນອກ (outside), expressing spatial or abstract relational boundaries",
+      "es": "Remo; también usado como prefijo en ພາຍໃນ (dentro de) y ພາຍນອກ (fuera de), expresando límites espaciales o abstractos",
+      "fr": "Pagaie; également utilisé comme préfixe dans ພາຍໃນ (à l'intérieur) et ພາຍນອກ (à l'extérieur), exprimant des limites spatiales ou abstraites",
+      "hi": "पतवार/चप्पू; साथ ही ພາຍໃນ (के भीतर) और ພາຍນອກ (के बाहर) में उपसर्ग के रूप में प्रयुक्त, स्थानिक या अमूर्त सीमाओं को व्यक्त करता है",
+      "ja": "パドル（オール）；また ພາຍໃນ（〜の内側）や ພາຍນອກ（〜の外側）の接頭辞として使われ、空間的・抽象的な境界関係を表す",
+      "km": "ក្តាប់ចែក; ក៏ប្រើជាបុព្វបទក្នុង ພາຍໃນ (ខាងក្នុង) និង ພາຍນອກ (ខាងក្រៅ) ដើម្បីបញ្ជាក់ព្រំដែននៃទំនាក់ទំនង",
+      "ko": "노(패들); 또한 ພາຍໃນ(~안에/~이내에)와 ພາຍນອກ(~밖에)의 접두사로 사용되어 공간적 또는 추상적 경계 관계를 표현함",
+      "ne": "डुङ्गाको डाँडो (प्याडल); साथै ພາຍໃນ (भित्र) र ພາຍນອກ (बाहिर) मा उपसर्गको रूपमा प्रयोग गरिन्छ, स्थानिक वा अमूर्त सीमाहरू व्यक्त गर्दछ",
+      "pt": "Remo/pá; também usado como prefixo em ພາຍໃນ (dentro de) e ພາຍນອກ (fora de), expressando limites espaciais ou abstratos",
+      "th": "พาย (ไม้พาย); ยังใช้เป็นคำนำหน้าในคำ ພາຍໃນ (ภายใน) และ ພາຍນອກ (ภายนอก) เพื่อแสดงขอบเขตเชิงพื้นที่หรือเชิงนามธรรม",
+      "tl": "Sagwan; ginagamit din bilang unlapi sa ພາຍໃນ (sa loob/sa loob ng) at ພາຍນອກ (sa labas), na nagpapahayag ng spatial o abstract na hangganan",
+      "ur": "چپو (پیڈل)؛ نیز ພາຍໃນ (کے اندر) اور ພາຍນອກ (کے باہر) میں سابقے کے طور پر استعمال ہوتا ہے، مکانی یا تجریدی حدود کا اظہار کرتا ہے",
+      "vi": "Mái chèo; cũng được dùng làm tiền tố trong ພາຍໃນ (bên trong/trong vòng) và ພາຍນອກ (bên ngoài), diễn đạt các ranh giới không gian hoặc trừu tượng",
+      "zh": "桨；也作为前缀用于 ພາຍໃນ（在……之内）和 ພາຍນອກ（在……之外），表达空间或抽象的边界关系",
+      "zh_Hant": "槳；也作為前綴用於 ພາຍໃນ（在……之內）和 ພາຍນອກ（在……之外），表達空間或抽象的邊界關係"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰaːj³³/",
+    "examples": [
+      {
+        "lao_script": "ພາຍໃນບ້ານມີຫຼາຍຄົນ",
+        "romanization": "phaai nai baan mii laai khon",
+        "translations": {
+          "de": "Im Haus sind viele Menschen.",
+          "en": "Inside the house, there are many people.",
+          "es": "Dentro de la casa hay mucha gente.",
+          "fr": "Il y a beaucoup de gens à l'intérieur de la maison.",
+          "hi": "घर के भीतर बहुत सारे लोग हैं।",
+          "ja": "家の中にはたくさんの人がいる。",
+          "km": "ខាងក្នុងផ្ទះមានមនុស្សច្រើន។",
+          "ko": "집 안에 사람이 많아.",
+          "ne": "घरभित्र धेरै मानिसहरू छन्।",
+          "pt": "Dentro da casa há muitas pessoas.",
+          "th": "ภายในบ้านมีคนมากมาย",
+          "tl": "Sa loob ng bahay, maraming tao.",
+          "ur": "گھر کے اندر بہت سارے لوگ ہیں۔",
+          "vi": "Bên trong nhà có rất nhiều người.",
+          "zh": "房子里面有很多人。",
+          "zh_Hant": "房子裡面有很多人。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ເຮົາຕ້ອງສຳເລັດວຽກພາຍໃນອາທິດນີ້",
+        "romanization": "hao tong sam-let wiak phaai nai aa-thit nii",
+        "translations": {
+          "de": "Wir müssen die Arbeit innerhalb dieser Woche fertigstellen.",
+          "en": "We need to finish the work within this week.",
+          "es": "Necesitamos terminar el trabajo dentro de esta semana.",
+          "fr": "On doit finir le travail d'ici la fin de cette semaine.",
+          "hi": "हमें इस हफ्ते के भीतर काम पूरा करना होगा।",
+          "ja": "今週中に仕事を終わらせないといけない。",
+          "km": "យើងត្រូវបញ្ចប់ការងារក្នុងសប្តាហ៍នេះ។",
+          "ko": "이번 주 안에 일을 끝내야 해.",
+          "ne": "हामीले यो हप्ताभित्र काम सक्नुपर्छ।",
+          "pt": "Precisamos terminar o trabalho dentro desta semana.",
+          "th": "เราต้องทำงานให้เสร็จภายในสัปดาห์นี้",
+          "tl": "Kailangan nating tapusin ang trabaho sa loob ng linggong ito.",
+          "ur": "ہمیں اس ہفتے کے اندر کام مکمل کرنا ہے۔",
+          "vi": "Chúng ta cần hoàn thành công việc trong tuần này.",
+          "zh": "我们需要在这周之内完成工作。",
+          "zh_Hant": "我們需要在這週之內完成工作。"
+        },
+        "out_of_scope_words": [
+          "ສຳເລັດ",
+          "ອາທິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a wooden canoe paddle with a broad blade, shown from the front against a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຈ້ງ": {
+    "definitions": {
+      "de": "Informieren, benachrichtigen, mitteilen; jemandem offiziell oder förmlich etwas bekannt geben",
+      "en": "To inform, notify, or report; to officially or formally communicate information to someone",
+      "es": "Informar, notificar, comunicar; dar a conocer algo de manera oficial o formal a alguien",
+      "fr": "Informer, notifier, signaler; communiquer officiellement ou formellement une information à quelqu'un",
+      "hi": "सूचित करना, जानकारी देना, अधिसूचित करना; किसी को आधिकारिक या औपचारिक रूप से जानकारी देना",
+      "ja": "知らせる、通知する、報告する；公式または正式に誰かに情報を伝える",
+      "km": "ជូនដំណឹង, ប្រាប់, រាយការណ៍; ទំនាក់ទំនងព័ត៌មានដល់នរណាម្នាក់ដោយផ្លូវការ",
+      "ko": "알리다, 통보하다, 신고하다; 공식적으로 또는 격식을 갖추어 누군가에게 정보를 전달하다",
+      "ne": "सूचित गर्नु, जानकारी दिनु, खबर गर्नु; कसैलाई आधिकारिक वा औपचारिक रूपमा जानकारी दिनु",
+      "pt": "Informar, notificar, comunicar; transmitir formalmente uma informação a alguém",
+      "th": "แจ้ง, แจ้งให้ทราบ, แจ้งความ; สื่อสารข้อมูลอย่างเป็นทางการหรือเป็นทางการกับใครบางคน",
+      "tl": "Ipaalam, iabiso, iulat; opisyal o pormal na ipahayag ang impormasyon sa isang tao",
+      "ur": "اطلاع دینا، مطلع کرنا، رپورٹ کرنا؛ کسی کو باضابطہ یا رسمی طور پر معلومات فراہم کرنا",
+      "vi": "Thông báo, báo cáo, trình báo; truyền đạt thông tin một cách chính thức hoặc trang trọng cho ai đó",
+      "zh": "通知，告知，报告；以正式或官方的方式向某人传达信息",
+      "zh_Hant": "通知，告知，報告；以正式或官方的方式向某人傳達資訊"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tɕɛːŋ³³/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຕ້ອງໄປແຈ້ງຕຳຫຼວດກ່ອນເດີ້",
+        "romanization": "jao tong pai jaeng tam-luad kon doe",
+        "translations": {
+          "de": "Du musst zuerst zur Polizei gehen und es melden.",
+          "en": "You need to go report it to the police first.",
+          "es": "Primero tienes que ir a reportarlo a la policía.",
+          "fr": "Tu dois d'abord aller le signaler à la police.",
+          "hi": "तुम्हें पहले पुलिस को सूचित करने जाना होगा।",
+          "ja": "まず警察に届け出に行かないといけないよ。",
+          "km": "អ្នកត្រូវទៅជូនដំណឹងប៉ូលីសជាមុនសិន។",
+          "ko": "먼저 경찰에 신고하러 가야 해.",
+          "ne": "तिमीले पहिले पुलिसलाई खबर गर्न जानुपर्छ।",
+          "pt": "Você precisa ir até a polícia reportar primeiro.",
+          "th": "ต้องไปแจ้งตำรวจก่อนนะ",
+          "tl": "Kailangan mong pumunta at iulat sa pulisya muna.",
+          "ur": "تمہیں پہلے پولیس کو اطلاع دینے جانا ہوگا۔",
+          "vi": "Bạn phải đi trình báo với cảnh sát trước đã.",
+          "zh": "你得先去向警察报告。",
+          "zh_Hant": "你得先去向警察報告。"
+        },
+        "out_of_scope_words": [
+          "ຕຳຫຼວດ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍແຈ້ງໃຫ້ທຸກຄົນຮູ້ດ້ວຍເດີ້",
+        "romanization": "suai jaeng hai thuk khon huu duai doe",
+        "translations": {
+          "de": "Bitte informiere alle darüber.",
+          "en": "Please let everyone know about it.",
+          "es": "Por favor, avísale a todos.",
+          "fr": "Merci de prévenir tout le monde.",
+          "hi": "कृपया सभी को सूचित कर दो।",
+          "ja": "みんなに知らせておいてね。",
+          "km": "សូមជូនដំណឹងឱ្យគ្រប់គ្នាផងដែរ។",
+          "ko": "모두에게 알려줘.",
+          "ne": "सबैलाई जानकारी गराइदिनु होस्।",
+          "pt": "Por favor, avise a todos.",
+          "th": "ช่วยแจ้งให้ทุกคนรู้ด้วยนะ",
+          "tl": "Pakipaalam sa lahat.",
+          "ur": "براہ کرم سب کو اطلاع دے دو۔",
+          "vi": "Hãy giúp thông báo cho mọi người biết với.",
+          "zh": "请帮忙通知所有人。",
+          "zh_Hant": "請幫忙通知所有人。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person holding a megaphone or loudspeaker, making an announcement to a small group of listening people, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ພາກ": {
+    "definitions": {
+      "de": "Teil, Abschnitt, Region; ein geografisches Gebiet oder ein Teil eines größeren Ganzen (z. B. Norden, Süden, Kapitel eines Buches)",
+      "en": "Part, section, region; a geographic area or a portion of a larger whole (e.g., north, south, or a chapter of a book)",
+      "es": "Parte, sección, región; un área geográfica o una porción de un todo mayor (p. ej., norte, sur, o un capítulo de un libro)",
+      "fr": "Partie, section, région; une zone géographique ou une portion d'un tout plus grand (ex. : nord, sud, ou un chapitre d'un livre)",
+      "hi": "भाग, खंड, क्षेत्र; एक भौगोलिक क्षेत्र या किसी बड़े समग्र का एक हिस्सा (जैसे उत्तर, दक्षिण, या किताब का अध्याय)",
+      "ja": "部分、節、地域；地理的なエリアや大きな全体の一部（例：北部、南部、または本の章）",
+      "km": "ផ្នែក, តំបន់, ខេត្ត; តំបន់ភូមិសាស្ត្រ ឬផ្នែកមួយនៃទាំងអស់ (ឧ. ខាងជើង ខាងត្បូង ឬជំពូកនៅក្នុងសៀវភៅ)",
+      "ko": "부분, 구역, 지역; 지리적 구역이나 더 큰 전체의 일부 (예: 북부, 남부, 또는 책의 챕터)",
+      "ne": "भाग, खण्ड, क्षेत्र; एक भौगोलिक क्षेत्र वा ठूलो समग्रको एक अंश (जस्तै उत्तर, दक्षिण, वा पुस्तकको अध्याय)",
+      "pt": "Parte, seção, região; uma área geográfica ou uma porção de um todo maior (ex.: norte, sul ou um capítulo de livro)",
+      "th": "ภาค, ส่วน, บริเวณ; พื้นที่ทางภูมิศาสตร์หรือส่วนหนึ่งของสิ่งที่ใหญ่กว่า (เช่น ภาคเหนือ ภาคใต้ หรือบทในหนังสือ)",
+      "tl": "Bahagi, seksyon, rehiyon; isang lugar o bahagi ng isang mas malaking kabuuan (hal., hilaga, timog, o kabanata ng isang libro)",
+      "ur": "حصہ، قطعہ، علاقہ؛ ایک جغرافیائی علاقہ یا کسی بڑے کل کا ایک حصہ (جیسے شمال، جنوب، یا کتاب کا باب)",
+      "vi": "Phần, khu vực, vùng; một vùng địa lý hoặc một phần của tổng thể lớn hơn (ví dụ: phía Bắc, phía Nam, hoặc chương của cuốn sách)",
+      "zh": "部分、区域、地区；地理区域或更大整体的一部分（如北部、南部，或书的章节）",
+      "zh_Hant": "部分、區域、地區；地理區域或更大整體的一部分（如北部、南部，或書的章節）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰaːk²²/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າມາຈາກພາກໃດຂອງລາວ",
+        "romanization": "jao maa jaak phaak dai khong laao",
+        "translations": {
+          "de": "Aus welchem Teil von Laos kommst du?",
+          "en": "Which part of Laos do you come from?",
+          "es": "¿De qué parte de Laos eres?",
+          "fr": "Tu viens de quelle région du Laos ?",
+          "hi": "तुम लाओस के किस हिस्से से आए हो?",
+          "ja": "ラオスのどの地域から来たの？",
+          "km": "អ្នកមកពីតំបន់ណានៃប្រទេសឡាវ?",
+          "ko": "라오스 어느 지역에서 왔어?",
+          "ne": "तिमी लाओसको कुन भागबाट आएका हौ?",
+          "pt": "De qual parte do Laos você é?",
+          "th": "เธอมาจากภาคไหนของลาว",
+          "tl": "Saang bahagi ng Laos ka nanggaling?",
+          "ur": "آپ لاؤس کے کس حصے سے ہیں؟",
+          "vi": "Bạn đến từ vùng nào của Lào?",
+          "zh": "你来自老挝的哪个地区？",
+          "zh_Hant": "你來自寮國的哪個地區？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ພາກເໜືອຂອງລາວອາກາດເຢັນກວ່າ",
+        "romanization": "phaak nuea khong laao aa-gaat yen kwaa",
+        "translations": {
+          "de": "Der Norden von Laos ist kälter.",
+          "en": "The northern part of Laos is cooler.",
+          "es": "La parte norte de Laos es más fresca.",
+          "fr": "La région nord du Laos est plus fraîche.",
+          "hi": "लाओस का उत्तरी भाग ज़्यादा ठंडा है।",
+          "ja": "ラオスの北部の方が涼しい。",
+          "km": "តំបន់ខាងជើងនៃប្រទេសឡាវត្រជាក់ជាង។",
+          "ko": "라오스 북부 지역이 더 시원해.",
+          "ne": "लाओसको उत्तरी भाग बढी चिसो छ।",
+          "pt": "A parte norte do Laos é mais fria.",
+          "th": "ภาคเหนือของลาวอากาศเย็นกว่า",
+          "tl": "Ang hilagang bahagi ng Laos ay mas malamig.",
+          "ur": "لاؤس کا شمالی حصہ زیادہ ٹھنڈا ہے۔",
+          "vi": "Vùng phía Bắc của Lào mát hơn.",
+          "zh": "老挝的北部气候更凉爽。",
+          "zh_Hant": "寮國的北部氣候更涼爽。"
+        },
+        "out_of_scope_words": [
+          "ເໜືອ",
+          "ອາກາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a map divided into clearly labeled colored regions or sections, with one region highlighted in a bright color, clean white background, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຖື": {
+    "definitions": {
+      "de": "Halten, tragen, in der Hand halten; etwas mit den Händen festhalten oder bei sich tragen",
+      "en": "To hold, carry, or grasp; to keep something in one's hands or to carry something on one's person",
+      "es": "Sostener, cargar, sujetar; tener algo en las manos o llevar algo consigo",
+      "fr": "Tenir, porter, saisir; garder quelque chose dans les mains ou transporter quelque chose sur soi",
+      "hi": "पकड़ना, थामना, उठाना; कुछ हाथों में रखना या अपने साथ लेकर चलना",
+      "ja": "持つ、握る、抱える；手の中に何かを保持したり、身につけて運んだりする",
+      "km": "កាន់, ប្រដាប់, យក; ដៃកាន់អ្វីមួយ ឬនាំយ៉ាងអ្វីមួយទៅជាមួយខ្លួន",
+      "ko": "들다, 잡다, 쥐다, 들고 다니다; 무언가를 손에 쥐고 있거나 몸에 지니고 다니다",
+      "ne": "समात्नु, बोक्नु, थाम्नु; केही हातमा राख्नु वा आफूसँग लिएर हिँड्नु",
+      "pt": "Segurar, carregar, pegar; manter algo nas mãos ou carregar algo consigo",
+      "th": "ถือ, จับ, อุ้ม; จับหรือพกพาสิ่งของไว้ในมือหรือติดตัว",
+      "tl": "Hawakan, bitbitin, dalhin; hawakan ang isang bagay sa mga kamay o magdala ng isang bagay",
+      "ur": "پکڑنا، تھامنا، اٹھانا؛ کسی چیز کو ہاتھوں میں رکھنا یا اپنے ساتھ لے کر چلنا",
+      "vi": "Cầm, giữ, mang; giữ thứ gì đó trong tay hoặc mang theo bên người",
+      "zh": "拿，握，持；用手拿着某物或随身携带某物",
+      "zh_Hant": "拿，握，持；用手拿著某物或隨身攜帶某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰɯː²²/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍຖືກະເປົ໋າໃຫ້ຂ້ອຍແປໄດ້ບໍ",
+        "romanization": "suai thuu ga-pao hai khoi pae dai bor",
+        "translations": {
+          "de": "Kannst du bitte meine Tasche für mich halten?",
+          "en": "Can you hold my bag for me for a moment?",
+          "es": "¿Me puedes sostener la bolsa un momento?",
+          "fr": "Tu peux tenir mon sac pour moi un instant ?",
+          "hi": "क्या तुम मेरे लिए मेरा बैग थोड़ी देर पकड़ सकते हो?",
+          "ja": "ちょっとバッグ持っててくれる？",
+          "km": "ជួយកាន់កាបូបឱ្យខ្ញុំបន្តិចបានទេ?",
+          "ko": "잠깐 내 가방 좀 들어줄 수 있어?",
+          "ne": "मेरो झोला अलिकति समातिदिन सक्छौ?",
+          "pt": "Pode segurar minha bolsa por um momento?",
+          "th": "ช่วยถือกระเป๋าให้หน่อยได้ไหม",
+          "tl": "Maaari mo bang hawakan ang aking bag sandali?",
+          "ur": "کیا تم میرا بیگ ذرا پکڑ سکتے ہو؟",
+          "vi": "Bạn có thể cầm giúp cái túi của mình một lúc không?",
+          "zh": "你能帮我拿一下包吗？",
+          "zh_Hant": "你能幫我拿一下包嗎？"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຖືດອກໄມ້ສວຍຫຼາຍ",
+        "romanization": "laao thuu dok maai suai laai",
+        "translations": {
+          "de": "Sie hält sehr schöne Blumen.",
+          "en": "She is holding very beautiful flowers.",
+          "es": "Ella sostiene unas flores muy bonitas.",
+          "fr": "Elle tient de très belles fleurs.",
+          "hi": "वह बहुत सुंदर फूल पकड़े हुई है।",
+          "ja": "彼女はとてもきれいな花を持っている。",
+          "km": "នាងកាន់ផ្កាស្អាតណាស់។",
+          "ko": "그녀는 매우 예쁜 꽃을 들고 있어.",
+          "ne": "उनी धेरै सुन्दर फूल समातेकी छिन्।",
+          "pt": "Ela está segurando flores muito bonitas.",
+          "th": "เธอถือดอกไม้สวยมาก",
+          "tl": "Hawak niya ang napakagandang mga bulaklak.",
+          "ur": "وہ بہت خوبصورت پھول پکڑے ہوئے ہے۔",
+          "vi": "Cô ấy đang cầm những bông hoa rất đẹp.",
+          "zh": "她拿着非常漂亮的花。",
+          "zh_Hant": "她拿著非常漂亮的花。"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person holding a colorful bag or a bouquet of flowers in their hands, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສອນ": {
+    "definitions": {
+      "de": "Lehren, unterrichten; jemandem Wissen, Fähigkeiten oder Verhaltensweisen beibringen",
+      "en": "To teach, to instruct; to impart knowledge, skills, or behaviors to someone",
+      "es": "Enseñar, instruir; impartir conocimientos, habilidades o comportamientos a alguien",
+      "fr": "Enseigner, instruire; transmettre des connaissances, des compétences ou des comportements à quelqu'un",
+      "hi": "सिखाना, पढ़ाना; किसी को ज्ञान, कौशल या आचरण सिखाना",
+      "ja": "教える、指導する；誰かに知識、スキル、または行動を教え伝える",
+      "km": "បង្រៀន, ណែនាំ; ផ្តល់ចំណេះដឹង ជំនាញ ឬអាកប្បកិរិយាដល់នរណាម្នាក់",
+      "ko": "가르치다, 교육하다; 누군가에게 지식, 기술 또는 행동을 전달하다",
+      "ne": "सिकाउनु, पढाउनु; कसैलाई ज्ञान, सीप वा व्यवहार सिकाउनु",
+      "pt": "Ensinar, instruir; transmitir conhecimentos, habilidades ou comportamentos a alguém",
+      "th": "สอน, สั่งสอน; ถ่ายทอดความรู้ ทักษะ หรือพฤติกรรมให้กับใครสักคน",
+      "tl": "Magturo, turuan; ipahayag ang kaalaman, kasanayan, o gawi sa isang tao",
+      "ur": "سکھانا، پڑھانا؛ کسی کو علم، مہارت یا طرز عمل سکھانا",
+      "vi": "Dạy, dạy học, hướng dẫn; truyền đạt kiến thức, kỹ năng hoặc hành vi cho ai đó",
+      "zh": "教，教导，传授；向某人传授知识、技能或行为",
+      "zh_Hant": "教，教導，傳授；向某人傳授知識、技能或行為"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sɔːn³³/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ສອນຂ້ອຍເຮັດອາຫານຕອນນ້ອຍ",
+        "romanization": "mae son khoi het aa-haan ton noi",
+        "translations": {
+          "de": "Meine Mutter hat mir als Kind das Kochen beigebracht.",
+          "en": "My mom taught me how to cook when I was little.",
+          "es": "Mi mamá me enseñó a cocinar cuando era pequeño/a.",
+          "fr": "Ma mère m'a appris à cuisiner quand j'étais petit(e).",
+          "hi": "माँ ने मुझे बचपन में खाना बनाना सिखाया।",
+          "ja": "お母さんが小さい頃に料理を教えてくれた。",
+          "km": "ម្តាយបង្រៀនខ្ញុំធ្វើម្ហូបពេលនៅក្មេង។",
+          "ko": "엄마가 어렸을 때 요리하는 법을 가르쳐 줬어.",
+          "ne": "आमाले मलाई सानैमा खाना पकाउन सिकाउनुभयो।",
+          "pt": "Minha mãe me ensinou a cozinhar quando eu era pequeno(a).",
+          "th": "แม่สอนฉันทำอาหารตอนเด็ก",
+          "tl": "Tinuruan ako ng nanay ko magluto noong bata pa ako.",
+          "ur": "ماں نے مجھے بچپن میں کھانا پکانا سکھایا۔",
+          "vi": "Mẹ dạy tôi nấu ăn hồi còn nhỏ.",
+          "zh": "我妈妈小时候教我做饭。",
+          "zh_Hant": "我媽媽小時候教我做飯。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ຕອນນ້ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າສອນພາສາລາວໃຫ້ຄົນຕ່າງປະເທດໄດ້ບໍ",
+        "romanization": "jao son phaa-saa laao hai khon taang-pa-thet dai bor",
+        "translations": {
+          "de": "Kannst du Ausländern Laotisch beibringen?",
+          "en": "Can you teach Lao to foreigners?",
+          "es": "¿Puedes enseñar lao a los extranjeros?",
+          "fr": "Tu peux enseigner le laotien à des étrangers ?",
+          "hi": "क्या तुम विदेशियों को लाओ भाषा सिखा सकते हो?",
+          "ja": "外国人にラオス語を教えられる？",
+          "km": "តើអ្នកអាចបង្រៀនភាសាឡាវដល់ជនបរទេសបានទេ?",
+          "ko": "외국인들에게 라오어를 가르칠 수 있어?",
+          "ne": "के तिमी विदेशीहरूलाई लाओ भाषा सिकाउन सक्छौ?",
+          "pt": "Você consegue ensinar laosiano para estrangeiros?",
+          "th": "คุณสอนภาษาลาวให้ชาวต่างชาติได้ไหม",
+          "tl": "Kaya mo bang ituro ang wikang Lao sa mga dayuhan?",
+          "ur": "کیا تم غیر ملکیوں کو لاؤ زبان سکھا سکتے ہو؟",
+          "vi": "Bạn có thể dạy tiếng Lào cho người nước ngoài không?",
+          "zh": "你能教外国人老挝语吗？",
+          "zh_Hant": "你能教外國人寮語嗎？"
+        },
+        "out_of_scope_words": [
+          "ຕ່າງປະເທດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful teacher standing in front of a small chalkboard, pointing to letters written on it, with one or two students sitting and listening, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

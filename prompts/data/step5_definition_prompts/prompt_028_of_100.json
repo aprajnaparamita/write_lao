@@ -1,0 +1,396 @@
+{
+  "ລີ": {
+    "definitions": {
+      "de": "Eine Silbe, die hauptsächlich in laotischen Eigennamen vorkommt; hat keine eigenständige Standardbedeutung im Alltag.",
+      "en": "A syllable primarily found in Lao personal names; has no common standalone meaning in everyday usage.",
+      "es": "Una sílaba que aparece principalmente en nombres propios laosianos; no tiene un significado independiente común en el uso cotidiano.",
+      "fr": "Une syllabe que l'on trouve principalement dans les noms propres laotiens ; n'a pas de signification autonome courante dans l'usage quotidien.",
+      "hi": "एक शब्दांश जो मुख्यतः लाओ व्यक्तिवाचक नामों में पाया जाता है; दैनिक उपयोग में इसका कोई सामान्य स्वतंत्र अर्थ नहीं है।",
+      "ja": "主にラオス人の人名に見られる音節。日常的な単独使用での一般的な意味はない。",
+      "km": "ព្យាង្គដែលត្រូវបានប្រើជាចម្បងក្នុងឈ្មោះបុគ្គលភាសាឡាវ; គ្មានន័យឯករាជ្យទូទៅក្នុងការប្រើប្រាស់ប្រចាំថ្ងៃ។",
+      "ko": "주로 라오스 인명에 사용되는 음절로, 일상적인 단독 사용에서는 일반적인 독립적 의미가 없다.",
+      "ne": "मुख्यतः लाओ व्यक्तिवाचक नामहरूमा पाइने एउटा शब्दांश; दैनिक प्रयोगमा यसको कुनै सामान्य स्वतन्त्र अर्थ छैन।",
+      "pt": "Uma sílaba encontrada principalmente em nomes próprios laocianos; não tem um significado independente comum no uso cotidiano.",
+      "th": "พยางค์ที่พบส่วนใหญ่ในชื่อบุคคลชาวลาว ไม่มีความหมายที่ใช้โดยลำพังในชีวิตประจำวัน",
+      "tl": "Isang pantig na pangunahing makikita sa mga personal na pangalan ng mga Lao; walang karaniwang independyenteng kahulugan sa pang-araw-araw na paggamit.",
+      "ur": "ایک حرف جو بنیادی طور پر لاؤ ناموں میں پایا جاتا ہے؛ روزمرہ استعمال میں اس کا کوئی عام آزادانہ معنی نہیں ہے۔",
+      "vi": "Một âm tiết chủ yếu xuất hiện trong tên riêng của người Lào; không có nghĩa độc lập phổ biến trong sử dụng hàng ngày.",
+      "zh": "主要出现在老挝人名中的一个音节，在日常使用中没有常见的独立含义。",
+      "zh_Hant": "主要出現在寮國人名中的一個音節，在日常使用中沒有常見的獨立含義。"
+    },
+    "part_of_speech": "particle",
+    "romanization": "liː³³",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍຊື່ ລີ, ລາວໃຈດີຫຼາຍ.",
+        "romanization": "phʉan khɔng khɔj sʉː liː, laːw tɕaj diː laːj",
+        "translations": {
+          "de": "Mein Freund heißt Li, er ist sehr freundlich.",
+          "en": "My friend's name is Li, she is very kind.",
+          "es": "Mi amigo se llama Li, es muy amable.",
+          "fr": "Mon ami s'appelle Li, il est très gentil.",
+          "hi": "मेरे दोस्त का नाम ली है, वह बहुत दयालु है।",
+          "ja": "私の友達はリーという名前で、とても優しいです。",
+          "km": "មិត្តរបស់ខ្ញុំឈ្មោះ លី គាត់ចិត្តល្អណាស់។",
+          "ko": "내 친구 이름은 리인데, 그녀는 정말 친절해요.",
+          "ne": "मेरो साथीको नाम ली हो, उ धेरै दयालु छ।",
+          "pt": "O nome do meu amigo é Li, ele é muito gentil.",
+          "th": "เพื่อนของฉันชื่อลี เขาใจดีมาก",
+          "tl": "Ang pangalan ng aking kaibigan ay Li, siya ay napaka-mabait.",
+          "ur": "میرے دوست کا نام لی ہے، وہ بہت مہربان ہے۔",
+          "vi": "Bạn tôi tên là Li, cô ấy rất tốt bụng.",
+          "zh": "我的朋友叫李，她非常友善。",
+          "zh_Hant": "我的朋友叫李，她非常友善。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ໃຈດີ"
+        ]
+      },
+      {
+        "lao_script": "ລີ ເປັນຊື່ທີ່ຄົນລາວຊອບໃຊ້ຫຼາຍ.",
+        "romanization": "liː pen sʉː thiː khon laːw sɔːp saːj laːj",
+        "translations": {
+          "de": "Li ist ein Name, den Laoten sehr gern verwenden.",
+          "en": "Li is a name that Lao people use very often.",
+          "es": "Li es un nombre que los laosianos usan con mucha frecuencia.",
+          "fr": "Li est un prénom que les Laotiens aiment beaucoup utiliser.",
+          "hi": "ली एक ऐसा नाम है जिसे लाओ लोग बहुत अधिक उपयोग करते हैं।",
+          "ja": "リーはラオス人がとてもよく使う名前です。",
+          "km": "លី គឺជាឈ្មោះដែលជនជាតិឡាវនិយមប្រើប្រាស់ច្រើន។",
+          "ko": "리는 라오스 사람들이 자주 사용하는 이름이에요.",
+          "ne": "ली एउटा यस्तो नाम हो जुन लाओ मान्छेहरूले धेरै मनपराउँछन्।",
+          "pt": "Li é um nome que os laocianos usam com muita frequência.",
+          "th": "ลี เป็นชื่อที่คนลาวชอบใช้กันมาก",
+          "tl": "Ang Li ay isang pangalan na madalas gamitin ng mga Lao.",
+          "ur": "لی ایک ایسا نام ہے جو لاؤ لوگ اکثر استعمال کرتے ہیں۔",
+          "vi": "Li là tên mà người Lào rất hay dùng.",
+          "zh": "李是老挝人非常常用的名字。",
+          "zh_Hant": "李是寮國人非常常用的名字。"
+        },
+        "out_of_scope_words": [
+          "ຊອບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a name tag or badge with the name 'Li' written on it, decorated with a small Lao-style floral motif, clean white background, colorful pastel colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ເວົ້າ": {
+    "definitions": {
+      "de": "Sprechen, reden; das häufigste Verb für verbale Kommunikation im Laotischen.",
+      "en": "To speak, to talk, to say; the most common verb for verbal communication in Lao.",
+      "es": "Hablar, decir; el verbo más común para la comunicación verbal en lao.",
+      "fr": "Parler, dire ; le verbe le plus courant pour la communication verbale en laotien.",
+      "hi": "बोलना, कहना; लाओ में मौखिक संवाद के लिए सबसे सामान्य क्रिया।",
+      "ja": "話す、言う；ラオ語で口頭コミュニケーションを表す最も一般的な動詞。",
+      "km": "និយាយ, ប្រាប់; គ្រាប់ពាក្យសំរាប់ការប្រាស្រ័យទាក់ទងដោយពាក្យសំដីទូទៅបំផុតក្នុងភាសាឡាវ។",
+      "ko": "말하다, 이야기하다; 라오어에서 구두 의사소통을 나타내는 가장 일반적인 동사.",
+      "ne": "बोल्नु, भन्नु; लाओ भाषामा मौखिक सञ्चारको लागि सबैभन्दा सामान्य क्रिया।",
+      "pt": "Falar, dizer; o verbo mais comum para comunicação verbal em lao.",
+      "th": "พูด, บอก; กริยาที่ใช้บ่อยที่สุดสำหรับการสื่อสารด้วยคำพูดในภาษาลาว",
+      "tl": "Magsalita, sabihin; ang pinakakaraniwang pandiwa para sa verbal na komunikasyon sa wikang Lao.",
+      "ur": "بولنا، کہنا؛ لاؤ زبان میں زبانی گفتگو کے لیے سب سے عام فعل۔",
+      "vi": "Nói, phát biểu; động từ phổ biến nhất để diễn đạt giao tiếp bằng lời nói trong tiếng Lào.",
+      "zh": "说话，讲；老挝语中表示口头交流最常用的动词。",
+      "zh_Hant": "說話，講；寮語中表示口頭交流最常用的動詞。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "wáo",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າເວົ້າພາສາລາວໄດ້ບໍ?",
+        "romanization": "tɕâo wáo pʰáːsǎː láːw dâj bɔː",
+        "translations": {
+          "de": "Kannst du Laotisch sprechen?",
+          "en": "Can you speak Lao?",
+          "es": "¿Puedes hablar lao?",
+          "fr": "Tu peux parler lao ?",
+          "hi": "क्या आप लाओ बोल सकते हैं?",
+          "ja": "ラオ語が話せますか？",
+          "km": "តើអ្នកអាចនិយាយភាសាឡាវវានៅ?",
+          "ko": "라오어 할 수 있어요?",
+          "ne": "के तपाईं लाओ भाषा बोल्न सक्नुहुन्छ?",
+          "pt": "Você consegue falar lao?",
+          "th": "แกพูดภาษาลาวได้ไหม?",
+          "tl": "Kaya mo bang magsalita ng Lao?",
+          "ur": "کیا آپ لاؤ بول سکتے ہیں؟",
+          "vi": "Bạn có thể nói tiếng Lào không?",
+          "zh": "你会说老挝语吗？",
+          "zh_Hant": "你會說寮語嗎？"
+        },
+        "out_of_scope_words": [
+          "ພາສາ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າເວົ້າດັງໆ, ເດັກນ້ອຍນອນຢູ່.",
+        "romanization": "jaː wáo dǎŋdǎŋ, dèknɔːj nɔːn júː",
+        "translations": {
+          "de": "Sprich nicht so laut, das Baby schläft.",
+          "en": "Don't talk so loud, the baby is sleeping.",
+          "es": "No hables tan fuerte, el bebé está durmiendo.",
+          "fr": "Ne parle pas si fort, le bébé dort.",
+          "hi": "इतना जोर से मत बोलो, बच्चा सो रहा है।",
+          "ja": "そんなに大きな声で話さないで、赤ちゃんが寝てるよ。",
+          "km": "កុំនិយាយខ្លាំង ក្មេងតូចកំពុងគេង។",
+          "ko": "너무 크게 말하지 마, 아기 자고 있어.",
+          "ne": "यति ठूलो स्वरमा नबोल, बच्चा सुतिरहेको छ।",
+          "pt": "Não fala tão alto, o bebê está dormindo.",
+          "th": "อย่าพูดเสียงดังนัก เด็กน้อยนอนอยู่",
+          "tl": "Huwag magsalita nang malakas, ang bata ay natutulog.",
+          "ur": "اتنا زور سے مت بولو، بچہ سو رہا ہے۔",
+          "vi": "Đừng nói to thế, đứa bé đang ngủ.",
+          "zh": "不要说话那么大声，小孩在睡觉。",
+          "zh_Hant": "不要說話那麼大聲，小孩在睡覺。"
+        },
+        "out_of_scope_words": [
+          "ດັງ",
+          "ເດັກນ້ອຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with an open mouth speaking, with small speech bubbles floating out, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄຂ": {
+    "definitions": {
+      "de": "Polysemes Wort: 1) Ei (z. B. Hühnerei), 2) aufschließen/öffnen (ein Schloss), 3) Fieber (ໄຂ້). Kontext bestimmt die Bedeutung.",
+      "en": "A polysemous word meaning: 1) egg (e.g. chicken egg), 2) to unlock/open (a lock), 3) fever (ໄຂ້). Context determines the meaning.",
+      "es": "Palabra polisémica que significa: 1) huevo (p. ej. huevo de gallina), 2) desbloquear/abrir (una cerradura), 3) fiebre (ໄຂ້). El contexto determina el significado.",
+      "fr": "Mot polysémique signifiant : 1) œuf (p. ex. œuf de poule), 2) déverrouiller/ouvrir (une serrure), 3) fièvre (ໄຂ້). Le contexte détermine le sens.",
+      "hi": "बहुअर्थी शब्द जिसका अर्थ है: 1) अंडा (जैसे मुर्गी का अंडा), 2) ताला खोलना, 3) बुखार (ໄຂ້)। संदर्भ अर्थ निर्धारित करता है।",
+      "ja": "多義語：1）卵（例：鶏の卵）、2）鍵を開ける/解錠する、3）熱（ໄຂ້）。文脈によって意味が決まる。",
+      "km": "ពាក្យដែលមានន័យច្រើន: ១) ស៊ុត (ឧ. ស៊ុតមាន់), ២) ដោះសោ/បើក, ៣) គ្រុនក្តៅ (ໄຂ້)។ បរិបទជាអ្នកកំណត់ន័យ។",
+      "ko": "다의어: 1) 달걀(예: 닭달걀), 2) 잠금 해제/열다, 3) 열(발열, ໄຂ້). 문맥에 따라 의미가 결정된다.",
+      "ne": "बहुअर्थी शब्द: १) अण्डा (जस्तै कुखुराको अण्डा), २) ताला खोल्नु, ३) ज्वरो (ໄຂ້)। सन्दर्भले अर्थ निर्धारण गर्छ।",
+      "pt": "Palavra polissêmica que significa: 1) ovo (ex.: ovo de galinha), 2) desbloquear/abrir (uma fechadura), 3) febre (ໄຂ້). O contexto determina o significado.",
+      "th": "คำที่มีหลายความหมาย: 1) ไข่ (เช่น ไข่ไก่), 2) ไขกุญแจ/เปิดล็อก, 3) ไข้ (ມີໄຂ້). บริบทเป็นตัวกำหนดความหมาย",
+      "tl": "Isang salitang may maraming kahulugan: 1) itlog (hal. itlog ng manok), 2) i-unlock/buksan (isang kandado), 3) lagnat (ໄຂ້). Ang konteksto ang nagtatakda ng kahulugan.",
+      "ur": "کثیر المعنی لفظ: ۱) انڈہ (مثلاً مرغی کا انڈہ)، ۲) تالہ کھولنا، ۳) بخار (ໄຂ້)۔ سیاق و سباق معنی کا تعین کرتا ہے۔",
+      "vi": "Từ đa nghĩa: 1) trứng (vd. trứng gà), 2) mở khóa/mở (ổ khóa), 3) sốt (ໄຂ້). Ngữ cảnh xác định nghĩa.",
+      "zh": "多义词：1）蛋（如鸡蛋），2）开锁/打开（锁），3）发烧（ໄຂ້）。由上下文决定含义。",
+      "zh_Hant": "多義詞：1）蛋（如雞蛋），2）開鎖/打開（鎖），3）發燒（ໄຂ້）。由上下文決定含義。"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰǎj",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຊື້ໄຂ່ໄກ່ມາສອງໂຫລ.",
+        "romanization": "mɛː sʉː kʰàj kàj maː sɔːŋ hǒːl",
+        "translations": {
+          "de": "Mutter hat zwei Dutzend Hühnereier gekauft.",
+          "en": "Mom bought two dozen chicken eggs.",
+          "es": "Mamá compró dos docenas de huevos de gallina.",
+          "fr": "Maman a acheté deux douzaines d'œufs de poule.",
+          "hi": "माँ दो दर्जन मुर्गी के अंडे खरीद कर लाई।",
+          "ja": "お母さんが鶏の卵を2ダース買ってきた。",
+          "km": "មាតាបានទិញស៊ុតមាន់ពីរដូហ្សែន។",
+          "ko": "엄마가 달걀 두 줄을 사왔어.",
+          "ne": "आमाले दुई दर्जन कुखुराका अण्डाहरू किन्नुभयो।",
+          "pt": "A mãe comprou duas dúzias de ovos de galinha.",
+          "th": "แม่ซื้อไข่ไก่มาสองโหล",
+          "tl": "Bumili ang nanay ng dalawang dosenang itlog ng manok.",
+          "ur": "ماں نے دو درجن مرغی کے انڈے خریدے۔",
+          "vi": "Mẹ mua về hai chục trứng gà.",
+          "zh": "妈妈买了两打鸡蛋。",
+          "zh_Hant": "媽媽買了兩打雞蛋。"
+        },
+        "out_of_scope_words": [
+          "ໂຫລ",
+          "ໄກ່"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍໄຂປະຕູໃຫ້ແດ່, ມືຂອງຂ້ອຍບໍ່ວ່າງ.",
+        "romanization": "sùaj kʰǎj pàtuː hâj dɛː, mʉː khɔng khɔːj bɔː wáːŋ",
+        "translations": {
+          "de": "Hilf mir bitte, die Tür aufzumachen, meine Hände sind nicht frei.",
+          "en": "Help me open the door please, my hands are full.",
+          "es": "Ayúdame a abrir la puerta, por favor, tengo las manos ocupadas.",
+          "fr": "Aide-moi à ouvrir la porte s'il te plaît, j'ai les mains occupées.",
+          "hi": "कृपया दरवाज़ा खोलने में मदद करो, मेरे हाथ खाली नहीं हैं।",
+          "ja": "ドアを開けるのを手伝って、両手がふさがってるから。",
+          "km": "ជួយបើកទ្វារផង ដៃខ្ញុំមិនទំនេរ។",
+          "ko": "문 좀 열어줘, 나 손이 안 비어.",
+          "ne": "ढोका खोल्न मद्दत गर, मेरो हात खाली छैन।",
+          "pt": "Me ajuda a abrir a porta, minhas mãos estão ocupadas.",
+          "th": "ช่วยไขประตูให้หน่อยได้ไหม มือฉันไม่ว่าง",
+          "tl": "Tulungan mo akong buksan ang pinto, puno ang aking mga kamay.",
+          "ur": "دروازہ کھولنے میں مدد کرو، میرے ہاتھ خالی نہیں ہیں۔",
+          "vi": "Giúp tôi mở cửa với, tay tôi đang bận.",
+          "zh": "帮我开一下门，我的手不空。",
+          "zh_Hant": "幫我開一下門，我的手不空。"
+        },
+        "out_of_scope_words": [
+          "ປະຕູ",
+          "ມື",
+          "ວ່າງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing three small panels: a cracked brown egg, a hand unlocking a padlock with a key, and a thermometer indicating fever, all on a clean white background with colorful icons, minimalist educational style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄິດ": {
+    "definitions": {
+      "de": "Denken, nachdenken, überlegen; das grundlegende mentale Verb im Laotischen für Gedanken und Überlegungen.",
+      "en": "To think, to consider, to reflect; the essential mental verb in Lao for thoughts and deliberation.",
+      "es": "Pensar, considerar, reflexionar; el verbo mental esencial en lao para pensamientos y deliberaciones.",
+      "fr": "Penser, réfléchir, considérer ; le verbe mental essentiel en laotien pour les pensées et la réflexion.",
+      "hi": "सोचना, विचार करना; लाओ में विचार और चिंतन के लिए मूल मानसिक क्रिया।",
+      "ja": "考える、思う、熟考する；思考や熟慮を表すラオ語の基本的な精神動詞。",
+      "km": "គិត, ពិចារណា; គ្រាប់ពាក្យផ្លូវចិត្តសំខាន់ក្នុងភាសាឡាវសំរាប់ការគិតនិងការពិចារណា។",
+      "ko": "생각하다, 고려하다, 사색하다; 라오어에서 사고와 숙고를 나타내는 필수적인 정신 동사.",
+      "ne": "सोच्नु, विचार गर्नु; लाओ भाषामा विचार र चिन्तनको लागि आवश्यक मानसिक क्रिया।",
+      "pt": "Pensar, considerar, refletir; o verbo mental essencial em lao para pensamentos e deliberações.",
+      "th": "คิด, พิจารณา, ไตร่ตรอง; กริยาทางจิตใจที่สำคัญในภาษาลาวสำหรับความคิดและการใคร่ครวญ",
+      "tl": "Mag-isip, isaalang-alang, pag-isipan; ang mahalagang mental na pandiwa sa wikang Lao para sa pag-iisip at pagmumuni.",
+      "ur": "سوچنا، غور کرنا، تامل کرنا؛ لاؤ زبان میں خیالات اور سوچ کے لیے بنیادی ذہنی فعل۔",
+      "vi": "Nghĩ, suy nghĩ, cân nhắc; động từ tinh thần cơ bản trong tiếng Lào để diễn đạt suy nghĩ và cân nhắc.",
+      "zh": "思考，想，考虑；老挝语中表示思维和思考的基本心理动词。",
+      "zh_Hant": "思考，想，考慮；寮語中表示思維和思考的基本心理動詞。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kʰít",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຄິດວ່າເຈົ້າເວົ້າຖືກ.",
+        "romanization": "khɔːj kʰít wâː tɕâo wáo tʰɯːk",
+        "translations": {
+          "de": "Ich denke, du hast Recht.",
+          "en": "I think you're right.",
+          "es": "Creo que tienes razón.",
+          "fr": "Je pense que tu as raison.",
+          "hi": "मुझे लगता है तुम सही हो।",
+          "ja": "あなたは正しいと思います。",
+          "km": "ខ្ញុំគិតថាអ្នកនិយាយត្រូវ។",
+          "ko": "내 생각에 네 말이 맞아.",
+          "ne": "मलाई लाग्छ तपाईं सही हुनुहुन्छ।",
+          "pt": "Acho que você tem razão.",
+          "th": "ฉันคิดว่าแกพูดถูก",
+          "tl": "Sa tingin ko, tama ka.",
+          "ur": "مجھے لگتا ہے تم صحیح ہو۔",
+          "vi": "Tôi nghĩ bạn nói đúng.",
+          "zh": "我觉得你说得对。",
+          "zh_Hant": "我覺得你說得對。"
+        },
+        "out_of_scope_words": [
+          "ຖືກ"
+        ]
+      },
+      {
+        "lao_script": "ຄິດດີໆກ່ອນຈະຕັດສິນໃຈ.",
+        "romanization": "kʰít diːdiː kɔːn tɕàː tàtsǐntɕaj",
+        "translations": {
+          "de": "Denk gut nach, bevor du eine Entscheidung triffst.",
+          "en": "Think carefully before making a decision.",
+          "es": "Piensa bien antes de tomar una decisión.",
+          "fr": "Réfléchis bien avant de prendre une décision.",
+          "hi": "निर्णय लेने से पहले अच्छी तरह सोचो।",
+          "ja": "決断する前によく考えて。",
+          "km": "គិតឱ្យបានល្អប្រសើរមុននឹងសំរេចចិត្ត។",
+          "ko": "결정하기 전에 잘 생각해봐.",
+          "ne": "निर्णय गर्नु अघि राम्ररी सोच।",
+          "pt": "Pense bem antes de tomar uma decisão.",
+          "th": "คิดให้ดีๆ ก่อนจะตัดสินใจ",
+          "tl": "Mag-isip nang mabuti bago gumawa ng desisyon.",
+          "ur": "فیصلہ کرنے سے پہلے اچھی طرح سوچو۔",
+          "vi": "Hãy suy nghĩ kỹ trước khi đưa ra quyết định.",
+          "zh": "做决定之前要好好想清楚。",
+          "zh_Hant": "做決定之前要好好想清楚。"
+        },
+        "out_of_scope_words": [
+          "ຕັດສິນໃຈ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting with a thought bubble above their head containing a glowing light bulb, representing deep thinking, clean white background, bright pastel colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊົນ": {
+    "definitions": {
+      "de": "Menschen, Volk; wird hauptsächlich in formellen Zusammensetzungen wie ປະຊາຊົນ (das Volk) verwendet; selten als eigenständiges Wort im Alltag.",
+      "en": "People, folk; used mostly in formal compounds such as ປະຊາຊົນ (the people/populace); rarely used as a standalone word in everyday speech.",
+      "es": "Gente, pueblo; se usa principalmente en compuestos formales como ປະຊາຊົນ (el pueblo/la población); raramente se usa como palabra independiente en el habla cotidiana.",
+      "fr": "Gens, peuple ; utilisé principalement dans des composés formels comme ປະຊາຊົນ (le peuple/la population) ; rarement utilisé seul dans le discours quotidien.",
+      "hi": "लोग, जन; मुख्यतः औपचारिक यौगिकों जैसे ປະຊາຊົນ (जनता/लोग) में प्रयुक्त; दैनिक बोलचाल में स्वतंत्र रूप से कम ही प्रयुक्त।",
+      "ja": "人々、民；主に ປະຊາຊົນ（人民/民衆）のような公式的な複合語で使われる；日常会話では単独で使われることはほとんどない。",
+      "km": "មនុស្ស, ប្រជាជន; ត្រូវបានប្រើជាចម្បងក្នុងពាក្យផ្សំផ្លូវការដូចជា ປະຊາຊົນ (ប្រជាជន); កម្រប្រើជាពាក្យឯករាជ្យក្នុងការនិយាយប្រចាំថ្ងៃ។",
+      "ko": "사람들, 민중; 주로 ປະຊາຊົນ(인민/대중)과 같은 공식적인 복합어에 사용됨; 일상 대화에서 단독으로 사용되는 경우는 드물다.",
+      "ne": "मानिसहरू, जन; मुख्यतः ປະຊາຊົນ (जनता/जनसमुदाय) जस्ता औपचारिक यौगिकहरूमा प्रयोग हुन्छ; दैनिक बोलचालमा स्वतन्त्र रूपमा कम प्रयोग हुन्छ।",
+      "pt": "Pessoas, povo; usado principalmente em compostos formais como ປະຊາຊົນ (o povo/a população); raramente usado como palavra independente na fala cotidiana.",
+      "th": "ผู้คน, ประชาชน; ใช้ส่วนใหญ่ในคำประสมที่เป็นทางการ เช่น ປະຊາຊົນ (ประชาชน); แทบไม่ใช้เป็นคำเดี่ยวในการพูดประจำวัน",
+      "tl": "Mga tao, mamamayan; karaniwang ginagamit sa mga pormal na tambalan tulad ng ປະຊາຊົນ (ang mamamayan); bihirang gamitin nang mag-isa sa pang-araw-araw na pananalita.",
+      "ur": "لوگ، عوام؛ زیادہ تر ປະຊາຊົນ (عوام/لوگ) جیسے رسمی مرکبات میں استعمال ہوتا ہے؛ روزمرہ گفتگو میں آزادانہ طور پر کم ہی استعمال ہوتا ہے۔",
+      "vi": "Người, dân; chủ yếu được dùng trong các từ ghép trang trọng như ປະຊາຊົນ (nhân dân/người dân); hiếm khi được dùng độc lập trong giao tiếp hàng ngày.",
+      "zh": "人们，民众；主要用于正式复合词，如 ປະຊາຊົນ（人民/民众）；在日常口语中很少单独使用。",
+      "zh_Hant": "人們，民眾；主要用於正式複合詞，如 ປະຊາຊົນ（人民/民眾）；在日常口語中很少單獨使用。"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sǒn",
+    "examples": [
+      {
+        "lao_script": "ລັດຖະບານຕ້ອງຟັງສຽງປະຊາຊົນ.",
+        "romanization": "láttʰàbàːn tɔːŋ fáŋ sǐaŋ pàsáːsǒn",
+        "translations": {
+          "de": "Die Regierung muss auf die Stimme des Volkes hören.",
+          "en": "The government must listen to the voice of the people.",
+          "es": "El gobierno debe escuchar la voz del pueblo.",
+          "fr": "Le gouvernement doit écouter la voix du peuple.",
+          "hi": "सरकार को जनता की आवाज़ सुननी चाहिए।",
+          "ja": "政府は人民の声を聞かなければならない。",
+          "km": "រដ្ឋាភិបាលត្រូវស្តាប់សំឡេងប្រជាជន។",
+          "ko": "정부는 국민의 목소리를 들어야 한다.",
+          "ne": "सरकारले जनताको आवाज सुन्नु पर्छ।",
+          "pt": "O governo deve ouvir a voz do povo.",
+          "th": "รัฐบาลต้องฟังเสียงประชาชน",
+          "tl": "Dapat pakinggan ng pamahalaan ang boses ng mamamayan.",
+          "ur": "حکومت کو عوام کی آواز سننی چاہیے۔",
+          "vi": "Chính phủ phải lắng nghe tiếng nói của nhân dân.",
+          "zh": "政府必须倾听人民的声音。",
+          "zh_Hant": "政府必須傾聽人民的聲音。"
+        },
+        "out_of_scope_words": [
+          "ລັດຖະບານ",
+          "ສຽງ",
+          "ປະຊາຊົນ"
+        ]
+      },
+      {
+        "lao_script": "ປະຊາຊົນລາວມີໃຈດີແລະຮັກຄວາມສະຫງົບ.",
+        "romanization": "pàsáːsǒn láːw miː tɕaj diː lɛː hák kʷāːm sàŋop",
+        "translations": {
+          "de": "Das laotische Volk ist freundlich und liebt den Frieden.",
+          "en": "The Lao people are kind and love peace.",
+          "es": "El pueblo laosiano es amable y ama la paz.",
+          "fr": "Le peuple laotien est gentil et aime la paix.",
+          "hi": "लाओ जनता दयालु है और शांति प्यार करती है।",
+          "ja": "ラオスの人々は優しく、平和を愛している。",
+          "km": "ប្រជាជនឡាវវាចិត្តល្អ ហើយស្រឡាញ់សន្តិភាព។",
+          "ko": "라오스 국민들은 친절하고 평화를 사랑한다.",
+          "ne": "लाओ जनता दयालु छन् र शान्ति मन पराउँछन्।",
+          "pt": "O povo laociano é gentil e ama a paz.",
+          "th": "ประชาชนลาวใจดีและรักความสงบ",
+          "tl": "Ang mga mamamayan ng Lao ay mabait at nagmamahal sa kapayapaan.",
+          "ur": "لاؤ عوام مہربان ہیں اور امن سے محبت کرتے ہیں۔",
+          "vi": "Người dân Lào tốt bụng và yêu hòa bình.",
+          "zh": "老挝人民善良，热爱和平。",
+          "zh_Hant": "老撾人民善良，熱愛和平。"
+        },
+        "out_of_scope_words": [
+          "ຄວາມສະຫງົບ",
+          "ຮັກ",
+          "ປະຊາຊົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a diverse group of five smiling people standing together side by side, representing community and togetherness, clean white background, bright colorful clothing, minimalist cartoon style suitable for a language learning app.",
+    "register": "formal",
+    "confidence": "high"
+  }
+}

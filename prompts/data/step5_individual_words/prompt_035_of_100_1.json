@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊ",
+  "definitions": {
+    "de": "Eine Silbe, die in Verbindungen verwendet wird, um Zustimmung, Entspanntheit oder eine informelle Pause im Gespräch auszudrücken; oft in zusammengesetzten Wörtern wie ເຊົາ (aufhören) zu finden",
+    "en": "A syllable fragment used in combinations to express agreement, ease, or a casual pause in speech; often found in compound words such as ເຊົາ (to stop)",
+    "es": "Fragmento de sílaba usado en combinaciones para expresar acuerdo, relajación o una pausa informal en el discurso; frecuentemente encontrado en palabras compuestas como ເຊົາ (parar)",
+    "fr": "Fragment syllabique utilisé dans des combinaisons pour exprimer un accord, une aisance ou une pause informelle dans le discours ; souvent présent dans des mots composés comme ເຊົາ (s'arrêter)",
+    "hi": "एक अक्षर खंड जो संयोजनों में सहमति, सहजता, या बातचीत में अनौपचारिक विराम व्यक्त करने के लिए उपयोग किया जाता है; अक्सर ເຊົາ (रुकना) जैसे यौगिक शब्दों में पाया जाता है",
+    "ja": "組み合わせで使われる音節の断片で、同意、気軽さ、または会話の非公式な間を表す。ເຊົາ（止まる）などの複合語によく見られる",
+    "km": "ផ្នែកព្យាង្គដែលប្រើក្នុងការបន្សំដើម្បីបង្ហាញការយល់ព្រម ភាពស្រួល ឬការឈប់សម្រាកក្នុងការនិយាយ; ច្រើនជំរួបក្នុងពាក្យផ្សំដូចជា ເຊົາ (ឈប់)",
+    "ko": "조합에서 동의, 편안함, 또는 대화의 비격식적인 휴지를 표현하는 데 사용되는 음절 단편; ເຊົາ(멈추다)와 같은 복합어에서 자주 발견됨",
+    "ne": "एक अक्षर खण्ड जुन संयोजनहरूमा सहमति, सहजता, वा कुराकानीमा अनौपचारिक विराम व्यक्त गर्न प्रयोग गरिन्छ; प्रायः ເຊົາ (रोक्नु) जस्ता यौगिक शब्दहरूमा पाइन्छ",
+    "pt": "Fragmento silábico usado em combinações para expressar concordância, descontração ou uma pausa informal no discurso; frequentemente encontrado em palavras compostas como ເຊົາ (parar)",
+    "th": "ชิ้นส่วนพยางค์ที่ใช้ในการรวมคำเพื่อแสดงความเห็นด้วย ความผ่อนคลาย หรือการหยุดพักอย่างไม่เป็นทางการในการพูด; มักพบในคำประสมเช่น ເຊົາ (หยุด)",
+    "tl": "Isang bahagi ng pantig na ginagamit sa mga kumbinasyon upang ipahayag ang kasunduan, kaginhawaan, o isang impormal na pahinga sa pananalita; madalas na makita sa mga tambalang salita tulad ng ເຊົາ (huminto)",
+    "ur": "ایک حرف کا ٹکڑا جو مرکبات میں رضامندی، آسانی، یا گفتگو میں غیر رسمی وقفے کو ظاہر کرنے کے لیے استعمال ہوتا ہے؛ اکثر ເຊົາ (رکنا) جیسے مرکب الفاظ میں پایا جاتا ہے",
+    "vi": "Một mảnh âm tiết được dùng trong các tổ hợp để thể hiện sự đồng ý, sự thoải mái, hoặc một khoảng dừng không trang trọng trong lời nói; thường gặp trong các từ ghép như ເຊົາ (dừng lại)",
+    "zh": "一个音节片段，用于组合中表达同意、轻松或谈话中的非正式停顿；常见于ເຊົາ（停止）等复合词中",
+    "zh_Hant": "一個音節片段，用於組合中表達同意、輕鬆或談話中的非正式停頓；常見於ເຊົາ（停止）等複合詞中"
+  },
+  "definition_en": "A syllable fragment used in combinations to express agreement, ease, or a casual pause in speech; often found in compound words such as ເຊົາ (to stop)",
+  "romanization": "seː˧",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊົາກິນເຂົ້າແລ້ວ, ອອກໄປຫຼິ້ນເຊ",
+      "romanization": "sao kin khao laew, ok pai lin se",
+      "translation_en": "Done eating, go out and play already"
+    },
+    {
+      "lao_script": "ໄປດ້ວຍກັນເຊ, ຢ່າຢູ່ຄົນດຽວ",
+      "romanization": "pai duay kan se, ya yu khon diao",
+      "translation_en": "Just come along, don't stay alone"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a speech bubble with a soft, casual expression mark inside, suggesting informal agreement or a gentle nudge in conversation, clean white background, pastel colors, minimalist style suitable for a language learning app"
+}

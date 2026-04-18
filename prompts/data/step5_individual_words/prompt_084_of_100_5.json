@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄອ",
+  "definitions": {
+    "de": "husten; einen plötzlichen Luftstoß aus dem Mund ausstoßen, oft wegen Krankheit; auch das Substantiv 'Husten'",
+    "en": "to cough; to expel air from the lungs suddenly through the mouth, often due to illness; also the noun 'cough'",
+    "es": "toser; expulsar aire de los pulmones repentinamente por la boca, a menudo por enfermedad; también el sustantivo 'tos'",
+    "fr": "tousser; expulser brusquement de l'air par la bouche, souvent à cause d'une maladie; également le nom 'toux'",
+    "hi": "खाँसना; अक्सर बीमारी के कारण मुंह से अचानक हवा निकालना; संज्ञा के रूप में 'खाँसी' भी",
+    "ja": "咳をする；しばしば病気のために口から急に空気を出す；名詞として「咳」とも",
+    "km": "ក្អក; បញ្ចេញខ្យល់ពីសួតទាំងភ្លាមតាមមាត់ ជាញឹកញាប់ដោយសារជំងឺ; ក៏ជានាម 'ការក្អក' ផងដែរ",
+    "ko": "기침하다; 종종 질병으로 인해 입에서 갑자기 공기를 내뱉다; 명사로 '기침'도 됨",
+    "ne": "खोक्नु; प्रायः बिरामीको कारणले मुखबाट अचानक हावा निकाल्नु; संज्ञाको रूपमा 'खोकी' पनि",
+    "pt": "tossir; expelir ar dos pulmões de repente pela boca, geralmente por doença; também o substantivo 'tosse'",
+    "th": "ไอ; ขับอากาศออกจากปอดอย่างรวดเร็วทางปาก มักเกิดจากการเจ็บป่วย; ยังเป็นคำนาม 'อาการไอ' ด้วย",
+    "tl": "umubo; maglabas ng hangin mula sa baga nang bigla sa bibig, kadalasan dahil sa sakit; pati na rin ang pangngalang 'ubo'",
+    "ur": "کھانسنا؛ اکثر بیماری کی وجہ سے منہ سے اچانک ہوا نکالنا؛ اسم کے طور پر 'کھانسی' بھی",
+    "vi": "ho; đột ngột tống khí ra từ phổi qua miệng, thường do bệnh; cũng là danh từ 'cơn ho'",
+    "zh": "咳嗽；通常因生病而突然从口中呼出气体；也作名词'咳嗽'",
+    "zh_Hant": "咳嗽；通常因生病而突然從口中呼出氣體；也作名詞「咳嗽」"
+  },
+  "definition_en": "to cough; to expel air from the lungs suddenly through the mouth, often due to illness; also the noun 'cough'",
+  "romanization": "/ʔaj˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໄອຫຼາຍ ເປັນຫຍັງ ເປັນໄຂ້ຢູ່ບໍ",
+      "romanization": "jao ai lai, pen nyang, pen khai yu bo",
+      "translation_en": "You're coughing a lot, what's wrong? Do you have a fever?"
+    },
+    {
+      "lao_script": "ກິນຢາກ່ອນນອນ ໄອຈະໄດ້ຫາຍ",
+      "romanization": "kin ya kon non, ai ja dai hai",
+      "translation_en": "Take the medicine before sleeping and the cough will get better."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person covering their mouth while coughing, with small wavy lines indicating coughing, clean white background, friendly cartoon style, minimalist design suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂາດ",
+  "definitions": {
+    "de": "Fehlen; mangeln; etwas ist nicht vorhanden oder wird vermisst",
+    "en": "To lack; to be missing; to be absent or deficient in something",
+    "es": "Carecer; faltar; estar ausente o ser deficiente en algo",
+    "fr": "Manquer ; faire défaut ; être absent ou insuffisant",
+    "hi": "कमी होना; अनुपस्थित होना; किसी चीज़ की कमी होना",
+    "ja": "欠ける；不足する；何かが欠けている・足りない",
+    "km": "ខ្វះ; បាត់; អ្វីមួយខ្វះខាត ឬមិនគ្រប់គ្រាន់",
+    "ko": "부족하다; 없다; 결핍되다",
+    "ne": "कमी हुनु; नहुनु; अनुपस्थित वा अभाव हुनु",
+    "pt": "Faltar; carecer; estar ausente ou em falta",
+    "th": "ขาด; ขาดแคลน; ไม่มีหรือพร่องสิ่งใดสิ่งหนึ่ง",
+    "tl": "Kulang; wala; kakulangan ng isang bagay",
+    "ur": "کمی ہونا؛ غائب ہونا؛ کسی چیز کا نہ ہونا",
+    "vi": "Thiếu; vắng mặt; không có hoặc không đủ thứ gì đó",
+    "zh": "缺少；缺乏；某物缺失或不足",
+    "zh_Hant": "缺少；缺乏；某物缺失或不足"
+  },
+  "definition_en": "To lack; to be missing; to be absent or deficient in something",
+  "romanization": "/khàat/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂ້ອຍຂາດເກືອ",
+      "romanization": "hɯan khɔ̂i khàat kɯa",
+      "translation_en": "My house is out of salt."
+    },
+    {
+      "lao_script": "ມື້ນີ້ລາວຂາດຮຽນ",
+      "romanization": "mɯ́ nîi lǎo khàat hian",
+      "translation_en": "Today he/she was absent from class."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an empty shelf or container with a question mark, showing something is missing or absent, clean white background, colorful minimalist style suitable for a language learning app."
+}

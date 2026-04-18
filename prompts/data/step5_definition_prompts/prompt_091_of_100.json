@@ -1,0 +1,397 @@
+{
+  "ບໍ່ແຮ່": {
+    "definitions": {
+      "de": "Erz; ein Gestein oder Mineral, das abgebaut wird, um wertvolle Metalle oder Mineralien zu gewinnen",
+      "en": "Ore; a naturally occurring rock or mineral from which metals or valuable minerals can be extracted",
+      "es": "Mineral; roca o mineral natural del que se pueden extraer metales u otros minerales valiosos",
+      "fr": "Minerai; roche ou minéral naturel dont on peut extraire des métaux ou des minéraux précieux",
+      "hi": "अयस्क; एक प्राकृतिक रूप से पाई जाने वाली चट्टान या खनिज जिससे धातु या मूल्यवान खनिज निकाले जा सकते हैं",
+      "ja": "鉱石；金属や貴重な鉱物を採取できる天然の岩石や鉱物",
+      "km": "រ៉ែ; រ៉ែធម្មជាតិ ឬដីខ្សាច់ដែលអាចស្រង់យកលោហៈ ឬរ៉ែមានតម្លៃផ្សេងៗ",
+      "ko": "광석; 금속이나 귀중한 광물을 추출할 수 있는 천연 암석이나 광물",
+      "ne": "खनिज अयस्क; प्राकृतिक रूपमा पाइने ढुंगा वा खनिज जसबाट धातु वा मूल्यवान खनिज निकाल्न सकिन्छ",
+      "pt": "Minério; rocha ou mineral natural do qual se podem extrair metais ou minerais valiosos",
+      "th": "แร่; หินหรือแร่ธาตุที่เกิดขึ้นตามธรรมชาติ ซึ่งสามารถสกัดเอาโลหะหรือแร่ธาตุมีค่าได้",
+      "tl": "Mineral na bato; natural na bato o mineral na maaaring kunin ang mga metal o mahalagang mineral",
+      "ur": "دھات کی کچ دھات؛ قدرتی طور پر پائی جانے والی چٹان یا معدن جس سے دھاتیں یا قیمتی معدنیات نکالی جا سکتی ہیں",
+      "vi": "Quặng; đá hoặc khoáng chất tự nhiên có thể khai thác để lấy kim loại hoặc khoáng vật có giá trị",
+      "zh": "矿石；天然存在的岩石或矿物，可从中提取金属或贵重矿物",
+      "zh_Hant": "礦石；天然存在的岩石或礦物，可從中提取金屬或珍貴礦物"
+    },
+    "part_of_speech": "noun",
+    "romanization": "bɔː hɛː",
+    "examples": [
+      {
+        "lao_script": "ແຂວງນີ້ມີບໍ່ແຮ່ຫຼາຍຊະນິດ",
+        "romanization": "khwɛːng níː mii bɔː hɛː laːj sa.nít",
+        "translations": {
+          "de": "In dieser Provinz gibt es viele Arten von Erzen.",
+          "en": "This province has many types of ore.",
+          "es": "Esta provincia tiene muchos tipos de minerales.",
+          "fr": "Cette province possède de nombreux types de minerais.",
+          "hi": "इस प्रांत में कई प्रकार के अयस्क हैं।",
+          "ja": "この県にはたくさんの種類の鉱石がある。",
+          "km": "ខេត្តនេះមានរ៉ែច្រើនប្រភេទ។",
+          "ko": "이 지방에는 많은 종류의 광석이 있다.",
+          "ne": "यस प्रदेशमा धेरै प्रकारका अयस्क छन्।",
+          "pt": "Esta província tem muitos tipos de minério.",
+          "th": "จังหวัดนี้มีแร่หลายชนิด",
+          "tl": "Ang probinsyang ito ay may maraming uri ng mineral na bato.",
+          "ur": "اس صوبے میں کئی قسم کی کچ دھاتیں ہیں۔",
+          "vi": "Tỉnh này có nhiều loại quặng.",
+          "zh": "这个省有很多种矿石。",
+          "zh_Hant": "這個省有很多種礦石。"
+        },
+        "out_of_scope_words": [
+          "ແຂວງ",
+          "ຊະນິດ"
+        ]
+      },
+      {
+        "lao_script": "ພວກເຮົາຂຸດບໍ່ແຮ່ທອງຄຳຢູ່ພູ",
+        "romanization": "pʰuːak haw khút bɔː hɛː tʰɔːŋ kʰam juː pʰuː",
+        "translations": {
+          "de": "Wir schürfen im Berg nach Golderz.",
+          "en": "We mine gold ore in the mountains.",
+          "es": "Extraemos mineral de oro en las montañas.",
+          "fr": "Nous extrayons du minerai d'or dans les montagnes.",
+          "hi": "हम पहाड़ों में सोने का अयस्क खोदते हैं।",
+          "ja": "私たちは山で金の鉱石を採掘している。",
+          "km": "យើងជីករ៉ែមាសសាមញ្ញនៅភ្នំ។",
+          "ko": "우리는 산에서 금광석을 채굴한다.",
+          "ne": "हामी पहाडमा सुनको अयस्क खन्छौं।",
+          "pt": "Nós mineramos minério de ouro nas montanhas.",
+          "th": "เราขุดแร่ทองคำบนภูเขา",
+          "tl": "Nagmimina kami ng gintong mineral na bato sa bundok.",
+          "ur": "ہم پہاڑوں میں سونے کی کچ دھات کھودتے ہیں۔",
+          "vi": "Chúng tôi khai thác quặng vàng trên núi.",
+          "zh": "我们在山里开采金矿石。",
+          "zh_Hant": "我們在山裡開採金礦石。"
+        },
+        "out_of_scope_words": [
+          "ຂຸດ",
+          "ທອງຄຳ",
+          "ພູ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a pile of rough metallic ore rocks with visible gold and silver streaks, mining pickaxe nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປະຕິບັດ": {
+    "definitions": {
+      "de": "Ausführen, praktizieren; etwas in die Tat umsetzen oder eine Aufgabe oder Pflicht ausführen",
+      "en": "To practice, carry out, or execute; to put something into action or perform a task or duty",
+      "es": "Practicar, llevar a cabo, ejecutar; poner algo en acción o realizar una tarea o deber",
+      "fr": "Pratiquer, exécuter, mettre en œuvre; mettre quelque chose en action ou accomplir une tâche ou un devoir",
+      "hi": "अभ्यास करना, पालन करना, निष्पादित करना; किसी कार्य या कर्तव्य को क्रिया में लाना",
+      "ja": "実践する、遂行する、実行する；何かを行動に移したり、任務や義務を果たしたりすること",
+      "km": "អនុវត្ត; ធ្វើ ឬប្រព្រឹត្តតាមច្បាប់ ឬការណែនាំ",
+      "ko": "실행하다, 실천하다, 수행하다; 무언가를 행동으로 옮기거나 임무나 의무를 이행하다",
+      "ne": "अभ्यास गर्नु, पालन गर्नु, कार्यान्वयन गर्नु; कुनै कार्य वा कर्तव्य सम्पन्न गर्नु",
+      "pt": "Praticar, executar, realizar; colocar algo em ação ou realizar uma tarefa ou dever",
+      "th": "ปฏิบัติ, ดำเนินการ; นำสิ่งใดสิ่งหนึ่งไปสู่การกระทำหรือปฏิบัติหน้าที่",
+      "tl": "Isagawa, gawin, isabuhay; ilagay ang isang bagay sa aksyon o magsagawa ng gawain o tungkulin",
+      "ur": "عمل کرنا، انجام دینا، پیروی کرنا؛ کسی کام یا فرض کو عملی جامہ پہنانا",
+      "vi": "Thực hành, thực hiện, tiến hành; đưa điều gì đó vào hành động hoặc thực hiện nhiệm vụ hay bổn phận",
+      "zh": "实践、执行、履行；将某事付诸行动或完成任务或职责",
+      "zh_Hant": "實踐、執行、履行；將某事付諸行動或完成任務或職責"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pa.tì.bàt",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຕ້ອງປະຕິບັດຕາມກົດລະບຽບ",
+        "romanization": "tɕâw tɔːŋ pa.tì.bàt taːm kót la.bìap",
+        "translations": {
+          "de": "Du musst die Regeln befolgen.",
+          "en": "You need to follow the rules.",
+          "es": "Tienes que seguir las reglas.",
+          "fr": "Tu dois respecter les règles.",
+          "hi": "तुम्हें नियमों का पालन करना होगा।",
+          "ja": "あなたはルールに従わなければならない。",
+          "km": "អ្នកត្រូវអនុវត្តតាមវិធាន។",
+          "ko": "너는 규칙을 따라야 한다.",
+          "ne": "तपाईंले नियम पालन गर्नु पर्छ।",
+          "pt": "Você precisa seguir as regras.",
+          "th": "คุณต้องปฏิบัติตามกฎระเบียบ",
+          "tl": "Kailangan mong sundin ang mga alituntunin.",
+          "ur": "آپ کو قوانین کی پیروی کرنی ہوگی۔",
+          "vi": "Bạn cần phải tuân thủ các quy tắc.",
+          "zh": "你必须遵守规定。",
+          "zh_Hant": "你必須遵守規定。"
+        },
+        "out_of_scope_words": [
+          "ກົດລະບຽບ"
+        ]
+      },
+      {
+        "lao_script": "ນ້ອງໄດ້ປະຕິບັດໜ້າທີ່ດີຫຼາຍ",
+        "romanization": "nɔːŋ dâj pa.tì.bàt naː tʰîː diː laːj",
+        "translations": {
+          "de": "Die jüngere Person hat ihre Pflicht sehr gut erfüllt.",
+          "en": "My younger sibling carried out their duty very well.",
+          "es": "Mi hermano/a menor cumplió muy bien con su deber.",
+          "fr": "Mon cadet/ma cadette a très bien accompli son devoir.",
+          "hi": "मेरे छोटे भाई/बहन ने अपना कर्तव्य बहुत अच्छी तरह से निभाया।",
+          "ja": "弟/妹はとても上手に職務を果たした。",
+          "km": "បងប្អូនក្មេងបានបំពេញភារកិច្ចបានយ៉ាងល្អ។",
+          "ko": "동생이 임무를 아주 잘 수행했다.",
+          "ne": "सानो भाइ/बहिनीले आफ्नो कर्तव्य धेरै राम्रोसँग पालन गरे।",
+          "pt": "Meu irmão/irmã mais novo/a cumpriu seu dever muito bem.",
+          "th": "น้องปฏิบัติหน้าที่ได้ดีมาก",
+          "tl": "Ang kapatid ko ay nagsagawa ng kanilang tungkulin nang napakahusay.",
+          "ur": "چھوٹے بھائی/بہن نے اپنا فرض بہت اچھی طرح ادا کیا۔",
+          "vi": "Em đã thực hiện nhiệm vụ rất tốt.",
+          "zh": "弟弟/妹妹把职责完成得非常好。",
+          "zh_Hant": "弟弟/妹妹把職責完成得非常好。"
+        },
+        "out_of_scope_words": [
+          "ໜ້າທີ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person carefully following a checklist on a clipboard, checking off completed tasks with a pen, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປາງ": {
+    "definitions": {
+      "de": "Bild, Abbild oder Haltung/Pose; insbesondere eine Statue oder Abbildung des Buddha in einer bestimmten rituellen Pose oder Geste",
+      "en": "Image, posture, or pose; especially a statue or depiction of the Buddha in a specific ritual posture or gesture",
+      "es": "Imagen, postura o pose; especialmente una estatua o representación del Buda en una postura o gesto ritual específico",
+      "fr": "Image, posture ou pose; en particulier une statue ou représentation du Bouddha dans une posture ou un geste rituel spécifique",
+      "hi": "छवि, मुद्रा या आसन; विशेष रूप से बुद्ध की एक विशिष्ट अनुष्ठान मुद्रा या भाव-भंगिमा में मूर्ति या चित्रण",
+      "ja": "像、姿勢、ポーズ；特に特定の儀式的な姿勢や手印をとった仏陀の像や描写",
+      "km": "រូបភាព ឬអាការៈ; ជាពិសេសសំណាក់ ឬរូបតំណាងព្រះពុទ្ធក្នុងអាការៈពិធីជាក់លាក់",
+      "ko": "형상, 자세, 포즈; 특히 특정 의례적 자세나 손짓을 취한 부처의 조각상이나 묘사",
+      "ne": "छवि, मुद्रा वा आसन; विशेष गरी एक विशेष अनुष्ठानिक मुद्रा वा इशारामा बुद्धको मूर्ति वा चित्रण",
+      "pt": "Imagem, postura ou pose; especialmente uma estátua ou representação do Buda em uma postura ou gesto ritual específico",
+      "th": "ภาพ ท่าทาง หรือปาง; โดยเฉพาะรูปปั้นหรือภาพของพระพุทธเจ้าในท่าทางพิธีกรรมเฉพาะ",
+      "tl": "Imahe, postura, o pose; lalo na ang isang estatwa o larawan ng Buddha sa isang tiyak na ritwal na postura o kilos",
+      "ur": "تصویر، مجسمہ یا کرنسی؛ خاص طور پر کسی مخصوص رسمی کرنسی یا اشارے میں بدھ کا مجسمہ یا تصویر",
+      "vi": "Hình ảnh, tư thế hoặc dáng đứng; đặc biệt là tượng hoặc hình ảnh của Đức Phật trong một tư thế hay cử chỉ nghi lễ cụ thể",
+      "zh": "形象、姿势或姿态；尤指以特定仪式姿势或手印呈现的佛像",
+      "zh_Hant": "形象、姿勢或姿態；尤指以特定儀式姿勢或手印呈現的佛像"
+    },
+    "part_of_speech": "noun",
+    "romanization": "paːŋ",
+    "examples": [
+      {
+        "lao_script": "ວັດນີ້ມີປາງພຣະພຸດທະຮູບສວຍງາມ",
+        "romanization": "wát níː mii paːŋ pʰá.pʰút.tʰa.húːp suːaj ŋaːm",
+        "translations": {
+          "de": "Dieser Tempel hat eine wunderschöne Buddha-Pose/Statue.",
+          "en": "This temple has a beautiful Buddha image/posture.",
+          "es": "Este templo tiene una hermosa imagen del Buda.",
+          "fr": "Ce temple possède une belle image du Bouddha.",
+          "hi": "इस मंदिर में सुंदर बुद्ध प्रतिमा है।",
+          "ja": "このお寺には美しい仏陀の像がある。",
+          "km": "វត្តនេះមានរូបព្រះពុទ្ធដ៏ស្អាតមួយ។",
+          "ko": "이 사원에는 아름다운 불상이 있다.",
+          "ne": "यस मन्दिरमा सुन्दर बुद्ध प्रतिमा छ।",
+          "pt": "Este templo tem uma bela imagem do Buda.",
+          "th": "วัดนี้มีปางพระพุทธรูปที่สวยงาม",
+          "tl": "Ang templong ito ay may magandang imahe ng Buddha.",
+          "ur": "اس مندر میں ایک خوبصورت بدھ کا مجسمہ ہے۔",
+          "vi": "Ngôi chùa này có một tượng Phật rất đẹp.",
+          "zh": "这座寺庙有一尊美丽的佛像。",
+          "zh_Hant": "這座寺廟有一尊美麗的佛像。"
+        },
+        "out_of_scope_words": [
+          "ວັດ",
+          "ພຣະພຸດທະຮູບ"
+        ]
+      },
+      {
+        "lao_script": "ປາງນີ້ໝາຍຄວາມວ່າ ພຣະພຸດທະເຈົ້າກຳລັງໝັ່ນໄຕ່ຕອງ",
+        "romanization": "paːŋ níː maːj kʰwaːm waː pʰá.pʰút.tʰa.tɕâw kam.laŋ man taj.tɔːŋ",
+        "translations": {
+          "de": "Diese Pose bedeutet, dass der Buddha gerade in tiefer Meditation ist.",
+          "en": "This posture means that the Buddha is in deep meditation.",
+          "es": "Esta postura significa que el Buda está en meditación profunda.",
+          "fr": "Cette posture signifie que le Bouddha est en méditation profonde.",
+          "hi": "यह मुद्रा का अर्थ है कि बुद्ध गहरे ध्यान में हैं।",
+          "ja": "この姿勢は、仏陀が深い瞑想中であることを意味する。",
+          "km": "ឥរិយាបថនេះមានន័យថា ព្រះពុទ្ធកំពុងស្ថិតនៅក្នុងការបំភ្លឺស្មារតី។",
+          "ko": "이 자세는 부처님이 깊은 명상 중에 있다는 것을 의미한다.",
+          "ne": "यो मुद्राको अर्थ हो कि बुद्ध गहिरो ध्यानमा हुनुहुन्छ।",
+          "pt": "Esta postura significa que o Buda está em meditação profunda.",
+          "th": "ปางนี้หมายความว่าพระพุทธเจ้ากำลังเพ่งพินิจ",
+          "tl": "Ang posturang ito ay nangangahulugang ang Buddha ay nasa malalim na meditasyon.",
+          "ur": "یہ کرنسی اس بات کی علامت ہے کہ بدھ گہرے مراقبے میں ہیں۔",
+          "vi": "Tư thế này có nghĩa là Đức Phật đang trong thiền định sâu.",
+          "zh": "这个姿势意味着佛陀正在深度冥想。",
+          "zh_Hant": "這個姿勢意味著佛陀正在深度冥想。"
+        },
+        "out_of_scope_words": [
+          "ໝາຍຄວາມວ່າ",
+          "ພຣະພຸດທະເຈົ້າ",
+          "ໝັ່ນໄຕ່ຕອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a serene golden Buddha statue in a classic meditation posture, seated cross-legged with hands in a mudra gesture, clean white background, warm golden tones, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປຸ້ນຊັບ": {
+    "definitions": {
+      "de": "Rauben, plündern; jemandem gewaltsam Eigentum oder Wertgegenstände wegnehmen",
+      "en": "To rob or plunder; to forcibly take property or valuables from someone, often violently",
+      "es": "Robar, saquear; tomar a la fuerza la propiedad o los objetos de valor de alguien, generalmente con violencia",
+      "fr": "Voler, piller; prendre de force les biens ou les objets de valeur de quelqu'un, souvent avec violence",
+      "hi": "लूटना, डकैती डालना; किसी से जबरदस्ती संपत्ति या कीमती सामान छीनना, अक्सर हिंसक तरीके से",
+      "ja": "強奪する、略奪する；しばしば暴力を用いて、誰かから強制的に財産や貴重品を奪う",
+      "km": "ប្លន់ ឬលួចទ្រព្យ; យករបស់មានតម្លៃពីនរណាម្នាក់ដោយប្រើកម្លាំង",
+      "ko": "강도질하다, 약탈하다; 종종 폭력적으로 누군가로부터 강제로 재산이나 귀중품을 빼앗다",
+      "ne": "लुट्नु, डकैती गर्नु; कसैबाट जबरदस्ती सम्पत्ति वा मूल्यवान सामान छिन्नु, प्रायः हिंसात्मक रूपमा",
+      "pt": "Roubar, saquear; tomar à força bens ou objetos de valor de alguém, frequentemente com violência",
+      "th": "ปล้นทรัพย์; บังคับเอาทรัพย์สินหรือสิ่งมีค่าของผู้อื่นไปโดยใช้กำลัง",
+      "tl": "Magnakaw ng sapilitan, manloob; kunin nang sapilitan ang ari-arian o mahahalagang bagay mula sa isang tao, kadalasang may karahasan",
+      "ur": "لوٹنا، ڈکیتی کرنا؛ کسی سے زبردستی مال یا قیمتی چیزیں چھیننا، اکثر تشدد کے ساتھ",
+      "vi": "Cướp, cướp bóc; cưỡng đoạt tài sản hoặc đồ có giá trị của người khác, thường bằng bạo lực",
+      "zh": "抢劫、掠夺；强行夺取他人的财产或贵重物品，通常伴有暴力",
+      "zh_Hant": "搶劫、掠奪；強行奪取他人的財產或貴重物品，通常伴有暴力"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pûn sáp",
+    "examples": [
+      {
+        "lao_script": "ຄືນວານນີ້ມີຄົນປຸ້ນຊັບຮ້ານສະດວກຊື້",
+        "romanization": "kʰɯːn waːn níː mii kʰón pûn sáp hâːn sa.duːak sɯː",
+        "translations": {
+          "de": "Letzte Nacht wurde ein Supermarkt ausgeraubt.",
+          "en": "Last night, someone robbed a convenience store.",
+          "es": "Anoche alguien robó una tienda de conveniencia.",
+          "fr": "La nuit dernière, quelqu'un a cambriolé un magasin de proximité.",
+          "hi": "कल रात किसी ने एक सुविधा स्टोर में डकैती डाली।",
+          "ja": "昨夜、誰かがコンビニを強盗した。",
+          "km": "យប់មិញ មានមនុស្សប្លន់ហាងទំនិញ។",
+          "ko": "어젯밤 누군가 편의점을 털었다.",
+          "ne": "हिजो राति कसैले एउटा सुविधा पसल लुट्यो।",
+          "pt": "Ontem à noite, alguém roubou uma loja de conveniência.",
+          "th": "คืนที่แล้วมีคนปล้นร้านสะดวกซื้อ",
+          "tl": "Kagabi, may isang tao na nagnakaw ng sapilitan sa isang convenience store.",
+          "ur": "کل رات کسی نے ایک کنوینینس اسٹور میں ڈکیتی کی۔",
+          "vi": "Tối qua, có người cướp cửa hàng tiện lợi.",
+          "zh": "昨晚有人抢劫了一家便利店。",
+          "zh_Hant": "昨晚有人搶劫了一家便利店。"
+        },
+        "out_of_scope_words": [
+          "ຄືນວານນີ້",
+          "ຮ້ານສະດວກຊື້"
+        ]
+      },
+      {
+        "lao_script": "ຕຳຫຼວດຈັບຜູ້ປຸ້ນຊັບໄດ້ແລ້ວ",
+        "romanization": "tam.luːat tɕàp pʰûː pûn sáp dâj lɛːw",
+        "translations": {
+          "de": "Die Polizei hat den Räuber bereits gefasst.",
+          "en": "The police have already caught the robber.",
+          "es": "La policía ya atrapó al ladrón.",
+          "fr": "La police a déjà arrêté le voleur.",
+          "hi": "पुलिस ने डकैत को पहले ही पकड़ लिया है।",
+          "ja": "警察はすでに強盗を捕まえた。",
+          "km": "នគរបាលបានចាប់ចោរប្លន់រួចហើយ។",
+          "ko": "경찰이 이미 강도를 잡았다.",
+          "ne": "प्रहरीले लुटेराहरूलाई पहिले नै समातिसक्यो।",
+          "pt": "A polícia já pegou o ladrão.",
+          "th": "ตำรวจจับผู้ปล้นทรัพย์ได้แล้ว",
+          "tl": "Nahuli na ng pulisya ang magnanakaw.",
+          "ur": "پولیس نے ڈاکو کو پہلے ہی پکڑ لیا ہے۔",
+          "vi": "Cảnh sát đã bắt được tên cướp rồi.",
+          "zh": "警察已经抓到抢劫犯了。",
+          "zh_Hant": "警察已經抓到搶劫犯了。"
+        },
+        "out_of_scope_words": [
+          "ຕຳຫຼວດ",
+          "ຈັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a masked thief running away with a bag of stolen goods, with a red warning symbol or alarm icon nearby, clean white background, bold outlines, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຝີ": {
+    "definitions": {
+      "de": "Geist, Gespenst; ein übernatürliches Wesen oder eine Seele, die nach dem Tod umherwandert, ein wichtiges Konzept in der laotischen Volksreligion und Kultur",
+      "en": "Ghost or spirit; a supernatural being or soul that wanders after death, an important concept in Lao folk religion and culture",
+      "es": "Fantasma o espíritu; un ser sobrenatural o alma que vaga después de la muerte, un concepto importante en la religión popular y cultura laosiana",
+      "fr": "Fantôme ou esprit; un être surnaturel ou une âme qui erre après la mort, un concept important dans la religion populaire et la culture laotienne",
+      "hi": "भूत या आत्मा; एक अलौकिक प्राणी या आत्मा जो मृत्यु के बाद भटकती है, लाओ लोक धर्म और संस्कृति में एक महत्वपूर्ण अवधारणा",
+      "ja": "幽霊、精霊；死後にさまよう超自然的な存在や魂、ラオスの民間信仰や文化において重要な概念",
+      "km": "វិញ្ញាណ ឬខ្មោច; អត្តភាព ឬព្រលឹងដែលដើរវង្វេងក្រោយមរណភាព ជាគំនិតសំខាន់នៅក្នុងសាសនាប្រជាប្រិយ និងវប្បធម៌ឡាវ",
+      "ko": "귀신 또는 영혼; 죽은 후 떠도는 초자연적인 존재나 영혼, 라오스 민간 신앙과 문화에서 중요한 개념",
+      "ne": "भूत वा आत्मा; एक अलौकिक प्राणी वा आत्मा जो मृत्यु पछि भौंतारिन्छ, लाओ लोक धर्म र संस्कृतिमा एक महत्त्वपूर्ण अवधारणा",
+      "pt": "Fantasma ou espírito; um ser sobrenatural ou alma que vagueia após a morte, um conceito importante na religião popular e cultura laosiana",
+      "th": "ผีหรือวิญญาณ; สิ่งเหนือธรรมชาติหรือวิญญาณที่ล่องลอยหลังความตาย เป็นแนวคิดสำคัญในความเชื่อพื้นบ้านและวัฒนธรรมลาว",
+      "tl": "Multo o espiritu; isang supernatural na nilalang o kaluluwa na gumagala pagkatapos ng kamatayan, isang mahalagang konsepto sa katutubong relihiyon at kultura ng Lao",
+      "ur": "بھوت یا روح؛ ایک مافوق الفطرت مخلوق یا روح جو موت کے بعد بھٹکتی ہے، لاؤ لوک مذہب اور ثقافت میں ایک اہم تصور",
+      "vi": "Ma hoặc linh hồn; một sinh vật siêu nhiên hoặc linh hồn lang thang sau khi chết, một khái niệm quan trọng trong tín ngưỡng dân gian và văn hóa Lào",
+      "zh": "鬼或灵魂；死后游荡的超自然存在或灵魂，是老挝民间宗教和文化中的重要概念",
+      "zh_Hant": "鬼或靈魂；死後遊蕩的超自然存在或靈魂，是寮國民間宗教和文化中的重要概念"
+    },
+    "part_of_speech": "noun",
+    "romanization": "fǐː",
+    "examples": [
+      {
+        "lao_script": "ເດັກໆ ຢ້ານຝີຫຼາຍ",
+        "romanization": "dék dék jaːm fǐː laːj",
+        "translations": {
+          "de": "Kinder haben sehr viel Angst vor Geistern.",
+          "en": "Children are very scared of ghosts.",
+          "es": "Los niños tienen mucho miedo de los fantasmas.",
+          "fr": "Les enfants ont très peur des fantômes.",
+          "hi": "बच्चे भूतों से बहुत डरते हैं।",
+          "ja": "子供たちは幽霊をとても怖がっている。",
+          "km": "កុមារខ្លាចខ្មោចណាស់។",
+          "ko": "아이들은 귀신을 무서워한다.",
+          "ne": "बच्चाहरू भूतबाट धेरै डराउँछन्।",
+          "pt": "As crianças têm muito medo de fantasmas.",
+          "th": "เด็กๆ กลัวผีมาก",
+          "tl": "Ang mga bata ay lubhang natatakot sa mga multo.",
+          "ur": "بچے بھوتوں سے بہت ڈرتے ہیں۔",
+          "vi": "Trẻ em rất sợ ma.",
+          "zh": "孩子们非常怕鬼。",
+          "zh_Hant": "孩子們非常怕鬼。"
+        },
+        "out_of_scope_words": [
+          "ເດັກໆ",
+          "ຢ້ານ"
+        ]
+      },
+      {
+        "lao_script": "ຄົນລາວເຊື່ອວ່າຝີຢູ່ຕາມປ່າ",
+        "romanization": "kʰón laːw sɯa waː fǐː juː taːm paː",
+        "translations": {
+          "de": "Laoten glauben, dass Geister im Wald wohnen.",
+          "en": "Lao people believe that ghosts live in the forest.",
+          "es": "Los laocianos creen que los fantasmas viven en el bosque.",
+          "fr": "Les Laotiens croient que les fantômes vivent dans la forêt.",
+          "hi": "लाओ लोग मानते हैं कि भूत जंगल में रहते हैं।",
+          "ja": "ラオス人は、幽霊が森に住んでいると信じている。",
+          "km": "ជនជាតិឡាវវិស្វាសថា ខ្មោចស្ថិតនៅតាមព្រៃឈើ។",
+          "ko": "라오 사람들은 귀신이 숲에 산다고 믿는다.",
+          "ne": "लाओ मान्छेहरू विश्वास गर्छन् कि भूतहरू जंगलमा बस्छन्।",
+          "pt": "Os laocianos acreditam que os fantasmas vivem na floresta.",
+          "th": "คนลาวเชื่อว่าผีอยู่ตามป่า",
+          "tl": "Naniniwala ang mga Lao na ang mga multo ay naninirahan sa kagubatan.",
+          "ur": "لاؤ لوگ یقین رکھتے ہیں کہ بھوت جنگل میں رہتے ہیں۔",
+          "vi": "Người Lào tin rằng ma sống trong rừng.",
+          "zh": "老挝人相信鬼住在森林里。",
+          "zh_Hant": "寮國人相信鬼住在森林裡。"
+        },
+        "out_of_scope_words": [
+          "ເຊື່ອ",
+          "ປ່າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a glowing, translucent white ghost figure floating gently in a dark misty forest at night, with a soft eerie glow, clean dark background, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

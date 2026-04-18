@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອ່ານ",
+  "definitions": {
+    "de": "Lesen; Wörter oder Texte betrachten und verstehen",
+    "en": "To read; to look at and understand written words or text",
+    "es": "Leer; mirar y entender palabras o textos escritos",
+    "fr": "Lire ; regarder et comprendre des mots ou des textes écrits",
+    "hi": "पढ़ना; लिखे हुए शब्दों या पाठ को देखकर समझना",
+    "ja": "読む；書かれた言葉やテキストを見て理解する",
+    "km": "អាន; មើល និងយល់ពាក្យ ឬអត្ថបទដែលបានសរសេរ",
+    "ko": "읽다; 쓰인 글자나 텍스트를 보고 이해하다",
+    "ne": "पढ्नु; लेखिएका शब्द वा पाठ हेरेर बुझ्नु",
+    "pt": "Ler; olhar e entender palavras ou textos escritos",
+    "th": "อ่าน; มองและทำความเข้าใจคำหรือข้อความที่เขียนไว้",
+    "tl": "Magbasa; tingnan at unawain ang mga nakasulat na salita o teksto",
+    "ur": "پڑھنا؛ لکھے ہوئے الفاظ یا متن کو دیکھ کر سمجھنا",
+    "vi": "Đọc; nhìn và hiểu các từ hoặc văn bản được viết ra",
+    "zh": "读，阅读；看懂书写的文字或文本",
+    "zh_Hant": "讀，閱讀；看懂書寫的文字或文本"
+  },
+  "definition_en": "To read; to look at and understand written words or text",
+  "romanization": "/ʔaːn²²/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຊອບອ່ານໜັງສືກ່ອນນອນ",
+      "romanization": "khoi sop ʔaːn nang-seu kon non",
+      "translation_en": "I like to read books before sleeping."
+    },
+    {
+      "lao_script": "ເຈົ້າອ່ານຂໍ້ຄວາມນີ້ໃຫ້ຂ້ອຍແດ່ໄດ້ບໍ?",
+      "romanization": "jao ʔaːn khok-khwam nii hai khoi dae dai bo",
+      "translation_en": "Can you read this message to me?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting comfortably and reading an open book, with a small smile on their face, clean white background, colorful minimalist style suitable for a language learning app."
+}

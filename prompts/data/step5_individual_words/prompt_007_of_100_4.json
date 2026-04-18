@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກັນ",
+  "definitions": {
+    "de": "einander; gemeinsam (Reziprokpartikel)",
+    "en": "each other; together (reciprocal particle)",
+    "es": "el uno al otro; juntos (partícula recíproca)",
+    "fr": "l'un l'autre; ensemble (particule réciproque)",
+    "hi": "एक-दूसरे को; साथ में (आपसी क्रिया-सूचक)",
+    "ja": "互いに／一緒に（相互を表す助詞）",
+    "km": "គ្នា (បច្ច័យបង្ហាញភាពគ្នាទៅវិញទៅមក)",
+    "ko": "서로／함께 (상호를 나타내는 조사)",
+    "ne": "एकआपसमा／सँगै (आपसी क्रिया जनाउने)",
+    "pt": "um ao outro; juntos (partícula recíproca)",
+    "th": "กัน (คำเสริมบอกการกระทำร่วมกัน)",
+    "tl": "sa isa't isa／magkasama (pangatnig para sa pagkilos ng magkasama)",
+    "ur": "ایک دوسرے کو؛ ساتھ مل کر (باہم کا ذرّہ)",
+    "vi": "nhau; cùng nhau (tiểu từ tương hỗ)",
+    "zh": "互相／一起（表示相互的助词）",
+    "zh_Hant": "互相／一起（表示相互的助詞）"
+  },
+  "definition_en": "each other; together (reciprocal particle)",
+  "romanization": "kàn",
+  "lao_examples": [
+    {
+      "lao_script": "ພວກ ເຮົາ ຮັກ ກັນ",
+      "romanization": "pʰùːək háw hāk kàn",
+      "translation_en": "We love each other."
+    },
+    {
+      "lao_script": "ໄປ ກິນ ເຂົ້າ ນຳ ກັນ",
+      "romanization": "pàj kìn kʰȁw nám kàn",
+      "translation_en": "Let's go eat together."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon figures holding hands in a circle gesture, representing mutual action, suitable for a language learning app, clean white background, minimalist style."
+}

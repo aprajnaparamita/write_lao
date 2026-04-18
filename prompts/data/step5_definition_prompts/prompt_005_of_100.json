@@ -1,0 +1,367 @@
+{
+  "ເຂົ້າ": {
+    "definitions": {
+      "de": "Reis (Nahrungsmittel); (als Verb) eintreten/hineingehen",
+      "en": "rice (staple food); (as verb) to enter/go in",
+      "es": "arroz (alimento básico); (como verbo) entrar",
+      "fr": "riz (aliment de base); (comme verbe) entrer",
+      "hi": "चावल (मुख्य भोजन); (क्रिया) अंदर जाना/प्रवेश करना",
+      "ja": "米／ご飯（主食）／入る（動詞）",
+      "km": "បាយ／អង្ករ／ចូល (ម្ហូបមេ ឬកិរិយា 'ចូល')",
+      "ko": "쌀／밥／들어가다 (주식 쌀 혹은 동사 '들어가다')",
+      "ne": "चामल／भात／छिर्नु (मुख्य अन्न वा क्रिया 'प्रवेश गर्नु')",
+      "pt": "arroz (alimento básico); (como verbo) entrar",
+      "th": "ข้าว／เข้า (ข้าวสาร ข้าวสวย หรือคำกริยา 'เข้าไป')",
+      "tl": "bigas／kanin／pumasok (pagkain o pandiwang 'pumasok')",
+      "ur": "چاول؛ داخل ہونا (بنیادی غذا یا فعل 'داخل ہونا')",
+      "vi": "cơm／gạo／vào (lương thực chính hoặc động từ 'vào')",
+      "zh": "米／饭／进入（主食或动词'进入'）",
+      "zh_Hant": "米／飯／進入（主食或動詞「進入」）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰȁw",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ຢາກ ກິນ ເຂົ້າ",
+        "romanization": "kʰɔ̂ːj jȁːk kìn kʰȁw",
+        "translations": {
+          "de": "Ich möchte Reis essen.",
+          "en": "I want to eat rice.",
+          "es": "Quiero comer arroz.",
+          "fr": "Je veux manger du riz.",
+          "hi": "मुझे चावल खाना है।",
+          "ja": "ご飯が食べたいです。",
+          "km": "ខ្ញុំចង់ញ៉ាំបាយ។",
+          "ko": "저는 밥을 먹고 싶어요.",
+          "ne": "म भात खान चाहन्छु।",
+          "pt": "Quero comer arroz.",
+          "th": "ฉันอยากกินข้าว",
+          "tl": "Gusto kong kumain ng kanin.",
+          "ur": "میں چاول کھانا چاہتا ہوں۔",
+          "vi": "Tôi muốn ăn cơm.",
+          "zh": "我想吃饭。",
+          "zh_Hant": "我想吃飯。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ຢາກ"]
+      },
+      {
+        "lao_script": "ລາວ ເຂົ້າ ຫ້ອງ ແລ້ວ",
+        "romanization": "láːw kʰȁw hɔ̂ŋ lɛ̂ːw",
+        "translations": {
+          "de": "Er/Sie ist schon ins Zimmer gegangen.",
+          "en": "He/She has entered the room.",
+          "es": "Él/Ella ya entró a la habitación.",
+          "fr": "Il/Elle est déjà entré(e) dans la pièce.",
+          "hi": "वह कमरे में पहले ही जा चुका है।",
+          "ja": "彼／彼女はもう部屋に入りました。",
+          "km": "គាត់បានចូលបន្ទប់ហើយ។",
+          "ko": "그/그녀는 벌써 방에 들어갔어요.",
+          "ne": "उहाँ कोठामा छिर्नुभएको छ।",
+          "pt": "Ele/Ela já entrou no quarto.",
+          "th": "เขาเข้าห้องแล้ว",
+          "tl": "Pumasok na siya sa kuwarto.",
+          "ur": "وہ کمرے میں داخل ہو چکا ہے۔",
+          "vi": "Anh/chị ấy đã vào phòng rồi.",
+          "zh": "他/她已经进房间了。",
+          "zh_Hant": "他/她已經進房間了。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a steaming bowl of white rice with chopsticks beside it, suitable for a language learning app, clean white background, minimalist cartoon style, warm colors.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບໍ່": {
+    "definitions": {
+      "de": "nicht (Negationspartikel vor Verben/Adjektiven); (am Satzende) Fragepartikel",
+      "en": "not (negation particle before verbs/adjectives); (sentence-final) question particle",
+      "es": "no (partícula de negación antes de verbos/adjetivos); (final de oración) partícula interrogativa",
+      "fr": "ne...pas (particule de négation); (en fin de phrase) particule interrogative",
+      "hi": "नहीं (नकार कण); (वाक्य के अंत में) प्रश्न कण",
+      "ja": "〜ない／〜ません（否定）／〜か（文末疑問）",
+      "km": "មិន／ទេ (បច្ច័យបដិសេធ ឬសួរចុងប្រយោគ)",
+      "ko": "안／~지 않다／~요? (부정 또는 문말 의문 조사)",
+      "ne": "होइन／छैन／हो र? (नकार वा वाक्यान्त प्रश्न)",
+      "pt": "não (partícula de negação); (final de frase) partícula interrogativa",
+      "th": "ไม่ (คำปฏิเสธ; ท้ายประโยคใช้ถามได้)",
+      "tl": "hindi／ba (pambalintuna o pantanong sa dulo)",
+      "ur": "نہیں؛ (جملے کے آخر میں) سوال کا نشان",
+      "vi": "không (phủ định hoặc hỏi cuối câu)",
+      "zh": "不／没／吗（否定词或句末疑问）",
+      "zh_Hant": "不／沒／嗎（否定詞或句末疑問）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "bɔ̀ː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ບໍ່ ຫິວ",
+        "romanization": "kʰɔ̂ːj bɔ̀ː hǐw",
+        "translations": {
+          "de": "Ich habe keinen Hunger.",
+          "en": "I'm not hungry.",
+          "es": "No tengo hambre.",
+          "fr": "Je n'ai pas faim.",
+          "hi": "मुझे भूख नहीं है।",
+          "ja": "お腹が空いていません。",
+          "km": "ខ្ញុំមិនឃ្លានទេ។",
+          "ko": "저는 배고프지 않아요.",
+          "ne": "मलाई भोक लागेको छैन।",
+          "pt": "Não estou com fome.",
+          "th": "ฉันไม่หิว",
+          "tl": "Hindi ako gutom.",
+          "ur": "مجھے بھوک نہیں ہے۔",
+          "vi": "Tôi không đói.",
+          "zh": "我不饿。",
+          "zh_Hant": "我不餓。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ຫິວ"]
+      },
+      {
+        "lao_script": "ເຈົ້າ ໄປ ບໍ?",
+        "romanization": "càw pàj bɔ̀ː",
+        "translations": {
+          "de": "Gehst du?",
+          "en": "Are you going?",
+          "es": "¿Vas?",
+          "fr": "Tu y vas ?",
+          "hi": "क्या तुम जा रहे हो?",
+          "ja": "行きますか？",
+          "km": "អ្នកទៅទេ?",
+          "ko": "가요?",
+          "ne": "तिमी जान्छौ?",
+          "pt": "Você vai?",
+          "th": "เธอไปไหม?",
+          "tl": "Pupunta ka ba?",
+          "ur": "کیا تم جا رہے ہو؟",
+          "vi": "Bạn có đi không?",
+          "zh": "你去吗？",
+          "zh_Hant": "你去嗎？"
+        },
+        "out_of_scope_words": ["ເຈົ້າ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a red circle with a diagonal line through it next to a small cartoon figure, representing negation, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈະ": {
+    "definitions": {
+      "de": "werden (Futurmarker vor Verben)",
+      "en": "will (future tense marker before verbs)",
+      "es": "ir a/futuro (marcador de futuro antes del verbo)",
+      "fr": "aller/futur (marqueur du futur avant les verbes)",
+      "hi": "गा/गे/गी (भविष्यकाल सूचक)",
+      "ja": "〜する予定／〜するつもり（未来を示す助詞）",
+      "km": "នឹង (បច្ច័យបង្ហាញពេលអនាគត)",
+      "ko": "~할 것이다／~겠다 (미래 표지)",
+      "ne": "हुनेछ／गर्नेछ (भविष्यसूचक)",
+      "pt": "vai/irá (marcador de futuro antes do verbo)",
+      "th": "จะ (คำบอกอนาคต)",
+      "tl": "magiging／lalapit／(hinaharap na panandang panahunan)",
+      "ur": "گا／گی／گے (مستقبل کی علامت)",
+      "vi": "sẽ (dấu hiệu thời tương lai)",
+      "zh": "将／会／要（未来时标记）",
+      "zh_Hant": "將／會／要（未來時標記）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "càʔ",
+    "examples": [
+      {
+        "lao_script": "ພຸ່ງນີ້ ຂ້ອຍ ຈະ ໄປ ວຽງຈັນ",
+        "romanization": "pʰūŋ.nîː kʰɔ̂ːj càʔ pàj wíːəŋ.càn",
+        "translations": {
+          "de": "Morgen werde ich nach Vientiane fahren.",
+          "en": "Tomorrow I will go to Vientiane.",
+          "es": "Mañana iré a Vientián.",
+          "fr": "Demain j'irai à Vientiane.",
+          "hi": "कल मैं वियनतियान जाऊँगा।",
+          "ja": "明日、私はビエンチャンに行きます。",
+          "km": "ថ្ងៃស្អែកខ្ញុំនឹងទៅវៀងចន្ទន៍។",
+          "ko": "내일 저는 비엔티안에 갈 거예요.",
+          "ne": "भोलि म भियन्तियान जानेछु।",
+          "pt": "Amanhã eu vou a Vientiane.",
+          "th": "พรุ่งนี้ฉันจะไปเวียงจันทน์",
+          "tl": "Bukas, pupunta ako sa Vientiane.",
+          "ur": "کل میں ویانتیان جاؤں گا۔",
+          "vi": "Ngày mai tôi sẽ đi Viêng Chăn.",
+          "zh": "明天我要去万象。",
+          "zh_Hant": "明天我要去萬象。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ພຸ່ງນີ້", "ວຽງຈັນ"]
+      },
+      {
+        "lao_script": "ລາວ ຈະ ກິນ ເຂົ້າ ແລ້ວ",
+        "romanization": "láːw càʔ kìn kʰȁw lɛ̂ːw",
+        "translations": {
+          "de": "Er/Sie wird gleich essen.",
+          "en": "He/She is about to eat.",
+          "es": "Él/Ella va a comer ya.",
+          "fr": "Il/Elle va bientôt manger.",
+          "hi": "वह अभी खाना खाने वाला है।",
+          "ja": "彼／彼女はもうすぐご飯を食べます。",
+          "km": "គាត់រៀបនឹងញ៉ាំបាយហើយ។",
+          "ko": "그/그녀는 곧 밥을 먹을 거예요.",
+          "ne": "उहाँ अब भात खाने हुनुहुन्छ।",
+          "pt": "Ele/Ela já vai comer.",
+          "th": "เขาจะกินข้าวแล้ว",
+          "tl": "Kakain na siya.",
+          "ur": "وہ ابھی کھانا کھانے والا ہے۔",
+          "vi": "Anh/chị ấy sắp ăn cơm rồi.",
+          "zh": "他/她要吃饭了。",
+          "zh_Hant": "他/她要吃飯了。"
+        },
+        "out_of_scope_words": ["ກິນ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a calendar with an arrow pointing to a future date and a small clock icon, representing future tense, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປີ": {
+    "definitions": {
+      "de": "Jahr (Zeiteinheit von 12 Monaten; Lebensalter)",
+      "en": "year (12-month period; also used for age)",
+      "es": "año (período de 12 meses; también para la edad)",
+      "fr": "an/année (période de 12 mois; aussi l'âge)",
+      "hi": "वर्ष/साल (१२ महीने; उम्र के लिए भी)",
+      "ja": "年／歳（12か月、または年齢）",
+      "km": "ឆ្នាំ (រយៈពេល១២ខែ ឬអាយុ)",
+      "ne": "वर्ष／साल (१२ महिना वा उमेर)",
+      "pt": "ano (período de 12 meses; também para idade)",
+      "th": "ปี (ระยะเวลา 12 เดือน หรืออายุ)",
+      "ko": "년／살 (12개월 기간 또는 나이)",
+      "tl": "taon (labindalawang buwan o edad)",
+      "ur": "سال؛ برس (بارہ مہینے یا عمر)",
+      "vi": "năm/tuổi (12 tháng hoặc tuổi)",
+      "zh": "年／岁（12 个月或年龄）",
+      "zh_Hant": "年／歲（12 個月或年齡）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pìː",
+    "examples": [
+      {
+        "lao_script": "ປີ ນີ້ ຝົນ ຕົກ ຫຼາຍ",
+        "romanization": "pìː nîː fǒn tōk lǎːj",
+        "translations": {
+          "de": "Dieses Jahr regnet es viel.",
+          "en": "It rains a lot this year.",
+          "es": "Este año llueve mucho.",
+          "fr": "Cette année il pleut beaucoup.",
+          "hi": "इस साल बहुत बारिश हो रही है।",
+          "ja": "今年はよく雨が降ります。",
+          "km": "ឆ្នាំនេះភ្លៀងច្រើន។",
+          "ko": "올해는 비가 많이 와요.",
+          "ne": "यो वर्ष धेरै पानी परेको छ।",
+          "pt": "Este ano chove muito.",
+          "th": "ปีนี้ฝนตกมาก",
+          "tl": "Maulan ngayong taon.",
+          "ur": "اس سال بہت بارش ہو رہی ہے۔",
+          "vi": "Năm nay mưa nhiều.",
+          "zh": "今年雨水多。",
+          "zh_Hant": "今年雨水多。"
+        },
+        "out_of_scope_words": ["ຝົນ"]
+      },
+      {
+        "lao_script": "ລູກ ຊາຍ ຂ້ອຍ ສາມ ປີ",
+        "romanization": "lûːk sáːj kʰɔ̂ːj sǎːm pìː",
+        "translations": {
+          "de": "Mein Sohn ist drei Jahre alt.",
+          "en": "My son is three years old.",
+          "es": "Mi hijo tiene tres años.",
+          "fr": "Mon fils a trois ans.",
+          "hi": "मेरा बेटा तीन साल का है।",
+          "ja": "私の息子は三歳です。",
+          "km": "កូនប្រុសរបស់ខ្ញុំមានអាយុបីឆ្នាំ។",
+          "ko": "제 아들은 세 살이에요.",
+          "ne": "मेरो छोरा तीन वर्षको भयो।",
+          "pt": "Meu filho tem três anos.",
+          "th": "ลูกชายฉันสามปี",
+          "tl": "Tatlong taong gulang ang anak kong lalaki.",
+          "ur": "میرا بیٹا تین سال کا ہے۔",
+          "vi": "Con trai tôi ba tuổi.",
+          "zh": "我儿子三岁。",
+          "zh_Hant": "我兒子三歲。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a stylized tree with twelve leaves around it, each labeled with a month, representing a year, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮ່ວມ": {
+    "definitions": {
+      "de": "gemeinsam; teilnehmen; sich beteiligen (zusammen etwas tun)",
+      "en": "together; to join/participate (do jointly with others)",
+      "es": "juntos; unirse/participar (hacer en conjunto)",
+      "fr": "ensemble; participer/se joindre (faire conjointement)",
+      "hi": "साथ; भाग लेना/शामिल होना",
+      "ja": "共に／参加する／一緒にする",
+      "km": "រួម／ចូលរួម (ធ្វើរួមគ្នា)",
+      "ko": "함께／참여하다／합류하다",
+      "ne": "साथ／सहभागी हुनु／मिलेर गर्नु",
+      "pt": "juntos; participar/juntar-se (fazer em conjunto)",
+      "th": "ร่วม (ทำร่วมกัน หรือเข้าร่วม)",
+      "tl": "samahan／sumali／magkasama (gawing magkasama)",
+      "ur": "ساتھ؛ شرکت کرنا؛ شامل ہونا",
+      "vi": "cùng; tham gia; hợp tác (làm chung)",
+      "zh": "共同／参加／一起做",
+      "zh_Hant": "共同／參加／一起做"
+    },
+    "part_of_speech": "verb",
+    "romanization": "hūːəm",
+    "examples": [
+      {
+        "lao_script": "ພວກ ເຮົາ ເຮັດ ວຽກ ຮ່ວມ ກັນ",
+        "romanization": "pʰùːək háw hēt wîːək hūːəm kàn",
+        "translations": {
+          "de": "Wir arbeiten zusammen.",
+          "en": "We work together.",
+          "es": "Trabajamos juntos.",
+          "fr": "Nous travaillons ensemble.",
+          "hi": "हम साथ मिलकर काम करते हैं।",
+          "ja": "私たちは一緒に働きます。",
+          "km": "យើងធ្វើការរួមគ្នា។",
+          "ko": "우리는 함께 일해요.",
+          "ne": "हामी मिलेर काम गर्छौं।",
+          "pt": "Trabalhamos juntos.",
+          "th": "พวกเราทำงานร่วมกัน",
+          "tl": "Nagtatrabaho kaming magkasama.",
+          "ur": "ہم مل کر کام کرتے ہیں۔",
+          "vi": "Chúng tôi làm việc cùng nhau.",
+          "zh": "我们一起工作。",
+          "zh_Hant": "我們一起工作。"
+        },
+        "out_of_scope_words": ["ພວກ", "ເຮົາ"]
+      },
+      {
+        "lao_script": "ເຊີນ ທ່ານ ເຂົ້າ ຮ່ວມ ງານ",
+        "romanization": "sə́n tʰāːn kʰȁw hūːəm ŋáːn",
+        "translations": {
+          "de": "Wir laden Sie zur Teilnahme an der Veranstaltung ein.",
+          "en": "We invite you to join the event.",
+          "es": "Le invitamos a participar en el evento.",
+          "fr": "Nous vous invitons à participer à l'événement.",
+          "hi": "हम आपको इस कार्यक्रम में भाग लेने के लिए आमंत्रित करते हैं।",
+          "ja": "ぜひイベントにご参加ください。",
+          "km": "សូមអញ្ជើញលោកចូលរួមព្រឹត្តិការណ៍។",
+          "ko": "행사에 참여해 주세요.",
+          "ne": "तपाईंलाई कार्यक्रममा सहभागी हुन निम्तो छ।",
+          "pt": "Convidamos o senhor a participar do evento.",
+          "th": "เชิญท่านเข้าร่วมงาน",
+          "tl": "Inaanyayahan po namin kayong sumali sa pagdiriwang.",
+          "ur": "آپ کو تقریب میں شرکت کی دعوت ہے۔",
+          "vi": "Xin mời ngài tham gia sự kiện.",
+          "zh": "诚邀您参加活动。",
+          "zh_Hant": "誠邀您參加活動。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of three cartoon hands clasping together in a circle, representing joint participation, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "polite",
+    "confidence": "high"
+  }
+}

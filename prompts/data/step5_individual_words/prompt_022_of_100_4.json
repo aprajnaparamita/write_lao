@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂໍ",
+  "definitions": {
+    "de": "Bitten; um etwas bitten; anfragen — höflich um etwas bitten oder eine Bitte äußern; auch als Einleitungspartikel für höfliche Bitten verwendet",
+    "en": "To request; to ask for; to beg — to politely ask for something or make a request; also used as a polite softening particle before a request",
+    "es": "Pedir; solicitar; rogar — pedir algo de manera cortés o hacer una solicitud; también se usa como partícula suavizadora antes de una petición",
+    "fr": "Demander; solliciter; prier — demander poliment quelque chose ou faire une requête; utilisé aussi comme particule d'adoucissement avant une demande",
+    "hi": "माँगना; निवेदन करना — विनम्रता से कुछ माँगना या अनुरोध करना; अनुरोध से पहले एक विनम्र कण के रूप में भी उपयोग होता है",
+    "ja": "頼む；お願いする；求める — 丁寧に何かをお願いする；依頼の前に使う丁寧な前置き表現としても使われる",
+    "km": "សុំ; ស្នើ; ទូលសុំ — សុំអ្វីមួយដោយគួរសម ឬធ្វើការស្នើ; ប្រើជាញឹកញាប់ជាការចាប់ផ្តើមមុននឹងនិយាយសុំ",
+    "ko": "요청하다; 부탁하다; 빌다 — 정중하게 무언가를 요청하거나 부탁하다; 요청 앞에 쓰이는 공손한 완화 표현으로도 사용됨",
+    "ne": "माग्नु; अनुरोध गर्नु — विनम्रतापूर्वक केही माग्नु वा अनुरोध गर्नु; अनुरोध अघि विनम्र कणको रूपमा पनि प्रयोग हुन्छ",
+    "pt": "Pedir; solicitar; implorar — pedir algo educadamente ou fazer uma solicitação; também usado como partícula suavizante antes de um pedido",
+    "th": "ขอ; ขอร้อง; ขอโทษ — ขอสิ่งใดสิ่งหนึ่งอย่างสุภาพ หรือแสดงการร้องขอ; ใช้นำหน้าคำขอร้องเพื่อความสุภาพ",
+    "tl": "Humiling; humagi; mamuhon — magmakaawa o humiling ng may kagalangan; ginagamit din bilang panimula ng isang magalang na kahilingan",
+    "ur": "مانگنا؛ درخواست کرنا؛ التجا کرنا — شائستگی سے کچھ مانگنا یا درخواست دینا؛ درخواست سے پہلے شائستہ اظہار کے طور پر بھی استعمال ہوتا ہے",
+    "vi": "Xin; yêu cầu; cầu xin — lịch sự yêu cầu điều gì đó hoặc đưa ra một yêu cầu; cũng được dùng như một hạt từ lịch sự trước câu xin",
+    "zh": "请求；要求；恳求 — 礼貌地要求某物或提出请求；也用作请求前的礼貌助词",
+    "zh_Hant": "請求；要求；懇求 — 禮貌地要求某物或提出請求；也用作請求前的禮貌助詞"
+  },
+  "definition_en": "To request; to ask for; to beg — to politely ask for something or make a request; also used as a polite softening particle before a request",
+  "romanization": "khɔ̌ː³",
+  "lao_examples": [
+    {
+      "lao_script": "ຂໍໂທດທີ ຂ້ອຍຊາຍໄປໜ້ອຍໄດ້ບໍ່?",
+      "romanization": "khɔ̌ː thôot thii, khɔ̂i saai pai nɔ̀i dâi bɔ̀?",
+      "translation_en": "Sorry, can I pass by for a moment?"
+    },
+    {
+      "lao_script": "ຂໍນໍ້າຈອກນຶ່ງແດ່",
+      "romanization": "khɔ̌ː nâm jɔ̀ɔk nùeng dɛ̀ɛ",
+      "translation_en": "Can I have a glass of water, please?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with hands gently pressed together in a polite gesture, or a person extending one hand forward as if politely asking for something, clean white background, colorful minimalist cartoon style suitable for a language learning app."
+}

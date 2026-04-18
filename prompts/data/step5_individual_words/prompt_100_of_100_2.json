@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດັນ",
+  "definitions": {
+    "de": "Etwas oder jemanden schieben oder drücken, um es/ihn zu bewegen",
+    "en": "To push something or someone in order to move it/them",
+    "es": "Empujar algo o a alguien para moverlo",
+    "fr": "Pousser quelque chose ou quelqu'un pour le/la déplacer",
+    "hi": "किसी चीज़ या व्यक्ति को हिलाने के लिए धकेलना",
+    "ja": "何かや誰かを動かすために押す",
+    "km": "штурхати щось або когось, щоб воно/вони рухалися; штовхати щось або когось вперед",
+    "ko": "무언가 또는 누군가를 움직이기 위해 밀다",
+    "ne": "केही वा कसैलाई सार्नको लागि धकेल्नु",
+    "pt": "Empurrar algo ou alguém para movê-lo",
+    "th": "ดัน; ผลักสิ่งของหรือบุคคลเพื่อให้เคลื่อนที่",
+    "tl": "Itulak ang isang bagay o tao upang maigalaw ito",
+    "ur": "کسی چیز یا شخص کو حرکت دینے کے لیے دھکیلنا",
+    "vi": "Đẩy thứ gì đó hoặc ai đó để di chuyển",
+    "zh": "推动某物或某人使其移动",
+    "zh_Hant": "推動某物或某人使其移動"
+  },
+  "definition_en": "To push something or someone in order to move it/them",
+  "romanization": "/dan/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍດັນປະຕູນີ້ໃຫ້ແດ່ ມັນຕິດຢູ່",
+      "romanization": "suai dan pa-tu ni hai dae, man tit yu",
+      "translation_en": "Help me push this door, it's stuck"
+    },
+    {
+      "lao_script": "ຢ່າດັນຂ້ອຍ, ຂ້ອຍຈະລົ້ມ",
+      "romanization": "yaa dan khoi, khoi ja lom",
+      "translation_en": "Don't push me, I'll fall"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pushing a large box across the floor with both hands, showing motion lines to indicate movement, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

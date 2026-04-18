@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວຽກ",
+  "definitions": {
+    "de": "Arbeit, Job oder Aufgabe; bezieht sich auf berufliche Tätigkeit oder eine zu erledigende Aufgabe",
+    "en": "Work, job, or task; refers to employment or a piece of work to be done",
+    "es": "Trabajo, empleo o tarea; se refiere a una ocupación o algo que hay que hacer",
+    "fr": "Travail, emploi ou tâche ; désigne une occupation professionnelle ou quelque chose à faire",
+    "hi": "काम, नौकरी या कार्य; रोजगार या करने योग्य किसी कार्य को संदर्भित करता है",
+    "ja": "仕事、職業、またはタスク；職業や行うべき作業を指す名詞",
+    "km": "ការងារ ឬភារកិច្ច; សំដៅទៅលើការងារ ឬអ្វីដែលត្រូវធ្វើ",
+    "ko": "일, 직업 또는 과제; 고용이나 해야 할 작업을 가리키는 명사",
+    "ne": "काम, जागिर वा कार्य; रोजगार वा गर्नुपर्ने काम जनाउँछ",
+    "pt": "Trabalho, emprego ou tarefa; refere-se a ocupação profissional ou algo a ser feito",
+    "th": "งาน, การทำงาน หรือภารกิจ; หมายถึงการจ้างงานหรืองานที่ต้องทำ",
+    "tl": "Trabaho, hanapbuhay, o gawain; tumutukoy sa isang propesyon o isang bagay na dapat gawin",
+    "ur": "کام، ملازمت یا کوئی کام؛ روزگار یا کرنے والے کام کو ظاہر کرتا ہے",
+    "vi": "Việc làm, công việc hoặc nhiệm vụ; chỉ nghề nghiệp hoặc công việc cần thực hiện",
+    "zh": "工作、职业或任务；指职业或需要完成的事情",
+    "zh_Hant": "工作、職業或任務；指職業或需要完成的事情"
+  },
+  "definition_en": "Work, job, or task; refers to employment or a piece of work to be done",
+  "romanization": "/wiák/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ຂ້ອຍມີວຽກຫຼາຍ",
+      "romanization": "mue ni khoi mi wiak lai",
+      "translation_en": "Today I have a lot of work."
+    },
+    {
+      "lao_script": "ເຈົ້າໄດ້ວຽກໃໝ່ແລ້ວບໍ?",
+      "romanization": "chao dai wiak mai laeo bo",
+      "translation_en": "Have you gotten a new job yet?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting at a desk working on a laptop with papers nearby, clean white background, bright cheerful colors, minimalist cartoon style suitable for a language learning app."
+}

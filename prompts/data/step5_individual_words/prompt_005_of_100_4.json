@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປີ",
+  "definitions": {
+    "de": "Jahr (Zeiteinheit von 12 Monaten; Lebensalter)",
+    "en": "year (12-month period; also used for age)",
+    "es": "año (período de 12 meses; también para la edad)",
+    "fr": "an/année (période de 12 mois; aussi l'âge)",
+    "hi": "वर्ष/साल (१२ महीने; उम्र के लिए भी)",
+    "ja": "年／歳（12か月、または年齢）",
+    "km": "ឆ្នាំ (រយៈពេល១២ខែ ឬអាយុ)",
+    "ne": "वर्ष／साल (१२ महिना वा उमेर)",
+    "pt": "ano (período de 12 meses; também para idade)",
+    "th": "ปี (ระยะเวลา 12 เดือน หรืออายุ)",
+    "ko": "년／살 (12개월 기간 또는 나이)",
+    "tl": "taon (labindalawang buwan o edad)",
+    "ur": "سال؛ برس (بارہ مہینے یا عمر)",
+    "vi": "năm/tuổi (12 tháng hoặc tuổi)",
+    "zh": "年／岁（12 个月或年龄）",
+    "zh_Hant": "年／歲（12 個月或年齡）"
+  },
+  "definition_en": "year (12-month period; also used for age)",
+  "romanization": "pìː",
+  "lao_examples": [
+    {
+      "lao_script": "ປີ ນີ້ ຝົນ ຕົກ ຫຼາຍ",
+      "romanization": "pìː nîː fǒn tōk lǎːj",
+      "translation_en": "It rains a lot this year."
+    },
+    {
+      "lao_script": "ລູກ ຊາຍ ຂ້ອຍ ສາມ ປີ",
+      "romanization": "lûːk sáːj kʰɔ̂ːj sǎːm pìː",
+      "translation_en": "My son is three years old."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a stylized tree with twelve leaves around it, each labeled with a month, representing a year, suitable for a language learning app, clean white background, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອອກ",
+  "definitions": {
+    "de": "Hinausgehen, verlassen; Richtungspartikel, der eine nach außen gerichtete Bewegung anzeigt",
+    "en": "To go out, exit, or move outward; also used as a directional verb complement indicating outward motion",
+    "es": "Salir, irse hacia afuera; también usado como complemento direccional que indica movimiento hacia el exterior",
+    "fr": "Sortir, partir vers l'extérieur; utilisé aussi comme complément directionnel indiquant un mouvement vers l'extérieur",
+    "hi": "बाहर जाना, निकलना; दिशात्मक क्रिया के रूप में भी प्रयुक्त जो बाहर की ओर गति दर्शाता है",
+    "ja": "外に出る、退出する；外向きの動きを示す方向動詞補語としても使われる",
+    "km": "ចេញ, ចេញទៅខាងក្រៅ; ប្រើជាកិរិយាស័ព្ទទិសដៅដែលបង្ហាញពីចលនាចេញទៅខាងក្រៅ",
+    "ko": "나가다, 밖으로 나오다; 바깥쪽 방향의 움직임을 나타내는 방향 동사 보어로도 사용됨",
+    "ne": "बाहिर जानु, निस्कनु; बाहिरतिर गतिको संकेत गर्ने दिशात्मक क्रियाको रूपमा पनि प्रयोग हुन्छ",
+    "pt": "Sair, ir para fora; também usado como complemento verbal direcional indicando movimento para fora",
+    "th": "ออกไปข้างนอก, ออกจาก; ใช้เป็นกริยาบอกทิศทางที่แสดงการเคลื่อนที่ออกไปข้างนอก",
+    "tl": "Lumabas, lumayo; ginagamit din bilang pandagdag na pandiwa ng direksyon na nagpapahiwatig ng galaw palabas",
+    "ur": "باہر جانا، نکلنا؛ سمتی فعل کے طور پر بھی استعمال ہوتا ہے جو باہر کی طرف حرکت ظاہر کرتا ہے",
+    "vi": "Ra ngoài, thoát ra; cũng dùng làm bổ ngữ động từ chỉ hướng chỉ sự chuyển động ra phía ngoài",
+    "zh": "出去，外出；也用作方向补语，表示向外的运动",
+    "zh_Hant": "出去，外出；也用作方向補語，表示向外的動作"
+  },
+  "definition_en": "To go out, exit, or move outward; also used as a directional verb complement indicating outward motion",
+  "romanization": "/ʔɔːk/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ເຮົາຢາກອອກໄປກິນເຂົ້ານອກເຮືອນ",
+      "romanization": "muu nii hao yaak awk pai kin khao nawk heuan",
+      "translation_en": "Today I want to go out and eat outside the house"
+    },
+    {
+      "lao_script": "ອອກໄປກ່ອນເດີ້ ຂ້ອຍຈະຕາມໄປທຫຼັງ",
+      "romanization": "awk pai kawn dee, khoi ja taam pai tii lang",
+      "translation_en": "Go out first, I'll follow later"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person happily walking out through an open door to the outside, with sunlight visible beyond the doorway, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮ້ານ",
+  "definitions": {
+    "de": "Ein Laden oder Geschäft, wo Waren oder Dienstleistungen verkauft werden",
+    "en": "A shop or store where goods or services are sold",
+    "es": "Una tienda o comercio donde se venden productos o servicios",
+    "fr": "Un magasin ou une boutique où l'on vend des produits ou des services",
+    "hi": "एक दुकान या स्टोर जहाँ सामान या सेवाएँ बेची जाती हैं",
+    "ja": "商品やサービスを販売する店や商店",
+    "km": "ហាង ឬទីកន្លែងលក់ទំនិញ ឬសេវាកម្ម",
+    "ko": "상품이나 서비스를 판매하는 가게 또는 상점",
+    "ne": "सामान वा सेवाहरू बेच्ने पसल वा दोकान",
+    "pt": "Uma loja ou estabelecimento comercial onde produtos ou serviços são vendidos",
+    "th": "ร้านค้าหรือสถานที่จำหน่ายสินค้าหรือบริการ",
+    "tl": "Isang tindahan o establisyamento kung saan ibinebenta ang mga produkto o serbisyo",
+    "ur": "ایک دکان یا اسٹور جہاں سامان یا خدمات فروخت کی جاتی ہیں",
+    "vi": "Một cửa hàng hoặc tiệm bán hàng hóa hay dịch vụ",
+    "zh": "出售商品或服务的商店或店铺",
+    "zh_Hant": "出售商品或服務的商店或店鋪"
+  },
+  "definition_en": "A shop or store where goods or services are sold",
+  "romanization": "haan",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານນີ້ຂາຍເຂົ້າໜຽວອ່ອຍ",
+      "romanization": "haan nii khaai khao niao oi",
+      "translation_en": "This shop sells delicious sticky rice"
+    },
+    {
+      "lao_script": "ໄປຊື້ຂອງທີ່ຮ້ານໃກ້ໆ ແດ່",
+      "romanization": "pai seu khong thi haan kai kai dae",
+      "translation_en": "Go buy some things at the nearby shop"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small neighborhood shop or store with a colorful storefront, shelves of products visible through an open door, a friendly shopkeeper standing at the entrance, clean white background, minimalist cartoon style suitable for a language learning app"
+}

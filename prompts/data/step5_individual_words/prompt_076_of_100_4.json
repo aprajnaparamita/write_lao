@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເສີມ",
+  "definitions": {
+    "de": "Ergänzen; verstärken; aufwerten; etwas hinzufügen, um etwas besser oder vollständiger zu machen",
+    "en": "To enhance; to supplement; to add to something to improve or complete it",
+    "es": "Mejorar; complementar; añadir algo para mejorar o completar otra cosa",
+    "fr": "Améliorer; compléter; ajouter quelque chose pour améliorer ou rendre plus complet",
+    "hi": "बढ़ाना; पूरक करना; किसी चीज़ को बेहतर या पूर्ण बनाने के लिए कुछ जोड़ना",
+    "ja": "補う；強化する；補足する；何かをより良くまたは完全にするために加える",
+    "km": "បន្ថែម; ពង្រឹង; បំពេញបន្ថែមទៅលើអ្វីមួយ ដើម្បីធ្វើឱ្យប្រសើរ ឬពេញលេញជាងមុន",
+    "ko": "보완하다; 강화하다; 보충하다; 무언가를 더 좋게 하거나 완성하기 위해 더하다",
+    "ne": "बढाउनु; पूरक गर्नु; कुनै कुरालाई राम्रो वा पूर्ण बनाउन केही थप्नु",
+    "pt": "Aprimorar; suplementar; acrescentar algo para melhorar ou completar",
+    "th": "เสริม; เพิ่มเติม; เพิ่มสิ่งใดสิ่งหนึ่งเพื่อปรับปรุงหรือทำให้สมบูรณ์ยิ่งขึ้น",
+    "tl": "Palakasin; dagdagan; magdagdag ng isang bagay upang mapabuti o makumpleto ito",
+    "ur": "بڑھانا؛ تکمیل کرنا؛ کسی چیز کو بہتر یا مکمل بنانے کے لیے کچھ شامل کرنا",
+    "vi": "Tăng cường; bổ sung; thêm vào điều gì đó để cải thiện hoặc hoàn chỉnh nó",
+    "zh": "增强；补充；添加某些东西使其更好或更完整",
+    "zh_Hant": "增強；補充；添加某些東西使其更好或更完整"
+  },
+  "definition_en": "To enhance; to supplement; to add to something to improve or complete it",
+  "romanization": "/séːm˩˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວກິນວິຕາມິນເພື່ອເສີມສຸຂະພາບ",
+      "romanization": "lao kin wi-ta-min pheua soem su-kha-phap",
+      "translation_en": "They take vitamins to boost their health."
+    },
+    {
+      "lao_script": "ຄູເສີມຄວາມຮູ້ໃຫ້ນັກຮຽນຫຼັງເລີກຮຽນ",
+      "romanization": "khu soem khwam-hu hai nak-hian lang loek hian",
+      "translation_en": "The teacher gives students extra knowledge after school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person adding extra pieces or stars to an already complete puzzle or structure, symbolizing enhancement or supplementation, clean white background, bright colors, minimalist educational style suitable for a language learning app."
+}

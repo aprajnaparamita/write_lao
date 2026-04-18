@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພາສາອັງກິດ",
+  "definitions": {
+    "de": "Die englische Sprache; die Sprache, die in Großbritannien, den USA und vielen anderen Ländern gesprochen wird",
+    "en": "The English language; the language spoken in the UK, USA, and many other countries around the world",
+    "es": "El idioma inglés; la lengua hablada en el Reino Unido, Estados Unidos y muchos otros países",
+    "fr": "La langue anglaise; la langue parlée au Royaume-Uni, aux États-Unis et dans de nombreux autres pays",
+    "hi": "अंग्रेजी भाषा; यूके, अमेरिका और दुनिया के कई अन्य देशों में बोली जाने वाली भाषा",
+    "ja": "英語；イギリス、アメリカ、その他多くの国々で話される言語",
+    "km": "ភាសាអង់គ្លេស; ភាសាដែលប្រើនៅចក្រភពអង់គ្លេស សហរដ្ឋអាមេរិក និងប្រទេសជាច្រើនទៀត",
+    "ko": "영어; 영국, 미국 및 전 세계 여러 나라에서 사용되는 언어",
+    "ne": "अङ्ग्रेजी भाषा; बेलायत, अमेरिका र विश्वका धेरै देशमा बोलिने भाषा",
+    "pt": "A língua inglesa; o idioma falado no Reino Unido, nos EUA e em muitos outros países do mundo",
+    "th": "ภาษาอังกฤษ; ภาษาที่พูดในสหราชอาณาจักร สหรัฐอเมริกา และหลายประเทศทั่วโลก",
+    "tl": "Wikang Ingles; ang wikang sinasalita sa UK, USA, at maraming ibang bansa sa buong mundo",
+    "ur": "انگریزی زبان؛ وہ زبان جو برطانیہ، امریکہ اور دنیا کے بہت سے دوسرے ممالک میں بولی جاتی ہے",
+    "vi": "Tiếng Anh; ngôn ngữ được nói ở Anh, Mỹ và nhiều quốc gia khác trên thế giới",
+    "zh": "英语；在英国、美国及世界许多其他国家使用的语言",
+    "zh_Hant": "英語；在英國、美國及世界許多其他國家使用的語言"
+  },
+  "definition_en": "The English language; the language spoken in the UK, USA, and many other countries around the world",
+  "romanization": "pʰaːsaː ʔaŋkit",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວເວົ້າພາສາອັງກິດເກັ່ງຫຼາຍ",
+      "romanization": "laːw waw pʰaːsaː ʔaŋkit keŋ laːj",
+      "translation_en": "He/She speaks English really well."
+    },
+    {
+      "lao_script": "ຢາກຮຽນພາສາອັງກິດແມ່ນຕ້ອງຝຶກທຸກວັນ",
+      "romanization": "jaːk hian pʰaːsaː ʔaŋkit mɛːn tɔŋ fɯk tʰuk wan",
+      "translation_en": "If you want to learn English, you have to practice every day."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the British and American flags side by side next to an open book labeled 'English', suitable for a language learning app, clean white background, colorful minimalist style."
+}

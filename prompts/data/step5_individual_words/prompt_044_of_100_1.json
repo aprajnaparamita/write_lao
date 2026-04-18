@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທ່ອງ",
+  "definitions": {
+    "de": "Bereisen; auswendig aufsagen; rezitieren (wird in ທ່ອງທ່ຽວ 'Tourismus' verwendet)",
+    "en": "To tour, travel around; to recite or memorize aloud (used in ທ່ອງທ່ຽວ 'tourism')",
+    "es": "Recorrer, viajar; recitar o memorizar en voz alta (usado en ທ່ອງທ່ຽວ 'turismo')",
+    "fr": "Parcourir, voyager; réciter ou mémoriser à voix haute (utilisé dans ທ່ອງທ່ຽວ 'tourisme')",
+    "hi": "भ्रमण करना; ज़ोर से पाठ करना या याद करना (ທ່ອງທ່ຽວ 'पर्यटन' में प्रयुक्त)",
+    "ja": "巡る、旅する；暗唱する、声に出して覚える（ທ່ອງທ່ຽວ「観光」で使われる）",
+    "km": "ធ្វើដំណើរកម្សាន្ត; សូត្រ ឬទន្ទេញឮៗ (ប្រើក្នុង ທ່ອງທ່ຽວ 'ទេសចរណ៍')",
+    "ko": "여행하다, 돌아다니다; 소리 내어 외우다 (ທ່ອງທ່ຽວ '관광'에 사용됨)",
+    "ne": "घुम्नु, यात्रा गर्नु; ठूलो स्वरमा कण्ठ गर्नु (ທ່ອງທ່ຽວ 'पर्यटन' मा प्रयोग)",
+    "pt": "Viajar, percorrer; recitar ou memorizar em voz alta (usado em ທ່ອງທ່ຽວ 'turismo')",
+    "th": "ท่อง, เที่ยว; ท่องจำออกเสียง (ใช้ในคำว่า ທ່ອງທ່ຽວ 'การท่องเที่ยว')",
+    "tl": "Maglakbay, mamasyal; bigkasin o isaulo nang malakas (ginagamit sa ທ່ອງທ່ຽວ 'turismo')",
+    "ur": "سیر کرنا، گھومنا؛ بلند آواز میں یاد کرنا (ທ່ອງທ່ຽວ 'سیاحت' میں استعمال ہوتا ہے)",
+    "vi": "Du ngoạn, đi chơi; đọc thuộc lòng (dùng trong ທ່ອງທ່ຽວ 'du lịch')",
+    "zh": "游览；朗读背诵（用于ທ່ອງທ່ຽວ'旅游'）",
+    "zh_Hant": "遊覽；朗讀背誦（用於ທ່ອງທ່ຽວ'旅遊'）"
+  },
+  "definition_en": "To tour, travel around; to recite or memorize aloud (used in ທ່ອງທ່ຽວ 'tourism')",
+  "romanization": "/tʰɔ̀ːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍມັກໄປທ່ອງທ່ຽວຕ່າງປະເທດ.",
+      "romanization": "khɔ̏ːj māk pāj tʰɔ̀ːŋ tʰīaw tāːŋ pā.tʰêːt",
+      "translation_en": "I like to travel abroad."
+    },
+    {
+      "lao_script": "ລູກທ່ອງບົດຮຽນທຸກເຊົ້າ.",
+      "romanization": "lûːk tʰɔ̀ːŋ bót hían tʰūk sáw",
+      "translation_en": "The child recites the lesson every morning."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a happy traveler with a backpack and map exploring a scenic destination, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

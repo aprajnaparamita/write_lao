@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄືນ",
+  "definitions": {
+    "de": "Nacht (Substantiv); zurückkehren/zurückgeben (Verb); bezeichnet die dunkle Tageszeit oder die Rückkehr zu einem Ausgangspunkt",
+    "en": "Night (noun); to return / to give back (verb); refers to the nighttime hours or the act of going back / returning something",
+    "es": "Noche (sustantivo); regresar / devolver (verbo); se refiere a las horas nocturnas o al acto de volver o devolver algo",
+    "fr": "Nuit (nom); retourner / rendre (verbe); désigne les heures de la nuit ou l'action de revenir ou de rendre quelque chose",
+    "hi": "रात (संज्ञा); वापस जाना / वापस करना (क्रिया); रात के समय या किसी चीज़ को लौटाने की क्रिया को दर्शाता है",
+    "ja": "夜（名詞）；戻る・返す（動詞）；夜の時間帯、または何かを返したり帰ったりする行為を指す",
+    "km": "យប់ (នាម); ត្រឡប់មកវិញ / បង្វិលសង (កិរិយា); សំដៅលើពេលយប់ ឬការវិលត្រឡប់ទៅកន្លែងដើម",
+    "ko": "밤 (명사); 돌아가다 / 돌려주다 (동사); 야간 시간대 또는 돌아오거나 무언가를 반납하는 행위를 의미함",
+    "ne": "रात (संज्ञा); फर्कनु / फिर्ता गर्नु (क्रिया); रातको समय वा कुनै ठाउँमा फर्कने वा केही फिर्ता गर्ने कार्यलाई जनाउँछ",
+    "pt": "Noite (substantivo); retornar / devolver (verbo); refere-se ao período noturno ou ao ato de voltar ou devolver algo",
+    "th": "คืน (คำนาม) หมายถึงเวลากลางคืน; หรือ (คำกริยา) หมายถึงการกลับ/คืนสิ่งของ",
+    "tl": "Gabi (pangngalan); bumalik / ibalik (pandiwa); tumutukoy sa oras ng gabi o sa kilos ng pagbabalik o pag-ibalik ng isang bagay",
+    "ur": "رات (اسم)؛ واپس جانا / واپس کرنا (فعل)؛ رات کے اوقات یا کسی چیز کو واپس کرنے کے عمل کو ظاہر کرتا ہے",
+    "vi": "Đêm (danh từ); trả lại / quay lại (động từ); chỉ thời gian ban đêm hoặc hành động trở về hay hoàn trả thứ gì đó",
+    "zh": "夜晚（名词）；归还/返回（动词）；指夜间时段或返回、归还某物的动作",
+    "zh_Hant": "夜晚（名詞）；歸還/返回（動詞）；指夜間時段或返回、歸還某物的動作"
+  },
+  "definition_en": "Night (noun); to return / to give back (verb); refers to the nighttime hours or the act of going back / returning something",
+  "romanization": "/kʰɯːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄືນນີ້ດາວສວຍຫຼາຍເນາະ",
+      "romanization": "khuen ni dao suay lai nao",
+      "translation_en": "The stars are so beautiful tonight, aren't they?"
+    },
+    {
+      "lao_script": "ຢືມເງິນໄປແລ້ວຢ່າລືມຄືນດ້ວຍນະ",
+      "romanization": "yuem ngoen pai laeo, ya luem khuen duay na",
+      "translation_en": "You borrowed money, don't forget to return it."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a peaceful night sky with a moon and stars (representing 'night'); on the right, a person handing back an object to another smiling person (representing 'return'). Clean white background, soft colors, minimalist style suitable for a language learning app."
+}

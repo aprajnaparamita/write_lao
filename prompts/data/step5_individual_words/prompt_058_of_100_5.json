@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເກົ່າ",
+  "definitions": {
+    "de": "Alt; von Gegenständen und Dingen, die schon lange existieren oder benutzt wurden",
+    "en": "Old; describes objects or things that have existed or been used for a long time (not used for people's age)",
+    "es": "Viejo; describe objetos o cosas que existen o han sido usadas por mucho tiempo (no se usa para personas)",
+    "fr": "Vieux; décrit des objets ou des choses qui existent ou ont été utilisés depuis longtemps (ne s'utilise pas pour les personnes)",
+    "hi": "पुराना; उन वस्तुओं या चीज़ों के लिए जो लंबे समय से हैं या इस्तेमाल हो रही हैं (लोगों की उम्र के लिए नहीं)",
+    "ja": "古い；物や物事が長い間存在している、または使われていることを表す（人の年齢には使わない）",
+    "km": "ចាស់ / ចំណាស់; ពិពណ៌នាវត្ថុឬអ្វីៗដែលមានជាយូរណាស់ ឬត្រូវបានប្រើប្រាស់យូរហើយ (មិនប្រើសម្រាប់អាយុមនុស្សទេ)",
+    "ko": "오래된; 물건이나 사물이 오랫동안 존재하거나 사용된 것을 묘사함 (사람의 나이에는 사용하지 않음)",
+    "ne": "पुरानो; वस्तु वा चीजहरूको लागि जुन लामो समयदेखि अवस्थित छन् वा प्रयोग भएका छन् (मान्छेको उमेरका लागि प्रयोग गरिँदैन)",
+    "pt": "Velho; descreve objetos ou coisas que existem ou foram usados por muito tempo (não se usa para pessoas)",
+    "th": "เก่า; ใช้อธิบายวัตถุหรือสิ่งของที่มีอยู่มานานหรือถูกใช้มานาน (ไม่ใช้กับอายุของคน)",
+    "tl": "Luma; naglalarawan ng mga bagay o gamit na matagal nang mayroon o nagamit na (hindi ginagamit para sa edad ng tao)",
+    "ur": "پرانا؛ ایسی چیزوں یا اشیاء کو بیان کرتا ہے جو بہت عرصے سے موجود ہیں یا استعمال ہو رہی ہیں (لوگوں کی عمر کے لیے نہیں)",
+    "vi": "Cũ; mô tả đồ vật hoặc sự vật đã tồn tại hoặc được sử dụng trong thời gian dài (không dùng cho tuổi người)",
+    "zh": "旧的；描述存在或使用了很长时间的物品或事物（不用于描述人的年龄）",
+    "zh_Hant": "舊的；描述存在或使用了很長時間的物品或事物（不用於描述人的年齡）"
+  },
+  "definition_en": "Old; describes objects or things that have existed or been used for a long time (not used for people's age)",
+  "romanization": "/kaw˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ໂທລະສັບເຄື່ອງນີ້ເກົ່າຫຼາຍແລ້ວ",
+      "romanization": "tho-la-sap khuang nii kao laai laeo",
+      "translation_en": "This phone is already very old."
+    },
+    {
+      "lao_script": "ເສື້ອເກົ່ານີ້ຍັງໃສ່ໄດ້ຢູ່",
+      "romanization": "suea kao nii yang sai dai yuu",
+      "translation_en": "This old shirt can still be worn."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two objects side by side: a worn, faded old book with a torn cover on the left, and a bright new book on the right, with a visual contrast between old and new, clean white background, colorful and minimalist style suitable for a language learning app."
+}

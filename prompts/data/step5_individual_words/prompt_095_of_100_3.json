@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຕີນ",
+  "definitions": {
+    "de": "Gehen (dialektale Variante von ຍ່າງ); zu Fuß gehen, typisch in bestimmten regionalen Dialekten des Laotischen verwendet",
+    "en": "To walk (dialectal variant of ຍ່າງ); used in certain regional Lao dialects to mean going on foot",
+    "es": "Caminar (variante dialectal de ຍ່າງ); utilizado en ciertos dialectos regionales del lao para indicar ir a pie",
+    "fr": "Marcher (variante dialectale de ຍ່າງ); utilisé dans certains dialectes régionaux du laotien pour dire aller à pied",
+    "hi": "चलना (ຍ່າງ का बोलीगत रूप); लाओ भाषा के कुछ क्षेत्रीय बोलियों में पैदल जाने के लिए प्रयुक्त",
+    "ja": "歩く（ຍ່າງの方言形）；ラオス語の一部の地域方言で徒歩で行くという意味で使われる",
+    "km": "ដើរ (ប្រភេទថ្នាំងនៃ ຍ່າງ); ប្រើក្នុងគ្រួសារភាសាឡាវតំបន់ខ្លះ ដើម្បីបញ្ជាក់ការដើរជើង",
+    "ko": "걷다 (ຍ່າງ의 방언형); 일부 지역 라오어 방언에서 걸어가다는 의미로 사용됨",
+    "ne": "हिँड्नु (ຍ່າງ को बोलीगत रूप); केही क्षेत्रीय लाओ बोलीहरूमा पैदल जानको लागि प्रयोग गरिन्छ",
+    "pt": "Caminhar (variante dialetal de ຍ່າງ); usado em certos dialetos regionais do laosiano para indicar ir a pé",
+    "th": "เดิน (รูปแบบภาษาถิ่นของ ຍ່າງ); ใช้ในภาษาลาวบางสำเนียงท้องถิ่นเพื่อหมายถึงการเดินด้วยเท้า",
+    "tl": "Lumakad (diyalektal na variant ng ຍ່າງ); ginagamit sa ilang rehiyonal na diyalekto ng Lao na nangangahulugang paglalakad",
+    "ur": "چلنا (ຍ່າງ کی بولی شکل)؛ کچھ علاقائی لاؤ بولیوں میں پیدل چلنے کے معنی میں استعمال ہوتا ہے",
+    "vi": "Đi bộ (biến thể phương ngữ của ຍ່າງ); được dùng trong một số phương ngữ Lào địa phương để chỉ việc đi bộ",
+    "zh": "走路（ຍ່າງ的方言变体）；在某些老挝地方方言中使用，表示步行",
+    "zh_Hant": "走路（ຍ່າງ的方言變體）；在某些老撾地方方言中使用，表示步行"
+  },
+  "definition_en": "To walk (dialectal variant of ຍ່າງ); used in certain regional Lao dialects to mean going on foot",
+  "romanization": "/tə̄ːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ເຕີນໄປຕະຫຼາດເລີຍ ບໍ່ໄດ້ຂີ່ລົດ",
+      "romanization": "mue ni teon pai ta-lat loei, bo dai khi lot",
+      "translation_en": "Today I just walked to the market, didn't ride the motorbike."
+    },
+    {
+      "lao_script": "ເຕີນກັນມາ ໄລຍະທາງໃກ້ຫຼາຍ",
+      "romanization": "teon kan ma, lai-ya-thang kai lai",
+      "translation_en": "Let's walk together, it's very close."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking casually on a path, viewed from the side, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

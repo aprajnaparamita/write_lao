@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊົມ",
+  "definitions": {
+    "de": "bewundern, genießen, (Anblick) betrachten, loben",
+    "en": "to admire, appreciate, enjoy (a view/show), praise",
+    "es": "admirar, apreciar, disfrutar (de una vista/espectáculo), elogiar",
+    "fr": "admirer, apprécier, profiter (d'un spectacle/paysage), louer",
+    "hi": "प्रशंसा करना, आनंद लेना, निहारना",
+    "ja": "鑑賞する、楽しむ、称賛する",
+    "km": "កោតសរសើរ, ទស្សនា, រីករាយនឹង",
+    "ko": "감상하다, 즐기다, 칭찬하다",
+    "ne": "प्रशंसा गर्नु, हेरेर आनन्द लिनु",
+    "pt": "admirar, apreciar, desfrutar (de uma vista/espetáculo), elogiar",
+    "th": "ชม, ชื่นชม, รับชม",
+    "tl": "humanga, mag-enjoy, magpuri",
+    "ur": "تعریف کرنا، لطف اٹھانا، دیکھ کر محظوظ ہونا",
+    "vi": "ngắm, thưởng thức, khen ngợi",
+    "zh": "欣赏，观赏，赞美",
+    "zh_Hant": "欣賞，觀賞，讚美"
+  },
+  "definition_en": "to admire, appreciate, enjoy (a view/show), praise",
+  "romanization": "sóm",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາໄປຊົມດອກໄມ້ຢູ່ສວນ.",
+      "romanization": "háw pàj sóm dɔ̏ːk.mâj jūː sǔːan",
+      "translation_en": "We're going to the park to enjoy the flowers."
+    },
+    {
+      "lao_script": "ລາວຊົມອາຫານທີ່ຂ້ອຍເຮັດ.",
+      "romanization": "láːw sóm ʔāː.hǎːn tʰīː kʰɔ̏ːj hēt",
+      "translation_en": "He/She praised the food I made."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person smiling and admiring colorful flowers in a garden, with hands gently clasped in appreciation, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

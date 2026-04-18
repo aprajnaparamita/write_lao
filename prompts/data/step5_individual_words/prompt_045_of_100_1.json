@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສຽງ",
+  "definitions": {
+    "de": "Geräusch, Laut oder Stimme; ein hörbares Klangphänomen",
+    "en": "Sound or voice; any audible noise or the sound produced by a person speaking or singing",
+    "es": "Sonido o voz; cualquier ruido audible o el sonido producido por una persona al hablar o cantar",
+    "fr": "Son ou voix ; tout bruit audible ou le son produit par une personne qui parle ou chante",
+    "hi": "ध्वनि या आवाज़; कोई भी श्रव्य शोर या किसी व्यक्ति के बोलने या गाने से उत्पन्न ध्वनि",
+    "ja": "音や声；聞こえるあらゆる音、または人が話したり歌ったりするときに出る音",
+    "km": "សំឡេង ឬសូរស័ព្ទ; សំឡេងដែលអាចឮបាន ឬសំឡេងដែលបុគ្គលម្នាក់និយាយ ឬច្រៀង",
+    "ko": "소리 또는 목소리; 들을 수 있는 모든 소음이나 사람이 말하거나 노래할 때 나는 소리",
+    "ne": "आवाज वा ध्वनि; कुनै पनि सुन्न सकिने आवाज वा व्यक्तिले बोल्दा वा गाउँदा निकालेको ध्वनि",
+    "pt": "Som ou voz; qualquer ruído audível ou o som produzido por uma pessoa ao falar ou cantar",
+    "th": "เสียงหรือเสียงพูด; เสียงที่ได้ยินได้ทุกชนิดหรือเสียงที่เกิดจากการพูดหรือร้องเพลงของคน",
+    "tl": "Tunog o boses; anumang marinig na ingay o ang tunog na ginagawa ng isang tao habang nagsasalita o umaawit",
+    "ur": "آواز یا صوت؛ کوئی بھی سنائی دینے والی آواز یا کسی شخص کے بولنے یا گانے سے پیدا ہونے والی آواز",
+    "vi": "Âm thanh hoặc giọng nói; bất kỳ tiếng động nào có thể nghe được hoặc âm thanh do một người tạo ra khi nói hoặc hát",
+    "zh": "声音或嗓音；任何可听见的噪音，或人说话、唱歌时发出的声音",
+    "zh_Hant": "聲音或嗓音；任何可聽見的噪音，或人說話、唱歌時發出的聲音"
+  },
+  "definition_en": "Sound or voice; any audible noise or the sound produced by a person speaking or singing",
+  "romanization": "sǐang",
+  "lao_examples": [
+    {
+      "lao_script": "ສຽງເພງນີ້ໄພວ່ອຍຫຼາຍ",
+      "romanization": "sǐang pheng níi phái wɔ̂i lǎai",
+      "translation_en": "This song sounds really beautiful."
+    },
+    {
+      "lao_script": "ສຽງນາຍດັງຫຼາຍ, ຂ້ອຍໄດ້ຍິນຈາກໄກ",
+      "romanization": "sǐang khǎo dang lǎai, khɔ̂i dâi yin jak glai",
+      "translation_en": "His voice is very loud, I can hear it from far away."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing sound waves emanating from a human mouth and a musical note floating in the air, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

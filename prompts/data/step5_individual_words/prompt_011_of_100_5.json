@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເມືອງ",
+  "definitions": {
+    "de": "Stadt, Kleinstadt oder Bezirk – bezeichnet eine bewohnte Gemeinschaft, die größer als ein Dorf, aber kleiner als eine Metropole ist; auch für Verwaltungsbezirke verwendet",
+    "en": "City, town, or district – refers to an inhabited community larger than a village; also used for administrative districts in Laos",
+    "es": "Ciudad, pueblo o distrito – se refiere a una comunidad habitada más grande que una aldea; también se usa para distritos administrativos en Laos",
+    "fr": "Ville, bourg ou district – désigne une communauté habitée plus grande qu'un village ; utilisé aussi pour les districts administratifs au Laos",
+    "hi": "शहर, नगर या जिला – किसी गाँव से बड़ी बस्ती को दर्शाता है; लाओस में प्रशासनिक जिलों के लिए भी प्रयुक्त",
+    "ja": "都市、町、または行政区 – 村よりも大きな居住地を指す；ラオスの行政区にも使われる",
+    "km": "ទីក្រុង ទីប្រជុំជន ឬស្រុក – សំដៅលើសហគមន៍ដែលធំជាងភូមិ ហើយក៏ប្រើសម្រាប់ស្រុករដ្ឋបាលនៅប្រទេសឡាវផងដែរ",
+    "ko": "도시, 읍 또는 행정구역 – 마을보다 큰 정주 공동체를 나타내며, 라오스에서는 행정 구역에도 사용됨",
+    "ne": "सहर, नगर वा जिल्ला – गाउँभन्दा ठूलो बस्तीलाई जनाउँछ; लाओसमा प्रशासनिक जिल्लाका लागि पनि प्रयोग हुन्छ",
+    "pt": "Cidade, vila ou distrito – refere-se a uma comunidade habitada maior que uma aldeia; também usado para distritos administrativos no Laos",
+    "th": "เมือง ตำบล หรือเขต – หมายถึงชุมชนที่มีประชากรอาศัยอยู่ซึ่งมีขนาดใหญ่กว่าหมู่บ้าน ยังใช้สำหรับเขตการปกครองในลาวด้วย",
+    "tl": "Lungsod, bayan, o distrito – tumutukoy sa isang komunidad na mas malaki sa isang nayon; ginagamit din para sa mga administratibong distrito sa Laos",
+    "ur": "شہر، قصبہ یا ضلع – ایک ایسی آبادی کو ظاہر کرتا ہے جو گاؤں سے بڑی ہو؛ لاؤس میں انتظامی اضلاع کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Thành phố, thị trấn hoặc huyện – chỉ một cộng đồng dân cư lớn hơn làng; cũng dùng để chỉ các huyện hành chính ở Lào",
+    "zh": "城市、城镇或县区——指比村庄更大的居住社区；在老挝也用于行政区划",
+    "zh_Hant": "城市、城鎮或縣區——指比村莊更大的居住社區；在寮國也用於行政區劃"
+  },
+  "definition_en": "City, town, or district – refers to an inhabited community larger than a village; also used for administrative districts in Laos",
+  "romanization": "mɯːaŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຢູ່ໃນເມືອງຫຼືຢູ່ບ້ານນອກ?",
+      "romanization": "dʑâo yùː nai mɯːaŋ lɯː yùː baːn nɔːk?",
+      "translation_en": "Do you live in the city or in the countryside?"
+    },
+    {
+      "lao_script": "ເມືອງນີ້ມີຄົນຫຼາຍຫຼາຍ",
+      "romanization": "mɯːaŋ niː miː kʰon laːi laːi",
+      "translation_en": "This city has so many people."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small cityscape with a few colorful buildings, a road, and trees, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

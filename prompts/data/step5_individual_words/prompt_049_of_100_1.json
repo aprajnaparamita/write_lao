@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃຕ້",
+  "definitions": {
+    "de": "Unter / Süden – gibt eine Position unterhalb von etwas oder eine südliche Richtung an",
+    "en": "Under / south – indicates a position below something or a southward direction",
+    "es": "Debajo / sur – indica una posición debajo de algo o una dirección hacia el sur",
+    "fr": "Sous / sud – indique une position en dessous de quelque chose ou une direction vers le sud",
+    "hi": "नीचे / दक्षिण – किसी चीज़ के नीचे की स्थिति या दक्षिण दिशा को दर्शाता है",
+    "ja": "下／南 – 何かの下の位置、または南の方向を示す",
+    "km": "ក្រោម / ខាងត្បូង – បង្ហាញទីតាំងនៅក្រោមមួយចំណែក ឬទិសទៅខាងត្បូង",
+    "ko": "아래 / 남쪽 – 무언가의 아래 위치 또는 남쪽 방향을 나타냄",
+    "ne": "तल / दक्षिण – कुनै चीजको तल हुने स्थिति वा दक्षिण दिशा जनाउँछ",
+    "pt": "Embaixo / sul – indica uma posição abaixo de algo ou uma direção ao sul",
+    "th": "ใต้ / ทางใต้ – บ่งบอกตำแหน่งที่อยู่ด้านล่างของบางสิ่ง หรือทิศทางทางใต้",
+    "tl": "Sa ilalim / timog – nagpapahiwatig ng posisyon sa ibaba ng isang bagay o direksyong timog",
+    "ur": "نیچے / جنوب – کسی چیز کے نیچے کی پوزیشن یا جنوبی سمت کو ظاہر کرتا ہے",
+    "vi": "Dưới / phía nam – chỉ vị trí bên dưới thứ gì đó hoặc hướng về phía nam",
+    "zh": "下面 / 南方 – 表示在某物下方的位置，或向南的方向",
+    "zh_Hant": "下面 / 南方 – 表示在某物下方的位置，或向南的方向"
+  },
+  "definition_en": "Under / south – indicates a position below something or a southward direction",
+  "romanization": "tâi",
+  "lao_examples": [
+    {
+      "lao_script": "ແມວຢູ່ໃຕ້ໂຕະ",
+      "romanization": "mǣo yū tâi to",
+      "translation_en": "The cat is under the table."
+    },
+    {
+      "lao_script": "ບ້ານຂອງຂ້ອຍຢູ່ໃຕ້ດິນ",
+      "romanization": "bân khɔ̌ng khɔ̂y yū tâi din",
+      "translation_en": "My house is in the south."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a cat sitting underneath a wooden table, with a directional compass arrow pointing south in the corner, clean white background, colorful minimalist style suitable for a language learning app."
+}

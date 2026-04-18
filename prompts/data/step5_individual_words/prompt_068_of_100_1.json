@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສອບ",
+  "definitions": {
+    "de": "Prüfen, testen; eine Prüfung oder einen Test ablegen, um Wissen oder Fähigkeiten zu bewerten",
+    "en": "To examine or test; to take or administer a test/exam to assess knowledge or skills",
+    "es": "Examinar, probar; realizar o administrar un examen para evaluar conocimientos o habilidades",
+    "fr": "Examiner, tester; passer ou administrer un examen pour évaluer des connaissances ou des compétences",
+    "hi": "परीक्षा लेना या देना; ज्ञान या कौशल का मूल्यांकन करने के लिए परीक्षा आयोजित करना या देना",
+    "ja": "試験する、テストする；知識やスキルを評価するために試験を受けたり実施したりする",
+    "km": "ប្រឡង ឬធ្វើតេស្ត; ធ្វើការប្រឡង ឬអនុវត្តការប្រឡងដើម្បីវាយតម្លៃចំណេះដឹង ឬជំនាញ",
+    "ko": "시험하다, 검사하다; 지식이나 기술을 평가하기 위해 시험을 보거나 시행하다",
+    "ne": "परीक्षा लिनु वा दिनु; ज्ञान वा सीपको मूल्याङ्कन गर्न परीक्षा दिनु वा सञ्चालन गर्नु",
+    "pt": "Examinar, testar; fazer ou administrar um exame para avaliar conhecimentos ou habilidades",
+    "th": "สอบ, ทดสอบ; การสอบหรือจัดสอบเพื่อประเมินความรู้หรือทักษะ",
+    "tl": "Sumubok, mag-eksamen; kumuha o mag-administer ng pagsubok upang suriin ang kaalaman o kakayahan",
+    "ur": "امتحان لینا یا دینا؛ علم یا مہارت جانچنے کے لیے امتحان دینا یا لینا",
+    "vi": "Kiểm tra, thi; tham gia hoặc tổ chức một bài kiểm tra/kỳ thi để đánh giá kiến thức hoặc kỹ năng",
+    "zh": "考试、测试；参加或主持考试以评估知识或技能",
+    "zh_Hant": "考試、測試；參加或主持考試以評估知識或技能"
+  },
+  "definition_en": "To examine or test; to take or administer a test/exam to assess knowledge or skills",
+  "romanization": "/sɔ̀ːp/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ອື່ນຂ້ອຍຕ້ອງໄປສອບວິຊາຄະນິດສາດ",
+      "romanization": "Muu-uun khoi tong pai sop wicha kha-nit-saat",
+      "translation_en": "Tomorrow I have to go take my math exam."
+    },
+    {
+      "lao_script": "ເຈົ້າສອບຜ່ານບໍ່?",
+      "romanization": "Jao sop phan bo?",
+      "translation_en": "Did you pass the exam?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a student sitting at a desk writing on an exam paper, with a pencil in hand and a focused expression, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໝາຍ",
+  "definitions": {
+    "de": "bedeuten, meinen, markieren, ein Zeichen machen",
+    "en": "to mean, to signify, to mark, to indicate",
+    "es": "significar, querer decir, marcar, indicar",
+    "fr": "signifier, vouloir dire, marquer, indiquer",
+    "hi": "मतलब होना, अर्थ होना, चिह्न लगाना",
+    "ja": "意味する、示す、マークする",
+    "km": "មានន័យ, សំដៅ, គូសសញ្ញា, ន័យ",
+    "ko": "의미하다, 뜻하다, 표시하다",
+    "ne": "अर्थ लाग्नु, संकेत गर्नु, चिन्ह लगाउनु",
+    "pt": "significar, querer dizer, marcar, indicar",
+    "th": "หมาย, หมายความว่า, หมายถึง, ทำเครื่องหมาย",
+    "tl": "ibig sabihin, mangahulugan, markahan",
+    "ur": "مطلب ہونا، نشان لگانا، اشارہ کرنا",
+    "vi": "có nghĩa là, muốn nói, đánh dấu",
+    "zh": "意思是、表示、标记",
+    "zh_Hant": "意思是、表示、標記"
+  },
+  "definition_en": "to mean, to signify, to mark, to indicate",
+  "romanization": "maːj",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳນີ້ໝາຍຄວາມວ່າຫຍັງ",
+      "romanization": "kʰam niː maːj kʰwaːm waː ɲaŋ",
+      "translation_en": "What does this word mean?"
+    },
+    {
+      "lao_script": "ໝາຍເລກໂທລະສັບຂອງເຈົ້າແມ່ນຫຍັງ",
+      "romanization": "maːj leːk tʰoː la sap kʰɔːŋ tɕâw mɛːn ɲaŋ",
+      "translation_en": "What is your phone number?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a thought bubble showing a question mark next to a written word, indicating asking for the meaning of something, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

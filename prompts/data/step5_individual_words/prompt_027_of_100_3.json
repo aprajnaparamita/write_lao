@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄ້າ",
+  "definitions": {
+    "de": "Handel treiben; Waren kaufen und verkaufen; Gewerbe",
+    "en": "To trade or do commerce; buying and selling goods",
+    "es": "Comerciar; comprar y vender bienes; negocio",
+    "fr": "Faire du commerce ; acheter et vendre des marchandises",
+    "hi": "व्यापार करना; सामान खरीदना और बेचना",
+    "ja": "取引する；商売する；売買する",
+    "km": "ធ្វើពាណិជ្ជកម្ម; ទិញនិងលក់ទំនិញ",
+    "ko": "거래하다; 장사하다; 물건을 사고팔다",
+    "ne": "व्यापार गर्नु; सामान किन्नु र बेच्नु",
+    "pt": "Comercializar; comprar e vender mercadorias; fazer negócio",
+    "th": "ค้าขาย; ซื้อและขายสินค้า; ทำการค้า",
+    "tl": "Mag-negosyo; bumili at magbenta ng mga kalakal",
+    "ur": "تجارت کرنا؛ سامان خریدنا اور بیچنا",
+    "vi": "Buôn bán; mua và bán hàng hóa; kinh doanh",
+    "zh": "经商；买卖货物；贸易",
+    "zh_Hant": "經商；買賣貨物；貿易"
+  },
+  "definition_en": "To trade or do commerce; buying and selling goods",
+  "romanization": "/kʰáː/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຄ້າຂາຍຜັກຢູ່ຕະຫຼາດທຸກມື້",
+      "romanization": "mɛ̀ kʰáː kʰǎːj pʰàk jùː talàːt tʰúk mʉ̄ː",
+      "translation_en": "The trader sells vegetables at the market every day."
+    },
+    {
+      "lao_script": "ລາວຄ້າຂາຍດີຫຼາຍ ລາຍໄດ້ດີ",
+      "romanization": "láːo kʰáː kʰǎːj díː lǎːj láːj dâj díː",
+      "translation_en": "Their business is really good, and the income is great."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two people exchanging goods and money at a small market stall, clean white background, colorful and minimalist style, suitable for a language learning app."
+}

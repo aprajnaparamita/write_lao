@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂ່າວ",
+  "definitions": {
+    "de": "Nachrichten; aktuelle Informationen über Ereignisse",
+    "en": "News; information about recent events",
+    "es": "Noticias; información sobre eventos recientes",
+    "fr": "Nouvelles; informations sur des événements récents",
+    "hi": "समाचार; हाल की घटनाओं की जानकारी",
+    "ja": "ニュース；最近の出来事に関する情報",
+    "km": "ព័ត៌មាន; ข้อมูลเกี่ยวกับព្រឹត្តការណ៍ថ្មីៗ",
+    "ko": "뉴스; 최근 사건에 대한 정보",
+    "ne": "समाचार; हालसालका घटनाहरूको जानकारी",
+    "pt": "Notícia; informação sobre eventos recentes",
+    "th": "ข่าว; ข้อมูลเกี่ยวกับเหตุการณ์ล่าสุด",
+    "tl": "Balita; impormasyon tungkol sa mga kamakailang pangyayari",
+    "ur": "خبر؛ حالیہ واقعات کے بارے میں معلومات",
+    "vi": "Tin tức; thông tin về các sự kiện gần đây",
+    "zh": "新闻；关于近期事件的信息",
+    "zh_Hant": "新聞；關於近期事件的資訊"
+  },
+  "definition_en": "News; information about recent events",
+  "romanization": "khao",
+  "lao_examples": [
+    {
+      "lao_script": "ເມື່ອຄືນນີ້ ຂ້ອຍເບິ່ງຂ່າວທາງໂທລະທັດ",
+      "romanization": "muean khuen nii, khoi boeng khao thang tholalat",
+      "translation_en": "Last night I watched the news on TV."
+    },
+    {
+      "lao_script": "ຂ່າວນີ້ດີຫຼາຍ ຕ້ອງໄປບອກໝູ່ກ່ອນ",
+      "romanization": "khao nii dii lai, tong pai bok muu kon",
+      "translation_en": "This news is really good, I have to go tell my friends first."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a news broadcast on a television screen showing a news anchor, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

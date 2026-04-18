@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແລະ",
+  "definitions": {
+    "de": "und (Konjunktion, verbindet Wörter, Sätze oder Satzteile)",
+    "en": "and (conjunction used to connect words, phrases, or clauses)",
+    "es": "y (conjunción que une palabras, frases o cláusulas)",
+    "fr": "et (conjonction qui relie des mots, phrases ou propositions)",
+    "hi": "और (शब्दों, वाक्यांशों या उपवाक्यों को जोड़ने वाला समुच्चयबोधक)",
+    "ja": "〜と／そして（語句や文をつなぐ接続詞）",
+    "km": "និង (ឈ្នាប់ភ្ជាប់ពាក្យ ឃ្លា ឬប្រយោគ)",
+    "ko": "그리고／와／과 (단어·구·절을 연결하는 접속사)",
+    "ne": "र (शब्द, वाक्यांश वा उपवाक्य जोड्ने योजक)",
+    "pt": "e (conjunção que liga palavras, frases ou orações)",
+    "th": "และ (คำเชื่อมที่ใช้เชื่อมคำ วลี หรือประโยค)",
+    "tl": "at (pangatnig na nag-uugnay ng mga salita, parirala, o sugnay)",
+    "ur": "اور (ایک ربطی لفظ جو الفاظ، فقرے یا جملوں کو جوڑتا ہے)",
+    "vi": "và (liên từ dùng để nối từ, cụm từ hoặc mệnh đề)",
+    "zh": "和／并且（连接词语、短语或句子的连词）",
+    "zh_Hant": "和／並且（連接詞語、短語或句子的連詞）"
+  },
+  "definition_en": "and (conjunction used to connect words, phrases, or clauses)",
+  "romanization": "lɛ́ʔ",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ແລະ ເພື່ອນ ໄປ ຕະຫຼາດ",
+      "romanization": "kʰɔ̂ːj lɛ́ʔ pʰɯ̄ːən pàj tā.làːt",
+      "translation_en": "My friend and I are going to the market."
+    },
+    {
+      "lao_script": "ລາວ ຊື້ ເຂົ້າ ແລະ ປາ",
+      "romanization": "láːw sɯ̂ː kʰȁw lɛ́ʔ pàː",
+      "translation_en": "He/She buys rice and fish."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two friends standing side by side connected by a plus sign between them, suitable for a language learning app, clean white background, minimalist cartoon style, bright colors."
+}

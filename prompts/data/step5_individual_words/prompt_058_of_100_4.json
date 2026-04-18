@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະເທດລາວ",
+  "definitions": {
+    "de": "Laos; ein Binnenstaat in Südostasien, offiziell Demokratische Volksrepublik Laos",
+    "en": "Laos; a landlocked country in Southeast Asia, officially the Lao People's Democratic Republic",
+    "es": "Laos; un país sin salida al mar en el sudeste asiático, oficialmente la República Democrática Popular Lao",
+    "fr": "Laos; un pays enclavé d'Asie du Sud-Est, officiellement la République Démocratique Populaire Lao",
+    "hi": "लाओस; दक्षिण-पूर्व एशिया का एक भूमिबद्ध देश, जिसे आधिकारिक रूप से लाओ पीपुल्स डेमोक्रेटिक रिपब्लिक कहा जाता है",
+    "ja": "ラオス；東南アジアの内陸国で、正式名称はラオス人民民主共和国",
+    "km": "ឡាវ; ប្រទេសដែលគ្មានផ្លូវចេញសមុទ្រនៅអាស៊ីអាគ្នេយ៍ ដែលមានឈ្មោះផ្លូវការថា សាធារណរដ្ឋប្រជាធិបតេយ្យប្រជាមានិតឡាវ",
+    "ko": "라오스; 동남아시아의 내륙국으로, 공식 명칭은 라오 인민민주공화국",
+    "ne": "लाओस; दक्षिण-पूर्व एसियाको एक भूपरिवेष्टित देश, आधिकारिक रूपमा लाओ पिपुल्स डेमोक्रेटिक रिपब्लिक",
+    "pt": "Laos; um país sem saída para o mar no Sudeste Asiático, oficialmente a República Democrática Popular Lao",
+    "th": "ลาว; ประเทศในเอเชียตะวันออกเฉียงใต้ที่ไม่มีทางออกสู่ทะเล มีชื่อทางการว่าสาธารณรัฐประชาธิปไตยประชาชนลาว",
+    "tl": "Laos; isang landlocked na bansa sa Timog-silangang Asya, opisyal na kilala bilang Lao People's Democratic Republic",
+    "ur": "لاؤس؛ جنوب مشرقی ایشیا کا ایک زمین بند ملک، جسے سرکاری طور پر لاؤ پیپلز ڈیموکریٹک ریپبلک کہا جاتا ہے",
+    "vi": "Lào; một quốc gia không giáp biển ở Đông Nam Á, tên chính thức là Cộng hòa Dân chủ Nhân dân Lào",
+    "zh": "老挝；东南亚一个内陆国家，正式名称为老挝人民民主共和国",
+    "zh_Hant": "寮國；東南亞一個內陸國家，正式名稱為寮人民民主共和國"
+  },
+  "definition_en": "Laos; a landlocked country in Southeast Asia, officially the Lao People's Democratic Republic",
+  "romanization": "/pa.tʰeːt laːw˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ປະເທດລາວມີທຳມະຊາດສວຍງາມຫຼາຍ",
+      "romanization": "pa-theet lao mii tham-ma-saat suay ngaam laai",
+      "translation_en": "Laos has very beautiful nature."
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກໄປທ່ຽວປະເທດລາວສັກເທື່ອ",
+      "romanization": "khoi yaak pai thiao pa-theet lao sak thuea",
+      "translation_en": "I want to visit Laos someday."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the map of Laos with its national flag displayed next to it, set against a clean white background, colorful and minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເອົາ",
+  "definitions": {
+    "de": "Nehmen / wollen / holen – etwas greifen, wollen oder bringen; sehr vielseitiges Alltagsverb",
+    "en": "Take / get / want – to grab, fetch, or want something; a highly versatile everyday verb",
+    "es": "Tomar / querer / traer – coger, buscar o querer algo; verbo cotidiano muy versátil",
+    "fr": "Prendre / vouloir / apporter – saisir, aller chercher ou vouloir quelque chose; verbe du quotidien très polyvalent",
+    "hi": "लेना / चाहना / लाना – कुछ पकड़ना, लाना या चाहना; बेहद बहुमुखी रोज़मर्रा की क्रिया",
+    "ja": "取る・欲しい・持ってくる – 何かをつかんだり、取ってきたり、欲しがったりする非常に多用途な日常動詞",
+    "km": "យក / ចង់បាន / នាំមក – ចាប់យក ទៅយក ឬចង់បានអ្វីមួយ; កិរិយាស័ព្ទប្រចាំថ្ងៃដ៏ចម្រុះ",
+    "ko": "가져가다 / 원하다 / 가져오다 – 무언가를 잡거나 가져오거나 원하는 매우 다용도 일상 동사",
+    "ne": "लिनु / चाहनु / ल्याउनु – केही समात्नु, ल्याउनु वा चाहनु; अत्यन्त बहुमुखी दैनिक क्रिया",
+    "pt": "Pegar / querer / trazer – agarrar, buscar ou querer algo; verbo cotidiano muito versátil",
+    "th": "เอา – หยิบ / เอาไป / ต้องการ; กริยาอเนกประสงค์ที่ใช้บ่อยมากในชีวิตประจำวัน",
+    "tl": "Kunin / gusto / dalhin – ang hawakan, kunin, o gustong makuha ang isang bagay; napaka-versatile na pang-araw-araw na pandiwa",
+    "ur": "لینا / چاہنا / لانا – کچھ پکڑنا، لانا، یا چاہنا؛ بہت کثیر الاستعمال روزمرہ کا فعل",
+    "vi": "Lấy / muốn / mang – cầm lấy, đi lấy hoặc muốn gì đó; động từ hàng ngày cực kỳ linh hoạt",
+    "zh": "拿 / 要 / 取 – 抓取、去拿或想要某物；极其常用的日常动词",
+    "zh_Hant": "拿 / 要 / 取 – 抓取、去拿或想要某物；極其常用的日常動詞"
+  },
+  "definition_en": "Take / get / want – to grab, fetch, or want something; a highly versatile everyday verb",
+  "romanization": "/ʔaw/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົານ້ຳມາໃຫ້ຂ້ອຍແດ່",
+      "romanization": "ao nam maa hai khoi dae",
+      "translation_en": "Bring me some water, please."
+    },
+    {
+      "lao_script": "ເຈົ້າເອົາຫຍັງ",
+      "romanization": "jao ao nyaang",
+      "translation_en": "What do you want? / What are you having?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand reaching out and picking up an apple from a table, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

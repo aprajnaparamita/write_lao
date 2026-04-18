@@ -1,0 +1,390 @@
+{
+  "ສົ່ງ": {
+    "definitions": {
+      "de": "Etwas an jemanden schicken oder übergeben; senden",
+      "en": "To send or deliver something to someone",
+      "es": "Enviar o entregar algo a alguien",
+      "fr": "Envoyer ou remettre quelque chose à quelqu'un",
+      "hi": "किसी को कुछ भेजना या पहुँचाना",
+      "ja": "何かを誰かに送る、届ける",
+      "km": "ផ្ញើឬដឹកជញ្ជូនអ្វីមួយទៅឱ្យនរណាម្នាក់",
+      "ko": "무언가를 누군가에게 보내거나 전달하다",
+      "ne": "कसैलाई केहि पठाउनु वा पुर्‍याउनु",
+      "pt": "Enviar ou entregar algo a alguém",
+      "th": "ส่งหรือมอบสิ่งของให้กับใครบางคน",
+      "tl": "Magpadala o maghatid ng isang bagay sa isang tao",
+      "ur": "کسی کو کچھ بھیجنا یا پہنچانا",
+      "vi": "Gửi hoặc chuyển giao thứ gì đó cho ai đó",
+      "zh": "把某物发送或递交给某人",
+      "zh_Hant": "把某物發送或遞交給某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sòŋ/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າສົ່ງຂໍ້ຄວາມຫາຂ້ອຍໄດ້ບໍ່?",
+        "romanization": "jao song khò khwaam haa khòi dai bò?",
+        "translations": {
+          "de": "Kannst du mir eine Nachricht schicken?",
+          "en": "Can you send me a message?",
+          "es": "¿Puedes enviarme un mensaje?",
+          "fr": "Tu peux m'envoyer un message ?",
+          "hi": "क्या तुम मुझे एक मैसेज भेज सकते हो?",
+          "ja": "メッセージを送ってくれる？",
+          "km": "តើអ្នកអាចផ្ញើសារមកខ្ញុំបានទេ?",
+          "ko": "나한테 메시지 보내줄 수 있어?",
+          "ne": "के तिमी मलाई सन्देश पठाउन सक्छौ?",
+          "pt": "Você pode me mandar uma mensagem?",
+          "th": "แกส่งข้อความมาหาฉันได้ไหม?",
+          "tl": "Pwede mo ba akong i-message?",
+          "ur": "کیا تم مجھے ایک پیغام بھیج سکتے ہو؟",
+          "vi": "Bạn có thể nhắn tin cho tôi không?",
+          "zh": "你能给我发条消息吗？",
+          "zh_Hant": "你能給我發條訊息嗎？"
+        },
+        "out_of_scope_words": [
+          "ຂໍ້ຄວາມ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍສົ່ງເຄື່ອງໃຫ້ແມ່ແລ້ວ",
+        "romanization": "khòi song khueang hâi mɛ̀ lɛ́ɛo",
+        "translations": {
+          "de": "Ich habe meiner Mutter die Sachen schon geschickt.",
+          "en": "I already sent the stuff to mom.",
+          "es": "Ya le envié las cosas a mamá.",
+          "fr": "J'ai déjà envoyé les affaires à maman.",
+          "hi": "मैंने माँ को सामान भेज दिया।",
+          "ja": "お母さんにもう荷物を送ったよ。",
+          "km": "ខ្ញុំបានផ្ញើរបស់ទៅឱ្យម្តាយហើយ។",
+          "ko": "엄마한테 짐 이미 보냈어.",
+          "ne": "मैले आमालाई सामान पठाइसकें।",
+          "pt": "Já mandei as coisas para a minha mãe.",
+          "th": "ฉันส่งของให้แม่แล้ว",
+          "tl": "Naipadala ko na ang mga bagay kay nanay.",
+          "ur": "میں نے ماں کو سامان بھیج دیا۔",
+          "vi": "Tôi đã gửi đồ cho mẹ rồi.",
+          "zh": "我已经把东西寄给妈妈了。",
+          "zh_Hant": "我已經把東西寄給媽媽了。"
+        },
+        "out_of_scope_words": [
+          "ເຄື່ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person handing over a package or tapping send on a smartphone, clean white background, colorful and minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໂລກ": {
+    "definitions": {
+      "de": "Die Erde oder die gesamte Welt; auch im übertragenen Sinne für eine bestimmte Welt oder Sphäre",
+      "en": "The world; the Earth; a realm or sphere of existence",
+      "es": "El mundo; la Tierra; un ámbito o esfera de existencia",
+      "fr": "Le monde ; la Terre ; un domaine ou une sphère d'existence",
+      "hi": "दुनिया; पृथ्वी; अस्तित्व का एक क्षेत्र",
+      "ja": "世界；地球；ある領域や世界",
+      "km": "ពិភពលោក; ផែនដី; វិស័យឬទំហំនៃការដឹកនាំ",
+      "ko": "세계; 지구; 존재의 영역이나 범위",
+      "ne": "संसार; पृथ्वी; अस्तित्वको एक क्षेत्र",
+      "pt": "O mundo; a Terra; um domínio ou esfera de existência",
+      "th": "โลก; พื้นพิภพ; ขอบเขตหรือสภาวะของการดำรงอยู่",
+      "tl": "Ang mundo; ang Lupa; isang larangan o globo ng pag-iral",
+      "ur": "دنیا؛ زمین؛ وجود کا ایک دائرہ یا میدان",
+      "vi": "Thế giới; Trái Đất; một lĩnh vực hay phạm vi tồn tại",
+      "zh": "世界；地球；某一领域或范畴",
+      "zh_Hant": "世界；地球；某一領域或範疇"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lôːk/",
+    "examples": [
+      {
+        "lao_script": "ໂລກນີ້ໃຫຍ່ຫຼາຍເນາະ",
+        "romanization": "lôːk níi ɲài lǎːj nɔ́",
+        "translations": {
+          "de": "Diese Welt ist wirklich groß, oder?",
+          "en": "This world is really big, isn't it?",
+          "es": "Este mundo es realmente grande, ¿verdad?",
+          "fr": "Ce monde est vraiment grand, non ?",
+          "hi": "यह दुनिया सच में बहुत बड़ी है, है ना?",
+          "ja": "この世界、本当に広いよね。",
+          "km": "ពិភពលោកនេះធំណាស់មែនទេ?",
+          "ko": "이 세상은 정말 넓지 않아?",
+          "ne": "यो संसार साँच्चै ठूलो छ, हैन?",
+          "pt": "O mundo é muito grande, não é?",
+          "th": "โลกนี้ใหญ่มากเลยนะ",
+          "tl": "Ang mundo ay talagang malaki, 'di ba?",
+          "ur": "یہ دنیا واقعی بہت بڑی ہے، ہے نا؟",
+          "vi": "Thế giới này thật sự rất rộng lớn nhỉ?",
+          "zh": "这个世界真的很大耶。",
+          "zh_Hant": "這個世界真的很大耶。"
+        },
+        "out_of_scope_words": [
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກທ່ຽວໂລກສักເທື່ອ",
+        "romanization": "khòi yàːk thîao lôːk sák thʉ̄a",
+        "translations": {
+          "de": "Ich möchte einmal die Welt bereisen.",
+          "en": "I want to travel the world someday.",
+          "es": "Quiero viajar por el mundo algún día.",
+          "fr": "Je veux voyager dans le monde un jour.",
+          "hi": "मैं एक दिन दुनिया घूमना चाहता हूँ।",
+          "ja": "いつか世界を旅したい。",
+          "km": "ខ្ញុំចង់ធ្វើដំណើរទូទាំងពិភពលោកម្ដង។",
+          "ko": "언젠가 세계 여행을 하고 싶어.",
+          "ne": "मलाई एक पटक संसार घुम्न मन छ।",
+          "pt": "Eu quero viajar pelo mundo um dia.",
+          "th": "ฉันอยากเที่ยวรอบโลกสักครั้ง",
+          "tl": "Gusto kong maglakbay sa buong mundo balang araw.",
+          "ur": "میں ایک دن دنیا کی سیر کرنا چاہتا ہوں۔",
+          "vi": "Tôi muốn đi du lịch vòng quanh thế giới một lần.",
+          "zh": "我想有一天能环游世界。",
+          "zh_Hant": "我想有一天能環遊世界。"
+        },
+        "out_of_scope_words": [
+          "ທ່ຽວ",
+          "ສັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of planet Earth with colorful continents visible, shown as a globe against a clean white background, minimalist and friendly style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄ້າ": {
+    "definitions": {
+      "de": "Handel treiben; Waren kaufen und verkaufen; Gewerbe",
+      "en": "To trade or do commerce; buying and selling goods",
+      "es": "Comerciar; comprar y vender bienes; negocio",
+      "fr": "Faire du commerce ; acheter et vendre des marchandises",
+      "hi": "व्यापार करना; सामान खरीदना और बेचना",
+      "ja": "取引する；商売する；売買する",
+      "km": "ធ្វើពាណិជ្ជកម្ម; ទិញនិងលក់ទំនិញ",
+      "ko": "거래하다; 장사하다; 물건을 사고팔다",
+      "ne": "व्यापार गर्नु; सामान किन्नु र बेच्नु",
+      "pt": "Comercializar; comprar e vender mercadorias; fazer negócio",
+      "th": "ค้าขาย; ซื้อและขายสินค้า; ทำการค้า",
+      "tl": "Mag-negosyo; bumili at magbenta ng mga kalakal",
+      "ur": "تجارت کرنا؛ سامان خریدنا اور بیچنا",
+      "vi": "Buôn bán; mua và bán hàng hóa; kinh doanh",
+      "zh": "经商；买卖货物；贸易",
+      "zh_Hant": "經商；買賣貨物；貿易"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰáː/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຄ້າຂາຍຜັກຢູ່ຕະຫຼາດທຸກມື້",
+        "romanization": "mɛ̀ kʰáː kʰǎːj pʰàk jùː talàːt tʰúk mʉ̄ː",
+        "translations": {
+          "de": "Die Händlerin verkauft jeden Tag Gemüse auf dem Markt.",
+          "en": "The trader sells vegetables at the market every day.",
+          "es": "La comerciante vende verduras en el mercado todos los días.",
+          "fr": "La commerçante vend des légumes au marché tous les jours.",
+          "hi": "दुकानदार महिला हर रोज़ बाज़ार में सब्ज़ियाँ बेचती है।",
+          "ja": "その商売人の女性は毎日市場で野菜を売っている。",
+          "km": "ស្ត្រីជាឈ្មួញលក់បន្លែនៅទីផ្សាររាល់ថ្ងៃ។",
+          "ko": "그 상인 여성은 매일 시장에서 채소를 팔아요.",
+          "ne": "व्यापारी महिला हरेक दिन बजारमा तरकारी बेच्छे।",
+          "pt": "A comerciante vende legumes no mercado todos os dias.",
+          "th": "แม่ค้าขายผักที่ตลาดทุกวัน",
+          "tl": "Ang mangangalakal na babae ay nagbebenta ng gulay sa palengke araw-araw.",
+          "ur": "تاجر عورت ہر روز بازار میں سبزیاں بیچتی ہے۔",
+          "vi": "Người buôn bán đó bán rau ở chợ mỗi ngày.",
+          "zh": "那位女商贩每天在市场上卖蔬菜。",
+          "zh_Hant": "那位女商販每天在市場上賣蔬菜。"
+        },
+        "out_of_scope_words": [
+          "ຜັກ",
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຄ້າຂາຍດີຫຼາຍ ລາຍໄດ້ດີ",
+        "romanization": "láːo kʰáː kʰǎːj díː lǎːj láːj dâj díː",
+        "translations": {
+          "de": "Er/Sie hat ein gutes Geschäft und verdient gut.",
+          "en": "Their business is really good, and the income is great.",
+          "es": "Su negocio va muy bien y los ingresos son buenos.",
+          "fr": "Son commerce marche très bien et ses revenus sont bons.",
+          "hi": "उनका व्यापार बहुत अच्छा चल रहा है, कमाई भी अच्छी है।",
+          "ja": "彼/彼女の商売はとてもうまくいっていて、収入もいい。",
+          "km": "អាជីវកម្មរបស់គេល្អណាស់ ចំណូលក៏ល្អដែរ។",
+          "ko": "그 사람 장사 정말 잘 돼서 수입도 좋아.",
+          "ne": "उनको व्यापार धेरै राम्रो छ, आम्दानी पनि राम्रो छ।",
+          "pt": "O negócio dela/dele está muito bom e a renda é boa.",
+          "th": "เขา/เธอค้าขายดีมาก รายได้ดี",
+          "tl": "Ang kanyang negosyo ay napakaganda at maganda rin ang kita.",
+          "ur": "ان کا کاروبار بہت اچھا ہے اور آمدنی بھی اچھی ہے۔",
+          "vi": "Việc buôn bán của họ rất tốt, thu nhập cũng tốt.",
+          "zh": "他/她的生意做得很好，收入也不错。",
+          "zh_Hant": "他/她的生意做得很好，收入也不錯。"
+        },
+        "out_of_scope_words": [
+          "ລາຍໄດ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two people exchanging goods and money at a small market stall, clean white background, colorful and minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລາ": {
+    "definitions": {
+      "de": "Sich verabschieden; auf Wiedersehen sagen; auch als Präfix verwendet um Abschied oder Abreise zu signalisieren",
+      "en": "To say goodbye; to take leave; to bid farewell before departing",
+      "es": "Despedirse; decir adiós antes de irse",
+      "fr": "Se dire au revoir ; prendre congé ; faire ses adieux avant de partir",
+      "hi": "विदा लेना; अलविदा कहना; जाने से पहले बिदाई लेना",
+      "ja": "別れを告げる；さようならを言う；出発前に暇乞いをする",
+      "km": "និយាយលាជំរិះ; ចាកចេញ; និយាយអាលាមុនពេលចាកចេញ",
+      "ko": "작별 인사를 하다; 이별을 고하다; 떠나기 전에 인사하다",
+      "ne": "बिदा लिनु; अलविदा भन्नु; जानु अघि बिदाइ लिनु",
+      "pt": "Despedir-se; dizer adeus antes de partir",
+      "th": "กล่าวลา; บอกลา; อำลาก่อนเดินทาง",
+      "tl": "Magpaalam; magbigay ng paalam bago umalis",
+      "ur": "الوداع کہنا؛ رخصت لینا؛ جانے سے پہلے رخصت ہونا",
+      "vi": "Từ biệt; nói lời tạm biệt; chia tay trước khi rời đi",
+      "zh": "告别；道别；离开前说再见",
+      "zh_Hant": "告別；道別；離開前說再見"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/láː/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຂໍລາກ່ອນເນາະ ຈະໄປແລ້ວ",
+        "romanization": "khòi khɔ̌ː láː kɔ̀ːn nɔ́ já paj lɛ́ɛo",
+        "translations": {
+          "de": "Ich verabschiede mich schon mal, ich gehe jetzt.",
+          "en": "Let me say goodbye first, I'm leaving now.",
+          "es": "Déjame despedirme primero, ya me voy.",
+          "fr": "Laisse-moi dire au revoir d'abord, je pars maintenant.",
+          "hi": "मैं पहले विदा लेता हूँ, अब जा रहा हूँ।",
+          "ja": "先に失礼するね、もう行くよ。",
+          "km": "សូមអនុញ្ញាតឱ្យខ្ញុំនិយាយលាជាមុនសិន ខ្ញុំទៅហើយ។",
+          "ko": "나 먼저 인사할게, 이제 가야 해.",
+          "ne": "म पहिले बिदा लिन्छु, अब जाँदैछु।",
+          "pt": "Deixa eu me despedir primeiro, já vou indo.",
+          "th": "ขอลาก่อนนะ จะไปแล้ว",
+          "tl": "Paalam na muna, uuwi na ako.",
+          "ur": "پہلے اجازت لیتا ہوں، اب جا رہا ہوں۔",
+          "vi": "Để tôi chào tạm biệt trước nhé, tôi đi rồi đây.",
+          "zh": "我先告辞了，要走了。",
+          "zh_Hant": "我先告辭了，要走了。"
+        },
+        "out_of_scope_words": [
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ລາວລາຄອບຄົວໄປເຮັດວຽກຕ່າງປະເທດ",
+        "romanization": "láːo láː khɔ̌ːp khúa paj hét wíak tàːŋ pá tʰêːt",
+        "translations": {
+          "de": "Er/Sie verabschiedete sich von der Familie, um im Ausland zu arbeiten.",
+          "en": "They said goodbye to their family to go work abroad.",
+          "es": "Se despidió de su familia para ir a trabajar al extranjero.",
+          "fr": "Il/Elle a dit au revoir à sa famille pour aller travailler à l'étranger.",
+          "hi": "वे विदेश में काम करने के लिए परिवार से विदा लेकर गए।",
+          "ja": "彼/彼女は海外で働くために家族に別れを告げた。",
+          "km": "គេនិយាយលាជាមួយគ្រួសារដើម្បីទៅធ្វើការនៅបរទេស។",
+          "ko": "그는 해외에서 일하러 가기 위해 가족과 작별 인사를 했어.",
+          "ne": "उनी विदेशमा काम गर्न परिवारसँग बिदा भए।",
+          "pt": "Ele/Ela se despediu da família para ir trabalhar no exterior.",
+          "th": "เขา/เธอลาครอบครัวไปทำงานต่างประเทศ",
+          "tl": "Nagpaalam siya sa kanyang pamilya para magtrabaho sa ibang bansa.",
+          "ur": "انہوں نے بیرون ملک کام کرنے جانے کے لیے خاندان سے الوداع لیا۔",
+          "vi": "Họ đã từ biệt gia đình để đi làm việc ở nước ngoài.",
+          "zh": "他/她告别家人，出国工作去了。",
+          "zh_Hant": "他/她告別家人，出國工作去了。"
+        },
+        "out_of_scope_words": [
+          "ຄອບຄົວ",
+          "ຕ່າງປະເທດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person waving goodbye while standing at a doorway, with a small suitcase nearby, clean white background, warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເສຍ": {
+    "definitions": {
+      "de": "Verlieren; verschwenden; kaputt gehen; etwas wird verloren oder geht verloren",
+      "en": "To lose something; to waste; to be gone or broken; to suffer a loss",
+      "es": "Perder algo; desperdiciar; desaparecido o roto; sufrir una pérdida",
+      "fr": "Perdre quelque chose ; gaspiller ; être perdu ou cassé ; subir une perte",
+      "hi": "कुछ खोना; बर्बाद करना; टूटना या चला जाना; नुकसान उठाना",
+      "ja": "失う；無駄にする；壊れる；損失を被る",
+      "km": "បាត់បង់អ្វីមួយ; បំផ្លិចបំផ្លាញ; ខូចឬបាត់; ទទួលការខាតបង់",
+      "ko": "잃다; 낭비하다; 잃어버리다; 손실을 입다",
+      "ne": "केहि गुमाउनु; बर्बाद गर्नु; टुट्नु वा हराउनु; घाटा उठाउनु",
+      "pt": "Perder algo; desperdiçar; estragar; sofrer uma perda",
+      "th": "เสีย; สูญเสีย; สิ้นเปลือง; พัง; ได้รับความสูญเสีย",
+      "tl": "Mawalan ng isang bagay; mag-aksaya; masira; magdusa ng pagkawala",
+      "ur": "کچھ کھونا؛ ضائع کرنا؛ ٹوٹ جانا یا چلا جانا؛ نقصان اٹھانا",
+      "vi": "Mất đi thứ gì đó; lãng phí; bị hỏng hoặc mất; chịu tổn thất",
+      "zh": "失去；浪费；损坏；遭受损失",
+      "zh_Hant": "失去；浪費；損壞；遭受損失"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sǐa/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍເສຍໂທລະສັບໄວ້ໃສ ຫາບໍ່ເຈີ",
+        "romanization": "khòi sǐa thôː lá sáp wâj sǎj hǎː bɔ̀ː jəː",
+        "translations": {
+          "de": "Ich habe mein Handy irgendwo verloren und kann es nicht finden.",
+          "en": "I lost my phone somewhere and can't find it.",
+          "es": "Perdí mi teléfono en algún lugar y no lo puedo encontrar.",
+          "fr": "J'ai perdu mon téléphone quelque part et je ne le trouve pas.",
+          "hi": "मेरा फोन कहीं खो गया, मिल ही नहीं रहा।",
+          "ja": "どこかで携帯をなくしてしまって、見つからないよ。",
+          "km": "ខ្ញុំបាត់ទូរស័ព្ទទៅណាមួយ រកមិនឃើញ។",
+          "ko": "어디선가 폰 잃어버렸는데 못 찾겠어.",
+          "ne": "मेरो फोन कहीँ हराएको छ, भेट्टाउन सकिरहेको छैन।",
+          "pt": "Perdi meu celular em algum lugar e não consigo achar.",
+          "th": "ฉันเสียโทรศัพท์ไว้ที่ไหนไม่รู้ หาไม่เจอเลย",
+          "tl": "Nawala ang aking telepono sa isang lugar at hindi ko mahanap.",
+          "ur": "میں نے اپنا فون کہیں کھو دیا اور مل نہیں رہا۔",
+          "vi": "Tôi mất điện thoại ở đâu đó mà không tìm thấy.",
+          "zh": "我把手机丢在什么地方了，找不到。",
+          "zh_Hant": "我把手機丟在什麼地方了，找不到。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າເສຍເວລາໄປເລື່ອຍໆ ເຮັດວຽກໄດ້ແລ້ວ",
+        "romanization": "yàː sǐa wéː láː paj lʉ̄aj lʉ̄aj hét wíak dâj lɛ́ɛo",
+        "translations": {
+          "de": "Verschwendet nicht ständig Zeit, fang jetzt an zu arbeiten.",
+          "en": "Stop wasting time like that, you can get to work now.",
+          "es": "Deja de perder el tiempo así, ya puedes ponerte a trabajar.",
+          "fr": "Arrête de perdre du temps comme ça, tu peux te mettre au travail maintenant.",
+          "hi": "ऐसे समय बर्बाद मत करो, अब काम करो।",
+          "ja": "いつまでも時間を無駄にしないで、もう仕事しなよ。",
+          "km": "កុំខ្ជះខ្ជាយពេលវេលាបែបនោះ ធ្វើការបានហើយ។",
+          "ko": "맨날 시간 낭비하지 말고 이제 일 좀 해.",
+          "ne": "यसरी समय खेर नफाल, अब काम गर्न सकिन्छ।",
+          "pt": "Para de desperdiçar tempo assim, já pode trabalhar.",
+          "th": "อย่าเสียเวลาไปเรื่อยๆ เริ่มทำงานได้แล้ว",
+          "tl": "Huwag mag-aksaya ng oras, makapagtrabaho ka na ngayon.",
+          "ur": "اس طرح وقت ضائع مت کرو، اب کام کر سکتے ہو۔",
+          "vi": "Đừng lãng phí thời gian mãi như vậy, bắt đầu làm việc đi thôi.",
+          "zh": "别老是浪费时间了，可以开始工作了。",
+          "zh_Hant": "別老是浪費時間了，可以開始工作了。"
+        },
+        "out_of_scope_words": [
+          "ເວລາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a sad person looking at an empty hand where something has been lost, with a faded ghost-image of a wallet or phone floating away, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

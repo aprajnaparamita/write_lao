@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂນ",
+  "definitions": {
+    "de": "Silbe, die hauptsächlich in Eigennamen vorkommt; als eigenständiges Wort kaum gebräuchlich",
+    "en": "A syllable commonly found in personal names; limited standalone use as an independent word",
+    "es": "Sílaba que aparece comúnmente en nombres propios; uso independiente muy limitado",
+    "fr": "Syllabe que l'on trouve couramment dans les prénoms ; usage autonome très limité",
+    "hi": "व्यक्तिगत नामों में सामान्यतः पाया जाने वाला शब्दांश; स्वतंत्र शब्द के रूप में सीमित उपयोग",
+    "ja": "主に人名に見られる音節；独立した語としての使用は限られる",
+    "km": "ព្យាង្គដែលជាទូទៅឃើញក្នុងឈ្មោះបុគ្គល; ការប្រើប្រាស់ជាអ្វីដាច់ដោយឡែកមានកំណត់",
+    "ko": "주로 사람 이름에 나타나는 음절; 독립 단어로서의 사용은 제한적",
+    "ne": "व्यक्तिगत नाममा सामान्यतः पाइने एक शब्दांश; स्वतन्त्र शब्दको रूपमा सीमित प्रयोग",
+    "pt": "Sílaba comumente encontrada em nomes próprios; uso independente muito limitado",
+    "th": "พยางค์ที่มักพบในชื่อบุคคล; การใช้แบบอิสระมีจำกัดมาก",
+    "tl": "Isang pantig na karaniwang makikita sa mga personal na pangalan; limitadong paggamit bilang isang nagsasariling salita",
+    "ur": "ایک حرف جو عام طور پر ذاتی ناموں میں پایا جاتا ہے؛ آزاد لفظ کے طور پر استعمال بہت محدود ہے",
+    "vi": "Một âm tiết thường gặp trong tên riêng; ít dùng độc lập như một từ",
+    "zh": "常见于人名中的音节；作为独立词语的使用有限",
+    "zh_Hant": "常見於人名中的音節；作為獨立詞語的使用有限"
+  },
+  "definition_en": "A syllable commonly found in personal names; limited standalone use as an independent word",
+  "romanization": "/noː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ລາວຫຼາຍຄົນມີ ໂນ ຢູ່ດ້ວຍ",
+      "romanization": "Sue Lao lai khon mi no yu duai",
+      "translation_en": "Many Lao names include the syllable 'No'."
+    },
+    {
+      "lao_script": "ໂນ ຄືພຽງສ່ວນໜຶ່ງຂອງຊື່ເທົ່ານັ້ນ",
+      "romanization": "No kheu phiang suan nung khong sue thao nan",
+      "translation_en": "'No' is just part of a name, that's all."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or badge with 'NO' written prominently on it, surrounded by other name badges, suggesting it is part of a personal name, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

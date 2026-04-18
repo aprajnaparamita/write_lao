@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມຽນ",
+  "definitions": {
+    "de": "Myanmar; ein Land in Südostasien, auch bekannt als Burma",
+    "en": "Myanmar; a country in Southeast Asia, also known as Burma",
+    "es": "Myanmar; un país en el sudeste asiático, también conocido como Birmania",
+    "fr": "Myanmar; un pays d'Asie du Sud-Est, également connu sous le nom de Birmanie",
+    "hi": "म्यांमार; दक्षिण-पूर्व एशिया का एक देश, जिसे बर्मा भी कहते हैं",
+    "ja": "ミャンマー；東南アジアの国で、ビルマとも呼ばれる",
+    "km": "មីយ៉ាន់ម៉ា; ប្រទេសមួយនៅអាស៊ីអាគ្នេយ៍ ហៅថាភូមា",
+    "ko": "미얀마; 버마라고도 불리는 동남아시아의 나라",
+    "ne": "म्यानमार; दक्षिण-पूर्व एशियाको एउटा देश, जसलाई बर्माको नामले पनि चिनिन्छ",
+    "pt": "Myanmar; um país no Sudeste Asiático, também conhecido como Birmânia",
+    "th": "เมียนมา; ประเทศในเอเชียตะวันออกเฉียงใต้ หรือที่รู้จักในชื่อพม่า",
+    "tl": "Myanmar; isang bansa sa Timog-silangang Asya, kilala rin bilang Burma",
+    "ur": "میانمار؛ جنوب مشرقی ایشیا کا ایک ملک، جسے برما بھی کہتے ہیں",
+    "vi": "Myanmar; một quốc gia ở Đông Nam Á, còn được gọi là Miến Điện",
+    "zh": "缅甸；东南亚的一个国家，也叫做缅甸",
+    "zh_Hant": "緬甸；東南亞的一個國家，也叫做緬甸"
+  },
+  "definition_en": "Myanmar; a country in Southeast Asia, also known as Burma",
+  "romanization": "/míen/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂ້ອຍມາຈາກມຽນ",
+      "romanization": "pʰɯ̂an khɔ̑i maa tɕàak míen",
+      "translation_en": "My friend comes from Myanmar."
+    },
+    {
+      "lao_script": "ມຽນຢູ່ຕິດກັບລາວທາງທິດຕາເວັນຕົກ",
+      "romanization": "míen yuu tìt kàp láaw tʰaaŋ tʰít taa.wen.tók",
+      "translation_en": "Myanmar is located on the western border of Laos."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the map outline of Myanmar with its national flag displayed beside it, set against a clean white background, colorful, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,390 @@
+{
+  "ຍາມ": {
+    "definitions": {
+      "de": "Zeit, Moment; auch: Wächter oder Wache (je nach Kontext)",
+      "en": "Time, moment, period; also can mean guard or watchman depending on context",
+      "es": "Tiempo, momento, período; también puede significar guardia o vigilante según el contexto",
+      "fr": "Temps, moment, période; peut aussi signifier garde ou veilleur selon le contexte",
+      "hi": "समय, पल, अवधि; संदर्भ के अनुसार पहरेदार या रक्षक भी",
+      "ja": "時間、時期、瞬間；文脈によって番人や警備員を意味することもある",
+      "km": "ពេលវេលា មោម ឬរយៈពេល; អាចមានន័យថាអ្នកល្បាតផងដែរ អាស្រ័យលើបរិបទ",
+      "ko": "시간, 순간, 기간; 문맥에 따라 경비원이나 파수꾼을 의미하기도 함",
+      "ne": "समय, क्षण, अवधि; सन्दर्भ अनुसार पहरेदार वा रक्षक पनि",
+      "pt": "Tempo, momento, período; também pode significar guarda ou vigia dependendo do contexto",
+      "th": "เวลา ช่วงเวลา หรือขณะ; บางบริบทหมายถึงยาม หรือผู้เฝ้าระวัง",
+      "tl": "Oras, sandali, panahon; maaari ring mangahulugang bantay o guwardya depende sa konteksto",
+      "ur": "وقت، لمحہ، مدت؛ سیاق و سباق کے مطابق پہرہ دار یا محافظ بھی",
+      "vi": "Thời gian, lúc, thời điểm; cũng có thể có nghĩa là người gác hay bảo vệ tùy ngữ cảnh",
+      "zh": "时间、时刻、时期；根据语境也可指守卫或哨兵",
+      "zh_Hant": "時間、時刻、時期；根據語境也可指守衛或哨兵"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ɲáːm/",
+    "examples": [
+      {
+        "lao_script": "ຍາມນີ້ເຈົ້າຢູ່ໃສ?",
+        "romanization": "nyam ní jao yù sǎi?",
+        "translations": {
+          "de": "Wo bist du gerade?",
+          "en": "Where are you right now?",
+          "es": "¿Dónde estás ahora mismo?",
+          "fr": "Tu es où en ce moment?",
+          "hi": "अभी तुम कहाँ हो?",
+          "ja": "今どこにいるの？",
+          "km": "ឥឡូវនេះអ្នកនៅឯណា?",
+          "ko": "지금 어디 있어?",
+          "ne": "अहिले तिमी कहाँ छौ?",
+          "pt": "Onde você está agora?",
+          "th": "ตอนนี้แกอยู่ที่ไหน?",
+          "tl": "Nasaan ka ngayon?",
+          "ur": "ابھی تم کہاں ہو؟",
+          "vi": "Bây giờ mày ở đâu vậy?",
+          "zh": "你现在在哪里？",
+          "zh_Hant": "你現在在哪裡？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຍາມໃດກໍຕາມ ໂທຫາຂ້ອຍໄດ້ເລີຍ",
+        "romanization": "nyam dai gò taam, thoh hǎa khòi dâi loei",
+        "translations": {
+          "de": "Ruf mich jederzeit an.",
+          "en": "You can call me anytime.",
+          "es": "Puedes llamarme en cualquier momento.",
+          "fr": "Tu peux m'appeler n'importe quand.",
+          "hi": "तुम मुझे कभी भी फोन कर सकते हो।",
+          "ja": "いつでも電話してね。",
+          "km": "អ្នកអាចទូរស័ព្ទមកខ្ញុំបានគ្រប់ពេល។",
+          "ko": "언제든지 나한테 전화해도 돼.",
+          "ne": "तिमी मलाई जुनसुकै बेला फोन गर्न सक्छौ।",
+          "pt": "Pode me ligar a qualquer hora.",
+          "th": "โทรหาฉันได้ทุกเมื่อเลย",
+          "tl": "Maaari kang tumawag sa akin anumang oras.",
+          "ur": "تم مجھے کبھی بھی فون کر سکتے ہو۔",
+          "vi": "Mày có thể gọi cho tao bất cứ lúc nào.",
+          "zh": "你随时都可以给我打电话。",
+          "zh_Hant": "你隨時都可以給我打電話。"
+        },
+        "out_of_scope_words": [
+          "ໂທ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a clock showing a specific time on one side and a smiling person gesturing 'anytime' on the other, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍາວ": {
+    "definitions": {
+      "de": "Lang; beschreibt etwas mit großer Ausdehnung in der Länge oder langer Dauer",
+      "en": "Long; describes something of great length or extended duration",
+      "es": "Largo; describe algo de gran longitud o larga duración",
+      "fr": "Long; décrit quelque chose d'une grande longueur ou d'une longue durée",
+      "hi": "लंबा; किसी चीज़ की बड़ी लंबाई या लंबी अवधि का वर्णन करता है",
+      "ja": "長い；物の長さや時間の長さを表す形容詞",
+      "km": "វែង; ពណ៌នាអ្វីមួយដែលមានប្រវែងខ្លាំង ឬរយៈពេលយូរ",
+      "ko": "길다; 길이나 기간이 긴 것을 묘사하는 형용사",
+      "ne": "लामो; कुनै चीजको लम्बाइ वा अवधि ठूलो भएको वर्णन गर्दछ",
+      "pt": "Longo, comprido; descreve algo de grande extensão ou longa duração",
+      "th": "ยาว; บอกว่าสิ่งใดสิ่งหนึ่งมีความยาวมากหรือใช้เวลานาน",
+      "tl": "Mahaba; naglalarawan ng isang bagay na may malaking haba o matagal na tagal",
+      "ur": "لمبا؛ کسی چیز کی بڑی لمبائی یا طویل مدت کو بیان کرتا ہے",
+      "vi": "Dài; mô tả điều gì đó có chiều dài lớn hoặc kéo dài lâu",
+      "zh": "长；形容事物长度大或持续时间久",
+      "zh_Hant": "長；形容事物長度大或持續時間久"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/ɲáːw/",
+    "examples": [
+      {
+        "lao_script": "ຜົມຂອງເຈົ້າຍາວຫຼາຍເລີຍ",
+        "romanization": "phom khǒng jao ɲáːw lǎːj loei",
+        "translations": {
+          "de": "Dein Haar ist wirklich lang!",
+          "en": "Your hair is so long!",
+          "es": "¡Tu cabello es muy largo!",
+          "fr": "Tes cheveux sont vraiment longs!",
+          "hi": "तुम्हारे बाल बहुत लंबे हैं!",
+          "ja": "あなたの髪、すごく長いね！",
+          "km": "សក់របស់អ្នកវែងណាស់!",
+          "ko": "네 머리카락 정말 길다!",
+          "ne": "तिम्रो कपाल एकदम लामो छ!",
+          "pt": "Seu cabelo é muito comprido!",
+          "th": "ผมแกยาวมากเลย!",
+          "tl": "Ang haba-haba ng buhok mo!",
+          "ur": "تمہارے بال بہت لمبے ہیں!",
+          "vi": "Tóc mày dài thật đấy!",
+          "zh": "你的头发好长啊！",
+          "zh_Hant": "你的頭髮好長啊！"
+        },
+        "out_of_scope_words": [
+          "ຜົມ"
+        ]
+      },
+      {
+        "lao_script": "ທາງໄປຕະຫຼາດຍາວບໍ?",
+        "romanization": "thaang pai talàat ɲáːw bò?",
+        "translations": {
+          "de": "Ist es weit zum Markt?",
+          "en": "Is the way to the market far/long?",
+          "es": "¿Es larga la ruta al mercado?",
+          "fr": "C'est long pour aller au marché?",
+          "hi": "बाज़ार जाने का रास्ता लंबा है क्या?",
+          "ja": "市場まで道は長い？",
+          "km": "ផ្លូវទៅផ្សារវែងទេ?",
+          "ko": "시장 가는 길이 멀어?",
+          "ne": "बजार जाने बाटो लामो छ?",
+          "pt": "O caminho para o mercado é longo?",
+          "th": "ทางไปตลาดไกลไหม?",
+          "tl": "Matagal ba ang daan patungo sa palengke?",
+          "ur": "بازار جانے کا راستہ لمبا ہے کیا؟",
+          "vi": "Đường ra chợ có dài không?",
+          "zh": "去市场的路远不远？",
+          "zh_Hant": "去市場的路遠不遠？"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration comparing a short rope and a long rope side by side, with the long one labeled visually, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທິ້ມ": {
+    "definitions": {
+      "de": "Werfen, wegwerfen, weglegen; etwas loslassen oder entsorgen",
+      "en": "To throw, toss, discard, or abandon; to let go of something",
+      "es": "Tirar, lanzar, desechar; soltar o deshacerse de algo",
+      "fr": "Jeter, lancer, se débarrasser de; lâcher quelque chose",
+      "hi": "फेंकना, छोड़ देना, त्याग करना; किसी चीज़ को जाने देना",
+      "ja": "投げる、捨てる、放棄する；何かを手放す",
+      "km": "បោះ ចោល ឬលះបង់; ដាក់ចោលអ្វីមួយ",
+      "ko": "던지다, 버리다, 내다 버리다; 무언가를 놓아버리다",
+      "ne": "फाल्नु, छोड्नु, त्याग गर्नु; केही चिजलाई जान दिनु",
+      "pt": "Jogar, atirar, descartar, abandonar; largar algo",
+      "th": "โยน ทิ้ง หรือละทิ้ง; ปล่อยหรือกำจัดสิ่งใดสิ่งหนึ่ง",
+      "tl": "Itapon, ihagis, iwanan; pakawalan o alisin ang isang bagay",
+      "ur": "پھینکنا، چھوڑنا، ترک کرنا؛ کسی چیز کو جانے دینا",
+      "vi": "Ném, vứt bỏ, từ bỏ; buông bỏ thứ gì đó",
+      "zh": "扔、丢弃、抛弃；放开或处理掉某物",
+      "zh_Hant": "扔、丟棄、拋棄；放開或處理掉某物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰím/",
+    "examples": [
+      {
+        "lao_script": "ຢ່າທິ້ມຂີ້ເຫຍື້ອລົງຖະໜົນ",
+        "romanization": "yàa thím khîi ɲɯ̂a long thhanǒn",
+        "translations": {
+          "de": "Wirf den Müll nicht auf die Straße.",
+          "en": "Don't throw trash on the street.",
+          "es": "No tires basura en la calle.",
+          "fr": "Ne jette pas les ordures dans la rue.",
+          "hi": "सड़क पर कूड़ा मत फेंको।",
+          "ja": "道にゴミを捨てないで。",
+          "km": "កុំចោលសំរាមនៅលើផ្លូវ។",
+          "ko": "길에 쓰레기 버리지 마.",
+          "ne": "सडकमा फोहोर नफाल्नु।",
+          "pt": "Não jogue lixo na rua.",
+          "th": "อย่าทิ้งขยะบนถนน",
+          "tl": "Huwag magtapon ng basura sa kalye.",
+          "ur": "سڑک پر کوڑا مت پھینکو۔",
+          "vi": "Đừng vứt rác ra đường.",
+          "zh": "不要把垃圾扔在路上。",
+          "zh_Hant": "不要把垃圾扔在路上。"
+        },
+        "out_of_scope_words": [
+          "ຂີ້ເຫຍື້ອ",
+          "ຖະໜົນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າທິ້ມໂທລະສັບລົງໃສ່ຖົງໄດ້ເລີຍ",
+        "romanization": "jao thím tholasap long sài thong dâi loei",
+        "translations": {
+          "de": "Wirf das Handy einfach in die Tasche.",
+          "en": "Just toss your phone into the bag.",
+          "es": "Mete el teléfono en la bolsa nomás.",
+          "fr": "Balance ton téléphone dans le sac.",
+          "hi": "बस अपना फ़ोन बैग में डाल दो।",
+          "ja": "携帯をバッグにポンと入れていいよ。",
+          "km": "គ្រាន់តែដាក់ទូរស័ព្ទទៅក្នុងកាបូបបាន។",
+          "ko": "그냥 가방에 폰 던져 넣어도 돼.",
+          "ne": "बस फोनलाई झोलामा हालिदिनु।",
+          "pt": "É só jogar o celular na bolsa.",
+          "th": "โยนโทรศัพท์ใส่กระเป๋าได้เลย",
+          "tl": "Itapon na lang ang iyong telepono sa bag.",
+          "ur": "بس فون کو بیگ میں ڈال دو۔",
+          "vi": "Mày cứ ném điện thoại vào túi đi.",
+          "zh": "你直接把手机扔进包里就行了。",
+          "zh_Hant": "你直接把手機扔進包裡就行了。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ຖົງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person tossing a piece of trash into a trash can with a throwing motion, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ນັດ": {
+    "definitions": {
+      "de": "Verabredung, Termin; sich mit jemandem treffen oder einen Termin vereinbaren",
+      "en": "Appointment, date, meeting arrangement; to set a time to meet someone",
+      "es": "Cita, compromiso; acordar una hora para verse con alguien",
+      "fr": "Rendez-vous, rendez-vous prévu; fixer un moment pour rencontrer quelqu'un",
+      "hi": "मुलाकात, अपॉइंटमेंट; किसी से मिलने का समय तय करना",
+      "ja": "約束、アポイントメント；誰かと会う時間を決めること",
+      "km": "ការណាត់ជួប ការណាត់ ឬការព្រមព្រៀងជួបគ្នា",
+      "ko": "약속, 만남 약속; 누군가와 만날 시간을 정하는 것",
+      "ne": "भेट्ने समय तोक्नु, अपोइन्टमेन्ट; कसैसँग भेट्ने समय मिलाउनु",
+      "pt": "Encontro, compromisso, consulta; combinar um horário para se encontrar com alguém",
+      "th": "นัด การนัดหมาย; การตกลงเวลาพบกับใครบางคน",
+      "tl": "Tipan, appointment, pakikipagkita; ang mag-ayos ng oras para makita ang isang tao",
+      "ur": "ملاقات، اپوائنٹمنٹ؛ کسی سے ملنے کا وقت طے کرنا",
+      "vi": "Hẹn gặp, cuộc hẹn; sắp xếp thời gian để gặp ai đó",
+      "zh": "约定、约会、预约；与某人约好见面的时间",
+      "zh_Hant": "約定、約會、預約；與某人約好見面的時間"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/nát/",
+    "examples": [
+      {
+        "lao_script": "ເຮົາມີນັດກັນຄືນນີ້ ຢ່າລືມ",
+        "romanization": "hao mii nát kan khɯ̂n níi, yàa lɯ̂m",
+        "translations": {
+          "de": "Wir haben heute Abend eine Verabredung, vergiss nicht!",
+          "en": "We have plans together tonight, don't forget!",
+          "es": "Tenemos una cita esta noche, ¡no lo olvides!",
+          "fr": "On a un rendez-vous ce soir, n'oublie pas!",
+          "hi": "आज रात हमारी मुलाकात है, भूलना मत!",
+          "ja": "今夜約束があるよ、忘れないで！",
+          "km": "យើងមានការណាត់ជួបគ្នាយប់នេះ កុំភ្លេច!",
+          "ko": "오늘 밤에 우리 약속 있어, 잊지 마!",
+          "ne": "आज राति हाम्रो भेट छ, नभूल!",
+          "pt": "A gente tem um combinado hoje à noite, não esqueça!",
+          "th": "คืนนี้เรานัดกันนะ อย่าลืมล่ะ!",
+          "tl": "May tipan tayo ngayong gabi, huwag kalimutan!",
+          "ur": "آج رات ہماری ملاقات ہے، بھولنا مت!",
+          "vi": "Tối nay chúng ta có hẹn đó, đừng quên nhé!",
+          "zh": "我们今晚有约，别忘了！",
+          "zh_Hant": "我們今晚有約，別忘了！"
+        },
+        "out_of_scope_words": [
+          "ຄືນນີ້",
+          "ລືມ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກນັດພົບຫມໍ ຊ່ວຍໄດ້ບໍ?",
+        "romanization": "khòi yàak nát phóp mǒː, sùay dâi bò?",
+        "translations": {
+          "de": "Ich möchte einen Arzttermin machen, kannst du helfen?",
+          "en": "I want to make an appointment with the doctor, can you help?",
+          "es": "Quiero hacer una cita con el médico, ¿me puedes ayudar?",
+          "fr": "Je veux prendre rendez-vous avec le médecin, tu peux m'aider?",
+          "hi": "मैं डॉक्टर से अपॉइंटमेंट लेना चाहता हूँ, क्या तुम मदद कर सकते हो?",
+          "ja": "お医者さんに予約を入れたいんだけど、手伝ってくれる？",
+          "km": "ខ្ញុំចង់ណាត់ជួបគ្រូពេទ្យ អ្នកអាចជួយបានទេ?",
+          "ko": "의사 선생님하고 예약하고 싶은데, 도와줄 수 있어?",
+          "ne": "म डाक्टरसँग अपोइन्टमेन्ट लिन चाहन्छु, मद्दत गर्न सक्छौ?",
+          "pt": "Quero marcar uma consulta com o médico, pode me ajudar?",
+          "th": "ฉันอยากนัดหมอ ช่วยได้ไหม?",
+          "tl": "Gusto kong mag-appointment sa doktor, makakatulong ka ba?",
+          "ur": "میں ڈاکٹر سے اپوائنٹمنٹ لینا چاہتا ہوں، کیا تم مدد کر سکتے ہو؟",
+          "vi": "Tao muốn đặt lịch gặp bác sĩ, mày giúp được không?",
+          "zh": "我想预约医生，你能帮我吗？",
+          "zh_Hant": "我想預約醫生，你能幫我嗎？"
+        },
+        "out_of_scope_words": [
+          "ຫມໍ",
+          "ຊ່ວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a calendar with a specific date circled and two cartoon people shaking hands or waving, representing a scheduled meeting, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເໝາະ": {
+    "definitions": {
+      "de": "Passend, geeignet, angemessen; etwas, das gut zu einer Situation oder Person passt",
+      "en": "Suitable, appropriate, fitting; something that matches well with a situation or person",
+      "es": "Adecuado, apropiado, conveniente; algo que encaja bien con una situación o persona",
+      "fr": "Approprié, convenable, adéquat; quelque chose qui correspond bien à une situation ou une personne",
+      "hi": "उपयुक्त, उचित, मुनासिब; कोई चीज़ जो किसी स्थिति या व्यक्ति के साथ अच्छी तरह मेल खाती है",
+      "ja": "ふさわしい、適切な、合った；ある状況や人に合っていること",
+      "km": "សមស្រប ត្រឹមត្រូវ ឬគ្រប់គ្រាន់; អ្វីដែលសាកសមនឹងស្ថានការណ៍ ឬបុគ្គល",
+      "ko": "적합한, 어울리는, 적절한; 상황이나 사람과 잘 맞는 것",
+      "ne": "उपयुक्त, सही, मुनासिब; कुनै चीज जो कुनै अवस्था वा व्यक्तिसँग राम्रोसँग मेल खान्छ",
+      "pt": "Adequado, apropriado, conveniente; algo que combina bem com uma situação ou pessoa",
+      "th": "เหมาะสม เหมาะ หรือเข้ากัน; สิ่งที่พอดีกับสถานการณ์หรือบุคคล",
+      "tl": "Angkop, bagay, naaangkop; isang bagay na magkasya sa isang sitwasyon o tao",
+      "ur": "مناسب، موزوں، درست؛ کوئی چیز جو کسی صورتحال یا شخص سے اچھی طرح میل کھاتی ہو",
+      "vi": "Phù hợp, thích hợp, thích đáng; điều gì đó khớp tốt với tình huống hoặc con người",
+      "zh": "合适、适当、相称；某事物与情况或人很匹配",
+      "zh_Hant": "合適、適當、相稱；某事物與情況或人很匹配"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/mɔ̀ː/",
+    "examples": [
+      {
+        "lao_script": "ເສື້ອໂຕນີ້ເໝາະກັບເຈົ້າຫຼາຍ",
+        "romanization": "sɯ̂a to níi mɔ̀ː kap jao lǎːj",
+        "translations": {
+          "de": "Dieses Hemd passt wirklich gut zu dir.",
+          "en": "This shirt suits you really well.",
+          "es": "Esta camisa te queda muy bien.",
+          "fr": "Cette chemise te va vraiment bien.",
+          "hi": "यह कमीज़ तुम पर बहुत अच्छी लगती है।",
+          "ja": "このシャツ、あなたにすごく似合ってるよ。",
+          "km": "អាវនេះសមសាកល្បើខ្លួនអ្នកណាស់។",
+          "ko": "이 셔츠 너한테 정말 잘 어울려.",
+          "ne": "यो सर्ट तिमीलाई एकदम मिलेको छ।",
+          "pt": "Essa camisa combina muito bem com você.",
+          "th": "เสื้อตัวนี้เหมาะกับแกมากเลย",
+          "tl": "Ang bagay na bagay ng shirt na ito sa iyo.",
+          "ur": "یہ قمیض تم پر بہت اچھی لگتی ہے۔",
+          "vi": "Cái áo này hợp với mày lắm.",
+          "zh": "这件衬衫很适合你。",
+          "zh_Hant": "這件襯衫很適合你。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ"
+        ]
+      },
+      {
+        "lao_script": "ເວລານີ້ເໝາະສົມທີ່ຈະເວົ້າບໍ?",
+        "romanization": "wéla níi mɔ̀ː som thîi ja vâo bò?",
+        "translations": {
+          "de": "Passt es gerade, um zu reden?",
+          "en": "Is this a good time to talk?",
+          "es": "¿Es un buen momento para hablar?",
+          "fr": "C'est le bon moment pour parler?",
+          "hi": "क्या अभी बात करने का सही समय है?",
+          "ja": "今、話すのにいい時間ですか？",
+          "km": "តើពេលនេះសមស្របដើម្បីនិយាយទេ?",
+          "ko": "지금 얘기하기 괜찮은 시간이야?",
+          "ne": "अहिले कुरा गर्न उपयुक्त समय छ?",
+          "pt": "Esse é um bom momento para conversar?",
+          "th": "ตอนนี้เหมาะที่จะพูดคุยไหม?",
+          "tl": "Angkop bang oras na ito para makipag-usap?",
+          "ur": "کیا ابھی بات کرنے کا مناسب وقت ہے؟",
+          "vi": "Bây giờ có phải thời điểm thích hợp để nói chuyện không?",
+          "zh": "现在适合说话吗？",
+          "zh_Hant": "現在適合說話嗎？"
+        },
+        "out_of_scope_words": [
+          "ເວລາ",
+          "ເວົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a puzzle piece fitting perfectly into its matching slot, with a green checkmark above it, symbolizing suitability and a perfect match, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

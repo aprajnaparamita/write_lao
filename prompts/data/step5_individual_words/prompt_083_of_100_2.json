@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກົດ",
+  "definitions": {
+    "de": "Drücken, pressen (eine Taste oder einen Knopf betätigen); auch: Regel, Gesetz (als Nomen)",
+    "en": "To press, to push (a button or key); also used as a noun meaning rule or law",
+    "es": "Presionar, pulsar (un botón o tecla); también como sustantivo: regla, ley",
+    "fr": "Appuyer, presser (un bouton ou une touche); aussi employé comme nom signifiant règle, loi",
+    "hi": "दबाना, दबाव डालना (किसी बटन या कुंजी पर); संज्ञा के रूप में: नियम, कानून",
+    "ja": "押す（ボタンやキーを押す）；名詞として「規則、法律」の意味でも使われる",
+    "km": "ចុច, 누르다 (ប៊ូតុង ឬគ្រាប់ចុច); ក៏ប្រើជានាម មានន័យថា ច្បាប់, វិន័យ",
+    "ko": "누르다 (버튼이나 키를 누르다); 명사로는 규칙, 법을 의미하기도 함",
+    "ne": "थिच्नु, दबाउनु (बटन वा कुञ्जी); संज्ञाको रूपमा: नियम, कानून",
+    "pt": "Pressionar, apertar (um botão ou tecla); também como substantivo: regra, lei",
+    "th": "กด (ปุ่มหรือแป้น); ยังใช้เป็นคำนามหมายถึง กฎ, กฎหมาย",
+    "tl": "Pindutin, itulak (isang pindutan o susi); bilang pangngalan: tuntunin, batas",
+    "ur": "دبانا، دبائو ڈالنا (کسی بٹن یا کنجی پر)؛ اسم کے طور پر: قانون، قاعدہ",
+    "vi": "Nhấn, bấm (nút hoặc phím); cũng dùng như danh từ nghĩa là quy tắc, luật lệ",
+    "zh": "按压（按钮或键）；也用作名词，意为规则、法律",
+    "zh_Hant": "按壓（按鈕或鍵）；也用作名詞，意為規則、法律"
+  },
+  "definition_en": "To press, to push (a button or key); also used as a noun meaning rule or law",
+  "romanization": "kot",
+  "lao_examples": [
+    {
+      "lao_script": "ກົດປຸ່ມນີ້ເພື່ອເປີດໂທລະສັບ",
+      "romanization": "kot pum niː pʰɯa pəːt tʰoː.la.sap",
+      "translation_en": "Press this button to turn on the phone."
+    },
+    {
+      "lao_script": "ຢ່າກົດລະຫັດຜ່ານຜິດ",
+      "romanization": "jaː kot la.hat pʰan pʰit",
+      "translation_en": "Don't enter the wrong password."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand with one finger pressing a large round button, clean white background, bright colors, minimalist cartoon style, suitable for a language learning app."
+}

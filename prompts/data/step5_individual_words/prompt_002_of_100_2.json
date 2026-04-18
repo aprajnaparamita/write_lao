@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂອງ",
+  "definitions": {
+    "de": "von; gehörend zu; Ding/Sache (Besitzmarker oder Substantiv für 'Ding')",
+    "en": "of; belonging to; thing/item (possessive marker or noun meaning 'thing')",
+    "es": "de; perteneciente a; cosa (marcador posesivo o sustantivo 'cosa')",
+    "fr": "de; appartenant à; chose (marqueur possessif ou nom 'chose')",
+    "hi": "का/की/के; चीज़ (संबंधकारक चिह्न या संज्ञा 'वस्तु')",
+    "ja": "〜の／もの（所有を示す助詞・「物」を表す名詞）",
+    "km": "របស់／វត្ថុ (បុព្វបទបញ្ជាក់ភាពជាម្ចាស់ ឬនាមសំដៅលើវត្ថុ)",
+    "ko": "~의／물건／것 (소유격 표지 또는 '물건' 명사)",
+    "ne": "को／वस्तु (स्वामित्व जनाउने वा वस्तु अर्थको नाम)",
+    "pt": "de; pertencente a; coisa (marcador possessivo ou substantivo 'coisa')",
+    "th": "ของ (คำบอกความเป็นเจ้าของ หรือคำนามหมายถึงสิ่งของ)",
+    "tl": "ng／gamit／bagay (pambatay ng pagmamay-ari o pangngalang 'bagay')",
+    "ur": "کا／کی／کے؛ چیز (ملکیتی علامت یا اسم 'چیز')",
+    "vi": "của; đồ vật (dấu hiệu sở hữu hoặc danh từ 'đồ/vật')",
+    "zh": "的／东西（表示所属的助词，或意为'物品'的名词）",
+    "zh_Hant": "的／東西（表示所屬的助詞，或意為「物品」的名詞）"
+  },
+  "definition_en": "of; belonging to; thing/item (possessive marker or noun meaning 'thing')",
+  "romanization": "kʰɔ̌ːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ນີ້ ແມ່ນ ຫນັງສື ຂອງ ຂ້ອຍ",
+      "romanization": "nîː mɛ̄n nǎŋ.sɯ̌ː kʰɔ̌ːŋ kʰɔ̂ːj",
+      "translation_en": "This is my book."
+    },
+    {
+      "lao_script": "ຂອງ ນີ້ ລາຄາ ເທົ່າ ໃດ?",
+      "romanization": "kʰɔ̌ːŋ nîː láː.kʰáː tʰāw dàj",
+      "translation_en": "How much does this thing cost?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a gift box with a label showing a small arrow from one person to another, representing possession, suitable for a language learning app, clean white background, minimalist style."
+}

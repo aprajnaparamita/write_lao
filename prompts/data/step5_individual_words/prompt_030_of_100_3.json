@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໝົດ",
+  "definitions": {
+    "de": "alle, aufgebraucht, fertig, nichts mehr übrig",
+    "en": "all gone, finished, used up, completely done",
+    "es": "agotado, terminado, ya no queda nada, acabado",
+    "fr": "épuisé, terminé, fini, il n'en reste plus",
+    "hi": "खत्म हो जाना, सब समाप्त, बिल्कुल खाली",
+    "ja": "なくなった、使い切った、終わった、全部なくなった",
+    "km": "អស់, ហើយ, ផុត, អស់ហើយ",
+    "ko": "다 떨어지다, 다 쓰다, 끝나다, 소진되다",
+    "ne": "सकिनु, सबै सकियो, खाली हुनु",
+    "pt": "acabou, esgotado, não sobrou nada, terminou",
+    "th": "หมด, หมดแล้ว, สิ้น, ใช้หมดแล้ว",
+    "tl": "ubos na, naubos, tapos na, wala nang natira",
+    "ur": "ختم ہونا، سب ختم، کچھ نہیں بچا",
+    "vi": "hết, cạn, xong, không còn gì nữa",
+    "zh": "用完了、没有了、全部用尽",
+    "zh_Hant": "用完了、沒有了、全部用盡"
+  },
+  "definition_en": "all gone, finished, used up, completely done",
+  "romanization": "mot",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົ້າໝົດແລ້ວ, ຈະເຮັດແນວໃດດີ",
+      "romanization": "kʰaw mot lɛːw, tɕaː het nɛːw daːj diː",
+      "translation_en": "The rice is all gone, what should we do now?"
+    },
+    {
+      "lao_script": "ເງິນໝົດແລ້ວ, ຢືມແດ່ໄດ້ບໍ່",
+      "romanization": "ŋɤn mot lɛːw, jɯːm dɛː daːj bɔː",
+      "translation_en": "My money is all gone, can you lend me some?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an empty bowl and an empty wallet side by side, showing they are completely empty, clean white background, simple cartoon style with muted colors, suitable for a language learning app."
+}

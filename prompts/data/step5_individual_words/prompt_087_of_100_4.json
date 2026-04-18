@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປົກ",
+  "definitions": {
+    "de": "Bedecken, abdecken; auch: regieren, verwalten (ein Land oder Gebiet)",
+    "en": "To cover (something); also to govern or rule (a country or area)",
+    "es": "Cubrir (algo); también gobernar o administrar (un país o área)",
+    "fr": "Couvrir (quelque chose); aussi gouverner ou administrer (un pays ou une région)",
+    "hi": "ढकना (कुछ); किसी देश या क्षेत्र पर शासन करना",
+    "ja": "覆う、かぶせる；また統治する、治める（国や地域を）",
+    "km": "គ្របដណ្តប់ (អ្វីមួយ); ក៏ដឹកនាំ ឬគ្រប់គ្រង (ប្រទេស ឬតំបន់) ផងដែរ",
+    "ko": "덮다, 가리다; 또한 (나라나 지역을) 통치하다, 지배하다",
+    "ne": "ढाक्नु (कुनै चीज); कुनै देश वा क्षेत्र शासन गर्नु वा नियन्त्रण गर्नु",
+    "pt": "Cobrir (algo); também governar ou administrar (um país ou área)",
+    "th": "ปกคลุม, คลุม; ยังหมายถึงปกครอง (ประเทศหรือพื้นที่)",
+    "tl": "Takpan (ang isang bagay); pamamahala o pag-govern (ng isang bansa o lugar)",
+    "ur": "ڈھانپنا (کوئی چیز)؛ کسی ملک یا علاقے پر حکومت کرنا",
+    "vi": "Che phủ, đậy lên (cái gì đó); cũng có nghĩa là cai trị, quản lý (một quốc gia hoặc vùng đất)",
+    "zh": "覆盖（某物）；也指统治、管辖（一个国家或地区）",
+    "zh_Hant": "覆蓋（某物）；也指統治、管轄（一個國家或地區）"
+  },
+  "definition_en": "To cover (something); also to govern or rule (a country or area)",
+  "romanization": "/pok˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາຜ້າປົກເຂົ້າໄວ້ ບໍ່ໃຫ້ແມງວັນຕອມ",
+      "romanization": "ao pha pok khao wai, bo hai maeng wan tom",
+      "translation_en": "Cover the rice with a cloth so flies don't get on it."
+    },
+    {
+      "lao_script": "ລັດຖະບານປົກປະເທດຊາດຢ່າງດີ",
+      "romanization": "lat tha ban pok pa thet sat yang di",
+      "translation_en": "The government governs the country well."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person placing a cloth cover over a bowl of food to protect it, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

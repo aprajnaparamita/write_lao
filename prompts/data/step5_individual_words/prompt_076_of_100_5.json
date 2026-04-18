@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແພດ",
+  "definitions": {
+    "de": "Arzt; Ärztin; eine medizinisch ausgebildete Person (Pali-Lehnwort; im Alltag ist ໝໍ gebräuchlicher)",
+    "en": "Doctor; physician; a medically trained professional (Pali-influenced term; ໝໍ is more common in everyday speech)",
+    "es": "Médico; doctor; profesional con formación médica (término de origen pali; ໝໍ es más común en el habla cotidiana)",
+    "fr": "Médecin; docteur; professionnel formé en médecine (terme d'influence palie; ໝໍ est plus courant dans la langue parlée quotidienne)",
+    "hi": "डॉक्टर; चिकित्सक; चिकित्सा में प्रशिक्षित पेशेवर (पाली प्रभावित शब्द; रोज़मर्रा की बोलचाल में ໝໍ अधिक प्रचलित है)",
+    "ja": "医者；医師；医学的に訓練された専門家（パーリ語由来の語；日常会話では ໝໍ のほうが一般的）",
+    "km": "វេជ្ជបណ្ឌិត; គ្រូពេទ្យ; អ្នកជំនាញដែលបានទទួលការបណ្តុះបណ្តាលវេជ្ជសាស្ត្រ (ពាក្យពី​ភាសាបាលី; ໝໍ ប្រើជាទូទៅជាងក្នុងការនិយាយប្រចាំថ្ងៃ)",
+    "ko": "의사; 의료 전문가 (팔리어 영향을 받은 단어; 일상 구어에서는 ໝໍ 이 더 일반적)",
+    "ne": "डाक्टर; चिकित्सक; चिकित्सा प्रशिक्षित पेशेवर (पाली प्रभावित शब्द; दैनिक बोलचालमा ໝໍ बढी प्रचलित छ)",
+    "pt": "Médico; doutor; profissional com formação médica (termo de influência páli; ໝໍ é mais comum na fala cotidiana)",
+    "th": "แพทย์; หมอ; ผู้เชี่ยวชาญที่ได้รับการฝึกอบรมด้านการแพทย์ (คำที่มีอิทธิพลจากภาษาบาลี; ໝໍ ใช้บ่อยกว่าในภาษาพูดทั่วไป)",
+    "tl": "Doktor; manggagamot; propesyonal na sinanay sa medisina (salitang impluwensya ng Pali; ang ໝໍ ay mas karaniwan sa pang-araw-araw na pagsasalita)",
+    "ur": "ڈاکٹر؛ طبیب؛ طبی تربیت یافتہ پیشہ ور (پالی زبان سے متاثر لفظ؛ روزمرہ گفتگو میں ໝໍ زیادہ عام ہے)",
+    "vi": "Bác sĩ; thầy thuốc; chuyên gia được đào tạo y tế (từ ảnh hưởng Pali; ໝໍ phổ biến hơn trong lời nói hàng ngày)",
+    "zh": "医生；大夫；经过医学训练的专业人员（巴利语影响的词汇；日常口语中 ໝໍ 更常用）",
+    "zh_Hant": "醫生；大夫；經過醫學訓練的專業人員（巴利語影響的詞彙；日常口語中 ໝໍ 更常用）"
+  },
+  "definition_en": "Doctor; physician; a medically trained professional (Pali-influenced term; ໝໍ is more common in everyday speech)",
+  "romanization": "/pʰɛːt˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ແພດບອກໃຫ້ຂ້ອຍພັກຜ່ອນຫຼາຍໆ",
+      "romanization": "phet bok hai khoy phak phon lai lai",
+      "translation_en": "The doctor told me to rest a lot."
+    },
+    {
+      "lao_script": "ຢາກເປັນແພດຕ້ອງຮຽນຫຼາຍປີ",
+      "romanization": "yak pen phet tong hian lai pi",
+      "translation_en": "To become a doctor, you have to study for many years."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly doctor wearing a white coat and stethoscope, smiling, standing against a clean white background, colorful and minimalist style suitable for a language learning app."
+}

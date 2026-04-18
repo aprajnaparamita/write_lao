@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍຸກ",
+  "definitions": {
+    "de": "Eine Ära oder Epoche; ein bestimmter Zeitabschnitt in der Geschichte oder Entwicklung",
+    "en": "An era or epoch; a distinct period of time in history or development",
+    "es": "Una era o época; un período de tiempo distintivo en la historia o el desarrollo",
+    "fr": "Une ère ou époque ; une période de temps distincte dans l'histoire ou le développement",
+    "hi": "एक युग या काल; इतिहास या विकास में एक विशिष्ट समयावधि",
+    "ja": "時代や紀元；歴史や発展における特定の期間",
+    "km": "យុគ ឬសម័យ; រយៈពេលជាក់លាក់មួយក្នុងប្រវត្តិសាស្ត្រ ឬការអភិវឌ្ឍ",
+    "ko": "시대 또는 에포크; 역사나 발전에서 뚜렷한 특정 기간",
+    "ne": "एक युग वा काल; इतिहास वा विकासमा एक विशिष्ट समयावधि",
+    "pt": "Uma era ou época; um período de tempo distinto na história ou no desenvolvimento",
+    "th": "ยุคหรือสมัย; ช่วงเวลาที่เฉพาะเจาะจงในประวัติศาสตร์หรือพัฒนาการ",
+    "tl": "Isang panahon o yugto; isang natatanging tagal ng panahon sa kasaysayan o pag-unlad",
+    "ur": "ایک دور یا عہد؛ تاریخ یا ترقی میں ایک مخصوص وقت کا دور",
+    "vi": "Một kỷ nguyên hoặc thời đại; một giai đoạn thời gian đặc biệt trong lịch sử hoặc sự phát triển",
+    "zh": "一个时代或纪元；历史或发展中的特定时期",
+    "zh_Hant": "一個時代或紀元；歷史或發展中的特定時期"
+  },
+  "definition_en": "An era or epoch; a distinct period of time in history or development",
+  "romanization": "ɲúk",
+  "lao_examples": [
+    {
+      "lao_script": "ຕອນນີ້ແມ່ນຍຸກເທັກໂນໂລຊີ ທຸກຄົນໃຊ້ໂທລະສັບ",
+      "romanization": "tɔ̄ɔn níi mɛ̄ɛn ɲúk thék-noo-lóo-síi, thúk khón sâi thoo-la-sàp",
+      "translation_en": "Nowadays it's the era of technology, everyone uses a mobile phone"
+    },
+    {
+      "lao_script": "ຍຸກກ່ອນຊີວິດຍາກກວ່ານີ້ຫຼາຍ",
+      "romanization": "ɲúk kɔ̀ɔn, síi-wít ɲâak kwàa níi lǎai",
+      "translation_en": "In the old era, life was much harder than this"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a timeline with two distinct eras — ancient times on the left with a temple or traditional symbol, and modern times on the right with a smartphone or city skyline, connected by an arrow. Clean white background, colorful, minimalist style suitable for a language learning app."
+}

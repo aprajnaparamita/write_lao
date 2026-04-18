@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫລຸດ",
+  "definitions": {
+    "de": "reduzieren, verringern, senken, abnehmen",
+    "en": "to reduce, to decrease, to lower, to discount",
+    "es": "reducir, disminuir, bajar, descontar",
+    "fr": "réduire, diminuer, baisser, faire une remise",
+    "hi": "कम करना, घटाना, छूट देना",
+    "ja": "減らす、下げる、割引する",
+    "km": "កាត់បន្ថយ, ធ្វើឱ្យថយចុះ, ផ្តល់ការបញ្ចុះតម្លៃ",
+    "ko": "줄이다, 낮추다, 할인하다",
+    "ne": "घटाउनु, कम गर्नु, छुट दिनु",
+    "pt": "reduzir, diminuir, baixar, descontar",
+    "th": "ลด, ลดราคา, ทำให้น้อยลง",
+    "tl": "bawasan, magpababa, magdiscount",
+    "ur": "کم کرنا، گھٹانا، چھوٹ دینا",
+    "vi": "giảm, hạ, bớt, chiết khấu",
+    "zh": "减少，降低，打折",
+    "zh_Hant": "減少，降低，打折"
+  },
+  "definition_en": "to reduce, to decrease, to lower, to discount",
+  "romanization": "/lut/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂາຍດີບໍ່? ຫລຸດລາຄາໃຫ້ຂ້ອຍໜ້ອຍໄດ້ບໍ່?",
+      "romanization": "khai dii bor? lut lakhaa hai khoi noi dai bor?",
+      "translation_en": "Selling well? Can you lower the price a bit for me?"
+    },
+    {
+      "lao_script": "ໝໍບອກໃຫ້ຫລຸດກິນເຂົ້າ",
+      "romanization": "mor bork hai lut kin khao",
+      "translation_en": "The doctor said to cut down on eating rice."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a price tag with a downward arrow showing a discount or price reduction, suitable for a language learning app, clean white background, red and green colors, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສົ່ງ",
+  "definitions": {
+    "de": "Etwas an jemanden schicken oder übergeben; senden",
+    "en": "To send or deliver something to someone",
+    "es": "Enviar o entregar algo a alguien",
+    "fr": "Envoyer ou remettre quelque chose à quelqu'un",
+    "hi": "किसी को कुछ भेजना या पहुँचाना",
+    "ja": "何かを誰かに送る、届ける",
+    "km": "ផ្ញើឬដឹកជញ្ជូនអ្វីមួយទៅឱ្យនរណាម្នាក់",
+    "ko": "무언가를 누군가에게 보내거나 전달하다",
+    "ne": "कसैलाई केहि पठाउनु वा पुर्‍याउनु",
+    "pt": "Enviar ou entregar algo a alguém",
+    "th": "ส่งหรือมอบสิ่งของให้กับใครบางคน",
+    "tl": "Magpadala o maghatid ng isang bagay sa isang tao",
+    "ur": "کسی کو کچھ بھیجنا یا پہنچانا",
+    "vi": "Gửi hoặc chuyển giao thứ gì đó cho ai đó",
+    "zh": "把某物发送或递交给某人",
+    "zh_Hant": "把某物發送或遞交給某人"
+  },
+  "definition_en": "To send or deliver something to someone",
+  "romanization": "/sòŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າສົ່ງຂໍ້ຄວາມຫາຂ້ອຍໄດ້ບໍ່?",
+      "romanization": "jao song khò khwaam haa khòi dai bò?",
+      "translation_en": "Can you send me a message?"
+    },
+    {
+      "lao_script": "ຂ້ອຍສົ່ງເຄື່ອງໃຫ້ແມ່ແລ້ວ",
+      "romanization": "khòi song khueang hâi mɛ̀ lɛ́ɛo",
+      "translation_en": "I already sent the stuff to mom."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person handing over a package or tapping send on a smartphone, clean white background, colorful and minimalist style, suitable for a language learning app."
+}

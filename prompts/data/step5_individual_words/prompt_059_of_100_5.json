@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍອດ",
+  "definitions": {
+    "de": "Spitze; Gipfel; ausgezeichnet — bezeichnet sowohl den höchsten Punkt eines Berges als auch etwas Herausragendes oder Erstklassiges",
+    "en": "Peak; top; tip; excellent — refers to the highest point of something (like a mountain) or something outstanding and top-quality",
+    "es": "Cima; cúspide; excelente — se refiere al punto más alto de algo (como una montaña) o algo sobresaliente y de primera calidad",
+    "fr": "Sommet; pointe; excellent — désigne le point le plus haut de quelque chose (comme une montagne) ou quelque chose d'exceptionnel et de premier ordre",
+    "hi": "चोटी; शीर्ष; उत्कृष्ट — किसी चीज़ का सर्वोच्च बिंदु (जैसे पहाड़) या कुछ असाधारण और उच्च गुणवत्ता वाला",
+    "ja": "頂点；先端；最高 — 山の頂上など何かの最も高い部分、または優れた・最高レベルのものを指す",
+    "km": "ចំណុចខ្ពស់បំផុត; កំពូល; ល្អឥតខ្ចោះ — សំដៅទៅលើចំណុចខ្ពស់បំផុតនៃអ្វីមួយ (ដូចជាភ្នំ) ឬអ្វីដែលលេចធ្លោ និងល្អបំផុត",
+    "ko": "꼭대기; 정상; 최고 — 산 정상처럼 무언가의 가장 높은 지점, 또는 뛰어나고 최고 수준인 것을 가리킴",
+    "ne": "चुचुरो; शिखर; उत्कृष्ट — कुनै चीजको सबैभन्दा उच्च बिन्दु (जस्तै पहाड) वा केहि असाधारण र उच्चस्तरीय",
+    "pt": "Pico; cume; topo; excelente — refere-se ao ponto mais alto de algo (como uma montanha) ou algo de destaque e de primeira qualidade",
+    "th": "ยอด; จุดสูงสุด; ดีเยี่ยม — หมายถึงจุดสูงสุดของสิ่งใดสิ่งหนึ่ง (เช่น ยอดเขา) หรือสิ่งที่โดดเด่นและมีคุณภาพสูงสุด",
+    "tl": "Tuktok; dulo; kahusayan — tumutukoy sa pinakamataas na punto ng isang bagay (tulad ng bundok) o sa isang bagay na natatangi at pinakamataas na kalidad",
+    "ur": "چوٹی؛ سب سے اوپر؛ بہترین — کسی چیز کے اعلیٰ ترین مقام (جیسے پہاڑ کی چوٹی) یا کسی بہترین اور اعلیٰ معیار کی چیز کو ظاہر کرتا ہے",
+    "vi": "Đỉnh; ngọn; xuất sắc — chỉ điểm cao nhất của thứ gì đó (như đỉnh núi) hoặc thứ gì đó nổi bật và chất lượng hàng đầu",
+    "zh": "顶；尖端；极好 — 指某物的最高点（如山顶），或形容出色、顶级的事物",
+    "zh_Hant": "頂；尖端；極好 — 指某物的最高點（如山頂），或形容出色、頂級的事物"
+  },
+  "definition_en": "Peak; top; tip; excellent — refers to the highest point of something (like a mountain) or something outstanding and top-quality",
+  "romanization": "ɲɔːt⁵",
+  "lao_examples": [
+    {
+      "lao_script": "ອາຫານຮ້ານນີ້ຍອດຫຼາຍ, ແຊບທີ່ສຸດ",
+      "romanization": "ʔaːhaːn haːn niː ɲɔːt laːj, sɛːp tʰiː sut",
+      "translation_en": "The food at this place is amazing, the most delicious!"
+    },
+    {
+      "lao_script": "ເພິ່ນຂຶ້ນເຖິງຍອດພູແລ້ວ",
+      "romanization": "pʰɤn kʰɯn tʰɯŋ ɲɔːt pʰuː lɛːw",
+      "translation_en": "He/She has already reached the mountain peak."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a mountain with a bright star or gold trophy at the very top peak, symbolizing excellence and achievement, suitable for a language learning app, clean white background, vibrant colors, minimalist style."
+}

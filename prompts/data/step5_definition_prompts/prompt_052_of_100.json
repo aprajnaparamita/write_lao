@@ -1,0 +1,398 @@
+{
+  "ບວນ": {
+    "definitions": {
+      "de": "Zeremonie oder Prozession, oft religiöser oder kultureller Natur in der laotischen Tradition",
+      "en": "A ceremonial procession or ritual, often religious or cultural in Lao tradition",
+      "es": "Procesión ceremonial o ritual, generalmente de naturaleza religiosa o cultural en la tradición laosiana",
+      "fr": "Procession cérémonielle ou rituel, souvent de nature religieuse ou culturelle dans la tradition laotienne",
+      "hi": "लाओ परंपरा में धार्मिक या सांस्कृतिक समारोह या जुलूस",
+      "ja": "ラオスの伝統における宗教的または文化的な儀式や行列",
+      "km": "ពិធីជាន់ដំណើរ ឬពិធីបុណ្យ ដែលជាញឹកញាប់មានលក្ខណៈសាសនា ឬវប្បធម៌នៅក្នុងប្រពៃណីឡាវ",
+      "ko": "라오스 전통에서 종교적 또는 문화적 성격의 의식 행렬이나 의례",
+      "ne": "लाओ परम्परामा धार्मिक वा सांस्कृतिक प्रकृतिको औपचारिक जुलुस वा अनुष्ठान",
+      "pt": "Procissão cerimonial ou ritual, geralmente de natureza religiosa ou cultural na tradição laosiana",
+      "th": "ขบวนแห่พิธีกรรมหรือพิธีกรรม มักเป็นเรื่องทางศาสนาหรือวัฒนธรรมในประเพณีลาว",
+      "tl": "Isang seremonyal na prusisyon o ritwal, kadalasang relihiyoso o kultural sa tradisyon ng Laos",
+      "ur": "لاؤ روایت میں مذہبی یا ثقافتی نوعیت کا رسمی جلوس یا تقریب",
+      "vi": "Một đám rước nghi lễ hoặc nghi thức, thường mang tính chất tôn giáo hoặc văn hóa trong truyền thống Lào",
+      "zh": "老挝传统中具有宗教或文化性质的仪式游行或典礼",
+      "zh_Hant": "老撾傳統中具有宗教或文化性質的儀式遊行或典禮"
+    },
+    "part_of_speech": "noun",
+    "romanization": "buan",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ມີບວນທີ່ວັດ ສວຍຫຼາຍເລີຍ",
+        "romanization": "meu-ni mi buan thi wat, suay lai loei",
+        "translations": {
+          "de": "Heute gibt es eine Zeremonie im Tempel, sie ist wirklich wunderschön",
+          "en": "Today there's a ceremony at the temple, it's really beautiful",
+          "es": "Hoy hay una ceremonia en el templo, es realmente hermosa",
+          "fr": "Aujourd'hui il y a une cérémonie au temple, c'est vraiment magnifique",
+          "hi": "आज मंदिर में एक समारोह है, यह सच में बहुत सुंदर है",
+          "ja": "今日はお寺で儀式があって、本当に素晴らしい",
+          "km": "ថ្ងៃនេះមានពិធីនៅវត្ត វាស្អាតណាស់",
+          "ko": "오늘 사원에서 의식이 있는데, 정말 아름다워",
+          "ne": "आज मन्दिरमा समारोह छ, साँच्चै सुन्दर छ",
+          "pt": "Hoje tem uma cerimônia no templo, é realmente bonita",
+          "th": "วันนี้มีบวนที่วัด สวยมากเลย",
+          "tl": "Ngayon may seremonya sa templo, talagang maganda",
+          "ur": "آج مندر میں ایک تقریب ہے، واقعی بہت خوبصورت ہے",
+          "vi": "Hôm nay có lễ hội ở chùa, đẹp lắm",
+          "zh": "今天寺庙里有仪式，真的很漂亮",
+          "zh_Hant": "今天寺廟裡有儀式，真的很漂亮"
+        },
+        "out_of_scope_words": [
+          "ວັດ",
+          "ສວຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າໄປບວນບູນທີ່ບ້ານບໍ?",
+        "romanization": "jao pai buan bun thi ban bo?",
+        "translations": {
+          "de": "Bist du zur Meritorzeremonie im Dorf gegangen?",
+          "en": "Did you go to the merit-making ceremony in the village?",
+          "es": "¿Fuiste a la ceremonia de méritos en el pueblo?",
+          "fr": "Tu es allé(e) à la cérémonie de mérites au village ?",
+          "hi": "क्या तुम गाँव में पुण्य समारोह में गए?",
+          "ja": "村の功徳を積む儀式に行った？",
+          "km": "តើអ្នកទៅពិធីបុណ្យនៅភូមិទេ?",
+          "ko": "마을의 공덕 쌓기 의식에 갔어?",
+          "ne": "के तिमी गाउँमा पुण्य समारोहमा गयौ?",
+          "pt": "Você foi à cerimônia de méritos na aldeia?",
+          "th": "แกไปบวนบุญที่บ้านไหม?",
+          "tl": "Pumunta ka ba sa seremonya ng pagkamit ng merito sa nayon?",
+          "ur": "کیا تم گاؤں میں ثواب کی تقریب میں گئے؟",
+          "vi": "Bạn có đi lễ làm phước ở làng không?",
+          "zh": "你去村里的积德仪式了吗？",
+          "zh_Hant": "你去村裡的積德儀式了嗎？"
+        },
+        "out_of_scope_words": [
+          "ບູນ",
+          "ບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional Lao Buddhist ceremonial procession with monks in orange robes walking in a line near a temple, colorful flags and offerings visible, clean white background, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ປອນ": {
+    "definitions": {
+      "de": "Gießen oder schütten von Flüssigkeit; auch eine Gewichtseinheit (Pfund)",
+      "en": "To pour liquid into or onto something; also used as a unit of weight (pound)",
+      "es": "Verter o derramar líquido sobre algo; también usado como unidad de peso (libra)",
+      "fr": "Verser un liquide dans ou sur quelque chose ; également utilisé comme unité de poids (livre)",
+      "hi": "किसी चीज़ में या उस पर तरल पदार्थ डालना; वजन की इकाई (पाउंड) के रूप में भी उपयोग",
+      "ja": "液体を注ぐまたは流し込む；重さの単位（ポンド）としても使用される",
+      "km": "ចាក់រាវចូលក្នុង ឬលើអ្វីមួយ; ក៏ប្រើជាឯកតាទម្ងន់ (ផោន) ផងដែរ",
+      "ko": "액체를 무언가에 붓다; 무게 단위(파운드)로도 사용됨",
+      "ne": "कुनै चीजमा तरल पदार्थ खन्याउनु; तौलको एकाइ (पाउन्ड) को रूपमा पनि प्रयोग",
+      "pt": "Despejar ou verter líquido em ou sobre algo; também usado como unidade de peso (libra)",
+      "th": "เทหรือรินของเหลวลงในหรือบนบางสิ่ง; ยังใช้เป็นหน่วยน้ำหนัก (ปอนด์)",
+      "tl": "Mag-buhos ng likido sa o sa ibabaw ng isang bagay; ginagamit din bilang yunit ng timbang (pound)",
+      "ur": "کسی چیز میں یا اس پر مائع ڈالنا؛ وزن کی اکائی (پاؤنڈ) کے طور پر بھی استعمال",
+      "vi": "Rót chất lỏng vào hoặc lên thứ gì đó; cũng dùng như đơn vị cân nặng (pound)",
+      "zh": "将液体倒入或倒在某物上；也用作重量单位（磅）",
+      "zh_Hant": "將液體倒入或倒在某物上；也用作重量單位（磅）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pon",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍປອນນ້ຳໃຫ້ຂ້ອຍແດ່ເນາະ",
+        "romanization": "suay pon nam hai khoi dae naw",
+        "translations": {
+          "de": "Kannst du mir bitte Wasser einschenken?",
+          "en": "Can you pour some water for me please?",
+          "es": "¿Puedes servirme agua, por favor?",
+          "fr": "Tu peux me verser de l'eau s'il te plaît ?",
+          "hi": "क्या तुम मुझे थोड़ा पानी डाल सकते हो?",
+          "ja": "水を注いでもらえる？",
+          "km": "ចាក់ទឹកឱ្យខ្ញុំផងបានទេ?",
+          "ko": "물 좀 따라줄 수 있어?",
+          "ne": "मलाई अलिकति पानी खन्याइदिन सक्छौ?",
+          "pt": "Você pode me servir um pouco de água, por favor?",
+          "th": "ช่วยปอนน้ำให้หน่อยได้ไหม",
+          "tl": "Maari mo bang ibuhos ang tubig para sa akin?",
+          "ur": "کیا تم میرے لیے پانی ڈال سکتے ہو؟",
+          "vi": "Bạn có thể rót nước cho tôi được không?",
+          "zh": "能帮我倒点水吗？",
+          "zh_Hant": "能幫我倒點水嗎？"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ຊ່ວຍ"
+        ]
+      },
+      {
+        "lao_script": "ປອນກາເຟໃສ່ຈອກໄດ້ເລີຍ",
+        "romanization": "pon ka-fe sai jok dai loei",
+        "translations": {
+          "de": "Gieß einfach den Kaffee in die Tasse",
+          "en": "Just pour the coffee into the cup",
+          "es": "Solo vierte el café en la taza",
+          "fr": "Verse juste le café dans la tasse",
+          "hi": "बस कप में कॉफी डाल दो",
+          "ja": "コーヒーをカップに注いでいいよ",
+          "km": "ចាក់កាហ្វេចូលកែវបានហើយ",
+          "ko": "그냥 컵에 커피 따르면 돼",
+          "ne": "कपमा कफी खन्याइदेऊ",
+          "pt": "Pode só despejar o café na xícara",
+          "th": "ปอนกาแฟใส่แก้วได้เลย",
+          "tl": "Ibuhos na lang ang kape sa tasa",
+          "ur": "بس کپ میں کافی ڈال دو",
+          "vi": "Cứ rót cà phê vào ly đi",
+          "zh": "直接把咖啡倒进杯子就行",
+          "zh_Hant": "直接把咖啡倒進杯子就行"
+        },
+        "out_of_scope_words": [
+          "ກາເຟ",
+          "ຈອກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand pouring water from a pitcher into a clear glass, with water stream visible, clean white background, bright and colorful, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຈຳນວນ": {
+    "definitions": {
+      "de": "Anzahl, Menge oder Betrag von Dingen oder Personen",
+      "en": "A number, quantity, or amount of things or people",
+      "es": "Un número, cantidad o monto de cosas o personas",
+      "fr": "Un nombre, une quantité ou un montant de choses ou de personnes",
+      "hi": "चीज़ों या लोगों की संख्या, मात्रा या राशि",
+      "ja": "物や人の数、数量、または量",
+      "km": "ចំនួន បរិមាណ ឬទំហំនៃអ្វីៗ ឬមនុស្ស",
+      "ko": "사물이나 사람의 수, 수량 또는 양",
+      "ne": "वस्तु वा मानिसहरूको संख्या, परिमाण वा मात्रा",
+      "pt": "Um número, quantidade ou montante de coisas ou pessoas",
+      "th": "จำนวน ปริมาณ หรือจำนวนเงินของสิ่งของหรือบุคคล",
+      "tl": "Isang bilang, dami, o halaga ng mga bagay o tao",
+      "ur": "چیزوں یا لوگوں کی تعداد، مقدار یا رقم",
+      "vi": "Số lượng, số đếm hoặc tổng số của sự vật hoặc con người",
+      "zh": "事物或人的数目、数量或金额",
+      "zh_Hant": "事物或人的數目、數量或金額"
+    },
+    "part_of_speech": "noun",
+    "romanization": "jam-nuan",
+    "examples": [
+      {
+        "lao_script": "ຈຳນວນຄົນທີ່ມາງານຫຼາຍຫຼາຍ",
+        "romanization": "jam-nuan khon thi ma ngan lai lai",
+        "translations": {
+          "de": "Die Anzahl der Menschen, die zur Veranstaltung kamen, war sehr groß",
+          "en": "The number of people who came to the event was really a lot",
+          "es": "La cantidad de personas que vinieron al evento fue muchísima",
+          "fr": "Le nombre de personnes venues à l'événement était vraiment beaucoup",
+          "hi": "कार्यक्रम में आए लोगों की संख्या बहुत ज़्यादा थी",
+          "ja": "イベントに来た人の数がすごく多かった",
+          "km": "ចំនួនមនុស្សដែលមកព្រឹត្តិការណ៍នេះច្រើនណាស់",
+          "ko": "행사에 온 사람 수가 정말 많았어",
+          "ne": "कार्यक्रममा आएका मान्छेहरूको संख्या धेरै धेरै थियो",
+          "pt": "O número de pessoas que vieram ao evento foi muito grande",
+          "th": "จำนวนคนที่มางานเยอะมากเลย",
+          "tl": "Ang bilang ng mga taong pumunta sa kaganapan ay napakarami",
+          "ur": "تقریب میں آنے والے لوگوں کی تعداد بہت زیادہ تھی",
+          "vi": "Số người đến sự kiện nhiều lắm",
+          "zh": "来参加活动的人数非常多",
+          "zh_Hant": "來參加活動的人數非常多"
+        },
+        "out_of_scope_words": [
+          "ຄົນ",
+          "ງານ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຮູ້ຈຳນວນທີ່ຖືກຕ້ອງບໍ?",
+        "romanization": "jao hu jam-nuan thi thuek tong bo?",
+        "translations": {
+          "de": "Kennst du die genaue Anzahl?",
+          "en": "Do you know the correct number?",
+          "es": "¿Sabes el número correcto?",
+          "fr": "Tu connais le nombre exact ?",
+          "hi": "क्या तुम सही संख्या जानते हो?",
+          "ja": "正確な数がわかる？",
+          "km": "តើអ្នកដឹងចំនួនដែលត្រឹមត្រូវទេ?",
+          "ko": "정확한 수를 알고 있어?",
+          "ne": "के तिमीलाई सही संख्या थाहा छ?",
+          "pt": "Você sabe o número correto?",
+          "th": "แกรู้จำนวนที่ถูกต้องไหม?",
+          "tl": "Alam mo ba ang tamang bilang?",
+          "ur": "کیا تمہیں صحیح تعداد معلوم ہے؟",
+          "vi": "Bạn có biết con số chính xác không?",
+          "zh": "你知道正确的数量吗？",
+          "zh_Hant": "你知道正確的數量嗎？"
+        },
+        "out_of_scope_words": [
+          "ຖືກຕ້ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a collection of colorful objects being counted with number labels (1, 2, 3...) above them, clean white background, bright colors, minimalist educational style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈູມ": {
+    "definitions": {
+      "de": "Küssen; einen Kuss geben; Ausdruck von Zuneigung durch Berühren mit den Lippen",
+      "en": "To kiss; a kiss; an expression of affection by touching with the lips",
+      "es": "Besar; un beso; expresión de afecto tocando con los labios",
+      "fr": "Embrasser ; un baiser ; expression d'affection en touchant avec les lèvres",
+      "hi": "चुंबन करना; एक चुंबन; होठों से छूकर स्नेह व्यक्त करना",
+      "ja": "キスする；キス；唇で触れることで愛情を表現すること",
+      "km": "បង្អស់; ការបង្អស់; ការបញ្ជាក់អារម្មណ៍ស្រឡាញ់ដោយប៉ះជាមួយបបូរមាត់",
+      "ko": "키스하다; 키스; 입술로 만지며 애정을 표현하는 것",
+      "ne": "चुम्बन गर्नु; एक चुम्बन; ओठले छोएर माया व्यक्त गर्नु",
+      "pt": "Beijar; um beijo; expressão de afeto tocando com os lábios",
+      "th": "จูบ; การจูบ; การแสดงความรักใคร่ด้วยการสัมผัสด้วยริมฝีปาก",
+      "tl": "Humalik; isang halik; pagpapahayag ng pagmamahal sa pamamagitan ng paghawak ng mga labi",
+      "ur": "بوسہ دینا؛ ایک بوسہ؛ ہونٹوں سے چھو کر محبت کا اظہار",
+      "vi": "Hôn; một nụ hôn; biểu đạt tình cảm bằng cách chạm môi",
+      "zh": "亲吻；一个吻；用嘴唇接触来表达爱意",
+      "zh_Hant": "親吻；一個吻；用嘴唇接觸來表達愛意"
+    },
+    "part_of_speech": "verb",
+    "romanization": "jum",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຈູມໜ້າລູກກ່ອນນອນທຸກຄືນ",
+        "romanization": "mae jum na luk kon non thuk khuen",
+        "translations": {
+          "de": "Die Mutter küsst ihr Kind jeden Abend vor dem Schlafen auf die Wange",
+          "en": "Mom kisses her child's face every night before bed",
+          "es": "La mamá le besa la cara a su hijo todas las noches antes de dormir",
+          "fr": "La maman embrasse le visage de son enfant chaque soir avant de dormir",
+          "hi": "माँ हर रात सोने से पहले अपने बच्चे के चेहरे को चूमती है",
+          "ja": "お母さんは毎晩寝る前に子どもの顔にキスする",
+          "km": "ម្តាយបង្អស់មុខកូននៅមុនពេលចូលគេងរៀងរាល់យប់",
+          "ko": "엄마는 매일 밤 자기 전에 아이의 얼굴에 키스해",
+          "ne": "आमाले हरेक रात सुत्नुअघि बच्चाको अनुहारमा चुम्बन गर्छिन्",
+          "pt": "A mãe beija o rosto do filho toda noite antes de dormir",
+          "th": "แม่จูมหน้าลูกก่อนนอนทุกคืน",
+          "tl": "Hinahalikan ng nanay ang mukha ng kanyang anak bawat gabi bago matulog",
+          "ur": "ماں ہر رات سونے سے پہلے بچے کے چہرے کو بوسہ دیتی ہے",
+          "vi": "Mẹ hôn mặt con mỗi tối trước khi ngủ",
+          "zh": "妈妈每晚睡前都亲孩子的脸",
+          "zh_Hant": "媽媽每晚睡前都親孩子的臉"
+        },
+        "out_of_scope_words": [
+          "ແມ່",
+          "ໜ້າ",
+          "ລູກ",
+          "ນອນ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຈູມກັນໃນທີ່ສາທາລະນະ ອາຍຫຼາຍ",
+        "romanization": "ya jum kan nai thi sa-tha-la-na, ai lai",
+        "translations": {
+          "de": "Küsst euch nicht in der Öffentlichkeit, das ist sehr peinlich",
+          "en": "Don't kiss each other in public, it's really embarrassing",
+          "es": "No se besen en público, es muy vergonzoso",
+          "fr": "Ne vous embrassez pas en public, c'est très gênant",
+          "hi": "सार्वजनिक जगह पर एक-दूसरे को मत चूमो, बहुत शर्मनाक है",
+          "ja": "公共の場でキスしないで、すごく恥ずかしいから",
+          "km": "កុំបង្អស់គ្នានៅកន្លែងសាធារណៈ អៀនខ្លាំងណាស់",
+          "ko": "공공장소에서 키스하지 마, 너무 민망해",
+          "ne": "सार्वजनिक ठाउँमा एकआपसमा चुम्बन नगर, धेरै लाजमर्दो छ",
+          "pt": "Não se beijem em público, é muito embaraçoso",
+          "th": "อย่าจูมกันในที่สาธารณะ อายมากเลย",
+          "tl": "Huwag mag-halikan sa publiko, nakakahiya talaga",
+          "ur": "عوامی جگہ پر ایک دوسرے کو بوسہ مت دو، بہت شرمناک ہے",
+          "vi": "Đừng hôn nhau nơi công cộng, ngại lắm",
+          "zh": "不要在公共场合接吻，太尴尬了",
+          "zh_Hant": "不要在公共場合接吻，太尷尬了"
+        },
+        "out_of_scope_words": [
+          "ທີ່ສາທາລະນະ",
+          "ອາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a mother gently kissing a young child on the cheek, both characters shown in a warm and loving pose, clean white background, soft pastel colors, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊຸດ": {
+    "definitions": {
+      "de": "Ein Satz oder eine Kollektion von zusammengehörigen Dingen; ein Outfit oder Anzug als komplettes Ensemble",
+      "en": "A set or collection of matching items; a complete outfit or suit of clothing",
+      "es": "Un conjunto o colección de artículos combinados; un atuendo completo o traje de ropa",
+      "fr": "Un ensemble ou une collection d'articles assortis ; une tenue complète ou un costume",
+      "hi": "मेल खाती वस्तुओं का एक सेट या संग्रह; एक पूरा पहनावा या सूट",
+      "ja": "揃いのアイテムのセットまたはコレクション；完全なコーディネートやスーツ",
+      "km": "សំណុំ ឬការប្រមូលផ្ដុំនៃវត្ថុដែលត្រូវគ្នា; ឈុតសម្លៀកបំពាក់ពេញលេញ",
+      "ko": "어울리는 물건들의 세트나 모음; 완전한 옷차림이나 정장",
+      "ne": "मिल्दो वस्तुहरूको एक सेट वा संग्रह; पूरा पोशाक वा सूट",
+      "pt": "Um conjunto ou coleção de itens combinando; uma roupa completa ou terno",
+      "th": "ชุดหรือคอลเลกชันของสิ่งของที่เข้าชุดกัน; เครื่องแต่งกายหรือชุดสูทที่สมบูรณ์",
+      "tl": "Isang set o koleksyon ng magkakatugmang mga bagay; isang kumpletong kasuotan o suit",
+      "ur": "ملتے جلتے اشیاء کا ایک سیٹ یا مجموعہ؛ ایک مکمل لباس یا سوٹ",
+      "vi": "Một bộ hoặc tập hợp các vật phẩm đồng bộ; một bộ trang phục hoàn chỉnh hoặc bộ vest",
+      "zh": "一套匹配物品的集合；一套完整的服装或西装",
+      "zh_Hant": "一套匹配物品的集合；一套完整的服裝或西裝"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sut",
+    "examples": [
+      {
+        "lao_script": "ຊຸດນີ້ສວຍຫຼາຍ ຊື້ຢູ່ໃສ?",
+        "romanization": "sut ni suay lai, seu yu sai?",
+        "translations": {
+          "de": "Dieses Outfit ist wirklich schön, wo hast du es gekauft?",
+          "en": "This outfit is really beautiful, where did you buy it?",
+          "es": "Este conjunto es muy bonito, ¿dónde lo compraste?",
+          "fr": "Cette tenue est vraiment belle, tu l'as achetée où ?",
+          "hi": "यह पोशाक बहुत सुंदर है, तुमने इसे कहाँ से खरीदा?",
+          "ja": "この服、すごくきれいだね。どこで買ったの？",
+          "km": "ឈុតនេះស្អាតណាស់ ទិញពីណា?",
+          "ko": "이 옷 정말 예쁘다, 어디서 샀어?",
+          "ne": "यो पोशाक धेरै सुन्दर छ, कहाँ किनेको?",
+          "pt": "Esse conjunto é muito bonito, onde você comprou?",
+          "th": "ชุดนี้สวยมากเลย ซื้อที่ไหน?",
+          "tl": "Ang damit na ito ay napakaganda, saan mo ito binili?",
+          "ur": "یہ لباس بہت خوبصورت ہے، کہاں سے خریدا؟",
+          "vi": "Bộ đồ này đẹp lắm, mua ở đâu vậy?",
+          "zh": "这套衣服好漂亮，在哪里买的？",
+          "zh_Hant": "這套衣服好漂亮，在哪裡買的？"
+        },
+        "out_of_scope_words": [
+          "ສວຍ",
+          "ຊື້"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຕ້ອງການຊຸດໃໝ່ສຳລັບງານແຕ່ງ",
+        "romanization": "khoi tong kan sut mai sam-lab ngan taeng",
+        "translations": {
+          "de": "Ich brauche ein neues Outfit für die Hochzeit",
+          "en": "I need a new outfit for the wedding",
+          "es": "Necesito un conjunto nuevo para la boda",
+          "fr": "J'ai besoin d'une nouvelle tenue pour le mariage",
+          "hi": "मुझे शादी के लिए नया पोशाक चाहिए",
+          "ja": "結婚式のために新しい服が必要だ",
+          "km": "ខ្ញុំត្រូវការឈុតថ្មីសម្រាប់ពិធីមង្គល",
+          "ko": "결혼식에 입을 새 옷이 필요해",
+          "ne": "मलाई बिहेको लागि नयाँ पोशाक चाहिन्छ",
+          "pt": "Eu preciso de uma roupa nova para o casamento",
+          "th": "ฉันต้องการชุดใหม่สำหรับงานแต่ง",
+          "tl": "Kailangan ko ng bagong damit para sa kasal",
+          "ur": "مجھے شادی کے لیے نیا لباس چاہیے",
+          "vi": "Tôi cần một bộ đồ mới cho đám cưới",
+          "zh": "我需要一套新衣服参加婚礼",
+          "zh_Hant": "我需要一套新衣服參加婚禮"
+        },
+        "out_of_scope_words": [
+          "ໃໝ່",
+          "ງານແຕ່ງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a neatly displayed matching clothing set or outfit laid out on a clean surface, including a top and bottom or a traditional suit ensemble, clean white background, bright colors, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

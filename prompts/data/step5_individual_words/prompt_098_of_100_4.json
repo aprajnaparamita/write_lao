@@ -1,0 +1,36 @@
+{
+  "lao_word": "ງົວ",
+  "definitions": {
+    "de": "Kuh oder Ochse; ein domestiziertes Rind, das häufig in der Landwirtschaft in Laos anzutreffen ist",
+    "en": "Cow or ox; a domesticated bovine animal commonly found on farms in Laos",
+    "es": "Vaca o buey; animal bovino domesticado que se encuentra comúnmente en las granjas de Laos",
+    "fr": "Vache ou bœuf ; animal bovin domestiqué couramment trouvé dans les fermes du Laos",
+    "hi": "गाय या बैल; एक पालतू मवेशी जो लाओस के खेतों में आमतौर पर पाया जाता है",
+    "ja": "牛または雄牛；ラオスの農場でよく見られる家畜の牛",
+    "km": "គោ ឬកងោ; សត្វដែលស្រុះស្រួលដែលត្រូវបានរកឃើញជាទូទៅនៅទីណាក់ ក្នុងប្រទេសឡាវ",
+    "ko": "소 또는 황소; 라오스 농장에서 흔히 볼 수 있는 가축",
+    "ne": "गाई वा बैल; लाओसका खेतहरूमा सामान्यतः पाइने एक पालतू गाईवस्तु",
+    "pt": "Vaca ou boi; um animal bovino domesticado comumente encontrado em fazendas no Laos",
+    "th": "วัวหรือโค; สัตว์เลี้ยงประเภทโคที่พบได้ทั่วไปตามฟาร์มในลาว",
+    "tl": "Baka o toro; isang domestikadong baka na karaniwang matatagpuan sa mga bukid sa Laos",
+    "ur": "گائے یا بیل؛ ایک پالتو مویشی جو لاؤس کے کھیتوں میں عام طور پر پایا جاتا ہے",
+    "vi": "Con bò hay con trâu đực; động vật gia súc được thuần hóa thường thấy ở các trang trại tại Lào",
+    "zh": "牛或公牛；老挝农场中常见的驯养牛类动物",
+    "zh_Hant": "牛或公牛；老撾農場中常見的馴養牛類動物"
+  },
+  "definition_en": "Cow or ox; a domesticated bovine animal commonly found on farms in Laos",
+  "romanization": "ŋua",
+  "lao_examples": [
+    {
+      "lao_script": "ໃນບ້ານນ້ອຍໆ ເຫັນງົວຢູ່ທຸ່ງນາ",
+      "romanization": "naɪ baːn nɔːj nɔːj hɛn ŋua juː tʰuŋ naː",
+      "translation_en": "In the small village, you can see cows in the rice fields"
+    },
+    {
+      "lao_script": "ງົວຂອງພໍ່ຂ້ອຍໃຫ່ຍຫຼາຍ ກິນຫຍ້າຢູ່ຫຼັງບ້ານ",
+      "romanization": "ŋua kʰɔːŋ pʰɔː kʰɔːj ɲaɪ laːj kin ɲaː juː laŋ baːn",
+      "translation_en": "My dad's cow is really big and is eating grass behind the house"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly brown and white cow standing in a green grassy field with a clear blue sky, clean white background, colorful and minimalist cartoon style suitable for a language learning app."
+}

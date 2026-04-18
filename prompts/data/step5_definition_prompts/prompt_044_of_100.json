@@ -1,0 +1,392 @@
+{
+  "ທ່ອງ": {
+    "definitions": {
+      "de": "Bereisen; auswendig aufsagen; rezitieren (wird in ທ່ອງທ່ຽວ 'Tourismus' verwendet)",
+      "en": "To tour, travel around; to recite or memorize aloud (used in ທ່ອງທ່ຽວ 'tourism')",
+      "es": "Recorrer, viajar; recitar o memorizar en voz alta (usado en ທ່ອງທ່ຽວ 'turismo')",
+      "fr": "Parcourir, voyager; réciter ou mémoriser à voix haute (utilisé dans ທ່ອງທ່ຽວ 'tourisme')",
+      "hi": "भ्रमण करना; ज़ोर से पाठ करना या याद करना (ທ່ອງທ່ຽວ 'पर्यटन' में प्रयुक्त)",
+      "ja": "巡る、旅する；暗唱する、声に出して覚える（ທ່ອງທ່ຽວ「観光」で使われる）",
+      "km": "ធ្វើដំណើរកម្សាន្ត; សូត្រ ឬទន្ទេញឮៗ (ប្រើក្នុង ທ່ອງທ່ຽວ 'ទេសចរណ៍')",
+      "ko": "여행하다, 돌아다니다; 소리 내어 외우다 (ທ່ອງທ່ຽວ '관광'에 사용됨)",
+      "ne": "घुम्नु, यात्रा गर्नु; ठूलो स्वरमा कण्ठ गर्नु (ທ່ອງທ່ຽວ 'पर्यटन' मा प्रयोग)",
+      "pt": "Viajar, percorrer; recitar ou memorizar em voz alta (usado em ທ່ອງທ່ຽວ 'turismo')",
+      "th": "ท่อง, เที่ยว; ท่องจำออกเสียง (ใช้ในคำว่า ທ່ອງທ່ຽວ 'การท่องเที่ยว')",
+      "tl": "Maglakbay, mamasyal; bigkasin o isaulo nang malakas (ginagamit sa ທ່ອງທ່ຽວ 'turismo')",
+      "ur": "سیر کرنا، گھومنا؛ بلند آواز میں یاد کرنا (ທ່ອງທ່ຽວ 'سیاحت' میں استعمال ہوتا ہے)",
+      "vi": "Du ngoạn, đi chơi; đọc thuộc lòng (dùng trong ທ່ອງທ່ຽວ 'du lịch')",
+      "zh": "游览；朗读背诵（用于ທ່ອງທ່ຽວ'旅游'）",
+      "zh_Hant": "遊覽；朗讀背誦（用於ທ່ອງທ່ຽວ'旅遊'）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tʰɔ̀ːŋ/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍມັກໄປທ່ອງທ່ຽວຕ່າງປະເທດ.",
+        "romanization": "khɔ̏ːj māk pāj tʰɔ̀ːŋ tʰīaw tāːŋ pā.tʰêːt",
+        "translations": {
+          "de": "Ich reise gerne ins Ausland.",
+          "en": "I like to travel abroad.",
+          "es": "Me gusta viajar al extranjero.",
+          "fr": "J'aime voyager à l'étranger.",
+          "hi": "मुझे विदेश यात्रा करना पसंद है।",
+          "ja": "私は海外旅行が好きです。",
+          "km": "ខ្ញុំចូលចិត្តទៅទេសចរណ៍នៅបរទេស។",
+          "ko": "저는 해외여행을 좋아해요.",
+          "ne": "मलाई विदेश यात्रा गर्न मन पर्छ।",
+          "pt": "Eu gosto de viajar para o exterior.",
+          "th": "ฉันชอบไปเที่ยวต่างประเทศ",
+          "tl": "Gusto kong maglakbay sa ibang bansa.",
+          "ur": "مجھے بیرون ملک سفر کرنا پسند ہے۔",
+          "vi": "Tôi thích đi du lịch nước ngoài.",
+          "zh": "我喜欢去国外旅游。",
+          "zh_Hant": "我喜歡去國外旅遊。"
+        },
+        "out_of_scope_words": [
+          "ທ່ຽວ",
+          "ຕ່າງປະເທດ"
+        ]
+      },
+      {
+        "lao_script": "ລູກທ່ອງບົດຮຽນທຸກເຊົ້າ.",
+        "romanization": "lûːk tʰɔ̀ːŋ bót hían tʰūk sáw",
+        "translations": {
+          "de": "Das Kind rezitiert jeden Morgen die Lektion.",
+          "en": "The child recites the lesson every morning.",
+          "es": "El niño recita la lección cada mañana.",
+          "fr": "L'enfant récite la leçon chaque matin.",
+          "hi": "बच्चा हर सुबह पाठ याद करता है।",
+          "ja": "子供は毎朝レッスンを暗唱します。",
+          "km": "កូនទន្ទេញមេរៀនរាល់ព្រឹក។",
+          "ko": "아이는 매일 아침 수업을 외웁니다.",
+          "ne": "बच्चाले हरेक बिहान पाठ कण्ठ गर्छ।",
+          "pt": "A criança recita a lição toda manhã.",
+          "th": "ลูกท่องบทเรียนทุกเช้า",
+          "tl": "Binibigkas ng bata ang aralin tuwing umaga.",
+          "ur": "بچہ ہر صبح سبق یاد کرتا ہے۔",
+          "vi": "Đứa trẻ đọc thuộc bài mỗi sáng.",
+          "zh": "孩子每天早上背课文。",
+          "zh_Hant": "孩子每天早上背課文。"
+        },
+        "out_of_scope_words": [
+          "ບົດຮຽນ",
+          "ເຊົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a happy traveler with a backpack and map exploring a scenic destination, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປາ": {
+    "definitions": {
+      "de": "Fisch (Tier und Nahrungsmittel)",
+      "en": "Fish (animal and food)",
+      "es": "Pez, pescado (animal y alimento)",
+      "fr": "Poisson (animal et nourriture)",
+      "hi": "मछली (पशु और भोजन)",
+      "ja": "魚（動物および食べ物）",
+      "km": "ត្រី (សត្វ និងម្ហូប)",
+      "ko": "생선, 물고기 (동물과 음식)",
+      "ne": "माछा (जनावर र खाना)",
+      "pt": "Peixe (animal e alimento)",
+      "th": "ปลา (สัตว์และอาหาร)",
+      "tl": "Isda (hayop at pagkain)",
+      "ur": "مچھلی (جانور اور کھانا)",
+      "vi": "Cá (con vật và thức ăn)",
+      "zh": "鱼（动物和食物）",
+      "zh_Hant": "魚（動物和食物）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/paː/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ກິນປາປີ້ງ.",
+        "romanization": "mɯ̂ː nîː kīn paː pîːŋ",
+        "translations": {
+          "de": "Heute essen wir gegrillten Fisch.",
+          "en": "Today we're eating grilled fish.",
+          "es": "Hoy comemos pescado a la parrilla.",
+          "fr": "Aujourd'hui, on mange du poisson grillé.",
+          "hi": "आज हम भुनी हुई मछली खा रहे हैं।",
+          "ja": "今日は焼き魚を食べます。",
+          "km": "ថ្ងៃនេះញ៉ាំត្រីអាំង។",
+          "ko": "오늘은 구운 생선을 먹어요.",
+          "ne": "आज हामी पोलेको माछा खाँदैछौं।",
+          "pt": "Hoje comemos peixe grelhado.",
+          "th": "วันนี้กินปลาย่าง",
+          "tl": "Ngayon ay kumakain kami ng inihaw na isda.",
+          "ur": "آج ہم گرل شدہ مچھلی کھا رہے ہیں۔",
+          "vi": "Hôm nay ăn cá nướng.",
+          "zh": "今天吃烤鱼。",
+          "zh_Hant": "今天吃烤魚。"
+        },
+        "out_of_scope_words": [
+          "ປີ້ງ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ໄປຫາປາຢູ່ແມ່ນ້ຳ.",
+        "romanization": "pʰɔ̄ː pāj hǎː paː jūː mɛ̄ː nâm",
+        "translations": {
+          "de": "Vater geht am Fluss angeln.",
+          "en": "Dad is fishing at the river.",
+          "es": "Papá está pescando en el río.",
+          "fr": "Papa pêche à la rivière.",
+          "hi": "पिताजी नदी पर मछली पकड़ रहे हैं।",
+          "ja": "お父さんは川で魚を捕っています。",
+          "km": "ឪពុកទៅចាប់ត្រីនៅទន្លេ។",
+          "ko": "아빠가 강에서 물고기를 잡고 있어요.",
+          "ne": "बुवा नदीमा माछा मार्न जानुभएको छ।",
+          "pt": "O pai está pescando no rio.",
+          "th": "พ่อไปหาปลาที่แม่น้ำ",
+          "tl": "Nangingisda si Tatay sa ilog.",
+          "ur": "ابو دریا پر مچھلی پکڑ رہے ہیں۔",
+          "vi": "Bố đi bắt cá ở sông.",
+          "zh": "爸爸在河边抓鱼。",
+          "zh_Hant": "爸爸在河邊抓魚。"
+        },
+        "out_of_scope_words": [
+          "ຫາ",
+          "ແມ່ນ້ຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a single colorful fish swimming in clear water, suitable for a language learning app, clean white background, minimalist cartoon style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພອນ": {
+    "definitions": {
+      "de": "Segen, Segnung (kultureller/religiöser Begriff)",
+      "en": "Blessing (cultural/religious term)",
+      "es": "Bendición (término cultural/religioso)",
+      "fr": "Bénédiction (terme culturel/religieux)",
+      "hi": "आशीर्वाद (सांस्कृतिक/धार्मिक शब्द)",
+      "ja": "祝福、恵み（文化的・宗教的用語）",
+      "km": "ពរ (ពាក្យវប្បធម៌/សាសនា)",
+      "ko": "축복 (문화적/종교적 용어)",
+      "ne": "आशीर्वाद (सांस्कृतिक/धार्मिक शब्द)",
+      "pt": "Bênção (termo cultural/religioso)",
+      "th": "พร (คำทางวัฒนธรรม/ศาสนา)",
+      "tl": "Basbas, bendisyon (kultural/relihiyosong termino)",
+      "ur": "دعا، برکت (ثقافتی/مذہبی اصطلاح)",
+      "vi": "Phước lành, lời chúc (thuật ngữ văn hóa/tôn giáo)",
+      "zh": "祝福（文化/宗教用语）",
+      "zh_Hant": "祝福（文化/宗教用語）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰɔ́ːn/",
+    "examples": [
+      {
+        "lao_script": "ຂໍໃຫ້ພອນແມ່ຢູ່ນຳລູກ.",
+        "romanization": "khɔ̌ː hȁj pʰɔ́ːn mɛ̄ː jūː nám lûːk",
+        "translations": {
+          "de": "Möge der Segen der Mutter bei dir, meinem Kind, sein.",
+          "en": "May mother's blessing be with you, my child.",
+          "es": "Que la bendición de mamá esté contigo, hijo mío.",
+          "fr": "Que la bénédiction de maman soit avec toi, mon enfant.",
+          "hi": "माँ का आशीर्वाद तुम्हारे साथ हो, बच्चे।",
+          "ja": "母の祝福が子にありますように。",
+          "km": "សូមពរម្ដាយនៅជាមួយកូន។",
+          "ko": "어머니의 축복이 아이와 함께하기를.",
+          "ne": "आमाको आशीर्वाद बच्चासँग रहोस्।",
+          "pt": "Que a bênção da mãe esteja com você, meu filho.",
+          "th": "ขอให้พรแม่อยู่กับลูก",
+          "tl": "Nawa'y sumaiyo ang basbas ni Inay, anak.",
+          "ur": "ماں کی دعا تمہارے ساتھ ہو، بچے۔",
+          "vi": "Mong phước lành của mẹ ở bên con.",
+          "zh": "愿母亲的祝福与孩子同在。",
+          "zh_Hant": "願母親的祝福與孩子同在。"
+        },
+        "out_of_scope_words": [
+          "ຂໍ",
+          "ນຳ"
+        ]
+      },
+      {
+        "lao_script": "ປີໃໝ່ຂໍໃຫ້ທຸກຄົນໄດ້ຮັບພອນດີ.",
+        "romanization": "piː mɑ̄j khɔ̌ː hȁj tʰūk kʰōn dȁj hāp pʰɔ́ːn diː",
+        "translations": {
+          "de": "Zum neuen Jahr mögen alle gute Segnungen empfangen.",
+          "en": "For the New Year, may everyone receive good blessings.",
+          "es": "En el Año Nuevo, que todos reciban buenas bendiciones.",
+          "fr": "Pour le Nouvel An, que chacun reçoive de bonnes bénédictions.",
+          "hi": "नए साल पर सभी को अच्छे आशीर्वाद मिलें।",
+          "ja": "新年にはみんなが良い祝福を受けますように。",
+          "km": "ក្នុងឆ្នាំថ្មីសូមឱ្យអ្នកទាំងអស់គ្នាទទួលបានពរល្អ។",
+          "ko": "새해에 모두가 좋은 축복을 받기를.",
+          "ne": "नयाँ वर्षमा सबैले राम्रो आशीर्वाद प्राप्त गरून्।",
+          "pt": "No Ano Novo, que todos recebam boas bênçãos.",
+          "th": "ปีใหม่ขอให้ทุกคนได้รับพรดีๆ",
+          "tl": "Sa Bagong Taon, nawa'y tumanggap ang lahat ng mabuting basbas.",
+          "ur": "نئے سال پر سب کو اچھی دعائیں ملیں۔",
+          "vi": "Năm mới mong mọi người nhận được phước lành tốt đẹp.",
+          "zh": "新年愿大家都得到美好的祝福。",
+          "zh_Hant": "新年願大家都得到美好的祝福。"
+        },
+        "out_of_scope_words": [
+          "ປີໃໝ່",
+          "ຮັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an elderly person tying a white string around a younger person's wrist in a traditional Lao blessing ceremony, suitable for a language learning app, clean white background, warm colors, minimalist style",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ເຮືອນ": {
+    "definitions": {
+      "de": "Haus, Zuhause",
+      "en": "House, home",
+      "es": "Casa, hogar",
+      "fr": "Maison, foyer",
+      "hi": "घर, मकान",
+      "ja": "家、住まい",
+      "km": "ផ្ទះ, លំនៅ",
+      "ko": "집, 주택",
+      "ne": "घर",
+      "pt": "Casa, lar",
+      "th": "บ้าน, เรือน",
+      "tl": "Bahay, tahanan",
+      "ur": "گھر، مکان",
+      "vi": "Nhà, ngôi nhà",
+      "zh": "房子，家",
+      "zh_Hant": "房子，家"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/hɯ́an/",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂ້ອຍຢູ່ໃກ້ຕະຫຼາດ.",
+        "romanization": "hɯ́an khɔ̏ːj jūː kȁj tā.lȁːt",
+        "translations": {
+          "de": "Mein Haus ist in der Nähe des Marktes.",
+          "en": "My house is near the market.",
+          "es": "Mi casa está cerca del mercado.",
+          "fr": "Ma maison est près du marché.",
+          "hi": "मेरा घर बाज़ार के पास है।",
+          "ja": "私の家は市場の近くです。",
+          "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។",
+          "ko": "우리 집은 시장 근처에 있어요.",
+          "ne": "मेरो घर बजार नजिक छ।",
+          "pt": "Minha casa fica perto do mercado.",
+          "th": "บ้านฉันอยู่ใกล้ตลาด",
+          "tl": "Ang bahay ko ay malapit sa palengke.",
+          "ur": "میرا گھر بازار کے قریب ہے۔",
+          "vi": "Nhà tôi ở gần chợ.",
+          "zh": "我家在市场附近。",
+          "zh_Hant": "我家在市場附近。"
+        },
+        "out_of_scope_words": [
+          "ໃກ້",
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ກັບເຮືອນໄວໆເດີ້.",
+        "romanization": "káp hɯ́an vâj vâj dɤ̂ː",
+        "translations": {
+          "de": "Komm schnell nach Hause, okay?",
+          "en": "Come home quickly, okay?",
+          "es": "Vuelve a casa rápido, ¿vale?",
+          "fr": "Rentre vite à la maison, d'accord ?",
+          "hi": "जल्दी घर आ जाओ, ठीक है?",
+          "ja": "早く家に帰ってね。",
+          "km": "ត្រឡប់មកផ្ទះលឿនៗណា។",
+          "ko": "빨리 집에 와요.",
+          "ne": "चाँडै घर आउनुहोस् है।",
+          "pt": "Volte para casa rápido, tá?",
+          "th": "กลับบ้านไวๆ นะ",
+          "tl": "Umuwi ka agad, ha?",
+          "ur": "جلدی گھر آ جاؤ، ٹھیک ہے؟",
+          "vi": "Về nhà sớm nhé.",
+          "zh": "快点回家哦。",
+          "zh_Hant": "快點回家哦。"
+        },
+        "out_of_scope_words": [
+          "ໄວ",
+          "ເດີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional Lao wooden house on stilts with a peaceful setting, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບ່ອນ": {
+    "definitions": {
+      "de": "Ort, Platz, Stelle; wo",
+      "en": "Place, spot, location; where",
+      "es": "Lugar, sitio; donde",
+      "fr": "Endroit, lieu; où",
+      "hi": "जगह, स्थान; कहाँ",
+      "ja": "場所、ところ；どこ",
+      "km": "កន្លែង; នៅឯណា",
+      "ko": "장소, 곳; 어디",
+      "ne": "ठाउँ, स्थान; कहाँ",
+      "pt": "Lugar, local; onde",
+      "th": "ที่, สถานที่, ตรงที่",
+      "tl": "Lugar, pook; kung saan",
+      "ur": "جگہ، مقام؛ کہاں",
+      "vi": "Nơi, chỗ; ở đâu",
+      "zh": "地方，位置；哪里",
+      "zh_Hant": "地方，位置；哪裡"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/bɔ̄ːn/",
+    "examples": [
+      {
+        "lao_script": "ບ່ອນນີ້ງາມຫຼາຍ.",
+        "romanization": "bɔ̄ːn nîː ŋáːm lǎːj",
+        "translations": {
+          "de": "Dieser Ort ist sehr schön.",
+          "en": "This place is very beautiful.",
+          "es": "Este lugar es muy hermoso.",
+          "fr": "Cet endroit est très beau.",
+          "hi": "यह जगह बहुत सुंदर है।",
+          "ja": "ここはとても美しいです。",
+          "km": "កន្លែងនេះស្អាតណាស់។",
+          "ko": "이곳은 정말 아름다워요.",
+          "ne": "यो ठाउँ धेरै सुन्दर छ।",
+          "pt": "Este lugar é muito bonito.",
+          "th": "ที่นี่สวยมาก",
+          "tl": "Napakaganda ng lugar na ito.",
+          "ur": "یہ جگہ بہت خوبصورت ہے۔",
+          "vi": "Nơi này đẹp lắm.",
+          "zh": "这个地方很美。",
+          "zh_Hant": "這個地方很美。"
+        },
+        "out_of_scope_words": [
+          "ງາມ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຢູ່ບ່ອນໃດ?",
+        "romanization": "tɕȁw jūː bɔ̄ːn dāj",
+        "translations": {
+          "de": "Wo bist du?",
+          "en": "Where are you?",
+          "es": "¿Dónde estás?",
+          "fr": "Où es-tu ?",
+          "hi": "तुम कहाँ हो?",
+          "ja": "どこにいるの？",
+          "km": "អ្នកនៅឯណា?",
+          "ko": "어디에 있어요?",
+          "ne": "तिमी कहाँ छौ?",
+          "pt": "Onde você está?",
+          "th": "เธออยู่ที่ไหน?",
+          "tl": "Nasaan ka?",
+          "ur": "تم کہاں ہو؟",
+          "vi": "Bạn ở đâu?",
+          "zh": "你在哪里?",
+          "zh_Hant": "你在哪裡?"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pointing at a marked location on a map with a pin, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

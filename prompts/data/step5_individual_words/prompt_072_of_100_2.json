@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕິ",
+  "definitions": {
+    "de": "kritisieren, tadeln, bemängeln",
+    "en": "to criticize, to find fault with, to blame",
+    "es": "criticar, reprochar, censurar",
+    "fr": "critiquer, reprocher, blâmer",
+    "hi": "आलोचना करना, दोष निकालना",
+    "ja": "批判する、非難する、けなす",
+    "km": "រិះគន់, បន្ទោស, ចោទប្រកាន់",
+    "ko": "비판하다, 흠잡다, 나무라다",
+    "ne": "आलोचना गर्नु, दोष लगाउनु",
+    "pt": "criticar, censurar, repreender",
+    "th": "ติ, ตำหนิ, วิจารณ์",
+    "tl": "punahin, batikusin, pulaan",
+    "ur": "تنقید کرنا، نکتہ چینی کرنا",
+    "vi": "chê, phê bình, chỉ trích",
+    "zh": "批评、指责、挑毛病",
+    "zh_Hant": "批評、指責、挑毛病"
+  },
+  "definition_en": "to criticize, to find fault with, to blame",
+  "romanization": "ti",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າຕິຄົນອື່ນຫຼາຍ.",
+      "romanization": "jaː ti khón ɯ̀ːn lǎːj",
+      "translation_en": "Don't criticize others so much."
+    },
+    {
+      "lao_script": "ລາວຕິອາຫານວ່າບໍ່ແຊບ.",
+      "romanization": "láːw ti ʔaː-hǎːn vaː bɔː sɛ̂ːp",
+      "translation_en": "He criticizes the food as not tasty."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pointing at something with a disapproving facial expression, with a thumbs-down symbol, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

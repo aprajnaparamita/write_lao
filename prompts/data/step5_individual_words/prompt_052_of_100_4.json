@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈູມ",
+  "definitions": {
+    "de": "Küssen; einen Kuss geben; Ausdruck von Zuneigung durch Berühren mit den Lippen",
+    "en": "To kiss; a kiss; an expression of affection by touching with the lips",
+    "es": "Besar; un beso; expresión de afecto tocando con los labios",
+    "fr": "Embrasser ; un baiser ; expression d'affection en touchant avec les lèvres",
+    "hi": "चुंबन करना; एक चुंबन; होठों से छूकर स्नेह व्यक्त करना",
+    "ja": "キスする；キス；唇で触れることで愛情を表現すること",
+    "km": "បង្អស់; ការបង្អស់; ការបញ្ជាក់អារម្មណ៍ស្រឡាញ់ដោយប៉ះជាមួយបបូរមាត់",
+    "ko": "키스하다; 키스; 입술로 만지며 애정을 표현하는 것",
+    "ne": "चुम्बन गर्नु; एक चुम्बन; ओठले छोएर माया व्यक्त गर्नु",
+    "pt": "Beijar; um beijo; expressão de afeto tocando com os lábios",
+    "th": "จูบ; การจูบ; การแสดงความรักใคร่ด้วยการสัมผัสด้วยริมฝีปาก",
+    "tl": "Humalik; isang halik; pagpapahayag ng pagmamahal sa pamamagitan ng paghawak ng mga labi",
+    "ur": "بوسہ دینا؛ ایک بوسہ؛ ہونٹوں سے چھو کر محبت کا اظہار",
+    "vi": "Hôn; một nụ hôn; biểu đạt tình cảm bằng cách chạm môi",
+    "zh": "亲吻；一个吻；用嘴唇接触来表达爱意",
+    "zh_Hant": "親吻；一個吻；用嘴唇接觸來表達愛意"
+  },
+  "definition_en": "To kiss; a kiss; an expression of affection by touching with the lips",
+  "romanization": "jum",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຈູມໜ້າລູກກ່ອນນອນທຸກຄືນ",
+      "romanization": "mae jum na luk kon non thuk khuen",
+      "translation_en": "Mom kisses her child's face every night before bed"
+    },
+    {
+      "lao_script": "ຢ່າຈູມກັນໃນທີ່ສາທາລະນະ ອາຍຫຼາຍ",
+      "romanization": "ya jum kan nai thi sa-tha-la-na, ai lai",
+      "translation_en": "Don't kiss each other in public, it's really embarrassing"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a mother gently kissing a young child on the cheek, both characters shown in a warm and loving pose, clean white background, soft pastel colors, minimalist style suitable for a language learning app"
+}

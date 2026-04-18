@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດອກ",
+  "definitions": {
+    "de": "Blume; Blüte; eine Pflanze mit farbenfrohen Blütenblättern, oft als Zierpflanze oder Symbol der Schönheit verwendet",
+    "en": "Flower; blossom; a plant with colorful petals, often used as decoration or a symbol of beauty",
+    "es": "Flor; la parte colorida de una planta, usada frecuentemente como decoración o símbolo de belleza",
+    "fr": "Fleur; la partie colorée d'une plante, souvent utilisée comme décoration ou symbole de beauté",
+    "hi": "फूल; पौधे का रंगीन भाग, जो अक्सर सजावट या सुंदरता के प्रतीक के रूप में उपयोग किया जाता है",
+    "ja": "花；植物の色鮮やかな部分で、装飾や美の象徴としてよく使われる",
+    "km": "ផ្កា; ផ្នែកដែលមានពណ៌ស្រស់ស្អាតនៃរុក្ខជាតិ ដែលមักប្រើសម្រាប់តុបតែង ឬជាសញ្ញានៃភាពស្អាត",
+    "ko": "꽃; 식물의 화려한 부분으로, 장식이나 아름다움의 상징으로 자주 사용됨",
+    "ne": "फूल; बिरुवाको रंगीन भाग, जुन प्रायः सजावट वा सुन्दरताको प्रतीकको रूपमा प्रयोग गरिन्छ",
+    "pt": "Flor; a parte colorida de uma planta, frequentemente usada como decoração ou símbolo de beleza",
+    "th": "ดอกไม้; ส่วนที่มีสีสันสดใสของพืช มักใช้เป็นของตกแต่งหรือสัญลักษณ์แห่งความงาม",
+    "tl": "Bulaklak; ang makulay na bahagi ng isang halaman, madalas na ginagamit bilang dekorasyon o simbolo ng kagandahan",
+    "ur": "پھول؛ پودے کا رنگین حصہ، جو اکثر سجاوٹ یا خوبصورتی کی علامت کے طور پر استعمال ہوتا ہے",
+    "vi": "Hoa; phần có màu sắc rực rỡ của cây, thường được dùng làm đồ trang trí hoặc biểu tượng của vẻ đẹp",
+    "zh": "花；植物色彩鲜艳的部分，常用作装饰或美丽的象征",
+    "zh_Hant": "花；植物色彩鮮豔的部分，常用作裝飾或美麗的象徵"
+  },
+  "definition_en": "Flower; blossom; a plant with colorful petals, often used as decoration or a symbol of beauty",
+  "romanization": "/dɔːk/",
+  "lao_examples": [
+    {
+      "lao_script": "ດອກໄມ້ໃນສວນສວຍຫຼາຍ",
+      "romanization": "dok mai nai suan suay lai",
+      "translation_en": "The flowers in the garden are very beautiful."
+    },
+    {
+      "lao_script": "ເຂົາຊື້ດອກໄມ້ໃຫ້ແຟນ",
+      "romanization": "khao sue dok mai hai faen",
+      "translation_en": "He bought flowers for his girlfriend."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright, colorful flower with petals and a green stem, shown close-up against a clean white background, cheerful and vibrant colors, minimalist cartoon style suitable for a language learning app."
+}

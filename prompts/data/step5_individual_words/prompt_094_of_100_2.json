@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສ່ວນຮ້ອຍ",
+  "definitions": {
+    "de": "Prozent; ein Hundertstel eines Ganzen, verwendet in Mathematik und Alltag",
+    "en": "Percent; one hundredth of a whole, used in math and everyday contexts",
+    "es": "Por ciento; una centésima parte de un todo, usado en matemáticas y la vida diaria",
+    "fr": "Pourcentage / pour cent; un centième d'un tout, utilisé en mathématiques et au quotidien",
+    "hi": "प्रतिशत; किसी पूरे का सौवाँ हिस्सा, गणित और रोज़मर्रा में उपयोग",
+    "ja": "パーセント；全体の百分の一、数学や日常で使われる",
+    "km": "ភាគរយ; មួយក្នុងរយ ប្រើក្នុងគណិតវិទ្យានិងប្រចាំថ្ងៃ",
+    "ko": "퍼센트; 전체의 100분의 1, 수학 및 일상에서 사용",
+    "ne": "प्रतिशत; पूर्णको सयौं भाग, गणित र दैनिक जीवनमा प्रयोग हुने",
+    "pt": "Por cento / percentagem; um centésimo de um todo, usado em matemática e no dia a dia",
+    "th": "เปอร์เซ็นต์; หนึ่งในร้อยของทั้งหมด ใช้ในคณิตศาสตร์และชีวิตประจำวัน",
+    "tl": "Porsyento; isang daangdalawang bahagi ng kabuuan, ginagamit sa matematika at pang-araw-araw",
+    "ur": "فیصد؛ کسی کل کا سوواں حصہ، ریاضی اور روزمرہ میں استعمال",
+    "vi": "Phần trăm; một phần trăm của tổng thể, dùng trong toán học và đời sống hàng ngày",
+    "zh": "百分之……；整体的百分之一，用于数学和日常生活",
+    "zh_Hant": "百分之……；整體的百分之一，用於數學和日常生活"
+  },
+  "definition_en": "Percent; one hundredth of a whole, used in math and everyday contexts",
+  "romanization": "/suanˀ.hɔːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂອງລົດໂລດ ຫຼຸດ ສິບສ່ວນຮ້ອຍ",
+      "romanization": "khong lot lot hut sip suan hoi",
+      "translation_en": "The items are discounted by ten percent."
+    },
+    {
+      "lao_script": "ນັກຮຽນ ເກົ້າສິບ ສ່ວນຮ້ອຍ ສອບໄດ້",
+      "romanization": "nak hian kao-sip suan hoi sop dai",
+      "translation_en": "Ninety percent of the students passed the exam."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a percentage symbol (%) in bold, colorful style, with a pie chart nearby showing a portion highlighted, on a clean white background, minimalist and educational style suitable for a language learning app."
+}

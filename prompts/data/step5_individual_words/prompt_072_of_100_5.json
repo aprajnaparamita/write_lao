@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເມ",
+  "definitions": {
+    "de": "Silbenfragment/gebundenes Morphem (begrenzter eigenständiger Gebrauch; erscheint in Zusammensetzungen wie ເມຍ „Ehefrau“ oder als Lehnwort-Element)",
+    "en": "syllable fragment/bound morpheme (limited standalone use; appears in compounds such as ເມຍ 'wife' or in loanword elements)",
+    "es": "fragmento silábico/morfema ligado (uso independiente limitado; aparece en compuestos como ເມຍ 'esposa' o en elementos de préstamos)",
+    "fr": "fragment syllabique/morphème lié (usage autonome limité; apparaît dans des composés comme ເມຍ « épouse » ou dans des emprunts)",
+    "hi": "अक्षर खंड/बद्ध रूपिम (स्वतंत्र उपयोग सीमित; ເມຍ 'पत्नी' जैसे यौगिकों में प्रकट होता है)",
+    "ja": "音節断片・拘束形態素（単独使用は限定的。ເມຍ「妻」などの複合語に現れる）",
+    "km": "បំណែកព្យាង្គ/មរម៌ភ្ជាប់ (ការប្រើឯករាជ្យមានកំណត់; លេចឡើងក្នុងពាក្យផ្សំដូចជា ເມຍ 'ប្រពន្ធ')",
+    "ko": "음절 조각/의존 형태소 (단독 사용 제한적; ເມຍ '아내' 같은 복합어에 나타남)",
+    "ne": "अक्षर खण्ड/बद्ध रूपिम (स्वतन्त्र प्रयोग सीमित; ເມຍ 'पत्नी' जस्ता यौगिकमा देखिन्छ)",
+    "pt": "fragmento silábico/morfema preso (uso independente limitado; aparece em compostos como ເມຍ 'esposa')",
+    "th": "เศษพยางค์/หน่วยคำผูก (ใช้เดี่ยวๆ จำกัด; ปรากฏในคำประสม เช่น ເມຍ 'ภรรยา')",
+    "tl": "piraso ng pantig/nakatali na morpema (limitadong nag-iisang gamit; lumilitaw sa mga tambalang salita gaya ng ເມຍ 'asawang babae')",
+    "ur": "حرفی ٹکڑا/پابند مورفیم (تنہا استعمال محدود؛ ເມຍ 'بیوی' جیسے مرکبات میں ظاہر ہوتا ہے)",
+    "vi": "mảnh âm tiết/hình vị ràng buộc (ít dùng độc lập; xuất hiện trong từ ghép như ເມຍ 'vợ')",
+    "zh": "音节片段/黏着语素（独立使用有限；出现在 ເມຍ『妻子』等复合词中）",
+    "zh_Hant": "音節片段/黏著語素（獨立使用有限；出現在 ເມຍ『妻子』等複合詞中）"
+  },
+  "definition_en": "syllable fragment/bound morpheme (limited standalone use; appears in compounds such as ເມຍ 'wife' or in loanword elements)",
+  "romanization": "méː",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳວ່າ ເມຍ ເລີ່ມຕົ້ນດ້ວຍສຽງ ເມ.",
+      "romanization": "kham vaː míːa lɤ̀ːm tôn dûaj sǐaŋ méː",
+      "translation_en": "The word ເມຍ begins with the sound ເມ."
+    },
+    {
+      "lao_script": "ເດັກນ້ອຍຝຶກອ່ານ ເມ ເມ ເມ.",
+      "romanization": "dek nɔ̂ːj fɯ̀k ʔaːn méː méː méː",
+      "translation_en": "The child practices reading 'me me me'."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a child pointing at a Lao language textbook showing syllable blocks or letters being read aloud, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

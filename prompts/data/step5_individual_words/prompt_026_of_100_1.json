@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກຽດ",
+  "definitions": {
+    "de": "Ehre, Ansehen, Prestige – das soziale Ansehen oder die Würde einer Person",
+    "en": "Honor, prestige, or dignity – the respect and esteem one holds in society",
+    "es": "Honor, prestigio o dignidad – el respeto y estima que una persona tiene en la sociedad",
+    "fr": "Honneur, prestige ou dignité – le respect et l'estime qu'une personne détient dans la société",
+    "hi": "सम्मान, प्रतिष्ठा या गरिमा – समाज में किसी व्यक्ति को मिलने वाला आदर और सम्मान",
+    "ja": "名誉、威信、品位 – 社会における人の尊敬や評価",
+    "km": "កិត្តិយស កេរ្តិ៍ឈ្មោះ ឬសេចក្តីថ្លៃថ្នូរ – ការគោរពនិងការកោតសរសើររបស់មនុស្សម្នាក់នៅក្នុងសង្គម",
+    "ko": "명예, 위신, 품위 – 사회에서 한 사람이 가지는 존경과 존중",
+    "ne": "सम्मान, प्रतिष्ठा वा मर्यादा – समाजमा कुनै व्यक्तिले पाउने आदर र सम्मान",
+    "pt": "Honra, prestígio ou dignidade – o respeito e a estima que uma pessoa detém na sociedade",
+    "th": "เกียรติ ศักดิ์ศรี หรือความมีหน้ามีตา – ความเคารพนับถือและชื่อเสียงที่บุคคลมีในสังคม",
+    "tl": "Karangalan, prestihiyo, o dignidad – ang paggalang at pagpapahalaga sa isang tao sa lipunan",
+    "ur": "عزت، وقار یا وجاہت – معاشرے میں کسی شخص کو حاصل احترام اور قدر",
+    "vi": "Danh dự, uy tín hoặc phẩm giá – sự tôn trọng và kính nể mà một người có được trong xã hội",
+    "zh": "荣誉、声望或尊严——一个人在社会中所拥有的尊重与威望",
+    "zh_Hant": "榮譽、聲望或尊嚴——一個人在社會中所擁有的尊重與威望"
+  },
+  "definition_en": "Honor, prestige, or dignity – the respect and esteem one holds in society",
+  "romanization": "/kìat/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວຮັກສາກຽດຂອງຄອບຄົວໄວ້ສະເໝີ",
+      "romanization": "lao hak saa kìat khong khop khua wai sa-moe",
+      "translation_en": "He/She always maintains the family's honor."
+    },
+    {
+      "lao_script": "ຢ່າເຮັດໃຫ້ກຽດຂອງເຮົາເສຍເດີ້",
+      "romanization": "yaa het hai kìat khong hao sia doe",
+      "translation_en": "Don't do anything to ruin our honor, okay?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a golden medal or trophy with a glowing aura symbolizing honor and prestige, clean white background, warm gold and yellow tones, minimalist style suitable for a language learning app."
+}

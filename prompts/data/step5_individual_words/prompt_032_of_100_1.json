@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລວມ",
+  "definitions": {
+    "de": "zusammenzählen, zusammenfassen, insgesamt; etwas kombinieren oder addieren",
+    "en": "to total, combine, or add together; sum up",
+    "es": "sumar, combinar, totalizar; juntar en un total",
+    "fr": "totaliser, combiner, additionner; réunir en un ensemble",
+    "hi": "जोड़ना, मिलाना, कुल करना; सब को एक साथ मिलाना",
+    "ja": "合計する、合わせる、まとめる；足し合わせること",
+    "km": "បូកសរុប, រួមបញ្ចូលគ្នា, សរុបទាំងអស់",
+    "ko": "합계하다, 합치다, 총합하다; 모두 더하거나 합치는 것",
+    "ne": "जोड्नु, मिलाउनु, कुल गर्नु; सबैलाई एकसाथ जोड्नु",
+    "pt": "somar, combinar, totalizar; juntar tudo em um total",
+    "th": "รวม, รวมกัน, รวมทั้งหมด; นำมารวมหรือบวกเข้าด้วยกัน",
+    "tl": "pagsama-samahin, kabuuán, pagsamahin; ang pagtitipon ng lahat",
+    "ur": "جمع کرنا، ملانا، کل کرنا؛ سب کو ایک ساتھ جوڑنا",
+    "vi": "tổng cộng, kết hợp, cộng lại; gộp tất cả lại với nhau",
+    "zh": "合计，合并，总共；将所有事物加在一起",
+    "zh_Hant": "合計，合併，總共；將所有事物加在一起"
+  },
+  "definition_en": "to total, combine, or add together; sum up",
+  "romanization": "/luam/",
+  "lao_examples": [
+    {
+      "lao_script": "ລວມແລ້ວມີເທົ່າໃດ?",
+      "romanization": "luam laew mii thao dai?",
+      "translation_en": "How much is it in total?"
+    },
+    {
+      "lao_script": "ເຮົາລວມເງິນກັນໄດ້ຫຼາຍ",
+      "romanization": "hao luam ngoen kan dai laai",
+      "translation_en": "We pooled a lot of money together."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two groups of colorful fruit being pushed together into one combined pile, with a plus sign and an equals sign, suitable for a language learning app, clean white background, minimalist style."
+}

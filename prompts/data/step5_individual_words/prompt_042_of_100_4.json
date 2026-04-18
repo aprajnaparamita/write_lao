@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອິນ",
+  "definitions": {
+    "de": "Eine Silbe, die in laotischen Personennamen vorkommt; auch eine veraltete/poetische Form für 'Indra' (hinduistischer/buddhistischer Götterkönig) in einigen Zusammensetzungen; kein eigenständiges gebräuchliches Wort in der modernen Alltagssprache",
+    "en": "A syllable commonly appearing in Lao personal names; also an archaic or poetic reference to 'Indra' (the king of gods in Hindu/Buddhist tradition) in some compounds; not a common standalone word in modern everyday speech",
+    "es": "Una sílaba que aparece comúnmente en nombres personales laosianos; también una referencia arcaica o poética a 'Indra' (el rey de los dioses en la tradición hindú/budista) en algunos compuestos; no es una palabra independiente común en el habla cotidiana moderna",
+    "fr": "Une syllabe apparaissant couramment dans les prénoms laotiens; aussi une référence archaïque ou poétique à 'Indra' (le roi des dieux dans la tradition hindoue/bouddhiste) dans certains composés; pas un mot autonome courant dans la parole quotidienne moderne",
+    "hi": "लाओ व्यक्तिगत नामों में सामान्यतः आने वाला एक अक्षर; कुछ यौगिकों में 'इंद्र' (हिंदू/बौद्ध परंपरा में देवताओं के राजा) का पुरातन या काव्यात्मक संदर्भ; आधुनिक रोज़मर्रा की भाषा में स्वतंत्र रूप से प्रचलित शब्द नहीं",
+    "ja": "ラーオ語の人名によく見られる音節；一部の複合語ではヒンドゥー教・仏教の伝統における「インドラ」（神々の王）への古風または詩的な言及；現代の日常会話では一般的な独立した単語ではない",
+    "km": "ព្យាង្គដែលបង្ហាញជាទូទៅនៅក្នុងឈ្មោះបុគ្គលរបស់ឡាវ; ក៏ជាការយោងដ៏ចាស់ហួសសម័យ ឬបែបកាព្យនិពន្ធទៅ 'ឥន្ទ្រ' (ស្តេចទេវតានៅក្នុងប្រពៃណីហិណ្ឌូ/ព្រះពុទ្ធ) ក្នុងពាក្យផ្សំខ្លះ; មិនមែនជាពាក្យឯករាជ្យទូទៅក្នុងការនិយាយប្រចាំថ្ងៃទំនើប",
+    "ko": "라오어 인명에 흔히 나타나는 음절; 일부 복합어에서 힌두교/불교 전통의 '인드라'(신들의 왕)에 대한 고어적 또는 시적 언급; 현대 일상 구어에서 독립적으로 흔히 쓰이는 단어는 아님",
+    "ne": "लाओ व्यक्तिगत नामहरूमा सामान्यतः देखिने एक अक्षर; केही यौगिकहरूमा हिन्दू/बौद्ध परम्परामा 'इन्द्र' (देवताहरूका राजा) को पुरानो वा काव्यात्मक सन्दर्भ; आधुनिक दैनिक भाषणमा स्वतन्त्र रूपमा प्रचलित शब्द होइन",
+    "pt": "Uma sílaba que aparece comumente em nomes pessoais laosianos; também uma referência arcaica ou poética a 'Indra' (o rei dos deuses na tradição hindu/budista) em alguns compostos; não é uma palavra autônoma comum na fala cotidiana moderna",
+    "th": "พยางค์ที่ปรากฏในชื่อบุคคลชาวลาวทั่วไป; ยังหมายถึงคำโบราณหรือเชิงกวีที่อ้างถึง 'อินทร์' (ราชาแห่งเทวดาในประเพณีฮินดู/พุทธ) ในบางคำประสม; ไม่ใช่คำที่ใช้เดี่ยวๆ ทั่วไปในการพูดประจำวันยุคใหม่",
+    "tl": "Isang pantig na karaniwang lumalabas sa mga personal na pangalan ng Lao; isa ring arkaiko o poetikong sanggunian sa 'Indra' (ang hari ng mga diyos sa tradisyong Hindu/Budista) sa ilang tambalang salita; hindi isang karaniwang standalone na salita sa modernong pang-araw-araw na pananalita",
+    "ur": "لاؤ ذاتی ناموں میں عام طور پر آنے والی ایک آواز؛ کچھ مرکب الفاظ میں ہندو/بدھ مت کی روایت میں 'اندر' (دیوتاؤں کے بادشاہ) کا پرانا یا شاعرانہ حوالہ؛ جدید روزمرہ کی گفتگو میں ایک عام الگ لفظ نہیں",
+    "vi": "Một âm tiết thường xuất hiện trong tên người Lào; cũng là cách đề cập cổ điển hoặc thơ ca đến 'Indra' (vua của các thần trong truyền thống Hindu/Phật giáo) trong một số từ ghép; không phải là từ độc lập thông dụng trong lời nói hàng ngày hiện đại",
+    "zh": "常见于老挝人名中的音节；在某些复合词中也是对'因陀罗'（印度教/佛教传统中的天神之王）的古老或诗意指称；在现代日常口语中不是常见的独立词汇",
+    "zh_Hant": "常見於寮國人名中的音節；在某些複合詞中也是對'因陀羅'（印度教/佛教傳統中的天神之王）的古老或詩意指稱；在現代日常口語中不是常見的獨立詞彙"
+  },
+  "definition_en": "A syllable commonly appearing in Lao personal names; also an archaic or poetic reference to 'Indra' (the king of gods in Hindu/Buddhist tradition) in some compounds; not a common standalone word in modern everyday speech",
+  "romanization": "/ʔin˧˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ຂອງລາວມີ ອິນ ຢູ່ດ້ວຍ",
+      "romanization": "sɯɯ khɔɔŋ lao mii ʔin yuu duai",
+      "translation_en": "His/Her name has the syllable 'In' in it."
+    },
+    {
+      "lao_script": "ອິນ ເປັນຊື່ທີ່ຄົນລາວໃຊ້ຫຼາຍ",
+      "romanization": "ʔin pen sɯɯ thii khon lao sai laai",
+      "translation_en": "'In' is a syllable that Lao people use a lot in names."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a Lao name written in Lao script on a name tag or ID card, with a friendly smiling person holding it, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

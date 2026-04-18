@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລາ",
+  "definitions": {
+    "de": "Sich verabschieden; auf Wiedersehen sagen; auch als Präfix verwendet um Abschied oder Abreise zu signalisieren",
+    "en": "To say goodbye; to take leave; to bid farewell before departing",
+    "es": "Despedirse; decir adiós antes de irse",
+    "fr": "Se dire au revoir ; prendre congé ; faire ses adieux avant de partir",
+    "hi": "विदा लेना; अलविदा कहना; जाने से पहले बिदाई लेना",
+    "ja": "別れを告げる；さようならを言う；出発前に暇乞いをする",
+    "km": "និយាយលាជំរិះ; ចាកចេញ; និយាយអាលាមុនពេលចាកចេញ",
+    "ko": "작별 인사를 하다; 이별을 고하다; 떠나기 전에 인사하다",
+    "ne": "बिदा लिनु; अलविदा भन्नु; जानु अघि बिदाइ लिनु",
+    "pt": "Despedir-se; dizer adeus antes de partir",
+    "th": "กล่าวลา; บอกลา; อำลาก่อนเดินทาง",
+    "tl": "Magpaalam; magbigay ng paalam bago umalis",
+    "ur": "الوداع کہنا؛ رخصت لینا؛ جانے سے پہلے رخصت ہونا",
+    "vi": "Từ biệt; nói lời tạm biệt; chia tay trước khi rời đi",
+    "zh": "告别；道别；离开前说再见",
+    "zh_Hant": "告別；道別；離開前說再見"
+  },
+  "definition_en": "To say goodbye; to take leave; to bid farewell before departing",
+  "romanization": "/láː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຂໍລາກ່ອນເນາະ ຈະໄປແລ້ວ",
+      "romanization": "khòi khɔ̌ː láː kɔ̀ːn nɔ́ já paj lɛ́ɛo",
+      "translation_en": "Let me say goodbye first, I'm leaving now."
+    },
+    {
+      "lao_script": "ລາວລາຄອບຄົວໄປເຮັດວຽກຕ່າງປະເທດ",
+      "romanization": "láːo láː khɔ̌ːp khúa paj hét wíak tàːŋ pá tʰêːt",
+      "translation_en": "They said goodbye to their family to go work abroad."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person waving goodbye while standing at a doorway, with a small suitcase nearby, clean white background, warm colors, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,367 @@
+{
+  "ເບິ່ງ": {
+    "definitions": {
+      "de": "sehen; ansehen; sich kümmern um",
+      "en": "to look; to watch; to take care of",
+      "es": "mirar; ver; cuidar",
+      "fr": "regarder; voir; s'occuper de",
+      "hi": "देखना; निहारना; देखभाल करना",
+      "ja": "見る／見つめる／世話する",
+      "km": "មើល／ថែរក្សា (មើលមើល ឬថែទាំ)",
+      "ko": "보다／쳐다보다／돌보다",
+      "ne": "हेर्नु／ध्यान दिनु／हेरचाह गर्नु",
+      "pt": "olhar; ver; cuidar",
+      "th": "เบิ่ง／มอง／ดูแล (มองดู ดูแล)",
+      "tl": "tingnan／manood／alagaan",
+      "ur": "دیکھنا؛ دیکھ بھال کرنا",
+      "vi": "nhìn; xem; trông nom",
+      "zh": "看／注视／照看",
+      "zh_Hant": "看／注視／照看"
+    },
+    "part_of_speech": "verb",
+    "romanization": "bə̄ŋ",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ເບິ່ງ ໜັງ ທຸກ ຄືນ",
+        "romanization": "kʰɔ̂ːj bə̄ŋ nǎŋ tʰūk kʰɯ́ːn",
+        "translations": {
+          "de": "Ich schaue jede Nacht einen Film.",
+          "en": "I watch a movie every night.",
+          "es": "Veo una película cada noche.",
+          "fr": "Je regarde un film chaque soir.",
+          "hi": "मैं हर रात फ़िल्म देखता हूँ।",
+          "ja": "私は毎晩映画を見ます。",
+          "km": "ខ្ញុំមើលរឿងភាគរៀងរាល់យប់។",
+          "ko": "저는 매일 밤 영화를 봐요.",
+          "ne": "म हरेक रात फिल्म हेर्छु।",
+          "pt": "Eu assisto a um filme toda noite.",
+          "th": "ฉันดูหนังทุกคืน",
+          "tl": "Nanonood ako ng pelikula tuwing gabi.",
+          "ur": "میں ہر رات فلم دیکھتا ہوں۔",
+          "vi": "Tôi xem phim mỗi tối.",
+          "zh": "我每晚看电影。",
+          "zh_Hant": "我每晚看電影。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ໜັງ", "ທຸກ"]
+      },
+      {
+        "lao_script": "ແມ່ ເບິ່ງ ລູກ ຢູ່ ບ້ານ",
+        "romanization": "mɛ̄ː bə̄ŋ lûːk jūː bâːn",
+        "translations": {
+          "de": "Die Mutter kümmert sich zu Hause um das Kind.",
+          "en": "Mom takes care of the child at home.",
+          "es": "Mamá cuida al hijo en casa.",
+          "fr": "La mère s'occupe de l'enfant à la maison.",
+          "hi": "माँ घर पर बच्चे की देखभाल करती हैं।",
+          "ja": "お母さんは家で子どもの世話をしています。",
+          "km": "ម៉ាក់ថែកូននៅផ្ទះ។",
+          "ko": "엄마는 집에서 아이를 돌봐요.",
+          "ne": "आमाले घरमा बच्चाको हेरचाह गर्नुहुन्छ।",
+          "pt": "A mãe cuida do filho em casa.",
+          "th": "แม่ดูแลลูกอยู่บ้าน",
+          "tl": "Inaalagaan ng nanay ang anak sa bahay.",
+          "ur": "ماں گھر میں بچے کی دیکھ بھال کرتی ہے۔",
+          "vi": "Mẹ trông con ở nhà.",
+          "zh": "妈妈在家照看孩子。",
+          "zh_Hant": "媽媽在家照看孩子。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon eye looking at a small object placed in front, with gentle rays showing attention, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຢູ່": {
+    "definitions": {
+      "de": "an/bei/in (Ortsmarker); wohnen/sich befinden; (Aspekt) gerade tun",
+      "en": "at/in (locative); to live/be located; (progressive aspect) be doing",
+      "es": "en/estar (locativo); vivir/estar situado; (aspecto progresivo) estar haciendo",
+      "fr": "à/dans (marqueur de lieu); habiter/se trouver; (aspect progressif) être en train de",
+      "hi": "में/पर (स्थानवाचक); रहना; (सतत क्रिया) कर रहा है",
+      "ja": "〜にいる／ある／住む（場所・存在・進行中）",
+      "km": "នៅ／រស់នៅ (ទីកន្លែង ឬការកំពុងធ្វើ)",
+      "ko": "~에 있다／살다／~하고 있다 (장소·거주·진행)",
+      "ne": "मा／बस्नु／गर्दै छ (स्थान, बसोबास वा निरन्तर क्रिया)",
+      "pt": "em/estar (locativo); morar/ficar; (aspecto progressivo) estar fazendo",
+      "th": "อยู่ (ที่/ใน; อาศัย; กำลังทำ)",
+      "tl": "nasa／nakatira／kasalukuyang ginagawa",
+      "ur": "ہونا؛ رہنا؛ (جاری عمل) کر رہا ہے",
+      "vi": "ở; đang (nơi chốn, cư trú, hoặc thể tiếp diễn)",
+      "zh": "在／住／正在（处所、居住或进行体）",
+      "zh_Hant": "在／住／正在（處所、居住或進行體）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "jūː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ຢູ່ ວຽງຈັນ",
+        "romanization": "kʰɔ̂ːj jūː wíːəŋ.càn",
+        "translations": {
+          "de": "Ich wohne in Vientiane.",
+          "en": "I live in Vientiane.",
+          "es": "Vivo en Vientián.",
+          "fr": "J'habite à Vientiane.",
+          "hi": "मैं वियनतियान में रहता हूँ।",
+          "ja": "私はビエンチャンに住んでいます。",
+          "km": "ខ្ញុំរស់នៅវៀងចន្ទន៍។",
+          "ko": "저는 비엔티안에 살아요.",
+          "ne": "म भियन्तियानमा बस्छु।",
+          "pt": "Eu moro em Vientiane.",
+          "th": "ฉันอยู่เวียงจันทน์",
+          "tl": "Nakatira ako sa Vientiane.",
+          "ur": "میں ویانتیان میں رہتا ہوں۔",
+          "vi": "Tôi sống ở Viêng Chăn.",
+          "zh": "我住在万象。",
+          "zh_Hant": "我住在萬象。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ວຽງຈັນ"]
+      },
+      {
+        "lao_script": "ລາວ ຢູ່ ເຮັດ ວຽກ",
+        "romanization": "láːw jūː hēt wîːək",
+        "translations": {
+          "de": "Er/Sie ist gerade am Arbeiten.",
+          "en": "He/She is working right now.",
+          "es": "Él/Ella está trabajando ahora.",
+          "fr": "Il/Elle est en train de travailler.",
+          "hi": "वह अभी काम कर रहा है।",
+          "ja": "彼／彼女は今働いています。",
+          "km": "គាត់កំពុងតែធ្វើការ។",
+          "ko": "그/그녀는 지금 일하고 있어요.",
+          "ne": "उहाँ काम गर्दै हुनुहुन्छ।",
+          "pt": "Ele/Ela está trabalhando.",
+          "th": "เขากำลังทำงาน",
+          "tl": "Nagtatrabaho siya ngayon.",
+          "ur": "وہ ابھی کام کر رہا ہے۔",
+          "vi": "Anh/chị ấy đang làm việc.",
+          "zh": "他/她正在工作。",
+          "zh_Hant": "他/她正在工作。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small house with a location pin above it, representing location or residence, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄົນ": {
+    "definitions": {
+      "de": "Person/Mensch; Klassifikator für Menschen",
+      "en": "person/people; classifier for humans",
+      "es": "persona/gente; clasificador para personas",
+      "fr": "personne/gens; classificateur pour les personnes",
+      "hi": "व्यक्ति/लोग; मनुष्यों के लिए वर्गचिह्न",
+      "ja": "人／〜人（人を数える助数詞）",
+      "km": "មនុស្ស／នាក់ (នាមឬពាក្យចាត់ថ្នាក់សម្រាប់មនុស្ស)",
+      "ko": "사람／~명 (사람 또는 사람 분류사)",
+      "ne": "मान्छे／जना (व्यक्ति वा मानिसको वर्गीकारक)",
+      "pt": "pessoa; classificador para pessoas",
+      "th": "คน (บุคคล หรือลักษณนามของคน)",
+      "tl": "tao (panao o pangtaong pambilang)",
+      "ur": "شخص؛ لوگ؛ انسانوں کا شمار",
+      "vi": "người (người hoặc loại từ cho người)",
+      "zh": "人／个（指人或人的量词）",
+      "zh_Hant": "人／個（指人或人的量詞）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰón",
+    "examples": [
+      {
+        "lao_script": "ລາວ ເປັນ ຄົນ ດີ",
+        "romanization": "láːw pēn kʰón dìː",
+        "translations": {
+          "de": "Er/Sie ist ein guter Mensch.",
+          "en": "He/She is a good person.",
+          "es": "Él/Ella es una buena persona.",
+          "fr": "Il/Elle est quelqu'un de bien.",
+          "hi": "वह अच्छा इंसान है।",
+          "ja": "彼／彼女はいい人です。",
+          "km": "គាត់ជាមនុស្សល្អ។",
+          "ko": "그/그녀는 좋은 사람이에요.",
+          "ne": "उहाँ राम्रो मान्छे हुनुहुन्छ।",
+          "pt": "Ele/Ela é uma boa pessoa.",
+          "th": "เขาเป็นคนดี",
+          "tl": "Mabuting tao siya.",
+          "ur": "وہ اچھا انسان ہے۔",
+          "vi": "Anh/chị ấy là người tốt.",
+          "zh": "他/她是个好人。",
+          "zh_Hant": "他/她是個好人。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ມີ ຄົນ ສາມ ຄົນ ຢູ່ ໃນ ຫ້ອງ",
+        "romanization": "míː kʰón sǎːm kʰón jūː nàj hɔ̂ŋ",
+        "translations": {
+          "de": "Es sind drei Personen im Zimmer.",
+          "en": "There are three people in the room.",
+          "es": "Hay tres personas en la habitación.",
+          "fr": "Il y a trois personnes dans la pièce.",
+          "hi": "कमरे में तीन लोग हैं।",
+          "ja": "部屋に三人います。",
+          "km": "មានមនុស្សបីនាក់នៅក្នុងបន្ទប់។",
+          "ko": "방에 사람이 세 명 있어요.",
+          "ne": "कोठामा तीन जना छन्।",
+          "pt": "Há três pessoas no quarto.",
+          "th": "มีคนสามคนอยู่ในห้อง",
+          "tl": "May tatlong tao sa kuwarto.",
+          "ur": "کمرے میں تین لوگ ہیں۔",
+          "vi": "Có ba người trong phòng.",
+          "zh": "房间里有三个人。",
+          "zh_Hant": "房間裡有三個人。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of three cartoon people standing side by side with friendly smiles, representing people, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຜູ້": {
+    "definitions": {
+      "de": "Person (Nominalisierer); Klassifikator für Personen",
+      "en": "person (nominalizer prefix); classifier for human agents",
+      "es": "persona (prefijo nominalizador); clasificador de agentes humanos",
+      "fr": "personne (préfixe nominalisateur); classificateur pour agents humains",
+      "hi": "जो (नामिक उपसर्ग); व्यक्ति वाचक",
+      "ja": "〜者／〜人（動作主を表す接頭辞）",
+      "km": "អ្នក／ពួក (បច្ច័យឈ្មោះបង្ហាញបុគ្គល)",
+      "ko": "~자／~이 (사람을 나타내는 접두사)",
+      "ne": "गर्ने／वाला (व्यक्ति जनाउने उपसर्ग)",
+      "pt": "pessoa/aquele que (prefixo nominalizador); classificador de pessoas",
+      "th": "ผู้ (คำนำหน้าชี้บุคคลที่กระทำ)",
+      "tl": "ang／sinumang／taong (pantukoy sa taong gumagawa)",
+      "ur": "والا؛ شخص (کام کرنے والے کے لیے سابقہ)",
+      "vi": "người; kẻ (tiền tố tạo danh từ chỉ người)",
+      "zh": "者／人（动作者的前缀或量词）",
+      "zh_Hant": "者／人（動作者的前綴或量詞）"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "pʰȕː",
+    "examples": [
+      {
+        "lao_script": "ຜູ້ ຊາຍ ຄົນ ນັ້ນ ເປັນ ໝໍ",
+        "romanization": "pʰȕː sáːj kʰón nân pēn mɔ̌ː",
+        "translations": {
+          "de": "Dieser Mann ist Arzt.",
+          "en": "That man is a doctor.",
+          "es": "Ese hombre es médico.",
+          "fr": "Cet homme est médecin.",
+          "hi": "वह आदमी डॉक्टर है।",
+          "ja": "あの男性は医者です。",
+          "km": "បុរសនោះជាគ្រូពេទ្យ។",
+          "ko": "저 남자는 의사예요.",
+          "ne": "त्यो पुरुष डाक्टर हो।",
+          "pt": "Aquele homem é médico.",
+          "th": "ผู้ชายคนนั้นเป็นหมอ",
+          "tl": "Doktor ang lalaking iyon.",
+          "ur": "وہ آدمی ڈاکٹر ہے۔",
+          "vi": "Người đàn ông đó là bác sĩ.",
+          "zh": "那个男人是医生。",
+          "zh_Hant": "那個男人是醫生。"
+        },
+        "out_of_scope_words": ["ໝໍ"]
+      },
+      {
+        "lao_script": "ຜູ້ ໃດ ຮູ້ ຄຳ ຕອບ?",
+        "romanization": "pʰȕː dàj húː kʰám tɔ̀ːp",
+        "translations": {
+          "de": "Wer kennt die Antwort?",
+          "en": "Who knows the answer?",
+          "es": "¿Quién sabe la respuesta?",
+          "fr": "Qui connaît la réponse ?",
+          "hi": "उत्तर कौन जानता है?",
+          "ja": "答えを知っているのは誰ですか？",
+          "km": "នរណាដឹងចម្លើយ?",
+          "ko": "누가 답을 알아요?",
+          "ne": "उत्तर कसले जान्छ?",
+          "pt": "Quem sabe a resposta?",
+          "th": "ใครรู้คำตอบ?",
+          "tl": "Sino ang nakakaalam ng sagot?",
+          "ur": "جواب کون جانتا ہے؟",
+          "vi": "Ai biết câu trả lời?",
+          "zh": "谁知道答案？",
+          "zh_Hant": "誰知道答案？"
+        },
+        "out_of_scope_words": ["ໃດ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a silhouette of a person standing with a question mark above, representing an unspecified human agent, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼື": {
+    "definitions": {
+      "de": "oder (disjunktive Konjunktion); oder? (am Satzende, Fragepartikel)",
+      "en": "or (disjunctive conjunction); (sentence-final) 'or what?' question particle",
+      "es": "o (conjunción disyuntiva); (al final de oración) partícula interrogativa",
+      "fr": "ou (conjonction disjonctive); (en fin de phrase) particule interrogative",
+      "hi": "या (विकल्प-सूचक); (वाक्य के अंत में) प्रश्न कण",
+      "ja": "または／〜か（選択の接続詞・文末疑問）",
+      "km": "ឬ (ឈ្នាប់បង្ហាញជម្រើស)",
+      "ko": "또는／~나요? (선택 접속사 또는 문말 의문 조사)",
+      "ne": "वा／कि (विकल्प वा प्रश्नसूचक)",
+      "pt": "ou (conjunção disjuntiva); (final de frase) partícula interrogativa",
+      "th": "หรือ (คำเชื่อมบอกทางเลือก หรือคำลงท้ายถาม)",
+      "tl": "o／kaya (pangatnig na nagpapahayag ng pagpili)",
+      "ur": "یا (متبادل ظاہر کرنے والا ربط)",
+      "vi": "hoặc; hay (liên từ chỉ lựa chọn)",
+      "zh": "或／还是（选择连词或句末疑问）",
+      "zh_Hant": "或／還是（選擇連詞或句末疑問）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "lɯ̌ː",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າ ຢາກ ກິນ ເຂົ້າ ຫຼື ກ໋ວຍຕຽວ?",
+        "romanization": "càw jȁːk kìn kʰȁw lɯ̌ː kùːəj.tìːəw",
+        "translations": {
+          "de": "Möchtest du Reis oder Nudeln essen?",
+          "en": "Do you want to eat rice or noodles?",
+          "es": "¿Quieres comer arroz o fideos?",
+          "fr": "Tu veux manger du riz ou des nouilles ?",
+          "hi": "क्या तुम चावल खाओगे या नूडल्स?",
+          "ja": "ご飯と麺、どちらが食べたい？",
+          "km": "អ្នកចង់ញ៉ាំបាយឬគួយទាវ?",
+          "ko": "밥 먹을래요, 국수 먹을래요?",
+          "ne": "तिमी भात खान्छौ कि चाउमिन?",
+          "pt": "Quer comer arroz ou macarrão?",
+          "th": "เธออยากกินข้าวหรือก๋วยเตี๋ยว?",
+          "tl": "Gusto mong kumain ng kanin o pansit?",
+          "ur": "تم چاول کھاؤ گے یا نوڈلز؟",
+          "vi": "Bạn muốn ăn cơm hay phở?",
+          "zh": "你想吃饭还是米粉？",
+          "zh_Hant": "你想吃飯還是米粉？"
+        },
+        "out_of_scope_words": ["ເຈົ້າ", "ຢາກ", "ກ໋ວຍຕຽວ"]
+      },
+      {
+        "lao_script": "ໄປ ຫຼື ບໍ່?",
+        "romanization": "pàj lɯ̌ː bɔ̀ː",
+        "translations": {
+          "de": "Gehst du oder nicht?",
+          "en": "Are you going or not?",
+          "es": "¿Vas o no?",
+          "fr": "Tu y vas ou pas ?",
+          "hi": "जाओगे या नहीं?",
+          "ja": "行く？行かない？",
+          "km": "ទៅឬមិនទៅ?",
+          "ko": "가요, 안 가요?",
+          "ne": "जान्छौ कि जाँदैनौ?",
+          "pt": "Vai ou não?",
+          "th": "ไปหรือไม่?",
+          "tl": "Pupunta ka ba o hindi?",
+          "ur": "جاؤ گے یا نہیں؟",
+          "vi": "Đi hay không?",
+          "zh": "去不去？",
+          "zh_Hant": "去不去？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a fork in a road with two signs pointing in different directions, representing a choice, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

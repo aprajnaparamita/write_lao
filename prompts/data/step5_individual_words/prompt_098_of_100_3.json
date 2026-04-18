@@ -1,0 +1,36 @@
+{
+  "lao_word": "ງື່ມ",
+  "definitions": {
+    "de": "Trinken (dialektaler Ausdruck, hauptsächlich in nordlaotischen Dialekten verwendet, gleichbedeutend mit ດື່ມ)",
+    "en": "To drink (dialectal form mainly used in northern Lao dialects, equivalent to ດື່ມ)",
+    "es": "Beber (forma dialectal usada principalmente en dialectos del norte de Laos, equivalente a ດື່ມ)",
+    "fr": "Boire (forme dialectale utilisée principalement dans les dialectes du nord du Laos, équivalent à ດື່ມ)",
+    "hi": "पीना (बोलीगत रूप, मुख्य रूप से उत्तरी लाओ बोलियों में प्रयुक्त, ດື່ມ के समतुल्य)",
+    "ja": "飲む（主に北部ラオス方言で使われる方言形、ດື່ມに相当）",
+    "km": "ផឹក (ទម្រង់ភាសាក្រៅផ្លូវការ ជាចម្បងប្រើក្នុងភាសាលាវភាគខាងជើង ស្មើនឹង ດື່ມ)",
+    "ko": "마시다 (주로 북부 라오스 방언에서 사용되는 방언형, ດື່ມ과 동일한 의미)",
+    "ne": "पिउनु (द्वन्द्वात्मक रूप, मुख्यतः उत्तरी लाओ बोलीहरूमा प्रयोग हुन्छ, ດື່ມ सँग समतुल्य)",
+    "pt": "Beber (forma dialetal usada principalmente nos dialetos do norte do Laos, equivalente a ດື່ມ)",
+    "th": "ดื่ม (รูปแบบภาษาถิ่นที่ใช้ส่วนใหญ่ในภาษาลาวถิ่นเหนือ เทียบเท่ากับ ດື່ມ)",
+    "tl": "Uminom (anyong diyalekto na pangunahing ginagamit sa mga hilagang diyalekto ng Lao, katumbas ng ດື່ມ)",
+    "ur": "پینا (بولی کی شکل، بنیادی طور پر شمالی لاؤ بولیوں میں استعمال ہوتی ہے، ດື່ມ کے مترادف)",
+    "vi": "Uống (dạng phương ngữ chủ yếu dùng trong các phương ngữ Lào miền Bắc, tương đương với ດື່ມ)",
+    "zh": "喝（方言形式，主要用于老挝北部方言，相当于 ດື່ມ）",
+    "zh_Hant": "喝（方言形式，主要用於老撾北部方言，相當於 ດື່ມ）"
+  },
+  "definition_en": "To drink (dialectal form mainly used in northern Lao dialects, equivalent to ດື່ມ)",
+  "romanization": "ŋɯːm",
+  "lao_examples": [
+    {
+      "lao_script": "ງື່ມນ້ຳເພີ່ນໄດ້ເລີຍ ຢູ່ໃນຕູ້ເຢັນ",
+      "romanization": "ŋɯːm naːm pʰəːn daɪ ləːj juː naɪ tuː jɛn",
+      "translation_en": "Just go ahead and drink his water, it's in the fridge"
+    },
+    {
+      "lao_script": "ມື້ນີ້ຮ້ອນຫຼາຍ ງື່ມນ້ຳໄດ້ດີ",
+      "romanization": "mɯː niː hɔːn laːj ŋɯːm naːm daɪ diː",
+      "translation_en": "It's really hot today, drinking water feels great"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person happily drinking a glass of water, with clear droplets and a refreshed expression, clean white background, colorful and minimalist style suitable for a language learning app."
+}

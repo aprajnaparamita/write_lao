@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປ້າຍ",
+  "definitions": {
+    "de": "Ein Schild, Etikett oder eine Beschilderung, die Informationen, einen Namen oder eine Anweisung anzeigt",
+    "en": "A sign, label, or placard that displays information, a name, or an instruction",
+    "es": "Un letrero, etiqueta o cartel que muestra información, un nombre o una instrucción",
+    "fr": "Un panneau, une étiquette ou un écriteau qui affiche des informations, un nom ou une instruction",
+    "hi": "एक संकेत, लेबल या तख्ती जो जानकारी, नाम या निर्देश प्रदर्शित करती है",
+    "ja": "情報、名前、または指示を表示する看板、ラベル、または標識",
+    "km": "ป้าย ស្លាក ឬផ្លាកសញ្ញាដែលបង្ហាញព័ត៌មាន ឈ្មោះ ឬការណែនាំ",
+    "ko": "정보, 이름 또는 지시사항을 표시하는 간판, 라벨 또는 표지판",
+    "ne": "सूचना, नाम वा निर्देशन प्रदर्शन गर्ने साइन, लेबल वा पाटी",
+    "pt": "Uma placa, etiqueta ou letreiro que exibe informações, um nome ou uma instrução",
+    "th": "ป้าย ฉลาก หรือป้ายประกาศที่แสดงข้อมูล ชื่อ หรือคำแนะนำ",
+    "tl": "Isang karatula, label, o palatandaan na nagpapakita ng impormasyon, pangalan, o tagubilin",
+    "ur": "ایک نشان، لیبل یا تختی جو معلومات، نام یا ہدایت ظاہر کرتی ہے",
+    "vi": "Một tấm biển, nhãn hoặc bảng hiệu hiển thị thông tin, tên hoặc hướng dẫn",
+    "zh": "显示信息、名称或指示的标牌、标签或招牌",
+    "zh_Hant": "顯示資訊、名稱或指示的標牌、標籤或招牌"
+  },
+  "definition_en": "A sign, label, or placard that displays information, a name, or an instruction",
+  "romanization": "paːj˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ເບິ່ງປ້າຍນັ້ນແດ່, ຂຽນວ່າຫຍັງ?",
+      "romanization": "bɯŋ paːj nan dɛː, khian waː ɲaŋ?",
+      "translation_en": "Look at that sign, what does it say?"
+    },
+    {
+      "lao_script": "ປ້າຍຮ້ານເຮົາຕ້ອງທາສີໃໝ່ແລ້ວ",
+      "romanization": "paːj haːn hao toŋ tʰaː siː maj lɛːw",
+      "translation_en": "Our shop sign needs to be repainted now"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a colorful rectangular sign or placard mounted on a post, with bold lines suggesting text or symbols on it, suitable for a language learning app, clean white background, minimalist style"
+}

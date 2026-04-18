@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວິດ",
+  "definitions": {
+    "de": "Wasser schöpfen, pumpen oder auspumpen (z. B. aus einem Boot oder Brunnen)",
+    "en": "To bail, pump, or scoop water out (e.g., from a boat or a well)",
+    "es": "Achicar, bombear o sacar agua (por ejemplo, de un bote o un pozo)",
+    "fr": "Écoper, pomper ou vider l'eau (par exemple d'un bateau ou d'un puits)",
+    "hi": "पानी उलीचना, पम्प करना या निकालना (जैसे नाव या कुएं से)",
+    "ja": "水を汲み出す、ポンプで排水する、水をかき出す（例：ボートや井戸から）",
+    "km": "ស្ូប ូប ឬរើសទឹក (ឧ. ពីទូក ឬអណ្តូង)",
+    "ko": "물을 퍼내다, 펌프질하다 (예: 배나 우물에서)",
+    "ne": "पानी उपिल्नु, पम्प गर्नु वा निकाल्नु (जस्तै डुंगा वा इनारबाट)",
+    "pt": "Esgotar, bombear ou tirar água (por exemplo, de um barco ou poço)",
+    "th": "วิด ตักน้ำ หรือสูบน้ำออก (เช่น จากเรือหรือบ่อน้ำ)",
+    "tl": "Mag-igib, mag-pump, o magsagip ng tubig (hal. mula sa bangka o balon)",
+    "ur": "پانی نکالنا، پمپ کرنا یا پانی باہر کرنا (مثلاً کشتی یا کنویں سے)",
+    "vi": "Múc, bơm hoặc tát nước ra (ví dụ từ thuyền hoặc giếng)",
+    "zh": "舀水、抽水或排水（例如从船上或井里）",
+    "zh_Hant": "舀水、抽水或排水（例如從船上或井裡）"
+  },
+  "definition_en": "To bail, pump, or scoop water out (e.g., from a boat or a well)",
+  "romanization": "wít",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍວິດນ້ຳໃນເຮືອໜ້ອຍ, ນ້ຳເຕັມແລ້ວ.",
+      "romanization": "sùai wít nâam nai hɯa nɔ̀i, nâam tém lɛ́ɛw.",
+      "translation_en": "Help bail the water in the boat a bit, it's already full."
+    },
+    {
+      "lao_script": "ເຊົ້ານີ້ຕ້ອງໄດ້ວິດນ້ຳຈາກສວນ.",
+      "romanization": "sâo níi tɔ̂ng dâi wít nâam càak sǔan.",
+      "translation_en": "This morning I have to pump water from the garden."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person using a bucket or hand pump to scoop water out of a small wooden boat, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

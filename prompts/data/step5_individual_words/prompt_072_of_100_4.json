@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອົດ",
+  "definitions": {
+    "de": "ertragen, aushalten, sich zurückhalten, sich enthalten",
+    "en": "to endure, to tolerate, to restrain oneself, to abstain",
+    "es": "soportar, aguantar, contenerse, abstenerse",
+    "fr": "endurer, supporter, se retenir, s'abstenir",
+    "hi": "सहना, बर्दाश्त करना, संयम रखना",
+    "ja": "我慢する、耐える、自制する",
+    "km": "ទ្រាំ, អត់ធ្មត់, ទប់ចិត្ត",
+    "ko": "참다, 견디다, 자제하다",
+    "ne": "सहनु, धैर्य गर्नु, रोक्नु",
+    "pt": "suportar, aguentar, conter-se, abster-se",
+    "th": "อด, ทน, อดทน",
+    "tl": "magtiis, magpigil, magtimpi",
+    "ur": "برداشت کرنا، صبر کرنا، پرہیز کرنا",
+    "vi": "chịu đựng, nhịn, kiềm chế",
+    "zh": "忍耐、忍受、克制",
+    "zh_Hant": "忍耐、忍受、克制"
+  },
+  "definition_en": "to endure, to tolerate, to restrain oneself, to abstain",
+  "romanization": "ʔot",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍອົດເຂົ້າບໍ່ໄດ້.",
+      "romanization": "khɔ̀ːj ʔot khao bɔː daj",
+      "translation_en": "I can't go without eating rice/food."
+    },
+    {
+      "lao_script": "ອົດທົນໜ້ອຍໜຶ່ງ, ຈະຮອດແລ້ວ.",
+      "romanization": "ʔot thón nɔ̂ːj nɯ̄ŋ, tɕa hɔ̂ːt lɛ́ːw",
+      "translation_en": "Hang in there a little, we're almost there."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a determined person clenching fists with a focused expression, showing patience and endurance, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

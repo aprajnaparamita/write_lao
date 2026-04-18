@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສາ",
+  "definitions": {
+    "de": "Präfix-Silbe, die in zusammengesetzten Wörtern verwendet wird, um Konzepte wie Religion, Wissenschaft oder formelle Bereiche auszudrücken (z. B. ສາສະໜາ – Religion, ສາດສະຕາ – Wissenschaft); kaum eigenständig verwendbar",
+    "en": "A bound prefix syllable used in compound words to express concepts related to religion, doctrine, science, or formal domains (e.g., ສາສະໜາ – religion, ສາດສະຕາ – science); rarely used in isolation",
+    "es": "Sílaba prefija ligada que se usa en palabras compuestas para expresar conceptos relacionados con la religión, la doctrina o la ciencia (p. ej., ສາສະໜາ – religión, ສາດສະຕາ – ciencia); raramente se usa de forma independiente",
+    "fr": "Syllabe préfixe liée utilisée dans des mots composés pour exprimer des concepts liés à la religion, la doctrine ou la science (ex. ສາສະໜາ – religion, ສາດສະຕາ – science); rarement utilisée seule",
+    "hi": "एक बंधित उपसर्ग अक्षर जो समास शब्दों में धर्म, सिद्धांत या विज्ञान से संबंधित अवधारणाओं को व्यक्त करने के लिए प्रयुक्त होता है (जैसे ສາສະໜາ – धर्म, ສາດສະຕາ – विज्ञान); अकेले शायद ही कभी प्रयोग किया जाता है",
+    "ja": "複合語の中で宗教・教義・科学などの概念を表すために使われる拘束形態素の接頭辞音節（例：ສາສະໜາ＝宗教、ສາດສະຕາ＝科学）。単独での使用はほぼない",
+    "km": "ព្យាង្គបុព្វបទដែលប្រើក្នុងពាក្យផ្សំដើម្បីបញ្ជាក់គំនិតទាក់ទងនឹងសាសនា ទ្រឹស្ដី ឬវិទ្យាសាស្ត្រ (ឧ. ສາສະໜາ – សាសនា, ສາດສະຕາ – វិទ្យាសាស្ត្រ); កម្រប្រើតែឯង",
+    "ko": "종교, 교리, 과학 등의 개념을 나타내는 복합어에서 사용되는 결합 접두사 음절 (예: ສາສະໜາ – 종교, ສາດສະຕາ – 과학); 단독으로는 거의 사용되지 않음",
+    "ne": "एक बद्ध उपसर्ग शब्दांश जुन संयुक्त शब्दहरूमा धर्म, सिद्धान्त वा विज्ञानसँग सम्बन्धित अवधारणाहरू व्यक्त गर्न प्रयोग गरिन्छ (जस्तै ສາສະໜາ – धर्म, ສາດສະຕາ – विज्ञान); एक्लै प्रायः प्रयोग हुँदैन",
+    "pt": "Sílaba prefixal presa usada em palavras compostas para expressar conceitos relacionados à religião, doutrina ou ciência (ex.: ສາສະໜາ – religião, ສາດສະຕາ – ciência); raramente usada de forma independente",
+    "th": "พยางค์คำนำหน้าที่ผูกติดกับคำอื่น ใช้ในคำประสมเพื่อแสดงแนวคิดเกี่ยวกับศาสนา หลักคำสอน หรือวิทยาศาสตร์ (เช่น ສາສະໜາ – ศาสนา, ສາດສະຕາ – วิทยาศาสตร์) แทบไม่ใช้โดดๆ",
+    "tl": "Isang nakataling unlaping pantig na ginagamit sa mga tambalang salita upang ipahayag ang mga konsepto na may kaugnayan sa relihiyon, doktrina, o agham (hal. ສາສະໜາ – relihiyon, ສາດສະຕາ – agham); bihirang gamitin nang mag-isa",
+    "ur": "ایک مقید سابقہ حرف جو مرکب الفاظ میں مذہب، نظریے یا سائنس سے متعلق تصورات ظاہر کرنے کے لیے استعمال ہوتا ہے (مثلاً ສາສະໜາ – مذہب، ສາດສະຕາ – سائنس)؛ اکیلے شاذ و نادر ہی استعمال ہوتا ہے",
+    "vi": "Âm tiết tiền tố ràng buộc được dùng trong các từ ghép để diễn đạt các khái niệm liên quan đến tôn giáo, giáo lý hoặc khoa học (ví dụ: ສາສະໜາ – tôn giáo, ສາດສະຕາ – khoa học); hiếm khi dùng độc lập",
+    "zh": "一个粘着前缀音节，用于合成词中表达与宗教、教义或科学相关的概念（如 ສາສະໜາ——宗教，ສາດສະຕາ——科学）；几乎不单独使用",
+    "zh_Hant": "一個黏著前綴音節，用於複合詞中表達與宗教、教義或科學相關的概念（如 ສາສະໜາ——宗教，ສາດສະຕາ——科學）；幾乎不單獨使用"
+  },
+  "definition_en": "A bound prefix syllable used in compound words to express concepts related to religion, doctrine, science, or formal domains (e.g., ສາສະໜາ – religion, ສາດສະຕາ – science); rarely used in isolation",
+  "romanization": "/saː/",
+  "lao_examples": [
+    {
+      "lao_script": "ສາສະໜາຂອງລາວສ່ວນໃຫຍ່ແມ່ນພຸດທະສາສະໜາ",
+      "romanization": "saa-sa-naa khong laao suan nyai maen phut-tha-saa-sa-naa",
+      "translation_en": "The religion of Lao people is mostly Buddhism."
+    },
+    {
+      "lao_script": "ລາວຮຽນສາດສະຕາຢູ່ໂຮງຮຽນ",
+      "romanization": "laao hian saat-sa-taa yuu hong-hian",
+      "translation_en": "He/She studies science at school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a Lao Buddhist temple with a monk in orange robes alongside a school with a science book icon, representing the prefix 'sa' found in words for religion and science, clean white background, colorful minimalist style suitable for a language learning app."
+}

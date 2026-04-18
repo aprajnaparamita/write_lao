@@ -1,0 +1,399 @@
+{
+  "ກວດ": {
+    "definitions": {
+      "de": "Überprüfen, inspizieren oder untersuchen – etwas sorgfältig kontrollieren",
+      "en": "To check, inspect, or examine something carefully",
+      "es": "Revisar, inspeccionar o examinar algo con cuidado",
+      "fr": "Vérifier, inspecter ou examiner quelque chose attentivement",
+      "hi": "किसी चीज़ को ध्यान से जाँचना, निरीक्षण करना या परीक्षण करना",
+      "ja": "何かを注意深く確認・点検・検査すること",
+      "km": "ពិនិត្យ ត្រួតពិនិត្យ ឬពិភាក្សាអ្វីមួយដោយយកចិត្តទុកដាក់",
+      "ko": "무언가를 주의 깊게 확인하거나 점검하거나 검사하다",
+      "ne": "कुनै कुरालाई ध्यानपूर्वक जाँच्नु, निरीक्षण गर्नु वा परीक्षण गर्नु",
+      "pt": "Verificar, inspecionar ou examinar algo com cuidado",
+      "th": "ตรวจสอบ ตรวจดู หรือตรวจสอบสิ่งใดสิ่งหนึ่งอย่างละเอียด",
+      "tl": "Suriin, inspeksyonin, o egzaminahin nang maingat ang isang bagay",
+      "ur": "کسی چیز کو غور سے جانچنا، معائنہ کرنا یا پرکھنا",
+      "vi": "Kiểm tra, kiểm soát hoặc xem xét kỹ lưỡng một thứ gì đó",
+      "zh": "仔细检查、检验或审查某事物",
+      "zh_Hant": "仔細檢查、檢驗或審查某事物"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kùat/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າກວດການບ້ານຂອງຂ້ອຍໜ່ອຍໄດ້ບໍ?",
+        "romanization": "jâo kùat kaan bâan khɔ̌ng khɔ̂i nɔ̀i dâi bɔ̄?",
+        "translations": {
+          "de": "Kannst du mal meine Hausaufgaben überprüfen?",
+          "en": "Can you check my homework for me?",
+          "es": "¿Puedes revisar mi tarea por mí?",
+          "fr": "Tu peux vérifier mes devoirs s'il te plaît ?",
+          "hi": "क्या तुम मेरा गृहकार्य जाँच सकते हो?",
+          "ja": "私の宿題を確認してもらえる？",
+          "km": "តើអ្នកអាចពិនិត្យកិច្ចការផ្ទះរបស់ខ្ញុំបានទេ?",
+          "ko": "내 숙제 좀 확인해줄 수 있어?",
+          "ne": "के तपाईं मेरो गृहकार्य जाँच्न सक्नुहुन्छ?",
+          "pt": "Você pode verificar meu dever de casa?",
+          "th": "ช่วยตรวจการบ้านของฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo bang suriin ang aking takdang-aralin?",
+          "ur": "کیا تم میرا ہوم ورک جانچ سکتے ہو؟",
+          "vi": "Bạn có thể kiểm tra bài tập về nhà của tôi không?",
+          "zh": "你能帮我检查一下我的作业吗？",
+          "zh_Hant": "你能幫我檢查一下我的作業嗎？"
+        },
+        "out_of_scope_words": [
+          "ການບ້ານ"
+        ]
+      },
+      {
+        "lao_script": "ໝໍກວດຮ່າງກາຍຂ້ອຍທຸກປີ",
+        "romanization": "mɔ̌ː kùat hâang kaai khɔ̂i thúk piː",
+        "translations": {
+          "de": "Der Arzt untersucht meinen Körper jedes Jahr",
+          "en": "The doctor examines my body every year",
+          "es": "El médico examina mi cuerpo cada año",
+          "fr": "Le médecin examine mon corps chaque année",
+          "hi": "डॉक्टर हर साल मेरे शरीर की जाँच करते हैं",
+          "ja": "お医者さんが毎年私の体を診察してくれる",
+          "km": "វេជ្ជបណ្ឌិតពិនិត្យរាងកាយខ្ញុំរៀងរាល់ឆ្នាំ",
+          "ko": "의사가 매년 내 몸을 검사한다",
+          "ne": "डाक्टरले हरेक वर्ष मेरो शरीर जाँच गर्नुहुन्छ",
+          "pt": "O médico examina meu corpo todo ano",
+          "th": "หมอตรวจร่างกายฉันทุกปี",
+          "tl": "Sinusuri ng doktor ang aking katawan bawat taon",
+          "ur": "ڈاکٹر ہر سال میرے جسم کا معائنہ کرتا ہے",
+          "vi": "Bác sĩ khám cơ thể tôi mỗi năm",
+          "zh": "医生每年检查我的身体",
+          "zh_Hant": "醫生每年檢查我的身體"
+        },
+        "out_of_scope_words": [
+          "ໝໍ",
+          "ຮ່າງກາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person carefully checking or inspecting a document with a magnifying glass, clean white background, colorful minimalist style, suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກິໂລແມັດ": {
+    "definitions": {
+      "de": "Kilometer – eine Maßeinheit für Entfernungen, die 1.000 Metern entspricht",
+      "en": "Kilometer – a unit of distance equal to 1,000 meters",
+      "es": "Kilómetro – una unidad de distancia igual a 1.000 metros",
+      "fr": "Kilomètre – une unité de distance égale à 1 000 mètres",
+      "hi": "किलोमीटर – दूरी की एक इकाई जो 1,000 मीटर के बराबर होती है",
+      "ja": "キロメートル – 1,000メートルに等しい距離の単位",
+      "km": "គីឡូម៉ែត្រ – ឯកតាវាស់ចម្ងាយស្មើនឹង ១,០០០ ម៉ែត្រ",
+      "ko": "킬로미터 – 1,000미터에 해당하는 거리 단위",
+      "ne": "किलोमिटर – १,००० मिटर बराबरको दूरीको एकाइ",
+      "pt": "Quilômetro – uma unidade de distância igual a 1.000 metros",
+      "th": "กิโลเมตร – หน่วยวัดระยะทางเท่ากับ 1,000 เมตร",
+      "tl": "Kilometro – isang yunit ng distansya na katumbas ng 1,000 metro",
+      "ur": "کلومیٹر – فاصلے کی ایک اکائی جو 1,000 میٹر کے برابر ہے",
+      "vi": "Kilômét – đơn vị đo khoảng cách bằng 1.000 mét",
+      "zh": "公里（千米）——等于1,000米的距离单位",
+      "zh_Hant": "公里（千米）——等於1,000米的距離單位"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kiː.loː.mɛ̂t/",
+    "examples": [
+      {
+        "lao_script": "ຈາກບ້ານຂ້ອຍຫາໂຮງຮຽນໄກປະມານສາມກິໂລແມັດ",
+        "romanization": "jaak bâan khɔ̂i hǎː hóːng híːan klai pa.maːn saːm kiː.loː.mɛ̂t",
+        "translations": {
+          "de": "Von meinem Haus bis zur Schule sind es etwa drei Kilometer",
+          "en": "From my house to school is about three kilometers",
+          "es": "Desde mi casa hasta la escuela hay unos tres kilómetros",
+          "fr": "De chez moi à l'école, c'est environ trois kilomètres",
+          "hi": "मेरे घर से स्कूल तक लगभग तीन किलोमीटर है",
+          "ja": "私の家から学校まで約3キロメートルある",
+          "km": "ពីផ្ទះខ្ញុំទៅសាលារៀនប្រហែលបីគីឡូម៉ែត្រ",
+          "ko": "우리 집에서 학교까지 약 3킬로미터야",
+          "ne": "मेरो घरदेखि विद्यालयसम्म लगभग तीन किलोमिटर छ",
+          "pt": "Da minha casa até a escola são cerca de três quilômetros",
+          "th": "จากบ้านฉันถึงโรงเรียนประมาณสามกิโลเมตร",
+          "tl": "Mula sa aking bahay hanggang sa paaralan ay mga tatlong kilometro",
+          "ur": "میرے گھر سے اسکول تک تقریباً تین کلومیٹر ہے",
+          "vi": "Từ nhà tôi đến trường khoảng ba kilômét",
+          "zh": "从我家到学校大约三公里",
+          "zh_Hant": "從我家到學校大約三公里"
+        },
+        "out_of_scope_words": [
+          "ໂຮງຮຽນ",
+          "ໄກ",
+          "ປະມານ"
+        ]
+      },
+      {
+        "lao_script": "ລົດຂ້ອຍແລ່ນໄດ້ຮ້ອຍກິໂລແມັດຕໍ່ຊົ່ວໂມງ",
+        "romanization": "lót khɔ̂i lɛ̂n dâi hɔ̂i kiː.loː.mɛ̂t tɔ̀ː sùa moːng",
+        "translations": {
+          "de": "Mein Auto kann hundert Kilometer pro Stunde fahren",
+          "en": "My car can go a hundred kilometers per hour",
+          "es": "Mi carro puede ir a cien kilómetros por hora",
+          "fr": "Ma voiture peut rouler à cent kilomètres par heure",
+          "hi": "मेरी गाड़ी सौ किलोमीटर प्रति घंटे की रफ्तार से चल सकती है",
+          "ja": "私の車は時速100キロメートルで走れる",
+          "km": "រថយន្តរបស់ខ្ញុំអាចរត់បានមួយរយគីឡូម៉ែត្រក្នុងមួយម៉ោង",
+          "ko": "내 차는 시속 백 킬로미터로 달릴 수 있어",
+          "ne": "मेरो गाडी प्रति घण्टा एक सय किलोमिटर दौड्न सक्छ",
+          "pt": "Meu carro consegue ir a cem quilômetros por hora",
+          "th": "รถฉันวิ่งได้ร้อยกิโลเมตรต่อชั่วโมง",
+          "tl": "Ang aking kotse ay kayang magtakbo ng isang daang kilometro bawat oras",
+          "ur": "میری گاڑی سو کلومیٹر فی گھنٹہ چل سکتی ہے",
+          "vi": "Xe của tôi có thể chạy một trăm kilômét mỗi giờ",
+          "zh": "我的车可以跑一百公里每小时",
+          "zh_Hant": "我的車可以跑一百公里每小時"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ແລ່ນ",
+          "ຊົ່ວໂມງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a road with a distance marker sign showing '1 km', a small car on the road, clean white background, colorful minimalist style, suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍົກ": {
+    "definitions": {
+      "de": "Heben, anheben oder hochheben – etwas nach oben bewegen",
+      "en": "To lift, raise, or pick up something upward",
+      "es": "Levantar, alzar o elevar algo hacia arriba",
+      "fr": "Soulever, lever ou élever quelque chose vers le haut",
+      "hi": "किसी चीज़ को ऊपर उठाना या उठा लेना",
+      "ja": "何かを持ち上げる、引き上げる、または高く上げること",
+      "km": "លើក ស្លើង ឬទាំងឡើង – ផ្លាស់ទីអ្វីមួយឡើងខាងលើ",
+      "ko": "무언가를 들어 올리거나 위로 높이다",
+      "ne": "कुनै कुरालाई माथि उठाउनु वा उठाउनु",
+      "pt": "Levantar, erguer ou elevar algo para cima",
+      "th": "ยก ยกขึ้น หรือหยิบยกสิ่งใดสิ่งหนึ่งขึ้นสูง",
+      "tl": "Itaas, buhatin, o angatin ang isang bagay pataas",
+      "ur": "کسی چیز کو اوپر اٹھانا یا بلند کرنا",
+      "vi": "Nâng, nhấc hoặc giơ cao một thứ gì đó lên trên",
+      "zh": "举起、抬起或提起某物向上",
+      "zh_Hant": "舉起、抬起或提起某物向上"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ɲók/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍຍົກກ່ອງນີ້ໃຫ້ຂ້ອຍໜ່ອຍໄດ້ບໍ?",
+        "romanization": "sùai ɲók kɔ̀ng níː hâi khɔ̂i nɔ̀i dâi bɔ̄?",
+        "translations": {
+          "de": "Kannst du mir diese Kiste heben helfen?",
+          "en": "Can you help me lift this box?",
+          "es": "¿Me puedes ayudar a levantar esta caja?",
+          "fr": "Tu peux m'aider à soulever cette boîte ?",
+          "hi": "क्या तुम इस डिब्बे को उठाने में मेरी मदद कर सकते हो?",
+          "ja": "この箱を持ち上げるのを手伝ってもらえる？",
+          "km": "អ្នកអាចជួយខ្ញុំលើកប្រអប់នេះបានទេ?",
+          "ko": "이 상자 드는 것 좀 도와줄 수 있어?",
+          "ne": "के तपाईं यो बाकस उठाउन मलाई मद्दत गर्न सक्नुहुन्छ?",
+          "pt": "Você pode me ajudar a levantar essa caixa?",
+          "th": "ช่วยยกกล่องนี้ให้ฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo ba akong tulungang buhatin ang kahong ito?",
+          "ur": "کیا تم اس ڈبے کو اٹھانے میں میری مدد کر سکتے ہو؟",
+          "vi": "Bạn có thể giúp tôi nhấc cái thùng này không?",
+          "zh": "你能帮我抬这个箱子吗？",
+          "zh_Hant": "你能幫我抬這個箱子嗎？"
+        },
+        "out_of_scope_words": [
+          "ກ່ອງ"
+        ]
+      },
+      {
+        "lao_script": "ຍົກມືຂຶ້ນຖ້າເຈົ້າຮູ້ຄຳຕອບ",
+        "romanization": "ɲók müː khüːn thâː jâo húː kham tɔ̀ːp",
+        "translations": {
+          "de": "Heb die Hand, wenn du die Antwort weißt",
+          "en": "Raise your hand if you know the answer",
+          "es": "Levanta la mano si sabes la respuesta",
+          "fr": "Lève la main si tu connais la réponse",
+          "hi": "अगर तुम्हें जवाब पता है तो हाथ उठाओ",
+          "ja": "答えがわかる人は手を挙げて",
+          "km": "លើកដៃឡើងបើអ្នកដឹងចម្លើយ",
+          "ko": "답을 알면 손을 들어봐",
+          "ne": "यदि तपाईंलाई उत्तर थाहा छ भने हात उठाउनुहोस्",
+          "pt": "Levante a mão se você souber a resposta",
+          "th": "ยกมือขึ้นถ้าเธอรู้คำตอบ",
+          "tl": "Itaas ang iyong kamay kung alam mo ang sagot",
+          "ur": "اگر تمہیں جواب معلوم ہے تو ہاتھ اٹھاؤ",
+          "vi": "Giơ tay lên nếu bạn biết câu trả lời",
+          "zh": "如果你知道答案就举手",
+          "zh_Hant": "如果你知道答案就舉手"
+        },
+        "out_of_scope_words": [
+          "ມື",
+          "ຄຳຕອບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person lifting a heavy box with both hands, arms raised upward, showing effort, clean white background, colorful minimalist style, suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພິມ": {
+    "definitions": {
+      "de": "Drucken oder tippen – Text auf einer Tastatur eingeben oder etwas auf Papier drucken",
+      "en": "To print or type – to enter text on a keyboard or produce text on paper using a printer",
+      "es": "Imprimir o escribir a máquina – ingresar texto en un teclado o producir texto en papel",
+      "fr": "Imprimer ou taper – saisir du texte sur un clavier ou produire du texte sur papier",
+      "hi": "छापना या टाइप करना – कीबोर्ड पर टेक्स्ट लिखना या कागज पर प्रिंट करना",
+      "ja": "印刷またはタイプする – キーボードで文字を入力する、またはプリンターで紙に印刷すること",
+      "km": "បោះពុម្ព ឬវាយអក្សរ – វាយអក្សរលើក្តារចុច ឬបោះពុម្ពអ្វីមួយលើក្រដាស",
+      "ko": "인쇄하거나 타이핑하다 – 키보드로 텍스트를 입력하거나 종이에 인쇄하다",
+      "ne": "छाप्नु वा टाइप गर्नु – किबोर्डमा पाठ लेख्नु वा कागजमा प्रिन्ट गर्नु",
+      "pt": "Imprimir ou digitar – inserir texto no teclado ou produzir texto no papel",
+      "th": "พิมพ์ – กดตัวอักษรบนแป้นพิมพ์หรือพิมพ์เอกสารออกมาบนกระดาษ",
+      "tl": "Mag-print o mag-type – mag-input ng teksto sa keyboard o mag-print ng teksto sa papel",
+      "ur": "پرنٹ کرنا یا ٹائپ کرنا – کی بورڈ پر متن لکھنا یا کاغذ پر پرنٹ کرنا",
+      "vi": "In hoặc gõ phím – nhập văn bản trên bàn phím hoặc in tài liệu ra giấy",
+      "zh": "打印或打字——在键盘上输入文字或用打印机将内容印在纸上",
+      "zh_Hant": "打印或打字——在鍵盤上輸入文字或用打印機將內容印在紙上"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/phím/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຕ້ອງພິມເອກະສານນີ້ກ່ອນປະຊຸມ",
+        "romanization": "khɔ̂i tɔ̂ng phím eː.ka.saːn níː kɔ̀n pa.súm",
+        "translations": {
+          "de": "Ich muss dieses Dokument vor dem Meeting drucken",
+          "en": "I need to print this document before the meeting",
+          "es": "Necesito imprimir este documento antes de la reunión",
+          "fr": "Je dois imprimer ce document avant la réunion",
+          "hi": "मुझे बैठक से पहले यह दस्तावेज़ प्रिंट करना है",
+          "ja": "会議の前にこの書類を印刷しなければならない",
+          "km": "ខ្ញុំត្រូវបោះពុម្ពឯកសារនេះមុនការប្រជុំ",
+          "ko": "회의 전에 이 서류를 인쇄해야 해",
+          "ne": "बैठकभन्दा पहिले मलाई यो कागजात प्रिन्ट गर्नुपर्छ",
+          "pt": "Eu preciso imprimir este documento antes da reunião",
+          "th": "ฉันต้องพิมพ์เอกสารนี้ก่อนประชุม",
+          "tl": "Kailangan kong i-print ang dokumentong ito bago ang pulong",
+          "ur": "مجھے میٹنگ سے پہلے یہ دستاویز پرنٹ کرنی ہے",
+          "vi": "Tôi cần in tài liệu này trước cuộc họp",
+          "zh": "我需要在开会前打印这份文件",
+          "zh_Hant": "我需要在開會前打印這份文件"
+        },
+        "out_of_scope_words": [
+          "ເອກະສານ",
+          "ປະຊຸມ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າພິມໄວແທ້ ໃຊ້ສອງມືເລີຍ",
+        "romanization": "jâo phím wâi tɛ̂ː sâi sɔ̌ːng müː lɤːi",
+        "translations": {
+          "de": "Du tippst wirklich schnell – du benutzt beide Hände!",
+          "en": "You type so fast – you use both hands!",
+          "es": "Escribes muy rápido, ¡usas las dos manos!",
+          "fr": "Tu tapes vraiment vite – tu utilises les deux mains !",
+          "hi": "तुम बहुत तेज़ टाइप करते हो – दोनों हाथों से!",
+          "ja": "タイプするのが本当に速いね – 両手を使ってるんだ！",
+          "km": "អ្នកវាយអក្សរលឿនណាស់ ប្រើដៃទាំងពីរទៀត!",
+          "ko": "너 정말 타이핑 빠르다 – 양손을 다 쓰잖아!",
+          "ne": "तपाईं धेरै छिटो टाइप गर्नुहुन्छ – दुवै हात प्रयोग गर्नुहुन्छ!",
+          "pt": "Você digita muito rápido – usa as duas mãos!",
+          "th": "เธอพิมพ์เร็วมากเลย ใช้สองมือด้วย!",
+          "tl": "Napakabilis mong mag-type – gumagamit ka ng dalawang kamay!",
+          "ur": "تم بہت تیز ٹائپ کرتے ہو – دونوں ہاتھ استعمال کرتے ہو!",
+          "vi": "Bạn gõ phím nhanh thật – dùng cả hai tay luôn!",
+          "zh": "你打字好快，两只手都用上了！",
+          "zh_Hant": "你打字好快，兩隻手都用上了！"
+        },
+        "out_of_scope_words": [
+          "ໄວ",
+          "ມື"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person's hands typing on a laptop keyboard with a printed document coming out of a printer nearby, clean white background, colorful minimalist style, suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄຟ": {
+    "definitions": {
+      "de": "Feuer oder Elektrizität/Strom – kann eine Flamme oder elektrische Energie bedeuten",
+      "en": "Fire or electricity – can refer to a flame, burning fire, or electrical power/light",
+      "es": "Fuego o electricidad – puede referirse a una llama, fuego ardiente o energía eléctrica",
+      "fr": "Feu ou électricité – peut désigner une flamme, un feu ardent ou l'énergie électrique",
+      "hi": "आग या बिजली – ज्वाला, जलती हुई आग या विद्युत ऊर्जा को संदर्भित कर सकता है",
+      "ja": "火または電気 – 炎や燃える火、または電力・照明を指すことができる",
+      "km": "ភ្លើង – អាចមានន័យថាភ្លើងឆេះ ឬអគ្គិសនី",
+      "ko": "불 또는 전기 – 불꽃이나 타는 불, 또는 전기 에너지를 의미할 수 있다",
+      "ne": "आगो वा बिजुली – ज्वाला, जल्दो आगो वा विद्युत शक्तिलाई जनाउन सक्छ",
+      "pt": "Fogo ou eletricidade – pode se referir a uma chama, fogo aceso ou energia elétrica",
+      "th": "ไฟ – หมายถึงเปลวไฟ ไฟที่กำลังลุกไหม้ หรือกระแสไฟฟ้า",
+      "tl": "Apoy o kuryente – maaaring tumukoy sa apoy, nagniningas na sunog, o electrical na kuryente",
+      "ur": "آگ یا بجلی – شعلہ، جلتی ہوئی آگ یا برقی توانائی کے لیے استعمال ہوتا ہے",
+      "vi": "Lửa hoặc điện – có thể chỉ ngọn lửa, đám cháy hoặc năng lượng điện",
+      "zh": "火或电——可以指火焰、燃烧的火，或电力/电灯",
+      "zh_Hant": "火或電——可以指火焰、燃燒的火，或電力/電燈"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/fáj/",
+    "examples": [
+      {
+        "lao_script": "ໄຟດັບໝົດເລີຍ ຄືນນີ້ມືດຫຼາຍ",
+        "romanization": "fáj dàp mòt lɤːi khüːn níː müːt laːi",
+        "translations": {
+          "de": "Das ganze Licht ist ausgegangen – heute Nacht ist es sehr dunkel",
+          "en": "The electricity went out completely – it's really dark tonight",
+          "es": "La luz se fue completamente – esta noche está muy oscuro",
+          "fr": "L'électricité est complètement coupée – il fait vraiment sombre ce soir",
+          "hi": "पूरी बिजली चली गई – आज रात बहुत अंधेरा है",
+          "ja": "電気が全部消えちゃった – 今夜はすごく暗い",
+          "km": "ភ្លើងអស់ទាំងអស់ – យប់នេះងងឹតណាស់",
+          "ko": "전기가 완전히 나가버렸어 – 오늘 밤 너무 어두워",
+          "ne": "बिजुली पूरै गयो – आज रात धेरै अँध्यारो छ",
+          "pt": "A energia cortou completamente – está muito escuro hoje à noite",
+          "th": "ไฟดับหมดเลย คืนนี้มืดมาก",
+          "tl": "Nawala ang kuryente nang buo-buo – napakadilim ngayong gabi",
+          "ur": "بجلی بالکل چلی گئی – آج رات بہت اندھیرا ہے",
+          "vi": "Điện mất hết rồi – tối nay tối lắm",
+          "zh": "电全断了——今晚好黑啊",
+          "zh_Hant": "電全斷了——今晚好黑啊"
+        },
+        "out_of_scope_words": [
+          "ດັບ",
+          "ຄືນ",
+          "ມືດ"
+        ]
+      },
+      {
+        "lao_script": "ລະວັງໄຟ ຢ່າໃຫ້ເດັກນ້ອຍໃກ້",
+        "romanization": "la.wang fáj yàː hâi dèk nɔ̂i klâi",
+        "translations": {
+          "de": "Pass auf das Feuer auf – lass die Kinder nicht zu nah ran",
+          "en": "Be careful with the fire – don't let the kids get close",
+          "es": "Cuidado con el fuego – no dejes que los niños se acerquen",
+          "fr": "Fais attention au feu – ne laisse pas les enfants s'approcher",
+          "hi": "आग से सावधान रहो – बच्चों को पास मत आने दो",
+          "ja": "火に気をつけて – 子どもたちを近づけないで",
+          "km": "ប្រយ័ត្នភ្លើង កុំឱ្យក្មេងៗជិត",
+          "ko": "불 조심해 – 아이들이 가까이 오지 않게 해",
+          "ne": "आगोबाट सावधान – बच्चाहरूलाई नजिक नआउन दिनुहोस्",
+          "pt": "Cuidado com o fogo – não deixa as crianças chegarem perto",
+          "th": "ระวังไฟ อย่าให้เด็กน้อยเข้าใกล้",
+          "tl": "Mag-ingat sa apoy – huwag hayaang lumapit ang mga bata",
+          "ur": "آگ سے ہوشیار رہو – بچوں کو قریب مت آنے دو",
+          "vi": "Cẩn thận với lửa – đừng để trẻ con lại gần",
+          "zh": "小心火——别让孩子靠近",
+          "zh_Hant": "小心火——別讓孩子靠近"
+        },
+        "out_of_scope_words": [
+          "ລະວັງ",
+          "ເດັກນ້ອຍ",
+          "ໃກ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two scenes side by side: a bright orange campfire with flames on the left, and a glowing light bulb representing electricity on the right, clean white background, colorful minimalist style, suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

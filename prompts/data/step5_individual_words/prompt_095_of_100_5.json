@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຢຍລະມັນ",
+  "definitions": {
+    "de": "Deutschland; ein Land in Mitteleuropa",
+    "en": "Germany; a country in Central Europe",
+    "es": "Alemania; un país en Europa Central",
+    "fr": "Allemagne; un pays en Europe centrale",
+    "hi": "जर्मनी; मध्य यूरोप का एक देश",
+    "ja": "ドイツ；中央ヨーロッパの国",
+    "km": "អាល្លឺម៉ង់; ប្រទេសមួយនៅអឺរ៉ុបកណ្តាល",
+    "ko": "독일; 중부 유럽의 한 나라",
+    "ne": "जर्मनी; मध्य युरोपको एउटा देश",
+    "pt": "Alemanha; um país na Europa Central",
+    "th": "เยอรมนี; ประเทศในยุโรปกลาง",
+    "tl": "Alemanya; isang bansa sa Gitnang Europa",
+    "ur": "جرمنی؛ وسطی یورپ کا ایک ملک",
+    "vi": "Đức; một quốc gia ở Trung Âu",
+    "zh": "德国；中欧的一个国家",
+    "zh_Hant": "德國；中歐的一個國家"
+  },
+  "definition_en": "Germany; a country in Central Europe",
+  "romanization": "/jīa.la.mán/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂອງຂ້ອຍໄປຮຽນຢູ່ເຢຍລະມັນ",
+      "romanization": "phuean khong khoi pai hian yu Yia-la-man",
+      "translation_en": "My friend went to study in Germany."
+    },
+    {
+      "lao_script": "ລົດເຢຍລະມັນດີທີ່ສຸດໃນໂລກ",
+      "romanization": "lot Yia-la-man di thi sut nai lok",
+      "translation_en": "German cars are the best in the world."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the German flag (black, red, and gold horizontal stripes) next to a small outline map of Germany in Central Europe, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

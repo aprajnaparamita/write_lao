@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກາ",
+  "definitions": {
+    "de": "Krähe (ein schwarzer Vogel) oder Wasserkocher (ein Gefäß zum Kochen von Wasser)",
+    "en": "Crow (a black bird) or kettle (a vessel for boiling water)",
+    "es": "Cuervo (un pájaro negro) o hervidor (un recipiente para hervir agua)",
+    "fr": "Corbeau (un oiseau noir) ou bouilloire (un récipient pour faire bouillir de l'eau)",
+    "hi": "कौआ (एक काला पक्षी) या केतली (पानी उबालने का बर्तन)",
+    "ja": "カラス（黒い鳥）またはやかん（お湯を沸かす容器）",
+    "km": "ត្រមោច (បក្សីពណ៌ខ្មៅ) ឬកូនឆ្នាំង (ប្រដាប់ដាំទឹក)",
+    "ko": "까마귀(검은 새) 또는 주전자(물을 끓이는 용기)",
+    "ne": "काग (एक कालो चरा) वा केटली (पानी उमाल्ने भाँडो)",
+    "pt": "Corvo (um pássaro preto) ou chaleira (um recipiente para ferver água)",
+    "th": "อีกา (นกสีดำ) หรือกาน้ำ (ภาชนะสำหรับต้มน้ำ)",
+    "tl": "Uwak (isang itim na ibon) o kettle (lalagyan para sa pagpapakulo ng tubig)",
+    "ur": "کوا (ایک کالا پرندہ) یا کیتلی (پانی ابالنے کا برتن)",
+    "vi": "Con quạ (một loài chim màu đen) hoặc ấm đun nước (dụng cụ đun sôi nước)",
+    "zh": "乌鸦（一种黑色的鸟）或水壶（烧水的容器）",
+    "zh_Hant": "烏鴉（一種黑色的鳥）或水壺（燒水的容器）"
+  },
+  "definition_en": "Crow (a black bird) or kettle (a vessel for boiling water)",
+  "romanization": "/kaː˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ມີກາດຳຕົວນຶ່ງບິນຜ່ານຫຼັງບ້ານ",
+      "romanization": "mii kaa dam tua nung bin phaan lang baan",
+      "translation_en": "A black crow flew past behind the house."
+    },
+    {
+      "lao_script": "ເອົາກາໄປຕັ້ງໄຟແດ່ ຂ້ອຍຢາກດື່ມຊາ",
+      "romanization": "ao kaa pai tang fai daeh, khoi yaak duem saa",
+      "translation_en": "Put the kettle on the fire, I want to drink tea."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two meanings side by side: a black crow perched on a branch on the left, and a traditional metal kettle on the right, clean white background, colorful minimalist style, suitable for a language learning app."
+}

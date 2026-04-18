@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວັນທີ",
+  "definitions": {
+    "de": "Datum (Kalendertag)",
+    "en": "date (calendar day)",
+    "es": "fecha (día del calendario)",
+    "fr": "date (jour du calendrier)",
+    "hi": "तारीख़ (दिनांक)",
+    "ja": "日付（暦の日）",
+    "km": "កាលបរិច្ឆេទ (ថ្ងៃតាមប្រតិទិន)",
+    "ko": "날짜 (달력상의 날)",
+    "ne": "मिति (पात्रोको दिन)",
+    "pt": "data (dia do calendário)",
+    "th": "วันที่ (วันตามปฏิทิน)",
+    "tl": "petsa (araw sa kalendaryo)",
+    "ur": "تاریخ (کیلنڈر کا دن)",
+    "vi": "ngày (ngày theo lịch)",
+    "zh": "日期（日历上的日子）",
+    "zh_Hant": "日期（日曆上的日子）"
+  },
+  "definition_en": "date (calendar day)",
+  "romanization": "wán.tʰíː",
+  "lao_examples": [
+    {
+      "lao_script": "ວັນທີ ນີ້ ແມ່ນ ວັນ ເກີດ ຂອງ ລາວ",
+      "romanization": "wán.tʰíː nîː mɛ̄n wán kə̀ːt kʰɔ̌ːŋ láːw",
+      "translation_en": "This date is his/her birthday."
+    },
+    {
+      "lao_script": "ວັນທີ ໃດ ເຈົ້າ ຈະ ມາ?",
+      "romanization": "wán.tʰíː dàj càw càʔ máː",
+      "translation_en": "What date will you come?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a wall calendar page with a circled date and a small pencil pointing at it, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

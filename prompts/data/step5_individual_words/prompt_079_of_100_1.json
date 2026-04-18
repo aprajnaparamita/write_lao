@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສວນ",
+  "definitions": {
+    "de": "Garten oder Park; ein begrünter Bereich mit Pflanzen, Bäumen oder Blumen, der zur Erholung oder zum Anbau von Pflanzen genutzt wird",
+    "en": "Garden or park; a green outdoor space with plants, trees, or flowers used for relaxation or growing plants",
+    "es": "Jardín o parque; espacio al aire libre con plantas, árboles o flores usado para el descanso o el cultivo",
+    "fr": "Jardin ou parc; espace vert extérieur avec des plantes, des arbres ou des fleurs, utilisé pour se détendre ou cultiver des plantes",
+    "hi": "बगीचा या पार्क; पौधों, पेड़ों या फूलों वाला हरा-भरा बाहरी स्थान जिसका उपयोग आराम या पौधे उगाने के लिए किया जाता है",
+    "ja": "庭園または公園。植物、木、花などがある屋外の緑地で、くつろぎや植物の栽培に使われる場所",
+    "km": "សួន ឬទីធ្លា; ទីធ្លាខាងក្រៅដែលមានដើមឈើ រុក្ខជាតិ ឬផ្កា ប្រើសម្រាប់សម្រាក ឬដាំដុះរុក្ខជាតិ",
+    "ko": "정원 또는 공원; 식물, 나무, 꽃이 있는 야외 녹지 공간으로 휴식이나 식물 재배에 사용됨",
+    "ne": "बगैंचा वा पार्क; बिरुवा, रूख वा फूलहरू भएको हरियो बाहिरी ठाउँ जुन आराम वा बिरुवा उमार्नका लागि प्रयोग गरिन्छ",
+    "pt": "Jardim ou parque; espaço verde ao ar livre com plantas, árvores ou flores, usado para relaxar ou cultivar plantas",
+    "th": "สวนหรือสวนสาธารณะ พื้นที่กลางแจ้งที่มีต้นไม้ พืช หรือดอกไม้ ใช้สำหรับพักผ่อนหรือปลูกพืช",
+    "tl": "Hardin o parke; isang berdeng lugar sa labas na may mga halaman, puno, o bulaklak na ginagamit para sa pahinga o pagpapalaki ng mga halaman",
+    "ur": "باغ یا پارک؛ پودوں، درختوں یا پھولوں والی ہری بھری بیرونی جگہ جو آرام یا پودے اگانے کے لیے استعمال ہوتی ہے",
+    "vi": "Vườn hoặc công viên; không gian ngoài trời xanh mát có cây cối, thực vật hoặc hoa dùng để nghỉ ngơi hoặc trồng trọt",
+    "zh": "花园或公园；有植物、树木或花卉的户外绿色空间，用于休闲或种植植物",
+    "zh_Hant": "花園或公園；有植物、樹木或花卉的戶外綠色空間，用於休閒或種植植物"
+  },
+  "definition_en": "Garden or park; a green outdoor space with plants, trees, or flowers used for relaxation or growing plants",
+  "romanization": "/sǔan/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ເຮົາໄປຫຼິ້ນທີ່ສວນກັນເນາະ",
+      "romanization": "Muu-nih hao pai lin thi suan kan naw.",
+      "translation_en": "Let's go play at the park today, okay?"
+    },
+    {
+      "lao_script": "ສວນຂອງແມ່ມີດອກໄມ້ສວຍຫຼາຍ",
+      "romanization": "Suan khong mae mii dok-mai suay lai.",
+      "translation_en": "My mom's garden has a lot of beautiful flowers."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful garden or park with colorful flowers, green trees, and a winding path, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

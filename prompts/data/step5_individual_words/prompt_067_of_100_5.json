@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍາດ",
+  "definitions": {
+    "de": "Verwandter, Angehöriger",
+    "en": "relative, kin, family member",
+    "es": "pariente, familiar",
+    "fr": "parent, membre de la famille",
+    "hi": "रिश्तेदार, संबंधी",
+    "ja": "親戚、身内",
+    "km": "សាច់ញាតិ, ញាតិ",
+    "ko": "친척, 일가",
+    "ne": "नातेदार, आफन्त",
+    "pt": "parente, familiar",
+    "th": "ญาติ",
+    "tl": "kamag-anak",
+    "ur": "رشتہ دار، عزیز",
+    "vi": "họ hàng, người thân",
+    "zh": "亲戚",
+    "zh_Hant": "親戚"
+  },
+  "definition_en": "relative, kin, family member",
+  "romanization": "ɲâːt",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວເປັນຍາດຂອງຂ້ອຍ.",
+      "romanization": "láːw pēn ɲâːt kʰɔ̌ːŋ kʰɔ̏ːj",
+      "translation_en": "He/She is my relative."
+    },
+    {
+      "lao_script": "ວັນປີໃໝ່ ຍາດພີ່ນ້ອງມາຢ້ຽມບ້ານ.",
+      "romanization": "wán pìː māj ɲâːt pʰīː nɔ̂ːŋ máː jîːam bâːn",
+      "translation_en": "On New Year's Day, relatives come to visit the house."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an extended family gathering with grandparents, parents, and children standing together smiling, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

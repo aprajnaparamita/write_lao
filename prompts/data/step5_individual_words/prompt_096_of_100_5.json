@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຮມ",
+  "definitions": {
+    "de": "übernachten / irgendwo bleiben – die Nacht irgendwo verbringen, z. B. bei Freunden oder in einem Hotel",
+    "en": "to stay overnight / to lodge – to spend the night somewhere, such as at a friend's place or a hotel",
+    "es": "quedarse a dormir / alojarse – pasar la noche en algún lugar, como en casa de un amigo o en un hotel",
+    "fr": "passer la nuit / loger – passer la nuit quelque part, comme chez un ami ou dans un hôtel",
+    "hi": "रात रुकना / ठहरना – कहीं रात गुज़ारना, जैसे किसी दोस्त के घर या होटल में",
+    "ja": "泊まる／宿泊する – 友人の家やホテルなど、どこかで夜を過ごす",
+    "km": "ស្នាក់យប់ / ស្នាក់នៅ – ចំណាយពេលយប់នៅកន្លែងណាមួយ ដូចជានៅផ្ទះមិត្ត ឬសណ្ឋាគារ",
+    "ko": "하룻밤 묵다 / 숙박하다 – 친구 집이나 호텔 등 어딘가에서 밤을 보내다",
+    "ne": "रात बस्नु / बास बस्नु – कुनै ठाउँमा रात बिताउनु, जस्तै साथीको घरमा वा होटलमा",
+    "pt": "pernoitar / ficar – passar a noite em algum lugar, como na casa de um amigo ou em um hotel",
+    "th": "ค้างคืน / พักแรม – ใช้เวลาคืนที่ไหนสักแห่ง เช่น บ้านเพื่อนหรือโรงแรม",
+    "tl": "matulog nang isang gabi / tumigil – gumastos ng isang gabi sa isang lugar, tulad ng sa bahay ng kaibigan o hotel",
+    "ur": "رات رکنا / قیام کرنا – کہیں رات گزارنا، جیسے کسی دوست کے گھر یا ہوٹل میں",
+    "vi": "ở lại qua đêm / trú lại – ở lại một nơi nào đó qua đêm, chẳng hạn ở nhà bạn bè hoặc khách sạn",
+    "zh": "过夜 / 住宿 – 在某处过夜，例如在朋友家或酒店",
+    "zh_Hant": "過夜 / 住宿 – 在某處過夜，例如在朋友家或酒店"
+  },
+  "definition_en": "to stay overnight / to lodge – to spend the night somewhere, such as at a friend's place or a hotel",
+  "romanization": "/hɛːm˦˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄືນນີ້ຂ້ອຍຂໍແຮມທີ່ເຮືອນເຈົ້າໄດ້ບໍ?",
+      "romanization": "kʰɯːn niː kʰɔːj kʰɔː hɛːm tʰiː hɯan tɕaw daɪ bɔː?",
+      "translation_en": "Can I stay overnight at your place tonight?"
+    },
+    {
+      "lao_script": "ລາວໄປທ່ຽວແລ້ວແຮມຢູ່ໂຮງແຮມ",
+      "romanization": "laːw paɪ tʰiao lɛːw hɛːm juː hoːŋ hɛːm",
+      "translation_en": "He/She went traveling and is staying at a hotel."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traveler with a small suitcase checking into a cozy hotel, a smiling receptionist handing over a room key, clean white background, colorful minimalist style suitable for a language learning app."
+}

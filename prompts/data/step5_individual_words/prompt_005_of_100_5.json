@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮ່ວມ",
+  "definitions": {
+    "de": "gemeinsam; teilnehmen; sich beteiligen (zusammen etwas tun)",
+    "en": "together; to join/participate (do jointly with others)",
+    "es": "juntos; unirse/participar (hacer en conjunto)",
+    "fr": "ensemble; participer/se joindre (faire conjointement)",
+    "hi": "साथ; भाग लेना/शामिल होना",
+    "ja": "共に／参加する／一緒にする",
+    "km": "រួម／ចូលរួម (ធ្វើរួមគ្នា)",
+    "ko": "함께／참여하다／합류하다",
+    "ne": "साथ／सहभागी हुनु／मिलेर गर्नु",
+    "pt": "juntos; participar/juntar-se (fazer em conjunto)",
+    "th": "ร่วม (ทำร่วมกัน หรือเข้าร่วม)",
+    "tl": "samahan／sumali／magkasama (gawing magkasama)",
+    "ur": "ساتھ؛ شرکت کرنا؛ شامل ہونا",
+    "vi": "cùng; tham gia; hợp tác (làm chung)",
+    "zh": "共同／参加／一起做",
+    "zh_Hant": "共同／參加／一起做"
+  },
+  "definition_en": "together; to join/participate (do jointly with others)",
+  "romanization": "hūːəm",
+  "lao_examples": [
+    {
+      "lao_script": "ພວກ ເຮົາ ເຮັດ ວຽກ ຮ່ວມ ກັນ",
+      "romanization": "pʰùːək háw hēt wîːək hūːəm kàn",
+      "translation_en": "We work together."
+    },
+    {
+      "lao_script": "ເຊີນ ທ່ານ ເຂົ້າ ຮ່ວມ ງານ",
+      "romanization": "sə́n tʰāːn kʰȁw hūːəm ŋáːn",
+      "translation_en": "We invite you to join the event."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of three cartoon hands clasping together in a circle, representing joint participation, suitable for a language learning app, clean white background, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສົມ",
+  "definitions": {
+    "de": "Geeignet / passend / angemessen; auch ein häufiges Präfix in zusammengesetzten Wörtern (z. B. ສົມຄວນ = passend, ສົມບູນ = vollständig)",
+    "en": "Suitable / appropriate / fitting; also a common prefix in compound words (e.g., ສົມຄວນ = appropriate, ສົມບູນ = complete/perfect)",
+    "es": "Adecuado / apropiado / conveniente; también prefijo frecuente en palabras compuestas (ej. ສົມຄວນ = conveniente, ສົມບູນ = completo/perfecto)",
+    "fr": "Approprié / convenable / adéquat ; aussi un préfixe courant dans les mots composés (ex. ສົມຄວນ = convenable, ສົມບູນ = complet/parfait)",
+    "hi": "उचित / उपयुक्त / मुनासिब; साथ ही यौगिक शब्दों में एक सामान्य उपसर्ग (जैसे ສົມຄວນ = उचित, ສົມບູນ = पूर्ण/संपूर्ण)",
+    "ja": "適切な・ふさわしい・相応しい；また複合語の接頭辞としてよく使われる（例：ສົມຄວນ = ふさわしい、ສົມບູນ = 完全な）",
+    "km": "សមស្រប / ត្រឹមត្រូវ / គួរ; ក៏ជាបុព្វបទទូទៅក្នុងពាក្យផ្សំ (ឧ. ສົມຄວນ = គួរ, ສົມບູນ = ពេញលេញ/ល្អឥតខ្ចោះ)",
+    "ko": "적절한 / 알맞은 / 적합한; 복합어에서 자주 쓰이는 접두사이기도 함 (예: ສົມຄວນ = 적절한, ສົມບູນ = 완전한/완벽한)",
+    "ne": "उपयुक्त / उचित / मनासिब; यौगिक शब्दहरूमा सामान्य उपसर्गको रूपमा पनि प्रयुक्त (जस्तै ສົມຄວນ = उचित, ສົມບູນ = पूर्ण/सम्पूर्ण)",
+    "pt": "Adequado / apropriado / conveniente; também um prefixo comum em palavras compostas (ex.: ສົມຄວນ = adequado, ສົມບູນ = completo/perfeito)",
+    "th": "เหมาะสม / เหมาะ / สมควร; ยังใช้เป็นคำนำหน้าในคำประสม (เช่น ສົມຄວນ = สมควร, ສົມບູນ = สมบูรณ์/สมบูรณ์แบบ)",
+    "tl": "Angkop / naaangkop / bagay; ginagamit din bilang karaniwang unlapi sa mga salitang tambalan (hal. ສົມຄວນ = angkop, ສົມບູນ = kumpleto/perpekto)",
+    "ur": "مناسب / موزوں / مناسب؛ نیز مرکب الفاظ میں عام سابقے کے طور پر استعمال ہوتا ہے (مثلاً ສົມຄວນ = مناسب، ສົມບູນ = مکمل/کامل)",
+    "vi": "Phù hợp / thích hợp / xứng đáng; cũng là tiền tố phổ biến trong các từ ghép (ví dụ: ສົມຄວນ = thích hợp, ສົມບູນ = hoàn chỉnh/hoàn hảo)",
+    "zh": "合适 / 适当 / 相称；也是复合词中常见的前缀（如 ສົມຄວນ = 合适，ສົມບູນ = 完整/完美）",
+    "zh_Hant": "合適 / 適當 / 相稱；也是複合詞中常見的前綴（如 ສົມຄວນ = 合適，ສົມບູນ = 完整/完美）"
+  },
+  "definition_en": "Suitable / appropriate / fitting; also a common prefix in compound words (e.g., ສົມຄວນ = appropriate, ສົມບູນ = complete/perfect)",
+  "romanization": "som",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອຜ້ານີ້ສົມກັບເຈົ້າຫຼາຍ",
+      "romanization": "suea pha nih som kap jao lai",
+      "translation_en": "These clothes suit you a lot."
+    },
+    {
+      "lao_script": "ລາຄານັ້ນສົມຄວນແລ້ວ ບໍ່ແພງເກີນໄປ",
+      "romanization": "la-kha nan som-khuan laeo, bo phaeng koen pai",
+      "translation_en": "That price is suitable, not too expensive."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two puzzle pieces fitting together perfectly, symbolizing suitability and a perfect match, clean white background, colorful minimalist style suitable for a language learning app."
+}

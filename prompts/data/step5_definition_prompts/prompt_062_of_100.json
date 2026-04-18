@@ -1,0 +1,417 @@
+{
+  "ດາວ": {
+    "definitions": {
+      "de": "Stern – ein leuchtendes Himmelsobjekt, das nachts am Himmel sichtbar ist",
+      "en": "Star – a luminous celestial body visible in the night sky",
+      "es": "Estrella – cuerpo celeste luminoso visible en el cielo nocturno",
+      "fr": "Étoile – corps céleste lumineux visible dans le ciel nocturne",
+      "hi": "तारा – रात के आकाश में दिखाई देने वाला चमकता हुआ खगोलीय पिंड",
+      "ja": "星（ほし）– 夜空に輝く天体",
+      "km": "ផ្កាយ – វត្ថុអាកាសដែលភ្លឺនៅលើមេឃពេលយប់",
+      "ko": "별 – 밤하늘에 빛나는 천체",
+      "ne": "तारा – रातको आकाशमा देखिने चम्किलो खगोलीय पिण्ड",
+      "pt": "Estrela – corpo celeste luminoso visível no céu noturno",
+      "th": "ดาว – วัตถุท้องฟ้าที่เปล่งแสงได้ มองเห็นได้บนท้องฟ้าในเวลากลางคืน",
+      "tl": "Bituin – isang maliwanag na katawan sa kalangitan na makikita sa gabi",
+      "ur": "ستارہ – رات کے آسمان میں نظر آنے والا چمکتا ہوا آسمانی جسم",
+      "vi": "Ngôi sao – thiên thể phát sáng có thể nhìn thấy trên bầu trời đêm",
+      "zh": "星星 – 夜晚天空中可见的发光天体",
+      "zh_Hant": "星星 – 夜晚天空中可見的發光天體"
+    },
+    "part_of_speech": "noun",
+    "romanization": "daːw",
+    "examples": [
+      {
+        "lao_script": "ຄືນນີ້ດາວສວຍຫຼາຍເດີ",
+        "romanization": "khʉːn niː daːw suːaj laːj deː",
+        "translations": {
+          "de": "Heute Nacht sind die Sterne wirklich schön.",
+          "en": "The stars are really beautiful tonight.",
+          "es": "Esta noche las estrellas están muy bonitas.",
+          "fr": "Ce soir, les étoiles sont vraiment belles.",
+          "hi": "आज रात तारे बहुत सुंदर हैं।",
+          "ja": "今夜は星がとてもきれいだね。",
+          "km": "យប់នេះផ្កាយស្អាតណាស់។",
+          "ko": "오늘 밤 별들이 정말 예쁘네.",
+          "ne": "आज रात ताराहरू साह्रै सुन्दर छन्।",
+          "pt": "As estrelas estão muito bonitas esta noite.",
+          "th": "คืนนี้ดาวสวยมากเลยนะ",
+          "tl": "Ang mga bituin ay napakaganda ngayong gabi.",
+          "ur": "آج رات ستارے بہت خوبصورت ہیں۔",
+          "vi": "Tối nay các ngôi sao đẹp lắm.",
+          "zh": "今晚的星星真的很漂亮。",
+          "zh_Hant": "今晚的星星真的很漂亮。"
+        },
+        "out_of_scope_words": [
+          "ຄືນນີ້",
+          "ສວຍ",
+          "ເດີ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເຫັນດາວນັ້ນບໍ່ ອັນໃຫຍ່ໆ",
+        "romanization": "tɕâo hěn daːw nan bɔː an ɲaːj ɲaːj",
+        "translations": {
+          "de": "Siehst du diesen Stern dort? Den großen.",
+          "en": "Do you see that star? The big one.",
+          "es": "¿Ves esa estrella? La grande.",
+          "fr": "Tu vois cette étoile là-bas ? La grande.",
+          "hi": "क्या तुम वो तारा देख रहे हो? बड़ा वाला।",
+          "ja": "あの星が見える？大きいやつ。",
+          "km": "តើអ្នកឃើញផ្កាយនោះទេ? ផ្កាយធំៗ។",
+          "ko": "저 별 보여? 큰 거.",
+          "ne": "त्यो तारा देख्यौ? ठूलो वाला।",
+          "pt": "Você vê aquela estrela? A grande.",
+          "th": "แกเห็นดาวดวงนั้นไหม ดวงใหญ่ๆ",
+          "tl": "Nakikita mo ba ang bituing iyon? Yung malaki.",
+          "ur": "کیا تم وہ ستارہ دیکھ رہے ہو؟ بڑا والا۔",
+          "vi": "Mày có thấy ngôi sao đó không? Cái to ấy.",
+          "zh": "你看到那颗星星吗？大的那颗。",
+          "zh_Hant": "你看到那顆星星嗎？大的那顆。"
+        },
+        "out_of_scope_words": [
+          "ເຈົ້າ",
+          "ເຫັນ",
+          "ນັ້ນ",
+          "ອັນ",
+          "ໃຫຍ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright, shining yellow star in a dark night sky with a few smaller stars around it, suitable for a language learning app, clean dark blue background, colorful, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມັກ": {
+    "definitions": {
+      "de": "Mögen / bevorzugen – etwas oder jemanden gernhaben oder einer Sache den Vorzug geben",
+      "en": "Like / prefer – to feel fondness for something or someone, or to prefer one thing over another",
+      "es": "Gustar / preferir – sentir agrado por algo o alguien, o preferir una cosa sobre otra",
+      "fr": "Aimer / préférer – éprouver de l'affection pour quelque chose ou quelqu'un, ou préférer une chose à une autre",
+      "hi": "पसंद करना / पसंद होना – किसी चीज़ या व्यक्ति को अच्छा लगना या प्राथमिकता देना",
+      "ja": "好き（すき）/ 好む（このむ）– 何かや誰かを気に入っている、または好んでいる",
+      "km": "ចូលចិត្ត – មានអារម្មណ៍ស្រឡាញ់ ឬចូលចិត្តអ្វីមួយ ឬនរណាម្នាក់",
+      "ko": "좋아하다 / 선호하다 – 어떤 것이나 사람을 좋아하거나 더 선호하다",
+      "ne": "मन पर्नु / रुचि राख्नु – कुनै कुरा वा व्यक्तिलाई मन पराउनु वा प्राथमिकता दिनु",
+      "pt": "Gostar / preferir – sentir apreço por algo ou alguém, ou preferir uma coisa a outra",
+      "th": "ชอบ / ชอบมากกว่า – รู้สึกพอใจหรือชื่นชอบสิ่งใดสิ่งหนึ่งหรือบุคคลใด",
+      "tl": "Gusto / mas gusto – magkaroon ng pagmamahal para sa isang bagay o tao, o mas piliin ang isang bagay kaysa sa isa pa",
+      "ur": "پسند کرنا – کسی چیز یا شخص کو پسند کرنا یا ترجیح دینا",
+      "vi": "Thích / thích hơn – cảm thấy yêu thích điều gì đó hoặc ai đó, hoặc ưa thích điều này hơn điều kia",
+      "zh": "喜欢 / 偏好 – 对某事或某人感到喜爱，或更倾向于某件事",
+      "zh_Hant": "喜歡 / 偏好 – 對某事或某人感到喜愛，或更傾向於某件事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "mak",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍມັກກິນຂ້າວຫຼາຍ",
+        "romanization": "khɔːj mak kin kʰâːw laːj",
+        "translations": {
+          "de": "Ich mag es wirklich sehr zu essen.",
+          "en": "I really like eating rice a lot.",
+          "es": "Me gusta mucho comer arroz.",
+          "fr": "J'aime vraiment beaucoup manger du riz.",
+          "hi": "मुझे चावल खाना बहुत पसंद है।",
+          "ja": "私はご飯を食べるのがとても好きです。",
+          "km": "ខ្ញុំចូលចិត្តញ៉ាំបាយណាស់។",
+          "ko": "나는 밥 먹는 걸 정말 좋아해.",
+          "ne": "मलाई भात खान धेरै मन पर्छ।",
+          "pt": "Eu gosto muito de comer arroz.",
+          "th": "ฉันชอบกินข้าวมากเลย",
+          "tl": "Gusto ko talaga ang kumain ng kanin.",
+          "ur": "مجھے چاول کھانا بہت پسند ہے۔",
+          "vi": "Tôi rất thích ăn cơm.",
+          "zh": "我很喜欢吃饭。",
+          "zh_Hant": "我很喜歡吃飯。"
+        },
+        "out_of_scope_words": [
+          "ກິນ",
+          "ຂ້າວ",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າມັກສີຫຍັງ",
+        "romanization": "tɕâo mak siː ɲǎŋ",
+        "translations": {
+          "de": "Welche Farbe magst du?",
+          "en": "What color do you like?",
+          "es": "¿Qué color te gusta?",
+          "fr": "Quelle couleur tu aimes ?",
+          "hi": "तुम्हें कौन सा रंग पसंद है?",
+          "ja": "どんな色が好きですか？",
+          "km": "អ្នកចូលចិត្តពណ៌អ្វី?",
+          "ko": "무슨 색 좋아해?",
+          "ne": "तिमीलाई कुन रङ मन पर्छ?",
+          "pt": "Qual cor você gosta?",
+          "th": "แกชอบสีอะไร",
+          "tl": "Anong kulay ang gusto mo?",
+          "ur": "تمہیں کون سا رنگ پسند ہے؟",
+          "vi": "Mày thích màu gì?",
+          "zh": "你喜欢什么颜色？",
+          "zh_Hant": "你喜歡什麼顏色？"
+        },
+        "out_of_scope_words": [
+          "ເຈົ້າ",
+          "ສີ",
+          "ຫຍັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person giving a thumbs up next to a heart symbol, indicating liking or preference, suitable for a language learning app, clean white background, colorful, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເດັກ": {
+    "definitions": {
+      "de": "Kind – ein junger Mensch, der noch kein Erwachsener ist; ein Junge oder Mädchen",
+      "en": "Child / kid – a young person who is not yet an adult; a boy or girl",
+      "es": "Niño/niña – persona joven que aún no es adulta; un chico o una chica",
+      "fr": "Enfant – jeune personne qui n'est pas encore adulte ; un garçon ou une fille",
+      "hi": "बच्चा – एक युवा व्यक्ति जो अभी तक बालिग नहीं है; लड़का या लड़की",
+      "ja": "子ども（こども）– まだ大人ではない若い人；男の子または女の子",
+      "km": "កូនក្មេង – មនុស្សក្មេងដែលមិនទាន់ជាមនុស្សធំ",
+      "ko": "아이 / 어린이 – 아직 어른이 아닌 어린 사람; 소년이나 소녀",
+      "ne": "बच्चा – एक सानो व्यक्ति जो अझै वयस्क भएको छैन; केटा वा केटी",
+      "pt": "Criança – pessoa jovem que ainda não é adulta; um menino ou uma menina",
+      "th": "เด็ก – คนหนุ่มสาวที่ยังไม่เป็นผู้ใหญ่ เด็กชายหรือเด็กหญิง",
+      "tl": "Bata – isang batang tao na hindi pa adulto; isang lalaki o babaeng bata",
+      "ur": "بچہ – ایک نوجوان انسان جو ابھی بالغ نہیں ہوا؛ لڑکا یا لڑکی",
+      "vi": "Đứa trẻ / trẻ em – người trẻ chưa phải là người lớn; bé trai hoặc bé gái",
+      "zh": "孩子 – 尚未成年的年轻人；男孩或女孩",
+      "zh_Hant": "孩子 – 尚未成年的年輕人；男孩或女孩"
+    },
+    "part_of_speech": "noun",
+    "romanization": "dek",
+    "examples": [
+      {
+        "lao_script": "ເດັກນ້ອຍຫຼິ້ນຢູ່ທາງນັ້ນ",
+        "romanization": "dek nɔːj lin juː tʰaːŋ nan",
+        "translations": {
+          "de": "Die kleinen Kinder spielen dort drüben.",
+          "en": "The little kids are playing over there.",
+          "es": "Los niños pequeños están jugando por allá.",
+          "fr": "Les petits enfants jouent là-bas.",
+          "hi": "छोटे बच्चे वहाँ खेल रहे हैं।",
+          "ja": "子どもたちがあそこで遊んでいるよ。",
+          "km": "កូនក្មេងតូចៗកំពុងលេងនៅទីនោះ។",
+          "ko": "어린아이들이 저기서 놀고 있어.",
+          "ne": "सानो बच्चाहरू त्यहाँ खेलिरहेका छन्।",
+          "pt": "As crianças pequenas estão brincando por ali.",
+          "th": "เด็กน้อยกำลังเล่นอยู่ทางโน้น",
+          "tl": "Ang mga maliliit na bata ay naglalaro doon.",
+          "ur": "چھوٹے بچے وہاں کھیل رہے ہیں۔",
+          "vi": "Mấy đứa trẻ nhỏ đang chơi ở đằng đó.",
+          "zh": "小孩子们正在那边玩。",
+          "zh_Hant": "小孩子們正在那邊玩。"
+        },
+        "out_of_scope_words": [
+          "ນ້ອຍ",
+          "ຫຼິ້ນ",
+          "ຢູ່",
+          "ທາງນັ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ເດັກຄົນນີ້ຊ່າງວ່ອງໄວຈັງ",
+        "romanization": "dek kʰon niː tɕʰaːŋ wɔŋ waj tɕaŋ",
+        "translations": {
+          "de": "Dieses Kind ist so schnell und flink!",
+          "en": "This kid is so quick and agile!",
+          "es": "¡Este niño es muy ágil y rápido!",
+          "fr": "Cet enfant est vraiment agile et rapide !",
+          "hi": "यह बच्चा कितना चुस्त और तेज़ है!",
+          "ja": "この子、本当に素早いね！",
+          "km": "កូនក្មេងនេះច័ណ្ឌណាស់!",
+          "ko": "이 아이는 정말 빠르고 날렵하네!",
+          "ne": "यो बच्चा त एकदम चाँडो र फुर्तिलो छ!",
+          "pt": "Essa criança é tão rápida e ágil!",
+          "th": "เด็กคนนี้ว่องไวมากเลยนะ",
+          "tl": "Ang batang ito ay napakabilis at maliksi!",
+          "ur": "یہ بچہ بہت چست اور تیز ہے!",
+          "vi": "Đứa trẻ này nhanh nhẹn quá vậy!",
+          "zh": "这个孩子真是动作好快啊！",
+          "zh_Hant": "這個孩子真是動作好快啊！"
+        },
+        "out_of_scope_words": [
+          "ຄົນນີ້",
+          "ຊ່າງ",
+          "ວ່ອງໄວ",
+          "ຈັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful young child smiling and waving, wearing casual colorful clothing, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເປົ້າ": {
+    "definitions": {
+      "de": "Rucksack / Tasche / Ziel – kann einen Rucksack oder eine Tasche bezeichnen; in manchen Kontexten auch ein Ziel oder eine Zielvorgabe",
+      "en": "Bag / backpack / target – commonly refers to a bag or backpack; can also mean a target or goal in certain contexts",
+      "es": "Bolso / mochila / objetivo – comúnmente se refiere a una bolsa o mochila; también puede significar un objetivo o meta en ciertos contextos",
+      "fr": "Sac / sac à dos / cible – désigne généralement un sac ou un sac à dos ; peut aussi signifier une cible ou un objectif selon le contexte",
+      "hi": "बैग / पीठ-बस्ता / लक्ष्य – आमतौर पर बैग या रुकसैक को संदर्भित करता है; कुछ संदर्भों में लक्ष्य या उद्देश्य भी",
+      "ja": "バッグ / リュック / 目標（もくひょう）– 一般的にかばんやリュックサックを指す；文脈によって目標や的（まと）を意味することもある",
+      "km": "កាបូប / យុទ្ធដៅ – ជាទូទៅសំដៅទៅលើកាបូប ឬក្សសាំង; ក្នុងបរិបទខ្លះក៏អាចមានន័យថាគោលដៅ",
+      "ko": "가방 / 배낭 / 목표 – 일반적으로 가방이나 배낭을 가리키며, 문맥에 따라 목표나 표적을 의미하기도 함",
+      "ne": "झोला / ब्याग / लक्ष्य – सामान्यतः झोला वा ब्याकप्याकलाई जनाउँछ; केही सन्दर्भमा लक्ष्य वा उद्देश्य पनि",
+      "pt": "Bolsa / mochila / alvo – geralmente se refere a uma bolsa ou mochila; em certos contextos também pode significar alvo ou meta",
+      "th": "กระเป๋า / เป้ / เป้าหมาย – โดยทั่วไปหมายถึงกระเป๋าหรือเป้สะพายหลัง และยังสามารถหมายถึงเป้าหมายในบางบริบท",
+      "tl": "Bag / backpack / target – karaniwang tumutukoy sa isang bag o backpack; maaari ring mangahulugang target o layunin sa ilang konteksto",
+      "ur": "بیگ / پشت پر اٹھانے والا تھیلا / ہدف – عام طور پر ایک بیگ یا بیک پیک کے لیے استعمال ہوتا ہے؛ کچھ سیاق و سباق میں ہدف یا نشانہ بھی",
+      "vi": "Túi / ba lô / mục tiêu – thường dùng để chỉ túi xách hoặc ba lô; trong một số ngữ cảnh cũng có thể nghĩa là mục tiêu",
+      "zh": "包 / 背包 / 目标 – 通常指袋子或背包；在某些语境下也可以表示目标",
+      "zh_Hant": "包 / 背包 / 目標 – 通常指袋子或背包；在某些語境下也可以表示目標"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pâo",
+    "examples": [
+      {
+        "lao_script": "ເປົ້າຂອງຂ້ອຍຢູ່ໃສ",
+        "romanization": "pâo kʰɔːŋ kʰɔːj juː saː",
+        "translations": {
+          "de": "Wo ist meine Tasche?",
+          "en": "Where is my bag?",
+          "es": "¿Dónde está mi bolsa?",
+          "fr": "Où est mon sac ?",
+          "hi": "मेरा बैग कहाँ है?",
+          "ja": "私のバッグはどこですか？",
+          "km": "កាបូបរបស់ខ្ញុំនៅឯណា?",
+          "ko": "내 가방 어디 있어?",
+          "ne": "मेरो झोला कहाँ छ?",
+          "pt": "Onde está minha bolsa?",
+          "th": "เป้าของฉันอยู่ไหน",
+          "tl": "Nasaan ang aking bag?",
+          "ur": "میرا بیگ کہاں ہے؟",
+          "vi": "Cái túi của tao đâu rồi?",
+          "zh": "我的包在哪里？",
+          "zh_Hant": "我的包在哪裡？"
+        },
+        "out_of_scope_words": [
+          "ຂອງ",
+          "ຂ້ອຍ",
+          "ຢູ່ໃສ"
+        ]
+      },
+      {
+        "lao_script": "ເປົ້ານີ້ໜັກຫຼາຍ ໃສ່ຫຍັງໄວ້",
+        "romanization": "pâo niː nak laːj sâj ɲǎŋ wâj",
+        "translations": {
+          "de": "Diese Tasche ist sehr schwer. Was hast du da reingepackt?",
+          "en": "This bag is really heavy. What did you put in it?",
+          "es": "Esta bolsa está muy pesada. ¿Qué le pusiste?",
+          "fr": "Ce sac est vraiment lourd. Qu'est-ce que tu as mis dedans ?",
+          "hi": "यह बैग बहुत भारी है। इसमें क्या रखा है?",
+          "ja": "このバッグ、すごく重いね。何を入れたの？",
+          "km": "កាបូបនេះធ្ងន់ណាស់ ដាក់អ្វីទុក?",
+          "ko": "이 가방 엄청 무겁네. 뭐 넣어뒀어?",
+          "ne": "यो झोला धेरै गह्रौं छ। के राखेको?",
+          "pt": "Esta bolsa está muito pesada. O que você colocou nela?",
+          "th": "เป้าใบนี้หนักมากเลย ใส่อะไรไว้",
+          "tl": "Ang bag na ito ay napabigat. Ano ang nilagay mo?",
+          "ur": "یہ بیگ بہت بھاری ہے۔ اس میں کیا رکھا ہے؟",
+          "vi": "Cái túi này nặng quá. Bỏ gì vào vậy?",
+          "zh": "这个包好重啊。你放了什么？",
+          "zh_Hant": "這個包好重啊。你放了什麼？"
+        },
+        "out_of_scope_words": [
+          "ນີ້",
+          "ໜັກ",
+          "ຫຼາຍ",
+          "ໃສ່",
+          "ຫຍັງ",
+          "ໄວ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a colorful backpack or shoulder bag sitting upright, with visible straps and a zipper, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແດງ": {
+    "definitions": {
+      "de": "Rot – die Farbe Rot; ein Farbwort, das die Farbe des Blutes oder einer reifen Tomate beschreibt",
+      "en": "Red – the color red; a color adjective describing the color of blood or a ripe tomato",
+      "es": "Rojo – el color rojo; adjetivo de color que describe el color de la sangre o un tomate maduro",
+      "fr": "Rouge – la couleur rouge ; un adjectif de couleur décrivant la couleur du sang ou d'une tomate mûre",
+      "hi": "लाल – लाल रंग; खून या पके हुए टमाटर के रंग को बताने वाला विशेषण",
+      "ja": "赤（あか）– 赤色；血液や熟したトマトのような色を表す色彩形容詞",
+      "km": "ក្រហម – ពណ៌ក្រហម; គុណនាមពណ៌ដែលពណ៌នាពណ៌ឈាម ឬប៉េងប៉ោះ익은",
+      "ko": "빨간색 / 빨갛다 – 빨간색; 피나 잘 익은 토마토의 색을 나타내는 색깔 형용사",
+      "ne": "रातो – रातो रङ; रगत वा पाकेको टमाटरको रङलाई वर्णन गर्ने रङ विशेषण",
+      "pt": "Vermelho – a cor vermelha; adjetivo de cor que descreve a cor do sangue ou de um tomate maduro",
+      "th": "แดง – สีแดง คำคุณศัพท์สีที่ใช้อธิบายสีของเลือดหรือมะเขือเทศสุก",
+      "tl": "Pula – ang kulay pula; isang pangngalang pangkulay na naglalarawan ng kulay ng dugo o isang hinog na kamatis",
+      "ur": "سرخ – سرخ رنگ؛ ایک رنگ صفت جو خون یا پکے ٹماٹر کے رنگ کو بیان کرتا ہے",
+      "vi": "Màu đỏ – màu đỏ; tính từ chỉ màu sắc mô tả màu của máu hoặc quả cà chua chín",
+      "zh": "红色 – 红色；描述血液或成熟番茄颜色的颜色形容词",
+      "zh_Hant": "紅色 – 紅色；描述血液或成熟番茄顏色的顏色形容詞"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "dɛːŋ",
+    "examples": [
+      {
+        "lao_script": "ເສື້ອຂອງເຈົ້າສີແດງສວຍດີ",
+        "romanization": "sʉ̂a kʰɔːŋ tɕâo siː dɛːŋ suːaj diː",
+        "translations": {
+          "de": "Dein rotes Hemd sieht wirklich schön aus.",
+          "en": "Your red shirt looks really nice.",
+          "es": "Tu camisa roja se ve muy bonita.",
+          "fr": "Ta chemise rouge est vraiment jolie.",
+          "hi": "तुम्हारी लाल कमीज़ बहुत सुंदर लग रही है।",
+          "ja": "あなたの赤いシャツ、とてもきれいだね。",
+          "km": "អាវពណ៌ក្រហមរបស់អ្នកស្អាតណាស់។",
+          "ko": "네 빨간 셔츠 정말 예쁘다.",
+          "ne": "तिम्रो रातो कमिज साह्रै सुन्दर छ।",
+          "pt": "Sua camisa vermelha ficou muito bonita.",
+          "th": "เสื้อสีแดงของแกสวยดีนะ",
+          "tl": "Ang iyong pulang damit ay talagang maganda.",
+          "ur": "تمہاری لال قمیض بہت خوبصورت لگ رہی ہے۔",
+          "vi": "Cái áo màu đỏ của mày đẹp lắm.",
+          "zh": "你的红色衬衫看起来真好看。",
+          "zh_Hant": "你的紅色襯衫看起來真好看。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ",
+          "ຂອງ",
+          "ເຈົ້າ",
+          "ສີ",
+          "ສວຍ",
+          "ດີ"
+        ]
+      },
+      {
+        "lao_script": "ດອກໄມ້ນັ້ນແດງຫຼາຍ",
+        "romanization": "dɔːk maːj nan dɛːŋ laːj",
+        "translations": {
+          "de": "Diese Blume ist sehr rot.",
+          "en": "That flower is really red.",
+          "es": "Esa flor es muy roja.",
+          "fr": "Cette fleur est vraiment rouge.",
+          "hi": "वो फूल बहुत लाल है।",
+          "ja": "あの花、すごく赤いね。",
+          "km": "ផ្កានោះក្រហមណាស់។",
+          "ko": "저 꽃 진짜 빨갛다.",
+          "ne": "त्यो फूल धेरै रातो छ।",
+          "pt": "Aquela flor é muito vermelha.",
+          "th": "ดอกไม้นั้นแดงมากเลย",
+          "tl": "Ang bulaklak na iyon ay napakapula.",
+          "ur": "وہ پھول بہت سرخ ہے۔",
+          "vi": "Bông hoa đó đỏ lắm.",
+          "zh": "那朵花非常红。",
+          "zh_Hant": "那朵花非常紅。"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້",
+          "ນັ້ນ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bold red color swatch or a vibrant red apple and a red heart side by side, clearly showcasing the color red, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼື",
+  "definitions": {
+    "de": "oder (disjunktive Konjunktion); oder? (am Satzende, Fragepartikel)",
+    "en": "or (disjunctive conjunction); (sentence-final) 'or what?' question particle",
+    "es": "o (conjunción disyuntiva); (al final de oración) partícula interrogativa",
+    "fr": "ou (conjonction disjonctive); (en fin de phrase) particule interrogative",
+    "hi": "या (विकल्प-सूचक); (वाक्य के अंत में) प्रश्न कण",
+    "ja": "または／〜か（選択の接続詞・文末疑問）",
+    "km": "ឬ (ឈ្នាប់បង្ហាញជម្រើស)",
+    "ko": "또는／~나요? (선택 접속사 또는 문말 의문 조사)",
+    "ne": "वा／कि (विकल्प वा प्रश्नसूचक)",
+    "pt": "ou (conjunção disjuntiva); (final de frase) partícula interrogativa",
+    "th": "หรือ (คำเชื่อมบอกทางเลือก หรือคำลงท้ายถาม)",
+    "tl": "o／kaya (pangatnig na nagpapahayag ng pagpili)",
+    "ur": "یا (متبادل ظاہر کرنے والا ربط)",
+    "vi": "hoặc; hay (liên từ chỉ lựa chọn)",
+    "zh": "或／还是（选择连词或句末疑问）",
+    "zh_Hant": "或／還是（選擇連詞或句末疑問）"
+  },
+  "definition_en": "or (disjunctive conjunction); (sentence-final) 'or what?' question particle",
+  "romanization": "lɯ̌ː",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າ ຢາກ ກິນ ເຂົ້າ ຫຼື ກ໋ວຍຕຽວ?",
+      "romanization": "càw jȁːk kìn kʰȁw lɯ̌ː kùːəj.tìːəw",
+      "translation_en": "Do you want to eat rice or noodles?"
+    },
+    {
+      "lao_script": "ໄປ ຫຼື ບໍ່?",
+      "romanization": "pàj lɯ̌ː bɔ̀ː",
+      "translation_en": "Are you going or not?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a fork in a road with two signs pointing in different directions, representing a choice, suitable for a language learning app, clean white background, minimalist style."
+}

@@ -1,0 +1,393 @@
+{
+  "ຫ້ອງ": {
+    "definitions": {
+      "de": "Zimmer, Raum – ein abgegrenzter Bereich innerhalb eines Gebäudes",
+      "en": "Room – an enclosed space within a building, such as a bedroom or classroom",
+      "es": "Habitación – espacio cerrado dentro de un edificio, como un dormitorio o aula",
+      "fr": "Pièce, salle – espace délimité à l'intérieur d'un bâtiment, comme une chambre ou une salle de classe",
+      "hi": "कमरा – किसी इमारत के अंदर एक बंद जगह, जैसे बेडरूम या कक्षा",
+      "ja": "部屋 – 建物の中の仕切られた空間。寝室や教室など",
+      "km": "បន្ទប់ – ទីកន្លែងដែលបិទជិតនៅក្នុងអាគារ ដូចជាបន្ទប់គេង ឬថ្នាក់រៀន",
+      "ko": "방 – 건물 안의 구획된 공간. 침실이나 교실 등",
+      "ne": "कोठा – भवनभित्रको बन्द ठाउँ, जस्तै सुत्ने कोठा वा कक्षाकोठा",
+      "pt": "Quarto, sala – espaço fechado dentro de um edifício, como um dormitório ou sala de aula",
+      "th": "ห้อง – พื้นที่ปิดล้อมภายในอาคาร เช่น ห้องนอนหรือห้องเรียน",
+      "tl": "Silid – isang saradong espasyo sa loob ng isang gusali, tulad ng kwarto o silid-aralan",
+      "ur": "کمرہ – کسی عمارت کے اندر ایک بند جگہ، جیسے سونے کا کمرہ یا کلاس روم",
+      "vi": "Phòng – không gian kín trong một tòa nhà, chẳng hạn như phòng ngủ hoặc phòng học",
+      "zh": "房间 – 建筑物内的封闭空间，如卧室或教室",
+      "zh_Hant": "房間 – 建築物內的封閉空間，如臥室或教室"
+    },
+    "part_of_speech": "noun",
+    "romanization": "hɔ̂ŋ",
+    "examples": [
+      {
+        "lao_script": "ຫ້ອງຂອງຂ້ອຍຢູ່ຊັ້ນສອງ",
+        "romanization": "hɔ̂ŋ khɔ̌ŋ khɔ̂i yùu sán sɔ̌ŋ",
+        "translations": {
+          "de": "Mein Zimmer ist im zweiten Stock.",
+          "en": "My room is on the second floor.",
+          "es": "Mi habitación está en el segundo piso.",
+          "fr": "Ma chambre est au deuxième étage.",
+          "hi": "मेरा कमरा दूसरी मंजिल पर है।",
+          "ja": "私の部屋は2階にあります。",
+          "km": "បន្ទប់របស់ខ្ញុំនៅជាន់ទីពីរ។",
+          "ko": "제 방은 2층에 있어요.",
+          "ne": "मेरो कोठा दोस्रो तलामा छ।",
+          "pt": "Meu quarto fica no segundo andar.",
+          "th": "ห้องของฉันอยู่ชั้นสอง",
+          "tl": "Ang aking silid ay nasa ikalawang palapag.",
+          "ur": "میرا کمرہ دوسری منزل پر ہے۔",
+          "vi": "Phòng của tôi ở tầng hai.",
+          "zh": "我的房间在二楼。",
+          "zh_Hant": "我的房間在二樓。"
+        },
+        "out_of_scope_words": [
+          "ຊັ້ນສອງ"
+        ]
+      },
+      {
+        "lao_script": "ຫ້ອງນ້ຳຢູ່ໃສ?",
+        "romanization": "hɔ̂ŋ náam yùu sǎi",
+        "translations": {
+          "de": "Wo ist das Badezimmer?",
+          "en": "Where is the bathroom?",
+          "es": "¿Dónde está el baño?",
+          "fr": "Où sont les toilettes ?",
+          "hi": "बाथरूम कहाँ है?",
+          "ja": "トイレはどこですか？",
+          "km": "បន្ទប់ទឹកនៅឯណា?",
+          "ko": "화장실이 어디에 있어요?",
+          "ne": "बाथरूम कहाँ छ?",
+          "pt": "Onde fica o banheiro?",
+          "th": "ห้องน้ำอยู่ที่ไหน?",
+          "tl": "Nasaan ang banyo?",
+          "ur": "باتھ روم کہاں ہے؟",
+          "vi": "Nhà vệ sinh ở đâu?",
+          "zh": "洗手间在哪里？",
+          "zh_Hant": "洗手間在哪裡？"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງນ້ຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cozy room interior with a bed, window, and small desk, viewed from the doorway. Clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເອກ": {
+    "definitions": {
+      "de": "Erst-, Haupt-, Prima- – Präfix oder Adjektiv für 'erster Rang' oder 'vorrangig'; meist in formellen Zusammensetzungen verwendet",
+      "en": "First, prime, primary – used to indicate the highest rank or most important; mostly appears in formal compound words",
+      "es": "Primero, principal – indica el rango más alto o lo más importante; usado principalmente en compuestos formales",
+      "fr": "Premier, principal – indique le rang le plus élevé ou le plus important ; utilisé surtout dans les composés formels",
+      "hi": "प्रथम, मुख्य – सर्वोच्च दर्जे या सबसे महत्वपूर्ण को दर्शाता है; अधिकतर औपचारिक यौगिक शब्दों में प्रयुक्त",
+      "ja": "第一、主要 – 最高位または最も重要であることを示す。主に正式な複合語に使われる",
+      "km": "ទីមួយ, សំខាន់ – បង្ហាញថ្នាក់ខ្ពស់បំផុត ឬសំខាន់បំផុត; ភាគច្រើនប្រើក្នុងពាក្យផ្សំផ្លូវការ",
+      "ko": "제일, 주요한 – 가장 높은 등급이나 가장 중요함을 나타냄. 주로 공식적인 복합어에 사용됨",
+      "ne": "प्रथम, मुख्य – सर्वोच्च पद वा सबैभन्दा महत्त्वपूर्णलाई जनाउँछ; प्रायः औपचारिक यौगिक शब्दहरूमा प्रयोग हुन्छ",
+      "pt": "Primeiro, principal – indica o mais alto grau ou o mais importante; usado principalmente em compostos formais",
+      "th": "ที่หนึ่ง, หลัก, เอก – ใช้บ่งบอกอันดับสูงสุดหรือสำคัญที่สุด มักปรากฏในคำประสมที่เป็นทางการ",
+      "tl": "Una, pangunahin – nagpapahiwatig ng pinakamataas na antas o pinaka-importanteng bagay; kadalasang ginagamit sa mga pormal na salitang tambalan",
+      "ur": "اول، بنیادی – سب سے اعلیٰ درجے یا سب سے اہم کو ظاہر کرتا ہے؛ زیادہ تر رسمی مرکب الفاظ میں استعمال ہوتا ہے",
+      "vi": "Nhất, chính, hàng đầu – chỉ cấp bậc cao nhất hoặc quan trọng nhất; thường xuất hiện trong các từ ghép trang trọng",
+      "zh": "第一、主要 – 表示最高级别或最重要的；多用于正式复合词中",
+      "zh_Hant": "第一、主要 – 表示最高級別或最重要的；多用於正式複合詞中"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "ʔèːk",
+    "examples": [
+      {
+        "lao_script": "ລາວເປັນນັກຮຽນເອກຂອງໂຮງຮຽນນີ້",
+        "romanization": "láo pen nák hían ʔèːk khɔ̌ŋ hóːŋ hían níi",
+        "translations": {
+          "de": "Er/Sie ist der/die Klassenbeste dieser Schule.",
+          "en": "He/She is the top student of this school.",
+          "es": "Él/Ella es el/la mejor estudiante de esta escuela.",
+          "fr": "Il/Elle est le/la meilleur(e) élève de cette école.",
+          "hi": "वह इस स्कूल का/की सर्वश्रेष्ठ छात्र/छात्रा है।",
+          "ja": "彼/彼女はこの学校のトップ学生です。",
+          "km": "គាត់ជានិស្សិតលេខមួយនៃសាលារៀននេះ។",
+          "ko": "그/그녀는 이 학교의 최우수 학생입니다.",
+          "ne": "उ यस विद्यालयको सर्वोत्कृष्ट विद्यार्थी हो।",
+          "pt": "Ele/Ela é o/a melhor aluno(a) desta escola.",
+          "th": "เขา/เธอเป็นนักเรียนเอกของโรงเรียนนี้",
+          "tl": "Siya ang pinakamahusay na estudyante ng paaralang ito.",
+          "ur": "وہ اس اسکول کا/کی سب سے بہترین طالب علم ہے۔",
+          "vi": "Anh/Cô ấy là học sinh xuất sắc nhất của trường này.",
+          "zh": "他/她是这所学校的优等生。",
+          "zh_Hant": "他/她是這所學校的優等生。"
+        },
+        "out_of_scope_words": [
+          "ນັກຮຽນ",
+          "ໂຮງຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ສາຍເອກຂອງລາວຄືດົນຕີ",
+        "romanization": "sǎːi ʔèːk khɔ̌ŋ láo khɯ̌ː don tìː",
+        "translations": {
+          "de": "Sein/Ihr Hauptfach ist Musik.",
+          "en": "His/Her major is music.",
+          "es": "Su especialidad principal es la música.",
+          "fr": "Sa spécialité principale est la musique.",
+          "hi": "उसका मुख्य विषय संगीत है।",
+          "ja": "彼/彼女の専攻は音楽です。",
+          "km": "មុខវិជ្ជាចម្បងរបស់គាត់គឺតន្ត្រី។",
+          "ko": "그/그녀의 전공은 음악입니다.",
+          "ne": "उसको मुख्य विषय संगीत हो।",
+          "pt": "A especialidade principal dele/dela é música.",
+          "th": "สายเอกของเขา/เธอคือดนตรี",
+          "tl": "Ang kanyang pangunahing kurso ay musika.",
+          "ur": "اس کا بنیادی مضمون موسیقی ہے۔",
+          "vi": "Chuyên ngành chính của anh/cô ấy là âm nhạc.",
+          "zh": "他/她的主修是音乐。",
+          "zh_Hant": "他/她的主修是音樂。"
+        },
+        "out_of_scope_words": [
+          "ສາຍ",
+          "ດົນຕີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a gold number one medal or first-place ribbon with a star, symbolizing 'prime' or 'first rank'. Clean white background, bright gold and blue colors, minimalist style suitable for a language learning app.",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ທົ່ວ": {
+    "definitions": {
+      "de": "Überall, durch und durch, im ganzen – gibt an, dass etwas alle Orte oder alle Teile umfasst",
+      "en": "Throughout, all over, everywhere – indicates something covers all places or all parts of something",
+      "es": "Por todo, en todas partes – indica que algo abarca todos los lugares o todas las partes de algo",
+      "fr": "Partout, dans tout – indique que quelque chose couvre tous les endroits ou toutes les parties de quelque chose",
+      "hi": "हर जगह, पूरे में – यह दर्शाता है कि कोई चीज़ सभी स्थानों या किसी चीज़ के सभी भागों को समेटती है",
+      "ja": "至る所に、全体にわたって – 何かがすべての場所またはある物の全体をカバーすることを示す",
+      "km": "ទូទាំង, គ្រប់ទិសទី – បង្ហាញថាអ្វីមួយគ្របដណ្ដប់លើទីកន្លែងទាំងអស់ ឬគ្រប់ផ្នែកទាំងអស់",
+      "ko": "전체에, 곳곳에 – 무언가가 모든 장소 또는 어떤 것의 모든 부분을 포함함을 나타냄",
+      "ne": "सर्वत्र, सबैतिर – कुनै चीज सबै ठाउँ वा कुनै वस्तुका सबै भागहरू ओगट्छ भन्ने जनाउँछ",
+      "pt": "Por todo, em toda parte – indica que algo abrange todos os lugares ou todas as partes de algo",
+      "th": "ทั่ว, ตลอดทั่ว – บ่งบอกว่าสิ่งใดสิ่งหนึ่งครอบคลุมทุกสถานที่หรือทุกส่วนของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Sa buong, sa lahat ng dako – nagpapahiwatig na ang isang bagay ay sumasaklaw sa lahat ng lugar o bahagi ng isang bagay",
+      "ur": "ہر جگہ، پوری طرح – اشارہ کرتا ہے کہ کوئی چیز تمام جگہوں یا کسی چیز کے تمام حصوں کو شامل کرتی ہے",
+      "vi": "Khắp nơi, toàn bộ – chỉ ra rằng điều gì đó bao phủ tất cả các nơi hoặc tất cả các phần của điều gì đó",
+      "zh": "到处，遍及 – 表示某事物覆盖所有地方或某物的所有部分",
+      "zh_Hant": "到處，遍及 – 表示某事物覆蓋所有地方或某物的所有部分"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "tʰùa",
+    "examples": [
+      {
+        "lao_script": "ຄົນທົ່ວໂລກຮັກດົນຕີ",
+        "romanization": "khon tʰùa lóːk hák don tìː",
+        "translations": {
+          "de": "Menschen auf der ganzen Welt lieben Musik.",
+          "en": "People all over the world love music.",
+          "es": "La gente de todo el mundo ama la música.",
+          "fr": "Les gens du monde entier aiment la musique.",
+          "hi": "पूरी दुनिया के लोग संगीत से प्यार करते हैं।",
+          "ja": "世界中の人々が音楽を愛しています。",
+          "km": "មនុស្សទូទាំងពិភពលោកចូលចិត្តតន្ត្រី។",
+          "ko": "전 세계 사람들이 음악을 사랑해요.",
+          "ne": "संसारभरका मानिसहरूले संगीत मन पराउँछन्।",
+          "pt": "Pessoas de todo o mundo amam música.",
+          "th": "คนทั่วโลกรักดนตรี",
+          "tl": "Ang mga tao sa buong mundo ay nagmamahal ng musika.",
+          "ur": "دنیا بھر کے لوگ موسیقی سے محبت کرتے ہیں۔",
+          "vi": "Người dân khắp thế giới đều yêu thích âm nhạc.",
+          "zh": "全世界的人都喜爱音乐。",
+          "zh_Hant": "全世界的人都喜愛音樂。"
+        },
+        "out_of_scope_words": [
+          "ໂລກ",
+          "ດົນຕີ"
+        ]
+      },
+      {
+        "lao_script": "ຝົນຕົກທົ່ວເມືອງເລີຍ",
+        "romanization": "fon tok tʰùa mɯ̄aŋ ləːi",
+        "translations": {
+          "de": "Es regnet überall in der Stadt.",
+          "en": "It's raining all over the city.",
+          "es": "Está lloviendo por toda la ciudad.",
+          "fr": "Il pleut partout dans la ville.",
+          "hi": "पूरे शहर में बारिश हो रही है।",
+          "ja": "街中雨が降っています。",
+          "km": "ភ្លៀងធ្លាក់ទូទាំងទីក្រុងទៅហើយ។",
+          "ko": "도시 전체에 비가 내리고 있어요.",
+          "ne": "सहर भरि पानी परिरहेको छ।",
+          "pt": "Está chovendo por toda a cidade.",
+          "th": "ฝนตกทั่วเมืองเลย",
+          "tl": "Umuulan sa buong lungsod.",
+          "ur": "پورے شہر میں بارش ہو رہی ہے۔",
+          "vi": "Trời đang mưa khắp cả thành phố.",
+          "zh": "整座城市都在下雨。",
+          "zh_Hant": "整座城市都在下雨。"
+        },
+        "out_of_scope_words": [
+          "ຝົນ",
+          "ເມືອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a globe or map with small icons spread across every part of it, representing 'all over' or 'throughout'. Clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແກ້": {
+    "definitions": {
+      "de": "Reparieren, lösen, beheben – ein Problem oder einen Fehler beheben oder eine Situation verbessern",
+      "en": "To fix, solve, or repair – to correct a problem, mend something broken, or find a solution",
+      "es": "Arreglar, resolver, reparar – corregir un problema, reparar algo roto o encontrar una solución",
+      "fr": "Réparer, résoudre, arranger – corriger un problème, réparer quelque chose de cassé ou trouver une solution",
+      "hi": "ठीक करना, सुधारना, हल करना – किसी समस्या को ठीक करना, टूटी हुई चीज़ को सुधारना, या समाधान निकालना",
+      "ja": "直す、修理する、解決する – 問題を修正したり、壊れたものを直したり、解決策を見つけること",
+      "km": "ជួសជុល, ដោះស្រាយ – កែលំអបញ្ហា ជួសជុលអ្វីដែលខូច ឬរកដំណោះស្រាយ",
+      "ko": "고치다, 해결하다, 수리하다 – 문제를 수정하거나 고장난 것을 수리하거나 해결책을 찾는 것",
+      "ne": "ठीक गर्नु, समाधान गर्नु, मर्मत गर्नु – कुनै समस्या सुधार्नु, टुटेको चीज ठीक गर्नु, वा समाधान खोज्नु",
+      "pt": "Consertar, resolver, reparar – corrigir um problema, consertar algo quebrado ou encontrar uma solução",
+      "th": "แก้, ซ่อม, แก้ไข – แก้ไขปัญหา ซ่อมสิ่งที่เสียหาย หรือหาทางออก",
+      "tl": "Ayusin, lutasin, kumpunihin – itama ang isang problema, ayusin ang isang bagay na sira, o humanap ng solusyon",
+      "ur": "ٹھیک کرنا، حل کرنا، مرمت کرنا – کسی مسئلے کو درست کرنا، ٹوٹی ہوئی چیز کو ٹھیک کرنا، یا حل تلاش کرنا",
+      "vi": "Sửa, giải quyết, khắc phục – sửa chữa một vấn đề, sửa thứ gì đó bị hỏng, hoặc tìm ra giải pháp",
+      "zh": "修理，解决，修正 – 纠正问题、修好损坏的东西或找到解决方案",
+      "zh_Hant": "修理，解決，修正 – 糾正問題、修好損壞的東西或找到解決方案"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kɛ̂ː",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍແກ້ຄອມຂ້ອຍແດ່ໄດ້ບໍ?",
+        "romanization": "sùai kɛ̂ː khɔ́m khɔ̂i dɛ̀ː dâi bɔ̌ː",
+        "translations": {
+          "de": "Kannst du mir bitte meinen Computer reparieren?",
+          "en": "Can you please fix my computer?",
+          "es": "¿Puedes arreglarme la computadora, por favor?",
+          "fr": "Tu peux réparer mon ordinateur s'il te plaît ?",
+          "hi": "क्या आप मेरा कंप्यूटर ठीक कर सकते हैं?",
+          "ja": "私のコンピューターを直してもらえますか？",
+          "km": "អាចជួយជួសជុលកុំព្យូទ័ររបស់ខ្ញុំបានទេ?",
+          "ko": "제 컴퓨터 좀 고쳐줄 수 있어요?",
+          "ne": "मेरो कम्प्युटर ठीक गरिदिन सक्नुहुन्छ?",
+          "pt": "Você pode consertar meu computador, por favor?",
+          "th": "ช่วยแก้คอมฉันหน่อยได้ไหม?",
+          "tl": "Maaari mo bang ayusin ang aking computer?",
+          "ur": "کیا آپ میرا کمپیوٹر ٹھیک کر سکتے ہیں؟",
+          "vi": "Bạn có thể sửa máy tính cho tôi không?",
+          "zh": "你能帮我修一下电脑吗？",
+          "zh_Hant": "你能幫我修一下電腦嗎？"
+        },
+        "out_of_scope_words": [
+          "ຄອມ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາແກ້ໂຈດຄະນິດສາດໄດ້ໄວຫຼາຍ",
+        "romanization": "khǎo kɛ̂ː jòːt kʰa nít sàːt dâi wâi lǎːi",
+        "translations": {
+          "de": "Er/Sie löst Matheaufgaben sehr schnell.",
+          "en": "He/She solves math problems very quickly.",
+          "es": "Él/Ella resuelve problemas de matemáticas muy rápido.",
+          "fr": "Il/Elle résout les problèmes de maths très vite.",
+          "hi": "वह गणित के सवाल बहुत जल्दी हल करता/करती है।",
+          "ja": "彼/彼女は数学の問題をとても速く解きます。",
+          "km": "គាត់ដោះស្រាយលំហាត់គណិតវិទ្យាបានលឿនណាស់។",
+          "ko": "그/그녀는 수학 문제를 아주 빨리 풀어요.",
+          "ne": "उसले गणितका समस्याहरू धेरै छिटो समाधान गर्छ।",
+          "pt": "Ele/Ela resolve problemas de matemática muito rapidamente.",
+          "th": "เขา/เธอแก้โจทย์คณิตศาสตร์ได้เร็วมาก",
+          "tl": "Napakabilis niyang solusyunan ang mga problema sa matematika.",
+          "ur": "وہ ریاضی کے مسائل بہت جلدی حل کرتا/کرتی ہے۔",
+          "vi": "Anh/Cô ấy giải bài toán rất nhanh.",
+          "zh": "他/她解数学题解得很快。",
+          "zh_Hant": "他/她解數學題解得很快。"
+        },
+        "out_of_scope_words": [
+          "ໂຈດ",
+          "ຄະນິດສາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person using a wrench to fix a broken gear or machine, symbolizing 'to fix or solve'. Clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫວຽດນາມ": {
+    "definitions": {
+      "de": "Vietnam – ein Land in Südostasien, das an Laos, China, Kambodscha und das Südchinesische Meer grenzt",
+      "en": "Vietnam – a country in Southeast Asia, bordering Laos, China, Cambodia, and the South China Sea",
+      "es": "Vietnam – país del sudeste asiático que limita con Laos, China, Camboya y el Mar del Sur de China",
+      "fr": "Viêt Nam – pays d'Asie du Sud-Est, bordant le Laos, la Chine, le Cambodge et la mer de Chine méridionale",
+      "hi": "वियतनाम – दक्षिण-पूर्व एशिया का एक देश, जो लाओस, चीन, कंबोडिया और दक्षिण चीन सागर से सटा हुआ है",
+      "ja": "ベトナム – 東南アジアの国で、ラオス、中国、カンボジア、南シナ海に接している",
+      "km": "វៀតណាម – ប្រទេសមួយនៅអាស៊ីអាគ្នេយ៍ ដែលនៅជាប់នឹងឡាវ ចិន កម្ពុជា និងសមុទ្រចិនខាងត្បូង",
+      "ko": "베트남 – 동남아시아에 위치한 나라로, 라오스, 중국, 캄보디아, 남중국해와 접해 있음",
+      "ne": "भियतनाम – दक्षिण-पूर्व एसियाको एक देश, जो लाओस, चीन, कम्बोडिया र दक्षिण चीन सागरसँग सिमाना जोडिएको छ",
+      "pt": "Vietnã – país do Sudeste Asiático, fazendo fronteira com Laos, China, Camboja e o Mar do Sul da China",
+      "th": "เวียดนาม – ประเทศในเอเชียตะวันออกเฉียงใต้ มีพรมแดนติดกับลาว จีน กัมพูชา และทะเลจีนใต้",
+      "tl": "Vietnam – isang bansa sa Timog-silangang Asya, na karatig ng Laos, China, Cambodia, at South China Sea",
+      "ur": "ویتنام – جنوب مشرقی ایشیا کا ایک ملک جو لاؤس، چین، کمبوڈیا اور بحیرہ جنوبی چین سے ملحق ہے",
+      "vi": "Việt Nam – một quốc gia ở Đông Nam Á, giáp Lào, Trung Quốc, Campuchia và Biển Đông",
+      "zh": "越南 – 东南亚国家，与老挝、中国、柬埔寨接壤，东临南海",
+      "zh_Hant": "越南 – 東南亞國家，與寮國、中國、柬埔寨接壤，東臨南海"
+    },
+    "part_of_speech": "noun",
+    "romanization": "wǐat náːm",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກໄປຫວຽດນາມເທື່ອໜຶ່ງ",
+        "romanization": "khɔ̂i yàːk pai wǐat náːm tʰɯ̄a nɯ̄ng",
+        "translations": {
+          "de": "Ich möchte einmal nach Vietnam fahren.",
+          "en": "I want to go to Vietnam someday.",
+          "es": "Quiero ir a Vietnam algún día.",
+          "fr": "Je veux aller au Viêt Nam un jour.",
+          "hi": "मैं किसी दिन वियतनाम जाना चाहता/चाहती हूँ।",
+          "ja": "いつかベトナムに行ってみたいです。",
+          "km": "ខ្ញុំចង់ទៅវៀតណាមម្ដង។",
+          "ko": "나는 언젠가 베트남에 가고 싶어요.",
+          "ne": "म एक दिन भियतनाम जान चाहन्छु।",
+          "pt": "Eu quero ir ao Vietnã algum dia.",
+          "th": "ฉันอยากไปเวียดนามสักครั้ง",
+          "tl": "Gusto kong pumunta sa Vietnam balang araw.",
+          "ur": "میں کسی دن ویتنام جانا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn đi Việt Nam một lần.",
+          "zh": "我想有一天去越南。",
+          "zh_Hant": "我想有一天去越南。"
+        },
+        "out_of_scope_words": [
+          "ເທື່ອໜຶ່ງ"
+        ]
+      },
+      {
+        "lao_script": "ອາຫານຫວຽດນາມແຊບຫຼາຍ",
+        "romanization": "ʔaː hǎːn wǐat náːm sɛ̂ːp lǎːi",
+        "translations": {
+          "de": "Vietnamesisches Essen ist sehr lecker.",
+          "en": "Vietnamese food is very delicious.",
+          "es": "La comida vietnamita es muy deliciosa.",
+          "fr": "La cuisine vietnamienne est très délicieuse.",
+          "hi": "वियतनामी खाना बहुत स्वादिष्ट है।",
+          "ja": "ベトナム料理はとてもおいしいです。",
+          "km": "អាហារវៀតណាមមានរសជាតិឆ្ងាញ់ខ្លាំងណាស់។",
+          "ko": "베트남 음식은 정말 맛있어요.",
+          "ne": "भियतनामी खाना धेरै मिठो छ।",
+          "pt": "A comida vietnamita é muito deliciosa.",
+          "th": "อาหารเวียดนามอร่อยมาก",
+          "tl": "Napakasarap ng pagkaing Vietnamese.",
+          "ur": "ویتنامی کھانا بہت لذیذ ہوتا ہے۔",
+          "vi": "Đồ ăn Việt Nam rất ngon.",
+          "zh": "越南食物非常好吃。",
+          "zh_Hant": "越南食物非常好吃。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ແຊບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the map outline of Vietnam filled with the Vietnamese flag colors (red and yellow star), placed in a Southeast Asia context. Clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

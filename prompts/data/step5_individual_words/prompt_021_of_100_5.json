@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນ້ຳ",
+  "definitions": {
+    "de": "Wasser; klare, trinkbare Flüssigkeit",
+    "en": "Water; clear drinkable liquid essential for life",
+    "es": "Agua; líquido transparente y potable esencial para la vida",
+    "fr": "Eau; liquide transparent et potable essentiel à la vie",
+    "hi": "पानी; जीवन के लिए आवश्यक साफ पेय योग्य तरल",
+    "ja": "水；生命に不可欠な透明な飲料水",
+    "km": "ទឹក; រាវថ្លាដែលអាចផឹកបានและចំបាច់សម្រាប់ជីវិត",
+    "ko": "물; 생명에 필수적인 맑은 음료수",
+    "ne": "पानी; जीवनका लागि आवश्यक सफा पिउने तरल पदार्थ",
+    "pt": "Água; líquido claro e potável essencial para a vida",
+    "th": "น้ำ; ของเหลวใสที่ดื่มได้และจำเป็นต่อชีวิต",
+    "tl": "Tubig; malinaw na likidong maiinom at mahalaga para sa buhay",
+    "ur": "پانی؛ صاف پینے کے قابل مائع جو زندگی کے لیے ضروری ہے",
+    "vi": "Nước; chất lỏng trong suốt có thể uống được, cần thiết cho cuộc sống",
+    "zh": "水；清澈可饮用的液体，是生命必需品",
+    "zh_Hant": "水；清澈可飲用的液體，是生命必需品"
+  },
+  "definition_en": "Water; clear drinkable liquid essential for life",
+  "romanization": "nam",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ອນແທ້ ຂໍນ້ຳຈອກໜຶ່ງແດ່",
+      "romanization": "hon the, kho nam jok nung de",
+      "translation_en": "It's so hot, can I have a glass of water please?"
+    },
+    {
+      "lao_script": "ຢ່າລືມດື່ມນ້ຳຫຼາຍໆໃນວັນນີ້",
+      "romanization": "ya leum duem nam lai lai nai van nii",
+      "translation_en": "Don't forget to drink lots of water today."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clear glass of water with a few water droplets around it, suitable for a language learning app, clean white background, colorful blue tones, minimalist style."
+}

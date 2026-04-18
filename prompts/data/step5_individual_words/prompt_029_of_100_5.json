@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫວຽດນາມ",
+  "definitions": {
+    "de": "Vietnam – ein Land in Südostasien, das an Laos, China, Kambodscha und das Südchinesische Meer grenzt",
+    "en": "Vietnam – a country in Southeast Asia, bordering Laos, China, Cambodia, and the South China Sea",
+    "es": "Vietnam – país del sudeste asiático que limita con Laos, China, Camboya y el Mar del Sur de China",
+    "fr": "Viêt Nam – pays d'Asie du Sud-Est, bordant le Laos, la Chine, le Cambodge et la mer de Chine méridionale",
+    "hi": "वियतनाम – दक्षिण-पूर्व एशिया का एक देश, जो लाओस, चीन, कंबोडिया और दक्षिण चीन सागर से सटा हुआ है",
+    "ja": "ベトナム – 東南アジアの国で、ラオス、中国、カンボジア、南シナ海に接している",
+    "km": "វៀតណាម – ប្រទេសមួយនៅអាស៊ីអាគ្នេយ៍ ដែលនៅជាប់នឹងឡាវ ចិន កម្ពុជា និងសមុទ្រចិនខាងត្បូង",
+    "ko": "베트남 – 동남아시아에 위치한 나라로, 라오스, 중국, 캄보디아, 남중국해와 접해 있음",
+    "ne": "भियतनाम – दक्षिण-पूर्व एसियाको एक देश, जो लाओस, चीन, कम्बोडिया र दक्षिण चीन सागरसँग सिमाना जोडिएको छ",
+    "pt": "Vietnã – país do Sudeste Asiático, fazendo fronteira com Laos, China, Camboja e o Mar do Sul da China",
+    "th": "เวียดนาม – ประเทศในเอเชียตะวันออกเฉียงใต้ มีพรมแดนติดกับลาว จีน กัมพูชา และทะเลจีนใต้",
+    "tl": "Vietnam – isang bansa sa Timog-silangang Asya, na karatig ng Laos, China, Cambodia, at South China Sea",
+    "ur": "ویتنام – جنوب مشرقی ایشیا کا ایک ملک جو لاؤس، چین، کمبوڈیا اور بحیرہ جنوبی چین سے ملحق ہے",
+    "vi": "Việt Nam – một quốc gia ở Đông Nam Á, giáp Lào, Trung Quốc, Campuchia và Biển Đông",
+    "zh": "越南 – 东南亚国家，与老挝、中国、柬埔寨接壤，东临南海",
+    "zh_Hant": "越南 – 東南亞國家，與寮國、中國、柬埔寨接壤，東臨南海"
+  },
+  "definition_en": "Vietnam – a country in Southeast Asia, bordering Laos, China, Cambodia, and the South China Sea",
+  "romanization": "wǐat náːm",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກໄປຫວຽດນາມເທື່ອໜຶ່ງ",
+      "romanization": "khɔ̂i yàːk pai wǐat náːm tʰɯ̄a nɯ̄ng",
+      "translation_en": "I want to go to Vietnam someday."
+    },
+    {
+      "lao_script": "ອາຫານຫວຽດນາມແຊບຫຼາຍ",
+      "romanization": "ʔaː hǎːn wǐat náːm sɛ̂ːp lǎːi",
+      "translation_en": "Vietnamese food is very delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the map outline of Vietnam filled with the Vietnamese flag colors (red and yellow star), placed in a Southeast Asia context. Clean white background, bright colors, minimalist style suitable for a language learning app."
+}

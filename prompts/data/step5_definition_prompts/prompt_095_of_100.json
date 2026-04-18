@@ -1,0 +1,398 @@
+{
+  "ອຸດ": {
+    "definitions": {
+      "de": "Etwas stopfen, verstopfen oder zustecken; eine Öffnung oder ein Loch verschließen",
+      "en": "To plug, stuff, or block; to close or seal an opening or hole",
+      "es": "Tapar, rellenar o bloquear; cerrar u obstruir una abertura o agujero",
+      "fr": "Boucher, obstruer ou remplir; fermer ou colmater une ouverture ou un trou",
+      "hi": "किसी छेद या खुले स्थान को बंद करना, ठूंसना या भरना",
+      "ja": "穴や開口部を塞ぐ、詰める、または塞ぎ止める",
+      "km": "បិទ ដាក់ទ្រនុង ឬស្ទះ; បិទជិតរន្ធ ឬចន្លោះ",
+      "ko": "구멍이나 틈을 막다, 틀어막다, 또는 채워 넣다",
+      "ne": "कुनै प्वाल वा खुला ठाउँ बन्द गर्नु, ठोस्नु वा भर्नु",
+      "pt": "Tampar, entupir ou bloquear; fechar ou vedar uma abertura ou buraco",
+      "th": "อุด ยัด หรืออุดกั้น; ปิดหรือปิดผนึกช่องเปิดหรือรู",
+      "tl": "Tumapon, mag-ipit, o magtagpi; isara o tapunan ang isang butas o bukana",
+      "ur": "کسی سوراخ یا کھلی جگہ کو بند کرنا، ٹھونسنا یا بھرنا",
+      "vi": "Bịt, nhét hoặc chặn; đóng hoặc bịt kín một lỗ hổng hoặc khe hở",
+      "zh": "堵塞、填塞或封闭；关闭或密封一个开口或孔洞",
+      "zh_Hant": "堵塞、填塞或封閉；關閉或密封一個開口或孔洞"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔút/",
+    "examples": [
+      {
+        "lao_script": "ເອົາຜ້າອຸດຮູນັ້ນໄວ້ກ່ອນເດີ້",
+        "romanization": "ao pha ut hu nan wai kon doe",
+        "translations": {
+          "de": "Stopf das Loch erst mal mit einem Tuch zu.",
+          "en": "Use a cloth to plug that hole for now.",
+          "es": "Usa una tela para tapar ese agujero por ahora.",
+          "fr": "Bouche ce trou avec un tissu pour l'instant.",
+          "hi": "अभी के लिए उस छेद को कपड़े से बंद कर दो।",
+          "ja": "とりあえず布でその穴を塞いでおいて。",
+          "km": "យកក្រណាត់បិទរន្ធនោះជាមុនសិន។",
+          "ko": "일단 천으로 그 구멍 막아 놔.",
+          "ne": "अहिलेका लागि कपडाले त्यो प्वाल बन्द गर।",
+          "pt": "Use um pano para tampar esse buraco por enquanto.",
+          "th": "เอาผ้าอุดรูนั้นไว้ก่อนนะ",
+          "tl": "Gamitin ang tela para tapunan muna ang butas na iyon.",
+          "ur": "ابھی کے لیے اس سوراخ کو کپڑے سے بند کر دو۔",
+          "vi": "Dùng vải bịt lỗ đó lại trước đi.",
+          "zh": "先用布把那个洞堵上。",
+          "zh_Hant": "先用布把那個洞堵上。"
+        },
+        "out_of_scope_words": [
+          "ຜ້າ",
+          "ຮູ"
+        ]
+      },
+      {
+        "lao_script": "ນ້ຳຊືມ ຕ້ອງອຸດໃຫ້ດີໆ",
+        "romanization": "nam suem, tong ut hai di-di",
+        "translations": {
+          "de": "Das Wasser sickert durch — es muss richtig gut abgedichtet werden.",
+          "en": "The water is leaking — it needs to be plugged up properly.",
+          "es": "El agua está filtrándose — hay que taparlo bien.",
+          "fr": "L'eau s'infiltre — il faut bien boucher ça.",
+          "hi": "पानी रिस रहा है — इसे ठीक से बंद करना होगा।",
+          "ja": "水が漏れてる — ちゃんと塞がないといけない。",
+          "km": "ទឹករូតចេញ — ត្រូវបិទឱ្យបានល្អ។",
+          "ko": "물이 새고 있어 — 제대로 막아야 해.",
+          "ne": "पानी चुहिँदै छ — राम्ररी बन्द गर्नुपर्छ।",
+          "pt": "A água está vazando — precisa ser tampado direito.",
+          "th": "น้ำซึมอยู่ ต้องอุดให้ดีๆ",
+          "tl": "Tumatalsik ang tubig — kailangang tapunan nang maayos.",
+          "ur": "پانی رس رہا ہے — اسے اچھی طرح بند کرنا ہوگا۔",
+          "vi": "Nước đang rỉ — phải bịt cho kỹ vào.",
+          "zh": "水在渗漏——要好好堵住。",
+          "zh_Hant": "水在滲漏——要好好堵住。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ",
+          "ຊືມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand pressing a cork or cloth plug into a leaking hole in a pipe or wall, with water dripping, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮັດ": {
+    "definitions": {
+      "de": "Festziehen, straff binden oder zusammendrücken; etwas fest umschließen oder einschnüren",
+      "en": "To tighten, bind, or squeeze; to fasten or cinch something firmly around something else",
+      "es": "Apretar, atar o exprimir; sujetar o ceñir algo firmemente alrededor de algo",
+      "fr": "Serrer, attacher ou presser; fixer ou sangler quelque chose fermement autour de quelque chose",
+      "hi": "कसना, बांधना या दबाना; किसी चीज़ को किसी दूसरी चीज़ के चारों ओर मजबूती से कसना",
+      "ja": "締める、縛る、または絞る；何かをしっかりと固定したり締め付けたりする",
+      "km": "ខ្សត់ ចងឬបញ្ចុះ; ចងឬបិទជ្រុងអ្វីមួយឱ្យជាប់",
+      "ko": "조이다, 묶다, 또는 꽉 잡다; 무언가를 단단히 고정하거나 졸라매다",
+      "ne": "कस्नु, बाँध्नु वा निचोर्नु; कुनै चीज वरिपरि कडाइले बाँध्नु",
+      "pt": "Apertar, amarrar ou comprimir; prender ou cingir algo firmemente ao redor de algo",
+      "th": "รัด ผูก หรือบีบ; มัดหรือรัดสิ่งใดสิ่งหนึ่งอย่างแน่นหนา",
+      "tl": "Higpitan, itali, o pisilin; ikabit o bigkisin nang mahigpit ang isang bagay",
+      "ur": "کسنا، باندھنا یا نچوڑنا؛ کسی چیز کو مضبوطی سے کسی اور چیز کے گرد باندھنا",
+      "vi": "Siết chặt, buộc, hoặc bóp; thắt hoặc cột chặt thứ gì đó quanh thứ khác",
+      "zh": "收紧、捆绑或挤压；将某物紧紧固定或扎紧在另一物周围",
+      "zh_Hant": "收緊、捆綁或擠壓；將某物緊緊固定或扎緊在另一物周圍"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/hát/",
+    "examples": [
+      {
+        "lao_script": "ຮັດເຂັມຂັດໃຫ້ແໜ້ນໜ້ອຍ",
+        "romanization": "hat khem khat hai naen noi",
+        "translations": {
+          "de": "Zieh den Gürtel ein bisschen fester.",
+          "en": "Tighten your belt a little more.",
+          "es": "Aprieta el cinturón un poco más.",
+          "fr": "Serre un peu plus ta ceinture.",
+          "hi": "बेल्ट को थोड़ा और कस लो।",
+          "ja": "ベルトをもう少し締めて。",
+          "km": "ខ្សែក្រវ៉ាត់ឱ្យជាប់ជាងនេះបន្តិច។",
+          "ko": "허리띠를 좀 더 조여.",
+          "ne": "बेल्ट अलि अझ कस।",
+          "pt": "Aperte um pouco mais o cinto.",
+          "th": "รัดเข็มขัดให้แน่นหน่อยนะ",
+          "tl": "Higpitan mo nang kaunti ang sinturon.",
+          "ur": "بیلٹ کو تھوڑا اور کسو۔",
+          "vi": "Thắt thắt lưng chặt hơn một chút.",
+          "zh": "把腰带再系紧一点。",
+          "zh_Hant": "把腰帶再繫緊一點。"
+        },
+        "out_of_scope_words": [
+          "ເຂັມຂັດ",
+          "ແໜ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ຮັດເຊືອກໃຫ້ດີ ຢ່າໃຫ້ຫຼຸດ",
+        "romanization": "hat suea hai di, ya hai lud",
+        "translations": {
+          "de": "Binde das Seil gut fest, damit es sich nicht löst.",
+          "en": "Tie the rope tightly so it doesn't come undone.",
+          "es": "Ata la cuerda bien para que no se suelte.",
+          "fr": "Attache bien la corde pour qu'elle ne se défasse pas.",
+          "hi": "रस्सी को अच्छी तरह बाँधो ताकि वह खुले नहीं।",
+          "ja": "ロープをしっかり縛って、外れないようにして。",
+          "km": "ចងខ្សែឱ្យជាប់ មិនឱ្យវាខ្លាចចេញ។",
+          "ko": "줄을 잘 묶어서 풀리지 않게 해.",
+          "ne": "डोरी राम्ररी बाँध, खुल्न नदेऊ।",
+          "pt": "Amarre a corda bem para não soltar.",
+          "th": "รัดเชือกให้ดี อย่าให้หลุด",
+          "tl": "Itali nang mabuti ang lubid para hindi makalas.",
+          "ur": "رسی کو اچھی طرح باندھو تاکہ کھل نہ جائے۔",
+          "vi": "Buộc dây cho chắc, đừng để tuột.",
+          "zh": "把绳子绑好，不要让它松开。",
+          "zh_Hant": "把繩子綁好，不要讓它鬆開。"
+        },
+        "out_of_scope_words": [
+          "ເຊືອກ",
+          "ຫຼຸດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two hands tying and tightening a rope or belt around a bundle, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຕີນ": {
+    "definitions": {
+      "de": "Gehen (dialektale Variante von ຍ່າງ); zu Fuß gehen, typisch in bestimmten regionalen Dialekten des Laotischen verwendet",
+      "en": "To walk (dialectal variant of ຍ່າງ); used in certain regional Lao dialects to mean going on foot",
+      "es": "Caminar (variante dialectal de ຍ່າງ); utilizado en ciertos dialectos regionales del lao para indicar ir a pie",
+      "fr": "Marcher (variante dialectale de ຍ່າງ); utilisé dans certains dialectes régionaux du laotien pour dire aller à pied",
+      "hi": "चलना (ຍ່າງ का बोलीगत रूप); लाओ भाषा के कुछ क्षेत्रीय बोलियों में पैदल जाने के लिए प्रयुक्त",
+      "ja": "歩く（ຍ່າງの方言形）；ラオス語の一部の地域方言で徒歩で行くという意味で使われる",
+      "km": "ដើរ (ប្រភេទថ្នាំងនៃ ຍ່າງ); ប្រើក្នុងគ្រួសារភាសាឡាវតំបន់ខ្លះ ដើម្បីបញ្ជាក់ការដើរជើង",
+      "ko": "걷다 (ຍ່າງ의 방언형); 일부 지역 라오어 방언에서 걸어가다는 의미로 사용됨",
+      "ne": "हिँड्नु (ຍ່າງ को बोलीगत रूप); केही क्षेत्रीय लाओ बोलीहरूमा पैदल जानको लागि प्रयोग गरिन्छ",
+      "pt": "Caminhar (variante dialetal de ຍ່າງ); usado em certos dialetos regionais do laosiano para indicar ir a pé",
+      "th": "เดิน (รูปแบบภาษาถิ่นของ ຍ່າງ); ใช้ในภาษาลาวบางสำเนียงท้องถิ่นเพื่อหมายถึงการเดินด้วยเท้า",
+      "tl": "Lumakad (diyalektal na variant ng ຍ່າງ); ginagamit sa ilang rehiyonal na diyalekto ng Lao na nangangahulugang paglalakad",
+      "ur": "چلنا (ຍ່າງ کی بولی شکل)؛ کچھ علاقائی لاؤ بولیوں میں پیدل چلنے کے معنی میں استعمال ہوتا ہے",
+      "vi": "Đi bộ (biến thể phương ngữ của ຍ່າງ); được dùng trong một số phương ngữ Lào địa phương để chỉ việc đi bộ",
+      "zh": "走路（ຍ່າງ的方言变体）；在某些老挝地方方言中使用，表示步行",
+      "zh_Hant": "走路（ຍ່າງ的方言變體）；在某些老撾地方方言中使用，表示步行"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tə̄ːn/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ເຕີນໄປຕະຫຼາດເລີຍ ບໍ່ໄດ້ຂີ່ລົດ",
+        "romanization": "mue ni teon pai ta-lat loei, bo dai khi lot",
+        "translations": {
+          "de": "Heute bin ich einfach zum Markt gelaufen, bin nicht mit dem Motorrad gefahren.",
+          "en": "Today I just walked to the market, didn't ride the motorbike.",
+          "es": "Hoy fui caminando al mercado, no fui en moto.",
+          "fr": "Aujourd'hui j'ai juste marché jusqu'au marché, je n'ai pas pris la moto.",
+          "hi": "आज बस पैदल बाजार गया, मोटरसाइकिल नहीं चलाई।",
+          "ja": "今日は歩いて市場に行ったよ、バイクには乗らなかった。",
+          "km": "ថ្ងៃនេះខ្ញុំដើរទៅផ្សារទេ មិនបានជិះម៉ូតូ។",
+          "ko": "오늘은 그냥 걸어서 시장에 갔어, 오토바이 안 탔어.",
+          "ne": "आज बजार पैदल गएँ, मोटरसाइकल चढिनँ।",
+          "pt": "Hoje fui a pé ao mercado, não fui de moto.",
+          "th": "วันนี้เดินไปตลาดเลย ไม่ได้ขี่รถ",
+          "tl": "Ngayon lumakad lang ako papunta sa palengke, hindi sumakay ng motorsiklo.",
+          "ur": "آج بس پیدل بازار گیا، موٹرسائیکل نہیں چلائی۔",
+          "vi": "Hôm nay tôi đi bộ ra chợ luôn, không đi xe máy.",
+          "zh": "今天直接走路去市场，没骑摩托车。",
+          "zh_Hant": "今天直接走路去市場，沒騎摩托車。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ",
+          "ຂີ່",
+          "ລົດ"
+        ]
+      },
+      {
+        "lao_script": "ເຕີນກັນມາ ໄລຍະທາງໃກ້ຫຼາຍ",
+        "romanization": "teon kan ma, lai-ya-thang kai lai",
+        "translations": {
+          "de": "Lass uns zusammen laufen, es ist ganz nah.",
+          "en": "Let's walk together, it's very close.",
+          "es": "Caminemos juntos, está muy cerca.",
+          "fr": "Marchons ensemble, c'est tout près.",
+          "hi": "साथ चलते हैं, दूरी बहुत कम है।",
+          "ja": "一緒に歩こうよ、すごく近いから。",
+          "km": "ដើរជាមួយគ្នាមកទៅ ចម្ងាយនៅជិតណាស់។",
+          "ko": "같이 걸어가자, 거리가 아주 가까워.",
+          "ne": "सँगै हिँडौं, दूरी धेरै नजिक छ।",
+          "pt": "Vamos caminhar juntos, é bem perto.",
+          "th": "เดินมาด้วยกันเลย ระยะทางใกล้มาก",
+          "tl": "Sama-sama nating lakarin, napakalapit lang.",
+          "ur": "مل کر چلتے ہیں، فاصلہ بالکل کم ہے۔",
+          "vi": "Đi bộ cùng nhau đi, gần lắm.",
+          "zh": "一起走来嘛，距离很近的。",
+          "zh_Hant": "一起走來嘛，距離很近的。"
+        },
+        "out_of_scope_words": [
+          "ໄລຍະທາງ",
+          "ໃກ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking casually on a path, viewed from the side, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ເຝົ້າ": {
+    "definitions": {
+      "de": "Bewachen, beobachten oder hüten; jemanden oder etwas im Auge behalten, oft zum Schutz",
+      "en": "To watch over, guard, or keep an eye on someone or something; to stand watch or keep vigil",
+      "es": "Vigilar, cuidar o guardar; mantener un ojo en alguien o algo, a menudo para protegerlo",
+      "fr": "Surveiller, garder ou veiller sur; garder un œil sur quelqu'un ou quelque chose, souvent pour le protéger",
+      "hi": "किसी की देखभाल करना, पहरा देना या निगरानी रखना; किसी की रखवाली करना",
+      "ja": "見張る、守る、または目を離さずにいる；番をしたり見守ったりする",
+      "km": "ប្រុងប្រយ័ត្ន ការពារ ឬសំឡឹងមើល; ប្រុងមើលនរណាម្នាក់ ឬអ្វីមួយ ជាញឹកញាប់ដើម្បីការពារ",
+      "ko": "지키다, 감시하다, 또는 주시하다; 누군가나 무언가를 보호하기 위해 감시하거나 경계하다",
+      "ne": "हेर्नु, पहरा दिनु वा ध्यान राख्नु; कसैलाई वा केहीलाई प्राय: सुरक्षाका लागि हेर्नु",
+      "pt": "Vigiar, guardar ou tomar conta; ficar de olho em alguém ou algo, muitas vezes para proteger",
+      "th": "เฝ้าดู คุ้มกัน หรือระวังรักษา; คอยดูแลหรือเฝ้าระวังใครบางคนหรือสิ่งใดสิ่งหนึ่ง",
+      "tl": "Bantayan, ingatan, o alagaan; subaybayan ang isang tao o bagay, kadalasan para sa proteksyon",
+      "ur": "نگرانی کرنا، پہرہ دینا یا دیکھ بھال کرنا؛ کسی کی یا کسی چیز کی حفاظت کے لیے نظر رکھنا",
+      "vi": "Canh gác, trông chừng, hoặc theo dõi; đứng gác hoặc trông coi ai đó hay thứ gì đó",
+      "zh": "看守、守护或监视；照看或看护某人或某物，通常是为了保护",
+      "zh_Hant": "看守、守護或監視；照看或看護某人或某物，通常是為了保護"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/fāo/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍເຝົ້າເດັກນ້ອຍໄວ້ກ່ອນໄດ້ບໍ່",
+        "romanization": "suai fao dek noi wai kon dai bo",
+        "translations": {
+          "de": "Kannst du kurz auf das Kind aufpassen?",
+          "en": "Can you watch the little kid for a moment?",
+          "es": "¿Puedes cuidar al niño un momento?",
+          "fr": "Tu peux surveiller le petit enfant un instant ?",
+          "hi": "क्या तुम थोड़ी देर बच्चे पर नजर रख सकते हो?",
+          "ja": "ちょっと子供を見ててもらえる？",
+          "km": "ជួយមើលក្មេងតូចបន្តិចបានទេ?",
+          "ko": "잠깐 아이 좀 봐줄 수 있어?",
+          "ne": "अलिकति बच्चालाई हेरिदिन सक्छौ?",
+          "pt": "Você pode tomar conta da criança por um momento?",
+          "th": "ช่วยเฝ้าเด็กน้อยไว้ก่อนได้ไหม",
+          "tl": "Maaari mo bang bantayan ang bata sandali?",
+          "ur": "کیا تم تھوڑی دیر بچے کا خیال رکھ سکتے ہو؟",
+          "vi": "Giúp trông chừng đứa bé một chút được không?",
+          "zh": "能帮忙看一下小孩吗？",
+          "zh_Hant": "能幫忙看一下小孩嗎？"
+        },
+        "out_of_scope_words": [
+          "ເດັກນ້ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ຕ້ອງເຝົ້າເຮືອນໄວ້ ຢ່າໃຫ້ຄົນເຂົ້າ",
+        "romanization": "tong fao huan wai, ya hai khon khao",
+        "translations": {
+          "de": "Das Haus muss bewacht werden, lass keine Leute rein.",
+          "en": "You have to guard the house, don't let anyone come in.",
+          "es": "Tienes que vigilar la casa, no dejes entrar a nadie.",
+          "fr": "Il faut garder la maison, ne laisse entrer personne.",
+          "hi": "घर की रखवाली करनी है, किसी को अंदर मत आने देना।",
+          "ja": "家を見張っておいて、誰も入れないで。",
+          "km": "ត្រូវការពារផ្ទះ មិនឱ្យអ្នកណាចូល។",
+          "ko": "집을 지켜야 해, 아무도 들어오지 못하게 해.",
+          "ne": "घर पहरा दिनुपर्छ, कसैलाई भित्र आउन नदेऊ।",
+          "pt": "Tem que guardar a casa, não deixe ninguém entrar.",
+          "th": "ต้องเฝ้าบ้านไว้ อย่าให้คนเข้า",
+          "tl": "Kailangan mong bantayan ang bahay, huwag hayaang may makapasok.",
+          "ur": "گھر کی حفاظت کرنی ہے، کسی کو اندر نہ آنے دو۔",
+          "vi": "Phải canh nhà, đừng để ai vào.",
+          "zh": "要看守好房子，别让人进来。",
+          "zh_Hant": "要看守好房子，別讓人進來。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ຄົນ",
+          "ເຂົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing guard with arms crossed in front of a house or building, looking alert and watchful, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຢຍລະມັນ": {
+    "definitions": {
+      "de": "Deutschland; ein Land in Mitteleuropa",
+      "en": "Germany; a country in Central Europe",
+      "es": "Alemania; un país en Europa Central",
+      "fr": "Allemagne; un pays en Europe centrale",
+      "hi": "जर्मनी; मध्य यूरोप का एक देश",
+      "ja": "ドイツ；中央ヨーロッパの国",
+      "km": "អាល្លឺម៉ង់; ប្រទេសមួយនៅអឺរ៉ុបកណ្តាល",
+      "ko": "독일; 중부 유럽의 한 나라",
+      "ne": "जर्मनी; मध्य युरोपको एउटा देश",
+      "pt": "Alemanha; um país na Europa Central",
+      "th": "เยอรมนี; ประเทศในยุโรปกลาง",
+      "tl": "Alemanya; isang bansa sa Gitnang Europa",
+      "ur": "جرمنی؛ وسطی یورپ کا ایک ملک",
+      "vi": "Đức; một quốc gia ở Trung Âu",
+      "zh": "德国；中欧的一个国家",
+      "zh_Hant": "德國；中歐的一個國家"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/jīa.la.mán/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍໄປຮຽນຢູ່ເຢຍລະມັນ",
+        "romanization": "phuean khong khoi pai hian yu Yia-la-man",
+        "translations": {
+          "de": "Mein Freund ist zum Studieren nach Deutschland gegangen.",
+          "en": "My friend went to study in Germany.",
+          "es": "Mi amigo fue a estudiar a Alemania.",
+          "fr": "Mon ami est parti étudier en Allemagne.",
+          "hi": "मेरा दोस्त जर्मनी में पढ़ने गया।",
+          "ja": "私の友達はドイツに勉強しに行った。",
+          "km": "មិត្តរបស់ខ្ញុំបានទៅរៀននៅអាល្លឺម៉ង់។",
+          "ko": "내 친구는 독일에 공부하러 갔어.",
+          "ne": "मेरो साथी जर्मनीमा पढ्न गयो।",
+          "pt": "Meu amigo foi estudar na Alemanha.",
+          "th": "เพื่อนของฉันไปเรียนที่เยอรมนี",
+          "tl": "Ang aking kaibigan ay pumunta sa Alemanya para mag-aral.",
+          "ur": "میرا دوست جرمنی میں پڑھنے گیا۔",
+          "vi": "Bạn tôi đi học ở Đức.",
+          "zh": "我朋友去德国留学了。",
+          "zh_Hant": "我朋友去德國留學了。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ລົດເຢຍລະມັນດີທີ່ສຸດໃນໂລກ",
+        "romanization": "lot Yia-la-man di thi sut nai lok",
+        "translations": {
+          "de": "Deutsche Autos sind die besten der Welt.",
+          "en": "German cars are the best in the world.",
+          "es": "Los autos alemanes son los mejores del mundo.",
+          "fr": "Les voitures allemandes sont les meilleures du monde.",
+          "hi": "जर्मन कारें दुनिया में सबसे अच्छी हैं।",
+          "ja": "ドイツ車は世界で一番いい。",
+          "km": "រថយន្តអាល្លឺម៉ង់ល្អបំផុតនៅក្នុងពិភពលោក។",
+          "ko": "독일 차가 세상에서 최고야.",
+          "ne": "जर्मन गाडीहरू संसारमा सबैभन्दा राम्रो छन्।",
+          "pt": "Os carros alemães são os melhores do mundo.",
+          "th": "รถเยอรมันดีที่สุดในโลก",
+          "tl": "Ang mga sasakyan ng Alemanya ay pinakamahusay sa mundo.",
+          "ur": "جرمن گاڑیاں دنیا میں سب سے بہترین ہیں۔",
+          "vi": "Xe Đức là tốt nhất thế giới.",
+          "zh": "德国车是世界上最好的。",
+          "zh_Hant": "德國車是世界上最好的。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ໂລກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the German flag (black, red, and gold horizontal stripes) next to a small outline map of Germany in Central Europe, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

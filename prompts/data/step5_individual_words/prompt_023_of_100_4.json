@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລາຍ",
+  "definitions": {
+    "de": "Liste oder Aufzählung; Einkommen oder Einnahmen (in Verbindungen wie ລາຍຮັບ); Muster oder Streifen",
+    "en": "List or itemization; income or earnings (in compounds like ລາຍຮັບ); pattern or stripes",
+    "es": "Lista o enumeración; ingresos o ganancias (en compuestos como ລາຍຮັບ); patrón o rayas",
+    "fr": "Liste ou énumération; revenus ou gains (dans des composés comme ລາຍຮັບ); motif ou rayures",
+    "hi": "सूची या क्रमबद्धता; आय या कमाई (ລາຍຮັບ जैसे यौगिकों में); पैटर्न या धारियाँ",
+    "ja": "リストや項目；収入・収益（ລາຍຮັບなどの複合語で）；模様やストライプ",
+    "km": "បញ្ជី ឬការរៀបចំ; ចំណូល ឬប្រាក់ចំណេញ (ក្នុងពាក្យផ្សំ ដូចជា ລາຍຮັບ); ក្បាច់ ឬបន្ទាត់",
+    "ko": "목록 또는 항목화; 수입 또는 소득 (ລາຍຮັບ 같은 복합어에서); 무늬 또는 줄무늬",
+    "ne": "सूची वा क्रमबद्धता; आय वा कमाइ (ລາຍຮັບ जस्ता यौगिकमा); ढाँचा वा धर्के",
+    "pt": "Lista ou enumeração; renda ou ganhos (em compostos como ລາຍຮັບ); padrão ou listras",
+    "th": "รายการหรือการแจกแจง; รายได้หรือรายรับ (ในคำประสม เช่น ລາຍຮັບ); ลวดลายหรือลาย",
+    "tl": "Listahan o pagtatala; kita o kita (sa mga tambalan tulad ng ລາຍຮັບ); disenyo o guhit",
+    "ur": "فہرست یا تفصیل؛ آمدن یا کمائی (ລາຍຮັບ جیسے مرکب الفاظ میں)؛ نمونہ یا دھاریاں",
+    "vi": "Danh sách hoặc liệt kê; thu nhập hoặc tiền kiếm được (trong từ ghép như ລາຍຮັບ); hoa văn hoặc sọc",
+    "zh": "列表或逐项列举；收入或收益（用于ລາຍຮັບ等复合词）；图案或条纹",
+    "zh_Hant": "列表或逐項列舉；收入或收益（用於ລາຍຮັບ等複合詞）；圖案或條紋"
+  },
+  "definition_en": "List or itemization; income or earnings (in compounds like ລາຍຮັບ); pattern or stripes",
+  "romanization": "laːj",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຂຽນລາຍຊື່ຄົນທີ່ຈະໄປໃຫ້ຂ້ອຍແດ່",
+      "romanization": "suːaj kʰían laːj sɯː kʰon tʰíː tɕaː paj haj kʰɔːj dɛː",
+      "translation_en": "Please write me a list of the people who will go"
+    },
+    {
+      "lao_script": "ລາຍຮັບເດືອນນີ້ຫຼາຍກວ່າເດືອນກ່ອນ",
+      "romanization": "laːj hap dɯːan níː laːj kwaː dɯːan kɔːn",
+      "translation_en": "This month's income is more than last month"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a paper checklist or itemized list with checkboxes and a few line items, next to a small pile of coins representing income, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພູ",
+  "definitions": {
+    "de": "Berg; ein großer, hoher Hügel oder eine Erhebung aus Fels und Erde",
+    "en": "Mountain; a large natural elevation of earth and rock",
+    "es": "Montaña; una gran elevación natural de tierra y roca",
+    "fr": "Montagne; une grande élévation naturelle de terre et de roche",
+    "hi": "पहाड़; पृथ्वी और चट्टान की एक बड़ी प्राकृतिक ऊंचाई",
+    "ja": "山；土と岩からなる大きな自然の高まり",
+    "km": "ភ្នំ; ភ្នំដ៏ធំដែលជាបណ្តុំដីនិងថ្ម",
+    "ko": "산; 흙과 바위로 이루어진 큰 자연 지형",
+    "ne": "पहाड; माटो र ढुङ्गाको ठूलो प्राकृतिक उचाइ",
+    "pt": "Montanha; uma grande elevação natural de terra e rocha",
+    "th": "ภูเขา; ความสูงตามธรรมชาติขนาดใหญ่ของดินและหิน",
+    "tl": "Bundok; isang malaking natural na taas ng lupa at bato",
+    "ur": "پہاڑ؛ زمین اور چٹانوں کی ایک بڑی قدرتی بلندی",
+    "vi": "Núi; một vùng đất và đá nổi cao tự nhiên lớn",
+    "zh": "山；由土壤和岩石构成的大型自然高地",
+    "zh_Hant": "山；由土壤和岩石構成的大型自然高地"
+  },
+  "definition_en": "Mountain; a large natural elevation of earth and rock",
+  "romanization": "/pʰúu/",
+  "lao_examples": [
+    {
+      "lao_script": "ພູໃນລາວສູງຫຼາຍ ສວຍງາມດີ",
+      "romanization": "pʰúu nai láaw sǔuŋ laaj suaj ŋaam dii",
+      "translation_en": "The mountains in Laos are very tall and beautiful."
+    },
+    {
+      "lao_script": "ຢາກຂຶ້ນໄປຢ່ຽວພູນຳໝູ່ວັນອາທິດ",
+      "romanization": "jàak khɯ̂n paj jîaw pʰúu nam mùu wan aa.tʰít",
+      "translation_en": "I want to go up the mountain with friends on Sunday."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a green mountain with a clear peak against a blue sky, with small trees on the slopes, clean white background, colorful, minimalist style suitable for a language learning app."
+}

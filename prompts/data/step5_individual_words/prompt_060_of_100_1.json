@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທິດ",
+  "definitions": {
+    "de": "Richtung (z. B. Norden, Süden, Osten, Westen); eine der Himmelsrichtungen oder eine allgemeine Richtungsangabe",
+    "en": "Direction; one of the cardinal or ordinal directions (e.g., north, south, east, west)",
+    "es": "Dirección; uno de los puntos cardinales u ordinales (p. ej., norte, sur, este, oeste)",
+    "fr": "Direction ; l'un des points cardinaux ou intermédiaires (p. ex., nord, sud, est, ouest)",
+    "hi": "दिशा; मुख्य या मध्यवर्ती दिशाओं में से एक (जैसे उत्तर, दक्षिण, पूर्व, पश्चिम)",
+    "ja": "方向；東西南北などの方角のひとつ",
+    "km": "ទិស; ទិសដៅមួយក្នុងចំណោមទិសមេ ឬទិសអនុ (ឧ. ខាងជើង ខាងត្បូង ខាងកើត ខាងលិច)",
+    "ko": "방향; 동서남북 등의 기본 방향 중 하나",
+    "ne": "दिशा; मुख्य वा मध्यवर्ती दिशाहरूमध्ये एक (जस्तै उत्तर, दक्षिण, पूर्व, पश्चिम)",
+    "pt": "Direção; um dos pontos cardeais ou colaterais (p. ex., norte, sul, leste, oeste)",
+    "th": "ทิศ; ทิศทางหลักหรือทิศทางรอง (เช่น เหนือ ใต้ ออก ตก)",
+    "tl": "Direksyon; isa sa mga pangunahing direksyon (hal., hilaga, timog, silangan, kanluran)",
+    "ur": "سمت؛ بنیادی یا ثانوی سمتوں میں سے ایک (مثلاً شمال، جنوب، مشرق، مغرب)",
+    "vi": "Hướng; một trong các hướng chính hoặc phụ (ví dụ: bắc, nam, đông, tây)",
+    "zh": "方向；东、西、南、北等基本方位之一",
+    "zh_Hant": "方向；東、西、南、北等基本方位之一"
+  },
+  "definition_en": "Direction; one of the cardinal or ordinal directions (e.g., north, south, east, west)",
+  "romanization": "/tʰit/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໄປທິດໃດ?",
+      "romanization": "Jao pai thit dai?",
+      "translation_en": "Which direction are you going?"
+    },
+    {
+      "lao_script": "ຕາເວັນອອກຢູ່ທິດນີ້ແລ້ວ",
+      "romanization": "Ta-wen awk yu thit nii laew",
+      "translation_en": "The sun rises in this direction."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a compass showing the four cardinal directions (north, south, east, west) with clear arrows, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

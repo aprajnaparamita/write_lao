@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕີ",
+  "definitions": {
+    "de": "1. Schlagen, treffen; etwas oder jemanden mit Kraft berühren. 2. Uhrzeit in den frühen Morgenstunden (z.B. ຕີໜຶ່ງ = 1 Uhr morgens).",
+    "en": "1. To hit or strike; to make forceful contact with something or someone. 2. Used for time in the early morning hours (e.g., ຕີໜຶ່ງ = 1 AM).",
+    "es": "1. Golpear; hacer contacto con fuerza con algo o alguien. 2. Se usa para indicar las horas de la madrugada (p. ej., ຕີໜຶ່ງ = la 1 de la madrugada).",
+    "fr": "1. Frapper; faire un contact forcé avec quelque chose ou quelqu'un. 2. Utilisé pour indiquer les heures du matin (ex: ຕີໜຶ່ງ = 1h du matin).",
+    "hi": "1. मारना, ठोकना; किसी चीज़ या व्यक्ति को जोर से छूना। 2. तड़के के घंटों के लिए उपयोग (जैसे ຕີໜຶ່ງ = रात 1 बजे)।",
+    "ja": "1. 打つ、叩く；何かまたは誰かに力強く触れる。2. 深夜から早朝の時間帯を表す（例：ຕີໜຶ່ງ＝午前1時）。",
+    "km": "1. វាយ; ប៉ះដោយកម្លាំងទៅលើអ្វីមួយ ឬនរណាម្នាក់។ 2. ប្រើសម្រាប់ម៉ោងព្រឹកព្រលឹម (ឧ. ຕີໜຶ່ງ = ម៉ោង 1 ព្រឹក)។",
+    "ko": "1. 치다, 때리다; 어떤 것이나 사람을 세게 건드리다. 2. 이른 아침 시간을 나타낼 때 사용 (예: ຕີໜຶ່ງ = 새벽 1시).",
+    "ne": "1. हिर्काउनु, प्रहार गर्नु; कुनै चीज वा व्यक्तिलाई बलपूर्वक छुनु। 2. बिहान तड्कैको समय जनाउन प्रयोग (जस्तै ຕີໜຶ່ງ = राति १ बजे)।",
+    "pt": "1. Bater, golpear; fazer contato com força em algo ou alguém. 2. Usado para indicar as horas da madrugada (ex: ຕີໜຶ່ງ = 1h da manhã).",
+    "th": "1. ตี; ใช้แรงกระทบกับสิ่งของหรือบุคคล 2. ใช้บอกเวลาตีในช่วงดึก (เช่น ຕີໜຶ່ງ = ตีหนึ่ง)",
+    "tl": "1. Tumama o humampas; gumawa ng marahas na pakikipag-ugnayan sa isang bagay o tao. 2. Ginagamit para sa oras sa maagang umaga (hal., ຕີໜຶ່ງ = ika-1 ng madaling araw).",
+    "ur": "1. مارنا، ضرب لگانا؛ کسی چیز یا شخص کو زور سے چھونا۔ 2. رات کے ابتدائی گھنٹوں کے لیے استعمال (مثلاً ຕີໜຶ່ງ = رات کا ایک بجے)۔",
+    "vi": "1. Đánh, đập; tiếp xúc mạnh với vật hoặc người. 2. Dùng để chỉ giờ trong đêm khuya/sáng sớm (ví dụ: ຕີໜຶ່ງ = 1 giờ sáng).",
+    "zh": "1. 打、击；用力接触某物或某人。2. 用于表示凌晨的时间（如 ຕີໜຶ່ງ = 凌晨1点）。",
+    "zh_Hant": "1. 打、擊；用力接觸某物或某人。2. 用於表示凌晨的時間（如 ຕີໜຶ່ງ = 凌晨1點）。"
+  },
+  "definition_en": "1. To hit or strike; to make forceful contact with something or someone. 2. Used for time in the early morning hours (e.g., ຕີໜຶ່ງ = 1 AM).",
+  "romanization": "tiː",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າຕີໝາຂ້ອຍ ມັນບໍ່ໄດ້ເຮັດຫຍັງເຈົ້າ",
+      "romanization": "yaa tii maa khoi, man boo dai het nyang jao",
+      "translation_en": "Don't hit my dog, it didn't do anything to you."
+    },
+    {
+      "lao_script": "ຕອນຕີສາມ ຂ້ອຍຍັງຕື່ນຢູ່ເລີຍ",
+      "romanization": "tɔːn tii saam, khoi yang tɯːn yuu ləːi",
+      "translation_en": "At 3 AM, I was still awake."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a hand gently striking a drum (to show 'hit'), and on the right, a clock showing 3:00 AM under a starry night sky. Clean white background, colorful minimalist style suitable for a language learning app."
+}

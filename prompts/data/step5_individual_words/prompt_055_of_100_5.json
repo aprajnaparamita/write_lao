@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນ້ອຍ",
+  "definitions": {
+    "de": "Klein; winzig; beschreibt etwas von geringer Größe oder geringem Ausmaß",
+    "en": "Small; little; describes something of limited size or extent",
+    "es": "Pequeño; chico; describe algo de tamaño o magnitud reducida",
+    "fr": "Petit; minuscule; décrit quelque chose de taille ou d'étendue réduite",
+    "hi": "छोटा; लघु; किसी वस्तु की सीमित आकार या मात्रा का वर्णन करता है",
+    "ja": "小さい；少ない；サイズや程度が限られていることを表す形容詞",
+    "km": "តូច; តូចតាច; ពិពណ៌នាអំពីអ្វីដែលមានទំហំ ឬបរិមាណតិចតួច",
+    "ko": "작은; 적은; 크기나 정도가 제한적임을 나타내는 형용사",
+    "ne": "सानो; थोरै; कुनै वस्तुको सीमित आकार वा परिमाणको वर्णन गर्दछ",
+    "pt": "Pequeno; pouco; descreve algo de tamanho ou extensão limitada",
+    "th": "เล็ก; น้อย; ใช้อธิบายสิ่งที่มีขนาดหรือปริมาณน้อย",
+    "tl": "Maliit; kaunti; naglalarawan ng bagay na may limitadong sukat o dami",
+    "ur": "چھوٹا؛ تھوڑا؛ کسی چیز کے محدود حجم یا مقدار کو بیان کرتا ہے",
+    "vi": "Nhỏ; ít; diễn tả kích thước hoặc mức độ hạn chế của một vật",
+    "zh": "小；少；形容某物体积或数量有限",
+    "zh_Hant": "小；少；形容某物體積或數量有限"
+  },
+  "definition_en": "Small; little; describes something of limited size or extent",
+  "romanization": "/nɔːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ໝາຂອງຂ້ອຍນ້ອຍຫຼາຍ ໜ້າຮັກເລີຍ",
+      "romanization": "ma khong khoi noi lai, na hak loei",
+      "translation_en": "My dog is so small, it's really cute."
+    },
+    {
+      "lao_script": "ເອົານ້ຳໜ້ອຍໜຶ່ງໄດ້ບໍ່",
+      "romanization": "ao nam noi nung dai bo",
+      "translation_en": "Can I have a little bit of water?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a size comparison: a large object (like a big dog or large ball) next to a very small version of the same object, clearly highlighting the concept of 'small' or 'little', clean white background, bright friendly colors, minimalist cartoon style suitable for a language learning app."
+}

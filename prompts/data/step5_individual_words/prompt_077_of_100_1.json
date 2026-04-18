@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄກ",
+  "definitions": {
+    "de": "Weit; eine große Entfernung beschreibend",
+    "en": "Far; describing a great distance away",
+    "es": "Lejos; que describe una gran distancia",
+    "fr": "Loin; décrivant une grande distance",
+    "hi": "दूर; किसी बड़ी दूरी का वर्णन करना",
+    "ja": "遠い；大きな距離を表す形容詞",
+    "km": "ឆ្ងាយ; ពិពណ៌នាអំពីចម្ងាយដ៏ធំ",
+    "ko": "멀다; 큰 거리를 나타내는 형용사",
+    "ne": "टाढा; ठूलो दूरी वर्णन गर्ने शब्द",
+    "pt": "Longe; descrevendo uma grande distância",
+    "th": "ไกล; บอกระยะทางที่ห่างออกไปมาก",
+    "tl": "Malayo; naglalarawan ng malaking distansya",
+    "ur": "دور؛ بڑے فاصلے کو ظاہر کرنے والا",
+    "vi": "Xa; mô tả khoảng cách lớn",
+    "zh": "远；形容距离大",
+    "zh_Hant": "遠；形容距離大"
+  },
+  "definition_en": "Far; describing a great distance away",
+  "romanization": "/kàj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂອງເພື່ອນຂ້ອຍໄກຫຼາຍ",
+      "romanization": "hɯan khɔ̌ɔng phɯ̂an khɔ̂i kàj lǎaj",
+      "translation_en": "My friend's house is really far away."
+    },
+    {
+      "lao_script": "ຕະຫຼາດຢູ່ໄກບໍ?",
+      "romanization": "talàat jùu kàj bɔ̀?",
+      "translation_en": "Is the market far?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two locations with a long winding road stretching between them, emphasizing great distance, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເດັກ",
+  "definitions": {
+    "de": "Kind – ein junger Mensch, der noch kein Erwachsener ist; ein Junge oder Mädchen",
+    "en": "Child / kid – a young person who is not yet an adult; a boy or girl",
+    "es": "Niño/niña – persona joven que aún no es adulta; un chico o una chica",
+    "fr": "Enfant – jeune personne qui n'est pas encore adulte ; un garçon ou une fille",
+    "hi": "बच्चा – एक युवा व्यक्ति जो अभी तक बालिग नहीं है; लड़का या लड़की",
+    "ja": "子ども（こども）– まだ大人ではない若い人；男の子または女の子",
+    "km": "កូនក្មេង – មនុស្សក្មេងដែលមិនទាន់ជាមនុស្សធំ",
+    "ko": "아이 / 어린이 – 아직 어른이 아닌 어린 사람; 소년이나 소녀",
+    "ne": "बच्चा – एक सानो व्यक्ति जो अझै वयस्क भएको छैन; केटा वा केटी",
+    "pt": "Criança – pessoa jovem que ainda não é adulta; um menino ou uma menina",
+    "th": "เด็ก – คนหนุ่มสาวที่ยังไม่เป็นผู้ใหญ่ เด็กชายหรือเด็กหญิง",
+    "tl": "Bata – isang batang tao na hindi pa adulto; isang lalaki o babaeng bata",
+    "ur": "بچہ – ایک نوجوان انسان جو ابھی بالغ نہیں ہوا؛ لڑکا یا لڑکی",
+    "vi": "Đứa trẻ / trẻ em – người trẻ chưa phải là người lớn; bé trai hoặc bé gái",
+    "zh": "孩子 – 尚未成年的年轻人；男孩或女孩",
+    "zh_Hant": "孩子 – 尚未成年的年輕人；男孩或女孩"
+  },
+  "definition_en": "Child / kid – a young person who is not yet an adult; a boy or girl",
+  "romanization": "dek",
+  "lao_examples": [
+    {
+      "lao_script": "ເດັກນ້ອຍຫຼິ້ນຢູ່ທາງນັ້ນ",
+      "romanization": "dek nɔːj lin juː tʰaːŋ nan",
+      "translation_en": "The little kids are playing over there."
+    },
+    {
+      "lao_script": "ເດັກຄົນນີ້ຊ່າງວ່ອງໄວຈັງ",
+      "romanization": "dek kʰon niː tɕʰaːŋ wɔŋ waj tɕaŋ",
+      "translation_en": "This kid is so quick and agile!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful young child smiling and waving, wearing casual colorful clothing, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

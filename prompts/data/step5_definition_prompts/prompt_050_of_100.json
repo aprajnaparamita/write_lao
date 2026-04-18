@@ -1,0 +1,408 @@
+{
+  "ເຄື່ອງ": {
+    "definitions": {
+      "de": "Maschine, Gerät, Gegenstand; ein allgemeines Wort für Objekte, Werkzeuge oder Geräte",
+      "en": "Machine, device, or thing; a general word for objects, tools, appliances, or equipment",
+      "es": "Máquina, dispositivo o cosa; palabra general para objetos, herramientas, aparatos o equipos",
+      "fr": "Machine, appareil ou chose; terme général pour les objets, outils, appareils ou équipements",
+      "hi": "मशीन, उपकरण या वस्तु; वस्तुओं, औजारों, उपकरणों या साधनों के लिए एक सामान्य शब्द",
+      "ja": "機械、装置、またはもの；道具・機器・物品を指す一般的な言葉",
+      "km": "ម៉ាស៊ីន ឧបករណ៍ ឬរបស់; ពាក្យទូទៅសម្រាប់វត្ថុ ឧបករណ៍ ឬសម្ភារៈ",
+      "ko": "기계, 장치, 또는 물건; 도구, 기기, 장비를 나타내는 일반적인 단어",
+      "ne": "मेसिन, यन्त्र वा वस्तु; औजार, उपकरण वा सामानका लागि एक सामान्य शब्द",
+      "pt": "Máquina, dispositivo ou coisa; palavra geral para objetos, ferramentas, aparelhos ou equipamentos",
+      "th": "เครื่องจักร อุปกรณ์ หรือสิ่งของ; คำทั่วไปสำหรับวัตถุ เครื่องมือ เครื่องใช้ หรืออุปกรณ์",
+      "tl": "Makina, kagamitan, o bagay; pangkalahatang salita para sa mga bagay, kasangkapan, o kagamitan",
+      "ur": "مشین، آلہ یا چیز؛ اوزاروں، آلات یا سامان کے لیے ایک عام لفظ",
+      "vi": "Máy móc, thiết bị hoặc đồ vật; từ chung để chỉ các vật dụng, công cụ, thiết bị",
+      "zh": "机器、设备或物品；用于指代工具、器械、用具或物件的通用词",
+      "zh_Hant": "機器、設備或物品；用於指代工具、器械、用具或物件的通用詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰɯ̂aŋ",
+    "examples": [
+      {
+        "lao_script": "ເຄື່ອງນີ້ໃຊ້ງ່າຍຫຼາຍ",
+        "romanization": "kʰɯ̂aŋ níː sáj ŋâːj lǎːj",
+        "translations": {
+          "de": "Dieses Gerät ist sehr einfach zu benutzen.",
+          "en": "This machine/device is very easy to use.",
+          "es": "Este aparato es muy fácil de usar.",
+          "fr": "Cet appareil est très facile à utiliser.",
+          "hi": "यह उपकरण उपयोग करने में बहुत आसान है।",
+          "ja": "この機械はとても使いやすいです。",
+          "km": "ឧបករណ៍នេះងាយប្រើប្រាស់ណាស់។",
+          "ko": "이 기계는 사용하기 매우 쉬워요.",
+          "ne": "यो उपकरण प्रयोग गर्न धेरै सजिलो छ।",
+          "pt": "Este aparelho é muito fácil de usar.",
+          "th": "เครื่องนี้ใช้ง่ายมากเลย",
+          "tl": "Ang kagamitang ito ay napakadaling gamitin.",
+          "ur": "یہ آلہ استعمال کرنے میں بہت آسان ہے۔",
+          "vi": "Cái máy này dùng rất dễ.",
+          "zh": "这个东西很容易用。",
+          "zh_Hant": "這個東西很容易用。"
+        },
+        "out_of_scope_words": [
+          "ໃຊ້",
+          "ງ່າຍ"
+        ]
+      },
+      {
+        "lao_script": "ເຄື່ອງຂອງເຈົ້າເສຍແລ້ວບໍ?",
+        "romanization": "kʰɯ̂aŋ kʰɔ̌ːŋ tɕâw sǐa lɛ́ːw bɔː",
+        "translations": {
+          "de": "Ist dein Gerät kaputt?",
+          "en": "Is your device/machine broken?",
+          "es": "¿Tu aparato está roto?",
+          "fr": "Ton appareil est en panne ?",
+          "hi": "क्या तुम्हारा उपकरण खराब हो गया?",
+          "ja": "あなたの機械は壊れましたか？",
+          "km": "តើឧបករណ៍របស់អ្នកខូចហើយឬ?",
+          "ko": "너의 기계 고장났어?",
+          "ne": "तिम्रो उपकरण बिग्रियो कि?",
+          "pt": "O seu aparelho quebrou?",
+          "th": "เครื่องของแกเสียแล้วเหรอ?",
+          "tl": "Sira na ba ang iyong kagamitan?",
+          "ur": "کیا تمہارا آلہ خراب ہو گیا؟",
+          "vi": "Máy của mày hỏng rồi à?",
+          "zh": "你的机器坏了吗？",
+          "zh_Hant": "你的機器壞了嗎？"
+        },
+        "out_of_scope_words": [
+          "ຂອງ",
+          "ເຈົ້າ",
+          "ເສຍ",
+          "ແລ້ວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of various everyday devices and appliances — a phone, a fan, and a small machine — arranged neatly on a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດິນ": {
+    "definitions": {
+      "de": "Erde, Boden, Land; bezeichnet die Erdoberfläche, Boden zum Anbau oder Grundstücke",
+      "en": "Earth, soil, or land; refers to the ground, dirt, soil for farming, or a plot of land",
+      "es": "Tierra, suelo o terreno; se refiere al suelo, la tierra para cultivar o un terreno",
+      "fr": "Terre, sol ou terrain; désigne le sol, la terre pour cultiver ou un terrain",
+      "hi": "पृथ्वी, मिट्टी या भूमि; जमीन, खेती के लिए मिट्टी या भूखंड को संदर्भित करता है",
+      "ja": "土、大地、または土地；地面、農耕用の土壌、または土地区画を指す",
+      "km": "ដី ឬដីធ្លី; សំដៅលើផ្ទៃដី ដីសម្រាប់ដាំដុះ ឬដីឡូត៍",
+      "ko": "흙, 토지, 또는 땅; 지면, 농업용 토양 또는 땅을 가리키는 말",
+      "ne": "माटो, जमिन वा भूमि; जमिनको सतह, खेती गर्ने माटो वा जग्गालाई जनाउँछ",
+      "pt": "Terra, solo ou terreno; refere-se ao chão, à terra para cultivo ou a um terreno",
+      "th": "ดิน แผ่นดิน หรือที่ดิน; หมายถึงพื้นดิน ดินสำหรับเพาะปลูก หรือที่ดิน",
+      "tl": "Lupa o lupain; tumutukoy sa lupa, lupang taniman, o isang lagay ng lupa",
+      "ur": "زمین، مٹی یا سرزمین؛ زمین کی سطح، کاشتکاری کی مٹی یا زمین کے ٹکڑے کا حوالہ دیتا ہے",
+      "vi": "Đất, đất đai hoặc mặt đất; chỉ lòng đất, đất trồng trọt hoặc mảnh đất",
+      "zh": "土地、泥土或大地；指地面、农业用土壤或土地",
+      "zh_Hant": "土地、泥土或大地；指地面、農業用土壤或土地"
+    },
+    "part_of_speech": "noun",
+    "romanization": "din",
+    "examples": [
+      {
+        "lao_script": "ດິນແຖວນີ້ດີຫຼາຍ ປູກຫຍັງກໍ່ຂຶ້ນ",
+        "romanization": "din tʰɛ̌ːw níː díː lǎːj puːk ɲǎŋ kɔ̂ kʰɯ̂n",
+        "translations": {
+          "de": "Die Erde hier ist sehr gut — alles, was man pflanzt, wächst.",
+          "en": "The soil around here is really good — whatever you plant grows.",
+          "es": "La tierra de aquí es muy buena — lo que plantes crece.",
+          "fr": "La terre ici est très bonne — tout ce qu'on plante pousse.",
+          "hi": "यहाँ की मिट्टी बहुत अच्छी है — जो भी लगाओ उग जाता है।",
+          "ja": "このあたりの土はとても良くて、何を植えても育ちます。",
+          "km": "ដីនៅទីនេះល្អណាស់ — ដាំអ្វីក៏ដុះដែរ។",
+          "ko": "이 근처 땅은 정말 좋아 — 뭘 심어도 다 자라.",
+          "ne": "यहाँको माटो धेरै राम्रो छ — जे लगाए पनि उम्रन्छ।",
+          "pt": "A terra aqui é muito boa — qualquer coisa que plantar cresce.",
+          "th": "ดินแถวนี้ดีมากเลย ปลูกอะไรก็ขึ้น",
+          "tl": "Ang lupa dito ay napakaganda — anumang itanim ay tumutubo.",
+          "ur": "یہاں کی مٹی بہت اچھی ہے — جو بھی لگاؤ اگ آتا ہے۔",
+          "vi": "Đất ở đây tốt lắm — trồng gì cũng lên.",
+          "zh": "这里的土地很肥沃——种什么都能长。",
+          "zh_Hant": "這裡的土地很肥沃——種什麼都能長。"
+        },
+        "out_of_scope_words": [
+          "ແຖວ",
+          "ປູກ",
+          "ຂຶ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ເດັກນ້ອຍຫຼິ້ນດິນຢູ່ໜ້າເຮືອນ",
+        "romanization": "dék nɔ̂ːj lîn din juː nâː hɯ́an",
+        "translations": {
+          "de": "Die Kinder spielen mit der Erde vor dem Haus.",
+          "en": "The kids are playing in the dirt in front of the house.",
+          "es": "Los niños están jugando con la tierra frente a la casa.",
+          "fr": "Les enfants jouent dans la terre devant la maison.",
+          "hi": "बच्चे घर के सामने मिट्टी में खेल रहे हैं।",
+          "ja": "子どもたちが家の前で土遊びをしています。",
+          "km": "កុមារកំពុងលេងដីនៅពីមុខផ្ទះ។",
+          "ko": "아이들이 집 앞에서 흙 놀이를 하고 있어요.",
+          "ne": "बच्चाहरू घरको अगाडि माटोमा खेलिरहेका छन्।",
+          "pt": "As crianças estão brincando na terra em frente à casa.",
+          "th": "เด็กๆ เล่นดินอยู่หน้าบ้าน",
+          "tl": "Naglalaro ang mga bata sa lupa sa harap ng bahay.",
+          "ur": "بچے گھر کے سامنے مٹی میں کھیل رہے ہیں۔",
+          "vi": "Lũ trẻ đang chơi đất ở trước nhà.",
+          "zh": "孩子们在房子前面玩泥土。",
+          "zh_Hant": "孩子們在房子前面玩泥土。"
+        },
+        "out_of_scope_words": [
+          "ເດັກນ້ອຍ",
+          "ຫຼິ້ນ",
+          "ໜ້າ",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a handful of rich brown soil or dirt held in open hands, with a small green plant sprouting from it, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຕີ": {
+    "definitions": {
+      "de": "Silbenfragment, das hauptsächlich in zusammengesetzten Wörtern oder Phrasen vorkommt; als eigenständiges Wort von begrenztem Gebrauch. Oft Teil von Wörtern wie ເຕີບໂຕ (wachsen) oder ເຕີມ (hinzufügen/füllen).",
+      "en": "A syllable fragment with limited standalone use; most commonly appears as part of compound words or verb phrases, such as ເຕີບໂຕ (to grow) or ເຕີມ (to add/fill up).",
+      "es": "Fragmento silábico con uso independiente limitado; aparece principalmente como parte de palabras compuestas o frases verbales, como ເຕີບໂຕ (crecer) o ເຕີມ (añadir/rellenar).",
+      "fr": "Fragment syllabique avec un usage autonome limité; apparaît principalement dans des mots composés ou des locutions verbales, comme ເຕີບໂຕ (grandir) ou ເຕີມ (ajouter/remplir).",
+      "hi": "सीमित स्वतंत्र उपयोग वाला एक शब्दांश खंड; मुख्य रूप से यौगिक शब्दों या क्रिया वाक्यांशों के भाग के रूप में प्रकट होता है, जैसे ເຕີບໂຕ (बढ़ना) या ເຕີມ (जोड़ना/भरना)।",
+      "ja": "単独での使用が限られた音節断片；主に複合語や動詞句の一部として現れる。例：ເຕີບໂຕ（成長する）やເຕີມ（加える・満たす）。",
+      "km": "បំណែកព្យាង្គដែលមានការប្រើប្រាស់ឯករាជ្យមានកំណត់; ភាគច្រើនបង្ហាញជាផ្នែកនៃពាក្យផ្សំ ដូចជា ເຕີບໂຕ (ធំដឹងគុណ) ឬ ເຕີມ (បន្ថែម/បំពេញ)។",
+      "ko": "단독 사용이 제한적인 음절 단편; 주로 복합어나 동사구의 일부로 등장함. 예: ເຕີບໂຕ (성장하다) 또는 ເຕີມ (더하다/채우다).",
+      "ne": "सीमित स्वतन्त्र प्रयोग भएको शब्दांश खण्ड; मुख्यतः यौगिक शब्द वा क्रिया वाक्यांशहरूको भागको रूपमा देखिन्छ, जस्तै ເຕີບໂຕ (बढ्नु) वा ເຕີມ (थप्नु/भर्नु)।",
+      "pt": "Fragmento silábico com uso independente limitado; aparece principalmente como parte de palavras compostas ou locuções verbais, como ເຕີບໂຕ (crescer) ou ເຕີມ (adicionar/encher).",
+      "th": "ส่วนพยางค์ที่ใช้เดี่ยวได้จำกัด; มักปรากฏเป็นส่วนหนึ่งของคำประสมหรือวลีกริยา เช่น ເຕີບໂຕ (เติบโต) หรือ ເຕີມ (เติม/เพิ่ม)",
+      "tl": "Isang bahagi ng pantig na may limitadong paggamit nang mag-isa; kadalasang lumalabas bilang bahagi ng mga tambalang salita o parirala ng pandiwa, tulad ng ເຕີບໂຕ (lumago) o ເຕີມ (magdagdag/punan).",
+      "ur": "محدود آزادانہ استعمال کے ساتھ ایک حرف کا ٹکڑا؛ زیادہ تر مرکب الفاظ یا فعل کے جملوں کے حصے کے طور پر ظاہر ہوتا ہے، جیسے ເຕີບໂຕ (بڑھنا) یا ເຕີມ (شامل کرنا/بھرنا)۔",
+      "vi": "Mảnh âm tiết có ít công dụng độc lập; thường xuất hiện như một phần của từ ghép hoặc cụm động từ, chẳng hạn như ເຕີບໂຕ (lớn lên) hoặc ເຕີມ (thêm vào/đổ đầy).",
+      "zh": "使用场合有限的音节片段；主要作为复合词或动词短语的一部分出现，如 ເຕີບໂຕ（成长）或 ເຕີມ（添加/充满）。",
+      "zh_Hant": "使用場合有限的音節片段；主要作為複合詞或動詞短語的一部分出現，如 ເຕີບໂຕ（成長）或 ເຕີມ（添加/充滿）。"
+    },
+    "part_of_speech": "particle",
+    "romanization": "tɤː",
+    "examples": [
+      {
+        "lao_script": "ລູກຂອງຂ້ອຍເຕີບໂຕໄວຫຼາຍ",
+        "romanization": "luːk kʰɔ̌ːŋ kʰɔ̂ːj tɤ̂ːp toː wáj lǎːj",
+        "translations": {
+          "de": "Mein Kind wächst sehr schnell.",
+          "en": "My child is growing up very fast.",
+          "es": "Mi hijo está creciendo muy rápido.",
+          "fr": "Mon enfant grandit très vite.",
+          "hi": "मेरा बच्चा बहुत तेजी से बड़ा हो रहा है।",
+          "ja": "私の子はとても早く成長しています。",
+          "km": "កូនរបស់ខ្ញុំធំដឹងគុណយ៉ាងឆាប់រហ័ស។",
+          "ko": "내 아이는 정말 빠르게 자라고 있어요.",
+          "ne": "मेरो बच्चा धेरै छिटो हुर्किरहेको छ।",
+          "pt": "Meu filho está crescendo muito rápido.",
+          "th": "ลูกของฉันโตเร็วมากเลย",
+          "tl": "Ang aking anak ay lumalaki nang napakabilis.",
+          "ur": "میرا بچہ بہت تیزی سے بڑھ رہا ہے۔",
+          "vi": "Con tôi lớn nhanh lắm.",
+          "zh": "我的孩子长得很快。",
+          "zh_Hant": "我的孩子長得很快。"
+        },
+        "out_of_scope_words": [
+          "ລູກ",
+          "ເຕີບໂຕ",
+          "ໄວ"
+        ]
+      },
+      {
+        "lao_script": "ເຕີມນ້ຳໃຫ້ຂ້ອຍໜ້ອຍໄດ້ບໍ?",
+        "romanization": "tɤːm náːm hâj kʰɔ̂ːj nɔ̂ːj dâj bɔː",
+        "translations": {
+          "de": "Kannst du mir ein bisschen Wasser nachfüllen?",
+          "en": "Can you fill up some water for me?",
+          "es": "¿Puedes servirme un poco de agua?",
+          "fr": "Tu peux me remettre un peu d'eau ?",
+          "hi": "क्या तुम मुझे थोड़ा पानी भर सकते हो?",
+          "ja": "少し水を足してもらえますか？",
+          "km": "អ្នកអាចបន្ថែមទឹកឲ្យខ្ញុំបន្តិចបានទេ?",
+          "ko": "나한테 물 좀 채워줄 수 있어?",
+          "ne": "मलाई अलि पानी थपिदिन सक्छौ?",
+          "pt": "Você pode me servir um pouco mais de água?",
+          "th": "เติมน้ำให้ฉันหน่อยได้ไหม?",
+          "tl": "Maari mo bang punuan ng tubig para sa akin?",
+          "ur": "کیا تم مجھے تھوڑا پانی بھر سکتے ہو؟",
+          "vi": "Đổ thêm nước cho tao một chút được không?",
+          "zh": "能帮我加点水吗？",
+          "zh_Hant": "能幫我加點水嗎？"
+        },
+        "out_of_scope_words": [
+          "ເຕີມ",
+          "ນ້ຳ",
+          "ໜ້ອຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a plant sprouting and growing taller in stages (growth sequence) on a clean white background, with an arrow indicating upward growth, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ເຊົ້າ": {
+    "definitions": {
+      "de": "Morgen; der frühe Teil des Tages, von Sonnenaufgang bis Mittag",
+      "en": "Morning; the early part of the day, from sunrise until noon",
+      "es": "Mañana; la primera parte del día, desde el amanecer hasta el mediodía",
+      "fr": "Matin; la première partie de la journée, du lever du soleil jusqu'à midi",
+      "hi": "सुबह; दिन का शुरुआती हिस्सा, सूर्योदय से दोपहर तक",
+      "ja": "朝；日の出から正午までの一日の早い時間帯",
+      "km": "ព្រឹក; ដំណាក់ដំបូងនៃថ្ងៃ ចាប់ពីពេលព្រះអាទិត្យរះរហូតដល់ថ្ងៃត្រង់",
+      "ko": "아침; 해가 뜰 때부터 정오까지 하루의 이른 시간",
+      "ne": "बिहान; दिनको सुरुवाती भाग, सूर्योदयदेखि दिउँसोसम्म",
+      "pt": "Manhã; a parte inicial do dia, do nascer do sol até o meio-dia",
+      "th": "เช้า; ช่วงต้นของวัน ตั้งแต่พระอาทิตย์ขึ้นจนถึงเที่ยง",
+      "tl": "Umaga; ang unang bahagi ng araw, mula pagsikat ng araw hanggang tanghali",
+      "ur": "صبح؛ دن کا ابتدائی حصہ، طلوع آفتاب سے دوپہر تک",
+      "vi": "Buổi sáng; phần đầu của ngày, từ lúc mặt trời mọc đến trưa",
+      "zh": "早上/上午；一天中从日出到正午的早期时段",
+      "zh_Hant": "早上/上午；一天中從日出到正午的早期時段"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sâw",
+    "examples": [
+      {
+        "lao_script": "ເຊົ້ານີ້ອາກາດດີຫຼາຍ",
+        "romanization": "sâw níː ʔaːkáːt díː lǎːj",
+        "translations": {
+          "de": "Das Wetter heute Morgen ist sehr schön.",
+          "en": "The weather this morning is really nice.",
+          "es": "El clima esta mañana está muy bien.",
+          "fr": "Le temps est très beau ce matin.",
+          "hi": "आज सुबह मौसम बहुत अच्छा है।",
+          "ja": "今朝はお天気がとても良いです。",
+          "km": "អាកាសធាតុព្រឹកនេះល្អណាស់។",
+          "ko": "오늘 아침 날씨가 정말 좋아요.",
+          "ne": "आज बिहान मौसम धेरै राम्रो छ।",
+          "pt": "O tempo esta manhã está muito bom.",
+          "th": "เช้านี้อากาศดีมากเลย",
+          "tl": "Maganda talaga ang panahon ngayong umaga.",
+          "ur": "آج صبح موسم بہت اچھا ہے۔",
+          "vi": "Sáng nay thời tiết đẹp lắm.",
+          "zh": "今天早上天气很好。",
+          "zh_Hant": "今天早上天氣很好。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຕື່ນເຊົ້າຕອນຫ້າໂມງທຸກວັນ",
+        "romanization": "kʰɔ̂ːj tɯ̂n sâw tɔːn hâː moːŋ tʰúk wan",
+        "translations": {
+          "de": "Ich wache jeden Morgen um fünf Uhr auf.",
+          "en": "I wake up in the morning at five o'clock every day.",
+          "es": "Me despierto por la mañana a las cinco todos los días.",
+          "fr": "Je me réveille le matin à cinq heures tous les jours.",
+          "hi": "मैं हर दिन सुबह पाँच बजे उठता हूँ।",
+          "ja": "毎日朝5時に目が覚めます。",
+          "km": "ខ្ញុំភ្ញាក់ពីព្រឹកម៉ោងប្រាំរាល់ថ្ងៃ។",
+          "ko": "나는 매일 아침 다섯 시에 일어나요.",
+          "ne": "म हरेक दिन बिहान पाँच बजे उठ्छु।",
+          "pt": "Eu acordo de manhã às cinco horas todos os dias.",
+          "th": "ฉันตื่นเช้าตอนห้าโมงทุกวัน",
+          "tl": "Nagigising ako ng umaga nang alas singko araw-araw.",
+          "ur": "میں ہر روز صبح پانچ بجے اٹھتا ہوں۔",
+          "vi": "Tôi thức dậy buổi sáng lúc năm giờ mỗi ngày.",
+          "zh": "我每天早上五点钟起床。",
+          "zh_Hant": "我每天早上五點鐘起床。"
+        },
+        "out_of_scope_words": [
+          "ຕື່ນ",
+          "ຕອນ",
+          "ໂມງ",
+          "ທຸກວັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright morning sunrise over a peaceful landscape, with a rising sun, soft orange and yellow sky, and a small house below, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼັງ": {
+    "definitions": {
+      "de": "Rücken (Körperteil); hinten (Position); nach (zeitlich); bezeichnet den hinteren Teil von etwas oder den Zeitraum nach einem Ereignis",
+      "en": "Back (body part); behind (position); after (time); refers to the rear of something or a time period following an event",
+      "es": "Espalda (parte del cuerpo); detrás (posición); después (tiempo); se refiere a la parte trasera de algo o a un período de tiempo después de un evento",
+      "fr": "Dos (partie du corps); derrière (position); après (temps); désigne l'arrière de quelque chose ou une période de temps après un événement",
+      "hi": "पीठ (शरीर का अंग); पीछे (स्थिति); बाद में (समय); किसी चीज़ के पिछले हिस्से या किसी घटना के बाद की समयावधि को दर्शाता है",
+      "ja": "背中（体の部位）；後ろ（位置）；後で（時間）；物事の後方や出来事の後の時間を指す",
+      "km": "ខ្នង (ផ្នែករបស់រាងកាយ); ខាងក្រោយ (ទីតាំង); ក្រោយ (ពេលវេលា); សំដៅទៅលើផ្នែកខាងក្រោយ ឬរយៈពេលក្រោយព្រឹត្តិការណ៍",
+      "ko": "등 (신체 부위); 뒤 (위치); 후 (시간); 무언가의 뒷부분 또는 사건 이후의 시간을 나타냄",
+      "ne": "पिठ्यूँ (शरीरको अंग); पछाडि (स्थिति); पछि (समय); कुनै चिजको पछाडि भाग वा घटना पछिको समयलाई जनाउँछ",
+      "pt": "Costas (parte do corpo); atrás (posição); depois (tempo); refere-se à parte traseira de algo ou a um período de tempo após um evento",
+      "th": "หลัง (ส่วนของร่างกาย); ข้างหลัง (ตำแหน่ง); หลังจาก (เวลา); หมายถึงด้านหลังของสิ่งใดสิ่งหนึ่งหรือช่วงเวลาหลังจากเหตุการณ์",
+      "tl": "Likod (bahagi ng katawan); sa likod (posisyon); pagkatapos (oras); tumutukoy sa likurang bahagi ng isang bagay o panahon pagkatapos ng isang pangyayari",
+      "ur": "پیٹھ (جسم کا حصہ); پیچھے (پوزیشن); بعد میں (وقت); کسی چیز کے پچھلے حصے یا کسی واقعے کے بعد کی مدت کا حوالہ دیتا ہے",
+      "vi": "Lưng (bộ phận cơ thể); phía sau (vị trí); sau (thời gian); chỉ phần sau của vật gì đó hoặc khoảng thời gian sau một sự kiện",
+      "zh": "背部（身体部位）；后面（位置）；之后（时间）；指某物的后部或事件之后的时间段",
+      "zh_Hant": "背部（身體部位）；後面（位置）；之後（時間）；指某物的後部或事件之後的時間段"
+    },
+    "part_of_speech": "noun",
+    "romanization": "lǎŋ",
+    "examples": [
+      {
+        "lao_script": "ຫຼັງກິນເຂົ້າແລ້ວ ຂ້ອຍຈະໄປນອນ",
+        "romanization": "lǎŋ kin kʰâw lɛ́ːw kʰɔ̂ːj tɕàʔ paj nɔːn",
+        "translations": {
+          "de": "Nach dem Essen gehe ich schlafen.",
+          "en": "After eating, I'm going to go sleep.",
+          "es": "Después de comer, voy a dormir.",
+          "fr": "Après avoir mangé, je vais dormir.",
+          "hi": "खाना खाने के बाद मैं सोने जाऊँगा।",
+          "ja": "ご飯を食べた後、寝ます。",
+          "km": "បន្ទាប់ពីញ៉ាំបាយ ខ្ញុំនឹងទៅដេក។",
+          "ko": "밥 먹고 나서 자러 갈 거야.",
+          "ne": "खाना खाइसकेपछि, म सुन्न जाँदैछु।",
+          "pt": "Depois de comer, vou dormir.",
+          "th": "หลังกินข้าวแล้ว ฉันจะไปนอน",
+          "tl": "Pagkatapos kumain, matutulog na ako.",
+          "ur": "کھانا کھانے کے بعد، میں سونے جاؤں گا۔",
+          "vi": "Sau khi ăn cơm xong, tao sẽ đi ngủ.",
+          "zh": "吃完饭之后，我要去睡觉。",
+          "zh_Hant": "吃完飯之後，我要去睡覺。"
+        },
+        "out_of_scope_words": [
+          "ກິນ",
+          "ເຂົ້າ",
+          "ໄປ",
+          "ນອນ"
+        ]
+      },
+      {
+        "lao_script": "ເຈ็ບຫຼັງຫຼາຍ ນັ່ງດົນໄປ",
+        "romanization": "tɕép lǎŋ lǎːj nâŋ don paj",
+        "translations": {
+          "de": "Mein Rücken tut sehr weh — ich saß zu lange.",
+          "en": "My back really hurts — I've been sitting too long.",
+          "es": "Me duele mucho la espalda — he estado sentado demasiado tiempo.",
+          "fr": "J'ai très mal au dos — j'ai été assis trop longtemps.",
+          "hi": "पीठ में बहुत दर्द है — बहुत देर से बैठा हूँ।",
+          "ja": "背中がとても痛い — 長く座りすぎました。",
+          "km": "ឈឺខ្នងណាស់ — អង្គុយយូរពេក។",
+          "ko": "등이 너무 아파 — 너무 오래 앉아 있었어.",
+          "ne": "ढाड धेरै दुख्यो — धेरै बेर बसें।",
+          "pt": "Minhas costas estão doendo muito — fiquei sentado por tempo demais.",
+          "th": "ปวดหลังมากเลย นั่งนานไป",
+          "tl": "Sobrang sakit ng likod ko — matagal na akong nakaupo.",
+          "ur": "پیٹھ بہت درد کر رہی ہے — بہت دیر سے بیٹھا ہوں۔",
+          "vi": "Đau lưng quá — ngồi lâu quá rồi.",
+          "zh": "背很痛——坐太久了。",
+          "zh_Hant": "背很痛——坐太久了。"
+        },
+        "out_of_scope_words": [
+          "ເຈ็ບ",
+          "ນັ່ງ",
+          "ດົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a person pointing to their back (body), and on the right, a clock with an arrow showing 'before' and 'after' to represent the concept of 'after', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

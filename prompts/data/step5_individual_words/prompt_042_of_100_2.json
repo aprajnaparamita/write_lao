@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສິນ",
+  "definitions": {
+    "de": "Waren/Güter (besonders in Zusammensetzungen wie ສິນຄ້າ); Ende/Abschluss; in der buddhistischen Praxis: die fünf Sittlichkeitsregeln (ສິນ ຫ້າ)",
+    "en": "Goods/merchandise (especially in compounds like ສິນຄ້າ 'products'); end/conclusion; in Buddhist practice: the five precepts (ສິນ ຫ້າ)",
+    "es": "Bienes/mercancía (especialmente en compuestos como ສິນຄ້າ 'productos'); fin/conclusión; en la práctica budista: los cinco preceptos (ສິນ ຫ້າ)",
+    "fr": "Marchandises/biens (surtout dans des composés comme ສິນຄ້າ 'produits'); fin/conclusion; dans la pratique bouddhiste: les cinq préceptes (ສິນ ຫ້າ)",
+    "hi": "माल/सामान (विशेष रूप से ສິນຄ້າ जैसे यौगिकों में); अंत/समाप्ति; बौद्ध अभ्यास में: पाँच नैतिक नियम (ສິນ ຫ້າ)",
+    "ja": "商品/物品（ສິນຄ້າ「製品」などの複合語に特に使われる）；終わり/結論；仏教の実践では：五戒（ສິນ ຫ້າ）",
+    "km": "ទំនិញ/សินទ្រព្យ (ជាពិសេសសម្រាប់ពាក្យផ្សំដូចជា ສິນຄ້າ 'ផលិតផល'); ការបញ្ចប់/ការសន្និដ្ឋាន; ក្នុងការអនុវត្តព្រះពុទ្ធសាសនា: សីល​ប្រាំ",
+    "ko": "상품/물건(특히 ສິນຄ້າ '제품' 같은 복합어에서); 끝/결론; 불교 수행에서: 오계(ສິນ ຫ້າ)",
+    "ne": "सामान/माल (विशेषगरी ສິນຄ້າ जस्ता यौगिक शब्दहरूमा); अन्त/समाप्ति; बौद्ध अभ्यासमा: पाँच शीलहरू (ສິນ ຫ້າ)",
+    "pt": "Mercadorias/bens (especialmente em compostos como ສິນຄ້າ 'produtos'); fim/conclusão; na prática budista: os cinco preceitos (ສິນ ຫ້າ)",
+    "th": "สินค้า/ของ (โดยเฉพาะในคำประสมเช่น ສິນຄ້າ 'สินค้า'); การสิ้นสุด/ข้อสรุป; ในการปฏิบัติทางพุทธศาสนา: ศีลห้า",
+    "tl": "Mga kalakal/produkto (lalo na sa mga tambalang salita tulad ng ສິນຄ້າ 'mga produkto'); katapusan/konklusyon; sa Budistang pagsasanay: ang limang utos",
+    "ur": "سامان/مال (خاص طور پر ສິນຄ້າ جیسے مرکب الفاظ میں)؛ انجام/اختتام؛ بدھ مت کی عمل میں: پانچ اصول",
+    "vi": "Hàng hóa/sản phẩm (đặc biệt trong các từ ghép như ສິນຄ້າ 'hàng hóa'); kết thúc/kết luận; trong thực hành Phật giáo: năm giới",
+    "zh": "商品/货物（尤其用于ສິນຄ້າ等复合词中）；结束/终结；佛教修行中：五戒",
+    "zh_Hant": "商品/貨物（尤其用於ສິນຄ້າ等複合詞中）；結束/終結；佛教修行中：五戒"
+  },
+  "definition_en": "Goods/merchandise (especially in compounds like ສິນຄ້າ 'products'); end/conclusion; in Buddhist practice: the five precepts (ສິນ ຫ້າ)",
+  "romanization": "/sin˨˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານນີ້ຂາຍສິນຄ້າຫຼາຍຊະນິດ",
+      "romanization": "haan nii khaai sin khaa laai sa nit",
+      "translation_en": "This shop sells many types of goods."
+    },
+    {
+      "lao_script": "ສິນຄ້ານີ້ລາຄາດີຫຼາຍ",
+      "romanization": "sin khaa nii laa khaa dii laai",
+      "translation_en": "This product is very good value."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a market stall with colorful goods and products displayed neatly on shelves and tables, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

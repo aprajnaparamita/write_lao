@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮອດ",
+  "definitions": {
+    "de": "Ankommen, erreichen; an einem Ort oder Ziel eintreffen",
+    "en": "To arrive, to reach; to get to a place or destination",
+    "es": "Llegar, alcanzar; arribar a un lugar o destino",
+    "fr": "Arriver, atteindre; parvenir à un endroit ou à une destination",
+    "hi": "पहुँचना; किसी स्थान या गंतव्य तक आना",
+    "ja": "着く、到着する；ある場所や目的地に達する",
+    "km": "មកដល់, ទៅដល់; ទៅដល់កន្លែងណាមួយ",
+    "ko": "도착하다, 닿다; 어떤 장소나 목적지에 이르다",
+    "ne": "पुग्नु; कुनै ठाउँ वा गन्तव्यमा आइपुग्नु",
+    "pt": "Chegar, alcançar; ir a um lugar ou destino",
+    "th": "ถึง, มาถึง; เดินทางมาถึงสถานที่หรือจุดหมาย",
+    "tl": "Dumating, maabot; makarating sa isang lugar o destinasyon",
+    "ur": "پہنچنا؛ کسی جگہ یا منزل تک آنا",
+    "vi": "Đến, tới; đến được một nơi hay điểm đến nào đó",
+    "zh": "到达，抵达；到达某个地方或目的地",
+    "zh_Hant": "到達，抵達；到達某個地方或目的地"
+  },
+  "definition_en": "To arrive, to reach; to get to a place or destination",
+  "romanization": "hɔːt⁵",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຮອດເຮືອນຍັງ?",
+      "romanization": "tɕâo hɔːt hɯ́an jaŋ",
+      "translation_en": "Have you arrived home yet?"
+    },
+    {
+      "lao_script": "ລົດໄຟຮອດສະຖານີແລ້ວ",
+      "romanization": "lot fáj hɔːt sataːniː lɛ́ːw",
+      "translation_en": "The train has already arrived at the station."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person arriving at a destination, stepping off a bus or train onto a platform with a small station sign, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອອກແບບ",
+  "definitions": {
+    "de": "entwerfen, gestalten, designen – etwas visuell oder funktional planen und kreieren",
+    "en": "to design – to plan and create the look or function of something, often visually or technically",
+    "es": "diseñar – planificar y crear el aspecto o la función de algo, generalmente de forma visual o técnica",
+    "fr": "concevoir, designer – planifier et créer l'apparence ou la fonction de quelque chose, souvent visuellement ou techniquement",
+    "hi": "डिज़ाइन करना – किसी चीज़ की बनावट या कार्यप्रणाली की योजना बनाना और उसे बनाना",
+    "ja": "デザインする、設計する – 何かの見た目や機能を計画して作り上げること",
+    "km": "រចនា, ដិសាញ – គ្រោងការណ៍ និងបង្កើតរូបរាង ឬមុខងារអ្វីមួយ",
+    "ko": "디자인하다, 설계하다 – 무언가의 외관이나 기능을 계획하고 만들어 내다",
+    "ne": "डिजाइन गर्नु – कुनै चीजको रूपरेखा वा कार्यप्रणाली योजना बनाउनु र तयार पार्नु",
+    "pt": "criar design, projetar – planejar e criar a aparência ou a função de algo, geralmente de forma visual ou técnica",
+    "th": "ออกแบบ – วางแผนและสร้างรูปลักษณ์หรือฟังก์ชันของบางสิ่ง มักในเชิงภาพหรือเทคนิค",
+    "tl": "mag-disenyo – magplano at lumikha ng hitsura o function ng isang bagay, kadalasang biswal o teknikal",
+    "ur": "ڈیزائن کرنا – کسی چیز کی ظاہری شکل یا افعال کی منصوبہ بندی اور تخلیق کرنا",
+    "vi": "thiết kế – lên kế hoạch và tạo ra diện mạo hoặc chức năng của một thứ gì đó, thường theo hướng thị giác hoặc kỹ thuật",
+    "zh": "设计——规划并创造某物的外观或功能，通常具有视觉或技术性",
+    "zh_Hant": "設計——規劃並創造某物的外觀或功能，通常具有視覺或技術性"
+  },
+  "definition_en": "to design – to plan and create the look or function of something, often visually or technically",
+  "romanization": "ʔɔːk bɛːp²",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂ້ອຍອອກແບບໂລໂກ້ໃຫ້ບໍລິສັດ",
+      "romanization": "phɯan khɔːj ʔɔːk bɛːp loː koː hai boː liː sat",
+      "translation_en": "My friend designed the logo for the company."
+    },
+    {
+      "lao_script": "ຢາກອອກແບບເຮືອນຫຼັງໃໝ່ໃຫ້ສວຍໆ",
+      "romanization": "jaːk ʔɔːk bɛːp hɯan laŋ maj hai suaj suaj",
+      "translation_en": "I want to design the new house to look really beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting at a desk drawing design blueprints or sketching a creative layout on paper with pencils and rulers, a small laptop nearby, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເສຍ",
+  "definitions": {
+    "de": "Verlieren; verschwenden; kaputt gehen; etwas wird verloren oder geht verloren",
+    "en": "To lose something; to waste; to be gone or broken; to suffer a loss",
+    "es": "Perder algo; desperdiciar; desaparecido o roto; sufrir una pérdida",
+    "fr": "Perdre quelque chose ; gaspiller ; être perdu ou cassé ; subir une perte",
+    "hi": "कुछ खोना; बर्बाद करना; टूटना या चला जाना; नुकसान उठाना",
+    "ja": "失う；無駄にする；壊れる；損失を被る",
+    "km": "បាត់បង់អ្វីមួយ; បំផ្លិចបំផ្លាញ; ខូចឬបាត់; ទទួលការខាតបង់",
+    "ko": "잃다; 낭비하다; 잃어버리다; 손실을 입다",
+    "ne": "केहि गुमाउनु; बर्बाद गर्नु; टुट्नु वा हराउनु; घाटा उठाउनु",
+    "pt": "Perder algo; desperdiçar; estragar; sofrer uma perda",
+    "th": "เสีย; สูญเสีย; สิ้นเปลือง; พัง; ได้รับความสูญเสีย",
+    "tl": "Mawalan ng isang bagay; mag-aksaya; masira; magdusa ng pagkawala",
+    "ur": "کچھ کھونا؛ ضائع کرنا؛ ٹوٹ جانا یا چلا جانا؛ نقصان اٹھانا",
+    "vi": "Mất đi thứ gì đó; lãng phí; bị hỏng hoặc mất; chịu tổn thất",
+    "zh": "失去；浪费；损坏；遭受损失",
+    "zh_Hant": "失去；浪費；損壞；遭受損失"
+  },
+  "definition_en": "To lose something; to waste; to be gone or broken; to suffer a loss",
+  "romanization": "/sǐa/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍເສຍໂທລະສັບໄວ້ໃສ ຫາບໍ່ເຈີ",
+      "romanization": "khòi sǐa thôː lá sáp wâj sǎj hǎː bɔ̀ː jəː",
+      "translation_en": "I lost my phone somewhere and can't find it."
+    },
+    {
+      "lao_script": "ຢ່າເສຍເວລາໄປເລື່ອຍໆ ເຮັດວຽກໄດ້ແລ້ວ",
+      "romanization": "yàː sǐa wéː láː paj lʉ̄aj lʉ̄aj hét wíak dâj lɛ́ɛo",
+      "translation_en": "Stop wasting time like that, you can get to work now."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a sad person looking at an empty hand where something has been lost, with a faded ghost-image of a wallet or phone floating away, clean white background, colorful minimalist style suitable for a language learning app."
+}

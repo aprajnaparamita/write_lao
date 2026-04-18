@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂັບ",
+  "definitions": {
+    "de": "Fahren – ein Fahrzeug steuern oder lenken, z. B. ein Auto, Motorrad oder Fahrrad",
+    "en": "To drive – to operate or steer a vehicle such as a car, motorcycle, or bicycle",
+    "es": "Conducir/manejar – operar o dirigir un vehículo como un automóvil, motocicleta o bicicleta",
+    "fr": "Conduire – piloter ou diriger un véhicule tel qu'une voiture, une moto ou un vélo",
+    "hi": "चलाना – किसी वाहन जैसे कार, मोटरसाइकिल या साइकिल को संचालित करना",
+    "ja": "運転する – 車、バイク、自転車などの乗り物を操作・操縦する",
+    "km": "បើកបរ – ដំណើរការឬដឹកនាំយានយន្តដូចជារថយន្ត មោតូ ឬកង់",
+    "ko": "운전하다 – 자동차, 오토바이, 자전거 등의 차량을 조작하거나 조종하다",
+    "ne": "चलाउनु – कार, मोटरसाइकल, वा साइकल जस्ता सवारी साधन सञ्चालन गर्नु",
+    "pt": "Dirigir/conduzir – operar ou guiar um veículo como carro, motocicleta ou bicicleta",
+    "th": "ขับ – ควบคุมหรือบังคับยานพาหนะ เช่น รถยนต์ มอเตอร์ไซค์ หรือจักรยาน",
+    "tl": "Magmaneho – mag-operate o mag-steer ng sasakyan tulad ng kotse, motorsiklo, o bisikleta",
+    "ur": "چلانا – کار، موٹرسائیکل یا سائیکل جیسی گاڑی کو چلانا یا کنٹرول کرنا",
+    "vi": "Lái – điều khiển hoặc lái một phương tiện như ô tô, xe máy hoặc xe đạp",
+    "zh": "驾驶/开车 – 操控车辆，如汽车、摩托车或自行车",
+    "zh_Hant": "駕駛/開車 – 操控車輛，如汽車、摩托車或腳踏車"
+  },
+  "definition_en": "To drive – to operate or steer a vehicle such as a car, motorcycle, or bicycle",
+  "romanization": "/kʰap˦˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຂັບລົດເປັນບໍ່",
+      "romanization": "jao khap lot pen bo",
+      "translation_en": "Can you drive a car?"
+    },
+    {
+      "lao_script": "ຢ່າຂັບໄວເກີນໄປ ທາງນີ້ລື່ນ",
+      "romanization": "ya khap vai koein pai thang ní luen",
+      "translation_en": "Don't drive too fast, this road is slippery."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting behind the steering wheel of a car, seen from the side, with a road stretching ahead, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

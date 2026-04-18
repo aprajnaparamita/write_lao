@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກິໂລແມັດ",
+  "definitions": {
+    "de": "Kilometer – eine Maßeinheit für Entfernungen, die 1.000 Metern entspricht",
+    "en": "Kilometer – a unit of distance equal to 1,000 meters",
+    "es": "Kilómetro – una unidad de distancia igual a 1.000 metros",
+    "fr": "Kilomètre – une unité de distance égale à 1 000 mètres",
+    "hi": "किलोमीटर – दूरी की एक इकाई जो 1,000 मीटर के बराबर होती है",
+    "ja": "キロメートル – 1,000メートルに等しい距離の単位",
+    "km": "គីឡូម៉ែត្រ – ឯកតាវាស់ចម្ងាយស្មើនឹង ១,០០០ ម៉ែត្រ",
+    "ko": "킬로미터 – 1,000미터에 해당하는 거리 단위",
+    "ne": "किलोमिटर – १,००० मिटर बराबरको दूरीको एकाइ",
+    "pt": "Quilômetro – uma unidade de distância igual a 1.000 metros",
+    "th": "กิโลเมตร – หน่วยวัดระยะทางเท่ากับ 1,000 เมตร",
+    "tl": "Kilometro – isang yunit ng distansya na katumbas ng 1,000 metro",
+    "ur": "کلومیٹر – فاصلے کی ایک اکائی جو 1,000 میٹر کے برابر ہے",
+    "vi": "Kilômét – đơn vị đo khoảng cách bằng 1.000 mét",
+    "zh": "公里（千米）——等于1,000米的距离单位",
+    "zh_Hant": "公里（千米）——等於1,000米的距離單位"
+  },
+  "definition_en": "Kilometer – a unit of distance equal to 1,000 meters",
+  "romanization": "/kiː.loː.mɛ̂t/",
+  "lao_examples": [
+    {
+      "lao_script": "ຈາກບ້ານຂ້ອຍຫາໂຮງຮຽນໄກປະມານສາມກິໂລແມັດ",
+      "romanization": "jaak bâan khɔ̂i hǎː hóːng híːan klai pa.maːn saːm kiː.loː.mɛ̂t",
+      "translation_en": "From my house to school is about three kilometers"
+    },
+    {
+      "lao_script": "ລົດຂ້ອຍແລ່ນໄດ້ຮ້ອຍກິໂລແມັດຕໍ່ຊົ່ວໂມງ",
+      "romanization": "lót khɔ̂i lɛ̂n dâi hɔ̂i kiː.loː.mɛ̂t tɔ̀ː sùa moːng",
+      "translation_en": "My car can go a hundred kilometers per hour"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a road with a distance marker sign showing '1 km', a small car on the road, clean white background, colorful minimalist style, suitable for a language learning app"
+}

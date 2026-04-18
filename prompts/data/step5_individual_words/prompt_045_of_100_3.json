@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຜນ",
+  "definitions": {
+    "de": "Plan oder Karte; ein Vorhaben oder eine Absicht für die Zukunft, oder eine grafische Darstellung eines Gebietes",
+    "en": "Plan or map; an intention or arrangement for the future, or a visual diagram representing an area or layout",
+    "es": "Plan o mapa; una intención o arreglo para el futuro, o un diagrama visual que representa un área o distribución",
+    "fr": "Plan ou carte ; une intention ou un arrangement pour l'avenir, ou un diagramme visuel représentant une zone ou une disposition",
+    "hi": "योजना या नक्शा; भविष्य के लिए कोई इरादा या व्यवस्था, या किसी क्षेत्र या लेआउट को दर्शाने वाला दृश्य चित्र",
+    "ja": "計画または地図；将来のための意図や取り決め、またはある地域や配置を視覚的に表した図",
+    "km": "គម្រោង ឬផែនទី; ចេតនា ឬការរៀបចំសម្រាប់អនាគត ឬដ្យាក្រាមដែលតំណាងឱ្យតំបន់ ឬប្លង់",
+    "ko": "계획 또는 지도; 미래를 위한 의도나 준비, 또는 어떤 지역이나 배치를 시각적으로 나타낸 도표",
+    "ne": "योजना वा नक्सा; भविष्यका लागि कुनै इरादा वा व्यवस्था, वा कुनै क्षेत्र वा लेआउटलाई दृश्य रूपमा देखाउने रेखाचित्र",
+    "pt": "Plano ou mapa; uma intenção ou arranjo para o futuro, ou um diagrama visual representando uma área ou layout",
+    "th": "แผน หรือแผนที่; ความตั้งใจหรือการจัดเตรียมสำหรับอนาคต หรือแผนภาพที่แสดงพื้นที่หรือผังบริเวณ",
+    "tl": "Plano o mapa; isang intensyon o pagsasaayos para sa hinaharap, o isang visual na diagram na kumakatawan sa isang lugar o layout",
+    "ur": "منصوبہ یا نقشہ؛ مستقبل کے لیے کوئی ارادہ یا انتظام، یا کسی علاقے یا ترتیب کو بصری طور پر ظاہر کرنے والا خاکہ",
+    "vi": "Kế hoạch hoặc bản đồ; một ý định hoặc sắp xếp cho tương lai, hoặc sơ đồ trực quan thể hiện một khu vực hoặc bố cục",
+    "zh": "计划或地图；对未来的打算或安排，或代表某区域或布局的视觉图表",
+    "zh_Hant": "計劃或地圖；對未來的打算或安排，或代表某區域或佈局的視覺圖表"
+  },
+  "definition_en": "Plan or map; an intention or arrangement for the future, or a visual diagram representing an area or layout",
+  "romanization": "phɛ̌ɛn",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າມີແຜນຫຍັງສຳລັບອາທິດໜ້າ?",
+      "romanization": "jâo mii phɛ̌ɛn ɲǎng sǎm láp aa thít nâa?",
+      "translation_en": "Do you have any plans for next week?"
+    },
+    {
+      "lao_script": "ເຮົາຕ້ອງວາງແຜນດີໆ ກ່ອນອອກເດີນທາງ",
+      "romanization": "hao tɔ̂ng wáang phɛ̌ɛn dii dii, gɔ̀n ɔ̀k dəən thaang",
+      "translation_en": "We need to plan carefully before setting off on the trip."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open notebook with a checklist and a small map drawn on it, a pencil lying beside it, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

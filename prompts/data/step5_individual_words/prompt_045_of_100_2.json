@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຂກ",
+  "definitions": {
+    "de": "Gast; eine Person, die zu Besuch kommt oder eingeladen ist, z. B. zu einem Essen oder einer Veranstaltung",
+    "en": "Guest; a person who visits or is invited to someone's home, an event, or an establishment",
+    "es": "Invitado; una persona que visita o es invitada a la casa de alguien, a un evento o a un establecimiento",
+    "fr": "Invité ; une personne qui rend visite ou est invitée chez quelqu'un, à un événement ou dans un établissement",
+    "hi": "मेहमान; कोई व्यक्ति जो किसी के घर, किसी कार्यक्रम या किसी स्थान पर आमंत्रित होकर आता है",
+    "ja": "客；誰かの家、イベント、または施設を訪問したり招かれたりする人",
+    "km": "ភ្ញៀវ; បុគ្គលដែលមកលេង ឬត្រូវបានអញ្ជើញមកផ្ទះរបស់នរណាម្នាក់ ព្រឹត្តិការណ៍ ឬស្ថាប័នមួយ",
+    "ko": "손님; 누군가의 집, 행사 또는 시설을 방문하거나 초대받은 사람",
+    "ne": "पाहुना; कुनै व्यक्ति जो कसैको घर, कार्यक्रम वा प्रतिष्ठानमा भ्रमण गर्न वा आमन्त्रित भई आउँछ",
+    "pt": "Convidado ou hóspede; uma pessoa que visita ou é convidada para a casa de alguém, um evento ou um estabelecimento",
+    "th": "แขก; บุคคลที่มาเยี่ยมหรือได้รับเชิญมาที่บ้านของใครสักคน งานอีเวนต์ หรือสถานประกอบการ",
+    "tl": "Panauhin; isang taong bumibisita o inimbitahan sa tahanan ng isang tao, isang kaganapan, o isang establisimyento",
+    "ur": "مہمان؛ ایک شخص جو کسی کے گھر، کسی تقریب یا کسی جگہ پر آتا یا مدعو کیا جاتا ہے",
+    "vi": "Khách; một người đến thăm hoặc được mời đến nhà ai đó, một sự kiện hoặc một cơ sở",
+    "zh": "客人；到访或受邀去某人家、某活动或某场所的人",
+    "zh_Hant": "客人；到訪或受邀去某人家、某活動或某場所的人"
+  },
+  "definition_en": "Guest; a person who visits or is invited to someone's home, an event, or an establishment",
+  "romanization": "khɛ̀ɛk",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ມີແຂກມາເຮືອນ, ຕ້ອງຈັດແຈງກ່ອນ",
+      "romanization": "mʉ́ʉ níi mii khɛ̀ɛk maa hʉan, tɔ̂ng jàt jɛɛng gɔ̀n",
+      "translation_en": "Today we have guests coming to the house, we need to get ready first."
+    },
+    {
+      "lao_script": "ແຂກຢູ່ໂຮງແຮມຊັ້ນສາມ",
+      "romanization": "khɛ̀ɛk yùu hóong hɛɛm sán sǎam",
+      "translation_en": "The guest is staying on the third floor of the hotel."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person standing at a front door being welcomed by a host with open arms, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

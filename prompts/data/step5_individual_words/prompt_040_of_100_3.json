@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມື້",
+  "definitions": {
+    "de": "Tag – ein Zeitraum von 24 Stunden; auch verwendet für 'heute' oder einen bestimmten Tag im Alltag",
+    "en": "Day – a period of 24 hours; used in spoken Lao to refer to a day or a particular time/occasion",
+    "es": "Día – período de 24 horas; usado en lao hablado para referirse a un día o momento específico",
+    "fr": "Jour – période de 24 heures; utilisé en laotien parlé pour désigner un jour ou une occasion particulière",
+    "hi": "दिन – 24 घंटे की अवधि; बोली जाने वाली लाओ भाषा में किसी दिन या विशेष अवसर के लिए प्रयुक्त",
+    "ja": "日（ひ）・一日 – 24時間の期間; 話し言葉のラオ語で特定の日や場面を指すのに使われる",
+    "km": "ថ្ងៃ – រយៈពេល ២៤ ម៉ោង; ប្រើក្នុងភាសាឡាវនិយាយដើម្បីសំដៅទៅលើថ្ងៃ ឬឱកាសជាក់លាក់",
+    "ko": "날/하루 – 24시간의 기간; 구어 라오어에서 특정 날이나 때를 가리킬 때 사용",
+    "ne": "दिन – २४ घन्टाको अवधि; बोलिने लाओ भाषामा कुनै दिन वा विशेष अवसर जनाउन प्रयोग हुन्छ",
+    "pt": "Dia – período de 24 horas; usado no lao falado para se referir a um dia ou ocasião específica",
+    "th": "วัน – ช่วงเวลา 24 ชั่วโมง; ใช้ในภาษาลาวพูดเพื่อหมายถึงวันหนึ่งหรือโอกาสเฉพาะ",
+    "tl": "Araw – isang panahon na 24 na oras; ginagamit sa sinasalitang Lao para tumukoy sa isang araw o partikular na okasyon",
+    "ur": "دن – 24 گھنٹوں کی مدت؛ بولی جانے والی لاؤ میں کسی دن یا خاص موقع کے لیے استعمال ہوتا ہے",
+    "vi": "Ngày – khoảng thời gian 24 giờ; dùng trong tiếng Lào nói để chỉ một ngày hoặc dịp cụ thể",
+    "zh": "天/日 – 24小时的时间段；在口语老挝语中用于指某一天或特定时刻",
+    "zh_Hant": "天/日 – 24小時的時間段；在口語老撾語中用於指某一天或特定時刻"
+  },
+  "definition_en": "Day – a period of 24 hours; used in spoken Lao to refer to a day or a particular time/occasion",
+  "romanization": "/mɯ̂ː/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ອາກາດດີຫຼາຍ",
+      "romanization": "meu nii a-gat dii lai",
+      "translation_en": "The weather is really nice today."
+    },
+    {
+      "lao_script": "ມື້ວານນີ້ຂ້ອຍໄປຕະຫຼາດ",
+      "romanization": "meu van nii khoi pai ta-lat",
+      "translation_en": "Yesterday I went to the market."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright sunny day with a calendar page showing a single day, a sun in the sky, and soft daytime colors, clean white background, minimalist cartoon style suitable for a language learning app."
+}

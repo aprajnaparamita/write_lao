@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈອດ",
+  "definitions": {
+    "de": "Parken; anhalten (von Fahrzeugen); ein Fahrzeug an einem bestimmten Ort abstellen",
+    "en": "To park; to stop and stay (of vehicles); to dock (a boat)",
+    "es": "Estacionar; detenerse (de vehículos); aparcar un vehículo en un lugar determinado",
+    "fr": "Se garer; s'arrêter (pour les véhicules); stationner un véhicule à un endroit précis",
+    "hi": "पार्क करना; रुकना (वाहनों के लिए); किसी निश्चित स्थान पर वाहन खड़ा करना",
+    "ja": "駐車する；（乗り物が）止まって留まる；停泊する（船）",
+    "km": "ចតយានយន្ត; ឈប់ (យានយន្ត); ចតនៅកន្លែងណាមួយ",
+    "ko": "주차하다; (차량이) 멈춰 서다; 정박하다 (배)",
+    "ne": "पार्क गर्नु; रोकिनु (सवारी साधनको लागि); कुनै निश्चित ठाउँमा सवारी साधन राख्नु",
+    "pt": "Estacionar; parar (veículos); atracar (barco)",
+    "th": "จอด; หยุด (ยานพาหนะ); จอดยานพาหนะไว้ที่ใดที่หนึ่ง",
+    "tl": "Mag-park; huminto (ng sasakyan); iparada ang sasakyan sa isang lugar",
+    "ur": "پارک کرنا؛ رکنا (گاڑیوں کے لیے)؛ کسی مخصوص جگہ گاڑی کھڑی کرنا",
+    "vi": "Đỗ xe; dừng lại (xe cộ); neo đậu (thuyền)",
+    "zh": "停车；（车辆）停靠；泊车",
+    "zh_Hant": "停車；（車輛）停靠；泊車"
+  },
+  "definition_en": "To park; to stop and stay (of vehicles); to dock (a boat)",
+  "romanization": "tɕɔːt",
+  "lao_examples": [
+    {
+      "lao_script": "ຈອດລົດບ່ອນໃດໄດ້ແດ່?",
+      "romanization": "tɕɔːt lót bɔ̀ːn daj dâj dɛ̀ː",
+      "translation_en": "Where can I park the car?"
+    },
+    {
+      "lao_script": "ຫ້າມຈອດລົດຕໍ່ໜ້ານີ້ເດີ້",
+      "romanization": "hâːm tɕɔːt lót tɔ̀ː nâː níː dəː",
+      "translation_en": "No parking in front here, okay?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a car neatly parked in a designated parking space marked with white lines, viewed from a slight angle, clean white background, colorful minimalist style suitable for a language learning app."
+}

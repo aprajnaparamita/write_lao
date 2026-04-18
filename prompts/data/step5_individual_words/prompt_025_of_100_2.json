@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເກີດ",
+  "definitions": {
+    "de": "Geboren werden; entstehen; sich ereignen oder stattfinden",
+    "en": "To be born; to happen or occur; to arise or come into existence",
+    "es": "Nacer; ocurrir o suceder; surgir o llegar a existir",
+    "fr": "Naître; se produire ou arriver; surgir ou prendre naissance",
+    "hi": "जन्म लेना; होना या घटित होना; उत्पन्न होना या अस्तित्व में आना",
+    "ja": "生まれる；起こる・発生する；生じる・存在するようになる",
+    "km": "កើត; ប្រទាក់ ឬកើតឡើង; លេចឡើង ឬចាប់ផ្តើមមាន",
+    "ko": "태어나다; 발생하다 또는 일어나다; 생겨나다 또는 존재하게 되다",
+    "ne": "जन्मनु; हुनु वा घट्नु; उत्पन्न हुनु वा अस्तित्वमा आउनु",
+    "pt": "Nascer; acontecer ou ocorrer; surgir ou passar a existir",
+    "th": "เกิด; เกิดขึ้น; เกิดมีขึ้นหรือบังเกิดขึ้น",
+    "tl": "Ipanganak; mangyari o maganap; lumitaw o magsimulang umiral",
+    "ur": "پیدا ہونا؛ واقع ہونا یا ہونا؛ وجود میں آنا",
+    "vi": "Được sinh ra; xảy ra hoặc xảy đến; phát sinh hoặc xuất hiện",
+    "zh": "出生；发生；产生或出现",
+    "zh_Hant": "出生；發生；產生或出現"
+  },
+  "definition_en": "To be born; to happen or occur; to arise or come into existence",
+  "romanization": "/kɤːt²¹/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍເກີດທີ່ວຽງຈັນ",
+      "romanization": "khoi koet thi wiang chan",
+      "translation_en": "I was born in Vientiane."
+    },
+    {
+      "lao_script": "ເກີດຫຍັງຂຶ້ນແນ່ກັນຢູ່ຕະຫຼາດ?",
+      "romanization": "koet nyang kheun nae kan yu ta lat",
+      "translation_en": "What happened at the market just now?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a newborn baby wrapped in a soft blanket, with a bright glowing light symbolizing new life, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

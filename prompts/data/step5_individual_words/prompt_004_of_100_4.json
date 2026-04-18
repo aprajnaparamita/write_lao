@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຫ່ງ",
+  "definitions": {
+    "de": "von; Ort; Stelle (formaler Besitzmarker; Klassifikator für Orte)",
+    "en": "of; place; location (formal possessive; classifier for places)",
+    "es": "de; lugar; sitio (posesivo formal; clasificador de lugares)",
+    "fr": "de; lieu; endroit (possessif formel; classificateur pour lieux)",
+    "hi": "का (औपचारिक); स्थान/जगह (स्थान के लिए वर्गचिह्न)",
+    "ja": "〜の（格式）／〜か所（場所の助数詞）",
+    "km": "នៃ／កន្លែង (បុព្វបទគោរព ឬពាក្យចាត់ថ្នាក់សម្រាប់ទីកន្លែង)",
+    "ko": "~의／곳 (격식 소유격 또는 장소 분류사)",
+    "ne": "को／ठाउँ (औपचारिक सम्बन्ध वा ठाउँको वर्गीकारक)",
+    "pt": "de; lugar; local (possessivo formal; classificador de lugares)",
+    "th": "แห่ง (คำบอกความเป็นเจ้าของแบบเป็นทางการ หรือที่แห่ง)",
+    "tl": "ng／lugar (pormal na pagmamay-ari o pantukoy sa lugar)",
+    "ur": "کا (رسمی)؛ مقام؛ جگہ",
+    "vi": "của; nơi; chỗ (sở hữu trang trọng hoặc loại từ cho nơi)",
+    "zh": "之／处／所（正式的领属或处所量词）",
+    "zh_Hant": "之／處／所（正式的領屬或處所量詞）"
+  },
+  "definition_en": "of; place; location (formal possessive; classifier for places)",
+  "romanization": "hɛ̄ŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ນະຄອນ ຫຼວງ ແຫ່ງ ປະເທດ ລາວ",
+      "romanization": "nāʔ.kʰɔ̂ːn lǔːəŋ hɛ̄ŋ pā.tʰéːt láːw",
+      "translation_en": "The capital of Laos."
+    },
+    {
+      "lao_script": "ສອງ ແຫ່ງ ນີ້ ສວຍ ງາມ",
+      "romanization": "sɔ̌ːŋ hɛ̄ŋ nîː sǔːəj ŋáːm",
+      "translation_en": "These two places are beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a map with two labeled location pins connected by a small banner, suitable for a language learning app, clean white background, minimalist style."
+}

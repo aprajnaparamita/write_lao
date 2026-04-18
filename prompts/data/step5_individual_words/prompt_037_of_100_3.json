@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊາວ",
+  "definitions": {
+    "de": "Menschen, Volk (als Präfix für Nationalität oder ethnische Gruppe); auch: zwanzig (die Zahl 20)",
+    "en": "People, folk (used as a prefix for nationality or ethnic group); also: twenty (the number 20)",
+    "es": "Gente, pueblo (usado como prefijo de nacionalidad o grupo étnico); también: veinte (el número 20)",
+    "fr": "Peuple, gens (utilisé comme préfixe de nationalité ou groupe ethnique); aussi: vingt (le nombre 20)",
+    "hi": "लोग, जनता (राष्ट्रीयता या जातीय समूह के उपसर्ग के रूप में प्रयुक्त); साथ ही: बीस (संख्या 20)",
+    "ja": "人々、民族（国籍や民族グループの接頭辞として使用）；また：二十（数字の20）",
+    "km": "ប្រជាជន, ពួក (ប្រើជាបុព្វបទសម្រាប់សញ្ជាតិ ឬក្រុមជនជាតិ); ក៏មានន័យថា ម្ភៃ (លេខ 20)",
+    "ko": "사람들, 민족 (국적이나 민족 집단의 접두사로 사용); 또한: 이십 (숫자 20)",
+    "ne": "मानिसहरू, जनजाति (राष्ट्रियता वा जातीय समूहको उपसर्गको रूपमा प्रयोग); साथै: बीस (संख्या २०)",
+    "pt": "Povo, gente (usado como prefixo de nacionalidade ou grupo étnico); também: vinte (o número 20)",
+    "th": "ชาว (คำนำหน้าสัญชาติหรือกลุ่มชาติพันธุ์); ยังหมายถึง ยี่สิบ (ตัวเลข 20)",
+    "tl": "Mga tao, bayan (ginagamit bilang unlapi para sa nasyonalidad o pangkat etniko); gayundin: dalawampu (ang bilang 20)",
+    "ur": "لوگ، قوم (قومیت یا نسلی گروہ کے سابقے کے طور پر استعمال)؛ نیز: بیس (عدد 20)",
+    "vi": "Người, dân (dùng làm tiền tố chỉ quốc tịch hoặc nhóm dân tộc); cũng có nghĩa: hai mươi (số 20)",
+    "zh": "人，民（用作国籍或民族前缀）；也指：二十（数字20）",
+    "zh_Hant": "人，民（用作國籍或民族前綴）；也指：二十（數字20）"
+  },
+  "definition_en": "People, folk (used as a prefix for nationality or ethnic group); also: twenty (the number 20)",
+  "romanization": "/saːw³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊາວລາວຮັກການກິນເຂົ້າ",
+      "romanization": "saao Laao hak gaan gin khao",
+      "translation_en": "Lao people love eating rice."
+    },
+    {
+      "lao_script": "ມີຊາວປະມານຊາວຄົນມາງານ",
+      "romanization": "mii saao pa-maan saao khon maa ngaan",
+      "translation_en": "About twenty people came to the event."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a diverse group of smiling people standing together representing a community or nationality, with the number 20 displayed nearby in a friendly font, clean white background, colorful, minimalist style suitable for a language learning app."
+}

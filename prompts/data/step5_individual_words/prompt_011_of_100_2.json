@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕາມ",
+  "definitions": {
+    "de": "Folgen, gemäß, entsprechend – wird verwendet, um das Nachfolgen einer Person oder das Handeln nach einer Regel oder Anweisung auszudrücken",
+    "en": "To follow, according to, or in accordance with – used to express following someone or acting in accordance with a rule or instruction",
+    "es": "Seguir, según, de acuerdo con – se usa para expresar el seguimiento de alguien o actuar conforme a una regla o instrucción",
+    "fr": "Suivre, selon, conformément à – utilisé pour exprimer le fait de suivre quelqu'un ou d'agir selon une règle ou une instruction",
+    "hi": "पीछे चलना, के अनुसार, के मुताबिक – किसी का अनुसरण करने या किसी नियम के अनुसार कार्य करने के लिए प्रयुक्त",
+    "ja": "従う、〜に従って、〜によると – 誰かについていったり、規則や指示に従って行動することを表す",
+    "km": "តាម ស្របតាម ឬអនុវត្តតាម – ប្រើដើម្បីបញ្ជាក់ការដើរតាម ឬការធ្វើតាមច្បាប់",
+    "ko": "따르다, ~에 따라, ~에 의하면 – 누군가를 따르거나 규칙이나 지시에 따라 행동하는 것을 나타냄",
+    "ne": "पछ्याउनु, अनुसार, अनुरूप – कसैलाई पछ्याउने वा कुनै नियम अनुसार काम गर्ने भाव व्यक्त गर्न प्रयोग हुन्छ",
+    "pt": "Seguir, de acordo com, conforme – usado para expressar o seguimento de alguém ou agir de acordo com uma regra ou instrução",
+    "th": "ตาม แล้วแต่ หรือตามที่ – ใช้เพื่อแสดงการติดตามใครบางคนหรือปฏิบัติตามกฎหรือคำสั่ง",
+    "tl": "Sundan, ayon sa, o alinsunod sa – ginagamit upang ipahayag ang pagsunod sa isang tao o pagtugon sa isang tuntunin o tagubilin",
+    "ur": "پیچھے چلنا، کے مطابق، کے موافق – کسی کی پیروی کرنے یا کسی قاعدے کے مطابق عمل کرنے کے لیے استعمال ہوتا ہے",
+    "vi": "Theo, đi theo, hay theo như – dùng để diễn đạt việc đi theo ai đó hoặc hành động theo một quy tắc hay hướng dẫn",
+    "zh": "跟随、按照、依据——用于表达跟随某人或按照规则、指示行事",
+    "zh_Hant": "跟隨、按照、依據——用於表達跟隨某人或按照規則、指示行事"
+  },
+  "definition_en": "To follow, according to, or in accordance with – used to express following someone or acting in accordance with a rule or instruction",
+  "romanization": "taːm",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຕາມຂ້ອຍມາໄດ້ເລີຍ",
+      "romanization": "dʑâo taːm kʰɔːi maː daǐ ləːi",
+      "translation_en": "You can just follow me."
+    },
+    {
+      "lao_script": "ຕາມທີ່ຄູບອກ, ຕ້ອງເຮັດການບ້ານທຸກວັນ",
+      "romanization": "taːm tʰiː kʰuː bɔːk, tɔːŋ hét kaːn baːn tʰúk van",
+      "translation_en": "According to what the teacher said, you have to do homework every day."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of one person following another person along a path, viewed from the side, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

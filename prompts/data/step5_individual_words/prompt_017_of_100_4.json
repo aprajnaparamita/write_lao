@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທອງ",
+  "definitions": {
+    "de": "Gold (Metall) oder Bauch/Magen; ein häufiges Wort in laotischen Namen und als Substantiv für das Edelmetall oder den Körperteil",
+    "en": "Gold (the precious metal) or belly/stomach; commonly used in Lao names and as a noun for both the metal and the body part",
+    "es": "Oro (el metal precioso) o barriga/estómago; comúnmente usado en nombres laotianos y como sustantivo tanto para el metal como para la parte del cuerpo",
+    "fr": "Or (le métal précieux) ou ventre/estomac ; couramment utilisé dans les prénoms laotiens et comme nom désignant le métal ou la partie du corps",
+    "hi": "सोना (कीमती धातु) या पेट; लाओसी नामों में और धातु तथा शरीर के अंग दोनों के लिए संज्ञा के रूप में प्रयुक्त",
+    "ja": "金（貴金属）またはお腹・胃；ラオス人の名前によく使われ、金属や体の部位を表す名詞",
+    "km": "មាស (លោហៈថ្មីល្អ) ឬពោះ/胃; ប្រើជាទូទៅក្នុងឈ្មោះឡាវ និងជានាមសំដៅទៅលើលោហៈ ឬផ្នែករាងកាយ",
+    "ko": "금(귀금속) 또는 배/위장; 라오스 이름에 흔히 쓰이며 금속이나 신체 부위를 나타내는 명사",
+    "ne": "सुन (बहुमूल्य धातु) वा पेट; लाओ नामहरूमा सामान्य र धातु तथा शरीरको अंग दुवैको लागि संज्ञाका रूपमा प्रयोग",
+    "pt": "Ouro (o metal precioso) ou barriga/estômago; comumente usado em nomes laocianos e como substantivo tanto para o metal quanto para a parte do corpo",
+    "th": "ทอง (โลหะมีค่า) หรือท้อง/กระเพาะ; ใช้บ่อยในชื่อของคนลาวและเป็นคำนามสำหรับทั้งโลหะและส่วนของร่างกาย",
+    "tl": "Ginto (ang mahalagang metal) o tiyan/sikmura; karaniwang ginagamit sa mga pangalan ng Lao at bilang pangngalan para sa metal at bahagi ng katawan",
+    "ur": "سونا (قیمتی دھات) یا پیٹ/معدہ؛ لاؤ ناموں میں عام اور دھات اور جسم کے حصے دونوں کے لیے اسم کے طور پر استعمال",
+    "vi": "Vàng (kim loại quý) hoặc bụng/dạ dày; thường dùng trong tên người Lào và là danh từ chỉ kim loại hoặc bộ phận cơ thể",
+    "zh": "黄金（贵重金属）或肚子/胃；常用于老挝人名，也作为指代金属或身体部位的名词",
+    "zh_Hant": "黃金（貴重金屬）或肚子/胃；常用於寮國人名，也作為指代金屬或身體部位的名詞"
+  },
+  "definition_en": "Gold (the precious metal) or belly/stomach; commonly used in Lao names and as a noun for both the metal and the body part",
+  "romanization": "/tʰɔːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ແຫວນທອງຂອງແມ່ສວຍຫຼາຍ",
+      "romanization": "haen thong khong mae suay lai",
+      "translation_en": "My mom's gold ring is very beautiful."
+    },
+    {
+      "lao_script": "ທອງຂອງຂ້ອຍເຈັບຫຼາຍ",
+      "romanization": "thong khong khoi chep lai",
+      "translation_en": "My belly hurts a lot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two images side by side: a shiny gold bar or coin on the left, and a cartoon person holding their belly on the right, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

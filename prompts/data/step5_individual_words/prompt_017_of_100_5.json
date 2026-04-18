@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊ່ວຍ",
+  "definitions": {
+    "de": "Helfen, unterstützen; jemandem bei einer Aufgabe oder in einer schwierigen Situation Hilfe leisten",
+    "en": "To help or assist; to give aid or support to someone in need",
+    "es": "Ayudar o asistir; dar apoyo o socorro a alguien que lo necesita",
+    "fr": "Aider ou assister ; apporter une aide ou un soutien à quelqu'un dans le besoin",
+    "hi": "मदद करना या सहायता देना; किसी जरूरतमंद को सहारा देना",
+    "ja": "助ける、手伝う；困っている人を援助するまたは支援する動詞",
+    "km": "ជួយ ឬដោះស្រាយ; ផ្តល់ជំនួយ ឬការគាំទ្រដល់អ្នកដែលត្រូវការ",
+    "ko": "돕다, 보조하다; 도움이 필요한 사람에게 지원을 제공하는 동사",
+    "ne": "मद्दत गर्नु वा सहयोग गर्नु; आवश्यकता परेको व्यक्तिलाई सहायता प्रदान गर्नु",
+    "pt": "Ajudar ou auxiliar; dar apoio ou assistência a alguém que precisa",
+    "th": "ช่วย หรือช่วยเหลือ; ให้ความช่วยเหลือหรือสนับสนุนแก่ผู้ที่ต้องการ",
+    "tl": "Tumulong o tulungan; magbigay ng tulong o suporta sa isang taong nangangailangan",
+    "ur": "مدد کرنا یا معاونت دینا؛ ضرورتمند کو سہارا دینا",
+    "vi": "Giúp đỡ hoặc hỗ trợ; cung cấp sự trợ giúp cho ai đó đang cần",
+    "zh": "帮助、协助；向需要的人提供援助或支持",
+    "zh_Hant": "幫助、協助；向需要的人提供援助或支持"
+  },
+  "definition_en": "To help or assist; to give aid or support to someone in need",
+  "romanization": "/sùaj/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຂ້ອຍດ້ວຍໄດ້ບໍ?",
+      "romanization": "suay khoi duay dai bo",
+      "translation_en": "Can you help me, please?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກຊ່ວຍເພື່ອນທີ່ລຳບາກ",
+      "romanization": "khoi yak suay phuean thi lam bak",
+      "translation_en": "I want to help my friend who is having a hard time."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of one person extending a hand to help another person up from the ground, both smiling, clean white background, bright warm colors, minimalist cartoon style suitable for a language learning app."
+}

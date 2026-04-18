@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກາຍ",
+  "definitions": {
+    "de": "werden; sich verändern oder sich in einen anderen Zustand verwandeln; auch: vergehen oder vorbeigehen",
+    "en": "to become; to change into a different state; also to pass or go beyond",
+    "es": "llegar a ser; cambiar a un estado diferente; también pasar o ir más allá",
+    "fr": "devenir ; changer d'état ; aussi passer ou dépasser",
+    "hi": "बनना; किसी अलग अवस्था में बदलना; साथ ही गुज़र जाना या आगे बढ़ना",
+    "ja": "なる；別の状態に変わる；また、過ぎる・通り過ぎる",
+    "km": "ក្លាយជា; ផ្លាស់ប្តូរទៅជាស្ថានភាពមួយផ្សេង; ក៏មានន័យថា កន្លងផ្តាច់ ឬហួស",
+    "ko": "되다; 다른 상태로 변하다; 또는 지나가다, 넘어서다",
+    "ne": "बन्नु; अर्को अवस्थामा परिवर्तन हुनु; साथै गुज्रनु वा पार हुनु",
+    "pt": "tornar-se; mudar para um estado diferente; também passar ou ultrapassar",
+    "th": "กลายเป็น; เปลี่ยนไปสู่สภาพอื่น; หรือผ่านไป, เลยไป",
+    "tl": "maging; magbago sa ibang estado; pati na rin lumampas o lumipas",
+    "ur": "بننا؛ کسی مختلف حالت میں تبدیل ہونا؛ نیز گزرنا یا آگے بڑھنا",
+    "vi": "trở thành; thay đổi sang trạng thái khác; cũng có nghĩa là đi qua hoặc vượt qua",
+    "zh": "变成；变为另一种状态；也有经过、超过的意思",
+    "zh_Hant": "變成；變為另一種狀態；也有經過、超過的意思"
+  },
+  "definition_en": "to become; to change into a different state; also to pass or go beyond",
+  "romanization": "kaai",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົາກາຍເປັນຄົນດັງແລ້ວ",
+      "romanization": "khǎo kaai pen khon dang lɛ́ɛo",
+      "translation_en": "He has already become famous."
+    },
+    {
+      "lao_script": "ເວລາກາຍໄປໄວຫຼາຍ",
+      "romanization": "wee-laa kaai pai wai lǎai",
+      "translation_en": "Time passes very quickly."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a caterpillar transforming into a butterfly, with an arrow showing the change, representing the concept of 'becoming', clean white background, soft bright colors, minimalist cartoon style suitable for a language learning app."
+}

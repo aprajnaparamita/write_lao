@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕິດ",
+  "definitions": {
+    "de": "Kleben, haften, anhängen; angeschlossen oder feststeckend sein; etwas wird befestigt oder bleibt stecken (vielseitiges Verb mit vielen zusammengesetzten Verwendungen)",
+    "en": "To stick, to attach, to be connected or stuck; used to describe adhesion, being adjacent, being addicted, or being caught up (versatile verb used in many compound forms)",
+    "es": "Pegar, adherir, estar conectado o atascado; se usa para describir adherencia, estar adyacente, estar adicto o quedarse enganchado (verbo versátil con muchos usos compuestos)",
+    "fr": "Coller, attacher, être connecté ou coincé; utilisé pour décrire l'adhérence, la proximité, l'addiction ou le fait d'être pris (verbe polyvalent utilisé dans de nombreuses formes composées)",
+    "hi": "चिपकना, जोड़ना, जुड़ा होना या फंसा होना; चिपकाव, निकटता, लत, या फंसे होने को दर्शाने के लिए उपयोग किया जाता है (कई यौगिक रूपों में उपयोग किया जाने वाला बहुमुखी क्रिया)",
+    "ja": "くっつく、付着する、繋がる、または詰まる；粘着、隣接、中毒、または引っかかっていることを表すために使われる（多くの複合形で使われる多用途の動詞）",
+    "km": "ស្អិត ភ្ជាប់ ត្រូវបានភ្ជាប់ ឬជាប់គាំង; ប្រើដើម្បីពណ៌នាការស្អិត ការនៅជិត ការញៀន ឬការជាប់គាំង (កិរិយាស័ព្ទពហុគោលបំណងដែលប្រើក្នុងទម្រង់ផ្សំជាច្រើន)",
+    "ko": "붙다, 부착하다, 연결되거나 막히다; 접착, 인접, 중독 또는 걸려 있음을 묘사하는 데 사용됨 (많은 복합 형태로 사용되는 다재다능한 동사)",
+    "ne": "टाँस्नु, जोड्नु, जोडिएको वा अड्किएको हुनु; चिपकाव, नजिकपन, लत, वा अड्किएको वर्णन गर्न प्रयोग गरिन्छ (धेरै यौगिक रूपहरूमा प्रयोग हुने बहुमुखी क्रिया)",
+    "pt": "Colar, anexar, estar conectado ou preso; usado para descrever adesão, proximidade, vício ou estar preso (verbo versátil com muitos usos compostos)",
+    "th": "ติด, ผนึก, เชื่อมต่อหรือติดขัด; ใช้เพื่ออธิบายการติดแน่น ความใกล้ชิด การติดยาเสพติด หรือการติดค้าง (กริยาที่ใช้งานได้หลากหลายในรูปแบบคำประสม)",
+    "tl": "Dumikit, ilakip, maikonekta o maipit; ginagamit upang ilarawan ang pagdikit, pagiging katabi, pagkaakit, o pagkabuntot (maraming gamit na pandiwa sa iba't ibang tambalan)",
+    "ur": "چپکنا، جوڑنا، جڑا ہوا یا پھنسا ہوا ہونا؛ چپکاؤ، قربت، لت، یا پھنسے ہونے کو بیان کرنے کے لیے استعمال ہوتا ہے (بہت سی مرکب شکلوں میں استعمال ہونے والا کثیرالمقاصد فعل)",
+    "vi": "Dính, gắn, kết nối hoặc bị mắc kẹt; dùng để mô tả sự dính, sự gần gũi, sự nghiện ngập hoặc bị vướng mắc (động từ linh hoạt dùng trong nhiều dạng ghép)",
+    "zh": "粘、附着、连接或卡住；用于描述粘附、相邻、上瘾或被卡住（用于许多复合形式的多功能动词）",
+    "zh_Hant": "黏、附著、連接或卡住；用於描述黏附、相鄰、上癮或被卡住（用於許多複合形式的多功能動詞）"
+  },
+  "definition_en": "To stick, to attach, to be connected or stuck; used to describe adhesion, being adjacent, being addicted, or being caught up (versatile verb used in many compound forms)",
+  "romanization": "tit˥",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈ້ຍຕິດນິ້ວຂ້ອຍ, ເອົາອອກບໍ່ໄດ້ເລີຍ",
+      "romanization": "jia tit niu khoy, ao ok bo dai loey",
+      "translation_en": "The paper is stuck to my finger, I can't get it off at all"
+    },
+    {
+      "lao_script": "ລາວຕິດໂທລະສັບຫຼາຍ, ຖືຕະຫຼອດເວລາ",
+      "romanization": "lao tit tholasap lai, thue talot wela",
+      "translation_en": "He's really addicted to his phone, he holds it all the time"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a piece of tape or sticker firmly attached to a surface, with a small hand trying to peel it off, clean white background, bright colors, minimalist cartoon style suitable for a language learning app"
+}

@@ -1,0 +1,392 @@
+{
+  "ຈຸ": {
+    "definitions": {
+      "de": "Platz haben für; fassen (eine bestimmte Menge oder Anzahl aufnehmen können)",
+      "en": "To fit/hold (a certain capacity or amount); to have room for",
+      "es": "Caber; tener capacidad para (una cantidad determinada)",
+      "fr": "Contenir; avoir de la place pour (une certaine capacité ou quantité)",
+      "hi": "समाना; किसी निश्चित मात्रा या संख्या को धारण करना",
+      "ja": "収容できる；入る（ある量や人数が入るスペースがある）",
+      "km": "អាចផ្ទុកបាន; មានទំហំគ្រប់គ្រាន់សម្រាប់ (បរិមាណ ឬចំនួនជាក់លាក់មួយ)",
+      "ko": "수용하다; (일정 용량이나 양을) 담을 수 있다",
+      "ne": "अट्नु; (एक निश्चित मात्रा वा संख्या) समाउन सक्नु",
+      "pt": "Caber; comportar (uma certa capacidade ou quantidade)",
+      "th": "จุ; บรรจุได้ (ในปริมาณหรือจำนวนที่กำหนด)",
+      "tl": "Kasya; makakaangkop ng (isang tiyak na kapasidad o dami)",
+      "ur": "سمانا؛ کسی مخصوص مقدار یا تعداد کو رکھنے کی گنجائش ہونا",
+      "vi": "Chứa được; có sức chứa (một lượng hoặc số lượng nhất định)",
+      "zh": "容纳；能装下（一定的容量或数量）",
+      "zh_Hant": "容納；能裝下（一定的容量或數量）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tɕuʔ˩˩/",
+    "examples": [
+      {
+        "lao_script": "ຖົງໃບນີ້ຈຸຂອງໄດ້ຫຼາຍເລີຍ",
+        "romanization": "thong bai nih ju khong dai lai loei",
+        "translations": {
+          "de": "Diese Tasche kann wirklich viel fassen.",
+          "en": "This bag can hold a lot of stuff.",
+          "es": "Esta bolsa cabe un montón de cosas.",
+          "fr": "Ce sac peut contenir beaucoup de choses.",
+          "hi": "इस थैले में बहुत सारा सामान समा जाता है।",
+          "ja": "このバッグにはたくさんのものが入るね。",
+          "km": "កាបូបនេះអាចដាក់របស់បានច្រើនណាស់។",
+          "ko": "이 가방은 물건이 정말 많이 들어가네.",
+          "ne": "यो झोलामा धेरै सामान अट्छ।",
+          "pt": "Essa bolsa comporta muita coisa.",
+          "th": "ถุงใบนี้จุของได้เยอะเลย",
+          "tl": "Ang bag na ito ay kaya pang magdala ng maraming bagay.",
+          "ur": "اس تھیلے میں بہت سارا سامان سما جاتا ہے۔",
+          "vi": "Cái túi này chứa được nhiều đồ lắm.",
+          "zh": "这个袋子能装很多东西。",
+          "zh_Hant": "這個袋子能裝很多東西。"
+        },
+        "out_of_scope_words": [
+          "ຖົງ",
+          "ໃບ"
+        ]
+      },
+      {
+        "lao_script": "ຫ້ອງນີ້ຈຸຄົນໄດ້ປະມານສິບຄົນ",
+        "romanization": "hong nih ju khon dai pa-man sip khon",
+        "translations": {
+          "de": "Dieses Zimmer fasst ungefähr zehn Personen.",
+          "en": "This room can hold about ten people.",
+          "es": "Esta habitación tiene capacidad para unas diez personas.",
+          "fr": "Cette salle peut accueillir environ dix personnes.",
+          "hi": "इस कमरे में लगभग दस लोग समा सकते हैं।",
+          "ja": "この部屋には約10人入ることができます。",
+          "km": "បន្ទប់នេះអាចផ្ទុកមនុស្សបានប្រហែលដប់នាក់។",
+          "ko": "이 방은 약 열 명을 수용할 수 있어.",
+          "ne": "यो कोठामा लगभग दश जना मान्छे अट्न सक्छन्।",
+          "pt": "Este quarto comporta cerca de dez pessoas.",
+          "th": "ห้องนี้จุคนได้ประมาณสิบคน",
+          "tl": "Ang kwartong ito ay kaya para sa halos sampung tao.",
+          "ur": "اس کمرے میں تقریباً دس افراد سما سکتے ہیں۔",
+          "vi": "Phòng này chứa được khoảng mười người.",
+          "zh": "这个房间能容纳大约十个人。",
+          "zh_Hant": "這個房間能容納大約十個人。"
+        },
+        "out_of_scope_words": [
+          "ປະມານ",
+          "ສິບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bag or container being filled with items, showing capacity or 'fits inside' concept, with items neatly going into an open bag, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ບຸກ": {
+    "definitions": {
+      "de": "Einbrechen; eindringen; in einen Bereich einmarschieren oder gewaltsam eintreten",
+      "en": "To invade; to break into; to rush into or intrude upon a place forcefully",
+      "es": "Invadir; irrumpir; entrar a la fuerza en un lugar",
+      "fr": "Envahir; faire irruption; entrer de force dans un endroit",
+      "hi": "आक्रमण करना; जबरदस्ती घुसना; किसी स्थान पर बलपूर्वक प्रवेश करना",
+      "ja": "侵入する；乱入する；ある場所に強引に入り込む",
+      "km": "រុករាន; ឈ្លានពាន; ចូលទៅក្នុងកន្លែងណាមួយដោយបង្ខំ",
+      "ko": "침입하다; 난입하다; 어떤 장소에 강제로 들어가다",
+      "ne": "आक्रमण गर्नु; बलजफ्ती घुस्नु; कुनै ठाउँमा जबर्दस्ती प्रवेश गर्नु",
+      "pt": "Invadir; arrombar; entrar à força em um lugar",
+      "th": "บุก; บุกรุก; เข้าไปในสถานที่อย่างกะทันหันหรือโดยบังคับ",
+      "tl": "Sumalakay; pumasok nang sapilitan; pumasok nang mabilis sa isang lugar",
+      "ur": "حملہ کرنا؛ زبردستی گھسنا؛ کسی جگہ پر بالجبر داخل ہونا",
+      "vi": "Xông vào; đột nhập; tấn công hoặc xâm nhập vào một nơi nào đó",
+      "zh": "闯入；侵入；强行进入某个地方",
+      "zh_Hant": "闖入；侵入；強行進入某個地方"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/buk˧˥/",
+    "examples": [
+      {
+        "lao_script": "ຂະໂມຍບຸກເຂົ້າໄປໃນເຮືອນຕອນກາງຄືນ",
+        "romanization": "kha-moy buk khao pai nai heuon ton kang kheun",
+        "translations": {
+          "de": "Ein Dieb brach nachts in das Haus ein.",
+          "en": "A thief broke into the house at night.",
+          "es": "Un ladrón irrumpió en la casa por la noche.",
+          "fr": "Un voleur a fait irruption dans la maison la nuit.",
+          "hi": "एक चोर रात को घर में घुस गया।",
+          "ja": "泥棒が夜中に家に侵入した。",
+          "km": "ចោរបានរុករានចូលទៅក្នុងផ្ទះពេលយប់។",
+          "ko": "도둑이 밤에 집에 침입했어.",
+          "ne": "चोर रातको घरभित्र घुस्यो।",
+          "pt": "Um ladrão invadiu a casa durante a noite.",
+          "th": "ขโมยบุกเข้าไปในบ้านตอนกลางคืน",
+          "tl": "May magnanakaw na pumasok sa bahay noong gabi.",
+          "ur": "ایک چور رات کو گھر میں گھس گیا۔",
+          "vi": "Một tên trộm đột nhập vào nhà vào ban đêm.",
+          "zh": "一个小偷在夜里闯进了房子。",
+          "zh_Hant": "一個小偷在夜裡闖進了房子。"
+        },
+        "out_of_scope_words": [
+          "ຂະໂມຍ",
+          "ກາງຄືນ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າບຸກເຂົ້າໄປໃນຫ້ອງຂອງຂ້ອຍໂດຍບໍ່ໄດ້ຂໍອະນຸຍາດ",
+        "romanization": "ya buk khao pai nai hong khong khoy doi bo dai kho a-nu-yat",
+        "translations": {
+          "de": "Komm nicht einfach ohne Erlaubnis in mein Zimmer rein.",
+          "en": "Don't barge into my room without asking permission.",
+          "es": "No entres a mi cuarto sin pedir permiso.",
+          "fr": "N'entre pas dans ma chambre sans demander la permission.",
+          "hi": "बिना इजाज़त माँगे मेरे कमरे में मत घुसो।",
+          "ja": "許可なしに私の部屋に無断で入らないで。",
+          "km": "កុំរុករានចូលទៅក្នុងបន្ទប់របស់ខ្ញុំដោយមិនស្នើសុំការអនុញ្ញាត។",
+          "ko": "허락도 없이 내 방에 막 들어오지 마.",
+          "ne": "अनुमति नमागिकन मेरो कोठामा नघुस।",
+          "pt": "Não entra no meu quarto sem pedir permissão.",
+          "th": "อย่าบุกเข้าไปในห้องของฉันโดยไม่ขออนุญาต",
+          "tl": "Huwag pumasok sa aking kwarto nang walang pahintulot.",
+          "ur": "بغیر اجازت لیے میرے کمرے میں مت گھسو۔",
+          "vi": "Đừng xông vào phòng của tôi mà không xin phép.",
+          "zh": "不要不经允许就闯进我的房间。",
+          "zh_Hant": "不要不經允許就闖進我的房間。"
+        },
+        "out_of_scope_words": [
+          "ອະນຸຍາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon burglar or person forcefully breaking through a door, shown in a non-threatening, educational cartoon style, clean white background, bold colors, minimalist design suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເສບ": {
+    "definitions": {
+      "de": "Konsumieren (Drogen, Alkohol); ein Instrument spielen; genießen (im Sinne von Konsum oder Ausübung)",
+      "en": "To consume (drugs, alcohol); to play a musical instrument; to indulge in (a substance or activity)",
+      "es": "Consumir (drogas, alcohol); tocar un instrumento musical; disfrutar de (una sustancia o actividad)",
+      "fr": "Consommer (drogues, alcool); jouer d'un instrument de musique; s'adonner à (une substance ou activité)",
+      "hi": "सेवन करना (नशीले पदार्थ, शराब); वाद्य यंत्र बजाना; किसी वस्तु या गतिविधि में लिप्त होना",
+      "ja": "（薬物・アルコールを）摂取する；楽器を演奏する；（物質や行為に）ふける",
+      "km": "ប្រើប្រាស់ (ថ្នាំញៀន ស្រា); លេងឧបករណ៍តន្ត្រី; ចូលជ្រៅក្នុង (សារធាតុ ឬសកម្មភាព)",
+      "ko": "(마약, 알코올을) 복용하다; 악기를 연주하다; (어떤 물질이나 행위에) 탐닉하다",
+      "ne": "सेवन गर्नु (लागुपदार्थ, रक्सी); वाद्ययन्त्र बजाउनु; (कुनै पदार्थ वा गतिविधिमा) लिप्त हुनु",
+      "pt": "Consumir (drogas, álcool); tocar um instrumento musical; entregar-se a (uma substância ou atividade)",
+      "th": "เสพ (ยาเสพติด, แอลกอฮอล์); เล่นดนตรี; หมกมุ่นอยู่กับ (สิ่งใดสิ่งหนึ่ง)",
+      "tl": "Kumonsumo (ng droga, alkohol); tumugtog ng instrumento; maglaro o magpahinga sa (isang aktibidad)",
+      "ur": "استعمال کرنا (منشیات، شراب)؛ موسیقی کا آلہ بجانا؛ کسی چیز میں مشغول ہونا",
+      "vi": "Sử dụng (ma túy, rượu); chơi nhạc cụ; đắm chìm vào (một chất hoặc hoạt động)",
+      "zh": "吸食（毒品、酒精）；演奏乐器；沉迷于（某种物质或活动）",
+      "zh_Hant": "吸食（毒品、酒精）；演奏樂器；沉迷於（某種物質或活動）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/séːp˥˩/",
+    "examples": [
+      {
+        "lao_script": "ລາວເສບດົນຕີເກັ່ງຫຼາຍ",
+        "romanization": "lao sep don-ti keng lai",
+        "translations": {
+          "de": "Er/Sie spielt wirklich gut Musik.",
+          "en": "They play music really well.",
+          "es": "Toca la música muy bien.",
+          "fr": "Il/Elle joue de la musique vraiment bien.",
+          "hi": "वह संगीत बहुत अच्छे से बजाते हैं।",
+          "ja": "彼/彼女は音楽をとても上手に演奏するね。",
+          "km": "គាត់លេងតន្ត្រីពូកែណាស់។",
+          "ko": "그 사람은 음악을 정말 잘 연주해.",
+          "ne": "उनी संगीत धेरै राम्रोसँग बजाउँछन्।",
+          "pt": "Ele/Ela toca música muito bem.",
+          "th": "เขา/เธอเสพดนตรีเก่งมาก",
+          "tl": "Napakagaling niyang tumugtog ng musika.",
+          "ur": "وہ موسیقی بہت اچھی طرح بجاتے ہیں۔",
+          "vi": "Họ chơi nhạc rất giỏi.",
+          "zh": "他/她音乐演奏得非常好。",
+          "zh_Hant": "他/她音樂演奏得非常好。"
+        },
+        "out_of_scope_words": [
+          "ດົນຕີ",
+          "ເກັ່ງ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າເສບຢາເດັດຂາດ ມັນອັນຕະລາຍຫຼາຍ",
+        "romanization": "ya sep ya det-khat, man an-ta-lai lai",
+        "translations": {
+          "de": "Nimm auf keinen Fall Drogen – das ist sehr gefährlich.",
+          "en": "Absolutely don't do drugs – it's very dangerous.",
+          "es": "Definitivamente no consumas drogas, es muy peligroso.",
+          "fr": "Ne consomme absolument pas de drogue, c'est très dangereux.",
+          "hi": "बिल्कुल भी नशा मत करो – यह बहुत खतरनाक है।",
+          "ja": "絶対に薬物を使用してはいけない、とても危険だよ。",
+          "km": "កុំប្រើប្រាស់ថ្នាំញៀនឡើយ វាគ្រោះថ្នាក់ខ្លាំងណាស់។",
+          "ko": "절대로 마약은 하지 마 – 정말 위험해.",
+          "ne": "लागुपदार्थ सेवन नगर्नू, यो धेरै खतरनाक छ।",
+          "pt": "Absolutamente não use drogas – é muito perigoso.",
+          "th": "อย่าเสพยาเด็ดขาด มันอันตรายมาก",
+          "tl": "Huwag talagang gumamit ng droga – napaka-delikado nito.",
+          "ur": "ہرگز منشیات استعمال مت کرو – یہ بہت خطرناک ہے۔",
+          "vi": "Tuyệt đối không dùng ma túy – rất nguy hiểm đấy.",
+          "zh": "绝对不要吸毒——这非常危险。",
+          "zh_Hant": "絕對不要吸毒——這非常危險。"
+        },
+        "out_of_scope_words": [
+          "ເດັດຂາດ",
+          "ອັນຕະລາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: one showing a person happily playing a traditional musical instrument, and one showing a crossed-out symbol over a drug substance, clean white background, bold colors, minimalist educational style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເສີມ": {
+    "definitions": {
+      "de": "Ergänzen; verstärken; aufwerten; etwas hinzufügen, um etwas besser oder vollständiger zu machen",
+      "en": "To enhance; to supplement; to add to something to improve or complete it",
+      "es": "Mejorar; complementar; añadir algo para mejorar o completar otra cosa",
+      "fr": "Améliorer; compléter; ajouter quelque chose pour améliorer ou rendre plus complet",
+      "hi": "बढ़ाना; पूरक करना; किसी चीज़ को बेहतर या पूर्ण बनाने के लिए कुछ जोड़ना",
+      "ja": "補う；強化する；補足する；何かをより良くまたは完全にするために加える",
+      "km": "បន្ថែម; ពង្រឹង; បំពេញបន្ថែមទៅលើអ្វីមួយ ដើម្បីធ្វើឱ្យប្រសើរ ឬពេញលេញជាងមុន",
+      "ko": "보완하다; 강화하다; 보충하다; 무언가를 더 좋게 하거나 완성하기 위해 더하다",
+      "ne": "बढाउनु; पूरक गर्नु; कुनै कुरालाई राम्रो वा पूर्ण बनाउन केही थप्नु",
+      "pt": "Aprimorar; suplementar; acrescentar algo para melhorar ou completar",
+      "th": "เสริม; เพิ่มเติม; เพิ่มสิ่งใดสิ่งหนึ่งเพื่อปรับปรุงหรือทำให้สมบูรณ์ยิ่งขึ้น",
+      "tl": "Palakasin; dagdagan; magdagdag ng isang bagay upang mapabuti o makumpleto ito",
+      "ur": "بڑھانا؛ تکمیل کرنا؛ کسی چیز کو بہتر یا مکمل بنانے کے لیے کچھ شامل کرنا",
+      "vi": "Tăng cường; bổ sung; thêm vào điều gì đó để cải thiện hoặc hoàn chỉnh nó",
+      "zh": "增强；补充；添加某些东西使其更好或更完整",
+      "zh_Hant": "增強；補充；添加某些東西使其更好或更完整"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/séːm˩˥/",
+    "examples": [
+      {
+        "lao_script": "ລາວກິນວິຕາມິນເພື່ອເສີມສຸຂະພາບ",
+        "romanization": "lao kin wi-ta-min pheua soem su-kha-phap",
+        "translations": {
+          "de": "Er/Sie nimmt Vitamine, um seine/ihre Gesundheit zu stärken.",
+          "en": "They take vitamins to boost their health.",
+          "es": "Toma vitaminas para mejorar su salud.",
+          "fr": "Il/Elle prend des vitamines pour améliorer sa santé.",
+          "hi": "वह स्वास्थ्य को बेहतर बनाने के लिए विटामिन लेते हैं।",
+          "ja": "彼/彼女は健康を高めるためにビタミンを飲んでいる。",
+          "km": "គាត់ញ៉ាំវីតាមីនដើម្បីពង្រឹងសុខភាព។",
+          "ko": "그 사람은 건강을 보충하기 위해 비타민을 먹어.",
+          "ne": "उनी स्वास्थ्य बढाउन भिटामिन खान्छन्।",
+          "pt": "Ele/Ela toma vitaminas para melhorar a saúde.",
+          "th": "เขา/เธอกินวิตามินเพื่อเสริมสุขภาพ",
+          "tl": "Kumukuha siya ng vitamins para palakasin ang kanyang kalusugan.",
+          "ur": "وہ صحت بہتر کرنے کے لیے وٹامن لیتے ہیں۔",
+          "vi": "Họ uống vitamin để tăng cường sức khỏe.",
+          "zh": "他/她吃维生素来增强健康。",
+          "zh_Hant": "他/她吃維生素來增強健康。"
+        },
+        "out_of_scope_words": [
+          "ວິຕາມິນ",
+          "ສຸຂະພາບ"
+        ]
+      },
+      {
+        "lao_script": "ຄູເສີມຄວາມຮູ້ໃຫ້ນັກຮຽນຫຼັງເລີກຮຽນ",
+        "romanization": "khu soem khwam-hu hai nak-hian lang loek hian",
+        "translations": {
+          "de": "Der Lehrer gibt den Schülern nach dem Unterricht Zusatzunterricht.",
+          "en": "The teacher gives students extra knowledge after school.",
+          "es": "El maestro les da conocimiento extra a los estudiantes después de clases.",
+          "fr": "Le professeur donne des connaissances supplémentaires aux élèves après l'école.",
+          "hi": "शिक्षक स्कूल के बाद छात्रों को अतिरिक्त ज्ञान देते हैं।",
+          "ja": "先生は放課後に生徒たちに補習をする。",
+          "km": "គ្រូបង្ហាញចំណេះដឹងបន្ថែមដល់សិស្សបន្ទាប់ពីចេញសាលា។",
+          "ko": "선생님이 방과 후에 학생들에게 추가 지식을 가르쳐줘.",
+          "ne": "शिक्षकले स्कुल पछि विद्यार्थीहरूलाई थप ज्ञान दिन्छन्।",
+          "pt": "O professor dá conhecimento extra aos alunos depois da aula.",
+          "th": "ครูเสริมความรู้ให้นักเรียนหลังเลิกเรียน",
+          "tl": "Nagbibigay ang guro ng karagdagang kaalaman sa mga estudyante pagkatapos ng klase.",
+          "ur": "استاد اسکول کے بعد طلباء کو اضافی علم دیتے ہیں۔",
+          "vi": "Thầy/cô giáo bổ sung kiến thức cho học sinh sau giờ học.",
+          "zh": "老师在放学后给学生补充知识。",
+          "zh_Hant": "老師在放學後給學生補充知識。"
+        },
+        "out_of_scope_words": [
+          "ຄວາມຮູ້",
+          "ນັກຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person adding extra pieces or stars to an already complete puzzle or structure, symbolizing enhancement or supplementation, clean white background, bright colors, minimalist educational style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແພດ": {
+    "definitions": {
+      "de": "Arzt; Ärztin; eine medizinisch ausgebildete Person (Pali-Lehnwort; im Alltag ist ໝໍ gebräuchlicher)",
+      "en": "Doctor; physician; a medically trained professional (Pali-influenced term; ໝໍ is more common in everyday speech)",
+      "es": "Médico; doctor; profesional con formación médica (término de origen pali; ໝໍ es más común en el habla cotidiana)",
+      "fr": "Médecin; docteur; professionnel formé en médecine (terme d'influence palie; ໝໍ est plus courant dans la langue parlée quotidienne)",
+      "hi": "डॉक्टर; चिकित्सक; चिकित्सा में प्रशिक्षित पेशेवर (पाली प्रभावित शब्द; रोज़मर्रा की बोलचाल में ໝໍ अधिक प्रचलित है)",
+      "ja": "医者；医師；医学的に訓練された専門家（パーリ語由来の語；日常会話では ໝໍ のほうが一般的）",
+      "km": "វេជ្ជបណ្ឌិត; គ្រូពេទ្យ; អ្នកជំនាញដែលបានទទួលការបណ្តុះបណ្តាលវេជ្ជសាស្ត្រ (ពាក្យពី​ភាសាបាលី; ໝໍ ប្រើជាទូទៅជាងក្នុងការនិយាយប្រចាំថ្ងៃ)",
+      "ko": "의사; 의료 전문가 (팔리어 영향을 받은 단어; 일상 구어에서는 ໝໍ 이 더 일반적)",
+      "ne": "डाक्टर; चिकित्सक; चिकित्सा प्रशिक्षित पेशेवर (पाली प्रभावित शब्द; दैनिक बोलचालमा ໝໍ बढी प्रचलित छ)",
+      "pt": "Médico; doutor; profissional com formação médica (termo de influência páli; ໝໍ é mais comum na fala cotidiana)",
+      "th": "แพทย์; หมอ; ผู้เชี่ยวชาญที่ได้รับการฝึกอบรมด้านการแพทย์ (คำที่มีอิทธิพลจากภาษาบาลี; ໝໍ ใช้บ่อยกว่าในภาษาพูดทั่วไป)",
+      "tl": "Doktor; manggagamot; propesyonal na sinanay sa medisina (salitang impluwensya ng Pali; ang ໝໍ ay mas karaniwan sa pang-araw-araw na pagsasalita)",
+      "ur": "ڈاکٹر؛ طبیب؛ طبی تربیت یافتہ پیشہ ور (پالی زبان سے متاثر لفظ؛ روزمرہ گفتگو میں ໝໍ زیادہ عام ہے)",
+      "vi": "Bác sĩ; thầy thuốc; chuyên gia được đào tạo y tế (từ ảnh hưởng Pali; ໝໍ phổ biến hơn trong lời nói hàng ngày)",
+      "zh": "医生；大夫；经过医学训练的专业人员（巴利语影响的词汇；日常口语中 ໝໍ 更常用）",
+      "zh_Hant": "醫生；大夫；經過醫學訓練的專業人員（巴利語影響的詞彙；日常口語中 ໝໍ 更常用）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰɛːt˥˩/",
+    "examples": [
+      {
+        "lao_script": "ແພດບອກໃຫ້ຂ້ອຍພັກຜ່ອນຫຼາຍໆ",
+        "romanization": "phet bok hai khoy phak phon lai lai",
+        "translations": {
+          "de": "Der Arzt hat mir gesagt, ich soll mich viel ausruhen.",
+          "en": "The doctor told me to rest a lot.",
+          "es": "El médico me dijo que descansara mucho.",
+          "fr": "Le médecin m'a dit de beaucoup me reposer.",
+          "hi": "डॉक्टर ने मुझे बहुत आराम करने को कहा।",
+          "ja": "お医者さんがたくさん休むように言ってくれた。",
+          "km": "វេជ្ជបណ្ឌិតប្រាប់ខ្ញុំឱ្យសម្រាកច្រើនៗ។",
+          "ko": "의사가 많이 쉬라고 했어.",
+          "ne": "डाक्टरले मलाई धेरै आराम गर्न भन्यो।",
+          "pt": "O médico me disse para descansar bastante.",
+          "th": "แพทย์บอกให้ฉันพักผ่อนมากๆ",
+          "tl": "Sinabi ng doktor sa akin na magpahinga nang marami.",
+          "ur": "ڈاکٹر نے مجھے بہت آرام کرنے کو کہا۔",
+          "vi": "Bác sĩ bảo tôi phải nghỉ ngơi nhiều.",
+          "zh": "医生叫我多休息。",
+          "zh_Hant": "醫生叫我多休息。"
+        },
+        "out_of_scope_words": [
+          "ພັກຜ່ອນ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກເປັນແພດຕ້ອງຮຽນຫຼາຍປີ",
+        "romanization": "yak pen phet tong hian lai pi",
+        "translations": {
+          "de": "Um Arzt zu werden, muss man viele Jahre studieren.",
+          "en": "To become a doctor, you have to study for many years.",
+          "es": "Para ser médico, hay que estudiar muchos años.",
+          "fr": "Pour devenir médecin, il faut étudier pendant de nombreuses années.",
+          "hi": "डॉक्टर बनने के लिए कई साल पढ़ाई करनी पड़ती है।",
+          "ja": "医者になるためには何年も勉強しなければならない。",
+          "km": "ដើម្បីក្លាយជាវេជ្ជបណ្ឌិត ត្រូវតែរៀនច្រើនឆ្នាំ។",
+          "ko": "의사가 되려면 많은 해 동안 공부해야 해.",
+          "ne": "डाक्टर बन्न धेरै वर्ष पढ्नुपर्छ।",
+          "pt": "Para ser médico, é preciso estudar muitos anos.",
+          "th": "อยากเป็นแพทย์ต้องเรียนหลายปี",
+          "tl": "Para maging doktor, kailangan mag-aral ng maraming taon.",
+          "ur": "ڈاکٹر بننے کے لیے کئی سال پڑھنا پڑتا ہے۔",
+          "vi": "Muốn làm bác sĩ phải học nhiều năm.",
+          "zh": "想成为医生需要学习很多年。",
+          "zh_Hant": "想成為醫生需要學習很多年。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly doctor wearing a white coat and stethoscope, smiling, standing against a clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "polite",
+    "confidence": "high"
+  }
+}

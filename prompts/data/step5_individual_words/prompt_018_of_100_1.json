@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສ້າງ",
+  "definitions": {
+    "de": "bauen, erschaffen, errichten – etwas Neues herstellen oder konstruieren",
+    "en": "to build, create, or construct – to make something new or bring something into existence",
+    "es": "construir, crear, edificar – hacer algo nuevo o dar existencia a algo",
+    "fr": "construire, créer, bâtir – faire quelque chose de nouveau ou donner existence à quelque chose",
+    "hi": "बनाना, निर्माण करना – कुछ नया तैयार करना या अस्तित्व में लाना",
+    "ja": "建てる、作る、創造する – 何か新しいものを作り上げたり構築したりすること",
+    "km": "សាង សង់ បង្កើត – ធ្វើឱ្យមានអ្វីថ្មី ឬសាងសង់អ្វីមួយ",
+    "ko": "짓다, 만들다, 창조하다 – 새로운 것을 만들거나 무언가를 세우는 것",
+    "ne": "बनाउनु, निर्माण गर्नु – कुनै नयाँ कुरा तयार गर्नु वा अस्तित्वमा ल्याउनु",
+    "pt": "construir, criar, edificar – fazer algo novo ou dar existência a algo",
+    "th": "สร้าง, ก่อสร้าง, สร้างสรรค์ – การทำสิ่งใหม่ขึ้นมาหรือก่อตั้งบางสิ่ง",
+    "tl": "magtayo, lumikha, bumuo – gumawa ng bago o magtatag ng isang bagay",
+    "ur": "بنانا، تعمیر کرنا، تخلیق کرنا – کچھ نیا بنانا یا وجود میں لانا",
+    "vi": "xây dựng, tạo ra, kiến tạo – làm ra cái gì đó mới hoặc đưa thứ gì đó vào tồn tại",
+    "zh": "建造、创建、构建——制造新事物或使某事物存在",
+    "zh_Hant": "建造、創建、構建——製造新事物或使某事物存在"
+  },
+  "definition_en": "to build, create, or construct – to make something new or bring something into existence",
+  "romanization": "saːŋ⁴",
+  "lao_examples": [
+    {
+      "lao_script": "ພໍ່ຂອງຂ້ອຍສ້າງເຮືອນດ້ວຍມືຂອງລາວເອງ",
+      "romanization": "phɔː khɔːŋ khɔːj saːŋ hɯan duaj mɯː khɔːŋ laːw eːŋ",
+      "translation_en": "My dad built the house with his own hands."
+    },
+    {
+      "lao_script": "ເຮົາຢາກສ້າງທຸລະກິດຂອງຕົວເອງ",
+      "romanization": "hao jaːk saːŋ thulakit khɔːŋ tua eːŋ",
+      "translation_en": "I want to build my own business."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person happily building a small house with their hands, bricks and tools visible, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

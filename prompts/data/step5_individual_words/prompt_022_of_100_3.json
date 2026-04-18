@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕອນ",
+  "definitions": {
+    "de": "Zeitabschnitt; Teil; Episode — bezeichnet einen bestimmten Zeitraum oder Abschnitt (z.B. morgens, abends), einen Teil von etwas oder eine Episode einer Serie",
+    "en": "Time period; part; episode — refers to a specific time of day or period, a section/part of something, or an episode of a series",
+    "es": "Período de tiempo; parte; episodio — se refiere a un momento específico del día o período, una sección de algo, o un episodio de una serie",
+    "fr": "Période de temps; partie; épisode — désigne un moment précis de la journée ou une période, une section de quelque chose, ou un épisode d'une série",
+    "hi": "समय काल; भाग; एपिसोड — दिन के किसी विशेष समय या अवधि, किसी चीज़ के हिस्से या किसी श्रृंखला के एपिसोड को दर्शाता है",
+    "ja": "時間帯；部分；エピソード — 特定の時間帯や時期、何かの一部分、またはシリーズのエピソードを指す",
+    "km": "ช่วงเวลา; ផ្នែក; ตอน — សំដៅលើช่วงเวลาជាក់លាក់នៃថ្ងៃ, ផ្នែកណាមួយ ឬตอนមួយនៃរឿង",
+    "ko": "시간대; 부분; 에피소드 — 하루의 특정 시간대나 기간, 무언가의 한 부분, 또는 시리즈의 한 에피소드를 가리킨다",
+    "ne": "समयावधि; भाग; एपिसोड — दिनको कुनै विशेष समय वा अवधि, कुनै चीजको भाग वा श्रृंखलाको एपिसोडलाई जनाउँछ",
+    "pt": "Período de tempo; parte; episódio — refere-se a um momento específico do dia ou período, uma seção de algo, ou um episódio de uma série",
+    "th": "ช่วงเวลา; ตอน; ส่วน — ใช้หมายถึงช่วงเวลาหนึ่งของวัน, ส่วนหนึ่งของบางสิ่ง หรือตอนหนึ่งของซีรีส์",
+    "tl": "Panahon; bahagi; episode — tumutukoy sa isang tiyak na oras ng araw o panahon, isang seksyon ng isang bagay, o isang episode ng isang serye",
+    "ur": "وقت کا دورانیہ؛ حصہ؛ ایپیسوڈ — دن کے کسی خاص وقت یا مدت، کسی چیز کے حصے یا کسی سلسلے کے ایپیسوڈ کو ظاہر کرتا ہے",
+    "vi": "Khoảng thời gian; phần; tập — chỉ một khoảng thời gian cụ thể trong ngày, một phần của điều gì đó, hoặc một tập của bộ phim",
+    "zh": "时间段；部分；集（电视剧的一集）— 指一天中的某个时间段、某物的一部分或某部剧集的一集",
+    "zh_Hant": "時間段；部分；集（電視劇的一集）— 指一天中的某個時間段、某物的一部分或某部劇集的一集"
+  },
+  "definition_en": "Time period; part; episode — refers to a specific time of day or period, a section/part of something, or an episode of a series",
+  "romanization": "tɔ̀ɔn¹",
+  "lao_examples": [
+    {
+      "lao_script": "ຕອນເຊົ້າຂ້ອຍຊອບດື່ມກາເຟ",
+      "romanization": "tɔ̀ɔn sâo khɔ̂i sɔ̂ɔp dùum kaa-feh",
+      "translation_en": "In the morning I like to drink coffee."
+    },
+    {
+      "lao_script": "ຕອນນີ້ເຈົ້າຢູ່ໃສ?",
+      "romanization": "tɔ̀ɔn níi jâo yùu sǎi?",
+      "translation_en": "Where are you right now?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clock or timeline divided into labeled sections (morning, afternoon, evening) with a sun and moon icon, clean white background, colorful minimalist style suitable for a language learning app."
+}

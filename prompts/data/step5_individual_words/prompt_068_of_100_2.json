@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອຸ່ນ",
+  "definitions": {
+    "de": "Warm; eine angenehme, mäßige Temperatur habend, weder heiß noch kalt",
+    "en": "Warm; having a pleasantly moderate temperature, neither hot nor cold",
+    "es": "Cálido, tibio; que tiene una temperatura moderada y agradable, ni caliente ni frío",
+    "fr": "Chaud, tiède; ayant une température modérée et agréable, ni chaud ni froid",
+    "hi": "गरम, उष्ण; सुखद मध्यम तापमान वाला, न बहुत गर्म न ठंडा",
+    "ja": "温かい；快適な中程度の温度を持つ、暑くも寒くもない",
+    "km": "កក់ក្តៅ; មានសីតុណ្ហភាពល្អទៅ មិនក្តៅហួស ហើយក៏មិនត្រជាក់ដែរ",
+    "ko": "따뜻한; 뜨겁지도 차갑지도 않은 쾌적한 적당한 온도를 가진",
+    "ne": "न्यानो; सुखद मध्यम तापक्रम भएको, न धेरै गर्मी न चिसो",
+    "pt": "Morno, quente; com uma temperatura moderada e agradável, nem quente nem frio",
+    "th": "อุ่น; มีอุณหภูมิที่พอเหมาะและน่าสบาย ไม่ร้อนหรือเย็นเกินไป",
+    "tl": "Mainit-init, maligamgam; may katamtamang temperatura na kasiya-siya, hindi mainit at hindi malamig",
+    "ur": "گرم، نرم گرم؛ خوشگوار اعتدال پسند درجہ حرارت والا، نہ زیادہ گرم نہ ٹھنڈا",
+    "vi": "Ấm; có nhiệt độ vừa phải dễ chịu, không nóng cũng không lạnh",
+    "zh": "温暖的；温度适中舒适，不热也不冷",
+    "zh_Hant": "溫暖的；溫度適中舒適，不熱也不冷"
+  },
+  "definition_en": "Warm; having a pleasantly moderate temperature, neither hot nor cold",
+  "romanization": "/ʔūn/",
+  "lao_examples": [
+    {
+      "lao_script": "ອາຫານຍັງອຸ່ນຢູ່ ກິນໄດ້ເລີຍ",
+      "romanization": "Aa-haan yang un yuu, kin dai loei",
+      "translation_en": "The food is still warm, you can eat right away."
+    },
+    {
+      "lao_script": "ອາກາດມື້ນີ້ອຸ່ນດີ ບໍ່ຮ້ອນເກີນໄປ",
+      "romanization": "Aa-gaat muu-nii un dii, bo hon koen pai",
+      "translation_en": "The weather today is nicely warm, not too hot."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a steaming bowl of soup with gentle warmth lines rising from it, placed on a wooden table, clean white background, warm orange and yellow tones, minimalist style suitable for a language learning app."
+}

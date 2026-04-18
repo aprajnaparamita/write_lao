@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບໍ່",
+  "definitions": {
+    "de": "nicht (Negationspartikel vor Verben/Adjektiven); (am Satzende) Fragepartikel",
+    "en": "not (negation particle before verbs/adjectives); (sentence-final) question particle",
+    "es": "no (partícula de negación antes de verbos/adjetivos); (final de oración) partícula interrogativa",
+    "fr": "ne...pas (particule de négation); (en fin de phrase) particule interrogative",
+    "hi": "नहीं (नकार कण); (वाक्य के अंत में) प्रश्न कण",
+    "ja": "〜ない／〜ません（否定）／〜か（文末疑問）",
+    "km": "មិន／ទេ (បច្ច័យបដិសេធ ឬសួរចុងប្រយោគ)",
+    "ko": "안／~지 않다／~요? (부정 또는 문말 의문 조사)",
+    "ne": "होइन／छैन／हो र? (नकार वा वाक्यान्त प्रश्न)",
+    "pt": "não (partícula de negação); (final de frase) partícula interrogativa",
+    "th": "ไม่ (คำปฏิเสธ; ท้ายประโยคใช้ถามได้)",
+    "tl": "hindi／ba (pambalintuna o pantanong sa dulo)",
+    "ur": "نہیں؛ (جملے کے آخر میں) سوال کا نشان",
+    "vi": "không (phủ định hoặc hỏi cuối câu)",
+    "zh": "不／没／吗（否定词或句末疑问）",
+    "zh_Hant": "不／沒／嗎（否定詞或句末疑問）"
+  },
+  "definition_en": "not (negation particle before verbs/adjectives); (sentence-final) question particle",
+  "romanization": "bɔ̀ː",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ບໍ່ ຫິວ",
+      "romanization": "kʰɔ̂ːj bɔ̀ː hǐw",
+      "translation_en": "I'm not hungry."
+    },
+    {
+      "lao_script": "ເຈົ້າ ໄປ ບໍ?",
+      "romanization": "càw pàj bɔ̀ː",
+      "translation_en": "Are you going?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a red circle with a diagonal line through it next to a small cartoon figure, representing negation, suitable for a language learning app, clean white background, minimalist style."
+}

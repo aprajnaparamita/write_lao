@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍາກ",
+  "definitions": {
+    "de": "Schwierig / schwer – beschreibt etwas, das Mühe oder Aufwand erfordert",
+    "en": "Difficult / hard – describes something that requires effort or is not easy to do",
+    "es": "Difícil – describe algo que requiere esfuerzo o que no es fácil de hacer",
+    "fr": "Difficile – décrit quelque chose qui demande des efforts ou qui n'est pas facile à faire",
+    "hi": "कठिन / मुश्किल – किसी ऐसी चीज़ का वर्णन करता है जिसमें प्रयास लगे या जो आसान न हो",
+    "ja": "難しい – 努力を要する、または簡単ではないことを表す",
+    "km": "ពិបាក – ពិពណ៌នាអំពីអ្វីដែលត្រូវការការខិតខំប្រឹងប្រែង ឬមិនងាយស្រួល",
+    "ko": "어려운 – 노력이 필요하거나 쉽지 않은 것을 나타냄",
+    "ne": "गाह्रो / कठिन – कुनै काम जसमा प्रयास लाग्छ वा सजिलो छैन भन्ने वर्णन गर्छ",
+    "pt": "Difícil – descreve algo que requer esforço ou que não é fácil de fazer",
+    "th": "ยาก – อธิบายสิ่งที่ต้องใช้ความพยายามหรือทำได้ไม่ง่าย",
+    "tl": "Mahirap – naglalarawan ng isang bagay na nangangailangan ng pagsisikap o hindi madaling gawin",
+    "ur": "مشکل – کسی ایسی چیز کو بیان کرتا ہے جس میں محنت کی ضرورت ہو یا جو آسان نہ ہو",
+    "vi": "Khó – mô tả điều gì đó đòi hỏi nỗ lực hoặc không dễ thực hiện",
+    "zh": "困难 / 难 – 描述需要努力或不容易做到的事情",
+    "zh_Hant": "困難 / 難 – 描述需要努力或不容易做到的事情"
+  },
+  "definition_en": "Difficult / hard – describes something that requires effort or is not easy to do",
+  "romanization": "ñāk",
+  "lao_examples": [
+    {
+      "lao_script": "ພາສາລາວຍາກບໍ ສຳລັບເຈົ້າ?",
+      "romanization": "phāsā lāo ñāk bɔ̄ sǎm lâp jâo?",
+      "translation_en": "Is Lao difficult for you?"
+    },
+    {
+      "lao_script": "ຂໍ້ສອບຍາກຫຼາຍ ຂ້ອຍຕອບບໍ່ຖືກ",
+      "romanization": "khɔ̂ sɔ̄p ñāk lǎi khɔ̂y tɔ̀p bɔ̄ thūk",
+      "translation_en": "The exam questions were very difficult, I couldn't answer them correctly."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a student sitting at a desk looking puzzled and stressed, staring at a paper full of complicated math problems with a large question mark above their head, clean white background, colorful minimalist style for a language learning app."
+}

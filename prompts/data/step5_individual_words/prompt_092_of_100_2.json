@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມະນຸດ",
+  "definitions": {
+    "de": "Mensch; ein Mitglied der Gattung Homo sapiens; eine Person",
+    "en": "Human being; a person; a member of the human species",
+    "es": "Ser humano; una persona; un miembro de la especie humana",
+    "fr": "Être humain; une personne; un membre de l'espèce humaine",
+    "hi": "मनुष्य; एक इंसान; मानव प्रजाति का सदस्य",
+    "ja": "人間；人；ヒト科に属する生き物",
+    "km": "មនុស្ស; បុគ្គល; សមាជិកនៃប្រភេទមនុស្ស",
+    "ko": "인간; 사람; 인류의 구성원",
+    "ne": "मानव; एक व्यक्ति; मानव प्रजातिको सदस्य",
+    "pt": "Ser humano; uma pessoa; um membro da espécie humana",
+    "th": "มนุษย์; บุคคล; สมาชิกของเผ่าพันธุ์มนุษย์",
+    "tl": "Tao; isang tao; isang miyembro ng sangkatauhan",
+    "ur": "انسان؛ ایک شخص؛ انسانی نوع کا رکن",
+    "vi": "Con người; một người; thành viên của loài người",
+    "zh": "人类；人；人种的成员",
+    "zh_Hant": "人類；人；人種的成員"
+  },
+  "definition_en": "Human being; a person; a member of the human species",
+  "romanization": "/má-nút/",
+  "lao_examples": [
+    {
+      "lao_script": "ມະນຸດທຸກຄົນຕ້ອງການນ້ຳ",
+      "romanization": "má-nút thúk khón tɔ̂ng kaan náam",
+      "translation_en": "All human beings need water."
+    },
+    {
+      "lao_script": "ມະນຸດເຮົາມີຫົວໃຈ",
+      "romanization": "má-nút hao míi hǔa-jai",
+      "translation_en": "We humans have a heart."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a diverse group of smiling people of different ages and backgrounds standing together, representing humanity, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

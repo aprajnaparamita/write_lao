@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແສງ",
+  "definitions": {
+    "de": "Licht, Helligkeit, Schein",
+    "en": "light, brightness, ray of light",
+    "es": "luz, brillo, resplandor",
+    "fr": "lumière, clarté, rayon de lumière",
+    "hi": "प्रकाश, रोशनी, उजाला",
+    "ja": "光、明かり、光線",
+    "km": "ពន្លឺ,빛, ភ្លឺ",
+    "ko": "빛, 광선, 밝음",
+    "ne": "प्रकाश, उज्यालो, ज्योति",
+    "pt": "luz, brilho, claridade",
+    "th": "แสง, แสงสว่าง, ความสว่าง",
+    "tl": "liwanag, sinag, ilaw",
+    "ur": "روشنی، نور، چمک",
+    "vi": "ánh sáng, tia sáng, ánh",
+    "zh": "光、光线、亮光",
+    "zh_Hant": "光、光線、亮光"
+  },
+  "definition_en": "light, brightness, ray of light",
+  "romanization": "sɛːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ແສງຕາເວັນສວຍຫຼາຍມື້ນີ້",
+      "romanization": "sɛːŋ taː wen suːaj laːj mɯː niː",
+      "translation_en": "The sunlight is really beautiful today."
+    },
+    {
+      "lao_script": "ເປີດໄຟທີ່, ແສງໜ້ອຍເກີນໄປ",
+      "romanization": "pɤːt faj tiː, sɛːŋ nɔːj kɤːn paj",
+      "translation_en": "Turn on the light, there's not enough light in here."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of bright golden sunlight rays shining through a window into a room, clean white background, warm yellow and orange colors, minimalist cartoon style suitable for a language learning app."
+}

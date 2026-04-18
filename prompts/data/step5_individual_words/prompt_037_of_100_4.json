@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍິງ",
+  "definitions": {
+    "de": "Frau, weiblich; bezeichnet das weibliche Geschlecht oder eine Frau",
+    "en": "Woman, female; refers to the female gender or a woman",
+    "es": "Mujer, femenino; se refiere al género femenino o a una mujer",
+    "fr": "Femme, féminin; désigne le genre féminin ou une femme",
+    "hi": "महिला, स्त्री; स्त्री लिंग या एक महिला को संदर्भित करता है",
+    "ja": "女性、女；女性の性別または女性を指す",
+    "km": "ស្ត្រី, ភេទស្រី; សំដៅទៅលើភេទស្ត្រី ឬស្ត្រី",
+    "ko": "여자, 여성; 여성 성별이나 여자를 가리킴",
+    "ne": "महिला, स्त्री; स्त्री लिङ्ग वा महिलालाई जनाउँछ",
+    "pt": "Mulher, feminino; refere-se ao gênero feminino ou a uma mulher",
+    "th": "ผู้หญิง, หญิง; หมายถึงเพศหญิงหรือผู้หญิง",
+    "tl": "Babae, pambabae; tumutukoy sa kasarian ng babae o isang babae",
+    "ur": "عورت، مؤنث؛ مؤنث جنس یا ایک عورت کی طرف اشارہ کرتا ہے",
+    "vi": "Phụ nữ, nữ; chỉ giới tính nữ hoặc một người phụ nữ",
+    "zh": "女，女性；指女性性别或一名女性",
+    "zh_Hant": "女，女性；指女性性別或一名女性"
+  },
+  "definition_en": "Woman, female; refers to the female gender or a woman",
+  "romanization": "/ɲiŋ³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ຜູ້ຍິງຄົນນັ້ນສວຍຫຼາຍ",
+      "romanization": "phu-ying khon nan suai laai",
+      "translation_en": "That woman is very beautiful."
+    },
+    {
+      "lao_script": "ນ້ອງຍິງຂອງຂ້ອຍຮຽນໜັງສືຢູ່",
+      "romanization": "nong ying khong khoi hian nang-sue yuu",
+      "translation_en": "My younger sister is studying."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling woman with short dark hair wearing casual clothes, depicted in a friendly and approachable way, clean white background, colorful, minimalist style suitable for a language learning app."
+}

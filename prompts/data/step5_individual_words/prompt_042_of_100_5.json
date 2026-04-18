@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄຸ້ມ",
+  "definitions": {
+    "de": "Schützen/beschützen (Verb); es wert sein/sich lohnen (Ausdruck des Wertes); ein traditionelles Dorfviertel oder eine Gemeinschaftseinheit in Laos (Substantiv)",
+    "en": "To protect/guard (verb); to be worth it/worthwhile (expressing value); a traditional village ward or community unit in Laos (noun)",
+    "es": "Proteger/guardar (verbo); valer la pena (expresando valor); una unidad de barrio o comunidad tradicional en Laos (sustantivo)",
+    "fr": "Protéger/garder (verbe); valoir la peine (exprimant la valeur); un quartier de village traditionnel ou une unité communautaire au Laos (nom)",
+    "hi": "रक्षा करना/सुरक्षित रखना (क्रिया); सार्थक होना/काम का होना (मूल्य व्यक्त करना); लाओस में एक पारंपरिक ग्राम वार्ड या सामुदायिक इकाई (संज्ञा)",
+    "ja": "守る/保護する（動詞）；価値がある/割に合う（価値を表す）；ラオスの伝統的な村の区/コミュニティ単位（名詞）",
+    "km": "ការពារ/ការពារ (កិរិយាស័ព្ទ); មានតម្លៃ/គួរ (បង្ហាញតម្លៃ); ភូមិបណ្ដាំ ឬឯកតាសហគមន៍ប្រពៃណីនៅឡាវ (នាមស័ព្ទ)",
+    "ko": "보호하다/지키다(동사); 가치 있다/그럴 만하다(가치 표현); 라오스의 전통 마을 구역 또는 공동체 단위(명사)",
+    "ne": "सुरक्षा गर्नु/जोगाउनु (क्रिया); मूल्यवान हुनु/सार्थक हुनु (मूल्य व्यक्त गर्दै); लाओसमा परम्परागत गाउँ वार्ड वा सामुदायिक इकाई (संज्ञा)",
+    "pt": "Proteger/guardar (verbo); valer a pena (expressando valor); uma unidade de bairro ou comunidade tradicional no Laos (substantivo)",
+    "th": "ปกป้อง/คุ้มกัน (กริยา); คุ้มค่า (แสดงคุณค่า); เขตหมู่บ้านแบบดั้งเดิมหรือหน่วยชุมชนในลาว (คำนาม)",
+    "tl": "Protektahan/bantayan (pandiwa); sulit/kabayaran (nagpapahayag ng halaga); isang tradisyonal na sakop ng nayon o yunit ng komunidad sa Laos (pangngalan)",
+    "ur": "حفاظت کرنا/محفوظ رکھنا (فعل)؛ قابل قدر ہونا/فائدہ مند ہونا (قدر ظاہر کرنا)؛ لاؤس میں ایک روایتی گاؤں وارڈ یا کمیونٹی اکائی (اسم)",
+    "vi": "Bảo vệ/canh giữ (động từ); xứng đáng/đáng giá (diễn đạt giá trị); một đơn vị khu phố làng hoặc cộng đồng truyền thống ở Lào (danh từ)",
+    "zh": "保护/守护（动词）；值得/划算（表达价值）；老挝传统村庄区划或社区单位（名词）",
+    "zh_Hant": "保護/守護（動詞）；值得/划算（表達價值）；寮國傳統村莊區劃或社區單位（名詞）"
+  },
+  "definition_en": "To protect/guard (verb); to be worth it/worthwhile (expressing value); a traditional village ward or community unit in Laos (noun)",
+  "romanization": "/khum˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາຄານີ້ຄຸ້ມຫຼາຍ ຊື້ເລີຍ",
+      "romanization": "laa khaa nii khum laai, sɯɯ ləəi",
+      "translation_en": "This price is totally worth it, just buy it!"
+    },
+    {
+      "lao_script": "ໝາຂອງຂ້ອຍຄຸ້ມເຮືອນດີຫຼາຍ",
+      "romanization": "maa khɔɔŋ khɔɔi khum hɯan dii laai",
+      "translation_en": "My dog guards the house really well."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a happy dog sitting alert in front of a house, acting as a guard, with a small price tag nearby showing 'worth it' concept, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕູ້",
+  "definitions": {
+    "de": "Schrank, Kasten, Vitrine; ein geschlossenes Möbelstück mit Türen zum Aufbewahren von Gegenständen",
+    "en": "Cabinet, cupboard, closet, or locker; a piece of furniture with doors used to store items",
+    "es": "Armario, gabinete, alacena; un mueble cerrado con puertas que se usa para guardar objetos",
+    "fr": "Armoire, placard, cabinet; un meuble fermé avec des portes utilisé pour ranger des objets",
+    "hi": "अलमारी, कैबिनेट, संदूक; दरवाज़ों वाला बंद फर्नीचर जो सामान रखने के काम आता है",
+    "ja": "戸棚、キャビネット、クローゼット；扉のついた、物を収納するための家具",
+    "km": "ទូ, ទូដាក់ឥវ៉ាន់, ទូដាក់សំលៀកបំពាក់; គ្រឿងសង្ហារិមដែលមានទ្វារសម្រាប់ដាក់ទុកវត្ថុ",
+    "ko": "캐비닛, 찬장, 옷장; 물건을 보관하기 위한 문이 달린 가구",
+    "ne": "अलमारी, ढकनी भएको फर्निचर; सामान राख्न ढोका भएको बन्द फर्निचर",
+    "pt": "Armário, gabinete, guarda-roupa; um móvel fechado com portas usado para guardar objetos",
+    "th": "ตู้, ตู้เก็บของ, ตู้เสื้อผ้า; เฟอร์นิเจอร์มีประตูใช้สำหรับเก็บของ",
+    "tl": "Aparador, kabinet, taguan; isang muwebles na may pinto na ginagamit para mag-imbak ng mga bagay",
+    "ur": "الماری، کیبنٹ، الم ؛ دروازوں والا بند فرنیچر جو چیزیں رکھنے کے لیے استعمال ہوتا ہے",
+    "vi": "Tủ, tủ đựng đồ, tủ quần áo; đồ nội thất có cánh cửa dùng để cất giữ đồ vật",
+    "zh": "柜子，橱柜，衣柜；带门的用来储存物品的家具",
+    "zh_Hant": "櫃子，碗櫥，衣櫃；帶門的用來儲存物品的家具"
+  },
+  "definition_en": "Cabinet, cupboard, closet, or locker; a piece of furniture with doors used to store items",
+  "romanization": "tuː",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອຂອງຂ້ອຍຢູ່ໃນຕູ້ນັ້ນ.",
+      "romanization": "sɯːa khɔːng khɔːi yuː nai tuː nan.",
+      "translation_en": "My clothes are in that cabinet/closet."
+    },
+    {
+      "lao_script": "ຊ່ວຍເປີດຕູ້ໃຫ້ເບິ່ງແດ່ໄດ້ບໍ?",
+      "romanization": "suai pəːt tuː hai bɤːng dɛː dai bɔː?",
+      "translation_en": "Could you open the cabinet for me to have a look?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a wooden household cabinet or wardrobe with both doors open, showing neatly folded clothes inside, clean white background, warm brown and cream colors, minimalist cartoon style suitable for a language learning app."
+}

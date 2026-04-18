@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖື",
+  "definitions": {
+    "de": "Halten, tragen, in der Hand halten; etwas mit den Händen festhalten oder bei sich tragen",
+    "en": "To hold, carry, or grasp; to keep something in one's hands or to carry something on one's person",
+    "es": "Sostener, cargar, sujetar; tener algo en las manos o llevar algo consigo",
+    "fr": "Tenir, porter, saisir; garder quelque chose dans les mains ou transporter quelque chose sur soi",
+    "hi": "पकड़ना, थामना, उठाना; कुछ हाथों में रखना या अपने साथ लेकर चलना",
+    "ja": "持つ、握る、抱える；手の中に何かを保持したり、身につけて運んだりする",
+    "km": "កាន់, ប្រដាប់, យក; ដៃកាន់អ្វីមួយ ឬនាំយ៉ាងអ្វីមួយទៅជាមួយខ្លួន",
+    "ko": "들다, 잡다, 쥐다, 들고 다니다; 무언가를 손에 쥐고 있거나 몸에 지니고 다니다",
+    "ne": "समात्नु, बोक्नु, थाम्नु; केही हातमा राख्नु वा आफूसँग लिएर हिँड्नु",
+    "pt": "Segurar, carregar, pegar; manter algo nas mãos ou carregar algo consigo",
+    "th": "ถือ, จับ, อุ้ม; จับหรือพกพาสิ่งของไว้ในมือหรือติดตัว",
+    "tl": "Hawakan, bitbitin, dalhin; hawakan ang isang bagay sa mga kamay o magdala ng isang bagay",
+    "ur": "پکڑنا، تھامنا، اٹھانا؛ کسی چیز کو ہاتھوں میں رکھنا یا اپنے ساتھ لے کر چلنا",
+    "vi": "Cầm, giữ, mang; giữ thứ gì đó trong tay hoặc mang theo bên người",
+    "zh": "拿，握，持；用手拿着某物或随身携带某物",
+    "zh_Hant": "拿，握，持；用手拿著某物或隨身攜帶某物"
+  },
+  "definition_en": "To hold, carry, or grasp; to keep something in one's hands or to carry something on one's person",
+  "romanization": "/tʰɯː²²/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຖືກະເປົ໋າໃຫ້ຂ້ອຍແປໄດ້ບໍ",
+      "romanization": "suai thuu ga-pao hai khoi pae dai bor",
+      "translation_en": "Can you hold my bag for me for a moment?"
+    },
+    {
+      "lao_script": "ລາວຖືດອກໄມ້ສວຍຫຼາຍ",
+      "romanization": "laao thuu dok maai suai laai",
+      "translation_en": "She is holding very beautiful flowers."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person holding a colorful bag or a bouquet of flowers in their hands, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

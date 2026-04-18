@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄຂ",
+  "definitions": {
+    "de": "Polysemes Wort: 1) Ei (z. B. Hühnerei), 2) aufschließen/öffnen (ein Schloss), 3) Fieber (ໄຂ້). Kontext bestimmt die Bedeutung.",
+    "en": "A polysemous word meaning: 1) egg (e.g. chicken egg), 2) to unlock/open (a lock), 3) fever (ໄຂ້). Context determines the meaning.",
+    "es": "Palabra polisémica que significa: 1) huevo (p. ej. huevo de gallina), 2) desbloquear/abrir (una cerradura), 3) fiebre (ໄຂ້). El contexto determina el significado.",
+    "fr": "Mot polysémique signifiant : 1) œuf (p. ex. œuf de poule), 2) déverrouiller/ouvrir (une serrure), 3) fièvre (ໄຂ້). Le contexte détermine le sens.",
+    "hi": "बहुअर्थी शब्द जिसका अर्थ है: 1) अंडा (जैसे मुर्गी का अंडा), 2) ताला खोलना, 3) बुखार (ໄຂ້)। संदर्भ अर्थ निर्धारित करता है।",
+    "ja": "多義語：1）卵（例：鶏の卵）、2）鍵を開ける/解錠する、3）熱（ໄຂ້）。文脈によって意味が決まる。",
+    "km": "ពាក្យដែលមានន័យច្រើន: ១) ស៊ុត (ឧ. ស៊ុតមាន់), ២) ដោះសោ/បើក, ៣) គ្រុនក្តៅ (ໄຂ້)។ បរិបទជាអ្នកកំណត់ន័យ។",
+    "ko": "다의어: 1) 달걀(예: 닭달걀), 2) 잠금 해제/열다, 3) 열(발열, ໄຂ້). 문맥에 따라 의미가 결정된다.",
+    "ne": "बहुअर्थी शब्द: १) अण्डा (जस्तै कुखुराको अण्डा), २) ताला खोल्नु, ३) ज्वरो (ໄຂ້)। सन्दर्भले अर्थ निर्धारण गर्छ।",
+    "pt": "Palavra polissêmica que significa: 1) ovo (ex.: ovo de galinha), 2) desbloquear/abrir (uma fechadura), 3) febre (ໄຂ້). O contexto determina o significado.",
+    "th": "คำที่มีหลายความหมาย: 1) ไข่ (เช่น ไข่ไก่), 2) ไขกุญแจ/เปิดล็อก, 3) ไข้ (ມີໄຂ້). บริบทเป็นตัวกำหนดความหมาย",
+    "tl": "Isang salitang may maraming kahulugan: 1) itlog (hal. itlog ng manok), 2) i-unlock/buksan (isang kandado), 3) lagnat (ໄຂ້). Ang konteksto ang nagtatakda ng kahulugan.",
+    "ur": "کثیر المعنی لفظ: ۱) انڈہ (مثلاً مرغی کا انڈہ)، ۲) تالہ کھولنا، ۳) بخار (ໄຂ້)۔ سیاق و سباق معنی کا تعین کرتا ہے۔",
+    "vi": "Từ đa nghĩa: 1) trứng (vd. trứng gà), 2) mở khóa/mở (ổ khóa), 3) sốt (ໄຂ້). Ngữ cảnh xác định nghĩa.",
+    "zh": "多义词：1）蛋（如鸡蛋），2）开锁/打开（锁），3）发烧（ໄຂ້）。由上下文决定含义。",
+    "zh_Hant": "多義詞：1）蛋（如雞蛋），2）開鎖/打開（鎖），3）發燒（ໄຂ້）。由上下文決定含義。"
+  },
+  "definition_en": "A polysemous word meaning: 1) egg (e.g. chicken egg), 2) to unlock/open (a lock), 3) fever (ໄຂ້). Context determines the meaning.",
+  "romanization": "kʰǎj",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຊື້ໄຂ່ໄກ່ມາສອງໂຫລ.",
+      "romanization": "mɛː sʉː kʰàj kàj maː sɔːŋ hǒːl",
+      "translation_en": "Mom bought two dozen chicken eggs."
+    },
+    {
+      "lao_script": "ຊ່ວຍໄຂປະຕູໃຫ້ແດ່, ມືຂອງຂ້ອຍບໍ່ວ່າງ.",
+      "romanization": "sùaj kʰǎj pàtuː hâj dɛː, mʉː khɔng khɔːj bɔː wáːŋ",
+      "translation_en": "Help me open the door please, my hands are full."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing three small panels: a cracked brown egg, a hand unlocking a padlock with a key, and a thermometer indicating fever, all on a clean white background with colorful icons, minimalist educational style."
+}

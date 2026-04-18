@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃສ່",
+  "definitions": {
+    "de": "Anziehen, tragen (Kleidung, Schmuck, Schuhe); etwas in etwas hineingeben oder einlegen; auf etwas auftragen (z.B. Gewürze in ein Gericht geben)",
+    "en": "To put on or wear (clothing, jewelry, shoes); to put something into something; to add or apply to (e.g., to add spice to a dish); one of the most common everyday verbs in Lao",
+    "es": "Ponerse o llevar puesto (ropa, joyería, zapatos); poner algo dentro de algo; añadir o aplicar a (p. ej., añadir especias a un plato); uno de los verbos cotidianos más comunes en lao",
+    "fr": "Mettre ou porter (vêtements, bijoux, chaussures); mettre quelque chose dans quelque chose; ajouter ou appliquer à (ex. ajouter des épices à un plat); l'un des verbes quotidiens les plus courants en lao",
+    "hi": "पहनना या धारण करना (कपड़े, गहने, जूते); कुछ को कहीं डालना; जोड़ना या लगाना (जैसे किसी व्यंजन में मसाला डालना); लाओ में सबसे आम रोज़मर्रा के क्रियाओं में से एक",
+    "ja": "着る、身に着ける（服、アクセサリー、靴など）；何かに入れる；加える・かける（例：料理にスパイスを入れる）；ラオ語で最もよく使われる日常動詞のひとつ",
+    "km": "ស្លៀកពាក់ (ឬពាក់) (សំលៀកបំពាក់ គ្រឿងអលង្ការ ស្បែកជើង); ដាក់អ្វីម្យ៉ាងចូលក្នុងអ្វីម្យ៉ាង; បន្ថែម ឬលាប (ឧ. ដាក់គ្រឿងស្ទូចចូលក្នុងម្ហូប); ជាកិរិយាស័ព្ទប្រចាំថ្ងៃទូទៅបំផុតមួយក្នុងភាសាឡាវ",
+    "ko": "입다, 착용하다 (옷, 액세서리, 신발); 무언가를 무언가에 넣다; 더하다, 바르다 (예: 요리에 향신료를 넣다); 라오어에서 가장 일반적인 일상 동사 중 하나",
+    "ne": "लगाउनु वा पहिरनु (कपडा, गहना, जुत्ता); केही चिजलाई कतै राख्नु; थप्नु वा लगाउनु (जस्तै खानामा मसला थप्नु); लाओ भाषामा सबैभन्दा सामान्य दैनिक क्रियाहरूमध्ये एक",
+    "pt": "Colocar ou vestir (roupas, joias, sapatos); colocar algo dentro de algo; adicionar ou aplicar a (ex.: adicionar tempero a uma receita); um dos verbos cotidianos mais comuns em lao",
+    "th": "ใส่หรือสวมใส่ (เสื้อผ้า เครื่องประดับ รองเท้า); นำสิ่งของใส่ลงไปในบางอย่าง; เพิ่มหรือใส่ลงไป (เช่น ใส่เครื่องปรุงในอาหาร); เป็นหนึ่งในกริยาที่ใช้บ่อยที่สุดในภาษาลาว",
+    "tl": "Magsuot o magbihis (damit, alahas, sapatos); maglagay ng isang bagay sa loob ng isang bagay; magdagdag o mag-apply (hal., magdagdag ng pampalasa sa pagkain); isa sa pinakakaraniwang pang-araw-araw na pandiwa sa wikang Lao",
+    "ur": "پہننا یا زیب تن کرنا (کپڑے، زیورات، جوتے)؛ کچھ کسی چیز میں ڈالنا؛ شامل کرنا یا لگانا (مثلاً کھانے میں مسالہ ڈالنا)؛ لاؤ زبان میں سب سے عام روزمرہ کے فعلوں میں سے ایک",
+    "vi": "Mặc vào hoặc đeo (quần áo, trang sức, giày dép); cho thứ gì vào trong thứ gì đó; thêm hoặc cho vào (ví dụ: thêm gia vị vào món ăn); một trong những động từ hàng ngày phổ biến nhất trong tiếng Lào",
+    "zh": "穿上或戴上（衣服、首饰、鞋子）；将某物放入某物中；添加或涂抹（如在菜肴中加香料）；是老挝语中最常用的日常动词之一",
+    "zh_Hant": "穿上或戴上（衣服、首飾、鞋子）；將某物放入某物中；添加或塗抹（如在菜餚中加香料）；是寮語中最常用的日常動詞之一"
+  },
+  "definition_en": "To put on or wear (clothing, jewelry, shoes); to put something into something; to add or apply to (e.g., to add spice to a dish); one of the most common everyday verbs in Lao",
+  "romanization": "saj˨˩",
+  "lao_examples": [
+    {
+      "lao_script": "ໃສ່ເສື້ອໄປໂຮງຮຽນກ່ອນ, ໜາວຢູ່ຕອນເຊົ້າ",
+      "romanization": "sai suea pai hong hian kon, nao yu ton sao",
+      "translation_en": "Put on a shirt before going to school, it's cold in the morning"
+    },
+    {
+      "lao_script": "ໃສ່ເກືອລົງໄປໃນແກງຫຼາຍໆໜ້ອຍ, ຈືດຫຼາຍ",
+      "romanization": "sai keua long pai nai kaeng lai lai noi, jued lai",
+      "translation_en": "Add a bit more salt to the soup, it's way too bland"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful person putting on a colorful shirt, with one arm already through the sleeve and smiling, clean white background, bright pastel colors, minimalist cartoon style suitable for a language learning app"
+}

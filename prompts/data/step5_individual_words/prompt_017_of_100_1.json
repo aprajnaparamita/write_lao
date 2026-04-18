@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສູງ",
+  "definitions": {
+    "de": "Hoch, groß (in Bezug auf Höhe oder Statur)",
+    "en": "Tall or high; describing something or someone of great height",
+    "es": "Alto o elevado; que tiene gran altura",
+    "fr": "Grand ou élevé ; qui a une grande hauteur",
+    "hi": "ऊँचा या लंबा; किसी वस्तु या व्यक्ति की अधिक ऊँचाई का वर्णन करना",
+    "ja": "高い、背が高い；物や人の高さが大きいことを表す形容詞",
+    "km": "ខ្ពស់ ឬមានកម្ពស់ច្រើន; ប្រើដើម្បីពិពណ៌នាអ្វីមួយ ឬនរណាម្នាក់ដែលមានកម្ពស់ច្រើន",
+    "ko": "높은 또는 키가 큰; 높이가 큰 사물이나 사람을 묘사하는 형용사",
+    "ne": "अग्लो वा उच्च; कुनै वस्तु वा व्यक्तिको ठूलो उचाइ वर्णन गर्ने",
+    "pt": "Alto ou elevado; que descreve algo ou alguém de grande altura",
+    "th": "สูง; ใช้บอกความสูงของสิ่งของหรือบุคคล",
+    "tl": "Mataas o matangkad; naglalarawan ng isang bagay o taong may malaking taas",
+    "ur": "اونچا یا لمبا؛ کسی چیز یا شخص کی زیادہ اونچائی بیان کرنا",
+    "vi": "Cao; mô tả chiều cao lớn của người hoặc vật",
+    "zh": "高；形容人或物的高度大",
+    "zh_Hant": "高；形容人或物的高度大"
+  },
+  "definition_en": "Tall or high; describing something or someone of great height",
+  "romanization": "/suːŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຕົ້ນໄມ້ຕົ້ນນັ້ນສູງຫຼາຍ",
+      "romanization": "ton mai ton nan sung lai",
+      "translation_en": "That tree is very tall."
+    },
+    {
+      "lao_script": "ເພື່ອນຂອງຂ້ອຍສູງກວ່າຂ້ອຍ",
+      "romanization": "phuean khong khoi sung kwa khoi",
+      "translation_en": "My friend is taller than me."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a very tall tree next to a short tree for size comparison, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

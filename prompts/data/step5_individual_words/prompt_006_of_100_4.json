@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຜູ້",
+  "definitions": {
+    "de": "Person (Nominalisierer); Klassifikator für Personen",
+    "en": "person (nominalizer prefix); classifier for human agents",
+    "es": "persona (prefijo nominalizador); clasificador de agentes humanos",
+    "fr": "personne (préfixe nominalisateur); classificateur pour agents humains",
+    "hi": "जो (नामिक उपसर्ग); व्यक्ति वाचक",
+    "ja": "〜者／〜人（動作主を表す接頭辞）",
+    "km": "អ្នក／ពួក (បច្ច័យឈ្មោះបង្ហាញបុគ្គល)",
+    "ko": "~자／~이 (사람을 나타내는 접두사)",
+    "ne": "गर्ने／वाला (व्यक्ति जनाउने उपसर्ग)",
+    "pt": "pessoa/aquele que (prefixo nominalizador); classificador de pessoas",
+    "th": "ผู้ (คำนำหน้าชี้บุคคลที่กระทำ)",
+    "tl": "ang／sinumang／taong (pantukoy sa taong gumagawa)",
+    "ur": "والا؛ شخص (کام کرنے والے کے لیے سابقہ)",
+    "vi": "người; kẻ (tiền tố tạo danh từ chỉ người)",
+    "zh": "者／人（动作者的前缀或量词）",
+    "zh_Hant": "者／人（動作者的前綴或量詞）"
+  },
+  "definition_en": "person (nominalizer prefix); classifier for human agents",
+  "romanization": "pʰȕː",
+  "lao_examples": [
+    {
+      "lao_script": "ຜູ້ ຊາຍ ຄົນ ນັ້ນ ເປັນ ໝໍ",
+      "romanization": "pʰȕː sáːj kʰón nân pēn mɔ̌ː",
+      "translation_en": "That man is a doctor."
+    },
+    {
+      "lao_script": "ຜູ້ ໃດ ຮູ້ ຄຳ ຕອບ?",
+      "romanization": "pʰȕː dàj húː kʰám tɔ̀ːp",
+      "translation_en": "Who knows the answer?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a silhouette of a person standing with a question mark above, representing an unspecified human agent, suitable for a language learning app, clean white background, minimalist style."
+}

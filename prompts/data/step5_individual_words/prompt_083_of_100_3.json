@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍິນ",
+  "definitions": {
+    "de": "Hören, vernehmen (einen Klang oder eine Information wahrnehmen); bekannt aus dem Ausdruck ຍິນດີ (willkommen, erfreut)",
+    "en": "To hear, to receive (a sound or information); commonly known from the expression ຍິນດີ (welcome, pleased)",
+    "es": "Escuchar, oír (un sonido o información); conocido en la expresión ຍິນດີ (bienvenido, complacido)",
+    "fr": "Entendre, recevoir (un son ou une information); connu dans l'expression ຍິນດີ (bienvenu, ravi)",
+    "hi": "सुनना, ग्रहण करना (कोई ध्वनि या जानकारी); ຍິນດີ (स्वागत, प्रसन्न) अभिव्यक्ति में प्रसिद्ध",
+    "ja": "聞く、受け取る（音や情報を感知する）；ຍິນດີ（ようこそ、喜んで）という表現でよく知られている",
+    "km": "ឮ, ទទួល (សំឡេង ឬព័ត៌មាន); ល្បីពី ຍິນດີ (សូមស្វាគមន៍, រីករាយ)",
+    "ko": "듣다, 받아들이다 (소리나 정보를 인지하다); ຍິນດີ (환영, 기쁘다) 표현으로 잘 알려져 있음",
+    "ne": "सुन्नु, ग्रहण गर्नु (ध्वनि वा जानकारी); ຍິນດີ (स्वागत, खुशी) अभिव्यक्तिमा प्रसिद्ध",
+    "pt": "Ouvir, receber (um som ou informação); conhecido na expressão ຍິນດີ (bem-vindo, satisfeito)",
+    "th": "ได้ยิน, รับฟัง (เสียงหรือข้อมูล); รู้จักกันดีจากสำนวน ຍິນດີ (ยินดีต้อนรับ, ยินดี)",
+    "tl": "Marinig, tanggapin (isang tunog o impormasyon); kilala sa ekspresyong ຍິນດີ (maligayang pagdating, nagagalak)",
+    "ur": "سننا، موصول کرنا (آواز یا معلومات)؛ ຍິນດີ (خوش آمدید، خوش) اظہار میں مشہور",
+    "vi": "Nghe, tiếp nhận (âm thanh hoặc thông tin); nổi tiếng qua cụm từ ຍິນດີ (chào mừng, vui lòng)",
+    "zh": "听到、接收（声音或信息）；常见于短语 ຍິນດີ（欢迎，高兴）",
+    "zh_Hant": "聽到、接收（聲音或資訊）；常見於短語 ຍິນດີ（歡迎，高興）"
+  },
+  "definition_en": "To hear, to receive (a sound or information); commonly known from the expression ຍິນດີ (welcome, pleased)",
+  "romanization": "ɲin",
+  "lao_examples": [
+    {
+      "lao_script": "ຍິນດີຕ້ອນຮັບມາເຮືອນຂ້ອຍເດີ້",
+      "romanization": "ɲin diː tɔːn hap maː hɯan kʰɔːj dəː",
+      "translation_en": "Welcome to my house!"
+    },
+    {
+      "lao_script": "ຂ້ອຍຍິນຂ່າວນີ້ຈາກໝູ່",
+      "romanization": "kʰɔːj ɲin kʰaːo niː tɕaːk muː",
+      "translation_en": "I heard this news from a friend."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with their hand cupped behind their ear, listening carefully, with small sound wave symbols in the air, clean white background, colorful minimalist cartoon style, suitable for a language learning app."
+}

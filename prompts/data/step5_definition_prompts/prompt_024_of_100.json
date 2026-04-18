@@ -1,0 +1,393 @@
+{
+  "ສຸກ": {
+    "definitions": {
+      "de": "Reif (von Früchten), gar (von Speisen); auch: Freitag",
+      "en": "Ripe (of fruit), cooked/done (of food); also means Friday",
+      "es": "Maduro (de frutas), cocido/listo (de comida); también significa viernes",
+      "fr": "Mûr (pour les fruits), cuit/prêt (pour la nourriture); signifie aussi vendredi",
+      "hi": "पका हुआ (फल के लिए), पकाया हुआ/तैयार (खाने के लिए); शुक्रवार भी",
+      "ja": "熟れた（果物）、火が通った/できあがった（食べ物）；金曜日の意味もある",
+      "km": "ទុំ (សម្រាប់ផ្លែឈើ),익은/ចម្អិនរួច (សម្រាប់អាហារ); ក៏មានន័យថា ថ្ងៃសុក្រ",
+      "ko": "익은 (과일), 익힌/다 된 (음식); 금요일이라는 뜻도 있음",
+      "ne": "पाकेको (फलफूलको लागि), पकाइएको/तयार (खानाको लागि); शुक्रबार पनि",
+      "pt": "Maduro (de frutas), cozido/pronto (de comida); também significa sexta-feira",
+      "th": "สุก (ของผลไม้), สุก/พร้อม (ของอาหาร); ยังหมายถึงวันศุกร์ด้วย",
+      "tl": "Hinog (para sa prutas), luto/tapos na (para sa pagkain); nangangahulugang Biyernes din",
+      "ur": "پکا ہوا (پھل کے لیے)، پکایا ہوا/تیار (کھانے کے لیے)؛ جمعہ کا دن بھی",
+      "vi": "Chín (đối với quả), chín/sẵn sàng (đối với thức ăn); cũng có nghĩa là thứ Sáu",
+      "zh": "成熟的（水果），熟的/做好的（食物）；也指星期五",
+      "zh_Hant": "成熟的（水果），熟的/做好的（食物）；也指星期五"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/súk/",
+    "examples": [
+      {
+        "lao_script": "ໝາກໂມນີ້ສຸກແລ້ວ ກິນໄດ້ເລີຍ",
+        "romanization": "mak mo ni suk laew, kin dai loei",
+        "translations": {
+          "de": "Diese Wassermelone ist schon reif, du kannst sie gleich essen.",
+          "en": "This watermelon is already ripe, you can eat it right away.",
+          "es": "Esta sandía ya está madura, puedes comerla de inmediato.",
+          "fr": "Cette pastèque est déjà mûre, tu peux la manger tout de suite.",
+          "hi": "यह तरबूज पक गया है, अभी खा सकते हो।",
+          "ja": "このスイカはもう熟れてるよ、すぐ食べていいよ。",
+          "km": "ឪឡឹកនេះទុំហើយ អាចញាំបានភ្លាម។",
+          "ko": "이 수박은 이미 익었어, 바로 먹을 수 있어.",
+          "ne": "यो तरबूज पाकिसक्यो, अहिलै खान सकिन्छ।",
+          "pt": "Esta melancia já está madura, você pode comer agora mesmo.",
+          "th": "แตงโมลูกนี้สุกแล้ว กินได้เลย",
+          "tl": "Ang pakwang na ito ay hinog na, maaari mo na itong kainin.",
+          "ur": "یہ تربوز پک گیا ہے، ابھی کھا سکتے ہو۔",
+          "vi": "Quả dưa hấu này đã chín rồi, ăn được ngay.",
+          "zh": "这个西瓜已经熟了，可以马上吃。",
+          "zh_Hant": "這個西瓜已經熟了，可以馬上吃。"
+        },
+        "out_of_scope_words": [
+          "ໝາກໂມ",
+          "ກິນ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ສຸກນີ້ເຈົ້າຫວ່າງບໍ່",
+        "romanization": "mue suk ni, jao wang bo",
+        "translations": {
+          "de": "Bist du diesen Freitag frei?",
+          "en": "Are you free this Friday?",
+          "es": "¿Estás libre este viernes?",
+          "fr": "Tu es libre ce vendredi ?",
+          "hi": "क्या इस शुक्रवार तुम खाली हो?",
+          "ja": "今週の金曜日、暇？",
+          "km": "ថ្ងៃសុក្រនេះ អ្នករើសពេលទំនេរទេ?",
+          "ko": "이번 금요일에 시간 있어?",
+          "ne": "यो शुक्रबार तिमी खाली छौ?",
+          "pt": "Você está livre nesta sexta-feira?",
+          "th": "วันศุกร์นี้ว่างไหม",
+          "tl": "Libre ka ba ngayong Biyernes?",
+          "ur": "کیا اس جمعہ کو تم فارغ ہو؟",
+          "vi": "Thứ Sáu này bạn có rảnh không?",
+          "zh": "这个星期五你有空吗？",
+          "zh_Hant": "這個星期五你有空嗎？"
+        },
+        "out_of_scope_words": [
+          "ຫວ່າງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a ripe, bright red watermelon cut in half showing juicy red flesh, alongside a small calendar icon showing Friday, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເດືອນ": {
+    "definitions": {
+      "de": "Monat; auch: Mond",
+      "en": "Month; also: Moon",
+      "es": "Mes; también: Luna",
+      "fr": "Mois ; aussi : Lune",
+      "hi": "महीना; चाँद भी",
+      "ja": "月（つき）；月（がつ）",
+      "km": "ខែ; ក៏មានន័យថា ព្រះចន្ទ",
+      "ko": "달 (한 달); 달 (천체)",
+      "ne": "महिना; जून/चन्द्रमा पनि",
+      "pt": "Mês; também: Lua",
+      "th": "เดือน (ช่วงเวลา); ยังหมายถึงดวงจันทร์",
+      "tl": "Buwan (tagal ng panahon); pati na rin ang Buwan (kalangitan)",
+      "ur": "مہینہ؛ چاند بھی",
+      "vi": "Tháng; cũng có nghĩa là Mặt trăng",
+      "zh": "月份；也指月亮",
+      "zh_Hant": "月份；也指月亮"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/dɯ̀an/",
+    "examples": [
+      {
+        "lao_script": "ເດືອນນີ້ຂ້ອຍຫຍຸ້ງຫຼາຍເລີຍ",
+        "romanization": "duan ni, khoi nyung lai loei",
+        "translations": {
+          "de": "Diesen Monat bin ich wirklich sehr beschäftigt.",
+          "en": "This month I'm really very busy.",
+          "es": "Este mes estoy muy ocupado/a de verdad.",
+          "fr": "Ce mois-ci, je suis vraiment très occupé(e).",
+          "hi": "इस महीने मैं सच में बहुत व्यस्त हूँ।",
+          "ja": "今月、本当にすごく忙しいんだ。",
+          "km": "ខែនេះ ខ្ញុំមមាញឹកណាស់។",
+          "ko": "이번 달은 정말 너무 바빠.",
+          "ne": "यो महिना म साँच्चै धेरै व्यस्त छु।",
+          "pt": "Este mês estou realmente muito ocupado/a.",
+          "th": "เดือนนี้ฉันยุ่งมากเลย",
+          "tl": "Ngayong buwan ay talagang abala ako.",
+          "ur": "اس مہینے میں واقعی بہت مصروف ہوں۔",
+          "vi": "Tháng này tôi bận lắm.",
+          "zh": "这个月我真的很忙。",
+          "zh_Hant": "這個月我真的很忙。"
+        },
+        "out_of_scope_words": [
+          "ຫຍຸ້ງ"
+        ]
+      },
+      {
+        "lao_script": "ເດືອນນີ້ແມ່ນເດືອນຫຍັງແລ້ວ",
+        "romanization": "duan ni maen duan nyang laew",
+        "translations": {
+          "de": "Welchen Monat haben wir jetzt?",
+          "en": "What month is it now?",
+          "es": "¿En qué mes estamos ahora?",
+          "fr": "On est quel mois maintenant ?",
+          "hi": "अभी कौन सा महीना है?",
+          "ja": "今、何月だっけ？",
+          "km": "ឥឡូវនេះជាខែអ្វីហើយ?",
+          "ko": "지금 몇 월이야?",
+          "ne": "अहिले कुन महिना हो?",
+          "pt": "Que mês é agora?",
+          "th": "ตอนนี้เดือนอะไรแล้ว",
+          "tl": "Anong buwan na ngayon?",
+          "ur": "ابھی کون سا مہینہ ہے؟",
+          "vi": "Bây giờ là tháng mấy rồi?",
+          "zh": "现在是几月了？",
+          "zh_Hant": "現在是幾月了？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a calendar page showing one month grid, with a glowing crescent moon in the top corner on a clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມອບ": {
+    "definitions": {
+      "de": "Übergeben, aushändigen; zuweisen, beauftragen",
+      "en": "To hand over, to give/pass something to someone; to assign or entrust a task",
+      "es": "Entregar, ceder algo a alguien; asignar o encomendar una tarea",
+      "fr": "Remettre, transmettre quelque chose à quelqu'un ; confier ou assigner une tâche",
+      "hi": "किसी को कुछ सौंपना; कोई काम सौंपना या देना",
+      "ja": "手渡す、引き渡す；任務を割り当てる・任せる",
+      "km": "ប្រគល់ ឬ ផ្ទេរអ្វីមួយឱ្យអ្នកណាម្នាក់; ចាត់តាំង ឬ ប្រគល់ភារកិច្ច",
+      "ko": "건네다, 넘겨주다; 임무를 맡기다, 배정하다",
+      "ne": "कसैलाई केही सुम्पनु; कुनै काम दिनु वा सुम्पनु",
+      "pt": "Entregar, passar algo a alguém; atribuir ou confiar uma tarefa",
+      "th": "มอบ, ส่งมอบสิ่งของให้ใครสักคน; มอบหมายงาน",
+      "tl": "Ibigay, ihatid ang isang bagay sa isang tao; magtalaga ng gawain",
+      "ur": "کسی کو کچھ سونپنا؛ کوئی کام تفویض کرنا",
+      "vi": "Trao, bàn giao thứ gì cho ai; giao nhiệm vụ hoặc phân công",
+      "zh": "移交，递交；分配或委托任务",
+      "zh_Hant": "移交，遞交；分配或委託任務"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/mɔ̀ːp/",
+    "examples": [
+      {
+        "lao_script": "ຄູມອບວຽກໃຫ້ນັກຮຽນທຸກຄົນແລ້ວ",
+        "romanization": "khu maup wiak hai nak hian thuk khon laew",
+        "translations": {
+          "de": "Die Lehrerin hat allen Schülern bereits die Aufgaben zugewiesen.",
+          "en": "The teacher has already assigned work to all the students.",
+          "es": "La maestra ya les asignó trabajo a todos los alumnos.",
+          "fr": "La professeure a déjà donné du travail à tous les élèves.",
+          "hi": "शिक्षक ने सभी छात्रों को काम सौंप दिया है।",
+          "ja": "先生がもうすべての生徒に課題を割り当てたよ。",
+          "km": "លោកគ្រូបានប្រគល់ការងារដល់សិស្សទាំងអស់រួចហើយ។",
+          "ko": "선생님이 모든 학생들에게 이미 숙제를 내줬어.",
+          "ne": "शिक्षकले सबै विद्यार्थीलाई काम सुम्पिसकेको छ।",
+          "pt": "A professora já atribuiu trabalho para todos os alunos.",
+          "th": "ครูมอบงานให้นักเรียนทุกคนแล้ว",
+          "tl": "Itinaas na ng guro ang gawain sa lahat ng estudyante.",
+          "ur": "استاد نے تمام طلباء کو کام سونپ دیا ہے۔",
+          "vi": "Giáo viên đã giao bài tập cho tất cả học sinh rồi.",
+          "zh": "老师已经给所有学生布置了作业。",
+          "zh_Hant": "老師已經給所有學生佈置了作業。"
+        },
+        "out_of_scope_words": [
+          "ຄູ",
+          "ວຽກ",
+          "ນັກຮຽນ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍມອບຈົດໝາຍນີ້ໃຫ້ແມ່ຂ້ອຍແດ່",
+        "romanization": "suay maup jot mai ni hai mae khoi dae",
+        "translations": {
+          "de": "Könntest du diesen Brief bitte meiner Mutter übergeben?",
+          "en": "Please hand over this letter to my mom for me.",
+          "es": "Por favor, entrégale esta carta a mi mamá.",
+          "fr": "S'il te plaît, remets cette lettre à ma mère.",
+          "hi": "कृपया यह चिट्ठी मेरी माँ को दे दो।",
+          "ja": "この手紙をお母さんに渡してくれる？",
+          "km": "សូមប្រគល់លិខិតនេះទៅឱ្យម្តាយខ្ញុំផង។",
+          "ko": "이 편지를 우리 엄마한테 전달해 줘.",
+          "ne": "यो चिठ्ठी मेरी आमालाई दिइदिनुस् न।",
+          "pt": "Por favor, entregue esta carta para minha mãe.",
+          "th": "ช่วยมอบจดหมายนี้ให้แม่ฉันด้วยนะ",
+          "tl": "Pakihatid ang sulat na ito sa aking nanay.",
+          "ur": "یہ خط میری ماں کو دے دینا۔",
+          "vi": "Giúp tôi chuyển bức thư này cho mẹ tôi nhé.",
+          "zh": "请帮我把这封信交给我妈妈。",
+          "zh_Hant": "請幫我把這封信交給我媽媽。"
+        },
+        "out_of_scope_words": [
+          "ຈົດໝາຍ",
+          "ແມ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of one person handing over a document or folder to another person with both hands, showing a polite transfer gesture, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມູນ": {
+    "definitions": {
+      "de": "Grundlage, Basis; Daten, Informationen (häufig in Zusammensetzungen wie ຂໍ້ມູນ = Daten/Information)",
+      "en": "Foundation, base; data, information (most commonly found in compounds like ຂໍ້ມູນ meaning 'data/information')",
+      "es": "Base, fundamento; datos, información (frecuentemente en compuestos como ຂໍ້ມູນ que significa 'datos/información')",
+      "fr": "Base, fondation ; données, informations (surtout dans les composés comme ຂໍ້ມູນ signifiant 'données/informations')",
+      "hi": "आधार, नींव; डेटा, जानकारी (अक्सर ຂໍ້ມູນ जैसे यौगिकों में मिलता है जिसका अर्थ 'डेटा/जानकारी' है)",
+      "ja": "基盤、土台；データ、情報（主にຂໍ້ມູນ「データ・情報」などの複合語で使われる）",
+      "km": "មូលដ្ឋាន, ទិន្នន័យ, ព័ត៌មាន (ភាគច្រើនប្រើក្នុងពាក្យផ្សំដូចជា ຂໍ້ມູນ មានន័យថា 'ទិន្នន័យ/ព័ត៌មាន')",
+      "ko": "기반, 토대; 데이터, 정보 (주로 ຂໍ້ມູນ '데이터/정보' 같은 복합어로 사용됨)",
+      "ne": "आधार, जग; डेटा, जानकारी (प्रायः ຂໍ້ມູນ जस्ता यौगिकमा प्रयोग हुन्छ जसको अर्थ 'डेटा/जानकारी' हो)",
+      "pt": "Base, fundação; dados, informações (frequentemente em compostos como ຂໍ້ມູນ significando 'dados/informações')",
+      "th": "รากฐาน, ฐาน; ข้อมูล, สารสนเทศ (มักพบในคำประสมเช่น ຂໍ້ມູນ แปลว่า 'ข้อมูล/สารสนเทศ')",
+      "tl": "Pundasyon, batayan; datos, impormasyon (madalas makita sa mga tambalang salita tulad ng ຂໍ້ມູນ na nangangahulugang 'datos/impormasyon')",
+      "ur": "بنیاد، اساس؛ ڈیٹا، معلومات (اکثر ຂໍ້ມູນ جیسے مرکبات میں پایا جاتا ہے جس کا مطلب 'ڈیٹا/معلومات' ہے)",
+      "vi": "Nền tảng, cơ sở; dữ liệu, thông tin (thường dùng trong các từ ghép như ຂໍ້ມູນ nghĩa là 'dữ liệu/thông tin')",
+      "zh": "基础；数据，信息（常见于如ຂໍ້ມູນ（数据/信息）等复合词中）",
+      "zh_Hant": "基礎；數據，資訊（常見於如ຂໍ້ມູນ（數據/資訊）等複合詞中）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/múːn/",
+    "examples": [
+      {
+        "lao_script": "ຂໍ້ມູນໃນໂທລະສັບຂ້ອຍເຕັມແລ້ວ",
+        "romanization": "khao mun nai tho la sap khoi tem laew",
+        "translations": {
+          "de": "Der Speicher meines Handys ist schon voll.",
+          "en": "The data/storage on my phone is already full.",
+          "es": "Los datos/almacenamiento de mi teléfono ya están llenos.",
+          "fr": "Les données/la mémoire de mon téléphone sont déjà pleines.",
+          "hi": "मेरे फ़ोन का डेटा/स्टोरेज पहले से भरा हुआ है।",
+          "ja": "スマホのデータ（ストレージ）がもういっぱいだ。",
+          "km": "ទិន្នន័យ/អង្គចងចាំក្នុងទូរស័ព្ទខ្ញុំពេញហើយ។",
+          "ko": "내 핸드폰 데이터/저장 공간이 이미 꽉 찼어.",
+          "ne": "मेरो फोनको डाटा/स्टोरेज भरिसक्यो।",
+          "pt": "Os dados/armazenamento do meu celular já estão cheios.",
+          "th": "ข้อมูลในโทรศัพท์ฉันเต็มแล้ว",
+          "tl": "Ang datos/storage ng aking telepono ay puno na.",
+          "ur": "میرے فون کا ڈیٹا/اسٹوریج بھر گیا ہے۔",
+          "vi": "Dữ liệu/bộ nhớ trên điện thoại của tôi đã đầy rồi.",
+          "zh": "我手机里的数据/存储空间已经满了。",
+          "zh_Hant": "我手機裡的數據/儲存空間已經滿了。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ເຕັມ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າມີຂໍ້ມູນກ່ຽວກັບບ້ານຫຼັງນັ້ນບໍ່",
+        "romanization": "jao mi khao mun kiao kap ban lang nan bo",
+        "translations": {
+          "de": "Hast du Informationen über dieses Haus?",
+          "en": "Do you have any information about that house?",
+          "es": "¿Tienes información sobre esa casa?",
+          "fr": "Tu as des informations sur cette maison-là ?",
+          "hi": "क्या तुम्हारे पास उस घर के बारे में कोई जानकारी है?",
+          "ja": "あの家について情報持ってる？",
+          "km": "តើអ្នកមានព័ត៌មានអំពីផ្ទះនោះទេ?",
+          "ko": "저 집에 대한 정보 있어?",
+          "ne": "त्यो घरको बारेमा तिमीसँग कुनै जानकारी छ?",
+          "pt": "Você tem alguma informação sobre aquela casa?",
+          "th": "คุณมีข้อมูลเกี่ยวกับบ้านหลังนั้นไหม",
+          "tl": "Mayroon ka bang impormasyon tungkol sa bahay na iyon?",
+          "ur": "کیا تمہارے پاس اس گھر کے بارے میں کوئی معلومات ہے؟",
+          "vi": "Bạn có thông tin gì về ngôi nhà đó không?",
+          "zh": "你有关于那栋房子的信息吗？",
+          "zh_Hant": "你有關於那棟房子的資訊嗎？"
+        },
+        "out_of_scope_words": [
+          "ກ່ຽວກັບ",
+          "ບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a digital database icon or a folder containing documents and data charts on a screen, representing information and data, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃໝ່": {
+    "definitions": {
+      "de": "Neu; frisch, modern (beschreibt etwas, das gerade entstanden ist oder kürzlich erworben wurde)",
+      "en": "New; fresh, modern (describes something recently made, bought, or encountered)",
+      "es": "Nuevo/a; fresco/a, moderno/a (describe algo recién hecho, comprado o encontrado)",
+      "fr": "Nouveau/nouvelle ; frais/fraîche, moderne (décrit quelque chose de récemment fait, acheté ou rencontré)",
+      "hi": "नया/नई; ताज़ा, आधुनिक (हाल ही में बनाई, खरीदी या मिली चीज़ का वर्णन)",
+      "ja": "新しい；新鮮な、最新の（最近作られた・買われた・出会ったものを表す）",
+      "km": "ថ្មី; ស្រស់, ទំនើប (ពណ៌នាអ្វីដែលបានធ្វើ, ទិញ ឬជួបប្រទះថ្មីៗ)",
+      "ko": "새로운, 새것의; 신선한, 최신의 (최근에 만들어지거나 구입하거나 접한 것을 묘사)",
+      "ne": "नयाँ; ताजा, आधुनिक (हालसालै बनाइएको, किनिएको वा भेटिएको कुराको वर्णन)",
+      "pt": "Novo/nova; fresco/a, moderno/a (descreve algo recentemente feito, comprado ou encontrado)",
+      "th": "ใหม่; สด, ทันสมัย (อธิบายสิ่งที่เพิ่งสร้าง ซื้อ หรือพบเห็น)",
+      "tl": "Bago; sariwa, moderno (naglalarawan ng isang bagay na kamakailan lamang ginawa, binili, o natagpuan)",
+      "ur": "نیا/نئی؛ تازہ، جدید (حال ہی میں بنائی، خریدی یا ملی چیز کو بیان کرتا ہے)",
+      "vi": "Mới; tươi mới, hiện đại (miêu tả thứ gì đó vừa được làm ra, mua hoặc gặp gỡ gần đây)",
+      "zh": "新的；新鲜的，现代的（描述最近制作、购买或遇到的事物）",
+      "zh_Hant": "新的；新鮮的，現代的（描述最近製作、購買或遇到的事物）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/mȁj/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໄດ້ຊື້ລົດໃໝ່ແລ້ວຫຼືເນີ",
+        "romanization": "jao dai sue lot mai laew lue noe",
+        "translations": {
+          "de": "Hast du schon ein neues Auto gekauft, oder?",
+          "en": "You bought a new car already, didn't you?",
+          "es": "Ya compraste un carro nuevo, ¿verdad?",
+          "fr": "Tu as déjà acheté une nouvelle voiture, non ?",
+          "hi": "तुमने नई कार खरीद ली क्या?",
+          "ja": "もう新しい車買ったの？",
+          "km": "អ្នកបានទិញឡានថ្មីហើយមែនទេ?",
+          "ko": "벌써 새 차 샀어?",
+          "ne": "तिमीले नयाँ गाडी किनिसक्यौ नि?",
+          "pt": "Você já comprou um carro novo, né?",
+          "th": "เธอซื้อรถใหม่แล้วหรือเนี่ย",
+          "tl": "Bumili ka na ba ng bagong sasakyan?",
+          "ur": "کیا تم نے نئی گاڑی خرید لی؟",
+          "vi": "Bạn đã mua xe mới rồi à?",
+          "zh": "你已经买新车了吗？",
+          "zh_Hant": "你已經買新車了嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊື້",
+          "ລົດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກໄດ້ເຄື່ອງໃໝ່ໆສັກອັນ",
+        "romanization": "khoi yak dai khuang mai mai sak an",
+        "translations": {
+          "de": "Ich möchte irgendetwas Neues haben.",
+          "en": "I want to get something new.",
+          "es": "Quiero conseguir algo nuevo.",
+          "fr": "J'ai envie d'avoir quelque chose de nouveau.",
+          "hi": "मुझे कुछ नया चाहिए।",
+          "ja": "何か新しいものが欲しいな。",
+          "km": "ខ្ញុំចង់បានអ្វីថ្មីៗ​ម្យ៉ាង។",
+          "ko": "뭔가 새로운 거 하나 갖고 싶어.",
+          "ne": "मलाई केही नयाँ चीज चाहियो।",
+          "pt": "Eu quero conseguir algo novo.",
+          "th": "ฉันอยากได้ของใหม่ๆ สักชิ้น",
+          "tl": "Gusto kong makakuha ng bagong bagay.",
+          "ur": "مجھے کوئی نئی چیز چاہیے۔",
+          "vi": "Tôi muốn có thứ gì đó mới.",
+          "zh": "我想要些新东西。",
+          "zh_Hant": "我想要些新東西。"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ເຄື່ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a shiny new product just unboxed — such as a bright new smartphone or a new pair of sneakers with a sparkle effect — sitting on a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

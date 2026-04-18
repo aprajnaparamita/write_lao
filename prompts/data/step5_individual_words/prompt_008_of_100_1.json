@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂຶ້ນ",
+  "definitions": {
+    "de": "Aufwärts bewegen; nach oben gehen; eine Richtungsergänzung, die Aufwärtsbewegung oder Zunahme anzeigt",
+    "en": "To go up; to rise; a directional complement indicating upward movement or increase",
+    "es": "Subir; ir hacia arriba; complemento direccional que indica movimiento ascendente o aumento",
+    "fr": "Monter; aller vers le haut; complément directionnel indiquant un mouvement vers le haut ou une augmentation",
+    "hi": "ऊपर जाना; चढ़ना; एक दिशात्मक पूरक जो ऊपर की ओर गति या वृद्धि दर्शाता है",
+    "ja": "上がる；上昇する；上方への動きや増加を示す方向補語",
+    "km": "ឡើង; ទៅខាងលើ; ឧបសគ្គទិសដៅដែលបង្ហាញពីចលនាទៅលើ ឬការកើនឡើង",
+    "ko": "올라가다; 위로 움직이다; 위쪽 방향의 움직임이나 증가를 나타내는 방향 보어",
+    "ne": "माथि जानु; उक्लनु; माथितर्फको गति वा वृद्धि जनाउने दिशात्मक पूरक",
+    "pt": "Subir; ir para cima; complemento direcional que indica movimento ascendente ou aumento",
+    "th": "ขึ้น; เคลื่อนที่ไปข้างบน; คำบอกทิศทางที่แสดงการเคลื่อนที่ขึ้นหรือการเพิ่มขึ้น",
+    "tl": "Umakyat; pumunta sa itaas; pandireksyong pandagdag na nagpapahiwatig ng galaw pataas o pagtaas",
+    "ur": "اوپر جانا؛ چڑھنا؛ ایک سمتی لاحقہ جو اوپر کی طرف حرکت یا اضافہ ظاہر کرتا ہے",
+    "vi": "Đi lên; leo lên; bổ ngữ hướng chỉ sự chuyển động lên trên hoặc sự tăng lên",
+    "zh": "上去；向上移动；表示向上运动或增加的方向补语",
+    "zh_Hant": "上去；向上移動；表示向上運動或增加的方向補語"
+  },
+  "definition_en": "To go up; to rise; a directional complement indicating upward movement or increase",
+  "romanization": "kʰɯ̂n",
+  "lao_examples": [
+    {
+      "lao_script": "ລາຄາຂຶ້ນຫຼາຍເລີຍ",
+      "romanization": "laa-khaa kʰɯ̂n laaj ləəj",
+      "translation_en": "The prices have gone up a lot."
+    },
+    {
+      "lao_script": "ຂຶ້ນລົດໄຟໄດ້ແລ້ວ",
+      "romanization": "kʰɯ̂n lot-faj daaj lɛɛw",
+      "translation_en": "You can board the train now."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking up a staircase or a rising arrow pointing upward, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

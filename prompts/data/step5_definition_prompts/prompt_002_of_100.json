@@ -1,0 +1,367 @@
+{
+  "ມີ": {
+    "definitions": {
+      "de": "haben; es gibt (existieren/besitzen)",
+      "en": "to have; there is/are (possess or exist)",
+      "es": "tener; haber (poseer o existir)",
+      "fr": "avoir; il y a (posséder ou exister)",
+      "hi": "होना; पास होना (स्वामित्व या अस्तित्व)",
+      "ja": "持っている／ある／いる（所有・存在）",
+      "km": "មាន (កាន់កាប់ ឬ មានវត្តមាន)",
+      "ko": "있다／가지다 (소유 또는 존재)",
+      "ne": "हुनु／सँग हुनु (स्वामित्व वा अस्तित्व)",
+      "pt": "ter; haver (possuir ou existir)",
+      "th": "มี (ครอบครอง หรือ มีอยู่)",
+      "tl": "mayroon／may (pagmamay-ari o pag-iral)",
+      "ur": "رکھنا؛ ہونا (ملکیت یا وجود)",
+      "vi": "có (sở hữu hoặc tồn tại)",
+      "zh": "有／存在（拥有或存在）",
+      "zh_Hant": "有／存在（擁有或存在）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "míː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ມີ ເງິນ ໜ້ອຍ",
+        "romanization": "kʰɔ̂ːj míː ŋə́n nɔ̂j",
+        "translations": {
+          "de": "Ich habe wenig Geld.",
+          "en": "I have little money.",
+          "es": "Tengo poco dinero.",
+          "fr": "J'ai peu d'argent.",
+          "hi": "मेरे पास थोड़े पैसे हैं।",
+          "ja": "私はお金が少しあります。",
+          "km": "ខ្ញុំមានលុយតិច។",
+          "ko": "저는 돈이 조금 있어요.",
+          "ne": "मसँग थोरै पैसा छ।",
+          "pt": "Tenho pouco dinheiro.",
+          "th": "ฉันมีเงินน้อย",
+          "tl": "Kaunti lang ang pera ko.",
+          "ur": "میرے پاس تھوڑے پیسے ہیں۔",
+          "vi": "Tôi có ít tiền.",
+          "zh": "我有一点钱。",
+          "zh_Hant": "我有一點錢。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ມີ ຄົນ ຢູ່ ບ້ານ ບໍ?",
+        "romanization": "míː kʰón jūː bâːn bɔ̀ː",
+        "translations": {
+          "de": "Ist jemand zu Hause?",
+          "en": "Is anyone at home?",
+          "es": "¿Hay alguien en casa?",
+          "fr": "Y a-t-il quelqu'un à la maison ?",
+          "hi": "क्या घर में कोई है?",
+          "ja": "家に誰かいますか？",
+          "km": "មានអ្នកណានៅផ្ទះទេ?",
+          "ko": "집에 누가 있어요?",
+          "ne": "घरमा कोही छ?",
+          "pt": "Tem alguém em casa?",
+          "th": "มีคนอยู่บ้านไหม?",
+          "tl": "May tao ba sa bahay?",
+          "ur": "کیا گھر میں کوئی ہے؟",
+          "vi": "Có ai ở nhà không?",
+          "zh": "家里有人吗？",
+          "zh_Hant": "家裡有人嗎？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two open hands holding a small red heart and coins, representing possession or existence, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂອງ": {
+    "definitions": {
+      "de": "von; gehörend zu; Ding/Sache (Besitzmarker oder Substantiv für 'Ding')",
+      "en": "of; belonging to; thing/item (possessive marker or noun meaning 'thing')",
+      "es": "de; perteneciente a; cosa (marcador posesivo o sustantivo 'cosa')",
+      "fr": "de; appartenant à; chose (marqueur possessif ou nom 'chose')",
+      "hi": "का/की/के; चीज़ (संबंधकारक चिह्न या संज्ञा 'वस्तु')",
+      "ja": "〜の／もの（所有を示す助詞・「物」を表す名詞）",
+      "km": "របស់／វត្ថុ (បុព្វបទបញ្ជាក់ភាពជាម្ចាស់ ឬនាមសំដៅលើវត្ថុ)",
+      "ko": "~의／물건／것 (소유격 표지 또는 '물건' 명사)",
+      "ne": "को／वस्तु (स्वामित्व जनाउने वा वस्तु अर्थको नाम)",
+      "pt": "de; pertencente a; coisa (marcador possessivo ou substantivo 'coisa')",
+      "th": "ของ (คำบอกความเป็นเจ้าของ หรือคำนามหมายถึงสิ่งของ)",
+      "tl": "ng／gamit／bagay (pambatay ng pagmamay-ari o pangngalang 'bagay')",
+      "ur": "کا／کی／کے؛ چیز (ملکیتی علامت یا اسم 'چیز')",
+      "vi": "của; đồ vật (dấu hiệu sở hữu hoặc danh từ 'đồ/vật')",
+      "zh": "的／东西（表示所属的助词，或意为'物品'的名词）",
+      "zh_Hant": "的／東西（表示所屬的助詞，或意為「物品」的名詞）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "kʰɔ̌ːŋ",
+    "examples": [
+      {
+        "lao_script": "ນີ້ ແມ່ນ ຫນັງສື ຂອງ ຂ້ອຍ",
+        "romanization": "nîː mɛ̄n nǎŋ.sɯ̌ː kʰɔ̌ːŋ kʰɔ̂ːj",
+        "translations": {
+          "de": "Das ist mein Buch.",
+          "en": "This is my book.",
+          "es": "Este es mi libro.",
+          "fr": "C'est mon livre.",
+          "hi": "यह मेरी किताब है।",
+          "ja": "これは私の本です。",
+          "km": "នេះគឺជាសៀវភៅរបស់ខ្ញុំ។",
+          "ko": "이것은 제 책이에요.",
+          "ne": "यो मेरो किताब हो।",
+          "pt": "Este é o meu livro.",
+          "th": "นี่คือหนังสือของฉัน",
+          "tl": "Ito ang libro ko.",
+          "ur": "یہ میری کتاب ہے۔",
+          "vi": "Đây là sách của tôi.",
+          "zh": "这是我的书。",
+          "zh_Hant": "這是我的書。"
+        },
+        "out_of_scope_words": ["ຫນັງສື", "ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ຂອງ ນີ້ ລາຄາ ເທົ່າ ໃດ?",
+        "romanization": "kʰɔ̌ːŋ nîː láː.kʰáː tʰāw dàj",
+        "translations": {
+          "de": "Wie viel kostet dieses Ding?",
+          "en": "How much does this thing cost?",
+          "es": "¿Cuánto cuesta esta cosa?",
+          "fr": "Combien coûte cette chose ?",
+          "hi": "यह चीज़ कितने की है?",
+          "ja": "これはいくらですか？",
+          "km": "វត្ថុនេះតម្លៃប៉ុន្មាន?",
+          "ko": "이 물건은 얼마예요?",
+          "ne": "यो वस्तु कति पर्छ?",
+          "pt": "Quanto custa esta coisa?",
+          "th": "ของนี้ราคาเท่าไร?",
+          "tl": "Magkano ang bagay na ito?",
+          "ur": "یہ چیز کتنے کی ہے؟",
+          "vi": "Cái này giá bao nhiêu?",
+          "zh": "这个多少钱？",
+          "zh_Hant": "這個多少錢？"
+        },
+        "out_of_scope_words": ["ລາຄາ", "ເທົ່າ", "ໃດ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a gift box with a label showing a small arrow from one person to another, representing possession, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເປັນ": {
+    "definitions": {
+      "de": "sein (Kopula); werden; können (eine Fähigkeit haben)",
+      "en": "to be (copula); to become; to be able/to know how",
+      "es": "ser/estar (cópula); volverse; saber cómo/poder",
+      "fr": "être (copule); devenir; savoir/pouvoir",
+      "hi": "होना (संयोजक क्रिया); बनना; जानना/सक्षम होना",
+      "ja": "〜である／〜になる／〜できる（連結動詞・変化・能力）",
+      "km": "ជា／ក្លាយជា／ចេះ (កិរិយាសព្ទភ្ជាប់ ឬបង្ហាញសមត្ថភាព)",
+      "ko": "~이다／되다／할 줄 알다 (계사·변화·능력)",
+      "ne": "हुनु／बन्नु／जान्नु (संयोजक क्रिया, परिवर्तन वा क्षमता)",
+      "pt": "ser/estar (verbo de ligação); tornar-se; saber/ser capaz de",
+      "th": "เป็น (กริยาเชื่อม; กลายเป็น; ทำเป็น/สามารถ)",
+      "tl": "maging／naging／marunong (pandiwang pantambalan o kakayahan)",
+      "ur": "ہونا؛ بننا؛ جاننا (ربطی فعل، تبدیلی یا صلاحیت)",
+      "vi": "là; trở thành; biết (hệ từ, biến chuyển hoặc khả năng)",
+      "zh": "是／成为／会（系动词、变化或能力）",
+      "zh_Hant": "是／成為／會（系動詞、變化或能力）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "pēn",
+    "examples": [
+      {
+        "lao_script": "ລາວ ເປັນ ຄົນ ດີ",
+        "romanization": "láːw pēn kʰón dìː",
+        "translations": {
+          "de": "Er/Sie ist ein guter Mensch.",
+          "en": "He/She is a good person.",
+          "es": "Él/Ella es una buena persona.",
+          "fr": "Il/Elle est une bonne personne.",
+          "hi": "वह एक अच्छा इंसान है।",
+          "ja": "彼／彼女は良い人です。",
+          "km": "គាត់ជាមនុស្សល្អ។",
+          "ko": "그/그녀는 좋은 사람이에요.",
+          "ne": "उहाँ राम्रो मानिस हुनुहुन्छ।",
+          "pt": "Ele/Ela é uma boa pessoa.",
+          "th": "เขาเป็นคนดี",
+          "tl": "Mabuting tao siya.",
+          "ur": "وہ اچھا انسان ہے۔",
+          "vi": "Anh/chị ấy là người tốt.",
+          "zh": "他/她是好人。",
+          "zh_Hant": "他/她是好人。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍ ເປັນ ຫວັດ",
+        "romanization": "kʰɔ̂ːj pēn wát",
+        "translations": {
+          "de": "Ich bin erkältet.",
+          "en": "I have a cold.",
+          "es": "Estoy resfriado.",
+          "fr": "J'ai un rhume.",
+          "hi": "मुझे ज़ुकाम हुआ है।",
+          "ja": "風邪をひいています。",
+          "km": "ខ្ញុំផ្តាសាយ។",
+          "ko": "저 감기에 걸렸어요.",
+          "ne": "मलाई रुघा लागेको छ।",
+          "pt": "Estou resfriado.",
+          "th": "ฉันเป็นหวัด",
+          "tl": "May sipon ako.",
+          "ur": "مجھے زکام ہوا ہے۔",
+          "vi": "Tôi bị cảm.",
+          "zh": "我感冒了。",
+          "zh_Hant": "我感冒了。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing next to an equals sign connected to an identity label or role tag, representing 'to be', suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວັນທີ": {
+    "definitions": {
+      "de": "Datum (Kalendertag)",
+      "en": "date (calendar day)",
+      "es": "fecha (día del calendario)",
+      "fr": "date (jour du calendrier)",
+      "hi": "तारीख़ (दिनांक)",
+      "ja": "日付（暦の日）",
+      "km": "កាលបរិច្ឆេទ (ថ្ងៃតាមប្រតិទិន)",
+      "ko": "날짜 (달력상의 날)",
+      "ne": "मिति (पात्रोको दिन)",
+      "pt": "data (dia do calendário)",
+      "th": "วันที่ (วันตามปฏิทิน)",
+      "tl": "petsa (araw sa kalendaryo)",
+      "ur": "تاریخ (کیلنڈر کا دن)",
+      "vi": "ngày (ngày theo lịch)",
+      "zh": "日期（日历上的日子）",
+      "zh_Hant": "日期（日曆上的日子）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "wán.tʰíː",
+    "examples": [
+      {
+        "lao_script": "ວັນທີ ນີ້ ແມ່ນ ວັນ ເກີດ ຂອງ ລາວ",
+        "romanization": "wán.tʰíː nîː mɛ̄n wán kə̀ːt kʰɔ̌ːŋ láːw",
+        "translations": {
+          "de": "Dieses Datum ist sein/ihr Geburtstag.",
+          "en": "This date is his/her birthday.",
+          "es": "Esta fecha es su cumpleaños.",
+          "fr": "Cette date est son anniversaire.",
+          "hi": "यह तारीख़ उसका जन्मदिन है।",
+          "ja": "この日付は彼／彼女の誕生日です。",
+          "km": "កាលបរិច្ឆេទនេះគឺថ្ងៃកំណើតរបស់គាត់។",
+          "ko": "이 날짜는 그/그녀의 생일이에요.",
+          "ne": "यो मिति उहाँको जन्मदिन हो।",
+          "pt": "Esta data é o aniversário dele/dela.",
+          "th": "วันที่นี้เป็นวันเกิดของเขา",
+          "tl": "Ang petsang ito ang kaarawan niya.",
+          "ur": "یہ تاریخ اس کی سالگرہ ہے۔",
+          "vi": "Ngày này là sinh nhật của anh/chị ấy.",
+          "zh": "这个日期是他/她的生日。",
+          "zh_Hant": "這個日期是他/她的生日。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ວັນທີ ໃດ ເຈົ້າ ຈະ ມາ?",
+        "romanization": "wán.tʰíː dàj càw càʔ máː",
+        "translations": {
+          "de": "An welchem Datum kommst du?",
+          "en": "What date will you come?",
+          "es": "¿Qué fecha vas a venir?",
+          "fr": "À quelle date viens-tu ?",
+          "hi": "तुम किस तारीख़ को आओगे?",
+          "ja": "何日に来ますか？",
+          "km": "ថ្ងៃទីប៉ុន្មានអ្នកនឹងមក?",
+          "ko": "며칠에 올 거예요?",
+          "ne": "तिमी कुन मितिमा आउँछौ?",
+          "pt": "Em que data você vem?",
+          "th": "วันที่ไหนเธอจะมา?",
+          "tl": "Anong petsa ka pupunta?",
+          "ur": "تم کس تاریخ کو آؤ گے؟",
+          "vi": "Bạn sẽ đến ngày nào?",
+          "zh": "你几号来？",
+          "zh_Hant": "你幾號來？"
+        },
+        "out_of_scope_words": ["ໃດ", "ເຈົ້າ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a wall calendar page with a circled date and a small pencil pointing at it, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເວລາ": {
+    "definitions": {
+      "de": "Zeit; Zeitpunkt; Gelegenheit (auch 'wenn/als' im Satzanfang)",
+      "en": "time; moment; occasion (also 'when' at the start of a clause)",
+      "es": "tiempo; momento; ocasión (también 'cuando' al inicio de oración)",
+      "fr": "temps; moment; occasion (aussi 'quand' en début de phrase)",
+      "hi": "समय; क्षण; अवसर (वाक्य की शुरुआत में 'जब')",
+      "ja": "時間／時／〜するとき（名詞および時の接続)",
+      "km": "ពេលវេលា／ពេល (នាមបង្ហាញពេល ឬឈ្នាប់ 'ពេលដែល')",
+      "ne": "समय／बेला／जब (समय वा अवसर जनाउने)",
+      "pt": "tempo; momento; ocasião (também 'quando' no início de oração)",
+      "th": "เวลา (ช่วงเวลา, โอกาส หรือคำเชื่อม 'เมื่อ')",
+      "ko": "시간／~할 때 (명사 또는 시간 부사)",
+      "tl": "oras／panahon／kapag (oras o okasyon)",
+      "ur": "وقت؛ لمحہ؛ جب (وقت یا موقع)",
+      "vi": "thời gian; lúc; khi (danh từ thời gian hoặc 'khi')",
+      "zh": "时间／时候（时间、时刻或'当……时'）",
+      "zh_Hant": "時間／時候（時間、時刻或「當……時」）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "wéː.láː",
+    "examples": [
+      {
+        "lao_script": "ເວລາ ນີ້ ຂ້ອຍ ບໍ່ ວ່າງ",
+        "romanization": "wéː.láː nîː kʰɔ̂ːj bɔ̀ː wāːŋ",
+        "translations": {
+          "de": "Im Moment habe ich keine Zeit.",
+          "en": "Right now I'm not free.",
+          "es": "En este momento no tengo tiempo.",
+          "fr": "En ce moment, je ne suis pas libre.",
+          "hi": "इस समय मैं खाली नहीं हूँ।",
+          "ja": "今は忙しいです。",
+          "km": "ពេលនេះខ្ញុំមិនទំនេរទេ។",
+          "ko": "지금은 시간이 없어요.",
+          "ne": "अहिले म फुर्सद छैन।",
+          "pt": "Agora não estou livre.",
+          "th": "เวลานี้ฉันไม่ว่าง",
+          "tl": "Wala akong oras ngayon.",
+          "ur": "اس وقت میں فارغ نہیں ہوں۔",
+          "vi": "Lúc này tôi không rảnh.",
+          "zh": "现在我没空。",
+          "zh_Hant": "現在我沒空。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ວ່າງ"]
+      },
+      {
+        "lao_script": "ເວລາ ກິນ ເຂົ້າ ມາ ແລ້ວ",
+        "romanization": "wéː.láː kìn kʰȁw máː lɛ̂ːw",
+        "translations": {
+          "de": "Es ist Zeit zum Essen.",
+          "en": "It's time to eat.",
+          "es": "Es hora de comer.",
+          "fr": "C'est l'heure de manger.",
+          "hi": "खाना खाने का समय हो गया है।",
+          "ja": "ご飯の時間になりました。",
+          "km": "ដល់ពេលញ៉ាំបាយហើយ។",
+          "ko": "식사할 시간이에요.",
+          "ne": "खाना खाने समय भयो।",
+          "pt": "É hora de comer.",
+          "th": "ถึงเวลากินข้าวแล้ว",
+          "tl": "Oras na para kumain.",
+          "ur": "کھانے کا وقت ہو گیا ہے۔",
+          "vi": "Đến giờ ăn rồi.",
+          "zh": "吃饭的时间到了。",
+          "zh_Hant": "吃飯的時間到了。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a round analog clock with large clear hands, suitable for a language learning app, clean white background, minimalist cartoon style, bright colors.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

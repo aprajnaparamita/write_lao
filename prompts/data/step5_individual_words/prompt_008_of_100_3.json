@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເພື່ອ",
+  "definitions": {
+    "de": "Für; um zu; eine Präposition oder Konjunktion, die Zweck oder Absicht ausdrückt",
+    "en": "For; in order to; a preposition or conjunction expressing purpose or intention",
+    "es": "Para; a fin de; preposición o conjunción que expresa propósito o intención",
+    "fr": "Pour; afin de; préposition ou conjonction exprimant un but ou une intention",
+    "hi": "के लिए; ताकि; एक पूर्वसर्ग या संयोजन जो उद्देश्य या इरादा व्यक्त करता है",
+    "ja": "〜のために；〜するために；目的や意図を表す前置詞または接続詞",
+    "km": "ដើម្បី; សម្រាប់; 介詞 ឬ接続詞 ដែលបង្ហាញពីគោលបំណង ឬចេតនា",
+    "ko": "~을 위해; ~하기 위해; 목적이나 의도를 나타내는 전치사 또는 접속사",
+    "ne": "को लागि; गर्न; उद्देश्य वा इरादा व्यक्त गर्ने पूर्वसर्ग वा संयोजन",
+    "pt": "Para; a fim de; preposição ou conjunção que expressa propósito ou intenção",
+    "th": "เพื่อ; เพื่อที่จะ; คำบุพบทหรือสันธานที่แสดงจุดประสงค์หรือความตั้งใจ",
+    "tl": "Para; upang; prepusisyon o pangatnig na nagpapahayag ng layunin o intensyon",
+    "ur": "کے لیے؛ تاکہ؛ ایک حرف جار یا接続詞 جو مقصد یا ارادہ ظاہر کرتا ہے",
+    "vi": "Để; vì; giới từ hoặc liên từ biểu đạt mục đích hoặc ý định",
+    "zh": "为了；以便；表达目的或意图的介词或连词",
+    "zh_Hant": "為了；以便；表達目的或意圖的介詞或連詞"
+  },
+  "definition_en": "For; in order to; a preposition or conjunction expressing purpose or intention",
+  "romanization": "pʰɯ̂a",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຮຽນໜັກ ເພື່ອຈະໄດ້ວຽກດີ",
+      "romanization": "kʰɔ̂j hian nàk pʰɯ̂a tɕa daaj wiak dii",
+      "translation_en": "I study hard in order to get a good job."
+    },
+    {
+      "lao_script": "ເຮົາຕ້ອງປະຢັດເງິນ ເພື່ອຊື້ເຮືອນ",
+      "romanization": "haw tɔ̂ng pa-jàt ŋən pʰɯ̂a sɯ̂ː hɯan",
+      "translation_en": "We need to save money in order to buy a house."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a goal or target (like a trophy or a house) connected by an arrow to an action (like a person studying or working), representing purpose, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

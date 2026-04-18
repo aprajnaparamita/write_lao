@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວ່າ",
+  "definitions": {
+    "de": "dass (Komplementierer, der indirekte Rede oder Gedanken einleitet); sagen",
+    "en": "that (complementizer introducing reported speech/thought); to say",
+    "es": "que (completivo que introduce discurso indirecto); decir",
+    "fr": "que (complémenteur introduisant le discours indirect); dire",
+    "hi": "कि (पूरक योजक, अप्रत्यक्ष कथन); कहना",
+    "ja": "〜と（発言・思考を導く補文標識）／言う",
+    "km": "ថា (ឈ្នាប់បង្ហាញកថាបណ្តោយ ឬមតិ)",
+    "ko": "~라고／말하다 (인용 보문소, 말하다)",
+    "ne": "भनेर／भन्ने (उद्धरण जनाउने वा भन्नु)",
+    "pt": "que (completivo que introduz discurso indireto); dizer",
+    "th": "ว่า (คำเชื่อมบอกเล่าความคิด หรือพูดว่า)",
+    "tl": "na／sabihing (pangatnig para sa sinipi na pananalita)",
+    "ur": "کہ (موصولہ ذرّہ، جس سے بیان یا خیال پیش ہو)",
+    "vi": "rằng; nói (liên từ dẫn lời nói hoặc suy nghĩ)",
+    "zh": "说／认为／称（引导间接引语的标记）",
+    "zh_Hant": "說／認為／稱（引導間接引語的標記）"
+  },
+  "definition_en": "that (complementizer introducing reported speech/thought); to say",
+  "romanization": "wāː",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວ ບອກ ວ່າ ຈະ ມາ",
+      "romanization": "láːw bɔ̀ːk wāː càʔ máː",
+      "translation_en": "He/She said that he/she will come."
+    },
+    {
+      "lao_script": "ຂ້ອຍ ຄິດ ວ່າ ດີ",
+      "romanization": "kʰɔ̂ːj kʰīt wāː dìː",
+      "translation_en": "I think that it's good."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a speech bubble with an arrow pointing from one person's mouth to a thought being reported, suitable for a language learning app, clean white background, minimalist style."
+}

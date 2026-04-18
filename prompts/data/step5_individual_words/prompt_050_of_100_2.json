@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດິນ",
+  "definitions": {
+    "de": "Erde, Boden, Land; bezeichnet die Erdoberfläche, Boden zum Anbau oder Grundstücke",
+    "en": "Earth, soil, or land; refers to the ground, dirt, soil for farming, or a plot of land",
+    "es": "Tierra, suelo o terreno; se refiere al suelo, la tierra para cultivar o un terreno",
+    "fr": "Terre, sol ou terrain; désigne le sol, la terre pour cultiver ou un terrain",
+    "hi": "पृथ्वी, मिट्टी या भूमि; जमीन, खेती के लिए मिट्टी या भूखंड को संदर्भित करता है",
+    "ja": "土、大地、または土地；地面、農耕用の土壌、または土地区画を指す",
+    "km": "ដី ឬដីធ្លី; សំដៅលើផ្ទៃដី ដីសម្រាប់ដាំដុះ ឬដីឡូត៍",
+    "ko": "흙, 토지, 또는 땅; 지면, 농업용 토양 또는 땅을 가리키는 말",
+    "ne": "माटो, जमिन वा भूमि; जमिनको सतह, खेती गर्ने माटो वा जग्गालाई जनाउँछ",
+    "pt": "Terra, solo ou terreno; refere-se ao chão, à terra para cultivo ou a um terreno",
+    "th": "ดิน แผ่นดิน หรือที่ดิน; หมายถึงพื้นดิน ดินสำหรับเพาะปลูก หรือที่ดิน",
+    "tl": "Lupa o lupain; tumutukoy sa lupa, lupang taniman, o isang lagay ng lupa",
+    "ur": "زمین، مٹی یا سرزمین؛ زمین کی سطح، کاشتکاری کی مٹی یا زمین کے ٹکڑے کا حوالہ دیتا ہے",
+    "vi": "Đất, đất đai hoặc mặt đất; chỉ lòng đất, đất trồng trọt hoặc mảnh đất",
+    "zh": "土地、泥土或大地；指地面、农业用土壤或土地",
+    "zh_Hant": "土地、泥土或大地；指地面、農業用土壤或土地"
+  },
+  "definition_en": "Earth, soil, or land; refers to the ground, dirt, soil for farming, or a plot of land",
+  "romanization": "din",
+  "lao_examples": [
+    {
+      "lao_script": "ດິນແຖວນີ້ດີຫຼາຍ ປູກຫຍັງກໍ່ຂຶ້ນ",
+      "romanization": "din tʰɛ̌ːw níː díː lǎːj puːk ɲǎŋ kɔ̂ kʰɯ̂n",
+      "translation_en": "The soil around here is really good — whatever you plant grows."
+    },
+    {
+      "lao_script": "ເດັກນ້ອຍຫຼິ້ນດິນຢູ່ໜ້າເຮືອນ",
+      "romanization": "dék nɔ̂ːj lîn din juː nâː hɯ́an",
+      "translation_en": "The kids are playing in the dirt in front of the house."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a handful of rich brown soil or dirt held in open hands, with a small green plant sprouting from it, clean white background, colorful minimalist style suitable for a language learning app."
+}

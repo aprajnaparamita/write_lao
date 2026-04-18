@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂດ",
+  "definitions": {
+    "de": "Ein Partikel oder Silbenfragment im Laotischen, das oft in zusammengesetzten Wörtern oder als betonender Zusatz vorkommt; hat keinen vollständig eigenständigen Bedeutungsgehalt.",
+    "en": "A syllable fragment or particle in Lao, often appearing in compound words or as an emphatic/filler element; limited standalone meaning.",
+    "es": "Fragmento silábico o partícula en lao que aparece frecuentemente en palabras compuestas o como elemento enfático; uso independiente limitado.",
+    "fr": "Fragment syllabique ou particule en laotien, apparaissant souvent dans des mots composés ou comme élément emphatique; usage autonome limité.",
+    "hi": "लाओ भाषा में एक अक्षर खंड या कण, जो अक्सर यौगिक शब्दों में या जोर देने वाले तत्व के रूप में आता है; स्वतंत्र उपयोग सीमित है।",
+    "ja": "ラオ語における音節断片または助詞で、複合語や強調・補完要素として現れることが多く、単独での意味は限定的。",
+    "km": "បំណែកព្យាង្គ ឬភាគល្អិតក្នុងភាសាឡាវ ដែលច្រើនលេចឡើងក្នុងពាក្យផ្សំ ឬជាធាតុបន្ថែមសំណៀង; ការប្រើប្រាស់ឯករាជ្យមានកម្រិត។",
+    "ko": "라오어에서 복합어나 강조/채움 요소로 자주 나타나는 음절 조각 또는 조사; 독립적인 의미는 제한적입니다.",
+    "ne": "लाओ भाषामा एक अक्षर खण्ड वा कण, जुन प्रायः यौगिक शब्दहरूमा वा जोड दिने तत्वको रूपमा देखिन्छ; स्वतन्त्र प्रयोग सीमित छ।",
+    "pt": "Fragmento silábico ou partícula em laosiano, frequentemente encontrado em palavras compostas ou como elemento enfático; uso independente limitado.",
+    "th": "ชิ้นส่วนพยางค์หรืออนุภาคในภาษาลาว มักปรากฏในคำประสมหรือเป็นองค์ประกอบเสริมความหมาย; การใช้แบบเดี่ยวมีจำกัด",
+    "tl": "Isang piraso ng pantig o partikula sa wikang Lao, madalas na lumalabas sa mga tambalang salita o bilang elementong nagbibigay-diin; limitadong paggamit nang mag-isa.",
+    "ur": "لاؤ زبان میں ایک حرف کا ٹکڑا یا ذرہ، جو اکثر مرکب الفاظ میں یا زور دینے والے عنصر کے طور پر آتا ہے؛ اکیلے استعمال محدود ہے۔",
+    "vi": "Một mảnh âm tiết hoặc tiểu từ trong tiếng Lào, thường xuất hiện trong các từ ghép hoặc làm yếu tố nhấn mạnh; ý nghĩa độc lập hạn chế.",
+    "zh": "老挝语中的一个音节片段或助词，常出现在复合词中或作为强调/填充成分；独立使用时意义有限。",
+    "zh_Hant": "寮語中的一個音節片段或助詞，常出現在複合詞中或作為強調／填充成分；獨立使用時意義有限。"
+  },
+  "definition_en": "A syllable fragment or particle in Lao, often appearing in compound words or as an emphatic/filler element; limited standalone meaning.",
+  "romanization": "doo",
+  "lao_examples": [
+    {
+      "lao_script": "ລອງເບິ່ງໂດ ວ່າມັນເປັນຫຍັງ",
+      "romanization": "long bəəng doo, waa man pen nyang",
+      "translation_en": "Take a look and see what it is."
+    },
+    {
+      "lao_script": "ຊິມໂດ ອາຫານນີ້ວ່າແຊບບໍ",
+      "romanization": "sim doo, aa-haan nii waa saep boo",
+      "translation_en": "Taste this food and see if it's delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a curious person gesturing as if saying 'go ahead and try' or 'take a look', with a friendly expression, clean white background, colorful minimalist style suitable for a language learning app."
+}

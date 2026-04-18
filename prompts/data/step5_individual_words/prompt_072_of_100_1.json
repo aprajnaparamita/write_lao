@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊາບ",
+  "definitions": {
+    "de": "wissen, erfahren, informiert sein (formelle/literarische Form)",
+    "en": "to know, to be informed, to be aware (formal/literary form)",
+    "es": "saber, estar informado, estar al tanto (forma formal/literaria)",
+    "fr": "savoir, être informé, être au courant (forme formelle/littéraire)",
+    "hi": "जानना, सूचित होना, अवगत होना (औपचारिक/साहित्यिक रूप)",
+    "ja": "知る、情報を得る、認識する（フォーマル・文語的）",
+    "km": "ដឹង, ទទួលព័ត៌មាន, ជ្រាប (ទម្រង់ផ្លូវការ/អក្សរសាស្ត្រ)",
+    "ko": "알다, 알게 되다, 인지하다 (격식체/문어체)",
+    "ne": "जान्नु, सूचित हुनु, थाहा हुनु (औपचारिक/साहित्यिक रूप)",
+    "pt": "saber, estar informado, estar ciente (forma formal/literária)",
+    "th": "ทราบ, รับรู้ (รูปแบบทางการ/วรรณกรรม)",
+    "tl": "malaman, maalaman, mabatid (pormal/panitikang anyo)",
+    "ur": "جاننا، باخبر ہونا، آگاہ ہونا (رسمی/ادبی شکل)",
+    "vi": "biết, được thông báo, nhận thức (dạng trang trọng/văn chương)",
+    "zh": "知道、知悉、得知（正式/文雅用法）",
+    "zh_Hant": "知道、知悉、得知（正式/文雅用法）"
+  },
+  "definition_en": "to know, to be informed, to be aware (formal/literary form)",
+  "romanization": "sâːp",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຊາບແລ້ວວ່າເຈົ້າຈະມາ.",
+      "romanization": "khɔ̀ːj sâːp lɛ́ːw vaː tɕâo tɕa máː",
+      "translation_en": "I already know that you will come."
+    },
+    {
+      "lao_script": "ເມື່ອຊາບຂ່າວ, ລາວຮ້ອງໄຫ້.",
+      "romanization": "mɯ̂ːa sâːp khaːw, láːw hɔ̂ːŋ hâj",
+      "translation_en": "When she heard the news, she cried."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a lightbulb above their head, showing a moment of realization or learning news, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

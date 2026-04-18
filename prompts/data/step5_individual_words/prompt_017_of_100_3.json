@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລົງ",
+  "definitions": {
+    "de": "Hinunter, hinabsteigen; eine Bewegung nach unten oder in eine niedrigere Position anzeigen",
+    "en": "To go down, descend, or move downward; used as a directional complement indicating downward motion",
+    "es": "Bajar o descender; se usa como complemento direccional que indica movimiento hacia abajo",
+    "fr": "Descendre ou aller vers le bas ; utilisé comme complément directionnel indiquant un mouvement vers le bas",
+    "hi": "नीचे जाना, उतरना; नीचे की दिशा में गति को दर्शाने वाला दिशात्मक क्रिया-पूरक",
+    "ja": "下へ行く、降りる；下向きの動きを示す方向補語として使われる動詞",
+    "km": "ចុះ ឬចុះក្រោម; ប្រើជាការបំពេញទិសដៅដែលបញ្ជាក់ពីចលនាចុះក្រោម",
+    "ko": "내려가다, 하강하다; 아래 방향의 움직임을 나타내는 방향 보어로 사용되는 동사",
+    "ne": "तल जानु, ओर्लनु; तल्लो दिशामा गतिलाई जनाउने दिशात्मक क्रिया-पूरक",
+    "pt": "Descer ou ir para baixo; usado como complemento direcional indicando movimento para baixo",
+    "th": "ลง; ใช้บอกทิศทางการเคลื่อนที่ลงข้างล่าง",
+    "tl": "Bumaba o lumusong; ginagamit bilang pang-direksyonal na pandagdag na nagpapahiwatig ng paggalaw pababa",
+    "ur": "نیچے جانا یا اترنا؛ نیچے کی سمت حرکت کو ظاہر کرنے والا سمتی فعل",
+    "vi": "Đi xuống, xuống dưới; dùng như bổ ngữ chỉ hướng xuống",
+    "zh": "向下、下降；用作方向补语，表示向下的动作",
+    "zh_Hant": "向下、下降；用作方向補語，表示向下的動作"
+  },
+  "definition_en": "To go down, descend, or move downward; used as a directional complement indicating downward motion",
+  "romanization": "/lóŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ລົງຈາກລົດໄດ້ເລີຍ",
+      "romanization": "long chak lot dai loei",
+      "translation_en": "Get down from the car now."
+    },
+    {
+      "lao_script": "ລາຄາລົງໄປຫຼາຍໃນອາທິດນີ້",
+      "romanization": "la kha long pai lai nai a thit ni",
+      "translation_en": "The price has dropped a lot this week."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person walking down a staircase, with a downward arrow indicating direction, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊຍ",
+  "definitions": {
+    "de": "Eine Ausrufe- oder Füllpartikel im Laotischen, die Bedauern, Resignation oder milde Enttäuschung ausdrückt; kein eigenständiges bedeutungsvolles Wort",
+    "en": "An exclamatory or filler particle in Lao expressing regret, resignation, or mild disappointment; not a standalone meaningful word",
+    "es": "Una partícula exclamativa o de relleno en lao que expresa pesar, resignación o leve decepción; no es una palabra independiente con significado propio",
+    "fr": "Une particule exclamative ou de remplissage en lao exprimant le regret, la résignation ou une légère déception; pas un mot indépendant à part entière",
+    "hi": "लाओ भाषा में एक विस्मयादिबोधक या भराव कण जो खेद, इस्तीफे या हल्की निराशा व्यक्त करता है; स्वतंत्र अर्थपूर्ण शब्द नहीं",
+    "ja": "ラオス語で後悔、あきらめ、または軽い失望を表す感嘆詞や間投詞；単独では意味を持たない語",
+    "km": "ភាគល្អិតឧទ្ទានសំដែងការសោកស្ដាយ ការចុះចាញ់ ឬការខក់ចិត្តតិចតួចក្នុងភាសាឡាវ; មិនមែនជាពាក្យឯករាជ្យ",
+    "ko": "라오어에서 유감, 체념, 또는 가벼운 실망을 나타내는 감탄사 또는 채움말 조사; 독립적인 의미 있는 단어가 아님",
+    "ne": "लाओ भाषामा खेद, राजीनामा वा हल्का निराशा व्यक्त गर्ने एक उद्गारवाचक वा भराउ कण; स्वतन्त्र अर्थपूर्ण शब्द होइन",
+    "pt": "Uma partícula exclamativa ou de preenchimento no lao que expressa arrependimento, resignação ou leve decepção; não é uma palavra independente com significado próprio",
+    "th": "คำอุทานหรือคำเติมในภาษาลาวที่แสดงความเสียใจ การยอมรับ หรือความผิดหวังเล็กน้อย ไม่ใช่คำที่มีความหมายอิสระ",
+    "tl": "Isang exclamatory o filler particle sa Lao na nagpapahayag ng pagsisisi, resignasyon, o bahagyang kabiguan; hindi isang nagsasariling makabuluhang salita",
+    "ur": "لاؤ زبان میں ایک فجائیہ یا فِلر ذرہ جو افسوس، استعفیٰ یا ہلکی مایوسی ظاہر کرتا ہے؛ اپنے طور پر کوئی خود مختار بامعنی لفظ نہیں",
+    "vi": "Một tiểu từ cảm thán hoặc lấp đầy trong tiếng Lào diễn đạt sự hối tiếc, chịu đựng hoặc thất vọng nhẹ; không phải một từ có nghĩa độc lập",
+    "zh": "老挝语中表达遗憾、无奈或轻微失望的感叹词或语气助词；没有独立的实质意义",
+    "zh_Hant": "寮語中表達遺憾、無奈或輕微失望的感嘆詞或語氣助詞；沒有獨立的實質意義"
+  },
+  "definition_en": "An exclamatory or filler particle in Lao expressing regret, resignation, or mild disappointment; not a standalone meaningful word",
+  "romanization": "sɯa¹",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊຍ, ລືມເອົາກະເປົ໋າໄປແລ້ວ",
+      "romanization": "sɯa lɯːm aw kapǎo paj lɛ́ːw",
+      "translation_en": "Oh no, I forgot to bring my bag."
+    },
+    {
+      "lao_script": "ເຊຍ, ຝົນຕົກອີກແລ້ວ",
+      "romanization": "sɯa fǒn tok ʔiːk lɛ́ːw",
+      "translation_en": "Oh no, it's raining again."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon person with a slightly sad or exasperated facial expression, slumped shoulders, with a small rain cloud above them or a forgotten item nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

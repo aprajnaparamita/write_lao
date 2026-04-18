@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປອດ",
+  "definitions": {
+    "de": "sicher; frei von (etwas); ungefährdet; ohne Risiko oder Bedrohung",
+    "en": "safe; free from (something); secure; without risk or danger",
+    "es": "seguro; libre de (algo); sin riesgo ni peligro",
+    "fr": "sûr; libre de (quelque chose); sans risque ni danger",
+    "hi": "सुरक्षित; (किसी चीज़) से मुक्त; बिना खतरे के",
+    "ja": "安全な；（何かから）自由な；危険のない",
+    "km": "សុវត្ថិភាព; គ្មានការបារម្ភ; ផុតពី (អ្វីមួយ)",
+    "ko": "안전한; (어떤 것으로부터) 자유로운; 위험이 없는",
+    "ne": "सुरक्षित; (केहीबाट) मुक्त; खतरा नभएको",
+    "pt": "seguro; livre de (algo); sem risco ou perigo",
+    "th": "ปลอดภัย; ปราศจาก (บางสิ่ง); ไม่มีอันตราย",
+    "tl": "ligtas; malaya mula sa (isang bagay); walang panganib",
+    "ur": "محفوظ؛ (کسی چیز) سے آزاد؛ بے خطر",
+    "vi": "an toàn; thoát khỏi (điều gì đó); không có nguy hiểm",
+    "zh": "安全的；（从某事）解脱；没有危险的",
+    "zh_Hant": "安全的；（從某事）解脫；沒有危險的"
+  },
+  "definition_en": "safe; free from (something); secure; without risk or danger",
+  "romanization": "/pɔːt/",
+  "lao_examples": [
+    {
+      "lao_script": "ຢູ່ເຮືອນຄື້ນ ປອດໄພຂຶ້ນ",
+      "romanization": "yuu huan kuun, pot phai khuen",
+      "translation_en": "Staying home is safer."
+    },
+    {
+      "lao_script": "ດຽວນີ້ປອດຄວັນລົດແລ້ວ ອາກາດດີຂຶ້ນ",
+      "romanization": "diao nii pot khwan lot laeo, aa gaat dii khuen",
+      "translation_en": "Now it's free from vehicle smoke and the air quality has improved."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing inside a green protective shield or bubble with a checkmark, surrounded by calm and clear surroundings symbolizing safety and freedom from danger, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

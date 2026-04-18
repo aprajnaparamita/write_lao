@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຫັນ",
+  "definitions": {
+    "de": "Sehen, erblicken; etwas mit den Augen wahrnehmen",
+    "en": "To see, to perceive visually; to notice or observe something",
+    "es": "Ver, percibir visualmente; notar u observar algo",
+    "fr": "Voir, percevoir visuellement; remarquer ou observer quelque chose",
+    "hi": "देखना, दृष्टि से अनुभव करना; कुछ देखना या नोटिस करना",
+    "ja": "見る、目で認識する；何かを気づいたり観察したりする",
+    "km": "មើលឃើញ, យល់ឃើញតាមភ្នែក; កត់សម្គាល់ ឬសង្កេតមើលអ្វីមួយ",
+    "ko": "보다, 시각적으로 인지하다; 무언가를 눈치채거나 관찰하다",
+    "ne": "देख्नु, दृश्यात्मक रूपमा अनुभव गर्नु; केही लक्ष्य गर्नु वा अवलोकन गर्नु",
+    "pt": "Ver, perceber visualmente; notar ou observar algo",
+    "th": "เห็น, มองเห็น; สังเกตหรือมองเห็นบางสิ่ง",
+    "tl": "Makita, maramdaman nang biswal; mapansin o maobserbahan ang isang bagay",
+    "ur": "دیکھنا، بصری طور پر محسوس کرنا؛ کچھ نوٹ کرنا یا مشاہدہ کرنا",
+    "vi": "Thấy, nhìn thấy; nhận ra hoặc quan sát điều gì đó",
+    "zh": "看见，看到；用眼睛感知或注意到某物",
+    "zh_Hant": "看見，看到；用眼睛感知或注意到某物"
+  },
+  "definition_en": "To see, to perceive visually; to notice or observe something",
+  "romanization": "/héen/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າເຫັນແວ່ນຕາຂອງຂ້ອຍບໍ່ ຫາບໍ່ເຈີ",
+      "romanization": "jao hen waan taa khong khoi boo, haa boo jooe",
+      "translation_en": "Have you seen my glasses? I can't find them"
+    },
+    {
+      "lao_script": "ເຫັນຮູບນັ້ນຍັງ ສວຍຫຼາຍເລີຍ",
+      "romanization": "hen hoop nan yang, suay laai loei",
+      "translation_en": "Did you see that picture? It's really beautiful"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with wide open eyes looking at and noticing a bright glowing object in front of them, rays of light indicating vision, clean white background, colorful minimalist style suitable for a language learning app."
+}

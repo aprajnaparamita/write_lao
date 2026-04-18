@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊູ",
+  "definitions": {
+    "de": "Heben; hochheben; etwas nach oben tragen oder heben",
+    "en": "To raise; to lift; to carry or hold something up high",
+    "es": "Levantar; alzar; elevar algo hacia arriba",
+    "fr": "Lever ; soulever ; élever quelque chose vers le haut",
+    "hi": "उठाना; ऊपर उठाना; किसी चीज़ को ऊंचा करना",
+    "ja": "持ち上げる；上げる；何かを高く掲げる",
+    "km": "លើក; លើកឡើង; ការលើកអ្វីមួយឱ្យខ្ពស់",
+    "ko": "들다; 올리다; 무언가를 높이 들어 올리다",
+    "ne": "उठाउनु; माथि उठाउनु; केही तल्लो ठाउँबाट माथि लैजानु",
+    "pt": "Levantar; erguer; carregar ou segurar algo para cima",
+    "th": "ยก; ชู; ยกสิ่งของขึ้นสูง",
+    "tl": "Itaas; iangat; buhatin ang isang bagay pataas",
+    "ur": "اٹھانا؛ بلند کرنا؛ کچھ اوپر اٹھانا",
+    "vi": "Giơ lên; nâng lên; đưa thứ gì đó lên cao",
+    "zh": "举起；抬高；将某物向上举",
+    "zh_Hant": "舉起；抬高；將某物向上舉"
+  },
+  "definition_en": "To raise; to lift; to carry or hold something up high",
+  "romanization": "/sûu/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊູມືຂຶ້ນຖ້າຮູ້ຄຳຕອບ",
+      "romanization": "sûu mɯɯ khɯ̂n thâa húu kham tɔ̀ɔp",
+      "translation_en": "Raise your hand if you know the answer."
+    },
+    {
+      "lao_script": "ຢ່າຊູຂອງໜັກຄົນດຽວ",
+      "romanization": "jàa sûu khɔ̌ɔng nàk khon diaw",
+      "translation_en": "Don't lift heavy things by yourself."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person lifting or raising a box above their head with both arms, showing the action of lifting, clean white background, colorful minimalist style suitable for a language learning app."
+}

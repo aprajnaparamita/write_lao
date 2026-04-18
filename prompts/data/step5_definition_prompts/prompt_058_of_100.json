@@ -1,0 +1,389 @@
+{
+  "ຄົ້ນ": {
+    "definitions": {
+      "de": "Suchen; recherchieren; etwas durch Nachforschung herausfinden",
+      "en": "To search; to look for; to research or investigate something",
+      "es": "Buscar; investigar; indagar algo con esfuerzo",
+      "fr": "Chercher; rechercher; fouiller pour trouver quelque chose",
+      "hi": "खोजना; तलाश करना; किसी चीज़ की जाँच-पड़ताल करना",
+      "ja": "探す；調べる；研究・調査する",
+      "km": "ស្វែងរក; ស្រាវជ្រាវ; ពិនិត្យរកព័ត៌មាន",
+      "ko": "찾다; 탐색하다; 조사하거나 연구하다",
+      "ne": "खोज्नु; अनुसन्धान गर्नु; कुनै कुरा पत्ता लगाउनु",
+      "pt": "Pesquisar; procurar; investigar algo com esforço",
+      "th": "ค้นหา; สืบค้น; ค้นคว้าหาข้อมูล",
+      "tl": "Maghanap; mag-imbestiga; maghanapng impormasyon",
+      "ur": "تلاش کرنا؛ کھوجنا؛ کسی چیز کی تحقیق کرنا",
+      "vi": "Tìm kiếm; tra cứu; nghiên cứu hoặc điều tra điều gì đó",
+      "zh": "搜索；查找；研究或调查某事",
+      "zh_Hant": "搜索；查找；研究或調查某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰon˥/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຄົ້ນຫາຂໍ້ມູນໃນອິນເຕີເນັດໄດ້ເລີຍ",
+        "romanization": "jao khon haa khaw muun nai in-tee-net dai loei",
+        "translations": {
+          "de": "Du kannst einfach im Internet nach Informationen suchen.",
+          "en": "You can just search for information on the internet.",
+          "es": "Puedes buscar información en internet directamente.",
+          "fr": "Tu peux simplement chercher des informations sur Internet.",
+          "hi": "तुम इंटरनेट पर जानकारी खोज सकते हो।",
+          "ja": "インターネットで情報を調べればいいよ。",
+          "km": "អ្នកអាចស្វែងរកព័ត៌មាននៅលើអ៊ីនធឺណិតបានទេ។",
+          "ko": "인터넷에서 정보를 바로 검색하면 돼.",
+          "ne": "तपाईं इन्टरनेटमा जानकारी खोज्न सक्नुहुन्छ।",
+          "pt": "Você pode pesquisar informações na internet diretamente.",
+          "th": "แกค้นหาข้อมูลในอินเทอร์เน็ตได้เลยนะ",
+          "tl": "Maaari kang maghanap ng impormasyon sa internet.",
+          "ur": "تم انٹرنیٹ پر معلومات تلاش کر سکتے ہو۔",
+          "vi": "Bạn có thể tìm kiếm thông tin trên mạng internet luôn đó.",
+          "zh": "你直接在网上搜索信息就行了。",
+          "zh_Hant": "你直接在網路上搜尋資訊就行了。"
+        },
+        "out_of_scope_words": [
+          "ຂໍ້ມູນ",
+          "ອິນເຕີເນັດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຄົ້ນຫາຄຳສັບໃໝ່ທຸກວັນ",
+        "romanization": "khoi khon haa kham sap mai thuk wan",
+        "translations": {
+          "de": "Ich suche jeden Tag nach neuen Wörtern.",
+          "en": "I search for new words every day.",
+          "es": "Busco palabras nuevas todos los días.",
+          "fr": "Je cherche de nouveaux mots tous les jours.",
+          "hi": "मैं हर दिन नए शब्द खोजता हूँ।",
+          "ja": "毎日新しい単語を調べているよ。",
+          "km": "ខ្ញុំស្វែងរកពាក្យថ្មីៗរៀងរាល់ថ្ងៃ។",
+          "ko": "나는 매일 새로운 단어를 찾아봐.",
+          "ne": "म हरेक दिन नयाँ शब्द खोज्छु।",
+          "pt": "Eu pesquiso palavras novas todos os dias.",
+          "th": "ฉันค้นหาคำศัพท์ใหม่ๆ ทุกวัน",
+          "tl": "Naghahanap ako ng mga bagong salita araw-araw.",
+          "ur": "میں ہر روز نئے الفاظ تلاش کرتا ہوں۔",
+          "vi": "Tôi tìm kiếm từ mới mỗi ngày.",
+          "zh": "我每天都搜索新单词。",
+          "zh_Hant": "我每天都搜尋新單詞。"
+        },
+        "out_of_scope_words": [
+          "ຄຳສັບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting at a desk using a laptop or smartphone to search online, with a magnifying glass icon on the screen, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄໍ": {
+    "definitions": {
+      "de": "Hals; der Teil des Körpers zwischen Kopf und Schultern",
+      "en": "Neck; the part of the body connecting the head to the shoulders",
+      "es": "Cuello; la parte del cuerpo que conecta la cabeza con los hombros",
+      "fr": "Cou; la partie du corps reliant la tête aux épaules",
+      "hi": "गर्दन; शरीर का वह भाग जो सिर को कंधों से जोड़ता है",
+      "ja": "首；頭と肩をつなぐ体の部位",
+      "km": "ក; ផ្នែករបស់រាងកាយដែលភ្ជាប់ក្បាលទៅvai",
+      "ko": "목; 머리와 어깨를 연결하는 신체 부위",
+      "ne": "घाँटी; टाउको र काँध जोड्ने शरीरको भाग",
+      "pt": "Pescoço; a parte do corpo que conecta a cabeça aos ombros",
+      "th": "คอ; ส่วนของร่างกายที่เชื่อมระหว่างหัวและไหล่",
+      "tl": "Leeg; ang bahagi ng katawan na nag-uugnay ng ulo at balikat",
+      "ur": "گردن؛ جسم کا وہ حصہ جو سر کو کندھوں سے جوڑتا ہے",
+      "vi": "Cổ; phần cơ thể nối đầu với vai",
+      "zh": "脖子；连接头部和肩膀的身体部位",
+      "zh_Hant": "脖子；連接頭部和肩膀的身體部位"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kʰo˧/",
+    "examples": [
+      {
+        "lao_script": "ຄໍຂ້ອຍເຈັບຫຼາຍເລີຍ",
+        "romanization": "kho khoi jep laai loei",
+        "translations": {
+          "de": "Mein Hals tut sehr weh.",
+          "en": "My neck really hurts.",
+          "es": "Me duele mucho el cuello.",
+          "fr": "J'ai très mal au cou.",
+          "hi": "मेरी गर्दन बहुत दर्द कर रही है।",
+          "ja": "首がすごく痛いんだよ。",
+          "km": "ក​របស់​ខ្ញុំ​ឈឺ​ណាស់​ហើយ។",
+          "ko": "목이 너무 아파.",
+          "ne": "मेरो घाँटी धेरै दुखेको छ।",
+          "pt": "Meu pescoço está doendo muito.",
+          "th": "คอฉันเจ็บมากเลย",
+          "tl": "Ang sakit na sakit ng leeg ko.",
+          "ur": "میری گردن بہت درد کر رہی ہے۔",
+          "vi": "Cổ tôi đau lắm luôn.",
+          "zh": "我的脖子好痛啊。",
+          "zh_Hant": "我的脖子好痛啊。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າໃສ່ສ້ອຍຄໍສວຍຈັງ",
+        "romanization": "jao sai soi kho suai jang",
+        "translations": {
+          "de": "Du trägst eine so schöne Halskette.",
+          "en": "You're wearing such a pretty necklace.",
+          "es": "Llevas un collar muy bonito.",
+          "fr": "Tu portes un si joli collier.",
+          "hi": "तुमने बहुत सुंदर हार पहना है।",
+          "ja": "素敵なネックレスをしてるね。",
+          "km": "អ្នក​ពាក់​គ្រឿង​អលង្ការ​ក​ស្អាត​ណាស់។",
+          "ko": "목걸이 정말 예쁘다.",
+          "ne": "तिमीले धेरै सुन्दर हार लगाएको छ।",
+          "pt": "Você está usando um colar tão bonito.",
+          "th": "แกใส่สร้อยคอสวยมากเลย",
+          "tl": "Ang ganda ng kuwintas mo.",
+          "ur": "تم نے بہت خوبصورت ہار پہنا ہے۔",
+          "vi": "Bạn đeo dây chuyền đẹp quá.",
+          "zh": "你戴的项链真好看。",
+          "zh_Hant": "你戴的項鍊真好看。"
+        },
+        "out_of_scope_words": [
+          "ສ້ອຍຄໍ",
+          "ສວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a human body outline with the neck area highlighted and labeled, showing a clear front-facing torso and head, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊີ້": {
+    "definitions": {
+      "de": "Zeigen; mit dem Finger auf etwas oder jemanden deuten",
+      "en": "To point; to indicate something by extending a finger toward it",
+      "es": "Señalar; indicar algo extendiendo el dedo hacia ello",
+      "fr": "Pointer; indiquer quelque chose en tendant le doigt vers lui",
+      "hi": "इशारा करना; उँगली से किसी चीज़ की तरफ संकेत करना",
+      "ja": "指さす；指を伸ばして何かを示す",
+      "km": "ចង្អុល; ចង្អុលបង្ហាញអ្វីមួយដោយប្រើម្រាមដៃ",
+      "ko": "가리키다; 손가락으로 무언가를 지시하다",
+      "ne": "औंल्याउनु; औँलाले कुनै चीजतर्फ संकेत गर्नु",
+      "pt": "Apontar; indicar algo estendendo o dedo em direção a ele",
+      "th": "ชี้; บ่งบอกสิ่งใดสิ่งหนึ่งด้วยการยื่นนิ้วไปหาสิ่งนั้น",
+      "tl": "Ituro; ipakita ang isang bagay sa pamamagitan ng pagduduro ng daliri",
+      "ur": "اشارہ کرنا؛ انگلی سے کسی چیز کی طرف نشاندہی کرنا",
+      "vi": "Chỉ; dùng ngón tay để chỉ về phía một thứ gì đó",
+      "zh": "指；伸出手指指向某物或某人",
+      "zh_Hant": "指；伸出手指指向某物或某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/siː˥/",
+    "examples": [
+      {
+        "lao_script": "ຢ່າຊີ້ໃສ່ຄົນອື່ນ ມັນບໍ່ດີ",
+        "romanization": "yaa sii sai khon uun man boo dii",
+        "translations": {
+          "de": "Zeig nicht auf andere Leute, das ist unhöflich.",
+          "en": "Don't point at other people, it's not polite.",
+          "es": "No señales a otras personas, no es educado.",
+          "fr": "Ne pointe pas les autres du doigt, c'est impoli.",
+          "hi": "दूसरे लोगों पर उँगली मत उठाओ, यह अच्छा नहीं है।",
+          "ja": "他の人を指さしちゃダメだよ、失礼だから。",
+          "km": "កុំចង្អុលទៅមនុស្សដទៃ វាមិនល្អទេ។",
+          "ko": "다른 사람을 가리키면 안 돼, 예의 없어.",
+          "ne": "अरू मान्छेलाई औँला नदेखाऊ, त्यो राम्रो होइन।",
+          "pt": "Não aponte para outras pessoas, isso é falta de educação.",
+          "th": "อย่าชี้ไปที่คนอื่นนะ มันไม่ดี",
+          "tl": "Huwag ituro ang ibang tao, hindi magalang iyon.",
+          "ur": "دوسرے لوگوں کی طرف انگلی مت اٹھاؤ، یہ اچھا نہیں۔",
+          "vi": "Đừng chỉ vào người khác, như vậy không hay đâu.",
+          "zh": "不要指别人，这样不礼貌。",
+          "zh_Hant": "不要指別人，這樣不禮貌。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຊີ້ໃຫ້ຂ້ອຍເບິ່ງແດ່ວ່າຮ້ານຢູ່ໃສ",
+        "romanization": "sii hai khoi boeng dae waa haan yuu sai",
+        "translations": {
+          "de": "Zeig mir mal, wo das Geschäft ist.",
+          "en": "Point out to me where the shop is.",
+          "es": "Señálame dónde está la tienda.",
+          "fr": "Montre-moi où se trouve la boutique.",
+          "hi": "मुझे दिखाओ कि दुकान कहाँ है।",
+          "ja": "お店がどこにあるか指さして教えてよ。",
+          "km": "ចង្អុលបង្ហាញខ្ញុំផងថាហាងនៅឯណា។",
+          "ko": "가게가 어디 있는지 가리켜 봐.",
+          "ne": "पसल कहाँ छ भनेर मलाई औँल्याएर देखाऊ।",
+          "pt": "Me aponta onde fica a loja.",
+          "th": "ชี้ให้ฉันดูหน่อยว่าร้านอยู่ที่ไหน",
+          "tl": "Ituro mo sa akin kung nasaan ang tindahan.",
+          "ur": "مجھے دکھاؤ کہ دکان کہاں ہے۔",
+          "vi": "Chỉ cho tôi xem cái tiệm ở đâu với.",
+          "zh": "给我指一下店在哪里。",
+          "zh_Hant": "給我指一下店在哪裡。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person extending one arm and pointing their index finger toward an object in the distance, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປະເທດລາວ": {
+    "definitions": {
+      "de": "Laos; ein Binnenstaat in Südostasien, offiziell Demokratische Volksrepublik Laos",
+      "en": "Laos; a landlocked country in Southeast Asia, officially the Lao People's Democratic Republic",
+      "es": "Laos; un país sin salida al mar en el sudeste asiático, oficialmente la República Democrática Popular Lao",
+      "fr": "Laos; un pays enclavé d'Asie du Sud-Est, officiellement la République Démocratique Populaire Lao",
+      "hi": "लाओस; दक्षिण-पूर्व एशिया का एक भूमिबद्ध देश, जिसे आधिकारिक रूप से लाओ पीपुल्स डेमोक्रेटिक रिपब्लिक कहा जाता है",
+      "ja": "ラオス；東南アジアの内陸国で、正式名称はラオス人民民主共和国",
+      "km": "ឡាវ; ប្រទេសដែលគ្មានផ្លូវចេញសមុទ្រនៅអាស៊ីអាគ្នេយ៍ ដែលមានឈ្មោះផ្លូវការថា សាធារណរដ្ឋប្រជាធិបតេយ្យប្រជាមានិតឡាវ",
+      "ko": "라오스; 동남아시아의 내륙국으로, 공식 명칭은 라오 인민민주공화국",
+      "ne": "लाओस; दक्षिण-पूर्व एसियाको एक भूपरिवेष्टित देश, आधिकारिक रूपमा लाओ पिपुल्स डेमोक्रेटिक रिपब्लिक",
+      "pt": "Laos; um país sem saída para o mar no Sudeste Asiático, oficialmente a República Democrática Popular Lao",
+      "th": "ลาว; ประเทศในเอเชียตะวันออกเฉียงใต้ที่ไม่มีทางออกสู่ทะเล มีชื่อทางการว่าสาธารณรัฐประชาธิปไตยประชาชนลาว",
+      "tl": "Laos; isang landlocked na bansa sa Timog-silangang Asya, opisyal na kilala bilang Lao People's Democratic Republic",
+      "ur": "لاؤس؛ جنوب مشرقی ایشیا کا ایک زمین بند ملک، جسے سرکاری طور پر لاؤ پیپلز ڈیموکریٹک ریپبلک کہا جاتا ہے",
+      "vi": "Lào; một quốc gia không giáp biển ở Đông Nam Á, tên chính thức là Cộng hòa Dân chủ Nhân dân Lào",
+      "zh": "老挝；东南亚一个内陆国家，正式名称为老挝人民民主共和国",
+      "zh_Hant": "寮國；東南亞一個內陸國家，正式名稱為寮人民民主共和國"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pa.tʰeːt laːw˧/",
+    "examples": [
+      {
+        "lao_script": "ປະເທດລາວມີທຳມະຊາດສວຍງາມຫຼາຍ",
+        "romanization": "pa-theet lao mii tham-ma-saat suay ngaam laai",
+        "translations": {
+          "de": "Laos hat eine sehr schöne Natur.",
+          "en": "Laos has very beautiful nature.",
+          "es": "Laos tiene una naturaleza muy hermosa.",
+          "fr": "Le Laos a une nature très belle.",
+          "hi": "लाओस में बहुत सुंदर प्रकृति है।",
+          "ja": "ラオスはとても自然が美しい国だよ。",
+          "km": "ប្រទេសឡាវមានធម្មជាតិស្អាតណាស់។",
+          "ko": "라오스는 자연이 정말 아름다워.",
+          "ne": "लाओसमा प्रकृति धेरै सुन्दर छ।",
+          "pt": "O Laos tem uma natureza muito bonita.",
+          "th": "ประเทศลาวมีธรรมชาติสวยงามมาก",
+          "tl": "Ang Laos ay may napakaraming magandang kalikasan.",
+          "ur": "لاؤس میں فطرت بہت خوبصورت ہے۔",
+          "vi": "Lào có thiên nhiên rất đẹp.",
+          "zh": "老挝的自然风光非常美丽。",
+          "zh_Hant": "寮國的自然風光非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ທຳມະຊາດ",
+          "ສວຍງາມ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກໄປທ່ຽວປະເທດລາວສັກເທື່ອ",
+        "romanization": "khoi yaak pai thiao pa-theet lao sak thuea",
+        "translations": {
+          "de": "Ich möchte einmal nach Laos reisen.",
+          "en": "I want to visit Laos someday.",
+          "es": "Quiero visitar Laos algún día.",
+          "fr": "Je veux visiter le Laos un jour.",
+          "hi": "मैं कभी न कभी लाओस घूमने जाना चाहता हूँ।",
+          "ja": "いつかラオスに旅行に行きたいな。",
+          "km": "ខ្ញុំចង់ទៅទេសចរណ៍ប្រទេសឡាវវន្តមួយដងដែរ។",
+          "ko": "나 언젠가 라오스 여행 가고 싶어.",
+          "ne": "म कुनै दिन लाओस घुम्न जान चाहन्छु।",
+          "pt": "Eu quero visitar o Laos algum dia.",
+          "th": "ฉันอยากไปเที่ยวประเทศลาวสักครั้ง",
+          "tl": "Gusto kong bumisita sa Laos balang araw.",
+          "ur": "میں کبھی نہ کبھی لاؤس گھومنے جانا چاہتا ہوں۔",
+          "vi": "Tôi muốn đi du lịch Lào một lần.",
+          "zh": "我想有机会去老挝旅游。",
+          "zh_Hant": "我想有機會去寮國旅遊。"
+        },
+        "out_of_scope_words": [
+          "ທ່ຽວ",
+          "ສັກເທື່ອ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the map of Laos with its national flag displayed next to it, set against a clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເກົ່າ": {
+    "definitions": {
+      "de": "Alt; von Gegenständen und Dingen, die schon lange existieren oder benutzt wurden",
+      "en": "Old; describes objects or things that have existed or been used for a long time (not used for people's age)",
+      "es": "Viejo; describe objetos o cosas que existen o han sido usadas por mucho tiempo (no se usa para personas)",
+      "fr": "Vieux; décrit des objets ou des choses qui existent ou ont été utilisés depuis longtemps (ne s'utilise pas pour les personnes)",
+      "hi": "पुराना; उन वस्तुओं या चीज़ों के लिए जो लंबे समय से हैं या इस्तेमाल हो रही हैं (लोगों की उम्र के लिए नहीं)",
+      "ja": "古い；物や物事が長い間存在している、または使われていることを表す（人の年齢には使わない）",
+      "km": "ចាស់ / ចំណាស់; ពិពណ៌នាវត្ថុឬអ្វីៗដែលមានជាយូរណាស់ ឬត្រូវបានប្រើប្រាស់យូរហើយ (មិនប្រើសម្រាប់អាយុមនុស្សទេ)",
+      "ko": "오래된; 물건이나 사물이 오랫동안 존재하거나 사용된 것을 묘사함 (사람의 나이에는 사용하지 않음)",
+      "ne": "पुरानो; वस्तु वा चीजहरूको लागि जुन लामो समयदेखि अवस्थित छन् वा प्रयोग भएका छन् (मान्छेको उमेरका लागि प्रयोग गरिँदैन)",
+      "pt": "Velho; descreve objetos ou coisas que existem ou foram usados por muito tempo (não se usa para pessoas)",
+      "th": "เก่า; ใช้อธิบายวัตถุหรือสิ่งของที่มีอยู่มานานหรือถูกใช้มานาน (ไม่ใช้กับอายุของคน)",
+      "tl": "Luma; naglalarawan ng mga bagay o gamit na matagal nang mayroon o nagamit na (hindi ginagamit para sa edad ng tao)",
+      "ur": "پرانا؛ ایسی چیزوں یا اشیاء کو بیان کرتا ہے جو بہت عرصے سے موجود ہیں یا استعمال ہو رہی ہیں (لوگوں کی عمر کے لیے نہیں)",
+      "vi": "Cũ; mô tả đồ vật hoặc sự vật đã tồn tại hoặc được sử dụng trong thời gian dài (không dùng cho tuổi người)",
+      "zh": "旧的；描述存在或使用了很长时间的物品或事物（不用于描述人的年龄）",
+      "zh_Hant": "舊的；描述存在或使用了很長時間的物品或事物（不用於描述人的年齡）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/kaw˥/",
+    "examples": [
+      {
+        "lao_script": "ໂທລະສັບເຄື່ອງນີ້ເກົ່າຫຼາຍແລ້ວ",
+        "romanization": "tho-la-sap khuang nii kao laai laeo",
+        "translations": {
+          "de": "Dieses Telefon ist schon sehr alt.",
+          "en": "This phone is already very old.",
+          "es": "Este teléfono ya está muy viejo.",
+          "fr": "Ce téléphone est déjà très vieux.",
+          "hi": "यह फ़ोन बहुत पुराना हो गया है।",
+          "ja": "この携帯はもうすごく古いよ。",
+          "km": "ទូរស័ព្ទម៉ាស៊ីននេះចាស់ណាស់ហើយ។",
+          "ko": "이 전화기는 이미 너무 오래됐어.",
+          "ne": "यो फोन धेरै पुरानो भइसक्यो।",
+          "pt": "Este telefone já está muito velho.",
+          "th": "โทรศัพท์เครื่องนี้เก่ามากแล้ว",
+          "tl": "Ang teleponong ito ay napaka-luma na.",
+          "ur": "یہ فون بہت پرانا ہو گیا ہے۔",
+          "vi": "Cái điện thoại này cũ lắm rồi.",
+          "zh": "这部手机已经很旧了。",
+          "zh_Hant": "這支手機已經很舊了。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ເສື້ອເກົ່ານີ້ຍັງໃສ່ໄດ້ຢູ່",
+        "romanization": "suea kao nii yang sai dai yuu",
+        "translations": {
+          "de": "Dieses alte Hemd kann man noch anziehen.",
+          "en": "This old shirt can still be worn.",
+          "es": "Esta camisa vieja todavía se puede usar.",
+          "fr": "Cette vieille chemise peut encore être portée.",
+          "hi": "यह पुरानी कमीज़ अभी भी पहनी जा सकती है।",
+          "ja": "この古いシャツはまだ着られるよ。",
+          "km": "អាវចាស់នេះនៅអាចពាក់បានទៀត។",
+          "ko": "이 낡은 옷은 아직 입을 수 있어.",
+          "ne": "यो पुरानो कमिज अझै लगाउन मिल्छ।",
+          "pt": "Esta camisa velha ainda pode ser usada.",
+          "th": "เสื้อเก่าตัวนี้ยังใส่ได้อยู่",
+          "tl": "Ang lumang damit na ito ay maaari pa ring isuot.",
+          "ur": "یہ پرانی قمیض ابھی بھی پہنی جا سکتی ہے۔",
+          "vi": "Cái áo cũ này vẫn còn mặc được.",
+          "zh": "这件旧衣服还能穿。",
+          "zh_Hant": "這件舊衣服還能穿。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two objects side by side: a worn, faded old book with a torn cover on the left, and a bright new book on the right, with a visual contrast between old and new, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

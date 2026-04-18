@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄື",
+  "definitions": {
+    "de": "Wie / als / ist; ein Vergleichspartikel, das verwendet wird, um Ähnlichkeit auszudrücken oder etwas zu beschreiben, das einer anderen Sache ähnelt",
+    "en": "Like / as / is; a comparison particle used to express similarity or describe something that resembles something else",
+    "es": "Como / igual que / es; una partícula de comparación que se usa para expresar similitud o describir algo que se parece a otra cosa",
+    "fr": "Comme / tel que / c'est; une particule de comparaison utilisée pour exprimer une similitude ou décrire quelque chose qui ressemble à autre chose",
+    "hi": "जैसे / की तरह / है; एक तुलना कण जो समानता व्यक्त करने या किसी अन्य चीज़ से मिलती-जुलती चीज़ का वर्णन करने के लिए उपयोग किया जाता है",
+    "ja": "〜のように／〜として／〜だ；類似性を表したり、他のものに似たものを描写したりするために使う比較助詞",
+    "km": "ដូច / ដូចជា / គឺ; ភាគិកប្រៀបធៀបដែលប្រើដើម្បីបង្ហាញពីភាពដូចគ្នា ឬពណ៌នាអ្វីមួយដែលដូចនឹងអ្វីផ្សេងទៀត",
+    "ko": "~처럼 / ~같이 / ~이다; 유사성을 나타내거나 다른 것과 닮은 것을 묘사하는 비교 조사",
+    "ne": "जस्तो / जस्तै / हो; समानता व्यक्त गर्न वा अर्को कुरासँग मिल्दोजुल्दो कुराको वर्णन गर्न प्रयोग हुने तुलनात्मक कण",
+    "pt": "Como / igual a / é; uma partícula de comparação usada para expressar similaridade ou descrever algo que se assemelha a outra coisa",
+    "th": "เหมือน / เช่น / คือ; คำบุพบทเปรียบเทียบที่ใช้แสดงความคล้ายคลึงหรืออธิบายสิ่งที่เหมือนกับสิ่งอื่น",
+    "tl": "Tulad ng / katulad / ay; isang particle ng paghahambing na ginagamit upang ipahayag ang pagkakatulad o ilarawan ang isang bagay na katulad ng isa pa",
+    "ur": "جیسے / کی طرح / ہے؛ ایک موازنہ حرف جو مماثلت ظاہر کرنے یا کسی ایسی چیز کو بیان کرنے کے لیے استعمال ہوتا ہے جو کسی اور چیز سے ملتی جلتی ہو",
+    "vi": "Như / giống như / là; một trợ từ so sánh dùng để diễn đạt sự giống nhau hoặc mô tả điều gì đó giống với điều khác",
+    "zh": "像／如同／是；一个比较助词，用于表达相似性或描述与某事物相似的事物",
+    "zh_Hant": "像／如同／是；一個比較助詞，用於表達相似性或描述與某事物相似的事物"
+  },
+  "definition_en": "Like / as / is; a comparison particle used to express similarity or describe something that resembles something else",
+  "romanization": "khʉ̄",
+  "lao_examples": [
+    {
+      "lao_script": "ໜ້າຕາເຂົາຄືພໍ່ເລີຍ",
+      "romanization": "nâa taa khǎo khʉ̄ phɔ̂ ləəi",
+      "translation_en": "His face looks just like his father's."
+    },
+    {
+      "lao_script": "ອາຫານຮ້ານນີ້ຄືອາຫານແມ່ເຮັດ",
+      "romanization": "aa hǎan hâan níi khʉ̄ aa hǎan mɛ̂ het",
+      "translation_en": "The food at this restaurant is like the food my mom makes."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two objects side by side — a sun and a bright yellow circle — connected by an equals or similarity sign, representing comparison, clean white background, colorful, minimalist style, suitable for a language learning app."
+}

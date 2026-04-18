@@ -1,0 +1,1251 @@
+{
+  "step": 5,
+  "description": "Generate multi-locale definitions, examples, and image prompts for 500 Lao words",
+  "supported_locales": {
+    "de": "German",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "hi": "Hindi",
+    "ja": "Japanese",
+    "km": "Khmer",
+    "ko": "Korean",
+    "ne": "Nepali",
+    "pt": "Portuguese",
+    "th": "Thai",
+    "tl": "Tagalog",
+    "ur": "Urdu",
+    "vi": "Vietnamese",
+    "zh": "Chinese (Simplified)",
+    "zh_Hant": "Chinese (Traditional)"
+  },
+  "locale_codes": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "ja",
+    "km",
+    "ko",
+    "ne",
+    "pt",
+    "th",
+    "tl",
+    "ur",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "total_prompts": 100,
+  "words_per_prompt": 5,
+  "total_words": 500,
+  "output_format": {
+    "definitions": "All 16 locales required",
+    "example_translations": "All 16 locales required",
+    "image_prompt": "English prompt for AI image generator",
+    "out_of_scope_tracking": "flag words not in 500-word list"
+  },
+  "prompts": [
+    {
+      "prompt_number": 1,
+      "filename": "prompt_001_of_100.txt",
+      "words": [
+        "ແລະ",
+        "ໃນ",
+        "ທ່ານ",
+        "ທີ່",
+        "ໄດ້"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 2,
+      "filename": "prompt_002_of_100.txt",
+      "words": [
+        "ມີ",
+        "ຂອງ",
+        "ເປັນ",
+        "ວັນທີ",
+        "ເວລາ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 3,
+      "filename": "prompt_003_of_100.txt",
+      "words": [
+        "ໃຫ້",
+        "ລາວ",
+        "ນີ້",
+        "ແມ່ນ",
+        "ມາ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 4,
+      "filename": "prompt_004_of_100.txt",
+      "words": [
+        "ທີ",
+        "ວັນ",
+        "ວ່າ",
+        "ແຫ່ງ",
+        "ກໍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 5,
+      "filename": "prompt_005_of_100.txt",
+      "words": [
+        "ເຂົ້າ",
+        "ບໍ່",
+        "ຈະ",
+        "ປີ",
+        "ຮ່ວມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 6,
+      "filename": "prompt_006_of_100.txt",
+      "words": [
+        "ເບິ່ງ",
+        "ຢູ່",
+        "ຄົນ",
+        "ຜູ້",
+        "ຫຼື"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 7,
+      "filename": "prompt_007_of_100.txt",
+      "words": [
+        "ຈາກ",
+        "ໄປ",
+        "ກັບ",
+        "ກັນ",
+        "ຄຳ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 8,
+      "filename": "prompt_008_of_100.txt",
+      "words": [
+        "ຂຶ້ນ",
+        "ແຕ່",
+        "ເພື່ອ",
+        "ງານ",
+        "ຍັງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 9,
+      "filename": "prompt_009_of_100.txt",
+      "words": [
+        "ດ້ວຍ",
+        "ຮັບ",
+        "ຄັ້ງ",
+        "ນັ້ນ",
+        "ນຳ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 10,
+      "filename": "prompt_010_of_100.txt",
+      "words": [
+        "ພ້ອມ",
+        "ຈັນ",
+        "ເຖິງ",
+        "ຈັດ",
+        "ທັງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 11,
+      "filename": "prompt_011_of_100.txt",
+      "words": [
+        "ທາງ",
+        "ຕາມ",
+        "ຢ່າງ",
+        "ແລ້ວ",
+        "ເມືອງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 12,
+      "filename": "prompt_012_of_100.txt",
+      "words": [
+        "ດີ",
+        "ວົງ",
+        "ຕໍ່",
+        "ເຮັດ",
+        "ສູນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 13,
+      "filename": "prompt_013_of_100.txt",
+      "words": [
+        "ບ້ານ",
+        "ຄື",
+        "ເຊັ່ນ",
+        "ຫຼາຍ",
+        "ໄຊ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 14,
+      "filename": "prompt_014_of_100.txt",
+      "words": [
+        "ສາ",
+        "ເງິນ",
+        "ຈີນ",
+        "ຜ່ານ",
+        "ໃຊ້"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 15,
+      "filename": "prompt_015_of_100.txt",
+      "words": [
+        "ອອກ",
+        "ເຫັນ",
+        "ທຳ",
+        "ປະ",
+        "ສີ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 16,
+      "filename": "prompt_016_of_100.txt",
+      "words": [
+        "ສອງ",
+        "ໃຫຍ່",
+        "ກາງ",
+        "ເອົາ",
+        "ຕັ້ງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 17,
+      "filename": "prompt_017_of_100.txt",
+      "words": [
+        "ສູງ",
+        "ວຽກ",
+        "ລົງ",
+        "ທອງ",
+        "ຊ່ວຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 18,
+      "filename": "prompt_018_of_100.txt",
+      "words": [
+        "ສ້າງ",
+        "ວິນາທີ",
+        "ສ່ວນ",
+        "ໜຶ່ງ",
+        "ອອກແບບ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 19,
+      "filename": "prompt_019_of_100.txt",
+      "words": [
+        "ພັນ",
+        "ສຶກ",
+        "ຫາ",
+        "ສົມ",
+        "ຜົນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 20,
+      "filename": "prompt_020_of_100.txt",
+      "words": [
+        "ບຸນ",
+        "ກີບ",
+        "ດ້ານ",
+        "ມື",
+        "ເລື່ອງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 21,
+      "filename": "prompt_021_of_100.txt",
+      "words": [
+        "ຂ່າວ",
+        "ແທນ",
+        "ພົບ",
+        "ກ່າວ",
+        "ນ້ຳ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 22,
+      "filename": "prompt_022_of_100.txt",
+      "words": [
+        "ໜ້າ",
+        "ຮູ້",
+        "ຕອນ",
+        "ຂໍ",
+        "ເລືອກ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 23,
+      "filename": "prompt_023_of_100.txt",
+      "words": [
+        "ຄອງ",
+        "ແບບ",
+        "ຝ່າຍ",
+        "ລາຍ",
+        "ລ້ານ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 24,
+      "filename": "prompt_024_of_100.txt",
+      "words": [
+        "ສຸກ",
+        "ເດືອນ",
+        "ມອບ",
+        "ມູນ",
+        "ໃໝ່"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 25,
+      "filename": "prompt_025_of_100.txt",
+      "words": [
+        "ນາ",
+        "ເກີດ",
+        "ເຂດ",
+        "ລົດ",
+        "ເພີ່ມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 26,
+      "filename": "prompt_026_of_100.txt",
+      "words": [
+        "ກຽດ",
+        "ກິດ",
+        "ຂໍ້",
+        "ຄ່າ",
+        "ຂັ້ນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 27,
+      "filename": "prompt_027_of_100.txt",
+      "words": [
+        "ສົ່ງ",
+        "ໂລກ",
+        "ຄ້າ",
+        "ລາ",
+        "ເສຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 28,
+      "filename": "prompt_028_of_100.txt",
+      "words": [
+        "ລີ",
+        "ເວົ້າ",
+        "ໄຂ",
+        "ຄິດ",
+        "ຊົນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 29,
+      "filename": "prompt_029_of_100.txt",
+      "words": [
+        "ຫ້ອງ",
+        "ເອກ",
+        "ທົ່ວ",
+        "ແກ້",
+        "ຫວຽດນາມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 30,
+      "filename": "prompt_030_of_100.txt",
+      "words": [
+        "ຕື່ມ",
+        "ແສງ",
+        "ໝົດ",
+        "ໂມງ",
+        "ໝາຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 31,
+      "filename": "prompt_031_of_100.txt",
+      "words": [
+        "ພາຍ",
+        "ແຈ້ງ",
+        "ພາກ",
+        "ຖື",
+        "ສອນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 32,
+      "filename": "prompt_032_of_100.txt",
+      "words": [
+        "ລວມ",
+        "ໃຈ",
+        "ໄທ",
+        "ເປີດ",
+        "ແມັດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 33,
+      "filename": "prompt_033_of_100.txt",
+      "words": [
+        "ກາ",
+        "ກຸ່ມ",
+        "ຊີ",
+        "ເຊີນ",
+        "ພາບ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 34,
+      "filename": "prompt_034_of_100.txt",
+      "words": [
+        "ແຮງ",
+        "ກິນ",
+        "ຢາ",
+        "ບົດ",
+        "ສາຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 35,
+      "filename": "prompt_035_of_100.txt",
+      "words": [
+        "ເຊ",
+        "ຕິດ",
+        "ສິ່ງ",
+        "ເທດ",
+        "ໃສ່"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 36,
+      "filename": "prompt_036_of_100.txt",
+      "words": [
+        "ຖາ",
+        "ຄູ່",
+        "ນັບ",
+        "ຂ້າງ",
+        "ຢ້ຽມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 37,
+      "filename": "prompt_037_of_100.txt",
+      "words": [
+        "ສານ",
+        "ກຳ",
+        "ຊາວ",
+        "ຍິງ",
+        "ແກ້ວ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 38,
+      "filename": "prompt_038_of_100.txt",
+      "words": [
+        "ໂດ",
+        "ຕອບ",
+        "ຕີ",
+        "ຈິງ",
+        "ທ້າຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 39,
+      "filename": "prompt_039_of_100.txt",
+      "words": [
+        "ຂຽນ",
+        "ຕາ",
+        "ວັດ",
+        "ໄພ",
+        "ຊຽນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 40,
+      "filename": "prompt_040_of_100.txt",
+      "words": [
+        "ເພື່ອນ",
+        "ແມ່",
+        "ມື້",
+        "ລູກ",
+        "ລົມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 41,
+      "filename": "prompt_041_of_100.txt",
+      "words": [
+        "ຈຸດ",
+        "ຊາຍ",
+        "ທ່ຽວ",
+        "ລຳ",
+        "ປ້ອງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 42,
+      "filename": "prompt_042_of_100.txt",
+      "words": [
+        "ສັກ",
+        "ສິນ",
+        "ຫຼັກ",
+        "ອິນ",
+        "ຄຸ້ມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 43,
+      "filename": "prompt_043_of_100.txt",
+      "words": [
+        "ຮັກ",
+        "ດາ",
+        "ຮຽນ",
+        "ລິ",
+        "ລຸນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 44,
+      "filename": "prompt_044_of_100.txt",
+      "words": [
+        "ທ່ອງ",
+        "ປາ",
+        "ພອນ",
+        "ເຮືອນ",
+        "ບ່ອນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 45,
+      "filename": "prompt_045_of_100.txt",
+      "words": [
+        "ສຽງ",
+        "ແຂກ",
+        "ແຜນ",
+        "ໃບ",
+        "ທີມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 46,
+      "filename": "prompt_046_of_100.txt",
+      "words": [
+        "ຫລາຍ",
+        "ຫຼຽນ",
+        "ຮອດ",
+        "ສິດ",
+        "ເຊຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 47,
+      "filename": "prompt_047_of_100.txt",
+      "words": [
+        "ພໍ່",
+        "ວາງ",
+        "ຫຼວງ",
+        "ເລກ",
+        "ຊື້"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 48,
+      "filename": "prompt_048_of_100.txt",
+      "words": [
+        "ຟັງ",
+        "ຊັ້ນ",
+        "ຊາ",
+        "ຕົ້ນ",
+        "ເລີ່ມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 49,
+      "filename": "prompt_049_of_100.txt",
+      "words": [
+        "ໃຕ້",
+        "ຄຸນ",
+        "ອິດ",
+        "ຍາກ",
+        "ລາດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 50,
+      "filename": "prompt_050_of_100.txt",
+      "words": [
+        "ເຄື່ອງ",
+        "ດິນ",
+        "ເຕີ",
+        "ເຊົ້າ",
+        "ຫຼັງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 51,
+      "filename": "prompt_051_of_100.txt",
+      "words": [
+        "ດວງ",
+        "ທັນ",
+        "ຫົວ",
+        "ຈອດ",
+        "ດັບ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 52,
+      "filename": "prompt_052_of_100.txt",
+      "words": [
+        "ບວນ",
+        "ປອນ",
+        "ຈຳນວນ",
+        "ຈູມ",
+        "ຊຸດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 53,
+      "filename": "prompt_053_of_100.txt",
+      "words": [
+        "ສິງ",
+        "ຂາຍ",
+        "ຖາມ",
+        "ບັດ",
+        "ຮູບ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 54,
+      "filename": "prompt_054_of_100.txt",
+      "words": [
+        "ຮ້ານ",
+        "ບູ",
+        "ພື້ນ",
+        "ມວນ",
+        "ໂລ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 55,
+      "filename": "prompt_055_of_100.txt",
+      "words": [
+        "ໄວ",
+        "ຄືນ",
+        "ດອກ",
+        "ທໍ່",
+        "ນ້ອຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 56,
+      "filename": "prompt_056_of_100.txt",
+      "words": [
+        "ສື່",
+        "ເຊື່ອ",
+        "ນອກ",
+        "ບອກ",
+        "ອ່ານ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 57,
+      "filename": "prompt_057_of_100.txt",
+      "words": [
+        "ກວດ",
+        "ກິໂລແມັດ",
+        "ຍົກ",
+        "ພິມ",
+        "ໄຟ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 58,
+      "filename": "prompt_058_of_100.txt",
+      "words": [
+        "ຄົ້ນ",
+        "ຄໍ",
+        "ຊີ້",
+        "ປະເທດລາວ",
+        "ເກົ່າ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 59,
+      "filename": "prompt_059_of_100.txt",
+      "words": [
+        "ໄມ້",
+        "ພາສາອັງກິດ",
+        "ມາດ",
+        "ຣົບ",
+        "ຍອດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 60,
+      "filename": "prompt_060_of_100.txt",
+      "words": [
+        "ທິດ",
+        "ບາ",
+        "ເທິງ",
+        "ໂນ",
+        "ປະເທດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 61,
+      "filename": "prompt_061_of_100.txt",
+      "words": [
+        "ອ້ອມ",
+        "ຕື້",
+        "ໜຸ່ມ",
+        "ຄັດ",
+        "ຄາດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 62,
+      "filename": "prompt_062_of_100.txt",
+      "words": [
+        "ດາວ",
+        "ມັກ",
+        "ເດັກ",
+        "ເປົ້າ",
+        "ແດງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 63,
+      "filename": "prompt_063_of_100.txt",
+      "words": [
+        "ຕົກ",
+        "ໂກ",
+        "ງາມ",
+        "ບ່າຍ",
+        "ປອດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 64,
+      "filename": "prompt_064_of_100.txt",
+      "words": [
+        "ຈ່າຍ",
+        "ທ່າ",
+        "ພົນ",
+        "ສາມ",
+        "ເຊື້ອ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 65,
+      "filename": "prompt_065_of_100.txt",
+      "words": [
+        "ເນ",
+        "ເນື້ອ",
+        "ຄຽງ",
+        "ຊອກ",
+        "ຕ້ານ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 66,
+      "filename": "prompt_066_of_100.txt",
+      "words": [
+        "ຍາມ",
+        "ຍາວ",
+        "ທິມ",
+        "ນັດ",
+        "ເໝາະ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 67,
+      "filename": "prompt_067_of_100.txt",
+      "words": [
+        "ກູ້",
+        "ຂອບ",
+        "ຊື່",
+        "ຊົມ",
+        "ຍາດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 68,
+      "filename": "prompt_068_of_100.txt",
+      "words": [
+        "ສອບ",
+        "ອຸ່ນ",
+        "ຖ້ວມ",
+        "ຝຣັ່ງ",
+        "ໄຫວ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 69,
+      "filename": "prompt_069_of_100.txt",
+      "words": [
+        "ຕ່າງ",
+        "ນານ",
+        "ພາ",
+        "ຫາຍ",
+        "ເຕັມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 70,
+      "filename": "prompt_070_of_100.txt",
+      "words": [
+        "ໂຕນ",
+        "ກົງ",
+        "ຂັບ",
+        "ປູກ",
+        "ຫວັດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 71,
+      "filename": "prompt_071_of_100.txt",
+      "words": [
+        "ຫ້າມ",
+        "ໂທ",
+        "ໃກ້",
+        "ກວມ",
+        "ກາຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 72,
+      "filename": "prompt_072_of_100.txt",
+      "words": [
+        "ຊາບ",
+        "ຕິ",
+        "ອົກ",
+        "ອົດ",
+        "ເມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 73,
+      "filename": "prompt_073_of_100.txt",
+      "words": [
+        "ນ້ອງ",
+        "ປະຈຳ",
+        "ຫໍ",
+        "ເກດ",
+        "ເພງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 74,
+      "filename": "prompt_074_of_100.txt",
+      "words": [
+        "ເລີດ",
+        "ແບ່ງ",
+        "ຄູ",
+        "ຊຽງ",
+        "ຕູ້"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 75,
+      "filename": "prompt_075_of_100.txt",
+      "words": [
+        "ນອນ",
+        "ສິນຄ້າ",
+        "ຮ້າຍ",
+        "ເກັບ",
+        "ແພງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 76,
+      "filename": "prompt_076_of_100.txt",
+      "words": [
+        "ຈຸ",
+        "ບຸກ",
+        "ເສບ",
+        "ເສີມ",
+        "ແພດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 77,
+      "filename": "prompt_077_of_100.txt",
+      "words": [
+        "ໄກ",
+        "ໜ້ອຍ",
+        "ຂາດ",
+        "ຊູ",
+        "ດອນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 78,
+      "filename": "prompt_078_of_100.txt",
+      "words": [
+        "ປະຈຸບັນ",
+        "ປັກ",
+        "ຜິດ",
+        "ພູ",
+        "ມຽນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 79,
+      "filename": "prompt_079_of_100.txt",
+      "words": [
+        "ສວນ",
+        "ຫວັງ",
+        "ອາຍຸ",
+        "ເຄື່ອນ",
+        "ເຕະ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 80,
+      "filename": "prompt_080_of_100.txt",
+      "words": [
+        "ຂວາງ",
+        "ບົວ",
+        "ແໜ້ນ",
+        "ໄມ",
+        "ຊ້າງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 81,
+      "filename": "prompt_081_of_100.txt",
+      "words": [
+        "ປ້າຍ",
+        "ພັດ",
+        "ອັດ",
+        "ກອນ",
+        "ຂັນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 82,
+      "filename": "prompt_082_of_100.txt",
+      "words": [
+        "ປັດຈຸບັນ",
+        "ປາກ",
+        "ພັດທະນາ",
+        "ເຕືອນ",
+        "ເບື້ອງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 83,
+      "filename": "prompt_083_of_100.txt",
+      "words": [
+        "ແດນ",
+        "ກົດ",
+        "ຍິນ",
+        "ຖານ",
+        "ຫຼຸດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 84,
+      "filename": "prompt_084_of_100.txt",
+      "words": [
+        "ອົບ",
+        "ເພັດ",
+        "ແມນ",
+        "ໄນ",
+        "ໄອ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 85,
+      "filename": "prompt_085_of_100.txt",
+      "words": [
+        "ຄ່ອຍ",
+        "ຊຸມ",
+        "ດົນ",
+        "ບາດ",
+        "ປາວ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 86,
+      "filename": "prompt_086_of_100.txt",
+      "words": [
+        "ສ່ອງ",
+        "ຫລຸດ",
+        "ຮ້ອຍ",
+        "ເຮືອ",
+        "ໜັກ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 87,
+      "filename": "prompt_087_of_100.txt",
+      "words": [
+        "ໝັ້ນ",
+        "ຄາ",
+        "ຄົມ",
+        "ປົກ",
+        "ຜາ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 88,
+      "filename": "prompt_088_of_100.txt",
+      "words": [
+        "ຈຽນ",
+        "ຈ້າວ",
+        "ຈໍ",
+        "ຊອບ",
+        "ຊິກ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 89,
+      "filename": "prompt_089_of_100.txt",
+      "words": [
+        "ຍຸກ",
+        "ດ່ານ",
+        "ຕະຫລາດ",
+        "ຕີນ",
+        "ຖິ້ມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 90,
+      "filename": "prompt_090_of_100.txt",
+      "words": [
+        "ທັນສະໄໝ",
+        "ທົບ",
+        "ນະຄອນຫລວງ",
+        "ນິວ",
+        "ບຶງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 91,
+      "filename": "prompt_091_of_100.txt",
+      "words": [
+        "ບໍ່ແຮ່",
+        "ປະຕິບັດ",
+        "ປາງ",
+        "ປຸ້ນຊັບ",
+        "ຝີ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 92,
+      "filename": "prompt_092_of_100.txt",
+      "words": [
+        "ມວຍ",
+        "ມະນຸດ",
+        "ມານ",
+        "ມິງ",
+        "ຢວນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 93,
+      "filename": "prompt_093_of_100.txt",
+      "words": [
+        "ຢັ້ງ",
+        "ຢາມ",
+        "ຢົງ",
+        "ລືມ",
+        "ວິດ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 94,
+      "filename": "prompt_094_of_100.txt",
+      "words": [
+        "ສະຫະລັດ",
+        "ສ່ວນຮ້ອຍ",
+        "ຫລັກ",
+        "ຫົງ",
+        "ຫ້ວຍ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 95,
+      "filename": "prompt_095_of_100.txt",
+      "words": [
+        "ອຸດ",
+        "ຮັດ",
+        "ເຕີນ",
+        "ເຝົ້າ",
+        "ເຢຍລະມັນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 96,
+      "filename": "prompt_096_of_100.txt",
+      "words": [
+        "ເອີ້ນ",
+        "ແກ່ນ",
+        "ແຂ່ງ",
+        "ແຈງ",
+        "ແຮມ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 97,
+      "filename": "prompt_097_of_100.txt",
+      "words": [
+        "ໂອນ",
+        "ໄໝ້",
+        "ໜໍ່",
+        "ກັກ",
+        "ການເງິນ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 98,
+      "filename": "prompt_098_of_100.txt",
+      "words": [
+        "ຂີດ",
+        "ຂໍ້ມູນ",
+        "ງື່ມ",
+        "ງົວ",
+        "ງ່າຍໆ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 99,
+      "filename": "prompt_099_of_100.txt",
+      "words": [
+        "ຈານ",
+        "ຈິດໃຈ",
+        "ຊະນິດ",
+        "ຊັນ",
+        "ຊ່າງ"
+      ],
+      "word_count": 5
+    },
+    {
+      "prompt_number": 100,
+      "filename": "prompt_100_of_100.txt",
+      "words": [
+        "ດັດ",
+        "ດັນ",
+        "ດົມ",
+        "ດ້ອຍ",
+        "ຕັງ"
+      ],
+      "word_count": 5
+    }
+  ]
+}

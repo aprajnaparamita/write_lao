@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກຳ",
+  "definitions": {
+    "de": "Karma (das spirituelle Gesetz von Ursache und Wirkung im Buddhismus); auch: greifen, halten oder tragen",
+    "en": "Karma (the Buddhist concept of cause and effect); also: to grasp, hold, or carry",
+    "es": "Karma (concepto budista de causa y efecto); también: agarrar, sostener o cargar",
+    "fr": "Karma (concept bouddhiste de cause et effet); aussi: saisir, tenir ou porter",
+    "hi": "कर्म (बौद्ध धर्म में कारण और प्रभाव की अवधारणा); साथ ही: पकड़ना, थामना या उठाना",
+    "ja": "カルマ（仏教の因果応報の概念）；また：つかむ、持つ、運ぶ",
+    "km": "កម្ម (គំនិតព្រះពុទ្ធសាសនាអំពីហេតុផល); ក៏មានន័យថា ចាប់, កាន់, ឬផ្ទុក",
+    "ko": "업(불교의 인과응보 개념); 또한: 잡다, 쥐다, 들다",
+    "ne": "कर्म (बौद्ध धर्मको कारण र प्रभावको अवधारणा); साथै: समात्नु, थाम्नु वा बोक्नु",
+    "pt": "Karma (conceito budista de causa e efeito); também: agarrar, segurar ou carregar",
+    "th": "กรรม (แนวคิดทางพุทธศาสนาเรื่องเหตุและผล); ยังหมายถึง การจับ ถือ หรือแบก",
+    "tl": "Karma (konsepto ng Budismo tungkol sa sanhi at bunga); gayundin: humawak, kumapit, o magdala",
+    "ur": "کرما (بدھ مت میں سبب و اثر کا تصور)؛ نیز: پکڑنا، تھامنا یا اٹھانا",
+    "vi": "Nghiệp (khái niệm Phật giáo về nhân quả); cũng có nghĩa: nắm, cầm hoặc mang",
+    "zh": "业（佛教的因果概念）；也指：抓、握或携带",
+    "zh_Hant": "業（佛教的因果概念）；也指：抓、握或攜帶"
+  },
+  "definition_en": "Karma (the Buddhist concept of cause and effect); also: to grasp, hold, or carry",
+  "romanization": "/kaːm³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາເຮັດດີ ກໍ່ໄດ້ຮັບກຳດີຄືນ",
+      "romanization": "hao het dii, gaw dai hap gam dii khuun",
+      "translation_en": "If we do good, we receive good karma in return."
+    },
+    {
+      "lao_script": "ເຂົາເຊື່ອເລື່ອງກຳຫຼາຍ",
+      "romanization": "khao suea lueang gam laai",
+      "translation_en": "He believes a lot in karma."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a glowing circular karma cycle symbol with a lotus flower at the center, representing cause and effect in Buddhism, clean white background, soft golden and orange colors, minimalist style suitable for a language learning app."
+}

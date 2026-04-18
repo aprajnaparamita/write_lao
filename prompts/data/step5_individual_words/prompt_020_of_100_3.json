@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດ້ານ",
+  "definitions": {
+    "de": "Seite, Aspekt; bezeichnet eine Seite eines Objekts, eine Richtung oder einen Aspekt einer Sache",
+    "en": "Side or aspect; refers to the side of an object, a direction, or a particular aspect of something",
+    "es": "Lado o aspecto; se refiere al lado de un objeto, una dirección o un aspecto particular de algo",
+    "fr": "Côté ou aspect; désigne le côté d'un objet, une direction ou un aspect particulier de quelque chose",
+    "hi": "पक्ष या पहलू; किसी वस्तु का किनारा, दिशा, या किसी चीज़ का विशेष पहलू",
+    "ja": "側面または側；物の側面、方向、またはある事柄の特定の側面を指す",
+    "km": "ផ្នែក ឬទិដ្ឋភាព; សំដៅទៅផ្នែកណាមួយនៃវត្ថុ ទិសដៅ ឬទិដ្ឋភាពជាក់លាក់នៃអ្វីមួយ",
+    "ko": "쪽 또는 측면; 물체의 한쪽, 방향, 또는 어떤 것의 특정 측면을 가리킴",
+    "ne": "पक्ष वा पाटो; कुनै वस्तुको छेउ, दिशा, वा कुनै कुराको विशेष पहलू",
+    "pt": "Lado ou aspecto; refere-se ao lado de um objeto, uma direção ou um aspecto particular de algo",
+    "th": "ด้าน; หมายถึงด้านข้างของวัตถุ ทิศทาง หรือแง่มุมใดแง่มุมหนึ่งของสิ่งใดสิ่งหนึ่ง",
+    "tl": "Gilid o aspeto; tumutukoy sa gilid ng isang bagay, direksyon, o isang partikular na aspeto ng isang bagay",
+    "ur": "پہلو یا جانب؛ کسی چیز کی طرف، سمت، یا کسی چیز کا مخصوص پہلو",
+    "vi": "Phía hoặc khía cạnh; chỉ phía của một vật, một hướng, hoặc một khía cạnh cụ thể của điều gì đó",
+    "zh": "侧面或方面；指物体的一侧、方向或某事的特定方面",
+    "zh_Hant": "側面或方面；指物體的一側、方向或某事的特定方面"
+  },
+  "definition_en": "Side or aspect; refers to the side of an object, a direction, or a particular aspect of something",
+  "romanization": "dan",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານອາຫານຢູ່ດ້ານຊ້າຍຂອງທະນາຄານ",
+      "romanization": "han a-han yuu dan sai khong tha-na-khan",
+      "translation_en": "The restaurant is on the left side of the bank."
+    },
+    {
+      "lao_script": "ດ້ານໜຶ່ງດີ, ແຕ່ອີກດ້ານໜຶ່ງບໍ່ດີ",
+      "romanization": "dan nueng dii, tae ik dan nueng bo dii",
+      "translation_en": "One side is good, but the other side is not good."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two sides of a coin or a box with arrows pointing to the left side and right side, clearly labeled with visual indicators, clean white background, colorful minimalist style suitable for a language learning app"
+}

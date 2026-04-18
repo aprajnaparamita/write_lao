@@ -1,0 +1,388 @@
+{
+  "ໂຕນ": {
+    "definitions": {
+      "de": "Tonne – eine Maßeinheit für Gewicht, entspricht 1.000 Kilogramm",
+      "en": "Ton – a unit of measurement for weight, equal to 1,000 kilograms",
+      "es": "Tonelada – unidad de medida de peso equivalente a 1.000 kilogramos",
+      "fr": "Tonne – unité de mesure de poids équivalant à 1 000 kilogrammes",
+      "hi": "टन – वजन की एक माप इकाई, जो 1,000 किलोग्राम के बराबर होती है",
+      "ja": "トン – 重さの単位で、1,000キログラムに相当する",
+      "km": "តោន – ឯកតាវាស់ទម្ងន់ស្មើនឹង ១,០០០ គីឡូក្រាម",
+      "ko": "톤 – 무게의 측정 단위로, 1,000킬로그램에 해당함",
+      "ne": "टन – तौलको एक मापन एकाइ, १,००० किलोग्राम बराबर",
+      "pt": "Tonelada – unidade de medida de peso equivalente a 1.000 quilogramas",
+      "th": "ตัน – หน่วยวัดน้ำหนักเท่ากับ 1,000 กิโลกรัม",
+      "tl": "Tonelada – isang yunit ng pagsukat ng timbang na katumbas ng 1,000 kilogramo",
+      "ur": "ٹن – وزن کی پیمائش کی ایک اکائی جو 1,000 کلوگرام کے برابر ہے",
+      "vi": "Tấn – đơn vị đo lường trọng lượng, bằng 1.000 kilôgam",
+      "zh": "吨 – 重量计量单位，等于1,000千克",
+      "zh_Hant": "噸 – 重量計量單位，等於1,000公斤"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/toːn˧˩/",
+    "examples": [
+      {
+        "lao_script": "ລົດບັນທຸກຄັນນີ້ແບກໄດ້ສິບໂຕນ",
+        "romanization": "lot ban-thuk khan ní baek dai sip ton",
+        "translations": {
+          "de": "Dieser Lastwagen kann zehn Tonnen tragen.",
+          "en": "This truck can carry ten tons.",
+          "es": "Este camión puede cargar diez toneladas.",
+          "fr": "Ce camion peut porter dix tonnes.",
+          "hi": "यह ट्रक दस टन ले जा सकता है।",
+          "ja": "このトラックは10トン積むことができる。",
+          "km": "រថយន្តដឹកទំនិញនេះអាចផ្ទុកបានដប់តោន។",
+          "ko": "이 트럭은 10톤을 실을 수 있어.",
+          "ne": "यो ट्रकले दस टन बोक्न सक्छ।",
+          "pt": "Este caminhão pode carregar dez toneladas.",
+          "th": "รถบรรทุกคันนี้แบกได้สิบตัน",
+          "tl": "Ang trak na ito ay kayang magdala ng sampung tonelada.",
+          "ur": "یہ ٹرک دس ٹن اٹھا سکتا ہے۔",
+          "vi": "Chiếc xe tải này có thể chở mười tấn.",
+          "zh": "这辆卡车能载十吨。",
+          "zh_Hant": "這輛卡車能載十噸。"
+        },
+        "out_of_scope_words": [
+          "ລົດບັນທຸກ",
+          "ແບກ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາຂາຍເຂົ້າໄດ້ສາມໂຕນໃນອາທິດນີ້",
+        "romanization": "khao khai khao dai sam ton nai a-thit ní",
+        "translations": {
+          "de": "Er hat in dieser Woche drei Tonnen Reis verkauft.",
+          "en": "He sold three tons of rice this week.",
+          "es": "Él vendió tres toneladas de arroz esta semana.",
+          "fr": "Il a vendu trois tonnes de riz cette semaine.",
+          "hi": "उसने इस हफ्ते तीन टन चावल बेचा।",
+          "ja": "彼は今週、米を3トン売った。",
+          "km": "គាត់លក់អង្ករបានបីតោននៅសប្តាហ៍នេះ។",
+          "ko": "그는 이번 주에 쌀을 세 톤 팔았어.",
+          "ne": "उसले यो हप्ता तीन टन चामल बेच्यो।",
+          "pt": "Ele vendeu três toneladas de arroz nesta semana.",
+          "th": "เขาขายข้าวได้สามตันในสัปดาห์นี้",
+          "tl": "Nagbenta siya ng tatlong tonelada ng bigas ngayong linggo.",
+          "ur": "اس نے اس ہفتے تین ٹن چاول بیچے۔",
+          "vi": "Anh ấy bán được ba tấn gạo trong tuần này.",
+          "zh": "他这周卖了三吨大米。",
+          "zh_Hant": "他這週賣了三噸大米。"
+        },
+        "out_of_scope_words": [
+          "ອາທິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a large weight scale showing '1 TON' with stacked heavy boxes or sacks on it, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກົງ": {
+    "definitions": {
+      "de": "Gerade/direkt – beschreibt etwas, das keine Kurven oder Umwege hat; auch im übertragenen Sinne für Ehrlichkeit oder Direktheit",
+      "en": "Straight/direct – describes something without curves or bends; also used figuratively to mean honest or straightforward",
+      "es": "Recto/directo – describe algo sin curvas ni desvíos; también se usa figuradamente para indicar honestidad o franqueza",
+      "fr": "Droit/direct – décrit quelque chose sans courbes ni détours ; aussi utilisé au sens figuré pour désigner l'honnêteté ou la franchise",
+      "hi": "सीधा/सीधा – कुछ ऐसा जिसमें कोई मोड़ या झुकाव न हो; लाक्षणिक अर्थ में ईमानदार या सरल",
+      "ja": "まっすぐ・直接的 – 曲がりがないことを表す。転じて、正直・率直な意味でも使われる",
+      "km": "ត្រង់/ផ្ទាល់ – ពិពណ៌នាអំពីអ្វីដែលគ្មានការខ្នះ ឬការបត់; ក៏ប្រើក្នុងន័យត្រង់ ឬស្មោះត្រង់ផងដែរ",
+      "ko": "곧은/직접적인 – 구부러짐이나 굽음이 없는 것을 묘사; 비유적으로 솔직하거나 직접적인 의미로도 사용됨",
+      "ne": "सोझो/प्रत्यक्ष – कुनै घुमाइ वा झुकाइ नभएको कुरा; लाक्षणिक रूपमा इमानदार वा स्पष्टवादी अर्थमा पनि प्रयोग हुन्छ",
+      "pt": "Reto/direto – descreve algo sem curvas ou desvios; também usado figurativamente para indicar honestidade ou franqueza",
+      "th": "ตรง – อธิบายสิ่งที่ไม่มีการโค้งงอหรือเบี่ยงเบน ใช้ในเชิงเปรียบเปรยหมายถึงความซื่อตรงหรือตรงไปตรงมาด้วย",
+      "tl": "Tuwid/direkta – naglalarawan ng isang bagay na walang kurbada o liko; ginagamit din nang matalinghaga para sa katapatan o pagiging direkta",
+      "ur": "سیدھا/براہ راست – کسی ایسی چیز کو بیان کرتا ہے جس میں کوئی موڑ یا جھکاؤ نہ ہو؛ مجازی طور پر ایمانداری یا سیدھے پن کے معنی میں بھی استعمال ہوتا ہے",
+      "vi": "Thẳng/trực tiếp – mô tả thứ gì đó không có đường cong hay khúc quanh; cũng dùng theo nghĩa bóng để chỉ sự thẳng thắn hoặc trung thực",
+      "zh": "直/笔直 – 形容没有弯曲或拐弯的事物；也可比喻为诚实或直接",
+      "zh_Hant": "直/筆直 – 形容沒有彎曲或轉折的事物；也可比喻為誠實或直接"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/koŋ˧˩/",
+    "examples": [
+      {
+        "lao_script": "ທາງນີ້ກົງຫຼາຍ ຂັບງ່າຍດີ",
+        "romanization": "thang ní kong lái khap ngai di",
+        "translations": {
+          "de": "Diese Straße ist sehr gerade, leicht zu fahren.",
+          "en": "This road is very straight, easy to drive.",
+          "es": "Este camino es muy recto, fácil de manejar.",
+          "fr": "Cette route est très droite, facile à conduire.",
+          "hi": "यह सड़क बहुत सीधी है, चलाना आसान है।",
+          "ja": "この道はとてもまっすぐで、運転しやすい。",
+          "km": "ផ្លូវនេះត្រង់ណាស់ បើកបរងាយស្រួល។",
+          "ko": "이 길은 아주 곧아서 운전하기 쉬워.",
+          "ne": "यो बाटो धेरै सोझो छ, गाडी चलाउन सजिलो छ।",
+          "pt": "Esta estrada é muito reta, fácil de dirigir.",
+          "th": "ทางนี้ตรงมาก ขับง่ายดี",
+          "tl": "Ang daang ito ay napaka-tuwid, madaling magmaneho.",
+          "ur": "یہ سڑک بہت سیدھی ہے، چلانا آسان ہے۔",
+          "vi": "Con đường này rất thẳng, dễ lái.",
+          "zh": "这条路很直，好开车。",
+          "zh_Hant": "這條路很直，好開車。"
+        },
+        "out_of_scope_words": [
+          "ທາງ"
+        ]
+      },
+      {
+        "lao_script": "ເວົ້າກົງໆເລີຍ ຢ່າອ້ອມຄ້ອມ",
+        "romanization": "vao kong-kong loei ya om-khom",
+        "translations": {
+          "de": "Sprich direkt, red nicht drum herum.",
+          "en": "Just speak directly, don't beat around the bush.",
+          "es": "Habla directamente, no te andes con rodeos.",
+          "fr": "Parle directement, ne tourne pas autour du pot.",
+          "hi": "सीधे बोलो, घुमा-फिराकर मत बोलो।",
+          "ja": "ズバリ言って、遠回しに言わないで。",
+          "km": "និយាយត្រង់ៗទៅ កុំនិយាយជុំវិញ។",
+          "ko": "직접적으로 말해, 빙빙 돌려 말하지 마.",
+          "ne": "सोझो बोल, घुमाउरो नगर।",
+          "pt": "Fale diretamente, não fique rodeando.",
+          "th": "พูดตรงๆ เลย อย่าอ้อมค้อม",
+          "tl": "Magsalita nang direkta, huwag mag-ikot-ikot.",
+          "ur": "سیدھی بات کرو، گھما پھراکر مت بولو۔",
+          "vi": "Nói thẳng đi, đừng vòng vo.",
+          "zh": "直说吧，别拐弯抹角。",
+          "zh_Hant": "直說吧，別拐彎抹角。"
+        },
+        "out_of_scope_words": [
+          "ອ້ອມຄ້ອມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two arrows side by side — one perfectly straight and one curved/winding — with the straight one highlighted, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂັບ": {
+    "definitions": {
+      "de": "Fahren – ein Fahrzeug steuern oder lenken, z. B. ein Auto, Motorrad oder Fahrrad",
+      "en": "To drive – to operate or steer a vehicle such as a car, motorcycle, or bicycle",
+      "es": "Conducir/manejar – operar o dirigir un vehículo como un automóvil, motocicleta o bicicleta",
+      "fr": "Conduire – piloter ou diriger un véhicule tel qu'une voiture, une moto ou un vélo",
+      "hi": "चलाना – किसी वाहन जैसे कार, मोटरसाइकिल या साइकिल को संचालित करना",
+      "ja": "運転する – 車、バイク、自転車などの乗り物を操作・操縦する",
+      "km": "បើកបរ – ដំណើរការឬដឹកនាំយានយន្តដូចជារថយន្ត មោតូ ឬកង់",
+      "ko": "운전하다 – 자동차, 오토바이, 자전거 등의 차량을 조작하거나 조종하다",
+      "ne": "चलाउनु – कार, मोटरसाइकल, वा साइकल जस्ता सवारी साधन सञ्चालन गर्नु",
+      "pt": "Dirigir/conduzir – operar ou guiar um veículo como carro, motocicleta ou bicicleta",
+      "th": "ขับ – ควบคุมหรือบังคับยานพาหนะ เช่น รถยนต์ มอเตอร์ไซค์ หรือจักรยาน",
+      "tl": "Magmaneho – mag-operate o mag-steer ng sasakyan tulad ng kotse, motorsiklo, o bisikleta",
+      "ur": "چلانا – کار، موٹرسائیکل یا سائیکل جیسی گاڑی کو چلانا یا کنٹرول کرنا",
+      "vi": "Lái – điều khiển hoặc lái một phương tiện như ô tô, xe máy hoặc xe đạp",
+      "zh": "驾驶/开车 – 操控车辆，如汽车、摩托车或自行车",
+      "zh_Hant": "駕駛/開車 – 操控車輛，如汽車、摩托車或腳踏車"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰap˦˥/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຂັບລົດເປັນບໍ່",
+        "romanization": "jao khap lot pen bo",
+        "translations": {
+          "de": "Kannst du Auto fahren?",
+          "en": "Can you drive a car?",
+          "es": "¿Sabes manejar un coche?",
+          "fr": "Tu sais conduire une voiture ?",
+          "hi": "क्या तुम गाड़ी चला सकते हो?",
+          "ja": "車の運転できる？",
+          "km": "តើអ្នកបើកបរឡានបានទេ?",
+          "ko": "너 운전할 줄 알아?",
+          "ne": "तिमी गाडी चलाउन जान्दछौ?",
+          "pt": "Você sabe dirigir?",
+          "th": "แกขับรถเป็นไหม",
+          "tl": "Marunong ka bang magmaneho ng kotse?",
+          "ur": "کیا تم گاڑی چلانا جانتے ہو؟",
+          "vi": "Bạn biết lái xe không?",
+          "zh": "你会开车吗？",
+          "zh_Hant": "你會開車嗎？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຢ່າຂັບໄວເກີນໄປ ທາງນີ້ລື່ນ",
+        "romanization": "ya khap vai koein pai thang ní luen",
+        "translations": {
+          "de": "Fahr nicht zu schnell, diese Straße ist glatt.",
+          "en": "Don't drive too fast, this road is slippery.",
+          "es": "No manejes demasiado rápido, esta carretera está resbaladiza.",
+          "fr": "Ne conduis pas trop vite, cette route est glissante.",
+          "hi": "बहुत तेज़ मत चलाओ, यह सड़क फिसलन भरी है।",
+          "ja": "あまりスピードを出さないで、この道は滑りやすいよ。",
+          "km": "កុំបើកលឿនពេក ផ្លូវនេះរអិល។",
+          "ko": "너무 빨리 운전하지 마, 이 길 미끄러워.",
+          "ne": "धेरै छिटो नचलाऊ, यो बाटो चिप्लिने छ।",
+          "pt": "Não dirija rápido demais, esta estrada está escorregadia.",
+          "th": "อย่าขับเร็วเกินไป ทางนี้ลื่น",
+          "tl": "Huwag magmaneho nang masyadong mabilis, madulas ang daang ito.",
+          "ur": "بہت تیز نہ چلاؤ، یہ سڑک پھسلن والی ہے۔",
+          "vi": "Đừng lái quá nhanh, đường này trơn lắm.",
+          "zh": "别开太快，这条路很滑。",
+          "zh_Hant": "別開太快，這條路很滑。"
+        },
+        "out_of_scope_words": [
+          "ລື່ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting behind the steering wheel of a car, seen from the side, with a road stretching ahead, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປູກ": {
+    "definitions": {
+      "de": "Pflanzen/anbauen – Samen, Setzlinge oder Pflanzen in die Erde einsetzen, damit sie wachsen",
+      "en": "To plant/grow – to put seeds, seedlings, or plants into the ground so they can grow",
+      "es": "Plantar/cultivar – poner semillas, plántulas o plantas en la tierra para que crezcan",
+      "fr": "Planter/cultiver – mettre des graines, des plants ou des plantes dans la terre pour qu'ils poussent",
+      "hi": "लगाना/उगाना – बीज, पौधे या कलम को जमीन में डालना ताकि वे उग सकें",
+      "ja": "植える/育てる – 種、苗、または植物を土に植えて育てること",
+      "km": "ដាំ/ដុះ – យកគ្រាប់ ដើមពោត ឬរុក្ខជាតិដាក់ក្នុងដីឱ្យវាដុះលូតលាស់",
+      "ko": "심다/재배하다 – 씨앗, 모종, 또는 식물을 땅에 심어 자라게 하다",
+      "ne": "लगाउनु/उमार्नु – बीउ, बिरुवा वा बोट जमिनमा राख्नु ताकि तिनीहरू हुर्किन सकून",
+      "pt": "Plantar/cultivar – colocar sementes, mudas ou plantas na terra para que cresçam",
+      "th": "ปลูก – การเอาเมล็ด ต้นกล้า หรือพืชลงในดินเพื่อให้เจริญเติบโต",
+      "tl": "Magtanim/palaguin – maglagay ng mga buto, punla, o halaman sa lupa upang lumago",
+      "ur": "لگانا/اگانا – بیج، پودے یا پودوں کو زمین میں لگانا تاکہ وہ اگ سکیں",
+      "vi": "Trồng/gieo – đặt hạt giống, cây con hoặc cây vào đất để chúng phát triển",
+      "zh": "种/种植 – 将种子、幼苗或植物种入土中，使其生长",
+      "zh_Hant": "種/種植 – 將種子、幼苗或植物種入土中，使其生長"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/puːk˦˥/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ປູກຜັກຢູ່ສວນຫຼັງເຮືອນ",
+        "romanization": "mae puk phak yu suan lang hueang",
+        "translations": {
+          "de": "Meine Mutter pflanzt Gemüse im Garten hinter dem Haus.",
+          "en": "Mom is growing vegetables in the garden behind the house.",
+          "es": "Mamá cultiva verduras en el jardín detrás de la casa.",
+          "fr": "Maman fait pousser des légumes dans le jardin derrière la maison.",
+          "hi": "माँ घर के पीछे बगीचे में सब्जियाँ उगाती हैं।",
+          "ja": "お母さんは家の裏の庭で野菜を育てている。",
+          "km": "ម្ដាយដាំបន្លែនៅក្នុងសួនចំការខាងក្រោយផ្ទះ។",
+          "ko": "엄마가 집 뒤 텃밭에서 채소를 키우고 있어.",
+          "ne": "आमा घरको पछाडिको बगैंचामा तरकारी लगाउनुहुन्छ।",
+          "pt": "A mãe cultiva verduras no jardim atrás de casa.",
+          "th": "แม่ปลูกผักอยู่ที่สวนหลังบ้าน",
+          "tl": "Nagtatanim ng gulay ang nanay sa hardin sa likod ng bahay.",
+          "ur": "ماں گھر کے پیچھے باغ میں سبزیاں اگاتی ہیں۔",
+          "vi": "Mẹ trồng rau ở vườn sau nhà.",
+          "zh": "妈妈在房子后面的菜园种蔬菜。",
+          "zh_Hant": "媽媽在房子後面的菜園種蔬菜。"
+        },
+        "out_of_scope_words": [
+          "ສວນ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາຢາກປູກຕົ້ນໄມ້ໃນເຮືອນ",
+        "romanization": "hao yak puk ton mai nai hueang",
+        "translations": {
+          "de": "Ich möchte Bäume/Pflanzen im Haus anpflanzen.",
+          "en": "I want to grow plants inside the house.",
+          "es": "Quiero cultivar plantas dentro de la casa.",
+          "fr": "Je veux faire pousser des plantes à l'intérieur de la maison.",
+          "hi": "मैं घर के अंदर पेड़-पौधे लगाना चाहता/चाहती हूँ।",
+          "ja": "家の中に植物を育てたい。",
+          "km": "ខ្ញុំចង់ដាំដើមឈើនៅក្នុងផ្ទះ។",
+          "ko": "나는 집 안에 화초를 키우고 싶어.",
+          "ne": "मलाई घरभित्र बिरुवा लगाउन मन छ।",
+          "pt": "Eu quero cultivar plantas dentro de casa.",
+          "th": "เราอยากปลูกต้นไม้ในบ้าน",
+          "tl": "Gusto kong magtanim ng halaman sa loob ng bahay.",
+          "ur": "میں گھر کے اندر پودے لگانا چاہتا/چاہتی ہوں۔",
+          "vi": "Tôi muốn trồng cây trong nhà.",
+          "zh": "我想在家里种植物。",
+          "zh_Hant": "我想在家裡種植物。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person gently placing a small green seedling into dark brown soil with both hands, a small garden setting, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫວັດ": {
+    "definitions": {
+      "de": "Erkältung/Grippe – eine häufige Viruserkrankung mit Symptomen wie laufender Nase, Husten, Fieber und Kopfschmerzen",
+      "en": "Cold/flu – a common viral illness with symptoms such as runny nose, cough, fever, and headache",
+      "es": "Resfriado/gripe – enfermedad viral común con síntomas como nariz mocosa, tos, fiebre y dolor de cabeza",
+      "fr": "Rhume/grippe – maladie virale courante avec des symptômes tels que nez qui coule, toux, fièvre et maux de tête",
+      "hi": "सर्दी/फ्लू – एक सामान्य वायरल बीमारी जिसमें बहती नाक, खाँसी, बुखार और सिरदर्द जैसे लक्षण होते हैं",
+      "ja": "風邪・インフルエンザ – 鼻水、咳、発熱、頭痛などの症状を伴う一般的なウイルス性の病気",
+      "km": "ជំងឺផ្ដាសាយ/គ្រុនផ្ដាសាយ – ជំងឺវីរុសសាមញ្ញដែលមានរោគសញ្ញាដូចជា ហូរទឹកមូរ ក្អក គ្រុនក្ដៅ និងឈឺក្បាល",
+      "ko": "감기/독감 – 콧물, 기침, 발열, 두통 등의 증상을 동반하는 흔한 바이러스성 질환",
+      "ne": "रुघाखोकी/फ्लू – सामान्य भाइरल रोग जसमा नाक बग्ने, खोकी, ज्वरो र टाउको दुख्ने जस्ता लक्षणहरू हुन्छन्",
+      "pt": "Resfriado/gripe – doença viral comum com sintomas como nariz escorrendo, tosse, febre e dor de cabeça",
+      "th": "หวัด/ไข้หวัด – โรคไวรัสที่พบบ่อย มีอาการเช่น น้ำมูกไหล ไอ มีไข้ และปวดหัว",
+      "tl": "Sipon/trangkaso – karaniwang sakit na viral na may mga sintomas tulad ng sipon, ubo, lagnat, at sakit ng ulo",
+      "ur": "نزلہ/فلو – ایک عام وائرل بیماری جس کی علامات میں ناک بہنا، کھانسی، بخار اور سردرد شامل ہیں",
+      "vi": "Cảm lạnh/cúm – bệnh do virus phổ biến với các triệu chứng như sổ mũi, ho, sốt và đau đầu",
+      "zh": "感冒/流感 – 常见的病毒性疾病，症状包括流鼻涕、咳嗽、发烧和头痛",
+      "zh_Hant": "感冒/流感 – 常見的病毒性疾病，症狀包括流鼻涕、咳嗽、發燒和頭痛"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/wat˦˥/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍເປັນຫວັດ ນ້ຳມູກໄຫຼຕະຫຼອດ",
+        "romanization": "khoi pen wat nam-muk lai ta-lot",
+        "translations": {
+          "de": "Ich habe eine Erkältung, meine Nase läuft die ganze Zeit.",
+          "en": "I have a cold, my nose keeps running.",
+          "es": "Tengo un resfriado, me corre la nariz todo el tiempo.",
+          "fr": "J'ai un rhume, j'ai le nez qui coule tout le temps.",
+          "hi": "मुझे सर्दी है, नाक लगातार बह रही है।",
+          "ja": "風邪をひいて、ずっと鼻水が出てる。",
+          "km": "ខ្ញុំឈឺផ្ដាសាយ ហូរទឹកមូរទាំងអស់។",
+          "ko": "나 감기 걸렸어, 코가 계속 흘러.",
+          "ne": "मलाई रुघाखोकी भएको छ, नाक लगातार बगिरहेको छ।",
+          "pt": "Estou resfriado(a), meu nariz fica escorrendo o tempo todo.",
+          "th": "ฉันเป็นหวัด น้ำมูกไหลตลอด",
+          "tl": "May sipon ako, patuloy na umaagos ang aking ilong.",
+          "ur": "مجھے نزلہ ہو گیا ہے، ناک مسلسل بہہ رہی ہے۔",
+          "vi": "Tôi bị cảm, mũi cứ chảy mãi.",
+          "zh": "我感冒了，鼻涕一直流。",
+          "zh_Hant": "我感冒了，鼻涕一直流。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳມູກ",
+          "ຕະຫຼອດ"
+        ]
+      },
+      {
+        "lao_script": "ອາກາດປ່ຽນແປງງ່າຍເປັນຫວັດ",
+        "romanization": "a-kat pian-paeng ngai pen wat",
+        "translations": {
+          "de": "Wenn das Wetter wechselt, erkältet man sich leicht.",
+          "en": "When the weather changes, it's easy to catch a cold.",
+          "es": "Cuando cambia el clima, es fácil resfriarse.",
+          "fr": "Quand le temps change, on attrape facilement un rhume.",
+          "hi": "मौसम बदलने पर आसानी से सर्दी हो जाती है।",
+          "ja": "天気が変わると、風邪をひきやすい。",
+          "km": "នៅពេលអាកាសធាតុប្រែប្រួល ងាយឈឺផ្ដាសាយ។",
+          "ko": "날씨가 바뀌면 감기 걸리기 쉬워.",
+          "ne": "मौसम परिवर्तन हुँदा सजिलै रुघाखोकी लाग्छ।",
+          "pt": "Quando o tempo muda, é fácil pegar um resfriado.",
+          "th": "อากาศเปลี่ยนแปลงง่ายเป็นหวัด",
+          "tl": "Kapag nagbabago ang panahon, madaling magkasipon.",
+          "ur": "موسم بدلنے پر آسانی سے نزلہ ہو جاتا ہے۔",
+          "vi": "Khi thời tiết thay đổi, dễ bị cảm lắm.",
+          "zh": "天气变化容易感冒。",
+          "zh_Hant": "天氣變化容易感冒。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ",
+          "ປ່ຽນແປງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a red nose, sneezing or holding a tissue to their nose, with small droplets illustrated around them, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

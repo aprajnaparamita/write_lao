@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກໍ",
+  "definitions": {
+    "de": "auch; dann; so (Diskurspartikel, drückt Folge oder Hinzufügung aus)",
+    "en": "also; then; so (discourse particle expressing sequence or addition)",
+    "es": "también; entonces; así (partícula discursiva que indica secuencia o adición)",
+    "fr": "aussi; alors; ainsi (particule discursive exprimant la suite ou l'addition)",
+    "hi": "भी; तो; फिर (क्रम या जोड़ दिखाने वाला लघु-शब्द)",
+    "ja": "〜も／それで／すると（話順や付加を示す談話助詞）",
+    "km": "ក៏ (បច្ច័យបង្ហាញលំដាប់ ឬបន្ថែម)",
+    "ko": "~도／그래서／그러면 (연속이나 추가를 나타내는 담화 조사)",
+    "ne": "पनि／त／त्यसपछि (क्रम वा जोड जनाउने विभक्ति)",
+    "pt": "também; então; assim (partícula discursiva de sequência ou adição)",
+    "th": "ก็ (คำเสริมแสดงลำดับหรือเสริมความ)",
+    "tl": "rin／kaya／tapos (pang-abay na nagpapakita ng sunod o karagdagan)",
+    "ur": "بھی؛ تو؛ پھر (سلسلہ یا اضافہ کا ذرّہ)",
+    "vi": "cũng; thì; vậy là (tiểu từ diễn ngôn biểu thị tiếp theo hoặc bổ sung)",
+    "zh": "也／就／便（表示顺承或附加的话语助词）",
+    "zh_Hant": "也／就／便（表示順承或附加的話語助詞）"
+  },
+  "definition_en": "also; then; so (discourse particle expressing sequence or addition)",
+  "romanization": "kɔ̀ː",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ກໍ ຢາກ ໄປ",
+      "romanization": "kʰɔ̂ːj kɔ̀ː jȁːk pàj",
+      "translation_en": "I also want to go."
+    },
+    {
+      "lao_script": "ຝົນ ຕົກ ລາວ ກໍ ບໍ່ ໄປ",
+      "romanization": "fǒn tōk láːw kɔ̀ː bɔ̀ː pàj",
+      "translation_en": "It's raining, so he/she doesn't go."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon thought bubbles connected by an arrow with a plus sign, representing sequence or addition, suitable for a language learning app, clean white background, minimalist style."
+}

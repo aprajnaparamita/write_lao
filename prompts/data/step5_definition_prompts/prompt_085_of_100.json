@@ -1,0 +1,388 @@
+{
+  "ຄ່ອຍ": {
+    "definitions": {
+      "de": "Langsam oder sanft; beschreibt eine Handlung, die mit geringer Geschwindigkeit oder Kraft ausgeführt wird",
+      "en": "Slowly or softly; describes an action done at a gentle pace or with light force",
+      "es": "Lentamente o suavemente; describe una acción realizada a un ritmo tranquilo o con poca fuerza",
+      "fr": "Lentement ou doucement; décrit une action effectuée à un rythme calme ou avec peu de force",
+      "hi": "धीरे या धीमे से; किसी काम को आराम से या हल्के तरीके से करने का वर्णन करता है",
+      "ja": "ゆっくりまたは静かに；穏やかなペースや軽い力で行われる動作を表す副詞",
+      "km": "យឺតៗ ឬស្រទន់; ពិពណ៌នាអំពីសកម្មភាពដែលធ្វើឡើងដោយល្បឿនយឺត ឬដោយកម្លាំងស្រាល",
+      "ko": "천천히 또는 부드럽게; 느린 속도나 가벼운 힘으로 행해지는 동작을 묘사하는 부사",
+      "ne": "बिस्तारै वा नरमसँग; कुनै काम सुस्त गतिमा वा हल्का शक्तिसँग गरिएको वर्णन गर्छ",
+      "pt": "Devagar ou suavemente; descreve uma ação realizada em ritmo calmo ou com pouca força",
+      "th": "อย่างช้าๆ หรืออย่างเบาๆ; ใช้บรรยายการกระทำที่ทำด้วยความช้าหรือด้วยแรงเบา",
+      "tl": "Dahan-dahan o mahinahon; naglalarawan ng isang kilos na ginagawa nang mabagal o magaan",
+      "ur": "آہستہ یا نرمی سے؛ کسی کام کو سکون سے یا ہلکی طاقت سے کرنے کو بیان کرتا ہے",
+      "vi": "Từ từ hoặc nhẹ nhàng; mô tả một hành động được thực hiện với tốc độ chậm hoặc lực nhẹ",
+      "zh": "慢慢地或轻柔地；描述以缓慢的速度或轻微的力量进行的动作",
+      "zh_Hant": "慢慢地或輕柔地；描述以緩慢的速度或輕微的力量進行的動作"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "kʰɔ̀j",
+    "examples": [
+      {
+        "lao_script": "ຄ່ອຍໆ ເດີນ, ບ່ອນນີ້ລື່ນ",
+        "romanization": "kʰɔ̀j kʰɔ̀j dəːn, bɔ̀ːn niː lɯːn",
+        "translations": {
+          "de": "Geh langsam, hier ist es rutschig.",
+          "en": "Walk slowly, it's slippery here.",
+          "es": "Camina despacio, aquí está resbaladizo.",
+          "fr": "Marche doucement, c'est glissant ici.",
+          "hi": "धीरे-धीरे चलो, यहाँ फिसलन है।",
+          "ja": "ゆっくり歩いて、ここは滑りやすいよ。",
+          "km": "ដើរយឺតៗ ទីនេះរអិល។",
+          "ko": "천천히 걸어, 여기 미끄러워.",
+          "ne": "बिस्तारै हिड, यहाँ चिप्लो छ।",
+          "pt": "Anda devagar, aqui é escorregadio.",
+          "th": "เดินช้าๆ หน่อย ที่นี่มันลื่น",
+          "tl": "Maglakad nang dahan-dahan, madulas dito.",
+          "ur": "آہستہ چلو، یہاں پھسلن ہے۔",
+          "vi": "Đi từ từ thôi, chỗ này trơn lắm.",
+          "zh": "慢慢走，这里很滑。",
+          "zh_Hant": "慢慢走，這裡很滑。"
+        },
+        "out_of_scope_words": [
+          "ລື່ນ"
+        ]
+      },
+      {
+        "lao_script": "ເວົ້າຄ່ອຍໆ ໜ່ອຍ, ຂ້ອຍບໍ່ໄດ້ຍິນ",
+        "romanization": "wâo kʰɔ̀j kʰɔ̀j nɔ̀j, kʰɔ̂j bɔ̀ dâj ɲin",
+        "translations": {
+          "de": "Sprich etwas leiser, ich kann dich nicht hören.",
+          "en": "Speak a little softer, I can't hear you.",
+          "es": "Habla un poco más suave, no te escucho.",
+          "fr": "Parle un peu plus doucement, je ne t'entends pas.",
+          "hi": "थोड़ा धीमे बोलो, मुझे सुनाई नहीं दे रहा।",
+          "ja": "もう少し小さな声で話して、聞こえないよ。",
+          "km": "និយាយស្រទន់ម្តង ខ្ញុំមិនឮទេ។",
+          "ko": "좀 더 작게 말해줘, 안 들려.",
+          "ne": "अलि बिस्तारै बोल, मलाई सुनिएन।",
+          "pt": "Fala um pouco mais baixo, não estou ouvindo.",
+          "th": "พูดเบาๆ หน่อย ฉันไม่ได้ยิน",
+          "tl": "Magsalita nang dahan-dahan, hindi kita naririnig.",
+          "ur": "ذرا آہستہ بولو، مجھے سنائی نہیں دے رہا۔",
+          "vi": "Nói nhỏ thôi, tôi không nghe được.",
+          "zh": "说话轻一点，我听不到。",
+          "zh_Hant": "說話輕一點，我聽不到。"
+        },
+        "out_of_scope_words": [
+          "ໄດ້ຍິນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking carefully and slowly on a slippery wet floor, with slow-motion lines around their feet to indicate slow movement, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊຸມ": {
+    "definitions": {
+      "de": "Gemeinschaft oder Gruppe; wird oft in zusammengesetzten Wörtern verwendet, um eine Versammlung von Menschen oder eine Gemeinschaft zu bezeichnen",
+      "en": "Community or group; often used in compound words to indicate a gathering of people or a collective community",
+      "es": "Comunidad o grupo; frecuentemente usado en palabras compuestas para indicar una reunión de personas o una comunidad colectiva",
+      "fr": "Communauté ou groupe; souvent utilisé dans des mots composés pour désigner un rassemblement de personnes ou une communauté collective",
+      "hi": "समुदाय या समूह; अक्सर यौगिक शब्दों में लोगों की सभा या सामूहिक समुदाय को दर्शाने के लिए उपयोग किया जाता है",
+      "ja": "コミュニティまたはグループ；人々の集まりや集合的なコミュニティを示す複合語に使われることが多い",
+      "km": "សហគមន៍ ឬក្រុម; ជារឿយៗប្រើក្នុងពាក្យផ្សំដើម្បីបង្ហាញពីការប្រមូលផ្តុំមនុស្ស ឬសហគមន៍រួម",
+      "ko": "공동체 또는 그룹; 사람들의 모임이나 집단적 공동체를 나타내는 복합어에 자주 사용됨",
+      "ne": "समुदाय वा समूह; प्रायः यौगिक शब्दहरूमा मानिसहरूको भेला वा सामूहिक समुदाय जनाउन प्रयोग हुन्छ",
+      "pt": "Comunidade ou grupo; frequentemente usado em palavras compostas para indicar uma reunião de pessoas ou uma comunidade coletiva",
+      "th": "ชุมชนหรือกลุ่ม; มักใช้ในคำประสมเพื่อบ่งบอกถึงการรวมตัวของผู้คนหรือชุมชนโดยรวม",
+      "tl": "Komunidad o grupo; madalas na ginagamit sa mga tambalang salita upang ipahiwatig ang pagtitipon ng mga tao o isang kolektibong komunidad",
+      "ur": "برادری یا گروہ؛ اکثر مرکب الفاظ میں لوگوں کے اجتماع یا اجتماعی برادری کو ظاہر کرنے کے لیے استعمال ہوتا ہے",
+      "vi": "Cộng đồng hoặc nhóm; thường được dùng trong các từ ghép để chỉ sự tập hợp của mọi người hoặc một cộng đồng tập thể",
+      "zh": "社区或群体；常用于复合词中，表示人群的聚集或集体社区",
+      "zh_Hant": "社區或群體；常用於複合詞中，表示人群的聚集或集體社區"
+    },
+    "part_of_speech": "noun",
+    "romanization": "súm",
+    "examples": [
+      {
+        "lao_script": "ຊຸມຊົນນີ້ຄົນດີຫຼາຍ",
+        "romanization": "súm sʰon niː kʰon diː laːj",
+        "translations": {
+          "de": "In dieser Gemeinschaft gibt es viele gute Menschen.",
+          "en": "There are many good people in this community.",
+          "es": "Hay mucha gente buena en esta comunidad.",
+          "fr": "Il y a beaucoup de bonnes personnes dans cette communauté.",
+          "hi": "इस समुदाय में बहुत अच्छे लोग हैं।",
+          "ja": "この地域にはいい人がたくさんいる。",
+          "km": "សហគមន៍នេះមានមនុស្សល្អច្រើន។",
+          "ko": "이 마을에는 좋은 사람이 많아.",
+          "ne": "यस समुदायमा धेरै राम्रा मान्छेहरू छन्।",
+          "pt": "Tem muita gente boa nessa comunidade.",
+          "th": "ชุมชนนี้มีคนดีเยอะมาก",
+          "tl": "Maraming mabuting tao sa komunidad na ito.",
+          "ur": "اس برادری میں بہت اچھے لوگ ہیں۔",
+          "vi": "Cộng đồng này có nhiều người tốt lắm.",
+          "zh": "这个社区里有很多好人。",
+          "zh_Hant": "這個社區裡有很多好人。"
+        },
+        "out_of_scope_words": [
+          "ຊຸມຊົນ"
+        ]
+      },
+      {
+        "lao_script": "ພວກເຮົາຊຸມກັນທຸກວັນອາທິດ",
+        "romanization": "pʰûak hao súm kan tʰúk wan aː tʰít",
+        "translations": {
+          "de": "Wir versammeln uns jeden Sonntag.",
+          "en": "We gather together every Sunday.",
+          "es": "Nos reunimos todos los domingos.",
+          "fr": "Nous nous rassemblons tous les dimanches.",
+          "hi": "हम हर रविवार को एकत्र होते हैं।",
+          "ja": "私たちは毎週日曜日に集まる。",
+          "km": "ពួកយើងប្រមូលផ្តុំគ្នារៀងរាល់ថ្ងៃអាទិត្យ។",
+          "ko": "우리는 매주 일요일마다 모여.",
+          "ne": "हामी हरेक आइतबार भेला हुन्छौं।",
+          "pt": "A gente se reúne todo domingo.",
+          "th": "พวกเราชุมกันทุกวันอาทิตย์",
+          "tl": "Nagtitipon kami tuwing Linggo.",
+          "ur": "ہم ہر اتوار کو اکٹھے ہوتے ہیں۔",
+          "vi": "Chúng tôi tụ tập với nhau mỗi Chủ nhật.",
+          "zh": "我们每个星期天都聚在一起。",
+          "zh_Hant": "我們每個星期天都聚在一起。"
+        },
+        "out_of_scope_words": [
+          "ອາທິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a diverse group of cheerful people standing together in a circle forming a community, clean white background, bright warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ດົນ": {
+    "definitions": {
+      "de": "Eine lange Zeit; beschreibt eine Zeitspanne, die als lang oder ausgedehnt empfunden wird",
+      "en": "A long time; describes a period of time that is lengthy or extended",
+      "es": "Mucho tiempo; describe un período de tiempo que es largo o prolongado",
+      "fr": "Longtemps; décrit une période de temps qui est longue ou prolongée",
+      "hi": "लंबे समय तक; एक ऐसी समय अवधि का वर्णन करता है जो लंबी या विस्तृत हो",
+      "ja": "長い時間；長く続く時間の期間を表す形容詞",
+      "km": "ពេលយូរ; ពិពណ៌នាអំពីរយៈពេលដែលវែង ឬបន្តយូរ",
+      "ko": "오랜 시간; 길거나 오래 지속되는 시간을 묘사하는 형용사",
+      "ne": "लामो समय; एउटा समय अवधिलाई वर्णन गर्छ जुन लामो वा विस्तारित छ",
+      "pt": "Muito tempo; descreve um período de tempo longo ou prolongado",
+      "th": "นานหรือเป็นเวลานาน; ใช้บรรยายช่วงเวลาที่ยาวนานหรือต่อเนื่อง",
+      "tl": "Matagal; naglalarawan ng isang tagal ng panahon na mahaba o matagal",
+      "ur": "کافی عرصہ؛ ایک ایسے وقت کی مدت کو بیان کرتا ہے جو لمبی یا طویل ہو",
+      "vi": "Lâu; mô tả một khoảng thời gian dài hoặc kéo dài",
+      "zh": "很长时间；描述一段漫长或延续的时间",
+      "zh_Hant": "很長時間；描述一段漫長或延續的時間"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "dón",
+    "examples": [
+      {
+        "lao_script": "ລໍຖ້າດົນຫຼາຍ, ເຈົ້າໄປໃສມາ?",
+        "romanization": "lɔː tʰâː dón laːj, tɕâo bpaj sǎj maː",
+        "translations": {
+          "de": "Ich habe sehr lange gewartet, wo warst du?",
+          "en": "I waited for such a long time, where did you go?",
+          "es": "Esperé mucho tiempo, ¿adónde fuiste?",
+          "fr": "J'ai attendu très longtemps, où es-tu allé(e) ?",
+          "hi": "बहुत देर तक इंतजार किया, तुम कहाँ गए थे?",
+          "ja": "ずっと待ってたよ、どこ行ってたの？",
+          "km": "រង់ចាំយូរណាស់ អ្នកទៅណាមក?",
+          "ko": "오래 기다렸잖아, 어디 갔다 왔어?",
+          "ne": "धेरै लामो समय पर्खें, तिमी कहाँ गएका थियौ?",
+          "pt": "Fiquei esperando muito tempo, onde você foi?",
+          "th": "รอนานมากเลย แกไปไหนมา?",
+          "tl": "Naghintay ako nang matagal, saan ka pumunta?",
+          "ur": "بہت دیر تک انتظار کیا، تم کہاں گئے تھے؟",
+          "vi": "Chờ lâu quá, bạn đi đâu về vậy?",
+          "zh": "等了好久，你去哪里了？",
+          "zh_Hant": "等了好久，你去哪裡了？"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ"
+        ]
+      },
+      {
+        "lao_script": "ບໍ່ໄດ້ເຫັນກັນດົນແລ້ວ, ສະບາຍດີບໍ?",
+        "romanization": "bɔ̀ dâj hěn kan dón lɛ́ːw, sa baːj diː bɔ̄",
+        "translations": {
+          "de": "Wir haben uns lange nicht gesehen, wie geht's dir?",
+          "en": "We haven't seen each other for a long time, how are you?",
+          "es": "No nos hemos visto en mucho tiempo, ¿cómo estás?",
+          "fr": "Ça fait longtemps qu'on ne s'est pas vus, comment tu vas ?",
+          "hi": "काफी समय से नहीं मिले, कैसे हो?",
+          "ja": "久しぶり、元気だった？",
+          "km": "យូរហើយមិនបានជួបគ្នា សុខសប្បាយទេ?",
+          "ko": "오랫동안 못 봤다, 잘 지냈어?",
+          "ne": "धेरै समय देखि भेटिएको थिएनौं, कस्तो छ?",
+          "pt": "Faz tempo que não nos vemos, como você está?",
+          "th": "ไม่ได้เจอกันนานแล้ว สบายดีไหม?",
+          "tl": "Matagal na tayong hindi nagkikita, kumusta ka?",
+          "ur": "بہت عرصے سے ملے نہیں تھے، کیسے ہو؟",
+          "vi": "Lâu rồi không gặp nhau, bạn có khỏe không?",
+          "zh": "好久不见了，你还好吗？",
+          "zh_Hant": "好久不見了，你還好嗎？"
+        },
+        "out_of_scope_words": [
+          "ສະບາຍດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person sitting on a bench looking at a clock with long hands emphasizing the passage of a long time, with a sunset in the background to suggest duration, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບາດ": {
+    "definitions": {
+      "de": "Eine Wunde oder Verletzung auf der Haut; kann auch als Lehnwort für die thailändische Währung Baht verwendet werden",
+      "en": "A wound or cut on the body; can also be used as a loanword referring to the Thai currency, baht",
+      "es": "Una herida o cortada en el cuerpo; también puede usarse como préstamo lingüístico para referirse a la moneda tailandesa, el baht",
+      "fr": "Une blessure ou une coupure sur le corps; peut aussi être utilisé comme emprunt pour désigner la monnaie thaïlandaise, le baht",
+      "hi": "शरीर पर घाव या कट; इसे थाई मुद्रा 'बाट' के लिए उधार शब्द के रूप में भी इस्तेमाल किया जा सकता है",
+      "ja": "体の傷や切り傷；タイの通貨バーツを指す借用語としても使われる",
+      "km": "របួស ឬស្នាមចែកនៅលើរាងកាយ; អាចប្រើជាពាក្យខ្ចីសម្រាប់រូបិយប័ណ្ណថៃ គឺបាត",
+      "ko": "몸의 상처나 베인 곳; 태국 화폐 바트를 나타내는 외래어로도 사용됨",
+      "ne": "शरीरमा घाउ वा काटेको ठाउँ; थाई मुद्रा 'बाट' को लागि उधारिएको शब्दको रूपमा पनि प्रयोग हुन सक्छ",
+      "pt": "Uma ferida ou corte no corpo; também pode ser usado como empréstimo linguístico referindo-se à moeda tailandesa, o baht",
+      "th": "บาดแผลหรือรอยตัดบนร่างกาย; อาจใช้เป็นคำยืมหมายถึงสกุลเงินไทย คือ บาท",
+      "tl": "Isang sugat o hiwa sa katawan; maaari ring gamitin bilang hiniram na salita para sa pera ng Thailand na baht",
+      "ur": "جسم پر زخم یا کٹ؛ تھائی کرنسی 'بات' کے لیے مستعار لفظ کے طور پر بھی استعمال ہو سکتا ہے",
+      "vi": "Vết thương hoặc vết cắt trên cơ thể; cũng có thể được dùng như từ vay mượn để chỉ đơn vị tiền tệ Thái Lan, baht",
+      "zh": "身体上的伤口或割伤；也可作为借词指泰国货币泰铢",
+      "zh_Hant": "身體上的傷口或割傷；也可作為借詞指泰國貨幣泰銖"
+    },
+    "part_of_speech": "noun",
+    "romanization": "bàːt",
+    "examples": [
+      {
+        "lao_script": "ມີດຕັດມື, ບາດໃຫຍ່ຫຼາຍ",
+        "romanization": "míːt tàt mɯː, bàːt ɲàj laːj",
+        "translations": {
+          "de": "Das Messer hat meine Hand geschnitten, es ist eine große Wunde.",
+          "en": "The knife cut my hand, it's a big wound.",
+          "es": "El cuchillo me cortó la mano, es una herida grande.",
+          "fr": "Le couteau m'a coupé la main, c'est une grande blessure.",
+          "hi": "चाकू ने हाथ काट दिया, बड़ा घाव हो गया।",
+          "ja": "ナイフで手を切っちゃった、大きな傷だよ。",
+          "km": "កាំបិតកាត់ដៃ របួសធំណាស់។",
+          "ko": "칼에 손을 베였어, 상처가 엄청 커.",
+          "ne": "चक्कुले हात काट्यो, ठूलो घाउ भयो।",
+          "pt": "A faca cortou minha mão, é uma ferida grande.",
+          "th": "มีดตัดมือ บาดแผลใหญ่มากเลย",
+          "tl": "Naputol ang aking kamay ng kutsilyo, malaking sugat.",
+          "ur": "چاقو نے ہاتھ کاٹ دیا، بہت بڑا زخم ہے۔",
+          "vi": "Con dao cắt tay tôi, vết thương rất lớn.",
+          "zh": "刀割了手，伤口很大。",
+          "zh_Hant": "刀割了手，傷口很大。"
+        },
+        "out_of_scope_words": [
+          "ມີດ",
+          "ຕັດ"
+        ]
+      },
+      {
+        "lao_script": "ບາດນີ້ຕ້ອງໄປຫາໝໍ",
+        "romanization": "bàːt niː tɔ̂ŋ bpaj haː mɔ̌ː",
+        "translations": {
+          "de": "Diese Wunde muss zum Arzt gebracht werden.",
+          "en": "This wound needs to see a doctor.",
+          "es": "Esta herida necesita ir al médico.",
+          "fr": "Cette blessure nécessite une consultation médicale.",
+          "hi": "इस घाव के लिए डॉक्टर के पास जाना होगा।",
+          "ja": "この傷は医者に診てもらわないと。",
+          "km": "របួសនេះត្រូវទៅជួបគ្រូពេទ្យ។",
+          "ko": "이 상처는 병원에 가봐야 해.",
+          "ne": "यो घाउको लागि डाक्टरकहाँ जानु पर्छ।",
+          "pt": "Essa ferida precisa ser vista por um médico.",
+          "th": "บาดแผลนี้ต้องไปหาหมอ",
+          "tl": "Ang sugat na ito ay kailangang ipakita sa doktor.",
+          "ur": "اس زخم کے لیے ڈاکٹر کے پاس جانا ضروری ہے۔",
+          "vi": "Vết thương này phải đi gặp bác sĩ.",
+          "zh": "这个伤口需要去看医生。",
+          "zh_Hant": "這個傷口需要去看醫生。"
+        },
+        "out_of_scope_words": [
+          "ໝໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand with a small bandage covering a wound or cut, with a first aid kit nearby, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ປາວ": {
+    "definitions": {
+      "de": "Ankündigen oder ausrufen; ein weniger gebräuchliches Verb, das das öffentliche Bekanntmachen von etwas beschreibt",
+      "en": "To announce or proclaim; a less common verb describing the act of making something known publicly or loudly",
+      "es": "Anunciar o proclamar; un verbo menos común que describe el acto de hacer algo conocido públicamente o en voz alta",
+      "fr": "Annoncer ou proclamer; un verbe moins courant décrivant l'acte de rendre quelque chose connu publiquement ou à voix haute",
+      "hi": "घोषणा करना या प्रचार करना; एक कम सामान्य क्रिया जो किसी बात को सार्वजनिक रूप से या जोर से बताने की क्रिया का वर्णन करती है",
+      "ja": "発表する、宣言する；何かを公に、または大声で知らせる行為を表す比較的珍しい動詞",
+      "km": "ប្រកាស ឬអំពាវនាវ; ជាកិរិយាស័ព្ទដែលប្រើតិចជាងគេ ពិពណ៌នាអំពីការធ្វើឱ្យមានការដឹងជាសាធារណៈ ឬឮឮ",
+      "ko": "발표하다 또는 선언하다; 무언가를 공개적으로 또는 크게 알리는 행위를 묘사하는 덜 일반적인 동사",
+      "ne": "घोषणा गर्नु वा प्रचार गर्नु; कुनै कुरा सार्वजनिक रूपमा वा ठूलो स्वरमा जानकारी गराउने कार्यलाई वर्णन गर्ने कम सामान्य क्रिया",
+      "pt": "Anunciar ou proclamar; um verbo menos comum que descreve o ato de tornar algo conhecido publicamente ou em voz alta",
+      "th": "ประกาศหรือบอกกล่าว; กริยาที่ใช้น้อย หมายถึงการทำให้สิ่งใดสิ่งหนึ่งเป็นที่รู้จักต่อสาธารณะหรืออย่างดัง",
+      "tl": "Mag-anunsyo o mag-proklamasyon; isang hindi karaniwang pandiwa na naglalarawan ng pagpapaalam ng isang bagay sa publiko o malakas",
+      "ur": "اعلان کرنا یا منادی کرنا؛ ایک کم عام فعل جو کسی بات کو عوامی طور پر یا اونچی آواز میں بتانے کے عمل کو بیان کرتا ہے",
+      "vi": "Thông báo hoặc tuyên bố; một động từ ít phổ biến hơn mô tả hành động làm cho điều gì đó được biết đến công khai hoặc to tiếng",
+      "zh": "宣布或宣告；一个较少见的动词，描述公开或大声告知某事的行为",
+      "zh_Hant": "宣布或宣告；一個較少見的動詞，描述公開或大聲告知某事的行為"
+    },
+    "part_of_speech": "verb",
+    "romanization": "páːw",
+    "examples": [
+      {
+        "lao_script": "ລາວປາວໃຫ້ທຸກຄົນຮູ້ຂ່າວດີ",
+        "romanization": "láːw páːw hâj tʰúk kʰon húː kʰào díː",
+        "translations": {
+          "de": "Er/Sie verkündete die guten Nachrichten an alle.",
+          "en": "He/She announced the good news to everyone.",
+          "es": "Él/Ella anunció la buena noticia a todos.",
+          "fr": "Il/Elle a annoncé la bonne nouvelle à tout le monde.",
+          "hi": "उसने सभी को खुशखबरी सुनाई।",
+          "ja": "彼/彼女はみんなに良いニュースを告げた。",
+          "km": "គាត់ប្រកាសដំណឹងល្អឱ្យអ្នកទាំងអស់ស្តាប់។",
+          "ko": "그/그녀는 모두에게 좋은 소식을 알렸어.",
+          "ne": "उसले सबैलाई राम्रो खबर सुनायो।",
+          "pt": "Ele/Ela anunciou a boa notícia para todos.",
+          "th": "เขา/เธอประกาศข่าวดีให้ทุกคนรู้",
+          "tl": "Inanunsyo niya ang magandang balita sa lahat.",
+          "ur": "اس نے سب کو خوشخبری سنائی۔",
+          "vi": "Anh ấy/Cô ấy thông báo tin vui cho mọi người.",
+          "zh": "他/她向所有人宣布了好消息。",
+          "zh_Hant": "他/她向所有人宣布了好消息。"
+        },
+        "out_of_scope_words": [
+          "ຂ່າວດີ"
+        ]
+      },
+      {
+        "lao_script": "ປາວໃຫ້ຮູ້ກ່ອນ ບໍ່ດັ່ງນັ້ນຄົນບໍ່ມາ",
+        "romanization": "páːw hâj húː kɔ̀ːn, bɔ̀ daŋ nan kʰon bɔ̀ maː",
+        "translations": {
+          "de": "Kündige es vorher an, sonst kommen die Leute nicht.",
+          "en": "Announce it beforehand, otherwise people won't come.",
+          "es": "Anúncialo de antemano, de lo contrario la gente no vendrá.",
+          "fr": "Annonce-le à l'avance, sinon les gens ne viendront pas.",
+          "hi": "पहले से बता दो, वरना लोग नहीं आएंगे।",
+          "ja": "事前に知らせないと、みんな来ないよ。",
+          "km": "ប្រកាសឱ្យដឹងជាមុន បើមិនដូច្នោះទេ មនុស្សនឹងមិនមក។",
+          "ko": "미리 알려줘야 해, 안 그러면 사람들이 안 와.",
+          "ne": "पहिले नै बताऊ, नत्र मान्छेहरू आउँदैनन्।",
+          "pt": "Avisa antes, senão as pessoas não vêm.",
+          "th": "ประกาศให้รู้ก่อน yokwise คนจะไม่มา",
+          "tl": "Ipaalam nang maaga, kung hindi ay hindi darating ang mga tao.",
+          "ur": "پہلے سے اعلان کر دو، ورنہ لوگ نہیں آئیں گے۔",
+          "vi": "Thông báo trước đi, không thì mọi người không đến đâu.",
+          "zh": "提前宣布，否则人们不会来。",
+          "zh_Hant": "提前宣布，否則人們不會來。"
+        },
+        "out_of_scope_words": [
+          "ບໍ່ດັ່ງນັ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person using a megaphone or loudspeaker to make a public announcement, with small sound waves coming out, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

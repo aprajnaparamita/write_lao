@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫາ",
+  "definitions": {
+    "de": "Suchen / finden; auch die Zahl fünf (5)",
+    "en": "To look for / to find; also the number five (5)",
+    "es": "Buscar / encontrar; también el número cinco (5)",
+    "fr": "Chercher / trouver ; aussi le nombre cinq (5)",
+    "hi": "ढूंढना / खोजना; साथ ही संख्या पाँच (5)",
+    "ja": "探す・見つける；また数字の五（5）",
+    "km": "ស្វែងរក / រក; ក៏ជាលេខប្រាំ (5)",
+    "ko": "찾다 / 구하다; 또한 숫자 다섯(5)",
+    "ne": "खोज्नु / फेला पार्नु; साथै संख्या पाँच (5)",
+    "pt": "Procurar / encontrar; também o número cinco (5)",
+    "th": "หา / ค้นหา; ยังหมายถึงตัวเลขห้า (5)",
+    "tl": "Maghanap / hanapin; gayundin ang bilang na lima (5)",
+    "ur": "ڈھونڈنا / تلاش کرنا؛ نیز عدد پانچ (5)",
+    "vi": "Tìm kiếm / tìm thấy; cũng là số năm (5)",
+    "zh": "寻找 / 找到；也是数字五（5）",
+    "zh_Hant": "尋找 / 找到；也是數字五（5）"
+  },
+  "definition_en": "To look for / to find; also the number five (5)",
+  "romanization": "ha",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຊ່ວຍຂ້ອຍຫາກະເປົ໋າໄດ້ບໍ",
+      "romanization": "jao suay khoi ha ka-pao dai bo",
+      "translation_en": "Can you help me find my bag?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຫາວຽກໃໝ່ຢູ່ຕອນນີ້",
+      "romanization": "khoi ha wiak mai yu ton nih",
+      "translation_en": "I'm looking for a new job right now."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a magnifying glass searching for something, with a question mark nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

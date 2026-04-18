@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນະຄອນຫລວງ",
+  "definitions": {
+    "de": "Hauptstadt (eines Landes oder einer Region)",
+    "en": "Capital city (of a country or region)",
+    "es": "Ciudad capital (de un país o región)",
+    "fr": "Capitale (d'un pays ou d'une région)",
+    "hi": "राजधानी (किसी देश या क्षेत्र की)",
+    "ja": "首都（国または地域の）",
+    "km": "រាជធានី (របស់ប្រទេស ឬតំបន់)",
+    "ko": "수도 (국가나 지역의)",
+    "ne": "राजधानी (कुनै देश वा क्षेत्रको)",
+    "pt": "Capital (de um país ou região)",
+    "th": "เมืองหลวง (ของประเทศหรือภูมิภาค)",
+    "tl": "Kabisera (ng isang bansa o rehiyon)",
+    "ur": "دارالحکومت (کسی ملک یا علاقے کا)",
+    "vi": "Thủ đô (của một quốc gia hoặc vùng)",
+    "zh": "首都（一个国家或地区的）",
+    "zh_Hant": "首都（一個國家或地區的）"
+  },
+  "definition_en": "Capital city (of a country or region)",
+  "romanization": "na khon luang",
+  "lao_examples": [
+    {
+      "lao_script": "ວຽງຈັນແມ່ນນະຄອນຫລວງຂອງລາວ",
+      "romanization": "Wiang jan maen na khon luang khong Lao",
+      "translation_en": "Vientiane is the capital city of Laos."
+    },
+    {
+      "lao_script": "ເຈົ້າເຄີຍໄປນະຄອນຫລວງບໍ?",
+      "romanization": "Jao khöi pai na khon luang bo",
+      "translation_en": "Have you ever been to the capital city?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a grand government building or palace with a national flag flying above it, representing a capital city, clean white background, colorful minimalist style suitable for a language learning app."
+}

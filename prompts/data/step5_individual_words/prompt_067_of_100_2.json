@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂອບ",
+  "definitions": {
+    "de": "Rand, Kante; (in ຂອບໃຈ) danken",
+    "en": "edge, border, rim; (in ຂອບໃຈ) to thank",
+    "es": "borde, orilla, canto; (en ຂອບໃຈ) agradecer",
+    "fr": "bord, bordure, rebord; (dans ຂອບໃຈ) remercier",
+    "hi": "किनारा, किनार; (ຂອບໃຈ में) धन्यवाद देना",
+    "ja": "縁、へり、端；（ຂອບໃຈで）感謝する",
+    "km": "គែម, ជាយ; (នៅក្នុង ຂອບໃຈ) អរគុណ",
+    "ko": "가장자리, 테두리; (ຂອບໃຈ에서) 감사하다",
+    "ne": "किनारा, छेउ; (ຂອບໃຈ मा) धन्यवाद दिनु",
+    "pt": "borda, beira, margem; (em ຂອບໃຈ) agradecer",
+    "th": "ขอบ, ริม; (ใน ຂອບໃຈ) ขอบคุณ",
+    "tl": "gilid, tabi; (sa ຂອບໃຈ) magpasalamat",
+    "ur": "کنارہ، سرا؛ (ຂອບໃຈ میں) شکریہ ادا کرنا",
+    "vi": "mép, rìa, viền; (trong ຂອບໃຈ) cảm ơn",
+    "zh": "边，边缘；（在ຂອບໃຈ中）感谢",
+    "zh_Hant": "邊，邊緣；（在ຂອບໃຈ中）感謝"
+  },
+  "definition_en": "edge, border, rim; (in ຂອບໃຈ) to thank",
+  "romanization": "kʰɔ̏ːp",
+  "lao_examples": [
+    {
+      "lao_script": "ຂອບໃຈຫຼາຍໆເດີ້!",
+      "romanization": "kʰɔ̏ːp t͡ɕāj lǎːj lǎːj dɤ̂ː",
+      "translation_en": "Thank you so much!"
+    },
+    {
+      "lao_script": "ຢ່ານັ່ງໃກ້ຂອບໂຕະ ມັນຈະຕົກ.",
+      "romanization": "jāː nāŋ kâj kʰɔ̏ːp tǒʔ mán t͡ɕàʔ tók",
+      "translation_en": "Don't sit near the edge of the table; it will fall."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing the edge of a wooden table with an object near the rim, and a small speech bubble with a 'thank you' hand gesture, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

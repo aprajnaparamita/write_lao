@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມວຍ",
+  "definitions": {
+    "de": "Boxen; ein Kampfsport, bei dem zwei Personen mit den Fäusten gegeneinander kämpfen",
+    "en": "Boxing; a combat sport in which two people fight each other using their fists",
+    "es": "Boxeo; un deporte de combate en el que dos personas se pelean usando los puños",
+    "fr": "Boxe; un sport de combat dans lequel deux personnes se battent en utilisant leurs poings",
+    "hi": "मुक्केबाज़ी; एक लड़ाई का खेल जिसमें दो लोग अपनी मुट्ठियों से एक-दूसरे से लड़ते हैं",
+    "ja": "ボクシング；二人の人が拳を使って戦う格闘技",
+    "km": "កីឡាប្រដាល់; កីឡាប្រយុទ្ធដែលមនុស្សពីរនាក់ប្រយុទ្ធគ្នាដោយប្រើកណ្ដាប់ដៃ",
+    "ko": "복싱; 두 사람이 주먹을 사용하여 싸우는 격투 스포츠",
+    "ne": "मुक्केबाजी; एउटा लडाई खेल जसमा दुई व्यक्ति मुठ्ठीले एकअर्काविरुद्ध लड्छन्",
+    "pt": "Boxe; um esporte de combate no qual duas pessoas lutam usando os punhos",
+    "th": "มวย; กีฬาการต่อสู้ที่คนสองคนใช้หมัดต่อสู้กัน",
+    "tl": "Boksing; isang palakasang panlaban kung saan dalawang tao ang nagaaway gamit ang kanilang mga kamao",
+    "ur": "باکسنگ؛ ایک لڑائی کا کھیل جس میں دو لوگ اپنی مٹھیوں سے ایک دوسرے سے لڑتے ہیں",
+    "vi": "Quyền anh; môn thể thao chiến đấu trong đó hai người dùng nắm đấm để chiến đấu với nhau",
+    "zh": "拳击；一种两人用拳头互相搏斗的格斗运动",
+    "zh_Hant": "拳擊；一種兩人用拳頭互相搏鬥的格鬥運動"
+  },
+  "definition_en": "Boxing; a combat sport in which two people fight each other using their fists",
+  "romanization": "/mùaj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນຊອບເບິ່ງມວຍທຸກອາທິດ",
+      "romanization": "phəən sɔ̂ɔp bəəng mùaj thúk ʔaa-thít",
+      "translation_en": "He/She likes watching boxing every week."
+    },
+    {
+      "lao_script": "ນ້ອງຂ້ອຍຮຽນມວຍຢູ່ທີ່ໂຮງຮຽນ",
+      "romanization": "nɔ́ɔng khɔ̂ɔj hian mùaj jùu thîi hóong hian",
+      "translation_en": "My younger sibling is learning boxing at school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon boxers wearing red and blue boxing gloves facing each other in a boxing ring, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

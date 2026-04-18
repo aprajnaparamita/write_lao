@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດອນ",
+  "definitions": {
+    "de": "Insel; ein von Wasser umgebenes Stück Land; häufig in Ortsnamen verwendet",
+    "en": "Island; a piece of land surrounded by water; commonly used in place names",
+    "es": "Isla; una extensión de tierra rodeada de agua; comúnmente usada en nombres de lugares",
+    "fr": "Île ; une étendue de terre entourée d'eau ; couramment utilisé dans les noms de lieux",
+    "hi": "द्वीप; पानी से घिरी भूमि; स्थान नामों में सामान्यतः प्रयुक्त",
+    "ja": "島；水に囲まれた陸地；地名によく使われる",
+    "km": "កោះ; ដីដែល둘둘ព័ទ្ធដោយទឹក; ប្រើជាទូទៅក្នុងឈ្មោះទីកន្លែង",
+    "ko": "섬; 물로 둘러싸인 육지; 지명에 흔히 사용됨",
+    "ne": "टापु; पानीले घेरिएको जमिन; ठाउँको नाममा सामान्यतः प्रयोग हुन्छ",
+    "pt": "Ilha; uma porção de terra cercada de água; comumente usada em nomes de lugares",
+    "th": "เกาะ; แผ่นดินที่ล้อมรอบด้วยน้ำ; มักใช้ในชื่อสถานที่",
+    "tl": "Isla; isang piraso ng lupa na napapalibutan ng tubig; karaniwang ginagamit sa mga pangalan ng lugar",
+    "ur": "جزیرہ؛ پانی سے گھرا ہوا زمین کا ٹکڑا؛ عام طور پر جگہوں کے ناموں میں استعمال ہوتا ہے",
+    "vi": "Đảo; vùng đất bao quanh bởi nước; thường dùng trong tên địa danh",
+    "zh": "岛；被水环绕的陆地；常用于地名中",
+    "zh_Hant": "島；被水環繞的陸地；常用於地名中"
+  },
+  "definition_en": "Island; a piece of land surrounded by water; commonly used in place names",
+  "romanization": "/dɔ̀ɔn/",
+  "lao_examples": [
+    {
+      "lao_script": "ດອນຄອນຢູ່ທາງໃຕ້ຂອງລາວ",
+      "romanization": "dɔ̀ɔn khɔ̌ɔn jùu thaang tâj khɔ̌ɔng lǎo",
+      "translation_en": "Don Khon is in the south of Laos."
+    },
+    {
+      "lao_script": "ດອນນັ້ນສວຍງາມຫຼາຍ",
+      "romanization": "dɔ̀ɔn nân suaj ngaam lǎaj",
+      "translation_en": "That island is really beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small tropical island surrounded by blue water, with a few palm trees on it, clean white background, colorful minimalist style suitable for a language learning app."
+}

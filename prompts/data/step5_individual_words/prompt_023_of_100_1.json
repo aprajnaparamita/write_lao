@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄອງ",
+  "definitions": {
+    "de": "Kanal (Wasserkanal); besitzen oder innehaben (in Verbindungen); verwalten oder kontrollieren",
+    "en": "Canal (water channel); to possess or hold (in compounds); to manage or control",
+    "es": "Canal (canal de agua); poseer o tener (en compuestos); administrar o controlar",
+    "fr": "Canal (voie d'eau); posséder ou détenir (dans les composés); gérer ou contrôler",
+    "hi": "नहर (जल नहर); अधिकार में रखना या धारण करना (यौगिक शब्दों में); प्रबंधन या नियंत्रण करना",
+    "ja": "運河（水路）；（複合語で）所有する・保持する；管理・支配する",
+    "km": "ប្រឡាយ (ប្រឡាយទឹក); ដណ្ដើម ឬកាន់កាប់ (ក្នុងពាក្យផ្សំ); គ្រប់គ្រង ឬត្រួតត្រា",
+    "ko": "운하(수로); (복합어에서) 소유하다, 보유하다; 관리하다, 통제하다",
+    "ne": "नहर (पानीको नहर); राख्नु वा धारण गर्नु (यौगिकमा); व्यवस्थापन वा नियन्त्रण गर्नु",
+    "pt": "Canal (canal de água); possuir ou deter (em compostos); administrar ou controlar",
+    "th": "คลอง (ทางน้ำ); ครอบครองหรือถือครอง (ในคำประสม); บริหารหรือควบคุม",
+    "tl": "Kanal (daluyan ng tubig); magmay-ari o humawak (sa mga tambalan); pamahalaan o kontrolin",
+    "ur": "نہر (پانی کی نہر)؛ قبضہ رکھنا یا تھامنا (مرکب الفاظ میں)؛ انتظام یا کنٹرول کرنا",
+    "vi": "Kênh mương (kênh nước); sở hữu hoặc nắm giữ (trong từ ghép); quản lý hoặc kiểm soát",
+    "zh": "运河（水道）；拥有或持有（用于复合词）；管理或控制",
+    "zh_Hant": "運河（水道）；擁有或持有（用於複合詞）；管理或控制"
+  },
+  "definition_en": "Canal (water channel); to possess or hold (in compounds); to manage or control",
+  "romanization": "kʰɔːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຄອງນີ້ຍາວຫຼາຍ, ນ້ຳໄຫຼດີເລີຍ",
+      "romanization": "kʰɔːŋ níː ñaːw laːj, náːm hlaːj diː ləːj",
+      "translation_en": "This canal is really long, the water flows so well"
+    },
+    {
+      "lao_script": "ຊາວນາໃຊ້ຄອງນີ້ສົ່ງນ້ຳໃຫ້ນາຂ້າ",
+      "romanization": "saːw naː saːj kʰɔːŋ níː soŋ náːm haj naː kʰaː",
+      "translation_en": "The farmers use this canal to send water to the rice fields"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a long irrigation canal with flowing blue water cutting through green rice fields under a sunny sky, suitable for a language learning app, clean background, colorful, minimalist style"
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປາ",
+  "definitions": {
+    "de": "Fisch (Tier und Nahrungsmittel)",
+    "en": "Fish (animal and food)",
+    "es": "Pez, pescado (animal y alimento)",
+    "fr": "Poisson (animal et nourriture)",
+    "hi": "मछली (पशु और भोजन)",
+    "ja": "魚（動物および食べ物）",
+    "km": "ត្រី (សត្វ និងម្ហូប)",
+    "ko": "생선, 물고기 (동물과 음식)",
+    "ne": "माछा (जनावर र खाना)",
+    "pt": "Peixe (animal e alimento)",
+    "th": "ปลา (สัตว์และอาหาร)",
+    "tl": "Isda (hayop at pagkain)",
+    "ur": "مچھلی (جانور اور کھانا)",
+    "vi": "Cá (con vật và thức ăn)",
+    "zh": "鱼（动物和食物）",
+    "zh_Hant": "魚（動物和食物）"
+  },
+  "definition_en": "Fish (animal and food)",
+  "romanization": "/paː/",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ກິນປາປີ້ງ.",
+      "romanization": "mɯ̂ː nîː kīn paː pîːŋ",
+      "translation_en": "Today we're eating grilled fish."
+    },
+    {
+      "lao_script": "ພໍ່ໄປຫາປາຢູ່ແມ່ນ້ຳ.",
+      "romanization": "pʰɔ̄ː pāj hǎː paː jūː mɛ̄ː nâm",
+      "translation_en": "Dad is fishing at the river."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a single colorful fish swimming in clear water, suitable for a language learning app, clean white background, minimalist cartoon style"
+}

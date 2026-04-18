@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂໍ້ມູນ",
+  "definitions": {
+    "de": "Daten oder Informationen, insbesondere digitale oder faktenbasierte Inhalte",
+    "en": "Data or information, especially digital or factual content",
+    "es": "Datos o información, especialmente contenido digital o factual",
+    "fr": "Données ou informations, en particulier numériques ou factuelles",
+    "hi": "डेटा या जानकारी, विशेष रूप से डिजिटल या तथ्यात्मक सामग्री",
+    "ja": "データや情報、特にデジタルや事実に基づく内容",
+    "km": "ទិន្នន័យ ឬព័ត៌មាន ជាពិសេសសម្រាប់មាតិកាឌីជីថល ឬការពិត",
+    "ko": "데이터 또는 정보, 특히 디지털이나 사실 기반 콘텐츠",
+    "ne": "डाटा वा जानकारी, विशेष गरी डिजिटल वा तथ्यमा आधारित सामग्री",
+    "pt": "Dados ou informações, especialmente conteúdo digital ou factual",
+    "th": "ข้อมูลหรือสารสนเทศ โดยเฉพาะเนื้อหาดิจิทัลหรือข้อเท็จจริง",
+    "tl": "Data o impormasyon, lalo na ang digital o nakabatay sa katotohanan na nilalaman",
+    "ur": "ڈیٹا یا معلومات، خاص طور پر ڈیجیٹل یا حقیقت پر مبنی مواد",
+    "vi": "Dữ liệu hoặc thông tin, đặc biệt là nội dung kỹ thuật số hoặc thực tế",
+    "zh": "数据或信息，尤其是数字化或基于事实的内容",
+    "zh_Hant": "數據或資訊，尤其是數位化或基於事實的內容"
+  },
+  "definition_en": "Data or information, especially digital or factual content",
+  "romanization": "kʰɔː muːn",
+  "lao_examples": [
+    {
+      "lao_script": "ຂໍ້ມູນໃນໂທລະສັບຂອງຂ້ອຍເຕັມແລ້ວ",
+      "romanization": "kʰɔː muːn naɪ tʰoː laʔ sap kʰɔːŋ kʰɔːj tem lɛːw",
+      "translation_en": "The data/storage on my phone is already full"
+    },
+    {
+      "lao_script": "ສົ່ງຂໍ້ມູນໃຫ້ຂ້ອຍແດ່ ຈະໄດ້ເຮັດວຽກ",
+      "romanization": "sòŋ kʰɔː muːn haɪ kʰɔːj dɛː tɕaʔ daɪ het wîak",
+      "translation_en": "Send me the information so I can get the work done"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a laptop or tablet screen showing charts, graphs, and data icons with small document and folder symbols around it, clean white background, colorful and minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແບບ",
+  "definitions": {
+    "de": "Stil, Art, Form oder Typ; Muster oder Vorlage; auf eine bestimmte Weise oder ähnlich wie",
+    "en": "Style, type, form, or kind; pattern or template; in a certain way or similar to",
+    "es": "Estilo, tipo, forma o clase; patrón o plantilla; de cierta manera o similar a",
+    "fr": "Style, type, forme ou genre; modèle ou patron; d'une certaine manière ou similaire à",
+    "hi": "शैली, प्रकार, रूप या किस्म; पैटर्न या नमूना; एक निश्चित तरीके से या जैसे",
+    "ja": "スタイル、タイプ、形、または種類；パターンや型；ある方法で・〜のような",
+    "km": "រចនាប័ទ្ម ប្រភេទ រូបភាព ឬប្រភេទ; គំរូ ឬទម្រង់; តាមវិធីណាមួយ ឬស្រដៀងនឹង",
+    "ko": "스타일, 유형, 형태 또는 종류; 패턴 또는 템플릿; 어떤 방식으로 또는 ~처럼",
+    "ne": "शैली, प्रकार, रूप वा किसिम; ढाँचा वा नमूना; एक निश्चित तरिकामा वा जस्तै",
+    "pt": "Estilo, tipo, forma ou jeito; padrão ou modelo; de certa maneira ou parecido com",
+    "th": "รูปแบบ ประเภท รูปร่าง หรือชนิด; แบบแผนหรือต้นแบบ; ในลักษณะหนึ่งหรือคล้ายกับ",
+    "tl": "Estilo, uri, anyo, o klase; pattern o template; sa isang paraan o katulad ng",
+    "ur": "انداز، قسم، شکل یا طرح؛ نمونہ یا سانچہ؛ ایک خاص طریقے سے یا جیسا",
+    "vi": "Kiểu, loại, dạng hoặc hình thức; mẫu hoặc khuôn mẫu; theo một cách nhất định hoặc tương tự",
+    "zh": "风格、类型、形式或种类；图案或模板；以某种方式或类似于",
+    "zh_Hant": "風格、類型、形式或種類；圖案或模板；以某種方式或類似於"
+  },
+  "definition_en": "Style, type, form, or kind; pattern or template; in a certain way or similar to",
+  "romanization": "bɛːp",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອແບບນີ້ຮູບຮ່າງສວຍດີ, ຂ້ອຍຢາກໄດ້",
+      "romanization": "sɯ̂a bɛːp níː húːp haːŋ suːaj diː, kʰɔːj jaːk daːj",
+      "translation_en": "This style of shirt looks really nice, I want one"
+    },
+    {
+      "lao_script": "ເຮັດແບບນັ້ນແມ່ນຖືກຕ້ອງແລ້ວ",
+      "romanization": "het bɛːp nán mɛːn tʰɯːk tɔːŋ lɛːw",
+      "translation_en": "Doing it that way is already correct"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing three different clothing styles or design patterns displayed side by side on hangers, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

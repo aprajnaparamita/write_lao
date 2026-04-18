@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເນ",
+  "definitions": {
+    "de": "Satzabschlusspartikel, die Bestätigung, Zustimmung oder eine weiche Aufforderung ausdrückt; häufig in der gesprochenen Lao-Sprache verwendet",
+    "en": "Sentence-final particle expressing confirmation, agreement, or a gentle suggestion; commonly used in spoken Lao to soften statements or seek acknowledgment",
+    "es": "Partícula final de oración que expresa confirmación, acuerdo o una sugerencia suave; comúnmente usada en el lao hablado para suavizar afirmaciones",
+    "fr": "Particule finale de phrase exprimant la confirmation, l'accord ou une suggestion douce; couramment utilisée en laotien parlé pour adoucir les énoncés",
+    "hi": "वाक्य के अंत में लगने वाला कण जो पुष्टि, सहमति या हल्के सुझाव को व्यक्त करता है; बोली जाने वाली लाओ भाषा में आम तौर पर प्रयुक्त",
+    "ja": "確認、同意、または柔らかい提案を表す文末助詞。話し言葉のラーオ語でよく使われ、発言を和らげたり、相手の同意を求めたりする",
+    "km": "ភាគល្អិតចុងប្រយោគដែលបង្ហាញការបញ្ជាក់ ការយល់ព្រម ឬការស្នើដោយស្លូត; ប្រើជាទូទៅក្នុងភាសាឡាវនិយាយ",
+    "ko": "확인, 동의 또는 부드러운 제안을 나타내는 문장 종결 조사; 구어 라오어에서 진술을 부드럽게 하거나 동의를 구할 때 흔히 사용됨",
+    "ne": "वाक्यको अन्तमा प्रयोग हुने कण जसले पुष्टि, सहमति वा नरम सुझाव व्यक्त गर्छ; बोलिने लाओ भाषामा सामान्यतः प्रयोग गरिन्छ",
+    "pt": "Partícula final de frase que expressa confirmação, concordância ou uma sugestão suave; comumente usada no lao falado para suavizar afirmações",
+    "th": "คำอนุภาคท้ายประโยคที่แสดงการยืนยัน ความเห็นด้วย หรือการแนะนำอย่างอ่อนโยน; ใช้บ่อยในภาษาลาวพูดเพื่อทำให้ประโยคนุ่มนวลขึ้น",
+    "tl": "Particle sa dulo ng pangungusap na nagpapahayag ng kumpirmasyon, pagsang-ayon, o malambot na mungkahi; karaniwang ginagamit sa sinabing Lao",
+    "ur": "جملے کے آخر میں آنے والا ذرہ جو تصدیق، اتفاق یا نرم تجویز ظاہر کرتا ہے؛ بولی جانے والی لاؤ زبان میں عام طور پر استعمال ہوتا ہے",
+    "vi": "Trợ từ cuối câu biểu thị sự xác nhận, đồng ý hoặc gợi ý nhẹ nhàng; thường được dùng trong tiếng Lào nói để làm mềm câu nói",
+    "zh": "句末语气助词，表示确认、同意或温和的建议；常用于口语老挝语中，使语气更加委婉",
+    "zh_Hant": "句末語氣助詞，表示確認、同意或溫和的建議；常用於口語寮語中，使語氣更加委婉"
+  },
+  "definition_en": "Sentence-final particle expressing confirmation, agreement, or a gentle suggestion; commonly used in spoken Lao to soften statements or seek acknowledgment",
+  "romanization": "nee",
+  "lao_examples": [
+    {
+      "lao_script": "ໄປກັນເນ, ດຶກແລ້ວ",
+      "romanization": "pai gan nee, duek laew",
+      "translation_en": "Let's go, yeah? It's already late."
+    },
+    {
+      "lao_script": "ນີ້ຂອງເຈົ້າເນ",
+      "romanization": "nii khong jao nee",
+      "translation_en": "This is yours, right?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a speech bubble containing the word 'nee' with a small checkmark or affirmation symbol, two cartoon characters in a friendly conversation, one nodding in agreement, clean white background, colorful minimalist style suitable for a language learning app."
+}

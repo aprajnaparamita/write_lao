@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂຕນ",
+  "definitions": {
+    "de": "Tonne – eine Maßeinheit für Gewicht, entspricht 1.000 Kilogramm",
+    "en": "Ton – a unit of measurement for weight, equal to 1,000 kilograms",
+    "es": "Tonelada – unidad de medida de peso equivalente a 1.000 kilogramos",
+    "fr": "Tonne – unité de mesure de poids équivalant à 1 000 kilogrammes",
+    "hi": "टन – वजन की एक माप इकाई, जो 1,000 किलोग्राम के बराबर होती है",
+    "ja": "トン – 重さの単位で、1,000キログラムに相当する",
+    "km": "តោន – ឯកតាវាស់ទម្ងន់ស្មើនឹង ១,០០០ គីឡូក្រាម",
+    "ko": "톤 – 무게의 측정 단위로, 1,000킬로그램에 해당함",
+    "ne": "टन – तौलको एक मापन एकाइ, १,००० किलोग्राम बराबर",
+    "pt": "Tonelada – unidade de medida de peso equivalente a 1.000 quilogramas",
+    "th": "ตัน – หน่วยวัดน้ำหนักเท่ากับ 1,000 กิโลกรัม",
+    "tl": "Tonelada – isang yunit ng pagsukat ng timbang na katumbas ng 1,000 kilogramo",
+    "ur": "ٹن – وزن کی پیمائش کی ایک اکائی جو 1,000 کلوگرام کے برابر ہے",
+    "vi": "Tấn – đơn vị đo lường trọng lượng, bằng 1.000 kilôgam",
+    "zh": "吨 – 重量计量单位，等于1,000千克",
+    "zh_Hant": "噸 – 重量計量單位，等於1,000公斤"
+  },
+  "definition_en": "Ton – a unit of measurement for weight, equal to 1,000 kilograms",
+  "romanization": "/toːn˧˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ລົດບັນທຸກຄັນນີ້ແບກໄດ້ສິບໂຕນ",
+      "romanization": "lot ban-thuk khan ní baek dai sip ton",
+      "translation_en": "This truck can carry ten tons."
+    },
+    {
+      "lao_script": "ເຂົາຂາຍເຂົ້າໄດ້ສາມໂຕນໃນອາທິດນີ້",
+      "romanization": "khao khai khao dai sam ton nai a-thit ní",
+      "translation_en": "He sold three tons of rice this week."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a large weight scale showing '1 TON' with stacked heavy boxes or sacks on it, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເປົ້າ",
+  "definitions": {
+    "de": "Rucksack / Tasche / Ziel – kann einen Rucksack oder eine Tasche bezeichnen; in manchen Kontexten auch ein Ziel oder eine Zielvorgabe",
+    "en": "Bag / backpack / target – commonly refers to a bag or backpack; can also mean a target or goal in certain contexts",
+    "es": "Bolso / mochila / objetivo – comúnmente se refiere a una bolsa o mochila; también puede significar un objetivo o meta en ciertos contextos",
+    "fr": "Sac / sac à dos / cible – désigne généralement un sac ou un sac à dos ; peut aussi signifier une cible ou un objectif selon le contexte",
+    "hi": "बैग / पीठ-बस्ता / लक्ष्य – आमतौर पर बैग या रुकसैक को संदर्भित करता है; कुछ संदर्भों में लक्ष्य या उद्देश्य भी",
+    "ja": "バッグ / リュック / 目標（もくひょう）– 一般的にかばんやリュックサックを指す；文脈によって目標や的（まと）を意味することもある",
+    "km": "កាបូប / យុទ្ធដៅ – ជាទូទៅសំដៅទៅលើកាបូប ឬក្សសាំង; ក្នុងបរិបទខ្លះក៏អាចមានន័យថាគោលដៅ",
+    "ko": "가방 / 배낭 / 목표 – 일반적으로 가방이나 배낭을 가리키며, 문맥에 따라 목표나 표적을 의미하기도 함",
+    "ne": "झोला / ब्याग / लक्ष्य – सामान्यतः झोला वा ब्याकप्याकलाई जनाउँछ; केही सन्दर्भमा लक्ष्य वा उद्देश्य पनि",
+    "pt": "Bolsa / mochila / alvo – geralmente se refere a uma bolsa ou mochila; em certos contextos também pode significar alvo ou meta",
+    "th": "กระเป๋า / เป้ / เป้าหมาย – โดยทั่วไปหมายถึงกระเป๋าหรือเป้สะพายหลัง และยังสามารถหมายถึงเป้าหมายในบางบริบท",
+    "tl": "Bag / backpack / target – karaniwang tumutukoy sa isang bag o backpack; maaari ring mangahulugang target o layunin sa ilang konteksto",
+    "ur": "بیگ / پشت پر اٹھانے والا تھیلا / ہدف – عام طور پر ایک بیگ یا بیک پیک کے لیے استعمال ہوتا ہے؛ کچھ سیاق و سباق میں ہدف یا نشانہ بھی",
+    "vi": "Túi / ba lô / mục tiêu – thường dùng để chỉ túi xách hoặc ba lô; trong một số ngữ cảnh cũng có thể nghĩa là mục tiêu",
+    "zh": "包 / 背包 / 目标 – 通常指袋子或背包；在某些语境下也可以表示目标",
+    "zh_Hant": "包 / 背包 / 目標 – 通常指袋子或背包；在某些語境下也可以表示目標"
+  },
+  "definition_en": "Bag / backpack / target – commonly refers to a bag or backpack; can also mean a target or goal in certain contexts",
+  "romanization": "pâo",
+  "lao_examples": [
+    {
+      "lao_script": "ເປົ້າຂອງຂ້ອຍຢູ່ໃສ",
+      "romanization": "pâo kʰɔːŋ kʰɔːj juː saː",
+      "translation_en": "Where is my bag?"
+    },
+    {
+      "lao_script": "ເປົ້ານີ້ໜັກຫຼາຍ ໃສ່ຫຍັງໄວ້",
+      "romanization": "pâo niː nak laːj sâj ɲǎŋ wâj",
+      "translation_en": "This bag is really heavy. What did you put in it?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a colorful backpack or shoulder bag sitting upright, with visible straps and a zipper, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

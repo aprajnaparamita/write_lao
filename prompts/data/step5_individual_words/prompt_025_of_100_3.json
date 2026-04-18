@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຂດ",
+  "definitions": {
+    "de": "Zone; Gebiet; Bezirk; ein abgegrenzter geografischer oder administrativer Bereich",
+    "en": "Zone; area; district; a defined geographic or administrative region",
+    "es": "Zona; área; distrito; una región geográfica o administrativa definida",
+    "fr": "Zone; secteur; district; une région géographique ou administrative délimitée",
+    "hi": "क्षेत्र; इलाका; जिला; एक परिभाषित भौगोलिक या प्रशासनिक क्षेत्र",
+    "ja": "地域；エリア；区域；地区；地理的または行政的に区切られた範囲",
+    "km": "តំបន់; ភូមិភាគ; ក្រុង; តំបន់ភូមិសាស្ត្រ ឬរដ្ឋបាលដែលបានកំណត់",
+    "ko": "구역; 지역; 지구; 지리적 또는 행정적으로 구분된 영역",
+    "ne": "क्षेत्र; इलाका; जिल्ला; एक परिभाषित भौगोलिक वा प्रशासनिक क्षेत्र",
+    "pt": "Zona; área; distrito; uma região geográfica ou administrativa definida",
+    "th": "เขต; พื้นที่; เขตปกครอง; บริเวณที่กำหนดทางภูมิศาสตร์หรือการบริหาร",
+    "tl": "Sona; lugar; distrito; isang tinukoy na heograpikong o administratibong rehiyon",
+    "ur": "علاقہ؛ زون؛ ضلع؛ ایک متعین جغرافیائی یا انتظامی خطہ",
+    "vi": "Khu vực; vùng; quận; một khu vực địa lý hoặc hành chính được xác định",
+    "zh": "区域；地带；区；一个特定的地理或行政区域",
+    "zh_Hant": "區域；地帶；區；一個特定的地理或行政區域"
+  },
+  "definition_en": "Zone; area; district; a defined geographic or administrative region",
+  "romanization": "/kʰeːt²²/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂດນີ້ມີຮ້ານອາຫານດີຫຼາຍ",
+      "romanization": "khet ni mi han a han di lai",
+      "translation_en": "This area has a lot of good restaurants."
+    },
+    {
+      "lao_script": "ເຂດໄຫນທີ່ເຈົ້າຢູ່?",
+      "romanization": "khet dai thi chao yu",
+      "translation_en": "Which district do you live in?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a city map with clearly divided colored zones or districts marked with dotted boundary lines and small icons, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

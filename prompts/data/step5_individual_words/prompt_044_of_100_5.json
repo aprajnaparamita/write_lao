@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບ່ອນ",
+  "definitions": {
+    "de": "Ort, Platz, Stelle; wo",
+    "en": "Place, spot, location; where",
+    "es": "Lugar, sitio; donde",
+    "fr": "Endroit, lieu; où",
+    "hi": "जगह, स्थान; कहाँ",
+    "ja": "場所、ところ；どこ",
+    "km": "កន្លែង; នៅឯណា",
+    "ko": "장소, 곳; 어디",
+    "ne": "ठाउँ, स्थान; कहाँ",
+    "pt": "Lugar, local; onde",
+    "th": "ที่, สถานที่, ตรงที่",
+    "tl": "Lugar, pook; kung saan",
+    "ur": "جگہ، مقام؛ کہاں",
+    "vi": "Nơi, chỗ; ở đâu",
+    "zh": "地方，位置；哪里",
+    "zh_Hant": "地方，位置；哪裡"
+  },
+  "definition_en": "Place, spot, location; where",
+  "romanization": "/bɔ̄ːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ບ່ອນນີ້ງາມຫຼາຍ.",
+      "romanization": "bɔ̄ːn nîː ŋáːm lǎːj",
+      "translation_en": "This place is very beautiful."
+    },
+    {
+      "lao_script": "ເຈົ້າຢູ່ບ່ອນໃດ?",
+      "romanization": "tɕȁw jūː bɔ̄ːn dāj",
+      "translation_en": "Where are you?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pointing at a marked location on a map with a pin, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

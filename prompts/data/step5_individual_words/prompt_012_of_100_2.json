@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວົງ",
+  "definitions": {
+    "de": "Kreis; bezeichnet eine runde Form oder wird als Element in Familiennamen und kulturellen Kontexten verwendet",
+    "en": "Circle; refers to a round shape, and is also commonly used as an element in personal and family names in Lao culture",
+    "es": "Círculo; se refiere a una forma redonda, y también se usa comúnmente como elemento en nombres personales y familiares en la cultura laosiana",
+    "fr": "Cercle; désigne une forme ronde, et est également couramment utilisé comme élément dans les prénoms et noms de famille dans la culture laotienne",
+    "hi": "वृत्त; एक गोल आकृति को दर्शाता है, और लाओ संस्कृति में व्यक्तिगत और पारिवारिक नामों के तत्व के रूप में भी आमतौर पर उपयोग किया जाता है",
+    "ja": "円；丸い形を指し、ラオス文化では人名や苗字の一部としても一般的に使われる",
+    "km": "រង្វង់; សំដៅទៅលើរូបរាង둥 និងប្រើជាធាតុក្នុងឈ្មោះបុគ្គល និងគ្រួសារក្នុងវប្បធម៌ឡាវ",
+    "ko": "원; 둥근 모양을 가리키며, 라오 문화에서 개인 이름이나 성의 구성 요소로도 흔히 사용됨",
+    "ne": "वृत्त; गोलो आकार जनाउँछ, र लाओ संस्कृतिमा व्यक्तिगत र पारिवारिक नाममा पनि सामान्यतः प्रयोग गरिन्छ",
+    "pt": "Círculo; refere-se a uma forma redonda, e também é comumente usado como elemento em nomes pessoais e de família na cultura laosiana",
+    "th": "วงกลม; หมายถึงรูปทรงกลม และยังใช้เป็นส่วนหนึ่งของชื่อบุคคลและนามสกุลในวัฒนธรรมลาว",
+    "tl": "Bilog; tumutukoy sa isang hugis na pabilog, at karaniwang ginagamit bilang bahagi ng mga personal at pampamilyang pangalan sa kulturang Lao",
+    "ur": "دائرہ؛ ایک گول شکل کو ظاہر کرتا ہے، اور لاؤ ثقافت میں ذاتی اور خاندانی ناموں میں بھی عام طور پر استعمال ہوتا ہے",
+    "vi": "Vòng tròn; chỉ hình dạng tròn, đồng thời thường được dùng như một thành tố trong tên cá nhân và tên gia đình trong văn hóa Lào",
+    "zh": "圆；指圆形，也常作为老挝文化中个人姓名和家族名称的组成部分",
+    "zh_Hant": "圓；指圓形，也常作為寮國文化中個人姓名和家族名稱的組成部分"
+  },
+  "definition_en": "Circle; refers to a round shape, and is also commonly used as an element in personal and family names in Lao culture",
+  "romanization": "/wóŋ³/",
+  "lao_examples": [
+    {
+      "lao_script": "ວາດວົງກົມໃຫ້ເບິ່ງແດ່",
+      "romanization": "waat wong gom hai beung dae",
+      "translation_en": "Draw a circle and let me see."
+    },
+    {
+      "lao_script": "ຊື່ຂອງລາວມີຄຳວ່າ ວົງ ຢູ່ນຳ",
+      "romanization": "seu khong lao mii kham waa wong yuu nam",
+      "translation_en": "Their name has the word 'Vong' in it."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a perfect circle drawn in bold blue lines on a clean white background, with a subtle label-style design, suitable for a language learning app, minimalist and colorful style."
+}

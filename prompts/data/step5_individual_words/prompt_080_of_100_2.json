@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບົວ",
+  "definitions": {
+    "de": "Lotusblume, eine heilige Wasserblume, die in der laotischen und buddhistischen Kultur bedeutend ist",
+    "en": "lotus flower, a sacred aquatic flower significant in Lao and Buddhist culture",
+    "es": "flor de loto, una flor acuática sagrada de gran importancia en la cultura laosiana y budista",
+    "fr": "fleur de lotus, une fleur aquatique sacrée très importante dans la culture laotienne et bouddhiste",
+    "hi": "कमल का फूल, एक पवित्र जलीय फूल जो लाओ और बौद्ध संस्कृति में महत्वपूर्ण है",
+    "ja": "蓮の花、ラオスと仏教文化で重要な神聖な水生花",
+    "km": "ផ្កាឈូក ដែលជាផ្កាទឹកដ៏វិសុទ្ធ មានសារៈសំខាន់ក្នុងវប្បធម៌ឡាវ និងព្រះពុទ្ធសាសនា",
+    "ko": "연꽃, 라오스와 불교 문화에서 중요한 신성한 수생 꽃",
+    "ne": "कमलको फूल, लाओ र बौद्ध संस्कृतिमा महत्त्वपूर्ण एउटा पवित्र जलीय फूल",
+    "pt": "flor de lótus, uma flor aquática sagrada de grande importância na cultura laosiana e budista",
+    "th": "ดอกบัว ดอกไม้ในน้ำที่ศักดิ์สิทธิ์และสำคัญในวัฒนธรรมลาวและพุทธศาสนา",
+    "tl": "bulaklak ng lotus, isang sagradong bulaklak na nasa tubig na mahalaga sa kulturang Lao at Budismo",
+    "ur": "کنول کا پھول، ایک مقدس آبی پھول جو لاؤ اور بدھ مت کی ثقافت میں اہم ہے",
+    "vi": "hoa sen, một loài hoa thủy sinh thiêng liêng quan trọng trong văn hóa Lào và Phật giáo",
+    "zh": "莲花，在老挝和佛教文化中具有重要意义的神圣水生花",
+    "zh_Hant": "蓮花，在寮國和佛教文化中具有重要意義的神聖水生花"
+  },
+  "definition_en": "lotus flower, a sacred aquatic flower significant in Lao and Buddhist culture",
+  "romanization": "buːa",
+  "lao_examples": [
+    {
+      "lao_script": "ບົວຢູ່ໃນສະຫຼະສວຍງາມຫຼາຍ",
+      "romanization": "buːa juː naːj sa laː suːaj ŋaːm laːj",
+      "translation_en": "The lotus flowers in the pond are very beautiful."
+    },
+    {
+      "lao_script": "ຂ້ອຍເອົາດອກບົວໄປຖວາຍພຣະ",
+      "romanization": "khoːj ʔao dɔːk buːa paːj tʰwaːj pʰra",
+      "translation_en": "I'm taking lotus flowers to offer to the Buddha."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a pink lotus flower blooming on a calm pond with green lily pads, clean white background, soft pastel colors, minimalist style suitable for a language learning app."
+}

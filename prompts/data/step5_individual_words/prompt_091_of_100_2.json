@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະຕິບັດ",
+  "definitions": {
+    "de": "Ausführen, praktizieren; etwas in die Tat umsetzen oder eine Aufgabe oder Pflicht ausführen",
+    "en": "To practice, carry out, or execute; to put something into action or perform a task or duty",
+    "es": "Practicar, llevar a cabo, ejecutar; poner algo en acción o realizar una tarea o deber",
+    "fr": "Pratiquer, exécuter, mettre en œuvre; mettre quelque chose en action ou accomplir une tâche ou un devoir",
+    "hi": "अभ्यास करना, पालन करना, निष्पादित करना; किसी कार्य या कर्तव्य को क्रिया में लाना",
+    "ja": "実践する、遂行する、実行する；何かを行動に移したり、任務や義務を果たしたりすること",
+    "km": "អនុវត្ត; ធ្វើ ឬប្រព្រឹត្តតាមច្បាប់ ឬការណែនាំ",
+    "ko": "실행하다, 실천하다, 수행하다; 무언가를 행동으로 옮기거나 임무나 의무를 이행하다",
+    "ne": "अभ्यास गर्नु, पालन गर्नु, कार्यान्वयन गर्नु; कुनै कार्य वा कर्तव्य सम्पन्न गर्नु",
+    "pt": "Praticar, executar, realizar; colocar algo em ação ou realizar uma tarefa ou dever",
+    "th": "ปฏิบัติ, ดำเนินการ; นำสิ่งใดสิ่งหนึ่งไปสู่การกระทำหรือปฏิบัติหน้าที่",
+    "tl": "Isagawa, gawin, isabuhay; ilagay ang isang bagay sa aksyon o magsagawa ng gawain o tungkulin",
+    "ur": "عمل کرنا، انجام دینا، پیروی کرنا؛ کسی کام یا فرض کو عملی جامہ پہنانا",
+    "vi": "Thực hành, thực hiện, tiến hành; đưa điều gì đó vào hành động hoặc thực hiện nhiệm vụ hay bổn phận",
+    "zh": "实践、执行、履行；将某事付诸行动或完成任务或职责",
+    "zh_Hant": "實踐、執行、履行；將某事付諸行動或完成任務或職責"
+  },
+  "definition_en": "To practice, carry out, or execute; to put something into action or perform a task or duty",
+  "romanization": "pa.tì.bàt",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຕ້ອງປະຕິບັດຕາມກົດລະບຽບ",
+      "romanization": "tɕâw tɔːŋ pa.tì.bàt taːm kót la.bìap",
+      "translation_en": "You need to follow the rules."
+    },
+    {
+      "lao_script": "ນ້ອງໄດ້ປະຕິບັດໜ້າທີ່ດີຫຼາຍ",
+      "romanization": "nɔːŋ dâj pa.tì.bàt naː tʰîː diː laːj",
+      "translation_en": "My younger sibling carried out their duty very well."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person carefully following a checklist on a clipboard, checking off completed tasks with a pen, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,386 @@
+{
+  "ບ້ານ": {
+    "definitions": {
+      "de": "Haus oder Dorf; ein Gebäude, in dem Menschen wohnen, oder eine kleine ländliche Gemeinschaft",
+      "en": "House or village; a building where people live, or a small rural community",
+      "es": "Casa o aldea; un edificio donde vive la gente, o una pequeña comunidad rural",
+      "fr": "Maison ou village; un bâtiment où les gens habitent, ou une petite communauté rurale",
+      "hi": "घर या गाँव; एक इमारत जहाँ लोग रहते हैं, या एक छोटा ग्रामीण समुदाय",
+      "ja": "家または村；人が住む建物、または小さな農村コミュニティ",
+      "km": "ផ្ទះ ឬភូមិ; អគារដែលមនុស្សរស់នៅ ឬសហគមន៍តូចមួយនៅជនបទ",
+      "ko": "집 또는 마을; 사람들이 사는 건물, 또는 작은 농촌 공동체",
+      "ne": "घर वा गाउँ; एउटा भवन जहाँ मानिसहरू बस्छन्, वा एउटा सानो ग्रामीण समुदाय",
+      "pt": "Casa ou aldeia; um edifício onde as pessoas moram, ou uma pequena comunidade rural",
+      "th": "บ้านหรือหมู่บ้าน; อาคารที่คนอาศัยอยู่ หรือชุมชนชนบทขนาดเล็ก",
+      "tl": "Bahay o nayon; isang gusali kung saan naninirahan ang mga tao, o isang maliit na komunidad sa kanayunan",
+      "ur": "گھر یا گاؤں؛ ایک عمارت جہاں لوگ رہتے ہیں، یا ایک چھوٹی دیہی برادری",
+      "vi": "Nhà hoặc làng; một tòa nhà nơi mọi người sinh sống, hoặc một cộng đồng nông thôn nhỏ",
+      "zh": "房子或村庄；人们居住的建筑物，或一个小型农村社区",
+      "zh_Hant": "房子或村莊；人們居住的建築物，或一個小型農村社區"
+    },
+    "part_of_speech": "noun",
+    "romanization": "bâan",
+    "examples": [
+      {
+        "lao_script": "ບ້ານຂອງຂ້ອຍຢູ່ໃກ້ຕະຫຼາດ",
+        "romanization": "bâan khɔ̌ng khɔ̂i yùu glâi talàat",
+        "translations": {
+          "de": "Mein Haus ist nah am Markt.",
+          "en": "My house is near the market.",
+          "es": "Mi casa está cerca del mercado.",
+          "fr": "Ma maison est près du marché.",
+          "hi": "मेरा घर बाज़ार के पास है।",
+          "ja": "私の家は市場の近くにあります。",
+          "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។",
+          "ko": "내 집은 시장 근처에 있어요.",
+          "ne": "मेरो घर बजारको नजिक छ।",
+          "pt": "Minha casa fica perto do mercado.",
+          "th": "บ้านของฉันอยู่ใกล้ตลาด",
+          "tl": "Ang bahay ko ay malapit sa palengke.",
+          "ur": "میرا گھر بازار کے قریب ہے۔",
+          "vi": "Nhà tôi ở gần chợ.",
+          "zh": "我的房子在市场附近。",
+          "zh_Hant": "我的房子在市場附近。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຢູ່ບ້ານໃດ?",
+        "romanization": "jâo yùu bâan dâi?",
+        "translations": {
+          "de": "In welchem Dorf wohnst du?",
+          "en": "Which village do you live in?",
+          "es": "¿En qué aldea vives?",
+          "fr": "Dans quel village habites-tu?",
+          "hi": "तुम किस गाँव में रहते हो?",
+          "ja": "あなたはどの村に住んでいますか？",
+          "km": "អ្នករស់នៅភូមិណា?",
+          "ko": "어느 마을에 살아요?",
+          "ne": "तिमी कुन गाउँमा बस्छौ?",
+          "pt": "Em qual aldeia você mora?",
+          "th": "คุณอยู่บ้านไหน?",
+          "tl": "Saang nayon ka nakatira?",
+          "ur": "آپ کس گاؤں میں رہتے ہیں؟",
+          "vi": "Bạn ở làng nào?",
+          "zh": "你住在哪个村子？",
+          "zh_Hant": "你住在哪個村子？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional Lao wooden house with a sloped roof surrounded by tropical trees, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄື": {
+    "definitions": {
+      "de": "Wie / als / ist; ein Vergleichspartikel, das verwendet wird, um Ähnlichkeit auszudrücken oder etwas zu beschreiben, das einer anderen Sache ähnelt",
+      "en": "Like / as / is; a comparison particle used to express similarity or describe something that resembles something else",
+      "es": "Como / igual que / es; una partícula de comparación que se usa para expresar similitud o describir algo que se parece a otra cosa",
+      "fr": "Comme / tel que / c'est; une particule de comparaison utilisée pour exprimer une similitude ou décrire quelque chose qui ressemble à autre chose",
+      "hi": "जैसे / की तरह / है; एक तुलना कण जो समानता व्यक्त करने या किसी अन्य चीज़ से मिलती-जुलती चीज़ का वर्णन करने के लिए उपयोग किया जाता है",
+      "ja": "〜のように／〜として／〜だ；類似性を表したり、他のものに似たものを描写したりするために使う比較助詞",
+      "km": "ដូច / ដូចជា / គឺ; ភាគិកប្រៀបធៀបដែលប្រើដើម្បីបង្ហាញពីភាពដូចគ្នា ឬពណ៌នាអ្វីមួយដែលដូចនឹងអ្វីផ្សេងទៀត",
+      "ko": "~처럼 / ~같이 / ~이다; 유사성을 나타내거나 다른 것과 닮은 것을 묘사하는 비교 조사",
+      "ne": "जस्तो / जस्तै / हो; समानता व्यक्त गर्न वा अर्को कुरासँग मिल्दोजुल्दो कुराको वर्णन गर्न प्रयोग हुने तुलनात्मक कण",
+      "pt": "Como / igual a / é; uma partícula de comparação usada para expressar similaridade ou descrever algo que se assemelha a outra coisa",
+      "th": "เหมือน / เช่น / คือ; คำบุพบทเปรียบเทียบที่ใช้แสดงความคล้ายคลึงหรืออธิบายสิ่งที่เหมือนกับสิ่งอื่น",
+      "tl": "Tulad ng / katulad / ay; isang particle ng paghahambing na ginagamit upang ipahayag ang pagkakatulad o ilarawan ang isang bagay na katulad ng isa pa",
+      "ur": "جیسے / کی طرح / ہے؛ ایک موازنہ حرف جو مماثلت ظاہر کرنے یا کسی ایسی چیز کو بیان کرنے کے لیے استعمال ہوتا ہے جو کسی اور چیز سے ملتی جلتی ہو",
+      "vi": "Như / giống như / là; một trợ từ so sánh dùng để diễn đạt sự giống nhau hoặc mô tả điều gì đó giống với điều khác",
+      "zh": "像／如同／是；一个比较助词，用于表达相似性或描述与某事物相似的事物",
+      "zh_Hant": "像／如同／是；一個比較助詞，用於表達相似性或描述與某事物相似的事物"
+    },
+    "part_of_speech": "particle",
+    "romanization": "khʉ̄",
+    "examples": [
+      {
+        "lao_script": "ໜ້າຕາເຂົາຄືພໍ່ເລີຍ",
+        "romanization": "nâa taa khǎo khʉ̄ phɔ̂ ləəi",
+        "translations": {
+          "de": "Sein Gesicht sieht genauso aus wie das seines Vaters.",
+          "en": "His face looks just like his father's.",
+          "es": "Su cara es igualita a la de su papá.",
+          "fr": "Son visage ressemble exactement à celui de son père.",
+          "hi": "उसका चेहरा बिल्कुल उसके पिता जैसा लगता है।",
+          "ja": "彼の顔はお父さんにそっくりだよ。",
+          "km": "មុខគាត់ដូចឪពុករបស់គាត់ណាស់។",
+          "ko": "그의 얼굴은 아버지랑 똑같아요.",
+          "ne": "उसको अनुहार उसका बुबाजस्तै छ।",
+          "pt": "O rosto dele é igualzinho ao do pai.",
+          "th": "หน้าตาเขาเหมือนพ่อเลย",
+          "tl": "Ang mukha niya ay kamukha ng kanyang tatay.",
+          "ur": "اس کا چہرہ بالکل اس کے باپ جیسا لگتا ہے۔",
+          "vi": "Khuôn mặt anh ấy giống hệt cha anh ấy.",
+          "zh": "他的脸和他爸爸一模一样。",
+          "zh_Hant": "他的臉和他爸爸一模一樣。"
+        },
+        "out_of_scope_words": [
+          "ໜ້າຕາ"
+        ]
+      },
+      {
+        "lao_script": "ອາຫານຮ້ານນີ້ຄືອາຫານແມ່ເຮັດ",
+        "romanization": "aa hǎan hâan níi khʉ̄ aa hǎan mɛ̂ het",
+        "translations": {
+          "de": "Das Essen in diesem Restaurant ist wie das, was meine Mutter kocht.",
+          "en": "The food at this restaurant is like the food my mom makes.",
+          "es": "La comida de este restaurante es como la que hace mi mamá.",
+          "fr": "La nourriture de ce restaurant ressemble à celle que prépare ma mère.",
+          "hi": "इस रेस्तरां का खाना मेरी माँ के बनाए खाने जैसा है।",
+          "ja": "このレストランの料理はお母さんの手料理みたいだ。",
+          "km": "អាហារហាងនេះដូចអាហារម្ដាយធ្វើ។",
+          "ko": "이 식당 음식은 엄마가 만든 음식 같아요.",
+          "ne": "यस रेस्टुरेन्टको खाना आमाले बनाएको खानाजस्तै छ।",
+          "pt": "A comida deste restaurante é como a que a minha mãe faz.",
+          "th": "อาหารร้านนี้เหมือนอาหารที่แม่ทำ",
+          "tl": "Ang pagkain sa restaurant na ito ay parang pagkain na niluluto ng nanay.",
+          "ur": "اس ریستوران کا کھانا میری ماں کے کھانے جیسا ہے۔",
+          "vi": "Đồ ăn ở nhà hàng này giống như đồ ăn mẹ nấu.",
+          "zh": "这家餐厅的食物像妈妈做的一样。",
+          "zh_Hant": "這家餐廳的食物像媽媽做的一樣。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two objects side by side — a sun and a bright yellow circle — connected by an equals or similarity sign, representing comparison, clean white background, colorful, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຊັ່ນ": {
+    "definitions": {
+      "de": "Zum Beispiel / wie zum Beispiel / solche wie; wird verwendet, um Beispiele einzuführen oder eine Liste von Dingen zu nennen, die zu einer bestimmten Kategorie gehören",
+      "en": "Such as / for example / like; used to introduce examples or list things that belong to a particular category",
+      "es": "Como / por ejemplo / tales como; se usa para introducir ejemplos o enumerar cosas que pertenecen a una categoría particular",
+      "fr": "Tel que / par exemple / comme; utilisé pour introduire des exemples ou énumérer des choses appartenant à une catégorie particulière",
+      "hi": "जैसे / उदाहरण के लिए / जैसे कि; किसी विशेष श्रेणी से संबंधित उदाहरण प्रस्तुत करने या चीज़ें सूचीबद्ध करने के लिए उपयोग किया जाता है",
+      "ja": "〜など／例えば／〜のような；特定のカテゴリに属する例を挙げたり、リストアップするために使う",
+      "km": "ដូចជា / ឧទាហរណ៍ / ដូច; ប្រើដើម្បីណែនាំឧទាហរណ៍ ឬរៀបរាប់អំពីអ្វីៗដែលជាកម្មសិទ្ធិរបស់ប្រភេទជាក់លាក់មួយ",
+      "ko": "예를 들어 / ~같은 / ~와 같이; 특정 범주에 속하는 예시를 소개하거나 나열할 때 사용",
+      "ne": "जस्तै / उदाहरणका लागि / जस्ता; कुनै विशेष वर्गसँग सम्बन्धित उदाहरणहरू प्रस्तुत गर्न वा सूचीबद्ध गर्न प्रयोग हुन्छ",
+      "pt": "Como / por exemplo / tais como; usado para introduzir exemplos ou listar coisas que pertencem a uma categoria específica",
+      "th": "เช่น / ยกตัวอย่างเช่น / อย่างเช่น; ใช้เพื่อแนะนำตัวอย่างหรือระบุสิ่งที่อยู่ในหมวดหมู่ใดหมวดหมู่หนึ่ง",
+      "tl": "Halimbawa / tulad ng / gaya ng; ginagamit upang magpakilala ng mga halimbawa o maglista ng mga bagay na kabilang sa isang partikular na kategorya",
+      "ur": "جیسے / مثلاً / جیسے کہ؛ کسی خاص زمرے سے تعلق رکھنے والی چیزوں کی مثالیں پیش کرنے یا فہرست بنانے کے لیے استعمال ہوتا ہے",
+      "vi": "Chẳng hạn như / ví dụ / như là; dùng để đưa ra ví dụ hoặc liệt kê những thứ thuộc một danh mục cụ thể",
+      "zh": "例如／比如／诸如；用于引入示例或列举属于某一特定类别的事物",
+      "zh_Hant": "例如／比如／諸如；用於引入示例或列舉屬於某一特定類別的事物"
+    },
+    "part_of_speech": "particle",
+    "romanization": "sên",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍມັກຜັກເຊັ່ນໝາກເຜັດ ແລະ ໝາກຖົ່ວ",
+        "romanization": "khɔ̂i mák phák sên mâak phèt láe mâak thùa",
+        "translations": {
+          "de": "Ich mag Gemüse wie Chilis und Bohnen.",
+          "en": "I like vegetables such as chilies and beans.",
+          "es": "Me gustan las verduras como los chiles y los frijoles.",
+          "fr": "J'aime les légumes tels que les piments et les haricots.",
+          "hi": "मुझे सब्ज़ियाँ पसंद हैं जैसे मिर्च और बीन्स।",
+          "ja": "私は唐辛子や豆などの野菜が好きです。",
+          "km": "ខ្ញុំចូលចិត្តបន្លែដូចជាម្រេច និងសណ្តែក។",
+          "ko": "저는 고추나 콩 같은 채소를 좋아해요.",
+          "ne": "मलाई खुर्सानी र सिमीजस्ता तरकारीहरू मन पर्छन्।",
+          "pt": "Eu gosto de vegetais como pimentas e feijões.",
+          "th": "ฉันชอบผักเช่นพริกและถั่ว",
+          "tl": "Gusto ko ang mga gulay tulad ng sili at beans.",
+          "ur": "مجھے سبزیاں پسند ہیں جیسے مرچ اور پھلیاں۔",
+          "vi": "Tôi thích rau như ớt và đậu.",
+          "zh": "我喜欢蔬菜，例如辣椒和豆子。",
+          "zh_Hant": "我喜歡蔬菜，例如辣椒和豆子。"
+        },
+        "out_of_scope_words": [
+          "ຜັກ",
+          "ໝາກເຜັດ",
+          "ໝາກຖົ່ວ"
+        ]
+      },
+      {
+        "lao_script": "ວັນພັກເຊັ່ນວັນສາດ ຂ້ອຍຢາກຢູ່ບ້ານ",
+        "romanization": "wan phák sên wan sàat khɔ̂i yàak yùu bâan",
+        "translations": {
+          "de": "An freien Tagen wie Feiertagen möchte ich zu Hause bleiben.",
+          "en": "On holidays such as festival days, I want to stay home.",
+          "es": "En días de descanso como los días de fiesta, quiero quedarme en casa.",
+          "fr": "Les jours fériés comme les jours de fête, je veux rester à la maison.",
+          "hi": "त्योहार जैसे छुट्टी के दिनों पर, मैं घर पर रहना चाहता हूँ।",
+          "ja": "お祭りの日などの休日には、家にいたいです。",
+          "km": "នៅថ្ងៃឈប់សម្រាកដូចជាថ្ងៃបុណ្យ ខ្ញុំចង់នៅផ្ទះ។",
+          "ko": "명절 같은 휴일에는 집에 있고 싶어요.",
+          "ne": "चाडपर्वजस्ता बिदाका दिनहरूमा, म घरमा बस्न चाहन्छु।",
+          "pt": "Em dias de folga como os dias de festival, quero ficar em casa.",
+          "th": "วันหยุดเช่นวันสาด ฉันอยากอยู่บ้าน",
+          "tl": "Sa mga holiday tulad ng araw ng kapistahan, gusto kong manatili sa bahay.",
+          "ur": "تہواروں جیسے چھٹی کے دنوں میں، میں گھر پر رہنا چاہتا ہوں۔",
+          "vi": "Vào những ngày nghỉ chẳng hạn như ngày lễ hội, tôi muốn ở nhà.",
+          "zh": "像节日这样的假日，我想待在家里。",
+          "zh_Hant": "像節日這樣的假日，我想待在家裡。"
+        },
+        "out_of_scope_words": [
+          "ວັນພັກ",
+          "ວັນສາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a list with examples — a large label saying 'Fruit' at the top with three items below it (apple, banana, orange) connected by bullet points, representing the concept of 'such as' or giving examples, clean white background, colorful, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼາຍ": {
+    "definitions": {
+      "de": "Viel / viele / sehr; drückt eine große Menge, eine hohe Anzahl oder einen hohen Grad aus; kann auch als Verstärker verwendet werden",
+      "en": "Many / much / very; expresses a large quantity, high number, or high degree; can also be used as an intensifier",
+      "es": "Muchos / mucho / muy; expresa una gran cantidad, un número elevado o un grado alto; también se puede usar como intensificador",
+      "fr": "Beaucoup / très / nombreux; exprime une grande quantité, un grand nombre ou un degré élevé; peut aussi être utilisé comme intensificateur",
+      "hi": "बहुत / कई / अत्यधिक; एक बड़ी मात्रा, उच्च संख्या, या उच्च स्तर व्यक्त करता है; तीव्रता बढ़ाने के लिए भी इस्तेमाल किया जा सकता है",
+      "ja": "多い／たくさん／とても；大きな数量、高い数、または高い程度を表す；強調語としても使われる",
+      "km": "ច្រើន / ជាច្រើន / ណាស់; បង្ហាញពីបរិមាណច្រើន ចំនួនច្រើន ឬកម្រិតខ្ពស់; ក៏អាចប្រើជាពាក្យពង្រឹងបន្ថែម",
+      "ko": "많은 / 많이 / 매우; 많은 양, 높은 수 또는 높은 정도를 나타냄; 강조어로도 사용 가능",
+      "ne": "धेरै / अत्यधिक / बहुत; ठूलो मात्रा, उच्च संख्या, वा उच्च स्तर व्यक्त गर्छ; जोड दिन पनि प्रयोग गर्न सकिन्छ",
+      "pt": "Muito / muitos / bastante; expressa uma grande quantidade, número alto ou alto grau; também pode ser usado como intensificador",
+      "th": "มาก / หลาย / มากมาย; แสดงถึงปริมาณมาก จำนวนมาก หรือระดับสูง; ยังสามารถใช้เป็นคำเน้นความได้",
+      "tl": "Marami / lubos / napaka; nagpapahayag ng malaking dami, mataas na bilang, o mataas na antas; maaari ring gamitin bilang pampalakas ng salita",
+      "ur": "بہت / زیادہ / کافی؛ ایک بڑی مقدار، اعلیٰ تعداد، یا اعلیٰ درجے کا اظہار کرتا ہے؛ تاکید کے لیے بھی استعمال کیا جا سکتا ہے",
+      "vi": "Nhiều / rất / quá; diễn đạt số lượng lớn, số nhiều, hoặc mức độ cao; cũng có thể dùng như từ nhấn mạnh",
+      "zh": "很多／许多／非常；表达大量、高数量或高程度；也可用作强调词",
+      "zh_Hant": "很多／許多／非常；表達大量、高數量或高程度；也可用作強調詞"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "lǎai",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ຄົນຫຼາຍຫຼາຍ",
+        "romanization": "mʉ̄ níi khón lǎai lǎai",
+        "translations": {
+          "de": "Heute gibt es sehr viele Menschen.",
+          "en": "There are so many people today.",
+          "es": "Hoy hay muchísima gente.",
+          "fr": "Il y a énormément de monde aujourd'hui.",
+          "hi": "आज बहुत सारे लोग हैं।",
+          "ja": "今日はものすごく人が多い。",
+          "km": "ថ្ងៃនេះមនុស្សច្រើនណាស់។",
+          "ko": "오늘 사람이 엄청 많아요.",
+          "ne": "आज मान्छे धेरै धेरै छन्।",
+          "pt": "Hoje tem muita gente.",
+          "th": "วันนี้คนเยอะมาก",
+          "tl": "Napakaraming tao ngayon.",
+          "ur": "آج بہت زیادہ لوگ ہیں۔",
+          "vi": "Hôm nay có rất nhiều người.",
+          "zh": "今天人好多好多。",
+          "zh_Hant": "今天人好多好多。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍມັກເຈົ້າຫຼາຍ",
+        "romanization": "khɔ̂i mák jâo lǎai",
+        "translations": {
+          "de": "Ich mag dich sehr.",
+          "en": "I like you a lot.",
+          "es": "Me gustas mucho.",
+          "fr": "Je t'aime beaucoup.",
+          "hi": "मुझे तुम बहुत पसंद हो।",
+          "ja": "あなたのことがとても好きです。",
+          "km": "ខ្ញុំចូលចិត្តអ្នកច្រើន។",
+          "ko": "나는 네가 정말 좋아.",
+          "ne": "म तिमीलाई धेरै मन पराउँछु।",
+          "pt": "Eu gosto muito de você.",
+          "th": "ฉันชอบเธอมาก",
+          "tl": "Gustong-gusto kita.",
+          "ur": "مجھے آپ بہت پسند ہیں۔",
+          "vi": "Tôi thích bạn nhiều lắm.",
+          "zh": "我很喜欢你。",
+          "zh_Hant": "我很喜歡你。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a large pile of colorful apples overflowing from a basket, representing the concept of 'many' or 'a lot', clean white background, bright colors, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄຊ": {
+    "definitions": {
+      "de": "Sieg; der Zustand des Gewinnens oder Triumphierens; häufig in Namen und zeremoniellen Ausrufen verwendet",
+      "en": "Victory; the state of winning or triumphing over something; commonly used in names and ceremonial exclamations",
+      "es": "Victoria; el estado de ganar o triunfar sobre algo; se usa comúnmente en nombres y exclamaciones ceremoniales",
+      "fr": "Victoire; l'état de gagner ou de triompher; couramment utilisé dans les noms propres et les exclamations cérémonielles",
+      "hi": "विजय; जीतने या किसी चीज़ पर विजय पाने की स्थिति; आमतौर पर नामों और औपचारिक उद्घोषों में उपयोग किया जाता है",
+      "ja": "勝利；何かに打ち勝つまたは勝つ状態；名前や儀礼的な感嘆詞によく使われる",
+      "km": "ជ័យជំនះ; ស្ថានភាពនៃការឈ្នះ ឬការទទួលបានជ័យជំនះ; ជាទូទៅប្រើក្នុងឈ្មោះ និងការស្រែកចំណោទ",
+      "ko": "승리; 무언가에 이기거나 승리하는 상태; 이름이나 의례적인 감탄사에 자주 사용됨",
+      "ne": "विजय; केही चीजमा जित्ने वा विजय हासिल गर्ने अवस्था; सामान्यतः नाम र औपचारिक उद्गारहरूमा प्रयोग हुन्छ",
+      "pt": "Vitória; o estado de vencer ou triunfar sobre algo; comumente usado em nomes e exclamações cerimoniais",
+      "th": "ชัยชนะ; สภาวะของการชนะหรือมีชัยเหนือสิ่งใด; มักใช้ในชื่อและการอุทานในพิธีการ",
+      "tl": "Tagumpay / Panalo; ang estado ng pagwawagi o pagtatagumpay; karaniwang ginagamit sa mga pangalan at seremonyal na pagbubulahaw",
+      "ur": "فتح؛ جیتنے یا کسی چیز پر غلبہ پانے کی حالت؛ عام طور پر ناموں اور رسمی نعروں میں استعمال ہوتا ہے",
+      "vi": "Chiến thắng; trạng thái chiến thắng hoặc khải hoàn; thường dùng trong tên người và các tiếng hô nghi lễ",
+      "zh": "胜利；赢得或征服某事的状态；常用于名字和仪式性的欢呼声中",
+      "zh_Hant": "勝利；贏得或征服某事的狀態；常用於名字和儀式性的歡呼聲中"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sái",
+    "examples": [
+      {
+        "lao_script": "ທີມເຮົາໄດ້ໄຊໃນການແຂ່ງຂັນມື້ວານ",
+        "romanization": "thiim hao dâi sái nai gaan khɛ̀ng khán mʉ̄ waan",
+        "translations": {
+          "de": "Unser Team hat gestern den Wettkampf gewonnen.",
+          "en": "Our team won victory in yesterday's competition.",
+          "es": "Nuestro equipo logró la victoria en la competencia de ayer.",
+          "fr": "Notre équipe a remporté la victoire lors de la compétition d'hier.",
+          "hi": "हमारी टीम ने कल की प्रतियोगिता में जीत हासिल की।",
+          "ja": "私たちのチームは昨日の試合で勝利を収めました。",
+          "km": "ក្រុមយើងទទួលបានជ័យជំនះក្នុងការប្រកួតប្រជែងម្សិលមិញ។",
+          "ko": "우리 팀이 어제 대회에서 승리했어요.",
+          "ne": "हाम्रो टोलीले हिजोको प्रतियोगितामा जित हासिल गर्यो।",
+          "pt": "Nosso time conseguiu a vitória na competição de ontem.",
+          "th": "ทีมเราได้รับชัยชนะในการแข่งขันเมื่อวาน",
+          "tl": "Ang aming koponan ay nagwagi sa kahapon na palaro.",
+          "ur": "ہماری ٹیم نے کل کے مقابلے میں فتح حاصل کی۔",
+          "vi": "Đội chúng tôi đã giành chiến thắng trong cuộc thi ngày hôm qua.",
+          "zh": "我们队在昨天的比赛中取得了胜利。",
+          "zh_Hant": "我們隊在昨天的比賽中取得了勝利。"
+        },
+        "out_of_scope_words": [
+          "ທີມ",
+          "ການແຂ່ງຂັນ",
+          "ມື້ວານ"
+        ]
+      },
+      {
+        "lao_script": "ໄຊ! ພວກເຮົາຜ່ານການສອບເສັງແລ້ວ",
+        "romanization": "sái! phûak hao phàan gaan sɔ̀p sɛ̌ng lɛ́ɛo",
+        "translations": {
+          "de": "Sieg! Wir haben die Prüfung bestanden!",
+          "en": "Victory! We passed the exam!",
+          "es": "¡Victoria! ¡Pasamos el examen!",
+          "fr": "Victoire! Nous avons réussi l'examen!",
+          "hi": "जीत! हम परीक्षा में पास हो गए!",
+          "ja": "やった！試験に合格したよ！",
+          "km": "ជ័យជំនះ! យើងឆ្លងការប្រឡងហើយ!",
+          "ko": "승리! 우리 시험 통과했어!",
+          "ne": "जित! हामी परीक्षामा पास भयौं!",
+          "pt": "Vitória! Passamos na prova!",
+          "th": "ชัย! พวกเราผ่านการสอบแล้ว!",
+          "tl": "Tagumpay! Pumasa na tayo sa exam!",
+          "ur": "فتح! ہم امتحان میں پاس ہو گئے!",
+          "vi": "Chiến thắng! Chúng ta đã vượt qua kỳ thi rồi!",
+          "zh": "胜利！我们通过考试了！",
+          "zh_Hant": "勝利！我們通過考試了！"
+        },
+        "out_of_scope_words": [
+          "ການສອບເສັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a golden trophy cup with a star on it and colorful confetti falling around it, representing victory or winning, clean white background, bright colors, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

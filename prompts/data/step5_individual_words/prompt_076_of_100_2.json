@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບຸກ",
+  "definitions": {
+    "de": "Einbrechen; eindringen; in einen Bereich einmarschieren oder gewaltsam eintreten",
+    "en": "To invade; to break into; to rush into or intrude upon a place forcefully",
+    "es": "Invadir; irrumpir; entrar a la fuerza en un lugar",
+    "fr": "Envahir; faire irruption; entrer de force dans un endroit",
+    "hi": "आक्रमण करना; जबरदस्ती घुसना; किसी स्थान पर बलपूर्वक प्रवेश करना",
+    "ja": "侵入する；乱入する；ある場所に強引に入り込む",
+    "km": "រុករាន; ឈ្លានពាន; ចូលទៅក្នុងកន្លែងណាមួយដោយបង្ខំ",
+    "ko": "침입하다; 난입하다; 어떤 장소에 강제로 들어가다",
+    "ne": "आक्रमण गर्नु; बलजफ्ती घुस्नु; कुनै ठाउँमा जबर्दस्ती प्रवेश गर्नु",
+    "pt": "Invadir; arrombar; entrar à força em um lugar",
+    "th": "บุก; บุกรุก; เข้าไปในสถานที่อย่างกะทันหันหรือโดยบังคับ",
+    "tl": "Sumalakay; pumasok nang sapilitan; pumasok nang mabilis sa isang lugar",
+    "ur": "حملہ کرنا؛ زبردستی گھسنا؛ کسی جگہ پر بالجبر داخل ہونا",
+    "vi": "Xông vào; đột nhập; tấn công hoặc xâm nhập vào một nơi nào đó",
+    "zh": "闯入；侵入；强行进入某个地方",
+    "zh_Hant": "闖入；侵入；強行進入某個地方"
+  },
+  "definition_en": "To invade; to break into; to rush into or intrude upon a place forcefully",
+  "romanization": "/buk˧˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂະໂມຍບຸກເຂົ້າໄປໃນເຮືອນຕອນກາງຄືນ",
+      "romanization": "kha-moy buk khao pai nai heuon ton kang kheun",
+      "translation_en": "A thief broke into the house at night."
+    },
+    {
+      "lao_script": "ຢ່າບຸກເຂົ້າໄປໃນຫ້ອງຂອງຂ້ອຍໂດຍບໍ່ໄດ້ຂໍອະນຸຍາດ",
+      "romanization": "ya buk khao pai nai hong khong khoy doi bo dai kho a-nu-yat",
+      "translation_en": "Don't barge into my room without asking permission."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon burglar or person forcefully breaking through a door, shown in a non-threatening, educational cartoon style, clean white background, bold colors, minimalist design suitable for a language learning app."
+}

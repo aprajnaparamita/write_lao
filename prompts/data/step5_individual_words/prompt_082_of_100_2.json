@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປາກ",
+  "definitions": {
+    "de": "Mund; die Körperöffnung zum Essen, Trinken und Sprechen",
+    "en": "Mouth; the opening in the face used for eating, drinking, and speaking",
+    "es": "Boca; la apertura en el rostro usada para comer, beber y hablar",
+    "fr": "Bouche; l'ouverture du visage utilisée pour manger, boire et parler",
+    "hi": "मुँह; चेहरे का वह हिस्सा जो खाने, पीने और बोलने के लिए उपयोग होता है",
+    "ja": "口；食べたり、飲んだり、話したりするための顔の開口部",
+    "km": "មាត់; ช่องเปิดบนใบหน้าสำหรับกิน ดื่ม และพูด",
+    "ko": "입; 먹고 마시고 말하는 데 사용되는 얼굴의 구멍",
+    "ne": "मुख; अनुहारको त्यो भाग जुन खाने, पिउने र बोल्नका लागि प्रयोग हुन्छ",
+    "pt": "Boca; a abertura no rosto usada para comer, beber e falar",
+    "th": "ปาก; ช่องเปิดบนใบหน้าที่ใช้สำหรับกิน ดื่ม และพูด",
+    "tl": "Bibig; ang bukas na bahagi ng mukha na ginagamit para kumain, uminom, at magsalita",
+    "ur": "منہ؛ چہرے کا وہ حصہ جو کھانے، پینے اور بولنے کے لیے استعمال ہوتا ہے",
+    "vi": "Miệng; phần mở trên khuôn mặt dùng để ăn, uống và nói chuyện",
+    "zh": "嘴；脸上用于进食、饮水和说话的开口",
+    "zh_Hant": "嘴；臉上用於進食、飲水和說話的開口"
+  },
+  "definition_en": "Mouth; the opening in the face used for eating, drinking, and speaking",
+  "romanization": "/páːk/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈັບປາກຫຼາຍ ກິນເຂົ້າບໍ່ໄດ້ເລີຍ",
+      "romanization": "jep pak lai, gin khao bo dai loei",
+      "translation_en": "My mouth hurts a lot, I can't eat anything at all."
+    },
+    {
+      "lao_script": "ອ້າປາກກ້ວາງໆໄວ້ ໝໍຈະກວດໃຫ້",
+      "romanization": "a pak kwang-kwang wai, mo ja kuat hai",
+      "translation_en": "Open your mouth wide, the doctor is going to examine it."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a human face with the mouth clearly highlighted and labeled, showing lips and teeth in a friendly open smile, clean white background, colorful, minimalist style suitable for a language learning app."
+}

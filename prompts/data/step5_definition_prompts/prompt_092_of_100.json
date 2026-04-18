@@ -1,0 +1,407 @@
+{
+  "ມວຍ": {
+    "definitions": {
+      "de": "Boxen; ein Kampfsport, bei dem zwei Personen mit den Fäusten gegeneinander kämpfen",
+      "en": "Boxing; a combat sport in which two people fight each other using their fists",
+      "es": "Boxeo; un deporte de combate en el que dos personas se pelean usando los puños",
+      "fr": "Boxe; un sport de combat dans lequel deux personnes se battent en utilisant leurs poings",
+      "hi": "मुक्केबाज़ी; एक लड़ाई का खेल जिसमें दो लोग अपनी मुट्ठियों से एक-दूसरे से लड़ते हैं",
+      "ja": "ボクシング；二人の人が拳を使って戦う格闘技",
+      "km": "កីឡាប្រដាល់; កីឡាប្រយុទ្ធដែលមនុស្សពីរនាក់ប្រយុទ្ធគ្នាដោយប្រើកណ្ដាប់ដៃ",
+      "ko": "복싱; 두 사람이 주먹을 사용하여 싸우는 격투 스포츠",
+      "ne": "मुक्केबाजी; एउटा लडाई खेल जसमा दुई व्यक्ति मुठ्ठीले एकअर्काविरुद्ध लड्छन्",
+      "pt": "Boxe; um esporte de combate no qual duas pessoas lutam usando os punhos",
+      "th": "มวย; กีฬาการต่อสู้ที่คนสองคนใช้หมัดต่อสู้กัน",
+      "tl": "Boksing; isang palakasang panlaban kung saan dalawang tao ang nagaaway gamit ang kanilang mga kamao",
+      "ur": "باکسنگ؛ ایک لڑائی کا کھیل جس میں دو لوگ اپنی مٹھیوں سے ایک دوسرے سے لڑتے ہیں",
+      "vi": "Quyền anh; môn thể thao chiến đấu trong đó hai người dùng nắm đấm để chiến đấu với nhau",
+      "zh": "拳击；一种两人用拳头互相搏斗的格斗运动",
+      "zh_Hant": "拳擊；一種兩人用拳頭互相搏鬥的格鬥運動"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/mùaj/",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນຊອບເບິ່ງມວຍທຸກອາທິດ",
+        "romanization": "phəən sɔ̂ɔp bəəng mùaj thúk ʔaa-thít",
+        "translations": {
+          "de": "Er/Sie schaut sich jede Woche gerne Boxen an.",
+          "en": "He/She likes watching boxing every week.",
+          "es": "A él/ella le gusta ver boxeo cada semana.",
+          "fr": "Il/Elle aime regarder la boxe chaque semaine.",
+          "hi": "वह हर हफ्ते मुक्केबाज़ी देखना पसंद करता/करती है।",
+          "ja": "彼/彼女は毎週ボクシングを見るのが好きです。",
+          "km": "គាត់ចូលចិត្តមើលកីឡាប្រដាល់រៀងរាល់សប្តាហ៍។",
+          "ko": "그/그녀는 매주 복싱 보는 것을 좋아합니다.",
+          "ne": "उसलाई हरेक हप्ता मुक्केबाजी हेर्न मन पर्छ।",
+          "pt": "Ele/Ela gosta de assistir boxe toda semana.",
+          "th": "เขา/เธอชอบดูมวยทุกสัปดาห์",
+          "tl": "Gusto niyang manood ng boksing tuwing linggo.",
+          "ur": "اسے ہر ہفتے باکسنگ دیکھنا پسند ہے۔",
+          "vi": "Anh ấy/Cô ấy thích xem quyền anh mỗi tuần.",
+          "zh": "他/她每周都喜欢看拳击。",
+          "zh_Hant": "他/她每週都喜歡看拳擊。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ຊອບ",
+          "ອາທິດ"
+        ]
+      },
+      {
+        "lao_script": "ນ້ອງຂ້ອຍຮຽນມວຍຢູ່ທີ່ໂຮງຮຽນ",
+        "romanization": "nɔ́ɔng khɔ̂ɔj hian mùaj jùu thîi hóong hian",
+        "translations": {
+          "de": "Mein jüngeres Geschwister lernt Boxen in der Schule.",
+          "en": "My younger sibling is learning boxing at school.",
+          "es": "Mi hermano/a menor está aprendiendo boxeo en la escuela.",
+          "fr": "Mon/Ma petit(e) frère/sœur apprend la boxe à l'école.",
+          "hi": "मेरा/मेरी छोटा/छोटी भाई/बहन स्कूल में मुक्केबाज़ी सीख रहा/रही है।",
+          "ja": "私の弟/妹は学校でボクシングを習っています。",
+          "km": "ប្អូនរបស់ខ្ញុំរៀនកីឡាប្រដាល់នៅសាលា។",
+          "ko": "제 동생은 학교에서 복싱을 배우고 있어요.",
+          "ne": "मेरो सानो भाइ/बहिनीले स्कूलमा मुक्केबाजी सिक्दैछ।",
+          "pt": "Meu/Minha irmão/irmã mais novo/nova está aprendendo boxe na escola.",
+          "th": "น้องของฉันเรียนมวยที่โรงเรียน",
+          "tl": "Ang kapatid kong bunso ay natututo ng boksing sa paaralan.",
+          "ur": "میرا چھوٹا بھائی/بہن اسکول میں باکسنگ سیکھ رہا/رہی ہے۔",
+          "vi": "Em tôi đang học quyền anh ở trường.",
+          "zh": "我弟弟/妹妹在学校学拳击。",
+          "zh_Hant": "我弟弟/妹妹在學校學拳擊。"
+        },
+        "out_of_scope_words": [
+          "ນ້ອງ",
+          "ຮຽນ",
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon boxers wearing red and blue boxing gloves facing each other in a boxing ring, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມະນຸດ": {
+    "definitions": {
+      "de": "Mensch; ein Mitglied der Gattung Homo sapiens; eine Person",
+      "en": "Human being; a person; a member of the human species",
+      "es": "Ser humano; una persona; un miembro de la especie humana",
+      "fr": "Être humain; une personne; un membre de l'espèce humaine",
+      "hi": "मनुष्य; एक इंसान; मानव प्रजाति का सदस्य",
+      "ja": "人間；人；ヒト科に属する生き物",
+      "km": "មនុស្ស; បុគ្គល; សមាជិកនៃប្រភេទមនុស្ស",
+      "ko": "인간; 사람; 인류의 구성원",
+      "ne": "मानव; एक व्यक्ति; मानव प्रजातिको सदस्य",
+      "pt": "Ser humano; uma pessoa; um membro da espécie humana",
+      "th": "มนุษย์; บุคคล; สมาชิกของเผ่าพันธุ์มนุษย์",
+      "tl": "Tao; isang tao; isang miyembro ng sangkatauhan",
+      "ur": "انسان؛ ایک شخص؛ انسانی نوع کا رکن",
+      "vi": "Con người; một người; thành viên của loài người",
+      "zh": "人类；人；人种的成员",
+      "zh_Hant": "人類；人；人種的成員"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/má-nút/",
+    "examples": [
+      {
+        "lao_script": "ມະນຸດທຸກຄົນຕ້ອງການນ້ຳ",
+        "romanization": "má-nút thúk khón tɔ̂ng kaan náam",
+        "translations": {
+          "de": "Alle Menschen brauchen Wasser.",
+          "en": "All human beings need water.",
+          "es": "Todos los seres humanos necesitan agua.",
+          "fr": "Tous les êtres humains ont besoin d'eau.",
+          "hi": "सभी मनुष्यों को पानी की ज़रूरत है।",
+          "ja": "すべての人間は水を必要とします。",
+          "km": "មនុស្សគ្រប់គ្នាត្រូវការទឹក។",
+          "ko": "모든 인간은 물이 필요합니다.",
+          "ne": "सबै मानवलाई पानी चाहिन्छ।",
+          "pt": "Todos os seres humanos precisam de água.",
+          "th": "มนุษย์ทุกคนต้องการน้ำ",
+          "tl": "Ang lahat ng tao ay nangangailangan ng tubig.",
+          "ur": "تمام انسانوں کو پانی کی ضرورت ہے۔",
+          "vi": "Tất cả mọi người đều cần nước.",
+          "zh": "所有人类都需要水。",
+          "zh_Hant": "所有人類都需要水。"
+        },
+        "out_of_scope_words": [
+          "ທຸກຄົນ",
+          "ຕ້ອງການ",
+          "ນ້ຳ"
+        ]
+      },
+      {
+        "lao_script": "ມະນຸດເຮົາມີຫົວໃຈ",
+        "romanization": "má-nút hao míi hǔa-jai",
+        "translations": {
+          "de": "Wir Menschen haben ein Herz.",
+          "en": "We humans have a heart.",
+          "es": "Los seres humanos tenemos corazón.",
+          "fr": "Nous, les humains, avons un cœur.",
+          "hi": "हम मनुष्यों के पास दिल है।",
+          "ja": "私たち人間には心があります。",
+          "km": "មនុស្សយើងមានបេះដូង។",
+          "ko": "우리 인간은 마음을 가지고 있어요.",
+          "ne": "हामी मानवहरूसँग मुटु छ।",
+          "pt": "Nós, seres humanos, temos coração.",
+          "th": "มนุษย์เรามีหัวใจ",
+          "tl": "Tayo bilang mga tao ay may puso.",
+          "ur": "ہم انسانوں کے پاس دل ہے۔",
+          "vi": "Chúng ta là con người có trái tim.",
+          "zh": "我们人类有一颗心。",
+          "zh_Hant": "我們人類有一顆心。"
+        },
+        "out_of_scope_words": [
+          "ເຮົາ",
+          "ຫົວໃຈ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a diverse group of smiling people of different ages and backgrounds standing together, representing humanity, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມານ": {
+    "definitions": {
+      "de": "Mara; ein böser Geist oder Dämon in der buddhistischen Mythologie; symbolisiert Versuchung und das Böse",
+      "en": "Mara; a demon or evil spirit in Buddhist mythology; symbolizes temptation and evil forces",
+      "es": "Mara; un demonio o espíritu maligno en la mitología budista; simboliza la tentación y las fuerzas del mal",
+      "fr": "Mara; un démon ou un esprit maléfique dans la mythologie bouddhiste; symbolise la tentation et les forces du mal",
+      "hi": "मार; बौद्ध पौराणिक कथाओं में एक राक्षस या दुष्ट आत्मा; प्रलोभन और बुरी शक्तियों का प्रतीक",
+      "ja": "マーラ；仏教神話における悪魔または邪悪な霊；誘惑と悪の力を象徴する",
+      "km": "មារ; អារក្សឬវិញ្ញាណអាក្រក់នៅក្នុងព្រះពុទ្ធសាសនា; តំណាងឱ្យការល្បួងនិងអំពើអាក្រក់",
+      "ko": "마라; 불교 신화에서 악마 또는 악령; 유혹과 악의 세력을 상징함",
+      "ne": "मार; बौद्ध पौराणिक कथाहरूमा एक राक्षस वा दुष्ट आत्मा; प्रलोभन र दुष्ट शक्तिहरूको प्रतीक",
+      "pt": "Mara; um demônio ou espírito maligno na mitologia budista; simboliza a tentação e as forças do mal",
+      "th": "มาร; ปีศาจหรือภูตผีในตำนานพระพุทธศาสนา; เป็นสัญลักษณ์ของการยั่วยวนและพลังชั่วร้าย",
+      "tl": "Mara; isang demonyo o masamang espiritu sa mitolohiyang Budista; sumasalamin sa tukso at masasamang puwersa",
+      "ur": "مارا؛ بدھ مت کی داستانوں میں ایک شیطان یا برا روح؛ آزمائش اور برائی کی علامت",
+      "vi": "Ma; một con quỷ hoặc linh hồn ác trong thần thoại Phật giáo; tượng trưng cho cám dỗ và các thế lực xấu xa",
+      "zh": "魔；佛教神话中的恶魔或邪灵；象征诱惑和邪恶力量",
+      "zh_Hant": "魔；佛教神話中的惡魔或邪靈；象徵誘惑和邪惡力量"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/māan/",
+    "examples": [
+      {
+        "lao_script": "ໃນນິທານ ມານພະຍາຍາມລໍ້ລວງຄົນ",
+        "romanization": "nai ni-thaan, māan phá-yaa-yaam lɔ̂ɔ-luang khón",
+        "translations": {
+          "de": "In der Geschichte versucht der Dämon, die Menschen zu verführen.",
+          "en": "In the story, the demon tries to tempt people.",
+          "es": "En el cuento, el demonio intenta tentar a las personas.",
+          "fr": "Dans l'histoire, le démon essaie de tenter les gens.",
+          "hi": "कहानी में, राक्षस लोगों को लुभाने की कोशिश करता है।",
+          "ja": "物語の中で、悪魔は人々を誘惑しようとします。",
+          "km": "នៅក្នុងរឿង អារក្សព្យាយាមល្បួងមនុស្ស។",
+          "ko": "이야기에서 악마는 사람들을 유혹하려고 합니다.",
+          "ne": "कथामा, राक्षसले मानिसहरूलाई प्रलोभन दिन कोशिस गर्छ।",
+          "pt": "Na história, o demônio tenta seduzir as pessoas.",
+          "th": "ในนิทาน มารพยายามล่อลวงคน",
+          "tl": "Sa kuwento, sinusubukan ng demonyo na tuksuhin ang mga tao.",
+          "ur": "کہانی میں، شیطان لوگوں کو بہکانے کی کوشش کرتا ہے۔",
+          "vi": "Trong câu chuyện, con quỷ cố gắng cám dỗ mọi người.",
+          "zh": "在故事中，魔试图引诱人们。",
+          "zh_Hant": "在故事中，魔試圖引誘人們。"
+        },
+        "out_of_scope_words": [
+          "ນິທານ",
+          "ພະຍາຍາມ",
+          "ລໍ້ລວງ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ເວົ້າວ່າ ມານຊົ່ວ ຄວນລະວັງ",
+        "romanization": "phɔ̂ɔ vao vâa, māan sûa, khuan lá-wang",
+        "translations": {
+          "de": "Vater sagt, der Dämon ist böse, man sollte vorsichtig sein.",
+          "en": "Dad says the demon is evil; one should be careful.",
+          "es": "Papá dice que el demonio es malvado; hay que tener cuidado.",
+          "fr": "Papa dit que le démon est mauvais, il faut faire attention.",
+          "hi": "पिताजी कहते हैं कि राक्षस बुरा है, सावधान रहना चाहिए।",
+          "ja": "お父さんは悪魔は悪いので気をつけるべきだと言っています。",
+          "km": "ឪពុកនិយាយថា អារក្សអាក្រក់ ត្រូវប្រយ័ត្ន។",
+          "ko": "아빠가 악마는 나쁘니 조심해야 한다고 말해요.",
+          "ne": "बुबाले भन्नुहुन्छ कि राक्षस खराब छ, सावधान रहनुपर्छ।",
+          "pt": "Pai diz que o demônio é mau; é preciso ter cuidado.",
+          "th": "พ่อบอกว่า มารชั่ว ควรระวัง",
+          "tl": "Sinabi ng tatay na masama ang demonyo, dapat mag-ingat.",
+          "ur": "ابو کہتے ہیں کہ شیطان برا ہے، احتیاط کرنی چاہیے۔",
+          "vi": "Bố nói ma quỷ rất ác, cần phải cẩn thận.",
+          "zh": "爸爸说魔很邪恶，要小心。",
+          "zh_Hant": "爸爸說魔很邪惡，要小心。"
+        },
+        "out_of_scope_words": [
+          "ພໍ່",
+          "ເວົ້າ",
+          "ຊົ່ວ",
+          "ລະວັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a shadowy demon figure with dark wings and glowing red eyes in a Buddhist mythological style, suitable for a language learning app, clean light background, colorful but slightly ominous, minimalist style.",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ມິງ": {
+    "definitions": {
+      "de": "Ming; ein Element in Personennamen, das Glanz, Helligkeit oder Ruhm bedeutet; wird häufig als Bestandteil von Eigennamen verwendet",
+      "en": "Ming; a name element meaning brightness, brilliance, or fame; commonly used as part of personal names rather than as a standalone word",
+      "es": "Ming; un elemento de nombre que significa brillo, brillantez o fama; se usa comúnmente como parte de nombres propios",
+      "fr": "Ming; un élément de prénom signifiant éclat, brillance ou renommée; souvent utilisé comme composant de prénoms",
+      "hi": "मिंग; एक नाम का तत्व जिसका अर्थ है चमक, प्रतिभा या प्रसिद्धि; आमतौर पर व्यक्तिगत नामों के हिस्से के रूप में उपयोग किया जाता है",
+      "ja": "ミン；輝き、才能、名声を意味する名前の要素；独立した単語よりも個人名の一部として使われることが多い",
+      "km": "មីង; ធាតុឈ្មោះដែលមានន័យថា ភ្លឺ, ល្បី, ឬ​ចំណេះដឹង; ជាធម្មតាប្រើជាផ្នែកនៃឈ្មោះផ្ទាល់ខ្លួន",
+      "ko": "밍; 빛남, 총명함, 또는 명성을 의미하는 이름 요소; 주로 인명의 일부로 사용됨",
+      "ne": "मिङ; चमक, प्रतिभा वा प्रसिद्धि बुझाउने नाम तत्व; सामान्यतया व्यक्तिगत नामहरूको भागको रूपमा प्रयोग गरिन्छ",
+      "pt": "Ming; um elemento de nome que significa brilho, brilhantismo ou fama; comumente usado como parte de nomes próprios",
+      "th": "มิ้ง; ส่วนประกอบของชื่อที่หมายถึงความสว่าง ความเฉลียวฉลาด หรือชื่อเสียง; มักใช้เป็นส่วนหนึ่งของชื่อบุคคล",
+      "tl": "Ming; isang bahagi ng pangalan na nangangahulugang liwanag, katalinuhan, o katanyagan; karaniwang ginagamit bilang bahagi ng pangalan ng tao",
+      "ur": "مِنگ؛ ایک نامی عنصر جس کا مطلب روشنی، ذہانت یا شہرت ہے؛ عموماً ذاتی ناموں کے حصے کے طور پر استعمال ہوتا ہے",
+      "vi": "Minh; một yếu tố tên có nghĩa là sáng suốt, thông minh hoặc nổi tiếng; thường được dùng như một phần của tên riêng",
+      "zh": "明；名字中的一个元素，意为光明、聪明或名声；通常作为人名的组成部分使用",
+      "zh_Hant": "明；名字中的一個元素，意為光明、聰明或名聲；通常作為人名的組成部分使用"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/míŋ/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ຂອງລາວແມ່ນ ມິງ",
+        "romanization": "sûu khɔ̌ɔng lao mɛɛn míŋ",
+        "translations": {
+          "de": "Sein/Ihr Name ist Ming.",
+          "en": "His/Her name is Ming.",
+          "es": "Su nombre es Ming.",
+          "fr": "Son nom est Ming.",
+          "hi": "उसका नाम मिंग है।",
+          "ja": "彼/彼女の名前はミンです。",
+          "km": "ឈ្មោះរបស់គាត់គឺ មីង។",
+          "ko": "그/그녀의 이름은 밍입니다.",
+          "ne": "उसको नाम मिङ हो।",
+          "pt": "O nome dele/dela é Ming.",
+          "th": "ชื่อของเขา/เธอคือ มิ้ง",
+          "tl": "Ang pangalan niya ay Ming.",
+          "ur": "اس کا نام مِنگ ہے۔",
+          "vi": "Tên của anh ấy/cô ấy là Minh.",
+          "zh": "他/她的名字叫明。",
+          "zh_Hant": "他/她的名字叫明。"
+        },
+        "out_of_scope_words": [
+          "ຊື່",
+          "ລາວ",
+          "ແມ່ນ"
+        ]
+      },
+      {
+        "lao_script": "ມິງ ເປັນຊື່ທີ່ຂ້ອຍຊອບຫຼາຍ",
+        "romanization": "míŋ pen sûu thîi khɔ̂ɔj sɔ̂ɔp lǎaj",
+        "translations": {
+          "de": "Ming ist ein Name, den ich sehr mag.",
+          "en": "Ming is a name that I really like.",
+          "es": "Ming es un nombre que me gusta mucho.",
+          "fr": "Ming est un prénom que j'aime beaucoup.",
+          "hi": "मिंग एक ऐसा नाम है जो मुझे बहुत पसंद है।",
+          "ja": "ミンは私がとても好きな名前です。",
+          "km": "មីងជាឈ្មោះដែលខ្ញុំចូលចិត្តខ្លាំង។",
+          "ko": "밍은 제가 정말 좋아하는 이름이에요.",
+          "ne": "मिङ एउटा नाम हो जुन मलाई धेरै मन पर्छ।",
+          "pt": "Ming é um nome que eu gosto muito.",
+          "th": "มิ้งเป็นชื่อที่ฉันชอบมาก",
+          "tl": "Ang Ming ay isang pangalang talagang gusto ko.",
+          "ur": "مِنگ ایک ایسا نام ہے جو مجھے بہت پسند ہے۔",
+          "vi": "Minh là cái tên mà tôi rất thích.",
+          "zh": "明是我非常喜欢的一个名字。",
+          "zh_Hant": "明是我非常喜歡的一個名字。"
+        },
+        "out_of_scope_words": [
+          "ເປັນ",
+          "ຊອບ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a glowing name tag or nameplate with the name 'Ming' written on it, surrounded by small stars or sparkles suggesting brightness and brilliance, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ຢວນ": {
+    "definitions": {
+      "de": "Yuon; ein ethnisches Exonym, das in Laos traditionell für Vietnamesen verwendet wird; kann je nach Kontext als informell oder abwertend empfunden werden",
+      "en": "Yuon; an ethnonym traditionally used in Laos to refer to Vietnamese people; may be considered informal or offensive depending on context",
+      "es": "Yuon; un etnónimo utilizado tradicionalmente en Laos para referirse a los vietnamitas; puede considerarse informal u ofensivo según el contexto",
+      "fr": "Yuon; un ethnonyme utilisé traditionnellement au Laos pour désigner les Vietnamiens; peut être considéré comme informel ou offensant selon le contexte",
+      "hi": "युओन; लाओस में वियतनामी लोगों को संदर्भित करने के लिए पारंपरिक रूप से उपयोग किया जाने वाला एक जातीय नाम; संदर्भ के अनुसार अनौपचारिक या आपत्तिजनक माना जा सकता है",
+      "ja": "ユオン；ラオスでベトナム人を指すために伝統的に使われる民族名称；文脈によっては非公式または侮辱的と見なされる場合がある",
+      "km": "យួន; ពាក្យប្រើហៅជនជាតិវៀតណាមដែលប្រើប្រាស់ប្រពៃណីនៅឡាវ; អាចចាត់ទុកជាពាក្យក្រៅផ្លូវការឬប្រមាថអាស្រ័យលើបរិបទ",
+      "ko": "유온; 라오스에서 전통적으로 베트남 사람을 지칭하는 민족명; 맥락에 따라 비공식적이거나 모욕적으로 여겨질 수 있음",
+      "ne": "युओन; लाओसमा भियतनामी मानिसहरूलाई सम्बोधन गर्न परम्परागत रूपमा प्रयोग गरिने जातीय नाम; सन्दर्भ अनुसार अनौपचारिक वा अपमानजनक मानिन सक्छ",
+      "pt": "Yuon; um etnônimo usado tradicionalmente no Laos para se referir aos vietnamitas; pode ser considerado informal ou ofensivo dependendo do contexto",
+      "th": "ยวน; ชื่อเรียกชาติพันธุ์ที่ใช้ในลาวเพื่อหมายถึงชาวเวียดนาม; อาจถือว่าไม่เป็นทางการหรือดูถูกได้ขึ้นอยู่กับบริบท",
+      "tl": "Yuon; isang etnonimong tradisyonal na ginagamit sa Laos para sa mga Vietnamese; maaaring ituring na impormal o nakakasakit depende sa konteksto",
+      "ur": "یوون؛ لاؤس میں ویتنامیوں کو روایتی طور پر کہنے کے لیے استعمال ہونے والا نسلی نام؛ سیاق و سباق کے لحاظ سے غیر رسمی یا توہین آمیز سمجھا جا سکتا ہے",
+      "vi": "Duon/Yuon; một tộc danh truyền thống ở Lào dùng để chỉ người Việt Nam; có thể bị coi là không chính thức hoặc mang tính xúc phạm tùy theo ngữ cảnh",
+      "zh": "越人；老挝传统上用来称呼越南人的民族名称；根据语境可能被视为非正式或带有冒犯性",
+      "zh_Hant": "越人；老撾傳統上用來稱呼越南人的民族名稱；根據語境可能被視為非正式或帶有冒犯性"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ñúan/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂ້ອຍຄົນໜຶ່ງເປັນຢວນ",
+        "romanization": "phûuan khɔ̂ɔj khón nùung pen ñúan",
+        "translations": {
+          "de": "Einer meiner Freunde ist Vietnamese.",
+          "en": "One of my friends is Vietnamese.",
+          "es": "Uno de mis amigos es vietnamita.",
+          "fr": "Un de mes amis est vietnamien.",
+          "hi": "मेरा एक दोस्त वियतनामी है।",
+          "ja": "私の友達の一人はベトナム人です。",
+          "km": "មិត្តម្នាក់របស់ខ្ញុំជាជនជាតិវៀតណាម។",
+          "ko": "내 친구 중 한 명은 베트남 사람이에요.",
+          "ne": "मेरो एक साथी भियतनामी हो।",
+          "pt": "Um dos meus amigos é vietnamita.",
+          "th": "เพื่อนฉันคนหนึ่งเป็นคนเวียดนาม",
+          "tl": "Isa sa mga kaibigan ko ay Vietnamese.",
+          "ur": "میرا ایک دوست ویتنامی ہے۔",
+          "vi": "Một người bạn của tôi là người Việt Nam.",
+          "zh": "我的一个朋友是越南人。",
+          "zh_Hant": "我的一個朋友是越南人。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ",
+          "ຄົນໜຶ່ງ",
+          "ເປັນ"
+        ]
+      },
+      {
+        "lao_script": "ອາຫານຢວນແຊບຫຼາຍ",
+        "romanization": "ʔaa-hǎan ñúan sɛ̂ɛp lǎaj",
+        "translations": {
+          "de": "Vietnamesisches Essen ist sehr lecker.",
+          "en": "Vietnamese food is very delicious.",
+          "es": "La comida vietnamita es muy deliciosa.",
+          "fr": "La nourriture vietnamienne est très délicieuse.",
+          "hi": "वियतनामी खाना बहुत स्वादिष्ट है।",
+          "ja": "ベトナム料理はとても美味しいです。",
+          "km": "អាហារវៀតណាមឆ្ងាញ់ណាស់។",
+          "ko": "베트남 음식은 정말 맛있어요.",
+          "ne": "भियतनामी खाना धेरै मिठो छ।",
+          "pt": "A comida vietnamita é muito deliciosa.",
+          "th": "อาหารเวียดนามอร่อยมาก",
+          "tl": "Ang pagkain na Vietnamese ay masarap na masarap.",
+          "ur": "ویتنامی کھانا بہت مزیدار ہے۔",
+          "vi": "Đồ ăn Việt Nam rất ngon.",
+          "zh": "越南食物非常好吃。",
+          "zh_Hant": "越南食物非常好吃。"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ແຊບ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a Vietnamese-style bowl of pho noodle soup with chopsticks and fresh herbs, representing Vietnamese culture and food, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "ສອງ": {
+    "definitions": {
+      "de": "Zwei – die Zahl 2",
+      "en": "Two – the number 2",
+      "es": "Dos – el número 2",
+      "fr": "Deux – le chiffre 2",
+      "hi": "दो – अंक 2",
+      "ja": "二（に）– 数字の2",
+      "km": "ពីរ – លេខ ២",
+      "ko": "둘 – 숫자 2",
+      "ne": "दुई – अंक २",
+      "pt": "Dois – o número 2",
+      "th": "สอง – ตัวเลข 2",
+      "tl": "Dalawa – ang bilang 2",
+      "ur": "دو – عدد ۲",
+      "vi": "Hai – số 2",
+      "zh": "二 – 数字2",
+      "zh_Hant": "二 – 數字2"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sɔːŋ/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍມີແມວສອງໂຕ",
+        "romanization": "khoi mii maew song to",
+        "translations": {
+          "de": "Ich habe zwei Katzen.",
+          "en": "I have two cats.",
+          "es": "Tengo dos gatos.",
+          "fr": "J'ai deux chats.",
+          "hi": "मेरे पास दो बिल्लियाँ हैं।",
+          "ja": "私は猫を2匹持っています。",
+          "km": "ខ្ញុំមានឆ្មាពីរក្បាល។",
+          "ko": "저는 고양이 두 마리가 있어요.",
+          "ne": "मसँग दुईवटा बिरालाहरू छन्।",
+          "pt": "Eu tenho dois gatos.",
+          "th": "ฉันมีแมวสองตัว",
+          "tl": "Mayroon akong dalawang pusa.",
+          "ur": "میرے پاس دو بلیاں ہیں۔",
+          "vi": "Tôi có hai con mèo.",
+          "zh": "我有两只猫。",
+          "zh_Hant": "我有兩隻貓。"
+        },
+        "out_of_scope_words": [
+          "ແມວ",
+          "ໂຕ"
+        ]
+      },
+      {
+        "lao_script": "ຂໍຂະໜົມສອງອັນເດີ",
+        "romanization": "kho kha-nom song an doe",
+        "translations": {
+          "de": "Ich hätte gerne zwei Snacks, bitte.",
+          "en": "Can I get two snacks, please?",
+          "es": "Quisiera dos bocadillos, por favor.",
+          "fr": "Je voudrais deux gâteaux, s'il te plaît.",
+          "hi": "मुझे दो स्नैक्स चाहिए, कृपया।",
+          "ja": "お菓子を2つください。",
+          "km": "សូមយកនំពីរដុំផង។",
+          "ko": "과자 두 개 주세요.",
+          "ne": "दुईवटा खाजा दिनुस् न।",
+          "pt": "Me dá dois salgadinhos, por favor.",
+          "th": "ขอขนมสองชิ้นนะ",
+          "tl": "Puwede bang humingi ng dalawang meryenda?",
+          "ur": "مجھے دو اسنیکس چاہئیں، پلیز۔",
+          "vi": "Cho tôi xin hai cái bánh nhé.",
+          "zh": "我要两个零食。",
+          "zh_Hant": "我要兩個零食。"
+        },
+        "out_of_scope_words": [
+          "ຂະໜົມ",
+          "ອັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing the number 2 alongside two bright red apples on a clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃຫຍ່": {
+    "definitions": {
+      "de": "Groß – von großer Größe oder Bedeutung",
+      "en": "Big / large – of great size or importance",
+      "es": "Grande – de gran tamaño o importancia",
+      "fr": "Grand / gros – de grande taille ou importance",
+      "hi": "बड़ा – आकार या महत्व में बड़ा",
+      "ja": "大きい – サイズや規模が大きいさま",
+      "km": "ធំ – មានទំហំ ឬសារៈសំខាន់ច្រើន",
+      "ko": "크다 – 크기나 중요도가 큰",
+      "ne": "ठूलो – आकार वा महत्त्वमा ठूलो",
+      "pt": "Grande – de tamanho ou importância elevada",
+      "th": "ใหญ่ – มีขนาดหรือความสำคัญมาก",
+      "tl": "Malaki – may malaking sukat o kahalagahan",
+      "ur": "بڑا – جسامت یا اہمیت میں بڑا",
+      "vi": "To / lớn – có kích thước hoặc tầm quan trọng lớn",
+      "zh": "大 – 尺寸或重要性大",
+      "zh_Hant": "大 – 尺寸或重要性大"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/ɲaɪ/",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຂອງລາວໃຫຍ່ຫຼາຍ",
+        "romanization": "hueang khong lao nyai laai",
+        "translations": {
+          "de": "Sein/ihr Haus ist sehr groß.",
+          "en": "Their house is very big.",
+          "es": "Su casa es muy grande.",
+          "fr": "Sa maison est très grande.",
+          "hi": "उनका घर बहुत बड़ा है।",
+          "ja": "彼らの家はとても大きいです。",
+          "km": "ផ្ទះរបស់គេធំណាស់។",
+          "ko": "그 사람 집이 정말 커요.",
+          "ne": "उनीहरूको घर धेरै ठूलो छ।",
+          "pt": "A casa deles é muito grande.",
+          "th": "บ้านของเขาใหญ่มาก",
+          "tl": "Ang kanilang bahay ay napakalaki.",
+          "ur": "ان کا گھر بہت بڑا ہے۔",
+          "vi": "Nhà của họ rất to.",
+          "zh": "他们的房子很大。",
+          "zh_Hant": "他們的房子很大。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ"
+        ]
+      },
+      {
+        "lao_script": "ຖົງໃບນີ້ໃຫຍ່ກວ່າອັນນັ້ນ",
+        "romanization": "thong bai nii nyai kwa an nan",
+        "translations": {
+          "de": "Diese Tasche ist größer als jene.",
+          "en": "This bag is bigger than that one.",
+          "es": "Esta bolsa es más grande que esa.",
+          "fr": "Ce sac est plus grand que celui-là.",
+          "hi": "यह बैग उससे बड़ा है।",
+          "ja": "このバッグはあれより大きいです。",
+          "km": "ថង់នេះធំជាងអันនោះ។",
+          "ko": "이 가방이 저것보다 더 커요.",
+          "ne": "यो झोला त्यो भन्दा ठूलो छ।",
+          "pt": "Esta bolsa é maior do que aquela.",
+          "th": "ถุงใบนี้ใหญ่กว่าอันนั้น",
+          "tl": "Ang bag na ito ay mas malaki kaysa sa iyong iyon.",
+          "ur": "یہ بیگ اس سے بڑا ہے۔",
+          "vi": "Cái túi này to hơn cái kia.",
+          "zh": "这个袋子比那个大。",
+          "zh_Hant": "這個袋子比那個大。"
+        },
+        "out_of_scope_words": [
+          "ຖົງ",
+          "ໃບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration comparing a large elephant and a small mouse side by side to show the concept of 'big', clean white background, bright colors, minimalist cartoon style for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກາງ": {
+    "definitions": {
+      "de": "Mitte / Zentrum – der mittlere Punkt oder Bereich zwischen zwei Seiten",
+      "en": "Middle / center – the midpoint or central area between two sides",
+      "es": "Medio / centro – el punto central entre dos lados",
+      "fr": "Milieu / centre – le point ou la zone centrale entre deux côtés",
+      "hi": "बीच / केंद्र – दो ओर के बीच का मध्य बिंदु या क्षेत्र",
+      "ja": "真ん中・中央 – 二つの側の間の中間点または中心部分",
+      "km": "កណ្តាល – ចំណុច ឬតំបន់នៅចន្លោះពីរផ្នែក",
+      "ko": "가운데 / 중간 – 두 쪽 사이의 중간 지점 또는 중심부",
+      "ne": "बीच / केन्द्र – दुई पक्षको बीचको मध्यबिन्दु वा क्षेत्र",
+      "pt": "Meio / centro – o ponto ou área central entre dois lados",
+      "th": "กลาง – จุดหรือบริเวณตรงกลางระหว่างสองด้าน",
+      "tl": "Gitna / sentro – ang gitnang punto o lugar sa pagitan ng dalawang bahagi",
+      "ur": "درمیان / مرکز – دو طرف کے بیچ کا نقطہ یا علاقہ",
+      "vi": "Giữa / trung tâm – điểm hoặc khu vực ở giữa hai phía",
+      "zh": "中间 / 中央 – 两侧之间的中间点或区域",
+      "zh_Hant": "中間 / 中央 – 兩側之間的中間點或區域"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/kaːŋ/",
+    "examples": [
+      {
+        "lao_script": "ນັ່ງກາງຫ້ອງເລີຍ",
+        "romanization": "nang kaang hong loei",
+        "translations": {
+          "de": "Sitz einfach in der Mitte des Zimmers.",
+          "en": "Just sit in the middle of the room.",
+          "es": "Siéntate justo en el medio de la habitación.",
+          "fr": "Assieds-toi juste au milieu de la pièce.",
+          "hi": "बस कमरे के बीच में बैठ जाओ।",
+          "ja": "部屋の真ん中に座ってよ。",
+          "km": "គ្រាន់តែអង្គុយកណ្តាលបន្ទប់ទៅ។",
+          "ko": "그냥 방 가운데 앉아.",
+          "ne": "कोठाको बीचमा बस्नुस् न।",
+          "pt": "Senta bem no meio do quarto.",
+          "th": "นั่งกลางห้องเลย",
+          "tl": "Umupo ka lang sa gitna ng kwarto.",
+          "ur": "بس کمرے کے درمیان میں بیٹھ جاؤ۔",
+          "vi": "Cứ ngồi giữa phòng đi.",
+          "zh": "就坐在房间中间吧。",
+          "zh_Hant": "就坐在房間中間吧。"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງ"
+        ]
+      },
+      {
+        "lao_script": "ໂຮງຮຽນຢູ່ກາງເມືອງ",
+        "romanization": "hong hian yuu kaang mueang",
+        "translations": {
+          "de": "Die Schule liegt im Stadtzentrum.",
+          "en": "The school is in the center of the city.",
+          "es": "La escuela está en el centro de la ciudad.",
+          "fr": "L'école est au centre-ville.",
+          "hi": "स्कूल शहर के बीच में है।",
+          "ja": "学校は市の中心にあります。",
+          "km": "សាលារៀននៅកណ្តាលក្រុង។",
+          "ko": "학교는 도시 중심에 있어요.",
+          "ne": "स्कूल सहरको बीचमा छ।",
+          "pt": "A escola fica no centro da cidade.",
+          "th": "โรงเรียนอยู่กลางเมือง",
+          "tl": "Ang paaralan ay nasa gitna ng lungsod.",
+          "ur": "اسکول شہر کے درمیان میں ہے۔",
+          "vi": "Trường học nằm ở trung tâm thành phố.",
+          "zh": "学校在城市中央。",
+          "zh_Hant": "學校在城市中央。"
+        },
+        "out_of_scope_words": [
+          "ໂຮງຮຽນ",
+          "ເມືອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a red dot placed exactly in the center of a circle or grid, with arrows pointing to the middle, clean white background, bright colors, minimalist style for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເອົາ": {
+    "definitions": {
+      "de": "Nehmen / wollen / holen – etwas greifen, wollen oder bringen; sehr vielseitiges Alltagsverb",
+      "en": "Take / get / want – to grab, fetch, or want something; a highly versatile everyday verb",
+      "es": "Tomar / querer / traer – coger, buscar o querer algo; verbo cotidiano muy versátil",
+      "fr": "Prendre / vouloir / apporter – saisir, aller chercher ou vouloir quelque chose; verbe du quotidien très polyvalent",
+      "hi": "लेना / चाहना / लाना – कुछ पकड़ना, लाना या चाहना; बेहद बहुमुखी रोज़मर्रा की क्रिया",
+      "ja": "取る・欲しい・持ってくる – 何かをつかんだり、取ってきたり、欲しがったりする非常に多用途な日常動詞",
+      "km": "យក / ចង់បាន / នាំមក – ចាប់យក ទៅយក ឬចង់បានអ្វីមួយ; កិរិយាស័ព្ទប្រចាំថ្ងៃដ៏ចម្រុះ",
+      "ko": "가져가다 / 원하다 / 가져오다 – 무언가를 잡거나 가져오거나 원하는 매우 다용도 일상 동사",
+      "ne": "लिनु / चाहनु / ल्याउनु – केही समात्नु, ल्याउनु वा चाहनु; अत्यन्त बहुमुखी दैनिक क्रिया",
+      "pt": "Pegar / querer / trazer – agarrar, buscar ou querer algo; verbo cotidiano muito versátil",
+      "th": "เอา – หยิบ / เอาไป / ต้องการ; กริยาอเนกประสงค์ที่ใช้บ่อยมากในชีวิตประจำวัน",
+      "tl": "Kunin / gusto / dalhin – ang hawakan, kunin, o gustong makuha ang isang bagay; napaka-versatile na pang-araw-araw na pandiwa",
+      "ur": "لینا / چاہنا / لانا – کچھ پکڑنا، لانا، یا چاہنا؛ بہت کثیر الاستعمال روزمرہ کا فعل",
+      "vi": "Lấy / muốn / mang – cầm lấy, đi lấy hoặc muốn gì đó; động từ hàng ngày cực kỳ linh hoạt",
+      "zh": "拿 / 要 / 取 – 抓取、去拿或想要某物；极其常用的日常动词",
+      "zh_Hant": "拿 / 要 / 取 – 抓取、去拿或想要某物；極其常用的日常動詞"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔaw/",
+    "examples": [
+      {
+        "lao_script": "ເອົານ້ຳມາໃຫ້ຂ້ອຍແດ່",
+        "romanization": "ao nam maa hai khoi dae",
+        "translations": {
+          "de": "Hol mir bitte etwas Wasser.",
+          "en": "Bring me some water, please.",
+          "es": "Tráeme un poco de agua, por favor.",
+          "fr": "Apporte-moi de l'eau, s'il te plaît.",
+          "hi": "मुझे थोड़ा पानी लाकर दो न।",
+          "ja": "水を持ってきてよ。",
+          "km": "យកទឹកមកឱ្យខ្ញុំផងបាន។",
+          "ko": "물 좀 가져다줘.",
+          "ne": "मलाई पानी ल्याइदिनुस् न।",
+          "pt": "Traz água pra mim, por favor.",
+          "th": "เอาน้ำมาให้ฉันหน่อยนะ",
+          "tl": "Dalhin mo naman sa akin ang tubig.",
+          "ur": "میرے لیے پانی لے آؤ نا۔",
+          "vi": "Lấy nước mang lại cho tôi với.",
+          "zh": "帮我拿点水来吧。",
+          "zh_Hant": "幫我拿點水來吧。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າເອົາຫຍັງ",
+        "romanization": "jao ao nyaang",
+        "translations": {
+          "de": "Was möchtest du? / Was nimmst du?",
+          "en": "What do you want? / What are you having?",
+          "es": "¿Qué quieres? / ¿Qué vas a tomar?",
+          "fr": "Tu veux quoi ? / Tu prends quoi ?",
+          "hi": "तुम क्या लोगे? / तुम्हें क्या चाहिए?",
+          "ja": "何にする？／何を取るの？",
+          "km": "អ្នកយកអ្វី?",
+          "ko": "뭐 먹을 거야? / 뭐 할 거야?",
+          "ne": "तिमी के लिनेछौ? / के चाहियो?",
+          "pt": "O que você vai querer? / O que você vai pegar?",
+          "th": "แกจะเอาอะไร?",
+          "tl": "Ano ang kukunin mo? / Ano ang gusto mo?",
+          "ur": "تم کیا لو گے؟ / تمہیں کیا چاہیے؟",
+          "vi": "Bạn lấy gì? / Bạn muốn gì?",
+          "zh": "你要什么？",
+          "zh_Hant": "你要什麼？"
+        },
+        "out_of_scope_words": [
+          "ຫຍັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand reaching out and picking up an apple from a table, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕັ້ງ": {
+    "definitions": {
+      "de": "Aufstellen / gründen / seit – etwas aufstellen oder einrichten; auch verwendet, um einen Zeitpunkt anzugeben (seit)",
+      "en": "Set up / establish / since – to place or establish something upright; also used to indicate a starting point in time (since)",
+      "es": "Establecer / colocar / desde – colocar o establecer algo; también usado para indicar un punto de inicio en el tiempo (desde)",
+      "fr": "Installer / établir / depuis – poser ou établir quelque chose; aussi utilisé pour indiquer un point de départ dans le temps (depuis)",
+      "hi": "स्थापित करना / रखना / से – कुछ खड़ा करना या स्थापित करना; समय के शुरुआती बिंदु को भी इंगित करता है (से/तब से)",
+      "ja": "設置する・設立する・〜から – 何かを立てたり設立したりする；時間の起点（〜から）を示すのにも使われる",
+      "km": "បង្កើត / ដំឡើង / តាំងពី – ដាក់ ឬបង្កើតអ្វីមួយ; ក៏ប្រើដើម្បីបង្ហាញចំណុចចាប់ផ្តើមនៃពេលវេលា (តាំងពី)",
+      "ko": "세우다 / 설립하다 / 부터 – 무언가를 세우거나 설치하다; 시간의 시작점(~부터)을 나타낼 때도 사용",
+      "ne": "स्थापना गर्नु / राख्नु / देखि – केही खडा गर्नु वा स्थापित गर्नु; समयको सुरुवाती बिन्दु (देखि) जनाउन पनि प्रयोग हुन्छ",
+      "pt": "Instalar / estabelecer / desde – colocar ou estabelecer algo; também usado para indicar um ponto de início no tempo (desde)",
+      "th": "ตั้ง – วางตั้ง / ก่อตั้ง / ตั้งแต่; ใช้ได้ทั้งในความหมายของการวางสิ่งของและการระบุจุดเริ่มต้นของเวลา",
+      "tl": "Itayo / itatag / mula noong – maglagay o magtatag ng isang bagay; ginagamit din upang ipahiwatig ang simula ng isang panahon (mula noong)",
+      "ur": "قائم کرنا / لگانا / سے – کچھ کھڑا کرنا یا قائم کرنا؛ وقت کے نقطہ آغاز (سے) کو ظاہر کرنے کے لیے بھی استعمال",
+      "vi": "Dựng lên / thành lập / từ khi – đặt hoặc thành lập thứ gì đó; cũng dùng để chỉ điểm bắt đầu trong thời gian (từ khi / từ lúc)",
+      "zh": "设立 / 放置 / 自从 – 竖立或建立某物；也用于表示时间起点（自从）",
+      "zh_Hant": "設立 / 放置 / 自從 – 豎立或建立某物；也用於表示時間起點（自從）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/taŋ/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍຕັ້ງໂຕະໃຫ້ຂ້ອຍແດ່",
+        "romanization": "suai tang to hai khoi dae",
+        "translations": {
+          "de": "Kannst du den Tisch für mich aufstellen?",
+          "en": "Can you set up the table for me?",
+          "es": "¿Puedes poner la mesa para mí?",
+          "fr": "Tu peux installer la table pour moi ?",
+          "hi": "क्या तुम मेरे लिए मेज लगा सकते हो?",
+          "ja": "テーブルを置いてくれない？",
+          "km": "ជួយដំឡើងតុឱ្យខ្ញុំផងបាន?",
+          "ko": "나 대신 테이블 좀 놔줄 수 있어?",
+          "ne": "मेरो लागि टेबल मिलाइदिनुस् न।",
+          "pt": "Pode montar a mesa pra mim?",
+          "th": "ช่วยตั้งโต๊ะให้ฉันหน่อยได้ไหม",
+          "tl": "Maari mo bang itayo ang mesa para sa akin?",
+          "ur": "کیا تم میرے لیے میز لگا سکتے ہو؟",
+          "vi": "Bạn có thể kê cái bàn giúp tôi không?",
+          "zh": "能帮我把桌子摆好吗？",
+          "zh_Hant": "能幫我把桌子擺好嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ໂຕະ"
+        ]
+      },
+      {
+        "lao_script": "ຕັ້ງແຕ່ເຊົ້າຂ້ອຍຍັງບໍ່ໄດ້ກິນເຂົ້າ",
+        "romanization": "tang tae sao khoi yang bo dai kin khao",
+        "translations": {
+          "de": "Seit dem Morgen habe ich noch nichts gegessen.",
+          "en": "Since this morning I still haven't eaten.",
+          "es": "Desde esta mañana todavía no he comido.",
+          "fr": "Depuis ce matin, je n'ai toujours pas mangé.",
+          "hi": "सुबह से अभी तक मैंने कुछ नहीं खाया।",
+          "ja": "朝からまだ何も食べていない。",
+          "km": "តាំងពីព្រឹកខ្ញុំមិនទាន់បានញ៉ាំនៅឡើយ។",
+          "ko": "아침부터 아직도 밥을 못 먹었어.",
+          "ne": "बिहानदेखि अझसम्म मैले खाना खाएको छैन।",
+          "pt": "Desde de manhã ainda não comi.",
+          "th": "ตั้งแต่เช้าฉันยังไม่ได้กินข้าวเลย",
+          "tl": "Mula kaninang umaga hindi pa ako nakakain.",
+          "ur": "صبح سے ابھی تک میں نے کچھ نہیں کھایا۔",
+          "vi": "Từ sáng đến giờ tôi vẫn chưa ăn gì.",
+          "zh": "从早上到现在我还没吃东西。",
+          "zh_Hant": "從早上到現在我還沒吃東西。"
+        },
+        "out_of_scope_words": [
+          "ເຊົ້າ",
+          "ກິນ",
+          "ເຂົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person placing and setting up a small sign or flag upright on a surface, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

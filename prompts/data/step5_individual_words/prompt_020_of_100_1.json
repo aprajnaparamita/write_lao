@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບຸນ",
+  "definitions": {
+    "de": "Fest, religiöses Verdienst; ein buddhistisches Fest oder eine feierliche Zeremonie, auch das spirituelle Verdienst, das durch gute Taten erworben wird",
+    "en": "Festival or merit; a Buddhist festival or religious ceremony, also the spiritual merit gained through good deeds",
+    "es": "Festival o mérito; una festividad budista o ceremonia religiosa, también el mérito espiritual obtenido mediante buenas acciones",
+    "fr": "Fête ou mérite; une fête bouddhiste ou cérémonie religieuse, également le mérite spirituel acquis par les bonnes actions",
+    "hi": "त्योहार या पुण्य; एक बौद्ध उत्सव या धार्मिक समारोह, साथ ही अच्छे कार्यों से प्राप्त आध्यात्मिक पुण्य",
+    "ja": "祭りまたは功徳；仏教の祭りや宗教的な儀式、また善行によって得られる精神的な功徳",
+    "km": "ពិធីបុណ្យ ឬគុណ; ពិធីបុណ្យពុទ្ធសាសនា ឬពិធីសាសនា ក៏ដូចជាបុណ្យគុណដែលទទួលបានពីការធ្វើកុសល",
+    "ko": "축제 또는 공덕; 불교 축제나 종교 의식, 또는 선행으로 쌓는 영적 공덕",
+    "ne": "उत्सव वा पुण्य; बौद्ध उत्सव वा धार्मिक समारोह, साथै राम्रा कार्यहरूबाट प्राप्त आध्यात्मिक पुण्य",
+    "pt": "Festival ou mérito; uma festa budista ou cerimônia religiosa, também o mérito espiritual obtido por meio de boas ações",
+    "th": "บุญหรืองานบุญ; เทศกาลหรือพิธีกรรมทางพุทธศาสนา รวมถึงบุญกุศลที่ได้รับจากการทำความดี",
+    "tl": "Pista o merito; isang pagdiriwang ng Budismo o relihiyosong seremonya, pati na rin ang espirituwal na merito na nakukuha sa pamamagitan ng mabubuting gawa",
+    "ur": "تہوار یا ثواب؛ ایک بدھ مت کا تہوار یا مذہبی تقریب، نیز نیک اعمال سے حاصل ہونے والی روحانی نیکی",
+    "vi": "Lễ hội hoặc công đức; một lễ hội Phật giáo hoặc nghi lễ tôn giáo, cũng là công đức tâm linh đạt được qua việc làm lành",
+    "zh": "节日或功德；佛教节日或宗教仪式，也指通过善行积累的精神功德",
+    "zh_Hant": "節日或功德；佛教節日或宗教儀式，也指透過善行積累的精神功德"
+  },
+  "definition_en": "Festival or merit; a Buddhist festival or religious ceremony, also the spiritual merit gained through good deeds",
+  "romanization": "bun",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ມີບຸນໃຫຍ່ຢູ່ວັດ",
+      "romanization": "muu-nii mii bun nyai yuu wat",
+      "translation_en": "Today there's a big festival at the temple."
+    },
+    {
+      "lao_script": "ພໍ່ແມ່ໄປທຳບຸນຕອນເຊົ້າທຸກວັນ",
+      "romanization": "phoo-mae pai tham bun ton sao thuk wan",
+      "translation_en": "My parents go to make merit every morning."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a colorful Buddhist temple festival scene with people in traditional Lao clothing offering flowers and food, warm festive atmosphere, clean white background, minimalist style suitable for a language learning app"
+}

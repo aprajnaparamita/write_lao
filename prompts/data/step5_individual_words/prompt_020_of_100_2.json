@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກີບ",
+  "definitions": {
+    "de": "Kip; die offizielle Währung der Demokratischen Volksrepublik Laos",
+    "en": "Kip; the official currency of the Lao People's Democratic Republic",
+    "es": "Kip; la moneda oficial de la República Democrática Popular Lao",
+    "fr": "Kip; la monnaie officielle de la République Démocratique Populaire Lao",
+    "hi": "कीप; लाओ पीडीआर की आधिकारिक मुद्रा",
+    "ja": "キープ；ラオス人民民主共和国の公式通貨",
+    "km": "គីប; រូបិយប័ណ្ណផ្លូវការរបស់សាធារណរដ្ឋប្រជាធិបតេយ្យប្រជាមានិតឡាវ",
+    "ko": "킵; 라오스 인민민주공화국의 공식 화폐",
+    "ne": "किप; लाओ जनवादी लोकतान्त्रिक गणतन्त्रको आधिकारिक मुद्रा",
+    "pt": "Kip; a moeda oficial da República Democrática Popular do Laos",
+    "th": "กีบ; สกุลเงินอย่างเป็นทางการของสาธารณรัฐประชาธิปไตยประชาชนลาว",
+    "tl": "Kip; ang opisyal na pera ng Lao People's Democratic Republic",
+    "ur": "کِپ؛ لاؤ پیپلز ڈیموکریٹک ریپبلک کی سرکاری کرنسی",
+    "vi": "Kip; đơn vị tiền tệ chính thức của Cộng hòa Dân chủ Nhân dân Lào",
+    "zh": "基普；老挝人民民主共和国的官方货币",
+    "zh_Hant": "基普；寮國人民民主共和國的官方貨幣"
+  },
+  "definition_en": "Kip; the official currency of the Lao People's Democratic Republic",
+  "romanization": "kiip",
+  "lao_examples": [
+    {
+      "lao_script": "ອັນນີ້ລາຄາເທົ່າໃດກີບ?",
+      "romanization": "an-nii la-kha thao-dai kiip?",
+      "translation_en": "How many kip does this cost?"
+    },
+    {
+      "lao_script": "ຂ້ອຍມີເງິນກີບບໍ່ພໍ",
+      "romanization": "khoi mii ngoen kiip bo pho",
+      "translation_en": "I don't have enough kip money."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of Lao kip banknotes and coins spread out on a clean white background, colorful currency with clear denominations visible, minimalist style suitable for a language learning app"
+}

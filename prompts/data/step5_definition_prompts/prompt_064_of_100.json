@@ -1,0 +1,408 @@
+{
+  "ຈ່າຍ": {
+    "definitions": {
+      "de": "bezahlen; Geld für etwas ausgeben oder übergeben",
+      "en": "to pay; to hand over money in exchange for goods or services",
+      "es": "pagar; entregar dinero a cambio de bienes o servicios",
+      "fr": "payer; donner de l'argent en échange de biens ou de services",
+      "hi": "भुगतान करना; वस्तुओं या सेवाओं के बदले पैसे देना",
+      "ja": "支払う；商品やサービスの代金としてお金を渡す",
+      "km": "បង់ប្រាក់; ប្រគល់ប្រាក់ជាថ្នូរនឹងទំនិញឬសេវាកម្ម",
+      "ko": "지불하다; 상품이나 서비스의 대가로 돈을 건네다",
+      "ne": "तिर्नु; सामान वा सेवाको बदलामा पैसा दिनु",
+      "pt": "pagar; entregar dinheiro em troca de bens ou serviços",
+      "th": "จ่าย; มอบเงินเพื่อแลกกับสินค้าหรือบริการ",
+      "tl": "magbayad; ibigay ang pera kapalit ng mga kalakal o serbisyo",
+      "ur": "ادا کرنا؛ سامان یا خدمات کے بدلے پیسے دینا",
+      "vi": "trả tiền; đưa tiền để đổi lấy hàng hóa hoặc dịch vụ",
+      "zh": "支付；为商品或服务交付金钱",
+      "zh_Hant": "支付；為商品或服務交付金錢"
+    },
+    "part_of_speech": "verb",
+    "romanization": "jaːj²²",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຈ່າຍເທົ່າໃດແລ້ວ?",
+        "romanization": "jao jaːj tʰao daːj lɛːw?",
+        "translations": {
+          "de": "Wie viel hast du schon bezahlt?",
+          "en": "How much have you paid already?",
+          "es": "¿Cuánto has pagado ya?",
+          "fr": "Tu as déjà payé combien ?",
+          "hi": "तुमने अब तक कितना भुगतान किया?",
+          "ja": "もういくら払ったの？",
+          "km": "អ្នកបានបង់ប្រាក់ប៉ុន្មានហើយ?",
+          "ko": "이미 얼마나 냈어?",
+          "ne": "तिमीले अहिलेसम्म कति तिर्यौ?",
+          "pt": "Quanto você já pagou?",
+          "th": "แกจ่ายไปเท่าไหร่แล้ว?",
+          "tl": "Magkano na ang nabayad mo?",
+          "ur": "تم نے ابھی تک کتنا ادا کیا؟",
+          "vi": "Bạn đã trả bao nhiêu rồi?",
+          "zh": "你已经付了多少钱了？",
+          "zh_Hant": "你已經付了多少錢了？"
+        },
+        "out_of_scope_words": [
+          "ເທົ່າໃດ",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຈ່າຍຄ່າກິນເອງໄດ້ເລີຍ",
+        "romanization": "kʰɔːj jaːj kʰaː kin ʔeːŋ daːj ləːj",
+        "translations": {
+          "de": "Ich kann das Essen selbst bezahlen.",
+          "en": "I can pay for the food myself.",
+          "es": "Yo puedo pagar la comida por mí mismo.",
+          "fr": "Je peux payer la nourriture moi-même.",
+          "hi": "मैं खाने का भुगतान खुद कर सकता/सकती हूँ।",
+          "ja": "食事代は自分で払えるよ。",
+          "km": "ខ្ញុំអាចបង់ប្រាក់ម្ហូបអាហារដោយខ្លួនឯងបាន។",
+          "ko": "나 밥값 내가 낼 수 있어.",
+          "ne": "म खानाको पैसा आफैं तिर्न सक्छु।",
+          "pt": "Eu consigo pagar a comida por conta própria.",
+          "th": "ฉันจ่ายค่ากินเองได้เลย",
+          "tl": "Kaya ko namang bayaran ang pagkain nang mag-isa.",
+          "ur": "میں کھانے کا خرچ خود ادا کر سکتا/سکتی ہوں۔",
+          "vi": "Tôi có thể tự trả tiền ăn được.",
+          "zh": "我可以自己付餐费。",
+          "zh_Hant": "我可以自己付餐費。"
+        },
+        "out_of_scope_words": [
+          "ຄ່າ",
+          "ກິນ",
+          "ເອງ",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person handing paper money or tapping a phone to pay at a shop counter, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທ່າ": {
+    "definitions": {
+      "de": "Pier, Anlegestelle; auch: Körperhaltung, Geste oder Pose",
+      "en": "pier, landing dock; also a pose, stance, or gesture of the body",
+      "es": "muelle, embarcadero; también postura, gesto o pose corporal",
+      "fr": "embarcadère, quai; aussi posture, geste ou pose du corps",
+      "hi": "घाट, जेटी; साथ ही शरीर की मुद्रा, भाव-भंगिमा या पोज़",
+      "ja": "桟橋、船着き場；また体の姿勢、ポーズ、身振り",
+      "km": "កំពង់ផែ, ท่าเรือ; ក៏ដូចជាឥរិយាបថ ឬទឹកមុខ",
+      "ko": "선착장, 부두; 또는 자세, 몸짓, 포즈",
+      "ne": "घाट, जेटी; साथै शरीरको मुद्रा, भाव वा पोज",
+      "pt": "cais, atracadouro; também postura, gesto ou pose corporal",
+      "th": "ท่า; ท่าเรือหรือท่าน้ำ; รวมถึงท่าทาง ท่าทีหรือท่าร่างกาย",
+      "tl": "daungan, pantalan; gayundin ang tindig, galaw, o pose ng katawan",
+      "ur": "گھاٹ، جیٹی؛ نیز جسمانی انداز، اشارہ یا پوز",
+      "vi": "bến tàu, cầu cảng; cũng có nghĩa là tư thế, dáng điệu hoặc cử chỉ",
+      "zh": "码头、渡口；也指身体姿势、姿态或手势",
+      "zh_Hant": "碼頭、渡口；也指身體姿勢、姿態或手勢"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tʰaː³³",
+    "examples": [
+      {
+        "lao_script": "ເຮືອຈອດຢູ່ທ່ານ້ຳ",
+        "romanization": "hɯːa jɔːt juː tʰaː naːm",
+        "translations": {
+          "de": "Das Boot liegt am Flussufer/Anlegestelle.",
+          "en": "The boat is docked at the riverside pier.",
+          "es": "El bote está atracado en el muelle del río.",
+          "fr": "Le bateau est amarré au quai de la rivière.",
+          "hi": "नाव नदी के घाट पर खड़ी है।",
+          "ja": "ボートが川の船着き場に停まっている。",
+          "km": "ទូកចតនៅកំពង់ទន្លេ។",
+          "ko": "배가 강변 선착장에 정박해 있어.",
+          "ne": "डुंगा नदीको घाटमा छ।",
+          "pt": "O barco está atracado no cais do rio.",
+          "th": "เรือจอดอยู่ที่ท่าน้ำ",
+          "tl": "Naka-doko ang bangka sa pantalan ng ilog.",
+          "ur": "کشتی دریا کے گھاٹ پر کھڑی ہے۔",
+          "vi": "Con thuyền đang đậu ở bến sông.",
+          "zh": "船停在河边的码头。",
+          "zh_Hant": "船停在河邊的碼頭。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອ",
+          "ຈອດ",
+          "ນ້ຳ"
+        ]
+      },
+      {
+        "lao_script": "ທ່າຂອງເຈົ້າສວຍຫຼາຍ",
+        "romanization": "tʰaː kʰɔːŋ jao suaj laːj",
+        "translations": {
+          "de": "Deine Haltung/Pose ist sehr schön.",
+          "en": "Your pose is really beautiful.",
+          "es": "Tu postura es muy bonita.",
+          "fr": "Ta pose est très belle.",
+          "hi": "तुम्हारी मुद्रा बहुत सुंदर है।",
+          "ja": "あなたのポーズはとてもきれいだよ。",
+          "km": "ឥរិយាបថរបស់អ្នកស្អាតណាស់។",
+          "ko": "네 포즈 정말 예뻐.",
+          "ne": "तिम्रो मुद्रा धेरै सुन्दर छ।",
+          "pt": "Sua pose é muito bonita.",
+          "th": "ท่าของแกสวยมากเลย",
+          "tl": "Napakaganda ng pose mo.",
+          "ur": "تمہارا انداز بہت خوبصورت ہے۔",
+          "vi": "Tư thế của bạn đẹp lắm.",
+          "zh": "你的姿势很漂亮。",
+          "zh_Hant": "你的姿勢很漂亮。"
+        },
+        "out_of_scope_words": [
+          "ຂອງ",
+          "ສວຍ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: one showing a wooden riverside pier with a small boat docked, and another showing a person striking a graceful pose, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພົນ": {
+    "definitions": {
+      "de": "Bürger, Staatsbürger; Kraft, Macht; hauptsächlich in zusammengesetzten Wörtern verwendet",
+      "en": "citizen, civilian; power, force; mostly used in compound words",
+      "es": "ciudadano, civil; poder, fuerza; se usa principalmente en palabras compuestas",
+      "fr": "citoyen, civil ; puissance, force ; utilisé principalement dans des mots composés",
+      "hi": "नागरिक, आम नागरिक; शक्ति, बल; मुख्यतः यौगिक शब्दों में प्रयुक्त",
+      "ja": "市民、国民；力、権力；主に複合語として使われる",
+      "km": "ពលរដ្ឋ, ប្រជាពលរដ្ឋ; អំណាច, កម្លាំង; ភាគច្រើនប្រើក្នុងពាក្យផ្សំ",
+      "ko": "시민, 국민; 힘, 권력; 주로 복합어에서 사용됨",
+      "ne": "नागरिक, साधारण नागरिक; शक्ति, बल; मुख्यतः यौगिक शब्दहरूमा प्रयोग",
+      "pt": "cidadão, civil; poder, força; usado principalmente em palavras compostas",
+      "th": "พลเมือง, ประชาชน; พลัง, อำนาจ; ส่วนใหญ่ใช้ในคำประสม",
+      "tl": "mamamayan, sibilyan; kapangyarihan, lakas; kadalasang ginagamit sa mga tambalang salita",
+      "ur": "شہری، عام شہری؛ طاقت، قوت؛ زیادہ تر مرکب الفاظ میں استعمال ہوتا ہے",
+      "vi": "công dân, dân thường; sức mạnh, quyền lực; chủ yếu dùng trong từ ghép",
+      "zh": "公民、百姓；力量、权力；主要用于复合词",
+      "zh_Hant": "公民、百姓；力量、權力；主要用於複合詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pʰon³³",
+    "examples": [
+      {
+        "lao_script": "ພົນລະເມືອງທຸກຄົນມີສິດທິ",
+        "romanization": "pʰon la mɯːaŋ tʰuk kʰon miː sit tʰi",
+        "translations": {
+          "de": "Jeder Bürger hat Rechte.",
+          "en": "Every citizen has rights.",
+          "es": "Todo ciudadano tiene derechos.",
+          "fr": "Chaque citoyen a des droits.",
+          "hi": "हर नागरिक के अधिकार हैं।",
+          "ja": "すべての市民に権利がある。",
+          "km": "ពលរដ្ឋគ្រប់រូបមានសិទ្ធិ។",
+          "ko": "모든 시민은 권리가 있어.",
+          "ne": "हरेक नागरिकलाई अधिकार छ।",
+          "pt": "Todo cidadão tem direitos.",
+          "th": "พลเมืองทุกคนมีสิทธิ์",
+          "tl": "Ang bawat mamamayan ay may karapatan.",
+          "ur": "ہر شہری کے حقوق ہیں۔",
+          "vi": "Mọi công dân đều có quyền.",
+          "zh": "每个公民都有权利。",
+          "zh_Hant": "每個公民都有權利。"
+        },
+        "out_of_scope_words": [
+          "ພົນລະເມືອງ",
+          "ທຸກ",
+          "ສິດທິ"
+        ]
+      },
+      {
+        "lao_script": "ລາວເຮັດວຽກດ້ານພົນລະເຮືອນ",
+        "romanization": "laːw het viak daːn pʰon la hɯːan",
+        "translations": {
+          "de": "Er/Sie arbeitet im zivilen Bereich / im öffentlichen Dienst.",
+          "en": "He/She works in the civil service sector.",
+          "es": "Él/Ella trabaja en el sector de la administración pública.",
+          "fr": "Il/Elle travaille dans le secteur de la fonction publique.",
+          "hi": "वह सिविल सेवा क्षेत्र में काम करता/करती है।",
+          "ja": "彼/彼女は公務員の分野で働いている。",
+          "km": "គាត់ធ្វើការក្នុងផ្នែករដ្ឋការស៊ីវិល។",
+          "ko": "그/그녀는 공무원 분야에서 일해.",
+          "ne": "उसले निजामती सेवा क्षेत्रमा काम गर्छ।",
+          "pt": "Ele/Ela trabalha no setor do serviço público.",
+          "th": "เขา/เธอทำงานด้านพลเรือน",
+          "tl": "Nagtatrabaho siya sa larangan ng serbisyong sibil.",
+          "ur": "وہ سول سروس کے شعبے میں کام کرتا/کرتی ہے۔",
+          "vi": "Anh/Chị ấy làm việc trong lĩnh vực dân sự.",
+          "zh": "他/她在公务员领域工作。",
+          "zh_Hant": "他/她在公務員領域工作。"
+        },
+        "out_of_scope_words": [
+          "ເຮັດວຽກ",
+          "ດ້ານ",
+          "ພົນລະເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a group of diverse people standing together representing citizens of a community, with a subtle emblem or badge suggesting civic identity, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ສາມ": {
+    "definitions": {
+      "de": "drei; die Zahl 3",
+      "en": "three; the number 3",
+      "es": "tres; el número 3",
+      "fr": "trois ; le chiffre 3",
+      "hi": "तीन; संख्या 3",
+      "ja": "三、3；数字の3",
+      "km": "បី; លេខ 3",
+      "ko": "셋, 3; 숫자 3",
+      "ne": "तीन; संख्या ३",
+      "pt": "três; o número 3",
+      "th": "สาม; ตัวเลข 3",
+      "tl": "tatlo; ang bilang na 3",
+      "ur": "تین؛ عدد 3",
+      "vi": "ba; số 3",
+      "zh": "三；数字3",
+      "zh_Hant": "三；數字3"
+    },
+    "part_of_speech": "noun",
+    "romanization": "saːm³³",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍມີໝາສາມໂຕ",
+        "romanization": "kʰɔːj miː maː saːm toː",
+        "translations": {
+          "de": "Ich habe drei Hunde.",
+          "en": "I have three dogs.",
+          "es": "Tengo tres perros.",
+          "fr": "J'ai trois chiens.",
+          "hi": "मेरे पास तीन कुत्ते हैं।",
+          "ja": "私は犬を三匹飼っている。",
+          "km": "ខ្ញុំមានឆ្កែបី។",
+          "ko": "나 개 세 마리 있어.",
+          "ne": "मसँग तीनवटा कुकुर छन्।",
+          "pt": "Eu tenho três cachorros.",
+          "th": "ฉันมีหมาสามตัว",
+          "tl": "Mayroon akong tatlong aso.",
+          "ur": "میرے پاس تین کتے ہیں۔",
+          "vi": "Tôi có ba con chó.",
+          "zh": "我有三只狗。",
+          "zh_Hant": "我有三隻狗。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ໂຕ"
+        ]
+      },
+      {
+        "lao_script": "ລໍຖ້າສາມນາທີກ່ອນເດີ້",
+        "romanization": "lɔː tʰaː saːm naː tiː kɔːn dəː",
+        "translations": {
+          "de": "Warte mal drei Minuten kurz.",
+          "en": "Just wait three minutes first.",
+          "es": "Espera tres minutos, anda.",
+          "fr": "Attends juste trois minutes d'abord.",
+          "hi": "पहले तीन मिनट रुको।",
+          "ja": "ちょっと三分待ってね。",
+          "km": "រង់ចាំបីនាទីសិន។",
+          "ko": "일단 3분만 기다려봐.",
+          "ne": "पहिले तीन मिनेट कुर।",
+          "pt": "Espera só três minutos, vai.",
+          "th": "รอสักสามนาทีก่อนนะ",
+          "tl": "Maghintay muna ng tatlong minuto.",
+          "ur": "پہلے تین منٹ انتظار کرو۔",
+          "vi": "Chờ ba phút đã nào.",
+          "zh": "先等三分钟嘛。",
+          "zh_Hant": "先等三分鐘嘛。"
+        },
+        "out_of_scope_words": [
+          "ລໍຖ້າ",
+          "ນາທີ",
+          "ກ່ອນ",
+          "ເດີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the number 3 displayed prominently in bold, with three colorful stars or apples arranged below it to visually represent the quantity, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຊື້ອ": {
+    "definitions": {
+      "de": "Keim, Bazillus, Erreger; auch Rasse, Abstammung, Blutlinie oder Nachkommenschaft",
+      "en": "germ, microbe, pathogen; also race, lineage, ancestry, or descent",
+      "es": "germen, microbio, patógeno; también raza, linaje, ascendencia o descendencia",
+      "fr": "germe, microbe, agent pathogène ; aussi race, lignée, ascendance ou descendance",
+      "hi": "कीटाणु, रोगाणु; साथ ही जाति, वंश, कुल या वंशावली",
+      "ja": "菌、病原体；また民族、血統、家系、子孫",
+      "km": "មេរោគ, បាក់តេរី; ក៏ដូចជាពូជ, ចំណុះ, ឈាម ឬវង្សត្រកូល",
+      "ko": "세균, 병원체; 또는 인종, 혈통, 가계, 자손",
+      "ne": "किटाणु, रोगाणु; साथै जाति, वंश, कुल वा वंशावली",
+      "pt": "germe, micróbio, patógeno; também raça, linhagem, ancestralidade ou descendência",
+      "th": "เชื้อโรค, เชื้อแบคทีเรีย; รวมถึงเชื้อชาติ, สายเลือด หรือเชื้อสาย",
+      "tl": "mikrobyo, tagalikha ng sakit; pati na rin ang lahi, angkan, o linya ng pagmamana",
+      "ur": "جرثومہ، مائکروب، جراثیم؛ نیز نسل، خاندان، نسب یا اولاد",
+      "vi": "vi trùng, mầm bệnh, vi khuẩn; cũng có nghĩa là chủng tộc, dòng dõi, huyết thống",
+      "zh": "细菌、病原体；也指种族、血统、家系或后裔",
+      "zh_Hant": "細菌、病原體；也指種族、血統、家系或後裔"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sɯːa³³",
+    "examples": [
+      {
+        "lao_script": "ລ້າງມືເພື່ອຂ້າເຊື້ອໂລກ",
+        "romanization": "laːŋ mɯː pʰɯːa kʰaː sɯːa loːk",
+        "translations": {
+          "de": "Hände waschen, um Keime abzutöten.",
+          "en": "Wash your hands to kill germs.",
+          "es": "Lávate las manos para matar los gérmenes.",
+          "fr": "Lave-toi les mains pour éliminer les germes.",
+          "hi": "कीटाणुओं को मारने के लिए हाथ धोएं।",
+          "ja": "菌を殺すために手を洗おう。",
+          "km": "លាងដៃដើម្បីសម្លាប់មេរោគ។",
+          "ko": "세균을 없애기 위해 손을 씻어.",
+          "ne": "किटाणु मार्न हात धुनु।",
+          "pt": "Lave as mãos para matar os germes.",
+          "th": "ล้างมือเพื่อฆ่าเชื้อโรค",
+          "tl": "Maghugas ng kamay para patayin ang mga mikrobyo.",
+          "ur": "جراثیم کو مارنے کے لیے ہاتھ دھوئیں۔",
+          "vi": "Rửa tay để diệt vi trùng.",
+          "zh": "洗手以杀死细菌。",
+          "zh_Hant": "洗手以殺死細菌。"
+        },
+        "out_of_scope_words": [
+          "ລ້າງ",
+          "ມື",
+          "ເພື່ອ",
+          "ຂ້າ",
+          "ໂລກ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາເຈົ້າມີເຊື້ອສາຍລາວ",
+        "romanization": "kʰao jao miː sɯːa saːj laːw",
+        "translations": {
+          "de": "Sie haben laotische Abstammung.",
+          "en": "They have Lao lineage/ancestry.",
+          "es": "Ellos tienen ascendencia laosiana.",
+          "fr": "Ils ont des origines laotiennes.",
+          "hi": "उनकी लाओ वंशावली है।",
+          "ja": "彼らはラオス系の血統を持っている。",
+          "km": "ពួកគេមានដើមកំណើតជាជនជាតិឡាវ។",
+          "ko": "그들은 라오 혈통을 가지고 있어.",
+          "ne": "तिनीहरूको लाओ वंशावली छ।",
+          "pt": "Eles têm ascendência laosiana.",
+          "th": "พวกเขามีเชื้อสายลาว",
+          "tl": "Mayroon silang lahi ng Lao.",
+          "ur": "ان کا لاؤ نسب ہے۔",
+          "vi": "Họ có dòng dõi người Lào.",
+          "zh": "他们有老挝血统。",
+          "zh_Hant": "他們有寮國血統。"
+        },
+        "out_of_scope_words": [
+          "ເຂົາເຈົ້າ",
+          "ເຊື້ອສາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration with two panels: one showing magnified bacteria or germs under a microscope view, and another showing a family tree silhouette representing lineage and ancestry, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "ພັນ": {
+    "definitions": {
+      "de": "Tausend – die Zahl 1.000",
+      "en": "Thousand – the number 1,000",
+      "es": "Mil – el número 1.000",
+      "fr": "Mille – le nombre 1 000",
+      "hi": "हज़ार – संख्या १,०००",
+      "ja": "千（せん）– 1,000という数",
+      "km": "មួយពាន់ – លេខ ១,០០០",
+      "ko": "천 – 숫자 1,000",
+      "ne": "एक हजार – संख्या १,०००",
+      "pt": "Mil – o número 1.000",
+      "th": "หนึ่งพัน – ตัวเลข 1,000",
+      "tl": "Isang libo – ang bilang na 1,000",
+      "ur": "ہزار – عدد ۱,۰۰۰",
+      "vi": "Một nghìn – số 1.000",
+      "zh": "一千——数字1,000",
+      "zh_Hant": "一千——數字1,000"
+    },
+    "part_of_speech": "noun",
+    "romanization": "phan",
+    "examples": [
+      {
+        "lao_script": "ເຄື່ອງນີ້ລາຄາສາມພັນກີບ",
+        "romanization": "khuang nih la-kha sam phan kip",
+        "translations": {
+          "de": "Diese Sache kostet dreitausend Kip.",
+          "en": "This thing costs three thousand kip.",
+          "es": "Esta cosa cuesta tres mil kip.",
+          "fr": "Cette chose coûte trois mille kip.",
+          "hi": "यह चीज़ तीन हज़ार किप की है।",
+          "ja": "これは三千キープです。",
+          "km": "របស់នេះតម្លៃបីពាន់គីប។",
+          "ko": "이것은 삼천 킵이에요.",
+          "ne": "यो चिज तीन हजार किप छ।",
+          "pt": "Esta coisa custa três mil kip.",
+          "th": "ของชิ้นนี้ราคาสามพันกีบ",
+          "tl": "Tatlong libong kip ang halaga ng bagay na ito.",
+          "ur": "یہ چیز تین ہزار کِپ کی ہے۔",
+          "vi": "Thứ này giá ba nghìn kip.",
+          "zh": "这个东西要三千基普。",
+          "zh_Hant": "這個東西要三千基普。"
+        },
+        "out_of_scope_words": [
+          "ເຄື່ອງ",
+          "ລາຄາ",
+          "ກີບ"
+        ]
+      },
+      {
+        "lao_script": "ໃນເມືອງນີ້ມີຄົນຫຼາຍກວ່າໜຶ່ງລ້ານພັນຄົນ",
+        "romanization": "nai mueang nih mii khon lai kwa nung lan phan khon",
+        "translations": {
+          "de": "In dieser Stadt leben mehr als eine Million tausend Menschen.",
+          "en": "This city has more than a million thousand people.",
+          "es": "Esta ciudad tiene más de un millón de personas.",
+          "fr": "Cette ville a plus d'un million de personnes.",
+          "hi": "इस शहर में दस लाख से ज़्यादा लोग हैं।",
+          "ja": "この街には百万人以上の人がいます。",
+          "km": "ក្នុងក្រុងនេះមានមនុស្សជាងមួយលាននាក់។",
+          "ko": "이 도시에는 백만 명이 넘는 사람들이 있어요.",
+          "ne": "यस शहरमा दश लाखभन्दा बढी मान्छे छन्।",
+          "pt": "Esta cidade tem mais de um milhão de pessoas.",
+          "th": "ในเมืองนี้มีคนมากกว่าหนึ่งล้านคน",
+          "tl": "Ang lungsod na ito ay may higit sa isang milyong tao.",
+          "ur": "اس شہر میں دس لاکھ سے زیادہ لوگ ہیں۔",
+          "vi": "Thành phố này có hơn một triệu người.",
+          "zh": "这座城市有超过一百万人。",
+          "zh_Hant": "這座城市有超過一百萬人。"
+        },
+        "out_of_scope_words": [
+          "ເມືອງ",
+          "ລ້ານ",
+          "ຄົນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the number 1,000 displayed prominently in bold numerals, with a small stack of banknotes or coins nearby to suggest currency, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສຶກ": {
+    "definitions": {
+      "de": "Krieg; auch ein Wortstamm, der in Zusammensetzungen wie ສຶກສາ (studieren/Bildung) verwendet wird",
+      "en": "War; also a root used in compound words such as ສຶກສາ (to study / education)",
+      "es": "Guerra; también raíz usada en palabras compuestas como ສຶກສາ (estudiar / educación)",
+      "fr": "Guerre ; aussi une racine utilisée dans des mots composés comme ສຶກສາ (étudier / éducation)",
+      "hi": "युद्ध; साथ ही यह ສຶກສາ (पढ़ना/शिक्षा) जैसे यौगिक शब्दों में एक मूल शब्द के रूप में प्रयुक्त होता है",
+      "ja": "戦争；また ສຶກສາ（勉強する・教育）などの複合語に使われる語根",
+      "km": "សង្គ្រាម; ក៏ជាឫសម្ភាគដែលប្រើក្នុងពាក្យផ្សំដូចជា ສຶກສາ (រៀន / ការអប់រំ)",
+      "ko": "전쟁; 또한 ສຶກສາ(공부하다/교육)와 같은 복합어에 사용되는 어근",
+      "ne": "युद्ध; साथै ສຶກສາ (अध्ययन गर्नु / शिक्षा) जस्ता यौगिक शब्दहरूमा प्रयुक्त मूल शब्द",
+      "pt": "Guerra; também uma raiz usada em palavras compostas como ສຶກສາ (estudar / educação)",
+      "th": "สงคราม; ยังใช้เป็นรากศัพท์ในคำประสมเช่น ສຶກສາ (เรียน/การศึกษา)",
+      "tl": "Digmaan; ginagamit din bilang ugat ng mga salitang tambalan tulad ng ສຶກສາ (mag-aral / edukasyon)",
+      "ur": "جنگ؛ نیز ສຶກສາ (پڑھنا / تعلیم) جیسے مرکب الفاظ میں بطور بنیاد استعمال ہوتا ہے",
+      "vi": "Chiến tranh; cũng là gốc từ dùng trong các từ ghép như ສຶກສາ (học / giáo dục)",
+      "zh": "战争；也用作复合词的词根，如 ສຶກສາ（学习/教育）",
+      "zh_Hant": "戰爭；也用作複合詞的詞根，如 ສຶກສາ（學習/教育）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "suek",
+    "examples": [
+      {
+        "lao_script": "ການສຶກສາສຳຄັນຫຼາຍສຳລັບເດັກນ້ອຍ",
+        "romanization": "kan suek-sa sam-khan lai sam-lap dek noi",
+        "translations": {
+          "de": "Bildung ist sehr wichtig für Kinder.",
+          "en": "Education is very important for children.",
+          "es": "La educación es muy importante para los niños.",
+          "fr": "L'éducation est très importante pour les enfants.",
+          "hi": "बच्चों के लिए शिक्षा बहुत ज़रूरी है।",
+          "ja": "教育は子どもたちにとってとても大切です。",
+          "km": "ការអប់រំមានសារៈសំខាន់ណាស់សម្រាប់កុមារ។",
+          "ko": "교육은 아이들에게 매우 중요해요.",
+          "ne": "बच्चाहरूका लागि शिक्षा धेरै महत्त्वपूर्ण छ।",
+          "pt": "A educação é muito importante para as crianças.",
+          "th": "การศึกษาสำคัญมากสำหรับเด็กๆ",
+          "tl": "Ang edukasyon ay napakahalaga para sa mga bata.",
+          "ur": "تعلیم بچوں کے لیے بہت ضروری ہے۔",
+          "vi": "Giáo dục rất quan trọng đối với trẻ em.",
+          "zh": "教育对孩子们非常重要。",
+          "zh_Hant": "教育對孩子們非常重要。"
+        },
+        "out_of_scope_words": [
+          "ການສຶກສາ",
+          "ສຳຄັນ",
+          "ສຳລັບ",
+          "ເດັກນ້ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ສຶກໃຫຍ່ເຮັດໃຫ້ຄົນຫຼາຍຄົນເສຍຊີວິດ",
+        "romanization": "suek nyai het hai khon lai khon sia shi-wit",
+        "translations": {
+          "de": "Ein großer Krieg hat vielen Menschen das Leben gekostet.",
+          "en": "A big war caused many people to lose their lives.",
+          "es": "Una gran guerra causó la muerte de muchas personas.",
+          "fr": "Une grande guerre a coûté la vie à beaucoup de personnes.",
+          "hi": "एक बड़े युद्ध ने बहुत से लोगों की जान ले ली।",
+          "ja": "大きな戦争で多くの人が命を失いました。",
+          "km": "សង្គ្រាមធំធ្វើឱ្យមនុស្សជាច្រើនបាត់បង់ជីវិត។",
+          "ko": "큰 전쟁으로 많은 사람들이 목숨을 잃었어요.",
+          "ne": "ठूलो युद्धले धेरै मान्छेको ज्यान लियो।",
+          "pt": "Uma grande guerra tirou a vida de muitas pessoas.",
+          "th": "สงครามใหญ่ทำให้คนจำนวนมากเสียชีวิต",
+          "tl": "Ang malaking digmaan ay nagdulot ng pagkamatay ng maraming tao.",
+          "ur": "ایک بڑی جنگ نے بہت سے لوگوں کی جانیں لے لیں۔",
+          "vi": "Một cuộc chiến tranh lớn đã khiến nhiều người mất mạng.",
+          "zh": "一场大战夺走了很多人的生命。",
+          "zh_Hant": "一場大戰奪走了很多人的生命。"
+        },
+        "out_of_scope_words": [
+          "ໃຫຍ່",
+          "ເຮັດໃຫ້",
+          "ເສຍຊີວິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two contrasting images side by side: on the left, an open book representing study and education, and on the right, a crossed-out sword or shield representing war, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫາ": {
+    "definitions": {
+      "de": "Suchen / finden; auch die Zahl fünf (5)",
+      "en": "To look for / to find; also the number five (5)",
+      "es": "Buscar / encontrar; también el número cinco (5)",
+      "fr": "Chercher / trouver ; aussi le nombre cinq (5)",
+      "hi": "ढूंढना / खोजना; साथ ही संख्या पाँच (5)",
+      "ja": "探す・見つける；また数字の五（5）",
+      "km": "ស្វែងរក / រក; ក៏ជាលេខប្រាំ (5)",
+      "ko": "찾다 / 구하다; 또한 숫자 다섯(5)",
+      "ne": "खोज्नु / फेला पार्नु; साथै संख्या पाँच (5)",
+      "pt": "Procurar / encontrar; também o número cinco (5)",
+      "th": "หา / ค้นหา; ยังหมายถึงตัวเลขห้า (5)",
+      "tl": "Maghanap / hanapin; gayundin ang bilang na lima (5)",
+      "ur": "ڈھونڈنا / تلاش کرنا؛ نیز عدد پانچ (5)",
+      "vi": "Tìm kiếm / tìm thấy; cũng là số năm (5)",
+      "zh": "寻找 / 找到；也是数字五（5）",
+      "zh_Hant": "尋找 / 找到；也是數字五（5）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ha",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຊ່ວຍຂ້ອຍຫາກະເປົ໋າໄດ້ບໍ",
+        "romanization": "jao suay khoi ha ka-pao dai bo",
+        "translations": {
+          "de": "Kannst du mir helfen, meine Tasche zu finden?",
+          "en": "Can you help me find my bag?",
+          "es": "¿Puedes ayudarme a buscar mi bolso?",
+          "fr": "Tu peux m'aider à chercher mon sac ?",
+          "hi": "क्या तुम मेरा बैग ढूंढने में मेरी मदद कर सकते हो?",
+          "ja": "カバンを探すのを手伝ってくれる？",
+          "km": "តើអ្នកអាចជួយខ្ញុំរករបស់ស្ពាយបានទេ?",
+          "ko": "내 가방 찾는 것 좀 도와줄 수 있어?",
+          "ne": "के तिमी मलाई मेरो झोला खोज्न सघाउन सक्छौ?",
+          "pt": "Você pode me ajudar a encontrar a minha bolsa?",
+          "th": "ช่วยหากระเป๋าให้หน่อยได้ไหม",
+          "tl": "Maaari mo bang tulungan akong hanapin ang aking bag?",
+          "ur": "کیا تم میرا بیگ ڈھونڈنے میں میری مدد کر سکتے ہو؟",
+          "vi": "Bạn có thể giúp tôi tìm cái túi không?",
+          "zh": "你能帮我找一下我的包吗？",
+          "zh_Hant": "你能幫我找一下我的包嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຫາວຽກໃໝ່ຢູ່ຕອນນີ້",
+        "romanization": "khoi ha wiak mai yu ton nih",
+        "translations": {
+          "de": "Ich suche gerade einen neuen Job.",
+          "en": "I'm looking for a new job right now.",
+          "es": "Ahora mismo estoy buscando un trabajo nuevo.",
+          "fr": "Je cherche un nouveau travail en ce moment.",
+          "hi": "मैं अभी नई नौकरी ढूंढ रहा/रही हूँ।",
+          "ja": "今、新しい仕事を探しています。",
+          "km": "ខ្ញុំកំពុងស្វែងរកការងារថ្មីឥឡូវនេះ។",
+          "ko": "지금 새 직장을 찾고 있어요.",
+          "ne": "म अहिले नयाँ काम खोज्दै छु।",
+          "pt": "Estou procurando um novo emprego agora.",
+          "th": "ตอนนี้ฉันกำลังหางานใหม่อยู่",
+          "tl": "Naghahanap ako ng bagong trabaho ngayon.",
+          "ur": "میں ابھی نئی نوکری ڈھونڈ رہا/رہی ہوں۔",
+          "vi": "Tôi đang tìm việc làm mới lúc này.",
+          "zh": "我现在正在找新工作。",
+          "zh_Hant": "我現在正在找新工作。"
+        },
+        "out_of_scope_words": [
+          "ວຽກ",
+          "ໃໝ່",
+          "ຕອນນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a magnifying glass searching for something, with a question mark nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ສົມ": {
+    "definitions": {
+      "de": "Geeignet / passend / angemessen; auch ein häufiges Präfix in zusammengesetzten Wörtern (z. B. ສົມຄວນ = passend, ສົມບູນ = vollständig)",
+      "en": "Suitable / appropriate / fitting; also a common prefix in compound words (e.g., ສົມຄວນ = appropriate, ສົມບູນ = complete/perfect)",
+      "es": "Adecuado / apropiado / conveniente; también prefijo frecuente en palabras compuestas (ej. ສົມຄວນ = conveniente, ສົມບູນ = completo/perfecto)",
+      "fr": "Approprié / convenable / adéquat ; aussi un préfixe courant dans les mots composés (ex. ສົມຄວນ = convenable, ສົມບູນ = complet/parfait)",
+      "hi": "उचित / उपयुक्त / मुनासिब; साथ ही यौगिक शब्दों में एक सामान्य उपसर्ग (जैसे ສົມຄວນ = उचित, ສົມບູນ = पूर्ण/संपूर्ण)",
+      "ja": "適切な・ふさわしい・相応しい；また複合語の接頭辞としてよく使われる（例：ສົມຄວນ = ふさわしい、ສົມບູນ = 完全な）",
+      "km": "សមស្រប / ត្រឹមត្រូវ / គួរ; ក៏ជាបុព្វបទទូទៅក្នុងពាក្យផ្សំ (ឧ. ສົມຄວນ = គួរ, ສົມບູນ = ពេញលេញ/ល្អឥតខ្ចោះ)",
+      "ko": "적절한 / 알맞은 / 적합한; 복합어에서 자주 쓰이는 접두사이기도 함 (예: ສົມຄວນ = 적절한, ສົມບູນ = 완전한/완벽한)",
+      "ne": "उपयुक्त / उचित / मनासिब; यौगिक शब्दहरूमा सामान्य उपसर्गको रूपमा पनि प्रयुक्त (जस्तै ສົມຄວນ = उचित, ສົມບູນ = पूर्ण/सम्पूर्ण)",
+      "pt": "Adequado / apropriado / conveniente; também um prefixo comum em palavras compostas (ex.: ສົມຄວນ = adequado, ສົມບູນ = completo/perfeito)",
+      "th": "เหมาะสม / เหมาะ / สมควร; ยังใช้เป็นคำนำหน้าในคำประสม (เช่น ສົມຄວນ = สมควร, ສົມບູນ = สมบูรณ์/สมบูรณ์แบบ)",
+      "tl": "Angkop / naaangkop / bagay; ginagamit din bilang karaniwang unlapi sa mga salitang tambalan (hal. ສົມຄວນ = angkop, ສົມບູນ = kumpleto/perpekto)",
+      "ur": "مناسب / موزوں / مناسب؛ نیز مرکب الفاظ میں عام سابقے کے طور پر استعمال ہوتا ہے (مثلاً ສົມຄວນ = مناسب، ສົມບູນ = مکمل/کامل)",
+      "vi": "Phù hợp / thích hợp / xứng đáng; cũng là tiền tố phổ biến trong các từ ghép (ví dụ: ສົມຄວນ = thích hợp, ສົມບູນ = hoàn chỉnh/hoàn hảo)",
+      "zh": "合适 / 适当 / 相称；也是复合词中常见的前缀（如 ສົມຄວນ = 合适，ສົມບູນ = 完整/完美）",
+      "zh_Hant": "合適 / 適當 / 相稱；也是複合詞中常見的前綴（如 ສົມຄວນ = 合適，ສົມບູນ = 完整/完美）"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "som",
+    "examples": [
+      {
+        "lao_script": "ເສື້ອຜ້ານີ້ສົມກັບເຈົ້າຫຼາຍ",
+        "romanization": "suea pha nih som kap jao lai",
+        "translations": {
+          "de": "Diese Kleidung passt sehr gut zu dir.",
+          "en": "These clothes suit you a lot.",
+          "es": "Esta ropa te queda muy bien.",
+          "fr": "Ces vêtements te vont très bien.",
+          "hi": "यह कपड़ा तुम पर बहुत अच्छा लगता है।",
+          "ja": "この服、あなたにとてもよく似合っています。",
+          "km": "សំលៀកបំពាក់នេះសមនឹងអ្នកណាស់។",
+          "ko": "이 옷이 당신에게 정말 잘 어울려요.",
+          "ne": "यो लुगाफाटा तिमीलाई धेरै मिल्छ।",
+          "pt": "Essa roupa combina muito com você.",
+          "th": "เสื้อผ้านี้เหมาะกับเธอมากเลย",
+          "tl": "Ang damit na ito ay bagay na bagay sa iyo.",
+          "ur": "یہ کپڑا تم پر بہت اچھا لگتا ہے۔",
+          "vi": "Bộ quần áo này rất hợp với bạn.",
+          "zh": "这件衣服非常适合你。",
+          "zh_Hant": "這件衣服非常適合你。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອຜ້າ"
+        ]
+      },
+      {
+        "lao_script": "ລາຄານັ້ນສົມຄວນແລ້ວ ບໍ່ແພງເກີນໄປ",
+        "romanization": "la-kha nan som-khuan laeo, bo phaeng koen pai",
+        "translations": {
+          "de": "Dieser Preis ist angemessen, nicht zu teuer.",
+          "en": "That price is suitable, not too expensive.",
+          "es": "Ese precio es razonable, no demasiado caro.",
+          "fr": "Ce prix est convenable, pas trop cher.",
+          "hi": "वह कीमत उचित है, बहुत महँगी नहीं।",
+          "ja": "その値段は適切で、高すぎません。",
+          "km": "តម្លៃនោះសមស្របហើយ មិនថ្លៃពេកទេ។",
+          "ko": "그 가격은 적당해요, 너무 비싸지 않아요.",
+          "ne": "त्यो मूल्य उचित छ, धेरै महँगो छैन।",
+          "pt": "Aquele preço é razoável, não é muito caro.",
+          "th": "ราคานั้นเหมาะสมแล้ว ไม่แพงเกินไป",
+          "tl": "Ang presyong iyon ay angkop na, hindi masyadong mahal.",
+          "ur": "وہ قیمت مناسب ہے، بہت زیادہ مہنگی نہیں۔",
+          "vi": "Giá đó hợp lý rồi, không đắt quá.",
+          "zh": "那个价格合适，不太贵。",
+          "zh_Hant": "那個價格合適，不太貴。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ແພງ",
+          "ສົມຄວນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two puzzle pieces fitting together perfectly, symbolizing suitability and a perfect match, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຜົນ": {
+    "definitions": {
+      "de": "Ergebnis / Resultat; auch Frucht (eines Baumes oder einer Pflanze)",
+      "en": "Result / outcome; also fruit (of a tree or plant)",
+      "es": "Resultado / consecuencia; también fruto (de un árbol o planta)",
+      "fr": "Résultat / conséquence ; aussi fruit (d'un arbre ou d'une plante)",
+      "hi": "परिणाम / नतीजा; साथ ही फल (पेड़ या पौधे का)",
+      "ja": "結果・成果；また果物（木や植物の実）",
+      "km": "លទ្ធផល / ផល; ក៏ជាផ្លែឈើ (ផ្លែរបស់ដើមឈើ ឬរុក្ខជាតិ)",
+      "ko": "결과 / 성과; 또한 과일 / 열매 (나무나 식물의)",
+      "ne": "परिणाम / नतिजा; साथै फल (रुख वा बिरुवाको)",
+      "pt": "Resultado / consequência; também fruto (de uma árvore ou planta)",
+      "th": "ผล / ผลลัพธ์; ยังหมายถึงผลไม้ (ของต้นไม้หรือพืช)",
+      "tl": "Resulta / kinalabasan; gayundin ang prutas (ng puno o halaman)",
+      "ur": "نتیجہ / انجام؛ نیز پھل (درخت یا پودے کا)",
+      "vi": "Kết quả / thành quả; cũng là quả / trái cây (của cây hoặc thực vật)",
+      "zh": "结果 / 成果；也指果实（树木或植物的）",
+      "zh_Hant": "結果 / 成果；也指果實（樹木或植物的）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "phon",
+    "examples": [
+      {
+        "lao_script": "ຜົນການສອບເສັງອອກມາແລ້ວ ເຈົ້າໄດ້ຄະແນນດີ",
+        "romanization": "phon kan sop seng ok ma laeo, jao dai kha-naen dii",
+        "translations": {
+          "de": "Die Prüfungsergebnisse sind raus – du hast eine gute Note bekommen.",
+          "en": "The exam results are out – you got a good score.",
+          "es": "Ya salieron los resultados del examen – sacaste buena nota.",
+          "fr": "Les résultats de l'examen sont sortis – tu as eu une bonne note.",
+          "hi": "परीक्षा के नतीजे आ गए – तुम्हें अच्छे अंक मिले।",
+          "ja": "試験の結果が出ました – いい点が取れましたね。",
+          "km": "លទ្ធផលប្រឡងចេញមកហើយ អ្នកបានពិន្ទុល្អ។",
+          "ko": "시험 결과가 나왔어요 – 좋은 점수를 받았어요.",
+          "ne": "परीक्षाको नतिजा आयो – तिमीले राम्रो अंक पायौ।",
+          "pt": "Os resultados do exame saíram – você tirou uma boa nota.",
+          "th": "ผลการสอบออกมาแล้ว เธอได้คะแนนดี",
+          "tl": "Lumabas na ang mga resulta ng pagsusulit – nakakuha ka ng magandang marka.",
+          "ur": "امتحان کے نتائج آ گئے – تم نے اچھے نمبر حاصل کیے۔",
+          "vi": "Kết quả thi đã ra rồi – bạn được điểm cao đấy.",
+          "zh": "考试成绩出来了——你得了好分数。",
+          "zh_Hant": "考試成績出來了——你得了好分數。"
+        },
+        "out_of_scope_words": [
+          "ການສອບເສັງ",
+          "ຄະແນນ"
+        ]
+      },
+      {
+        "lao_script": "ຕົ້ນໄມ້ນີ້ໃຫ້ຜົນດີທຸກໆປີ",
+        "romanization": "ton mai nih hai phon dii thuk thuk pi",
+        "translations": {
+          "de": "Dieser Baum trägt jedes Jahr gute Früchte.",
+          "en": "This tree gives good fruit every year.",
+          "es": "Este árbol da buenos frutos cada año.",
+          "fr": "Cet arbre donne de bons fruits chaque année.",
+          "hi": "यह पेड़ हर साल अच्छे फल देता है।",
+          "ja": "この木は毎年よく実をつけます。",
+          "km": "ដើមឈើនេះផ្តល់ផ្លែល្អរៀងរាល់ឆ្នាំ។",
+          "ko": "이 나무는 매년 좋은 열매를 맺어요.",
+          "ne": "यो रुखले हरेक वर्ष राम्रो फल दिन्छ।",
+          "pt": "Essa árvore dá bons frutos todo ano.",
+          "th": "ต้นไม้นี้ให้ผลดีทุกๆ ปี",
+          "tl": "Ang puno na ito ay nagbibigay ng magandang bunga bawat taon.",
+          "ur": "یہ درخت ہر سال اچھے پھل دیتا ہے۔",
+          "vi": "Cây này cho quả ngon mỗi năm.",
+          "zh": "这棵树每年都结很好的果实。",
+          "zh_Hant": "這棵樹每年都結很好的果實。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້",
+          "ທຸກໆປີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a ripe fruit hanging on a tree branch on the left side, and a trophy or gold star representing a good result on the right side, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

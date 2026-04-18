@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊາ",
+  "definitions": {
+    "de": "Tee (Getränk); langsam (Eigenschaft)",
+    "en": "tea (the drink); slow (adjective/adverb)",
+    "es": "té (bebida); lento (adjetivo)",
+    "fr": "thé (boisson) ; lent (adjectif)",
+    "hi": "चाय (पेय); धीमा (विशेषण)",
+    "ja": "お茶（飲み物）；遅い（形容詞）",
+    "km": "តែ (ភេសជ្ជៈ); យឺត (គុណសព្ទ)",
+    "ko": "차 (음료); 느리다 (형용사)",
+    "ne": "चिया (पेय); ढिलो (विशेषण)",
+    "pt": "chá (bebida); lento (adjetivo)",
+    "th": "ชา (เครื่องดื่ม); ช้า (คำคุณศัพท์)",
+    "tl": "tsaa (inumin); mabagal (pang-uri)",
+    "ur": "چائے (مشروب)؛ سست (صفت)",
+    "vi": "trà (đồ uống); chậm (tính từ)",
+    "zh": "茶（饮料）；慢（形容词）",
+    "zh_Hant": "茶（飲料）；慢（形容詞）"
+  },
+  "definition_en": "tea (the drink); slow (adjective/adverb)",
+  "romanization": "/sáː/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າດື່ມຊາຮ້ອນຫຼືເຢັນ?",
+      "romanization": "Jao deum sa hon leu yen?",
+      "translation_en": "Do you drink hot or cold tea?"
+    },
+    {
+      "lao_script": "ລົດຄັນນັ້ນຊາຫຼາຍ, ຂ້ອຍຈະໄປກ່ອນ",
+      "romanization": "Lot khan nan sa lai, khoi ja pai kon",
+      "translation_en": "That car is very slow, I'll go ahead."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a steaming cup of tea on a saucer with a tea bag label hanging over the side, warm colors, clean white background, minimalist style suitable for a language learning app."
+}

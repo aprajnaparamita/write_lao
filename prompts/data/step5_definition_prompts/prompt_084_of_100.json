@@ -1,0 +1,393 @@
+{
+  "ອົບ": {
+    "definitions": {
+      "de": "backen oder mit Wärme und Duft parfümieren; im Ofen garen oder mit Duft einräuchern",
+      "en": "to bake or to perfume/scent something with warmth; to oven-cook or to infuse with fragrance",
+      "es": "hornear o perfumar algo con calor; cocinar al horno o impregnar con fragancia",
+      "fr": "cuire au four ou parfumer quelque chose avec de la chaleur; infuser un arôme",
+      "hi": "बेक करना या किसी चीज़ को गर्मी से सुगंधित करना; ओवन में पकाना या सुगंध से भरना",
+      "ja": "焼く、またはあたたかさで香りをつける；オーブンで調理する、または香りを染み込ませる",
+      "km": "ដុតនំ ឬធ្វើឱ្យមានក្លិនក្រអូបដោយប្រើកំដៅ; ចំអិននៅក្នុងឡ ឬបញ្ចូលក្លិនក្រអូប",
+      "ko": "굽다 또는 열로 향기를 입히다; 오븐에서 요리하거나 향기를 스며들게 하다",
+      "ne": "बेक गर्नु वा तापले कुनै चीजलाई सुगन्धित बनाउनु; ओभनमा पकाउनु वा सुगन्ध भर्नु",
+      "pt": "assar ou perfumar algo com calor; cozinhar no forno ou infundir com fragrância",
+      "th": "อบหรือทำให้มีกลิ่นหอมด้วยความร้อน; ปรุงในเตาอบหรืออบกลิ่น",
+      "tl": "mag-bake o magbigay ng pabango gamit ang init; magluto sa oven o magpalakas ng halimuyak",
+      "ur": "بیک کرنا یا گرمی سے کچھ خوشبودار بنانا؛ اوون میں پکانا یا خوشبو سے بھرنا",
+      "vi": "nướng hoặc ủ hương thơm bằng nhiệt; nấu trong lò hoặc ướp hương",
+      "zh": "烘烤或用热气熏香；在烤箱中烹饪或熏入香气",
+      "zh_Hant": "烘烤或用熱氣薰香；在烤箱中烹飪或薰入香氣"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔop˩˧/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ແມ່ອົບເຂົ້າຈີ່ຫອມຫຼາຍ",
+        "romanization": "muu-nii mae op khao-jii hom lai",
+        "translations": {
+          "de": "Heute hat Mama Brot gebacken, es riecht so gut.",
+          "en": "Today mom baked bread, it smells so good.",
+          "es": "Hoy mamá horneó pan, huele muy rico.",
+          "fr": "Aujourd'hui maman a fait du pain au four, ça sent tellement bon.",
+          "hi": "आज माँ ने रोटी बेक की, बहुत अच्छी खुशबू आ रही है।",
+          "ja": "今日お母さんがパンを焼いて、すごくいい匂いがする。",
+          "km": "ថ្ងៃនេះម៉ាក់ដុតនំបុ័ងក្រអូបណាស់។",
+          "ko": "오늘 엄마가 빵을 구웠는데 냄새가 정말 좋아요.",
+          "ne": "आज आमाले रोटी बेक गर्नुभयो, कति राम्रो सुगन्ध आउँछ।",
+          "pt": "Hoje a mamãe assou pão, cheira muito bem.",
+          "th": "วันนี้แม่อบขนมปัง หอมมากเลย",
+          "tl": "Ngayon nag-bake ng tinapay si nanay, ang bango bango.",
+          "ur": "آج ماں نے روٹی بیک کی، بہت خوشبو آ رہی ہے۔",
+          "vi": "Hôm nay mẹ nướng bánh mì, thơm lắm.",
+          "zh": "今天妈妈烤了面包，好香啊。",
+          "zh_Hant": "今天媽媽烤了麵包，好香啊。"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າຈີ່"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາອົບດອກໄມ້ໃຫ້ຫອມເຄື່ອງ",
+        "romanization": "khao op dok-mai hai hom khuang",
+        "translations": {
+          "de": "Er räuchert Blumen ein, damit die Kleider nach ihnen duften.",
+          "en": "He perfumes the clothes with flowers to make them fragrant.",
+          "es": "Él perfuma la ropa con flores para que huela bien.",
+          "fr": "Il parfume les vêtements avec des fleurs pour qu'ils sentent bon.",
+          "hi": "वह कपड़ों को फूलों से सुगंधित करता है।",
+          "ja": "彼は花で服に香りをつけている。",
+          "km": "គាត់ប្រើផ្កាដើម្បីធ្វើឱ្យសំលៀកបំពាក់មានក្លិនក្រអូប។",
+          "ko": "그는 옷에 꽃향기를 배게 한다.",
+          "ne": "उसले लुगाहरूमा फूलको सुगन्ध दिन्छ।",
+          "pt": "Ele perfuma as roupas com flores para ficarem cheirosas.",
+          "th": "เขาอบดอกไม้ให้เสื้อผ้ามีกลิ่นหอม",
+          "tl": "Inaabutan niya ng bulaklak ang damit para mabango.",
+          "ur": "وہ پھولوں سے کپڑوں کو خوشبودار کرتا ہے۔",
+          "vi": "Anh ấy ủ hoa cho quần áo thơm.",
+          "zh": "他用花熏衣服，让它们香香的。",
+          "zh_Hant": "他用花薰衣服，讓它們香香的。"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້",
+          "ເຄື່ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small home oven with golden-brown bread loaves baking inside, steam rising with wavy aroma lines, clean white background, warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເພັດ": {
+    "definitions": {
+      "de": "Diamant; ein wertvoller, klarer Edelstein, der in Schmuck verwendet wird",
+      "en": "diamond; a precious, clear gemstone used in jewelry",
+      "es": "diamante; una piedra preciosa clara y valiosa usada en joyería",
+      "fr": "diamant; une pierre précieuse transparente et de grande valeur utilisée en bijouterie",
+      "hi": "हीरा; आभूषणों में उपयोग किया जाने वाला एक बहुमूल्य, स्पष्ट रत्न",
+      "ja": "ダイヤモンド；宝飾品に使われる貴重な透明な宝石",
+      "km": "ពេជ្រ; ត្បូងថ្លៃដែលមានភាពថ្លា ប្រើក្នុងគ្រឿងអលង្ការ",
+      "ko": "다이아몬드; 보석류에 사용되는 귀중하고 투명한 보석",
+      "ne": "हीरा; गहनामा प्रयोग हुने बहुमूल्य, पारदर्शी रत्न",
+      "pt": "diamante; uma pedra preciosa transparente e valiosa usada em joias",
+      "th": "เพชร; อัญมณีมีค่าสีใสที่ใช้ทำเครื่องประดับ",
+      "tl": "dyamante; isang mahalagang malinaw na bato na ginagamit sa alahas",
+      "ur": "ہیرا؛ ایک قیمتی، شفاف جواہر جو زیورات میں استعمال ہوتا ہے",
+      "vi": "kim cương; đá quý trong suốt và có giá trị dùng trong trang sức",
+      "zh": "钻石；一种用于珠宝的珍贵透明宝石",
+      "zh_Hant": "鑽石；一種用於珠寶的珍貴透明寶石"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰet˥/",
+    "examples": [
+      {
+        "lao_script": "ແຫວນເພັດຂອງເຈົ້າສວຍຫຼາຍເດີ",
+        "romanization": "haen phet khong jao suay lai doe",
+        "translations": {
+          "de": "Dein Diamantring ist wirklich schön!",
+          "en": "Your diamond ring is really beautiful!",
+          "es": "¡Tu anillo de diamante es muy hermoso!",
+          "fr": "Ta bague en diamant est vraiment très belle !",
+          "hi": "तुम्हारी हीरे की अंगूठी बहुत सुंदर है!",
+          "ja": "あなたのダイヤモンドの指輪、すごくきれい！",
+          "km": "ចិញ្ចៀនពេជ្ររបស់អ្នកស្អាតណាស់!",
+          "ko": "당신의 다이아몬드 반지 정말 예쁘다!",
+          "ne": "तिम्रो हीराको औँठी साँच्चै सुन्दर छ!",
+          "pt": "O seu anel de diamante é muito bonito!",
+          "th": "แหวนเพชรของเธอสวยมากเลยนะ",
+          "tl": "Ang singsing na dyamante mo, napakaganda!",
+          "ur": "تمہاری ہیرے کی انگوٹھی بہت خوبصورت ہے!",
+          "vi": "Nhẫn kim cương của bạn đẹp lắm đó!",
+          "zh": "你的钻石戒指真的好漂亮！",
+          "zh_Hant": "你的鑽石戒指真的好漂亮！"
+        },
+        "out_of_scope_words": [
+          "ແຫວນ"
+        ]
+      },
+      {
+        "lao_script": "ເພັດແທ້ລາຄາແພງຫຼາຍ",
+        "romanization": "phet thae la-kha phaeng lai",
+        "translations": {
+          "de": "Echter Diamant ist sehr teuer.",
+          "en": "Real diamonds are very expensive.",
+          "es": "Los diamantes auténticos son muy caros.",
+          "fr": "Les vrais diamants sont très chers.",
+          "hi": "असली हीरा बहुत महंगा होता है।",
+          "ja": "本物のダイヤモンドはとても高い。",
+          "km": "ពេជ្រពិតមានតម្លៃថ្លៃណាស់។",
+          "ko": "진짜 다이아몬드는 매우 비싸다.",
+          "ne": "असली हीरा धेरै महँगो हुन्छ।",
+          "pt": "Diamante verdadeiro é muito caro.",
+          "th": "เพชรแท้ราคาแพงมาก",
+          "tl": "Ang tunay na dyamante ay napakamamahal.",
+          "ur": "اصلی ہیرا بہت مہنگا ہوتا ہے۔",
+          "vi": "Kim cương thật rất đắt tiền.",
+          "zh": "真钻石非常贵。",
+          "zh_Hant": "真鑽石非常貴。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a sparkling diamond gemstone with facets reflecting light, shown from above on a clean white background, colorful sparkle lines radiating outward, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແມນ": {
+    "definitions": {
+      "de": "Insekt; ein kleines Tier mit sechs Beinen und oft mit Flügeln",
+      "en": "insect or bug; a small creature with six legs, often with wings",
+      "es": "insecto o bicho; una criatura pequeña con seis patas, a menudo con alas",
+      "fr": "insecte ou bestiole; une petite créature à six pattes, souvent avec des ailes",
+      "hi": "कीड़ा या कीट; छह पैरों वाला एक छोटा प्राणी, जिसके अक्सर पंख होते हैं",
+      "ja": "虫；六本足を持つ小さな生き物で、しばしば翅を持つ",
+      "km": "សត្វល្អិត; សត្វតូចមានជើងប្រាំមួយ ជាញឹកញាប់មានស្លាប",
+      "ko": "곤충 또는 벌레; 다리가 여섯 개인 작은 생물로 보통 날개가 있음",
+      "ne": "किरा वा कीट; छ वटा खुट्टा भएको साना प्राणी, प्राय: पखेटा भएको",
+      "pt": "inseto ou bicho; uma pequena criatura com seis patas, geralmente com asas",
+      "th": "แมลง; สัตว์ขนาดเล็กที่มีหกขา มักมีปีก",
+      "tl": "insekto o kulisap; isang maliit na nilalang na may anim na paa, madalas may pakpak",
+      "ur": "کیڑا یا حشرہ؛ چھ ٹانگوں والی ایک چھوٹی مخلوق، اکثر پروں والی",
+      "vi": "côn trùng hoặc sâu bọ; sinh vật nhỏ có sáu chân, thường có cánh",
+      "zh": "昆虫或虫子；有六条腿的小生物，通常有翅膀",
+      "zh_Hant": "昆蟲或蟲子；有六條腿的小生物，通常有翅膀"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/mɛːn˧/",
+    "examples": [
+      {
+        "lao_script": "ມີແມນຫຼາຍຕົວຢູ່ໃນສວນ",
+        "romanization": "mii maen lai tua yu nai suan",
+        "translations": {
+          "de": "Im Garten gibt es viele Insekten.",
+          "en": "There are a lot of insects in the garden.",
+          "es": "Hay muchos insectos en el jardín.",
+          "fr": "Il y a beaucoup d'insectes dans le jardin.",
+          "hi": "बगीचे में बहुत सारे कीड़े हैं।",
+          "ja": "庭にたくさんの虫がいる。",
+          "km": "មានសត្វល្អិតច្រើននៅក្នុងសួន។",
+          "ko": "정원에 곤충이 많이 있어요.",
+          "ne": "बगैंचामा धेरै किराहरू छन्।",
+          "pt": "Tem muito inseto no jardim.",
+          "th": "มีแมลงเยอะมากในสวน",
+          "tl": "Maraming insekto sa hardin.",
+          "ur": "باغ میں بہت سارے کیڑے ہیں۔",
+          "vi": "Trong vườn có rất nhiều côn trùng.",
+          "zh": "花园里有很多虫子。",
+          "zh_Hant": "花園裡有很多蟲子。"
+        },
+        "out_of_scope_words": [
+          "ສວນ"
+        ]
+      },
+      {
+        "lao_script": "ແມນຕົວນັ້ນບິນເຂົ້າມາໃນຫ້ອງ",
+        "romanization": "maen tua nan bin khao ma nai hong",
+        "translations": {
+          "de": "Dieses Insekt flog ins Zimmer herein.",
+          "en": "That bug flew into the room.",
+          "es": "Ese insecto voló dentro del cuarto.",
+          "fr": "Cet insecte a volé dans la chambre.",
+          "hi": "वह कीड़ा कमरे में उड़ कर आ गया।",
+          "ja": "あの虫が部屋に飛んで入ってきた。",
+          "km": "សត្វល្អិតនោះហើរចូលមកក្នុងបន្ទប់។",
+          "ko": "저 벌레가 방 안으로 날아 들어왔어.",
+          "ne": "त्यो किरो कोठाभित्र उडेर आयो।",
+          "pt": "Aquele inseto voou para dentro do quarto.",
+          "th": "แมลงตัวนั้นบินเข้ามาในห้อง",
+          "tl": "Ang kulisap na iyon ay lumipad papasok sa kwarto.",
+          "ur": "وہ کیڑا کمرے میں اڑ کر آ گیا۔",
+          "vi": "Con côn trùng đó bay vào trong phòng.",
+          "zh": "那只虫子飞进房间里来了。",
+          "zh_Hant": "那隻蟲子飛進房間裡來了。"
+        },
+        "out_of_scope_words": [
+          "ບິນ",
+          "ຫ້ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly cartoon bug or beetle with six legs and small wings on a green leaf, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄນ": {
+    "definitions": {
+      "de": "Nylon; ein synthetisches Material aus Kunststoff, das für Kleidung und Fäden verwendet wird (Lehnwort aus dem Englischen)",
+      "en": "nylon; a synthetic plastic material used for clothing, thread, or fabric (loanword from English)",
+      "es": "nylon; un material plástico sintético utilizado para ropa, hilo o tela (préstamo del inglés)",
+      "fr": "nylon; un matériau synthétique en plastique utilisé pour les vêtements, le fil ou le tissu (emprunt à l'anglais)",
+      "hi": "नायलॉन; एक सिंथेटिक प्लास्टिक सामग्री जो कपड़ों, धागे या कपड़े के लिए उपयोग की जाती है (अंग्रेजी से उधार लिया गया शब्द)",
+      "ja": "ナイロン；衣類・糸・布地に使われる合成プラスチック素材（英語からの外来語）",
+      "km": "នីឡុង; សម្ភារៈប្លាស្ទិកសំយោគដែលប្រើសម្រាប់សំលៀកបំពាក់ ខ្សែ ឬក្រណាត់ (ពាក្យខ្ចីពីភាសាអង់គ្លេស)",
+      "ko": "나일론; 의류, 실 또는 직물에 사용되는 합성 플라스틱 소재 (영어에서 온 외래어)",
+      "ne": "नाइलन; कपडा, धागो वा कपडाको लागि प्रयोग हुने सिन्थेटिक प्लास्टिक सामग्री (अंग्रेजीबाट ऋण लिइएको शब्द)",
+      "pt": "nylon; um material sintético de plástico usado para roupas, fios ou tecidos (palavra emprestada do inglês)",
+      "th": "ไนลอน; วัสดุพลาสติกสังเคราะห์ที่ใช้ทำเสื้อผ้า ด้าย หรือผ้า (คำยืมจากภาษาอังกฤษ)",
+      "tl": "nylon; isang sintetikong materyal na plastik na ginagamit para sa damit, sinulid, o tela (hiram na salita mula sa Ingles)",
+      "ur": "نائلون؛ ایک مصنوعی پلاسٹک مواد جو کپڑوں، دھاگے یا کپڑے کے لیے استعمال ہوتا ہے (انگریزی سے لیا گیا لفظ)",
+      "vi": "nylon; vật liệu nhựa tổng hợp dùng cho quần áo, sợi chỉ hoặc vải (từ mượn từ tiếng Anh)",
+      "zh": "尼龙；一种用于服装、线或布料的合成塑料材料（来自英语的借词）",
+      "zh_Hant": "尼龍；一種用於服裝、線或布料的合成塑料材料（來自英語的借詞）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/naj˧/",
+    "examples": [
+      {
+        "lao_script": "ຖົງໄນນີ້ໃຊ້ໄດ້ຫຼາຍຄັ້ງ",
+        "romanization": "thong nai nii chai dai lai khang",
+        "translations": {
+          "de": "Diese Nylontüte kann man viele Male benutzen.",
+          "en": "This nylon bag can be used many times.",
+          "es": "Esta bolsa de nylon se puede usar muchas veces.",
+          "fr": "Ce sac en nylon peut être utilisé plusieurs fois.",
+          "hi": "यह नायलॉन बैग कई बार इस्तेमाल किया जा सकता है।",
+          "ja": "このナイロンの袋は何度も使える。",
+          "km": "ថង់នីឡុងនេះអាចប្រើបានច្រើនដង។",
+          "ko": "이 나일론 가방은 여러 번 사용할 수 있어요.",
+          "ne": "यो नाइलनको झोला धेरैपटक प्रयोग गर्न सकिन्छ।",
+          "pt": "Esta sacola de nylon pode ser usada muitas vezes.",
+          "th": "ถุงไนลอนนี้ใช้ได้หลายครั้ง",
+          "tl": "Ang bag na nylon na ito ay magagamit ng maraming beses.",
+          "ur": "یہ نائلون بیگ کئی بار استعمال کیا جا سکتا ہے۔",
+          "vi": "Túi nylon này có thể dùng được nhiều lần.",
+          "zh": "这个尼龙袋可以用很多次。",
+          "zh_Hant": "這個尼龍袋可以用很多次。"
+        },
+        "out_of_scope_words": [
+          "ຖົງ",
+          "ຄັ້ງ"
+        ]
+      },
+      {
+        "lao_script": "ເຊືອກໄນໜຽວແລະທົນທານ",
+        "romanization": "suak nai niao lae thon-than",
+        "translations": {
+          "de": "Nylonseil ist zäh und langlebig.",
+          "en": "Nylon rope is tough and durable.",
+          "es": "La cuerda de nylon es resistente y duradera.",
+          "fr": "La corde en nylon est solide et durable.",
+          "hi": "नायलॉन की रस्सी मजबूत और टिकाऊ होती है।",
+          "ja": "ナイロンのロープは丈夫で長持ちする。",
+          "km": "ខ្សែទង់នីឡុង質ings និងមានស្ថិរភាព។",
+          "ko": "나일론 밧줄은 질기고 내구성이 있어요.",
+          "ne": "नाइलनको डोरी बलियो र टिकाऊ हुन्छ।",
+          "pt": "A corda de nylon é resistente e durável.",
+          "th": "เชือกไนลอนเหนียวและทนทาน",
+          "tl": "Ang lubid na nylon ay matibay at matibay.",
+          "ur": "نائلون کی رسی مضبوط اور پائیدار ہوتی ہے۔",
+          "vi": "Dây thừng nylon dai và bền.",
+          "zh": "尼龙绳既坚韧又耐用。",
+          "zh_Hant": "尼龍繩既堅韌又耐用。"
+        },
+        "out_of_scope_words": [
+          "ເຊືອກ",
+          "ໜຽວ",
+          "ທົນທານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a nylon shopping bag and a spool of nylon thread side by side, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ໄອ": {
+    "definitions": {
+      "de": "husten; einen plötzlichen Luftstoß aus dem Mund ausstoßen, oft wegen Krankheit; auch das Substantiv 'Husten'",
+      "en": "to cough; to expel air from the lungs suddenly through the mouth, often due to illness; also the noun 'cough'",
+      "es": "toser; expulsar aire de los pulmones repentinamente por la boca, a menudo por enfermedad; también el sustantivo 'tos'",
+      "fr": "tousser; expulser brusquement de l'air par la bouche, souvent à cause d'une maladie; également le nom 'toux'",
+      "hi": "खाँसना; अक्सर बीमारी के कारण मुंह से अचानक हवा निकालना; संज्ञा के रूप में 'खाँसी' भी",
+      "ja": "咳をする；しばしば病気のために口から急に空気を出す；名詞として「咳」とも",
+      "km": "ក្អក; បញ្ចេញខ្យល់ពីសួតទាំងភ្លាមតាមមាត់ ជាញឹកញាប់ដោយសារជំងឺ; ក៏ជានាម 'ការក្អក' ផងដែរ",
+      "ko": "기침하다; 종종 질병으로 인해 입에서 갑자기 공기를 내뱉다; 명사로 '기침'도 됨",
+      "ne": "खोक्नु; प्रायः बिरामीको कारणले मुखबाट अचानक हावा निकाल्नु; संज्ञाको रूपमा 'खोकी' पनि",
+      "pt": "tossir; expelir ar dos pulmões de repente pela boca, geralmente por doença; também o substantivo 'tosse'",
+      "th": "ไอ; ขับอากาศออกจากปอดอย่างรวดเร็วทางปาก มักเกิดจากการเจ็บป่วย; ยังเป็นคำนาม 'อาการไอ' ด้วย",
+      "tl": "umubo; maglabas ng hangin mula sa baga nang bigla sa bibig, kadalasan dahil sa sakit; pati na rin ang pangngalang 'ubo'",
+      "ur": "کھانسنا؛ اکثر بیماری کی وجہ سے منہ سے اچانک ہوا نکالنا؛ اسم کے طور پر 'کھانسی' بھی",
+      "vi": "ho; đột ngột tống khí ra từ phổi qua miệng, thường do bệnh; cũng là danh từ 'cơn ho'",
+      "zh": "咳嗽；通常因生病而突然从口中呼出气体；也作名词'咳嗽'",
+      "zh_Hant": "咳嗽；通常因生病而突然從口中呼出氣體；也作名詞「咳嗽」"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/ʔaj˧/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າໄອຫຼາຍ ເປັນຫຍັງ ເປັນໄຂ້ຢູ່ບໍ",
+        "romanization": "jao ai lai, pen nyang, pen khai yu bo",
+        "translations": {
+          "de": "Du hustest so viel, was ist los? Hast du Fieber?",
+          "en": "You're coughing a lot, what's wrong? Do you have a fever?",
+          "es": "Estás tosiendo mucho, ¿qué pasa? ¿Tienes fiebre?",
+          "fr": "Tu tousses beaucoup, qu'est-ce qui se passe ? Tu as de la fièvre ?",
+          "hi": "तुम बहुत खाँस रहे हो, क्या हुआ? क्या बुखार है?",
+          "ja": "たくさん咳をしているね、どうしたの？熱があるの？",
+          "km": "អ្នកក្អកច្រើន មានបញ្ហាអ្វី? មានគ្រុនឈឺទេ?",
+          "ko": "기침을 많이 하네, 왜 그래? 열 있어?",
+          "ne": "तिमी धेरै खोकिरहेछौ, के भयो? ज्वरो आएको छ?",
+          "pt": "Você está tossindo muito, o que aconteceu? Está com febre?",
+          "th": "แกไอเยอะเลย เป็นอะไรไป มีไข้อยู่ไหม",
+          "tl": "Marami kang inubo, bakit? May lagnat ka ba?",
+          "ur": "تم بہت کھانس رہے ہو، کیا ہوا؟ بخار ہے کیا؟",
+          "vi": "Mày ho nhiều vậy, có chuyện gì vậy? Mày bị sốt không?",
+          "zh": "你咳嗽得那么厉害，怎么了？发烧了吗？",
+          "zh_Hant": "你咳嗽得那麼厲害，怎麼了？發燒了嗎？"
+        },
+        "out_of_scope_words": [
+          "ໄຂ້"
+        ]
+      },
+      {
+        "lao_script": "ກິນຢາກ່ອນນອນ ໄອຈະໄດ້ຫາຍ",
+        "romanization": "kin ya kon non, ai ja dai hai",
+        "translations": {
+          "de": "Nimm die Medizin vor dem Schlafen, dann wird der Husten besser.",
+          "en": "Take the medicine before sleeping and the cough will get better.",
+          "es": "Toma la medicina antes de dormir y la tos mejorará.",
+          "fr": "Prends le médicament avant de dormir et la toux ira mieux.",
+          "hi": "सोने से पहले दवाई लो, खाँसी ठीक हो जाएगी।",
+          "ja": "寝る前に薬を飲めば、咳が治るよ。",
+          "km": "ញ៉ាំថ្នាំមុនពេលដេក ការក្អកនឹងជាសះស្បើយ។",
+          "ko": "자기 전에 약을 먹으면 기침이 나을 거야.",
+          "ne": "सुत्नु अघि औषधि खाऊ, खोकी ठिक हुन्छ।",
+          "pt": "Tome o remédio antes de dormir e a tosse vai melhorar.",
+          "th": "กินยาก่อนนอน ไอจะได้หาย",
+          "tl": "Uminom ng gamot bago matulog, gagaling ang ubo.",
+          "ur": "سونے سے پہلے دوائی لو، کھانسی ٹھیک ہو جائے گی۔",
+          "vi": "Uống thuốc trước khi ngủ thì hết ho thôi.",
+          "zh": "睡前吃药，咳嗽就会好了。",
+          "zh_Hant": "睡前吃藥，咳嗽就會好了。"
+        },
+        "out_of_scope_words": [
+          "ຢາ",
+          "ນອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person covering their mouth while coughing, with small wavy lines indicating coughing, clean white background, friendly cartoon style, minimalist design suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

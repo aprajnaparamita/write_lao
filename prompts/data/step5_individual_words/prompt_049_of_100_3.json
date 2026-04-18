@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອິດ",
+  "definitions": {
+    "de": "Müde – beschreibt einen Zustand körperlicher oder geistiger Erschöpfung",
+    "en": "Tired – describes a state of physical or mental fatigue",
+    "es": "Cansado – describe un estado de fatiga física o mental",
+    "fr": "Fatigué – décrit un état de fatigue physique ou mentale",
+    "hi": "थका हुआ – शारीरिक या मानसिक थकान की अवस्था का वर्णन करता है",
+    "ja": "疲れた – 身体的または精神的な疲労の状態を表す",
+    "km": "អស់កម្លាំង / នឿយហត់ – ពិពណ៌នាអំពីស្ថានភាពអស់កម្លាំងរាងកាយ ឬផ្លូវចិត្ត",
+    "ko": "피곤한 – 신체적 또는 정신적 피로 상태를 나타냄",
+    "ne": "थकित – शारीरिक वा मानसिक थकानको अवस्था वर्णन गर्छ",
+    "pt": "Cansado – descreve um estado de fadiga física ou mental",
+    "th": "เหนื่อย / อ่อนเพลีย – อธิบายสภาวะความเหนื่อยล้าทางร่างกายหรือจิตใจ",
+    "tl": "Pagod – naglalarawan ng kondisyon ng pisikal o mental na pagkapagod",
+    "ur": "تھکا ہوا – جسمانی یا ذہنی تھکاوٹ کی حالت بیان کرتا ہے",
+    "vi": "Mệt – mô tả trạng thái mệt mỏi về thể chất hoặc tinh thần",
+    "zh": "累 / 疲惫 – 描述身体或精神上疲惫的状态",
+    "zh_Hant": "累 / 疲憊 – 描述身體或精神上疲憊的狀態"
+  },
+  "definition_en": "Tired – describes a state of physical or mental fatigue",
+  "romanization": "ìt",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍອິດຫຼາຍ ເຮັດວຽກມາທັງມື້",
+      "romanization": "khɔ̂y ìt lǎi hét wīak mā thang mū",
+      "translation_en": "I'm so tired, I've been working all day."
+    },
+    {
+      "lao_script": "ເຈົ້າອິດບໍ? ນັ່ງພັກກ່ອນເດີ",
+      "romanization": "jâo ìt bɔ̄? nâng phák kɔ̀n dœ̄",
+      "translation_en": "Are you tired? Sit down and rest first."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person slumped tiredly in a chair with drooping eyes and a yawning expression, small 'zzz' symbols near their head, clean white background, colorful minimalist style suitable for a language learning app."
+}

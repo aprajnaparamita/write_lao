@@ -1,0 +1,392 @@
+{
+  "ຊາບ": {
+    "definitions": {
+      "de": "wissen, erfahren, informiert sein (formelle/literarische Form)",
+      "en": "to know, to be informed, to be aware (formal/literary form)",
+      "es": "saber, estar informado, estar al tanto (forma formal/literaria)",
+      "fr": "savoir, être informé, être au courant (forme formelle/littéraire)",
+      "hi": "जानना, सूचित होना, अवगत होना (औपचारिक/साहित्यिक रूप)",
+      "ja": "知る、情報を得る、認識する（フォーマル・文語的）",
+      "km": "ដឹង, ទទួលព័ត៌មាន, ជ្រាប (ទម្រង់ផ្លូវការ/អក្សរសាស្ត្រ)",
+      "ko": "알다, 알게 되다, 인지하다 (격식체/문어체)",
+      "ne": "जान्नु, सूचित हुनु, थाहा हुनु (औपचारिक/साहित्यिक रूप)",
+      "pt": "saber, estar informado, estar ciente (forma formal/literária)",
+      "th": "ทราบ, รับรู้ (รูปแบบทางการ/วรรณกรรม)",
+      "tl": "malaman, maalaman, mabatid (pormal/panitikang anyo)",
+      "ur": "جاننا، باخبر ہونا، آگاہ ہونا (رسمی/ادبی شکل)",
+      "vi": "biết, được thông báo, nhận thức (dạng trang trọng/văn chương)",
+      "zh": "知道、知悉、得知（正式/文雅用法）",
+      "zh_Hant": "知道、知悉、得知（正式/文雅用法）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "sâːp",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຊາບແລ້ວວ່າເຈົ້າຈະມາ.",
+        "romanization": "khɔ̀ːj sâːp lɛ́ːw vaː tɕâo tɕa máː",
+        "translations": {
+          "de": "Ich weiß bereits, dass du kommen wirst.",
+          "en": "I already know that you will come.",
+          "es": "Ya sé que vendrás.",
+          "fr": "Je sais déjà que tu viendras.",
+          "hi": "मुझे पहले से पता है कि तुम आओगे।",
+          "ja": "あなたが来ることはもう知っています。",
+          "km": "ខ្ញុំដឹងហើយថាអ្នកនឹងមក។",
+          "ko": "네가 올 거라는 걸 이미 알고 있어.",
+          "ne": "तिमी आउने कुरा मलाई थाहा छ।",
+          "pt": "Eu já sei que você vai vir.",
+          "th": "ฉันทราบแล้วว่าคุณจะมา",
+          "tl": "Alam ko na na darating ka.",
+          "ur": "مجھے پہلے سے معلوم ہے کہ تم آؤ گے۔",
+          "vi": "Tôi đã biết rằng bạn sẽ đến.",
+          "zh": "我已经知道你会来。",
+          "zh_Hant": "我已經知道你會來。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ເມື່ອຊາບຂ່າວ, ລາວຮ້ອງໄຫ້.",
+        "romanization": "mɯ̂ːa sâːp khaːw, láːw hɔ̂ːŋ hâj",
+        "translations": {
+          "de": "Als sie die Nachricht erfuhr, weinte sie.",
+          "en": "When she heard the news, she cried.",
+          "es": "Cuando se enteró de la noticia, lloró.",
+          "fr": "Quand elle a appris la nouvelle, elle a pleuré.",
+          "hi": "जब उसे खबर मिली, तो वह रोने लगी।",
+          "ja": "知らせを知ったとき、彼女は泣きました。",
+          "km": "ពេលនាងដឹងដំណឹង នាងយំ។",
+          "ko": "그 소식을 듣고 그녀는 울었다.",
+          "ne": "खबर थाहा पाएपछि उनी रोइन्।",
+          "pt": "Quando soube da notícia, ela chorou.",
+          "th": "เมื่อทราบข่าว เธอก็ร้องไห้",
+          "tl": "Nang malaman niya ang balita, umiyak siya.",
+          "ur": "جب اسے خبر ملی تو وہ رو پڑی۔",
+          "vi": "Khi biết tin, cô ấy đã khóc.",
+          "zh": "得知消息后，她哭了。",
+          "zh_Hant": "得知消息後，她哭了。"
+        },
+        "out_of_scope_words": [
+          "ຂ່າວ",
+          "ຮ້ອງໄຫ້",
+          "ເມື່ອ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a lightbulb above their head, showing a moment of realization or learning news, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ຕິ": {
+    "definitions": {
+      "de": "kritisieren, tadeln, bemängeln",
+      "en": "to criticize, to find fault with, to blame",
+      "es": "criticar, reprochar, censurar",
+      "fr": "critiquer, reprocher, blâmer",
+      "hi": "आलोचना करना, दोष निकालना",
+      "ja": "批判する、非難する、けなす",
+      "km": "រិះគន់, បន្ទោស, ចោទប្រកាន់",
+      "ko": "비판하다, 흠잡다, 나무라다",
+      "ne": "आलोचना गर्नु, दोष लगाउनु",
+      "pt": "criticar, censurar, repreender",
+      "th": "ติ, ตำหนิ, วิจารณ์",
+      "tl": "punahin, batikusin, pulaan",
+      "ur": "تنقید کرنا، نکتہ چینی کرنا",
+      "vi": "chê, phê bình, chỉ trích",
+      "zh": "批评、指责、挑毛病",
+      "zh_Hant": "批評、指責、挑毛病"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ti",
+    "examples": [
+      {
+        "lao_script": "ຢ່າຕິຄົນອື່ນຫຼາຍ.",
+        "romanization": "jaː ti khón ɯ̀ːn lǎːj",
+        "translations": {
+          "de": "Kritisiere andere nicht so viel.",
+          "en": "Don't criticize others so much.",
+          "es": "No critiques tanto a los demás.",
+          "fr": "Ne critique pas trop les autres.",
+          "hi": "दूसरों की इतनी आलोचना मत करो।",
+          "ja": "他人をあまり批判しないで。",
+          "km": "កុំរិះគន់អ្នកដទៃច្រើនពេក។",
+          "ko": "남을 너무 비판하지 마세요.",
+          "ne": "अरूको यति धेरै आलोचना नगर।",
+          "pt": "Não critique tanto os outros.",
+          "th": "อย่าติคนอื่นมาก",
+          "tl": "Huwag masyadong punahin ang iba.",
+          "ur": "دوسروں پر زیادہ تنقید مت کرو۔",
+          "vi": "Đừng chê người khác nhiều quá.",
+          "zh": "不要太批评别人。",
+          "zh_Hant": "不要太批評別人。"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ອື່ນ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຕິອາຫານວ່າບໍ່ແຊບ.",
+        "romanization": "láːw ti ʔaː-hǎːn vaː bɔː sɛ̂ːp",
+        "translations": {
+          "de": "Er bemängelt, dass das Essen nicht lecker ist.",
+          "en": "He criticizes the food as not tasty.",
+          "es": "Él critica la comida diciendo que no está rica.",
+          "fr": "Il critique la nourriture en disant qu'elle n'est pas bonne.",
+          "hi": "वह खाने की आलोचना करता है कि यह स्वादिष्ट नहीं है।",
+          "ja": "彼は料理が美味しくないと文句を言う。",
+          "km": "គាត់រិះគន់ម្ហូបថាមិនឆ្ងាញ់។",
+          "ko": "그는 음식이 맛없다고 불평한다.",
+          "ne": "उसले खानालाई मिठो छैन भनेर आलोचना गर्छ।",
+          "pt": "Ele critica a comida dizendo que não é gostosa.",
+          "th": "เขาติอาหารว่าไม่อร่อย",
+          "tl": "Pinupuna niya ang pagkain na hindi masarap.",
+          "ur": "وہ کھانے پر تنقید کرتا ہے کہ یہ مزیدار نہیں ہے۔",
+          "vi": "Anh ấy chê đồ ăn không ngon.",
+          "zh": "他批评食物不好吃。",
+          "zh_Hant": "他批評食物不好吃。"
+        },
+        "out_of_scope_words": [
+          "ແຊບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pointing at something with a disapproving facial expression, with a thumbs-down symbol, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອົກ": {
+    "definitions": {
+      "de": "Brust, Brustkorb",
+      "en": "chest, breast (body part)",
+      "es": "pecho, tórax",
+      "fr": "poitrine, thorax",
+      "hi": "छाती, वक्ष",
+      "ja": "胸、胸部",
+      "km": "ទ្រូង, ដើមទ្រូង",
+      "ko": "가슴, 흉부",
+      "ne": "छाती",
+      "pt": "peito, tórax",
+      "th": "อก, หน้าอก",
+      "tl": "dibdib",
+      "ur": "سینہ، چھاتی",
+      "vi": "ngực",
+      "zh": "胸、胸部",
+      "zh_Hant": "胸、胸部"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ʔok",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍເຈັບອົກ.",
+        "romanization": "khɔ̀ːj tɕep ʔok",
+        "translations": {
+          "de": "Meine Brust tut weh.",
+          "en": "My chest hurts.",
+          "es": "Me duele el pecho.",
+          "fr": "J'ai mal à la poitrine.",
+          "hi": "मेरी छाती में दर्द है।",
+          "ja": "胸が痛いです。",
+          "km": "ខ្ញុំឈឺទ្រូង។",
+          "ko": "가슴이 아파요.",
+          "ne": "मेरो छाती दुख्छ।",
+          "pt": "Meu peito dói.",
+          "th": "ฉันเจ็บอก",
+          "tl": "Masakit ang dibdib ko.",
+          "ur": "میرے سینے میں درد ہے۔",
+          "vi": "Tôi đau ngực.",
+          "zh": "我胸口疼。",
+          "zh_Hant": "我胸口疼。"
+        },
+        "out_of_scope_words": [
+          "ເຈັບ"
+        ]
+      },
+      {
+        "lao_script": "ລາວເອົາມືວາງໃສ່ອົກ.",
+        "romanization": "láːw ʔao mɯ́ː vaːŋ saj ʔok",
+        "translations": {
+          "de": "Er legte seine Hand auf seine Brust.",
+          "en": "He put his hand on his chest.",
+          "es": "Él puso su mano en el pecho.",
+          "fr": "Il a posé sa main sur sa poitrine.",
+          "hi": "उसने अपना हाथ अपनी छाती पर रखा।",
+          "ja": "彼は手を胸に当てた。",
+          "km": "គាត់ដាក់ដៃលើទ្រូង។",
+          "ko": "그는 손을 가슴에 얹었다.",
+          "ne": "उसले आफ्नो हात छातीमा राख्यो।",
+          "pt": "Ele colocou a mão no peito.",
+          "th": "เขาเอามือวางที่อก",
+          "tl": "Inilagay niya ang kamay sa dibdib.",
+          "ur": "اس نے اپنا ہاتھ سینے پر رکھا۔",
+          "vi": "Anh ấy đặt tay lên ngực.",
+          "zh": "他把手放在胸口。",
+          "zh_Hant": "他把手放在胸口。"
+        },
+        "out_of_scope_words": [
+          "ວາງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a human body silhouette with the chest area highlighted or pointed to with an arrow, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອົດ": {
+    "definitions": {
+      "de": "ertragen, aushalten, sich zurückhalten, sich enthalten",
+      "en": "to endure, to tolerate, to restrain oneself, to abstain",
+      "es": "soportar, aguantar, contenerse, abstenerse",
+      "fr": "endurer, supporter, se retenir, s'abstenir",
+      "hi": "सहना, बर्दाश्त करना, संयम रखना",
+      "ja": "我慢する、耐える、自制する",
+      "km": "ទ្រាំ, អត់ធ្មត់, ទប់ចិត្ត",
+      "ko": "참다, 견디다, 자제하다",
+      "ne": "सहनु, धैर्य गर्नु, रोक्नु",
+      "pt": "suportar, aguentar, conter-se, abster-se",
+      "th": "อด, ทน, อดทน",
+      "tl": "magtiis, magpigil, magtimpi",
+      "ur": "برداشت کرنا، صبر کرنا، پرہیز کرنا",
+      "vi": "chịu đựng, nhịn, kiềm chế",
+      "zh": "忍耐、忍受、克制",
+      "zh_Hant": "忍耐、忍受、克制"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ʔot",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍອົດເຂົ້າບໍ່ໄດ້.",
+        "romanization": "khɔ̀ːj ʔot khao bɔː daj",
+        "translations": {
+          "de": "Ich kann nicht aufs Essen verzichten.",
+          "en": "I can't go without eating rice/food.",
+          "es": "No puedo aguantar sin comer.",
+          "fr": "Je ne peux pas me passer de manger.",
+          "hi": "मैं बिना खाए नहीं रह सकता।",
+          "ja": "ご飯を我慢できません。",
+          "km": "ខ្ញុំទ្រាំមិនបាយអត់បាន។",
+          "ko": "밥을 굶을 수 없어요.",
+          "ne": "म भात नखाई बस्न सक्दिनँ।",
+          "pt": "Não consigo ficar sem comer.",
+          "th": "ฉันอดข้าวไม่ได้",
+          "tl": "Hindi ako makakapagtiis na hindi kumain.",
+          "ur": "میں کھانے کے بغیر نہیں رہ سکتا۔",
+          "vi": "Tôi không thể nhịn ăn được.",
+          "zh": "我不能不吃饭。",
+          "zh_Hant": "我不能不吃飯。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ອົດທົນໜ້ອຍໜຶ່ງ, ຈະຮອດແລ້ວ.",
+        "romanization": "ʔot thón nɔ̂ːj nɯ̄ŋ, tɕa hɔ̂ːt lɛ́ːw",
+        "translations": {
+          "de": "Halte noch ein wenig durch, wir sind gleich da.",
+          "en": "Hang in there a little, we're almost there.",
+          "es": "Aguanta un poco, ya casi llegamos.",
+          "fr": "Tiens bon un peu, on y est presque.",
+          "hi": "थोड़ा सब्र करो, हम लगभग पहुंच गए हैं।",
+          "ja": "もう少し我慢して、もうすぐ着くよ。",
+          "km": "អត់ធ្មត់បន្តិច ជិតដល់ហើយ។",
+          "ko": "조금만 참아, 거의 다 왔어.",
+          "ne": "अलिकति धैर्य गर, हामी पुग्न लागेका छौं।",
+          "pt": "Aguente um pouco, estamos quase lá.",
+          "th": "อดทนหน่อย ใกล้ถึงแล้ว",
+          "tl": "Magtiis ka ng kaunti, malapit na tayo.",
+          "ur": "تھوڑا صبر کرو، ہم تقریباً پہنچ گئے ہیں۔",
+          "vi": "Chịu khó một chút, sắp tới rồi.",
+          "zh": "再忍耐一下，快到了。",
+          "zh_Hant": "再忍耐一下，快到了。"
+        },
+        "out_of_scope_words": [
+          "ທົນ",
+          "ຮອດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a determined person clenching fists with a focused expression, showing patience and endurance, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເມ": {
+    "definitions": {
+      "de": "Silbenfragment/gebundenes Morphem (begrenzter eigenständiger Gebrauch; erscheint in Zusammensetzungen wie ເມຍ „Ehefrau“ oder als Lehnwort-Element)",
+      "en": "syllable fragment/bound morpheme (limited standalone use; appears in compounds such as ເມຍ 'wife' or in loanword elements)",
+      "es": "fragmento silábico/morfema ligado (uso independiente limitado; aparece en compuestos como ເມຍ 'esposa' o en elementos de préstamos)",
+      "fr": "fragment syllabique/morphème lié (usage autonome limité; apparaît dans des composés comme ເມຍ « épouse » ou dans des emprunts)",
+      "hi": "अक्षर खंड/बद्ध रूपिम (स्वतंत्र उपयोग सीमित; ເມຍ 'पत्नी' जैसे यौगिकों में प्रकट होता है)",
+      "ja": "音節断片・拘束形態素（単独使用は限定的。ເມຍ「妻」などの複合語に現れる）",
+      "km": "បំណែកព្យាង្គ/មរម៌ភ្ជាប់ (ការប្រើឯករាជ្យមានកំណត់; លេចឡើងក្នុងពាក្យផ្សំដូចជា ເມຍ 'ប្រពន្ធ')",
+      "ko": "음절 조각/의존 형태소 (단독 사용 제한적; ເມຍ '아내' 같은 복합어에 나타남)",
+      "ne": "अक्षर खण्ड/बद्ध रूपिम (स्वतन्त्र प्रयोग सीमित; ເມຍ 'पत्नी' जस्ता यौगिकमा देखिन्छ)",
+      "pt": "fragmento silábico/morfema preso (uso independente limitado; aparece em compostos como ເມຍ 'esposa')",
+      "th": "เศษพยางค์/หน่วยคำผูก (ใช้เดี่ยวๆ จำกัด; ปรากฏในคำประสม เช่น ເມຍ 'ภรรยา')",
+      "tl": "piraso ng pantig/nakatali na morpema (limitadong nag-iisang gamit; lumilitaw sa mga tambalang salita gaya ng ເມຍ 'asawang babae')",
+      "ur": "حرفی ٹکڑا/پابند مورفیم (تنہا استعمال محدود؛ ເມຍ 'بیوی' جیسے مرکبات میں ظاہر ہوتا ہے)",
+      "vi": "mảnh âm tiết/hình vị ràng buộc (ít dùng độc lập; xuất hiện trong từ ghép như ເມຍ 'vợ')",
+      "zh": "音节片段/黏着语素（独立使用有限；出现在 ເມຍ『妻子』等复合词中）",
+      "zh_Hant": "音節片段/黏著語素（獨立使用有限；出現在 ເມຍ『妻子』等複合詞中）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "méː",
+    "examples": [
+      {
+        "lao_script": "ຄຳວ່າ ເມຍ ເລີ່ມຕົ້ນດ້ວຍສຽງ ເມ.",
+        "romanization": "kham vaː míːa lɤ̀ːm tôn dûaj sǐaŋ méː",
+        "translations": {
+          "de": "Das Wort ເມຍ beginnt mit dem Laut ເມ.",
+          "en": "The word ເມຍ begins with the sound ເມ.",
+          "es": "La palabra ເມຍ comienza con el sonido ເມ.",
+          "fr": "Le mot ເມຍ commence par le son ເມ.",
+          "hi": "शब्द ເມຍ ເມ ध्वनि से शुरू होता है।",
+          "ja": "ເມຍという単語はເມの音で始まる。",
+          "km": "ពាក្យ ເມຍ ចាប់ផ្តើមដោយសំឡេង ເມ។",
+          "ko": "ເມຍ라는 단어는 ເມ 소리로 시작한다.",
+          "ne": "ເມຍ शब्द ເມ ध्वनिबाट सुरु हुन्छ।",
+          "pt": "A palavra ເມຍ começa com o som ເມ.",
+          "th": "คำว่า ເມຍ ขึ้นต้นด้วยเสียง ເມ",
+          "tl": "Ang salitang ເມຍ ay nagsisimula sa tunog na ເມ.",
+          "ur": "لفظ ເມຍ آواز ເມ سے شروع ہوتا ہے۔",
+          "vi": "Từ ເມຍ bắt đầu bằng âm ເມ.",
+          "zh": "ເມຍ 这个词以 ເມ 的音开头。",
+          "zh_Hant": "ເມຍ 這個詞以 ເມ 的音開頭。"
+        },
+        "out_of_scope_words": [
+          "ຄຳ",
+          "ເລີ່ມຕົ້ນ",
+          "ສຽງ",
+          "ເມຍ"
+        ]
+      },
+      {
+        "lao_script": "ເດັກນ້ອຍຝຶກອ່ານ ເມ ເມ ເມ.",
+        "romanization": "dek nɔ̂ːj fɯ̀k ʔaːn méː méː méː",
+        "translations": {
+          "de": "Das Kind übt, ‚me me me‘ zu lesen.",
+          "en": "The child practices reading 'me me me'.",
+          "es": "El niño practica leer 'me me me'.",
+          "fr": "L'enfant s'entraîne à lire « me me me ».",
+          "hi": "बच्चा 'मे मे मे' पढ़ने का अभ्यास करता है।",
+          "ja": "子どもは『メ メ メ』と読む練習をしている。",
+          "km": "ក្មេងហាត់អាន 'មេ មេ មេ'។",
+          "ko": "아이가 '메 메 메'를 읽는 연습을 한다.",
+          "ne": "बच्चाले 'मे मे मे' पढ्ने अभ्यास गर्छ।",
+          "pt": "A criança pratica ler 'me me me'.",
+          "th": "เด็กฝึกอ่าน 'เม เม เม'",
+          "tl": "Nagsasanay ang bata na basahin ang 'me me me'.",
+          "ur": "بچہ 'می می می' پڑھنے کی مشق کرتا ہے۔",
+          "vi": "Đứa trẻ tập đọc 'me me me'.",
+          "zh": "孩子在练习读『me me me』。",
+          "zh_Hant": "孩子在練習讀『me me me』。"
+        },
+        "out_of_scope_words": [
+          "ເດັກນ້ອຍ",
+          "ຝຶກ",
+          "ອ່ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a child pointing at a Lao language textbook showing syllable blocks or letters being read aloud, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "ກູ້": {
+    "definitions": {
+      "de": "retten, bergen; (Geld) leihen, einen Kredit aufnehmen",
+      "en": "to rescue, salvage; to borrow (money), take out a loan",
+      "es": "rescatar, salvar; pedir prestado (dinero), obtener un préstamo",
+      "fr": "secourir, sauver; emprunter (de l'argent), contracter un prêt",
+      "hi": "बचाना, उद्धार करना; (पैसा) उधार लेना",
+      "ja": "救助する、救い出す；（お金を）借りる、融資を受ける",
+      "km": "សង្គ្រោះ, ជួយសង្គ្រោះ; ខ្ចី (ប្រាក់), កម្ចី",
+      "ko": "구조하다, 구하다; (돈을) 빌리다, 대출받다",
+      "ne": "उद्धार गर्नु, बचाउनु; (पैसा) ऋण लिनु",
+      "pt": "resgatar, salvar; pedir emprestado (dinheiro), obter um empréstimo",
+      "th": "กู้ (ช่วยเหลือ); กู้ยืม (เงิน)",
+      "tl": "sagipin, iligtas; humiram (ng pera), kumuha ng utang",
+      "ur": "بچانا، نجات دلانا؛ (پیسہ) ادھار لینا، قرض لینا",
+      "vi": "cứu, cứu hộ; vay (tiền), vay mượn",
+      "zh": "救助，挽救；借（钱），贷款",
+      "zh_Hant": "救助，挽救；借（錢），貸款"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kûː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກກູ້ເງິນຈາກທະນາຄານ.",
+        "romanization": "kʰɔ̏ːj jȁːk kûː ŋə́n t͡ɕàːk tʰā.nāː.kʰáːn",
+        "translations": {
+          "de": "Ich möchte einen Kredit bei der Bank aufnehmen.",
+          "en": "I want to borrow money from the bank.",
+          "es": "Quiero pedir un préstamo al banco.",
+          "fr": "Je veux emprunter de l'argent à la banque.",
+          "hi": "मैं बैंक से पैसा उधार लेना चाहता हूँ।",
+          "ja": "銀行からお金を借りたいです。",
+          "km": "ខ្ញុំចង់ខ្ចីប្រាក់ពីធនាគារ។",
+          "ko": "은행에서 돈을 빌리고 싶어요.",
+          "ne": "म बैंकबाट पैसा ऋण लिन चाहन्छु।",
+          "pt": "Quero pedir dinheiro emprestado ao banco.",
+          "th": "ฉันอยากกู้เงินจากธนาคาร",
+          "tl": "Gusto kong humiram ng pera sa bangko.",
+          "ur": "میں بینک سے قرض لینا چاہتا ہوں۔",
+          "vi": "Tôi muốn vay tiền từ ngân hàng.",
+          "zh": "我想从银行贷款。",
+          "zh_Hant": "我想從銀行貸款。"
+        },
+        "out_of_scope_words": [
+          "ທະນາຄານ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາກູ້ຊີວິດເດັກນ້ອຍອອກຈາກນ້ຳ.",
+        "romanization": "kʰǎw kûː síː.wīt dék.nɔ̂ːj ʔɔ̏ːk t͡ɕàːk nâm",
+        "translations": {
+          "de": "Er rettete das Kind aus dem Wasser.",
+          "en": "He rescued the child from the water.",
+          "es": "Él rescató al niño del agua.",
+          "fr": "Il a sauvé l'enfant de l'eau.",
+          "hi": "उसने बच्चे को पानी से बचाया।",
+          "ja": "彼は子供を水から救い出した。",
+          "km": "គាត់បានសង្គ្រោះកុមារចេញពីទឹក។",
+          "ko": "그는 아이를 물에서 구조했어요.",
+          "ne": "उसले बच्चालाई पानीबाट बचायो।",
+          "pt": "Ele resgatou a criança da água.",
+          "th": "เขากู้ชีวิตเด็กออกจากน้ำ",
+          "tl": "Iniligtas niya ang bata mula sa tubig.",
+          "ur": "اُس نے بچے کو پانی سے بچایا۔",
+          "vi": "Anh ấy đã cứu đứa trẻ khỏi nước.",
+          "zh": "他把孩子从水里救了出来。",
+          "zh_Hant": "他把孩子從水裡救了出來。"
+        },
+        "out_of_scope_words": [
+          "ຊີວິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a rescuer pulling a person to safety, with a small icon of a hand receiving a coin beside it, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂອບ": {
+    "definitions": {
+      "de": "Rand, Kante; (in ຂອບໃຈ) danken",
+      "en": "edge, border, rim; (in ຂອບໃຈ) to thank",
+      "es": "borde, orilla, canto; (en ຂອບໃຈ) agradecer",
+      "fr": "bord, bordure, rebord; (dans ຂອບໃຈ) remercier",
+      "hi": "किनारा, किनार; (ຂອບໃຈ में) धन्यवाद देना",
+      "ja": "縁、へり、端；（ຂອບໃຈで）感謝する",
+      "km": "គែម, ជាយ; (នៅក្នុង ຂອບໃຈ) អរគុណ",
+      "ko": "가장자리, 테두리; (ຂອບໃຈ에서) 감사하다",
+      "ne": "किनारा, छेउ; (ຂອບໃຈ मा) धन्यवाद दिनु",
+      "pt": "borda, beira, margem; (em ຂອບໃຈ) agradecer",
+      "th": "ขอบ, ริม; (ใน ຂອບໃຈ) ขอบคุณ",
+      "tl": "gilid, tabi; (sa ຂອບໃຈ) magpasalamat",
+      "ur": "کنارہ، سرا؛ (ຂອບໃຈ میں) شکریہ ادا کرنا",
+      "vi": "mép, rìa, viền; (trong ຂອບໃຈ) cảm ơn",
+      "zh": "边，边缘；（在ຂອບໃຈ中）感谢",
+      "zh_Hant": "邊，邊緣；（在ຂອບໃຈ中）感謝"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰɔ̏ːp",
+    "examples": [
+      {
+        "lao_script": "ຂອບໃຈຫຼາຍໆເດີ້!",
+        "romanization": "kʰɔ̏ːp t͡ɕāj lǎːj lǎːj dɤ̂ː",
+        "translations": {
+          "de": "Vielen, vielen Dank!",
+          "en": "Thank you so much!",
+          "es": "¡Muchísimas gracias!",
+          "fr": "Merci beaucoup !",
+          "hi": "बहुत-बहुत धन्यवाद!",
+          "ja": "本当にありがとう！",
+          "km": "អរគុណច្រើនណាស់!",
+          "ko": "정말 감사합니다!",
+          "ne": "धेरै धेरै धन्यवाद!",
+          "pt": "Muito obrigado!",
+          "th": "ขอบคุณมากๆ นะ!",
+          "tl": "Maraming-maraming salamat!",
+          "ur": "بہت بہت شکریہ!",
+          "vi": "Cảm ơn rất nhiều nhé!",
+          "zh": "非常感谢！",
+          "zh_Hant": "非常感謝！"
+        },
+        "out_of_scope_words": [
+          "ເດີ້"
+        ]
+      },
+      {
+        "lao_script": "ຢ່ານັ່ງໃກ້ຂອບໂຕະ ມັນຈະຕົກ.",
+        "romanization": "jāː nāŋ kâj kʰɔ̏ːp tǒʔ mán t͡ɕàʔ tók",
+        "translations": {
+          "de": "Setz dich nicht nahe an die Tischkante, sonst fällt es runter.",
+          "en": "Don't sit near the edge of the table; it will fall.",
+          "es": "No te sientes cerca del borde de la mesa; se va a caer.",
+          "fr": "Ne t'assieds pas près du bord de la table, ça va tomber.",
+          "hi": "मेज़ के किनारे पास मत बैठो, यह गिर जाएगा।",
+          "ja": "テーブルの端の近くに座らないで、落ちちゃうよ。",
+          "km": "កុំអង្គុយជិតគែមតុ វានឹងធ្លាក់។",
+          "ko": "탁자 가장자리 가까이에 앉지 마, 떨어질 거야.",
+          "ne": "टेबलको किनारा नजिक नबस, खस्छ।",
+          "pt": "Não se sente perto da borda da mesa; vai cair.",
+          "th": "อย่านั่งใกล้ขอบโต๊ะ เดี๋ยวตก",
+          "tl": "Huwag kang umupo malapit sa gilid ng mesa, mahuhulog ka.",
+          "ur": "میز کے کنارے کے پاس مت بیٹھو، گر جائے گا۔",
+          "vi": "Đừng ngồi gần mép bàn, sẽ rơi đấy.",
+          "zh": "别坐在桌边，会掉下去的。",
+          "zh_Hant": "別坐在桌邊，會掉下去的。"
+        },
+        "out_of_scope_words": [
+          "ໂຕະ",
+          "ຕົກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing the edge of a wooden table with an object near the rim, and a small speech bubble with a 'thank you' hand gesture, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊື່": {
+    "definitions": {
+      "de": "Name",
+      "en": "name",
+      "es": "nombre",
+      "fr": "nom, prénom",
+      "hi": "नाम",
+      "ja": "名前",
+      "km": "ឈ្មោះ",
+      "ko": "이름",
+      "ne": "नाम",
+      "pt": "nome",
+      "th": "ชื่อ",
+      "tl": "pangalan",
+      "ur": "نام",
+      "vi": "tên",
+      "zh": "名字",
+      "zh_Hant": "名字"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sɯ̄ː",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຊື່ຫຍັງ?",
+        "romanization": "t͡ɕâw sɯ̄ː ɲǎŋ",
+        "translations": {
+          "de": "Wie heißt du?",
+          "en": "What's your name?",
+          "es": "¿Cómo te llamas?",
+          "fr": "Comment tu t'appelles ?",
+          "hi": "तुम्हारा नाम क्या है?",
+          "ja": "お名前は何ですか？",
+          "km": "តើអ្នកឈ្មោះអ្វី?",
+          "ko": "이름이 뭐예요?",
+          "ne": "तिम्रो नाम के हो?",
+          "pt": "Qual é o seu nome?",
+          "th": "เธอชื่ออะไร?",
+          "tl": "Ano'ng pangalan mo?",
+          "ur": "تمہارا نام کیا ہے؟",
+          "vi": "Bạn tên gì?",
+          "zh": "你叫什么名字？",
+          "zh_Hant": "你叫什麼名字？"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຊື່ຂອງຂ້ອຍແມ່ນນ້ອຍ.",
+        "romanization": "sɯ̄ː kʰɔ̌ːŋ kʰɔ̏ːj mɛ̄ːn nɔ̂ːj",
+        "translations": {
+          "de": "Mein Name ist Noi.",
+          "en": "My name is Noi.",
+          "es": "Mi nombre es Noi.",
+          "fr": "Je m'appelle Noi.",
+          "hi": "मेरा नाम नोई है।",
+          "ja": "私の名前はノイです。",
+          "km": "ខ្ញុំឈ្មោះ ណូយ។",
+          "ko": "제 이름은 노이예요.",
+          "ne": "मेरो नाम नोई हो।",
+          "pt": "Meu nome é Noi.",
+          "th": "ชื่อของฉันคือน้อย",
+          "tl": "Ang pangalan ko ay Noi.",
+          "ur": "میرا نام نوئی ہے۔",
+          "vi": "Tên tôi là Noi.",
+          "zh": "我的名字是娜伊。",
+          "zh_Hant": "我的名字是娜伊。"
+        },
+        "out_of_scope_words": [
+          "ນ້ອຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person wearing a name tag with a blank label, smiling and pointing to it, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊົມ": {
+    "definitions": {
+      "de": "bewundern, genießen, (Anblick) betrachten, loben",
+      "en": "to admire, appreciate, enjoy (a view/show), praise",
+      "es": "admirar, apreciar, disfrutar (de una vista/espectáculo), elogiar",
+      "fr": "admirer, apprécier, profiter (d'un spectacle/paysage), louer",
+      "hi": "प्रशंसा करना, आनंद लेना, निहारना",
+      "ja": "鑑賞する、楽しむ、称賛する",
+      "km": "កោតសរសើរ, ទស្សនា, រីករាយនឹង",
+      "ko": "감상하다, 즐기다, 칭찬하다",
+      "ne": "प्रशंसा गर्नु, हेरेर आनन्द लिनु",
+      "pt": "admirar, apreciar, desfrutar (de uma vista/espetáculo), elogiar",
+      "th": "ชม, ชื่นชม, รับชม",
+      "tl": "humanga, mag-enjoy, magpuri",
+      "ur": "تعریف کرنا، لطف اٹھانا، دیکھ کر محظوظ ہونا",
+      "vi": "ngắm, thưởng thức, khen ngợi",
+      "zh": "欣赏，观赏，赞美",
+      "zh_Hant": "欣賞，觀賞，讚美"
+    },
+    "part_of_speech": "verb",
+    "romanization": "sóm",
+    "examples": [
+      {
+        "lao_script": "ເຮົາໄປຊົມດອກໄມ້ຢູ່ສວນ.",
+        "romanization": "háw pàj sóm dɔ̏ːk.mâj jūː sǔːan",
+        "translations": {
+          "de": "Wir gehen in den Park, um die Blumen zu bewundern.",
+          "en": "We're going to the park to enjoy the flowers.",
+          "es": "Vamos al parque a disfrutar de las flores.",
+          "fr": "Nous allons au parc admirer les fleurs.",
+          "hi": "हम बगीचे में फूल देखने जा रहे हैं।",
+          "ja": "公園に花を見に行きます。",
+          "km": "យើងទៅមើលផ្កានៅសួនច្បារ។",
+          "ko": "우리는 공원에 꽃 구경 가요.",
+          "ne": "हामी बगैंचामा फूल हेर्न जान्छौं।",
+          "pt": "Vamos ao parque apreciar as flores.",
+          "th": "เราไปชมดอกไม้ที่สวน",
+          "tl": "Pupunta kami sa parke para tingnan ang mga bulaklak.",
+          "ur": "ہم باغ میں پھول دیکھنے جا رہے ہیں۔",
+          "vi": "Chúng tôi đi công viên ngắm hoa.",
+          "zh": "我们去公园赏花。",
+          "zh_Hant": "我們去公園賞花。"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້",
+          "ສວນ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຊົມອາຫານທີ່ຂ້ອຍເຮັດ.",
+        "romanization": "láːw sóm ʔāː.hǎːn tʰīː kʰɔ̏ːj hēt",
+        "translations": {
+          "de": "Er/Sie lobte das Essen, das ich gekocht habe.",
+          "en": "He/She praised the food I made.",
+          "es": "Él/Ella elogió la comida que preparé.",
+          "fr": "Il/Elle a fait l'éloge du plat que j'ai préparé.",
+          "hi": "उसने मेरे बनाए खाने की तारीफ की।",
+          "ja": "彼/彼女は私が作った料理を褒めてくれました。",
+          "km": "គាត់សរសើរម្ហូបដែលខ្ញុំធ្វើ។",
+          "ko": "그/그녀는 제가 만든 음식을 칭찬했어요.",
+          "ne": "उसले मैले बनाएको खानाको प्रशंसा गर्यो।",
+          "pt": "Ele/Ela elogiou a comida que eu fiz.",
+          "th": "เขาชมอาหารที่ฉันทำ",
+          "tl": "Pinuri niya ang lutong ginawa ko.",
+          "ur": "اُس نے میرے بنائے ہوئے کھانے کی تعریف کی۔",
+          "vi": "Anh/chị ấy khen món ăn tôi làm.",
+          "zh": "他/她称赞了我做的菜。",
+          "zh_Hant": "他/她稱讚了我做的菜。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person smiling and admiring colorful flowers in a garden, with hands gently clasped in appreciation, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "polite",
+    "confidence": "high"
+  },
+  "ຍາດ": {
+    "definitions": {
+      "de": "Verwandter, Angehöriger",
+      "en": "relative, kin, family member",
+      "es": "pariente, familiar",
+      "fr": "parent, membre de la famille",
+      "hi": "रिश्तेदार, संबंधी",
+      "ja": "親戚、身内",
+      "km": "សាច់ញាតិ, ញាតិ",
+      "ko": "친척, 일가",
+      "ne": "नातेदार, आफन्त",
+      "pt": "parente, familiar",
+      "th": "ญาติ",
+      "tl": "kamag-anak",
+      "ur": "رشتہ دار، عزیز",
+      "vi": "họ hàng, người thân",
+      "zh": "亲戚",
+      "zh_Hant": "親戚"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ɲâːt",
+    "examples": [
+      {
+        "lao_script": "ລາວເປັນຍາດຂອງຂ້ອຍ.",
+        "romanization": "láːw pēn ɲâːt kʰɔ̌ːŋ kʰɔ̏ːj",
+        "translations": {
+          "de": "Er/Sie ist ein Verwandter von mir.",
+          "en": "He/She is my relative.",
+          "es": "Él/Ella es un pariente mío.",
+          "fr": "Il/Elle est un de mes parents.",
+          "hi": "वह मेरा रिश्तेदार है।",
+          "ja": "彼/彼女は私の親戚です。",
+          "km": "គាត់ជាសាច់ញាតិរបស់ខ្ញុំ។",
+          "ko": "그/그녀는 제 친척이에요.",
+          "ne": "उनी मेरो नातेदार हुन्।",
+          "pt": "Ele/Ela é meu parente.",
+          "th": "เขาเป็นญาติของฉัน",
+          "tl": "Kamag-anak ko siya.",
+          "ur": "وہ میرا رشتہ دار ہے۔",
+          "vi": "Anh/chị ấy là người thân của tôi.",
+          "zh": "他/她是我的亲戚。",
+          "zh_Hant": "他/她是我的親戚。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ວັນປີໃໝ່ ຍາດພີ່ນ້ອງມາຢ້ຽມບ້ານ.",
+        "romanization": "wán pìː māj ɲâːt pʰīː nɔ̂ːŋ máː jîːam bâːn",
+        "translations": {
+          "de": "Zum Neujahr kommen die Verwandten zu Besuch.",
+          "en": "On New Year's Day, relatives come to visit the house.",
+          "es": "En Año Nuevo, los parientes vienen a visitar la casa.",
+          "fr": "Au Nouvel An, les proches viennent rendre visite à la maison.",
+          "hi": "नए साल पर रिश्तेदार घर आते हैं।",
+          "ja": "お正月に親戚が家に訪ねてきます。",
+          "km": "នៅថ្ងៃចូលឆ្នាំថ្មី សាច់ញាតិមកលេងផ្ទះ។",
+          "ko": "새해에 친척들이 집에 방문해요.",
+          "ne": "नयाँ वर्षमा नातेदारहरू घर भेट्न आउँछन्।",
+          "pt": "No Ano Novo, os parentes vêm visitar a casa.",
+          "th": "วันปีใหม่ ญาติพี่น้องมาเยี่ยมบ้าน",
+          "tl": "Sa Bagong Taon, dumadalaw ang mga kamag-anak sa bahay.",
+          "ur": "نئے سال پر رشتہ دار گھر آتے ہیں۔",
+          "vi": "Ngày Tết, họ hàng đến thăm nhà.",
+          "zh": "新年时，亲戚们来家里拜访。",
+          "zh_Hant": "新年時，親戚們來家裡拜訪。"
+        },
+        "out_of_scope_words": [
+          "ປີໃໝ່",
+          "ພີ່ນ້ອງ",
+          "ຢ້ຽມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an extended family gathering with grandparents, parents, and children standing together smiling, suitable for a language learning app, clean white background, colorful, minimalist style",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

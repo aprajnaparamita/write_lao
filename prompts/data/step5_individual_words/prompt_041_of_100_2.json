@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊາຍ",
+  "definitions": {
+    "de": "Mann; männlich; ein Wort, das das männliche Geschlecht bezeichnet oder einen Mann beschreibt",
+    "en": "Male; man; a word indicating the male gender or describing a male person",
+    "es": "Hombre; masculino; palabra que indica el género masculino o describe a una persona de sexo masculino",
+    "fr": "Homme ; masculin ; mot indiquant le genre masculin ou décrivant une personne de sexe masculin",
+    "hi": "पुरुष; नर; पुरुष लिंग को दर्शाने वाला या किसी पुरुष व्यक्ति का वर्णन करने वाला शब्द",
+    "ja": "男性；男；男性の性別を示す、または男性を表す言葉",
+    "km": "បុរស; ភេទប្រុស; ពាក្យដែលបង្ហាញពីភេទប្រុស ឬពណ៌នាអំពីបុរស",
+    "ko": "남성; 남자; 남성 성별을 나타내거나 남성을 묘사하는 단어",
+    "ne": "पुरुष; नर; पुरुष लिङ्गलाई जनाउने वा पुरुष व्यक्तिको वर्णन गर्ने शब्द",
+    "pt": "Homem; masculino; palavra que indica o gênero masculino ou descreve uma pessoa do sexo masculino",
+    "th": "ชาย; เพศชาย; คำที่ใช้บ่งบอกเพศชายหรืออธิบายบุคคลเพศชาย",
+    "tl": "Lalaki; panlalaki; salitang nagpapahiwatig ng kasarian na lalaki o naglalarawan ng isang taong lalaki",
+    "ur": "مرد؛ مذکر؛ ایک لفظ جو مردانہ جنس کو ظاہر کرتا ہے یا مرد شخص کو بیان کرتا ہے",
+    "vi": "Nam; đàn ông; từ chỉ giới tính nam hoặc mô tả một người đàn ông",
+    "zh": "男；男性；表示男性性别或描述男性的词",
+    "zh_Hant": "男；男性；表示男性性別或描述男性的詞"
+  },
+  "definition_en": "Male; man; a word indicating the male gender or describing a male person",
+  "romanization": "sáːj",
+  "lao_examples": [
+    {
+      "lao_script": "ຄົນຊາຍຄົນນັ້ນຊື່ຫຍັງ?",
+      "romanization": "kʰon sáːj kʰon nan sʉ̂ː ɲǎŋ?",
+      "translation_en": "What is that man's name?"
+    },
+    {
+      "lao_script": "ນ້ອງຊາຍຂອງຂ້ອຍອາຍຸ 10 ປີ",
+      "romanization": "nɔ́ːŋ sáːj kʰɔ̌ːŋ kʰɔ̂ːj ʔáːjú sip piː",
+      "translation_en": "My younger brother is 10 years old."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly smiling young man standing upright, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

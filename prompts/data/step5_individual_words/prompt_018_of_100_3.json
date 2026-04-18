@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສ່ວນ",
+  "definitions": {
+    "de": "Teil, Abschnitt, Portion – ein Stück oder ein Anteil eines größeren Ganzen",
+    "en": "part, portion, section – a piece or share of a larger whole",
+    "es": "parte, porción, sección – un fragmento o una cuota de un todo mayor",
+    "fr": "partie, portion, section – un morceau ou une part d'un tout plus grand",
+    "hi": "भाग, हिस्सा, अंश – किसी बड़े पूरे का एक टुकड़ा या हिस्सा",
+    "ja": "部分、部位、割合 – より大きな全体の一部または分け前",
+    "km": "ផ្នែក, ចំណែក, ចំណុច – ផ្នែកមួយ ឬ몫មួយនៃទាំងមូល",
+    "ko": "부분, 일부, 몫 – 더 큰 전체의 한 조각이나 비율",
+    "ne": "भाग, अंश, हिस्सा – कुनै ठूलो सम्पूर्णको एक टुक्रा वा हिस्सा",
+    "pt": "parte, porção, seção – um pedaço ou parcela de um todo maior",
+    "th": "ส่วน, ส่วนหนึ่ง, ส่วนแบ่ง – ชิ้นส่วนหรือสัดส่วนหนึ่งของสิ่งที่ใหญ่กว่า",
+    "tl": "bahagi, parte, piraso – isang tipak o bahagi ng isang mas malaking kabuuan",
+    "ur": "حصہ، جزء، قسم – کسی بڑے کل کا ایک ٹکڑا یا حصہ",
+    "vi": "phần, bộ phận, phần chia – một mảnh hoặc phần của một tổng thể lớn hơn",
+    "zh": "部分、份额、区段——较大整体的一个片段或份额",
+    "zh_Hant": "部分、份額、區段——較大整體的一個片段或份額"
+  },
+  "definition_en": "part, portion, section – a piece or share of a larger whole",
+  "romanization": "suan²",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາສ່ວນຂອງເຈົ້າໄປເລີຍ ບໍ່ຕ້ອງຖ້າ",
+      "romanization": "ao suan khɔːŋ tɕao paj ləːj bɔː tɔŋ thaː",
+      "translation_en": "Take your portion and go, no need to wait."
+    },
+    {
+      "lao_script": "ສ່ວນໃຫຍ່ຂອງໝູ່ຂ້ອຍມັກກິນເຂົ້າຕອນເຊົ້າ",
+      "romanization": "suan jaj khɔːŋ muː khɔːj mak kin khao tɔːn saːo",
+      "translation_en": "Most of my friends like eating rice in the morning."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a circular pie chart divided into clearly colored sections, with one slice being pulled out to highlight a 'part' or 'portion', clean white background, bright colors, minimalist style for a language learning app."
+}

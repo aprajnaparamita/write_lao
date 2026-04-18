@@ -1,0 +1,402 @@
+{
+  "ຂວາງ": {
+    "definitions": {
+      "de": "blockieren, versperren, im Weg stehen",
+      "en": "to block, obstruct, or get in the way of something",
+      "es": "bloquear, obstruir, interponerse en el camino",
+      "fr": "bloquer, obstruer, barrer le passage",
+      "hi": "रोकना, बाधा डालना, रास्ता बंद करना",
+      "ja": "邪魔をする、塞ぐ、妨げる",
+      "km": "រារាំង, ស្ទះ, ដាក់ស្ទះផ្លូវ",
+      "ko": "막다, 차단하다, 방해하다",
+      "ne": "रोक्नु, बाधा गर्नु, बाटो छेक्नु",
+      "pt": "bloquear, obstruir, atravancar o caminho",
+      "th": "ขวาง, กีดขวาง, สกัดกั้น",
+      "tl": "harangin, harangan, pigilan ang daan",
+      "ur": "روکنا، راستہ بند کرنا، رکاوٹ ڈالنا",
+      "vi": "chặn, cản trở, đứng chắn đường",
+      "zh": "阻挡，拦截，挡路",
+      "zh_Hant": "阻擋，攔截，擋路"
+    },
+    "part_of_speech": "verb",
+    "romanization": "khwaːŋ",
+    "examples": [
+      {
+        "lao_script": "ລົດຂວາງທາງຢູ່, ຜ່ານບໍ່ໄດ້ເລີຍ",
+        "romanization": "lot khwaːŋ thaːŋ juː, phan bɔː daːj ləːj",
+        "translations": {
+          "de": "Ein Auto versperrt die Straße, ich komme überhaupt nicht durch.",
+          "en": "A car is blocking the road, I can't get through at all.",
+          "es": "Un coche está bloqueando el camino, no puedo pasar para nada.",
+          "fr": "Une voiture bloque la route, je ne peux pas passer du tout.",
+          "hi": "एक गाड़ी रास्ता रोक रही है, मैं बिल्कुल भी नहीं निकल सकता।",
+          "ja": "車が道を塞いでいて、全然通れない。",
+          "km": "រថយន្តស្ទះផ្លូវ ខ្ញុំមិនអាចឆ្លងកាត់បានទេ។",
+          "ko": "차가 길을 막고 있어서 전혀 지나갈 수가 없어.",
+          "ne": "एउटा गाडीले बाटो छेकेको छ, म बिल्कुल पार गर्न सक्दिनँ।",
+          "pt": "Um carro está bloqueando a estrada, não consigo passar de jeito nenhum.",
+          "th": "รถขวางทางอยู่เลย ผ่านไม่ได้เลย",
+          "tl": "May sasakyan na nakaharang sa daan, hindi talaga ako makapagdaan.",
+          "ur": "ایک گاڑی راستہ بند کیے ہوئے ہے، میں بالکل گزر نہیں سکتا۔",
+          "vi": "Có xe đang chắn đường, tôi không qua được chút nào.",
+          "zh": "有辆车挡住路了，根本过不去。",
+          "zh_Hant": "有輛車擋住路了，根本過不去。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ທາງ",
+          "ຜ່ານ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຂວາງເດ້, ຂ້ອຍຮີບໄປທຳງານ",
+        "romanization": "jaː khwaːŋ deː, khoːj hiːp paːj tham ŋaːn",
+        "translations": {
+          "de": "Stell dich nicht in den Weg, ich bin eilig zur Arbeit.",
+          "en": "Don't block me, I'm rushing to work.",
+          "es": "No me bloquees, estoy apurado para ir al trabajo.",
+          "fr": "Ne me bloque pas, je suis pressé d'aller au travail.",
+          "hi": "मुझे मत रोको, मैं काम पर जाने की जल्दी में हूँ।",
+          "ja": "邪魔しないで、仕事に急いでいるんだから。",
+          "km": "កុំស្ទះខ្ញុំ ខ្ញុំប្រញ្ជាប់ទៅធ្វើការ។",
+          "ko": "방해하지 마, 나 일하러 급하게 가야 해.",
+          "ne": "रोक्नु नपर्‍यो, म काममा जान हतार गरिरहेको छु।",
+          "pt": "Não me bloqueie, estou com pressa para o trabalho.",
+          "th": "อย่าขวางเลย ฉันรีบไปทำงาน",
+          "tl": "Huwag mo akong harangin, nagmamadali akong pumasok sa trabaho.",
+          "ur": "راستہ مت روکو، مجھے کام پر جانے کی جلدی ہے۔",
+          "vi": "Đừng cản tôi, tôi đang vội đi làm.",
+          "zh": "别挡着，我赶着去上班呢。",
+          "zh_Hant": "別擋著，我趕著去上班呢。"
+        },
+        "out_of_scope_words": [
+          "ຮີບ",
+          "ທຳງານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person standing with arms spread wide, blocking a pathway or road, with another person unable to pass, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ບົວ": {
+    "definitions": {
+      "de": "Lotusblume, eine heilige Wasserblume, die in der laotischen und buddhistischen Kultur bedeutend ist",
+      "en": "lotus flower, a sacred aquatic flower significant in Lao and Buddhist culture",
+      "es": "flor de loto, una flor acuática sagrada de gran importancia en la cultura laosiana y budista",
+      "fr": "fleur de lotus, une fleur aquatique sacrée très importante dans la culture laotienne et bouddhiste",
+      "hi": "कमल का फूल, एक पवित्र जलीय फूल जो लाओ और बौद्ध संस्कृति में महत्वपूर्ण है",
+      "ja": "蓮の花、ラオスと仏教文化で重要な神聖な水生花",
+      "km": "ផ្កាឈូក ដែលជាផ្កាទឹកដ៏វិសុទ្ធ មានសារៈសំខាន់ក្នុងវប្បធម៌ឡាវ និងព្រះពុទ្ធសាសនា",
+      "ko": "연꽃, 라오스와 불교 문화에서 중요한 신성한 수생 꽃",
+      "ne": "कमलको फूल, लाओ र बौद्ध संस्कृतिमा महत्त्वपूर्ण एउटा पवित्र जलीय फूल",
+      "pt": "flor de lótus, uma flor aquática sagrada de grande importância na cultura laosiana e budista",
+      "th": "ดอกบัว ดอกไม้ในน้ำที่ศักดิ์สิทธิ์และสำคัญในวัฒนธรรมลาวและพุทธศาสนา",
+      "tl": "bulaklak ng lotus, isang sagradong bulaklak na nasa tubig na mahalaga sa kulturang Lao at Budismo",
+      "ur": "کنول کا پھول، ایک مقدس آبی پھول جو لاؤ اور بدھ مت کی ثقافت میں اہم ہے",
+      "vi": "hoa sen, một loài hoa thủy sinh thiêng liêng quan trọng trong văn hóa Lào và Phật giáo",
+      "zh": "莲花，在老挝和佛教文化中具有重要意义的神圣水生花",
+      "zh_Hant": "蓮花，在寮國和佛教文化中具有重要意義的神聖水生花"
+    },
+    "part_of_speech": "noun",
+    "romanization": "buːa",
+    "examples": [
+      {
+        "lao_script": "ບົວຢູ່ໃນສະຫຼະສວຍງາມຫຼາຍ",
+        "romanization": "buːa juː naːj sa laː suːaj ŋaːm laːj",
+        "translations": {
+          "de": "Die Lotusblumen im Teich sind sehr schön.",
+          "en": "The lotus flowers in the pond are very beautiful.",
+          "es": "Las flores de loto en el estanque son muy hermosas.",
+          "fr": "Les fleurs de lotus dans l'étang sont très belles.",
+          "hi": "तालाब में कमल के फूल बहुत सुंदर हैं।",
+          "ja": "池の蓮の花はとても美しい。",
+          "km": "ផ្កាឈូកក្នុងអាងទឹកស្អាតណាស់។",
+          "ko": "연못에 있는 연꽃이 정말 아름다워.",
+          "ne": "पोखरीमा भएका कमलका फूलहरू धेरै सुन्दर छन्।",
+          "pt": "As flores de lótus no lago são muito bonitas.",
+          "th": "ดอกบัวในสระสวยงามมากเลย",
+          "tl": "Ang mga bulaklak ng lotus sa lawa ay napakaganda.",
+          "ur": "تالاب میں کنول کے پھول بہت خوبصورت ہیں۔",
+          "vi": "Những bông hoa sen trong hồ đẹp lắm.",
+          "zh": "池塘里的莲花非常漂亮。",
+          "zh_Hant": "池塘裡的蓮花非常漂亮。"
+        },
+        "out_of_scope_words": [
+          "ສະຫຼະ",
+          "ສວຍງາມ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍເອົາດອກບົວໄປຖວາຍພຣະ",
+        "romanization": "khoːj ʔao dɔːk buːa paːj tʰwaːj pʰra",
+        "translations": {
+          "de": "Ich bringe Lotusblumen, um sie dem Buddha darzubieten.",
+          "en": "I'm taking lotus flowers to offer to the Buddha.",
+          "es": "Llevo flores de loto para ofrecerlas al Buda.",
+          "fr": "J'apporte des fleurs de lotus pour les offrir au Bouddha.",
+          "hi": "मैं बुद्ध को अर्पित करने के लिए कमल के फूल ले जा रहा हूँ।",
+          "ja": "仏様に供えるために蓮の花を持っていく。",
+          "km": "ខ្ញុំយកផ្កាឈូកទៅថ្វាយព្រះ។",
+          "ko": "부처님께 바치려고 연꽃을 가져가고 있어.",
+          "ne": "म बुद्धलाई चढाउन कमलका फूल लैजाँदैछु।",
+          "pt": "Estou levando flores de lótus para oferecer ao Buda.",
+          "th": "ฉันเอาดอกบัวไปถวายพระ",
+          "tl": "Dala ko ang mga bulaklak ng lotus para ialay sa Budha.",
+          "ur": "میں بدھ کو پیش کرنے کے لیے کنول کے پھول لے جا رہا ہوں۔",
+          "vi": "Tôi mang hoa sen đi dâng lên Phật.",
+          "zh": "我拿莲花去供佛。",
+          "zh_Hant": "我拿蓮花去供佛。"
+        },
+        "out_of_scope_words": [
+          "ດອກ",
+          "ຖວາຍ",
+          "ພຣະ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a pink lotus flower blooming on a calm pond with green lily pads, clean white background, soft pastel colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແໜ້ນ": {
+    "definitions": {
+      "de": "fest, eng, straff; beschreibt etwas, das eng sitzend, fest gebunden oder dicht ist",
+      "en": "tight, firm, or taut; describes something closely fitted, securely fastened, or densely packed",
+      "es": "apretado, firme, tenso; describe algo bien ajustado, firmemente atado o densamente compactado",
+      "fr": "serré, ferme, tendu; décrit quelque chose de bien ajusté, solidement attaché ou densément compacté",
+      "hi": "कसा हुआ, मजबूत, तंग; किसी ऐसी चीज़ का वर्णन करता है जो कसकर फिट हो, मजबूती से बंधी हो या घनी हो",
+      "ja": "きつい、しっかりした、ぴったりの；しっかり固定されているまたは密に詰まっていることを表す",
+      "km": "តឹង, ត្រឹតត្រឹត, រឹង; ពណ៌នាអ្វីដែលខ្ចឹបខ្ចប់ ចងសិទ្ធ ឬអ៊ុតជិតស្និទ្ធ",
+      "ko": "꽉 끼는, 단단한, 팽팽한; 딱 맞거나 단단히 고정되거나 빽빽하게 채워진 것을 묘사함",
+      "ne": "कसिलो, दृढ, टाइट; राम्रोसँग फिट भएको, सुरक्षित रूपमा बाँधिएको वा सघन रूपमा भरिएको कुरालाई वर्णन गर्दछ",
+      "pt": "apertado, firme, tenso; descreve algo bem ajustado, firmemente preso ou densamente compactado",
+      "th": "แน่น, แข็งแรง, กระชับ; ใช้อธิบายสิ่งที่กระชับพอดี ผูกแน่น หรืออัดแน่น",
+      "tl": "masikip, matigas, mahigpit; naglalarawan ng isang bagay na akma nang husto, matibay na nakatali, o siksik",
+      "ur": "کسا ہوا، مضبوط، تنگ؛ کسی ایسی چیز کو بیان کرتا ہے جو مضبوطی سے فٹ ہو، مضبوطی سے بندھی ہو یا گھنی ہو",
+      "vi": "chặt, chắc, căng; mô tả thứ gì đó vừa khít, được buộc chắc chắn hoặc chặt chẽ",
+      "zh": "紧，结实，紧绷；描述紧密合身、牢固固定或紧密压实的东西",
+      "zh_Hant": "緊，結實，緊繃；描述緊密合身、牢固固定或緊密壓實的東西"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "nɛːn",
+    "examples": [
+      {
+        "lao_script": "ເກີບຄູ່ນີ້ແໜ້ນຫຼາຍ, ສວມໃສ່ບໍ່ສະດວກ",
+        "romanization": "kɤːp khuː niː nɛːn laːj, suam saːj bɔː sa duak",
+        "translations": {
+          "de": "Dieses Paar Schuhe ist sehr eng, es ist unbequem zu tragen.",
+          "en": "This pair of shoes is very tight, it's uncomfortable to wear.",
+          "es": "Este par de zapatos está muy apretado, es incómodo de usar.",
+          "fr": "Cette paire de chaussures est très serrée, c'est inconfortable à porter.",
+          "hi": "जूतों की यह जोड़ी बहुत तंग है, पहनने में असहज है।",
+          "ja": "この靴はとてもきつくて、履くのが不快だ。",
+          "km": "ស្បែកជើងគូនេះតឹងណាស់ ពាក់មិនស្រួលទេ។",
+          "ko": "이 신발은 너무 꽉 껴서 신기 불편해.",
+          "ne": "जुत्ताको यो जोडी धेरै कसिलो छ, लगाउन असहज छ।",
+          "pt": "Este par de sapatos está muito apertado, é desconfortável de usar.",
+          "th": "รองเท้าคู่นี้แน่นมากเลย ใส่ไม่สบาย",
+          "tl": "Ang pares ng sapatos na ito ay masyadong masikip, hindi komportable suotin.",
+          "ur": "جوتوں کا یہ جوڑا بہت تنگ ہے، پہننا تکلیف دہ ہے۔",
+          "vi": "Đôi giày này chật lắm, đi không thoải mái.",
+          "zh": "这双鞋太紧了，穿着不舒服。",
+          "zh_Hant": "這雙鞋太緊了，穿著不舒服。"
+        },
+        "out_of_scope_words": [
+          "ເກີບ",
+          "ສວມໃສ່",
+          "ສະດວກ"
+        ]
+      },
+      {
+        "lao_script": "ຜູກໃຫ້ແໜ້ນໆເດ້, ຢ່າໃຫ້ຫຼຸດ",
+        "romanization": "phuːk haːj nɛːn nɛːn deː, jaː haːj lut",
+        "translations": {
+          "de": "Binde es fest zu, damit es nicht rutscht.",
+          "en": "Tie it tightly so it doesn't come loose.",
+          "es": "Átalo bien apretado para que no se suelte.",
+          "fr": "Attache-le bien serré pour qu'il ne se défasse pas.",
+          "hi": "इसे कसकर बाँधो ताकि यह ढीला न हो।",
+          "ja": "ほどけないようにしっかり結んで。",
+          "km": "ចងឱ្យតឹងៗទៀត កុំឱ្យវាចាញ់។",
+          "ko": "풀리지 않게 꽉 묶어.",
+          "ne": "यसलाई कसिलो गरेर बाँध, खुकुलो नहोस्।",
+          "pt": "Amarre bem firme para não soltar.",
+          "th": "ผูกให้แน่นๆ นะ อย่าให้หลุด",
+          "tl": "Itali nang mahigpit para hindi makalas.",
+          "ur": "اسے مضبوطی سے باندھو تاکہ ڈھیلا نہ ہو۔",
+          "vi": "Buộc chặt vào nhé, đừng để tuột.",
+          "zh": "绑紧一点，别让它松开。",
+          "zh_Hant": "綁緊一點，別讓它鬆開。"
+        },
+        "out_of_scope_words": [
+          "ຜູກ",
+          "ຫຼຸດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person tying a knot very tightly on a rope or package, with visual lines showing tension and tightness, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໄມ": {
+    "definitions": {
+      "de": "Holz, Baum; ein natürliches Material, das aus Bäumen gewonnen wird und zum Bauen oder Herstellen von Gegenständen verwendet wird",
+      "en": "wood or tree; a natural material derived from trees, used for building or making objects",
+      "es": "madera, árbol; material natural derivado de los árboles, usado para construir o fabricar objetos",
+      "fr": "bois, arbre; matériau naturel tiré des arbres, utilisé pour construire ou fabriquer des objets",
+      "hi": "लकड़ी, पेड़; पेड़ों से प्राप्त एक प्राकृतिक सामग्री, निर्माण या वस्तुएँ बनाने के लिए उपयोग की जाती है",
+      "ja": "木、木材；建築や物を作るのに使われる木から得られる天然素材",
+      "km": "ឈើ, ដើមឈើ; សម្ភារធម្មជាតិដែលបានពីដើមឈើ ប្រើសម្រាប់សាងសង់ ឬផលិតវត្ថុ",
+      "ko": "나무, 목재; 건축이나 물건 제작에 사용되는 나무에서 얻은 천연 재료",
+      "ne": "काठ, रुख; रूखबाट प्राप्त एउटा प्राकृतिक सामग्री, निर्माण वा वस्तुहरू बनाउन प्रयोग गरिन्छ",
+      "pt": "madeira, árvore; material natural derivado de árvores, usado para construir ou fabricar objetos",
+      "th": "ไม้, ต้นไม้; วัสดุธรรมชาติที่ได้จากต้นไม้ ใช้ในการก่อสร้างหรือทำสิ่งของ",
+      "tl": "kahoy, puno; natural na materyal na nagmumula sa mga puno, ginagamit sa pagtatayo o paggawa ng mga bagay",
+      "ur": "لکڑی، درخت؛ درختوں سے حاصل شدہ قدرتی مواد، تعمیر یا اشیاء بنانے کے لیے استعمال ہوتا ہے",
+      "vi": "gỗ, cây; vật liệu tự nhiên lấy từ cây, dùng để xây dựng hoặc làm đồ vật",
+      "zh": "木头，树；从树木中获得的天然材料，用于建造或制作物品",
+      "zh_Hant": "木頭，樹；從樹木中獲得的天然材料，用於建造或製作物品"
+    },
+    "part_of_speech": "noun",
+    "romanization": "maːj",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຫຼັງນີ້ທຳດ້ວຍໄມທັງໝົດ",
+        "romanization": "hɯːan laŋ niː tʰam duːaj maːj tʰaŋ mɔt",
+        "translations": {
+          "de": "Dieses Haus ist komplett aus Holz gebaut.",
+          "en": "This house is made entirely of wood.",
+          "es": "Esta casa está hecha completamente de madera.",
+          "fr": "Cette maison est entièrement faite en bois.",
+          "hi": "यह घर पूरी तरह से लकड़ी से बना है।",
+          "ja": "この家は全部木でできている。",
+          "km": "ផ្ទះនេះសង់ដោយឈើទាំងអស់។",
+          "ko": "이 집은 전부 나무로 만들어져 있어.",
+          "ne": "यो घर पूरै काठले बनेको छ।",
+          "pt": "Esta casa é feita inteiramente de madeira.",
+          "th": "บ้านหลังนี้ทำด้วยไม้ทั้งหมดเลย",
+          "tl": "Ang bahay na ito ay gawa nang buo sa kahoy.",
+          "ur": "یہ گھر مکمل طور پر لکڑی سے بنا ہے۔",
+          "vi": "Ngôi nhà này được làm hoàn toàn bằng gỗ.",
+          "zh": "这栋房子全部是木头做的。",
+          "zh_Hant": "這棟房子全部是木頭做的。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ທຳ",
+          "ທັງໝົດ"
+        ]
+      },
+      {
+        "lao_script": "ຊ່ວຍເອົາໄມອັນນັ້ນໃຫ້ຂ້ອຍແດ່",
+        "romanization": "suːaj ʔao maːj ʔan nan haːj khoːj dɛː",
+        "translations": {
+          "de": "Kannst du mir bitte dieses Stück Holz geben?",
+          "en": "Can you hand me that piece of wood?",
+          "es": "¿Puedes darme ese trozo de madera?",
+          "fr": "Tu peux me passer ce morceau de bois ?",
+          "hi": "क्या तुम मुझे लकड़ी का वह टुकड़ा दे सकते हो?",
+          "ja": "その木材を取ってくれる？",
+          "km": "ជួយយកឈើនោះឱ្យខ្ញុំផងបានទេ?",
+          "ko": "그 나무 좀 나한테 건네줄 수 있어?",
+          "ne": "त्यो काठको टुक्रा मलाई दिनुस् न।",
+          "pt": "Pode me passar aquele pedaço de madeira?",
+          "th": "ช่วยเอาไม้อันนั้นให้ฉันหน่อยได้ไหม",
+          "tl": "Pakiabot mo nga sa akin yung kahoy na iyon.",
+          "ur": "کیا آپ مجھے لکڑی کا وہ ٹکڑا دے سکتے ہیں؟",
+          "vi": "Giúp tao lấy cái gỗ đó cho tao với.",
+          "zh": "帮我把那块木头拿过来好吗？",
+          "zh_Hant": "幫我把那塊木頭拿過來好嗎？"
+        },
+        "out_of_scope_words": [
+          "ຊ່ວຍ",
+          "ອັນນັ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of wooden planks or a log of wood with visible wood grain texture, alongside a small cartoon tree, clean white background, warm brown tones, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຊ້າງ": {
+    "definitions": {
+      "de": "Elefant; ein großes graues Tier, das das Nationalsymbol von Laos ist und in der laotischen Kultur eine tiefe Bedeutung hat",
+      "en": "elephant; a large grey animal that is the national symbol of Laos and holds deep significance in Lao culture",
+      "es": "elefante; un gran animal gris que es el símbolo nacional de Laos y tiene un profundo significado en la cultura laosiana",
+      "fr": "éléphant; un grand animal gris qui est le symbole national du Laos et revêt une profonde signification dans la culture laotienne",
+      "hi": "हाथी; एक बड़ा भूरा-ग्रे जानवर जो लाओस का राष्ट्रीय प्रतीक है और लाओ संस्कृति में गहरा महत्व रखता है",
+      "ja": "象；ラオスの国家シンボルであり、ラオス文化に深い意味を持つ大きな灰色の動物",
+      "km": "ដំរី; សត្វធំពណ៌ប្រផេះ ដែលជារូបសញ្ញាជាតិរបស់ប្រទេសឡាវ និងមានន័យជ្រៅជ្រះក្នុងវប្បធម៌ឡាវ",
+      "ko": "코끼리; 라오스의 국가 상징이며 라오 문화에서 깊은 의미를 가진 큰 회색 동물",
+      "ne": "हात्ती; एउटा ठूलो खैरो जनावर जुन लाओसको राष्ट्रिय प्रतीक हो र लाओ संस्कृतिमा गहिरो महत्त्व राख्छ",
+      "pt": "elefante; um grande animal cinza que é o símbolo nacional do Laos e tem um profundo significado na cultura laosiana",
+      "th": "ช้าง; สัตว์สีเทาขนาดใหญ่ที่เป็นสัญลักษณ์ประจำชาติของลาวและมีความสำคัญอย่างลึกซึ้งในวัฒนธรรมลาว",
+      "tl": "elepante; isang malaking kulabing-abong hayop na simbolo ng bansa ng Laos at may malalim na kahalagahan sa kulturang Lao",
+      "ur": "ہاتھی؛ ایک بڑا سرمئی جانور جو لاؤس کا قومی نشان ہے اور لاؤ ثقافت میں گہری اہمیت رکھتا ہے",
+      "vi": "voi; một con vật màu xám lớn là biểu tượng quốc gia của Lào và có ý nghĩa sâu sắc trong văn hóa Lào",
+      "zh": "大象；一种大型灰色动物，是老挝的国家象征，在老挝文化中具有深刻意义",
+      "zh_Hant": "大象；一種大型灰色動物，是寮國的國家象徵，在寮國文化中具有深刻意義"
+    },
+    "part_of_speech": "noun",
+    "romanization": "saːŋ",
+    "examples": [
+      {
+        "lao_script": "ຊ້າງເປັນສັດທີ່ໃຫຍ່ທີ່ສຸດໃນລາວ",
+        "romanization": "saːŋ pen sat tʰiː ɲaj tʰiː sut naːj laːw",
+        "translations": {
+          "de": "Der Elefant ist das größte Tier in Laos.",
+          "en": "The elephant is the largest animal in Laos.",
+          "es": "El elefante es el animal más grande de Laos.",
+          "fr": "L'éléphant est le plus grand animal du Laos.",
+          "hi": "हाथी लाओस का सबसे बड़ा जानवर है।",
+          "ja": "象はラオスで一番大きな動物だ。",
+          "km": "ដំរីជាសត្វធំបំផុតនៅប្រទេសឡាវ។",
+          "ko": "코끼리는 라오스에서 가장 큰 동물이야.",
+          "ne": "हात्ती लाओसमा सबैभन्दा ठूलो जनावर हो।",
+          "pt": "O elefante é o maior animal do Laos.",
+          "th": "ช้างเป็นสัตว์ที่ใหญ่ที่สุดในลาว",
+          "tl": "Ang elepante ang pinakamalaking hayop sa Laos.",
+          "ur": "ہاتھی لاؤس کا سب سے بڑا جانور ہے۔",
+          "vi": "Voi là con vật lớn nhất ở Lào.",
+          "zh": "大象是老挝最大的动物。",
+          "zh_Hant": "大象是寮國最大的動物。"
+        },
+        "out_of_scope_words": [
+          "ສັດ",
+          "ໃຫຍ່ທີ່ສຸດ"
+        ]
+      },
+      {
+        "lao_script": "ຕອນເດັກໆ ຂ້ອຍຢາກຂີ່ຊ້າງ",
+        "romanization": "tɔːn dek dek khoːj jaːk kʰiː saːŋ",
+        "translations": {
+          "de": "Als ich klein war, wollte ich immer auf einem Elefanten reiten.",
+          "en": "When I was little, I always wanted to ride an elephant.",
+          "es": "Cuando era pequeño, siempre quise montar un elefante.",
+          "fr": "Quand j'étais petit, je voulais toujours monter sur un éléphant.",
+          "hi": "जब मैं छोटा था, मैं हमेशा हाथी की सवारी करना चाहता था।",
+          "ja": "子どもの頃、象に乗りたかった。",
+          "km": "ពេលខ្ញុំនៅក្មេង ខ្ញុំចង់ជិះដំរី។",
+          "ko": "어렸을 때 코끼리를 타고 싶었어.",
+          "ne": "सानो छँदा म हात्ती चढ्न चाहन्थेँ।",
+          "pt": "Quando era criança, eu sempre quis andar de elefante.",
+          "th": "ตอนเด็กๆ ฉันอยากขี่ช้างเลย",
+          "tl": "Noong bata pa ako, gusto ko talagang sumakay sa elepante.",
+          "ur": "جب میں چھوٹا تھا، میں ہمیشہ ہاتھی پر سواری کرنا چاہتا تھا۔",
+          "vi": "Hồi nhỏ tao muốn cưỡi voi lắm.",
+          "zh": "小时候我一直想骑大象。",
+          "zh_Hant": "小時候我一直想騎大象。"
+        },
+        "out_of_scope_words": [
+          "ຕອນເດັກໆ",
+          "ຢາກ",
+          "ຂີ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a friendly grey elephant standing in profile view, with large ears and a gentle expression, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

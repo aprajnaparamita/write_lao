@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄມ້",
+  "definitions": {
+    "de": "Holz; Stock; ein natürliches Material aus Bäumen, das zum Bauen und als Brennstoff verwendet wird",
+    "en": "Wood; stick; a natural material from trees used for building, fuel, or as a tool",
+    "es": "Madera; palo; material natural proveniente de los árboles, usado para construir o como combustible",
+    "fr": "Bois; bâton; matériau naturel issu des arbres, utilisé pour la construction ou comme combustible",
+    "hi": "लकड़ी; छड़ी; पेड़ों से प्राप्त प्राकृतिक सामग्री जो निर्माण या ईंधन के लिए उपयोग की जाती है",
+    "ja": "木材；棒；建築や燃料として使われる木から得られる自然素材",
+    "km": "ឈើ; ដំបង; សម្ភារធម្មជាតិដែលបានមកពីដើមឈើ ប្រើសម្រាប់សាងសង់ ឬជាឥន្ធនៈ",
+    "ko": "나무; 막대기; 건축이나 연료로 사용되는 나무에서 얻은 천연 재료",
+    "ne": "काठ; लाठी; रूखबाट प्राप्त प्राकृतिक सामग्री जुन निर्माण वा इन्धनको रूपमा प्रयोग हुन्छ",
+    "pt": "Madeira; pau; material natural proveniente das árvores, usado para construção ou como combustível",
+    "th": "ไม้; ไม้กระบอง; วัสดุธรรมชาติจากต้นไม้ที่ใช้สำหรับการก่อสร้างหรือเป็นเชื้อเพลิง",
+    "tl": "Kahoy; patpat; natural na materyales mula sa mga puno na ginagamit sa pagtatayo o bilang panggatong",
+    "ur": "لکڑی؛ چھڑی؛ درختوں سے حاصل شدہ قدرتی مواد جو تعمیر یا ایندھن کے طور پر استعمال ہوتا ہے",
+    "vi": "Gỗ; gậy; vật liệu tự nhiên từ cây dùng để xây dựng hoặc làm nhiên liệu",
+    "zh": "木头；棍子；来自树木的天然材料，用于建筑或燃料",
+    "zh_Hant": "木頭；棍子；來自樹木的天然材料，用於建築或燃料"
+  },
+  "definition_en": "Wood; stick; a natural material from trees used for building, fuel, or as a tool",
+  "romanization": "maːj⁵",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຫຼັງນີ້ເຮັດດ້ວຍໄມ້ທັງໝົດ",
+      "romanization": "hɯan laŋ niː het duaj maːj tʰaŋ mot",
+      "translation_en": "This house is made entirely of wood."
+    },
+    {
+      "lao_script": "ເອົາໄມ້ອັນນັ້ນມາໃຫ້ຂ້ອຍແດ່",
+      "romanization": "ʔaw maːj ʔan nan maː haj xɔːj dɛː",
+      "translation_en": "Pass me that stick over there."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a wooden plank and a wooden stick side by side, suitable for a language learning app, clean white background, warm brown colors, minimalist style."
+}

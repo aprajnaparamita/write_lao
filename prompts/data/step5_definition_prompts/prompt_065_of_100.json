@@ -1,0 +1,416 @@
+{
+  "ເນ": {
+    "definitions": {
+      "de": "Satzabschlusspartikel, die Bestätigung, Zustimmung oder eine weiche Aufforderung ausdrückt; häufig in der gesprochenen Lao-Sprache verwendet",
+      "en": "Sentence-final particle expressing confirmation, agreement, or a gentle suggestion; commonly used in spoken Lao to soften statements or seek acknowledgment",
+      "es": "Partícula final de oración que expresa confirmación, acuerdo o una sugerencia suave; comúnmente usada en el lao hablado para suavizar afirmaciones",
+      "fr": "Particule finale de phrase exprimant la confirmation, l'accord ou une suggestion douce; couramment utilisée en laotien parlé pour adoucir les énoncés",
+      "hi": "वाक्य के अंत में लगने वाला कण जो पुष्टि, सहमति या हल्के सुझाव को व्यक्त करता है; बोली जाने वाली लाओ भाषा में आम तौर पर प्रयुक्त",
+      "ja": "確認、同意、または柔らかい提案を表す文末助詞。話し言葉のラーオ語でよく使われ、発言を和らげたり、相手の同意を求めたりする",
+      "km": "ភាគល្អិតចុងប្រយោគដែលបង្ហាញការបញ្ជាក់ ការយល់ព្រម ឬការស្នើដោយស្លូត; ប្រើជាទូទៅក្នុងភាសាឡាវនិយាយ",
+      "ko": "확인, 동의 또는 부드러운 제안을 나타내는 문장 종결 조사; 구어 라오어에서 진술을 부드럽게 하거나 동의를 구할 때 흔히 사용됨",
+      "ne": "वाक्यको अन्तमा प्रयोग हुने कण जसले पुष्टि, सहमति वा नरम सुझाव व्यक्त गर्छ; बोलिने लाओ भाषामा सामान्यतः प्रयोग गरिन्छ",
+      "pt": "Partícula final de frase que expressa confirmação, concordância ou uma sugestão suave; comumente usada no lao falado para suavizar afirmações",
+      "th": "คำอนุภาคท้ายประโยคที่แสดงการยืนยัน ความเห็นด้วย หรือการแนะนำอย่างอ่อนโยน; ใช้บ่อยในภาษาลาวพูดเพื่อทำให้ประโยคนุ่มนวลขึ้น",
+      "tl": "Particle sa dulo ng pangungusap na nagpapahayag ng kumpirmasyon, pagsang-ayon, o malambot na mungkahi; karaniwang ginagamit sa sinabing Lao",
+      "ur": "جملے کے آخر میں آنے والا ذرہ جو تصدیق، اتفاق یا نرم تجویز ظاہر کرتا ہے؛ بولی جانے والی لاؤ زبان میں عام طور پر استعمال ہوتا ہے",
+      "vi": "Trợ từ cuối câu biểu thị sự xác nhận, đồng ý hoặc gợi ý nhẹ nhàng; thường được dùng trong tiếng Lào nói để làm mềm câu nói",
+      "zh": "句末语气助词，表示确认、同意或温和的建议；常用于口语老挝语中，使语气更加委婉",
+      "zh_Hant": "句末語氣助詞，表示確認、同意或溫和的建議；常用於口語寮語中，使語氣更加委婉"
+    },
+    "part_of_speech": "particle",
+    "romanization": "nee",
+    "examples": [
+      {
+        "lao_script": "ໄປກັນເນ, ດຶກແລ້ວ",
+        "romanization": "pai gan nee, duek laew",
+        "translations": {
+          "de": "Lass uns gehen, oder? Es ist schon spät.",
+          "en": "Let's go, yeah? It's already late.",
+          "es": "Vámonos, ¿no? Ya es tarde.",
+          "fr": "On y va, hein? Il est déjà tard.",
+          "hi": "चलो ना, देर हो गई है।",
+          "ja": "もう行こうよ、もう遅いんだから。",
+          "km": "ទៅជាមួយគ្នានេះ យប់ហើយ។",
+          "ko": "이제 가자, 늦었잖아.",
+          "ne": "जाऔं है, ढिला भयो।",
+          "pt": "Vamos embora, tá? Já é tarde.",
+          "th": "ไปกันเนอะ ดึกแล้ว",
+          "tl": "Tara na, ha? Huli na.",
+          "ur": "چلو نا، دیر ہو گئی ہے۔",
+          "vi": "Đi thôi nhé, muộn rồi đó.",
+          "zh": "走吧，已经很晚了。",
+          "zh_Hant": "走吧，已經很晚了。"
+        },
+        "out_of_scope_words": [
+          "ກັນ",
+          "ດຶກ",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ນີ້ຂອງເຈົ້າເນ",
+        "romanization": "nii khong jao nee",
+        "translations": {
+          "de": "Das gehört dir, oder?",
+          "en": "This is yours, right?",
+          "es": "Esto es tuyo, ¿verdad?",
+          "fr": "C'est à toi, n'est-ce pas?",
+          "hi": "यह तुम्हारा है ना?",
+          "ja": "これ、あなたのだよね。",
+          "km": "នេះជារបស់អ្នកនេះ។",
+          "ko": "이거 네 거잖아.",
+          "ne": "यो तिम्रो हो है।",
+          "pt": "Isso é seu, né?",
+          "th": "นี่ของเธอนะ",
+          "tl": "Sayo ito, 'no?",
+          "ur": "یہ تمہارا ہے نا؟",
+          "vi": "Cái này là của bạn đó.",
+          "zh": "这是你的吧。",
+          "zh_Hant": "這是你的吧。"
+        },
+        "out_of_scope_words": [
+          "ນີ້",
+          "ຂອງ",
+          "ເຈົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a speech bubble containing the word 'nee' with a small checkmark or affirmation symbol, two cartoon characters in a friendly conversation, one nodding in agreement, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເນື້ອ": {
+    "definitions": {
+      "de": "Fleisch (von Tieren); auch allgemein für Fleisch oder Körpergewebe; eines der am häufigsten verwendeten Lebensmittelwörter im Lao",
+      "en": "Meat (from animals); also refers to flesh or body tissue in a broader sense; one of the most common food-related nouns in Lao",
+      "es": "Carne (de animales); también se refiere a la carne o tejido corporal en un sentido más amplio; uno de los sustantivos alimenticios más comunes en lao",
+      "fr": "Viande (animale); désigne aussi la chair ou le tissu corporel au sens large; l'un des noms alimentaires les plus courants en laotien",
+      "hi": "मांस (जानवरों का); व्यापक अर्थ में शरीर के मांस या ऊतक को भी संदर्भित करता है; लाओ भाषा में सबसे सामान्य खाद्य संज्ञाओं में से एक",
+      "ja": "肉（動物の）；広い意味で肉体や体の組織も指す；ラーオ語で最もよく使われる食べ物に関する名詞の一つ",
+      "km": "សាច់ (របស់សត្វ); ក៏សំដៅលើសាច់ ឬជាលិការបស់រាងកាយក្នុងន័យទូទៅ; ជាពាក្យទាក់ទងនឹងអាហារដែលប្រើជាទូទៅបំផុតក្នុងភាសាឡាវ",
+      "ko": "고기 (동물의); 넓은 의미로 살이나 체조직을 가리키기도 함; 라오어에서 가장 흔한 음식 관련 명사 중 하나",
+      "ne": "मासु (जनावरको); व्यापक अर्थमा शरीरको मासु वा तन्तुलाई पनि जनाउँछ; लाओ भाषामा सबैभन्दा सामान्य खाना सम्बन्धी संज्ञाहरूमध्ये एक",
+      "pt": "Carne (de animais); também se refere à carne ou tecido corporal num sentido mais amplo; um dos substantivos alimentares mais comuns no lao",
+      "th": "เนื้อ (ของสัตว์); ยังหมายถึงเนื้อหนังหรือเนื้อเยื่อของร่างกายในความหมายกว้าง; เป็นคำนามเกี่ยวกับอาหารที่ใช้บ่อยที่สุดในภาษาลาว",
+      "tl": "Karne (mula sa mga hayop); tumutukoy din sa laman o tisyu ng katawan sa mas malawak na kahulugan; isa sa mga pinakakaraniwang pangngalan na may kaugnayan sa pagkain sa Lao",
+      "ur": "گوشت (جانوروں کا)؛ وسیع معنوں میں جسم کے گوشت یا بافت کو بھی ظاہر کرتا ہے؛ لاؤ زبان میں کھانے سے متعلق سب سے عام اسموں میں سے ایک",
+      "vi": "Thịt (của động vật); cũng dùng để chỉ thịt hoặc mô cơ thể theo nghĩa rộng hơn; một trong những danh từ liên quan đến thực phẩm phổ biến nhất trong tiếng Lào",
+      "zh": "肉（动物的）；广义上也指身体的肌肉或组织；是老挝语中最常用的食物相关名词之一",
+      "zh_Hant": "肉（動物的）；廣義上也指身體的肌肉或組織；是寮語中最常用的食物相關名詞之一"
+    },
+    "part_of_speech": "noun",
+    "romanization": "nʉ́a",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ຢາກກິນເນື້ອ",
+        "romanization": "muu nii yaak kin nʉ́a",
+        "translations": {
+          "de": "Heute möchte ich Fleisch essen.",
+          "en": "Today I feel like eating meat.",
+          "es": "Hoy tengo ganas de comer carne.",
+          "fr": "Aujourd'hui j'ai envie de manger de la viande.",
+          "hi": "आज मांस खाने का मन है।",
+          "ja": "今日は肉が食べたいな。",
+          "km": "ថ្ងៃនេះចង់ញ៉ាំសាច់។",
+          "ko": "오늘은 고기가 먹고 싶어.",
+          "ne": "आज मासु खान मन छ।",
+          "pt": "Hoje estou com vontade de comer carne.",
+          "th": "วันนี้อยากกินเนื้อ",
+          "tl": "Ngayon, gusto ko kumain ng karne.",
+          "ur": "آج گوشت کھانے کا دل ہے۔",
+          "vi": "Hôm nay tôi muốn ăn thịt.",
+          "zh": "今天想吃肉。",
+          "zh_Hant": "今天想吃肉。"
+        },
+        "out_of_scope_words": [
+          "ມື້ນີ້",
+          "ຢາກ",
+          "ກິນ"
+        ]
+      },
+      {
+        "lao_script": "ເນື້ອໃນຕະຫຼາດສົດໆ",
+        "romanization": "nʉ́a nai talaat sot sot",
+        "translations": {
+          "de": "Das Fleisch auf dem Markt ist sehr frisch.",
+          "en": "The meat at the market is really fresh.",
+          "es": "La carne del mercado está muy fresca.",
+          "fr": "La viande au marché est vraiment fraîche.",
+          "hi": "बाजार का मांस बहुत ताज़ा है।",
+          "ja": "市場の肉はすごく新鮮だよ。",
+          "km": "សាច់នៅទីផ្សារស្រស់ណាស់។",
+          "ko": "시장의 고기가 정말 신선해.",
+          "ne": "बजारको मासु एकदम ताजा छ।",
+          "pt": "A carne do mercado está bem fresca.",
+          "th": "เนื้อในตลาดสดมากเลย",
+          "tl": "Napakasariwa ng karne sa palengke.",
+          "ur": "بازار کا گوشت بالکل تازہ ہے۔",
+          "vi": "Thịt ở chợ tươi lắm.",
+          "zh": "市场上的肉非常新鲜。",
+          "zh_Hant": "市場上的肉非常新鮮。"
+        },
+        "out_of_scope_words": [
+          "ໃນ",
+          "ຕະຫຼາດ",
+          "ສົດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a fresh cut of red meat on a clean white plate, with a small price tag or market context in the background, colorful and minimalist style, suitable for a language learning app, clean white background.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄຽງ": {
+    "definitions": {
+      "de": "Neben; Seite an Seite; bezeichnet eine Position, bei der sich etwas oder jemand direkt neben etwas anderem befindet",
+      "en": "Beside; alongside; next to; describes a positional relationship where something or someone is directly at the side of another",
+      "es": "Al lado; junto a; describe una relación posicional en la que algo o alguien está directamente al lado de otro",
+      "fr": "À côté de; aux côtés de; décrit une relation positionnelle où quelque chose ou quelqu'un se trouve directement à côté d'autre chose",
+      "hi": "बगल में; साथ-साथ; किसी वस्तु या व्यक्ति की स्थिति का वर्णन करता है जो सीधे दूसरे के पास हो",
+      "ja": "隣に；並んで；何かまたは誰かが別のものの真横にある位置関係を表す",
+      "km": "នៅជិត; នៅជួរ; ពិពណ៌នាទំនាក់ទំនងទីតាំងដែលអ្វីមួយ ឬនរណាម្នាក់នៅជិតអ្វីមួយផ្សេង",
+      "ko": "옆에; 나란히; 어떤 것이나 사람이 다른 것의 바로 옆에 있는 위치 관계를 나타냄",
+      "ne": "छेउमा; छेउछाउ; कुनै वस्तु वा व्यक्ति सीधै अर्कोको छेउमा रहेको स्थान सम्बन्ध वर्णन गर्छ",
+      "pt": "Ao lado; lado a lado; descreve uma relação posicional em que algo ou alguém está diretamente ao lado de outro",
+      "th": "เคียง; ข้างๆ; เคียงข้าง; อธิบายความสัมพันธ์ตำแหน่งที่สิ่งใดสิ่งหนึ่งหรือใครสักคนอยู่ติดกับสิ่งอื่น",
+      "tl": "Katabi; magkakatabi; naglalarawan ng posisyonal na relasyon kung saan ang isang bagay o tao ay direktang nasa tabi ng isa pa",
+      "ur": "برابر میں؛ ساتھ ساتھ؛ ایک ایسی پوزیشنل تعلق کو بیان کرتا ہے جہاں کوئی چیز یا شخص سیدھے دوسرے کے پہلو میں ہو",
+      "vi": "Bên cạnh; sát cạnh; mô tả mối quan hệ vị trí khi một vật hoặc người đứng ngay bên cạnh vật khác",
+      "zh": "旁边；并排；描述某物或某人紧靠另一物体侧面的位置关系",
+      "zh_Hant": "旁邊；並排；描述某物或某人緊靠另一物體側面的位置關係"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "khíang",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນນັ່ງຄຽງກັນຢູ່",
+        "romanization": "phʉn nang khíang gan yuu",
+        "translations": {
+          "de": "Sie sitzen nebeneinander.",
+          "en": "They are sitting side by side.",
+          "es": "Están sentados uno al lado del otro.",
+          "fr": "Ils sont assis côte à côte.",
+          "hi": "वे साथ-साथ बैठे हैं।",
+          "ja": "彼らは並んで座っている。",
+          "km": "ពួកគេអង្គុយនៅជួរគ្នា។",
+          "ko": "그들은 나란히 앉아 있어.",
+          "ne": "उनीहरू छेउछाउ बसेका छन्।",
+          "pt": "Eles estão sentados lado a lado.",
+          "th": "พวกเขานั่งเคียงกันอยู่",
+          "tl": "Magkakatabi silang nakaupo.",
+          "ur": "وہ ساتھ ساتھ بیٹھے ہیں۔",
+          "vi": "Họ đang ngồi cạnh nhau.",
+          "zh": "他们并排坐着。",
+          "zh_Hant": "他們並排坐著。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ນັ່ງ",
+          "ກັນ",
+          "ຢູ່"
+        ]
+      },
+      {
+        "lao_script": "ເຮືອນຂອງຂ້ອຍຢູ່ຄຽງໂຮງຮຽນ",
+        "romanization": "hʉan khong khoi yuu khíang hoong hian",
+        "translations": {
+          "de": "Mein Haus liegt neben der Schule.",
+          "en": "My house is beside the school.",
+          "es": "Mi casa está al lado de la escuela.",
+          "fr": "Ma maison est à côté de l'école.",
+          "hi": "मेरा घर स्कूल के बगल में है।",
+          "ja": "私の家は学校の隣にある。",
+          "km": "ផ្ទះរបស់ខ្ញុំនៅជិតសាលារៀន។",
+          "ko": "내 집은 학교 옆에 있어.",
+          "ne": "मेरो घर स्कूलको छेउमा छ।",
+          "pt": "Minha casa fica ao lado da escola.",
+          "th": "บ้านของฉันอยู่เคียงโรงเรียน",
+          "tl": "Ang bahay ko ay katabi ng paaralan.",
+          "ur": "میرا گھر اسکول کے برابر میں ہے۔",
+          "vi": "Nhà tôi nằm bên cạnh trường học.",
+          "zh": "我的房子就在学校旁边。",
+          "zh_Hant": "我的房子就在學校旁邊。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ຂອງ",
+          "ຂ້ອຍ",
+          "ຢູ່",
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon characters standing side by side, shoulder to shoulder, smiling at each other, clean white background, colorful and minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຊອກ": {
+    "definitions": {
+      "de": "Suchen; nach etwas suchen; etwas oder jemanden ausfindig machen wollen; ein gebräuchliches gesprochenes Verb im Lao",
+      "en": "To look for; to search for; to seek something or someone; a common spoken verb in Lao used in everyday situations",
+      "es": "Buscar; buscar algo o a alguien; un verbo hablado común en lao usado en situaciones cotidianas",
+      "fr": "Chercher; rechercher quelque chose ou quelqu'un; un verbe courant dans le lao parlé utilisé dans les situations quotidiennes",
+      "hi": "ढूंढना; खोजना; किसी चीज़ या व्यक्ति को तलाशना; रोज़मर्रा की स्थितियों में प्रयुक्त लाओ बोली का एक सामान्य क्रिया",
+      "ja": "探す；捜す；何かまたは誰かを見つけようとする；日常場面でよく使われるラーオ語の口語動詞",
+      "km": "ស្វែងរក; ស្វែងរកអ្វីមួយ ឬនរណាម្នាក់; ជាកិរិយាស័ព្ទនិយាយទូទៅក្នុងភាសាឡាវ ប្រើក្នុងស្ថានការណ៍ប្រចាំថ្ងៃ",
+      "ko": "찾다; 무언가 또는 누군가를 찾다; 일상적인 상황에서 사용되는 라오어의 일반적인 구어 동사",
+      "ne": "खोज्नु; कसैलाई वा केही कुरालाई खोज्नु; दैनिक जीवनका अवस्थाहरूमा प्रयोग हुने लाओ बोलीको एक सामान्य क्रिया",
+      "pt": "Procurar; buscar algo ou alguém; um verbo falado comum em lao usado em situações cotidianas",
+      "th": "ค้นหา; มองหา; แสวงหาบางสิ่งหรือบางคน; เป็นกริยาที่ใช้บ่อยในภาษาลาวพูดในชีวิตประจำวัน",
+      "tl": "Maghanap; maghanap ng isang bagay o tao; isang karaniwang pandiwa sa sinabing Lao na ginagamit sa pang-araw-araw na sitwasyon",
+      "ur": "ڈھونڈنا؛ تلاش کرنا؛ کسی چیز یا شخص کو تلاش کرنا؛ روزمرہ کے حالات میں استعمال ہونے والا لاؤ بولی کا ایک عام فعل",
+      "vi": "Tìm kiếm; tìm một thứ gì đó hoặc ai đó; một động từ nói phổ biến trong tiếng Lào được dùng trong các tình huống hàng ngày",
+      "zh": "寻找；搜寻；找某物或某人；日常情况下常用的老挝口语动词",
+      "zh_Hant": "尋找；搜尋；找某物或某人；日常情況下常用的寮語口語動詞"
+    },
+    "part_of_speech": "verb",
+    "romanization": "sók",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຊອກກະແຈຢູ່ ຫາຍໄປໃສ",
+        "romanization": "khoi sók ka-jae yuu, haai pai sai",
+        "translations": {
+          "de": "Ich suche meinen Schlüssel, wo ist er bloß hin?",
+          "en": "I'm looking for my key, where did it go?",
+          "es": "Estoy buscando mi llave, ¿dónde se habrá ido?",
+          "fr": "Je cherche ma clé, où est-elle passée?",
+          "hi": "मैं अपनी चाबी ढूंढ रहा हूँ, कहाँ चली गई?",
+          "ja": "鍵を探してるんだけど、どこ行ったんだろう。",
+          "km": "ខ្ញុំកំពុងរកកូនសោ វាបាត់ទៅណា?",
+          "ko": "열쇠 찾고 있는데, 어디 갔지?",
+          "ne": "म चाबी खोज्दैछु, कहाँ गयो?",
+          "pt": "Estou procurando minha chave, onde foi parar?",
+          "th": "ฉันหากุญแจอยู่ หายไปไหนก็ไม่รู้",
+          "tl": "Naghahanap ako ng aking susi, nasaan na kaya?",
+          "ur": "میں اپنی چابی ڈھونڈ رہا ہوں، کہاں چلی گئی؟",
+          "vi": "Tôi đang tìm chìa khóa, nó đi đâu mất rồi?",
+          "zh": "我在找钥匙，跑哪里去了？",
+          "zh_Hant": "我在找鑰匙，跑哪裡去了？"
+        },
+        "out_of_scope_words": [
+          "ກະແຈ",
+          "ຢູ່",
+          "ຫາຍ",
+          "ໄປ",
+          "ໃສ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຊອກຫຍັງຢູ່ໃນຕະຫຼາດ",
+        "romanization": "jao sók nyang yuu nai talaat",
+        "translations": {
+          "de": "Was suchst du auf dem Markt?",
+          "en": "What are you looking for at the market?",
+          "es": "¿Qué estás buscando en el mercado?",
+          "fr": "Qu'est-ce que tu cherches au marché?",
+          "hi": "तुम बाजार में क्या ढूंढ रहे हो?",
+          "ja": "市場で何を探しているの？",
+          "km": "អ្នកកំពុងរកអ្វីនៅទីផ្សារ?",
+          "ko": "시장에서 뭐 찾고 있어?",
+          "ne": "तिमी बजारमा के खोज्दैछौ?",
+          "pt": "O que você está procurando no mercado?",
+          "th": "เธอหาอะไรอยู่ในตลาด?",
+          "tl": "Ano ang hinahanap mo sa palengke?",
+          "ur": "تم بازار میں کیا ڈھونڈ رہے ہو؟",
+          "vi": "Bạn đang tìm gì ở chợ vậy?",
+          "zh": "你在市场里找什么？",
+          "zh_Hant": "你在市場裡找什麼？"
+        },
+        "out_of_scope_words": [
+          "ເຈົ້າ",
+          "ຫຍັງ",
+          "ຢູ່",
+          "ໃນ",
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon person bending down and looking under a couch or searching through a bag with a magnifying glass, a puzzled expression on their face, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕ້ານ": {
+    "definitions": {
+      "de": "Widerstehen; sich widersetzen; ablehnen; gegen etwas oder jemanden ankämpfen; sowohl im physischen als auch im übertragenen Sinne verwendet",
+      "en": "To oppose; to resist; to stand against; to fight against something or someone; used in both physical and figurative contexts",
+      "es": "Oponerse; resistir; estar en contra de algo o alguien; usado tanto en contextos físicos como figurados",
+      "fr": "S'opposer; résister; lutter contre quelque chose ou quelqu'un; utilisé dans des contextes à la fois physiques et figurés",
+      "hi": "विरोध करना; प्रतिरोध करना; किसी चीज़ या व्यक्ति के खिलाफ़ खड़े होना; शारीरिक और लाक्षणिक दोनों संदर्भों में प्रयुक्त",
+      "ja": "反対する；抵抗する；何かまたは誰かに立ち向かう；物理的・比喩的両方の文脈で使われる",
+      "km": "ប្រឆាំង; តស៊ូ; ឈរប្រឆាំងអ្វីមួយ ឬនរណាម្នាក់; ប្រើក្នុងបរិបទទាំងរូបីយ និងប្រៀបប្រដូច",
+      "ko": "반대하다; 저항하다; 맞서다; 무언가나 누군가에 맞서 싸우다; 물리적·비유적 맥락 모두에서 사용됨",
+      "ne": "विरोध गर्नु; प्रतिरोध गर्नु; केहि वा कसैको विरुद्ध उभिनु; शारीरिक र लाक्षणिक दुवै सन्दर्भमा प्रयोग गरिन्छ",
+      "pt": "Opor-se; resistir; combater algo ou alguém; usado tanto em contextos físicos quanto figurados",
+      "th": "ต้าน; ต่อต้าน; ขัดขวาง; ต่อสู้กับบางสิ่งหรือบางคน; ใช้ทั้งในบริบทที่เป็นรูปธรรมและนามธรรม",
+      "tl": "Labanan; tutulan; lumaban laban sa isang bagay o tao; ginagamit sa parehong pisikal at matalinhagang konteksto",
+      "ur": "مخالفت کرنا؛ مزاحمت کرنا؛ کسی چیز یا شخص کے خلاف کھڑے ہونا؛ جسمانی اور مجازی دونوں سیاق و سباق میں استعمال ہوتا ہے",
+      "vi": "Phản đối; chống lại; kháng cự; đứng lên chống lại điều gì đó hoặc ai đó; dùng trong cả ngữ cảnh vật lý lẫn nghĩa bóng",
+      "zh": "反对；抵抗；对抗某事或某人；可用于物理和比喻两种语境",
+      "zh_Hant": "反對；抵抗；對抗某事或某人；可用於物理和比喻兩種語境"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tâan",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍບໍ່ຕ້ານຫຍັງທີ່ເຈົ້າເວົ້າ",
+        "romanization": "khoi bo tâan nyang thi jao wao",
+        "translations": {
+          "de": "Ich habe nichts gegen das, was du sagst.",
+          "en": "I don't oppose anything you're saying.",
+          "es": "No me opongo a nada de lo que dices.",
+          "fr": "Je ne m'oppose à rien de ce que tu dis.",
+          "hi": "मैं तुम्हारी किसी भी बात का विरोध नहीं करता।",
+          "ja": "君の言うことに何も反対しないよ。",
+          "km": "ខ្ញុំមិនប្រឆាំងអ្វីដែលអ្នកនិយាយទេ។",
+          "ko": "나는 네가 말하는 것에 아무것도 반대하지 않아.",
+          "ne": "तिमीले भनेको कुनै पनि कुरामा म विरोध गर्दिन।",
+          "pt": "Não me oponho a nada do que você está dizendo.",
+          "th": "ฉันไม่ต้านอะไรที่เธอพูดเลย",
+          "tl": "Hindi ko tinutulan ang anumang sinasabi mo.",
+          "ur": "میں تمہاری کسی بھی بات کی مخالفت نہیں کرتا۔",
+          "vi": "Tôi không phản đối bất cứ điều gì bạn nói.",
+          "zh": "我对你说的任何话都不反对。",
+          "zh_Hant": "我對你說的任何話都不反對。"
+        },
+        "out_of_scope_words": [
+          "ບໍ່",
+          "ຫຍັງ",
+          "ທີ່",
+          "ເຈົ້າ",
+          "ເວົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຕ້ານຄວາມບໍ່ຍຸຕິທຳ",
+        "romanization": "lao tâan khwaam bo yu-ti-tham",
+        "translations": {
+          "de": "Er/Sie kämpft gegen Ungerechtigkeit.",
+          "en": "He/She opposes injustice.",
+          "es": "Él/Ella se opone a la injusticia.",
+          "fr": "Il/Elle s'oppose à l'injustice.",
+          "hi": "वह अन्याय का विरोध करता/करती है।",
+          "ja": "彼/彼女は不正義に抵抗する。",
+          "km": "គាត់ប្រឆាំងការអយុត្តិធម៌។",
+          "ko": "그/그녀는 불의에 맞선다.",
+          "ne": "उनी अन्यायको विरोध गर्छन्।",
+          "pt": "Ele/Ela se opõe à injustiça.",
+          "th": "เขา/เธอต้านความอยุติธรรม",
+          "tl": "Siya ay lumalaban sa kawalan ng katarungan.",
+          "ur": "وہ ناانصافی کی مخالفت کرتا/کرتی ہے۔",
+          "vi": "Anh ấy/Cô ấy phản đối sự bất công.",
+          "zh": "他/她反对不公正。",
+          "zh_Hant": "他/她反對不公正。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ຄວາມ",
+          "ບໍ່ຍຸຕິທຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon character holding up both hands in a blocking or stopping gesture, standing firmly against a large arrow pushing toward them, clean white background, colorful and minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

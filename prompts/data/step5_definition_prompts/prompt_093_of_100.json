@@ -1,0 +1,393 @@
+{
+  "ຢັ້ງ": {
+    "definitions": {
+      "de": "Anhalten, zurückhalten oder stoppen (eine Bewegung oder Handlung)",
+      "en": "To stop, restrain, or hold back (a movement or action)",
+      "es": "Detener, contener o frenar (un movimiento o acción)",
+      "fr": "Arrêter, retenir ou freiner (un mouvement ou une action)",
+      "hi": "रोकना, थामना या किसी गति/क्रिया को नियंत्रित करना",
+      "ja": "（動きや行動を）止める、抑える、引き止める",
+      "km": "ឈប់ ទប់ស្កាត់ ឬទប់ (ចលនា ឬសកម្មភាព)",
+      "ko": "멈추다, 억제하다, (움직임이나 행동을) 저지하다",
+      "ne": "रोक्नु, थाम्नु वा (कुनै गति वा कार्य) नियन्त्रण गर्नु",
+      "pt": "Parar, conter ou segurar (um movimento ou ação)",
+      "th": "หยุด ยับยั้ง หรือกั้นไม่ให้เคลื่อนไหวหรือกระทำการใดๆ",
+      "tl": "Pigilan, pigilin, o itigil (ang isang galaw o kilos)",
+      "ur": "روکنا، تھامنا، یا کسی حرکت یا عمل کو قابو میں رکھنا",
+      "vi": "Dừng lại, kiềm chế hoặc ngăn cản (một chuyển động hoặc hành động)",
+      "zh": "停止、克制或阻止（某种动作或行为）",
+      "zh_Hant": "停止、克制或阻止（某種動作或行為）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ɲǎŋ",
+    "examples": [
+      {
+        "lao_script": "ຢັ້ງໆ ຢ່າແລ່ນໄປ!",
+        "romanization": "ɲǎŋ ɲǎŋ, yàa lɛ̂n pai!",
+        "translations": {
+          "de": "Halt! Lauf nicht weg!",
+          "en": "Stop! Don't run off!",
+          "es": "¡Para! ¡No te vayas corriendo!",
+          "fr": "Arrête ! Ne cours pas !",
+          "hi": "रुको! भागकर मत जाओ!",
+          "ja": "止まれ！走って行くな！",
+          "km": "ឈប់ ឈប់! កុំរត់ទៅ!",
+          "ko": "멈춰! 뛰어가지 마!",
+          "ne": "रोक! दौडेर नजा!",
+          "pt": "Para! Não saia correndo!",
+          "th": "หยุดๆ อย่าวิ่งไปนะ!",
+          "tl": "Tigil! Huwag tumakbo!",
+          "ur": "رکو! بھاگ کر مت جاؤ!",
+          "vi": "Dừng lại! Đừng chạy đi!",
+          "zh": "停！别跑开！",
+          "zh_Hant": "停！別跑開！"
+        },
+        "out_of_scope_words": [
+          "ແລ່ນ"
+        ]
+      },
+      {
+        "lao_script": "ຢັ້ງໃຈໄວ້ກ່ອນ, ຢ່າຮີບ.",
+        "romanization": "ɲǎŋ jai wái kɔ̀ɔn, yàa híip.",
+        "translations": {
+          "de": "Halte dein Herz zurück, sei nicht so hastig.",
+          "en": "Hold yourself back first, don't be in a rush.",
+          "es": "Contrólate primero, no tengas prisa.",
+          "fr": "Retiens-toi d'abord, ne te précipite pas.",
+          "hi": "पहले खुद को रोको, जल्दी मत करो।",
+          "ja": "まず気持ちを抑えて、急がないで。",
+          "km": "ទប់ចិត្តសិន កុំប្រញាប់។",
+          "ko": "먼저 마음을 가라앉혀, 서두르지 마.",
+          "ne": "पहिले आफूलाई थाम, हतार नगर।",
+          "pt": "Segura-te primeiro, não tenhas pressa.",
+          "th": "ยับยั้งใจก่อนนะ อย่ารีบ",
+          "tl": "Pigilan muna ang sarili, huwag magmadali.",
+          "ur": "پہلے خود کو روکو، جلدی مت کرو۔",
+          "vi": "Kiềm chế bản thân trước đã, đừng vội.",
+          "zh": "先克制一下，不要着急。",
+          "zh_Hant": "先克制一下，不要著急。"
+        },
+        "out_of_scope_words": [
+          "ຮີບ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person holding out their hand in a 'stop' gesture to restrain another person from moving forward, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຢາມ": {
+    "definitions": {
+      "de": "1. Wachen, bewachen. 2. (Zeit) Ein Zeitabschnitt, eine Wache. 3. (Konjunktion) Wenn, zur Zeit als",
+      "en": "1. To guard, watch over. 2. A period of time, a watch/shift. 3. (conjunction) When, at the time that",
+      "es": "1. Vigilar, hacer guardia. 2. Un período de tiempo, un turno de guardia. 3. (conjunción) Cuando, en el momento en que",
+      "fr": "1. Garder, surveiller. 2. Une période de temps, une garde. 3. (conjonction) Quand, au moment où",
+      "hi": "1. पहरा देना, रक्षा करना। 2. समय का एक अंश, पहरे की पाली। 3. (संयोजन) जब, उस समय जब",
+      "ja": "1. 見張る、護衛する。2. 時間帯、番（交代）。3. （接続詞）〜のとき、〜する際に",
+      "km": "1. ល្បាត យាម។ 2. ដំណាក់កាលពេលវេលា វេនយាម។ 3. (接続詞) នៅពេល នៅខណៈ",
+      "ko": "1. 지키다, 경계하다. 2. 시간의 한 구간, 당번. 3. (접속사) ~할 때, ~하는 동안",
+      "ne": "1. पहरा दिनु, रक्षा गर्नु। 2. समयको एक खण्ड, पहराको पाली। 3. (संयोजन) जब, जुन बेला",
+      "pt": "1. Guardar, vigiar. 2. Um período de tempo, uma guarda/turno. 3. (conjunção) Quando, no momento em que",
+      "th": "1. เฝ้า คุ้มกัน. 2. ช่วงเวลา ยาม. 3. (接続詞) ตอนที่ เมื่อ",
+      "tl": "1. Bantayan, magbantay. 2. Isang panahon ng oras, isang bantay. 3. (pangatnig) Kapag, noong",
+      "ur": "1. پہرہ دینا، نگرانی کرنا۔ 2. وقت کا ایک حصہ، پہرے کی باری۔ 3. (接続詞) جب، اس وقت جب",
+      "vi": "1. Canh gác, bảo vệ. 2. Một khoảng thời gian, ca gác. 3. (接続詞) Khi, lúc",
+      "zh": "1. 守卫，看守。2. 一段时间，值班。3. （连词）当……时，在……的时候",
+      "zh_Hant": "1. 守衛，看守。2. 一段時間，值班。3. （連詞）當……時，在……的時候"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ɲáam",
+    "examples": [
+      {
+        "lao_script": "ຢາມລາວນອນຢູ່, ໝາຮ້ອງ.",
+        "romanization": "ɲáam lǎo nɔɔn yùu, mǎa hɔ́ɔŋ.",
+        "translations": {
+          "de": "Als er schlief, bellte der Hund.",
+          "en": "When he was sleeping, the dog barked.",
+          "es": "Cuando él estaba durmiendo, el perro ladró.",
+          "fr": "Quand il dormait, le chien aboyait.",
+          "hi": "जब वह सो रहा था, कुत्ता भौंका।",
+          "ja": "彼が寝ているとき、犬が吠えた。",
+          "km": "នៅពេលគាត់កំពុងដេក សត្វឆ្កែបុកព្រហ។",
+          "ko": "그가 자고 있을 때, 개가 짖었어.",
+          "ne": "ऊ सुतिरहेको बेला, कुकुर भुक्यो।",
+          "pt": "Quando ele estava dormindo, o cachorro latiu.",
+          "th": "ตอนที่เขานอนอยู่ หมาเห่า",
+          "tl": "Noong natutulog siya, humahol ang aso.",
+          "ur": "جب وہ سو رہا تھا، کتا بھونکا۔",
+          "vi": "Khi anh ấy đang ngủ, con chó sủa.",
+          "zh": "当他睡觉的时候，狗叫了。",
+          "zh_Hant": "當他睡覺的時候，狗叫了。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ຮ້ອງ"
+        ]
+      },
+      {
+        "lao_script": "ໃຜຢາມຢາມຄືນນີ້?",
+        "romanization": "phǎi ɲáam ɲáam khɯɯn níi?",
+        "translations": {
+          "de": "Wer hat heute Nacht Wache?",
+          "en": "Who is on guard duty tonight?",
+          "es": "¿Quién hace guardia esta noche?",
+          "fr": "Qui est de garde cette nuit ?",
+          "hi": "आज रात पहरा कौन देगा?",
+          "ja": "今夜は誰が見張りをするの？",
+          "km": "នរណាយាមយាមយប់នេះ?",
+          "ko": "오늘 밤 누가 당직이야?",
+          "ne": "आज राति कसले पहरा दिन्छ?",
+          "pt": "Quem está de guarda esta noite?",
+          "th": "คืนนี้ใครเฝ้ายาม?",
+          "tl": "Sino ang magbabantay ngayong gabi?",
+          "ur": "آج رات پہرہ کون دے گا؟",
+          "vi": "Tối nay ai trực gác?",
+          "zh": "今晚谁值夜班？",
+          "zh_Hant": "今晚誰值夜班？"
+        },
+        "out_of_scope_words": [
+          "ຄືນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a security guard standing watch at a doorway at night, holding a flashlight, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຢົງ": {
+    "definitions": {
+      "de": "Schütteln, schwanken oder sich hin und her wiegen",
+      "en": "To shake, sway, or rock back and forth",
+      "es": "Sacudir, mecer o balancear de un lado a otro",
+      "fr": "Secouer, balancer ou osciller d'avant en arrière",
+      "hi": "हिलाना, डोलना या आगे-पीछे झूलना",
+      "ja": "揺れる、揺らす、前後に揺れ動く",
+      "km": "រំ អង្រួន ឬដូរ ខ្លែងទៅ​មក",
+      "ko": "흔들다, 흔들리다, 앞뒤로 흔들거리다",
+      "ne": "हल्लाउनु, डोलाउनु वा अगाडि-पछाडि हल्लिनु",
+      "pt": "Sacudir, balançar ou oscilar para frente e para trás",
+      "th": "สั่น โยก หรือแกว่งไปมา",
+      "tl": "Umugoy, maging ugoy, o yumanig nang pabalik-balik",
+      "ur": "ہلانا، جھولنا یا آگے پیچھے ہلنا",
+      "vi": "Lắc, lắc lư hoặc đu đưa qua lại",
+      "zh": "摇晃，摆动，来回晃动",
+      "zh_Hant": "搖晃，擺動，來回晃動"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ɲōŋ",
+    "examples": [
+      {
+        "lao_script": "ຕົ້ນໄມ້ຢົງຫຼາຍເພາະລົມແຮງ.",
+        "romanization": "tôn máai ɲōŋ lǎai phɔ́ lom hɛ́ɛŋ.",
+        "translations": {
+          "de": "Der Baum schwankt stark, weil der Wind stark ist.",
+          "en": "The tree is swaying a lot because the wind is strong.",
+          "es": "El árbol se balancea mucho porque el viento es fuerte.",
+          "fr": "L'arbre se balance beaucoup parce que le vent est fort.",
+          "hi": "पेड़ बहुत हिल रहा है क्योंकि हवा तेज है।",
+          "ja": "風が強いので、木がたくさん揺れている。",
+          "km": "ដើមឈើអង្រួនច្រើន ព្រោះខ្យល់ខ្លាំង។",
+          "ko": "바람이 세서 나무가 많이 흔들려.",
+          "ne": "हावा तेज भएकाले रुख धेरै हल्लिँदैछ।",
+          "pt": "A árvore está balançando muito porque o vento está forte.",
+          "th": "ต้นไม้โยกมากเพราะลมแรง",
+          "tl": "Umuugoy nang husto ang puno dahil malakas ang hangin.",
+          "ur": "درخت بہت ہل رہا ہے کیونکہ ہوا تیز ہے۔",
+          "vi": "Cây đang lắc lư nhiều vì gió mạnh.",
+          "zh": "树摇晃得厉害，因为风很大。",
+          "zh_Hant": "樹搖晃得厲害，因為風很大。"
+        },
+        "out_of_scope_words": [
+          "ຕົ້ນໄມ້",
+          "ລົມ",
+          "ແຮງ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າຢົງເຮືອ, ຈະລົ້ມ!",
+        "romanization": "yàa ɲōŋ hɯa, ja lôm!",
+        "translations": {
+          "de": "Schaukel das Boot nicht, es kippt um!",
+          "en": "Don't rock the boat, it'll tip over!",
+          "es": "¡No balancees el bote, se va a volcar!",
+          "fr": "Ne balance pas le bateau, il va chavirer !",
+          "hi": "नाव मत हिलाओ, गिर जाएगी!",
+          "ja": "ボートを揺らすな、転覆するぞ！",
+          "km": "កុំដូរទូក នឹងផ្ទុយ!",
+          "ko": "배 흔들지 마, 뒤집어질 거야!",
+          "ne": "डुंगा नहल्लाऊ, पल्टिन्छ!",
+          "pt": "Não balance o barco, ele vai virar!",
+          "th": "อย่าโยกเรือ จะล้มนะ!",
+          "tl": "Huwag ugoy-ugayin ang bangka, mababaligtad!",
+          "ur": "کشتی مت ہلاؤ، پلٹ جائے گی!",
+          "vi": "Đừng lắc thuyền, sẽ lật đó!",
+          "zh": "别摇船，会翻的！",
+          "zh_Hant": "別搖船，會翻的！"
+        },
+        "out_of_scope_words": [
+          "ເຮືອ",
+          "ລົ້ມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a tree with its branches swaying in the wind, with motion lines showing the movement, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ລືມ": {
+    "definitions": {
+      "de": "Vergessen; sich nicht mehr an etwas erinnern können",
+      "en": "To forget; to fail to remember something",
+      "es": "Olvidar; no poder recordar algo",
+      "fr": "Oublier ; ne plus se souvenir de quelque chose",
+      "hi": "भूलना; कुछ याद न कर पाना",
+      "ja": "忘れる；何かを思い出せなくなる",
+      "km": "ភ្លេច; មិនអាចចងចាំអ្វីមួយបាន",
+      "ko": "잊다; 무언가를 기억하지 못하다",
+      "ne": "बिर्सनु; कुनै कुरा सम्झन नसक्नु",
+      "pt": "Esquecer; não conseguir se lembrar de algo",
+      "th": "ลืม; จำอะไรบางอย่างไม่ได้",
+      "tl": "Kalimutan; hindi maalaala ang isang bagay",
+      "ur": "بھولنا؛ کچھ یاد نہ رہنا",
+      "vi": "Quên; không nhớ được điều gì đó",
+      "zh": "忘记；无法记住某事",
+      "zh_Hant": "忘記；無法記住某事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "lɯɯm",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍລືມເອົາກະເປົ໋າໄປ.",
+        "romanization": "khɔ̂i lɯɯm ao kàpǎo pai.",
+        "translations": {
+          "de": "Ich habe vergessen, meine Tasche mitzunehmen.",
+          "en": "I forgot to bring my bag.",
+          "es": "Olvidé traer mi bolsa.",
+          "fr": "J'ai oublié d'apporter mon sac.",
+          "hi": "मैं अपना बैग लाना भूल गया।",
+          "ja": "バッグを持っていくのを忘れた。",
+          "km": "ខ្ញុំភ្លេចយកកាបូបទៅ។",
+          "ko": "나 가방 가져가는 거 잊어버렸어.",
+          "ne": "म झोला लग्न बिर्सें।",
+          "pt": "Eu esqueci de levar minha bolsa.",
+          "th": "ฉันลืมเอากระเป๋าไป",
+          "tl": "Nakalimutan ko dalhin ang aking bag.",
+          "ur": "میں اپنا بیگ لے جانا بھول گیا۔",
+          "vi": "Tôi quên mang túi đi mất.",
+          "zh": "我忘了带包。",
+          "zh_Hant": "我忘了帶包。"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ"
+        ]
+      },
+      {
+        "lao_script": "ລືມລະຫັດຜ່ານອີກແລ້ວ!",
+        "romanization": "lɯɯm lahàt phàan iik lɛ́ɛw!",
+        "translations": {
+          "de": "Ich habe das Passwort schon wieder vergessen!",
+          "en": "I forgot my password again!",
+          "es": "¡Olvidé mi contraseña de nuevo!",
+          "fr": "J'ai encore oublié mon mot de passe !",
+          "hi": "फिर से पासवर्ड भूल गया!",
+          "ja": "またパスワードを忘れた！",
+          "km": "ភ្លេចពាក្យសម្ងាត់ម្តងទៀតហើយ!",
+          "ko": "또 비밀번호 잊어버렸어!",
+          "ne": "फेरि पासवर्ड बिर्सें!",
+          "pt": "Esqueci minha senha de novo!",
+          "th": "ลืมรหัสผ่านอีกแล้ว!",
+          "tl": "Nakalimutan ko na naman ang aking password!",
+          "ur": "پھر سے پاسورڈ بھول گیا!",
+          "vi": "Lại quên mật khẩu rồi!",
+          "zh": "又忘记密码了！",
+          "zh_Hant": "又忘記密碼了！"
+        },
+        "out_of_scope_words": [
+          "ລະຫັດຜ່ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person scratching their head with a confused expression, with a thought bubble showing a blank or empty space, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວິດ": {
+    "definitions": {
+      "de": "Wasser schöpfen, pumpen oder auspumpen (z. B. aus einem Boot oder Brunnen)",
+      "en": "To bail, pump, or scoop water out (e.g., from a boat or a well)",
+      "es": "Achicar, bombear o sacar agua (por ejemplo, de un bote o un pozo)",
+      "fr": "Écoper, pomper ou vider l'eau (par exemple d'un bateau ou d'un puits)",
+      "hi": "पानी उलीचना, पम्प करना या निकालना (जैसे नाव या कुएं से)",
+      "ja": "水を汲み出す、ポンプで排水する、水をかき出す（例：ボートや井戸から）",
+      "km": "ស្ូប ូប ឬរើសទឹក (ឧ. ពីទូក ឬអណ្តូង)",
+      "ko": "물을 퍼내다, 펌프질하다 (예: 배나 우물에서)",
+      "ne": "पानी उपिल्नु, पम्प गर्नु वा निकाल्नु (जस्तै डुंगा वा इनारबाट)",
+      "pt": "Esgotar, bombear ou tirar água (por exemplo, de um barco ou poço)",
+      "th": "วิด ตักน้ำ หรือสูบน้ำออก (เช่น จากเรือหรือบ่อน้ำ)",
+      "tl": "Mag-igib, mag-pump, o magsagip ng tubig (hal. mula sa bangka o balon)",
+      "ur": "پانی نکالنا، پمپ کرنا یا پانی باہر کرنا (مثلاً کشتی یا کنویں سے)",
+      "vi": "Múc, bơm hoặc tát nước ra (ví dụ từ thuyền hoặc giếng)",
+      "zh": "舀水、抽水或排水（例如从船上或井里）",
+      "zh_Hant": "舀水、抽水或排水（例如從船上或井裡）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "wít",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍວິດນ້ຳໃນເຮືອໜ້ອຍ, ນ້ຳເຕັມແລ້ວ.",
+        "romanization": "sùai wít nâam nai hɯa nɔ̀i, nâam tém lɛ́ɛw.",
+        "translations": {
+          "de": "Hilf mir, das Wasser aus dem Boot zu schöpfen, es ist schon voll.",
+          "en": "Help bail the water in the boat a bit, it's already full.",
+          "es": "Ayuda a achicar el agua del bote un poco, ya está lleno.",
+          "fr": "Aide à écoper l'eau dans le bateau un peu, c'est déjà plein.",
+          "hi": "थोड़ा नाव में से पानी निकालने में मदद करो, पानी भर गया है।",
+          "ja": "ちょっとボートの水を汲み出すのを手伝って、もう満杯だよ。",
+          "km": "ជួយស្ូបទឹកក្នុងទូកបន្តិច ទឹកពេញហើយ។",
+          "ko": "배 안에 물 좀 퍼내줘, 이미 가득 찼어.",
+          "ne": "डुंगामा भएको पानी अलिकति उपिल्न मद्दत गर, पानी भरिसक्यो।",
+          "pt": "Ajuda a esgotar a água do barco um pouco, já está cheio.",
+          "th": "ช่วยวิดน้ำในเรือหน่อยนะ น้ำเต็มแล้ว",
+          "tl": "Tulungan mo akong igib ng tubig sa bangka, puno na ito.",
+          "ur": "کشتی میں پانی نکالنے میں تھوڑی مدد کرو، پانی بھر گیا ہے۔",
+          "vi": "Giúp tát nước trong thuyền đi, nước đầy rồi.",
+          "zh": "帮忙把船里的水舀出去，水已经满了。",
+          "zh_Hant": "幫忙把船裡的水舀出去，水已經滿了。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອ",
+          "ເຕັມ"
+        ]
+      },
+      {
+        "lao_script": "ເຊົ້ານີ້ຕ້ອງໄດ້ວິດນ້ຳຈາກສວນ.",
+        "romanization": "sâo níi tɔ̂ng dâi wít nâam càak sǔan.",
+        "translations": {
+          "de": "Heute Morgen muss ich Wasser aus dem Garten pumpen.",
+          "en": "This morning I have to pump water from the garden.",
+          "es": "Esta mañana tengo que sacar agua del jardín.",
+          "fr": "Ce matin, il faut pomper l'eau du jardin.",
+          "hi": "आज सुबह बगीचे से पानी निकालना होगा।",
+          "ja": "今朝、庭から水を汲み出さないといけない。",
+          "km": "ព្រឹកនេះ ត្រូវវិចទឹកពីសួន។",
+          "ko": "오늘 아침에 정원에서 물을 퍼내야 해.",
+          "ne": "आज बिहान बगैंचाबाट पानी उपिल्नु पर्छ।",
+          "pt": "Esta manhã preciso bombear água do jardim.",
+          "th": "เช้านี้ต้องวิดน้ำจากสวน",
+          "tl": "Ngayong umaga kailangan kong igib ng tubig mula sa hardin.",
+          "ur": "آج صبح باغ سے پانی نکالنا ہوگا۔",
+          "vi": "Sáng nay phải tát nước từ vườn ra.",
+          "zh": "今天早上要从园子里抽水。",
+          "zh_Hant": "今天早上要從園子裡抽水。"
+        },
+        "out_of_scope_words": [
+          "ສວນ",
+          "ເຊົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person using a bucket or hand pump to scoop water out of a small wooden boat, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແມ່ນ",
+  "definitions": {
+    "de": "sein/ist (Kopula für Identität); ja/genau (Bestätigung)",
+    "en": "to be/is (identificational copula); yes/that's right (affirmation)",
+    "es": "ser/es (cópula de identidad); sí/así es (afirmación)",
+    "fr": "être/est (copule d'identité); oui/c'est ça (affirmation)",
+    "hi": "होना (पहचान दर्शाने वाला संयोजक); हाँ/सही है",
+    "ja": "〜です／はい（同定の連結動詞・肯定）",
+    "km": "គឺ／មែន (កិរិយាសព្ទភ្ជាប់បញ្ជាក់អត្តសញ្ញាណ ឬបញ្ជាក់យល់ព្រម)",
+    "ko": "~이다／맞아요 (동일성 계사 또는 긍정)",
+    "ne": "हो／हो रहेको (पहिचान जनाउने क्रिया वा स्वीकार)",
+    "pt": "ser/é (cópula de identidade); sim/isso mesmo (afirmação)",
+    "th": "เป็น／แม่น／ใช่ (กริยาเชื่อมระบุตัวตนหรือการยืนยัน)",
+    "tl": "ay／oo／tama (pagkakakilanlan o pagpapatunay)",
+    "ur": "ہے؛ ہاں؛ درست (شناختی ربطی فعل یا تصدیق)",
+    "vi": "là; đúng rồi; phải (hệ từ đồng nhất hoặc khẳng định)",
+    "zh": "是／对／没错（判断系动词或肯定回答）",
+    "zh_Hant": "是／對／沒錯（判斷系動詞或肯定回答）"
+  },
+  "definition_en": "to be/is (identificational copula); yes/that's right (affirmation)",
+  "romanization": "mɛ̄n",
+  "lao_examples": [
+    {
+      "lao_script": "ນີ້ ແມ່ນ ລົດ ຂອງ ຂ້ອຍ",
+      "romanization": "nîː mɛ̄n lōt kʰɔ̌ːŋ kʰɔ̂ːj",
+      "translation_en": "This is my car."
+    },
+    {
+      "lao_script": "ແມ່ນ ແລ້ວ, ຂ້ອຍ ເຂົ້າ ໃຈ",
+      "romanization": "mɛ̄n lɛ̂ːw kʰɔ̂ːj kʰȁw càj",
+      "translation_en": "Yes, that's right, I understand."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cartoon person nodding yes with a green check mark beside them, representing affirmation, suitable for a language learning app, clean white background, minimalist style."
+}

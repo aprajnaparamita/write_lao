@@ -1,0 +1,419 @@
+{
+  "ໂດ": {
+    "definitions": {
+      "de": "Ein Partikel oder Silbenfragment im Laotischen, das oft in zusammengesetzten Wörtern oder als betonender Zusatz vorkommt; hat keinen vollständig eigenständigen Bedeutungsgehalt.",
+      "en": "A syllable fragment or particle in Lao, often appearing in compound words or as an emphatic/filler element; limited standalone meaning.",
+      "es": "Fragmento silábico o partícula en lao que aparece frecuentemente en palabras compuestas o como elemento enfático; uso independiente limitado.",
+      "fr": "Fragment syllabique ou particule en laotien, apparaissant souvent dans des mots composés ou comme élément emphatique; usage autonome limité.",
+      "hi": "लाओ भाषा में एक अक्षर खंड या कण, जो अक्सर यौगिक शब्दों में या जोर देने वाले तत्व के रूप में आता है; स्वतंत्र उपयोग सीमित है।",
+      "ja": "ラオ語における音節断片または助詞で、複合語や強調・補完要素として現れることが多く、単独での意味は限定的。",
+      "km": "បំណែកព្យាង្គ ឬភាគល្អិតក្នុងភាសាឡាវ ដែលច្រើនលេចឡើងក្នុងពាក្យផ្សំ ឬជាធាតុបន្ថែមសំណៀង; ការប្រើប្រាស់ឯករាជ្យមានកម្រិត។",
+      "ko": "라오어에서 복합어나 강조/채움 요소로 자주 나타나는 음절 조각 또는 조사; 독립적인 의미는 제한적입니다.",
+      "ne": "लाओ भाषामा एक अक्षर खण्ड वा कण, जुन प्रायः यौगिक शब्दहरूमा वा जोड दिने तत्वको रूपमा देखिन्छ; स्वतन्त्र प्रयोग सीमित छ।",
+      "pt": "Fragmento silábico ou partícula em laosiano, frequentemente encontrado em palavras compostas ou como elemento enfático; uso independente limitado.",
+      "th": "ชิ้นส่วนพยางค์หรืออนุภาคในภาษาลาว มักปรากฏในคำประสมหรือเป็นองค์ประกอบเสริมความหมาย; การใช้แบบเดี่ยวมีจำกัด",
+      "tl": "Isang piraso ng pantig o partikula sa wikang Lao, madalas na lumalabas sa mga tambalang salita o bilang elementong nagbibigay-diin; limitadong paggamit nang mag-isa.",
+      "ur": "لاؤ زبان میں ایک حرف کا ٹکڑا یا ذرہ، جو اکثر مرکب الفاظ میں یا زور دینے والے عنصر کے طور پر آتا ہے؛ اکیلے استعمال محدود ہے۔",
+      "vi": "Một mảnh âm tiết hoặc tiểu từ trong tiếng Lào, thường xuất hiện trong các từ ghép hoặc làm yếu tố nhấn mạnh; ý nghĩa độc lập hạn chế.",
+      "zh": "老挝语中的一个音节片段或助词，常出现在复合词中或作为强调/填充成分；独立使用时意义有限。",
+      "zh_Hant": "寮語中的一個音節片段或助詞，常出現在複合詞中或作為強調／填充成分；獨立使用時意義有限。"
+    },
+    "part_of_speech": "particle",
+    "romanization": "doo",
+    "examples": [
+      {
+        "lao_script": "ລອງເບິ່ງໂດ ວ່າມັນເປັນຫຍັງ",
+        "romanization": "long bəəng doo, waa man pen nyang",
+        "translations": {
+          "de": "Schau mal, was das ist.",
+          "en": "Take a look and see what it is.",
+          "es": "Mira a ver qué es.",
+          "fr": "Regarde voir ce que c'est.",
+          "hi": "देखो तो, यह क्या है।",
+          "ja": "ちょっと見てみよう、何か確かめて。",
+          "km": "សាកមើលទៅ ថាវាជាអ្វី។",
+          "ko": "한번 보고 그게 뭔지 확인해봐.",
+          "ne": "हेरेर हेर, त्यो के हो।",
+          "pt": "Dá uma olhada para ver o que é.",
+          "th": "ลองดูซิว่ามันคืออะไร",
+          "tl": "Subukan mong tingnan kung ano ito.",
+          "ur": "دیکھو تو، یہ کیا ہے۔",
+          "vi": "Thử nhìn xem nó là cái gì nào.",
+          "zh": "看看吧，看是什么东西。",
+          "zh_Hant": "看看吧，看是什麼東西。"
+        },
+        "out_of_scope_words": [
+          "ລອງ",
+          "ເບິ່ງ",
+          "ວ່າ",
+          "ເປັນ",
+          "ຫຍັງ"
+        ]
+      },
+      {
+        "lao_script": "ຊິມໂດ ອາຫານນີ້ວ່າແຊບບໍ",
+        "romanization": "sim doo, aa-haan nii waa saep boo",
+        "translations": {
+          "de": "Probier das Essen mal, ob es lecker ist.",
+          "en": "Taste this food and see if it's delicious.",
+          "es": "Prueba esta comida a ver si está rica.",
+          "fr": "Goûte cette nourriture pour voir si c'est bon.",
+          "hi": "यह खाना चखकर देखो कि यह स्वादिष्ट है या नहीं।",
+          "ja": "この料理を食べてみて、おいしいか確かめて。",
+          "km": "សាកភ្លក្សម្ហូបនេះ ថាឆ្ងាញ់ទេ។",
+          "ko": "이 음식 맛봐봐, 맛있는지.",
+          "ne": "यो खाना चाखेर हेर, मिठो छ कि छैन।",
+          "pt": "Experimenta essa comida para ver se é gostosa.",
+          "th": "ลองชิมอาหารนี้ดูซิ ว่าอร่อยไหม",
+          "tl": "Tikman mo ang pagkain na ito, masarap ba.",
+          "ur": "یہ کھانا چکھ کر دیکھو کہ لذیذ ہے یا نہیں۔",
+          "vi": "Nếm thử món ăn này xem có ngon không.",
+          "zh": "尝一下这道菜，看看好不好吃。",
+          "zh_Hant": "嚐一下這道菜，看看好不好吃。"
+        },
+        "out_of_scope_words": [
+          "ຊິມ",
+          "ອາຫານ",
+          "ນີ້",
+          "ວ່າ",
+          "ແຊບ",
+          "ບໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a curious person gesturing as if saying 'go ahead and try' or 'take a look', with a friendly expression, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຕອບ": {
+    "definitions": {
+      "de": "Antworten; eine Reaktion oder Erwiderung auf eine Frage, Nachricht oder Anfrage geben.",
+      "en": "To answer or reply; to respond to a question, message, or request.",
+      "es": "Responder; dar una respuesta a una pregunta, mensaje o solicitud.",
+      "fr": "Répondre; donner une réponse à une question, un message ou une demande.",
+      "hi": "उत्तर देना; किसी प्रश्न, संदेश या अनुरोध का जवाब देना।",
+      "ja": "答える、返答する；質問・メッセージ・要求に対して反応する。",
+      "km": "ឆ្លើយ; ផ្តល់ចម្លើយដល់សំណួរ សារ ឬសំណើ។",
+      "ko": "대답하다, 답장하다; 질문, 메시지 또는 요청에 응하다.",
+      "ne": "जवाफ दिनु; कुनै प्रश्न, सन्देश वा अनुरोधको उत्तर दिनु।",
+      "pt": "Responder; dar uma resposta a uma pergunta, mensagem ou pedido.",
+      "th": "ตอบ; ให้คำตอบหรือโต้ตอบต่อคำถาม ข้อความ หรือคำขอ",
+      "tl": "Sumagot o tumugon; magbigay ng sagot sa isang tanong, mensahe, o kahilingan.",
+      "ur": "جواب دینا؛ کسی سوال، پیغام یا درخواست کا جواب دینا۔",
+      "vi": "Trả lời; đưa ra phản hồi cho một câu hỏi, tin nhắn hoặc yêu cầu.",
+      "zh": "回答；对问题、消息或请求作出回应。",
+      "zh_Hant": "回答；對問題、訊息或請求作出回應。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tɔ̀ːp",
+    "examples": [
+      {
+        "lao_script": "ເປັນຫຍັງເຈົ້າບໍ່ຕອບໂທລະສັບເດ?",
+        "romanization": "pen nyang jao boo tɔ̀ːp thoo-la-sap dèː?",
+        "translations": {
+          "de": "Warum hast du das Telefon nicht beantwortet?",
+          "en": "Why didn't you answer the phone?",
+          "es": "¿Por qué no contestaste el teléfono?",
+          "fr": "Pourquoi tu n'as pas répondu au téléphone?",
+          "hi": "तुमने फोन का जवाब क्यों नहीं दिया?",
+          "ja": "なんで電話に出なかったの?",
+          "km": "ហេតុអ្វីអ្នកមិនទទួលទូរស័ព្ទ?",
+          "ko": "왜 전화를 안 받았어?",
+          "ne": "तिमीले फोन किन नउठाएको?",
+          "pt": "Por que você não atendeu o telefone?",
+          "th": "ทำไมไม่รับโทรศัพท์เลย?",
+          "tl": "Bakit hindi mo sinagot ang telepono?",
+          "ur": "تم نے فون کا جواب کیوں نہیں دیا؟",
+          "vi": "Sao mày không nghe điện thoại vậy?",
+          "zh": "你为什么不接电话？",
+          "zh_Hant": "你為什麼不接電話？"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ເດ"
+        ]
+      },
+      {
+        "lao_script": "ຕອບຂ້ອຍຖ້າເຈົ້າຮູ້ຄຳຕອບ",
+        "romanization": "tɔ̀ːp khoi thaa jao huu kham tɔ̀ːp",
+        "translations": {
+          "de": "Antworte mir, wenn du die Antwort kennst.",
+          "en": "Answer me if you know the answer.",
+          "es": "Contéstame si sabes la respuesta.",
+          "fr": "Réponds-moi si tu connais la réponse.",
+          "hi": "मुझे जवाब दो अगर तुम्हें उत्तर पता है।",
+          "ja": "答えを知っているなら教えて。",
+          "km": "ឆ្លើយខ្ញុំ ប្រសិនបើអ្នកដឹងចម្លើយ។",
+          "ko": "답을 알면 나한테 대답해봐.",
+          "ne": "यदि तिमीलाई जवाफ थाहा छ भने मलाई बताऊ।",
+          "pt": "Me responde se você souber a resposta.",
+          "th": "ตอบฉันถ้าเธอรู้คำตอบ",
+          "tl": "Sagutin mo ako kung alam mo ang sagot.",
+          "ur": "مجھے جواب دو اگر تمہیں جواب معلوم ہے۔",
+          "vi": "Trả lời tao nếu mày biết câu trả lời.",
+          "zh": "如果你知道答案就告诉我。",
+          "zh_Hant": "如果你知道答案就告訴我。"
+        },
+        "out_of_scope_words": [
+          "ຖ້າ",
+          "ຮູ້",
+          "ຄຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person raising their hand to answer a question in a classroom, with a speech bubble indicating a reply, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕີ": {
+    "definitions": {
+      "de": "1. Schlagen, treffen; etwas oder jemanden mit Kraft berühren. 2. Uhrzeit in den frühen Morgenstunden (z.B. ຕີໜຶ່ງ = 1 Uhr morgens).",
+      "en": "1. To hit or strike; to make forceful contact with something or someone. 2. Used for time in the early morning hours (e.g., ຕີໜຶ່ງ = 1 AM).",
+      "es": "1. Golpear; hacer contacto con fuerza con algo o alguien. 2. Se usa para indicar las horas de la madrugada (p. ej., ຕີໜຶ່ງ = la 1 de la madrugada).",
+      "fr": "1. Frapper; faire un contact forcé avec quelque chose ou quelqu'un. 2. Utilisé pour indiquer les heures du matin (ex: ຕີໜຶ່ງ = 1h du matin).",
+      "hi": "1. मारना, ठोकना; किसी चीज़ या व्यक्ति को जोर से छूना। 2. तड़के के घंटों के लिए उपयोग (जैसे ຕີໜຶ່ງ = रात 1 बजे)।",
+      "ja": "1. 打つ、叩く；何かまたは誰かに力強く触れる。2. 深夜から早朝の時間帯を表す（例：ຕີໜຶ່ງ＝午前1時）。",
+      "km": "1. វាយ; ប៉ះដោយកម្លាំងទៅលើអ្វីមួយ ឬនរណាម្នាក់។ 2. ប្រើសម្រាប់ម៉ោងព្រឹកព្រលឹម (ឧ. ຕີໜຶ່ງ = ម៉ោង 1 ព្រឹក)។",
+      "ko": "1. 치다, 때리다; 어떤 것이나 사람을 세게 건드리다. 2. 이른 아침 시간을 나타낼 때 사용 (예: ຕີໜຶ່ງ = 새벽 1시).",
+      "ne": "1. हिर्काउनु, प्रहार गर्नु; कुनै चीज वा व्यक्तिलाई बलपूर्वक छुनु। 2. बिहान तड्कैको समय जनाउन प्रयोग (जस्तै ຕີໜຶ່ງ = राति १ बजे)।",
+      "pt": "1. Bater, golpear; fazer contato com força em algo ou alguém. 2. Usado para indicar as horas da madrugada (ex: ຕີໜຶ່ງ = 1h da manhã).",
+      "th": "1. ตี; ใช้แรงกระทบกับสิ่งของหรือบุคคล 2. ใช้บอกเวลาตีในช่วงดึก (เช่น ຕີໜຶ່ງ = ตีหนึ่ง)",
+      "tl": "1. Tumama o humampas; gumawa ng marahas na pakikipag-ugnayan sa isang bagay o tao. 2. Ginagamit para sa oras sa maagang umaga (hal., ຕີໜຶ່ງ = ika-1 ng madaling araw).",
+      "ur": "1. مارنا، ضرب لگانا؛ کسی چیز یا شخص کو زور سے چھونا۔ 2. رات کے ابتدائی گھنٹوں کے لیے استعمال (مثلاً ຕີໜຶ່ງ = رات کا ایک بجے)۔",
+      "vi": "1. Đánh, đập; tiếp xúc mạnh với vật hoặc người. 2. Dùng để chỉ giờ trong đêm khuya/sáng sớm (ví dụ: ຕີໜຶ່ງ = 1 giờ sáng).",
+      "zh": "1. 打、击；用力接触某物或某人。2. 用于表示凌晨的时间（如 ຕີໜຶ່ງ = 凌晨1点）。",
+      "zh_Hant": "1. 打、擊；用力接觸某物或某人。2. 用於表示凌晨的時間（如 ຕີໜຶ່ງ = 凌晨1點）。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tiː",
+    "examples": [
+      {
+        "lao_script": "ຢ່າຕີໝາຂ້ອຍ ມັນບໍ່ໄດ້ເຮັດຫຍັງເຈົ້າ",
+        "romanization": "yaa tii maa khoi, man boo dai het nyang jao",
+        "translations": {
+          "de": "Schlag meinen Hund nicht, er hat dir nichts getan.",
+          "en": "Don't hit my dog, it didn't do anything to you.",
+          "es": "No le pegues a mi perro, no te ha hecho nada.",
+          "fr": "Ne frappe pas mon chien, il ne t'a rien fait.",
+          "hi": "मेरे कुत्ते को मत मारो, इसने तुम्हारे साथ कुछ नहीं किया।",
+          "ja": "私の犬を叩かないで、あなたに何もしていないでしょ。",
+          "km": "កុំវាយឆ្កែខ្ញុំ វាមិនបានធ្វើអ្វីដល់អ្នកទេ។",
+          "ko": "내 개 때리지 마, 너한테 아무것도 안 했잖아.",
+          "ne": "मेरो कुकुरलाई नहान, यसले तिमीसँग केही गरेको छैन।",
+          "pt": "Não bate no meu cachorro, ele não fez nada pra você.",
+          "th": "อย่าตีหมาฉัน มันไม่ได้ทำอะไรเธอเลย",
+          "tl": "Huwag mong suntukan ang aking aso, hindi naman nito ginawa sa iyo ang anuman.",
+          "ur": "میرے کتے کو مت مارو، اس نے تمہارے ساتھ کچھ نہیں کیا۔",
+          "vi": "Đừng đánh con chó của tao, nó không làm gì mày đâu.",
+          "zh": "别打我的狗，它没对你做什么。",
+          "zh_Hant": "別打我的狗，牠沒對你做什麼。"
+        },
+        "out_of_scope_words": [
+          "ຢ່າ",
+          "ໝາ",
+          "ເຮັດ"
+        ]
+      },
+      {
+        "lao_script": "ຕອນຕີສາມ ຂ້ອຍຍັງຕື່ນຢູ່ເລີຍ",
+        "romanization": "tɔːn tii saam, khoi yang tɯːn yuu ləːi",
+        "translations": {
+          "de": "Um 3 Uhr morgens war ich immer noch wach.",
+          "en": "At 3 AM, I was still awake.",
+          "es": "A las 3 de la madrugada todavía estaba despierto/a.",
+          "fr": "À 3h du matin, j'étais encore réveillé(e).",
+          "hi": "रात के 3 बजे भी मैं जागा हुआ था।",
+          "ja": "深夜3時なのにまだ起きていた。",
+          "km": "ម៉ោង 3 ព្រឹក ខ្ញុំនៅតែភ្ញាក់រហូត។",
+          "ko": "새벽 3시에 나 아직도 깨어 있었어.",
+          "ne": "राति ३ बजे पनि म अझै जागिरहेको थिएँ।",
+          "pt": "Às 3 da manhã eu ainda estava acordado/a.",
+          "th": "ตีสามฉันยังตื่นอยู่เลย",
+          "tl": "Alas tres ng madaling araw, gising pa rin ako.",
+          "ur": "رات کے تین بجے بھی میں ابھی تک جاگ رہا تھا۔",
+          "vi": "3 giờ sáng mà tao vẫn còn thức.",
+          "zh": "凌晨3点我还醒着。",
+          "zh_Hant": "凌晨3點我還醒著。"
+        },
+        "out_of_scope_words": [
+          "ຕອນ",
+          "ສາມ",
+          "ຍັງ",
+          "ຕື່ນ",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a hand gently striking a drum (to show 'hit'), and on the right, a clock showing 3:00 AM under a starry night sky. Clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈິງ": {
+    "definitions": {
+      "de": "Wahr, echt, wirklich; wird verwendet, um die Wahrhaftigkeit oder Echtheit von etwas zu bestätigen.",
+      "en": "True, real, genuine; used to affirm the truthfulness or authenticity of something.",
+      "es": "Verdadero, real, genuino; se usa para afirmar la veracidad o autenticidad de algo.",
+      "fr": "Vrai, réel, authentique; utilisé pour affirmer la véracité ou l'authenticité de quelque chose.",
+      "hi": "सच, असली, वास्तविक; किसी चीज़ की सत्यता या प्रामाणिकता की पुष्टि करने के लिए उपयोग किया जाता है।",
+      "ja": "本当の、真実の、本物の；何かの真実性や本物であることを確認するために使う。",
+      "km": "ពិត, ពិតប្រាកដ, ដើម; ប្រើដើម្បីបញ្ជាក់ពីភាពពិតប្រាកដ ឬភាពដើមនៃអ្វីមួយ។",
+      "ko": "진짜, 사실인, 진실한; 무언가의 진실성이나 진정성을 확인하는 데 사용됩니다.",
+      "ne": "साँचो, वास्तविक, असली; कुनै कुराको सत्यता वा प्रामाणिकता पुष्टि गर्न प्रयोग गरिन्छ।",
+      "pt": "Verdadeiro, real, genuíno; usado para afirmar a veracidade ou autenticidade de algo.",
+      "th": "จริง, แท้จริง; ใช้เพื่อยืนยันความจริงหรือความแท้ของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Totoo, tunay, tapat; ginagamit upang kumpirmahin ang katotohanan o pagiging tunay ng isang bagay.",
+      "ur": "سچ، حقیقی، اصلی؛ کسی چیز کی صداقت یا اصلیت کی تصدیق کے لیے استعمال ہوتا ہے۔",
+      "vi": "Thật, thực, thực sự; dùng để khẳng định tính chân thực hoặc xác thực của điều gì đó.",
+      "zh": "真实的，真正的；用于确认某事的真实性或真诚性。",
+      "zh_Hant": "真實的，真正的；用於確認某事的真實性或真誠性。"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "tɕiŋ",
+    "examples": [
+      {
+        "lao_script": "ຈິງບໍ? ເຈົ້າໄດ້ຍິນຂ່າວນີ້ມາຈາກໃສ?",
+        "romanization": "tɕiŋ boo? jao dai nyin khaao nii maa taak sai?",
+        "translations": {
+          "de": "Wirklich? Wo hast du diese Neuigkeit gehört?",
+          "en": "Really? Where did you hear this news from?",
+          "es": "¿De verdad? ¿Dónde escuchaste esa noticia?",
+          "fr": "Vraiment? Tu as entendu cette nouvelle où?",
+          "hi": "सच में? तुमने यह खबर कहाँ से सुनी?",
+          "ja": "本当に? その話どこで聞いたの?",
+          "km": "ពិតទេ? អ្នកបានឮព័ត៌មាននេះពីណា?",
+          "ko": "진짜? 그 소식 어디서 들었어?",
+          "ne": "साँच्चै? तिमीले यो खबर कहाँबाट सुन्यौ?",
+          "pt": "Mesmo? Onde você ouviu essa notícia?",
+          "th": "จริงเหรอ? เธอได้ยินข่าวนี้มาจากไหน?",
+          "tl": "Totoo ba? Saan mo narinig ang balitang ito?",
+          "ur": "سچ میں؟ تم نے یہ خبر کہاں سے سنی؟",
+          "vi": "Thật không? Mày nghe tin này từ đâu vậy?",
+          "zh": "真的吗？你从哪里听到这个消息的？",
+          "zh_Hant": "真的嗎？你從哪裡聽到這個消息的？"
+        },
+        "out_of_scope_words": [
+          "ໄດ້ຍິນ",
+          "ຂ່າວ",
+          "ມາຈາກ",
+          "ໃສ"
+        ]
+      },
+      {
+        "lao_script": "ຄຳເວົ້ານີ້ຂອງລາວ ຈິງທຸກຢ່າງ",
+        "romanization": "kham wao nii khɔːng lao, tɕiŋ thuk yaang",
+        "translations": {
+          "de": "Alles, was er/sie gesagt hat, ist wahr.",
+          "en": "Everything he/she said is true.",
+          "es": "Todo lo que dijo es verdad.",
+          "fr": "Tout ce qu'il/elle a dit est vrai.",
+          "hi": "उसने जो कुछ भी कहा वह सब सच है।",
+          "ja": "彼/彼女が言ったことはすべて本当だ。",
+          "km": "អ្វីៗដែលគាត់និយាយ ពិតទាំងអស់។",
+          "ko": "그/그녀가 한 말은 다 사실이야.",
+          "ne": "उसले भनेका सबै कुरा साँचो छन्।",
+          "pt": "Tudo que ele/ela falou é verdade.",
+          "th": "ทุกอย่างที่เขา/เธอพูดมานั้นจริงทั้งนั้น",
+          "tl": "Lahat ng sinabi niya ay totoo.",
+          "ur": "اس نے جو کچھ بھی کہا وہ سب سچ ہے۔",
+          "vi": "Tất cả những gì anh/cô ấy nói đều là thật.",
+          "zh": "他/她说的每一件事都是真的。",
+          "zh_Hant": "他/她說的每一件事都是真的。"
+        },
+        "out_of_scope_words": [
+          "ຄຳເວົ້າ",
+          "ຂອງ",
+          "ທຸກຢ່າງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a green checkmark over a document or speech bubble labeled 'TRUE', with a confident person giving a thumbs-up nearby, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທ້າຍ": {
+    "definitions": {
+      "de": "Ende, letzter; bezeichnet das Ende von etwas oder die letzte Position in einer Reihe.",
+      "en": "End, last; refers to the final part or position of something in a sequence or series.",
+      "es": "Final, último; se refiere a la parte o posición final de algo en una secuencia o serie.",
+      "fr": "Fin, dernier; désigne la partie ou la position finale de quelque chose dans une séquence ou série.",
+      "hi": "अंत, आखिरी; किसी क्रम या श्रृंखला में किसी चीज़ के अंतिम भाग या स्थान को दर्शाता है।",
+      "ja": "終わり、最後；順序や並びにおける最終部分または位置を指す。",
+      "km": "ចុងក្រោយ, ចប់; សំដៅទៅលើផ្នែក ឬទីតាំងចុងក្រោយនៃអ្វីមួយក្នុងលំដាប់ ឬស៊េរី។",
+      "ko": "끝, 마지막; 순서나 연속에서 어떤 것의 마지막 부분이나 위치를 가리킵니다.",
+      "ne": "अन्त्य, अन्तिम; कुनै क्रम वा श्रृंखलामा कुनै चीजको अन्तिम भाग वा स्थितिलाई जनाउँछ।",
+      "pt": "Fim, último; refere-se à parte ou posição final de algo em uma sequência ou série.",
+      "th": "ท้าย, สุดท้าย; หมายถึงส่วนท้ายหรือตำแหน่งสุดท้ายของสิ่งใดสิ่งหนึ่งในลำดับหรือชุด",
+      "tl": "Katapusan, huli; tumutukoy sa huling bahagi o posisyon ng isang bagay sa isang pagkakasunod-sunod o serye.",
+      "ur": "آخر، آخری؛ کسی سلسلے یا ترتیب میں کسی چیز کے آخری حصے یا مقام کو ظاہر کرتا ہے۔",
+      "vi": "Cuối, cuối cùng; chỉ phần hoặc vị trí cuối cùng của điều gì đó trong một chuỗi hoặc dãy.",
+      "zh": "末尾，最后；指某事物在序列或一系列中的最终部分或位置。",
+      "zh_Hant": "末尾，最後；指某事物在序列或一系列中的最終部分或位置。"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tʰaːj",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍນັ່ງຢູ່ທ້າຍຫ້ອງສະເໝີ",
+        "romanization": "khoi nang yuu tʰaːj hɔːng sa-mɤː",
+        "translations": {
+          "de": "Ich sitze immer am Ende des Zimmers.",
+          "en": "I always sit at the back of the room.",
+          "es": "Siempre me siento al fondo del salón.",
+          "fr": "Je m'assieds toujours au fond de la salle.",
+          "hi": "मैं हमेशा कमरे के पीछे बैठता/बैठती हूँ।",
+          "ja": "私はいつも部屋の一番後ろに座る。",
+          "km": "ខ្ញុំអង្គុយនៅខាងក្រោយបន្ទប់ជានិច្ច។",
+          "ko": "나는 항상 방 뒤쪽에 앉아.",
+          "ne": "म सधैं कोठाको पछाडि बस्छु।",
+          "pt": "Eu sempre me sento no fundo da sala.",
+          "th": "ฉันนั่งอยู่ท้ายห้องเสมอเลย",
+          "tl": "Lagi akong nakaupo sa likod ng silid.",
+          "ur": "میں ہمیشہ کمرے کے پیچھے بیٹھتا/بیٹھتی ہوں۔",
+          "vi": "Tao lúc nào cũng ngồi cuối phòng.",
+          "zh": "我总是坐在房间的最后面。",
+          "zh_Hant": "我總是坐在房間的最後面。"
+        },
+        "out_of_scope_words": [
+          "ນັ່ງ",
+          "ຢູ່",
+          "ຫ້ອງ",
+          "ສະເໝີ"
+        ]
+      },
+      {
+        "lao_script": "ທ້າຍເດືອນນີ້ ເຮົາໄປທ່ຽວກັນເດີ",
+        "romanization": "tʰaːj dɯːan nii, hao pai thiao kan dəːi",
+        "translations": {
+          "de": "Am Ende dieses Monats lass uns zusammen reisen.",
+          "en": "At the end of this month, let's travel together.",
+          "es": "A finales de este mes, vamos a viajar juntos.",
+          "fr": "À la fin de ce mois, allons voyager ensemble.",
+          "hi": "इस महीने के अंत में, हम साथ मिलकर घूमने जाते हैं।",
+          "ja": "今月末に一緒に旅行しよう。",
+          "km": "ចុងខែនេះ ចូរយើងទៅដំណើរកំសាន្តជាមួយគ្នា។",
+          "ko": "이번 달 말에 같이 여행 가자.",
+          "ne": "यो महिनाको अन्त्यमा, हामी सँगै घुम्न जाऊँ।",
+          "pt": "No final desse mês, vamos viajar juntos.",
+          "th": "ท้ายเดือนนี้ เราไปเที่ยวด้วยกันนะ",
+          "tl": "Sa katapusan ng buwang ito, maglakbay tayo nang magkasama.",
+          "ur": "اس مہینے کے آخر میں، ہم ساتھ مل کر سیر کرتے ہیں۔",
+          "vi": "Cuối tháng này, mình cùng đi chơi nhé.",
+          "zh": "这个月底，我们一起去旅游吧。",
+          "zh_Hant": "這個月底，我們一起去旅遊吧。"
+        },
+        "out_of_scope_words": [
+          "ເດືອນ",
+          "ນີ້",
+          "ເຮົາ",
+          "ໄປ",
+          "ທ່ຽວ",
+          "ກັນ",
+          "ເດີ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a finish line at the end of a road or race track, with a flag or banner marking 'THE END', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

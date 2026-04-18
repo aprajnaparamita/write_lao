@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໜໍ່",
+  "definitions": {
+    "de": "Bambussprossen; junge, essbare Triebe der Bambus­pflanze, ein häufiges Zutat in der laotischen Küche",
+    "en": "Bamboo shoot; the young, edible sprout of a bamboo plant, commonly used in Lao cooking",
+    "es": "Brote de bambú; el tallo joven y comestible de la planta de bambú, muy usado en la cocina laosiana",
+    "fr": "Pousse de bambou ; la jeune pousse comestible du bambou, couramment utilisée dans la cuisine laotienne",
+    "hi": "बाँस की कोंपल; बाँस के पौधे की नई, खाने योग्य कोंपल, जो लाओस के खाने में बहुत उपयोग होती है",
+    "ja": "タケノコ；竹の若い食用の芽で、ラオス料理によく使われる",
+    "km": "ចំណុចបំណែកឫស្សី; ពន្លករឫស្សីវ័យក្មេងដែលអាចញ៉ាំបាន ប្រើច្រើននៅក្នុងម្ហូបឡាវ",
+    "ko": "죽순; 대나무의 어리고 식용 가능한 새싹으로, 라오스 요리에 자주 사용됨",
+    "ne": "बाँसको कोपिला; बाँस बिरुवाको जवान खान मिल्ने अंकुर, लाओसी खाना पकाउनमा सामान्यतः प्रयोग गरिन्छ",
+    "pt": "Broto de bambu; o broto jovem e comestível da planta de bambu, muito usado na culinária laosiana",
+    "th": "หน่อไม้; ยอดอ่อนที่กินได้ของต้นไผ่ ใช้บ่อยในการปรุงอาหารลาว",
+    "tl": "Usbong ng kawayan; ang batang, nakakain na usbong ng halaman ng kawayan, karaniwang ginagamit sa pagluluto ng Lao",
+    "ur": "بانس کی کونپل؛ بانس کے پودے کی نئی، کھانے کے قابل کونپل، جو لاؤسی کھانے میں عام طور پر استعمال ہوتی ہے",
+    "vi": "Măng; chồi non ăn được của cây tre, thường dùng trong ẩm thực Lào",
+    "zh": "竹笋；竹子的嫩芽，可食用，常用于老挝烹饪",
+    "zh_Hant": "竹筍；竹子的嫩芽，可食用，常用於寮國烹飪"
+  },
+  "definition_en": "Bamboo shoot; the young, edible sprout of a bamboo plant, commonly used in Lao cooking",
+  "romanization": "/nɔ̀ː/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຊື້ໜໍ່ມາຫຼາຍຫລາຍ",
+      "romanization": "Mae seu nor ma lai lai",
+      "translation_en": "Mom bought a lot of bamboo shoots."
+    },
+    {
+      "lao_script": "ແກງໜໍ່ຂອງເຈົ້າແຊບຫຼາຍ",
+      "romanization": "Gaeng nor khong jao saep lai",
+      "translation_en": "Your bamboo shoot soup is really delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of fresh bamboo shoots, both whole and sliced, shown on a clean white background with a few green bamboo leaves nearby, colorful and minimalist style suitable for a language learning app."
+}

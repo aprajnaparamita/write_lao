@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປັກ",
+  "definitions": {
+    "de": "Pflanzen, einstecken, hineinstecken; etwas in den Boden oder eine Oberfläche stecken",
+    "en": "To plant, to stick into, to insert; to push or place something into a surface",
+    "es": "Plantar, clavar, insertar; empujar o colocar algo en una superficie",
+    "fr": "Planter, enfoncer, insérer; pousser ou placer quelque chose dans une surface",
+    "hi": "लगाना, गाड़ना, चुभोना; किसी चीज़ को किसी सतह में धकेलना या लगाना",
+    "ja": "植える、刺す、差し込む；何かを地面や面に突き刺すこと",
+    "km": "ដាំ, ចាក់, សម្រុក; ដាក់អ្វីមួយចូលក្នុងផ្ទៃ",
+    "ko": "심다, 꽂다, 박다; 무언가를 표면에 꽂거나 심는 것",
+    "ne": "रोप्नु, गाड्नु, घोच्नु; कुनै चीज सतहमा भित्र हाल्नु",
+    "pt": "Plantar, fincar, inserir; empurrar ou colocar algo em uma superfície",
+    "th": "ปัก, ปลูก, เสียบ; การนำสิ่งของปักลงบนพื้นผิว",
+    "tl": "Magtanim, itusok, ipasok; isuot o ilagay ang isang bagay sa isang ibabaw",
+    "ur": "لگانا، گاڑنا، چبھونا؛ کسی چیز کو کسی سطح میں دھکیلنا یا لگانا",
+    "vi": "Cắm, trồng, cắm vào; đẩy hoặc đặt thứ gì đó vào một bề mặt",
+    "zh": "插，种，钉入；将某物插入或植入某个表面",
+    "zh_Hant": "插，種，釘入；將某物插入或植入某個表面"
+  },
+  "definition_en": "To plant, to stick into, to insert; to push or place something into a surface",
+  "romanization": "/pák/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍປັກທຸງໃສ່ດິນໜ່ອຍໄດ້ບໍ",
+      "romanization": "sùaj pák tʰuŋ sài din nɔ̀j dâj bɔɔ",
+      "translation_en": "Can you help me stick the flag into the ground?"
+    },
+    {
+      "lao_script": "ແມ່ປັກຕົ້ນໄມ້ຢູ່ສວນຫຼັງເຮືອນ",
+      "romanization": "mɛɛ pák tôn mâaj yuu sǔan lǎŋ hɯ́an",
+      "translation_en": "Mom is planting trees in the backyard."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person's hands pushing a small plant or flag stick firmly into the soil, with visible dirt around the base, clean white background, colorful, minimalist style suitable for a language learning app."
+}

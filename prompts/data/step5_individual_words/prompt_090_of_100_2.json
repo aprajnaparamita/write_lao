@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທົບ",
+  "definitions": {
+    "de": "Falten, verdoppeln; (Mathematik) multiplizieren",
+    "en": "To fold; to double or multiply (also used in mathematical contexts)",
+    "es": "Doblar, plegar; multiplicar (también en contexto matemático)",
+    "fr": "Plier, doubler; multiplier (aussi en contexte mathématique)",
+    "hi": "मोड़ना, दोगुना करना; गुणा करना (गणितीय संदर्भ में भी)",
+    "ja": "折る、二倍にする；（数学的に）掛け算をする",
+    "km": "បត់, គុណ (លេខ), ធ្វើឲ្យទ្វេដង",
+    "ko": "접다, 두 배로 하다; (수학적으로) 곱하다",
+    "ne": "तह लगाउनु, दोब्बर गर्नु; गुणा गर्नु (गणितीय सन्दर्भमा पनि)",
+    "pt": "Dobrar, multiplicar; (em contexto matemático) multiplicar",
+    "th": "พับ, ทบ, คูณ (ในบริบทคณิตศาสตร์)",
+    "tl": "Tiklop, doblehin; i-multiply (sa kontekstong matematikal)",
+    "ur": "موڑنا، دوگنا کرنا؛ (ریاضیاتی تناظر میں) ضرب دینا",
+    "vi": "Gấp lại, gấp đôi; nhân (trong ngữ cảnh toán học)",
+    "zh": "折叠，翻倍；（数学上）乘法",
+    "zh_Hant": "折疊，翻倍；（數學上）乘法"
+  },
+  "definition_en": "To fold; to double or multiply (also used in mathematical contexts)",
+  "romanization": "thop",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍທົບເຈ້ຍໃຫ້ເປັນສອງທ່ອນໜ່ອຍໄດ້ບໍ",
+      "romanization": "Suai thop jia hai pen song thon noi dai bo",
+      "translation_en": "Can you help fold the paper in half for me?"
+    },
+    {
+      "lao_script": "ສາມທົບສີ່ໄດ້ເທົ່າໃດ?",
+      "romanization": "Sam thop si dai thao dai",
+      "translation_en": "What is three times four?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two steps: a flat sheet of paper on the left, and the same paper being folded in half on the right with dotted fold lines, clean white background, colorful minimalist style suitable for a language learning app."
+}

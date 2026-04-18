@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈິດໃຈ",
+  "definitions": {
+    "de": "Geist/Seele; das innere Bewusstsein, Gefühle und der mentale Zustand einer Person",
+    "en": "Mind/spirit; a person's inner consciousness, feelings, and mental or emotional state",
+    "es": "Mente/espíritu; la conciencia interior, los sentimientos y el estado mental o emocional de una persona",
+    "fr": "Esprit/âme; la conscience intérieure, les sentiments et l'état mental ou émotionnel d'une personne",
+    "hi": "मन/आत्मा; किसी व्यक्ति की आंतरिक चेतना, भावनाएँ और मानसिक या भावनात्मक अवस्था",
+    "ja": "心・精神；人の内なる意識、感情、精神的または感情的な状態",
+    "km": "ចិត្ត/ស្មារតី; ស្មារតីខាងក្នុង អារម្មណ៍ និងស្ថានភាពផ្លូវចិត្តរបស់មនុស្ស",
+    "ko": "마음/정신; 사람의 내면 의식, 감정, 정신적 또는 감정적 상태",
+    "ne": "मन/आत्मा; व्यक्तिको आन्तरिक चेतना, भावना र मानसिक अवस्था",
+    "pt": "Mente/espírito; a consciência interior, os sentimentos e o estado mental ou emocional de uma pessoa",
+    "th": "จิตใจ; ความรู้สึกนึกคิด จิตวิญญาณ และสภาวะทางอารมณ์ภายในของบุคคล",
+    "tl": "Isip/kaluluwa; ang panloob na kamalayan, damdamin, at mental o emosyonal na kalagayan ng isang tao",
+    "ur": "ذہن/روح؛ کسی شخص کا باطنی شعور، جذبات اور ذہنی یا جذباتی کیفیت",
+    "vi": "Tâm trí/tinh thần; ý thức nội tâm, cảm xúc và trạng thái tinh thần hoặc cảm xúc của một người",
+    "zh": "心灵/精神；一个人的内在意识、情感以及心理或情绪状态",
+    "zh_Hant": "心靈/精神；一個人的內在意識、情感以及心理或情緒狀態"
+  },
+  "definition_en": "Mind/spirit; a person's inner consciousness, feelings, and mental or emotional state",
+  "romanization": "ɟit ɟaj",
+  "lao_examples": [
+    {
+      "lao_script": "ຈິດໃຈຂ້ອຍບໍ່ດີມື້ນີ້",
+      "romanization": "jit jai khoi boo dii muu nii",
+      "translation_en": "My spirits aren't good today."
+    },
+    {
+      "lao_script": "ຕ້ອງດູແລຈິດໃຈຕົວເອງດ້ວຍນະ",
+      "romanization": "tong duu laae jit jai tua eng duay na",
+      "translation_en": "You need to take care of your own mental well-being too."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting peacefully in a meditation pose with a soft glowing light around their chest area representing inner spirit or mind, clean white background, warm colors, minimalist style suitable for a language learning app."
+}

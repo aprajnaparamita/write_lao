@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄິດ",
+  "definitions": {
+    "de": "Denken, nachdenken, überlegen; das grundlegende mentale Verb im Laotischen für Gedanken und Überlegungen.",
+    "en": "To think, to consider, to reflect; the essential mental verb in Lao for thoughts and deliberation.",
+    "es": "Pensar, considerar, reflexionar; el verbo mental esencial en lao para pensamientos y deliberaciones.",
+    "fr": "Penser, réfléchir, considérer ; le verbe mental essentiel en laotien pour les pensées et la réflexion.",
+    "hi": "सोचना, विचार करना; लाओ में विचार और चिंतन के लिए मूल मानसिक क्रिया।",
+    "ja": "考える、思う、熟考する；思考や熟慮を表すラオ語の基本的な精神動詞。",
+    "km": "គិត, ពិចារណា; គ្រាប់ពាក្យផ្លូវចិត្តសំខាន់ក្នុងភាសាឡាវសំរាប់ការគិតនិងការពិចារណា។",
+    "ko": "생각하다, 고려하다, 사색하다; 라오어에서 사고와 숙고를 나타내는 필수적인 정신 동사.",
+    "ne": "सोच्नु, विचार गर्नु; लाओ भाषामा विचार र चिन्तनको लागि आवश्यक मानसिक क्रिया।",
+    "pt": "Pensar, considerar, refletir; o verbo mental essencial em lao para pensamentos e deliberações.",
+    "th": "คิด, พิจารณา, ไตร่ตรอง; กริยาทางจิตใจที่สำคัญในภาษาลาวสำหรับความคิดและการใคร่ครวญ",
+    "tl": "Mag-isip, isaalang-alang, pag-isipan; ang mahalagang mental na pandiwa sa wikang Lao para sa pag-iisip at pagmumuni.",
+    "ur": "سوچنا، غور کرنا، تامل کرنا؛ لاؤ زبان میں خیالات اور سوچ کے لیے بنیادی ذہنی فعل۔",
+    "vi": "Nghĩ, suy nghĩ, cân nhắc; động từ tinh thần cơ bản trong tiếng Lào để diễn đạt suy nghĩ và cân nhắc.",
+    "zh": "思考，想，考虑；老挝语中表示思维和思考的基本心理动词。",
+    "zh_Hant": "思考，想，考慮；寮語中表示思維和思考的基本心理動詞。"
+  },
+  "definition_en": "To think, to consider, to reflect; the essential mental verb in Lao for thoughts and deliberation.",
+  "romanization": "kʰít",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຄິດວ່າເຈົ້າເວົ້າຖືກ.",
+      "romanization": "khɔːj kʰít wâː tɕâo wáo tʰɯːk",
+      "translation_en": "I think you're right."
+    },
+    {
+      "lao_script": "ຄິດດີໆກ່ອນຈະຕັດສິນໃຈ.",
+      "romanization": "kʰít diːdiː kɔːn tɕàː tàtsǐntɕaj",
+      "translation_en": "Think carefully before making a decision."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sitting with a thought bubble above their head containing a glowing light bulb, representing deep thinking, clean white background, bright pastel colors, minimalist cartoon style suitable for a language learning app."
+}

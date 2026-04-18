@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວິນາທີ",
+  "definitions": {
+    "de": "Sekunde – die kleinste gebräuchliche Zeiteinheit, ein Sechzigstel einer Minute",
+    "en": "second – a unit of time equal to one-sixtieth of a minute",
+    "es": "segundo – unidad de tiempo equivalente a la sexagésima parte de un minuto",
+    "fr": "seconde – unité de temps égale à un soixantième de minute",
+    "hi": "सेकंड – समय की एक इकाई जो एक मिनट का साठवाँ भाग होती है",
+    "ja": "秒 – 1分の60分の1に相当する時間の単位",
+    "km": "វិនាទី – ឯកតាពេលវេលាស្មើនឹងមួយភាគហុកសិបនៃមួយនាទី",
+    "ko": "초 – 1분의 60분의 1에 해당하는 시간 단위",
+    "ne": "सेकेन्ड – समयको एक इकाई जुन एक मिनेटको साठौं भाग हो",
+    "pt": "segundo – unidade de tempo equivalente a um sessenta avos de um minuto",
+    "th": "วินาที – หน่วยเวลาที่เท่ากับหนึ่งในหกสิบของหนึ่งนาที",
+    "tl": "segundo – yunit ng oras na katumbas ng isang-animnapung bahagi ng isang minuto",
+    "ur": "سیکنڈ – وقت کی ایک اکائی جو ایک منٹ کا ساٹھواں حصہ ہوتی ہے",
+    "vi": "giây – đơn vị thời gian bằng một phần sáu mươi của một phút",
+    "zh": "秒——时间单位，等于一分钟的六十分之一",
+    "zh_Hant": "秒——時間單位，等於一分鐘的六十分之一"
+  },
+  "definition_en": "second – a unit of time equal to one-sixtieth of a minute",
+  "romanization": "winaːtʰiː",
+  "lao_examples": [
+    {
+      "lao_script": "ລໍຖ້າແປບນຶ່ງ ສອງສາມວິນາທີເທົ່ານັ້ນ",
+      "romanization": "lɔː thaː pɛːp nɯŋ sɔːŋ saːm winaːtʰiː thao nan",
+      "translation_en": "Wait a moment, just two or three seconds."
+    },
+    {
+      "lao_script": "ເຂົາແລ່ນໄວຫຼາຍ ຈົນຊະນະພາຍໃນສິບວິນາທີ",
+      "romanization": "khao lɛn waj laːj tɕon saʔnaː phaːj naj sip winaːtʰiː",
+      "translation_en": "He ran so fast that he won within ten seconds."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a large stopwatch or timer displaying a countdown of seconds, with a clear second hand or digital seconds display, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

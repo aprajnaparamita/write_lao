@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈານ",
+  "definitions": {
+    "de": "Teller; ein flaches Gefäß zum Servieren oder Essen von Speisen",
+    "en": "Plate; a flat dish used for serving or eating food",
+    "es": "Plato; recipiente plano usado para servir o comer alimentos",
+    "fr": "Assiette; récipient plat utilisé pour servir ou manger des aliments",
+    "hi": "थाली; खाना परोसने या खाने के लिए उपयोग किया जाने वाला चपटा बर्तन",
+    "ja": "皿；食べ物を盛ったり食べたりするための平たい食器",
+    "km": "ចាន; ថាសសំរាប់ដាក់អាហារ ឬញ៉ាំអាហារ",
+    "ko": "접시; 음식을 담거나 먹을 때 사용하는 납작한 그릇",
+    "ne": "थाली; खाना परोस्न वा खान प्रयोग हुने सपाट भाँडो",
+    "pt": "Prato; utensílio plano usado para servir ou comer alimentos",
+    "th": "จาน; ภาชนะแบนสำหรับใส่หรือรับประทานอาหาร",
+    "tl": "Plato; patag na sisidlan na ginagamit para sa pagserve o pagkain ng pagkain",
+    "ur": "پلیٹ؛ کھانا پیش کرنے یا کھانے کے لیے استعمال ہونے والا چپٹا برتن",
+    "vi": "Đĩa; vật dụng phẳng dùng để đựng hoặc ăn thức ăn",
+    "zh": "盘子；用于盛放或进食食物的平底餐具",
+    "zh_Hant": "盤子；用於盛放或進食食物的平底餐具"
+  },
+  "definition_en": "Plate; a flat dish used for serving or eating food",
+  "romanization": "ɟaːn",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາຈານມາໃຫ້ຂ້ອຍແດ່ເນາະ",
+      "romanization": "ao jaan maa hai khoi dae noh",
+      "translation_en": "Can you pass me the plate?"
+    },
+    {
+      "lao_script": "ຈານນີ້ສະອາດດີແລ້ວ",
+      "romanization": "jaan nii sa-aat dii laew",
+      "translation_en": "This plate is already clean."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clean white ceramic dinner plate viewed from slightly above, suitable for a language learning app, clean white background, colorful minimalist style with a subtle shadow beneath the plate."
+}

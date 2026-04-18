@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສິດ",
+  "definitions": {
+    "de": "Recht, Rechte; eine Befugnis oder ein Anspruch, auf den man gesetzlich oder moralisch Anspruch hat",
+    "en": "Right, rights; a power or entitlement one is legally or morally entitled to",
+    "es": "Derecho, derechos; una facultad o prerrogativa a la que se tiene derecho legal o moral",
+    "fr": "Droit, droits; un pouvoir ou une prérogative à laquelle on a droit légalement ou moralement",
+    "hi": "अधिकार; एक शक्ति या हक जिसका किसी को कानूनी या नैतिक रूप से हकदार होता है",
+    "ja": "権利；法的または道義的に持つ資格や権限",
+    "km": "សិទ្ធិ; អំណាច ឬសិទ្ធិអំណាចដែលមនុស្សម្នាក់មានតាមច្បាប់ ឬសីលធម៌",
+    "ko": "권리; 법적 또는 도덕적으로 가질 자격이 있는 권한이나 자격",
+    "ne": "अधिकार; कानुनी वा नैतिक रूपमा प्राप्त शक्ति वा हक",
+    "pt": "Direito, direitos; uma prerrogativa ou poder ao qual se tem direito legal ou moral",
+    "th": "สิทธิ; อำนาจหรือสิทธิ์ที่มีตามกฎหมายหรือหลักศีลธรรม",
+    "tl": "Karapatan; isang kapangyarihan o pribilehiyo na may karapatang hawakan ng isang tao sa batas o moralidad",
+    "ur": "حق، حقوق؛ ایک اختیار یا استحقاق جو کسی کو قانونی یا اخلاقی طور پر حاصل ہو",
+    "vi": "Quyền, quyền lợi; quyền năng hoặc đặc quyền mà một người được hưởng về mặt pháp lý hoặc đạo đức",
+    "zh": "权利；一个人在法律或道义上有资格拥有的权力或权益",
+    "zh_Hant": "權利；一個人在法律或道義上有資格擁有的權力或權益"
+  },
+  "definition_en": "Right, rights; a power or entitlement one is legally or morally entitled to",
+  "romanization": "sit⁵",
+  "lao_examples": [
+    {
+      "lao_script": "ທຸກຄົນມີສິດສະເໝີພາບ",
+      "romanization": "tʰuk khon miː sit saməːpʰáːp",
+      "translation_en": "Every person has the right to equality."
+    },
+    {
+      "lao_script": "ເຈົ້າມີສິດໂວດໃນການເລືອກຕັ້ງ",
+      "romanization": "tɕâo miː sit woːt naj kaːn lɯ́ak táŋ",
+      "translation_en": "You have the right to vote in the election."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person raising their hand confidently with a glowing shield or badge symbol representing rights and protection, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫວັດ",
+  "definitions": {
+    "de": "Erkältung/Grippe – eine häufige Viruserkrankung mit Symptomen wie laufender Nase, Husten, Fieber und Kopfschmerzen",
+    "en": "Cold/flu – a common viral illness with symptoms such as runny nose, cough, fever, and headache",
+    "es": "Resfriado/gripe – enfermedad viral común con síntomas como nariz mocosa, tos, fiebre y dolor de cabeza",
+    "fr": "Rhume/grippe – maladie virale courante avec des symptômes tels que nez qui coule, toux, fièvre et maux de tête",
+    "hi": "सर्दी/फ्लू – एक सामान्य वायरल बीमारी जिसमें बहती नाक, खाँसी, बुखार और सिरदर्द जैसे लक्षण होते हैं",
+    "ja": "風邪・インフルエンザ – 鼻水、咳、発熱、頭痛などの症状を伴う一般的なウイルス性の病気",
+    "km": "ជំងឺផ្ដាសាយ/គ្រុនផ្ដាសាយ – ជំងឺវីរុសសាមញ្ញដែលមានរោគសញ្ញាដូចជា ហូរទឹកមូរ ក្អក គ្រុនក្ដៅ និងឈឺក្បាល",
+    "ko": "감기/독감 – 콧물, 기침, 발열, 두통 등의 증상을 동반하는 흔한 바이러스성 질환",
+    "ne": "रुघाखोकी/फ्लू – सामान्य भाइरल रोग जसमा नाक बग्ने, खोकी, ज्वरो र टाउको दुख्ने जस्ता लक्षणहरू हुन्छन्",
+    "pt": "Resfriado/gripe – doença viral comum com sintomas como nariz escorrendo, tosse, febre e dor de cabeça",
+    "th": "หวัด/ไข้หวัด – โรคไวรัสที่พบบ่อย มีอาการเช่น น้ำมูกไหล ไอ มีไข้ และปวดหัว",
+    "tl": "Sipon/trangkaso – karaniwang sakit na viral na may mga sintomas tulad ng sipon, ubo, lagnat, at sakit ng ulo",
+    "ur": "نزلہ/فلو – ایک عام وائرل بیماری جس کی علامات میں ناک بہنا، کھانسی، بخار اور سردرد شامل ہیں",
+    "vi": "Cảm lạnh/cúm – bệnh do virus phổ biến với các triệu chứng như sổ mũi, ho, sốt và đau đầu",
+    "zh": "感冒/流感 – 常见的病毒性疾病，症状包括流鼻涕、咳嗽、发烧和头痛",
+    "zh_Hant": "感冒/流感 – 常見的病毒性疾病，症狀包括流鼻涕、咳嗽、發燒和頭痛"
+  },
+  "definition_en": "Cold/flu – a common viral illness with symptoms such as runny nose, cough, fever, and headache",
+  "romanization": "/wat˦˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍເປັນຫວັດ ນ້ຳມູກໄຫຼຕະຫຼອດ",
+      "romanization": "khoi pen wat nam-muk lai ta-lot",
+      "translation_en": "I have a cold, my nose keeps running."
+    },
+    {
+      "lao_script": "ອາກາດປ່ຽນແປງງ່າຍເປັນຫວັດ",
+      "romanization": "a-kat pian-paeng ngai pen wat",
+      "translation_en": "When the weather changes, it's easy to catch a cold."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with a red nose, sneezing or holding a tissue to their nose, with small droplets illustrated around them, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

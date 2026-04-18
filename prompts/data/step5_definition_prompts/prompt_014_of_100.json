@@ -1,0 +1,395 @@
+{
+  "ສາ": {
+    "definitions": {
+      "de": "Präfix-Silbe, die in zusammengesetzten Wörtern verwendet wird, um Konzepte wie Religion, Wissenschaft oder formelle Bereiche auszudrücken (z. B. ສາສະໜາ – Religion, ສາດສະຕາ – Wissenschaft); kaum eigenständig verwendbar",
+      "en": "A bound prefix syllable used in compound words to express concepts related to religion, doctrine, science, or formal domains (e.g., ສາສະໜາ – religion, ສາດສະຕາ – science); rarely used in isolation",
+      "es": "Sílaba prefija ligada que se usa en palabras compuestas para expresar conceptos relacionados con la religión, la doctrina o la ciencia (p. ej., ສາສະໜາ – religión, ສາດສະຕາ – ciencia); raramente se usa de forma independiente",
+      "fr": "Syllabe préfixe liée utilisée dans des mots composés pour exprimer des concepts liés à la religion, la doctrine ou la science (ex. ສາສະໜາ – religion, ສາດສະຕາ – science); rarement utilisée seule",
+      "hi": "एक बंधित उपसर्ग अक्षर जो समास शब्दों में धर्म, सिद्धांत या विज्ञान से संबंधित अवधारणाओं को व्यक्त करने के लिए प्रयुक्त होता है (जैसे ສາສະໜາ – धर्म, ສາດສະຕາ – विज्ञान); अकेले शायद ही कभी प्रयोग किया जाता है",
+      "ja": "複合語の中で宗教・教義・科学などの概念を表すために使われる拘束形態素の接頭辞音節（例：ສາສະໜາ＝宗教、ສາດສະຕາ＝科学）。単独での使用はほぼない",
+      "km": "ព្យាង្គបុព្វបទដែលប្រើក្នុងពាក្យផ្សំដើម្បីបញ្ជាក់គំនិតទាក់ទងនឹងសាសនា ទ្រឹស្ដី ឬវិទ្យាសាស្ត្រ (ឧ. ສາສະໜາ – សាសនា, ສາດສະຕາ – វិទ្យាសាស្ត្រ); កម្រប្រើតែឯង",
+      "ko": "종교, 교리, 과학 등의 개념을 나타내는 복합어에서 사용되는 결합 접두사 음절 (예: ສາສະໜາ – 종교, ສາດສະຕາ – 과학); 단독으로는 거의 사용되지 않음",
+      "ne": "एक बद्ध उपसर्ग शब्दांश जुन संयुक्त शब्दहरूमा धर्म, सिद्धान्त वा विज्ञानसँग सम्बन्धित अवधारणाहरू व्यक्त गर्न प्रयोग गरिन्छ (जस्तै ສາສະໜາ – धर्म, ສາດສະຕາ – विज्ञान); एक्लै प्रायः प्रयोग हुँदैन",
+      "pt": "Sílaba prefixal presa usada em palavras compostas para expressar conceitos relacionados à religião, doutrina ou ciência (ex.: ສາສະໜາ – religião, ສາດສະຕາ – ciência); raramente usada de forma independente",
+      "th": "พยางค์คำนำหน้าที่ผูกติดกับคำอื่น ใช้ในคำประสมเพื่อแสดงแนวคิดเกี่ยวกับศาสนา หลักคำสอน หรือวิทยาศาสตร์ (เช่น ສາສະໜາ – ศาสนา, ສາດສະຕາ – วิทยาศาสตร์) แทบไม่ใช้โดดๆ",
+      "tl": "Isang nakataling unlaping pantig na ginagamit sa mga tambalang salita upang ipahayag ang mga konsepto na may kaugnayan sa relihiyon, doktrina, o agham (hal. ສາສະໜາ – relihiyon, ສາດສະຕາ – agham); bihirang gamitin nang mag-isa",
+      "ur": "ایک مقید سابقہ حرف جو مرکب الفاظ میں مذہب، نظریے یا سائنس سے متعلق تصورات ظاہر کرنے کے لیے استعمال ہوتا ہے (مثلاً ສາສະໜາ – مذہب، ສາດສະຕາ – سائنس)؛ اکیلے شاذ و نادر ہی استعمال ہوتا ہے",
+      "vi": "Âm tiết tiền tố ràng buộc được dùng trong các từ ghép để diễn đạt các khái niệm liên quan đến tôn giáo, giáo lý hoặc khoa học (ví dụ: ສາສະໜາ – tôn giáo, ສາດສະຕາ – khoa học); hiếm khi dùng độc lập",
+      "zh": "一个粘着前缀音节，用于合成词中表达与宗教、教义或科学相关的概念（如 ສາສະໜາ——宗教，ສາດສະຕາ——科学）；几乎不单独使用",
+      "zh_Hant": "一個黏著前綴音節，用於複合詞中表達與宗教、教義或科學相關的概念（如 ສາສະໜາ——宗教，ສາດສະຕາ——科學）；幾乎不單獨使用"
+    },
+    "part_of_speech": "particle",
+    "romanization": "/saː/",
+    "examples": [
+      {
+        "lao_script": "ສາສະໜາຂອງລາວສ່ວນໃຫຍ່ແມ່ນພຸດທະສາສະໜາ",
+        "romanization": "saa-sa-naa khong laao suan nyai maen phut-tha-saa-sa-naa",
+        "translations": {
+          "de": "Die Religion der Laoten ist hauptsächlich der Buddhismus.",
+          "en": "The religion of Lao people is mostly Buddhism.",
+          "es": "La religión de los laosianos es mayormente el budismo.",
+          "fr": "La religion des Laotiens est principalement le bouddhisme.",
+          "hi": "लाओ लोगों का धर्म मुख्यतः बौद्ध धर्म है।",
+          "ja": "ラオス人の宗教はほとんどが仏教です。",
+          "km": "សាសនារបស់ប្រជាជនឡាវភាគច្រើនគឺព្រះពុទ្ធសាសនា។",
+          "ko": "라오스 사람들의 종교는 대부분 불교입니다.",
+          "ne": "लाओ मानिसहरूको धर्म प्रायः बौद्ध धर्म हो।",
+          "pt": "A religião dos laocianos é principalmente o budismo.",
+          "th": "ศาสนาของชาวลาวส่วนใหญ่คือพุทธศาสนา",
+          "tl": "Ang relihiyon ng mga Lao ay karamihang Budismo.",
+          "ur": "لاؤ لوگوں کا مذہب زیادہ تر بدھ مت ہے۔",
+          "vi": "Tôn giáo của người Lào chủ yếu là Phật giáo.",
+          "zh": "老挝人的宗教主要是佛教。",
+          "zh_Hant": "寮國人的宗教主要是佛教。"
+        },
+        "out_of_scope_words": [
+          "ສາສະໜາ",
+          "ພຸດທະສາສະໜາ",
+          "ສ່ວນໃຫຍ່"
+        ]
+      },
+      {
+        "lao_script": "ລາວຮຽນສາດສະຕາຢູ່ໂຮງຮຽນ",
+        "romanization": "laao hian saat-sa-taa yuu hong-hian",
+        "translations": {
+          "de": "Er/Sie lernt Wissenschaft in der Schule.",
+          "en": "He/She studies science at school.",
+          "es": "Él/Ella estudia ciencia en la escuela.",
+          "fr": "Il/Elle étudie les sciences à l'école.",
+          "hi": "वह स्कूल में विज्ञान पढ़ता/पढ़ती है।",
+          "ja": "彼/彼女は学校で科学を勉強しています。",
+          "km": "គាត់រៀនវិទ្យាសាស្ត្រនៅសាលា។",
+          "ko": "그/그녀는 학교에서 과학을 공부합니다.",
+          "ne": "उसले स्कूलमा विज्ञान पढ्छ।",
+          "pt": "Ele/Ela estuda ciência na escola.",
+          "th": "เขา/เธอเรียนวิทยาศาสตร์อยู่ที่โรงเรียน",
+          "tl": "Nag-aaral siya ng agham sa paaralan.",
+          "ur": "وہ اسکول میں سائنس پڑھتا/پڑھتی ہے۔",
+          "vi": "Anh/Cô ấy học khoa học ở trường.",
+          "zh": "他/她在学校学习科学。",
+          "zh_Hant": "他/她在學校學習科學。"
+        },
+        "out_of_scope_words": [
+          "ສາດສະຕາ",
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a Lao Buddhist temple with a monk in orange robes alongside a school with a science book icon, representing the prefix 'sa' found in words for religion and science, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ເງິນ": {
+    "definitions": {
+      "de": "Geld; auch Silber (das Metall). Bezeichnet Währung oder Zahlungsmittel im Alltag sowie das Edelmetall Silber.",
+      "en": "Money; also silver (the metal). Refers to currency or payment in everyday life, as well as the precious metal silver.",
+      "es": "Dinero; también plata (el metal). Se refiere a la moneda o medio de pago en la vida cotidiana, así como al metal precioso plata.",
+      "fr": "Argent (monnaie) ; également argent (le métal). Désigne la monnaie ou le moyen de paiement dans la vie quotidienne, ainsi que le métal précieux argent.",
+      "hi": "पैसा; साथ ही चांदी (धातु)। रोजमर्रा की जिंदगी में मुद्रा या भुगतान के साधन को, तथा कीमती धातु चांदी को दर्शाता है।",
+      "ja": "お金；また銀（金属）。日常生活における通貨や支払い手段、また貴金属の銀を指す。",
+      "km": "ប្រាក់; ក៏ជាប្រាក់ (លោហៈ)។ សំដៅលើរូបិយប័ណ្ណ ឬមធ្យោបាយបង់ប្រាក់ក្នុងជីវិតប្រចាំថ្ងៃ ក៏ដូចជាលោហៈថ្លៃប្រាក់ផងដែរ។",
+      "ko": "돈; 또한 은(금속). 일상생활에서의 통화나 지불 수단, 또는 귀금속인 은을 가리킨다.",
+      "ne": "पैसा; साथै चाँदी (धातु)। दैनिक जीवनमा मुद्रा वा भुक्तानी साधन, साथै बहुमूल्य धातु चाँदीलाई जनाउँछ।",
+      "pt": "Dinheiro; também prata (o metal). Refere-se à moeda ou meio de pagamento na vida cotidiana, bem como ao metal precioso prata.",
+      "th": "เงิน; รวมถึงเงิน (โลหะเงิน) หมายถึงสกุลเงินหรือสื่อกลางการชำระเงินในชีวิตประจำวัน รวมถึงโลหะมีค่าเงิน",
+      "tl": "Pera; pati na rin pilak (ang metal). Tumutukoy sa pera o paraan ng pagbabayad sa pang-araw-araw na buhay, gayundin ang mahalagang metal na pilak.",
+      "ur": "پیسہ؛ نیز چاندی (دھات)۔ روزمرہ زندگی میں کرنسی یا ادائیگی کے ذریعہ، نیز قیمتی دھات چاندی کو ظاہر کرتا ہے۔",
+      "vi": "Tiền; cũng có nghĩa là bạc (kim loại). Chỉ tiền tệ hoặc phương tiện thanh toán trong cuộc sống hàng ngày, cũng như kim loại quý bạc.",
+      "zh": "钱；也指银（金属）。指日常生活中的货币或支付手段，以及贵金属银。",
+      "zh_Hant": "錢；也指銀（金屬）。指日常生活中的貨幣或支付手段，以及貴金屬銀。"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ŋɤ̂n/",
+    "examples": [
+      {
+        "lao_script": "ມີ້ ເງິນ ບໍ? ຢາກໄປກິນເຂົ້າ",
+        "romanization": "mii ngoen boo? yaak pai kin khaao",
+        "translations": {
+          "de": "Hast du Geld? Ich möchte essen gehen.",
+          "en": "Do you have money? I want to go eat.",
+          "es": "¿Tienes dinero? Quiero ir a comer.",
+          "fr": "Tu as de l'argent ? Je veux aller manger.",
+          "hi": "क्या तुम्हारे पास पैसे हैं? मैं खाना खाने जाना चाहता/चाहती हूँ।",
+          "ja": "お金ある？ご飯食べに行きたい。",
+          "km": "មានលុយទេ? ចង់ទៅញ៉ាំបាយ។",
+          "ko": "돈 있어? 밥 먹으러 가고 싶어.",
+          "ne": "पैसा छ? खाना खान जान चाहन्छु।",
+          "pt": "Você tem dinheiro? Quero ir comer.",
+          "th": "มีเงินไหม? อยากไปกินข้าว",
+          "tl": "Mayroon ka bang pera? Gusto kong pumunta kumain.",
+          "ur": "کیا تمہارے پاس پیسے ہیں؟ کھانا کھانے جانا چاہتا/چاہتی ہوں۔",
+          "vi": "Bạn có tiền không? Tôi muốn đi ăn.",
+          "zh": "你有钱吗？我想去吃饭。",
+          "zh_Hant": "你有錢嗎？我想去吃飯。"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເງິນໝົດແລ້ວ ຕ້ອງໄປຖອນອີກ",
+        "romanization": "ngoen mot laeo, tong pai thon iik",
+        "translations": {
+          "de": "Das Geld ist alle, ich muss nochmal abheben gehen.",
+          "en": "The money is gone, I need to go withdraw more.",
+          "es": "Se acabó el dinero, tengo que ir a retirar más.",
+          "fr": "L'argent est épuisé, je dois aller en retirer encore.",
+          "hi": "पैसे खत्म हो गए, और निकालने जाना होगा।",
+          "ja": "お金がなくなった、また引き出しに行かないと。",
+          "km": "ប្រាក់អស់ហើយ ត្រូវទៅដកទៀត។",
+          "ko": "돈이 다 떨어졌어, 다시 인출하러 가야 해.",
+          "ne": "पैसा सकियो, फेरि झिक्न जानुपर्छ।",
+          "pt": "O dinheiro acabou, preciso ir sacar mais.",
+          "th": "เงินหมดแล้ว ต้องไปถอนอีก",
+          "tl": "Ubos na ang pera, kailangan pang pumunta mag-withdraw.",
+          "ur": "پیسے ختم ہو گئے، دوبارہ نکالنے جانا ہوگا۔",
+          "vi": "Hết tiền rồi, phải đi rút thêm thôi.",
+          "zh": "钱花光了，得去再取一些。",
+          "zh_Hant": "錢花光了，得去再提一些。"
+        },
+        "out_of_scope_words": [
+          "ໝົດ",
+          "ຖອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of colorful banknotes and coins scattered on a white background, representing money, with a subtle silver coin to hint at the silver meaning, clean minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຈີນ": {
+    "definitions": {
+      "de": "China (das Land); Chinesisch (die Sprache oder das Volk). Bezeichnet die Volksrepublik China, die chinesische Sprache oder die chinesische Ethnie.",
+      "en": "China (the country); Chinese (the language or people). Refers to the People's Republic of China, the Chinese language, or the Chinese ethnic group.",
+      "es": "China (el país); chino/china (el idioma o el pueblo). Se refiere a la República Popular China, el idioma chino o el grupo étnico chino.",
+      "fr": "Chine (le pays) ; chinois/chinoise (la langue ou le peuple). Désigne la République populaire de Chine, la langue chinoise ou l'ethnie chinoise.",
+      "hi": "चीन (देश); चीनी (भाषा या लोग)। चीन जनवादी गणराज्य, चीनी भाषा, या चीनी जातीय समूह को दर्शाता है।",
+      "ja": "中国（国名）；中国語または中国人。中華人民共和国、中国語、または中国民族を指す。",
+      "km": "ចិន (ប្រទេស); ចិន (ភាសា ឬជនជាតិ)។ សំដៅលើសាធារណរដ្ឋប្រជាមានិតចិន ភាសាចិន ឬក្រុមជនជាតិចិន។",
+      "ko": "중국 (나라); 중국어 또는 중국인. 중화인민공화국, 중국어, 또는 중국 민족을 가리킨다.",
+      "ne": "चीन (देश); चिनियाँ (भाषा वा जनता)। चीन जनवादी गणतन्त्र, चिनियाँ भाषा, वा चिनियाँ जातीय समूहलाई जनाउँछ।",
+      "pt": "China (o país); chinês/chinesa (o idioma ou o povo). Refere-se à República Popular da China, ao idioma chinês ou ao grupo étnico chinês.",
+      "th": "จีน (ประเทศ); ภาษาจีนหรือชาวจีน หมายถึงสาธารณรัฐประชาชนจีน ภาษาจีน หรือกลุ่มชาติพันธุ์จีน",
+      "tl": "Tsina (ang bansa); Tsino/Tsina (ang wika o tao). Tumutukoy sa Republika ng Bayan ng Tsina, ang wikang Tsino, o ang grupong etniko ng mga Tsino.",
+      "ur": "چین (ملک)؛ چینی (زبان یا لوگ)۔ عوامی جمہوریہ چین، چینی زبان، یا چینی نسلی گروہ کو ظاہر کرتا ہے۔",
+      "vi": "Trung Quốc (đất nước); tiếng Trung hoặc người Trung Quốc. Chỉ Cộng hòa Nhân dân Trung Hoa, tiếng Trung Quốc, hoặc dân tộc Trung Hoa.",
+      "zh": "中国（国家）；中文或中国人。指中华人民共和国、中文语言或中国民族。",
+      "zh_Hant": "中國（國家）；中文或中國人。指中華人民共和國、中文語言或中國民族。"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tɕìːn/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍມາຈາກຈີນ",
+        "romanization": "phuean khong khoi maa jaak jiin",
+        "translations": {
+          "de": "Mein Freund/Meine Freundin kommt aus China.",
+          "en": "My friend comes from China.",
+          "es": "Mi amigo/amiga viene de China.",
+          "fr": "Mon ami(e) vient de Chine.",
+          "hi": "मेरा दोस्त चीन से आता/आती है।",
+          "ja": "私の友達は中国から来ています。",
+          "km": "មិត្តរបស់ខ្ញុំមកពីប្រទេសចិន។",
+          "ko": "내 친구는 중국에서 왔어.",
+          "ne": "मेरो साथी चीनबाट आएको/आएकी हो।",
+          "pt": "Meu/Minha amigo/amiga é da China.",
+          "th": "เพื่อนของฉันมาจากจีน",
+          "tl": "Ang kaibigan ko ay mula sa Tsina.",
+          "ur": "میرا دوست چین سے آیا/آئی ہے۔",
+          "vi": "Bạn tôi đến từ Trung Quốc.",
+          "zh": "我的朋友来自中国。",
+          "zh_Hant": "我的朋友來自中國。"
+        },
+        "out_of_scope_words": [
+          "ເພື່ອນ"
+        ]
+      },
+      {
+        "lao_script": "ສິນຄ້ານີ້ເຮັດຢູ່ຈີນ",
+        "romanization": "sin-khaa nii het yuu jiin",
+        "translations": {
+          "de": "Dieses Produkt wurde in China hergestellt.",
+          "en": "This product is made in China.",
+          "es": "Este producto está hecho en China.",
+          "fr": "Ce produit est fabriqué en Chine.",
+          "hi": "यह उत्पाद चीन में बना है।",
+          "ja": "この商品は中国製です。",
+          "km": "ទំនិញនេះផលិតនៅប្រទេសចិន។",
+          "ko": "이 제품은 중국에서 만들어졌어.",
+          "ne": "यो उत्पादन चीनमा बनेको हो।",
+          "pt": "Este produto é feito na China.",
+          "th": "สินค้านี้ทำที่จีน",
+          "tl": "Ang produktong ito ay gawa sa Tsina.",
+          "ur": "یہ مصنوعہ چین میں بنا ہے۔",
+          "vi": "Sản phẩm này được sản xuất ở Trung Quốc.",
+          "zh": "这个产品是中国制造的。",
+          "zh_Hant": "這個產品是中國製造的。"
+        },
+        "out_of_scope_words": [
+          "ສິນຄ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the Chinese flag with red background and yellow stars, next to a small outline map of China, clean white background, minimalist colorful style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຜ່ານ": {
+    "definitions": {
+      "de": "Vorbeigehen; durchgehen; passieren; auch: bestehen (z. B. eine Prüfung); vergehen (von Zeit). Drückt Bewegung durch oder an etwas vorbei aus.",
+      "en": "To pass; to go through; to pass by; also: to pass (e.g., an exam); to elapse (of time). Expresses movement through or past something.",
+      "es": "Pasar; atravesar; pasar por; también: aprobar (p. ej., un examen); transcurrir (del tiempo). Expresa movimiento a través de o más allá de algo.",
+      "fr": "Passer; traverser; passer par; aussi: réussir (p. ex., un examen); s'écouler (du temps). Exprime un mouvement à travers ou au-delà de quelque chose.",
+      "hi": "गुजरना; पार करना; पास होना (जैसे परीक्षा); बीतना (समय का)। किसी चीज से होकर या उसके पास से गुजरने की क्रिया व्यक्त करता है।",
+      "ja": "通る；通り抜ける；過ぎる；合格する（例：試験に）；経過する（時間が）。何かを通り抜けたり、傍らを過ぎたりする動作を表す。",
+      "km": "ឆ្លងកាត់; ទៅកាត់; ជ្រើសរើស (ឧ. ប្រឡង); ហួស (ពេលវេលា)។ បង្ហាញការចលនាឆ្លងកាត់ ឬកន្លងហួស។",
+      "ko": "지나가다; 통과하다; 합격하다 (예: 시험); 경과하다 (시간이). 무언가를 통과하거나 지나치는 동작을 나타낸다.",
+      "ne": "पार गर्नु; भएर जानु; उत्तीर्ण हुनु (जस्तै परीक्षा); बित्नु (समयको)। कुनै चीजबाट वा छेउबाट गुज्रने क्रिया व्यक्त गर्छ।",
+      "pt": "Passar; atravessar; passar por; também: passar (ex.: em um exame); decorrer (do tempo). Expressa movimento através de ou além de algo.",
+      "th": "ผ่าน; ข้ามผ่าน; ผ่านไป; รวมถึง: สอบผ่าน (เช่น การสอบ); ผ่านไป (ของเวลา) แสดงการเคลื่อนที่ผ่านหรือพ้นสิ่งใดสิ่งหนึ่ง",
+      "tl": "Dumaan; lumipas; makapasa (hal. sa pagsusulit); lumipas (ng oras). Nagpapahayag ng galaw sa pamamagitan ng o lampas sa isang bagay.",
+      "ur": "گزرنا؛ سے گزرنا؛ پاس ہونا (جیسے امتحان)؛ گزرنا (وقت کا)۔ کسی چیز سے گزرنے یا پار کرنے کی حرکت ظاہر کرتا ہے۔",
+      "vi": "Đi qua; vượt qua; qua; cũng dùng: thi đậu (ví dụ bài kiểm tra); trôi qua (thời gian). Diễn tả sự chuyển động qua hoặc ngang qua một thứ gì đó.",
+      "zh": "经过；通过；穿过；也指：通过（如考试）；流逝（时间）。表示穿过或经过某物的动作。",
+      "zh_Hant": "經過；通過；穿過；也指：通過（如考試）；流逝（時間）。表示穿過或經過某物的動作。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/pʰàːn/",
+    "examples": [
+      {
+        "lao_script": "ໄປຕາມທາງນີ້ ຜ່ານໂຮງໝໍ ແລ້ວກໍຮອດ",
+        "romanization": "pai taam thaang nii, phaan hong-moo, laeo ko hot",
+        "translations": {
+          "de": "Geh diesen Weg entlang, pass das Krankenhaus, und du bist da.",
+          "en": "Go along this road, pass the hospital, and you'll arrive.",
+          "es": "Ve por este camino, pasa el hospital y ya llegas.",
+          "fr": "Prends cette route, passe devant l'hôpital, et tu arrives.",
+          "hi": "इस रास्ते पर जाओ, अस्पताल के पास से गुजरो, और तुम पहुँच जाओगे।",
+          "ja": "この道を行って、病院を過ぎると着くよ。",
+          "km": "ទៅតាមផ្លូវនេះ ឆ្លងកន្លែងមន្ទីរពេទ្យ ហើយក៏ដល់ហើយ។",
+          "ko": "이 길을 따라가서 병원을 지나면 도착해.",
+          "ne": "यो बाटो हिँडेर अस्पताल पार गर, अनि पुगिन्छ।",
+          "pt": "Vá por este caminho, passe pelo hospital e você chegará.",
+          "th": "ไปตามทางนี้ ผ่านโรงพยาบาล แล้วก็ถึงแล้ว",
+          "tl": "Pumunta sa daang ito, dumaan sa ospital, tapos makakarating ka na.",
+          "ur": "اس راستے پر جاؤ، ہسپتال سے گزرو، اور پہنچ جاؤ گے۔",
+          "vi": "Đi theo con đường này, qua bệnh viện rồi là đến nơi.",
+          "zh": "沿这条路走，经过医院，就到了。",
+          "zh_Hant": "沿這條路走，經過醫院，就到了。"
+        },
+        "out_of_scope_words": [
+          "ໂຮງໝໍ",
+          "ຮອດ"
+        ]
+      },
+      {
+        "lao_script": "ເວລາຜ່ານໄປໄວຫຼາຍ",
+        "romanization": "wee-laa phaan pai waai laai",
+        "translations": {
+          "de": "Die Zeit vergeht so schnell.",
+          "en": "Time passes by so quickly.",
+          "es": "El tiempo pasa muy rápido.",
+          "fr": "Le temps passe tellement vite.",
+          "hi": "समय बहुत तेजी से बीत जाता है।",
+          "ja": "時間が経つのは本当に早い。",
+          "km": "ពេលវេលាកន្លងទៅលឿនណាស់។",
+          "ko": "시간이 정말 빨리 지나가.",
+          "ne": "समय धेरै छिटो बित्छ।",
+          "pt": "O tempo passa muito rápido.",
+          "th": "เวลาผ่านไปเร็วมาก",
+          "tl": "Napakabilis lumipas ng oras.",
+          "ur": "وقت بہت تیزی سے گزر جاتا ہے۔",
+          "vi": "Thời gian trôi qua thật nhanh.",
+          "zh": "时间过得真快。",
+          "zh_Hant": "時間過得真快。"
+        },
+        "out_of_scope_words": [
+          "ເວລາ",
+          "ໄວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person walking through an open doorway or archway, shown from the side, representing the concept of passing through, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃຊ້": {
+    "definitions": {
+      "de": "Benutzen; verwenden; ausgeben (Geld). Bezeichnet den Gebrauch von Werkzeugen, Gegenständen oder Ressourcen sowie das Ausgeben von Geld.",
+      "en": "To use; to make use of; to spend (money). Refers to the act of using tools, objects, or resources, and also spending money.",
+      "es": "Usar; utilizar; gastar (dinero). Se refiere al acto de usar herramientas, objetos o recursos, y también gastar dinero.",
+      "fr": "Utiliser; se servir de; dépenser (de l'argent). Désigne l'acte d'utiliser des outils, des objets ou des ressources, ainsi que dépenser de l'argent.",
+      "hi": "उपयोग करना; इस्तेमाल करना; खर्च करना (पैसा)। उपकरणों, वस्तुओं या संसाधनों का उपयोग करने की क्रिया, तथा पैसा खर्च करने को दर्शाता है।",
+      "ja": "使う；利用する；使用する；（お金を）使う・費やす。道具・物・資源を使う動作、およびお金を使う・使い果たす意味もある。",
+      "km": "ប្រើ; ប្រើប្រាស់; ចំណាយ (ប្រាក់)។ សំដៅលើការប្រើឧបករណ៍ វត្ថុ ឬធនធាន ព្រមទាំងការចំណាយប្រាក់។",
+      "ko": "사용하다; 이용하다; (돈을) 쓰다. 도구, 물건, 자원을 사용하는 행위, 그리고 돈을 쓰는 것을 가리킨다.",
+      "ne": "प्रयोग गर्नु; उपयोग गर्नु; (पैसा) खर्च गर्नु। औजार, वस्तु वा स्रोतहरू प्रयोग गर्ने कार्य, साथै पैसा खर्च गर्नेलाई जनाउँछ।",
+      "pt": "Usar; utilizar; gastar (dinheiro). Refere-se ao ato de usar ferramentas, objetos ou recursos, e também gastar dinheiro.",
+      "th": "ใช้; ใช้งาน; ใช้จ่าย (เงิน) หมายถึงการใช้เครื่องมือ สิ่งของ หรือทรัพยากร รวมถึงการใช้จ่ายเงิน",
+      "tl": "Gamitin; gumamit ng; gumastos (ng pera). Tumutukoy sa pagkilos ng paggamit ng mga kagamitan, bagay, o likas na yaman, at pati na rin ang paggastos ng pera.",
+      "ur": "استعمال کرنا؛ کام میں لانا؛ خرچ کرنا (پیسہ)۔ اوزاروں، اشیاء یا وسائل کے استعمال کی فعل، اور پیسہ خرچ کرنے کو ظاہر کرتا ہے۔",
+      "vi": "Sử dụng; dùng; tiêu (tiền). Chỉ hành động sử dụng công cụ, đồ vật hoặc tài nguyên, cũng như tiêu tiền.",
+      "zh": "使用；用；花（钱）。指使用工具、物品或资源的行为，也指花钱。",
+      "zh_Hant": "使用；用；花（錢）。指使用工具、物品或資源的行為，也指花錢。"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sâj/",
+    "examples": [
+      {
+        "lao_script": "ໃຊ້ໂທລະສັບຂອງຂ້ອຍໄດ້ເລີຍ",
+        "romanization": "sai tho-la-sap khong khoi dai loei",
+        "translations": {
+          "de": "Du kannst ruhig mein Handy benutzen.",
+          "en": "You can go ahead and use my phone.",
+          "es": "Puedes usar mi teléfono sin problema.",
+          "fr": "Tu peux utiliser mon téléphone, vas-y.",
+          "hi": "तुम मेरा फोन इस्तेमाल कर सकते हो, बेझिझक।",
+          "ja": "私のスマホ、使っていいよ。",
+          "km": "ប្រើទូរស័ព្ទរបស់ខ្ញុំបានតែម្ដង។",
+          "ko": "내 핸드폰 써도 돼.",
+          "ne": "मेरो फोन प्रयोग गर्न सक्छौ, हुन्छ।",
+          "pt": "Pode usar meu celular, fique à vontade.",
+          "th": "ใช้โทรศัพท์ของฉันได้เลย",
+          "tl": "Maaari mong gamitin ang aking telepono, sige lang.",
+          "ur": "میرا فون استعمال کر سکتے ہو، بالکل ٹھیک ہے۔",
+          "vi": "Cứ dùng điện thoại của tôi đi.",
+          "zh": "你用我的手机吧，没关系。",
+          "zh_Hant": "你用我的手機吧，沒關係。"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ເດືອນນີ້ ໃຊ້ເງິນຫຼາຍເກີນໄປ",
+        "romanization": "duean nii sai ngoen laai koen pai",
+        "translations": {
+          "de": "Diesen Monat habe ich zu viel Geld ausgegeben.",
+          "en": "This month I spent too much money.",
+          "es": "Este mes gasté demasiado dinero.",
+          "fr": "Ce mois-ci, j'ai dépensé trop d'argent.",
+          "hi": "इस महीने बहुत ज्यादा पैसे खर्च हो गए।",
+          "ja": "今月はお金を使いすぎた。",
+          "km": "ខែនេះ ខ្ញុំចំណាយប្រាក់ច្រើនពេក។",
+          "ko": "이번 달에 돈을 너무 많이 썼어.",
+          "ne": "यो महिना धेरै पैसा खर्च भयो।",
+          "pt": "Esse mês gastei dinheiro demais.",
+          "th": "เดือนนี้ใช้เงินเยอะเกินไป",
+          "tl": "Ngayong buwan, napakalaking pera ang nagastos.",
+          "ur": "اس مہینے بہت زیادہ پیسے خرچ ہو گئے۔",
+          "vi": "Tháng này tiêu tiền nhiều quá.",
+          "zh": "这个月花了太多钱。",
+          "zh_Hant": "這個月花了太多錢。"
+        },
+        "out_of_scope_words": [
+          "ເດືອນ",
+          "ຫຼາຍເກີນໄປ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person using a smartphone with one hand, and holding a coin or banknote in the other hand, representing the dual meaning of 'use' and 'spend', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

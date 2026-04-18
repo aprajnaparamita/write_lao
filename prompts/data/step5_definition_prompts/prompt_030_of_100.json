@@ -1,0 +1,418 @@
+{
+  "ຕື່ມ": {
+    "definitions": {
+      "de": "mehr hinzufügen, nachfüllen, auffüllen",
+      "en": "to add more, to refill, to top up",
+      "es": "agregar más, rellenar, añadir",
+      "fr": "ajouter, remplir à nouveau, compléter",
+      "hi": "और जोड़ना, दोबारा भरना, ऊपर से डालना",
+      "ja": "追加する、足す、補充する",
+      "km": "បន្ថែម, ចាក់បំពេញ, បន្ថែមទៀត",
+      "ko": "더 추가하다, 다시 채우다, 보충하다",
+      "ne": "थप गर्नु, फेरि भर्नु, थपिदिनु",
+      "pt": "adicionar mais, reabastecer, completar",
+      "th": "เติม, เพิ่มเติม, เติมให้เต็ม",
+      "tl": "magdagdag pa, mag-refill, punan",
+      "ur": "مزید شامل کرنا، دوبارہ بھرنا، اضافہ کرنا",
+      "vi": "thêm vào, đổ thêm, bổ sung",
+      "zh": "再加、续杯、添加",
+      "zh_Hant": "再加、續杯、添加"
+    },
+    "part_of_speech": "verb",
+    "romanization": "tɯːm",
+    "examples": [
+      {
+        "lao_script": "ຕື່ມນໍ້າໃຫ້ຂ້ອຍແດ່ເນາະ",
+        "romanization": "tɯːm naːm haː kʰɔːj dɛː nɔ",
+        "translations": {
+          "de": "Füll mir bitte etwas Wasser nach, okay?",
+          "en": "Can you refill my water for me, please?",
+          "es": "¿Me rellenas el agua, por favor?",
+          "fr": "Tu peux me remettre de l'eau, s'il te plaît ?",
+          "hi": "मुझे थोड़ा पानी और दे दो ना?",
+          "ja": "お水を足してもらえる？",
+          "km": "បន្ថែមទឹកឲ្យខ្ញុំផងបានទេ?",
+          "ko": "물 좀 더 채워줄 수 있어?",
+          "ne": "मलाई पानी थप गरिदिनुस् न?",
+          "pt": "Pode me completar a água, por favor?",
+          "th": "เติมน้ำให้ฉันหน่อยได้ไหม?",
+          "tl": "Pwede mo bang dagdagan ng tubig para sa akin?",
+          "ur": "کیا میرے لیے پانی دوبارہ بھر سکتے ہو؟",
+          "vi": "Đổ thêm nước cho mình với nhé?",
+          "zh": "帮我加点水好吗？",
+          "zh_Hant": "幫我加點水好嗎？"
+        },
+        "out_of_scope_words": [
+          "ນໍ້າ",
+          "ແດ່",
+          "ເນາະ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຢາກຕື່ມນໍ້າມັນລົດ",
+        "romanization": "kʰɔːj jaːk tɯːm naːm man lot",
+        "translations": {
+          "de": "Ich möchte das Auto auftanken.",
+          "en": "I want to fill up the car with gas.",
+          "es": "Quiero recargar la gasolina del carro.",
+          "fr": "Je veux faire le plein d'essence.",
+          "hi": "मैं गाड़ी में पेट्रोल भरवाना चाहता हूँ।",
+          "ja": "車のガソリンを補充したい。",
+          "km": "ខ្ញុំចង់ចាក់ប្រេងឡាន។",
+          "ko": "차에 기름을 넣고 싶어.",
+          "ne": "मलाई गाडीमा इन्धन भर्नु छ।",
+          "pt": "Eu quero abastecer o carro.",
+          "th": "ฉันอยากเติมน้ำมันรถ",
+          "tl": "Gusto kong mag-refill ng gasolina ng sasakyan.",
+          "ur": "میں گاڑی میں پیٹرول بھرنا چاہتا ہوں۔",
+          "vi": "Mình muốn đổ thêm xăng cho xe.",
+          "zh": "我想给车加油。",
+          "zh_Hant": "我想給車加油。"
+        },
+        "out_of_scope_words": [
+          "ນໍ້າມັນ",
+          "ລົດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pouring water from a pitcher into a glass to refill it, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແສງ": {
+    "definitions": {
+      "de": "Licht, Helligkeit, Schein",
+      "en": "light, brightness, ray of light",
+      "es": "luz, brillo, resplandor",
+      "fr": "lumière, clarté, rayon de lumière",
+      "hi": "प्रकाश, रोशनी, उजाला",
+      "ja": "光、明かり、光線",
+      "km": "ពន្លឺ,빛, ភ្លឺ",
+      "ko": "빛, 광선, 밝음",
+      "ne": "प्रकाश, उज्यालो, ज्योति",
+      "pt": "luz, brilho, claridade",
+      "th": "แสง, แสงสว่าง, ความสว่าง",
+      "tl": "liwanag, sinag, ilaw",
+      "ur": "روشنی، نور، چمک",
+      "vi": "ánh sáng, tia sáng, ánh",
+      "zh": "光、光线、亮光",
+      "zh_Hant": "光、光線、亮光"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sɛːŋ",
+    "examples": [
+      {
+        "lao_script": "ແສງຕາເວັນສວຍຫຼາຍມື້ນີ້",
+        "romanization": "sɛːŋ taː wen suːaj laːj mɯː niː",
+        "translations": {
+          "de": "Das Sonnenlicht ist heute wirklich schön.",
+          "en": "The sunlight is really beautiful today.",
+          "es": "La luz del sol está muy bonita hoy.",
+          "fr": "La lumière du soleil est vraiment belle aujourd'hui.",
+          "hi": "आज सूरज की रोशनी बहुत सुंदर है।",
+          "ja": "今日の太陽の光は本当にきれいだね。",
+          "km": "ពន្លឺព្រះអាទិត្យថ្ងៃនេះស្រស់ស្អាតណាស់។",
+          "ko": "오늘 햇빛이 정말 예쁘다.",
+          "ne": "आज सूर्यको प्रकाश साह्रै सुन्दर छ।",
+          "pt": "A luz do sol está muito bonita hoje.",
+          "th": "แสงอาทิตย์วันนี้สวยมากเลย",
+          "tl": "Ang sikat ng araw ngayon ay talagang maganda.",
+          "ur": "آج سورج کی روشنی واقعی بہت خوبصورت ہے۔",
+          "vi": "Ánh nắng mặt trời hôm nay đẹp lắm.",
+          "zh": "今天的阳光真的好美。",
+          "zh_Hant": "今天的陽光真的好美。"
+        },
+        "out_of_scope_words": [
+          "ຕາເວັນ",
+          "ສວຍ",
+          "ມື້ນີ້"
+        ]
+      },
+      {
+        "lao_script": "ເປີດໄຟທີ່, ແສງໜ້ອຍເກີນໄປ",
+        "romanization": "pɤːt faj tiː, sɛːŋ nɔːj kɤːn paj",
+        "translations": {
+          "de": "Mach das Licht an, es ist zu dunkel hier.",
+          "en": "Turn on the light, there's not enough light in here.",
+          "es": "Enciende la luz, hay muy poca luz aquí.",
+          "fr": "Allume la lumière, il n'y a pas assez de lumière ici.",
+          "hi": "लाइट जलाओ, यहाँ बहुत कम रोशनी है।",
+          "ja": "電気つけて、光が足りないよ。",
+          "km": "បើកភ្លើងផង, ពន្លឺតិចពេក។",
+          "ko": "불 켜줘, 빛이 너무 부족해.",
+          "ne": "बत्ती बाल्नुस् न, यहाँ प्रकाश धेरै कम छ।",
+          "pt": "Acende a luz, tem pouca luz aqui.",
+          "th": "เปิดไฟหน่อย แสงน้อยเกินไป",
+          "tl": "Buksan mo ang ilaw, kulang ang liwanag dito.",
+          "ur": "لائٹ جلاؤ، یہاں روشنی بہت کم ہے۔",
+          "vi": "Bật đèn lên đi, ánh sáng ít quá.",
+          "zh": "把灯打开嘛，光线太暗了。",
+          "zh_Hant": "把燈打開嘛，光線太暗了。"
+        },
+        "out_of_scope_words": [
+          "ເປີດ",
+          "ໄຟ",
+          "ໜ້ອຍ",
+          "ເກີນໄປ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of bright golden sunlight rays shining through a window into a room, clean white background, warm yellow and orange colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໝົດ": {
+    "definitions": {
+      "de": "alle, aufgebraucht, fertig, nichts mehr übrig",
+      "en": "all gone, finished, used up, completely done",
+      "es": "agotado, terminado, ya no queda nada, acabado",
+      "fr": "épuisé, terminé, fini, il n'en reste plus",
+      "hi": "खत्म हो जाना, सब समाप्त, बिल्कुल खाली",
+      "ja": "なくなった、使い切った、終わった、全部なくなった",
+      "km": "អស់, ហើយ, ផុត, អស់ហើយ",
+      "ko": "다 떨어지다, 다 쓰다, 끝나다, 소진되다",
+      "ne": "सकिनु, सबै सकियो, खाली हुनु",
+      "pt": "acabou, esgotado, não sobrou nada, terminou",
+      "th": "หมด, หมดแล้ว, สิ้น, ใช้หมดแล้ว",
+      "tl": "ubos na, naubos, tapos na, wala nang natira",
+      "ur": "ختم ہونا، سب ختم، کچھ نہیں بچا",
+      "vi": "hết, cạn, xong, không còn gì nữa",
+      "zh": "用完了、没有了、全部用尽",
+      "zh_Hant": "用完了、沒有了、全部用盡"
+    },
+    "part_of_speech": "verb",
+    "romanization": "mot",
+    "examples": [
+      {
+        "lao_script": "ເຂົ້າໝົດແລ້ວ, ຈະເຮັດແນວໃດດີ",
+        "romanization": "kʰaw mot lɛːw, tɕaː het nɛːw daːj diː",
+        "translations": {
+          "de": "Der Reis ist alle, was sollen wir jetzt tun?",
+          "en": "The rice is all gone, what should we do now?",
+          "es": "Se acabó el arroz, ¿qué hacemos ahora?",
+          "fr": "Le riz est épuisé, qu'est-ce qu'on fait maintenant ?",
+          "hi": "चावल खत्म हो गया, अब क्या करें?",
+          "ja": "ご飯がなくなったけど、どうしようか？",
+          "km": "បាយអស់ហើយ, ត្រូវធ្វើដូចម្តេចទៅ?",
+          "ko": "밥이 다 떨어졌는데, 어떡하지?",
+          "ne": "भात सकियो, अब के गर्ने?",
+          "pt": "O arroz acabou, o que fazemos agora?",
+          "th": "ข้าวหมดแล้ว จะทำยังไงดี",
+          "tl": "Ubos na ang kanin, ano na ang gagawin natin?",
+          "ur": "چاول ختم ہو گئے، اب کیا کریں؟",
+          "vi": "Cơm hết rồi, bây giờ phải làm sao?",
+          "zh": "饭吃完了，怎么办啊？",
+          "zh_Hant": "飯吃完了，怎麼辦啊？"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າ",
+          "ແລ້ວ",
+          "ຈະ",
+          "ເຮັດ",
+          "ແນວໃດ"
+        ]
+      },
+      {
+        "lao_script": "ເງິນໝົດແລ້ວ, ຢືມແດ່ໄດ້ບໍ່",
+        "romanization": "ŋɤn mot lɛːw, jɯːm dɛː daːj bɔː",
+        "translations": {
+          "de": "Mein Geld ist weg, kannst du mir etwas leihen?",
+          "en": "My money is all gone, can you lend me some?",
+          "es": "Se me acabó el dinero, ¿me puedes prestar un poco?",
+          "fr": "J'ai plus d'argent, tu peux m'en prêter ?",
+          "hi": "पैसे खत्म हो गए, थोड़े उधार दे सकते हो?",
+          "ja": "お金がなくなったんだけど、貸してもらえる？",
+          "km": "លុយអស់ហើយ, អាចខ្ចីបន្តិចបានទេ?",
+          "ko": "돈이 다 떨어졌는데, 좀 빌려줄 수 있어?",
+          "ne": "पैसा सकियो, अलिकति सापटी दिन सक्छौ?",
+          "pt": "Meu dinheiro acabou, você pode me emprestar um pouco?",
+          "th": "เงินหมดแล้ว ขอยืมหน่อยได้ไหม",
+          "tl": "Wala na akong pera, pwede mo ba akong pautangin?",
+          "ur": "پیسے ختم ہو گئے، کچھ ادھار دے سکتے ہو؟",
+          "vi": "Hết tiền rồi, cho mình mượn chút được không?",
+          "zh": "钱花完了，能借我一点吗？",
+          "zh_Hant": "錢花完了，能借我一點嗎？"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ແລ້ວ",
+          "ຢືມ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an empty bowl and an empty wallet side by side, showing they are completely empty, clean white background, simple cartoon style with muted colors, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໂມງ": {
+    "definitions": {
+      "de": "Uhr, Stunde, Uhrzeit (zum Ablesen der Zeit)",
+      "en": "hour, o'clock, clock (used when telling the time)",
+      "es": "hora, en punto, reloj (para decir la hora)",
+      "fr": "heure, horloge, utilisé pour donner l'heure",
+      "hi": "घड़ी, बजे, घंटा (समय बताने में प्रयोग)",
+      "ja": "時、時計、～時（時刻を言うときに使う）",
+      "km": "ម៉ោង, នាឡិកា, ម៉ោង (ប្រើប្រាស់ក្នុងការប្រាប់ម៉ោង)",
+      "ko": "시, 시계, 시간 (시각을 말할 때 사용)",
+      "ne": "घण्टा, बजे, घडी (समय बताउन प्रयोग गरिन्छ)",
+      "pt": "hora, em ponto, relógio (usado para dizer as horas)",
+      "th": "โมง, นาฬิกา, ชั่วโมง (ใช้บอกเวลา)",
+      "tl": "oras, relo, o'clock (ginagamit sa pagsabi ng oras)",
+      "ur": "گھنٹہ، بجے، گھڑی (وقت بتانے کے لیے استعمال)",
+      "vi": "giờ, đồng hồ, dùng để nói giờ",
+      "zh": "小时、点钟、钟（用于报时）",
+      "zh_Hant": "小時、點鐘、鐘（用於報時）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "moːŋ",
+    "examples": [
+      {
+        "lao_script": "ຕອນນີ້ແມ່ນສີ່ໂມງເຄິ່ງແລ້ວ",
+        "romanization": "tɔːn niː mɛːn siː moːŋ kʰɤŋ lɛːw",
+        "translations": {
+          "de": "Es ist jetzt schon halb fünf.",
+          "en": "It's already four thirty now.",
+          "es": "Ya son las cuatro y media.",
+          "fr": "Il est déjà quatre heures et demie.",
+          "hi": "अभी साढ़े चार बज चुके हैं।",
+          "ja": "もう四時半だよ。",
+          "km": "ឥឡូវជាម៉ោងបួនកន្លះហើយ។",
+          "ko": "지금 벌써 네 시 반이야.",
+          "ne": "अहिले साढे चार बजिसक्यो।",
+          "pt": "Já são quatro e meia agora.",
+          "th": "ตอนนี้สี่โมงครึ่งแล้ว",
+          "tl": "Apat y medya na ngayon.",
+          "ur": "ابھی ساڑھے چار بج گئے ہیں۔",
+          "vi": "Bây giờ đã bốn giờ rưỡi rồi.",
+          "zh": "现在已经四点半了。",
+          "zh_Hant": "現在已經四點半了。"
+        },
+        "out_of_scope_words": [
+          "ຕອນນີ້",
+          "ແມ່ນ",
+          "ສີ່",
+          "ເຄິ່ງ",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ນັດກັນແປດໂມງເຊົ້າເດີ້",
+        "romanization": "nat kan pɛːt moːŋ sâːw dɤː",
+        "translations": {
+          "de": "Lass uns um acht Uhr morgens treffen, okay?",
+          "en": "Let's meet at eight in the morning, alright?",
+          "es": "Quedamos a las ocho de la mañana, ¿de acuerdo?",
+          "fr": "On se retrouve à huit heures du matin, d'accord ?",
+          "hi": "सुबह आठ बजे मिलते हैं, ठीक है?",
+          "ja": "朝八時に待ち合わせしようよ。",
+          "km": "ណាត់ជួបគ្នាម៉ោងប្រាំបីព្រឹកនេះហើយ?",
+          "ko": "아침 여덟 시에 만나자, 응?",
+          "ne": "बिहान आठ बजे भेट गर्ने है?",
+          "pt": "Vamos nos encontrar às oito da manhã, tá?",
+          "th": "นัดกันแปดโมงเช้านะ",
+          "tl": "Magkita tayo ng alas otso ng umaga, okay?",
+          "ur": "صبح آٹھ بجے ملتے ہیں، ٹھیک ہے؟",
+          "vi": "Hẹn nhau tám giờ sáng nhé?",
+          "zh": "我们早上八点见面吧？",
+          "zh_Hant": "我們早上八點見面吧？"
+        },
+        "out_of_scope_words": [
+          "ນັດ",
+          "ກັນ",
+          "ແປດ",
+          "ເຊົ້າ",
+          "ເດີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a round wall clock showing 4:30, with a clean white background, bold clock hands and numbers, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໝາຍ": {
+    "definitions": {
+      "de": "bedeuten, meinen, markieren, ein Zeichen machen",
+      "en": "to mean, to signify, to mark, to indicate",
+      "es": "significar, querer decir, marcar, indicar",
+      "fr": "signifier, vouloir dire, marquer, indiquer",
+      "hi": "मतलब होना, अर्थ होना, चिह्न लगाना",
+      "ja": "意味する、示す、マークする",
+      "km": "មានន័យ, សំដៅ, គូសសញ្ញា, ន័យ",
+      "ko": "의미하다, 뜻하다, 표시하다",
+      "ne": "अर्थ लाग्नु, संकेत गर्नु, चिन्ह लगाउनु",
+      "pt": "significar, querer dizer, marcar, indicar",
+      "th": "หมาย, หมายความว่า, หมายถึง, ทำเครื่องหมาย",
+      "tl": "ibig sabihin, mangahulugan, markahan",
+      "ur": "مطلب ہونا، نشان لگانا، اشارہ کرنا",
+      "vi": "có nghĩa là, muốn nói, đánh dấu",
+      "zh": "意思是、表示、标记",
+      "zh_Hant": "意思是、表示、標記"
+    },
+    "part_of_speech": "verb",
+    "romanization": "maːj",
+    "examples": [
+      {
+        "lao_script": "ຄຳນີ້ໝາຍຄວາມວ່າຫຍັງ",
+        "romanization": "kʰam niː maːj kʰwaːm waː ɲaŋ",
+        "translations": {
+          "de": "Was bedeutet dieses Wort?",
+          "en": "What does this word mean?",
+          "es": "¿Qué significa esta palabra?",
+          "fr": "Qu'est-ce que ce mot signifie ?",
+          "hi": "इस शब्द का क्या मतलब है?",
+          "ja": "この言葉はどういう意味？",
+          "km": "ពាក្យនេះមានន័យថាអ្វី?",
+          "ko": "이 단어는 무슨 뜻이야?",
+          "ne": "यो शब्दको के अर्थ हो?",
+          "pt": "O que significa essa palavra?",
+          "th": "คำนี้หมายความว่าอะไร",
+          "tl": "Ano ang ibig sabihin ng salitang ito?",
+          "ur": "اس لفظ کا کیا مطلب ہے؟",
+          "vi": "Từ này có nghĩa là gì vậy?",
+          "zh": "这个词是什么意思？",
+          "zh_Hant": "這個詞是什麼意思？"
+        },
+        "out_of_scope_words": [
+          "ຄຳ",
+          "ນີ້",
+          "ຄວາມວ່າ",
+          "ຫຍັງ"
+        ]
+      },
+      {
+        "lao_script": "ໝາຍເລກໂທລະສັບຂອງເຈົ້າແມ່ນຫຍັງ",
+        "romanization": "maːj leːk tʰoː la sap kʰɔːŋ tɕâw mɛːn ɲaŋ",
+        "translations": {
+          "de": "Was ist deine Telefonnummer?",
+          "en": "What is your phone number?",
+          "es": "¿Cuál es tu número de teléfono?",
+          "fr": "Quel est ton numéro de téléphone ?",
+          "hi": "तुम्हारा फोन नंबर क्या है?",
+          "ja": "あなたの電話番号は何番？",
+          "km": "លេខទូរស័ព្ទរបស់អ្នកគឺអ្វី?",
+          "ko": "네 전화번호가 뭐야?",
+          "ne": "तिम्रो फोन नम्बर के हो?",
+          "pt": "Qual é o seu número de telefone?",
+          "th": "หมายเลขโทรศัพท์ของคุณคืออะไร",
+          "tl": "Ano ang iyong numero ng telepono?",
+          "ur": "آپ کا فون نمبر کیا ہے؟",
+          "vi": "Số điện thoại của bạn là gì?",
+          "zh": "你的电话号码是多少？",
+          "zh_Hant": "你的電話號碼是多少？"
+        },
+        "out_of_scope_words": [
+          "ເລກ",
+          "ໂທລະສັບ",
+          "ຂອງ",
+          "ເຈົ້າ",
+          "ແມ່ນ",
+          "ຫຍັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a thought bubble showing a question mark next to a written word, indicating asking for the meaning of something, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

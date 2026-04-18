@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄຽງ",
+  "definitions": {
+    "de": "Neben; Seite an Seite; bezeichnet eine Position, bei der sich etwas oder jemand direkt neben etwas anderem befindet",
+    "en": "Beside; alongside; next to; describes a positional relationship where something or someone is directly at the side of another",
+    "es": "Al lado; junto a; describe una relación posicional en la que algo o alguien está directamente al lado de otro",
+    "fr": "À côté de; aux côtés de; décrit une relation positionnelle où quelque chose ou quelqu'un se trouve directement à côté d'autre chose",
+    "hi": "बगल में; साथ-साथ; किसी वस्तु या व्यक्ति की स्थिति का वर्णन करता है जो सीधे दूसरे के पास हो",
+    "ja": "隣に；並んで；何かまたは誰かが別のものの真横にある位置関係を表す",
+    "km": "នៅជិត; នៅជួរ; ពិពណ៌នាទំនាក់ទំនងទីតាំងដែលអ្វីមួយ ឬនរណាម្នាក់នៅជិតអ្វីមួយផ្សេង",
+    "ko": "옆에; 나란히; 어떤 것이나 사람이 다른 것의 바로 옆에 있는 위치 관계를 나타냄",
+    "ne": "छेउमा; छेउछाउ; कुनै वस्तु वा व्यक्ति सीधै अर्कोको छेउमा रहेको स्थान सम्बन्ध वर्णन गर्छ",
+    "pt": "Ao lado; lado a lado; descreve uma relação posicional em que algo ou alguém está diretamente ao lado de outro",
+    "th": "เคียง; ข้างๆ; เคียงข้าง; อธิบายความสัมพันธ์ตำแหน่งที่สิ่งใดสิ่งหนึ่งหรือใครสักคนอยู่ติดกับสิ่งอื่น",
+    "tl": "Katabi; magkakatabi; naglalarawan ng posisyonal na relasyon kung saan ang isang bagay o tao ay direktang nasa tabi ng isa pa",
+    "ur": "برابر میں؛ ساتھ ساتھ؛ ایک ایسی پوزیشنل تعلق کو بیان کرتا ہے جہاں کوئی چیز یا شخص سیدھے دوسرے کے پہلو میں ہو",
+    "vi": "Bên cạnh; sát cạnh; mô tả mối quan hệ vị trí khi một vật hoặc người đứng ngay bên cạnh vật khác",
+    "zh": "旁边；并排；描述某物或某人紧靠另一物体侧面的位置关系",
+    "zh_Hant": "旁邊；並排；描述某物或某人緊靠另一物體側面的位置關係"
+  },
+  "definition_en": "Beside; alongside; next to; describes a positional relationship where something or someone is directly at the side of another",
+  "romanization": "khíang",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນນັ່ງຄຽງກັນຢູ່",
+      "romanization": "phʉn nang khíang gan yuu",
+      "translation_en": "They are sitting side by side."
+    },
+    {
+      "lao_script": "ເຮືອນຂອງຂ້ອຍຢູ່ຄຽງໂຮງຮຽນ",
+      "romanization": "hʉan khong khoi yuu khíang hoong hian",
+      "translation_en": "My house is beside the school."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon characters standing side by side, shoulder to shoulder, smiling at each other, clean white background, colorful and minimalist style, suitable for a language learning app."
+}

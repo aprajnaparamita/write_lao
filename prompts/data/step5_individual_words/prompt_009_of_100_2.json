@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮັບ",
+  "definitions": {
+    "de": "Empfangen; annehmen; entgegennehmen (etwas, das gegeben oder gesendet wird)",
+    "en": "To receive; to accept (something given, sent, or offered)",
+    "es": "Recibir; aceptar (algo que es dado, enviado u ofrecido)",
+    "fr": "Recevoir; accepter (quelque chose de donné, envoyé ou offert)",
+    "hi": "प्राप्त करना; स्वीकार करना (कुछ दिया, भेजा या प्रस्तावित किया गया)",
+    "ja": "受け取る；受け入れる（与えられたもの、送られたものを受け取る）",
+    "km": "ទទួល; ទទួលយក (អ្វីមួយដែលបានផ្តល់ ឬបញ្ជូន)",
+    "ko": "받다; 수락하다 (주어지거나 보내진 것을 받아들이다)",
+    "ne": "प्राप्त गर्नु; स्वीकार गर्नु (दिइएको, पठाइएको वा प्रस्ताव गरिएको कुरा)",
+    "pt": "Receber; aceitar (algo dado, enviado ou oferecido)",
+    "th": "รับ; ยอมรับ (สิ่งที่ถูกให้ ส่ง หรือเสนอมา)",
+    "tl": "Tumanggap; tanggapin (ang isang bagay na ibinibigay, ipinadala, o inaalok)",
+    "ur": "وصول کرنا؛ قبول کرنا (کچھ دیا گیا، بھیجا گیا یا پیش کیا گیا)",
+    "vi": "Nhận; chấp nhận (cái gì đó được đưa ra, gửi đến hoặc cung cấp)",
+    "zh": "接收；接受（收到给予、发送或提供的东西）",
+    "zh_Hant": "接收；接受（收到給予、發送或提供的東西）"
+  },
+  "definition_en": "To receive; to accept (something given, sent, or offered)",
+  "romanization": "hap",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຮັບເງິນຈາກແມ່ແລ້ວ",
+      "romanization": "khôi hap ngoen jàk mæ̀ lǽo",
+      "translation_en": "I already received money from my mom."
+    },
+    {
+      "lao_script": "ເຈົ້າຮັບໂທລະສັບໄດ້ບໍ",
+      "romanization": "jâo hap thólasap dâi bò",
+      "translation_en": "Can you answer the phone?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person with open hands receiving a gift or package from another person, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕອບ",
+  "definitions": {
+    "de": "Antworten; eine Reaktion oder Erwiderung auf eine Frage, Nachricht oder Anfrage geben.",
+    "en": "To answer or reply; to respond to a question, message, or request.",
+    "es": "Responder; dar una respuesta a una pregunta, mensaje o solicitud.",
+    "fr": "Répondre; donner une réponse à une question, un message ou une demande.",
+    "hi": "उत्तर देना; किसी प्रश्न, संदेश या अनुरोध का जवाब देना।",
+    "ja": "答える、返答する；質問・メッセージ・要求に対して反応する。",
+    "km": "ឆ្លើយ; ផ្តល់ចម្លើយដល់សំណួរ សារ ឬសំណើ។",
+    "ko": "대답하다, 답장하다; 질문, 메시지 또는 요청에 응하다.",
+    "ne": "जवाफ दिनु; कुनै प्रश्न, सन्देश वा अनुरोधको उत्तर दिनु।",
+    "pt": "Responder; dar uma resposta a uma pergunta, mensagem ou pedido.",
+    "th": "ตอบ; ให้คำตอบหรือโต้ตอบต่อคำถาม ข้อความ หรือคำขอ",
+    "tl": "Sumagot o tumugon; magbigay ng sagot sa isang tanong, mensahe, o kahilingan.",
+    "ur": "جواب دینا؛ کسی سوال، پیغام یا درخواست کا جواب دینا۔",
+    "vi": "Trả lời; đưa ra phản hồi cho một câu hỏi, tin nhắn hoặc yêu cầu.",
+    "zh": "回答；对问题、消息或请求作出回应。",
+    "zh_Hant": "回答；對問題、訊息或請求作出回應。"
+  },
+  "definition_en": "To answer or reply; to respond to a question, message, or request.",
+  "romanization": "tɔ̀ːp",
+  "lao_examples": [
+    {
+      "lao_script": "ເປັນຫຍັງເຈົ້າບໍ່ຕອບໂທລະສັບເດ?",
+      "romanization": "pen nyang jao boo tɔ̀ːp thoo-la-sap dèː?",
+      "translation_en": "Why didn't you answer the phone?"
+    },
+    {
+      "lao_script": "ຕອບຂ້ອຍຖ້າເຈົ້າຮູ້ຄຳຕອບ",
+      "romanization": "tɔ̀ːp khoi thaa jao huu kham tɔ̀ːp",
+      "translation_en": "Answer me if you know the answer."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person raising their hand to answer a question in a classroom, with a speech bubble indicating a reply, clean white background, colorful minimalist style suitable for a language learning app."
+}

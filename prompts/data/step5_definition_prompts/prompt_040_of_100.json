@@ -1,0 +1,382 @@
+{
+  "ເພື່ອນ": {
+    "definitions": {
+      "de": "Freund/Freundin – eine Person, mit der man eine enge, vertrauensvolle Beziehung hat",
+      "en": "Friend – a person with whom one has a close, trusting relationship",
+      "es": "Amigo/amiga – persona con quien se tiene una relación cercana y de confianza",
+      "fr": "Ami/amie – personne avec qui on entretient une relation proche et de confiance",
+      "hi": "दोस्त – वह व्यक्ति जिसके साथ घनिष्ठ और विश्वासपूर्ण संबंध हो",
+      "ja": "友達・友人 – 親しく信頼できる関係にある人",
+      "km": "មិត្តភក្តិ – មនុស្សដែលមានទំនាក់ទំនងជិតស្និទ្ធ និងទុកចិត្តបាន",
+      "ko": "친구 – 친밀하고 신뢰할 수 있는 관계에 있는 사람",
+      "ne": "साथी/मित्र – जसँग घनिष्ठ र विश्वासयोग्य सम्बन्ध छ त्यस्तो व्यक्ति",
+      "pt": "Amigo/amiga – pessoa com quem se tem uma relação próxima e de confiança",
+      "th": "เพื่อน – บุคคลที่มีความสัมพันธ์ใกล้ชิดและไว้วางใจกัน",
+      "tl": "Kaibigan – isang taong may malapit at mapagkakatiwalaang relasyon",
+      "ur": "دوست – وہ شخص جس کے ساتھ قریبی اور قابل اعتماد تعلق ہو",
+      "vi": "Bạn bè – người có mối quan hệ thân thiết và tin tưởng",
+      "zh": "朋友 – 与自己有亲密、信任关系的人",
+      "zh_Hant": "朋友 – 與自己有親密、信任關係的人"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/pʰɯ̂an/",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນຂອງຂ້ອຍຊື່ວ່າ ສົມ",
+        "romanization": "pheuan khong khoi seu wa Som",
+        "translations": {
+          "de": "Mein Freund heißt Som.",
+          "en": "My friend's name is Som.",
+          "es": "Mi amigo se llama Som.",
+          "fr": "Mon ami s'appelle Som.",
+          "hi": "मेरे दोस्त का नाम सोम है।",
+          "ja": "私の友達の名前はソムです。",
+          "km": "មិត្តរបស់ខ្ញុំឈ្មោះ សំ។",
+          "ko": "내 친구 이름은 솜이야.",
+          "ne": "मेरो साथीको नाम सोम हो।",
+          "pt": "O meu amigo se chama Som.",
+          "th": "เพื่อนของฉันชื่อสม",
+          "tl": "Ang pangalan ng aking kaibigan ay Som.",
+          "ur": "میرے دوست کا نام سوم ہے۔",
+          "vi": "Bạn của tôi tên là Som.",
+          "zh": "我朋友叫索姆。",
+          "zh_Hant": "我朋友叫索姆。"
+        },
+        "out_of_scope_words": [
+          "ສົມ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ນີ້ຂ້ອຍໄປຫາເພື່ອນ",
+        "romanization": "meu nii khoi pai ha pheuan",
+        "translations": {
+          "de": "Heute gehe ich zu meinem Freund.",
+          "en": "Today I'm going to visit my friend.",
+          "es": "Hoy voy a ver a mi amigo.",
+          "fr": "Aujourd'hui je vais voir mon ami.",
+          "hi": "आज मैं अपने दोस्त से मिलने जा रहा हूँ।",
+          "ja": "今日は友達のところに行きます。",
+          "km": "ថ្ងៃនេះខ្ញុំទៅជួបមិត្ត។",
+          "ko": "오늘 나는 친구한테 가.",
+          "ne": "आज म साथीलाई भेट्न जाँदैछु।",
+          "pt": "Hoje eu vou visitar meu amigo.",
+          "th": "วันนี้ฉันไปหาเพื่อน",
+          "tl": "Ngayon pupunta ako sa aking kaibigan.",
+          "ur": "آج میں اپنے دوست سے ملنے جا رہا ہوں۔",
+          "vi": "Hôm nay tôi đi thăm bạn.",
+          "zh": "今天我去找朋友。",
+          "zh_Hant": "今天我去找朋友。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two smiling children or young adults standing side by side with their arms around each other's shoulders, representing friendship, clean white background, bright cheerful colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແມ່": {
+    "definitions": {
+      "de": "Mutter – die weibliche Elternteil; eine Frau, die ein Kind geboren hat oder großzieht",
+      "en": "Mother – a woman who has given birth to or raised a child; a female parent",
+      "es": "Madre – mujer que ha dado a luz o criado a un hijo; progenitora femenina",
+      "fr": "Mère – femme qui a donné naissance à un enfant ou qui l'élève; parent féminin",
+      "hi": "माँ – वह महिला जिसने बच्चे को जन्म दिया हो या उसकी परवरिश की हो; महिला अभिभावक",
+      "ja": "お母さん・母 – 子どもを産んだり育てたりする女性; 母親",
+      "km": "ម្តាយ – ស្ត្រីដែលបានផ្តល់កំណើត ឬចិញ្ចឹមកូន; មាតាបិតាស្ត្រី",
+      "ko": "어머니/엄마 – 아이를 낳거나 키우는 여성; 여성 부모",
+      "ne": "आमा – बच्चालाई जन्म दिने वा हुर्काउने महिला; महिला अभिभावक",
+      "pt": "Mãe – mulher que deu à luz ou criou um filho; progenitora feminina",
+      "th": "แม่ – ผู้หญิงที่ให้กำเนิดหรือเลี้ยงดูลูก; ผู้ปกครองหญิง",
+      "tl": "Ina/Nanay – babae na nagsilang o nagpalaki ng anak; babaeng magulang",
+      "ur": "ماں – وہ عورت جس نے بچے کو جنم دیا یا پالا ہو; مادری سرپرست",
+      "vi": "Mẹ – người phụ nữ đã sinh ra hoặc nuôi dưỡng một đứa trẻ; người mẹ",
+      "zh": "妈妈/母亲 – 生育或抚养孩子的女性；母亲",
+      "zh_Hant": "媽媽/母親 – 生育或撫養孩子的女性；母親"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/mɛ̂ː/",
+    "examples": [
+      {
+        "lao_script": "ແມ່ຂອງຂ້ອຍເຮັດອາຫານອ່ອຍ",
+        "romanization": "mae khong khoi het a-han oi",
+        "translations": {
+          "de": "Meine Mutter kocht lecker.",
+          "en": "My mother cooks delicious food.",
+          "es": "Mi madre cocina delicioso.",
+          "fr": "Ma mère cuisine délicieusement.",
+          "hi": "मेरी माँ स्वादिष्ट खाना बनाती है।",
+          "ja": "私のお母さんは美味しい料理を作ります。",
+          "km": "ម្តាយរបស់ខ្ញុំចំអិនម្ហូបឆ្ងាញ់។",
+          "ko": "우리 엄마는 맛있는 음식을 만들어.",
+          "ne": "मेरी आमाले मिठो खाना बनाउनुहुन्छ।",
+          "pt": "Minha mãe cozinha uma comida deliciosa.",
+          "th": "แม่ของฉันทำอาหารอร่อย",
+          "tl": "Ang nanay ko ay nagluluto ng masarap.",
+          "ur": "میری ماں بہت لذیذ کھانا پکاتی ہیں۔",
+          "vi": "Mẹ tôi nấu ăn rất ngon.",
+          "zh": "我妈妈做的饭很好吃。",
+          "zh_Hant": "我媽媽做的飯很好吃。"
+        },
+        "out_of_scope_words": [
+          "ອ່ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຮັກແມ່ຫຼາຍ",
+        "romanization": "khoi hak mae lai",
+        "translations": {
+          "de": "Ich liebe meine Mutter sehr.",
+          "en": "I love my mother very much.",
+          "es": "Quiero mucho a mi madre.",
+          "fr": "J'aime beaucoup ma mère.",
+          "hi": "मैं अपनी माँ से बहुत प्यार करता/करती हूँ।",
+          "ja": "私はお母さんがとても好きです。",
+          "km": "ខ្ញុំស្រឡាញ់ម្តាយខ្លាំងណាស់។",
+          "ko": "나는 엄마를 많이 사랑해.",
+          "ne": "मैले आमालाई धेरै माया गर्छु।",
+          "pt": "Eu amo muito minha mãe.",
+          "th": "ฉันรักแม่มาก",
+          "tl": "Mahal na mahal ko ang aking nanay.",
+          "ur": "میں اپنی ماں سے بہت محبت کرتا/کرتی ہوں۔",
+          "vi": "Tôi rất yêu mẹ.",
+          "zh": "我非常爱我的妈妈。",
+          "zh_Hant": "我非常愛我的媽媽。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a warm, smiling woman gently hugging a young child, representing a mother and child bond, clean white background, soft warm colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມື້": {
+    "definitions": {
+      "de": "Tag – ein Zeitraum von 24 Stunden; auch verwendet für 'heute' oder einen bestimmten Tag im Alltag",
+      "en": "Day – a period of 24 hours; used in spoken Lao to refer to a day or a particular time/occasion",
+      "es": "Día – período de 24 horas; usado en lao hablado para referirse a un día o momento específico",
+      "fr": "Jour – période de 24 heures; utilisé en laotien parlé pour désigner un jour ou une occasion particulière",
+      "hi": "दिन – 24 घंटे की अवधि; बोली जाने वाली लाओ भाषा में किसी दिन या विशेष अवसर के लिए प्रयुक्त",
+      "ja": "日（ひ）・一日 – 24時間の期間; 話し言葉のラオ語で特定の日や場面を指すのに使われる",
+      "km": "ថ្ងៃ – រយៈពេល ២៤ ម៉ោង; ប្រើក្នុងភាសាឡាវនិយាយដើម្បីសំដៅទៅលើថ្ងៃ ឬឱកាសជាក់លាក់",
+      "ko": "날/하루 – 24시간의 기간; 구어 라오어에서 특정 날이나 때를 가리킬 때 사용",
+      "ne": "दिन – २४ घन्टाको अवधि; बोलिने लाओ भाषामा कुनै दिन वा विशेष अवसर जनाउन प्रयोग हुन्छ",
+      "pt": "Dia – período de 24 horas; usado no lao falado para se referir a um dia ou ocasião específica",
+      "th": "วัน – ช่วงเวลา 24 ชั่วโมง; ใช้ในภาษาลาวพูดเพื่อหมายถึงวันหนึ่งหรือโอกาสเฉพาะ",
+      "tl": "Araw – isang panahon na 24 na oras; ginagamit sa sinasalitang Lao para tumukoy sa isang araw o partikular na okasyon",
+      "ur": "دن – 24 گھنٹوں کی مدت؛ بولی جانے والی لاؤ میں کسی دن یا خاص موقع کے لیے استعمال ہوتا ہے",
+      "vi": "Ngày – khoảng thời gian 24 giờ; dùng trong tiếng Lào nói để chỉ một ngày hoặc dịp cụ thể",
+      "zh": "天/日 – 24小时的时间段；在口语老挝语中用于指某一天或特定时刻",
+      "zh_Hant": "天/日 – 24小時的時間段；在口語老撾語中用於指某一天或特定時刻"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/mɯ̂ː/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ອາກາດດີຫຼາຍ",
+        "romanization": "meu nii a-gat dii lai",
+        "translations": {
+          "de": "Das Wetter ist heute sehr schön.",
+          "en": "The weather is really nice today.",
+          "es": "El clima está muy agradable hoy.",
+          "fr": "Il fait très beau temps aujourd'hui.",
+          "hi": "आज मौसम बहुत अच्छा है।",
+          "ja": "今日はとても天気がいいです。",
+          "km": "ថ្ងៃនេះអាកាសធាតុល្អណាស់។",
+          "ko": "오늘 날씨가 정말 좋아.",
+          "ne": "आज मौसम धेरै राम्रो छ।",
+          "pt": "O tempo está muito bom hoje.",
+          "th": "วันนี้อากาศดีมาก",
+          "tl": "Napakaganda ng panahon ngayon.",
+          "ur": "آج موسم بہت اچھا ہے۔",
+          "vi": "Hôm nay thời tiết rất đẹp.",
+          "zh": "今天天气很好。",
+          "zh_Hant": "今天天氣很好。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ"
+        ]
+      },
+      {
+        "lao_script": "ມື້ວານນີ້ຂ້ອຍໄປຕະຫຼາດ",
+        "romanization": "meu van nii khoi pai ta-lat",
+        "translations": {
+          "de": "Gestern bin ich auf den Markt gegangen.",
+          "en": "Yesterday I went to the market.",
+          "es": "Ayer fui al mercado.",
+          "fr": "Hier, je suis allé(e) au marché.",
+          "hi": "कल मैं बाज़ार गया/गई था/थी।",
+          "ja": "昨日は市場に行きました。",
+          "km": "ម្សិលមិញខ្ញុំទៅផ្សារ។",
+          "ko": "어제 나는 시장에 갔어.",
+          "ne": "हिजो म बजार गएको थिएँ।",
+          "pt": "Ontem eu fui ao mercado.",
+          "th": "เมื่อวานฉันไปตลาด",
+          "tl": "Kahapon pumunta ako sa palengke.",
+          "ur": "کل میں بازار گیا/گئی تھا/تھی۔",
+          "vi": "Hôm qua tôi đi chợ.",
+          "zh": "昨天我去了市场。",
+          "zh_Hant": "昨天我去了市場。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright sunny day with a calendar page showing a single day, a sun in the sky, and soft daytime colors, clean white background, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລູກ": {
+    "definitions": {
+      "de": "Kind – ein junger Mensch; Sohn oder Tochter; auch als Zählwort für runde Objekte wie Früchte verwendet",
+      "en": "Child – a young person; one's son or daughter; also used as a classifier for round objects like fruit",
+      "es": "Hijo/hija; niño/niña – persona joven; también usado como clasificador para objetos redondos como frutas",
+      "fr": "Enfant; fils/fille – jeune personne; également utilisé comme classificateur pour des objets ronds comme les fruits",
+      "hi": "बच्चा; बेटा/बेटी – एक युवा व्यक्ति; गोल वस्तुओं जैसे फलों के लिए वर्गीकारक के रूप में भी प्रयुक्त",
+      "ja": "子ども・息子・娘 – 若い人; 丸い物（果物など）の数え方としても使われる",
+      "km": "កូន – មនុស្សវ័យក្មេង; កូនប្រុស ឬកូនស្រី; ប្រើជាលេខរៀបសម្រាប់វត្ថុមូលដូចផ្លែឈើ",
+      "ko": "아이; 자녀 – 어린 사람; 아들이나 딸; 과일 같은 둥근 물건의 분류사로도 사용",
+      "ne": "बच्चा; छोरा/छोरी – युवा व्यक्ति; फलफूल जस्ता गोलाकार वस्तुहरूको वर्गीकारकको रूपमा पनि प्रयोग हुन्छ",
+      "pt": "Filho/filha; criança – pessoa jovem; também usado como classificador para objetos redondos como frutas",
+      "th": "ลูก – เด็ก; ลูกชายหรือลูกสาว; ยังใช้เป็นลักษณนามสำหรับของกลม เช่น ผลไม้",
+      "tl": "Anak; bata – isang batang tao; anak na lalaki o babae; ginagamit din bilang pantukoy para sa mga bilugang bagay tulad ng prutas",
+      "ur": "بچہ؛ بیٹا/بیٹی – ایک کم عمر شخص؛ گول اشیاء جیسے پھلوں کے لیے درجہ بندی کے طور پر بھی استعمال",
+      "vi": "Con; đứa trẻ – người trẻ; con trai hoặc con gái; cũng dùng làm loại từ cho các vật tròn như trái cây",
+      "zh": "孩子；子女 – 年幼的人；儿子或女儿；也用作圆形物体如水果的量词",
+      "zh_Hant": "孩子；子女 – 年幼的人；兒子或女兒；也用作圓形物體如水果的量詞"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lûːk/",
+    "examples": [
+      {
+        "lao_script": "ລູກຂອງຂ້ອຍຍັງນ້ອຍຢູ່",
+        "romanization": "luk khong khoi yang noi yu",
+        "translations": {
+          "de": "Mein Kind ist noch klein.",
+          "en": "My child is still young.",
+          "es": "Mi hijo/hija todavía es pequeño/a.",
+          "fr": "Mon enfant est encore petit(e).",
+          "hi": "मेरा बच्चा अभी छोटा है।",
+          "ja": "私の子どもはまだ小さいです。",
+          "km": "កូនរបស់ខ្ញុំនៅតូចនៅឡើយ។",
+          "ko": "내 아이는 아직 어려.",
+          "ne": "मेरो बच्चा अझै सानो छ।",
+          "pt": "Meu filho/minha filha ainda é pequeno(a).",
+          "th": "ลูกของฉันยังเล็กอยู่",
+          "tl": "Ang anak ko ay bata pa.",
+          "ur": "میرا بچہ ابھی چھوٹا ہے۔",
+          "vi": "Con tôi vẫn còn nhỏ.",
+          "zh": "我的孩子还很小。",
+          "zh_Hant": "我的孩子還很小。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ລູກຂອງເພື່ອນຂ້ອຍຮຽນເກັ່ງ",
+        "romanization": "luk khong pheuan khoi hian keng",
+        "translations": {
+          "de": "Das Kind meines Freundes ist sehr gut in der Schule.",
+          "en": "My friend's child is a great student.",
+          "es": "El hijo/la hija de mi amigo/a es muy buen/a estudiante.",
+          "fr": "L'enfant de mon ami(e) est très bon(ne) à l'école.",
+          "hi": "मेरे दोस्त का बच्चा पढ़ाई में बहुत अच्छा है।",
+          "ja": "私の友達の子どもはとても勉強ができます。",
+          "km": "កូនរបស់មិត្តខ្ញុំពូកែរៀន។",
+          "ko": "내 친구 아이는 공부를 잘해.",
+          "ne": "मेरो साथीको बच्चा पढाइमा राम्रो छ।",
+          "pt": "O filho/a filha do meu amigo/da minha amiga é muito bom/boa nos estudos.",
+          "th": "ลูกของเพื่อนฉันเรียนเก่ง",
+          "tl": "Ang anak ng aking kaibigan ay magaling sa pag-aaral.",
+          "ur": "میرے دوست کا بچہ پڑھائی میں بہت اچھا ہے۔",
+          "vi": "Con của bạn tôi học rất giỏi.",
+          "zh": "我朋友的孩子学习很好。",
+          "zh_Hant": "我朋友的孩子學習很好。"
+        },
+        "out_of_scope_words": [
+          "ຮຽນ",
+          "ເກັ່ງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a happy young child with a big smile, wearing colorful clothes, standing with arms slightly outstretched in a cheerful pose, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລົມ": {
+    "definitions": {
+      "de": "Wind (Natur) / plaudern, sich unterhalten (umgangssprachlich) – je nach Kontext: ein Luftzug oder das Reden mit jemandem auf entspannte Weise",
+      "en": "Wind (nature) / to chat, to talk casually (colloquial) – depending on context: a natural breeze or having a relaxed conversation with someone",
+      "es": "Viento (naturaleza) / charlar, conversar (coloquial) – según el contexto: una brisa natural o una conversación relajada con alguien",
+      "fr": "Vent (nature) / bavarder, discuter (familier) – selon le contexte: une brise naturelle ou une conversation détendue avec quelqu'un",
+      "hi": "हवा (प्रकृति) / बातें करना, गपशप करना (बोलचाल) – संदर्भ के अनुसार: प्राकृतिक हवा या किसी के साथ हल्की बातचीत",
+      "ja": "風（自然）/ おしゃべりする（口語） – 文脈によって：自然の風、またはリラックスした会話をすること",
+      "km": "ខ្យល់ (ធម្មជាតិ) / និយាយលេង, គូស (ភាសាចេញ) – អាស្រ័យតាមបរិបទ: ខ្យល់ធម្មជាតិ ឬការសន្ទនាស្រួលៗ",
+      "ko": "바람 (자연) / 수다 떨다, 가볍게 이야기하다 (구어) – 문맥에 따라: 자연의 바람 또는 편안한 대화",
+      "ne": "हावा (प्रकृति) / कुराकानी गर्नु, गफ गर्नु (बोलचाल) – सन्दर्भ अनुसार: प्राकृतिक हावा वा कसैसँग सहज कुराकानी",
+      "pt": "Vento (natureza) / conversar, bater papo (coloquial) – dependendo do contexto: uma brisa natural ou uma conversa descontraída",
+      "th": "ลม (ธรรมชาติ) / คุย, พูดคุยเล่นๆ (ภาษาพูด) – ขึ้นอยู่กับบริบท: ลมธรรมชาติ หรือการสนทนาอย่างสบายๆ",
+      "tl": "Hangin (kalikasan) / makipag-usap, makipagkuwentuhan (kolokyal) – depende sa konteksto: natural na hangin o kaswal na pakikipag-usap",
+      "ur": "ہوا (فطرت) / گپ شپ کرنا، باتیں کرنا (عامیانہ) – سیاق و سباق کے مطابق: قدرتی ہوا یا کسی کے ساتھ سہل گفتگو",
+      "vi": "Gió (thiên nhiên) / tán gẫu, trò chuyện (thông thường) – tùy theo ngữ cảnh: gió tự nhiên hoặc cuộc trò chuyện thoải mái",
+      "zh": "风（自然）/ 闲聊、聊天（口语）— 根据语境：自然界的风，或与某人进行轻松的交谈",
+      "zh_Hant": "風（自然）/ 閒聊、聊天（口語）— 根據語境：自然界的風，或與某人進行輕鬆的交談"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lom/",
+    "examples": [
+      {
+        "lao_script": "ລົມແຮງຫຼາຍມື້ນີ້",
+        "romanization": "lom haeng lai meu nii",
+        "translations": {
+          "de": "Heute ist es sehr windig.",
+          "en": "It's very windy today.",
+          "es": "Hoy hace mucho viento.",
+          "fr": "Il y a beaucoup de vent aujourd'hui.",
+          "hi": "आज बहुत तेज़ हवा है।",
+          "ja": "今日はとても風が強いです。",
+          "km": "ខ្យល់បក់ខ្លាំងណាស់ថ្ងៃនេះ។",
+          "ko": "오늘 바람이 많이 불어.",
+          "ne": "आज धेरै हावा छ।",
+          "pt": "Está muito ventoso hoje.",
+          "th": "วันนี้ลมแรงมาก",
+          "tl": "Napalakas ng hangin ngayon.",
+          "ur": "آج بہت تیز ہوا ہے۔",
+          "vi": "Hôm nay gió thổi rất mạnh.",
+          "zh": "今天风很大。",
+          "zh_Hant": "今天風很大。"
+        },
+        "out_of_scope_words": [
+          "ແຮງ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍໄປລົມກັບເພື່ອນຢູ່ຕະຫຼາດ",
+        "romanization": "khoi pai lom kap pheuan yu ta-lat",
+        "translations": {
+          "de": "Ich bin gegangen, um mit meinem Freund auf dem Markt zu plaudern.",
+          "en": "I went to chat with my friend at the market.",
+          "es": "Fui a charlar con mi amigo/a en el mercado.",
+          "fr": "Je suis allé(e) discuter avec mon ami(e) au marché.",
+          "hi": "मैं बाज़ार में अपने दोस्त से बातें करने गया/गई।",
+          "ja": "市場で友達とおしゃべりしに行きました。",
+          "km": "ខ្ញុំទៅនិយាយលេងជាមួយមិត្តនៅផ្សារ។",
+          "ko": "나는 시장에서 친구랑 수다 떨러 갔어.",
+          "ne": "म बजारमा साथीसँग कुराकानी गर्न गएँ।",
+          "pt": "Fui conversar com meu amigo/minha amiga no mercado.",
+          "th": "ฉันไปคุยกับเพื่อนที่ตลาด",
+          "tl": "Pumunta ako para makipag-usap sa aking kaibigan sa palengke.",
+          "ur": "میں بازار میں اپنے دوست سے گپ شپ کرنے گیا/گئی۔",
+          "vi": "Tôi đi tán gẫu với bạn ở chợ.",
+          "zh": "我去市场找朋友聊天。",
+          "zh_Hant": "我去市場找朋友聊天。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two small panels: on the left, trees and grass blowing in the wind representing 'wind'; on the right, two smiling cartoon friends sitting together talking happily representing 'chat', clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

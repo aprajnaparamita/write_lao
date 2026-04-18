@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂີດ",
+  "definitions": {
+    "de": "Eine Linie ziehen oder ein Zeichen machen; einen Strich machen",
+    "en": "To draw a line, make a mark, or scratch a surface; a line or mark",
+    "es": "Trazar una línea, hacer una marca o rayar una superficie; una raya o marca",
+    "fr": "Tracer une ligne, faire une marque ou rayer une surface ; une ligne ou marque",
+    "hi": "एक रेखा खींचना, निशान लगाना, या किसी सतह पर खरोंचना; एक रेखा या निशान",
+    "ja": "線を引く、印をつける、または表面に傷をつける；線や印",
+    "km": "ការគូរបន្ទាត់ ធ្វើសញ្ញា ឬកោសសម្រាប់លើផ្ទៃមួយ; បន្ទាត់ ឬសញ្ញា",
+    "ko": "선을 긋거나 표시를 하거나 표면을 긁다; 선 또는 표시",
+    "ne": "रेखा कोर्नु, चिन्ह लगाउनु, वा सतहमा खरोंच्नु; एक रेखा वा चिन्ह",
+    "pt": "Desenhar uma linha, fazer uma marca ou riscar uma superfície; uma linha ou marca",
+    "th": "การขีดเส้น ทำเครื่องหมาย หรือขูดบนพื้นผิว; เส้นหรือเครื่องหมาย",
+    "tl": "Gumuhit ng linya, gumawa ng marka, o kumalmot ng ibabaw; isang linya o marka",
+    "ur": "ایک لکیر کھینچنا، نشان لگانا، یا کسی سطح کو کھرچنا؛ ایک لکیر یا نشان",
+    "vi": "Vẽ một đường thẳng, đánh dấu, hoặc gạch lên bề mặt; một đường kẻ hoặc dấu",
+    "zh": "画线、做标记或划刻表面；一条线或标记",
+    "zh_Hant": "畫線、做標記或劃刻表面；一條線或標記"
+  },
+  "definition_en": "To draw a line, make a mark, or scratch a surface; a line or mark",
+  "romanization": "kʰiːt",
+  "lao_examples": [
+    {
+      "lao_script": "ຂີດເສັ້ນຕ່ຳໆເທິງເຈ້ຍດ້ວຍດິນສໍເລີຍ",
+      "romanization": "kʰiːt sên tàm tàm tʰəːŋ tɕîa dûaj din sɔː ləːj",
+      "translation_en": "Just draw a light line on the paper with a pencil"
+    },
+    {
+      "lao_script": "ຢ່າຂີດຝາເດີ້ ແມ່ຈະໂກດ",
+      "romanization": "jaː kʰiːt faː dəː mɛː tɕaʔ koːt",
+      "translation_en": "Don't draw on the wall, Mom will be angry"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand holding a pencil drawing a straight line on white paper, with a small checkmark or tick mark nearby, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,367 @@
+{
+  "ທີ": {
+    "definitions": {
+      "de": "Ordinalzahlmarker; Mal/Gelegenheit",
+      "en": "ordinal number marker; time/occasion",
+      "es": "marcador ordinal; vez/ocasión",
+      "fr": "marqueur ordinal; fois/occasion",
+      "hi": "क्रमवाचक चिह्न; बार/अवसर",
+      "ja": "序数を示す助詞／〜回",
+      "km": "ទី (បង្ហាញលេខរៀង ឬគ្រា)",
+      "ko": "제~／~번째 (서수 표지 또는 번·회)",
+      "ne": "क्रमवाचक चिन्ह／पटक",
+      "pt": "marcador ordinal; vez/ocasião",
+      "th": "ที่ (เครื่องหมายเลขลำดับ หรือครั้ง)",
+      "tl": "pang-／ika-／beses (pambatay sa ordinal o beses)",
+      "ur": "ترتیبی عدد کی علامت؛ بار",
+      "vi": "thứ (chỉ số thứ tự); lần",
+      "zh": "第／次（序数标记或次数）",
+      "zh_Hant": "第／次（序數標記或次數）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "tʰíː",
+    "examples": [
+      {
+        "lao_script": "ຄັ້ງ ທີ ສອງ ລາວ ຊະນະ",
+        "romanization": "kʰáŋ tʰíː sɔ̌ːŋ láːw sā.nāʔ",
+        "translations": {
+          "de": "Beim zweiten Mal hat er/sie gewonnen.",
+          "en": "The second time, he/she won.",
+          "es": "La segunda vez, él/ella ganó.",
+          "fr": "La deuxième fois, il/elle a gagné.",
+          "hi": "दूसरी बार वह जीत गया।",
+          "ja": "二回目は彼／彼女が勝ちました。",
+          "km": "លើកទីពីរគាត់បានឈ្នះ។",
+          "ko": "두 번째에는 그/그녀가 이겼어요.",
+          "ne": "दोस्रो पटक उहाँ जित्नुभयो।",
+          "pt": "Na segunda vez ele/ela ganhou.",
+          "th": "ครั้งที่สองเขาชนะ",
+          "tl": "Sa ikalawang beses, nanalo siya.",
+          "ur": "دوسری بار وہ جیت گیا۔",
+          "vi": "Lần thứ hai anh/chị ấy đã thắng.",
+          "zh": "第二次他/她赢了。",
+          "zh_Hant": "第二次他/她贏了。"
+        },
+        "out_of_scope_words": ["ຊະນະ"]
+      },
+      {
+        "lao_script": "ບົດ ທີ ໜຶ່ງ ຍາກ ຫຼາຍ",
+        "romanization": "bòt tʰíː nɯ̀ŋ ɲȁːk lǎːj",
+        "translations": {
+          "de": "Das erste Kapitel ist sehr schwer.",
+          "en": "The first chapter is very difficult.",
+          "es": "El primer capítulo es muy difícil.",
+          "fr": "Le premier chapitre est très difficile.",
+          "hi": "पहला पाठ बहुत कठिन है।",
+          "ja": "第一課はとても難しいです。",
+          "km": "ជំពូកទីមួយពិបាកណាស់។",
+          "ko": "첫 번째 과는 아주 어려워요.",
+          "ne": "पहिलो पाठ एकदम गाह्रो छ।",
+          "pt": "O primeiro capítulo é muito difícil.",
+          "th": "บทที่หนึ่งยากมาก",
+          "tl": "Napakahirap ng unang aralin.",
+          "ur": "پہلا سبق بہت مشکل ہے۔",
+          "vi": "Bài thứ nhất rất khó.",
+          "zh": "第一课很难。",
+          "zh_Hant": "第一課很難。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a podium with numbers 1, 2, 3 labeled on the steps, representing ordinal ranking, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວັນ": {
+    "definitions": {
+      "de": "Tag (24-Stunden-Zeitraum, Wochentag)",
+      "en": "day (24-hour period; day of the week)",
+      "es": "día (período de 24 horas; día de la semana)",
+      "fr": "jour (période de 24 heures; jour de la semaine)",
+      "hi": "दिन (24 घंटे का समय; सप्ताह का दिन)",
+      "ja": "日／曜日（24時間の期間、週の日）",
+      "km": "ថ្ងៃ (រយៈពេល២៤ម៉ោង ឬថ្ងៃនៃសប្តាហ៍)",
+      "ko": "날／요일 (24시간 혹은 요일)",
+      "ne": "दिन (२४ घण्टे समय वा हप्ताको दिन)",
+      "pt": "dia (período de 24 horas; dia da semana)",
+      "th": "วัน (ช่วงเวลา 24 ชั่วโมง หรือวันในสัปดาห์)",
+      "tl": "araw (24 oras na panahon o araw ng linggo)",
+      "ur": "دن (چوبیس گھنٹے کا دورانیہ یا ہفتے کا دن)",
+      "vi": "ngày (khoảng 24 giờ; ngày trong tuần)",
+      "zh": "日／天（24 小时的一段或星期中的一天）",
+      "zh_Hant": "日／天（24 小時的一段或星期中的一天）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "wán",
+    "examples": [
+      {
+        "lao_script": "ມື້ ນີ້ ເປັນ ວັນ ດີ",
+        "romanization": "mɯ̂ː nîː pēn wán dìː",
+        "translations": {
+          "de": "Heute ist ein guter Tag.",
+          "en": "Today is a good day.",
+          "es": "Hoy es un buen día.",
+          "fr": "Aujourd'hui est une bonne journée.",
+          "hi": "आज अच्छा दिन है।",
+          "ja": "今日は良い日です。",
+          "km": "ថ្ងៃនេះគឺជាថ្ងៃល្អ។",
+          "ko": "오늘은 좋은 날이에요.",
+          "ne": "आज राम्रो दिन हो।",
+          "pt": "Hoje é um bom dia.",
+          "th": "วันนี้เป็นวันดี",
+          "tl": "Mabuting araw ngayon.",
+          "ur": "آج اچھا دن ہے۔",
+          "vi": "Hôm nay là một ngày tốt lành.",
+          "zh": "今天是个好日子。",
+          "zh_Hant": "今天是個好日子。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍ ເຮັດ ວຽກ ທຸກ ວັນ",
+        "romanization": "kʰɔ̂ːj hēt wîːək tʰūk wán",
+        "translations": {
+          "de": "Ich arbeite jeden Tag.",
+          "en": "I work every day.",
+          "es": "Trabajo todos los días.",
+          "fr": "Je travaille tous les jours.",
+          "hi": "मैं हर दिन काम करता हूँ।",
+          "ja": "私は毎日働いています。",
+          "km": "ខ្ញុំធ្វើការរាល់ថ្ងៃ។",
+          "ko": "저는 매일 일해요.",
+          "ne": "म हरेक दिन काम गर्छु।",
+          "pt": "Eu trabalho todos os dias.",
+          "th": "ฉันทำงานทุกวัน",
+          "tl": "Nagtatrabaho ako araw-araw.",
+          "ur": "میں ہر دن کام کرتا ہوں۔",
+          "vi": "Tôi làm việc mỗi ngày.",
+          "zh": "我每天工作。",
+          "zh_Hant": "我每天工作。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ທຸກ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a sun rising over a horizon with a small calendar icon beside it, representing a day, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ວ່າ": {
+    "definitions": {
+      "de": "dass (Komplementierer, der indirekte Rede oder Gedanken einleitet); sagen",
+      "en": "that (complementizer introducing reported speech/thought); to say",
+      "es": "que (completivo que introduce discurso indirecto); decir",
+      "fr": "que (complémenteur introduisant le discours indirect); dire",
+      "hi": "कि (पूरक योजक, अप्रत्यक्ष कथन); कहना",
+      "ja": "〜と（発言・思考を導く補文標識）／言う",
+      "km": "ថា (ឈ្នាប់បង្ហាញកថាបណ្តោយ ឬមតិ)",
+      "ko": "~라고／말하다 (인용 보문소, 말하다)",
+      "ne": "भनेर／भन्ने (उद्धरण जनाउने वा भन्नु)",
+      "pt": "que (completivo que introduz discurso indireto); dizer",
+      "th": "ว่า (คำเชื่อมบอกเล่าความคิด หรือพูดว่า)",
+      "tl": "na／sabihing (pangatnig para sa sinipi na pananalita)",
+      "ur": "کہ (موصولہ ذرّہ، جس سے بیان یا خیال پیش ہو)",
+      "vi": "rằng; nói (liên từ dẫn lời nói hoặc suy nghĩ)",
+      "zh": "说／认为／称（引导间接引语的标记）",
+      "zh_Hant": "說／認為／稱（引導間接引語的標記）"
+    },
+    "part_of_speech": "conjunction",
+    "romanization": "wāː",
+    "examples": [
+      {
+        "lao_script": "ລາວ ບອກ ວ່າ ຈະ ມາ",
+        "romanization": "láːw bɔ̀ːk wāː càʔ máː",
+        "translations": {
+          "de": "Er/Sie sagte, dass er/sie kommen wird.",
+          "en": "He/She said that he/she will come.",
+          "es": "Él/Ella dijo que vendrá.",
+          "fr": "Il/Elle a dit qu'il/elle viendrait.",
+          "hi": "उसने कहा कि वह आएगा।",
+          "ja": "彼／彼女は来ると言いました。",
+          "km": "គាត់និយាយថាគាត់នឹងមក។",
+          "ko": "그/그녀가 온다고 말했어요.",
+          "ne": "उहाँले आउनुहुन्छ भन्नुभयो।",
+          "pt": "Ele/Ela disse que virá.",
+          "th": "เขาบอกว่าจะมา",
+          "tl": "Sinabi niyang darating siya.",
+          "ur": "اس نے کہا کہ وہ آئے گا۔",
+          "vi": "Anh/chị ấy nói rằng sẽ đến.",
+          "zh": "他/她说会来。",
+          "zh_Hant": "他/她說會來。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຂ້ອຍ ຄິດ ວ່າ ດີ",
+        "romanization": "kʰɔ̂ːj kʰīt wāː dìː",
+        "translations": {
+          "de": "Ich denke, dass es gut ist.",
+          "en": "I think that it's good.",
+          "es": "Creo que está bien.",
+          "fr": "Je pense que c'est bien.",
+          "hi": "मुझे लगता है कि यह अच्छा है।",
+          "ja": "私は良いと思います。",
+          "km": "ខ្ញុំគិតថាវាល្អ។",
+          "ko": "저는 그게 좋다고 생각해요.",
+          "ne": "मलाई लाग्छ यो राम्रो छ।",
+          "pt": "Acho que é bom.",
+          "th": "ฉันคิดว่าดี",
+          "tl": "Sa tingin ko, maganda iyon.",
+          "ur": "میں سمجھتا ہوں کہ یہ اچھا ہے۔",
+          "vi": "Tôi nghĩ rằng tốt.",
+          "zh": "我觉得很好。",
+          "zh_Hant": "我覺得很好。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a speech bubble with an arrow pointing from one person's mouth to a thought being reported, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຫ່ງ": {
+    "definitions": {
+      "de": "von; Ort; Stelle (formaler Besitzmarker; Klassifikator für Orte)",
+      "en": "of; place; location (formal possessive; classifier for places)",
+      "es": "de; lugar; sitio (posesivo formal; clasificador de lugares)",
+      "fr": "de; lieu; endroit (possessif formel; classificateur pour lieux)",
+      "hi": "का (औपचारिक); स्थान/जगह (स्थान के लिए वर्गचिह्न)",
+      "ja": "〜の（格式）／〜か所（場所の助数詞）",
+      "km": "នៃ／កន្លែង (បុព្វបទគោរព ឬពាក្យចាត់ថ្នាក់សម្រាប់ទីកន្លែង)",
+      "ko": "~의／곳 (격식 소유격 또는 장소 분류사)",
+      "ne": "को／ठाउँ (औपचारिक सम्बन्ध वा ठाउँको वर्गीकारक)",
+      "pt": "de; lugar; local (possessivo formal; classificador de lugares)",
+      "th": "แห่ง (คำบอกความเป็นเจ้าของแบบเป็นทางการ หรือที่แห่ง)",
+      "tl": "ng／lugar (pormal na pagmamay-ari o pantukoy sa lugar)",
+      "ur": "کا (رسمی)؛ مقام؛ جگہ",
+      "vi": "của; nơi; chỗ (sở hữu trang trọng hoặc loại từ cho nơi)",
+      "zh": "之／处／所（正式的领属或处所量词）",
+      "zh_Hant": "之／處／所（正式的領屬或處所量詞）"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "hɛ̄ŋ",
+    "examples": [
+      {
+        "lao_script": "ນະຄອນ ຫຼວງ ແຫ່ງ ປະເທດ ລາວ",
+        "romanization": "nāʔ.kʰɔ̂ːn lǔːəŋ hɛ̄ŋ pā.tʰéːt láːw",
+        "translations": {
+          "de": "Die Hauptstadt von Laos.",
+          "en": "The capital of Laos.",
+          "es": "La capital de Laos.",
+          "fr": "La capitale du Laos.",
+          "hi": "लाओस की राजधानी।",
+          "ja": "ラオスの首都。",
+          "km": "រាជធានីនៃប្រទេសឡាវ។",
+          "ko": "라오스의 수도.",
+          "ne": "लाओसको राजधानी।",
+          "pt": "A capital do Laos.",
+          "th": "นครหลวงแห่งประเทศลาว",
+          "tl": "Ang kabisera ng Laos.",
+          "ur": "لاؤس کا دارالحکومت۔",
+          "vi": "Thủ đô của nước Lào.",
+          "zh": "老挝的首都。",
+          "zh_Hant": "寮國的首都。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ສອງ ແຫ່ງ ນີ້ ສວຍ ງາມ",
+        "romanization": "sɔ̌ːŋ hɛ̄ŋ nîː sǔːəj ŋáːm",
+        "translations": {
+          "de": "Diese beiden Orte sind sehr schön.",
+          "en": "These two places are beautiful.",
+          "es": "Estos dos lugares son hermosos.",
+          "fr": "Ces deux endroits sont magnifiques.",
+          "hi": "ये दो जगहें सुंदर हैं।",
+          "ja": "この二か所はきれいです。",
+          "km": "កន្លែងទាំងពីរនេះស្អាតណាស់។",
+          "ko": "이 두 곳은 아름다워요.",
+          "ne": "यी दुई ठाउँ सुन्दर छन्।",
+          "pt": "Estes dois lugares são bonitos.",
+          "th": "สองแห่งนี้สวยงาม",
+          "tl": "Magaganda ang dalawang lugar na ito.",
+          "ur": "یہ دونوں جگہیں خوبصورت ہیں۔",
+          "vi": "Hai nơi này đều đẹp.",
+          "zh": "这两个地方很美。",
+          "zh_Hant": "這兩個地方很美。"
+        },
+        "out_of_scope_words": ["ສວຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a map with two labeled location pins connected by a small banner, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ກໍ": {
+    "definitions": {
+      "de": "auch; dann; so (Diskurspartikel, drückt Folge oder Hinzufügung aus)",
+      "en": "also; then; so (discourse particle expressing sequence or addition)",
+      "es": "también; entonces; así (partícula discursiva que indica secuencia o adición)",
+      "fr": "aussi; alors; ainsi (particule discursive exprimant la suite ou l'addition)",
+      "hi": "भी; तो; फिर (क्रम या जोड़ दिखाने वाला लघु-शब्द)",
+      "ja": "〜も／それで／すると（話順や付加を示す談話助詞）",
+      "km": "ក៏ (បច្ច័យបង្ហាញលំដាប់ ឬបន្ថែម)",
+      "ko": "~도／그래서／그러면 (연속이나 추가를 나타내는 담화 조사)",
+      "ne": "पनि／त／त्यसपछि (क्रम वा जोड जनाउने विभक्ति)",
+      "pt": "também; então; assim (partícula discursiva de sequência ou adição)",
+      "th": "ก็ (คำเสริมแสดงลำดับหรือเสริมความ)",
+      "tl": "rin／kaya／tapos (pang-abay na nagpapakita ng sunod o karagdagan)",
+      "ur": "بھی؛ تو؛ پھر (سلسلہ یا اضافہ کا ذرّہ)",
+      "vi": "cũng; thì; vậy là (tiểu từ diễn ngôn biểu thị tiếp theo hoặc bổ sung)",
+      "zh": "也／就／便（表示顺承或附加的话语助词）",
+      "zh_Hant": "也／就／便（表示順承或附加的話語助詞）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "kɔ̀ː",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ກໍ ຢາກ ໄປ",
+        "romanization": "kʰɔ̂ːj kɔ̀ː jȁːk pàj",
+        "translations": {
+          "de": "Ich möchte auch gehen.",
+          "en": "I also want to go.",
+          "es": "Yo también quiero ir.",
+          "fr": "Moi aussi, je veux y aller.",
+          "hi": "मैं भी जाना चाहता हूँ।",
+          "ja": "私も行きたいです。",
+          "km": "ខ្ញុំក៏ចង់ទៅដែរ។",
+          "ko": "저도 가고 싶어요.",
+          "ne": "म पनि जान चाहन्छु।",
+          "pt": "Eu também quero ir.",
+          "th": "ฉันก็อยากไป",
+          "tl": "Gusto ko rin pumunta.",
+          "ur": "میں بھی جانا چاہتا ہوں۔",
+          "vi": "Tôi cũng muốn đi.",
+          "zh": "我也想去。",
+          "zh_Hant": "我也想去。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ຢາກ"]
+      },
+      {
+        "lao_script": "ຝົນ ຕົກ ລາວ ກໍ ບໍ່ ໄປ",
+        "romanization": "fǒn tōk láːw kɔ̀ː bɔ̀ː pàj",
+        "translations": {
+          "de": "Es regnet, also geht er/sie nicht.",
+          "en": "It's raining, so he/she doesn't go.",
+          "es": "Está lloviendo, así que él/ella no va.",
+          "fr": "Il pleut, alors il/elle n'y va pas.",
+          "hi": "बारिश हो रही है, तो वह नहीं जाता।",
+          "ja": "雨が降っているので、彼／彼女は行きません。",
+          "km": "ភ្លៀងធ្លាក់ គាត់ក៏មិនទៅ។",
+          "ko": "비가 와서 그/그녀는 안 가요.",
+          "ne": "पानी परेकोले उहाँ जानुहुन्न।",
+          "pt": "Está chovendo, então ele/ela não vai.",
+          "th": "ฝนตกเขาก็ไม่ไป",
+          "tl": "Umuulan kaya hindi siya pupunta.",
+          "ur": "بارش ہو رہی ہے اس لیے وہ نہیں جاتا۔",
+          "vi": "Trời mưa nên anh/chị ấy không đi.",
+          "zh": "下雨了，他/她就不去了。",
+          "zh_Hant": "下雨了，他/她就不去了。"
+        },
+        "out_of_scope_words": ["ຝົນ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon thought bubbles connected by an arrow with a plus sign, representing sequence or addition, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

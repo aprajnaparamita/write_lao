@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃໝ່",
+  "definitions": {
+    "de": "Neu; frisch, modern (beschreibt etwas, das gerade entstanden ist oder kürzlich erworben wurde)",
+    "en": "New; fresh, modern (describes something recently made, bought, or encountered)",
+    "es": "Nuevo/a; fresco/a, moderno/a (describe algo recién hecho, comprado o encontrado)",
+    "fr": "Nouveau/nouvelle ; frais/fraîche, moderne (décrit quelque chose de récemment fait, acheté ou rencontré)",
+    "hi": "नया/नई; ताज़ा, आधुनिक (हाल ही में बनाई, खरीदी या मिली चीज़ का वर्णन)",
+    "ja": "新しい；新鮮な、最新の（最近作られた・買われた・出会ったものを表す）",
+    "km": "ថ្មី; ស្រស់, ទំនើប (ពណ៌នាអ្វីដែលបានធ្វើ, ទិញ ឬជួបប្រទះថ្មីៗ)",
+    "ko": "새로운, 새것의; 신선한, 최신의 (최근에 만들어지거나 구입하거나 접한 것을 묘사)",
+    "ne": "नयाँ; ताजा, आधुनिक (हालसालै बनाइएको, किनिएको वा भेटिएको कुराको वर्णन)",
+    "pt": "Novo/nova; fresco/a, moderno/a (descreve algo recentemente feito, comprado ou encontrado)",
+    "th": "ใหม่; สด, ทันสมัย (อธิบายสิ่งที่เพิ่งสร้าง ซื้อ หรือพบเห็น)",
+    "tl": "Bago; sariwa, moderno (naglalarawan ng isang bagay na kamakailan lamang ginawa, binili, o natagpuan)",
+    "ur": "نیا/نئی؛ تازہ، جدید (حال ہی میں بنائی، خریدی یا ملی چیز کو بیان کرتا ہے)",
+    "vi": "Mới; tươi mới, hiện đại (miêu tả thứ gì đó vừa được làm ra, mua hoặc gặp gỡ gần đây)",
+    "zh": "新的；新鲜的，现代的（描述最近制作、购买或遇到的事物）",
+    "zh_Hant": "新的；新鮮的，現代的（描述最近製作、購買或遇到的事物）"
+  },
+  "definition_en": "New; fresh, modern (describes something recently made, bought, or encountered)",
+  "romanization": "/mȁj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໄດ້ຊື້ລົດໃໝ່ແລ້ວຫຼືເນີ",
+      "romanization": "jao dai sue lot mai laew lue noe",
+      "translation_en": "You bought a new car already, didn't you?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກໄດ້ເຄື່ອງໃໝ່ໆສັກອັນ",
+      "romanization": "khoi yak dai khuang mai mai sak an",
+      "translation_en": "I want to get something new."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a shiny new product just unboxed — such as a bright new smartphone or a new pair of sneakers with a sparkle effect — sitting on a clean white background, colorful minimalist style suitable for a language learning app."
+}

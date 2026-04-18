@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປັດຈຸບັນ",
+  "definitions": {
+    "de": "Gegenwart; der aktuelle Moment oder die heutige Zeit",
+    "en": "Present; the current time or moment; nowadays",
+    "es": "Presente; el momento o tiempo actual; actualmente",
+    "fr": "Présent; le moment ou la période actuelle; de nos jours",
+    "hi": "वर्तमान; अभी का समय या क्षण; आजकल",
+    "ja": "現在；今の時間や時点；現代",
+    "km": "បច្ចុប្បន្ន; ពេលវេលាឬមោមេនបច្ចុប្បន្ន; សព្វថ្ងៃ",
+    "ko": "현재; 지금 이 순간 또는 현재의 시간; 요즘",
+    "ne": "वर्तमान; हालको समय वा क्षण; आजकाल",
+    "pt": "Presente; o momento ou tempo atual; atualmente; hoje em dia",
+    "th": "ปัจจุบัน; เวลาหรือช่วงเวลาปัจจุบัน; ในปัจจุบัน",
+    "tl": "Kasalukuyan; ang kasalukuyang panahon o sandali; ngayon",
+    "ur": "حال؛ موجودہ وقت یا لمحہ؛ آج کل",
+    "vi": "Hiện tại; thời điểm hoặc thời gian hiện tại; ngày nay",
+    "zh": "现在；当前时刻或时期；如今",
+    "zh_Hant": "現在；當前時刻或時期；如今"
+  },
+  "definition_en": "Present; the current time or moment; nowadays",
+  "romanization": "/pát.tɕu.bán/",
+  "lao_examples": [
+    {
+      "lao_script": "ປັດຈຸບັນນີ້ ຂ້ອຍກຳລັງຮຽນພາສາລາວຢູ່",
+      "romanization": "pat-tchu-ban nii, khoi gam-lang hian pha-sa lao yu",
+      "translation_en": "Right now, I'm currently studying Lao."
+    },
+    {
+      "lao_script": "ໃນປັດຈຸບັນ ຄົນສ່ວນຫຼາຍໃຊ້ໂທລະສັບໝົດ",
+      "romanization": "nai pat-tchu-ban, khon suan lak sai tho-la-sap mot",
+      "translation_en": "Nowadays, most people use their phones all the time."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a calendar with 'today' highlighted and a clock showing the current time, representing the concept of 'the present moment', clean white background, colorful, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢົງ",
+  "definitions": {
+    "de": "Schütteln, schwanken oder sich hin und her wiegen",
+    "en": "To shake, sway, or rock back and forth",
+    "es": "Sacudir, mecer o balancear de un lado a otro",
+    "fr": "Secouer, balancer ou osciller d'avant en arrière",
+    "hi": "हिलाना, डोलना या आगे-पीछे झूलना",
+    "ja": "揺れる、揺らす、前後に揺れ動く",
+    "km": "រំ អង្រួន ឬដូរ ខ្លែងទៅ​មក",
+    "ko": "흔들다, 흔들리다, 앞뒤로 흔들거리다",
+    "ne": "हल्लाउनु, डोलाउनु वा अगाडि-पछाडि हल्लिनु",
+    "pt": "Sacudir, balançar ou oscilar para frente e para trás",
+    "th": "สั่น โยก หรือแกว่งไปมา",
+    "tl": "Umugoy, maging ugoy, o yumanig nang pabalik-balik",
+    "ur": "ہلانا، جھولنا یا آگے پیچھے ہلنا",
+    "vi": "Lắc, lắc lư hoặc đu đưa qua lại",
+    "zh": "摇晃，摆动，来回晃动",
+    "zh_Hant": "搖晃，擺動，來回晃動"
+  },
+  "definition_en": "To shake, sway, or rock back and forth",
+  "romanization": "ɲōŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຕົ້ນໄມ້ຢົງຫຼາຍເພາະລົມແຮງ.",
+      "romanization": "tôn máai ɲōŋ lǎai phɔ́ lom hɛ́ɛŋ.",
+      "translation_en": "The tree is swaying a lot because the wind is strong."
+    },
+    {
+      "lao_script": "ຢ່າຢົງເຮືອ, ຈະລົ້ມ!",
+      "romanization": "yàa ɲōŋ hɯa, ja lôm!",
+      "translation_en": "Don't rock the boat, it'll tip over!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a tree with its branches swaying in the wind, with motion lines showing the movement, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

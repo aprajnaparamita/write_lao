@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄຫວ",
+  "definitions": {
+    "de": "In der Lage sein, etwas zu schaffen oder zu bewältigen; können, imstande sein (im Sinne von Kapazität oder Fähigkeit); auch verwendet für die traditionelle Begrüßungsgeste (Hände zusammenfalten und verneigen)",
+    "en": "To be able to manage, handle, or cope with something; to be capable (in terms of capacity or physical/mental ability); also refers to the traditional greeting gesture of pressing palms together",
+    "es": "Poder manejar, gestionar o lidiar con algo; ser capaz (en términos de capacidad física o mental); también se refiere al gesto de saludo tradicional con las palmas unidas",
+    "fr": "Être capable de gérer ou de s'en sortir avec quelque chose; pouvoir (en termes de capacité physique ou mentale); également utilisé pour le geste de salutation traditionnel avec les paumes jointes",
+    "hi": "कुछ संभाल पाना, कर पाना; सक्षम होना (शारीरिक या मानसिक क्षमता के संदर्भ में); पारंपरिक अभिवादन मुद्रा (हथेलियाँ जोड़कर झुकना) के लिए भी उपयोग",
+    "ja": "何かに対処したり、こなしたりできる；可能である（体力的・精神的な能力の意味で）；また、合掌して頭を下げる伝統的な挨拶の仕草も指す",
+    "km": "អាចគ្រប់គ្រង ឬដោះស្រាយបានអ្វីមួយ; មានសមត្ថភាព (ក្នុងន័យសមត្ថភាពរាងកាយ ឬផ្លូវចិត្ត); ក៏សំដៅទៅលើកាយវិការនៃការស្វាគមន៍ប្រពៃណីដោយប្រណម្យដៃ",
+    "ko": "무언가를 감당하거나 해낼 수 있다; 할 수 있다 (체력적·정신적 능력의 의미로); 또한 손을 모아 인사하는 전통 인사 동작을 가리키기도 함",
+    "ne": "केही गर्न वा सामना गर्न सक्नु; सक्षम हुनु (शारीरिक वा मानसिक क्षमताको अर्थमा); परम्परागत अभिवादन मुद्रा (हत्केला जोडेर झुक्नु) लाई पनि जनाउँछ",
+    "pt": "Conseguir lidar ou dar conta de algo; ser capaz (em termos de capacidade física ou mental); também se refere ao gesto de saudação tradicional com as palmas unidas",
+    "th": "สามารถจัดการหรือรับมือกับบางสิ่งได้; ทำได้, ไหว (ในความหมายของความสามารถทางกายหรือจิตใจ); ยังหมายถึงท่าทางการทักทายแบบดั้งเดิมด้วยการประนมมือ",
+    "tl": "Kayang harapin o hawakan ang isang bagay; kaya (sa kahulugan ng kakayahang pisikal o mental); tumutukoy rin sa tradisyonal na kilos ng pagbati sa pamamagitan ng pagpipi ng mga palad",
+    "ur": "کچھ سنبھال یا نمٹ سکنا؛ قابل ہونا (جسمانی یا ذہنی صلاحیت کے معنی میں)؛ روایتی سلام کے اشارے (ہتھیلیاں جوڑ کر جھکنا) کے لیے بھی استعمال",
+    "vi": "Có thể xoay xở, đối phó hoặc k감당 được điều gì đó; có khả năng (về thể chất hoặc tinh thần); cũng chỉ cử chỉ chào hỏi truyền thống chắp tay cúi đầu",
+    "zh": "能够应付、处理某事；能行、做得到（指体力或精力上的能力）；也指双手合十鞠躬的传统问候姿势",
+    "zh_Hant": "能夠應付、處理某事；能行、做得到（指體力或精力上的能力）；也指雙手合十鞠躬的傳統問候姿勢"
+  },
+  "definition_en": "To be able to manage, handle, or cope with something; to be capable (in terms of capacity or physical/mental ability); also refers to the traditional greeting gesture of pressing palms together",
+  "romanization": "/wǎj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າໄຫວບໍ່? ຖ້ອຍຊ່ວຍໄດ້ນະ",
+      "romanization": "Jao wai bo? Thoi suai dai na",
+      "translation_en": "Can you manage? I can help you."
+    },
+    {
+      "lao_script": "ເຮົາໄຫວຜູ້ໃຫຍ່ທຸກຄັ້ງທີ່ພົບ",
+      "romanization": "Hao wai puu-nyai thuk khan thi phop",
+      "translation_en": "We do the wai greeting to elders every time we meet them."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two scenarios side by side: on the left, a person with hands pressed together in a traditional Southeast Asian wai greeting bow; on the right, a person confidently carrying a heavy box with a thumbs-up, clean white background, colorful minimalist style suitable for a language learning app."
+}

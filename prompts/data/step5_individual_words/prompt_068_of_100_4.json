@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຝຣັ່ງ",
+  "definitions": {
+    "de": "Franzose/Französin; Westeuropäer/in; im Lao-Kontext oft verwendet für Franzosen oder generell für westliche Ausländer, besonders Europäer",
+    "en": "French person; Westerner; in Lao context, used to refer to French people or broadly to Western foreigners, especially Europeans",
+    "es": "Francés/Francesa; occidental; en el contexto lao, se usa para referirse a personas francesas o en general a extranjeros occidentales, especialmente europeos",
+    "fr": "Français/Française; Occidental(e); dans le contexte lao, utilisé pour désigner les Français ou plus largement les étrangers occidentaux, surtout les Européens",
+    "hi": "फ्रांसीसी; पश्चिमी विदेशी; लाओ संदर्भ में, फ्रांसीसी लोगों या सामान्यतः पश्चिमी विदेशियों, विशेषकर यूरोपीयों के लिए उपयोग किया जाता है",
+    "ja": "フランス人；西洋人；ラオスの文脈では、フランス人または広く西洋の外国人、特にヨーロッパ人を指すのに使われる",
+    "km": "ជនជាតិបារាំង; ជនជាតិលោកខាងលិច; នៅក្នុងបរិបទឡាវ ត្រូវបានប្រើដើម្បីសំដៅទៅលើជនជាតិបារាំង ឬជាទូទៅជនបរទេសខាងលិច ជាពិសេសជនជាតិអឺរ៉ុប",
+    "ko": "프랑스인; 서양인; 라오스 맥락에서 프랑스인 또는 넓게는 서양 외국인, 특히 유럽인을 가리키는 데 사용됨",
+    "ne": "फ्रान्सेली; पश्चिमी विदेशी; लाओ सन्दर्भमा, फ्रान्सेली मानिसहरू वा सामान्यतः पश्चिमी विदेशीहरू, विशेषगरी युरोपेलीहरूलाई जनाउन प्रयोग गरिन्छ",
+    "pt": "Francês/Francesa; ocidental; no contexto laosiano, usado para se referir a franceses ou genericamente a estrangeiros ocidentais, especialmente europeus",
+    "th": "ชาวฝรั่งเศส; ชาวตะวันตก; ในบริบทของลาว ใช้เรียกชาวฝรั่งเศสหรือโดยทั่วไปหมายถึงชาวต่างชาติตะวันตก โดยเฉพาะชาวยุโรป",
+    "tl": "Pranses; Kanluranin; sa kontekstong Lao, ginagamit para tumukoy sa mga Pranses o sa pangkalahatan sa mga dayuhang Kanluranin, lalo na ang mga Europeo",
+    "ur": "فرانسیسی؛ مغربی غیر ملکی؛ لاؤ تناظر میں، فرانسیسی لوگوں یا عام طور پر مغربی غیر ملکیوں، خاص طور پر یورپیوں کے لیے استعمال ہوتا ہے",
+    "vi": "Người Pháp; người phương Tây; trong bối cảnh Lào, được dùng để chỉ người Pháp hoặc rộng hơn là người nước ngoài phương Tây, đặc biệt là người châu Âu",
+    "zh": "法国人；西方人；在老挝语境中，用于指称法国人或泛指西方外国人，尤其是欧洲人",
+    "zh_Hant": "法國人；西方人；在寮國語境中，用於指稱法國人或泛指西方外國人，尤其是歐洲人"
+  },
+  "definition_en": "French person; Westerner; in Lao context, used to refer to French people or broadly to Western foreigners, especially Europeans",
+  "romanization": "/faŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ມີຝຣັ່ງສອງຄົນມານັ່ງກິນເຂົ້າຢູ່ຮ້ານ",
+      "romanization": "Mii fang song khon maa nang kin khao yuu haan",
+      "translation_en": "There are two Westerners sitting and eating at the restaurant."
+    },
+    {
+      "lao_script": "ຝຣັ່ງຄົນນັ້ນເວົ້າພາສາລາວໄດ້ດີຫລາຍ",
+      "romanization": "Fang khon nan vao phaa-saa Lao dai dii laai",
+      "translation_en": "That Westerner speaks Lao really well."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly-looking Western tourist with a backpack and camera, standing in front of a Southeast Asian-style building, clean white background, colorful minimalist style suitable for a language learning app."
+}

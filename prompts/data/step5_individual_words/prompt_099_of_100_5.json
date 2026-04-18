@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊ່າງ",
+  "definitions": {
+    "de": "Handwerker/Techniker/Mechaniker; eine Person, die eine handwerkliche oder technische Fähigkeit ausübt",
+    "en": "Craftsman/mechanic/technician; a skilled person who practices a trade or technical craft",
+    "es": "Artesano/mecánico/técnico; una persona habilidosa que practica un oficio o trabajo técnico",
+    "fr": "Artisan/mécanicien/technicien; une personne qualifiée qui exerce un métier ou un travail technique",
+    "hi": "कारीगर/मैकेनिक/तकनीशियन; एक कुशल व्यक्ति जो कोई शिल्प या तकनीकी कार्य करता है",
+    "ja": "職人・技術者・修理工；技能や専門的な仕事を行う熟練した人",
+    "km": "ជាងឯក/ជាងម៉ាស៊ីន/ជ្រុល; មនុស្សដែលមានជំនាញក្នុងការបំពេញការងារជាងជំនាញ",
+    "ko": "장인/기술자/정비공; 기술적인 일이나 공예를 수행하는 숙련된 사람",
+    "ne": "कारिगर/मेकानिक/प्राविधिक; कुनै दक्षता वा प्राविधिक काम गर्ने व्यक्ति",
+    "pt": "Artesão/mecânico/técnico; uma pessoa habilidosa que exerce um ofício ou trabalho técnico",
+    "th": "ช่าง; ผู้ที่มีความชำนาญในการทำงานฝีมือหรืองานช่างเทคนิค",
+    "tl": "Manggagawa/mekaniko/teknisyan; isang dalubhasang tao na gumaganap ng isang propesyon o teknikal na trabaho",
+    "ur": "کاریگر/مکینک/ٹیکنیشن؛ ایک ہنرمند شخص جو کوئی فن یا تکنیکی کام کرتا ہے",
+    "vi": "Thợ thủ công/thợ máy/kỹ thuật viên; người có kỹ năng thực hành một nghề hoặc công việc kỹ thuật",
+    "zh": "工匠/技工/修理工；从事某种技艺或技术性工作的熟练人员",
+    "zh_Hant": "工匠/技工/修理工；從事某種技藝或技術性工作的熟練人員"
+  },
+  "definition_en": "Craftsman/mechanic/technician; a skilled person who practices a trade or technical craft",
+  "romanization": "saːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຕ້ອງໂທຫາຊ່າງມາແກ້ໄຂ",
+      "romanization": "tong thoo haa saang maa gae khai",
+      "translation_en": "We need to call a repairman to come fix it."
+    },
+    {
+      "lao_script": "ຊ່າງຄົນນັ້ນເຮັດວຽກເກັ່ງຫຼາຍ",
+      "romanization": "saang khon nan het wiak geng laai",
+      "translation_en": "That craftsman works really well."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling male mechanic or craftsman wearing a work uniform and holding a wrench, standing confidently, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

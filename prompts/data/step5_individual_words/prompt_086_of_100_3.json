@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຮ້ອຍ",
+  "definitions": {
+    "de": "hundert (100), die Zahl 100",
+    "en": "hundred (100), the number 100",
+    "es": "cien (100), el número 100",
+    "fr": "cent (100), le nombre 100",
+    "hi": "सौ (100), संख्या 100",
+    "ja": "百（100）、100という数",
+    "km": "មួយរយ (100), ចំនួន 100",
+    "ko": "백(100), 숫자 100",
+    "ne": "सय (100), संख्या 100",
+    "pt": "cem (100), o número 100",
+    "th": "ร้อย (100), ตัวเลข 100",
+    "tl": "isang daan (100), ang bilang na 100",
+    "ur": "سو (100)، عدد 100",
+    "vi": "trăm (100), số 100",
+    "zh": "一百（100），数字100",
+    "zh_Hant": "一百（100），數字100"
+  },
+  "definition_en": "hundred (100), the number 100",
+  "romanization": "/hɔ̂ːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອໂລ້ນໂຕນີ້ລາຄາສາມຮ້ອຍກີບ",
+      "romanization": "suea lon to nii lakhaa saam hoi kiip",
+      "translation_en": "This T-shirt costs three hundred kip."
+    },
+    {
+      "lao_script": "ຕະຫຼາດນັ້ນຢູ່ໄກປະມານຮ້ອຍແມັດ",
+      "romanization": "talaat nan yuu glai paman hoi maet",
+      "translation_en": "That market is about a hundred meters away."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of the number 100 in large bold numerals, surrounded by 100 small colorful dots or stars arranged neatly, suitable for a language learning app, clean white background, bright colors, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຈັນ",
+  "definitions": {
+    "de": "Montag; Mond – der erste Wochentag (nach Sonntag) sowie der Mond am Himmel",
+    "en": "Monday; moon – the first weekday (after Sunday) as well as the moon in the sky",
+    "es": "Lunes; luna – el primer día de la semana laboral (después del domingo) y también la luna en el cielo",
+    "fr": "Lundi ; lune – le premier jour de la semaine (après dimanche) ainsi que la lune dans le ciel",
+    "hi": "सोमवार; चाँद – सप्ताह का पहला दिन (रविवार के बाद) तथा आकाश में चंद्रमा",
+    "ja": "月曜日；月 – 週の最初の平日（日曜日の後）、また空の月",
+    "km": "ថ្ងៃច័ន្ទ; ព្រះច័ន្ទ – ថ្ងៃដំបូងនៃសប្តាហ៍ (បន្ទាប់ពីថ្ងៃអាទិត្យ) និងព្រះច័ន្ទនៅលើមេឃ",
+    "ko": "월요일; 달 – 한 주의 첫 번째 평일(일요일 다음)이자 하늘의 달",
+    "ne": "सोमबार; चन्द्रमा – हप्ताको पहिलो कार्यदिन (आइतबारपछि) र आकाशको चन्द्रमा",
+    "pt": "Segunda-feira; lua – o primeiro dia útil da semana (depois do domingo) e também a lua no céu",
+    "th": "วันจันทร์; ดวงจันทร์ – วันแรกของสัปดาห์ (หลังวันอาทิตย์) รวมถึงดวงจันทร์บนท้องฟ้า",
+    "tl": "Lunes; buwan – ang unang araw ng linggo (pagkatapos ng Linggo) at ang buwan sa langit",
+    "ur": "پیر؛ چاند – ہفتے کا پہلا کاروباری دن (اتوار کے بعد) نیز آسمان کا چاند",
+    "vi": "Thứ Hai; mặt trăng – ngày đầu tuần (sau Chủ nhật) và cũng là mặt trăng trên bầu trời",
+    "zh": "星期一；月亮 – 一周的第一个工作日（周日之后），也指天空中的月亮",
+    "zh_Hant": "星期一；月亮 – 一週的第一個工作日（週日之後），也指天空中的月亮"
+  },
+  "definition_en": "Monday; moon – the first weekday (after Sunday) as well as the moon in the sky",
+  "romanization": "/tɕan/",
+  "lao_examples": [
+    {
+      "lao_script": "ວັນຈັນນີ້ຂ້ອຍຕ້ອງໄປເຮັດວຽກ",
+      "romanization": "van jan ni khoi tong pai het viak",
+      "translation_en": "This Monday I have to go to work."
+    },
+    {
+      "lao_script": "ຄືນນີ້ຈັນສວຍຫຼາຍເລີຍ",
+      "romanization": "khuenni jan suay lai loei",
+      "translation_en": "Tonight the moon is so beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a calendar page showing Monday highlighted in blue, and on the right, a glowing crescent moon against a dark night sky with small stars, clean white background, colorful, minimalist style suitable for a language learning app."
+}

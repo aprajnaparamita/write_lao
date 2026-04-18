@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເປີດ",
+  "definitions": {
+    "de": "öffnen, aufmachen; etwas öffnen (eine Tür, ein Geschäft, ein Gerät einschalten)",
+    "en": "to open; to turn on (a device); to unlock or start something",
+    "es": "abrir; encender (un dispositivo); desbloquear o comenzar algo",
+    "fr": "ouvrir; allumer (un appareil); déverrouiller ou commencer quelque chose",
+    "hi": "खोलना; चालू करना (कोई उपकरण); कुछ शुरू करना या खोलना",
+    "ja": "開ける、開く；（機器を）つける、オンにする；何かを始めること",
+    "km": "បើក; បើកដំណើរការ (ឧបករណ៍); ដោះសោ ឬចាប់ផ្តើមមួយចំនួន",
+    "ko": "열다; (기기를) 켜다; 무언가를 열거나 시작하다",
+    "ne": "खोल्नु; (यन्त्र) चालु गर्नु; केही सुरु गर्नु वा खोल्नु",
+    "pt": "abrir; ligar (um aparelho); desbloquear ou iniciar algo",
+    "th": "เปิด; เปิด (อุปกรณ์); ปลดล็อคหรือเริ่มสิ่งใดสิ่งหนึ่ง",
+    "tl": "buksan; i-on (isang aparato); simulan o buksan ang isang bagay",
+    "ur": "کھولنا؛ آن کرنا (کوئی آلہ)؛ کچھ شروع کرنا یا کھولنا",
+    "vi": "mở; bật (thiết bị); mở khóa hoặc bắt đầu cái gì đó",
+    "zh": "打开；开启（设备）；解锁或开始某事",
+    "zh_Hant": "打開；開啟（設備）；解鎖或開始某事"
+  },
+  "definition_en": "to open; to turn on (a device); to unlock or start something",
+  "romanization": "/pɤːt/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍເປີດປະຕູດ້ວຍແດ່",
+      "romanization": "suai poot pa-tuu duai dae",
+      "translation_en": "Could you please open the door?"
+    },
+    {
+      "lao_script": "ເປີດໄຟດ້ວຍ ມືດຢູ່",
+      "romanization": "poot fai duai, muut yuu",
+      "translation_en": "Turn on the light, it's dark."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open door with light streaming through it, shown from a slight angle, suitable for a language learning app, clean white background, bright and colorful, minimalist cartoon style."
+}

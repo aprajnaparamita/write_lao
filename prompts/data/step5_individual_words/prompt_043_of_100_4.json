@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລິ",
+  "definitions": {
+    "de": "Eine gebundene Präfix-Silbe im Laotischen, die an Wörter angehängt wird und keine eigenständige Bedeutung hat; dient als phonetisches oder morphologisches Element in zusammengesetzten Wörtern oder Namen",
+    "en": "A bound prefix syllable in Lao that attaches to words and has no independent meaning on its own; functions as a phonetic or morphological element in compound words or names",
+    "es": "Una sílaba prefija ligada en lao que se adjunta a palabras y no tiene significado independiente por sí sola; funciona como elemento fonético o morfológico en palabras compuestas o nombres",
+    "fr": "Une syllabe préfixe liée en laotien qui s'attache aux mots et n'a pas de signification indépendante; fonctionne comme élément phonétique ou morphologique dans les mots composés ou les prénoms",
+    "hi": "लाओ में एक बद्ध उपसर्ग अक्षर जो शब्दों से जुड़ता है और स्वतंत्र रूप से इसका कोई अर्थ नहीं है; यौगिक शब्दों या नामों में ध्वन्यात्मक या रूपात्मक तत्व के रूप में कार्य करता है",
+    "ja": "ラオス語において単語に付加される拘束前置音節で、単独では意味を持たない；複合語や名前の中で音韻的・形態的要素として機能する",
+    "km": "ព្យាង្គបុព្វបទដែលភ្ជាប់ជាមួយពាក្យក្នុងភាសាឡាវ ហើយមិនមានន័យឯករាជ្យ; ដំណើរការជាធាតុសូរស័ព្ទ ឬសណ្ឋានសាស្ត្រក្នុងពាក្យផ្សំ ឬឈ្មោះ",
+    "ko": "라오어에서 단어에 붙는 의존적인 접두사 음절로, 독자적인 의미가 없음; 복합어나 이름에서 음운적 또는 형태적 요소로 기능함",
+    "ne": "लाओमा एउटा बद्ध उपसर्ग अक्षर जो शब्दहरूसँग जोडिन्छ र स्वतन्त्र रूपमा यसको आफ्नै कुनै अर्थ छैन; यौगिक शब्द वा नाममा ध्वन्यात्मक वा रूपात्मक तत्वको रूपमा कार्य गर्छ",
+    "pt": "Uma sílaba prefixo presa no lao que se une a palavras e não possui significado independente; funciona como elemento fonético ou morfológico em palavras compostas ou nomes",
+    "th": "พยางค์คำอุปสรรคที่ผูกติดกับคำในภาษาลาว ไม่มีความหมายอิสระ ทำหน้าที่เป็นองค์ประกอบทางสัทศาสตร์หรือสัณฐานวิทยาในคำประสมหรือชื่อ",
+    "tl": "Isang nakatali na prefix na pantig sa wikang Lao na nagkakabit sa mga salita at walang sariling kahulugan; gumaganap bilang ponolohikal o morpolohikal na elemento sa mga salitang tambalan o pangalan",
+    "ur": "لاؤ میں ایک مقید سابقہ ہجہ جو الفاظ سے جڑتا ہے اور خود سے کوئی آزاد معنی نہیں رکھتا؛ مرکب الفاظ یا ناموں میں صوتی یا صرفی عنصر کے طور پر کام کرتا ہے",
+    "vi": "Một âm tiết tiền tố bị ràng buộc trong tiếng Lào, gắn vào các từ và không có nghĩa độc lập; hoạt động như một yếu tố ngữ âm hoặc hình thái trong các từ ghép hoặc tên riêng",
+    "zh": "老挝语中的一个粘附前缀音节，附着于词语上，单独没有独立含义；在复合词或名字中作为语音或形态要素发挥作用",
+    "zh_Hant": "寮語中的一個黏附前綴音節，附著於詞語上，單獨沒有獨立含義；在複合詞或名字中作為語音或形態要素發揮作用"
+  },
+  "definition_en": "A bound prefix syllable in Lao that attaches to words and has no independent meaning on its own; functions as a phonetic or morphological element in compound words or names",
+  "romanization": "/lí/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳວ່າ ລິ ມັກໃຊ້ຢູ່ໃນຊື່ຄົນ",
+      "romanization": "kham wā lí mák sāi yū nai sʉ̄ khon",
+      "translation_en": "The syllable 'Li' is often used in people's names."
+    },
+    {
+      "lao_script": "ລິ ບໍ່ມີຄວາມໝາຍຢູ່ດ່ຽວໆ",
+      "romanization": "lí bɔ̄ mī khwām mǎi yū diao diao",
+      "translation_en": "'Li' has no meaning when it stands alone."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a single puzzle piece labeled with the syllable 'Li' in a friendly font, suggesting it connects to other pieces to form a complete word, clean white background, colorful, minimalist style suitable for a language learning app."
+}

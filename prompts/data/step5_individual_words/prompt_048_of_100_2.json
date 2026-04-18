@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊັ້ນ",
+  "definitions": {
+    "de": "Stockwerk; Etage; Schicht; Ebene",
+    "en": "floor; level; storey; layer",
+    "es": "piso; nivel; planta; capa",
+    "fr": "étage; niveau; couche; palier",
+    "hi": "मंजिल; तल; स्तर; परत",
+    "ja": "階；フロア；層；レベル",
+    "km": "ជាន់; កម្រិត; ស្រទាប់",
+    "ko": "층; 바닥; 단계; 층위",
+    "ne": "तला; तह; स्तर; माला",
+    "pt": "andar; pavimento; nível; camada",
+    "th": "ชั้น; ระดับ; ชั้นของอาคาร",
+    "tl": "palapag; antas; sahig;층",
+    "ur": "منزل؛ درجہ؛ تہہ؛ سطح",
+    "vi": "tầng; lớp; mức; tầng lầu",
+    "zh": "层；楼层；级别；层次",
+    "zh_Hant": "層；樓層；級別；層次"
+  },
+  "definition_en": "floor; level; storey; layer",
+  "romanization": "/sán/",
+  "lao_examples": [
+    {
+      "lao_script": "ຫ້ອງຂ້ອຍຢູ່ຊັ້ນສາມ",
+      "romanization": "Hong khoi yu san sam",
+      "translation_en": "My room is on the third floor."
+    },
+    {
+      "lao_script": "ລິຟຢູ່ໃສ? ຂ້ອຍຢາກຂຶ້ນຊັ້ນເທິງ",
+      "romanization": "Lip yu sai? Khoi yak kheun san theung",
+      "translation_en": "Where is the elevator? I want to go up to the upper floor."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a multi-storey building with clearly numbered floors visible (1, 2, 3), each floor highlighted in a different color, clean white background, minimalist style suitable for a language learning app."
+}

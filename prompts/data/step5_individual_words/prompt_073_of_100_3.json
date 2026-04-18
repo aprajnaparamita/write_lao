@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫໍ",
+  "definitions": {
+    "de": "Turm oder Halle; ein hohes Gebäude oder eine bedeutende öffentliche Halle, oft mit kultureller oder religiöser Bedeutung",
+    "en": "Tower or hall; a tall structure or significant public hall, often with cultural or religious significance",
+    "es": "Torre o sala; una estructura alta o sala pública importante, a menudo con significado cultural o religioso",
+    "fr": "Tour ou salle; une haute structure ou une salle publique importante, souvent à signification culturelle ou religieuse",
+    "hi": "मीनार या भवन; एक ऊँची संरचना या महत्वपूर्ण सार्वजनिक भवन, जिसका सांस्कृतिक या धार्मिक महत्व होता है",
+    "ja": "塔またはホール；文化的・宗教的な意味を持つことが多い、高い建造物または重要な公共の建物",
+    "km": "ប៉មឬសាល; អគារខ្ពស់ ឬសាលសាធារណៈសំខាន់ ដែលជារឿយៗមានសារៈសំខាន់ខាងវប្បធម៌ ឬសាសនា",
+    "ko": "탑 또는 홀; 문화적·종교적 의미를 지닌 높은 건축물 또는 중요한 공공 건물",
+    "ne": "मीनार वा हल; एउटा अग्लो संरचना वा महत्त्वपूर्ण सार्वजनिक भवन, प्रायः सांस्कृतिक वा धार्मिक महत्त्वको",
+    "pt": "Torre ou salão; uma estrutura alta ou salão público importante, frequentemente com significado cultural ou religioso",
+    "th": "หอ หรือ ห้องโถง; สิ่งก่อสร้างสูงหรืออาคารสาธารณะสำคัญ มักมีความหมายทางวัฒนธรรมหรือศาสนา",
+    "tl": "Tore o bulwagan; isang mataas na gusali o mahalagang pampublikong bulwagan, madalas na may kultural o relihiyosong kahalagahan",
+    "ur": "مینار یا ہال؛ ایک اونچی عمارت یا اہم عوامی ہال، جو اکثر ثقافتی یا مذہبی اہمیت رکھتا ہے",
+    "vi": "Tháp hoặc hội trường; một công trình cao hoặc hội trường công cộng quan trọng, thường mang ý nghĩa văn hóa hoặc tôn giáo",
+    "zh": "塔楼或大厅；高耸的建筑物或重要的公共大厅，通常具有文化或宗教意义",
+    "zh_Hant": "塔樓或大廳；高聳的建築物或重要的公共大廳，通常具有文化或宗教意義"
+  },
+  "definition_en": "Tower or hall; a tall structure or significant public hall, often with cultural or religious significance",
+  "romanization": "hɔ̌ɔ",
+  "lao_examples": [
+    {
+      "lao_script": "ຫໍສະໝຸດຢູ່ໃກ້ໂຮງຮຽນ",
+      "romanization": "hɔ̌ɔ sa-mùt yùu kâi hóong hian",
+      "translation_en": "The library is near the school."
+    },
+    {
+      "lao_script": "ຫໍນັ້ນສູງຫຼາຍ, ສວຍງາມດີ",
+      "romanization": "hɔ̌ɔ nán sǔung lǎai, suai ngaam dii",
+      "translation_en": "That tower is very tall, it's really beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a tall traditional Southeast Asian tower or library hall building with a pointed roof, standing alone against a clean white background, colorful minimalist style suitable for a language learning app."
+}

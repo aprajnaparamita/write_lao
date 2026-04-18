@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕັງ",
+  "definitions": {
+    "de": "Etwas aufstellen, installieren oder einrichten; etwas an einem bestimmten Ort positionieren oder montieren",
+    "en": "To set up, install, or establish something; to position or mount something in a specific place",
+    "es": "Instalar, montar o establecer algo; colocar o posicionar algo en un lugar específico",
+    "fr": "Installer, monter ou mettre en place quelque chose; positionner ou fixer quelque chose à un endroit précis",
+    "hi": "कुछ स्थापित करना, इंस्टॉल करना या लगाना; किसी विशेष स्थान पर कुछ रखना या जोड़ना",
+    "ja": "何かを設置する、取り付ける、または設立する；特定の場所に何かを配置または固定する",
+    "km": "ដំឡើង ติดตั้ง ឬបង្កើតអ្វីមួយ; ដាក់ ឬឧបត្ថម្ភអ្វីមួយនៅកន្លែងជាក់លាក់",
+    "ko": "무언가를 설치하거나, 세우거나, 설립하다; 특정 장소에 무언가를 놓거나 고정하다",
+    "ne": "केही स्थापना गर्नु, जडान गर्नु वा लगाउनु; कुनै निश्चित ठाउँमा केही राख्नु वा जोड्नु",
+    "pt": "Instalar, montar ou configurar algo; posicionar ou fixar algo em um lugar específico",
+    "th": "ตั้ง; ติดตั้ง วางตั้ง หรือจัดตั้งบางสิ่ง; วางหรือยึดบางสิ่งในสถานที่เฉพาะ",
+    "tl": "Mag-set up, mag-install, o magtatag ng isang bagay; ilagay o i-mount ang isang bagay sa isang partikular na lugar",
+    "ur": "کچھ نصب کرنا، قائم کرنا یا لگانا؛ کسی مخصوص جگہ پر کچھ رکھنا یا لگانا",
+    "vi": "Lắp đặt, cài đặt hoặc thiết lập thứ gì đó; đặt hoặc gắn thứ gì đó ở một nơi cụ thể",
+    "zh": "安装、设立或架设某物；将某物放置或固定在特定位置",
+    "zh_Hant": "安裝、設立或架設某物；將某物放置或固定在特定位置"
+  },
+  "definition_en": "To set up, install, or establish something; to position or mount something in a specific place",
+  "romanization": "/taŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາຕ້ອງຕັງເຕັນທ໌ກ່ອນຝົນຈະຕົກ",
+      "romanization": "hao tong tang ten gon fon ja tok",
+      "translation_en": "We need to set up the tent before it rains"
+    },
+    {
+      "lao_script": "ພໍ່ກຳລັງຕັງໂທລະທັດໃໝ່ຢູ່ໃນຫ້ອງ",
+      "romanization": "pho gam-lang tang tho-la-that mai yu nai hong",
+      "translation_en": "Dad is setting up the new TV in the room"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person setting up or assembling a tent outdoors, with tent poles being positioned and fabric spread out, clean white background with a hint of green grass, bright colors, minimalist style suitable for a language learning app."
+}

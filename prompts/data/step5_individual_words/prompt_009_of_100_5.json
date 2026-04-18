@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນຳ",
+  "definitions": {
+    "de": "Auch; mit; zusammen (multifunktionales Partikel, das Begleitung oder das Hinzufügen von Information ausdrückt, häufig in der gesprochenen Sprache)",
+    "en": "Also; too; with; together (multipurpose spoken particle expressing accompaniment, addition, or togetherness)",
+    "es": "También; junto con; con (partícula hablada de uso múltiple que expresa compañía, adición o unión)",
+    "fr": "Aussi; avec; ensemble (particule polyvalente de la langue parlée exprimant la compagnie, l'ajout ou le fait d'être ensemble)",
+    "hi": "भी; साथ; मिलकर (बहुउद्देशीय बोलचाल का कण जो साहचर्य, जोड़ या एकता दर्शाता है)",
+    "ja": "〜も；〜と一緒に（話し言葉の多機能な助詞で、同伴・付加・共同を表す）",
+    "km": "ផងដែរ; ជាមួយ; រួមគ្នា (ជាភាគល្អិតបន្ថែម ឬអមដំណើរក្នុងការនិយាយ)",
+    "ko": "도; 같이; 함께 (동반, 추가, 또는 함께함을 나타내는 구어 다목적 조사)",
+    "ne": "पनि; सँगै; साथमा (साहचर्य, थप वा एकता जनाउने बोलचालको बहुउद्देशीय कण)",
+    "pt": "Também; junto; com (partícula oral multiuso que expressa companhia, adição ou união)",
+    "th": "ด้วย; ไปด้วยกัน; กับ (คำอนุภาคพูดอเนกประสงค์ที่แสดงการร่วมกัน การเพิ่ม หรือความเป็นหมู่คณะ)",
+    "tl": "Rin; din; kasama (maraming gamit na salitang-pantukoy sa wikang sinasalita na nagpapahiwatig ng samahan o pagdaragdag)",
+    "ur": "بھی؛ ساتھ؛ مل کر (کثیر المقاصد بولی جانے والی ذرہ جو رفاقت، اضافہ یا اشتراک ظاہر کرے)",
+    "vi": "Cũng; cùng; với nhau (tiểu từ khẩu ngữ đa năng diễn đạt sự đi kèm, thêm vào, hoặc cùng nhau)",
+    "zh": "也；一起；和（口语多功能助词，表示陪伴、附加或共同）",
+    "zh_Hant": "也；一起；和（口語多功能助詞，表示陪伴、附加或共同）"
+  },
+  "definition_en": "Also; too; with; together (multipurpose spoken particle expressing accompaniment, addition, or togetherness)",
+  "romanization": "nam",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍໄປນຳເດີ້",
+      "romanization": "khôi pai nam dœ̂",
+      "translation_en": "I'm going too!"
+    },
+    {
+      "lao_script": "ມາກິນເຂົ້ານຳກັນເດາະ",
+      "romanization": "maa kin khâo nam kan dǒ",
+      "translation_en": "Come eat together with us!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two or three smiling people walking or sitting together side by side, suggesting togetherness and 'also coming along', clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບອກ",
+  "definitions": {
+    "de": "Sagen, mitteilen; jemandem etwas erzählen oder informieren",
+    "en": "To tell; to inform or communicate something to someone",
+    "es": "Decir, informar; comunicar algo a alguien",
+    "fr": "Dire, informer ; communiquer quelque chose à quelqu'un",
+    "hi": "बताना; किसी को कुछ सूचित करना या कहना",
+    "ja": "言う、教える；誰かに何かを伝える、知らせる",
+    "km": "ប្រាប់; ជូនដំណឹង ឬប្រាស្រ័យទាក់ទងអ្វីមួយដល់អ្នកណាម្នាក់",
+    "ko": "말하다, 알리다; 누군가에게 무언가를 전달하거나 알리다",
+    "ne": "बताउनु; कसैलाई केही जानकारी दिनु वा भन्नु",
+    "pt": "Dizer, contar; informar ou comunicar algo a alguém",
+    "th": "บอก; แจ้งหรือสื่อสารบางสิ่งให้กับใครสักคน",
+    "tl": "Sabihin, ipaalam; iparating o iulat ang isang bagay sa isang tao",
+    "ur": "بتانا؛ کسی کو کچھ بتانا یا آگاہ کرنا",
+    "vi": "Nói, cho biết; thông báo hoặc truyền đạt điều gì đó cho ai đó",
+    "zh": "告诉；将某事通知或传达给某人",
+    "zh_Hant": "告訴；將某事通知或傳達給某人"
+  },
+  "definition_en": "To tell; to inform or communicate something to someone",
+  "romanization": "/bɔːk⁵/",
+  "lao_examples": [
+    {
+      "lao_script": "ບອກຂ້ອຍແມ່ນແລ້ວ, ເຈົ້າໄປໃສ?",
+      "romanization": "bɔːk khoi men laeo, jao pai sai",
+      "translation_en": "Just tell me, where did you go?"
+    },
+    {
+      "lao_script": "ຢ່າລືມບອກແມ່ດ້ວຍນະ",
+      "romanization": "yaa leum bɔːk mae duai na",
+      "translation_en": "Don't forget to tell mom too."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of one person speaking to another, with a speech bubble coming from their mouth, both characters looking engaged in conversation, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລືມ",
+  "definitions": {
+    "de": "Vergessen; sich nicht mehr an etwas erinnern können",
+    "en": "To forget; to fail to remember something",
+    "es": "Olvidar; no poder recordar algo",
+    "fr": "Oublier ; ne plus se souvenir de quelque chose",
+    "hi": "भूलना; कुछ याद न कर पाना",
+    "ja": "忘れる；何かを思い出せなくなる",
+    "km": "ភ្លេច; មិនអាចចងចាំអ្វីមួយបាន",
+    "ko": "잊다; 무언가를 기억하지 못하다",
+    "ne": "बिर्सनु; कुनै कुरा सम्झन नसक्नु",
+    "pt": "Esquecer; não conseguir se lembrar de algo",
+    "th": "ลืม; จำอะไรบางอย่างไม่ได้",
+    "tl": "Kalimutan; hindi maalaala ang isang bagay",
+    "ur": "بھولنا؛ کچھ یاد نہ رہنا",
+    "vi": "Quên; không nhớ được điều gì đó",
+    "zh": "忘记；无法记住某事",
+    "zh_Hant": "忘記；無法記住某事"
+  },
+  "definition_en": "To forget; to fail to remember something",
+  "romanization": "lɯɯm",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍລືມເອົາກະເປົ໋າໄປ.",
+      "romanization": "khɔ̂i lɯɯm ao kàpǎo pai.",
+      "translation_en": "I forgot to bring my bag."
+    },
+    {
+      "lao_script": "ລືມລະຫັດຜ່ານອີກແລ້ວ!",
+      "romanization": "lɯɯm lahàt phàan iik lɛ́ɛw!",
+      "translation_en": "I forgot my password again!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person scratching their head with a confused expression, with a thought bubble showing a blank or empty space, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

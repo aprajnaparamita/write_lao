@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄໝ້",
+  "definitions": {
+    "de": "Brennen; etwas in Flammen aufgehen lassen oder verbrennen",
+    "en": "To burn; to be on fire or to set something on fire",
+    "es": "Quemar; estar en llamas o prender fuego a algo",
+    "fr": "Brûler ; être en feu ou mettre le feu à quelque chose",
+    "hi": "जलाना; आग लगाना या किसी चीज़ को जलाना",
+    "ja": "燃える・燃やす；火がつく、または火をつける",
+    "km": "ឆេះ; នៅក្នុងភ្លើង ឬដុតផ្លើង",
+    "ko": "불타다; 불이 붙거나 불을 지르다",
+    "ne": "जल्नु; आगो लाग्नु वा कुनै चिज जलाउनु",
+    "pt": "Queimar; pegar fogo ou incendiar algo",
+    "th": "ไหม้; ติดไฟหรือเผาสิ่งของ",
+    "tl": "Masunog; maging nasa apoy o sunugin ang isang bagay",
+    "ur": "جلنا؛ آگ لگنا یا کسی چیز کو آگ لگانا",
+    "vi": "Cháy; bốc lửa hoặc đốt cháy thứ gì đó",
+    "zh": "燃烧；着火或点燃某物",
+    "zh_Hant": "燃燒；著火或點燃某物"
+  },
+  "definition_en": "To burn; to be on fire or to set something on fire",
+  "romanization": "/mâj/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂ້າງໆໄໝ້ຄືນນີ້ເລີຍ",
+      "romanization": "Heuon khang khang mai kheun ni loei",
+      "translation_en": "The house next door burned down last night."
+    },
+    {
+      "lao_script": "ລະວັງ! ອາຫານໄໝ້ຢູ່ແລ້ວ",
+      "romanization": "La wang! Ahan mai yu laeo",
+      "translation_en": "Careful! The food is burning!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a small campfire or a piece of food burning on a pan with orange and red flames and smoke rising, clean white background, bright and colorful minimalist style suitable for a language learning app."
+}

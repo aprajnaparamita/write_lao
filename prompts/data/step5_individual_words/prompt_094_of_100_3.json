@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫລັກ",
+  "definitions": {
+    "de": "Haupt-, wichtigster; grundlegend; auch: Säule, Pfosten (als Nomen)",
+    "en": "Main, principal, primary; also used as a noun meaning pillar or post",
+    "es": "Principal, principal, primario; también se usa como sustantivo que significa pilar o poste",
+    "fr": "Principal, majeur, primaire; utilisé aussi comme nom signifiant pilier ou poteau",
+    "hi": "मुख्य, प्रमुख; संज्ञा के रूप में: स्तंभ, खंभा",
+    "ja": "主な、主要な；名詞として柱・杭の意味でも使われる",
+    "km": "សំខាន់ ចម្បង; ក៏ប្រើជានាមន័យថាសសរ ឬសសរ",
+    "ko": "주요한, 주된; 명사로는 기둥, 말뚝의 의미도 있음",
+    "ne": "मुख्य, प्रमुख; संज्ञाको रूपमा: स्तम्भ, खम्बा",
+    "pt": "Principal, primário; também usado como substantivo com o significado de pilar ou poste",
+    "th": "หลัก, สำคัญ, หลัก; ยังใช้เป็นคำนามหมายถึงเสาหรือหลัก",
+    "tl": "Pangunahin, pangunahin; ginagamit din bilang pangngalan na nangangahulugang haligi o poste",
+    "ur": "مرکزی، اہم، بنیادی؛ اسم کے طور پر: ستون، کھمبا",
+    "vi": "Chính, chủ yếu, quan trọng nhất; cũng dùng như danh từ nghĩa là cột, cọc",
+    "zh": "主要的，主要；也用作名词，意为柱子、桩",
+    "zh_Hant": "主要的，主要；也用作名詞，意為柱子、樁"
+  },
+  "definition_en": "Main, principal, primary; also used as a noun meaning pillar or post",
+  "romanization": "/lak/",
+  "lao_examples": [
+    {
+      "lao_script": "ນີ້ແມ່ນຖະໜົນຫລັກຂອງເມືອງ",
+      "romanization": "ni maen tha-non lak khong mueang",
+      "translation_en": "This is the main road of the city."
+    },
+    {
+      "lao_script": "ສາເຫດຫລັກຄືຫຍັງ?",
+      "romanization": "sa-het lak khue nyang?",
+      "translation_en": "What is the main reason?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a large central pillar or column highlighted in bold color among smaller ones, with a star or emphasis mark indicating 'main' or 'principal', on a clean white background, minimalist educational style."
+}

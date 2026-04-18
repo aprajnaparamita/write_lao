@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຖ້ວມ",
+  "definitions": {
+    "de": "Überschwemmung; eine große Menge Wasser, die Land oder Gebiete bedeckt, die normalerweise trocken sind; überschwemmt sein",
+    "en": "Flood; a large overflow of water that submerges land or areas that are normally dry; to be flooded",
+    "es": "Inundación; un gran desbordamiento de agua que cubre tierras o áreas que normalmente están secas; estar inundado",
+    "fr": "Inondation; un grand débordement d'eau qui submerge des terres ou des zones normalement sèches; être inondé",
+    "hi": "बाढ़; पानी का बड़ा अतिप्रवाह जो सामान्यतः सूखी भूमि या क्षेत्रों को डुबो देता है; बाढ़ में डूबना",
+    "ja": "洪水；通常は乾いている土地や地域を水浸しにする大量の水の氾濫；水没する",
+    "km": "ទឹកជំនន់; ទឹកហូរច្រោះដែលលិចលង់ដីឬតំបន់ដែលជាធម្មតារងស្ងួត; ត្រូវបានលិចលង់",
+    "ko": "홍수; 일반적으로 건조한 땅이나 지역을 침수시키는 대규모 물 범람; 침수되다",
+    "ne": "बाढी; सामान्यतः सुख्खा भूमि वा क्षेत्रहरूलाई डुबाउने ठूलो पानीको बाढी; बाढीमा डुब्नु",
+    "pt": "Enchente, inundação; grande transbordamento de água que submerge terras ou áreas normalmente secas; estar inundado",
+    "th": "น้ำท่วม; การไหลบ่าของน้ำจำนวนมากที่ท่วมพื้นที่ซึ่งโดยปกติแห้ง; ถูกน้ำท่วม",
+    "tl": "Baha; malaking pagapaw ng tubig na nagtatakip ng lupa o mga lugar na karaniwang tuyo; binabaha",
+    "ur": "سیلاب؛ پانی کا بڑا بہاؤ جو عام طور پر خشک زمین یا علاقوں کو ڈبو دے؛ سیلاب آنا",
+    "vi": "Lũ lụt; lượng nước lớn tràn ra làm ngập những vùng đất thường khô ráo; bị ngập lụt",
+    "zh": "洪水、水灾；大量水溢出淹没通常干燥的土地或地区；被淹没",
+    "zh_Hant": "洪水、水災；大量水溢出淹沒通常乾燥的土地或地區；被淹沒"
+  },
+  "definition_en": "Flood; a large overflow of water that submerges land or areas that are normally dry; to be flooded",
+  "romanization": "/tʰûam/",
+  "lao_examples": [
+    {
+      "lao_script": "ປີນີ້ນ້ຳຖ້ວມຫລາຍຫ້ອງ ເຈັ້ຍເສຍຫາຍຫລາຍ",
+      "romanization": "Pii nii nam tuam laai hong, jia sia-haai laai",
+      "translation_en": "This year the flood reached many rooms and a lot of things got damaged."
+    },
+    {
+      "lao_script": "ຖ້ອຍ ຖ້ວມແລ້ວ ເຮົາຄວນຍ້າຍໄປກ່ອນ",
+      "romanization": "Thoi tuam laeo, hao khuan yaai pai kon",
+      "translation_en": "Hey, it's already flooding, we should move out first."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a flooded street with water covering the road and reaching the bottom of houses, with a few sandbags visible, clean white background, blue water tones, minimalist cartoon style suitable for a language learning app."
+}

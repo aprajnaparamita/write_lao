@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂັນ",
+  "definitions": {
+    "de": "Eine Schale oder ein Tablett, das traditionell in laotischen Zeremonien und Ritualen für Opfergaben, Wasser oder dekorative Zwecke verwendet wird; oft aus Silber oder Messing gefertigt",
+    "en": "A ceremonial bowl or tray traditionally used in Lao rituals and ceremonies for offerings, water, or decorative purposes; often made of silver or brass",
+    "es": "Un cuenco o bandeja ceremonial utilizado tradicionalmente en rituales y ceremonias lausianas para ofrendas, agua o propósitos decorativos; a menudo hecho de plata o latón",
+    "fr": "Un bol ou plateau cérémoniel utilisé traditionnellement dans les rituels et cérémonies laotiens pour les offrandes, l'eau ou des usages décoratifs; souvent en argent ou en laiton",
+    "hi": "एक औपचारिक कटोरा या थाली जो पारंपरिक रूप से लाओ अनुष्ठानों और समारोहों में भेंट, पानी या सजावटी उद्देश्यों के लिए उपयोग की जाती है; अक्सर चांदी या पीतल से बनी होती है",
+    "ja": "ラオスの儀式や式典で供物、水、または装飾目的に伝統的に使用される儀礼用の椀やトレー; しばしば銀や真鍮で作られる",
+    "km": "ចានពិធីការ ឬថាសដែលប្រើដោយប្រពៃណីក្នុងពិធីបុណ្យ និងពិធីសារ​ ឡាវ​ សម្រាប់ការបូជា ទឹក ឬគោលបំណងតុបតែង; ច្រើនតែធ្វើពីប្រាក់ ឬសំរឹទ្ធ",
+    "ko": "라오스의 의례와 의식에서 제물, 물 또는 장식 목적으로 전통적으로 사용되는 의식용 그릇 또는 쟁반; 종종 은이나 황동으로 만들어짐",
+    "ne": "एक औपचारिक कटोरा वा थाल जुन परम्परागत रूपमा लाओ अनुष्ठान र समारोहहरूमा भेटी, पानी वा सजावटी उद्देश्यका लागि प्रयोग गरिन्छ; प्रायः चाँदी वा पित्तलबाट बनेको",
+    "pt": "Uma tigela ou bandeja cerimonial usada tradicionalmente nos rituais e cerimônias lausianos para oferendas, água ou fins decorativos; frequentemente feita de prata ou latão",
+    "th": "ขันหรือถาดพิธีกรรมที่ใช้ตามประเพณีในพิธีกรรมและพิธีการของลาว สำหรับของบูชา น้ำ หรือการตกแต่ง มักทำจากเงินหรือทองเหลือง",
+    "tl": "Isang seremonyal na mangkok o bandehado na tradisyonal na ginagamit sa mga ritwal at seremonya ng Lao para sa mga alay, tubig, o dekorasyon; madalas na gawa sa pilak o tansong dilaw",
+    "ur": "ایک رسمی پیالہ یا ٹرے جو روایتی طور پر لاؤ رسوم اور تقریبات میں نذرانوں، پانی یا آرائشی مقاصد کے لیے استعمال ہوتی ہے؛ اکثر چاندی یا پیتل سے بنی ہوتی ہے",
+    "vi": "Một cái bát hoặc khay dùng trong nghi lễ, truyền thống được sử dụng trong các nghi lễ và lễ hội của Lào để dâng lễ vật, nước hoặc mục đích trang trí; thường làm bằng bạc hoặc đồng",
+    "zh": "一种仪式用碗或托盘，传统上用于老挝的仪式和典礼，用于供奉、盛水或装饰；通常由银或黄铜制成",
+    "zh_Hant": "一種儀式用碗或托盤，傳統上用於寮國的儀式和典禮，用於供奉、盛水或裝飾；通常由銀或黃銅製成"
+  },
+  "definition_en": "A ceremonial bowl or tray traditionally used in Lao rituals and ceremonies for offerings, water, or decorative purposes; often made of silver or brass",
+  "romanization": "kʰan˩˩˦",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາຂັນນ້ຳຕັ້ງໄວ້ໃນພິທີ",
+      "romanization": "ao kʰan naːm taŋ waːj nai pʰiː tiː",
+      "translation_en": "Place the water bowl for the ceremony"
+    },
+    {
+      "lao_script": "ຂັນເງິນຂອງເຮືອນນີ້ສວຍງາມຫຼາຍ",
+      "romanization": "kʰan ŋɤːn kʰɔːŋ hɯːan niː suaj ŋaːm laːj",
+      "translation_en": "This house's silver bowl is very beautiful"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional ornate ceremonial bowl or tray made of silver or brass, with decorative engravings, placed on a surface as if for a ritual offering, suitable for a language learning app, clean white background, warm metallic tones, minimalist style"
+}

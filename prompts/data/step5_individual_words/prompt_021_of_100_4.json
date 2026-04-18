@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກ່າວ",
+  "definitions": {
+    "de": "Sagen; sprechen; etwas äußern (formeller als das umgangssprachliche ເວົ້າ)",
+    "en": "To say or speak; to utter or express something (more formal than ເວົ້າ)",
+    "es": "Decir; hablar; expresar algo (más formal que ເວົ້າ)",
+    "fr": "Dire; parler; exprimer quelque chose (plus formel que ເວົ້າ)",
+    "hi": "कहना; बोलना; कुछ व्यक्त करना (ເວົ້າ से अधिक औपचारिक)",
+    "ja": "言う；述べる；何かを表現する（ເວົ້າより丁寧な表現）",
+    "km": "និយាយ; ពោល; បង្ហាញអ្វីមួយ (ផ្លូវការជាង ເວົ້າ)",
+    "ko": "말하다; 발언하다; 무언가를 표현하다 (ເວົ້າ보다 격식체)",
+    "ne": "भन्नु; बोल्नु; केही व्यक्त गर्नु (ເວົ້າ भन्दा बढी औपचारिक)",
+    "pt": "Dizer; falar; expressar algo (mais formal do que ເວົ້າ)",
+    "th": "กล่าว; พูด; แสดงออกบางอย่าง (เป็นทางการกว่า ເວົ້າ)",
+    "tl": "Sabihin; magsalita; ipahayag ang isang bagay (mas pormal kaysa ເວົ້າ)",
+    "ur": "کہنا; بولنا; کچھ بیان کرنا (ເວົ້າ سے زیادہ رسمی)",
+    "vi": "Nói; phát biểu; diễn đạt điều gì đó (trang trọng hơn ເວົ້າ)",
+    "zh": "说；讲；表达某事（比ເວົ້າ更正式）",
+    "zh_Hant": "說；講；表達某事（比ເວົ້າ更正式）"
+  },
+  "definition_en": "To say or speak; to utter or express something (more formal than ເວົ້າ)",
+  "romanization": "kao",
+  "lao_examples": [
+    {
+      "lao_script": "ຄູໄດ້ກ່າວວ່າການສອບເສັງຈະມີອາທິດໜ້າ",
+      "romanization": "khu dai kao va kan sop seng ja mii atit na",
+      "translation_en": "The teacher said that the exam will be next week."
+    },
+    {
+      "lao_script": "ລາວກ່າວຂໍໂທດຕໍ່ທຸກຄົນ",
+      "romanization": "lao kao kho thot to thuk khon",
+      "translation_en": "He/She apologized to everyone."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing at a podium or microphone speaking confidently to a small audience, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

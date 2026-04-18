@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃຫຍ່",
+  "definitions": {
+    "de": "Groß – von großer Größe oder Bedeutung",
+    "en": "Big / large – of great size or importance",
+    "es": "Grande – de gran tamaño o importancia",
+    "fr": "Grand / gros – de grande taille ou importance",
+    "hi": "बड़ा – आकार या महत्व में बड़ा",
+    "ja": "大きい – サイズや規模が大きいさま",
+    "km": "ធំ – មានទំហំ ឬសារៈសំខាន់ច្រើន",
+    "ko": "크다 – 크기나 중요도가 큰",
+    "ne": "ठूलो – आकार वा महत्त्वमा ठूलो",
+    "pt": "Grande – de tamanho ou importância elevada",
+    "th": "ใหญ่ – มีขนาดหรือความสำคัญมาก",
+    "tl": "Malaki – may malaking sukat o kahalagahan",
+    "ur": "بڑا – جسامت یا اہمیت میں بڑا",
+    "vi": "To / lớn – có kích thước hoặc tầm quan trọng lớn",
+    "zh": "大 – 尺寸或重要性大",
+    "zh_Hant": "大 – 尺寸或重要性大"
+  },
+  "definition_en": "Big / large – of great size or importance",
+  "romanization": "/ɲaɪ/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຂອງລາວໃຫຍ່ຫຼາຍ",
+      "romanization": "hueang khong lao nyai laai",
+      "translation_en": "Their house is very big."
+    },
+    {
+      "lao_script": "ຖົງໃບນີ້ໃຫຍ່ກວ່າອັນນັ້ນ",
+      "romanization": "thong bai nii nyai kwa an nan",
+      "translation_en": "This bag is bigger than that one."
+    }
+  ],
+  "image_prompt": "A simple flat illustration comparing a large elephant and a small mouse side by side to show the concept of 'big', clean white background, bright colors, minimalist cartoon style for a language learning app."
+}

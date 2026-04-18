@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢັ້ງ",
+  "definitions": {
+    "de": "Anhalten, zurückhalten oder stoppen (eine Bewegung oder Handlung)",
+    "en": "To stop, restrain, or hold back (a movement or action)",
+    "es": "Detener, contener o frenar (un movimiento o acción)",
+    "fr": "Arrêter, retenir ou freiner (un mouvement ou une action)",
+    "hi": "रोकना, थामना या किसी गति/क्रिया को नियंत्रित करना",
+    "ja": "（動きや行動を）止める、抑える、引き止める",
+    "km": "ឈប់ ទប់ស្កាត់ ឬទប់ (ចលនា ឬសកម្មភាព)",
+    "ko": "멈추다, 억제하다, (움직임이나 행동을) 저지하다",
+    "ne": "रोक्नु, थाम्नु वा (कुनै गति वा कार्य) नियन्त्रण गर्नु",
+    "pt": "Parar, conter ou segurar (um movimento ou ação)",
+    "th": "หยุด ยับยั้ง หรือกั้นไม่ให้เคลื่อนไหวหรือกระทำการใดๆ",
+    "tl": "Pigilan, pigilin, o itigil (ang isang galaw o kilos)",
+    "ur": "روکنا، تھامنا، یا کسی حرکت یا عمل کو قابو میں رکھنا",
+    "vi": "Dừng lại, kiềm chế hoặc ngăn cản (một chuyển động hoặc hành động)",
+    "zh": "停止、克制或阻止（某种动作或行为）",
+    "zh_Hant": "停止、克制或阻止（某種動作或行為）"
+  },
+  "definition_en": "To stop, restrain, or hold back (a movement or action)",
+  "romanization": "ɲǎŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຢັ້ງໆ ຢ່າແລ່ນໄປ!",
+      "romanization": "ɲǎŋ ɲǎŋ, yàa lɛ̂n pai!",
+      "translation_en": "Stop! Don't run off!"
+    },
+    {
+      "lao_script": "ຢັ້ງໃຈໄວ້ກ່ອນ, ຢ່າຮີບ.",
+      "romanization": "ɲǎŋ jai wái kɔ̀ɔn, yàa híip.",
+      "translation_en": "Hold yourself back first, don't be in a rush."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person holding out their hand in a 'stop' gesture to restrain another person from moving forward, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຄື່ອງ",
+  "definitions": {
+    "de": "Maschine, Gerät, Gegenstand; ein allgemeines Wort für Objekte, Werkzeuge oder Geräte",
+    "en": "Machine, device, or thing; a general word for objects, tools, appliances, or equipment",
+    "es": "Máquina, dispositivo o cosa; palabra general para objetos, herramientas, aparatos o equipos",
+    "fr": "Machine, appareil ou chose; terme général pour les objets, outils, appareils ou équipements",
+    "hi": "मशीन, उपकरण या वस्तु; वस्तुओं, औजारों, उपकरणों या साधनों के लिए एक सामान्य शब्द",
+    "ja": "機械、装置、またはもの；道具・機器・物品を指す一般的な言葉",
+    "km": "ម៉ាស៊ីន ឧបករណ៍ ឬរបស់; ពាក្យទូទៅសម្រាប់វត្ថុ ឧបករណ៍ ឬសម្ភារៈ",
+    "ko": "기계, 장치, 또는 물건; 도구, 기기, 장비를 나타내는 일반적인 단어",
+    "ne": "मेसिन, यन्त्र वा वस्तु; औजार, उपकरण वा सामानका लागि एक सामान्य शब्द",
+    "pt": "Máquina, dispositivo ou coisa; palavra geral para objetos, ferramentas, aparelhos ou equipamentos",
+    "th": "เครื่องจักร อุปกรณ์ หรือสิ่งของ; คำทั่วไปสำหรับวัตถุ เครื่องมือ เครื่องใช้ หรืออุปกรณ์",
+    "tl": "Makina, kagamitan, o bagay; pangkalahatang salita para sa mga bagay, kasangkapan, o kagamitan",
+    "ur": "مشین، آلہ یا چیز؛ اوزاروں، آلات یا سامان کے لیے ایک عام لفظ",
+    "vi": "Máy móc, thiết bị hoặc đồ vật; từ chung để chỉ các vật dụng, công cụ, thiết bị",
+    "zh": "机器、设备或物品；用于指代工具、器械、用具或物件的通用词",
+    "zh_Hant": "機器、設備或物品；用於指代工具、器械、用具或物件的通用詞"
+  },
+  "definition_en": "Machine, device, or thing; a general word for objects, tools, appliances, or equipment",
+  "romanization": "kʰɯ̂aŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຄື່ອງນີ້ໃຊ້ງ່າຍຫຼາຍ",
+      "romanization": "kʰɯ̂aŋ níː sáj ŋâːj lǎːj",
+      "translation_en": "This machine/device is very easy to use."
+    },
+    {
+      "lao_script": "ເຄື່ອງຂອງເຈົ້າເສຍແລ້ວບໍ?",
+      "romanization": "kʰɯ̂aŋ kʰɔ̌ːŋ tɕâw sǐa lɛ́ːw bɔː",
+      "translation_en": "Is your device/machine broken?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of various everyday devices and appliances — a phone, a fan, and a small machine — arranged neatly on a clean white background, colorful minimalist style suitable for a language learning app."
+}

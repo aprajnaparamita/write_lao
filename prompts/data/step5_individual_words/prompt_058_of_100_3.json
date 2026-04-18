@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊີ້",
+  "definitions": {
+    "de": "Zeigen; mit dem Finger auf etwas oder jemanden deuten",
+    "en": "To point; to indicate something by extending a finger toward it",
+    "es": "Señalar; indicar algo extendiendo el dedo hacia ello",
+    "fr": "Pointer; indiquer quelque chose en tendant le doigt vers lui",
+    "hi": "इशारा करना; उँगली से किसी चीज़ की तरफ संकेत करना",
+    "ja": "指さす；指を伸ばして何かを示す",
+    "km": "ចង្អុល; ចង្អុលបង្ហាញអ្វីមួយដោយប្រើម្រាមដៃ",
+    "ko": "가리키다; 손가락으로 무언가를 지시하다",
+    "ne": "औंल्याउनु; औँलाले कुनै चीजतर्फ संकेत गर्नु",
+    "pt": "Apontar; indicar algo estendendo o dedo em direção a ele",
+    "th": "ชี้; บ่งบอกสิ่งใดสิ่งหนึ่งด้วยการยื่นนิ้วไปหาสิ่งนั้น",
+    "tl": "Ituro; ipakita ang isang bagay sa pamamagitan ng pagduduro ng daliri",
+    "ur": "اشارہ کرنا؛ انگلی سے کسی چیز کی طرف نشاندہی کرنا",
+    "vi": "Chỉ; dùng ngón tay để chỉ về phía một thứ gì đó",
+    "zh": "指；伸出手指指向某物或某人",
+    "zh_Hant": "指；伸出手指指向某物或某人"
+  },
+  "definition_en": "To point; to indicate something by extending a finger toward it",
+  "romanization": "/siː˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າຊີ້ໃສ່ຄົນອື່ນ ມັນບໍ່ດີ",
+      "romanization": "yaa sii sai khon uun man boo dii",
+      "translation_en": "Don't point at other people, it's not polite."
+    },
+    {
+      "lao_script": "ຊີ້ໃຫ້ຂ້ອຍເບິ່ງແດ່ວ່າຮ້ານຢູ່ໃສ",
+      "romanization": "sii hai khoi boeng dae waa haan yuu sai",
+      "translation_en": "Point out to me where the shop is."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person extending one arm and pointing their index finger toward an object in the distance, clean white background, colorful and minimalist style suitable for a language learning app."
+}

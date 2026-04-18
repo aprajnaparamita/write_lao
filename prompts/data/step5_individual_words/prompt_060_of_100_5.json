@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປະເທດ",
+  "definitions": {
+    "de": "Land, Staat; ein souveräner Staat oder eine Nation mit eigenen Grenzen und Regierung",
+    "en": "Country, nation; a sovereign state with its own borders and government",
+    "es": "País, nación; un estado soberano con sus propias fronteras y gobierno",
+    "fr": "Pays, nation ; un État souverain avec ses propres frontières et son propre gouvernement",
+    "hi": "देश, राष्ट्र; अपनी सीमाओं और सरकार वाला एक संप्रभु राज्य",
+    "ja": "国、国家；独自の国境と政府を持つ主権国家",
+    "km": "ប្រទេស; រដ្ឋអធិបតេយ្យមួយដែលមានព្រំដែន និងរដ្ឋាភិបាលផ្ទាល់ខ្លួន",
+    "ko": "나라, 국가; 자체적인 국경과 정부를 가진 주권 국가",
+    "ne": "देश, राष्ट्र; आफ्नै सीमा र सरकार भएको एक सार्वभौम राज्य",
+    "pt": "País, nação; um estado soberano com suas próprias fronteiras e governo",
+    "th": "ประเทศ; รัฐที่มีอำนาจอธิปไตยพร้อมพรมแดนและรัฐบาลของตัวเอง",
+    "tl": "Bansa, nasyon; isang soberanong estado na may sariling hangganan at pamahalaan",
+    "ur": "ملک، قوم؛ اپنی سرحدوں اور حکومت کے ساتھ ایک خودمختار ریاست",
+    "vi": "Đất nước, quốc gia; một nhà nước có chủ quyền với biên giới và chính phủ riêng",
+    "zh": "国家；拥有自己边界和政府的主权国家",
+    "zh_Hant": "國家；擁有自己邊界和政府的主權國家"
+  },
+  "definition_en": "Country, nation; a sovereign state with its own borders and government",
+  "romanization": "/pa.tʰeːt/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຢາກໄປປະເທດໃດ?",
+      "romanization": "Jao yak pai pa-thet dai?",
+      "translation_en": "Which country do you want to go to?"
+    },
+    {
+      "lao_script": "ປະເທດລາວສວຍງາມຫຼາຍ",
+      "romanization": "Pa-thet Lao suay ngam lai",
+      "translation_en": "Laos is very beautiful."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a world map with one country highlighted in bright color, surrounded by small national flags, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

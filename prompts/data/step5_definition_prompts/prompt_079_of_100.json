@@ -1,0 +1,394 @@
+{
+  "ສວນ": {
+    "definitions": {
+      "de": "Garten oder Park; ein begrünter Bereich mit Pflanzen, Bäumen oder Blumen, der zur Erholung oder zum Anbau von Pflanzen genutzt wird",
+      "en": "Garden or park; a green outdoor space with plants, trees, or flowers used for relaxation or growing plants",
+      "es": "Jardín o parque; espacio al aire libre con plantas, árboles o flores usado para el descanso o el cultivo",
+      "fr": "Jardin ou parc; espace vert extérieur avec des plantes, des arbres ou des fleurs, utilisé pour se détendre ou cultiver des plantes",
+      "hi": "बगीचा या पार्क; पौधों, पेड़ों या फूलों वाला हरा-भरा बाहरी स्थान जिसका उपयोग आराम या पौधे उगाने के लिए किया जाता है",
+      "ja": "庭園または公園。植物、木、花などがある屋外の緑地で、くつろぎや植物の栽培に使われる場所",
+      "km": "សួន ឬទីធ្លា; ទីធ្លាខាងក្រៅដែលមានដើមឈើ រុក្ខជាតិ ឬផ្កា ប្រើសម្រាប់សម្រាក ឬដាំដុះរុក្ខជាតិ",
+      "ko": "정원 또는 공원; 식물, 나무, 꽃이 있는 야외 녹지 공간으로 휴식이나 식물 재배에 사용됨",
+      "ne": "बगैंचा वा पार्क; बिरुवा, रूख वा फूलहरू भएको हरियो बाहिरी ठाउँ जुन आराम वा बिरुवा उमार्नका लागि प्रयोग गरिन्छ",
+      "pt": "Jardim ou parque; espaço verde ao ar livre com plantas, árvores ou flores, usado para relaxar ou cultivar plantas",
+      "th": "สวนหรือสวนสาธารณะ พื้นที่กลางแจ้งที่มีต้นไม้ พืช หรือดอกไม้ ใช้สำหรับพักผ่อนหรือปลูกพืช",
+      "tl": "Hardin o parke; isang berdeng lugar sa labas na may mga halaman, puno, o bulaklak na ginagamit para sa pahinga o pagpapalaki ng mga halaman",
+      "ur": "باغ یا پارک؛ پودوں، درختوں یا پھولوں والی ہری بھری بیرونی جگہ جو آرام یا پودے اگانے کے لیے استعمال ہوتی ہے",
+      "vi": "Vườn hoặc công viên; không gian ngoài trời xanh mát có cây cối, thực vật hoặc hoa dùng để nghỉ ngơi hoặc trồng trọt",
+      "zh": "花园或公园；有植物、树木或花卉的户外绿色空间，用于休闲或种植植物",
+      "zh_Hant": "花園或公園；有植物、樹木或花卉的戶外綠色空間，用於休閒或種植植物"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sǔan/",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ເຮົາໄປຫຼິ້ນທີ່ສວນກັນເນາະ",
+        "romanization": "Muu-nih hao pai lin thi suan kan naw.",
+        "translations": {
+          "de": "Lass uns heute im Park spielen gehen, okay?",
+          "en": "Let's go play at the park today, okay?",
+          "es": "Vamos a jugar en el parque hoy, ¿de acuerdo?",
+          "fr": "On va jouer au parc aujourd'hui, d'accord ?",
+          "hi": "आज पार्क में खेलने चलते हैं, ठीक है?",
+          "ja": "今日は公園で遊ぼうよ、いいでしょ？",
+          "km": "ថ្ងៃនេះយើងទៅលេងនៅសួននោះណា",
+          "ko": "오늘 공원에 놀러 가자, 어때?",
+          "ne": "आज पार्कमा खेल्न जाऊँ, ठिक छ?",
+          "pt": "Vamos brincar no parque hoje, tá bom?",
+          "th": "วันนี้เราไปเล่นที่สวนกันนะ",
+          "tl": "Pumunta tayo sa parke ngayon para maglaro, okay?",
+          "ur": "آج پارک میں کھیلنے چلتے ہیں، ٹھیک ہے؟",
+          "vi": "Hôm nay chúng ta đi chơi ở công viên nhé?",
+          "zh": "今天我们去公园玩吧，好不好？",
+          "zh_Hant": "今天我們去公園玩吧，好不好？"
+        },
+        "out_of_scope_words": [
+          "ຫຼິ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ສວນຂອງແມ່ມີດອກໄມ້ສວຍຫຼາຍ",
+        "romanization": "Suan khong mae mii dok-mai suay lai.",
+        "translations": {
+          "de": "Der Garten meiner Mutter hat viele schöne Blumen.",
+          "en": "My mom's garden has a lot of beautiful flowers.",
+          "es": "El jardín de mi mamá tiene muchas flores hermosas.",
+          "fr": "Le jardin de ma mère a beaucoup de belles fleurs.",
+          "hi": "मेरी माँ के बगीचे में बहुत सारे सुंदर फूल हैं।",
+          "ja": "お母さんの庭にはきれいな花がたくさんある。",
+          "km": "សួនរបស់មាម៉ាយើងមានផ្កាស្អាតច្រើន",
+          "ko": "우리 엄마 정원에는 예쁜 꽃이 많아.",
+          "ne": "आमाको बगैंचामा धेरै सुन्दर फूलहरू छन्।",
+          "pt": "O jardim da minha mãe tem muitas flores bonitas.",
+          "th": "สวนของแม่มีดอกไม้สวยเยอะมาก",
+          "tl": "Ang hardin ng aking nanay ay may maraming magagandang bulaklak.",
+          "ur": "میری ماں کے باغ میں بہت خوبصورت پھول ہیں۔",
+          "vi": "Khu vườn của mẹ tôi có rất nhiều hoa đẹp.",
+          "zh": "妈妈的花园里有很多漂亮的花。",
+          "zh_Hant": "媽媽的花園裡有很多漂亮的花。"
+        },
+        "out_of_scope_words": [
+          "ດອກໄມ້",
+          "ສວຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful garden or park with colorful flowers, green trees, and a winding path, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫວັງ": {
+    "definitions": {
+      "de": "Hoffen; den Wunsch oder die Erwartung haben, dass etwas Gutes oder Positives geschieht",
+      "en": "To hope; to wish or expect that something good or positive will happen",
+      "es": "Esperar; desear o anticipar que algo bueno o positivo suceda",
+      "fr": "Espérer; souhaiter ou s'attendre à ce que quelque chose de bien ou de positif se produise",
+      "hi": "आशा करना; यह इच्छा या उम्मीद रखना कि कुछ अच्छा या सकारात्मक होगा",
+      "ja": "希望する；何か良いことや前向きなことが起こることを願ったり期待したりすること",
+      "km": "សង្ឃឹម; ប្រាថ្នា ឬរំពឹងថានឹងមានអ្វីល្អ ឬវិជ្ជមានកើតឡើង",
+      "ko": "희망하다; 좋거나 긍정적인 일이 일어나기를 바라거나 기대하다",
+      "ne": "आशा गर्नु; केही राम्रो वा सकारात्मक हुनेछ भनी इच्छा वा अपेक्षा राख्नु",
+      "pt": "Esperar; desejar ou antecipar que algo bom ou positivo aconteça",
+      "th": "หวัง; ปรารถนาหรือคาดหวังว่าจะมีสิ่งดีหรือสิ่งบวกเกิดขึ้น",
+      "tl": "Umasa; magnais o umasa na may magandang mangyayari",
+      "ur": "امید کرنا؛ یہ خواہش یا توقع رکھنا کہ کوئی اچھی یا مثبت بات ہوگی",
+      "vi": "Hy vọng; mong muốn hoặc kỳ vọng rằng điều gì đó tốt đẹp hoặc tích cực sẽ xảy ra",
+      "zh": "希望；期望或盼望某件好事或积极的事情发生",
+      "zh_Hant": "希望；期望或盼望某件好事或積極的事情發生"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/wǎŋ/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຫວັງວ່າຈະໄດ້ວຽກໃໝ່",
+        "romanization": "Khoi wang wa ja dai wiak mai.",
+        "translations": {
+          "de": "Ich hoffe, einen neuen Job zu bekommen.",
+          "en": "I hope I get a new job.",
+          "es": "Espero conseguir un trabajo nuevo.",
+          "fr": "J'espère avoir un nouveau travail.",
+          "hi": "मुझे उम्मीद है कि मुझे नई नौकरी मिलेगी।",
+          "ja": "新しい仕事が得られるといいな。",
+          "km": "ខ្ញុំសង្ឃឹមថានឹងបានការងារថ្មី",
+          "ko": "나는 새 직장을 얻었으면 좋겠어.",
+          "ne": "म आशा गर्छु कि मलाई नयाँ काम पाउनेछु।",
+          "pt": "Espero conseguir um emprego novo.",
+          "th": "ฉันหวังว่าจะได้งานใหม่",
+          "tl": "Umaasa ako na makakuha ng bagong trabaho.",
+          "ur": "مجھے امید ہے کہ مجھے نئی نوکری مل جائے گی۔",
+          "vi": "Tôi hy vọng sẽ có được công việc mới.",
+          "zh": "我希望能找到新工作。",
+          "zh_Hant": "我希望能找到新工作。"
+        },
+        "out_of_scope_words": [
+          "ວຽກ"
+        ]
+      },
+      {
+        "lao_script": "ຫວັງວ່າອາກາດຈະດີພຸ້ງນີ້ນຳ",
+        "romanization": "Wang wa a-kat ja dii phung-nih nam.",
+        "translations": {
+          "de": "Hoffentlich ist das Wetter morgen auch gut.",
+          "en": "Hopefully the weather will be nice tomorrow too.",
+          "es": "Ojalá el clima también sea bueno mañana.",
+          "fr": "J'espère qu'il fera beau demain aussi.",
+          "hi": "उम्मीद है कि कल का मौसम भी अच्छा रहेगा।",
+          "ja": "明日も天気がいいといいね。",
+          "km": "សង្ឃឹមថាអាកាសធាតុនឹងល្អថ្ងៃស្អែកផងដែរ",
+          "ko": "내일도 날씨가 좋으면 좋겠어.",
+          "ne": "भोलि पनि मौसम राम्रो होस् भन्ने आशा छ।",
+          "pt": "Tomara que o tempo fique bom amanhã também.",
+          "th": "หวังว่าอากาศจะดีพรุ่งนี้ด้วยนะ",
+          "tl": "Sana maganda rin ang panahon bukas.",
+          "ur": "امید ہے کہ کل موسم بھی اچھا ہوگا۔",
+          "vi": "Hy vọng thời tiết ngày mai cũng đẹp.",
+          "zh": "希望明天天气也好。",
+          "zh_Hant": "希望明天天氣也好。"
+        },
+        "out_of_scope_words": [
+          "ອາກາດ",
+          "ພຸ້ງນີ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person looking upward with a hopeful, optimistic expression and hands clasped together, a soft glowing light or star above them symbolizing hope, clean white background, warm colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອາຍຸ": {
+    "definitions": {
+      "de": "Alter; die Anzahl der Jahre, die jemand oder etwas existiert hat",
+      "en": "Age; the number of years a person or thing has existed or lived",
+      "es": "Edad; el número de años que una persona o cosa ha existido o vivido",
+      "fr": "Âge; le nombre d'années qu'une personne ou une chose a existé ou vécu",
+      "hi": "उम्र; वह वर्षों की संख्या जितने समय से कोई व्यक्ति या वस्तु अस्तित्व में है",
+      "ja": "年齢；人や物が存在または生きてきた年数",
+      "km": "អាយុ; ចំនួនឆ្នាំដែលមនុស្ស ឬអ្វីមួយបានរស់ ឬបានមាន",
+      "ko": "나이; 사람이나 사물이 존재하거나 살아온 햇수",
+      "ne": "उमेर; कुनै व्यक्ति वा वस्तु अस्तित्वमा रहेको वर्षहरूको संख्या",
+      "pt": "Idade; o número de anos que uma pessoa ou coisa existiu ou viveu",
+      "th": "อายุ; จำนวนปีที่บุคคลหรือสิ่งของได้มีชีวิตหรือดำรงอยู่",
+      "tl": "Edad; ang bilang ng mga taon na ang isang tao o bagay ay nabuhay o umiral",
+      "ur": "عمر؛ وہ سال جتنے عرصے سے کوئی شخص یا چیز موجود ہے یا زندہ ہے",
+      "vi": "Tuổi; số năm mà một người hoặc vật đã tồn tại hoặc sống",
+      "zh": "年龄；一个人或事物存在或生活了多少年",
+      "zh_Hant": "年齡；一個人或事物存在或生活了多少年"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ʔáː.júː/",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າອາຍຸຈັກປີແລ້ວ",
+        "romanization": "Jao a-yu jak pii laew?",
+        "translations": {
+          "de": "Wie alt bist du?",
+          "en": "How old are you?",
+          "es": "¿Cuántos años tienes?",
+          "fr": "Tu as quel âge ?",
+          "hi": "तुम्हारी उम्र कितनी है?",
+          "ja": "何歳ですか？",
+          "km": "អ្នកមានអាយុប៉ុន្មានឆ្នាំហើយ?",
+          "ko": "너 몇 살이야?",
+          "ne": "तिम्रो उमेर कति वर्ष भयो?",
+          "pt": "Quantos anos você tem?",
+          "th": "เธออายุกี่ปีแล้ว",
+          "tl": "Ilang taon ka na?",
+          "ur": "تمہاری عمر کتنی ہے؟",
+          "vi": "Bạn bao nhiêu tuổi rồi?",
+          "zh": "你多少岁了？",
+          "zh_Hant": "你多少歲了？"
+        },
+        "out_of_scope_words": [
+          "ຈັກ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍອາຍຸຊາວສາມປີແລ້ວ",
+        "romanization": "Khoi a-yu xao-sam pii laew.",
+        "translations": {
+          "de": "Ich bin schon dreiundzwanzig Jahre alt.",
+          "en": "I'm already twenty-three years old.",
+          "es": "Ya tengo veintitrés años.",
+          "fr": "J'ai déjà vingt-trois ans.",
+          "hi": "मैं तेईस साल का/की हो गया/गई हूँ।",
+          "ja": "もう二十三歳になった。",
+          "km": "ខ្ញុំអាយុម្ភៃបីឆ្នាំហើយ",
+          "ko": "나 벌써 스물셋 살이야.",
+          "ne": "म तेईस वर्षको भइसकें।",
+          "pt": "Eu já tenho vinte e três anos.",
+          "th": "ฉันอายุยี่สิบสามปีแล้ว",
+          "tl": "Dalawampu't tatlo na ako.",
+          "ur": "میں تئیس سال کا/کی ہو گیا/گئی ہوں۔",
+          "vi": "Tôi đã hai mươi ba tuổi rồi.",
+          "zh": "我已经二十三岁了。",
+          "zh_Hant": "我已經二十三歲了。"
+        },
+        "out_of_scope_words": [
+          "ຊາວສາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a birthday cake with candles and the number '23' on it, alongside a smiling young adult, clean white background, colorful and cheerful, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຄື່ອນ": {
+    "definitions": {
+      "de": "Sich bewegen; die Position oder den Ort von etwas oder jemandem ändern",
+      "en": "To move; to change the position or location of something or someone",
+      "es": "Mover; cambiar la posición o ubicación de algo o alguien",
+      "fr": "Bouger; changer la position ou l'emplacement de quelque chose ou de quelqu'un",
+      "hi": "हिलना/हिलाना; किसी वस्तु या व्यक्ति की स्थिति या जगह बदलना",
+      "ja": "動く・動かす；何かや誰かの位置や場所を変える",
+      "km": "ផ្លាស់ទី; ប្តូរទីតាំង ឬទីកន្លែងរបស់អ្វីមួយ ឬអ្នកណាម្នាក់",
+      "ko": "움직이다; 무언가 또는 누군가의 위치나 장소를 바꾸다",
+      "ne": "सर्नु/सार्नु; कुनै वस्तु वा व्यक्तिको स्थान वा ठाउँ परिवर्तन गर्नु",
+      "pt": "Mover; mudar a posição ou o lugar de algo ou alguém",
+      "th": "เคลื่อน; เปลี่ยนตำแหน่งหรือที่อยู่ของบางสิ่งหรือบางคน",
+      "tl": "Gumalaw; baguhin ang posisyon o lokasyon ng isang bagay o tao",
+      "ur": "حرکت کرنا؛ کسی چیز یا شخص کی پوزیشن یا جگہ بدلنا",
+      "vi": "Di chuyển; thay đổi vị trí hoặc chỗ đứng của một vật hoặc một người",
+      "zh": "移动；改变某物或某人的位置或地点",
+      "zh_Hant": "移動；改變某物或某人的位置或地點"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰɯ̂an/",
+    "examples": [
+      {
+        "lao_script": "ຊ່ວຍເຄື່ອນໂຕ່ະນັ້ນໄປໄວ້ຢູ່ແຈຫ້ອງແດ່",
+        "romanization": "Suai khuean to nan pai wai yu jae hong dae.",
+        "translations": {
+          "de": "Hilf mir bitte, den Tisch in die Ecke des Zimmers zu rücken.",
+          "en": "Help me move that table to the corner of the room, please.",
+          "es": "Ayúdame a mover esa mesa a la esquina del cuarto, por favor.",
+          "fr": "Aide-moi à déplacer cette table dans le coin de la pièce, s'il te plaît.",
+          "hi": "उस मेज को कमरे के कोने में ले जाने में मदद करो ना।",
+          "ja": "あのテーブルを部屋の隅に移動するのを手伝って。",
+          "km": "ជួយខ្ញុំផ្លាស់ទីតុនោះទៅជ្រុងបន្ទប់ផង",
+          "ko": "저 테이블을 방 구석으로 옮기는 것 좀 도와줘.",
+          "ne": "त्यो टेबल कोठाको कुनामा सार्न मद्दत गर न।",
+          "pt": "Me ajuda a mover aquela mesa para o canto do quarto.",
+          "th": "ช่วยเคลื่อนโต๊ะนั้นไปไว้ที่มุมห้องด้วยนะ",
+          "tl": "Tulungan mo akong ilipat ang mesa na iyon sa sulok ng kwarto.",
+          "ur": "وہ میز کمرے کے کونے میں ہٹانے میں مدد کرو نا۔",
+          "vi": "Giúp mình chuyển cái bàn đó vào góc phòng với.",
+          "zh": "帮我把那张桌子移到房间角落去。",
+          "zh_Hant": "幫我把那張桌子移到房間角落去。"
+        },
+        "out_of_scope_words": [
+          "ໂຕ່ະ",
+          "ແຈ",
+          "ຫ້ອງ"
+        ]
+      },
+      {
+        "lao_script": "ລົດນັ້ນບໍ່ໄດ້ເຄື່ອນເລີຍ ອາດຈະເສຍ",
+        "romanization": "Lot nan bo dai khuean loei, at ja sia.",
+        "translations": {
+          "de": "Dieses Auto bewegt sich überhaupt nicht – es ist vielleicht kaputt.",
+          "en": "That car hasn't moved at all – it might be broken.",
+          "es": "Ese carro no se ha movido para nada – quizás está roto.",
+          "fr": "Cette voiture ne bouge pas du tout – elle est peut-être en panne.",
+          "hi": "वह कार बिल्कुल नहीं हिली – शायद खराब हो गई है।",
+          "ja": "あの車、全然動いていない。壊れてるかも。",
+          "km": "រថយន្តនោះមិនបានផ្លាស់ទីសោះ ប្រហែលជាខូច",
+          "ko": "저 차가 전혀 움직이지 않네 – 고장났나봐.",
+          "ne": "त्यो गाडी हलिएकै छैन – सायद बिग्रिएको होला।",
+          "pt": "Aquele carro não se moveu nem um pouco – talvez esteja quebrado.",
+          "th": "รถคันนั้นไม่ได้เคลื่อนเลย อาจจะเสียแล้ว",
+          "tl": "Ang kotse na iyon ay hindi gumalaw – baka sira na.",
+          "ur": "وہ گاڑی بالکل نہیں ہلی – شاید خراب ہو گئی ہے۔",
+          "vi": "Cái xe đó chẳng nhúc nhích gì cả – có thể bị hỏng rồi.",
+          "zh": "那辆车一点都没动——可能坏了。",
+          "zh_Hant": "那輛車一點都沒動——可能壞了。"
+        },
+        "out_of_scope_words": [
+          "ລົດ",
+          "ເສຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pushing a large cardboard box across the floor, arrows indicating movement direction, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຕະ": {
+    "definitions": {
+      "de": "Treten; etwas oder jemanden mit dem Fuß schlagen, besonders einen Ball im Sport",
+      "en": "To kick; to strike something or someone with the foot, especially a ball in sports",
+      "es": "Patear; golpear algo o a alguien con el pie, especialmente una pelota en deportes",
+      "fr": "Donner un coup de pied; frapper quelque chose ou quelqu'un avec le pied, surtout un ballon dans les sports",
+      "hi": "लात मारना; पैर से किसी चीज़ या व्यक्ति को मारना, विशेषकर खेलों में गेंद को",
+      "ja": "蹴る；足で何かや誰かを蹴ること、特にスポーツでボールを蹴ること",
+      "km": "បោះជើង; ប្រើជើងទាត់អ្វីមួយ ឬនរណាម្នាក់ ជាពិសេសបាល់ក្នុងកីឡា",
+      "ko": "차다; 발로 무언가나 누군가를 치다, 특히 스포츠에서 공을 차다",
+      "ne": "लात हान्नु; खुट्टाले केही वा कसैलाई हान्नु, विशेष गरी खेलकुदमा बललाई",
+      "pt": "Chutar; golpear algo ou alguém com o pé, especialmente uma bola em esportes",
+      "th": "เตะ; การใช้เท้าต่อยหรือตีบางอย่างหรือบางคน โดยเฉพาะลูกบอลในกีฬา",
+      "tl": "Sipain; ang tamaan ng paa ang isang bagay o tao, lalo na ang bola sa palakasan",
+      "ur": "لات مارنا؛ پاؤں سے کسی چیز یا شخص کو مارنا، خاص طور پر کھیلوں میں گیند کو",
+      "vi": "Đá; dùng chân đánh vào vật gì hoặc ai đó, đặc biệt là quả bóng trong thể thao",
+      "zh": "踢；用脚踢某物或某人，尤其是在运动中踢球",
+      "zh_Hant": "踢；用腳踢某物或某人，尤其是在運動中踢球"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/tèʔ/",
+    "examples": [
+      {
+        "lao_script": "ເຕະບານໃຫ້ຂ້ອຍແດ່ ຂ້ອຍຈະຂວ້າງຄືນ",
+        "romanization": "Te ban hai khoi dae, khoi ja khwang khuun.",
+        "translations": {
+          "de": "Kick den Ball zu mir, ich werfe ihn zurück.",
+          "en": "Kick the ball to me, I'll throw it back.",
+          "es": "Patea el balón hacia mí, yo te lo devuelvo.",
+          "fr": "Shoote le ballon vers moi, je te le renvoie.",
+          "hi": "मुझे गेंद किक करो, मैं वापस फेंकूँगा/फेंकूँगी।",
+          "ja": "ボールを蹴ってくれ、投げ返すから。",
+          "km": "ទាត់បាល់មកខ្ញុំផង ខ្ញុំនឹងបោះត្រឡប់",
+          "ko": "공을 나한테 차줘, 내가 다시 던질게.",
+          "ne": "मलाई बल किक गर, म फिर्ता फ्याँक्छु।",
+          "pt": "Chuta a bola pra mim, eu jogo de volta.",
+          "th": "เตะบอลมาให้ฉันหน่อย ฉันจะโยนคืนให้",
+          "tl": "Sipain ang bola papunta sa akin, isasauli ko.",
+          "ur": "مجھے گیند کک کرو، میں واپس پھینکوں گا/گی۔",
+          "vi": "Đá bóng cho tôi đi, tôi sẽ ném lại.",
+          "zh": "把球踢给我，我再扔回来。",
+          "zh_Hant": "把球踢給我，我再扔回來。"
+        },
+        "out_of_scope_words": [
+          "ບານ",
+          "ຂວ້າງ"
+        ]
+      },
+      {
+        "lao_script": "ນັກກິລາຄົນນັ້ນເຕະໄດ້ແຮງຫຼາຍ",
+        "romanization": "Nak-ki-la khon nan te dai haeng lai.",
+        "translations": {
+          "de": "Dieser Sportler kann sehr stark treten.",
+          "en": "That athlete can kick really hard.",
+          "es": "Ese deportista puede patear muy fuerte.",
+          "fr": "Cet athlète peut botter très fort.",
+          "hi": "वह खिलाड़ी बहुत जोर से किक कर सकता/सकती है।",
+          "ja": "あのスポーツ選手はとても強く蹴ることができる。",
+          "km": "អត្តពលិកម្នាក់នោះអាចទាត់បានខ្លាំងណាស់",
+          "ko": "저 운동선수는 정말 세게 찰 수 있어.",
+          "ne": "त्यो खेलाडी धेरै जोडले किक गर्न सक्छ।",
+          "pt": "Aquele atleta consegue chutar muito forte.",
+          "th": "นักกีฬาคนนั้นเตะได้แรงมากเลย",
+          "tl": "Ang atletang iyon ay makapag-sisipa nang napakalakas.",
+          "ur": "وہ کھلاڑی بہت زور سے لات مار سکتا/سکتی ہے۔",
+          "vi": "Vận động viên đó có thể đá rất mạnh.",
+          "zh": "那个运动员踢得非常有力。",
+          "zh_Hant": "那個運動員踢得非常有力。"
+        },
+        "out_of_scope_words": [
+          "ນັກກິລາ",
+          "ແຮງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a child kicking a soccer ball on a green field, the ball shown mid-air with motion lines, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

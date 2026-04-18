@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໂມງ",
+  "definitions": {
+    "de": "Uhr, Stunde, Uhrzeit (zum Ablesen der Zeit)",
+    "en": "hour, o'clock, clock (used when telling the time)",
+    "es": "hora, en punto, reloj (para decir la hora)",
+    "fr": "heure, horloge, utilisé pour donner l'heure",
+    "hi": "घड़ी, बजे, घंटा (समय बताने में प्रयोग)",
+    "ja": "時、時計、～時（時刻を言うときに使う）",
+    "km": "ម៉ោង, នាឡិកា, ម៉ោង (ប្រើប្រាស់ក្នុងការប្រាប់ម៉ោង)",
+    "ko": "시, 시계, 시간 (시각을 말할 때 사용)",
+    "ne": "घण्टा, बजे, घडी (समय बताउन प्रयोग गरिन्छ)",
+    "pt": "hora, em ponto, relógio (usado para dizer as horas)",
+    "th": "โมง, นาฬิกา, ชั่วโมง (ใช้บอกเวลา)",
+    "tl": "oras, relo, o'clock (ginagamit sa pagsabi ng oras)",
+    "ur": "گھنٹہ، بجے، گھڑی (وقت بتانے کے لیے استعمال)",
+    "vi": "giờ, đồng hồ, dùng để nói giờ",
+    "zh": "小时、点钟、钟（用于报时）",
+    "zh_Hant": "小時、點鐘、鐘（用於報時）"
+  },
+  "definition_en": "hour, o'clock, clock (used when telling the time)",
+  "romanization": "moːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ຕອນນີ້ແມ່ນສີ່ໂມງເຄິ່ງແລ້ວ",
+      "romanization": "tɔːn niː mɛːn siː moːŋ kʰɤŋ lɛːw",
+      "translation_en": "It's already four thirty now."
+    },
+    {
+      "lao_script": "ນັດກັນແປດໂມງເຊົ້າເດີ້",
+      "romanization": "nat kan pɛːt moːŋ sâːw dɤː",
+      "translation_en": "Let's meet at eight in the morning, alright?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a round wall clock showing 4:30, with a clean white background, bold clock hands and numbers, bright colors, minimalist cartoon style suitable for a language learning app."
+}

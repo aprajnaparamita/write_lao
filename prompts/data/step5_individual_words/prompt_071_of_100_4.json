@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກວມ",
+  "definitions": {
+    "de": "abdecken; umfassen oder einen Anteil von etwas ausmachen",
+    "en": "to cover; to encompass or account for a portion of something",
+    "es": "cubrir; abarcar o representar una parte de algo",
+    "fr": "couvrir ; englober ou représenter une part de quelque chose",
+    "hi": "ढकना/शामिल करना; किसी चीज़ के एक हिस्से को कवर करना या उसमें शामिल होना",
+    "ja": "覆う；含む、または何かの一部を占める",
+    "km": "គ្របដណ្តប់; រួមបញ្ចូល ឬតំណាងឱ្យផ្នែកមួយនៃអ្វីមួយ",
+    "ko": "포함하다; 어떤 것의 일부를 차지하거나 포괄하다",
+    "ne": "ढाक्नु; कुनै चीजको भागलाई समेट्नु वा समावेश गर्नु",
+    "pt": "cobrir; abranger ou representar uma parte de algo",
+    "th": "ครอบคลุม; รวมถึงหรือคิดเป็นส่วนหนึ่งของสิ่งใดสิ่งหนึ่ง",
+    "tl": "saklawin; sumasaklaw o bumubuo ng isang bahagi ng isang bagay",
+    "ur": "ڈھکنا/شامل کرنا؛ کسی چیز کے ایک حصے کو شامل کرنا یا احاطہ کرنا",
+    "vi": "bao gồm; chiếm một phần hoặc bao quát điều gì đó",
+    "zh": "涵盖；包含或占某事物的一部分",
+    "zh_Hant": "涵蓋；包含或佔某事物的一部分"
+  },
+  "definition_en": "to cover; to encompass or account for a portion of something",
+  "romanization": "kuam",
+  "lao_examples": [
+    {
+      "lao_script": "ລາຄານີ້ກວມທຸກຢ່າງແລ້ວ",
+      "romanization": "laakhaa nii kuam thuk yàang lɛ́ɛo",
+      "translation_en": "This price already covers everything."
+    },
+    {
+      "lao_script": "ຄ່າຮຽນກວມເຖິງປຶ້ມແລ້ວບໍ",
+      "romanization": "khâa hian kuam thʉ̌ng pʉ̂m lɛ́ɛo bɔ̀",
+      "translation_en": "Does the tuition fee already cover the books?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an umbrella covering several objects underneath it, symbolizing the concept of covering or encompassing, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

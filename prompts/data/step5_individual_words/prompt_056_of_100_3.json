@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນອກ",
+  "definitions": {
+    "de": "Draußen; außerhalb eines Raumes, Gebäudes oder Bereichs",
+    "en": "Outside; beyond or exterior to a place, building, or boundary",
+    "es": "Afuera; en el exterior de un lugar, edificio o límite",
+    "fr": "Dehors ; à l'extérieur d'un lieu, d'un bâtiment ou d'une limite",
+    "hi": "बाहर; किसी स्थान, इमारत या सीमा के बाहर",
+    "ja": "外；ある場所、建物、または境界の外側",
+    "km": "ខាងក្រៅ; នៅក្រៅទីកន្លែង អគារ ឬព្រំដែន",
+    "ko": "밖; 어떤 장소, 건물, 또는 경계의 외부",
+    "ne": "बाहिर; कुनै ठाउँ, भवन वा सीमाभन्दा बाहिर",
+    "pt": "Fora; exterior a um lugar, edifício ou limite",
+    "th": "ข้างนอก; ภายนอกของสถานที่ อาคาร หรือขอบเขต",
+    "tl": "Sa labas; nasa labas ng isang lugar, gusali, o hangganan",
+    "ur": "باہر؛ کسی جگہ، عمارت یا حد کے خارج میں",
+    "vi": "Bên ngoài; ở phía ngoài của một nơi, tòa nhà, hoặc ranh giới",
+    "zh": "外面；在某个地方、建筑物或边界的外部",
+    "zh_Hant": "外面；在某個地方、建築物或邊界的外部"
+  },
+  "definition_en": "Outside; beyond or exterior to a place, building, or boundary",
+  "romanization": "/nɔːk⁵/",
+  "lao_examples": [
+    {
+      "lao_script": "ອາກາດນອກເຢັນຫຼາຍ, ໃສ່ເສື້ອກັນໜາວດ້ວຍ",
+      "romanization": "aa-kaat nɔːk yen laai, sai sɯa kan nao duai",
+      "translation_en": "It's very cold outside, put on a jacket too."
+    },
+    {
+      "lao_script": "ລໍຖ້າຢູ່ນອກກ່ອນເດີ້",
+      "romanization": "lo thaa yuu nɔːk kon doe",
+      "translation_en": "Wait outside first, okay."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing outside a house near an open door, with a clear distinction between the indoor and outdoor space, bright sunshine outside, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊັນ",
+  "definitions": {
+    "de": "Harz/Schicht; (1) das klebrige Harz, das von Bäumen ausgeschieden wird; (2) eine Schicht oder Lage von etwas",
+    "en": "Resin/layer; (1) the sticky substance secreted by trees; (2) a layer or stratum of something",
+    "es": "Resina/capa; (1) la sustancia pegajosa secretada por los árboles; (2) una capa o estrato de algo",
+    "fr": "Résine/couche; (1) la substance collante sécrétée par les arbres; (2) une couche ou strate de quelque chose",
+    "hi": "राल/परत; (1) पेड़ों से निकलने वाला चिपचिपा पदार्थ; (2) किसी चीज़ की एक परत या स्तर",
+    "ja": "樹脂・層；(1) 木から出る粘着性の物質（ヤニ）；(2) 何かの層や地層",
+    "km": "ជ័រ/ស្រទាប់; (1) សារធាតុស្អិតដែលចេញពីដើមឈើ; (2) ស្រទាប់នៃអ្វីមួយ",
+    "ko": "수지/층; (1) 나무에서 분비되는 끈적한 물질; (2) 무언가의 층이나 지층",
+    "ne": "राल/तह; (1) रूखहरूले निकाल्ने टाँसिने पदार्थ; (2) कुनै चीजको तह वा स्तर",
+    "pt": "Resina/camada; (1) a substância pegajosa secretada pelas árvores; (2) uma camada ou estrato de algo",
+    "th": "ยางไม้/ชั้น; (1) สารเหนียวที่หลั่งออกมาจากต้นไม้; (2) ชั้นหรือระดับของบางสิ่ง",
+    "tl": "Resin/layer; (1) ang malagkit na sangkap na inilalabas ng mga puno; (2) isang layer o stratum ng isang bagay",
+    "ur": "رال/تہ; (1) درختوں سے نکلنے والا چپچپا مادہ؛ (2) کسی چیز کی ایک تہ یا پرت",
+    "vi": "Nhựa cây/lớp; (1) chất nhựa dính tiết ra từ cây; (2) một lớp hoặc tầng của vật gì đó",
+    "zh": "树脂/层；(1) 树木分泌的黏性物质；(2) 某物的一层或层次",
+    "zh_Hant": "樹脂/層；(1) 樹木分泌的黏性物質；(2) 某物的一層或層次"
+  },
+  "definition_en": "Resin/layer; (1) the sticky substance secreted by trees; (2) a layer or stratum of something",
+  "romanization": "san",
+  "lao_examples": [
+    {
+      "lao_script": "ຕົ້ນໄມ້ຕົ້ນນັ້ນໄຫຼຊັນອອກມາຫຼາຍ",
+      "romanization": "ton maai ton nan lai san ook maa laai",
+      "translation_en": "That tree is oozing out a lot of resin."
+    },
+    {
+      "lao_script": "ທາຊັນໃສ່ໄມ້ກ່ອນເນາະ ຈະໄດ້ທົນ",
+      "romanization": "thaa san sai maai gon noh ja dai ton",
+      "translation_en": "Apply resin to the wood first so it'll be more durable."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a tree trunk with golden-amber resin or sap oozing from a cut in the bark, with a small collection vessel below, clean white background, warm earthy colors, minimalist educational style suitable for a language learning app."
+}

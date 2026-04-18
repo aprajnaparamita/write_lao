@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບຶງ",
+  "definitions": {
+    "de": "Teich, See (kleines bis mittelgroßes natürliches Gewässer)",
+    "en": "Pond or lake (a small to medium-sized natural body of water)",
+    "es": "Estanque o lago (masa de agua natural de tamaño pequeño a mediano)",
+    "fr": "Étang ou lac (étendue d'eau naturelle de taille petite à moyenne)",
+    "hi": "तालाब या झील (एक छोटा से मध्यम आकार का प्राकृतिक जलाशय)",
+    "ja": "池または湖（小～中程度の自然の水域）",
+    "km": "បឹង, ស្រះ (ប្រភពទឹកធម្មជាតិតូចរហូតដល់មធ្យម)",
+    "ko": "연못 또는 호수 (작은~중간 크기의 자연 수역)",
+    "ne": "तलाव वा ताल (साना देखि मध्यम आकारको प्राकृतिक जलाशय)",
+    "pt": "Lago ou lagoa (massa de água natural de tamanho pequeno a médio)",
+    "th": "บึง หรือทะเลสาบขนาดเล็ก (แหล่งน้ำธรรมชาติขนาดเล็กถึงกลาง)",
+    "tl": "Lawa o palakol (katamtaman hanggang malaking katubigan sa kalikasan)",
+    "ur": "تالاب یا جھیل (چھوٹا سے درمیانے سائز کا قدرتی آبی ذخیرہ)",
+    "vi": "Ao hoặc hồ (vùng nước tự nhiên nhỏ đến trung bình)",
+    "zh": "池塘或湖泊（小型至中型的天然水体）",
+    "zh_Hant": "池塘或湖泊（小型至中型的天然水體）"
+  },
+  "definition_en": "Pond or lake (a small to medium-sized natural body of water)",
+  "romanization": "büng",
+  "lao_examples": [
+    {
+      "lao_script": "ໃກ້ໆ ບ້ານຂ້ອຍມີບຶງໃຫຍ່ຫຼາຍ",
+      "romanization": "Kai kai ban khoi mi büng yai lai",
+      "translation_en": "Near my house there is a very big pond."
+    },
+    {
+      "lao_script": "ໄປຈັບປາທີ່ບຶງນຳກັນບໍ?",
+      "romanization": "Pai jap pa thi büng nam kan bo",
+      "translation_en": "Want to go fishing at the pond together?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a calm blue pond or small lake surrounded by green grass and a few trees, with ducks or lily pads on the surface, clean white background, colorful minimalist style suitable for a language learning app."
+}

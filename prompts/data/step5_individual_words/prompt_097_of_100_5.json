@@ -1,0 +1,36 @@
+{
+  "lao_word": "ການເງິນ",
+  "definitions": {
+    "de": "Finanzen; das Management von Geld, Einnahmen und Ausgaben",
+    "en": "Finance; the management of money, including income, expenses, and investments",
+    "es": "Finanzas; la gestión del dinero, incluyendo ingresos, gastos e inversiones",
+    "fr": "Finance ; la gestion de l'argent, y compris les revenus, les dépenses et les investissements",
+    "hi": "वित्त; पैसे का प्रबंधन, जिसमें आय, व्यय और निवेश शामिल हैं",
+    "ja": "財務・金融；収入、支出、投資などのお金の管理",
+    "km": "ហិរញ្ញវត្ថុ; ការគ្រប់គ្រងប្រាក់ រួមមាន ចំណូល ចំណាយ និងការវិនិយោគ",
+    "ko": "재정/금융; 수입, 지출, 투자를 포함한 돈의 관리",
+    "ne": "वित्त; आय, खर्च र लगानी सहित पैसाको व्यवस्थापन",
+    "pt": "Finanças; a gestão do dinheiro, incluindo receitas, despesas e investimentos",
+    "th": "การเงิน; การจัดการเงิน รวมถึงรายได้ รายจ่าย และการลงทุน",
+    "tl": "Pananalapi; ang pamamahala ng pera, kabilang ang kita, gastos, at pamumuhunan",
+    "ur": "مالیات؛ پیسے کا انتظام، بشمول آمدنی، اخراجات اور سرمایہ کاری",
+    "vi": "Tài chính; việc quản lý tiền bạc bao gồm thu nhập, chi tiêu và đầu tư",
+    "zh": "财务/金融；对金钱的管理，包括收入、支出和投资",
+    "zh_Hant": "財務/金融；對金錢的管理，包括收入、支出和投資"
+  },
+  "definition_en": "Finance; the management of money, including income, expenses, and investments",
+  "romanization": "/kaːn.ŋɤːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົາເຮັດວຽກດ້ານການເງິນຢູ່ທະນາຄານ",
+      "romanization": "Khao het wiak dan kan ngoen yu tha na khan",
+      "translation_en": "He works in finance at a bank."
+    },
+    {
+      "lao_script": "ການເງິນຂອງເຮົາຕອນນີ້ບໍ່ຄ່ອຍດີ",
+      "romanization": "Kan ngoen khong hao ton ni bor khoi di",
+      "translation_en": "Our finances are not so great right now."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of coins, banknotes, and a bar chart or pie chart representing financial management or budgeting, clean white background, colorful and minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທ່ຽວ",
+  "definitions": {
+    "de": "Reisen; einen Ausflug machen; sich zur Freizeitgestaltung an einen anderen Ort begeben",
+    "en": "To travel; to go on a trip; to visit a place for leisure or sightseeing",
+    "es": "Viajar; hacer una excursión; visitar un lugar por placer o turismo",
+    "fr": "Voyager ; faire une excursion ; visiter un endroit pour le plaisir ou le tourisme",
+    "hi": "यात्रा करना; सैर के लिए जाना; मनोरंजन या दर्शनीय स्थलों के लिए किसी जगह जाना",
+    "ja": "旅行する；観光に行く；レジャーや観光のために場所を訪れる",
+    "km": "ធ្វើដំណើរ; ទៅលេង; ទៅទស្សនាកន្លែងណាមួយដើម្បីសម្រាកលំហែ ឬទស្សនាកម្សាន្ត",
+    "ko": "여행하다; 나들이 가다; 여가나 관광을 위해 어떤 장소를 방문하다",
+    "ne": "यात्रा गर्नु; घुम्न जानु; मनोरञ्जन वा दर्शनीय स्थल हेर्न कुनै ठाउँमा जानु",
+    "pt": "Viajar; fazer uma excursão; visitar um lugar por lazer ou turismo",
+    "th": "เที่ยว; ท่องเที่ยว; ไปเยี่ยมชมสถานที่เพื่อพักผ่อนหย่อนใจหรือท่องเที่ยว",
+    "tl": "Maglakbay; pumunta sa isang lugar para maglibang o mamasyal; mag-tour",
+    "ur": "سفر کرنا؛ گھومنا پھرنا؛ تفریح یا سیاحت کے لیے کسی جگہ جانا",
+    "vi": "Đi chơi; du lịch; đến thăm một nơi để giải trí hoặc tham quan",
+    "zh": "旅游；出游；为了休闲或观光而前往某地",
+    "zh_Hant": "旅遊；出遊；為了休閒或觀光而前往某地"
+  },
+  "definition_en": "To travel; to go on a trip; to visit a place for leisure or sightseeing",
+  "romanization": "tʰîːaw",
+  "lao_examples": [
+    {
+      "lao_script": "ອາທິດນີ້ເຮົາໄປທ່ຽວວຽງຈັນກັນເດີ້",
+      "romanization": "ʔáːtʰit níː haw paj tʰîːaw wîːaŋ tɕan kan dɤ̂ː",
+      "translation_en": "Let's go travel to Vientiane this week!"
+    },
+    {
+      "lao_script": "ເຈົ້າຊອບໄປທ່ຽວບ່ອນໃດຫຼາຍທີ່ສຸດ?",
+      "romanization": "tɕâw sɔ̂p paj tʰîːaw bɔ̀ːn daj lǎːj tʰîː sùt?",
+      "translation_en": "Where do you like to travel the most?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a happy person with a backpack and camera sightseeing at a scenic outdoor location, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

@@ -1,0 +1,399 @@
+{
+  "ດ້ວຍ": {
+    "definitions": {
+      "de": "Mit; durch (Präposition, die ein Werkzeug, Mittel oder Begleitung ausdrückt)",
+      "en": "With; by means of (preposition indicating instrument, means, or accompaniment)",
+      "es": "Con; mediante (preposición que indica instrumento, medio o compañía)",
+      "fr": "Avec; au moyen de (préposition indiquant l'instrument, le moyen ou la compagnie)",
+      "hi": "के साथ; के द्वारा (एक उपकरण, साधन या साहचर्य को दर्शाने वाला पूर्वसर्ग)",
+      "ja": "〜で；〜を使って（手段・道具・同伴を表す前置詞）",
+      "km": "ដោយ; ជាមួយ (ធ្វើជាឧបករណ៍ ឬអមដំណើរ)",
+      "ko": "~로; ~와 함께 (수단, 도구 또는 동반을 나타내는 전치사)",
+      "ne": "सँग; द्वारा (साधन, उपकरण वा साथ जनाउने पूर्वसर्ग)",
+      "pt": "Com; por meio de (preposição que indica instrumento, meio ou companhia)",
+      "th": "ด้วย; โดย (คำบุพบทที่แสดงเครื่องมือ วิธีการ หรือการร่วมกัน)",
+      "tl": "Sa pamamagitan ng; kasama (preposisyon na nagpapahiwatig ng instrumento, paraan, o samahan)",
+      "ur": "کے ساتھ؛ کے ذریعے (آلے، ذریعے یا رفاقت کو ظاہر کرنے والا حرفِ جر)",
+      "vi": "Bằng; với (giới từ chỉ phương tiện, công cụ hoặc sự đồng hành)",
+      "zh": "用；以；和（表示工具、手段或陪伴的介词）",
+      "zh_Hant": "用；以；和（表示工具、手段或陪伴的介詞）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "dûay",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍກິນເຂົ້າດ້ວຍມື",
+        "romanization": "khôi kin khâo dûay meu",
+        "translations": {
+          "de": "Ich esse Reis mit den Händen.",
+          "en": "I eat rice with my hands.",
+          "es": "Como arroz con las manos.",
+          "fr": "Je mange du riz avec mes mains.",
+          "hi": "मैं हाथों से चावल खाता/खाती हूँ।",
+          "ja": "私は手でご飯を食べます。",
+          "km": "ខ្ញុំញាំបាយដោយដៃ។",
+          "ko": "나는 손으로 밥을 먹어요.",
+          "ne": "म हातले भात खान्छु।",
+          "pt": "Eu como arroz com as mãos.",
+          "th": "ฉันกินข้าวด้วยมือ",
+          "tl": "Kumakain ako ng kanin gamit ang aking mga kamay.",
+          "ur": "میں ہاتھوں سے چاول کھاتا/کھاتی ہوں۔",
+          "vi": "Tôi ăn cơm bằng tay.",
+          "zh": "我用手吃饭。",
+          "zh_Hant": "我用手吃飯。"
+        },
+        "out_of_scope_words": [
+          "ມື"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາເວົ້າດ້ວຍສຽງດັງ",
+        "romanization": "khao vao dûay siang dang",
+        "translations": {
+          "de": "Er/Sie spricht mit lauter Stimme.",
+          "en": "He/she speaks with a loud voice.",
+          "es": "Él/ella habla con voz fuerte.",
+          "fr": "Il/elle parle d'une voix forte.",
+          "hi": "वह ऊँची आवाज़ में बोलता/बोलती है।",
+          "ja": "彼/彼女は大きな声で話します。",
+          "km": "គាត់និយាយដោយសម្លេងខ្លាំង។",
+          "ko": "그/그녀는 큰 목소리로 말해요.",
+          "ne": "ऊ ठूलो आवाजमा बोल्छ।",
+          "pt": "Ele/ela fala com voz alta.",
+          "th": "เขา/เธอพูดด้วยเสียงดัง",
+          "tl": "Nagsasalita siya nang malakas.",
+          "ur": "وہ اونچی آواز میں بولتا/بولتی ہے۔",
+          "vi": "Anh ấy/cô ấy nói bằng giọng to.",
+          "zh": "他/她用大声说话。",
+          "zh_Hant": "他/她用大聲說話。"
+        },
+        "out_of_scope_words": [
+          "ສຽງ",
+          "ດັງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two hands together or a hand holding a tool (like a spoon or pen), symbolizing 'with' or 'by means of', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮັບ": {
+    "definitions": {
+      "de": "Empfangen; annehmen; entgegennehmen (etwas, das gegeben oder gesendet wird)",
+      "en": "To receive; to accept (something given, sent, or offered)",
+      "es": "Recibir; aceptar (algo que es dado, enviado u ofrecido)",
+      "fr": "Recevoir; accepter (quelque chose de donné, envoyé ou offert)",
+      "hi": "प्राप्त करना; स्वीकार करना (कुछ दिया, भेजा या प्रस्तावित किया गया)",
+      "ja": "受け取る；受け入れる（与えられたもの、送られたものを受け取る）",
+      "km": "ទទួល; ទទួលយក (អ្វីមួយដែលបានផ្តល់ ឬបញ្ជូន)",
+      "ko": "받다; 수락하다 (주어지거나 보내진 것을 받아들이다)",
+      "ne": "प्राप्त गर्नु; स्वीकार गर्नु (दिइएको, पठाइएको वा प्रस्ताव गरिएको कुरा)",
+      "pt": "Receber; aceitar (algo dado, enviado ou oferecido)",
+      "th": "รับ; ยอมรับ (สิ่งที่ถูกให้ ส่ง หรือเสนอมา)",
+      "tl": "Tumanggap; tanggapin (ang isang bagay na ibinibigay, ipinadala, o inaalok)",
+      "ur": "وصول کرنا؛ قبول کرنا (کچھ دیا گیا، بھیجا گیا یا پیش کیا گیا)",
+      "vi": "Nhận; chấp nhận (cái gì đó được đưa ra, gửi đến hoặc cung cấp)",
+      "zh": "接收；接受（收到给予、发送或提供的东西）",
+      "zh_Hant": "接收；接受（收到給予、發送或提供的東西）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "hap",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຮັບເງິນຈາກແມ່ແລ້ວ",
+        "romanization": "khôi hap ngoen jàk mæ̀ lǽo",
+        "translations": {
+          "de": "Ich habe schon Geld von meiner Mutter bekommen.",
+          "en": "I already received money from my mom.",
+          "es": "Ya recibí dinero de mi mamá.",
+          "fr": "J'ai déjà reçu de l'argent de ma mère.",
+          "hi": "मुझे माँ से पैसे मिल गए।",
+          "ja": "もうお母さんからお金をもらいました。",
+          "km": "ខ្ញុំទទួលបានលុយពីម្តាយហើយ។",
+          "ko": "나 엄마한테서 돈 이미 받았어요.",
+          "ne": "मैले आमाबाट पैसा पाइसकेँ।",
+          "pt": "Já recebi dinheiro da minha mãe.",
+          "th": "ฉันรับเงินจากแม่แล้ว",
+          "tl": "Natanggap ko na ang pera mula sa aking nanay.",
+          "ur": "میں نے امی سے پیسے مل گئے۔",
+          "vi": "Tôi đã nhận tiền từ mẹ rồi.",
+          "zh": "我已经收到妈妈给的钱了。",
+          "zh_Hant": "我已經收到媽媽給的錢了。"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ແມ່",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຮັບໂທລະສັບໄດ້ບໍ",
+        "romanization": "jâo hap thólasap dâi bò",
+        "translations": {
+          "de": "Kannst du das Telefon abnehmen?",
+          "en": "Can you answer the phone?",
+          "es": "¿Puedes contestar el teléfono?",
+          "fr": "Tu peux répondre au téléphone ?",
+          "hi": "क्या तुम फ़ोन उठा सकते/सकती हो?",
+          "ja": "電話に出られますか？",
+          "km": "អ្នកអាចទទួលទូរស័ព្ទបានទេ?",
+          "ko": "전화 받을 수 있어요?",
+          "ne": "के तिमी फोन उठाउन सक्छौ?",
+          "pt": "Você consegue atender o telefone?",
+          "th": "แกรับโทรศัพท์ได้ไหม",
+          "tl": "Maaari ka bang sumagot ng telepono?",
+          "ur": "کیا تم فون اٹھا سکتے/سکتی ہو؟",
+          "vi": "Bạn có thể nghe điện thoại không?",
+          "zh": "你能接电话吗？",
+          "zh_Hant": "你能接電話嗎？"
+        },
+        "out_of_scope_words": [
+          "ໂທລະສັບ",
+          "ໄດ້",
+          "ບໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with open hands receiving a gift or package from another person, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄັ້ງ": {
+    "definitions": {
+      "de": "Mal; Gelegenheit (Klassifikator für Ereignisse, Vorgänge oder wiederholte Handlungen)",
+      "en": "Time; occasion (classifier for events, occurrences, or repeated actions)",
+      "es": "Vez; ocasión (clasificador para eventos, ocurrencias o acciones repetidas)",
+      "fr": "Fois; occasion (classificateur pour les événements, occurrences ou actions répétées)",
+      "hi": "बार; अवसर (घटनाओं, मौकों या दोहराई जाने वाली क्रियाओं के लिए वर्गीकारक)",
+      "ja": "回；度（出来事・機会・繰り返しの行為を数える類別詞）",
+      "km": "ដង; លើក (ពាក្យចំណាត់ថ្នាក់សម្រាប់ព្រឹត្តិការណ៍ ឬការប្រព្រឹត្ត)",
+      "ko": "번; 차례 (사건, 기회 또는 반복 행동을 세는 분류사)",
+      "ne": "पटक; चोटि (घटना, अवसर वा दोहोरिने कार्यका लागि वर्गीकारक)",
+      "pt": "Vez; ocasião (classificador para eventos, ocorrências ou ações repetidas)",
+      "th": "ครั้ง (ลักษณนามสำหรับเหตุการณ์ โอกาส หรือการกระทำที่เกิดขึ้นซ้ำ)",
+      "tl": "Beses; pagkakataon (panluri para sa mga pangyayari o paulit-ulit na kilos)",
+      "ur": "بار; موقع (واقعات، مواقع یا بار بار ہونے والے اعمال کے لیے درجہ بند کنندہ)",
+      "vi": "Lần; lượt (từ chỉ loại cho các sự kiện, dịp hoặc hành động lặp lại)",
+      "zh": "次；回（事件、场合或重复动作的量词）",
+      "zh_Hant": "次；回（事件、場合或重複動作的量詞）"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "khâng",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍໄປລາວສອງຄັ້ງແລ້ວ",
+        "romanization": "khôi pai Lao sǒng khâng lǽo",
+        "translations": {
+          "de": "Ich bin schon zweimal nach Laos gegangen.",
+          "en": "I've already been to Laos two times.",
+          "es": "Ya fui a Laos dos veces.",
+          "fr": "Je suis déjà allé(e) au Laos deux fois.",
+          "hi": "मैं लाओस दो बार जा चुका/चुकी हूँ।",
+          "ja": "私はもうラオスに2回行ったことがあります。",
+          "km": "ខ្ញុំបានទៅឡាវពីរដងហើយ។",
+          "ko": "나는 라오스에 두 번 가봤어요.",
+          "ne": "म लाओस दुई पटक गइसकेँ।",
+          "pt": "Já fui ao Laos duas vezes.",
+          "th": "ฉันไปลาวสองครั้งแล้ว",
+          "tl": "Dalawang beses na akong pumunta sa Laos.",
+          "ur": "میں لاؤس دو بار جا چکا/چکی ہوں۔",
+          "vi": "Tôi đã đến Lào hai lần rồi.",
+          "zh": "我已经去过老挝两次了。",
+          "zh_Hant": "我已經去過寮國兩次了。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ສອງ",
+          "ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ກິນຢາທຸກຄັ້ງທີ່ເຈັບທ້ອງ",
+        "romanization": "kin ya thúk khâng thî jèp thông",
+        "translations": {
+          "de": "Nimm jedes Mal Medizin, wenn du Bauchschmerzen hast.",
+          "en": "Take medicine every time you have a stomachache.",
+          "es": "Toma medicina cada vez que te duela el estómago.",
+          "fr": "Prends des médicaments chaque fois que tu as mal au ventre.",
+          "hi": "जब भी पेट दर्द हो, दवाई लो।",
+          "ja": "お腹が痛いたびに薬を飲んでください。",
+          "km": "ញាំថ្នាំរាល់ដងដែលឈឺក្រពះ។",
+          "ko": "배가 아플 때마다 약을 먹어요.",
+          "ne": "पेट दुख्दा हरेक पटक औषधि खाऊ।",
+          "pt": "Tome remédio toda vez que tiver dor de barriga.",
+          "th": "กินยาทุกครั้งที่ปวดท้อง",
+          "tl": "Uminom ng gamot tuwing sumasakit ang tiyan mo.",
+          "ur": "جب بھی پیٹ میں درد ہو، دوائی لو۔",
+          "vi": "Uống thuốc mỗi khi đau bụng.",
+          "zh": "每次肚子痛都要吃药。",
+          "zh_Hant": "每次肚子痛都要吃藥。"
+        },
+        "out_of_scope_words": [
+          "ຢາ",
+          "ທຸກ",
+          "ເຈັບທ້ອງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a calendar or tally marks with the number '2' or '3' to represent counting occasions or times, clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນັ້ນ": {
+    "definitions": {
+      "de": "Das; jener/jene/jenes (Demonstrativpronomen oder -adjektiv, das auf etwas Entfernteres hinweist)",
+      "en": "That (demonstrative pronoun or adjective pointing to something farther away or previously mentioned)",
+      "es": "Eso; ese/esa/aquel (pronombre o adjetivo demostrativo que señala algo más lejano o mencionado anteriormente)",
+      "fr": "Ça; ce/cet/cette... là (pronom ou adjectif démonstratif désignant quelque chose de plus éloigné ou mentionné précédemment)",
+      "hi": "वह; उस (दूर की या पहले उल्लिखित वस्तु को दर्शाने वाला संकेतवाचक सर्वनाम या विशेषण)",
+      "ja": "あれ；その（離れた場所にあるものや以前に言及されたものを指す指示代名詞または形容詞）",
+      "km": "នោះ (សព្វនាមបង្ហាញ ឬគុណនាមដែលចង្អុលទៅអ្វីដែលនៅឆ្ងាយ ឬបានលើកឡើងរួចមក)",
+      "ko": "그것; 저것 (멀리 있거나 이전에 언급된 것을 가리키는 지시 대명사 또는 형용사)",
+      "ne": "त्यो; उ (टाढाको वा पहिले उल्लेख गरिएको वस्तुलाई जनाउने संकेतवाचक सर्वनाम वा विशेषण)",
+      "pt": "Aquilo; esse/essa/aquele (pronome ou adjetivo demonstrativo que aponta para algo mais distante ou mencionado anteriormente)",
+      "th": "นั้น; สิ่งนั้น (คำสรรพนามหรือคำคุณศัพท์ชี้เฉพาะที่ชี้ไปยังสิ่งที่อยู่ห่างออกไปหรือที่กล่าวถึงก่อนหน้า)",
+      "tl": "Iyon; yaon (panghalip o pang-uri na pantukoy na nagtaturo sa isang bagay na malayo o nabanggit na)",
+      "ur": "وہ؛ اس (اشاری ضمیر یا صفت جو دور کی یا پہلے بیان کی گئی چیز کی طرف اشارہ کرے)",
+      "vi": "Đó; kia (đại từ hoặc tính từ chỉ định chỉ vào thứ gì đó ở xa hơn hoặc đã được đề cập trước)",
+      "zh": "那；那个（指示代词或形容词，指较远的或之前提到的事物）",
+      "zh_Hant": "那；那個（指示代詞或形容詞，指較遠的或之前提到的事物）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "nân",
+    "examples": [
+      {
+        "lao_script": "ເອົາກະເປົ໋ານັ້ນໃຫ້ຂ້ອຍແດ່",
+        "romanization": "ao kapǎo nân hái khôi dæ̀",
+        "translations": {
+          "de": "Gib mir mal diese Tasche dort.",
+          "en": "Pass me that bag, please.",
+          "es": "Pásame esa bolsa, por favor.",
+          "fr": "Passe-moi ce sac, s'il te plaît.",
+          "hi": "वह बैग मुझे दे दो।",
+          "ja": "そのかばんを渡してください。",
+          "km": "យកកាបូបនោះឱ្យខ្ញុំផង។",
+          "ko": "그 가방 좀 줘요.",
+          "ne": "त्यो झोला मलाई दिनु।",
+          "pt": "Me passa aquela bolsa, por favor.",
+          "th": "เอากระเป๋านั้นให้ฉันหน่อย",
+          "tl": "Ibigay mo sa akin ang bag na iyon.",
+          "ur": "وہ بیگ مجھے دے دو۔",
+          "vi": "Đưa cho tôi cái túi đó với.",
+          "zh": "把那个包递给我。",
+          "zh_Hant": "把那個包遞給我。"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ",
+          "ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ນັ້ນແລ້ວ ຂ້ອຍບໍ່ຮູ້",
+        "romanization": "nân lǽo khôi bò hú",
+        "translations": {
+          "de": "Das weiß ich nicht.",
+          "en": "That, I don't know.",
+          "es": "Eso, no lo sé.",
+          "fr": "Ça, je ne sais pas.",
+          "hi": "वह तो मुझे नहीं पता।",
+          "ja": "それは分かりません。",
+          "km": "នោះ ខ្ញុំមិនដឹងទេ។",
+          "ko": "그건 저도 몰라요.",
+          "ne": "त्यो मलाई थाहा छैन।",
+          "pt": "Isso eu não sei.",
+          "th": "อันนั้นฉันไม่รู้",
+          "tl": "Iyon, hindi ko alam.",
+          "ur": "وہ تو مجھے نہیں معلوم۔",
+          "vi": "Cái đó tôi không biết.",
+          "zh": "那个我不知道。",
+          "zh_Hant": "那個我不知道。"
+        },
+        "out_of_scope_words": [
+          "ແລ້ວ",
+          "ຮູ້"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person pointing toward an object (such as a box or chair) that is slightly farther away, with a dotted arrow indicating 'that over there', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນຳ": {
+    "definitions": {
+      "de": "Auch; mit; zusammen (multifunktionales Partikel, das Begleitung oder das Hinzufügen von Information ausdrückt, häufig in der gesprochenen Sprache)",
+      "en": "Also; too; with; together (multipurpose spoken particle expressing accompaniment, addition, or togetherness)",
+      "es": "También; junto con; con (partícula hablada de uso múltiple que expresa compañía, adición o unión)",
+      "fr": "Aussi; avec; ensemble (particule polyvalente de la langue parlée exprimant la compagnie, l'ajout ou le fait d'être ensemble)",
+      "hi": "भी; साथ; मिलकर (बहुउद्देशीय बोलचाल का कण जो साहचर्य, जोड़ या एकता दर्शाता है)",
+      "ja": "〜も；〜と一緒に（話し言葉の多機能な助詞で、同伴・付加・共同を表す）",
+      "km": "ផងដែរ; ជាមួយ; រួមគ្នា (ជាភាគល្អិតបន្ថែម ឬអមដំណើរក្នុងការនិយាយ)",
+      "ko": "도; 같이; 함께 (동반, 추가, 또는 함께함을 나타내는 구어 다목적 조사)",
+      "ne": "पनि; सँगै; साथमा (साहचर्य, थप वा एकता जनाउने बोलचालको बहुउद्देशीय कण)",
+      "pt": "Também; junto; com (partícula oral multiuso que expressa companhia, adição ou união)",
+      "th": "ด้วย; ไปด้วยกัน; กับ (คำอนุภาคพูดอเนกประสงค์ที่แสดงการร่วมกัน การเพิ่ม หรือความเป็นหมู่คณะ)",
+      "tl": "Rin; din; kasama (maraming gamit na salitang-pantukoy sa wikang sinasalita na nagpapahiwatig ng samahan o pagdaragdag)",
+      "ur": "بھی؛ ساتھ؛ مل کر (کثیر المقاصد بولی جانے والی ذرہ جو رفاقت، اضافہ یا اشتراک ظاہر کرے)",
+      "vi": "Cũng; cùng; với nhau (tiểu từ khẩu ngữ đa năng diễn đạt sự đi kèm, thêm vào, hoặc cùng nhau)",
+      "zh": "也；一起；和（口语多功能助词，表示陪伴、附加或共同）",
+      "zh_Hant": "也；一起；和（口語多功能助詞，表示陪伴、附加或共同）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "nam",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍໄປນຳເດີ້",
+        "romanization": "khôi pai nam dœ̂",
+        "translations": {
+          "de": "Ich komme auch mit!",
+          "en": "I'm going too!",
+          "es": "¡Yo también voy!",
+          "fr": "J'y vais aussi !",
+          "hi": "मैं भी जाऊँगा/जाऊँगी!",
+          "ja": "私も一緒に行きます！",
+          "km": "ខ្ញុំទៅផងដែរ!",
+          "ko": "나도 같이 갈게요!",
+          "ne": "म पनि जान्छु!",
+          "pt": "Eu vou também!",
+          "th": "ฉันไปด้วยนะ!",
+          "tl": "Sasama rin ako!",
+          "ur": "میں بھی جاؤں گا/جاؤں گی!",
+          "vi": "Tôi cũng đi với!",
+          "zh": "我也去！",
+          "zh_Hant": "我也去！"
+        },
+        "out_of_scope_words": [
+          "ເດີ້"
+        ]
+      },
+      {
+        "lao_script": "ມາກິນເຂົ້ານຳກັນເດາະ",
+        "romanization": "maa kin khâo nam kan dǒ",
+        "translations": {
+          "de": "Komm, lass uns zusammen essen!",
+          "en": "Come eat together with us!",
+          "es": "¡Ven a comer juntos!",
+          "fr": "Viens manger ensemble avec nous !",
+          "hi": "आओ, साथ मिलकर खाना खाते हैं!",
+          "ja": "一緒にご飯を食べよう！",
+          "km": "មកញាំបាយជាមួយគ្នាមកម្ល៉េះ!",
+          "ko": "같이 밥 먹으러 와요!",
+          "ne": "आऊ, सँगै खाना खाऔं!",
+          "pt": "Vem comer junto com a gente!",
+          "th": "มากินข้าวด้วยกันเลย!",
+          "tl": "Halika, kumain tayo nang magkasama!",
+          "ur": "آؤ مل کر کھانا کھاتے ہیں!",
+          "vi": "Lại ăn cơm cùng nhau đi!",
+          "zh": "来一起吃饭吧！",
+          "zh_Hant": "來一起吃飯吧！"
+        },
+        "out_of_scope_words": [
+          "ກັນ",
+          "ເດາະ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two or three smiling people walking or sitting together side by side, suggesting togetherness and 'also coming along', clean white background, colorful minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

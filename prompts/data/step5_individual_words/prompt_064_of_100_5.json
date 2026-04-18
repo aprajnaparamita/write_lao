@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊື້ອ",
+  "definitions": {
+    "de": "Keim, Bazillus, Erreger; auch Rasse, Abstammung, Blutlinie oder Nachkommenschaft",
+    "en": "germ, microbe, pathogen; also race, lineage, ancestry, or descent",
+    "es": "germen, microbio, patógeno; también raza, linaje, ascendencia o descendencia",
+    "fr": "germe, microbe, agent pathogène ; aussi race, lignée, ascendance ou descendance",
+    "hi": "कीटाणु, रोगाणु; साथ ही जाति, वंश, कुल या वंशावली",
+    "ja": "菌、病原体；また民族、血統、家系、子孫",
+    "km": "មេរោគ, បាក់តេរី; ក៏ដូចជាពូជ, ចំណុះ, ឈាម ឬវង្សត្រកូល",
+    "ko": "세균, 병원체; 또는 인종, 혈통, 가계, 자손",
+    "ne": "किटाणु, रोगाणु; साथै जाति, वंश, कुल वा वंशावली",
+    "pt": "germe, micróbio, patógeno; também raça, linhagem, ancestralidade ou descendência",
+    "th": "เชื้อโรค, เชื้อแบคทีเรีย; รวมถึงเชื้อชาติ, สายเลือด หรือเชื้อสาย",
+    "tl": "mikrobyo, tagalikha ng sakit; pati na rin ang lahi, angkan, o linya ng pagmamana",
+    "ur": "جرثومہ، مائکروب، جراثیم؛ نیز نسل، خاندان، نسب یا اولاد",
+    "vi": "vi trùng, mầm bệnh, vi khuẩn; cũng có nghĩa là chủng tộc, dòng dõi, huyết thống",
+    "zh": "细菌、病原体；也指种族、血统、家系或后裔",
+    "zh_Hant": "細菌、病原體；也指種族、血統、家系或後裔"
+  },
+  "definition_en": "germ, microbe, pathogen; also race, lineage, ancestry, or descent",
+  "romanization": "sɯːa³³",
+  "lao_examples": [
+    {
+      "lao_script": "ລ້າງມືເພື່ອຂ້າເຊື້ອໂລກ",
+      "romanization": "laːŋ mɯː pʰɯːa kʰaː sɯːa loːk",
+      "translation_en": "Wash your hands to kill germs."
+    },
+    {
+      "lao_script": "ເຂົາເຈົ້າມີເຊື້ອສາຍລາວ",
+      "romanization": "kʰao jao miː sɯːa saːj laːw",
+      "translation_en": "They have Lao lineage/ancestry."
+    }
+  ],
+  "image_prompt": "A simple flat illustration with two panels: one showing magnified bacteria or germs under a microscope view, and another showing a family tree silhouette representing lineage and ancestry, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

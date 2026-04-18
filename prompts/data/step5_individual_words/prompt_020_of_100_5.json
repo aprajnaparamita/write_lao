@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເລື່ອງ",
+  "definitions": {
+    "de": "Geschichte oder Angelegenheit; kann eine erzählte Geschichte, ein Thema, eine Sache oder eine Situation bezeichnen",
+    "en": "Story or matter; can refer to a told story, a topic, an issue, or a situation",
+    "es": "Historia o asunto; puede referirse a una historia contada, un tema, un asunto o una situación",
+    "fr": "Histoire ou affaire; peut désigner une histoire racontée, un sujet, une question ou une situation",
+    "hi": "कहानी या मामला; किसी सुनाई गई कहानी, विषय, मुद्दे या स्थिति को संदर्भित कर सकता है",
+    "ja": "話や件；語られた物語、話題、問題、または状況を指すことができる",
+    "km": "រឿង ឬបញ្ហា; អាចសំដៅទៅរឿងប្រាប់ ប្រធានបទ បញ្ហា ឬស្ថានភាពណាមួយ",
+    "ko": "이야기 또는 일; 들려주는 이야기, 주제, 문제, 또는 상황을 가리킬 수 있음",
+    "ne": "कथा वा विषय; सुनाइएको कथा, विषय, मुद्दा, वा परिस्थितिलाई सन्दर्भ गर्न सक्छ",
+    "pt": "História ou assunto; pode se referir a uma história contada, um tópico, uma questão ou uma situação",
+    "th": "เรื่อง; สามารถหมายถึงเรื่องราวที่เล่า หัวข้อ ประเด็น หรือสถานการณ์",
+    "tl": "Kwento o bagay; maaaring tumukoy sa isang kwentong sinabi, paksa, isyu, o sitwasyon",
+    "ur": "کہانی یا معاملہ؛ کسی سنائی گئی کہانی، موضوع، مسئلے، یا صورتحال کا حوالہ دے سکتا ہے",
+    "vi": "Câu chuyện hoặc vấn đề; có thể chỉ một câu chuyện được kể, một chủ đề, một vấn đề, hoặc một tình huống",
+    "zh": "故事或事情；可以指讲述的故事、话题、问题或情况",
+    "zh_Hant": "故事或事情；可以指講述的故事、話題、問題或情況"
+  },
+  "definition_en": "Story or matter; can refer to a told story, a topic, an issue, or a situation",
+  "romanization": "lueang",
+  "lao_examples": [
+    {
+      "lao_script": "ເລົ່າເລື່ອງຕະຫລົກໃຫ້ຂ້ອຍຟັງແດ່",
+      "romanization": "lao lueang ta-lok hai khoi fang dae",
+      "translation_en": "Tell me a funny story."
+    },
+    {
+      "lao_script": "ເລື່ອງນີ້ບໍ່ງ່າຍເລີຍ",
+      "romanization": "lueang nii bo ngai loei",
+      "translation_en": "This matter is not easy at all."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open book with colorful illustrated pages showing a small story scene inside, perhaps a character on an adventure, clean white background, minimalist cartoon style suitable for a language learning app"
+}

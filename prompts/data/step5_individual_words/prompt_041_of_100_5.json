@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປ້ອງ",
+  "definitions": {
+    "de": "Schützen; verteidigen; bewachen; wird oft in der Verbindung ປ້ອງກັນ (Schutz/Prävention) verwendet",
+    "en": "To protect; to defend; to guard; often used in the compound ປ້ອງກັນ meaning protection or prevention",
+    "es": "Proteger; defender; guardar; a menudo se usa en el compuesto ປ້ອງກັນ que significa protección o prevención",
+    "fr": "Protéger ; défendre ; garder ; souvent utilisé dans le composé ປ້ອງກັນ signifiant protection ou prévention",
+    "hi": "रक्षा करना; बचाव करना; सुरक्षित रखना; अक्सर ປ້ອງກັນ (सुरक्षा/रोकथाम) यौगिक में उपयोग किया जाता है",
+    "ja": "守る；保護する；防ぐ；ປ້ອງກັນ（保護・予防）という複合語でよく使われる",
+    "km": "ការពារ; ការពារខ្លួន; ជួយថែរក្សា; តែងតែប្រើក្នុងពាក្យផ្សំ ປ້ອງກັນ ដែលមានន័យថា ការការពារ ឬការបង្ការ",
+    "ko": "보호하다; 방어하다; 지키다; 보통 ປ້ອງກັນ(보호/예방)이라는 복합어로 사용됨",
+    "ne": "सुरक्षा गर्नु; बचाउनु; रक्षा गर्नु; प्रायः ປ້ອງກັນ (सुरक्षा/रोकथाम) यौगिकमा प्रयोग गरिन्छ",
+    "pt": "Proteger; defender; guardar; frequentemente usado no composto ປ້ອງກັນ que significa proteção ou prevenção",
+    "th": "ปกป้อง; ป้องกัน; คุ้มครอง; มักใช้ในคำประสม ປ້ອງກັນ ที่หมายถึงการป้องกันหรือการคุ้มครอง",
+    "tl": "Protektahan; ipagtanggol; bantayan; kadalasang ginagamit sa tambalan na ປ້ອງກັນ na nangangahulugang proteksyon o pag-iwas",
+    "ur": "حفاظت کرنا؛ دفاع کرنا؛ بچانا؛ اکثر ປ້ອງກັນ (تحفظ/بچاؤ) مرکب لفظ میں استعمال ہوتا ہے",
+    "vi": "Bảo vệ; bảo hộ; phòng thủ; thường dùng trong từ ghép ປ້ອງກັນ có nghĩa là bảo vệ hoặc phòng ngừa",
+    "zh": "保护；防御；守护；常用于复合词 ປ້ອງກັນ，意为保护或预防",
+    "zh_Hant": "保護；防禦；守護；常用於複合詞 ປ້ອງກັນ，意為保護或預防"
+  },
+  "definition_en": "To protect; to defend; to guard; often used in the compound ປ້ອງກັນ meaning protection or prevention",
+  "romanization": "pɔ̂ːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮົາຕ້ອງປ້ອງກັນສຸຂະພາບຂອງຕົວເອງ",
+      "romanization": "haw tɔ̂ŋ pɔ̂ːŋ kan sùkʰaʔpʰâːp kʰɔ̌ːŋ tùa ʔeːŋ",
+      "translation_en": "We need to protect our own health."
+    },
+    {
+      "lao_script": "ພໍ່ແມ່ປ້ອງລູກທຸກເທື່ອ",
+      "romanization": "pʰɔ̂ː mɛ̂ː pɔ̂ːŋ lûːk tʰúk tʰɯ́a",
+      "translation_en": "Parents always protect their children."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a parent gently shielding a small child under their arm, with a soft protective glow around them, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

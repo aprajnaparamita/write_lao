@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊື່ອ",
+  "definitions": {
+    "de": "Glauben; etwas für wahr halten oder jemandem vertrauen",
+    "en": "To believe; to accept something as true or to trust someone",
+    "es": "Creer; aceptar algo como verdadero o confiar en alguien",
+    "fr": "Croire ; accepter quelque chose comme vrai ou faire confiance à quelqu'un",
+    "hi": "विश्वास करना; किसी बात को सच मानना या किसी पर भरोसा करना",
+    "ja": "信じる；何かを真実として受け入れる、または誰かを信頼する",
+    "km": "ជឿ; ទទួលយកអ្វីមួយថាជាការពិត ឬទុកចិត្តលើអ្នកណាម្នាក់",
+    "ko": "믿다; 무언가를 사실로 받아들이거나 누군가를 신뢰하다",
+    "ne": "विश्वास गर्नु; कुनै कुरा सत्य मान्नु वा कसैलाई भरोसा गर्नु",
+    "pt": "Acreditar; aceitar algo como verdadeiro ou confiar em alguém",
+    "th": "เชื่อ; ยอมรับบางสิ่งว่าเป็นความจริง หรือไว้วางใจบางคน",
+    "tl": "Maniwala; tanggapin ang isang bagay bilang totoo o magtiwala sa isang tao",
+    "ur": "یقین کرنا؛ کسی بات کو سچ ماننا یا کسی پر بھروسہ کرنا",
+    "vi": "Tin; chấp nhận điều gì đó là thật hoặc tin tưởng vào ai đó",
+    "zh": "相信；认为某事是真的，或信任某人",
+    "zh_Hant": "相信；認為某事是真的，或信任某人"
+  },
+  "definition_en": "To believe; to accept something as true or to trust someone",
+  "romanization": "/sɯa³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍບໍ່ເຊື່ອວ່າລາວເວົ້າຄວາມຈິງ",
+      "romanization": "khoi bo sɯa waa lao wao khwam-sing",
+      "translation_en": "I don't believe that he/she is telling the truth."
+    },
+    {
+      "lao_script": "ເຊື່ອຂ້ອຍເດີ, ອາຫານຮ້ານນີ້ແຊບຫຼາຍ",
+      "romanization": "sɯa khoi doe, aa-haan haan nii saep laai",
+      "translation_en": "Believe me, the food at this restaurant is really delicious."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of one person nodding confidently with a thought bubble showing a glowing lightbulb or a checkmark, symbolizing belief or trust, clean white background, colorful minimalist style suitable for a language learning app."
+}

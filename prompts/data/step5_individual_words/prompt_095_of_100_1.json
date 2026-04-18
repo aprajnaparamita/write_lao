@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອຸດ",
+  "definitions": {
+    "de": "Etwas stopfen, verstopfen oder zustecken; eine Öffnung oder ein Loch verschließen",
+    "en": "To plug, stuff, or block; to close or seal an opening or hole",
+    "es": "Tapar, rellenar o bloquear; cerrar u obstruir una abertura o agujero",
+    "fr": "Boucher, obstruer ou remplir; fermer ou colmater une ouverture ou un trou",
+    "hi": "किसी छेद या खुले स्थान को बंद करना, ठूंसना या भरना",
+    "ja": "穴や開口部を塞ぐ、詰める、または塞ぎ止める",
+    "km": "បិទ ដាក់ទ្រនុង ឬស្ទះ; បិទជិតរន្ធ ឬចន្លោះ",
+    "ko": "구멍이나 틈을 막다, 틀어막다, 또는 채워 넣다",
+    "ne": "कुनै प्वाल वा खुला ठाउँ बन्द गर्नु, ठोस्नु वा भर्नु",
+    "pt": "Tampar, entupir ou bloquear; fechar ou vedar uma abertura ou buraco",
+    "th": "อุด ยัด หรืออุดกั้น; ปิดหรือปิดผนึกช่องเปิดหรือรู",
+    "tl": "Tumapon, mag-ipit, o magtagpi; isara o tapunan ang isang butas o bukana",
+    "ur": "کسی سوراخ یا کھلی جگہ کو بند کرنا، ٹھونسنا یا بھرنا",
+    "vi": "Bịt, nhét hoặc chặn; đóng hoặc bịt kín một lỗ hổng hoặc khe hở",
+    "zh": "堵塞、填塞或封闭；关闭或密封一个开口或孔洞",
+    "zh_Hant": "堵塞、填塞或封閉；關閉或密封一個開口或孔洞"
+  },
+  "definition_en": "To plug, stuff, or block; to close or seal an opening or hole",
+  "romanization": "/ʔút/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາຜ້າອຸດຮູນັ້ນໄວ້ກ່ອນເດີ້",
+      "romanization": "ao pha ut hu nan wai kon doe",
+      "translation_en": "Use a cloth to plug that hole for now."
+    },
+    {
+      "lao_script": "ນ້ຳຊືມ ຕ້ອງອຸດໃຫ້ດີໆ",
+      "romanization": "nam suem, tong ut hai di-di",
+      "translation_en": "The water is leaking — it needs to be plugged up properly."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand pressing a cork or cloth plug into a leaking hole in a pipe or wall, with water dripping, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

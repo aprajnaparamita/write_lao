@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພົນ",
+  "definitions": {
+    "de": "Bürger, Staatsbürger; Kraft, Macht; hauptsächlich in zusammengesetzten Wörtern verwendet",
+    "en": "citizen, civilian; power, force; mostly used in compound words",
+    "es": "ciudadano, civil; poder, fuerza; se usa principalmente en palabras compuestas",
+    "fr": "citoyen, civil ; puissance, force ; utilisé principalement dans des mots composés",
+    "hi": "नागरिक, आम नागरिक; शक्ति, बल; मुख्यतः यौगिक शब्दों में प्रयुक्त",
+    "ja": "市民、国民；力、権力；主に複合語として使われる",
+    "km": "ពលរដ្ឋ, ប្រជាពលរដ្ឋ; អំណាច, កម្លាំង; ភាគច្រើនប្រើក្នុងពាក្យផ្សំ",
+    "ko": "시민, 국민; 힘, 권력; 주로 복합어에서 사용됨",
+    "ne": "नागरिक, साधारण नागरिक; शक्ति, बल; मुख्यतः यौगिक शब्दहरूमा प्रयोग",
+    "pt": "cidadão, civil; poder, força; usado principalmente em palavras compostas",
+    "th": "พลเมือง, ประชาชน; พลัง, อำนาจ; ส่วนใหญ่ใช้ในคำประสม",
+    "tl": "mamamayan, sibilyan; kapangyarihan, lakas; kadalasang ginagamit sa mga tambalang salita",
+    "ur": "شہری، عام شہری؛ طاقت، قوت؛ زیادہ تر مرکب الفاظ میں استعمال ہوتا ہے",
+    "vi": "công dân, dân thường; sức mạnh, quyền lực; chủ yếu dùng trong từ ghép",
+    "zh": "公民、百姓；力量、权力；主要用于复合词",
+    "zh_Hant": "公民、百姓；力量、權力；主要用於複合詞"
+  },
+  "definition_en": "citizen, civilian; power, force; mostly used in compound words",
+  "romanization": "pʰon³³",
+  "lao_examples": [
+    {
+      "lao_script": "ພົນລະເມືອງທຸກຄົນມີສິດທິ",
+      "romanization": "pʰon la mɯːaŋ tʰuk kʰon miː sit tʰi",
+      "translation_en": "Every citizen has rights."
+    },
+    {
+      "lao_script": "ລາວເຮັດວຽກດ້ານພົນລະເຮືອນ",
+      "romanization": "laːw het viak daːn pʰon la hɯːan",
+      "translation_en": "He/She works in the civil service sector."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a group of diverse people standing together representing citizens of a community, with a subtle emblem or badge suggesting civic identity, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

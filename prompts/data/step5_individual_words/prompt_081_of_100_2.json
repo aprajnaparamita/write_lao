@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພັດ",
+  "definitions": {
+    "de": "Ein Fächer (Gegenstand) oder das Wedeln/Blasen von Luft; auch als Verb verwendet, um das Fächeln oder Blasen von Wind zu beschreiben",
+    "en": "A fan (object used to create airflow), or the action of fanning/blowing air; used as both a noun and a verb",
+    "es": "Un abanico (objeto para crear corriente de aire) o la acción de abanicar/soplar aire; usado como sustantivo y verbo",
+    "fr": "Un éventail (objet pour créer un courant d'air) ou l'action d'éventer/souffler de l'air; utilisé comme nom et verbe",
+    "hi": "एक पंखा (हवा बनाने वाली वस्तु) या हवा झलने/बहाने की क्रिया; संज्ञा और क्रिया दोनों रूपों में प्रयुक्त",
+    "ja": "扇子や団扇（うちわ）などの扇ぐ道具、または風を送る・扇ぐ動作を表す名詞・動詞",
+    "km": "កង្ហារ (វត្ថុដែលប្រើដើម្បីបង្កើតខ្យល់) ឬសកម្មភាពបក់/បក់ខ្យល់ ប្រើជាទាំងនាម និងកិរិយា",
+    "ko": "부채(공기 흐름을 만드는 도구) 또는 부채질하다/바람을 불다의 동작; 명사와 동사 모두로 사용됨",
+    "ne": "पंखा (हावा उत्पन्न गर्न प्रयोग हुने वस्तु) वा हावा गर्ने/फुक्ने क्रिया; संज्ञा र क्रिया दुवैको रूपमा प्रयोग हुन्छ",
+    "pt": "Um leque ou ventilador (objeto para criar corrente de ar) ou a ação de abanar/soprar ar; usado como substantivo e verbo",
+    "th": "พัดลม หรือพัด (สิ่งของที่ใช้พัดลม) หรือการกระทำของการพัด/เป่าลม ใช้ได้ทั้งเป็นคำนามและคำกริยา",
+    "tl": "Isang pamaypay (bagay na ginagamit upang lumikha ng hangin) o ang kilos ng pagpapaypay/paghihip ng hangin; ginagamit bilang pangngalan at pandiwa",
+    "ur": "ایک پنکھا (ہوا پیدا کرنے کے لیے استعمال ہونے والی چیز) یا ہوا جھلنے/پھونکنے کا عمل؛ اسم اور فعل دونوں کے طور پر استعمال ہوتا ہے",
+    "vi": "Cái quạt (vật dùng để tạo luồng gió) hoặc hành động quạt/thổi gió; dùng như cả danh từ lẫn động từ",
+    "zh": "扇子（用于产生气流的物件）或扇风/吹风的动作；可作名词和动词使用",
+    "zh_Hant": "扇子（用於產生氣流的物件）或扇風/吹風的動作；可作名詞和動詞使用"
+  },
+  "definition_en": "A fan (object used to create airflow), or the action of fanning/blowing air; used as both a noun and a verb",
+  "romanization": "pʰat˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ອນຫຼາຍ, ເອົາພັດມາໃຫ້ຂ້ອຍແດ່",
+      "romanization": "hoːn laːj, ao pʰat maː haj kʰoːj dɛː",
+      "translation_en": "It's really hot, bring me a fan please"
+    },
+    {
+      "lao_script": "ແມ່ຕາດພັດໃຫ້ລູກນ້ອຍໆ",
+      "romanization": "mɛː taːt pʰat haj luːk noːj noːj",
+      "translation_en": "Mom fans the little baby gently"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional hand-held folding fan with colorful decorative patterns, shown open and held by a hand, suitable for a language learning app, clean white background, minimalist style"
+}

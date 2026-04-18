@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຣົບ",
+  "definitions": {
+    "de": "Krieg; militärischer Konflikt zwischen zwei oder mehr Seiten — formelles, aus dem Pali entlehntes Wort",
+    "en": "War; armed conflict between two or more parties — formal word of Pali origin used in official and literary contexts",
+    "es": "Guerra; conflicto armado entre dos o más partes — palabra formal de origen pali usada en contextos oficiales y literarios",
+    "fr": "Guerre; conflit armé entre deux ou plusieurs parties — mot formel d'origine palie utilisé dans des contextes officiels et littéraires",
+    "hi": "युद्ध; दो या अधिक पक्षों के बीच सशस्त्र संघर्ष — पाली मूल का औपचारिक शब्द, आधिकारिक और साहित्यिक संदर्भों में प्रयुक्त",
+    "ja": "戦争；二つ以上の勢力間の武力衝突 — パーリ語起源の公式・文学的文脈で使われる格式語",
+    "km": "សង្គ្រាម; ជម្លោះប្រដាប់អាវុធរវាងភាគីពីរ ឬច្រើន — ពាក្យផ្លូវការដែលមានដើមកំណើតពីភាសាបាលី ប្រើក្នុងបរិបទផ្លូវការ និងអក្សរសាស្ត្រ",
+    "ko": "전쟁; 두 개 이상의 집단 간의 무력 충돌 — 팔리어 유래의 공식적인 단어로 공식 및 문학적 맥락에서 사용됨",
+    "ne": "युद्ध; दुई वा बढी पक्षहरू बीचको सशस्त्र द्वन्द्व — पालि मूलको औपचारिक शब्द, आधिकारिक र साहित्यिक सन्दर्भमा प्रयुक्त",
+    "pt": "Guerra; conflito armado entre duas ou mais partes — palavra formal de origem páli usada em contextos oficiais e literários",
+    "th": "สงคราม; ความขัดแย้งทางอาวุธระหว่างสองฝ่ายขึ้นไป — คำทางการที่มีต้นกำเนิดจากภาษาบาลี ใช้ในบริบททางการและวรรณคดี",
+    "tl": "Digmaan; armadong salungatan sa pagitan ng dalawa o higit pang panig — pormal na salita mula sa wikang Pali, ginagamit sa opisyal at pampanitikang konteksto",
+    "ur": "جنگ؛ دو یا زیادہ فریقوں کے درمیان مسلح تصادم — پالی نژاد کا رسمی لفظ جو سرکاری اور ادبی سیاق میں استعمال ہوتا ہے",
+    "vi": "Chiến tranh; xung đột vũ trang giữa hai hoặc nhiều bên — từ trang trọng có nguồn gốc Pali, dùng trong văn phong chính thức và văn học",
+    "zh": "战争；两个或多个势力之间的武装冲突 — 源自巴利语的正式用词，用于官方和文学语境",
+    "zh_Hant": "戰爭；兩個或多個勢力之間的武裝衝突 — 源自巴利語的正式用詞，用於官方和文學語境"
+  },
+  "definition_en": "War; armed conflict between two or more parties — formal word of Pali origin used in official and literary contexts",
+  "romanization": "rop³",
+  "lao_examples": [
+    {
+      "lao_script": "ຣົບຊ້ຳໆບໍ່ໄດ້ເຮັດໃຫ້ໃຜດີຂຶ້ນ",
+      "romanization": "rop saːm saːm bɔː daːj het haj pʰaj diː kʰɯn",
+      "translation_en": "Repeated war doesn't make anyone better off."
+    },
+    {
+      "lao_script": "ຫຼາຍປະເທດຮ່ວມກັນຢຸດ ຣົບ",
+      "romanization": "laːj pa tʰet huam kan ɲut rop",
+      "translation_en": "Many countries joined together to stop the war."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two opposing armies facing each other on a battlefield, shown in a symbolic non-graphic way with flags and shields, suitable for a language learning app, clean white background, muted colors, minimalist style."
+}

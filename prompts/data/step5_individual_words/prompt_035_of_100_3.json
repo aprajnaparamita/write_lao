@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສິ່ງ",
+  "definitions": {
+    "de": "Sache, Ding, Objekt; ein allgemeines Nomen, das auf abstrakte oder physische Dinge verweist, oft in Verbindungen verwendet wie ສິ່ງຂອງ (Besitztümer/Waren)",
+    "en": "Thing, object, matter; a general noun referring to abstract or physical things, often used in compounds such as ສິ່ງຂອງ (belongings/goods) and ສິ່ງທີ່ (that which/what)",
+    "es": "Cosa, objeto, asunto; un sustantivo general que se refiere a cosas abstractas o físicas, frecuentemente usado en compuestos como ສິ່ງຂອງ (pertenencias/bienes)",
+    "fr": "Chose, objet, affaire; un nom général faisant référence à des choses abstraites ou physiques, souvent utilisé dans des composés comme ສິ່ງຂອງ (affaires/biens)",
+    "hi": "चीज़, वस्तु, मामला; एक सामान्य संज्ञा जो अमूर्त या भौतिक चीजों को संदर्भित करती है, अक्सर ສິ່ງຂອງ (सामान/सामग्री) जैसे यौगिकों में उपयोग की जाती है",
+    "ja": "もの、物事、事柄；抽象的または物理的なものを指す一般名詞で、ສິ່ງຂອງ（持ち物・品物）などの複合語によく使われる",
+    "km": "របស់ វត្ថុ រឿង; នាមទូទៅដែលសំដៅទៅលើរបស់អរូបី ឬរូបី ច្រើនប្រើក្នុងពាក្យផ្សំដូចជា ສິ່ງຂອງ (របស់ / ទំនិញ)",
+    "ko": "것, 물건, 사항; 추상적이거나 물리적인 것을 가리키는 일반 명사로 ສິ່ງຂອງ(물건/소지품)과 같은 복합어에 자주 사용됨",
+    "ne": "चिज, वस्तु, विषय; एक सामान्य नाम जुन अमूर्त वा भौतिक चिजहरूलाई सन्दर्भ गर्छ, प्रायः ສິ່ງຂອງ (सामान/सामग्री) जस्ता यौगिकहरूमा प्रयोग गरिन्छ",
+    "pt": "Coisa, objeto, assunto; um substantivo geral que se refere a coisas abstratas ou físicas, frequentemente usado em compostos como ສິ່ງຂອງ (pertences/bens)",
+    "th": "สิ่ง ของ เรื่อง; คำนามทั่วไปที่หมายถึงสิ่งที่เป็นนามธรรมหรือสิ่งที่จับต้องได้ มักใช้ในคำประสมเช่น ສິ່ງຂອງ (ของใช้/สินค้า)",
+    "tl": "Bagay, objeto, usapin; isang pangkalahatang pangngalan na tumutukoy sa mga abstrakto o pisikal na bagay, madalas na ginagamit sa mga tambalan tulad ng ສິ່ງຂອງ (mga gamit/kalakal)",
+    "ur": "چیز، شے، معاملہ؛ ایک عام اسم جو خلاصی یا جسمانی چیزوں کو ظاہر کرتا ہے، اکثر ສິ່ງຂອງ (سامان/مال) جیسے مرکبات میں استعمال ہوتا ہے",
+    "vi": "Thứ, vật, sự việc; một danh từ chung chỉ các sự vật trừu tượng hoặc cụ thể, thường dùng trong các từ ghép như ສິ່ງຂອງ (đồ vật/hàng hóa)",
+    "zh": "东西、物品、事情；指代抽象或具体事物的通用名词，常用于ສິ່ງຂອງ（物品/货物）等复合词中",
+    "zh_Hant": "東西、物品、事情；指代抽象或具體事物的通用名詞，常用於ສິ່ງຂອງ（物品/貨物）等複合詞中"
+  },
+  "definition_en": "Thing, object, matter; a general noun referring to abstract or physical things, often used in compounds such as ສິ່ງຂອງ (belongings/goods) and ສິ່ງທີ່ (that which/what)",
+  "romanization": "siŋ˨˩",
+  "lao_examples": [
+    {
+      "lao_script": "ສິ່ງທີ່ຂ້ອຍຢາກໄດ້ຫຼາຍທີ່ສຸດຄືໂທລະສັບໃໝ່",
+      "romanization": "sing thi khoy yak dai lai thi sut khue tholasap mai",
+      "translation_en": "The thing I want the most is a new phone"
+    },
+    {
+      "lao_script": "ມີຫຼາຍສິ່ງທີ່ຕ້ອງເຮັດມື້ນີ້",
+      "romanization": "mi lai sing thi tong het mue ni",
+      "translation_en": "There are many things to do today"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing several diverse everyday objects (a book, an apple, a ball, a cup) floating on a clean white background, with a gentle question mark nearby suggesting 'things', colorful minimalist cartoon style suitable for a language learning app"
+}

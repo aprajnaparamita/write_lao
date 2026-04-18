@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊຸດ",
+  "definitions": {
+    "de": "Ein Satz oder eine Kollektion von zusammengehörigen Dingen; ein Outfit oder Anzug als komplettes Ensemble",
+    "en": "A set or collection of matching items; a complete outfit or suit of clothing",
+    "es": "Un conjunto o colección de artículos combinados; un atuendo completo o traje de ropa",
+    "fr": "Un ensemble ou une collection d'articles assortis ; une tenue complète ou un costume",
+    "hi": "मेल खाती वस्तुओं का एक सेट या संग्रह; एक पूरा पहनावा या सूट",
+    "ja": "揃いのアイテムのセットまたはコレクション；完全なコーディネートやスーツ",
+    "km": "សំណុំ ឬការប្រមូលផ្ដុំនៃវត្ថុដែលត្រូវគ្នា; ឈុតសម្លៀកបំពាក់ពេញលេញ",
+    "ko": "어울리는 물건들의 세트나 모음; 완전한 옷차림이나 정장",
+    "ne": "मिल्दो वस्तुहरूको एक सेट वा संग्रह; पूरा पोशाक वा सूट",
+    "pt": "Um conjunto ou coleção de itens combinando; uma roupa completa ou terno",
+    "th": "ชุดหรือคอลเลกชันของสิ่งของที่เข้าชุดกัน; เครื่องแต่งกายหรือชุดสูทที่สมบูรณ์",
+    "tl": "Isang set o koleksyon ng magkakatugmang mga bagay; isang kumpletong kasuotan o suit",
+    "ur": "ملتے جلتے اشیاء کا ایک سیٹ یا مجموعہ؛ ایک مکمل لباس یا سوٹ",
+    "vi": "Một bộ hoặc tập hợp các vật phẩm đồng bộ; một bộ trang phục hoàn chỉnh hoặc bộ vest",
+    "zh": "一套匹配物品的集合；一套完整的服装或西装",
+    "zh_Hant": "一套匹配物品的集合；一套完整的服裝或西裝"
+  },
+  "definition_en": "A set or collection of matching items; a complete outfit or suit of clothing",
+  "romanization": "sut",
+  "lao_examples": [
+    {
+      "lao_script": "ຊຸດນີ້ສວຍຫຼາຍ ຊື້ຢູ່ໃສ?",
+      "romanization": "sut ni suay lai, seu yu sai?",
+      "translation_en": "This outfit is really beautiful, where did you buy it?"
+    },
+    {
+      "lao_script": "ຂ້ອຍຕ້ອງການຊຸດໃໝ່ສຳລັບງານແຕ່ງ",
+      "romanization": "khoi tong kan sut mai sam-lab ngan taeng",
+      "translation_en": "I need a new outfit for the wedding"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a neatly displayed matching clothing set or outfit laid out on a clean surface, including a top and bottom or a traditional suit ensemble, clean white background, bright colors, minimalist style suitable for a language learning app"
+}

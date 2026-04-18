@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຊີນ",
+  "definitions": {
+    "de": "Einladen / bitte (als höfliche Aufforderung); jemanden herzlich willkommen heißen oder auffordern, etwas zu tun",
+    "en": "To invite; please (as a polite gesture or command); to welcome someone or politely urge them to do something",
+    "es": "Invitar; por favor (como gesto o mandato cortés); dar la bienvenida a alguien o instarlo cortésmente a hacer algo",
+    "fr": "Inviter ; s'il vous plaît (en tant que geste ou ordre poli) ; accueillir quelqu'un ou l'inciter poliment à faire quelque chose",
+    "hi": "आमंत्रित करना; कृपया (एक विनम्र अनुरोध के रूप में); किसी का स्वागत करना या विनम्रता से कुछ करने के लिए प्रेरित करना",
+    "ja": "招待する；どうぞ（丁寧な勧めとして）；誰かを歓迎したり、礼儀正しく何かをするよう促したりする",
+    "km": "អញ្ជើញ; សូម (ជា身振身振ចេស្តា ឬពាក្យបញ្ជាដោយការគួរសម); ស្វាគមន៍នរណាម្នាក់ ឬជំរុញពួកគេដោយការគួរសមឱ្យធ្វើអ្វីមួយ",
+    "ko": "초대하다; 어서 (정중한 권유나 명령으로); 누군가를 환영하거나 공손하게 무언가를 하도록 권유하다",
+    "ne": "आमन्त्रण गर्नु; कृपया (विनम्र संकेत वा आदेशको रूपमा); कसैलाई स्वागत गर्नु वा विनम्रतापूर्वक केही गर्न प्रोत्साहित गर्नु",
+    "pt": "Convidar; por favor (como gesto ou comando cortês); receber alguém com boas-vindas ou instá-lo educadamente a fazer algo",
+    "th": "เชิญ; กรุณา (ในฐานะท่าทางหรือคำสั่งที่สุภาพ); ต้อนรับใครบางคนหรือสุภาพชักชวนให้ทำบางอย่าง",
+    "tl": "Mag-imbita; pakiusap (bilang magalang na kilos o utos); salubungin ang isang tao o magalang na himukin silang gumawa ng isang bagay",
+    "ur": "مدعو کرنا؛ براہ کرم (بطور شائستہ اشارہ یا حکم)؛ کسی کا خیر مقدم کرنا یا انہیں شائستگی سے کچھ کرنے پر آمادہ کرنا",
+    "vi": "Mời; làm ơn / xin mời (như một cử chỉ hoặc mệnh lệnh lịch sự); chào đón ai đó hoặc lịch sự thúc giục họ làm điều gì đó",
+    "zh": "邀请；请（作为礼貌的手势或命令）；欢迎某人或礼貌地催促他们做某事",
+    "zh_Hant": "邀請；請（作為禮貌的手勢或命令）；歡迎某人或禮貌地催促他們做某事"
+  },
+  "definition_en": "To invite; please (as a polite gesture or command); to welcome someone or politely urge them to do something",
+  "romanization": "/sɤːn˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊີນເຂົ້າມາກ່ອນເລີຍ ຢ່າຢືນຢູ່ຂ້າງນອກ",
+      "romanization": "soen khao maa kon loei, yaa yuen yuu khaang nok",
+      "translation_en": "Please come inside first, don't stand outside."
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກເຊີນເຈົ້າມາງານລ້ຽງທີ່ເຮືອນ",
+      "romanization": "khoi yaak soen jao maa ngaan liang thi huean",
+      "translation_en": "I want to invite you to a party at my house."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a smiling person gesturing with an open hand welcoming gesture, as if politely inviting someone to enter or sit down, clean white background, warm colors, minimalist style, suitable for a language learning app."
+}

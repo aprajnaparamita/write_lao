@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃຈ",
+  "definitions": {
+    "de": "Herz (im übertragenen Sinne), Geist, Gemüt; das innere Gefühl oder der Verstand einer Person",
+    "en": "heart, mind; the emotional or mental core of a person; feelings and inner thoughts",
+    "es": "corazón, mente; el centro emocional o mental de una persona; sentimientos e interior",
+    "fr": "cœur, esprit; le centre émotionnel ou mental d'une personne; sentiments intérieurs",
+    "hi": "दिल, मन; किसी व्यक्ति का भावनात्मक या मानसिक केंद्र; भावनाएं और अंतर्मन",
+    "ja": "心、気持ち；人の感情や精神の中心；内面の感情や思い",
+    "km": "ចិត្ត, គំនិត; មជ្ឈមណ្ឌលអារម្មណ៍ ឬផ្លូវចិត្តរបស់មនុស្ស",
+    "ko": "마음, 심장(비유적); 사람의 감정적·정신적 중심; 내면의 감정과 생각",
+    "ne": "मन, हृदय; व्यक्तिको भावनात्मक वा मानसिक केन्द्र; भावना र आन्तरिक विचार",
+    "pt": "coração, mente; o centro emocional ou mental de uma pessoa; sentimentos e interior",
+    "th": "ใจ, จิตใจ; ศูนย์กลางทางอารมณ์หรือจิตใจของคน; ความรู้สึกและความคิดภายใน",
+    "tl": "puso, isipan; ang emosyonal o mental na sentro ng isang tao; damdamin at panloob na kaisipan",
+    "ur": "دل، من؛ کسی شخص کا جذباتی یا ذہنی مرکز؛ احساسات اور اندرونی خیالات",
+    "vi": "tim, tâm, lòng; trung tâm cảm xúc hoặc tinh thần của một người; cảm xúc và suy nghĩ bên trong",
+    "zh": "心、心灵；一个人情感或精神的核心；内心的感受和想法",
+    "zh_Hant": "心、心靈；一個人情感或精神的核心；內心的感受和想法"
+  },
+  "definition_en": "heart, mind; the emotional or mental core of a person; feelings and inner thoughts",
+  "romanization": "/tsai/",
+  "lao_examples": [
+    {
+      "lao_script": "ໃຈເຈົ້າດີບໍ່ມື້ນີ້?",
+      "romanization": "tsai jao dii boo muu nii?",
+      "translation_en": "Is your heart/mood okay today?"
+    },
+    {
+      "lao_script": "ຂ້ອຍໃຈດີກັບທຸກຄົນ",
+      "romanization": "khoi tsai dii gap thuk khon",
+      "translation_en": "I am kind-hearted to everyone."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a glowing human heart shape with a gentle smile, surrounded by soft warm colors suggesting kindness and emotion, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

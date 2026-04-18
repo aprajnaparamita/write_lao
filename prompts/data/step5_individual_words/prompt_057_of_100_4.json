@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພິມ",
+  "definitions": {
+    "de": "Drucken oder tippen – Text auf einer Tastatur eingeben oder etwas auf Papier drucken",
+    "en": "To print or type – to enter text on a keyboard or produce text on paper using a printer",
+    "es": "Imprimir o escribir a máquina – ingresar texto en un teclado o producir texto en papel",
+    "fr": "Imprimer ou taper – saisir du texte sur un clavier ou produire du texte sur papier",
+    "hi": "छापना या टाइप करना – कीबोर्ड पर टेक्स्ट लिखना या कागज पर प्रिंट करना",
+    "ja": "印刷またはタイプする – キーボードで文字を入力する、またはプリンターで紙に印刷すること",
+    "km": "បោះពុម្ព ឬវាយអក្សរ – វាយអក្សរលើក្តារចុច ឬបោះពុម្ពអ្វីមួយលើក្រដាស",
+    "ko": "인쇄하거나 타이핑하다 – 키보드로 텍스트를 입력하거나 종이에 인쇄하다",
+    "ne": "छाप्नु वा टाइप गर्नु – किबोर्डमा पाठ लेख्नु वा कागजमा प्रिन्ट गर्नु",
+    "pt": "Imprimir ou digitar – inserir texto no teclado ou produzir texto no papel",
+    "th": "พิมพ์ – กดตัวอักษรบนแป้นพิมพ์หรือพิมพ์เอกสารออกมาบนกระดาษ",
+    "tl": "Mag-print o mag-type – mag-input ng teksto sa keyboard o mag-print ng teksto sa papel",
+    "ur": "پرنٹ کرنا یا ٹائپ کرنا – کی بورڈ پر متن لکھنا یا کاغذ پر پرنٹ کرنا",
+    "vi": "In hoặc gõ phím – nhập văn bản trên bàn phím hoặc in tài liệu ra giấy",
+    "zh": "打印或打字——在键盘上输入文字或用打印机将内容印在纸上",
+    "zh_Hant": "打印或打字——在鍵盤上輸入文字或用打印機將內容印在紙上"
+  },
+  "definition_en": "To print or type – to enter text on a keyboard or produce text on paper using a printer",
+  "romanization": "/phím/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຕ້ອງພິມເອກະສານນີ້ກ່ອນປະຊຸມ",
+      "romanization": "khɔ̂i tɔ̂ng phím eː.ka.saːn níː kɔ̀n pa.súm",
+      "translation_en": "I need to print this document before the meeting"
+    },
+    {
+      "lao_script": "ເຈົ້າພິມໄວແທ້ ໃຊ້ສອງມືເລີຍ",
+      "romanization": "jâo phím wâi tɛ̂ː sâi sɔ̌ːng müː lɤːi",
+      "translation_en": "You type so fast – you use both hands!"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person's hands typing on a laptop keyboard with a printed document coming out of a printer nearby, clean white background, colorful minimalist style, suitable for a language learning app"
+}

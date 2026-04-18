@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊົນ",
+  "definitions": {
+    "de": "Menschen, Volk; wird hauptsächlich in formellen Zusammensetzungen wie ປະຊາຊົນ (das Volk) verwendet; selten als eigenständiges Wort im Alltag.",
+    "en": "People, folk; used mostly in formal compounds such as ປະຊາຊົນ (the people/populace); rarely used as a standalone word in everyday speech.",
+    "es": "Gente, pueblo; se usa principalmente en compuestos formales como ປະຊາຊົນ (el pueblo/la población); raramente se usa como palabra independiente en el habla cotidiana.",
+    "fr": "Gens, peuple ; utilisé principalement dans des composés formels comme ປະຊາຊົນ (le peuple/la population) ; rarement utilisé seul dans le discours quotidien.",
+    "hi": "लोग, जन; मुख्यतः औपचारिक यौगिकों जैसे ປະຊາຊົນ (जनता/लोग) में प्रयुक्त; दैनिक बोलचाल में स्वतंत्र रूप से कम ही प्रयुक्त।",
+    "ja": "人々、民；主に ປະຊາຊົນ（人民/民衆）のような公式的な複合語で使われる；日常会話では単独で使われることはほとんどない。",
+    "km": "មនុស្ស, ប្រជាជន; ត្រូវបានប្រើជាចម្បងក្នុងពាក្យផ្សំផ្លូវការដូចជា ປະຊາຊົນ (ប្រជាជន); កម្រប្រើជាពាក្យឯករាជ្យក្នុងការនិយាយប្រចាំថ្ងៃ។",
+    "ko": "사람들, 민중; 주로 ປະຊາຊົນ(인민/대중)과 같은 공식적인 복합어에 사용됨; 일상 대화에서 단독으로 사용되는 경우는 드물다.",
+    "ne": "मानिसहरू, जन; मुख्यतः ປະຊາຊົນ (जनता/जनसमुदाय) जस्ता औपचारिक यौगिकहरूमा प्रयोग हुन्छ; दैनिक बोलचालमा स्वतन्त्र रूपमा कम प्रयोग हुन्छ।",
+    "pt": "Pessoas, povo; usado principalmente em compostos formais como ປະຊາຊົນ (o povo/a população); raramente usado como palavra independente na fala cotidiana.",
+    "th": "ผู้คน, ประชาชน; ใช้ส่วนใหญ่ในคำประสมที่เป็นทางการ เช่น ປະຊາຊົນ (ประชาชน); แทบไม่ใช้เป็นคำเดี่ยวในการพูดประจำวัน",
+    "tl": "Mga tao, mamamayan; karaniwang ginagamit sa mga pormal na tambalan tulad ng ປະຊາຊົນ (ang mamamayan); bihirang gamitin nang mag-isa sa pang-araw-araw na pananalita.",
+    "ur": "لوگ، عوام؛ زیادہ تر ປະຊາຊົນ (عوام/لوگ) جیسے رسمی مرکبات میں استعمال ہوتا ہے؛ روزمرہ گفتگو میں آزادانہ طور پر کم ہی استعمال ہوتا ہے۔",
+    "vi": "Người, dân; chủ yếu được dùng trong các từ ghép trang trọng như ປະຊາຊົນ (nhân dân/người dân); hiếm khi được dùng độc lập trong giao tiếp hàng ngày.",
+    "zh": "人们，民众；主要用于正式复合词，如 ປະຊາຊົນ（人民/民众）；在日常口语中很少单独使用。",
+    "zh_Hant": "人們，民眾；主要用於正式複合詞，如 ປະຊາຊົນ（人民/民眾）；在日常口語中很少單獨使用。"
+  },
+  "definition_en": "People, folk; used mostly in formal compounds such as ປະຊາຊົນ (the people/populace); rarely used as a standalone word in everyday speech.",
+  "romanization": "sǒn",
+  "lao_examples": [
+    {
+      "lao_script": "ລັດຖະບານຕ້ອງຟັງສຽງປະຊາຊົນ.",
+      "romanization": "láttʰàbàːn tɔːŋ fáŋ sǐaŋ pàsáːsǒn",
+      "translation_en": "The government must listen to the voice of the people."
+    },
+    {
+      "lao_script": "ປະຊາຊົນລາວມີໃຈດີແລະຮັກຄວາມສະຫງົບ.",
+      "romanization": "pàsáːsǒn láːw miː tɕaj diː lɛː hák kʷāːm sàŋop",
+      "translation_en": "The Lao people are kind and love peace."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a diverse group of five smiling people standing together side by side, representing community and togetherness, clean white background, bright colorful clothing, minimalist cartoon style suitable for a language learning app."
+}

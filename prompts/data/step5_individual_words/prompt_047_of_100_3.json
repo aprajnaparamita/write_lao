@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫຼວງ",
+  "definitions": {
+    "de": "Königlich/Groß – königlich, bedeutsam oder groß; häufig in Ortsnamen verwendet (z. B. Luang Prabang)",
+    "en": "Royal/Great – meaning royal, grand, or great; commonly used in place names (e.g., Luang Prabang)",
+    "es": "Real/Grande – que es real, grandioso o importante; frecuente en nombres de lugares (p. ej., Luang Prabang)",
+    "fr": "Royal/Grand – signifie royal, grand ou important ; souvent utilisé dans des noms de lieux (ex. : Luang Prabang)",
+    "hi": "राजसी/महान – राजसी, भव्य या महान; प्रायः स्थान नामों में प्रयुक्त (जैसे, लुआंग प्राबांग)",
+    "ja": "王室の/偉大な – 王族的、壮大な、または偉大な意味を持つ；地名によく使われる（例：ルアンパバーン）",
+    "km": "រាជវង្ស/ធំ – មានន័យថាព្រះរាជ ឬ ធំ ឬ អស្ចារ្យ; ច្រើនប្រើក្នុងឈ្មោះទីកន្លែង (ឧ. ហ្លួងព្រះបាង)",
+    "ko": "왕실의/위대한 – 왕실, 웅장하거나 위대한 의미; 지명에 자주 사용됨 (예: 루앙프라방)",
+    "ne": "राजकीय/महान – राजसी, भव्य वा महान; प्रायः ठाउँका नामहरूमा प्रयोग हुन्छ (जस्तै, लुआङ प्राबाङ)",
+    "pt": "Real/Grande – real, grandioso ou grande; frequentemente usado em nomes de lugares (ex.: Luang Prabang)",
+    "th": "หลวง – หมายถึง หลวง, ยิ่งใหญ่ หรือ เป็นของหลวง; มักใช้ในชื่อสถานที่ (เช่น หลวงพระบาง)",
+    "tl": "Maharlikang/Dakila – nangangahulugang maharlika, maringal, o dakila; karaniwang ginagamit sa mga pangalan ng lugar (hal., Luang Prabang)",
+    "ur": "شاہی/عظیم – شاہی، شاندار یا عظیم معنی رکھتا ہے؛ اکثر جگہوں کے ناموں میں استعمال ہوتا ہے (مثلاً لوانگ پرابانگ)",
+    "vi": "Hoàng gia/Vĩ đại – có nghĩa là hoàng gia, vĩ đại hoặc lớn lao; thường dùng trong tên địa danh (ví dụ: Luang Prabang)",
+    "zh": "皇家的/伟大的 – 意为皇家、宏大或伟大；常用于地名（如琅勃拉邦）",
+    "zh_Hant": "皇家的/偉大的 – 意為皇家、宏大或偉大；常用於地名（如琅勃拉邦）"
+  },
+  "definition_en": "Royal/Great – meaning royal, grand, or great; commonly used in place names (e.g., Luang Prabang)",
+  "romanization": "lùaŋ˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ຫຼວງພະບາງສວຍງາມຫຼາຍ",
+      "romanization": "lùaŋ pha báːŋ sùaj ŋáːm lǎːj",
+      "translation_en": "Luang Prabang is very beautiful."
+    },
+    {
+      "lao_script": "ນີ້ແມ່ນວັດຫຼວງ",
+      "romanization": "níː mɛ̂ːn vát lùaŋ",
+      "translation_en": "This is the royal temple."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a grand, ornate Southeast Asian temple with golden spires and lush greenery, representing something royal and magnificent, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

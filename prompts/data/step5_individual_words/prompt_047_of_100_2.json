@@ -1,0 +1,36 @@
+{
+  "lao_word": "ວາງ",
+  "definitions": {
+    "de": "Hinlegen/Abstellen – etwas an einem Ort platzieren oder ablegen",
+    "en": "To put down or place – to set something in a particular spot",
+    "es": "Poner/colocar – situar algo en un lugar determinado",
+    "fr": "Poser/placer – mettre quelque chose à un endroit précis",
+    "hi": "रखना – किसी चीज़ को किसी जगह पर रखना",
+    "ja": "置く – 物をある場所に置くこと",
+    "km": "ដាក់/ដាក់ចុះ – ដាក់អ្វីមួយនៅកន្លែងណាមួយ",
+    "ko": "놓다 – 무언가를 특정 장소에 두다",
+    "ne": "राख्नु – कुनै चीज कुनै ठाउँमा राख्नु",
+    "pt": "Colocar/pousar – colocar algo em um lugar específico",
+    "th": "วาง – วางสิ่งของไว้ในที่ใดที่หนึ่ง",
+    "tl": "Ilagay/ipatong – ilagay ang isang bagay sa isang partikular na lugar",
+    "ur": "رکھنا – کسی چیز کو کسی جگہ پر رکھنا",
+    "vi": "Đặt xuống – để vật gì đó vào một vị trí cụ thể",
+    "zh": "放置 – 把某物放在某个地方",
+    "zh_Hant": "放置 – 把某物放在某個地方"
+  },
+  "definition_en": "To put down or place – to set something in a particular spot",
+  "romanization": "váːŋ˥˩",
+  "lao_examples": [
+    {
+      "lao_script": "ວາງຈານໄວ້ເທິງໂຕະດ້ວຍ",
+      "romanization": "váːŋ jàːn wâi thə̂ːŋ tó dûaj",
+      "translation_en": "Put the plate on the table."
+    },
+    {
+      "lao_script": "ຢ່າວາງໂທລະສັບໄວ້ທີ່ນັ້ນ",
+      "romanization": "yàː váːŋ thoːlásáp wâi thî nan",
+      "translation_en": "Don't put the phone there."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a pair of hands gently placing a book onto a wooden table, viewed from a slight angle, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

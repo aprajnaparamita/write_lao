@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄມ",
+  "definitions": {
+    "de": "Holz, Baum; ein natürliches Material, das aus Bäumen gewonnen wird und zum Bauen oder Herstellen von Gegenständen verwendet wird",
+    "en": "wood or tree; a natural material derived from trees, used for building or making objects",
+    "es": "madera, árbol; material natural derivado de los árboles, usado para construir o fabricar objetos",
+    "fr": "bois, arbre; matériau naturel tiré des arbres, utilisé pour construire ou fabriquer des objets",
+    "hi": "लकड़ी, पेड़; पेड़ों से प्राप्त एक प्राकृतिक सामग्री, निर्माण या वस्तुएँ बनाने के लिए उपयोग की जाती है",
+    "ja": "木、木材；建築や物を作るのに使われる木から得られる天然素材",
+    "km": "ឈើ, ដើមឈើ; សម្ភារធម្មជាតិដែលបានពីដើមឈើ ប្រើសម្រាប់សាងសង់ ឬផលិតវត្ថុ",
+    "ko": "나무, 목재; 건축이나 물건 제작에 사용되는 나무에서 얻은 천연 재료",
+    "ne": "काठ, रुख; रूखबाट प्राप्त एउटा प्राकृतिक सामग्री, निर्माण वा वस्तुहरू बनाउन प्रयोग गरिन्छ",
+    "pt": "madeira, árvore; material natural derivado de árvores, usado para construir ou fabricar objetos",
+    "th": "ไม้, ต้นไม้; วัสดุธรรมชาติที่ได้จากต้นไม้ ใช้ในการก่อสร้างหรือทำสิ่งของ",
+    "tl": "kahoy, puno; natural na materyal na nagmumula sa mga puno, ginagamit sa pagtatayo o paggawa ng mga bagay",
+    "ur": "لکڑی، درخت؛ درختوں سے حاصل شدہ قدرتی مواد، تعمیر یا اشیاء بنانے کے لیے استعمال ہوتا ہے",
+    "vi": "gỗ, cây; vật liệu tự nhiên lấy từ cây, dùng để xây dựng hoặc làm đồ vật",
+    "zh": "木头，树；从树木中获得的天然材料，用于建造或制作物品",
+    "zh_Hant": "木頭，樹；從樹木中獲得的天然材料，用於建造或製作物品"
+  },
+  "definition_en": "wood or tree; a natural material derived from trees, used for building or making objects",
+  "romanization": "maːj",
+  "lao_examples": [
+    {
+      "lao_script": "ເຮືອນຫຼັງນີ້ທຳດ້ວຍໄມທັງໝົດ",
+      "romanization": "hɯːan laŋ niː tʰam duːaj maːj tʰaŋ mɔt",
+      "translation_en": "This house is made entirely of wood."
+    },
+    {
+      "lao_script": "ຊ່ວຍເອົາໄມອັນນັ້ນໃຫ້ຂ້ອຍແດ່",
+      "romanization": "suːaj ʔao maːj ʔan nan haːj khoːj dɛː",
+      "translation_en": "Can you hand me that piece of wood?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of wooden planks or a log of wood with visible wood grain texture, alongside a small cartoon tree, clean white background, warm brown tones, minimalist style suitable for a language learning app."
+}

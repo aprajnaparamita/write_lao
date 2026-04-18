@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊີ",
+  "definitions": {
+    "de": "Eine Silbe, die häufig in laotischen Namen vorkommt; als eigenständiges Wort kaum in der Alltagssprache verwendet",
+    "en": "A syllable commonly found in Lao personal names; rarely used as a standalone word in everyday conversation",
+    "es": "Una sílaba que aparece frecuentemente en nombres personales laosianos; raramente se usa como palabra independiente en la conversación cotidiana",
+    "fr": "Une syllabe couramment présente dans les prénoms laotiens ; rarement utilisée comme mot autonome dans la conversation quotidienne",
+    "hi": "एक अक्षर जो लाओ व्यक्तिगत नामों में सामान्यतः पाया जाता है; रोज़मर्रा की बातचीत में अकेले शब्द के रूप में शायद ही प्रयोग होता है",
+    "ja": "ラオス語の人名によく使われる音節。日常会話での単独使用はほとんどない",
+    "km": "ព្យាង្គដែលច្រើនមាននៅក្នុងឈ្មោះបុគ្គលរបស់ជនជាតិឡាវ; កម្រប្រើជាពាក្យឯករាជ្យក្នុងការសន្ទនាប្រចាំថ្ងៃ",
+    "ko": "라오스 개인 이름에 자주 등장하는 음절; 일상 대화에서 단독 단어로는 거의 사용되지 않음",
+    "ne": "लाओ व्यक्तिगत नाममा सामान्यतः पाइने एउटा शब्दांश; दैनिक कुराकानीमा स्वतन्त्र शब्दको रूपमा विरलै प्रयोग हुन्छ",
+    "pt": "Uma sílaba comumente encontrada em nomes pessoais laosianos; raramente usada como palavra independente na conversa cotidiana",
+    "th": "พยางค์ที่มักพบในชื่อบุคคลของชาวลาว ไม่ค่อยใช้เป็นคำเดี่ยวในการสนทนาทั่วไป",
+    "tl": "Isang pantig na madalas makita sa mga personal na pangalan ng mga Lao; bihirang gamitin bilang isang nagsasariling salita sa pang-araw-araw na pag-uusap",
+    "ur": "ایک حرف جو عام طور پر لاؤشین ذاتی ناموں میں پایا جاتا ہے؛ روزمرہ گفتگو میں بطور الگ لفظ شاذ و نادر استعمال ہوتا ہے",
+    "vi": "Một âm tiết thường xuất hiện trong tên riêng của người Lào; hiếm khi được dùng như một từ độc lập trong hội thoại hàng ngày",
+    "zh": "常见于老挝人名中的一个音节；在日常对话中几乎不作为独立词语使用",
+    "zh_Hant": "常見於老撾人名中的一個音節；在日常對話中幾乎不作為獨立詞語使用"
+  },
+  "definition_en": "A syllable commonly found in Lao personal names; rarely used as a standalone word in everyday conversation",
+  "romanization": "/siː˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊື່ລາວຫຼາຍຊື່ມີຄຳວ່າ ຊີ ຢູ່ໃນນັ້ນ",
+      "romanization": "sue lao lai sue mii kham waa sii yuu nai nan",
+      "translation_en": "Many Lao names contain the syllable 'Sii' in them."
+    },
+    {
+      "lao_script": "ເພື່ອນຂ້ອຍຊື່ ວັນຊີ ເປັນຄົນດີຫຼາຍ",
+      "romanization": "phuean khoi sue Van-sii, pen khon dii lai",
+      "translation_en": "My friend's name is Vansii and they are a very good person."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a name tag or nameplate with decorative Lao-style patterns on the border, showing a sample name, clean white background, colorful minimalist style, suitable for a language learning app."
+}

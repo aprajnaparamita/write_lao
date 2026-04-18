@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເຕືອນ",
+  "definitions": {
+    "de": "Warnen; jemanden auf eine Gefahr oder etwas Wichtiges hinweisen; erinnern",
+    "en": "To warn; to alert someone about a danger or something important; to remind",
+    "es": "Advertir; alertar a alguien sobre un peligro o algo importante; recordar",
+    "fr": "Avertir; alerter quelqu'un d'un danger ou de quelque chose d'important; rappeler",
+    "hi": "चेतावनी देना; किसी को किसी खतरे या महत्वपूर्ण बात के बारे में सावधान करना; याद दिलाना",
+    "ja": "警告する；危険や重要なことについて誰かに注意を促す；思い出させる",
+    "km": "ព្រមាន; ប្រាប់ឱ្យដឹងអំពីគ្រោះថ្នាក់ ឬរឿងសំខាន់; រំលឹក",
+    "ko": "경고하다; 위험이나 중요한 것에 대해 누군가에게 알리다; 상기시키다",
+    "ne": "चेतावनी दिनु; कसैलाई खतरा वा महत्वपूर्ण कुराबारे सचेत गराउनु; सम्झाउनु",
+    "pt": "Avisar; alertar alguém sobre um perigo ou algo importante; lembrar",
+    "th": "เตือน; แจ้งให้ใครทราบเกี่ยวกับอันตรายหรือสิ่งสำคัญ; เตือนความจำ",
+    "tl": "Magbabala; alertuhan ang isang tao tungkol sa panganib o isang mahalagang bagay; magpaalala",
+    "ur": "خبردار کرنا؛ کسی کو خطرے یا کسی اہم بات سے آگاہ کرنا؛ یاد دلانا",
+    "vi": "Cảnh báo; thông báo cho ai đó về nguy hiểm hoặc điều quan trọng; nhắc nhở",
+    "zh": "警告；提醒某人注意危险或重要的事情；提醒",
+    "zh_Hant": "警告；提醒某人注意危險或重要的事情；提醒"
+  },
+  "definition_en": "To warn; to alert someone about a danger or something important; to remind",
+  "romanization": "/tɯ̀an/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ເຕືອນຂ້ອຍໃຫ້ລະວັງລົດທຸກຄັ້ງ",
+      "romanization": "mae tuean khoi hai la-wang lot thuk khan",
+      "translation_en": "My mom warns me to be careful of cars every time."
+    },
+    {
+      "lao_script": "ຂ້ອຍຢາກເຕືອນເພື່ອນວ່າມື້ອື່ນມີສອບ",
+      "romanization": "khoi yak tuean phuean wa mue-un mi sop",
+      "translation_en": "I want to remind my friend that there's an exam tomorrow."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person holding up one hand as a warning gesture while another person looks alert and attentive, with a small caution sign nearby, clean white background, colorful, minimalist style suitable for a language learning app."
+}

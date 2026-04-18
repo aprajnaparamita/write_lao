@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຮງ",
+  "definitions": {
+    "de": "Kraft, Stärke; körperliche oder physische Energie",
+    "en": "Force, strength; physical power or energy",
+    "es": "Fuerza, fortaleza; energía o poder físico",
+    "fr": "Force, puissance ; énergie ou pouvoir physique",
+    "hi": "बल, शक्ति; शारीरिक ऊर्जा या ताकत",
+    "ja": "力、強さ；体力や物理的なエネルギー",
+    "km": "កម្លាំង, ភាពរឹងមាំ; ថាមពលរាងកាយ",
+    "ko": "힘, 강함; 신체적 에너지 또는 물리적인 힘",
+    "ne": "बल, शक्ति; शारीरिक ऊर्जा वा ताकत",
+    "pt": "Força, poder; energia física ou corporal",
+    "th": "แรง, พลัง; พลังงานหรือความแข็งแกร่งทางกาย",
+    "tl": "Lakas, puwersa; pisikal na enerhiya o kapangyarihan",
+    "ur": "طاقت، قوت؛ جسمانی توانائی یا طاقت",
+    "vi": "Sức mạnh, lực; năng lượng hoặc sức lực thể chất",
+    "zh": "力量，力气；体力或物理能量",
+    "zh_Hant": "力量，力氣；體力或物理能量"
+  },
+  "definition_en": "Force, strength; physical power or energy",
+  "romanization": "hɛ́ŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນມີແຮງຫຼາຍ, ຍົກຂອງໜັກໄດ້ງ່າຍ",
+      "romanization": "phəən mii hɛ́ŋ lǎaj, nyók khɔ̌ŋ nàk dâj ŋâaj",
+      "translation_en": "He/She is very strong and can lift heavy things easily."
+    },
+    {
+      "lao_script": "ມື້ນີ້ບໍ່ມີແຮງເລີຍ, ເມື່ອຍຫຼາຍ",
+      "romanization": "mýy níi bɔ̀ mii hɛ́ŋ ləəj, mýaj lǎaj",
+      "translation_en": "Today I have no energy at all, I'm very tired."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a strong person flexing their muscles with energy lines radiating from their body, suitable for a language learning app, clean white background, colorful, minimalist cartoon style."
+}

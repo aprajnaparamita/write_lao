@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂວາງ",
+  "definitions": {
+    "de": "blockieren, versperren, im Weg stehen",
+    "en": "to block, obstruct, or get in the way of something",
+    "es": "bloquear, obstruir, interponerse en el camino",
+    "fr": "bloquer, obstruer, barrer le passage",
+    "hi": "रोकना, बाधा डालना, रास्ता बंद करना",
+    "ja": "邪魔をする、塞ぐ、妨げる",
+    "km": "រារាំង, ស្ទះ, ដាក់ស្ទះផ្លូវ",
+    "ko": "막다, 차단하다, 방해하다",
+    "ne": "रोक्नु, बाधा गर्नु, बाटो छेक्नु",
+    "pt": "bloquear, obstruir, atravancar o caminho",
+    "th": "ขวาง, กีดขวาง, สกัดกั้น",
+    "tl": "harangin, harangan, pigilan ang daan",
+    "ur": "روکنا، راستہ بند کرنا، رکاوٹ ڈالنا",
+    "vi": "chặn, cản trở, đứng chắn đường",
+    "zh": "阻挡，拦截，挡路",
+    "zh_Hant": "阻擋，攔截，擋路"
+  },
+  "definition_en": "to block, obstruct, or get in the way of something",
+  "romanization": "khwaːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ລົດຂວາງທາງຢູ່, ຜ່ານບໍ່ໄດ້ເລີຍ",
+      "romanization": "lot khwaːŋ thaːŋ juː, phan bɔː daːj ləːj",
+      "translation_en": "A car is blocking the road, I can't get through at all."
+    },
+    {
+      "lao_script": "ຢ່າຂວາງເດ້, ຂ້ອຍຮີບໄປທຳງານ",
+      "romanization": "jaː khwaːŋ deː, khoːj hiːp paːj tham ŋaːn",
+      "translation_en": "Don't block me, I'm rushing to work."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person standing with arms spread wide, blocking a pathway or road, with another person unable to pass, clean white background, colorful minimalist style suitable for a language learning app."
+}

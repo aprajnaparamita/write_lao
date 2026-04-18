@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄ່າ",
+  "definitions": {
+    "de": "Preis, Wert oder Gebühr – bezeichnet den Geldwert einer Ware oder Dienstleistung; auch im übertragenen Sinne für den Wert von etwas",
+    "en": "Price, value, or fee – refers to the monetary cost of a good or service; also used figuratively for the worth or value of something",
+    "es": "Precio, valor o tarifa – se refiere al costo monetario de un bien o servicio; también se usa figurativamente para el valor de algo",
+    "fr": "Prix, valeur ou frais – désigne le coût monétaire d'un bien ou d'un service ; aussi utilisé au sens figuré pour la valeur de quelque chose",
+    "hi": "मूल्य, कीमत या शुल्क – किसी वस्तु या सेवा की मौद्रिक लागत; आलंकारिक रूप से किसी चीज़ के मूल्य के लिए भी प्रयुक्त",
+    "ja": "価格、価値、または料金 – 商品やサービスの金銭的なコスト；比喩的に何かの価値を表すためにも使われる",
+    "km": "តម្លៃ ឬថ្លៃ – សំដៅទៅលើតម្លៃជាប្រាក់នៃទំនិញឬសេវាកម្ម ក៏ប្រើផ្នែកអាត្ថន័យផ្ទៃក្នុងសម្រាប់គុណតម្លៃរបស់អ្វីមួយ",
+    "ko": "가격, 가치 또는 요금 – 상품이나 서비스의 금전적 비용; 비유적으로 무언가의 가치를 나타내기도 함",
+    "ne": "मूल्य, कीमत वा शुल्क – कुनै वस्तु वा सेवाको मौद्रिक लागत; लाक्षणिक रूपमा कुनै चीजको मूल्यको लागि पनि प्रयुक्त",
+    "pt": "Preço, valor ou taxa – refere-se ao custo monetário de um bem ou serviço; também usado figurativamente para o valor de algo",
+    "th": "ราคา ค่าใช้จ่าย หรือมูลค่า – หมายถึงต้นทุนเป็นตัวเงินของสินค้าหรือบริการ ใช้ในเชิงอุปมาสำหรับคุณค่าของบางสิ่งด้วย",
+    "tl": "Presyo, halaga, o bayad – tumutukoy sa gastos na pera ng isang kalakal o serbisyo; ginagamit din sa matalinhagang paraan para sa halaga ng isang bagay",
+    "ur": "قیمت، قدر، یا فیس – کسی چیز یا خدمت کی مالی لاگت؛ مجازی طور پر کسی چیز کی قدر و قیمت کے لیے بھی استعمال ہوتا ہے",
+    "vi": "Giá cả, giá trị hoặc phí – chỉ chi phí bằng tiền của hàng hóa hoặc dịch vụ; cũng được dùng theo nghĩa bóng cho giá trị của điều gì đó",
+    "zh": "价格、价值或费用——指商品或服务的货币成本；也比喻性地用于某事物的价值",
+    "zh_Hant": "價格、價值或費用——指商品或服務的貨幣成本；也比喻性地用於某事物的價值"
+  },
+  "definition_en": "Price, value, or fee – refers to the monetary cost of a good or service; also used figuratively for the worth or value of something",
+  "romanization": "/khâː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄ່ານີ້ແພງໂພດ ຊື້ບໍ່ໄດ້ຫຼາຍ",
+      "romanization": "khâː nii phaeng phot sue bɔ̀ː dai laai",
+      "translation_en": "This price is so expensive, I can't buy much."
+    },
+    {
+      "lao_script": "ຄ່າໄຟເດືອນນີ້ສູງຂຶ້ນອີກແລ້ວ",
+      "romanization": "khâː fai duan nii suung khuen iik laew",
+      "translation_en": "The electricity bill has gone up again this month."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a price tag with a currency symbol and numbers on it, hanging on a colorful item in a market setting, clean white background, bright and cheerful colors, minimalist style suitable for a language learning app."
+}

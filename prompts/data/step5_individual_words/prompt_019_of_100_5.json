@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຜົນ",
+  "definitions": {
+    "de": "Ergebnis / Resultat; auch Frucht (eines Baumes oder einer Pflanze)",
+    "en": "Result / outcome; also fruit (of a tree or plant)",
+    "es": "Resultado / consecuencia; también fruto (de un árbol o planta)",
+    "fr": "Résultat / conséquence ; aussi fruit (d'un arbre ou d'une plante)",
+    "hi": "परिणाम / नतीजा; साथ ही फल (पेड़ या पौधे का)",
+    "ja": "結果・成果；また果物（木や植物の実）",
+    "km": "លទ្ធផល / ផល; ក៏ជាផ្លែឈើ (ផ្លែរបស់ដើមឈើ ឬរុក្ខជាតិ)",
+    "ko": "결과 / 성과; 또한 과일 / 열매 (나무나 식물의)",
+    "ne": "परिणाम / नतिजा; साथै फल (रुख वा बिरुवाको)",
+    "pt": "Resultado / consequência; também fruto (de uma árvore ou planta)",
+    "th": "ผล / ผลลัพธ์; ยังหมายถึงผลไม้ (ของต้นไม้หรือพืช)",
+    "tl": "Resulta / kinalabasan; gayundin ang prutas (ng puno o halaman)",
+    "ur": "نتیجہ / انجام؛ نیز پھل (درخت یا پودے کا)",
+    "vi": "Kết quả / thành quả; cũng là quả / trái cây (của cây hoặc thực vật)",
+    "zh": "结果 / 成果；也指果实（树木或植物的）",
+    "zh_Hant": "結果 / 成果；也指果實（樹木或植物的）"
+  },
+  "definition_en": "Result / outcome; also fruit (of a tree or plant)",
+  "romanization": "phon",
+  "lao_examples": [
+    {
+      "lao_script": "ຜົນການສອບເສັງອອກມາແລ້ວ ເຈົ້າໄດ້ຄະແນນດີ",
+      "romanization": "phon kan sop seng ok ma laeo, jao dai kha-naen dii",
+      "translation_en": "The exam results are out – you got a good score."
+    },
+    {
+      "lao_script": "ຕົ້ນໄມ້ນີ້ໃຫ້ຜົນດີທຸກໆປີ",
+      "romanization": "ton mai nih hai phon dii thuk thuk pi",
+      "translation_en": "This tree gives good fruit every year."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing a ripe fruit hanging on a tree branch on the left side, and a trophy or gold star representing a good result on the right side, clean white background, colorful minimalist style suitable for a language learning app."
+}

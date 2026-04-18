@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕີນ",
+  "definitions": {
+    "de": "Der Fuß; der unterste Teil des Beines, der zum Gehen verwendet wird",
+    "en": "The foot; the lower part of the leg used for walking and standing",
+    "es": "El pie; la parte inferior de la pierna que se usa para caminar y estar de pie",
+    "fr": "Le pied ; la partie inférieure de la jambe utilisée pour marcher et se tenir debout",
+    "hi": "पैर; पाँव — पैर का निचला हिस्सा जो चलने और खड़े होने के लिए उपयोग किया जाता है",
+    "ja": "足；歩いたり立ったりするために使う脚の下部",
+    "km": "ជើង; ផ្នែកខាងក្រោមនៃជើងដែលប្រើសម្រាប់걷 walking និងឈរ",
+    "ko": "발; 걷고 서는 데 사용되는 다리의 아랫부분",
+    "ne": "खुट्टा; हिँड्न र उभिन प्रयोग गरिने खुट्टाको तल्लो भाग",
+    "pt": "O pé; a parte inferior da perna usada para caminhar e ficar de pé",
+    "th": "เท้า; ส่วนล่างของขาที่ใช้เดินและยืน",
+    "tl": "Paa; ang ibabang bahagi ng binti na ginagamit para maglakad at tumayo",
+    "ur": "پاؤں؛ ٹانگ کا نچلا حصہ جو چلنے اور کھڑے ہونے کے لیے استعمال ہوتا ہے",
+    "vi": "Bàn chân; phần dưới của chân dùng để đi lại và đứng",
+    "zh": "脚；腿的下部，用于行走和站立",
+    "zh_Hant": "腳；腿的下部，用於行走和站立"
+  },
+  "definition_en": "The foot; the lower part of the leg used for walking and standing",
+  "romanization": "tǐin",
+  "lao_examples": [
+    {
+      "lao_script": "ຕີນຂອງຂ້ອຍເຈັບຫຼາຍເພາະຍ່າງທາງໄກ",
+      "romanization": "tǐin khɔ̌ɔng khɔ̂i jép lǎai, phɔ́ ɲâang thaang klai",
+      "translation_en": "My feet hurt a lot because I walked a long way"
+    },
+    {
+      "lao_script": "ຖອດເກີບອອກກ່ອນເຂົ້າເຮືອນ ຕີນຈະໄດ້ສະອາດ",
+      "romanization": "thɔ̀ɔt kə̄əp ɔ̀ɔk kɔ̀ɔn khâo hʉ́an, tǐin ja dâi sa.àat",
+      "translation_en": "Take off your shoes before entering the house so your feet stay clean"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a single bare human foot viewed from the side, with clear and friendly anatomical styling. Clean white background, colorful, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,398 @@
+{
+  "ແດນ": {
+    "definitions": {
+      "de": "Gebiet, Territorium, Land (ein abgegrenzter geografischer oder politischer Bereich)",
+      "en": "Territory, land, domain (a defined geographic or political area)",
+      "es": "Territorio, tierra, dominio (área geográfica o política delimitada)",
+      "fr": "Territoire, pays, domaine (zone géographique ou politique délimitée)",
+      "hi": "क्षेत्र, भूमि, प्रदेश (एक निर्धारित भौगोलिक या राजनीतिक क्षेत्र)",
+      "ja": "領土、土地、地域（定められた地理的または政治的な区域）",
+      "km": "ដែនដី, ទឹកដី, តំបន់ (តំបន់ភូមិសាស្ត្រ ឬនយោបាយដែលមានព្រំដែនច្បាស់លាស់)",
+      "ko": "영토, 땅, 구역 (정해진 지리적 또는 정치적 구역)",
+      "ne": "क्षेत्र, भूमि, इलाका (एक निश्चित भौगोलिक वा राजनीतिक क्षेत्र)",
+      "pt": "Território, terra, domínio (área geográfica ou política delimitada)",
+      "th": "ดินแดน, เขต, อาณาเขต (พื้นที่ทางภูมิศาสตร์หรือการเมืองที่มีขอบเขตชัดเจน)",
+      "tl": "Teritoryo, lupain, saklaw (isang tinukoy na heograpiko o pulitikal na lugar)",
+      "ur": "علاقہ، سرزمین، خطہ (ایک متعین جغرافیائی یا سیاسی علاقہ)",
+      "vi": "Lãnh thổ, vùng đất, khu vực (một vùng địa lý hoặc chính trị được xác định rõ ràng)",
+      "zh": "领土、地域、疆域（有明确界限的地理或政治区域）",
+      "zh_Hant": "領土、地域、疆域（有明確界限的地理或政治區域）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "dɛːn",
+    "examples": [
+      {
+        "lao_script": "ແດນລາວສວຍງາມຫຼາຍເດີ້",
+        "romanization": "dɛːn laːw suaj ŋaːm laːj dəː",
+        "translations": {
+          "de": "Das Land Laos ist wirklich sehr schön.",
+          "en": "The land of Laos is really very beautiful.",
+          "es": "El territorio de Laos es realmente muy hermoso.",
+          "fr": "Le territoire du Laos est vraiment très beau.",
+          "hi": "लाओस की भूमि सच में बहुत सुंदर है।",
+          "ja": "ラオスの土地は本当にとても美しいです。",
+          "km": "ដែនដីរបស់ឡាវស្រស់ស្អាតណាស់មែន។",
+          "ko": "라오스 땅은 정말 너무 아름다워요.",
+          "ne": "लाओसको भूमि साँच्चै धेरै सुन्दर छ।",
+          "pt": "O território do Laos é realmente muito bonito.",
+          "th": "แดนลาวสวยงามมากเลย",
+          "tl": "Ang lupain ng Laos ay talagang napakaganda.",
+          "ur": "لاؤس کی سرزمین واقعی بہت خوبصورت ہے۔",
+          "vi": "Lãnh thổ của Lào thật sự rất đẹp.",
+          "zh": "老挝的土地真的非常美丽。",
+          "zh_Hant": "寮國的土地真的非常美麗。"
+        },
+        "out_of_scope_words": [
+          "ສວຍງາມ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາຮັກແດນເກີດຂອງລາວຫຼາຍ",
+        "romanization": "kʰao hak dɛːn kəːt kʰɔːŋ laːo laːj",
+        "translations": {
+          "de": "Er liebt sein Heimatland sehr.",
+          "en": "He loves his homeland very much.",
+          "es": "Él ama mucho su tierra natal.",
+          "fr": "Il aime beaucoup sa terre natale.",
+          "hi": "वह अपनी मातृभूमि से बहुत प्यार करता है।",
+          "ja": "彼は故郷をとても愛しています。",
+          "km": "គាត់ស្រឡាញ់ដែនកំណើតរបស់គាត់ខ្លាំងណាស់។",
+          "ko": "그는 자신의 고향 땅을 매우 사랑해요.",
+          "ne": "उसले आफ्नो जन्मभूमिलाई धेरै माया गर्छ।",
+          "pt": "Ele ama muito sua terra natal.",
+          "th": "เขารักแดนเกิดของเขามาก",
+          "tl": "Minamahal niya nang husto ang kanyang lupang sinilangan.",
+          "ur": "وہ اپنی جنم بھومی سے بہت محبت کرتا ہے۔",
+          "vi": "Anh ấy rất yêu quê hương của mình.",
+          "zh": "他非常热爱自己的故乡。",
+          "zh_Hant": "他非常熱愛自己的故鄉。"
+        },
+        "out_of_scope_words": [
+          "ຮັກ",
+          "ເກີດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a map outline of a country or territory with clearly marked borders, a small flag planted in the center, clean white background, colorful and minimalist style, suitable for a language learning app.",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ກົດ": {
+    "definitions": {
+      "de": "Drücken, pressen (eine Taste oder einen Knopf betätigen); auch: Regel, Gesetz (als Nomen)",
+      "en": "To press, to push (a button or key); also used as a noun meaning rule or law",
+      "es": "Presionar, pulsar (un botón o tecla); también como sustantivo: regla, ley",
+      "fr": "Appuyer, presser (un bouton ou une touche); aussi employé comme nom signifiant règle, loi",
+      "hi": "दबाना, दबाव डालना (किसी बटन या कुंजी पर); संज्ञा के रूप में: नियम, कानून",
+      "ja": "押す（ボタンやキーを押す）；名詞として「規則、法律」の意味でも使われる",
+      "km": "ចុច, 누르다 (ប៊ូតុង ឬគ្រាប់ចុច); ក៏ប្រើជានាម មានន័យថា ច្បាប់, វិន័យ",
+      "ko": "누르다 (버튼이나 키를 누르다); 명사로는 규칙, 법을 의미하기도 함",
+      "ne": "थिच्नु, दबाउनु (बटन वा कुञ्जी); संज्ञाको रूपमा: नियम, कानून",
+      "pt": "Pressionar, apertar (um botão ou tecla); também como substantivo: regra, lei",
+      "th": "กด (ปุ่มหรือแป้น); ยังใช้เป็นคำนามหมายถึง กฎ, กฎหมาย",
+      "tl": "Pindutin, itulak (isang pindutan o susi); bilang pangngalan: tuntunin, batas",
+      "ur": "دبانا، دبائو ڈالنا (کسی بٹن یا کنجی پر)؛ اسم کے طور پر: قانون، قاعدہ",
+      "vi": "Nhấn, bấm (nút hoặc phím); cũng dùng như danh từ nghĩa là quy tắc, luật lệ",
+      "zh": "按压（按钮或键）；也用作名词，意为规则、法律",
+      "zh_Hant": "按壓（按鈕或鍵）；也用作名詞，意為規則、法律"
+    },
+    "part_of_speech": "verb",
+    "romanization": "kot",
+    "examples": [
+      {
+        "lao_script": "ກົດປຸ່ມນີ້ເພື່ອເປີດໂທລະສັບ",
+        "romanization": "kot pum niː pʰɯa pəːt tʰoː.la.sap",
+        "translations": {
+          "de": "Drücke diesen Knopf, um das Telefon einzuschalten.",
+          "en": "Press this button to turn on the phone.",
+          "es": "Presiona este botón para encender el teléfono.",
+          "fr": "Appuie sur ce bouton pour allumer le téléphone.",
+          "hi": "फोन चालू करने के लिए यह बटन दबाओ।",
+          "ja": "このボタンを押して携帯をオンにして。",
+          "km": "ចុចប៊ូតុងនេះដើម្បីបើកទូរស័ព្ទ។",
+          "ko": "이 버튼을 눌러서 전화기를 켜세요.",
+          "ne": "फोन खोल्न यो बटन थिच।",
+          "pt": "Aperte este botão para ligar o telefone.",
+          "th": "กดปุ่มนี้เพื่อเปิดโทรศัพท์",
+          "tl": "Pindutin ang button na ito para i-on ang telepono.",
+          "ur": "فون آن کرنے کے لیے یہ بٹن دبائیں۔",
+          "vi": "Nhấn nút này để bật điện thoại.",
+          "zh": "按这个按钮来开手机。",
+          "zh_Hant": "按這個按鈕來開手機。"
+        },
+        "out_of_scope_words": [
+          "ປຸ່ມ",
+          "ເພື່ອ",
+          "ເປີດ",
+          "ໂທລະສັບ"
+        ]
+      },
+      {
+        "lao_script": "ຢ່າກົດລະຫັດຜ່ານຜິດ",
+        "romanization": "jaː kot la.hat pʰan pʰit",
+        "translations": {
+          "de": "Gib nicht das falsche Passwort ein.",
+          "en": "Don't enter the wrong password.",
+          "es": "No ingreses la contraseña incorrecta.",
+          "fr": "Ne tape pas le mauvais mot de passe.",
+          "hi": "गलत पासवर्ड मत डालो।",
+          "ja": "パスワードを間違えて入力しないで。",
+          "km": "កុំបញ្ចូលពាក្យសម្ងាត់ខុស។",
+          "ko": "비밀번호를 틀리게 누르지 마세요.",
+          "ne": "गलत पासवर्ड नहाल।",
+          "pt": "Não insira a senha errada.",
+          "th": "อย่ากดรหัสผ่านผิด",
+          "tl": "Huwag ilagay ang maling password.",
+          "ur": "غلط پاس ورڈ مت ڈالیں۔",
+          "vi": "Đừng nhập sai mật khẩu.",
+          "zh": "不要输错密码。",
+          "zh_Hant": "不要輸錯密碼。"
+        },
+        "out_of_scope_words": [
+          "ລະຫັດຜ່ານ",
+          "ຜິດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a hand with one finger pressing a large round button, clean white background, bright colors, minimalist cartoon style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຍິນ": {
+    "definitions": {
+      "de": "Hören, vernehmen (einen Klang oder eine Information wahrnehmen); bekannt aus dem Ausdruck ຍິນດີ (willkommen, erfreut)",
+      "en": "To hear, to receive (a sound or information); commonly known from the expression ຍິນດີ (welcome, pleased)",
+      "es": "Escuchar, oír (un sonido o información); conocido en la expresión ຍິນດີ (bienvenido, complacido)",
+      "fr": "Entendre, recevoir (un son ou une information); connu dans l'expression ຍິນດີ (bienvenu, ravi)",
+      "hi": "सुनना, ग्रहण करना (कोई ध्वनि या जानकारी); ຍິນດີ (स्वागत, प्रसन्न) अभिव्यक्ति में प्रसिद्ध",
+      "ja": "聞く、受け取る（音や情報を感知する）；ຍິນດີ（ようこそ、喜んで）という表現でよく知られている",
+      "km": "ឮ, ទទួល (សំឡេង ឬព័ត៌មាន); ល្បីពី ຍິນດີ (សូមស្វាគមន៍, រីករាយ)",
+      "ko": "듣다, 받아들이다 (소리나 정보를 인지하다); ຍິນດີ (환영, 기쁘다) 표현으로 잘 알려져 있음",
+      "ne": "सुन्नु, ग्रहण गर्नु (ध्वनि वा जानकारी); ຍິນດີ (स्वागत, खुशी) अभिव्यक्तिमा प्रसिद्ध",
+      "pt": "Ouvir, receber (um som ou informação); conhecido na expressão ຍິນດີ (bem-vindo, satisfeito)",
+      "th": "ได้ยิน, รับฟัง (เสียงหรือข้อมูล); รู้จักกันดีจากสำนวน ຍິນດີ (ยินดีต้อนรับ, ยินดี)",
+      "tl": "Marinig, tanggapin (isang tunog o impormasyon); kilala sa ekspresyong ຍິນດີ (maligayang pagdating, nagagalak)",
+      "ur": "سننا، موصول کرنا (آواز یا معلومات)؛ ຍິນດີ (خوش آمدید، خوش) اظہار میں مشہور",
+      "vi": "Nghe, tiếp nhận (âm thanh hoặc thông tin); nổi tiếng qua cụm từ ຍິນດີ (chào mừng, vui lòng)",
+      "zh": "听到、接收（声音或信息）；常见于短语 ຍິນດີ（欢迎，高兴）",
+      "zh_Hant": "聽到、接收（聲音或資訊）；常見於短語 ຍິນດີ（歡迎，高興）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ɲin",
+    "examples": [
+      {
+        "lao_script": "ຍິນດີຕ້ອນຮັບມາເຮືອນຂ້ອຍເດີ້",
+        "romanization": "ɲin diː tɔːn hap maː hɯan kʰɔːj dəː",
+        "translations": {
+          "de": "Herzlich willkommen in meinem Zuhause!",
+          "en": "Welcome to my house!",
+          "es": "¡Bienvenido a mi casa!",
+          "fr": "Bienvenue chez moi !",
+          "hi": "मेरे घर में आपका स्वागत है!",
+          "ja": "私の家へようこそ！",
+          "km": "សូមស្វាគមន៍មកផ្ទះខ្ញុំ!",
+          "ko": "우리 집에 오신 걸 환영해요!",
+          "ne": "मेरो घरमा स्वागत छ!",
+          "pt": "Bem-vindo à minha casa!",
+          "th": "ยินดีต้อนรับมาบ้านฉันนะ",
+          "tl": "Maligayang pagdating sa aking bahay!",
+          "ur": "میرے گھر میں خوش آمدید!",
+          "vi": "Chào mừng bạn đến nhà tôi!",
+          "zh": "欢迎来到我家！",
+          "zh_Hant": "歡迎來到我家！"
+        },
+        "out_of_scope_words": [
+          "ຕ້ອນຮັບ",
+          "ເຮືອນ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍຍິນຂ່າວນີ້ຈາກໝູ່",
+        "romanization": "kʰɔːj ɲin kʰaːo niː tɕaːk muː",
+        "translations": {
+          "de": "Ich habe diese Nachricht von einem Freund gehört.",
+          "en": "I heard this news from a friend.",
+          "es": "Escuché esta noticia de un amigo.",
+          "fr": "J'ai entendu cette nouvelle d'un ami.",
+          "hi": "मैंने यह खबर एक दोस्त से सुनी।",
+          "ja": "私はこのニュースを友達から聞きました。",
+          "km": "ខ្ញុំឮព័ត៌មាននេះពីមិត្ត។",
+          "ko": "나는 이 소식을 친구에게서 들었어요.",
+          "ne": "मैले यो खबर साथीबाट सुनें।",
+          "pt": "Eu ouvi essa notícia de um amigo.",
+          "th": "ฉันได้ยินข่าวนี้จากเพื่อน",
+          "tl": "Narinig ko ang balitang ito mula sa isang kaibigan.",
+          "ur": "میں نے یہ خبر ایک دوست سے سنی۔",
+          "vi": "Tôi nghe tin này từ một người bạn.",
+          "zh": "我从朋友那里听说了这个消息。",
+          "zh_Hant": "我從朋友那裡聽說了這個消息。"
+        },
+        "out_of_scope_words": [
+          "ຂ່າວ",
+          "ໝູ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with their hand cupped behind their ear, listening carefully, with small sound wave symbols in the air, clean white background, colorful minimalist cartoon style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຖານ": {
+    "definitions": {
+      "de": "Basis, Fundament, Sockel (die Grundlage oder Unterlage, auf der etwas steht oder aufgebaut ist)",
+      "en": "Base, foundation, pedestal (the ground or underlying support on which something is built or stands)",
+      "es": "Base, fundamento, pedestal (la base o soporte sobre el que algo se construye o se apoya)",
+      "fr": "Base, fondation, socle (le support ou la fondation sur lequel quelque chose est construit ou repose)",
+      "hi": "आधार, नींव, पेडस्टल (वह आधार जिस पर कुछ बना हो या खड़ा हो)",
+      "ja": "基盤、土台、台座（何かが建てられたり立っている基礎や支え）",
+      "km": "មូលដ្ឋាន, គ្រឹះ, ជើង (ជំនួយ ឬគ្រឹះដែលអ្វីមួយសាងសង់ ឬដំណើរការ)",
+      "ko": "기반, 토대, 받침 (무언가가 세워지거나 서 있는 기초나 지지대)",
+      "ne": "आधार, जग, पेडस्टल (त्यो आधार जसमा केही निर्मित वा खडा छ)",
+      "pt": "Base, fundação, pedestal (a base ou suporte sobre o qual algo é construído ou se apoia)",
+      "th": "ฐาน, รากฐาน, แท่น (พื้นฐานหรือสิ่งรองรับที่สิ่งใดสิ่งหนึ่งถูกสร้างหรือตั้งอยู่)",
+      "tl": "Pundasyon, base, pedestal (ang pundasyon o suporta kung saan nakatayo o naitayo ang isang bagay)",
+      "ur": "بنیاد، بیس، پیڈسٹل (وہ بنیاد یا سہارا جس پر کوئی چیز بنی ہو یا کھڑی ہو)",
+      "vi": "Nền tảng, cơ sở, bệ (phần nền hoặc chỗ đỡ mà thứ gì đó được xây dựng hoặc đứng trên đó)",
+      "zh": "基础、底座、台基（某物建立或站立于其上的根基或支撑）",
+      "zh_Hant": "基礎、底座、台基（某物建立或站立於其上的根基或支撐）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tʰaːn",
+    "examples": [
+      {
+        "lao_script": "ຖານຂອງເສົາໂຕນີ້ບໍ່ແຂງແຮງ",
+        "romanization": "tʰaːn kʰɔːŋ sao to niː bɔː kʰɛŋ hɛːŋ",
+        "translations": {
+          "de": "Die Basis dieser Säule ist nicht stark.",
+          "en": "The base of this pillar is not strong.",
+          "es": "La base de esta columna no es sólida.",
+          "fr": "La base de ce pilier n'est pas solide.",
+          "hi": "इस खंभे की नींव मजबूत नहीं है।",
+          "ja": "この柱の基盤は丈夫ではありません。",
+          "km": "មូលដ្ឋានរបស់សសរនេះមិនរឹងមាំទេ។",
+          "ko": "이 기둥의 받침이 튼튼하지 않아요.",
+          "ne": "यो खम्बाको आधार बलियो छैन।",
+          "pt": "A base deste pilar não é sólida.",
+          "th": "ฐานของเสาต้นนี้ไม่แข็งแรง",
+          "tl": "Ang base ng haligi na ito ay hindi matibay.",
+          "ur": "اس ستون کی بنیاد مضبوط نہیں ہے۔",
+          "vi": "Nền tảng của cái cột này không vững chắc.",
+          "zh": "这根柱子的底座不够坚固。",
+          "zh_Hant": "這根柱子的底座不夠堅固。"
+        },
+        "out_of_scope_words": [
+          "ເສົາ",
+          "ແຂງແຮງ"
+        ]
+      },
+      {
+        "lao_script": "ຕ້ອງສ້າງຖານໃຫ້ດີກ່ອນ",
+        "romanization": "tɔːŋ saːŋ tʰaːn haj diː kɔːn",
+        "translations": {
+          "de": "Man muss zuerst eine gute Grundlage schaffen.",
+          "en": "You have to build a good foundation first.",
+          "es": "Primero hay que construir una buena base.",
+          "fr": "Il faut d'abord construire une bonne fondation.",
+          "hi": "पहले एक अच्छी नींव बनानी होगी।",
+          "ja": "まずしっかりした基礎を作らないといけません。",
+          "km": "ត្រូវបង្កើតមូលដ្ឋានល្អជាមុនសិន។",
+          "ko": "먼저 좋은 토대를 만들어야 해요.",
+          "ne": "पहिले राम्रो आधार बनाउनु पर्छ।",
+          "pt": "É preciso construir uma boa base primeiro.",
+          "th": "ต้องสร้างฐานให้ดีก่อน",
+          "tl": "Kailangan munang magtayo ng magandang pundasyon.",
+          "ur": "پہلے ایک اچھی بنیاد بنانی ہوگی۔",
+          "vi": "Phải xây dựng nền tảng tốt trước đã.",
+          "zh": "首先要打好基础。",
+          "zh_Hant": "首先要打好基礎。"
+        },
+        "out_of_scope_words": [
+          "ສ້າງ",
+          "ກ່ອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a stone pedestal or base with a pillar or statue standing on top of it, highlighting the solid foundation beneath, clean white background, colorful minimalist style, suitable for a language learning app.",
+    "register": "formal",
+    "confidence": "high"
+  },
+  "ຫຼຸດ": {
+    "definitions": {
+      "de": "Reduzieren, verringern, senken (eine Menge, einen Preis oder ein Niveau vermindern)",
+      "en": "To reduce, to decrease, to lower (to make an amount, price, or level smaller)",
+      "es": "Reducir, disminuir, bajar (hacer que una cantidad, precio o nivel sea menor)",
+      "fr": "Réduire, diminuer, baisser (rendre une quantité, un prix ou un niveau plus petit)",
+      "hi": "कम करना, घटाना (किसी मात्रा, मूल्य या स्तर को कम करना)",
+      "ja": "減らす、下げる、削減する（量、価格、またはレベルを小さくする）",
+      "km": "កាត់បន្ថយ, ផ្ចិតផ្ចង់, ថយចុះ (ធ្វើឲ្យបរិមាណ, តម្លៃ ឬកម្រិតតូចចុះ)",
+      "ko": "줄이다, 낮추다, 감소시키다 (양, 가격, 수준을 작게 만들다)",
+      "ne": "घटाउनु, कम गर्नु (मात्रा, मूल्य वा स्तर सानो बनाउनु)",
+      "pt": "Reduzir, diminuir, baixar (tornar uma quantidade, preço ou nível menor)",
+      "th": "ลด, ลดลง (ทำให้จำนวน ราคา หรือระดับน้อยลง)",
+      "tl": "Bawasan, paliitin, ibaba (gawing mas maliit ang isang halaga, presyo, o antas)",
+      "ur": "کم کرنا، گھٹانا (مقدار، قیمت یا سطح کو کم کرنا)",
+      "vi": "Giảm, hạ thấp (làm cho lượng, giá cả hoặc mức độ nhỏ hơn)",
+      "zh": "减少、降低（使数量、价格或水平变小）",
+      "zh_Hant": "減少、降低（使數量、價格或水平變小）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "lut",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານນີ້ຫຼຸດລາຄາໃຫ້ຂ້ອຍໄດ້ບໍ",
+        "romanization": "haːn niː lut laː.kʰaː haj kʰɔːj daːj bɔː",
+        "translations": {
+          "de": "Kann dieses Geschäft den Preis für mich senken?",
+          "en": "Can this shop reduce the price for me?",
+          "es": "¿Puede esta tienda bajarme el precio?",
+          "fr": "Ce magasin peut-il me baisser le prix ?",
+          "hi": "क्या यह दुकान मेरे लिए कीमत कम कर सकती है?",
+          "ja": "このお店は私のために値段を下げてくれますか？",
+          "km": "តើហាងនេះអាចបញ្ចុះតម្លៃឲ្យខ្ញុំបានទេ?",
+          "ko": "이 가게에서 나한테 가격을 낮춰줄 수 있어요?",
+          "ne": "के यो पसलले मलाई मूल्य कम गर्न सक्छ?",
+          "pt": "Esta loja pode me reduzir o preço?",
+          "th": "ร้านนี้ลดราคาให้ฉันได้ไหม",
+          "tl": "Maaari bang bawasan ng tindahang ito ang presyo para sa akin?",
+          "ur": "کیا یہ دکان میرے لیے قیمت کم کر سکتی ہے؟",
+          "vi": "Cửa hàng này có thể giảm giá cho tôi không?",
+          "zh": "这家店能给我便宜一点吗？",
+          "zh_Hant": "這家店能給我便宜一點嗎？"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ",
+          "ລາຄາ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກຫຼຸດນ້ຳຫນັກຕ້ອງອອກກຳລັງກາຍ",
+        "romanization": "jaːk lut nam nak tɔːŋ ɔːk kam.laŋ kaːj",
+        "translations": {
+          "de": "Um Gewicht zu verlieren, muss man Sport treiben.",
+          "en": "To lose weight, you have to exercise.",
+          "es": "Para bajar de peso, hay que hacer ejercicio.",
+          "fr": "Pour perdre du poids, il faut faire de l'exercice.",
+          "hi": "वजन कम करने के लिए व्यायाम करना पड़ेगा।",
+          "ja": "体重を減らすには運動しないといけません。",
+          "km": "ដើម្បីសម្រកទម្ងន់ ត្រូវហាត់ប្រាណ។",
+          "ko": "살을 빼려면 운동을 해야 해요.",
+          "ne": "तौल घटाउन व्यायाम गर्नु पर्छ।",
+          "pt": "Para perder peso, é preciso fazer exercício.",
+          "th": "อยากลดน้ำหนักต้องออกกำลังกาย",
+          "tl": "Para mabawasan ang timbang, kailangan mag-ehersisyo.",
+          "ur": "وزن کم کرنے کے لیے ورزش کرنی پڑے گی۔",
+          "vi": "Muốn giảm cân thì phải tập thể dục.",
+          "zh": "想减重就必须运动。",
+          "zh_Hant": "想減重就必須運動。"
+        },
+        "out_of_scope_words": [
+          "ນ້ຳຫນັກ",
+          "ອອກກຳລັງກາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a price tag with a downward arrow showing a discount, or a scale with the needle moving to a lower number, clean white background, bright colors, minimalist cartoon style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

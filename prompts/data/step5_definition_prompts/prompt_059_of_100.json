@@ -1,0 +1,423 @@
+{
+  "ໄມ້": {
+    "definitions": {
+      "de": "Holz; Stock; ein natürliches Material aus Bäumen, das zum Bauen und als Brennstoff verwendet wird",
+      "en": "Wood; stick; a natural material from trees used for building, fuel, or as a tool",
+      "es": "Madera; palo; material natural proveniente de los árboles, usado para construir o como combustible",
+      "fr": "Bois; bâton; matériau naturel issu des arbres, utilisé pour la construction ou comme combustible",
+      "hi": "लकड़ी; छड़ी; पेड़ों से प्राप्त प्राकृतिक सामग्री जो निर्माण या ईंधन के लिए उपयोग की जाती है",
+      "ja": "木材；棒；建築や燃料として使われる木から得られる自然素材",
+      "km": "ឈើ; ដំបង; សម្ភារធម្មជាតិដែលបានមកពីដើមឈើ ប្រើសម្រាប់សាងសង់ ឬជាឥន្ធនៈ",
+      "ko": "나무; 막대기; 건축이나 연료로 사용되는 나무에서 얻은 천연 재료",
+      "ne": "काठ; लाठी; रूखबाट प्राप्त प्राकृतिक सामग्री जुन निर्माण वा इन्धनको रूपमा प्रयोग हुन्छ",
+      "pt": "Madeira; pau; material natural proveniente das árvores, usado para construção ou como combustível",
+      "th": "ไม้; ไม้กระบอง; วัสดุธรรมชาติจากต้นไม้ที่ใช้สำหรับการก่อสร้างหรือเป็นเชื้อเพลิง",
+      "tl": "Kahoy; patpat; natural na materyales mula sa mga puno na ginagamit sa pagtatayo o bilang panggatong",
+      "ur": "لکڑی؛ چھڑی؛ درختوں سے حاصل شدہ قدرتی مواد جو تعمیر یا ایندھن کے طور پر استعمال ہوتا ہے",
+      "vi": "Gỗ; gậy; vật liệu tự nhiên từ cây dùng để xây dựng hoặc làm nhiên liệu",
+      "zh": "木头；棍子；来自树木的天然材料，用于建筑或燃料",
+      "zh_Hant": "木頭；棍子；來自樹木的天然材料，用於建築或燃料"
+    },
+    "part_of_speech": "noun",
+    "romanization": "maːj⁵",
+    "examples": [
+      {
+        "lao_script": "ເຮືອນຫຼັງນີ້ເຮັດດ້ວຍໄມ້ທັງໝົດ",
+        "romanization": "hɯan laŋ niː het duaj maːj tʰaŋ mot",
+        "translations": {
+          "de": "Dieses Haus ist komplett aus Holz gebaut.",
+          "en": "This house is made entirely of wood.",
+          "es": "Esta casa está hecha completamente de madera.",
+          "fr": "Cette maison est entièrement construite en bois.",
+          "hi": "यह घर पूरी तरह लकड़ी से बना है।",
+          "ja": "この家は全部木でできています。",
+          "km": "ផ្ទះនេះសាងសង់ដោយឈើទាំងមូល។",
+          "ko": "이 집은 전부 나무로 만들어졌어요.",
+          "ne": "यो घर पूरै काठले बनेको छ।",
+          "pt": "Esta casa é feita inteiramente de madeira.",
+          "th": "บ้านหลังนี้สร้างด้วยไม้ทั้งหมด",
+          "tl": "Ang bahay na ito ay gawa sa kahoy lahat.",
+          "ur": "یہ گھر پوری طرح لکڑی سے بنا ہے۔",
+          "vi": "Ngôi nhà này được làm hoàn toàn bằng gỗ.",
+          "zh": "这栋房子完全是用木头建造的。",
+          "zh_Hant": "這棟房子完全是用木頭建造的。"
+        },
+        "out_of_scope_words": [
+          "ເຮືອນ",
+          "ຫຼັງ",
+          "ເຮັດດ້ວຍ",
+          "ທັງໝົດ"
+        ]
+      },
+      {
+        "lao_script": "ເອົາໄມ້ອັນນັ້ນມາໃຫ້ຂ້ອຍແດ່",
+        "romanization": "ʔaw maːj ʔan nan maː haj xɔːj dɛː",
+        "translations": {
+          "de": "Gib mir bitte diesen Stock da.",
+          "en": "Pass me that stick over there.",
+          "es": "Pásame ese palo de allí.",
+          "fr": "Passe-moi ce bâton là-bas.",
+          "hi": "वह छड़ी मुझे दे दो।",
+          "ja": "あそこにある棒を取ってくれない？",
+          "km": "យកដំបងនោះមកឲ្យខ្ញុំផង។",
+          "ko": "저기 있는 막대기 나한테 줘봐.",
+          "ne": "त्यो लाठी मलाई दिनोस् न।",
+          "pt": "Me passa aquele pau ali.",
+          "th": "เอาไม้อันนั้นมาให้ฉันหน่อย",
+          "tl": "Ibigay mo sa akin ang patpat na iyon.",
+          "ur": "وہ لکڑی مجھے دے دو۔",
+          "vi": "Đưa cho tôi cái gậy đó đi.",
+          "zh": "把那根棍子递给我。",
+          "zh_Hant": "把那根棍子遞給我。"
+        },
+        "out_of_scope_words": [
+          "ເອົາ",
+          "ອັນນັ້ນ",
+          "ມາໃຫ້",
+          "ຂ້ອຍ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a wooden plank and a wooden stick side by side, suitable for a language learning app, clean white background, warm brown colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ພາສາອັງກິດ": {
+    "definitions": {
+      "de": "Die englische Sprache; die Sprache, die in Großbritannien, den USA und vielen anderen Ländern gesprochen wird",
+      "en": "The English language; the language spoken in the UK, USA, and many other countries around the world",
+      "es": "El idioma inglés; la lengua hablada en el Reino Unido, Estados Unidos y muchos otros países",
+      "fr": "La langue anglaise; la langue parlée au Royaume-Uni, aux États-Unis et dans de nombreux autres pays",
+      "hi": "अंग्रेजी भाषा; यूके, अमेरिका और दुनिया के कई अन्य देशों में बोली जाने वाली भाषा",
+      "ja": "英語；イギリス、アメリカ、その他多くの国々で話される言語",
+      "km": "ភាសាអង់គ្លេស; ភាសាដែលប្រើនៅចក្រភពអង់គ្លេស សហរដ្ឋអាមេរិក និងប្រទេសជាច្រើនទៀត",
+      "ko": "영어; 영국, 미국 및 전 세계 여러 나라에서 사용되는 언어",
+      "ne": "अङ्ग्रेजी भाषा; बेलायत, अमेरिका र विश्वका धेरै देशमा बोलिने भाषा",
+      "pt": "A língua inglesa; o idioma falado no Reino Unido, nos EUA e em muitos outros países do mundo",
+      "th": "ภาษาอังกฤษ; ภาษาที่พูดในสหราชอาณาจักร สหรัฐอเมริกา และหลายประเทศทั่วโลก",
+      "tl": "Wikang Ingles; ang wikang sinasalita sa UK, USA, at maraming ibang bansa sa buong mundo",
+      "ur": "انگریزی زبان؛ وہ زبان جو برطانیہ، امریکہ اور دنیا کے بہت سے دوسرے ممالک میں بولی جاتی ہے",
+      "vi": "Tiếng Anh; ngôn ngữ được nói ở Anh, Mỹ và nhiều quốc gia khác trên thế giới",
+      "zh": "英语；在英国、美国及世界许多其他国家使用的语言",
+      "zh_Hant": "英語；在英國、美國及世界許多其他國家使用的語言"
+    },
+    "part_of_speech": "noun",
+    "romanization": "pʰaːsaː ʔaŋkit",
+    "examples": [
+      {
+        "lao_script": "ລາວເວົ້າພາສາອັງກິດເກັ່ງຫຼາຍ",
+        "romanization": "laːw waw pʰaːsaː ʔaŋkit keŋ laːj",
+        "translations": {
+          "de": "Er/Sie spricht sehr gut Englisch.",
+          "en": "He/She speaks English really well.",
+          "es": "Él/Ella habla inglés muy bien.",
+          "fr": "Il/Elle parle très bien anglais.",
+          "hi": "वह बहुत अच्छी अंग्रेजी बोलता/बोलती है।",
+          "ja": "彼/彼女はとても上手に英語を話します。",
+          "km": "គាត់និយាយភាសាអង់គ្លេសពូកែណាស់។",
+          "ko": "그/그녀는 영어를 정말 잘해요.",
+          "ne": "उसले अङ्ग्रेजी धेरै राम्रोसँग बोल्छ।",
+          "pt": "Ele/Ela fala inglês muito bem.",
+          "th": "เขา/เธอพูดภาษาอังกฤษเก่งมาก",
+          "tl": "Napakahusay niyang magsalita ng Ingles.",
+          "ur": "وہ انگریزی بہت اچھی بولتا/بولتی ہے۔",
+          "vi": "Anh/cô ấy nói tiếng Anh rất giỏi.",
+          "zh": "他/她英语说得非常好。",
+          "zh_Hant": "他/她英語說得非常好。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ເວົ້າ",
+          "ເກັ່ງ",
+          "ຫຼາຍ"
+        ]
+      },
+      {
+        "lao_script": "ຢາກຮຽນພາສາອັງກິດແມ່ນຕ້ອງຝຶກທຸກວັນ",
+        "romanization": "jaːk hian pʰaːsaː ʔaŋkit mɛːn tɔŋ fɯk tʰuk wan",
+        "translations": {
+          "de": "Wenn du Englisch lernen willst, musst du jeden Tag üben.",
+          "en": "If you want to learn English, you have to practice every day.",
+          "es": "Si quieres aprender inglés, tienes que practicar todos los días.",
+          "fr": "Si tu veux apprendre l'anglais, tu dois pratiquer tous les jours.",
+          "hi": "अगर आप अंग्रेजी सीखना चाहते हैं, तो हर दिन अभ्यास करना होगा।",
+          "ja": "英語を学びたいなら、毎日練習しなければなりません。",
+          "km": "ប្រសិនបើចង់រៀនភាសាអង់គ្លេស ត្រូវហាត់ប្រាណរៀងរាល់ថ្ងៃ។",
+          "ko": "영어를 배우고 싶으면 매일 연습해야 해요.",
+          "ne": "अङ्ग्रेजी सिक्न चाहनुहुन्छ भने हर दिन अभ्यास गर्नुपर्छ।",
+          "pt": "Se você quer aprender inglês, precisa praticar todos os dias.",
+          "th": "ถ้าอยากเรียนภาษาอังกฤษต้องฝึกทุกวัน",
+          "tl": "Kung gusto mong matuto ng Ingles, kailangan mag-practise araw-araw.",
+          "ur": "اگر انگریزی سیکھنا چاہتے ہو تو روز روز مشق کرنی پڑے گی۔",
+          "vi": "Nếu muốn học tiếng Anh thì phải luyện tập mỗi ngày.",
+          "zh": "想学英语就必须每天练习。",
+          "zh_Hant": "想學英語就必須每天練習。"
+        },
+        "out_of_scope_words": [
+          "ຢາກ",
+          "ຮຽນ",
+          "ແມ່ນ",
+          "ຕ້ອງ",
+          "ຝຶກ",
+          "ທຸກວັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the British and American flags side by side next to an open book labeled 'English', suitable for a language learning app, clean white background, colorful minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມາດ": {
+    "definitions": {
+      "de": "Standard; Maßstab; Norm — oft als Präfix in zusammengesetzten Wörtern verwendet, um auf eine offizielle oder festgelegte Norm hinzuweisen",
+      "en": "Standard; norm; measure — often used as a prefix in compound words to indicate an official or established standard",
+      "es": "Estándar; norma; medida — frecuentemente usado como prefijo en palabras compuestas para indicar una norma oficial o establecida",
+      "fr": "Standard; norme; mesure — souvent utilisé comme préfixe dans les mots composés pour indiquer une norme officielle ou établie",
+      "hi": "मानक; नियम; माप — अक्सर यौगिक शब्दों में उपसर्ग के रूप में उपयोग किया जाता है, जो एक आधिकारिक या स्थापित मानक को दर्शाता है",
+      "ja": "標準；基準；尺度 — 複合語の接頭辞として使われ、公式または定められた基準を示すことが多い",
+      "km": "ស្តង់ដារ; បទដ្ឋាន; មាត្រដ្ឋាន — ជាញឹកញាប់ប្រើជាបុព្វបទក្នុងពាក្យផ្សំ ដើម្បីបង្ហាញពីស្តង់ដាររបស់ការិយាល័យ ឬដែលបានកំណត់",
+      "ko": "기준; 표준; 척도 — 복합어에서 접두사로 자주 사용되며, 공식적이거나 확립된 기준을 나타냄",
+      "ne": "मानक; नियम; मापदण्ड — प्रायः यौगिक शब्दहरूमा उपसर्गको रूपमा प्रयोग हुन्छ, जसले आधिकारिक वा स्थापित मानक जनाउँछ",
+      "pt": "Padrão; norma; medida — frequentemente usado como prefixo em palavras compostas para indicar uma norma oficial ou estabelecida",
+      "th": "มาตรฐาน; บรรทัดฐาน; หน่วยวัด — มักใช้เป็นคำอุปสรรคในคำประสมเพื่อบ่งชี้มาตรฐานที่เป็นทางการหรือที่กำหนดไว้",
+      "tl": "Pamantayan; sukatan; norma — madalas gamitin bilang unlapi sa mga tambalan na salita upang ipahiwatig ang isang opisyal o naitatag na pamantayan",
+      "ur": "معیار؛ پیمانہ؛ اصول — اکثر مرکب الفاظ میں سابقے کے طور پر استعمال ہوتا ہے تاکہ کسی سرکاری یا مقررہ معیار کی نشاندہی کی جا سکے",
+      "vi": "Tiêu chuẩn; chuẩn mực; đơn vị đo — thường được dùng như tiền tố trong các từ ghép để chỉ một tiêu chuẩn chính thức hoặc đã được thiết lập",
+      "zh": "标准；规范；尺度 — 常作为复合词的前缀，表示官方或既定的标准",
+      "zh_Hant": "標準；規範；尺度 — 常作為複合詞的前綴，表示官方或既定的標準"
+    },
+    "part_of_speech": "noun",
+    "romanization": "maːt³",
+    "examples": [
+      {
+        "lao_script": "ສິ່ງນີ້ບໍ່ຖືກມາດຕະຖານ",
+        "romanization": "siŋ niː bɔː tʰɯːk maːt ta tʰaːn",
+        "translations": {
+          "de": "Diese Sache entspricht nicht dem Standard.",
+          "en": "This thing doesn't meet the standard.",
+          "es": "Esta cosa no cumple con el estándar.",
+          "fr": "Cette chose ne correspond pas au standard.",
+          "hi": "यह चीज़ मानक पर खरी नहीं उतरती।",
+          "ja": "これは基準を満たしていません。",
+          "km": "រឿងនេះមិនត្រូវតាមស្តង់ដារទេ។",
+          "ko": "이건 기준에 맞지 않아요.",
+          "ne": "यो कुरा मानकमा खरो उत्रँदैन।",
+          "pt": "Isso não está dentro do padrão.",
+          "th": "สิ่งนี้ไม่ได้มาตรฐาน",
+          "tl": "Ang bagay na ito ay hindi nakakatugon sa pamantayan.",
+          "ur": "یہ چیز معیار پر پوری نہیں اترتی۔",
+          "vi": "Cái này không đạt tiêu chuẩn.",
+          "zh": "这个东西不符合标准。",
+          "zh_Hant": "這個東西不符合標準。"
+        },
+        "out_of_scope_words": [
+          "ສິ່ງນີ້",
+          "ບໍ່",
+          "ຖືກ",
+          "ມາດຕະຖານ"
+        ]
+      },
+      {
+        "lao_script": "ລາວເຮັດວຽກໄດ້ຕາມມາດ",
+        "romanization": "laːw het wiak daːj taːm maːt",
+        "translations": {
+          "de": "Er/Sie arbeitet gemäß dem Standard.",
+          "en": "He/She works up to the standard.",
+          "es": "Él/Ella trabaja según el estándar.",
+          "fr": "Il/Elle travaille conformément au standard.",
+          "hi": "वह मानक के अनुसार काम करता/करती है।",
+          "ja": "彼/彼女は基準通りに仕事をします。",
+          "km": "គាត់ធ្វើការតាមស្តង់ដារ។",
+          "ko": "그/그녀는 기준에 맞게 일해요.",
+          "ne": "उसले मानक अनुसार काम गर्छ।",
+          "pt": "Ele/Ela trabalha conforme o padrão.",
+          "th": "เขา/เธอทำงานได้ตามมาตรฐาน",
+          "tl": "Siya ay nagtatrabaho ayon sa pamantayan.",
+          "ur": "وہ معیار کے مطابق کام کرتا/کرتی ہے۔",
+          "vi": "Anh/cô ấy làm việc đúng tiêu chuẩn.",
+          "zh": "他/她按照标准工作。",
+          "zh_Hant": "他/她按照標準工作。"
+        },
+        "out_of_scope_words": [
+          "ລາວ",
+          "ເຮັດວຽກ",
+          "ໄດ້",
+          "ຕາມ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a ruler or measuring tape next to a checklist with checkmarks, symbolizing standards and measurement, suitable for a language learning app, clean white background, minimalist colorful design.",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ຣົບ": {
+    "definitions": {
+      "de": "Krieg; militärischer Konflikt zwischen zwei oder mehr Seiten — formelles, aus dem Pali entlehntes Wort",
+      "en": "War; armed conflict between two or more parties — formal word of Pali origin used in official and literary contexts",
+      "es": "Guerra; conflicto armado entre dos o más partes — palabra formal de origen pali usada en contextos oficiales y literarios",
+      "fr": "Guerre; conflit armé entre deux ou plusieurs parties — mot formel d'origine palie utilisé dans des contextes officiels et littéraires",
+      "hi": "युद्ध; दो या अधिक पक्षों के बीच सशस्त्र संघर्ष — पाली मूल का औपचारिक शब्द, आधिकारिक और साहित्यिक संदर्भों में प्रयुक्त",
+      "ja": "戦争；二つ以上の勢力間の武力衝突 — パーリ語起源の公式・文学的文脈で使われる格式語",
+      "km": "សង្គ្រាម; ជម្លោះប្រដាប់អាវុធរវាងភាគីពីរ ឬច្រើន — ពាក្យផ្លូវការដែលមានដើមកំណើតពីភាសាបាលី ប្រើក្នុងបរិបទផ្លូវការ និងអក្សរសាស្ត្រ",
+      "ko": "전쟁; 두 개 이상의 집단 간의 무력 충돌 — 팔리어 유래의 공식적인 단어로 공식 및 문학적 맥락에서 사용됨",
+      "ne": "युद्ध; दुई वा बढी पक्षहरू बीचको सशस्त्र द्वन्द्व — पालि मूलको औपचारिक शब्द, आधिकारिक र साहित्यिक सन्दर्भमा प्रयुक्त",
+      "pt": "Guerra; conflito armado entre duas ou mais partes — palavra formal de origem páli usada em contextos oficiais e literários",
+      "th": "สงคราม; ความขัดแย้งทางอาวุธระหว่างสองฝ่ายขึ้นไป — คำทางการที่มีต้นกำเนิดจากภาษาบาลี ใช้ในบริบททางการและวรรณคดี",
+      "tl": "Digmaan; armadong salungatan sa pagitan ng dalawa o higit pang panig — pormal na salita mula sa wikang Pali, ginagamit sa opisyal at pampanitikang konteksto",
+      "ur": "جنگ؛ دو یا زیادہ فریقوں کے درمیان مسلح تصادم — پالی نژاد کا رسمی لفظ جو سرکاری اور ادبی سیاق میں استعمال ہوتا ہے",
+      "vi": "Chiến tranh; xung đột vũ trang giữa hai hoặc nhiều bên — từ trang trọng có nguồn gốc Pali, dùng trong văn phong chính thức và văn học",
+      "zh": "战争；两个或多个势力之间的武装冲突 — 源自巴利语的正式用词，用于官方和文学语境",
+      "zh_Hant": "戰爭；兩個或多個勢力之間的武裝衝突 — 源自巴利語的正式用詞，用於官方和文學語境"
+    },
+    "part_of_speech": "noun",
+    "romanization": "rop³",
+    "examples": [
+      {
+        "lao_script": "ຣົບຊ້ຳໆບໍ່ໄດ້ເຮັດໃຫ້ໃຜດີຂຶ້ນ",
+        "romanization": "rop saːm saːm bɔː daːj het haj pʰaj diː kʰɯn",
+        "translations": {
+          "de": "Wiederholter Krieg macht niemanden besser.",
+          "en": "Repeated war doesn't make anyone better off.",
+          "es": "La guerra repetida no mejora a nadie.",
+          "fr": "Les guerres répétées ne profitent à personne.",
+          "hi": "बार-बार युद्ध किसी का भला नहीं करता।",
+          "ja": "繰り返す戦争は誰の得にもなりません。",
+          "km": "សង្គ្រាមដែលកើតឡើងដដែលៗ មិនធ្វើឱ្យអ្នកណាម្នាក់ប្រសើរឡើងទេ។",
+          "ko": "반복되는 전쟁은 누구에게도 도움이 되지 않아요.",
+          "ne": "बारम्बार युद्धले कसैको पनि भलो गर्दैन।",
+          "pt": "Uma guerra repetida não faz bem a ninguém.",
+          "th": "การทำสงครามซ้ำแล้วซ้ำเล่าไม่ได้ทำให้ใครดีขึ้น",
+          "tl": "Ang paulit-ulit na digmaan ay hindi nagpapabuti sa sinuman.",
+          "ur": "بار بار جنگ کسی کو بھی فائدہ نہیں پہنچاتی۔",
+          "vi": "Chiến tranh lặp đi lặp lại không làm cho ai tốt hơn cả.",
+          "zh": "反复的战争对谁都没有好处。",
+          "zh_Hant": "反覆的戰爭對誰都沒有好處。"
+        },
+        "out_of_scope_words": [
+          "ຊ້ຳໆ",
+          "ບໍ່ໄດ້",
+          "ເຮັດໃຫ້",
+          "ໃຜ",
+          "ດີຂຶ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ຫຼາຍປະເທດຮ່ວມກັນຢຸດ ຣົບ",
+        "romanization": "laːj pa tʰet huam kan ɲut rop",
+        "translations": {
+          "de": "Viele Länder haben sich gemeinsam zusammengetan, um den Krieg zu beenden.",
+          "en": "Many countries joined together to stop the war.",
+          "es": "Muchos países se unieron para detener la guerra.",
+          "fr": "De nombreux pays se sont unis pour mettre fin à la guerre.",
+          "hi": "कई देशों ने मिलकर युद्ध रोकने का प्रयास किया।",
+          "ja": "多くの国々が共に戦争を止めるために集まりました。",
+          "km": "ប្រទេសជាច្រើនបានចូលរួមគ្នាដើម្បីបញ្ឈប់សង្គ្រាម។",
+          "ko": "많은 나라들이 함께 전쟁을 멈추기 위해 힘을 모았어요.",
+          "ne": "धेरै देशहरू मिलेर युद्ध रोक्न एकत्रित भए।",
+          "pt": "Muitos países se uniram para parar a guerra.",
+          "th": "หลายประเทศร่วมกันหยุดสงคราม",
+          "tl": "Maraming bansa ang nagsama-sama para itigil ang digmaan.",
+          "ur": "بہت سے ممالک نے مل کر جنگ روکنے کی کوشش کی۔",
+          "vi": "Nhiều quốc gia đã cùng nhau hợp sức để chấm dứt chiến tranh.",
+          "zh": "许多国家联合起来共同制止战争。",
+          "zh_Hant": "許多國家聯合起來共同制止戰爭。"
+        },
+        "out_of_scope_words": [
+          "ຫຼາຍ",
+          "ປະເທດ",
+          "ຮ່ວມກັນ",
+          "ຢຸດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two opposing armies facing each other on a battlefield, shown in a symbolic non-graphic way with flags and shields, suitable for a language learning app, clean white background, muted colors, minimalist style.",
+    "register": "formal",
+    "confidence": "medium"
+  },
+  "ຍອດ": {
+    "definitions": {
+      "de": "Spitze; Gipfel; ausgezeichnet — bezeichnet sowohl den höchsten Punkt eines Berges als auch etwas Herausragendes oder Erstklassiges",
+      "en": "Peak; top; tip; excellent — refers to the highest point of something (like a mountain) or something outstanding and top-quality",
+      "es": "Cima; cúspide; excelente — se refiere al punto más alto de algo (como una montaña) o algo sobresaliente y de primera calidad",
+      "fr": "Sommet; pointe; excellent — désigne le point le plus haut de quelque chose (comme une montagne) ou quelque chose d'exceptionnel et de premier ordre",
+      "hi": "चोटी; शीर्ष; उत्कृष्ट — किसी चीज़ का सर्वोच्च बिंदु (जैसे पहाड़) या कुछ असाधारण और उच्च गुणवत्ता वाला",
+      "ja": "頂点；先端；最高 — 山の頂上など何かの最も高い部分、または優れた・最高レベルのものを指す",
+      "km": "ចំណុចខ្ពស់បំផុត; កំពូល; ល្អឥតខ្ចោះ — សំដៅទៅលើចំណុចខ្ពស់បំផុតនៃអ្វីមួយ (ដូចជាភ្នំ) ឬអ្វីដែលលេចធ្លោ និងល្អបំផុត",
+      "ko": "꼭대기; 정상; 최고 — 산 정상처럼 무언가의 가장 높은 지점, 또는 뛰어나고 최고 수준인 것을 가리킴",
+      "ne": "चुचुरो; शिखर; उत्कृष्ट — कुनै चीजको सबैभन्दा उच्च बिन्दु (जस्तै पहाड) वा केहि असाधारण र उच्चस्तरीय",
+      "pt": "Pico; cume; topo; excelente — refere-se ao ponto mais alto de algo (como uma montanha) ou algo de destaque e de primeira qualidade",
+      "th": "ยอด; จุดสูงสุด; ดีเยี่ยม — หมายถึงจุดสูงสุดของสิ่งใดสิ่งหนึ่ง (เช่น ยอดเขา) หรือสิ่งที่โดดเด่นและมีคุณภาพสูงสุด",
+      "tl": "Tuktok; dulo; kahusayan — tumutukoy sa pinakamataas na punto ng isang bagay (tulad ng bundok) o sa isang bagay na natatangi at pinakamataas na kalidad",
+      "ur": "چوٹی؛ سب سے اوپر؛ بہترین — کسی چیز کے اعلیٰ ترین مقام (جیسے پہاڑ کی چوٹی) یا کسی بہترین اور اعلیٰ معیار کی چیز کو ظاہر کرتا ہے",
+      "vi": "Đỉnh; ngọn; xuất sắc — chỉ điểm cao nhất của thứ gì đó (như đỉnh núi) hoặc thứ gì đó nổi bật và chất lượng hàng đầu",
+      "zh": "顶；尖端；极好 — 指某物的最高点（如山顶），或形容出色、顶级的事物",
+      "zh_Hant": "頂；尖端；極好 — 指某物的最高點（如山頂），或形容出色、頂級的事物"
+    },
+    "part_of_speech": "noun",
+    "romanization": "ɲɔːt⁵",
+    "examples": [
+      {
+        "lao_script": "ອາຫານຮ້ານນີ້ຍອດຫຼາຍ, ແຊບທີ່ສຸດ",
+        "romanization": "ʔaːhaːn haːn niː ɲɔːt laːj, sɛːp tʰiː sut",
+        "translations": {
+          "de": "Das Essen in diesem Restaurant ist super lecker, das Allerbeste!",
+          "en": "The food at this place is amazing, the most delicious!",
+          "es": "La comida de este lugar es increíble, ¡la más deliciosa!",
+          "fr": "La nourriture dans ce restaurant est super, la plus délicieuse !",
+          "hi": "इस जगह का खाना बहुत बढ़िया है, सबसे स्वादिष्ट!",
+          "ja": "このお店の料理は最高で、一番美味しいです！",
+          "km": "អាហារនៅហាងនេះល្អណាស់ ឆ្ងាញ់ជាងគេ!",
+          "ko": "이 식당 음식은 진짜 최고야, 제일 맛있어!",
+          "ne": "यो ठाउँको खाना धेरै उत्कृष्ट छ, सबैभन्दा मिठो!",
+          "pt": "A comida deste lugar é incrível, a mais gostosa!",
+          "th": "อาหารร้านนี้ยอดเยี่ยมมาก อร่อยที่สุดเลย!",
+          "tl": "Ang pagkain sa lugar na ito ay kahanga-hanga, ang pinakamasarap!",
+          "ur": "اس جگہ کا کھانا بہت زبردست ہے، سب سے لذیذ!",
+          "vi": "Đồ ăn ở đây tuyệt vời lắm, ngon nhất luôn!",
+          "zh": "这家餐厅的食物超级棒，最好吃了！",
+          "zh_Hant": "這家餐廳的食物超級棒，最好吃了！"
+        },
+        "out_of_scope_words": [
+          "ອາຫານ",
+          "ຮ້ານ",
+          "ຫຼາຍ",
+          "ແຊບ",
+          "ທີ່ສຸດ"
+        ]
+      },
+      {
+        "lao_script": "ເພິ່ນຂຶ້ນເຖິງຍອດພູແລ້ວ",
+        "romanization": "pʰɤn kʰɯn tʰɯŋ ɲɔːt pʰuː lɛːw",
+        "translations": {
+          "de": "Er/Sie hat bereits den Berggipfel erreicht.",
+          "en": "He/She has already reached the mountain peak.",
+          "es": "Él/Ella ya ha llegado a la cima de la montaña.",
+          "fr": "Il/Elle a déjà atteint le sommet de la montagne.",
+          "hi": "वह पहाड़ की चोटी पर पहुँच गया/गई है।",
+          "ja": "彼/彼女はもう山頂に着きました。",
+          "km": "គាត់បានឡើងដល់កំពូលភ្នំហើយ។",
+          "ko": "그/그녀는 이미 산 정상에 올랐어요.",
+          "ne": "उसले पहाडको चुचुरो पुगिसकेको छ।",
+          "pt": "Ele/Ela já chegou ao cume da montanha.",
+          "th": "เขา/เธอขึ้นถึงยอดเขาแล้ว",
+          "tl": "Nakarating na siya sa tuktok ng bundok.",
+          "ur": "وہ پہاڑ کی چوٹی تک پہنچ گیا/گئی ہے۔",
+          "vi": "Anh/cô ấy đã leo đến đỉnh núi rồi.",
+          "zh": "他/她已经登上了山顶。",
+          "zh_Hant": "他/她已經登上了山頂。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ຂຶ້ນ",
+          "ເຖິງ",
+          "ພູ",
+          "ແລ້ວ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a mountain with a bright star or gold trophy at the very top peak, symbolizing excellence and achievement, suitable for a language learning app, clean white background, vibrant colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

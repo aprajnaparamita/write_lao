@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຊື່",
+  "definitions": {
+    "de": "Name",
+    "en": "name",
+    "es": "nombre",
+    "fr": "nom, prénom",
+    "hi": "नाम",
+    "ja": "名前",
+    "km": "ឈ្មោះ",
+    "ko": "이름",
+    "ne": "नाम",
+    "pt": "nome",
+    "th": "ชื่อ",
+    "tl": "pangalan",
+    "ur": "نام",
+    "vi": "tên",
+    "zh": "名字",
+    "zh_Hant": "名字"
+  },
+  "definition_en": "name",
+  "romanization": "sɯ̄ː",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຊື່ຫຍັງ?",
+      "romanization": "t͡ɕâw sɯ̄ː ɲǎŋ",
+      "translation_en": "What's your name?"
+    },
+    {
+      "lao_script": "ຊື່ຂອງຂ້ອຍແມ່ນນ້ອຍ.",
+      "romanization": "sɯ̄ː kʰɔ̌ːŋ kʰɔ̏ːj mɛ̄ːn nɔ̂ːj",
+      "translation_en": "My name is Noi."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person wearing a name tag with a blank label, smiling and pointing to it, suitable for a language learning app, clean white background, colorful, minimalist style"
+}

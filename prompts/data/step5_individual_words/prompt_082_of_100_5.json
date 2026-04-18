@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເບື້ອງ",
+  "definitions": {
+    "de": "Seite; Richtung; die Seite oder der Bereich in Bezug auf eine bestimmte Richtung",
+    "en": "Side; direction; a particular side or area in relation to a direction or reference point",
+    "es": "Lado; dirección; un lado o área particular en relación a una dirección o punto de referencia",
+    "fr": "Côté; direction; un côté ou une zone particulière par rapport à une direction ou un point de référence",
+    "hi": "तरफ; दिशा; किसी दिशा या संदर्भ बिंदु के संबंध में एक विशेष पक्ष या क्षेत्र",
+    "ja": "側；方向；ある方向や基準点に対する特定の側面や領域",
+    "km": "ខាង; ទិសដៅ; ផ្នែកឬតំបន់ជាក់លាក់ទាក់ទងនឹងទិសដៅ ឬចំណុចយោង",
+    "ko": "쪽; 방향; 특정 방향이나 기준점에 대한 특정 면이나 구역",
+    "ne": "तर्फ; दिशा; कुनै दिशा वा सन्दर्भ बिन्दुको सम्बन्धमा एक विशेष पक्ष वा क्षेत्र",
+    "pt": "Lado; direção; um lado ou área particular em relação a uma direção ou ponto de referência",
+    "th": "ด้าน; ทิศทาง; ด้านหรือพื้นที่เฉพาะที่เกี่ยวข้องกับทิศทางหรือจุดอ้างอิง",
+    "tl": "Panig; direksyon; isang partikular na gilid o lugar kaugnay ng isang direksyon o sangguniang punto",
+    "ur": "جانب؛ سمت؛ کسی سمت یا حوالہ نقطے کے سلسلے میں ایک خاص طرف یا علاقہ",
+    "vi": "Phía; hướng; một phía hoặc khu vực cụ thể liên quan đến một hướng hay điểm tham chiếu",
+    "zh": "方面；方向；相对于某个方向或参考点的特定一侧或区域",
+    "zh_Hant": "方面；方向；相對於某個方向或參考點的特定一側或區域"
+  },
+  "definition_en": "Side; direction; a particular side or area in relation to a direction or reference point",
+  "romanization": "/bɯ̂aŋ/",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານໄປສະດວກຢູ່ເບື້ອງຊ້າຍຂອງທະນາຄານ",
+      "romanization": "han pai-sa-duak yu bueang sai khong tha-na-khan",
+      "translation_en": "The convenience store is on the left side of the bank."
+    },
+    {
+      "lao_script": "ນັ່ງເບື້ອງໃດກໍໄດ້ ບໍ່ຕ້ອງຖາມ",
+      "romanization": "nang bueang dai go dai, bo tong tham",
+      "translation_en": "Sit on whichever side you want, you don't need to ask."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a directional diagram showing left and right sides clearly labeled with arrows pointing in both directions from a central reference point, representing the concept of 'side or direction', clean white background, colorful, minimalist style suitable for a language learning app."
+}

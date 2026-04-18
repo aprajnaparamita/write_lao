@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕາ",
+  "definitions": {
+    "de": "1. Auge: das Sehorgan am Gesicht. 2. Großvater mütterlicherseits: der Vater der Mutter (im Lao gebräuchliche Verwandtschaftsbezeichnung)",
+    "en": "1. Eye: the organ of sight on the face. 2. Maternal grandfather: the mother's father (common kinship term in Lao)",
+    "es": "1. Ojo: el órgano de la vista en el rostro. 2. Abuelo materno: el padre de la madre (término de parentesco común en lao)",
+    "fr": "1. Œil : l'organe de la vue sur le visage. 2. Grand-père maternel : le père de la mère (terme de parenté courant en laotien)",
+    "hi": "1. आँख: चेहरे पर दृष्टि का अंग। 2. नाना: माँ के पिता (लाओ में सामान्य रिश्तेदारी शब्द)",
+    "ja": "1. 目：顔にある視覚器官。2. 母方の祖父：母親の父（ラオス語でよく使われる親族呼称）",
+    "km": "1. ភ្នែក: អវយវៈនៃការមើលឃើញនៅលើមុខ។ 2. ជីដូនជីតា (តាម្តាយ): ឪពុករបស់ម្តាយ (ពាក្យញាតិសាច់ញាតិទូទៅក្នុងភាសាឡាវ)",
+    "ko": "1. 눈: 얼굴에 있는 시각 기관. 2. 외할아버지: 어머니의 아버지 (라오어에서 흔히 쓰이는 친족 호칭)",
+    "ne": "1. आँखा: अनुहारमा रहेको दृष्टि अंग। 2. नाना: आमाका बुबा (लाओ भाषामा प्रचलित नातेदारी शब्द)",
+    "pt": "1. Olho: o órgão da visão no rosto. 2. Avô materno: o pai da mãe (termo de parentesco comum em lao)",
+    "th": "1. ตา: อวัยวะรับภาพบนใบหน้า 2. ตา (ปู่ฝ่ายแม่): พ่อของแม่ (คำเรียกญาติที่ใช้ทั่วไปในภาษาลาว)",
+    "tl": "1. Mata: ang organ ng paningin sa mukha. 2. Lolo sa tuhod (panig ng ina): ang ama ng ina (karaniwang termino ng pagkakamag-anak sa Lao)",
+    "ur": "1. آنکھ: چہرے پر بینائی کا عضو۔ 2. نانا: ماں کے والد (لاؤ میں رشتہ داری کی عام اصطلاح)",
+    "vi": "1. Mắt: cơ quan thị giác trên khuôn mặt. 2. Ông ngoại: cha của mẹ (thuật ngữ thân tộc phổ biến trong tiếng Lào)",
+    "zh": "1. 眼睛：脸上的视觉器官。2. 外祖父（姥爷）：母亲的父亲（老挝语中常用的亲属称谓）",
+    "zh_Hant": "1. 眼睛：臉上的視覺器官。2. 外祖父（姥爺）：母親的父親（寮語中常用的親屬稱謂）"
+  },
+  "definition_en": "1. Eye: the organ of sight on the face. 2. Maternal grandfather: the mother's father (common kinship term in Lao)",
+  "romanization": "/taː/",
+  "lao_examples": [
+    {
+      "lao_script": "ຕາຂອງເຈົ້າສວຍຫຼາຍເດີ",
+      "romanization": "taa khoong jao suai laai dee",
+      "translation_en": "Your eyes are really beautiful!"
+    },
+    {
+      "lao_script": "ຕາຂອງຂ້ອຍຢູ່ບ້ານນອກ",
+      "romanization": "taa khoong khooi yuu baan nook",
+      "translation_en": "My grandfather (on my mom's side) lives in the countryside."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two images side by side: a close-up of a human eye with long lashes, and a friendly elderly man waving, labeled with a split design, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

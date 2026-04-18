@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແລ້ວ",
+  "definitions": {
+    "de": "Schon, bereits, dann (Abschlussaspekt) – zeigt an, dass eine Handlung abgeschlossen ist, oder verbindet zwei Ereignisse in einer Reihenfolge",
+    "en": "Already, done, or then – indicates that an action has been completed, or links two sequential events; a completive aspect marker",
+    "es": "Ya, listo, luego o entonces – indica que una acción se ha completado, o conecta dos eventos en secuencia; marcador de aspecto completivo",
+    "fr": "Déjà, terminé, puis ou alors – indique qu'une action est accomplie, ou relie deux événements en séquence ; marqueur d'aspect accompli",
+    "hi": "पहले से, हो चुका, फिर – किसी क्रिया के पूरा हो जाने का संकेत देता है, या दो क्रमबद्ध घटनाओं को जोड़ता है; पूर्णता-पक्ष चिह्नक",
+    "ja": "もう、すでに、それから – 動作が完了したことを示す、または二つの連続した出来事をつなぐ完了アスペクトマーカー",
+    "km": "រួចហើយ បន្ទាប់មក – បង្ហាញថាសកម្មភាពមួយបានបញ្ចប់ហើយ ឬភ្ជាប់ព្រឹត្តិការណ៍ពីរជាលំដាប់",
+    "ko": "이미, 다 됐어, 그 다음에 – 행동이 완료되었음을 나타내거나 두 연속 사건을 연결하는 완료상 표지",
+    "ne": "पहिल्यै, सकिसक्यो, त्यसपछि – कुनै काम पूरा भइसकेको संकेत दिन्छ, वा दुई क्रमिक घटनाहरूलाई जोड्छ; पूर्णता-पक्ष चिह्नक",
+    "pt": "Já, pronto, então ou depois – indica que uma ação foi concluída, ou conecta dois eventos em sequência; marcador de aspecto completivo",
+    "th": "แล้ว (เสร็จแล้ว หรือ จากนั้น) – บอกว่าการกระทำเสร็จสมบูรณ์แล้ว หรือเชื่อมสองเหตุการณ์ที่เกิดขึ้นต่อเนื่องกัน",
+    "tl": "Na, tapos na, o pagkatapos – nagpapakita na natapos na ang isang kilos, o nag-uugnay ng dalawang magkakasunod na pangyayari; isang completive aspect marker",
+    "ur": "پہلے سے، ہو چکا، پھر – ظاہر کرتا ہے کہ کوئی عمل مکمل ہو گیا ہے، یا دو یکے بعد دیگرے واقعات کو جوڑتا ہے؛ تکمیلی پہلو کا نشان",
+    "vi": "Rồi, xong rồi, đã – cho thấy một hành động đã hoàn thành, hoặc nối hai sự kiện liên tiếp; từ đánh dấu thể hoàn thành",
+    "zh": "已经、完了、然后——表示某个动作已经完成，或连接两个先后发生的事件；完成体标记词",
+    "zh_Hant": "已經、完了、然後——表示某個動作已經完成，或連接兩個先後發生的事件；完成體標記詞"
+  },
+  "definition_en": "Already, done, or then – indicates that an action has been completed, or links two sequential events; a completive aspect marker",
+  "romanization": "lɛːw",
+  "lao_examples": [
+    {
+      "lao_script": "ກິນເຂົ້າແລ້ວຫຼືຍັງ?",
+      "romanization": "kin kʰâo lɛːw lɯː jaŋ?",
+      "translation_en": "Have you eaten yet or not?"
+    },
+    {
+      "lao_script": "ເຮັດວຽກແລ້ວກໍ່ໄປພັກໄດ້ເລີຍ",
+      "romanization": "hét viak lɛːw kɔː pai pʰák daǐ ləːi",
+      "translation_en": "Once you finish work, you can go rest."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a checklist with a green checkmark indicating a completed task, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

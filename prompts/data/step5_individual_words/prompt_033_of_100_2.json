@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກຸ່ມ",
+  "definitions": {
+    "de": "Gruppe; eine Ansammlung von Menschen, Tieren oder Dingen zusammen",
+    "en": "Group; a collection of people, animals, or things together",
+    "es": "Grupo; un conjunto de personas, animales o cosas juntas",
+    "fr": "Groupe ; un ensemble de personnes, d'animaux ou de choses réunis",
+    "hi": "समूह; लोगों, जानवरों या चीज़ों का एक साथ इकट्ठा होना",
+    "ja": "グループ；人・動物・物などの集まり",
+    "km": "ក្រុម; ការប្រមូលផ្តុំមនុស្ស សត្វ ឬវត្ថុជាមួយគ្នា",
+    "ko": "그룹; 사람, 동물, 또는 사물의 모임",
+    "ne": "समूह; मानिस, जनावर वा वस्तुहरूको सँगठन",
+    "pt": "Grupo; uma coleção de pessoas, animais ou coisas juntas",
+    "th": "กลุ่ม; การรวมตัวของคน สัตว์ หรือสิ่งของ",
+    "tl": "Grupo; isang koleksyon ng mga tao, hayop, o bagay na magkasama",
+    "ur": "گروہ؛ لوگوں، جانوروں یا چیزوں کا ایک ساتھ اکٹھا ہونا",
+    "vi": "Nhóm; một tập hợp người, động vật hoặc đồ vật ở cùng nhau",
+    "zh": "群体；人、动物或事物的集合",
+    "zh_Hant": "群體；人、動物或事物的集合"
+  },
+  "definition_en": "Group; a collection of people, animals, or things together",
+  "romanization": "/kum˥˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ກຸ່ມເພື່ອນຂ້ອຍໄປກິນຂ້າວນຳກັນທຸກວັນ",
+      "romanization": "kum phuean khoi pai kin khao nam kan thuk van",
+      "translation_en": "My friend group goes to eat together every day."
+    },
+    {
+      "lao_script": "ພວກເຮົາຕ້ອງແບ່ງເປັນສາມກຸ່ມ",
+      "romanization": "phuak hao tong baeng pen saam kum",
+      "translation_en": "We need to split into three groups."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a group of five diverse cartoon people standing together and smiling, clean white background, bright colors, minimalist style, suitable for a language learning app."
+}

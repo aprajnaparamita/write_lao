@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພອນ",
+  "definitions": {
+    "de": "Segen, Segnung (kultureller/religiöser Begriff)",
+    "en": "Blessing (cultural/religious term)",
+    "es": "Bendición (término cultural/religioso)",
+    "fr": "Bénédiction (terme culturel/religieux)",
+    "hi": "आशीर्वाद (सांस्कृतिक/धार्मिक शब्द)",
+    "ja": "祝福、恵み（文化的・宗教的用語）",
+    "km": "ពរ (ពាក្យវប្បធម៌/សាសនា)",
+    "ko": "축복 (문화적/종교적 용어)",
+    "ne": "आशीर्वाद (सांस्कृतिक/धार्मिक शब्द)",
+    "pt": "Bênção (termo cultural/religioso)",
+    "th": "พร (คำทางวัฒนธรรม/ศาสนา)",
+    "tl": "Basbas, bendisyon (kultural/relihiyosong termino)",
+    "ur": "دعا، برکت (ثقافتی/مذہبی اصطلاح)",
+    "vi": "Phước lành, lời chúc (thuật ngữ văn hóa/tôn giáo)",
+    "zh": "祝福（文化/宗教用语）",
+    "zh_Hant": "祝福（文化/宗教用語）"
+  },
+  "definition_en": "Blessing (cultural/religious term)",
+  "romanization": "/pʰɔ́ːn/",
+  "lao_examples": [
+    {
+      "lao_script": "ຂໍໃຫ້ພອນແມ່ຢູ່ນຳລູກ.",
+      "romanization": "khɔ̌ː hȁj pʰɔ́ːn mɛ̄ː jūː nám lûːk",
+      "translation_en": "May mother's blessing be with you, my child."
+    },
+    {
+      "lao_script": "ປີໃໝ່ຂໍໃຫ້ທຸກຄົນໄດ້ຮັບພອນດີ.",
+      "romanization": "piː mɑ̄j khɔ̌ː hȁj tʰūk kʰōn dȁj hāp pʰɔ́ːn diː",
+      "translation_en": "For the New Year, may everyone receive good blessings."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an elderly person tying a white string around a younger person's wrist in a traditional Lao blessing ceremony, suitable for a language learning app, clean white background, warm colors, minimalist style"
+}

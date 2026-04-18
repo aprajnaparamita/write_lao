@@ -1,0 +1,36 @@
+{
+  "lao_word": "ພ້ອມ",
+  "definitions": {
+    "de": "Bereit; zusammen mit – wird verwendet, um Vorbereitung oder Begleitung auszudrücken",
+    "en": "Ready; together with – used to express preparedness or accompaniment",
+    "es": "Listo; junto con – se usa para expresar preparación o acompañamiento",
+    "fr": "Prêt ; avec – utilisé pour exprimer la préparation ou l'accompagnement",
+    "hi": "तैयार; के साथ – तैयारी या साथ होने को व्यक्त करने के लिए प्रयोग किया जाता है",
+    "ja": "準備ができている；〜と一緒に – 準備や同伴を表すために使われる",
+    "km": "រួចរាល់; រួមជាមួយ – ប្រើដើម្បីបញ្ជាក់ការត្រៀមខ្លួន ឬការអមដំណើរ",
+    "ko": "준비된; 함께 – 준비 상태나 동반을 나타낼 때 사용",
+    "ne": "तयार; सँगै – तयारी वा साथ हुनु व्यक्त गर्न प्रयोग गरिन्छ",
+    "pt": "Pronto; junto com – usado para expressar prontidão ou acompanhamento",
+    "th": "พร้อม; พร้อมกับ – ใช้แสดงความพร้อมหรือการอยู่ร่วมกัน",
+    "tl": "Handa; kasama – ginagamit upang ipahayag ang pagiging handa o pagsama",
+    "ur": "تیار؛ کے ساتھ – تیاری یا ساتھ ہونے کو ظاہر کرنے کے لیے استعمال ہوتا ہے",
+    "vi": "Sẵn sàng; cùng với – dùng để diễn đạt sự chuẩn bị hoặc đi kèm",
+    "zh": "准备好了；一起/与……一起 – 用于表示准备就绪或陪同",
+    "zh_Hant": "準備好了；一起/與……一起 – 用於表示準備就緒或陪同"
+  },
+  "definition_en": "Ready; together with – used to express preparedness or accompaniment",
+  "romanization": "/pʰɔ́ːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າພ້ອມແລ້ວບໍ?",
+      "romanization": "jao phom laew bor?",
+      "translation_en": "Are you ready yet?"
+    },
+    {
+      "lao_script": "ຂ້ອຍໄປພ້ອມໝູ່ເລີຍ",
+      "romanization": "khoi pai phom mu loei",
+      "translation_en": "I'm going together with my friends."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person giving a thumbs up with a big smile, wearing a backpack and standing at a door ready to go, clean white background, colorful, minimalist style suitable for a language learning app."
+}

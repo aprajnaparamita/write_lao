@@ -1,0 +1,36 @@
+{
+  "lao_word": "ອ້ອມ",
+  "definitions": {
+    "de": "Um herum / umgeben – ein Richtungswort, das eine kreisförmige Bewegung oder Position rund um etwas beschreibt",
+    "en": "Around / to surround – a directional word describing circular movement or position encircling something",
+    "es": "Alrededor / rodear – palabra direccional que describe un movimiento circular o una posición que rodea algo",
+    "fr": "Autour / entourer – mot directionnel décrivant un mouvement circulaire ou une position encerclant quelque chose",
+    "hi": "चारों ओर / घेरना – एक दिशात्मक शब्द जो किसी चीज़ के चारों ओर गोलाकार गति या स्थिति का वर्णन करता है",
+    "ja": "周り・囲む – 何かを円を描くように動く、または取り囲む位置を表す方向語",
+    "km": "ជុំវិញ / ព័រជុំ – ពាក្យបញ្ជាក់ទិសដៅដែលពណ៌នាអំពីចលនាជារង្វង់ ឬទីតាំងដែលព័រជុំអ្វីមួយ",
+    "ko": "주위에 / 둘러싸다 – 무언가를 원형으로 움직이거나 둘러싸는 위치를 나타내는 방향어",
+    "ne": "वरिपरि / घेर्नु – एउटा दिशात्मक शब्द जसले कुनै चिजको वरिपरि गोलाकार गति वा स्थितिको वर्णन गर्छ",
+    "pt": "Ao redor / cercar – palavra direcional que descreve um movimento circular ou posição que envolve algo",
+    "th": "รอบๆ / ล้อมรอบ – คำบอกทิศทางที่แสดงถึงการเคลื่อนที่เป็นวงกลมหรือตำแหน่งที่ล้อมรอบสิ่งใดสิ่งหนึ่ง",
+    "tl": "Sa paligid / palibutan – isang salitang pang-direksyon na naglalarawan ng pabilog na galaw o posisyon na nakapaligid sa isang bagay",
+    "ur": "چاروں طرف / گھیرنا – ایک سمتی لفظ جو کسی چیز کے گرد گول گول حرکت یا پوزیشن کو بیان کرتا ہے",
+    "vi": "Xung quanh / bao quanh – từ chỉ hướng mô tả sự chuyển động vòng tròn hoặc vị trí bao quanh một thứ gì đó",
+    "zh": "绕/环绕 – 方位词，描述围绕某物的圆形运动或包围的位置",
+    "zh_Hant": "繞/環繞 – 方位詞，描述圍繞某物的圓形運動或包圍的位置"
+  },
+  "definition_en": "Around / to surround – a directional word describing circular movement or position encircling something",
+  "romanization": "/ʔɔ̂ːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ເດັກໆ ແລ່ນອ້ອມບ້ານກັນຢູ່",
+      "romanization": "dek dek laen oom baan kan yu",
+      "translation_en": "The kids are running around the house."
+    },
+    {
+      "lao_script": "ລາວເດີນອ້ອມຕະຫຼາດເພື່ອຫາທາງກັບບ້ານ",
+      "romanization": "lao doen oom talaat phuea ha taang kap baan",
+      "translation_en": "He/She walked around the market to find the way home."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a child running in a circular path around a house, shown with a curved arrow indicating the circular direction, clean white background, bright colors, minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,395 @@
+{
+  "ອ້ອມ": {
+    "definitions": {
+      "de": "Um herum / umgeben – ein Richtungswort, das eine kreisförmige Bewegung oder Position rund um etwas beschreibt",
+      "en": "Around / to surround – a directional word describing circular movement or position encircling something",
+      "es": "Alrededor / rodear – palabra direccional que describe un movimiento circular o una posición que rodea algo",
+      "fr": "Autour / entourer – mot directionnel décrivant un mouvement circulaire ou une position encerclant quelque chose",
+      "hi": "चारों ओर / घेरना – एक दिशात्मक शब्द जो किसी चीज़ के चारों ओर गोलाकार गति या स्थिति का वर्णन करता है",
+      "ja": "周り・囲む – 何かを円を描くように動く、または取り囲む位置を表す方向語",
+      "km": "ជុំវិញ / ព័រជុំ – ពាក្យបញ្ជាក់ទិសដៅដែលពណ៌នាអំពីចលនាជារង្វង់ ឬទីតាំងដែលព័រជុំអ្វីមួយ",
+      "ko": "주위에 / 둘러싸다 – 무언가를 원형으로 움직이거나 둘러싸는 위치를 나타내는 방향어",
+      "ne": "वरिपरि / घेर्नु – एउटा दिशात्मक शब्द जसले कुनै चिजको वरिपरि गोलाकार गति वा स्थितिको वर्णन गर्छ",
+      "pt": "Ao redor / cercar – palavra direcional que descreve um movimento circular ou posição que envolve algo",
+      "th": "รอบๆ / ล้อมรอบ – คำบอกทิศทางที่แสดงถึงการเคลื่อนที่เป็นวงกลมหรือตำแหน่งที่ล้อมรอบสิ่งใดสิ่งหนึ่ง",
+      "tl": "Sa paligid / palibutan – isang salitang pang-direksyon na naglalarawan ng pabilog na galaw o posisyon na nakapaligid sa isang bagay",
+      "ur": "چاروں طرف / گھیرنا – ایک سمتی لفظ جو کسی چیز کے گرد گول گول حرکت یا پوزیشن کو بیان کرتا ہے",
+      "vi": "Xung quanh / bao quanh – từ chỉ hướng mô tả sự chuyển động vòng tròn hoặc vị trí bao quanh một thứ gì đó",
+      "zh": "绕/环绕 – 方位词，描述围绕某物的圆形运动或包围的位置",
+      "zh_Hant": "繞/環繞 – 方位詞，描述圍繞某物的圓形運動或包圍的位置"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "/ʔɔ̂ːm/",
+    "examples": [
+      {
+        "lao_script": "ເດັກໆ ແລ່ນອ້ອມບ້ານກັນຢູ່",
+        "romanization": "dek dek laen oom baan kan yu",
+        "translations": {
+          "de": "Die Kinder laufen gerade ums Haus herum.",
+          "en": "The kids are running around the house.",
+          "es": "Los niños están corriendo alrededor de la casa.",
+          "fr": "Les enfants courent autour de la maison.",
+          "hi": "बच्चे घर के चारों ओर दौड़ रहे हैं।",
+          "ja": "子どもたちが家の周りを走り回っている。",
+          "km": "ក្មេងៗកំពុងរត់ជុំវិញផ្ទះ។",
+          "ko": "아이들이 집 주위를 달리고 있어요.",
+          "ne": "बच्चाहरू घरको वरिपरि दौडिरहेका छन्।",
+          "pt": "As crianças estão correndo ao redor da casa.",
+          "th": "เด็กๆ กำลังวิ่งรอบๆ บ้าน",
+          "tl": "Ang mga bata ay nagtatakbo sa paligid ng bahay.",
+          "ur": "بچے گھر کے گرد دوڑ رہے ہیں۔",
+          "vi": "Bọn trẻ đang chạy vòng quanh nhà.",
+          "zh": "孩子们正在房子周围跑来跑去。",
+          "zh_Hant": "孩子們正在房子周圍跑來跑去。"
+        },
+        "out_of_scope_words": [
+          "ແລ່ນ"
+        ]
+      },
+      {
+        "lao_script": "ລາວເດີນອ້ອມຕະຫຼາດເພື່ອຫາທາງກັບບ້ານ",
+        "romanization": "lao doen oom talaat phuea ha taang kap baan",
+        "translations": {
+          "de": "Er/Sie ging um den Markt herum, um den Weg nach Hause zu finden.",
+          "en": "He/She walked around the market to find the way home.",
+          "es": "Él/Ella caminó alrededor del mercado para encontrar el camino a casa.",
+          "fr": "Il/Elle a fait le tour du marché pour trouver le chemin de retour.",
+          "hi": "वह घर का रास्ता खोजने के लिए बाजार के चारों ओर घूमा/घूमी।",
+          "ja": "彼/彼女は家への道を探して市場の周りを歩いた。",
+          "km": "គាត់ដើរជុំវិញផ្សារដើម្បីរកផ្លូវ귰归ទៅផ្ទះ។",
+          "ko": "그/그녀는 집으로 가는 길을 찾으려고 시장 주위를 걸었어요.",
+          "ne": "उसले घर फर्कने बाटो खोज्न बजारको वरिपरि हिँड्यो।",
+          "pt": "Ele/Ela caminhou ao redor do mercado para encontrar o caminho para casa.",
+          "th": "เขา/เธอเดินรอบๆ ตลาดเพื่อหาทางกลับบ้าน",
+          "tl": "Lumakad siya sa paligid ng palengke para mahanap ang daan pauwi.",
+          "ur": "وہ گھر کا راستہ ڈھونڈنے کے لیے بازار کے گرد چلا/چلی۔",
+          "vi": "Anh ấy/Cô ấy đi vòng quanh chợ để tìm đường về nhà.",
+          "zh": "他/她绕着市场走，想找到回家的路。",
+          "zh_Hant": "他/她繞著市場走，想找到回家的路。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ",
+          "ເດີນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a child running in a circular path around a house, shown with a curved arrow indicating the circular direction, clean white background, bright colors, minimalist style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕື້": {
+    "definitions": {
+      "de": "Eine Milliarde – die Zahl 1.000.000.000; wird im Lao für sehr große Zahlen verwendet",
+      "en": "Billion – the number 1,000,000,000; used in Lao for very large quantities",
+      "es": "Mil millones – el número 1.000.000.000; usado en lao para cantidades muy grandes",
+      "fr": "Milliard – le nombre 1 000 000 000 ; utilisé en laotien pour de très grandes quantités",
+      "hi": "एक अरब – संख्या 1,000,000,000; लाओ में बहुत बड़ी मात्राओं के लिए उपयोग किया जाता है",
+      "ja": "10億 – 1,000,000,000という数字。ラオ語で非常に大きな数量に使われる",
+      "km": "មួយពាន់លាន – លេខ ១,០០០,០០០,០០០ ប្រើក្នុងភាសាឡាវសម្រាប់បរិមាណដ៏ច្រើនណាស់",
+      "ko": "10억 – 숫자 1,000,000,000; 라오어에서 매우 큰 수량에 사용됨",
+      "ne": "एक अर्ब – संख्या १,०००,०००,०००; लाओमा धेरै ठूलो परिमाणको लागि प्रयोग गरिन्छ",
+      "pt": "Bilhão – o número 1.000.000.000; usado em lao para quantidades muito grandes",
+      "th": "หนึ่งพันล้าน – ตัวเลข 1,000,000,000 ใช้ในภาษาลาวสำหรับปริมาณที่มากมาย",
+      "tl": "Isang bilyon – ang bilang na 1,000,000,000; ginagamit sa Lao para sa napakalaking dami",
+      "ur": "ایک ارب – عدد 1,000,000,000؛ لاؤ میں بہت بڑی مقداروں کے لیے استعمال ہوتا ہے",
+      "vi": "Một tỷ – con số 1.000.000.000; dùng trong tiếng Lào cho các số lượng rất lớn",
+      "zh": "十亿 – 数字1,000,000,000；老挝语中用于表示非常大的数量",
+      "zh_Hant": "十億 – 數字1,000,000,000；老撾語中用於表示非常大的數量"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/tɯ̂ː/",
+    "examples": [
+      {
+        "lao_script": "ລາຄານັ້ນຫຼາຍກວ່າໜຶ່ງຕື້ກີບ",
+        "romanization": "laa khaa nan laai kwaa nueng tue kip",
+        "translations": {
+          "de": "Dieser Preis beträgt mehr als eine Milliarde Kip.",
+          "en": "That price is more than one billion kip.",
+          "es": "Ese precio es más de mil millones de kip.",
+          "fr": "Ce prix est supérieur à un milliard de kips.",
+          "hi": "वह कीमत एक अरब किप से अधिक है।",
+          "ja": "その値段は10億キープ以上だ。",
+          "km": "តម្លៃនោះច្រើនជាងមួយពាន់លានគីប។",
+          "ko": "그 가격은 10억 킵이 넘어요.",
+          "ne": "त्यो मूल्य एक अर्ब किपभन्दा बढी छ।",
+          "pt": "Esse preço é mais de um bilhão de kip.",
+          "th": "ราคานั้นมากกว่าหนึ่งพันล้านกีบ",
+          "tl": "Ang presyong iyon ay higit sa isang bilyong kip.",
+          "ur": "وہ قیمت ایک ارب کِپ سے زیادہ ہے۔",
+          "vi": "Cái giá đó hơn một tỷ kip.",
+          "zh": "那个价格超过了十亿基普。",
+          "zh_Hant": "那個價格超過了十億基普。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ກີບ"
+        ]
+      },
+      {
+        "lao_script": "ໂລກນີ້ມີຄົນຫຼາຍກວ່າ 8 ຕື້ຄົນ",
+        "romanization": "look nii mii khon laai kwaa 8 tue khon",
+        "translations": {
+          "de": "Die Welt hat mehr als 8 Milliarden Menschen.",
+          "en": "The world has more than 8 billion people.",
+          "es": "El mundo tiene más de 8 mil millones de personas.",
+          "fr": "Le monde compte plus de 8 milliards de personnes.",
+          "hi": "इस दुनिया में 8 अरब से अधिक लोग हैं।",
+          "ja": "この世界には80億人以上の人がいる。",
+          "km": "លោកនេះមានមនុស្សច្រើនជាង 8 ពាន់លាននាក់។",
+          "ko": "이 세상에는 80억 명 이상의 사람이 있어요.",
+          "ne": "यो संसारमा ८ अर्बभन्दा बढी मानिस छन्।",
+          "pt": "O mundo tem mais de 8 bilhões de pessoas.",
+          "th": "โลกนี้มีคนมากกว่า 8 พันล้านคน",
+          "tl": "Ang mundo ay may higit sa 8 bilyong tao.",
+          "ur": "اس دنیا میں 8 ارب سے زیادہ لوگ ہیں۔",
+          "vi": "Thế giới này có hơn 8 tỷ người.",
+          "zh": "这个世界有超过80亿人。",
+          "zh_Hant": "這個世界有超過80億人。"
+        },
+        "out_of_scope_words": [
+          "ໂລກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing the number '1,000,000,000' displayed prominently with a large bold font, surrounded by small coin or money icons to represent a billion units, clean white background, bright and colorful, minimalist design suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໜຸ່ມ": {
+    "definitions": {
+      "de": "Junger Mann – ein soziales Substantiv, das einen jungen unverheirateten oder jugendlichen Mann bezeichnet",
+      "en": "Young man – a social noun referring to a young, typically unmarried or youthful male",
+      "es": "Hombre joven – sustantivo social que se refiere a un varón joven, generalmente soltero o adolescente",
+      "fr": "Jeune homme – nom social désignant un jeune homme, généralement célibataire ou adolescent",
+      "hi": "युवा पुरुष – एक सामाजिक संज्ञा जो एक युवा, आमतौर पर अविवाहित या किशोर पुरुष को संदर्भित करती है",
+      "ja": "若い男性 – 若い、一般的に未婚または青年期の男性を指す社会的名詞",
+      "km": "យុវវ័យប្រុស – នាមសង្គមសម្តៅទៅលើបុរសវ័យក្មេង ជាធម្មតាមិនទាន់រៀបការ",
+      "ko": "젊은 남자 – 젊고 대개 미혼이거나 청소년기의 남성을 가리키는 사회적 명사",
+      "ne": "युवा पुरुष – एउटा सामाजिक संज्ञा जसले एक युवा, सामान्यतः अविवाहित वा किशोर पुरुषलाई सन्दर्भ गर्छ",
+      "pt": "Rapaz / Jovem – substantivo social que se refere a um homem jovem, geralmente solteiro ou adolescente",
+      "th": "หนุ่ม – คำนามทางสังคมที่หมายถึงชายหนุ่ม มักใช้กับชายที่ยังโสดหรืออยู่ในวัยหนุ่ม",
+      "tl": "Binata / Kabataang lalaki – isang panlipunang pangngalan na tumutukoy sa isang batang lalaki, karaniwang hindi pa kasal",
+      "ur": "نوجوان آدمی – ایک سماجی اسم جو ایک نوجوان، عام طور پر غیر شادی شدہ یا کم عمر مرد کو ظاہر کرتا ہے",
+      "vi": "Chàng trai / Thanh niên – danh từ xã hội chỉ một người đàn ông trẻ, thường chưa kết hôn",
+      "zh": "年轻男子 – 社会名词，指年轻的、通常未婚或处于青年期的男性",
+      "zh_Hant": "年輕男子 – 社會名詞，指年輕的、通常未婚或處於青年期的男性"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/nùm/",
+    "examples": [
+      {
+        "lao_script": "ໜຸ່ມຄົນນັ້ນຫຼິ້ນກີຕ້າເກັ່ງຫຼາຍ",
+        "romanization": "num khon nan lin gi taa geng laai",
+        "translations": {
+          "de": "Dieser junge Mann spielt wirklich gut Gitarre.",
+          "en": "That young man plays guitar really well.",
+          "es": "Ese joven toca la guitarra muy bien.",
+          "fr": "Ce jeune homme joue très bien de la guitare.",
+          "hi": "वह युवा पुरुष गिटार बहुत अच्छे से बजाता है।",
+          "ja": "あの若い男性はギターがとても上手だ。",
+          "km": "យុវវ័យប្រុសម្នាក់នោះចេះដើរតន្ត្រីហ្គីតាបានល្អណាស់។",
+          "ko": "저 젊은 남자는 기타를 정말 잘 쳐요.",
+          "ne": "त्यो युवा पुरुष गितार धेरै राम्रोसँग बजाउँछ।",
+          "pt": "Aquele rapaz toca guitarra muito bem.",
+          "th": "หนุ่มคนนั้นเล่นกีตาร์เก่งมาก",
+          "tl": "Ang binatang iyon ay napakagaling tumugtog ng gitara.",
+          "ur": "وہ نوجوان گٹار بہت اچھا بجاتا ہے۔",
+          "vi": "Chàng trai đó chơi guitar rất giỏi.",
+          "zh": "那个年轻男子吉他弹得非常好。",
+          "zh_Hant": "那個年輕男子吉他彈得非常好。"
+        },
+        "out_of_scope_words": [
+          "ກີຕ້າ",
+          "ຫຼິ້ນ"
+        ]
+      },
+      {
+        "lao_script": "ໜຸ່ມໆ ໃນບ້ານຊ່ວຍກັນເຮັດວຽກ",
+        "romanization": "num num nai baan suai kan het wiak",
+        "translations": {
+          "de": "Die jungen Männer im Dorf helfen einander bei der Arbeit.",
+          "en": "The young men in the village help each other with work.",
+          "es": "Los jóvenes del pueblo se ayudan mutuamente con el trabajo.",
+          "fr": "Les jeunes hommes du village s'entraident dans le travail.",
+          "hi": "गाँव के युवा पुरुष एक-दूसरे की काम में मदद करते हैं।",
+          "ja": "村の若い男たちは仕事を互いに助け合っている。",
+          "km": "យុវវ័យប្រុសៗក្នុងភូមិជួយគ្នាធ្វើការ។",
+          "ko": "마을의 젊은 남자들이 서로 일을 도와요.",
+          "ne": "गाउँका युवा पुरुषहरू एकअर्काको काममा सहयोग गर्छन्।",
+          "pt": "Os rapazes da aldeia se ajudam mutuamente no trabalho.",
+          "th": "หนุ่มๆ ในหมู่บ้านช่วยกันทำงาน",
+          "tl": "Ang mga binata sa nayon ay nagtutulungan sa trabaho.",
+          "ur": "گاؤں کے نوجوان ایک دوسرے کے کام میں مدد کرتے ہیں۔",
+          "vi": "Các chàng trai trong làng giúp nhau làm việc.",
+          "zh": "村里的年轻男子互相帮忙做工作。",
+          "zh_Hant": "村裡的年輕男子互相幫忙做工作。"
+        },
+        "out_of_scope_words": [
+          "ວຽກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful young man in casual clothes, standing confidently with a friendly smile, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຄັດ": {
+    "definitions": {
+      "de": "Auswählen / sich widersetzen – je nach Kontext: etwas sorgfältig auswählen oder einer Sache widersprechen/sich widersetzen",
+      "en": "To select / to oppose – depending on context: to carefully choose or sort something, or to object/resist",
+      "es": "Seleccionar / oponerse – según el contexto: elegir o clasificar algo cuidadosamente, u objetar/resistir",
+      "fr": "Sélectionner / s'opposer – selon le contexte : choisir ou trier soigneusement quelque chose, ou objecter/résister",
+      "hi": "चुनना / विरोध करना – संदर्भ के अनुसार: किसी चीज़ को ध्यानपूर्वक चुनना या छाँटना, अथवा आपत्ति करना/विरोध करना",
+      "ja": "選ぶ／反対する – 文脈により：何かを注意深く選んだり仕分けしたりする、または反対する・抵抗する",
+      "km": "ជ្រើសរើស / ប្រឆាំង – អាស្រ័យលើបរិបទ៖ ជ្រើសរើស ឬតម្រៀបអ្វីមួយដោយប្រុងប្រយ័ត្ន ឬជំទាស់/ទប់ទល់",
+      "ko": "선택하다 / 반대하다 – 문맥에 따라: 무언가를 신중하게 고르거나 분류하다, 또는 반대하다/저항하다",
+      "ne": "छान्नु / विरोध गर्नु – सन्दर्भ अनुसार: केही सावधानीपूर्वक छान्नु वा क्रमबद्ध गर्नु, वा आपत्ति/विरोध गर्नु",
+      "pt": "Selecionar / se opor – dependendo do contexto: escolher ou separar algo com cuidado, ou objetar/resistir",
+      "th": "คัดเลือก / คัดค้าน – แล้วแต่บริบท: เลือกหรือคัดแยกบางอย่างอย่างรอบคอบ หรือคัดค้าน/ต่อต้าน",
+      "tl": "Pumili / tumutol – depende sa konteksto: maingat na pumili o mag-uri-uri ng isang bagay, o tumutol/lumaban",
+      "ur": "منتخب کرنا / مخالفت کرنا – سیاق و سباق کے مطابق: کسی چیز کو احتیاط سے چننا یا چھانٹنا، یا اعتراض کرنا/مزاحمت کرنا",
+      "vi": "Tuyển chọn / phản đối – tùy ngữ cảnh: lựa chọn hoặc phân loại cẩn thận, hoặc phản đối/phản kháng",
+      "zh": "筛选/反对 – 根据语境：仔细挑选或分拣某物，或反对/抵制",
+      "zh_Hant": "篩選/反對 – 根據語境：仔細挑選或分揀某物，或反對/抵制"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰát/",
+    "examples": [
+      {
+        "lao_script": "ເຂົາຄັດເອົາໝາກໄມ້ທີ່ດີອອກຈາກກ້ອງ",
+        "romanization": "khao khat ao mak mai thi di ok jaak gong",
+        "translations": {
+          "de": "Er sortierte das gute Obst aus der Kiste heraus.",
+          "en": "He selected the good fruit out of the crate.",
+          "es": "Él seleccionó la fruta buena de la caja.",
+          "fr": "Il a sélectionné les bons fruits hors de la caisse.",
+          "hi": "उसने क्रेट में से अच्छे फल छाँटे।",
+          "ja": "彼は箱からよいフルーツを選り分けた。",
+          "km": "គាត់ជ្រើសយកផ្លែឈើល្អចេញពីប្រអប់។",
+          "ko": "그는 상자에서 좋은 과일을 골라냈어요.",
+          "ne": "उसले बाकसबाट राम्रा फलफूल छान्यो।",
+          "pt": "Ele selecionou as frutas boas da caixa.",
+          "th": "เขาคัดเอาผลไม้ที่ดีออกจากลัง",
+          "tl": "Pinili niya ang magagandang prutas mula sa kahon.",
+          "ur": "اس نے ڈبے سے اچھے پھل چھانٹے۔",
+          "vi": "Anh ấy chọn lấy những trái cây tốt ra khỏi thùng.",
+          "zh": "他从板条箱里挑出了好的水果。",
+          "zh_Hant": "他從板條箱裡挑出了好的水果。"
+        },
+        "out_of_scope_words": [
+          "ໝາກໄມ້",
+          "ກ້ອງ"
+        ]
+      },
+      {
+        "lao_script": "ລາວຄັດຄ້ານແຜນນັ້ນເພາະວ່າມັນບໍ່ດີ",
+        "romanization": "lao khat khaan phaen nan phao waa man boo di",
+        "translations": {
+          "de": "Sie widersetzte sich diesem Plan, weil er nicht gut ist.",
+          "en": "She opposed that plan because it's not good.",
+          "es": "Ella se opuso a ese plan porque no es bueno.",
+          "fr": "Elle s'est opposée à ce plan parce qu'il n'est pas bon.",
+          "hi": "उसने उस योजना का विरोध किया क्योंकि वह अच्छी नहीं है।",
+          "ja": "彼女はそのプランに反対した。よくないからだ。",
+          "km": "នាងប្រឆាំងនឹងផែនការនោះព្រោះវាមិនល្អ។",
+          "ko": "그녀는 그 계획에 반대했어요. 좋지 않기 때문이에요.",
+          "ne": "उसले त्यो योजनाको विरोध गरी किनभने त्यो राम्रो छैन।",
+          "pt": "Ela se opôs àquele plano porque não é bom.",
+          "th": "เธอคัดค้านแผนนั้นเพราะมันไม่ดี",
+          "tl": "Tinututulan niya ang planong iyon dahil hindi ito maganda.",
+          "ur": "اس نے اس منصوبے کی مخالفت کی کیونکہ یہ اچھا نہیں ہے۔",
+          "vi": "Cô ấy phản đối kế hoạch đó vì nó không tốt.",
+          "zh": "她反对那个计划，因为它不好。",
+          "zh_Hant": "她反對那個計劃，因為它不好。"
+        },
+        "out_of_scope_words": [
+          "ຄ້ານ",
+          "ແຜນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration split into two panels: on the left, a hand carefully picking and sorting good apples from a pile; on the right, a person crossing their arms in disagreement or opposition, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຄາດ": {
+    "definitions": {
+      "de": "Erwarten / schätzen – ein nützliches Verb, das bedeutet, etwas zu erwarten, vorauszusagen oder zu schätzen",
+      "en": "To expect / to estimate – a useful verb meaning to anticipate something, make a prediction, or roughly calculate",
+      "es": "Esperar / estimar – verbo útil que significa anticipar algo, hacer una predicción o calcular aproximadamente",
+      "fr": "S'attendre à / estimer – verbe utile signifiant anticiper quelque chose, faire une prédiction ou calculer approximativement",
+      "hi": "उम्मीद करना / अनुमान लगाना – एक उपयोगी क्रिया जिसका अर्थ है किसी चीज़ की प्रत्याशा करना, भविष्यवाणी करना, या मोटे तौर पर गणना करना",
+      "ja": "予想する／見積もる – 何かを予期したり、予測したり、おおよそ計算したりすることを意味する便利な動詞",
+      "km": "រំពឹង / ប៉ាន់ប្រមាណ – កិរិយាព្យាង្គដ៏មានប្រយោជន៍ ដែលមានន័យថាទន្ទឹងរង់ចាំអ្វីមួយ ព្យាករណ៍ ឬគណនាប្រហាក់ប្រហែល",
+      "ko": "기대하다 / 추정하다 – 무언가를 예상하거나, 예측하거나, 대략 계산한다는 뜻의 유용한 동사",
+      "ne": "अपेक्षा गर्नु / अनुमान लगाउनु – एउटा उपयोगी क्रिया जसको अर्थ केही प्रत्याशा गर्नु, भविष्यवाणी गर्नु, वा लगभग गणना गर्नु हो",
+      "pt": "Esperar / estimar – verbo útil que significa antecipar algo, fazer uma previsão ou calcular aproximadamente",
+      "th": "คาดหวัง / ประมาณ – กริยาที่มีประโยชน์ หมายถึงการคาดการณ์ล่วงหน้า ทำนาย หรือคำนวณโดยประมาณ",
+      "tl": "Umasa / tantiyahin – isang kapaki-pakinabang na pandiwa na nangangahulugang asahan ang isang bagay, gumawa ng hula, o magsagawa ng magaspang na pagkalkula",
+      "ur": "توقع کرنا / اندازہ لگانا – ایک مفید فعل جس کا مطلب ہے کسی چیز کی توقع کرنا، پیشگوئی کرنا، یا تقریباً حساب لگانا",
+      "vi": "Kỳ vọng / ước tính – động từ hữu ích có nghĩa là mong đợi điều gì đó, đưa ra dự đoán, hoặc tính toán sơ bộ",
+      "zh": "预期/估计 – 一个有用的动词，意思是预期某事、做出预测或粗略计算",
+      "zh_Hant": "預期/估計 – 一個有用的動詞，意思是預期某事、做出預測或粗略計算"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/kʰâːt/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຄາດວ່າລາວຈະມາຮອດທ່ຽງ",
+        "romanization": "khoi khat waa lao ja maa hod thiang",
+        "translations": {
+          "de": "Ich erwarte, dass er/sie um Mittag ankommt.",
+          "en": "I expect that he/she will arrive by noon.",
+          "es": "Espero que él/ella llegue al mediodía.",
+          "fr": "Je m'attends à ce qu'il/elle arrive à midi.",
+          "hi": "मुझे उम्मीद है कि वह दोपहर तक आ जाएगा/जाएगी।",
+          "ja": "彼/彼女は昼ごろ着くと思う。",
+          "km": "ខ្ញុំរំពឹងថាគាត់នឹងមកដល់នៅពេលថ្ងៃត្រង់។",
+          "ko": "그/그녀가 정오까지 도착할 것 같아요.",
+          "ne": "मलाई लाग्छ उ दिउँसोसम्म आइपुग्छ।",
+          "pt": "Eu espero que ele/ela chegue ao meio-dia.",
+          "th": "ฉันคาดว่าเขา/เธอจะมาถึงตอนเที่ยง",
+          "tl": "Inaasahan ko na darating siya bago mag-tanghali.",
+          "ur": "مجھے توقع ہے کہ وہ دوپہر تک پہنچ جائے گا/گی۔",
+          "vi": "Tôi kỳ vọng rằng anh ấy/cô ấy sẽ đến vào buổi trưa.",
+          "zh": "我预计他/她会在中午到达。",
+          "zh_Hant": "我預計他/她會在中午到達。"
+        },
+        "out_of_scope_words": [
+          "ຮອດ",
+          "ທ່ຽງ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາຄາດລາຄາໄວ້ປະມານສາມຮ້ອຍພັນ",
+        "romanization": "khao khat laa khaa wai pa maan sam hoi phan",
+        "translations": {
+          "de": "Er schätzte den Preis auf etwa dreihundert Tausend.",
+          "en": "He estimated the price at around three hundred thousand.",
+          "es": "Él estimó el precio en aproximadamente trescientos mil.",
+          "fr": "Il a estimé le prix à environ trois cent mille.",
+          "hi": "उसने कीमत लगभग तीन लाख अनुमानित की।",
+          "ja": "彼は値段を約30万と見積もった。",
+          "km": "គាត់ប៉ាន់ប្រមាណតម្លៃប្រហែលបីសែន។",
+          "ko": "그는 가격을 약 30만으로 추정했어요.",
+          "ne": "उसले मूल्य लगभग तीन लाख अनुमान गर्यो।",
+          "pt": "Ele estimou o preço em cerca de trezentos mil.",
+          "th": "เขาคาดราคาไว้ประมาณสามแสน",
+          "tl": "Tinatantiya niya ang presyo sa humigit-kumulang tatlong daang libo.",
+          "ur": "اس نے قیمت تقریباً تین لاکھ لگائی۔",
+          "vi": "Anh ấy ước tính giá khoảng ba trăm nghìn.",
+          "zh": "他估计价格大约是三十万。",
+          "zh_Hant": "他估計價格大約是三十萬。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ຮ້ອຍ",
+          "ພັນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person with a thoughtful expression looking at a calendar and a price tag with a question mark, suggesting anticipation and estimation, clean white background, bright colors, minimalist cartoon style suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

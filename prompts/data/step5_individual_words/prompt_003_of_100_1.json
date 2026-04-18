@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໃຫ້",
+  "definitions": {
+    "de": "geben; für (jemanden); lassen/ermöglichen (Kausalmarker)",
+    "en": "to give; for (beneficiary); to let/allow (causative marker)",
+    "es": "dar; para (beneficiario); dejar/permitir (causativo)",
+    "fr": "donner; pour (bénéficiaire); laisser/permettre (causatif)",
+    "hi": "देना; के लिए; अनुमति देना (प्रेरणार्थक चिह्न)",
+    "ja": "あげる／〜のために／〜させる（授与・目的・使役）",
+    "km": "ឱ្យ／សម្រាប់ (ឲ្យ, គុណសាសន៍ ឬបុព្វហេតុ)",
+    "ko": "주다／~에게／~하게 하다 (수여·목적·사동)",
+    "ne": "दिनु／लाई／गर्न दिनु (दिने, लागि वा प्रेरणार्थक)",
+    "pt": "dar; para (beneficiário); deixar/permitir (causativo)",
+    "th": "ให้ (มอบ, เพื่อ, ทำให้)",
+    "tl": "magbigay／para sa／hayaang (pagbibigay, para kay, pahintulutan)",
+    "ur": "دینا؛ کے لیے؛ کرنے دینا (دینا، مقصد یا سببی)",
+    "vi": "cho; để; cho phép (trao, mục đích, khiến)",
+    "zh": "给／为／让（授予、目的或使役）",
+    "zh_Hant": "給／為／讓（授予、目的或使役）"
+  },
+  "definition_en": "to give; for (beneficiary); to let/allow (causative marker)",
+  "romanization": "hȁj",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍ ໃຫ້ ເງິນ ເພື່ອນ",
+      "romanization": "kʰɔ̂ːj hȁj ŋə́n pʰɯ̄ːən",
+      "translation_en": "I give money to my friend."
+    },
+    {
+      "lao_script": "ໃຫ້ ລາວ ມາ ຫາ ຂ້ອຍ",
+      "romanization": "hȁj láːw máː hǎː kʰɔ̂ːj",
+      "translation_en": "Let him/her come to me."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of two cartoon hands, one handing a small wrapped gift to the other, representing giving, suitable for a language learning app, clean white background, minimalist style, warm colors."
+}

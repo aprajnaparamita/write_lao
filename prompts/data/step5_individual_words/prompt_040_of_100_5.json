@@ -1,0 +1,36 @@
+{
+  "lao_word": "ລົມ",
+  "definitions": {
+    "de": "Wind (Natur) / plaudern, sich unterhalten (umgangssprachlich) – je nach Kontext: ein Luftzug oder das Reden mit jemandem auf entspannte Weise",
+    "en": "Wind (nature) / to chat, to talk casually (colloquial) – depending on context: a natural breeze or having a relaxed conversation with someone",
+    "es": "Viento (naturaleza) / charlar, conversar (coloquial) – según el contexto: una brisa natural o una conversación relajada con alguien",
+    "fr": "Vent (nature) / bavarder, discuter (familier) – selon le contexte: une brise naturelle ou une conversation détendue avec quelqu'un",
+    "hi": "हवा (प्रकृति) / बातें करना, गपशप करना (बोलचाल) – संदर्भ के अनुसार: प्राकृतिक हवा या किसी के साथ हल्की बातचीत",
+    "ja": "風（自然）/ おしゃべりする（口語） – 文脈によって：自然の風、またはリラックスした会話をすること",
+    "km": "ខ្យល់ (ធម្មជាតិ) / និយាយលេង, គូស (ភាសាចេញ) – អាស្រ័យតាមបរិបទ: ខ្យល់ធម្មជាតិ ឬការសន្ទនាស្រួលៗ",
+    "ko": "바람 (자연) / 수다 떨다, 가볍게 이야기하다 (구어) – 문맥에 따라: 자연의 바람 또는 편안한 대화",
+    "ne": "हावा (प्रकृति) / कुराकानी गर्नु, गफ गर्नु (बोलचाल) – सन्दर्भ अनुसार: प्राकृतिक हावा वा कसैसँग सहज कुराकानी",
+    "pt": "Vento (natureza) / conversar, bater papo (coloquial) – dependendo do contexto: uma brisa natural ou uma conversa descontraída",
+    "th": "ลม (ธรรมชาติ) / คุย, พูดคุยเล่นๆ (ภาษาพูด) – ขึ้นอยู่กับบริบท: ลมธรรมชาติ หรือการสนทนาอย่างสบายๆ",
+    "tl": "Hangin (kalikasan) / makipag-usap, makipagkuwentuhan (kolokyal) – depende sa konteksto: natural na hangin o kaswal na pakikipag-usap",
+    "ur": "ہوا (فطرت) / گپ شپ کرنا، باتیں کرنا (عامیانہ) – سیاق و سباق کے مطابق: قدرتی ہوا یا کسی کے ساتھ سہل گفتگو",
+    "vi": "Gió (thiên nhiên) / tán gẫu, trò chuyện (thông thường) – tùy theo ngữ cảnh: gió tự nhiên hoặc cuộc trò chuyện thoải mái",
+    "zh": "风（自然）/ 闲聊、聊天（口语）— 根据语境：自然界的风，或与某人进行轻松的交谈",
+    "zh_Hant": "風（自然）/ 閒聊、聊天（口語）— 根據語境：自然界的風，或與某人進行輕鬆的交談"
+  },
+  "definition_en": "Wind (nature) / to chat, to talk casually (colloquial) – depending on context: a natural breeze or having a relaxed conversation with someone",
+  "romanization": "/lom/",
+  "lao_examples": [
+    {
+      "lao_script": "ລົມແຮງຫຼາຍມື້ນີ້",
+      "romanization": "lom haeng lai meu nii",
+      "translation_en": "It's very windy today."
+    },
+    {
+      "lao_script": "ຂ້ອຍໄປລົມກັບເພື່ອນຢູ່ຕະຫຼາດ",
+      "romanization": "khoi pai lom kap pheuan yu ta-lat",
+      "translation_en": "I went to chat with my friend at the market."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two small panels: on the left, trees and grass blowing in the wind representing 'wind'; on the right, two smiling cartoon friends sitting together talking happily representing 'chat', clean white background, bright colors, minimalist style suitable for a language learning app."
+}

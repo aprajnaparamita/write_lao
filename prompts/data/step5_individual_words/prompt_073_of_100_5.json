@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເພງ",
+  "definitions": {
+    "de": "Lied, Song; ein musikalisches Stück mit oder ohne Text",
+    "en": "Song; a piece of music, especially one with lyrics meant to be sung",
+    "es": "Canción; una pieza musical, especialmente con letra para ser cantada",
+    "fr": "Chanson; un morceau de musique, surtout avec des paroles destinées à être chantées",
+    "hi": "गाना, गीत; संगीत का एक टुकड़ा, विशेष रूप से जिसे गाया जाता है",
+    "ja": "歌；特に歌詞のある音楽の一曲",
+    "km": "បទចម្រៀង; ទំនុកតម្កើង ឬតន្ត្រី ជាពិសេសដែលមានពាក្យបទ",
+    "ko": "노래; 특히 가사가 있어 부르는 음악",
+    "ne": "गीत; एक संगीत टुक्रा, विशेष गरी बोलसहितको जुन गाइन्छ",
+    "pt": "Canção, música; uma peça musical, especialmente com letra para ser cantada",
+    "th": "เพลง; บทเพลงหรือดนตรี โดยเฉพาะที่มีเนื้อร้อง",
+    "tl": "Kanta; isang piraso ng musika, lalo na yung may mga salita na inaawitom",
+    "ur": "گانا، نغمہ؛ موسیقی کا ایک ٹکڑا، خاص طور پر جو گایا جاتا ہے",
+    "vi": "Bài hát, ca khúc; một tác phẩm âm nhạc, đặc biệt là có lời để hát",
+    "zh": "歌曲；一首音乐作品，尤指有歌词可以演唱的",
+    "zh_Hant": "歌曲；一首音樂作品，尤指有歌詞可以演唱的"
+  },
+  "definition_en": "Song; a piece of music, especially one with lyrics meant to be sung",
+  "romanization": "phéeng",
+  "lao_examples": [
+    {
+      "lao_script": "ເພງນີ້ເພິ່ນຫຼາຍ, ຂ້ອຍຊອບ",
+      "romanization": "phéeng níi phə̂n lǎai, khɔ̂i sɔ̂ɔp",
+      "translation_en": "This song is very popular, I like it."
+    },
+    {
+      "lao_script": "ຊ່ວຍຫຼິ້ນເພງນຶ່ງໃຫ້ຂ້ອຍແດ່",
+      "romanization": "suai lîn phéeng nəəng hâi khɔ̂i dɛ̀ɛ",
+      "translation_en": "Please play a song for me."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of colorful musical notes floating above a speaker or microphone, symbolizing a song being played, clean white background, vibrant and cheerful minimalist style suitable for a language learning app."
+}

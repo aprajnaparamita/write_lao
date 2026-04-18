@@ -1,0 +1,36 @@
+{
+  "lao_word": "ທໍ່",
+  "definitions": {
+    "de": "Rohr; Röhre; ein hohler zylindrischer Gegenstand, der zum Leiten von Flüssigkeiten oder Gasen verwendet wird",
+    "en": "Pipe; tube; a hollow cylindrical object used to carry liquids or gases",
+    "es": "Tubo; tubería; objeto cilíndrico hueco usado para transportar líquidos o gases",
+    "fr": "Tuyau; tube; objet cylindrique creux utilisé pour transporter des liquides ou des gaz",
+    "hi": "पाइप; नली; एक खोखली बेलनाकार वस्तु जो तरल पदार्थ या गैस ले जाने के लिए उपयोग की जाती है",
+    "ja": "パイプ；管；液体や気体を運ぶために使われる中空の円筒形の物体",
+    "km": "បំពង់; បំពង់ចែកទឹក; វត្ថុមូលចោញ ដែលប្រើដើម្បីដឹកជញ្ជូនទឹក ឬឧស្ម័ន",
+    "ko": "파이프; 관; 액체나 기체를 운반하는 데 사용되는 속이 빈 원통형 물체",
+    "ne": "पाइप; नली; खोक्रो बेलनाकार वस्तु जुन तरल पदार्थ वा ग्याँस सार्न प्रयोग गरिन्छ",
+    "pt": "Cano; tubo; objeto cilíndrico oco usado para transportar líquidos ou gases",
+    "th": "ท่อ; หลอด; วัตถุทรงกระบอกกลวงที่ใช้ลำเลียงของเหลวหรือก๊าซ",
+    "tl": "Tubo; isang guwang na bilog na bagay na ginagamit para magdala ng likido o gas",
+    "ur": "پائپ؛ نلکا؛ ایک کھوکھلی بیلناکار چیز جو مائع یا گیس لے جانے کے لیے استعمال ہوتی ہے",
+    "vi": "Ống; ống dẫn; vật hình trụ rỗng dùng để dẫn chất lỏng hoặc khí",
+    "zh": "管道；管子；用于输送液体或气体的空心圆柱形物体",
+    "zh_Hant": "管道；管子；用於輸送液體或氣體的空心圓柱形物體"
+  },
+  "definition_en": "Pipe; tube; a hollow cylindrical object used to carry liquids or gases",
+  "romanization": "/tʰɔː/",
+  "lao_examples": [
+    {
+      "lao_script": "ທໍ່ນ້ຳໃນເຮືອນແຕກແລ້ວ",
+      "romanization": "tho nam nai huean taek laeo",
+      "translation_en": "The water pipe in the house is broken."
+    },
+    {
+      "lao_script": "ຊ່າງຕ້ອງມາສ້ອມທໍ່ທີ່ເສຍ",
+      "romanization": "saang tong ma som tho thi sia",
+      "translation_en": "The repairman needs to come and fix the broken pipe."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a gray or silver pipe or tube, shown in cross-section or as a straight cylinder with water flowing through it, clean white background, clear and simple design, minimalist style suitable for a language learning app."
+}

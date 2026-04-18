@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແດງ",
+  "definitions": {
+    "de": "Rot – die Farbe Rot; ein Farbwort, das die Farbe des Blutes oder einer reifen Tomate beschreibt",
+    "en": "Red – the color red; a color adjective describing the color of blood or a ripe tomato",
+    "es": "Rojo – el color rojo; adjetivo de color que describe el color de la sangre o un tomate maduro",
+    "fr": "Rouge – la couleur rouge ; un adjectif de couleur décrivant la couleur du sang ou d'une tomate mûre",
+    "hi": "लाल – लाल रंग; खून या पके हुए टमाटर के रंग को बताने वाला विशेषण",
+    "ja": "赤（あか）– 赤色；血液や熟したトマトのような色を表す色彩形容詞",
+    "km": "ក្រហម – ពណ៌ក្រហម; គុណនាមពណ៌ដែលពណ៌នាពណ៌ឈាម ឬប៉េងប៉ោះ익은",
+    "ko": "빨간색 / 빨갛다 – 빨간색; 피나 잘 익은 토마토의 색을 나타내는 색깔 형용사",
+    "ne": "रातो – रातो रङ; रगत वा पाकेको टमाटरको रङलाई वर्णन गर्ने रङ विशेषण",
+    "pt": "Vermelho – a cor vermelha; adjetivo de cor que descreve a cor do sangue ou de um tomate maduro",
+    "th": "แดง – สีแดง คำคุณศัพท์สีที่ใช้อธิบายสีของเลือดหรือมะเขือเทศสุก",
+    "tl": "Pula – ang kulay pula; isang pangngalang pangkulay na naglalarawan ng kulay ng dugo o isang hinog na kamatis",
+    "ur": "سرخ – سرخ رنگ؛ ایک رنگ صفت جو خون یا پکے ٹماٹر کے رنگ کو بیان کرتا ہے",
+    "vi": "Màu đỏ – màu đỏ; tính từ chỉ màu sắc mô tả màu của máu hoặc quả cà chua chín",
+    "zh": "红色 – 红色；描述血液或成熟番茄颜色的颜色形容词",
+    "zh_Hant": "紅色 – 紅色；描述血液或成熟番茄顏色的顏色形容詞"
+  },
+  "definition_en": "Red – the color red; a color adjective describing the color of blood or a ripe tomato",
+  "romanization": "dɛːŋ",
+  "lao_examples": [
+    {
+      "lao_script": "ເສື້ອຂອງເຈົ້າສີແດງສວຍດີ",
+      "romanization": "sʉ̂a kʰɔːŋ tɕâo siː dɛːŋ suːaj diː",
+      "translation_en": "Your red shirt looks really nice."
+    },
+    {
+      "lao_script": "ດອກໄມ້ນັ້ນແດງຫຼາຍ",
+      "romanization": "dɔːk maːj nan dɛːŋ laːj",
+      "translation_en": "That flower is really red."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bold red color swatch or a vibrant red apple and a red heart side by side, clearly showcasing the color red, suitable for a language learning app, clean white background, minimalist cartoon style."
+}

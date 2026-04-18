@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນັ້ນ",
+  "definitions": {
+    "de": "Das; jener/jene/jenes (Demonstrativpronomen oder -adjektiv, das auf etwas Entfernteres hinweist)",
+    "en": "That (demonstrative pronoun or adjective pointing to something farther away or previously mentioned)",
+    "es": "Eso; ese/esa/aquel (pronombre o adjetivo demostrativo que señala algo más lejano o mencionado anteriormente)",
+    "fr": "Ça; ce/cet/cette... là (pronom ou adjectif démonstratif désignant quelque chose de plus éloigné ou mentionné précédemment)",
+    "hi": "वह; उस (दूर की या पहले उल्लिखित वस्तु को दर्शाने वाला संकेतवाचक सर्वनाम या विशेषण)",
+    "ja": "あれ；その（離れた場所にあるものや以前に言及されたものを指す指示代名詞または形容詞）",
+    "km": "នោះ (សព្វនាមបង្ហាញ ឬគុណនាមដែលចង្អុលទៅអ្វីដែលនៅឆ្ងាយ ឬបានលើកឡើងរួចមក)",
+    "ko": "그것; 저것 (멀리 있거나 이전에 언급된 것을 가리키는 지시 대명사 또는 형용사)",
+    "ne": "त्यो; उ (टाढाको वा पहिले उल्लेख गरिएको वस्तुलाई जनाउने संकेतवाचक सर्वनाम वा विशेषण)",
+    "pt": "Aquilo; esse/essa/aquele (pronome ou adjetivo demonstrativo que aponta para algo mais distante ou mencionado anteriormente)",
+    "th": "นั้น; สิ่งนั้น (คำสรรพนามหรือคำคุณศัพท์ชี้เฉพาะที่ชี้ไปยังสิ่งที่อยู่ห่างออกไปหรือที่กล่าวถึงก่อนหน้า)",
+    "tl": "Iyon; yaon (panghalip o pang-uri na pantukoy na nagtaturo sa isang bagay na malayo o nabanggit na)",
+    "ur": "وہ؛ اس (اشاری ضمیر یا صفت جو دور کی یا پہلے بیان کی گئی چیز کی طرف اشارہ کرے)",
+    "vi": "Đó; kia (đại từ hoặc tính từ chỉ định chỉ vào thứ gì đó ở xa hơn hoặc đã được đề cập trước)",
+    "zh": "那；那个（指示代词或形容词，指较远的或之前提到的事物）",
+    "zh_Hant": "那；那個（指示代詞或形容詞，指較遠的或之前提到的事物）"
+  },
+  "definition_en": "That (demonstrative pronoun or adjective pointing to something farther away or previously mentioned)",
+  "romanization": "nân",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາກະເປົ໋ານັ້ນໃຫ້ຂ້ອຍແດ່",
+      "romanization": "ao kapǎo nân hái khôi dæ̀",
+      "translation_en": "Pass me that bag, please."
+    },
+    {
+      "lao_script": "ນັ້ນແລ້ວ ຂ້ອຍບໍ່ຮູ້",
+      "romanization": "nân lǽo khôi bò hú",
+      "translation_en": "That, I don't know."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person pointing toward an object (such as a box or chair) that is slightly farther away, with a dotted arrow indicating 'that over there', clean white background, colorful minimalist style suitable for a language learning app."
+}

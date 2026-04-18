@@ -1,0 +1,404 @@
+{
+  "ສ່ອງ": {
+    "definitions": {
+      "de": "leuchten, scheinen, beleuchten",
+      "en": "to shine, to illuminate, to light up",
+      "es": "brillar, iluminar, alumbrar",
+      "fr": "briller, illuminer, éclairer",
+      "hi": "चमकना, रोशन करना, प्रकाश डालना",
+      "ja": "輝く、照らす、光を当てる",
+      "km": "បញ្ចេញពន្លឺ, បំភ្លឺ, ថ្លា",
+      "ko": "빛나다, 비추다, 밝히다",
+      "ne": "चम्कनु, उज्यालो पार्नु, प्रकाश गर्नु",
+      "pt": "brilhar, iluminar, clarear",
+      "th": "ส่องแสง, ทำให้สว่าง, ฉาย",
+      "tl": "magliwanag, sumilip, magningning",
+      "ur": "چمکنا، روشن کرنا، منور کرنا",
+      "vi": "chiếu sáng, soi sáng, tỏa sáng",
+      "zh": "照耀，照亮，发光",
+      "zh_Hant": "照耀，照亮，發光"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sɔ̀ŋ/",
+    "examples": [
+      {
+        "lao_script": "ແດດສ່ອງແຮງຫຼາຍມື້ນີ້",
+        "romanization": "daet song haeng lai mue nii",
+        "translations": {
+          "de": "Die Sonne scheint heute sehr stark.",
+          "en": "The sun is shining really bright today.",
+          "es": "El sol brilla muy fuerte hoy.",
+          "fr": "Le soleil brille très fort aujourd'hui.",
+          "hi": "आज धूप बहुत तेज चमक रही है।",
+          "ja": "今日は太陽がとても強く輝いている。",
+          "km": "ថ្ងៃនេះព្រះអាទិត្យចែងចាំងខ្លាំងណាស់។",
+          "ko": "오늘 햇빛이 정말 강하게 빛나고 있어.",
+          "ne": "आज घाम धेरै कडा चम्किरहेको छ।",
+          "pt": "O sol está brilhando muito forte hoje.",
+          "th": "วันนี้แดดส่องแรงมากเลย",
+          "tl": "Ang araw ay napakaliwanag ngayon.",
+          "ur": "آج سورج بہت تیز چمک رہا ہے۔",
+          "vi": "Hôm nay mặt trời chiếu sáng rất mạnh.",
+          "zh": "今天太阳照得很强烈。",
+          "zh_Hant": "今天太陽照得很強烈。"
+        },
+        "out_of_scope_words": [
+          "ແດດ",
+          "ແຮງ"
+        ]
+      },
+      {
+        "lao_script": "ເອົາໄຟສ່ອງໃສ່ທາງນັ້ນແດ່",
+        "romanization": "ao fai song sai thaang nan dae",
+        "translations": {
+          "de": "Leuchte doch mal mit dem Licht in diese Richtung.",
+          "en": "Shine the light over that way, will you.",
+          "es": "Ilumina por ese camino, anda.",
+          "fr": "Éclaire par là-bas, s'il te plaît.",
+          "hi": "उस तरफ रोशनी करो ना।",
+          "ja": "そっちの方に光を当ててよ。",
+          "km": "យកពិលភ្លើងបំភ្លឺផ្លូវនោះផង។",
+          "ko": "저쪽을 좀 비춰봐.",
+          "ne": "त्यो तर्फ बत्ती सोझ्याउ न।",
+          "pt": "Ilumina por aquele lado, vai.",
+          "th": "เอาไฟส่องไปทางนั้นหน่อยสิ",
+          "tl": "Ilaw mo naman yung direksyong iyon.",
+          "ur": "اس طرف روشنی کرو ذرا۔",
+          "vi": "Chiếu đèn về phía đó đi.",
+          "zh": "把灯照到那边去嘛。",
+          "zh_Hant": "把燈照到那邊去嘛。"
+        },
+        "out_of_scope_words": [
+          "ໄຟ",
+          "ທາງ",
+          "ແດ່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a flashlight or torch shining a bright beam of light in the dark, suitable for a language learning app, clean white background, colorful yellow and orange light rays, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫລຸດ": {
+    "definitions": {
+      "de": "reduzieren, verringern, senken, abnehmen",
+      "en": "to reduce, to decrease, to lower, to discount",
+      "es": "reducir, disminuir, bajar, descontar",
+      "fr": "réduire, diminuer, baisser, faire une remise",
+      "hi": "कम करना, घटाना, छूट देना",
+      "ja": "減らす、下げる、割引する",
+      "km": "កាត់បន្ថយ, ធ្វើឱ្យថយចុះ, ផ្តល់ការបញ្ចុះតម្លៃ",
+      "ko": "줄이다, 낮추다, 할인하다",
+      "ne": "घटाउनु, कम गर्नु, छुट दिनु",
+      "pt": "reduzir, diminuir, baixar, descontar",
+      "th": "ลด, ลดราคา, ทำให้น้อยลง",
+      "tl": "bawasan, magpababa, magdiscount",
+      "ur": "کم کرنا، گھٹانا، چھوٹ دینا",
+      "vi": "giảm, hạ, bớt, chiết khấu",
+      "zh": "减少，降低，打折",
+      "zh_Hant": "減少，降低，打折"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/lut/",
+    "examples": [
+      {
+        "lao_script": "ຂາຍດີບໍ່? ຫລຸດລາຄາໃຫ້ຂ້ອຍໜ້ອຍໄດ້ບໍ່?",
+        "romanization": "khai dii bor? lut lakhaa hai khoi noi dai bor?",
+        "translations": {
+          "de": "Läuft das Geschäft gut? Kannst du mir etwas vom Preis nachlassen?",
+          "en": "Selling well? Can you lower the price a bit for me?",
+          "es": "¿Vendiendo bien? ¿Me puedes bajar un poco el precio?",
+          "fr": "Ça marche bien ? Tu peux me faire une petite réduction sur le prix ?",
+          "hi": "बिक्री अच्छी है? क्या आप मुझे थोड़ा कम कर सकते हैं?",
+          "ja": "売れてる？ちょっと値下げしてもらえる？",
+          "km": "លក់ដាច់ទេ? អាចបញ្ចុះតម្លៃឱ្យខ្ញុំបន្តិចបានទេ?",
+          "ko": "잘 팔려요? 가격 좀 낮춰줄 수 있어요?",
+          "ne": "राम्रो बिक्री छ? मलाई अलिकति मूल्य घटाउन सक्नुहुन्छ?",
+          "pt": "Está vendendo bem? Dá pra baixar um pouquinho o preço pra mim?",
+          "th": "ขายดีไหม? ลดราคาให้หน่อยได้ไหม?",
+          "tl": "Mabenta ba? Pwede mo bang ibaba ang presyo para sa akin?",
+          "ur": "اچھی فروخت ہے؟ کیا میرے لیے قیمت تھوڑی کم کر سکتے ہو؟",
+          "vi": "Bán tốt không? Có thể giảm giá cho mình một chút không?",
+          "zh": "卖得好吗？能给我便宜一点吗？",
+          "zh_Hant": "賣得好嗎？能給我便宜一點嗎？"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ໜ້ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ໝໍບອກໃຫ້ຫລຸດກິນເຂົ້າ",
+        "romanization": "mor bork hai lut kin khao",
+        "translations": {
+          "de": "Der Arzt hat gesagt, ich soll weniger Reis essen.",
+          "en": "The doctor said to cut down on eating rice.",
+          "es": "El médico dijo que redujera el consumo de arroz.",
+          "fr": "Le médecin a dit de réduire la consommation de riz.",
+          "hi": "डॉक्टर ने कहा कि चावल कम खाओ।",
+          "ja": "医者がご飯を減らすように言った。",
+          "km": "វេជ្ជបណ្ឌិតបានប្រាប់ឱ្យញ៉ាំបាយឱ្យតិចចុះ។",
+          "ko": "의사가 밥을 줄여 먹으라고 했어.",
+          "ne": "डाक्टरले भात कम खान भन्नुभयो।",
+          "pt": "O médico mandou reduzir o consumo de arroz.",
+          "th": "หมอบอกให้ลดการกินข้าว",
+          "tl": "Sinabi ng doktor na bawasan ang pagkain ng kanin.",
+          "ur": "ڈاکٹر نے کہا کہ چاول کم کھاؤ۔",
+          "vi": "Bác sĩ bảo giảm ăn cơm lại.",
+          "zh": "医生说要少吃米饭。",
+          "zh_Hant": "醫生說要少吃米飯。"
+        },
+        "out_of_scope_words": [
+          "ໝໍ",
+          "ເຂົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a price tag with a downward arrow showing a discount or price reduction, suitable for a language learning app, clean white background, red and green colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຮ້ອຍ": {
+    "definitions": {
+      "de": "hundert (100), die Zahl 100",
+      "en": "hundred (100), the number 100",
+      "es": "cien (100), el número 100",
+      "fr": "cent (100), le nombre 100",
+      "hi": "सौ (100), संख्या 100",
+      "ja": "百（100）、100という数",
+      "km": "មួយរយ (100), ចំនួន 100",
+      "ko": "백(100), 숫자 100",
+      "ne": "सय (100), संख्या 100",
+      "pt": "cem (100), o número 100",
+      "th": "ร้อย (100), ตัวเลข 100",
+      "tl": "isang daan (100), ang bilang na 100",
+      "ur": "سو (100)، عدد 100",
+      "vi": "trăm (100), số 100",
+      "zh": "一百（100），数字100",
+      "zh_Hant": "一百（100），數字100"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/hɔ̂ːj/",
+    "examples": [
+      {
+        "lao_script": "ເສື້ອໂລ້ນໂຕນີ້ລາຄາສາມຮ້ອຍກີບ",
+        "romanization": "suea lon to nii lakhaa saam hoi kiip",
+        "translations": {
+          "de": "Dieses T-Shirt kostet dreihundert Kip.",
+          "en": "This T-shirt costs three hundred kip.",
+          "es": "Esta camiseta cuesta trescientos kip.",
+          "fr": "Ce T-shirt coûte trois cents kip.",
+          "hi": "यह टी-शर्ट तीन सौ किप की है।",
+          "ja": "このTシャツは三百キープです。",
+          "km": "អាវយឺតនេះតម្លៃបីរយគីប។",
+          "ko": "이 티셔츠는 삼백 킵이에요.",
+          "ne": "यो टी-शर्टको मूल्य तीन सय किप छ।",
+          "pt": "Esta camiseta custa trezentos kip.",
+          "th": "เสื้อตัวนี้ราคาสามร้อยกีบ",
+          "tl": "Tatlong daang kip ang presyo ng T-shirt na ito.",
+          "ur": "یہ ٹی شرٹ تین سو کِپ کی ہے۔",
+          "vi": "Cái áo thun này giá ba trăm kip.",
+          "zh": "这件T恤三百基普。",
+          "zh_Hant": "這件T恤三百基普。"
+        },
+        "out_of_scope_words": [
+          "ເສື້ອໂລ້ນ",
+          "ລາຄາ",
+          "ກີບ"
+        ]
+      },
+      {
+        "lao_script": "ຕະຫຼາດນັ້ນຢູ່ໄກປະມານຮ້ອຍແມັດ",
+        "romanization": "talaat nan yuu glai paman hoi maet",
+        "translations": {
+          "de": "Dieser Markt ist ungefähr hundert Meter weit entfernt.",
+          "en": "That market is about a hundred meters away.",
+          "es": "Ese mercado está a unos cien metros de distancia.",
+          "fr": "Ce marché est à environ cent mètres.",
+          "hi": "वह बाज़ार लगभग सौ मीटर दूर है।",
+          "ja": "あの市場は約百メートル先にある。",
+          "km": "ផ្សារនោះនៅឆ្ងាយប្រហែលមួយរយម៉ែត្រ។",
+          "ko": "저 시장은 약 백 미터 떨어져 있어.",
+          "ne": "त्यो बजार लगभग सय मिटर टाढा छ।",
+          "pt": "Aquele mercado fica a cerca de cem metros daqui.",
+          "th": "ตลาดนั้นอยู่ห่างประมาณร้อยเมตร",
+          "tl": "Ang merkado na iyon ay mga isang daang metro ang layo.",
+          "ur": "وہ بازار تقریباً سو میٹر دور ہے۔",
+          "vi": "Cái chợ đó cách khoảng một trăm mét.",
+          "zh": "那个市场大概有一百米远。",
+          "zh_Hant": "那個市場大概有一百米遠。"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ",
+          "ໄກ",
+          "ປະມານ",
+          "ແມັດ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of the number 100 in large bold numerals, surrounded by 100 small colorful dots or stars arranged neatly, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເຮືອ": {
+    "definitions": {
+      "de": "Boot, Schiff, Wasserfahrzeug",
+      "en": "boat, vessel, watercraft",
+      "es": "bote, barco, embarcación",
+      "fr": "bateau, embarcation, pirogue",
+      "hi": "नाव, जहाज़, नौका",
+      "ja": "ボート、船、舟",
+      "km": "ទូក, នាវា, ប៉ាវ",
+      "ko": "배, 보트, 선박",
+      "ne": "डुङ्गा, नाव, जहाज",
+      "pt": "barco, embarcação, canoa",
+      "th": "เรือ, เรือขนาดเล็ก",
+      "tl": "bangka, barko, sasakyang-dagat",
+      "ur": "کشتی، ناو، جہاز",
+      "vi": "thuyền, tàu, ghe",
+      "zh": "船，小船，水上交通工具",
+      "zh_Hant": "船，小船，水上交通工具"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/hɯ̂a/",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍຢາກຂຶ້ນເຮືອໄປທ່ຽວຫຼວງພະບາງ",
+        "romanization": "khoi yaak khueen huea pai thiao Luang Phabang",
+        "translations": {
+          "de": "Ich möchte gerne mit dem Boot nach Luang Prabang fahren.",
+          "en": "I want to take a boat to visit Luang Prabang.",
+          "es": "Quiero ir en barco a visitar Luang Prabang.",
+          "fr": "Je veux prendre le bateau pour visiter Luang Prabang.",
+          "hi": "मैं नाव से लुआंग प्रबांग घूमने जाना चाहता हूँ।",
+          "ja": "ボートに乗ってルアンパバーンを観光したい。",
+          "km": "ខ្ញុំចង់ជិះទូកទៅលំហែនៅហ្លួងព្រះបាង។",
+          "ko": "나는 배를 타고 루앙프라방에 놀러 가고 싶어.",
+          "ne": "म डुङ्गामा चढेर लुआङ प्राबाङ घुम्न जान चाहन्छु।",
+          "pt": "Eu quero pegar um barco para visitar Luang Prabang.",
+          "th": "ฉันอยากขึ้นเรือไปเที่ยวหลวงพระบาง",
+          "tl": "Gusto kong sumakay ng bangka para bumisita sa Luang Prabang.",
+          "ur": "میں کشتی پر سوار ہو کر لوانگ پرابانگ گھومنا چاہتا ہوں۔",
+          "vi": "Tôi muốn đi thuyền đến thăm Luang Prabang.",
+          "zh": "我想坐船去琅勃拉邦游玩。",
+          "zh_Hant": "我想坐船去琅勃拉邦遊玩。"
+        },
+        "out_of_scope_words": [
+          "ຂຶ້ນ",
+          "ທ່ຽວ",
+          "ຫຼວງພະບາງ"
+        ]
+      },
+      {
+        "lao_script": "ເຮືອຂອງພໍ່ຈອດຢູ່ໃກ້ທ່າແມ່ນ້ຳ",
+        "romanization": "huea khong phor jort yuu glai tha mae naam",
+        "translations": {
+          "de": "Das Boot meines Vaters liegt in der Nähe des Flussufers.",
+          "en": "Dad's boat is parked near the riverbank.",
+          "es": "El bote de papá está amarrado cerca de la orilla del río.",
+          "fr": "Le bateau de mon père est amarré près du bord de la rivière.",
+          "hi": "पिताजी की नाव नदी के किनारे के पास खड़ी है।",
+          "ja": "お父さんのボートは川岸の近くに停まっている。",
+          "km": "ទូករបស់ប៉ាបានចត់នៅជិតច្រាំងទន្លេ។",
+          "ko": "아빠의 배는 강가 근처에 정박해 있어.",
+          "ne": "बुबाको डुङ्गा नदी किनारको नजिक राखिएको छ।",
+          "pt": "O barco do meu pai está ancorado perto da margem do rio.",
+          "th": "เรือของพ่อจอดอยู่ใกล้ท่าแม่น้ำ",
+          "tl": "Ang bangka ng tatay ay nakaparada malapit sa pampang ng ilog.",
+          "ur": "باپ کی کشتی دریا کے کنارے کے قریب کھڑی ہے۔",
+          "vi": "Thuyền của bố đang đậu gần bến sông.",
+          "zh": "爸爸的船停在河边附近。",
+          "zh_Hant": "爸爸的船停在河邊附近。"
+        },
+        "out_of_scope_words": [
+          "ຈອດ",
+          "ທ່າແມ່ນ້ຳ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a traditional wooden boat floating on calm blue water with a river or lake background, suitable for a language learning app, clean white background, warm earthy colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໜັກ": {
+    "definitions": {
+      "de": "schwer (Gewicht), ernst, schwerwiegend",
+      "en": "heavy (in weight), serious, severe, grave",
+      "es": "pesado, grave, serio, severo",
+      "fr": "lourd, grave, sérieux, sévère",
+      "hi": "भारी, गंभीर, कठिन",
+      "ja": "重い、深刻な、重大な",
+      "km": "ធ្ងន់, ធ្ងន់ធ្ងរ, គ្រោះថ្នាក់",
+      "ko": "무거운, 심각한, 중대한",
+      "ne": "गह्रौं, गम्भीर, भारी",
+      "pt": "pesado, grave, sério, severo",
+      "th": "หนัก, รุนแรง, หนักแน่น",
+      "tl": "mabigat, malubha, seryoso",
+      "ur": "بھاری، سنگین، سنجیدہ",
+      "vi": "nặng, nghiêm trọng, nặng nề",
+      "zh": "重的，沉的，严重的",
+      "zh_Hant": "重的，沉的，嚴重的"
+    },
+    "part_of_speech": "adjective",
+    "romanization": "/nák/",
+    "examples": [
+      {
+        "lao_script": "ກະເປົ໋າໃບນີ້ໜັກຫຼາຍ, ຊ່ວຍຖືໜ້ອຍໄດ້ບໍ?",
+        "romanization": "gapao bai nii nak lai, suai thue noi dai bor?",
+        "translations": {
+          "de": "Diese Tasche ist sehr schwer. Kannst du sie kurz halten?",
+          "en": "This bag is really heavy. Can you hold it for a sec?",
+          "es": "Esta bolsa está muy pesada. ¿Puedes sostenerla un momento?",
+          "fr": "Ce sac est très lourd. Tu peux le tenir une seconde ?",
+          "hi": "यह बैग बहुत भारी है। क्या तुम इसे थोड़ी देर पकड़ सकते हो?",
+          "ja": "このバッグはすごく重い。ちょっと持ってもらえる？",
+          "km": "កាបូបនេះធ្ងន់ណាស់ ជួយកាន់មួយភ្លែតបានទេ?",
+          "ko": "이 가방 엄청 무거워. 잠깐 들어줄 수 있어?",
+          "ne": "यो झोला धेरै गह्रौं छ। अलिकति समातिदिनु सक्नुहुन्छ?",
+          "pt": "Esta bolsa está muito pesada. Pode segurar por um segundo?",
+          "th": "กระเป๋าใบนี้หนักมาก ช่วยถือหน่อยได้ไหม?",
+          "tl": "Napakabigat ng bag na ito. Puwede mo bang hawakan sandali?",
+          "ur": "یہ بیگ بہت بھاری ہے۔ کیا تم اسے ایک لمحے کے لیے پکڑ سکتے ہو؟",
+          "vi": "Cái túi này nặng lắm. Giúp mình cầm một chút được không?",
+          "zh": "这个包好重啊。能帮我拿一下吗？",
+          "zh_Hant": "這個包好重啊。能幫我拿一下嗎？"
+        },
+        "out_of_scope_words": [
+          "ກະເປົ໋າ",
+          "ຊ່ວຍ",
+          "ຖື"
+        ]
+      },
+      {
+        "lao_script": "ອາການຂອງລາວໜັກຫຼາຍ ຕ້ອງໄປໂຮງໝໍດ່ວນ",
+        "romanization": "aakaan khong lao nak lai, tong pai hong mor duan",
+        "translations": {
+          "de": "Sein Zustand ist sehr ernst. Er muss sofort ins Krankenhaus.",
+          "en": "His condition is very serious. He needs to go to the hospital right away.",
+          "es": "Su estado es muy grave. Tiene que ir al hospital de inmediato.",
+          "fr": "Son état est très grave. Il faut aller à l'hôpital tout de suite.",
+          "hi": "उसकी हालत बहुत गंभीर है। उसे तुरंत अस्पताल जाना होगा।",
+          "ja": "彼の状態はとても深刻で、すぐに病院に行かなければならない。",
+          "km": "ស្ថានភាពរបស់គាត់ធ្ងន់ធ្ងរណាស់ ត្រូវតែទៅមន្ទីរពេទ្យភ្លាម។",
+          "ko": "그의 상태가 매우 심각해. 바로 병원에 가야 해.",
+          "ne": "उनको अवस्था धेरै गम्भीर छ। तुरुन्त अस्पताल जानुपर्छ।",
+          "pt": "O estado dele é muito grave. Ele precisa ir ao hospital agora mesmo.",
+          "th": "อาการของเขาหนักมาก ต้องไปโรงพยาบาลด่วน",
+          "tl": "Napakaseryoso ng kanyang kondisyon. Kailangan siyang pumunta sa ospital agad.",
+          "ur": "اس کی حالت بہت سنگین ہے۔ اسے فوری طور پر ہسپتال جانا ہوگا۔",
+          "vi": "Tình trạng của anh ấy rất nặng. Phải đi bệnh viện ngay.",
+          "zh": "他的病情很严重，必须马上去医院。",
+          "zh_Hant": "他的病情很嚴重，必須馬上去醫院。"
+        },
+        "out_of_scope_words": [
+          "ອາການ",
+          "ໂຮງໝໍ",
+          "ດ່ວນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a person struggling to lift a very heavy box or weight, with sweat drops and a strained expression, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

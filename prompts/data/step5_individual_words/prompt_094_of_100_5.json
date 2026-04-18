@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຫ້ວຍ",
+  "definitions": {
+    "de": "Bach, kleiner Fluss; ein natürlicher kleiner Wasserlauf in der Landschaft",
+    "en": "Stream, creek; a small natural watercourse flowing through the landscape",
+    "es": "Arroyo, riachuelo; un pequeño curso de agua natural que fluye por el paisaje",
+    "fr": "Ruisseau, petit cours d'eau; un petit cours d'eau naturel qui coule dans le paysage",
+    "hi": "नाला, छोटी नदी; प्राकृतिक परिदृश्य में बहने वाली एक छोटी जलधारा",
+    "ja": "小川、せせらぎ；自然の中を流れる小さな水の流れ",
+    "km": "ស្ទឹងតូច, ច្រានទឹក; ដងទឹកតូចធម្មជាតិដែលហូរកាត់ទេសភូមិ",
+    "ko": "개울, 시내; 자연 경관을 흐르는 작은 자연 수로",
+    "ne": "खोला, नाला; परिदृश्यमा बग्ने सानो प्राकृतिक जलधारा",
+    "pt": "Riacho, córrego; um pequeno curso d'água natural que flui pela paisagem",
+    "th": "ห้วย, ลำธาร; ทางน้ำธรรมชาติขนาดเล็กที่ไหลผ่านภูมิประเทศ",
+    "tl": "Sapa, maliit na ilog; isang maliit na natural na agos ng tubig sa kalikasan",
+    "ur": "ندی، نالہ؛ ایک چھوٹا قدرتی آبی راستہ جو زمین سے گزرتا ہے",
+    "vi": "Suối, lạch; dòng nước tự nhiên nhỏ chảy qua cảnh quan",
+    "zh": "溪流，小溪；流经自然景观的小型天然水道",
+    "zh_Hant": "溪流，小溪；流經自然景觀的小型天然水道"
+  },
+  "definition_en": "Stream, creek; a small natural watercourse flowing through the landscape",
+  "romanization": "/huaj˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ເດັກໆລົງຫຼິ້ນນໍ້າໃນຫ້ວຍ",
+      "romanization": "dek dek long lin nam nai huai",
+      "translation_en": "The kids go down to play in the stream."
+    },
+    {
+      "lao_script": "ຫ້ວຍນີ້ນໍ້າໃສຫຼາຍ",
+      "romanization": "huai ni nam sai lai",
+      "translation_en": "The water in this stream is very clear."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clear shallow stream or creek flowing through green grass and small rocks, with gentle ripples in the water, on a clean white background, bright natural colors, minimalist style suitable for a language learning app."
+}

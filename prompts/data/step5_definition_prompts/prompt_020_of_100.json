@@ -1,0 +1,401 @@
+{
+  "ບຸນ": {
+    "definitions": {
+      "de": "Fest, religiöses Verdienst; ein buddhistisches Fest oder eine feierliche Zeremonie, auch das spirituelle Verdienst, das durch gute Taten erworben wird",
+      "en": "Festival or merit; a Buddhist festival or religious ceremony, also the spiritual merit gained through good deeds",
+      "es": "Festival o mérito; una festividad budista o ceremonia religiosa, también el mérito espiritual obtenido mediante buenas acciones",
+      "fr": "Fête ou mérite; une fête bouddhiste ou cérémonie religieuse, également le mérite spirituel acquis par les bonnes actions",
+      "hi": "त्योहार या पुण्य; एक बौद्ध उत्सव या धार्मिक समारोह, साथ ही अच्छे कार्यों से प्राप्त आध्यात्मिक पुण्य",
+      "ja": "祭りまたは功徳；仏教の祭りや宗教的な儀式、また善行によって得られる精神的な功徳",
+      "km": "ពិធីបុណ្យ ឬគុណ; ពិធីបុណ្យពុទ្ធសាសនា ឬពិធីសាសនា ក៏ដូចជាបុណ្យគុណដែលទទួលបានពីការធ្វើកុសល",
+      "ko": "축제 또는 공덕; 불교 축제나 종교 의식, 또는 선행으로 쌓는 영적 공덕",
+      "ne": "उत्सव वा पुण्य; बौद्ध उत्सव वा धार्मिक समारोह, साथै राम्रा कार्यहरूबाट प्राप्त आध्यात्मिक पुण्य",
+      "pt": "Festival ou mérito; uma festa budista ou cerimônia religiosa, também o mérito espiritual obtido por meio de boas ações",
+      "th": "บุญหรืองานบุญ; เทศกาลหรือพิธีกรรมทางพุทธศาสนา รวมถึงบุญกุศลที่ได้รับจากการทำความดี",
+      "tl": "Pista o merito; isang pagdiriwang ng Budismo o relihiyosong seremonya, pati na rin ang espirituwal na merito na nakukuha sa pamamagitan ng mabubuting gawa",
+      "ur": "تہوار یا ثواب؛ ایک بدھ مت کا تہوار یا مذہبی تقریب، نیز نیک اعمال سے حاصل ہونے والی روحانی نیکی",
+      "vi": "Lễ hội hoặc công đức; một lễ hội Phật giáo hoặc nghi lễ tôn giáo, cũng là công đức tâm linh đạt được qua việc làm lành",
+      "zh": "节日或功德；佛教节日或宗教仪式，也指通过善行积累的精神功德",
+      "zh_Hant": "節日或功德；佛教節日或宗教儀式，也指透過善行積累的精神功德"
+    },
+    "part_of_speech": "noun",
+    "romanization": "bun",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ມີບຸນໃຫຍ່ຢູ່ວັດ",
+        "romanization": "muu-nii mii bun nyai yuu wat",
+        "translations": {
+          "de": "Heute gibt es ein großes Fest im Tempel.",
+          "en": "Today there's a big festival at the temple.",
+          "es": "Hoy hay un gran festival en el templo.",
+          "fr": "Aujourd'hui il y a un grand festival au temple.",
+          "hi": "आज मंदिर में एक बड़ा उत्सव है।",
+          "ja": "今日はお寺で大きなお祭りがあります。",
+          "km": "ថ្ងៃនេះមានពិធីបុណ្យធំនៅវត្ត។",
+          "ko": "오늘 절에서 큰 축제가 있어요.",
+          "ne": "आज मन्दिरमा ठूलो उत्सव छ।",
+          "pt": "Hoje tem um grande festival no templo.",
+          "th": "วันนี้มีงานบุญใหญ่ที่วัด",
+          "tl": "Ngayon may malaking pista sa templo.",
+          "ur": "آج مندر میں ایک بڑا تہوار ہے۔",
+          "vi": "Hôm nay có lễ hội lớn ở chùa.",
+          "zh": "今天寺庙里有一个大节日。",
+          "zh_Hant": "今天廟裡有一個大節日。"
+        },
+        "out_of_scope_words": [
+          "ວັດ"
+        ]
+      },
+      {
+        "lao_script": "ພໍ່ແມ່ໄປທຳບຸນຕອນເຊົ້າທຸກວັນ",
+        "romanization": "phoo-mae pai tham bun ton sao thuk wan",
+        "translations": {
+          "de": "Meine Eltern gehen jeden Morgen, um Verdienste zu erwerben.",
+          "en": "My parents go to make merit every morning.",
+          "es": "Mis padres van a hacer méritos todas las mañanas.",
+          "fr": "Mes parents vont faire des mérites chaque matin.",
+          "hi": "मेरे माता-पिता हर सुबह पुण्य करने जाते हैं।",
+          "ja": "両親は毎朝功徳を積みに行きます。",
+          "km": "ឪពុកម្តាយខ្ញុំទៅធ្វើបុណ្យរៀងរាល់ព្រឹក។",
+          "ko": "부모님은 매일 아침 공덕을 쌓으러 가세요.",
+          "ne": "मेरा आमाबुबा हरेक बिहान पुण्य गर्न जानुहुन्छ।",
+          "pt": "Meus pais vão fazer mérito toda manhã.",
+          "th": "พ่อแม่ไปทำบุญทุกเช้า",
+          "tl": "Ang mga magulang ko ay pumupunta para gumawa ng merito tuwing umaga.",
+          "ur": "میرے والدین ہر صبح نیکی کمانے جاتے ہیں۔",
+          "vi": "Bố mẹ tôi đi làm phước mỗi buổi sáng.",
+          "zh": "我的父母每天早上去做功德。",
+          "zh_Hant": "我的父母每天早上去做功德。"
+        },
+        "out_of_scope_words": [
+          "ທຳ",
+          "ຕອນເຊົ້າ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a colorful Buddhist temple festival scene with people in traditional Lao clothing offering flowers and food, warm festive atmosphere, clean white background, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ກີບ": {
+    "definitions": {
+      "de": "Kip; die offizielle Währung der Demokratischen Volksrepublik Laos",
+      "en": "Kip; the official currency of the Lao People's Democratic Republic",
+      "es": "Kip; la moneda oficial de la República Democrática Popular Lao",
+      "fr": "Kip; la monnaie officielle de la République Démocratique Populaire Lao",
+      "hi": "कीप; लाओ पीडीआर की आधिकारिक मुद्रा",
+      "ja": "キープ；ラオス人民民主共和国の公式通貨",
+      "km": "គីប; រូបិយប័ណ្ណផ្លូវការរបស់សាធារណរដ្ឋប្រជាធិបតេយ្យប្រជាមានិតឡាវ",
+      "ko": "킵; 라오스 인민민주공화국의 공식 화폐",
+      "ne": "किप; लाओ जनवादी लोकतान्त्रिक गणतन्त्रको आधिकारिक मुद्रा",
+      "pt": "Kip; a moeda oficial da República Democrática Popular do Laos",
+      "th": "กีบ; สกุลเงินอย่างเป็นทางการของสาธารณรัฐประชาธิปไตยประชาชนลาว",
+      "tl": "Kip; ang opisyal na pera ng Lao People's Democratic Republic",
+      "ur": "کِپ؛ لاؤ پیپلز ڈیموکریٹک ریپبلک کی سرکاری کرنسی",
+      "vi": "Kip; đơn vị tiền tệ chính thức của Cộng hòa Dân chủ Nhân dân Lào",
+      "zh": "基普；老挝人民民主共和国的官方货币",
+      "zh_Hant": "基普；寮國人民民主共和國的官方貨幣"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kiip",
+    "examples": [
+      {
+        "lao_script": "ອັນນີ້ລາຄາເທົ່າໃດກີບ?",
+        "romanization": "an-nii la-kha thao-dai kiip?",
+        "translations": {
+          "de": "Wie viel Kip kostet das?",
+          "en": "How many kip does this cost?",
+          "es": "¿Cuántos kip cuesta esto?",
+          "fr": "Combien de kip ça coûte?",
+          "hi": "यह कितने कीप का है?",
+          "ja": "これは何キープですか？",
+          "km": "របស់នេះតម្លៃប៉ុន្មានគីប?",
+          "ko": "이거 얼마짜리 킵이에요?",
+          "ne": "यो कति किप पर्छ?",
+          "pt": "Quanto kip custa isso?",
+          "th": "อันนี้ราคาเท่าไหร่กีบ?",
+          "tl": "Magkano itong kip?",
+          "ur": "یہ کتنے کِپ کا ہے؟",
+          "vi": "Cái này bao nhiêu kip?",
+          "zh": "这个多少基普？",
+          "zh_Hant": "這個多少基普？"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ",
+          "ເທົ່າໃດ"
+        ]
+      },
+      {
+        "lao_script": "ຂ້ອຍມີເງິນກີບບໍ່ພໍ",
+        "romanization": "khoi mii ngoen kiip bo pho",
+        "translations": {
+          "de": "Ich habe nicht genug Kip-Geld.",
+          "en": "I don't have enough kip money.",
+          "es": "No tengo suficiente dinero en kip.",
+          "fr": "Je n'ai pas assez d'argent en kip.",
+          "hi": "मेरे पास पर्याप्त कीप नहीं है।",
+          "ja": "キープが足りません。",
+          "km": "ខ្ញុំមិនមានប្រាក់គីបគ្រប់គ្រាន់ទេ។",
+          "ko": "킵이 충분하지 않아요.",
+          "ne": "मसँग पर्याप्त किप छैन।",
+          "pt": "Não tenho kip suficiente.",
+          "th": "ฉันมีเงินกีบไม่พอ",
+          "tl": "Wala akong sapat na pera sa kip.",
+          "ur": "میرے پاس کافی کِپ نہیں ہے۔",
+          "vi": "Tôi không có đủ tiền kip.",
+          "zh": "我没有足够的基普。",
+          "zh_Hant": "我沒有足夠的基普。"
+        },
+        "out_of_scope_words": [
+          "ເງິນ",
+          "ບໍ່ພໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of Lao kip banknotes and coins spread out on a clean white background, colorful currency with clear denominations visible, minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ດ້ານ": {
+    "definitions": {
+      "de": "Seite, Aspekt; bezeichnet eine Seite eines Objekts, eine Richtung oder einen Aspekt einer Sache",
+      "en": "Side or aspect; refers to the side of an object, a direction, or a particular aspect of something",
+      "es": "Lado o aspecto; se refiere al lado de un objeto, una dirección o un aspecto particular de algo",
+      "fr": "Côté ou aspect; désigne le côté d'un objet, une direction ou un aspect particulier de quelque chose",
+      "hi": "पक्ष या पहलू; किसी वस्तु का किनारा, दिशा, या किसी चीज़ का विशेष पहलू",
+      "ja": "側面または側；物の側面、方向、またはある事柄の特定の側面を指す",
+      "km": "ផ្នែក ឬទិដ្ឋភាព; សំដៅទៅផ្នែកណាមួយនៃវត្ថុ ទិសដៅ ឬទិដ្ឋភាពជាក់លាក់នៃអ្វីមួយ",
+      "ko": "쪽 또는 측면; 물체의 한쪽, 방향, 또는 어떤 것의 특정 측면을 가리킴",
+      "ne": "पक्ष वा पाटो; कुनै वस्तुको छेउ, दिशा, वा कुनै कुराको विशेष पहलू",
+      "pt": "Lado ou aspecto; refere-se ao lado de um objeto, uma direção ou um aspecto particular de algo",
+      "th": "ด้าน; หมายถึงด้านข้างของวัตถุ ทิศทาง หรือแง่มุมใดแง่มุมหนึ่งของสิ่งใดสิ่งหนึ่ง",
+      "tl": "Gilid o aspeto; tumutukoy sa gilid ng isang bagay, direksyon, o isang partikular na aspeto ng isang bagay",
+      "ur": "پہلو یا جانب؛ کسی چیز کی طرف، سمت، یا کسی چیز کا مخصوص پہلو",
+      "vi": "Phía hoặc khía cạnh; chỉ phía của một vật, một hướng, hoặc một khía cạnh cụ thể của điều gì đó",
+      "zh": "侧面或方面；指物体的一侧、方向或某事的特定方面",
+      "zh_Hant": "側面或方面；指物體的一側、方向或某事的特定方面"
+    },
+    "part_of_speech": "noun",
+    "romanization": "dan",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານອາຫານຢູ່ດ້ານຊ້າຍຂອງທະນາຄານ",
+        "romanization": "han a-han yuu dan sai khong tha-na-khan",
+        "translations": {
+          "de": "Das Restaurant befindet sich auf der linken Seite der Bank.",
+          "en": "The restaurant is on the left side of the bank.",
+          "es": "El restaurante está al lado izquierdo del banco.",
+          "fr": "Le restaurant est du côté gauche de la banque.",
+          "hi": "रेस्तरां बैंक के बाईं तरफ है।",
+          "ja": "レストランは銀行の左側にあります。",
+          "km": "ភោជនីយដ្ឋាននៅខាងឆ្វេងធនាគារ។",
+          "ko": "식당은 은행 왼쪽에 있어요.",
+          "ne": "रेस्टुरेन्ट बैंकको बायाँ तर्फ छ।",
+          "pt": "O restaurante fica do lado esquerdo do banco.",
+          "th": "ร้านอาหารอยู่ด้านซ้ายของธนาคาร",
+          "tl": "Ang restaurant ay nasa kaliwang gilid ng bangko.",
+          "ur": "ریستوران بینک کے بائیں جانب ہے۔",
+          "vi": "Nhà hàng ở phía bên trái của ngân hàng.",
+          "zh": "餐厅在银行的左边。",
+          "zh_Hant": "餐廳在銀行的左邊。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານອາຫານ",
+          "ທະນາຄານ",
+          "ຊ້າຍ"
+        ]
+      },
+      {
+        "lao_script": "ດ້ານໜຶ່ງດີ, ແຕ່ອີກດ້ານໜຶ່ງບໍ່ດີ",
+        "romanization": "dan nueng dii, tae ik dan nueng bo dii",
+        "translations": {
+          "de": "Eine Seite ist gut, aber die andere Seite ist nicht gut.",
+          "en": "One side is good, but the other side is not good.",
+          "es": "Un lado es bueno, pero el otro lado no es bueno.",
+          "fr": "D'un côté c'est bien, mais de l'autre côté ce n'est pas bien.",
+          "hi": "एक पक्ष अच्छा है, लेकिन दूसरा पक्ष अच्छा नहीं है।",
+          "ja": "一方はいいけど、もう一方はよくない。",
+          "km": "ផ្នែកមួយល្អ ប៉ុន្តែផ្នែកមួយទៀតមិនល្អ។",
+          "ko": "한쪽은 좋은데, 다른 쪽은 좋지 않아요.",
+          "ne": "एक पाटो राम्रो छ, तर अर्को पाटो राम्रो छैन।",
+          "pt": "Um lado é bom, mas o outro lado não é bom.",
+          "th": "ด้านหนึ่งดี แต่อีกด้านหนึ่งไม่ดี",
+          "tl": "Ang isang gilid ay mabuti, pero ang kabilang gilid ay hindi mabuti.",
+          "ur": "ایک پہلو اچھا ہے، لیکن دوسرا پہلو اچھا نہیں ہے۔",
+          "vi": "Một mặt thì tốt, nhưng mặt kia thì không tốt.",
+          "zh": "一方面好，但另一方面不好。",
+          "zh_Hant": "一方面好，但另一方面不好。"
+        },
+        "out_of_scope_words": [
+          "ໜຶ່ງ",
+          "ແຕ່",
+          "ອີກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two sides of a coin or a box with arrows pointing to the left side and right side, clearly labeled with visual indicators, clean white background, colorful minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມື": {
+    "definitions": {
+      "de": "Hand; der Teil des menschlichen Körpers am Ende des Arms, der Finger und Handfläche umfasst",
+      "en": "Hand; the part of the human body at the end of the arm, including the fingers and palm",
+      "es": "Mano; la parte del cuerpo humano al final del brazo, que incluye los dedos y la palma",
+      "fr": "Main; la partie du corps humain au bout du bras, comprenant les doigts et la paume",
+      "hi": "हाथ; मानव शरीर का वह भाग जो बाँह के सिरे पर होता है, जिसमें उँगलियाँ और हथेली शामिल हैं",
+      "ja": "手；腕の先端にある人体の一部で、指と手のひらを含む",
+      "km": "ដៃ; ផ្នែកនៃរាងកាយមនុស្សនៅចុងដៃ រួមមានម្រាមដៃនិងបាតដៃ",
+      "ko": "손; 팔 끝에 있는 신체 부위로 손가락과 손바닥을 포함함",
+      "ne": "हात; मानव शरीरको बाहुको टुप्पोमा रहेको भाग, जसमा औँलाहरू र हत्केला समावेश छन्",
+      "pt": "Mão; a parte do corpo humano no final do braço, incluindo os dedos e a palma",
+      "th": "มือ; ส่วนของร่างกายมนุษย์ที่อยู่ปลายแขน ประกอบด้วยนิ้วมือและฝ่ามือ",
+      "tl": "Kamay; ang bahagi ng katawang pantao sa dulo ng braso, kabilang ang mga daliri at palad",
+      "ur": "ہاتھ؛ بازو کے سرے پر انسانی جسم کا وہ حصہ جس میں انگلیاں اور ہتھیلی شامل ہیں",
+      "vi": "Tay; bộ phận của cơ thể người ở cuối cánh tay, bao gồm các ngón tay và lòng bàn tay",
+      "zh": "手；人体手臂末端的部分，包括手指和手掌",
+      "zh_Hant": "手；人體手臂末端的部分，包括手指和手掌"
+    },
+    "part_of_speech": "noun",
+    "romanization": "muu",
+    "examples": [
+      {
+        "lao_script": "ລ້າງມືກ່ອນກິນເຂົ້າແດ່",
+        "romanization": "lang muu kon kin khao dae",
+        "translations": {
+          "de": "Wasch dir bitte die Hände, bevor du isst.",
+          "en": "Wash your hands before eating, okay?",
+          "es": "Lávate las manos antes de comer, ¿sí?",
+          "fr": "Lave-toi les mains avant de manger, d'accord?",
+          "hi": "खाने से पहले हाथ धो लो।",
+          "ja": "食べる前に手を洗ってね。",
+          "km": "លាងដៃមុននឹងញាំបាយទៅ។",
+          "ko": "밥 먹기 전에 손 씻어요.",
+          "ne": "खाना खानु अघि हात धुनुस् है।",
+          "pt": "Lave as mãos antes de comer, tá?",
+          "th": "ล้างมือก่อนกินข้าวด้วยนะ",
+          "tl": "Hugasan ang iyong mga kamay bago kumain ha.",
+          "ur": "کھانے سے پہلے ہاتھ دھولو۔",
+          "vi": "Rửa tay trước khi ăn cơm nhé.",
+          "zh": "吃饭前先洗手哦。",
+          "zh_Hant": "吃飯前先洗手哦。"
+        },
+        "out_of_scope_words": [
+          "ລ້າງ",
+          "ກ່ອນ",
+          "ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ມືຂອງລາວອ່ອນຫຼາຍ",
+        "romanization": "muu khong lao on lai",
+        "translations": {
+          "de": "Ihre Hände sind sehr weich.",
+          "en": "Her hands are very soft.",
+          "es": "Sus manos son muy suaves.",
+          "fr": "Ses mains sont très douces.",
+          "hi": "उसके हाथ बहुत मुलायम हैं।",
+          "ja": "彼女の手はとても柔らかいです。",
+          "km": "ដៃរបស់នាងទន់ណាស់។",
+          "ko": "그녀의 손이 정말 부드러워요.",
+          "ne": "उनको हात धेरै नरम छ।",
+          "pt": "As mãos dela são muito macias.",
+          "th": "มือของเธออ่อนมาก",
+          "tl": "Ang kanyang mga kamay ay napaka-malambot.",
+          "ur": "اس کے ہاتھ بہت نرم ہیں۔",
+          "vi": "Tay của cô ấy rất mềm.",
+          "zh": "她的手很柔软。",
+          "zh_Hant": "她的手很柔軟。"
+        },
+        "out_of_scope_words": [
+          "ອ່ອນ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open human hand with palm facing upward, showing five fingers clearly, clean white background, warm skin tone, colorful minimalist style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເລື່ອງ": {
+    "definitions": {
+      "de": "Geschichte oder Angelegenheit; kann eine erzählte Geschichte, ein Thema, eine Sache oder eine Situation bezeichnen",
+      "en": "Story or matter; can refer to a told story, a topic, an issue, or a situation",
+      "es": "Historia o asunto; puede referirse a una historia contada, un tema, un asunto o una situación",
+      "fr": "Histoire ou affaire; peut désigner une histoire racontée, un sujet, une question ou une situation",
+      "hi": "कहानी या मामला; किसी सुनाई गई कहानी, विषय, मुद्दे या स्थिति को संदर्भित कर सकता है",
+      "ja": "話や件；語られた物語、話題、問題、または状況を指すことができる",
+      "km": "រឿង ឬបញ្ហា; អាចសំដៅទៅរឿងប្រាប់ ប្រធានបទ បញ្ហា ឬស្ថានភាពណាមួយ",
+      "ko": "이야기 또는 일; 들려주는 이야기, 주제, 문제, 또는 상황을 가리킬 수 있음",
+      "ne": "कथा वा विषय; सुनाइएको कथा, विषय, मुद्दा, वा परिस्थितिलाई सन्दर्भ गर्न सक्छ",
+      "pt": "História ou assunto; pode se referir a uma história contada, um tópico, uma questão ou uma situação",
+      "th": "เรื่อง; สามารถหมายถึงเรื่องราวที่เล่า หัวข้อ ประเด็น หรือสถานการณ์",
+      "tl": "Kwento o bagay; maaaring tumukoy sa isang kwentong sinabi, paksa, isyu, o sitwasyon",
+      "ur": "کہانی یا معاملہ؛ کسی سنائی گئی کہانی، موضوع، مسئلے، یا صورتحال کا حوالہ دے سکتا ہے",
+      "vi": "Câu chuyện hoặc vấn đề; có thể chỉ một câu chuyện được kể, một chủ đề, một vấn đề, hoặc một tình huống",
+      "zh": "故事或事情；可以指讲述的故事、话题、问题或情况",
+      "zh_Hant": "故事或事情；可以指講述的故事、話題、問題或情況"
+    },
+    "part_of_speech": "noun",
+    "romanization": "lueang",
+    "examples": [
+      {
+        "lao_script": "ເລົ່າເລື່ອງຕະຫລົກໃຫ້ຂ້ອຍຟັງແດ່",
+        "romanization": "lao lueang ta-lok hai khoi fang dae",
+        "translations": {
+          "de": "Erzähl mir eine lustige Geschichte.",
+          "en": "Tell me a funny story.",
+          "es": "Cuéntame una historia divertida.",
+          "fr": "Raconte-moi une histoire drôle.",
+          "hi": "मुझे एक मज़ेदार कहानी सुनाओ।",
+          "ja": "おもしろい話を聞かせてよ。",
+          "km": "ប្រាប់រឿងកំប្លែងមកឲ្យខ្ញុំស្ដាប់ផង។",
+          "ko": "재미있는 이야기 들려줘요.",
+          "ne": "मलाई एउटा मजेदार कथा सुनाउनुस् न।",
+          "pt": "Me conta uma história engraçada.",
+          "th": "เล่าเรื่องตลกให้ฉันฟังหน่อยสิ",
+          "tl": "Magkuwento ka ng nakakatawang kwento para sa akin.",
+          "ur": "مجھے ایک مزاحیہ کہانی سناؤ۔",
+          "vi": "Kể cho tôi nghe một câu chuyện vui đi.",
+          "zh": "给我讲个有趣的故事吧。",
+          "zh_Hant": "給我講個有趣的故事吧。"
+        },
+        "out_of_scope_words": [
+          "ເລົ່າ",
+          "ຕະຫລົກ",
+          "ຟັງ",
+          "ແດ່"
+        ]
+      },
+      {
+        "lao_script": "ເລື່ອງນີ້ບໍ່ງ່າຍເລີຍ",
+        "romanization": "lueang nii bo ngai loei",
+        "translations": {
+          "de": "Diese Angelegenheit ist wirklich nicht einfach.",
+          "en": "This matter is not easy at all.",
+          "es": "Este asunto no es nada fácil.",
+          "fr": "Cette affaire n'est vraiment pas facile.",
+          "hi": "यह मामला बिल्कुल भी आसान नहीं है।",
+          "ja": "この件は全然簡単じゃない。",
+          "km": "រឿងនេះមិនងាយស្រួលសោះ។",
+          "ko": "이 일은 전혀 쉽지 않아요.",
+          "ne": "यो विषय बिल्कुलै सजिलो छैन।",
+          "pt": "Esse assunto não é nada fácil.",
+          "th": "เรื่องนี้ไม่ง่ายเลย",
+          "tl": "Ang bagay na ito ay hindi talaga madali.",
+          "ur": "یہ معاملہ بالکل آسان نہیں ہے۔",
+          "vi": "Chuyện này không dễ chút nào.",
+          "zh": "这件事一点都不简单。",
+          "zh_Hant": "這件事一點都不簡單。"
+        },
+        "out_of_scope_words": [
+          "ງ່າຍ",
+          "ເລີຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open book with colorful illustrated pages showing a small story scene inside, perhaps a character on an adventure, clean white background, minimalist cartoon style suitable for a language learning app",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

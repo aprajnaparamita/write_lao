@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແດນ",
+  "definitions": {
+    "de": "Gebiet, Territorium, Land (ein abgegrenzter geografischer oder politischer Bereich)",
+    "en": "Territory, land, domain (a defined geographic or political area)",
+    "es": "Territorio, tierra, dominio (área geográfica o política delimitada)",
+    "fr": "Territoire, pays, domaine (zone géographique ou politique délimitée)",
+    "hi": "क्षेत्र, भूमि, प्रदेश (एक निर्धारित भौगोलिक या राजनीतिक क्षेत्र)",
+    "ja": "領土、土地、地域（定められた地理的または政治的な区域）",
+    "km": "ដែនដី, ទឹកដី, តំបន់ (តំបន់ភូមិសាស្ត្រ ឬនយោបាយដែលមានព្រំដែនច្បាស់លាស់)",
+    "ko": "영토, 땅, 구역 (정해진 지리적 또는 정치적 구역)",
+    "ne": "क्षेत्र, भूमि, इलाका (एक निश्चित भौगोलिक वा राजनीतिक क्षेत्र)",
+    "pt": "Território, terra, domínio (área geográfica ou política delimitada)",
+    "th": "ดินแดน, เขต, อาณาเขต (พื้นที่ทางภูมิศาสตร์หรือการเมืองที่มีขอบเขตชัดเจน)",
+    "tl": "Teritoryo, lupain, saklaw (isang tinukoy na heograpiko o pulitikal na lugar)",
+    "ur": "علاقہ، سرزمین، خطہ (ایک متعین جغرافیائی یا سیاسی علاقہ)",
+    "vi": "Lãnh thổ, vùng đất, khu vực (một vùng địa lý hoặc chính trị được xác định rõ ràng)",
+    "zh": "领土、地域、疆域（有明确界限的地理或政治区域）",
+    "zh_Hant": "領土、地域、疆域（有明確界限的地理或政治區域）"
+  },
+  "definition_en": "Territory, land, domain (a defined geographic or political area)",
+  "romanization": "dɛːn",
+  "lao_examples": [
+    {
+      "lao_script": "ແດນລາວສວຍງາມຫຼາຍເດີ້",
+      "romanization": "dɛːn laːw suaj ŋaːm laːj dəː",
+      "translation_en": "The land of Laos is really very beautiful."
+    },
+    {
+      "lao_script": "ເຂົາຮັກແດນເກີດຂອງລາວຫຼາຍ",
+      "romanization": "kʰao hak dɛːn kəːt kʰɔːŋ laːo laːj",
+      "translation_en": "He loves his homeland very much."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a map outline of a country or territory with clearly marked borders, a small flag planted in the center, clean white background, colorful and minimalist style, suitable for a language learning app."
+}

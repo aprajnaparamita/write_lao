@@ -1,0 +1,36 @@
+{
+  "lao_word": "ເພັດ",
+  "definitions": {
+    "de": "Diamant; ein wertvoller, klarer Edelstein, der in Schmuck verwendet wird",
+    "en": "diamond; a precious, clear gemstone used in jewelry",
+    "es": "diamante; una piedra preciosa clara y valiosa usada en joyería",
+    "fr": "diamant; une pierre précieuse transparente et de grande valeur utilisée en bijouterie",
+    "hi": "हीरा; आभूषणों में उपयोग किया जाने वाला एक बहुमूल्य, स्पष्ट रत्न",
+    "ja": "ダイヤモンド；宝飾品に使われる貴重な透明な宝石",
+    "km": "ពេជ្រ; ត្បូងថ្លៃដែលមានភាពថ្លា ប្រើក្នុងគ្រឿងអលង្ការ",
+    "ko": "다이아몬드; 보석류에 사용되는 귀중하고 투명한 보석",
+    "ne": "हीरा; गहनामा प्रयोग हुने बहुमूल्य, पारदर्शी रत्न",
+    "pt": "diamante; uma pedra preciosa transparente e valiosa usada em joias",
+    "th": "เพชร; อัญมณีมีค่าสีใสที่ใช้ทำเครื่องประดับ",
+    "tl": "dyamante; isang mahalagang malinaw na bato na ginagamit sa alahas",
+    "ur": "ہیرا؛ ایک قیمتی، شفاف جواہر جو زیورات میں استعمال ہوتا ہے",
+    "vi": "kim cương; đá quý trong suốt và có giá trị dùng trong trang sức",
+    "zh": "钻石；一种用于珠宝的珍贵透明宝石",
+    "zh_Hant": "鑽石；一種用於珠寶的珍貴透明寶石"
+  },
+  "definition_en": "diamond; a precious, clear gemstone used in jewelry",
+  "romanization": "/pʰet˥/",
+  "lao_examples": [
+    {
+      "lao_script": "ແຫວນເພັດຂອງເຈົ້າສວຍຫຼາຍເດີ",
+      "romanization": "haen phet khong jao suay lai doe",
+      "translation_en": "Your diamond ring is really beautiful!"
+    },
+    {
+      "lao_script": "ເພັດແທ້ລາຄາແພງຫຼາຍ",
+      "romanization": "phet thae la-kha phaeng lai",
+      "translation_en": "Real diamonds are very expensive."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a sparkling diamond gemstone with facets reflecting light, shown from above on a clean white background, colorful sparkle lines radiating outward, minimalist cartoon style suitable for a language learning app."
+}

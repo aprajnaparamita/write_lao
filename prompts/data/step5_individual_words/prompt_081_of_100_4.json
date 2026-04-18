@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກອນ",
+  "definitions": {
+    "de": "Poesie oder Verse in der laotischen Literatur; traditionelle Gedichte, die oft gesungen oder rezitiert werden und einen wichtigen Teil der laotischen Kultur darstellen",
+    "en": "Poetry or verse in Lao literature; traditional poems that are often sung or recited, representing an important part of Lao cultural heritage",
+    "es": "Poesía o verso en la literatura laosiana; poemas tradicionales que a menudo se cantan o recitan, representando una parte importante del patrimonio cultural laosiano",
+    "fr": "Poésie ou vers dans la littérature laotienne; poèmes traditionnels souvent chantés ou récités, représentant une partie importante du patrimoine culturel laotien",
+    "hi": "लाओ साहित्य में कविता या पद; पारंपरिक कविताएं जो अक्सर गाई या पाठ की जाती हैं, लाओ सांस्कृतिक विरासत का महत्वपूर्ण हिस्सा",
+    "ja": "ラオス文学における詩や詩節; しばしば歌われたり朗読されたりする伝統的な詩で、ラオスの文化遺産の重要な部分を担う",
+    "km": "កំណាព្យ ឬបាទ​ក្បួន​ក្នុងអក្សរសាស្ត្រ​ឡាវ; កំណាព្យ​បែប​ប្រពៃណី​ដែល​តែងតែ​ច្រៀង ឬ​សូត្រ ជា​ផ្នែក​សំខាន់​នៃ​មរតក​វប្បធម៌​ឡាវ",
+    "ko": "라오 문학의 시 또는 시절(詩節); 종종 노래하거나 낭송하는 전통 시로, 라오 문화유산의 중요한 부분을 차지함",
+    "ne": "लाओ साहित्यमा कविता वा पद्य; परम्परागत कविताहरू जुन प्रायः गाइन्छ वा पाठ गरिन्छ, लाओ सांस्कृतिक सम्पदाको महत्वपूर्ण भाग",
+    "pt": "Poesia ou verso na literatura laosiana; poemas tradicionais frequentemente cantados ou recitados, representando uma parte importante do patrimônio cultural laosiano",
+    "th": "บทกวีหรือโคลงกลอนในวรรณกรรมลาว บทกวีดั้งเดิมที่มักขับร้องหรือท่องจำ เป็นส่วนสำคัญของมรดกวัฒนธรรมลาว",
+    "tl": "Tula o berso sa panitikang Lao; tradisyonal na mga tula na madalas na inaawit o binibigkas, kumakatawan sa mahalagang bahagi ng kulturang pamana ng Lao",
+    "ur": "لاؤ ادب میں شاعری یا نظم؛ روایتی نظمیں جو اکثر گائی یا پڑھی جاتی ہیں، لاؤ ثقافتی ورثے کا اہم حصہ",
+    "vi": "Thơ ca hoặc vần điệu trong văn học Lào; những bài thơ truyền thống thường được hát hoặc đọc, đại diện cho một phần quan trọng của di sản văn hóa Lào",
+    "zh": "老挝文学中的诗歌或诗节；传统诗歌，常被演唱或吟诵，是老挝文化遗产的重要组成部分",
+    "zh_Hant": "寮國文學中的詩歌或詩節；傳統詩歌常被演唱或吟誦，是寮國文化遺產的重要組成部分"
+  },
+  "definition_en": "Poetry or verse in Lao literature; traditional poems that are often sung or recited, representing an important part of Lao cultural heritage",
+  "romanization": "kɔːn˩˩˦",
+  "lao_examples": [
+    {
+      "lao_script": "ຄູສອນໃຫ້ທ່ອງກອນໂບຮານ",
+      "romanization": "kʰuː sɔːn haj tʰɔŋ kɔːn boː haːn",
+      "translation_en": "The teacher teaches us to recite ancient poems"
+    },
+    {
+      "lao_script": "ລາວຂຽນກອນໄດ້ສວຍຫຼາຍ",
+      "romanization": "laːw khian kɔːn daːj suaj laːj",
+      "translation_en": "He/She writes really beautiful poems"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of an open scroll or manuscript with elegant decorative script lines suggesting traditional poetry, alongside a quill or stylus, suitable for a language learning app, clean white background, warm golden tones, minimalist style"
+}

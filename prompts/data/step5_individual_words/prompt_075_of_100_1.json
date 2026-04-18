@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນອນ",
+  "definitions": {
+    "de": "schlafen; sich hinlegen und ruhen",
+    "en": "to sleep; to lie down and rest",
+    "es": "dormir; acostarse y descansar",
+    "fr": "dormir; s'allonger et se reposer",
+    "hi": "सोना; लेटकर आराम करना",
+    "ja": "寝る；横になって休む",
+    "km": "គេង; ដេកសម្រាក",
+    "ko": "자다; 누워서 쉬다",
+    "ne": "सुत्नु; सुतेर आराम गर्नु",
+    "pt": "dormir; deitar-se e descansar",
+    "th": "นอน; นอนหลับพักผ่อน",
+    "tl": "matulog; humiga at magpahinga",
+    "ur": "سونا؛ لیٹ کر آرام کرنا",
+    "vi": "ngủ; nằm xuống nghỉ ngơi",
+    "zh": "睡觉；躺下休息",
+    "zh_Hant": "睡覺；躺下休息"
+  },
+  "definition_en": "to sleep; to lie down and rest",
+  "romanization": "nɔːn",
+  "lao_examples": [
+    {
+      "lao_script": "ຂ້ອຍຢາກນອນແລ້ວ ເມື່ອຍຫຼາຍ",
+      "romanization": "khɔ̂i yàak nɔːn lɛ́ːw, mɨ̂aj lǎːj",
+      "translation_en": "I want to sleep already, I'm so tired."
+    },
+    {
+      "lao_script": "ມື້ນີ້ເຈົ້ານອນຈັກໂມງ",
+      "romanization": "mɨ́ː níː tɕâo nɔːn tɕàk móːŋ",
+      "translation_en": "What time did you go to sleep tonight?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person sleeping peacefully in bed, eyes closed, with a pillow and blanket, suitable for a language learning app, clean white background, soft colors, minimalist style."
+}

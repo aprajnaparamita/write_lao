@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂັ້ນ",
+  "definitions": {
+    "de": "Stufe, Ebene oder Schritt – bezeichnet eine Stufe auf einer Treppe, ein Level in einer Hierarchie oder einen Schritt in einem Prozess",
+    "en": "Level, step, or rung – refers to a step on a staircase, a level in a hierarchy, or a stage in a process",
+    "es": "Nivel, peldaño o etapa – se refiere a un escalón en una escalera, un nivel en una jerarquía o una etapa en un proceso",
+    "fr": "Niveau, marche ou échelon – désigne une marche d'escalier, un niveau dans une hiérarchie ou une étape dans un processus",
+    "hi": "स्तर, सीढ़ी या चरण – सीढ़ी की एक पायदान, पदानुक्रम में एक स्तर, या किसी प्रक्रिया के एक चरण को संदर्भित करता है",
+    "ja": "段、レベル、またはステップ – 階段の段、階層内のレベル、またはプロセスのステージを指す",
+    "km": "កម្រិត ជំហាន ឬថ្នាក់ – សំដៅទៅលើថ្នាក់ជណ្ដើរ កម្រិតក្នុងឋានានុក្រម ឬដំណាក់កាលក្នុងដំណើរការ",
+    "ko": "단계, 레벨 또는 계단 – 계단의 한 칸, 위계 내의 레벨, 또는 과정의 단계를 가리킴",
+    "ne": "स्तर, सिँढी वा चरण – भर्‍याङको एउटा खुड्किलो, पदसोपानमा एक स्तर, वा प्रक्रियाको एक चरणलाई जनाउँछ",
+    "pt": "Nível, degrau ou etapa – refere-se a um degrau de escada, um nível em uma hierarquia ou uma etapa em um processo",
+    "th": "ขั้น ระดับ หรือขั้นตอน – หมายถึงขั้นบันได ระดับในลำดับชั้น หรือขั้นตอนในกระบวนการ",
+    "tl": "Antas, hakbang, o baytang – tumutukoy sa isang baytang ng hagdan, isang antas sa isang hierarchy, o isang yugto sa isang proseso",
+    "ur": "سطح، قدم، یا زینہ – سیڑھی کی ایک سیڑھی، درجہ بندی میں ایک سطح، یا کسی عمل میں ایک مرحلے کو ظاہر کرتا ہے",
+    "vi": "Cấp độ, bậc hoặc bước – chỉ một bậc thang, một cấp trong hệ thống phân cấp, hoặc một giai đoạn trong quá trình",
+    "zh": "级别、阶梯或步骤——指楼梯上的一级台阶、层级中的一个等级，或流程中的一个阶段",
+    "zh_Hant": "級別、階梯或步驟——指樓梯上的一級台階、層級中的一個等級，或流程中的一個階段"
+  },
+  "definition_en": "Level, step, or rung – refers to a step on a staircase, a level in a hierarchy, or a stage in a process",
+  "romanization": "/khân/",
+  "lao_examples": [
+    {
+      "lao_script": "ລາວຮຽນລາວຂັ້ນກາງແລ້ວ",
+      "romanization": "lao hian lao khân kaang laew",
+      "translation_en": "He/She is already studying Lao at the intermediate level."
+    },
+    {
+      "lao_script": "ເດີນຂຶ້ນຂັ້ນບັນໄດຊ້າໆ ຢ່າໄວ",
+      "romanization": "doen khuen khân ban-dai saa saa yaa wai",
+      "translation_en": "Walk up the stairs slowly, don't go fast."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a staircase with numbered steps (1, 2, 3) going upward, with a small figure climbing the stairs, clean white background, bright blue and green colors, minimalist style suitable for a language learning app."
+}

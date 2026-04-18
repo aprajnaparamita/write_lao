@@ -1,0 +1,36 @@
+{
+  "lao_word": "ມອບ",
+  "definitions": {
+    "de": "Übergeben, aushändigen; zuweisen, beauftragen",
+    "en": "To hand over, to give/pass something to someone; to assign or entrust a task",
+    "es": "Entregar, ceder algo a alguien; asignar o encomendar una tarea",
+    "fr": "Remettre, transmettre quelque chose à quelqu'un ; confier ou assigner une tâche",
+    "hi": "किसी को कुछ सौंपना; कोई काम सौंपना या देना",
+    "ja": "手渡す、引き渡す；任務を割り当てる・任せる",
+    "km": "ប្រគល់ ឬ ផ្ទេរអ្វីមួយឱ្យអ្នកណាម្នាក់; ចាត់តាំង ឬ ប្រគល់ភារកិច្ច",
+    "ko": "건네다, 넘겨주다; 임무를 맡기다, 배정하다",
+    "ne": "कसैलाई केही सुम्पनु; कुनै काम दिनु वा सुम्पनु",
+    "pt": "Entregar, passar algo a alguém; atribuir ou confiar uma tarefa",
+    "th": "มอบ, ส่งมอบสิ่งของให้ใครสักคน; มอบหมายงาน",
+    "tl": "Ibigay, ihatid ang isang bagay sa isang tao; magtalaga ng gawain",
+    "ur": "کسی کو کچھ سونپنا؛ کوئی کام تفویض کرنا",
+    "vi": "Trao, bàn giao thứ gì cho ai; giao nhiệm vụ hoặc phân công",
+    "zh": "移交，递交；分配或委托任务",
+    "zh_Hant": "移交，遞交；分配或委託任務"
+  },
+  "definition_en": "To hand over, to give/pass something to someone; to assign or entrust a task",
+  "romanization": "/mɔ̀ːp/",
+  "lao_examples": [
+    {
+      "lao_script": "ຄູມອບວຽກໃຫ້ນັກຮຽນທຸກຄົນແລ້ວ",
+      "romanization": "khu maup wiak hai nak hian thuk khon laew",
+      "translation_en": "The teacher has already assigned work to all the students."
+    },
+    {
+      "lao_script": "ຊ່ວຍມອບຈົດໝາຍນີ້ໃຫ້ແມ່ຂ້ອຍແດ່",
+      "romanization": "suay maup jot mai ni hai mae khoi dae",
+      "translation_en": "Please hand over this letter to my mom for me."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of one person handing over a document or folder to another person with both hands, showing a polite transfer gesture, clean white background, colorful minimalist style suitable for a language learning app."
+}

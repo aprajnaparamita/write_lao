@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕະຫລາດ",
+  "definitions": {
+    "de": "Ein Markt; ein Ort, an dem Waren und Lebensmittel gekauft und verkauft werden",
+    "en": "A market; a place where goods and food are bought and sold",
+    "es": "Un mercado; un lugar donde se compran y venden bienes y alimentos",
+    "fr": "Un marché ; un endroit où des marchandises et des aliments sont achetés et vendus",
+    "hi": "एक बाज़ार; एक ऐसी जगह जहाँ सामान और खाना खरीदा और बेचा जाता है",
+    "ja": "市場；商品や食べ物を売買する場所",
+    "km": "ទីផ្សារ; កន្លែងដែលទំនិញ និងអាហារត្រូវបានទិញ និងលក់",
+    "ko": "시장; 물건과 음식을 사고 파는 곳",
+    "ne": "एक बजार; जहाँ सामान र खाना किनिन्छ र बेचिन्छ",
+    "pt": "Um mercado; um lugar onde produtos e alimentos são comprados e vendidos",
+    "th": "ตลาด; สถานที่ที่มีการซื้อขายสินค้าและอาหาร",
+    "tl": "Isang palengke; isang lugar kung saan binibili at ibinibenta ang mga kalakal at pagkain",
+    "ur": "ایک بازار؛ ایک جگہ جہاں سامان اور کھانا خریدا اور بیچا جاتا ہے",
+    "vi": "Một chợ; nơi mua bán hàng hóa và thực phẩm",
+    "zh": "市场；买卖商品和食物的地方",
+    "zh_Hant": "市場；買賣商品和食物的地方"
+  },
+  "definition_en": "A market; a place where goods and food are bought and sold",
+  "romanization": "ta.làat",
+  "lao_examples": [
+    {
+      "lao_script": "ເຊົ້ານີ້ແມ່ໄປຊື້ເຂົ້າຂອງຢູ່ຕະຫລາດ",
+      "romanization": "sâo níi, mɛ̄ɛ pai sʉ́ɯ khâo khɔ̌ɔng ɲùu ta.làat",
+      "translation_en": "This morning Mom went to the market to buy groceries"
+    },
+    {
+      "lao_script": "ຕະຫລາດເຊົ້າຂາຍອາຫານສົດຫຼາຍຊະນິດ",
+      "romanization": "ta.làat sâo, khǎai aa-hǎan sód lǎai sa.nít",
+      "translation_en": "The morning market sells many kinds of fresh food"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a colorful outdoor market with stalls displaying fresh vegetables, fruits, and goods. Friendly vendors behind the stalls, bright awnings overhead. Clean white background, colorful, minimalist style suitable for a language learning app."
+}

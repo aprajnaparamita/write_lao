@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສຶກ",
+  "definitions": {
+    "de": "Krieg; auch ein Wortstamm, der in Zusammensetzungen wie ສຶກສາ (studieren/Bildung) verwendet wird",
+    "en": "War; also a root used in compound words such as ສຶກສາ (to study / education)",
+    "es": "Guerra; también raíz usada en palabras compuestas como ສຶກສາ (estudiar / educación)",
+    "fr": "Guerre ; aussi une racine utilisée dans des mots composés comme ສຶກສາ (étudier / éducation)",
+    "hi": "युद्ध; साथ ही यह ສຶກສາ (पढ़ना/शिक्षा) जैसे यौगिक शब्दों में एक मूल शब्द के रूप में प्रयुक्त होता है",
+    "ja": "戦争；また ສຶກສາ（勉強する・教育）などの複合語に使われる語根",
+    "km": "សង្គ្រាម; ក៏ជាឫសម្ភាគដែលប្រើក្នុងពាក្យផ្សំដូចជា ສຶກສາ (រៀន / ការអប់រំ)",
+    "ko": "전쟁; 또한 ສຶກສາ(공부하다/교육)와 같은 복합어에 사용되는 어근",
+    "ne": "युद्ध; साथै ສຶກສາ (अध्ययन गर्नु / शिक्षा) जस्ता यौगिक शब्दहरूमा प्रयुक्त मूल शब्द",
+    "pt": "Guerra; também uma raiz usada em palavras compostas como ສຶກສາ (estudar / educação)",
+    "th": "สงคราม; ยังใช้เป็นรากศัพท์ในคำประสมเช่น ສຶກສາ (เรียน/การศึกษา)",
+    "tl": "Digmaan; ginagamit din bilang ugat ng mga salitang tambalan tulad ng ສຶກສາ (mag-aral / edukasyon)",
+    "ur": "جنگ؛ نیز ສຶກສາ (پڑھنا / تعلیم) جیسے مرکب الفاظ میں بطور بنیاد استعمال ہوتا ہے",
+    "vi": "Chiến tranh; cũng là gốc từ dùng trong các từ ghép như ສຶກສາ (học / giáo dục)",
+    "zh": "战争；也用作复合词的词根，如 ສຶກສາ（学习/教育）",
+    "zh_Hant": "戰爭；也用作複合詞的詞根，如 ສຶກສາ（學習/教育）"
+  },
+  "definition_en": "War; also a root used in compound words such as ສຶກສາ (to study / education)",
+  "romanization": "suek",
+  "lao_examples": [
+    {
+      "lao_script": "ການສຶກສາສຳຄັນຫຼາຍສຳລັບເດັກນ້ອຍ",
+      "romanization": "kan suek-sa sam-khan lai sam-lap dek noi",
+      "translation_en": "Education is very important for children."
+    },
+    {
+      "lao_script": "ສຶກໃຫຍ່ເຮັດໃຫ້ຄົນຫຼາຍຄົນເສຍຊີວິດ",
+      "romanization": "suek nyai het hai khon lai khon sia shi-wit",
+      "translation_en": "A big war caused many people to lose their lives."
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two contrasting images side by side: on the left, an open book representing study and education, and on the right, a crossed-out sword or shield representing war, clean white background, colorful minimalist style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄັດ",
+  "definitions": {
+    "de": "Auswählen / sich widersetzen – je nach Kontext: etwas sorgfältig auswählen oder einer Sache widersprechen/sich widersetzen",
+    "en": "To select / to oppose – depending on context: to carefully choose or sort something, or to object/resist",
+    "es": "Seleccionar / oponerse – según el contexto: elegir o clasificar algo cuidadosamente, u objetar/resistir",
+    "fr": "Sélectionner / s'opposer – selon le contexte : choisir ou trier soigneusement quelque chose, ou objecter/résister",
+    "hi": "चुनना / विरोध करना – संदर्भ के अनुसार: किसी चीज़ को ध्यानपूर्वक चुनना या छाँटना, अथवा आपत्ति करना/विरोध करना",
+    "ja": "選ぶ／反対する – 文脈により：何かを注意深く選んだり仕分けしたりする、または反対する・抵抗する",
+    "km": "ជ្រើសរើស / ប្រឆាំង – អាស្រ័យលើបរិបទ៖ ជ្រើសរើស ឬតម្រៀបអ្វីមួយដោយប្រុងប្រយ័ត្ន ឬជំទាស់/ទប់ទល់",
+    "ko": "선택하다 / 반대하다 – 문맥에 따라: 무언가를 신중하게 고르거나 분류하다, 또는 반대하다/저항하다",
+    "ne": "छान्नु / विरोध गर्नु – सन्दर्भ अनुसार: केही सावधानीपूर्वक छान्नु वा क्रमबद्ध गर्नु, वा आपत्ति/विरोध गर्नु",
+    "pt": "Selecionar / se opor – dependendo do contexto: escolher ou separar algo com cuidado, ou objetar/resistir",
+    "th": "คัดเลือก / คัดค้าน – แล้วแต่บริบท: เลือกหรือคัดแยกบางอย่างอย่างรอบคอบ หรือคัดค้าน/ต่อต้าน",
+    "tl": "Pumili / tumutol – depende sa konteksto: maingat na pumili o mag-uri-uri ng isang bagay, o tumutol/lumaban",
+    "ur": "منتخب کرنا / مخالفت کرنا – سیاق و سباق کے مطابق: کسی چیز کو احتیاط سے چننا یا چھانٹنا، یا اعتراض کرنا/مزاحمت کرنا",
+    "vi": "Tuyển chọn / phản đối – tùy ngữ cảnh: lựa chọn hoặc phân loại cẩn thận, hoặc phản đối/phản kháng",
+    "zh": "筛选/反对 – 根据语境：仔细挑选或分拣某物，或反对/抵制",
+    "zh_Hant": "篩選/反對 – 根據語境：仔細挑選或分揀某物，或反對/抵制"
+  },
+  "definition_en": "To select / to oppose – depending on context: to carefully choose or sort something, or to object/resist",
+  "romanization": "/kʰát/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຂົາຄັດເອົາໝາກໄມ້ທີ່ດີອອກຈາກກ້ອງ",
+      "romanization": "khao khat ao mak mai thi di ok jaak gong",
+      "translation_en": "He selected the good fruit out of the crate."
+    },
+    {
+      "lao_script": "ລາວຄັດຄ້ານແຜນນັ້ນເພາະວ່າມັນບໍ່ດີ",
+      "romanization": "lao khat khaan phaen nan phao waa man boo di",
+      "translation_en": "She opposed that plan because it's not good."
+    }
+  ],
+  "image_prompt": "A simple flat illustration split into two panels: on the left, a hand carefully picking and sorting good apples from a pile; on the right, a person crossing their arms in disagreement or opposition, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍາມ",
+  "definitions": {
+    "de": "Zeit, Moment; auch: Wächter oder Wache (je nach Kontext)",
+    "en": "Time, moment, period; also can mean guard or watchman depending on context",
+    "es": "Tiempo, momento, período; también puede significar guardia o vigilante según el contexto",
+    "fr": "Temps, moment, période; peut aussi signifier garde ou veilleur selon le contexte",
+    "hi": "समय, पल, अवधि; संदर्भ के अनुसार पहरेदार या रक्षक भी",
+    "ja": "時間、時期、瞬間；文脈によって番人や警備員を意味することもある",
+    "km": "ពេលវេលា មោម ឬរយៈពេល; អាចមានន័យថាអ្នកល្បាតផងដែរ អាស្រ័យលើបរិបទ",
+    "ko": "시간, 순간, 기간; 문맥에 따라 경비원이나 파수꾼을 의미하기도 함",
+    "ne": "समय, क्षण, अवधि; सन्दर्भ अनुसार पहरेदार वा रक्षक पनि",
+    "pt": "Tempo, momento, período; também pode significar guarda ou vigia dependendo do contexto",
+    "th": "เวลา ช่วงเวลา หรือขณะ; บางบริบทหมายถึงยาม หรือผู้เฝ้าระวัง",
+    "tl": "Oras, sandali, panahon; maaari ring mangahulugang bantay o guwardya depende sa konteksto",
+    "ur": "وقت، لمحہ، مدت؛ سیاق و سباق کے مطابق پہرہ دار یا محافظ بھی",
+    "vi": "Thời gian, lúc, thời điểm; cũng có thể có nghĩa là người gác hay bảo vệ tùy ngữ cảnh",
+    "zh": "时间、时刻、时期；根据语境也可指守卫或哨兵",
+    "zh_Hant": "時間、時刻、時期；根據語境也可指守衛或哨兵"
+  },
+  "definition_en": "Time, moment, period; also can mean guard or watchman depending on context",
+  "romanization": "/ɲáːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ຍາມນີ້ເຈົ້າຢູ່ໃສ?",
+      "romanization": "nyam ní jao yù sǎi?",
+      "translation_en": "Where are you right now?"
+    },
+    {
+      "lao_script": "ຍາມໃດກໍຕາມ ໂທຫາຂ້ອຍໄດ້ເລີຍ",
+      "romanization": "nyam dai gò taam, thoh hǎa khòi dâi loei",
+      "translation_en": "You can call me anytime."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a clock showing a specific time on one side and a smiling person gesturing 'anytime' on the other, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

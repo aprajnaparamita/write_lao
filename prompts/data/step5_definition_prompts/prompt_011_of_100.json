@@ -1,0 +1,386 @@
+{
+  "ທາງ": {
+    "definitions": {
+      "de": "Weg, Straße, Richtung – bezeichnet einen physischen Pfad oder eine Richtung, in die man sich bewegt",
+      "en": "Way, road, or direction – refers to a path, route, or direction of movement",
+      "es": "Camino, carretera o dirección – se refiere a un sendero, ruta o dirección de movimiento",
+      "fr": "Chemin, route ou direction – désigne un sentier, un itinéraire ou une direction de déplacement",
+      "hi": "रास्ता, सड़क या दिशा – किसी पथ, मार्ग या गति की दिशा को दर्शाता है",
+      "ja": "道、道路、または方向 – 道筋、ルート、または移動の方向を指す",
+      "km": "ផ្លូវ ទិសដៅ ឬមាគ៌ា – សំដៅលើផ្លូវ ឬទិសដៅនៃការធ្វើដំណើរ",
+      "ko": "길, 도로 또는 방향 – 경로, 루트 또는 이동 방향을 나타냄",
+      "ne": "बाटो, सडक वा दिशा – कुनै मार्ग, रुट वा गतिको दिशालाई जनाउँछ",
+      "pt": "Caminho, estrada ou direção – refere-se a um trajeto, rota ou direção de movimento",
+      "th": "ทาง ถนน หรือทิศทาง – หมายถึงเส้นทาง เส้นทางเดินทาง หรือทิศทางการเคลื่อนที่",
+      "tl": "Daan, kalsada, o direksyon – tumutukoy sa landas, ruta, o direksyon ng paggalaw",
+      "ur": "راستہ، سڑک یا سمت – کسی راہ، روٹ یا نقل و حرکت کی سمت کو ظاہر کرتا ہے",
+      "vi": "Đường, con đường hoặc hướng đi – chỉ một lối đi, tuyến đường hoặc hướng di chuyển",
+      "zh": "路、道路或方向——指某条路径、路线或移动的方向",
+      "zh_Hant": "路、道路或方向——指某條路徑、路線或移動的方向"
+    },
+    "part_of_speech": "noun",
+    "romanization": "tʰaːŋ",
+    "examples": [
+      {
+        "lao_script": "ທາງໄປຕະຫຼາດຢູ່ໃສ?",
+        "romanization": "tʰaːŋ pai ta-laːt yùː saǐ?",
+        "translations": {
+          "de": "Wo ist der Weg zum Markt?",
+          "en": "Which way is it to the market?",
+          "es": "¿Por dónde se va al mercado?",
+          "fr": "C'est par où pour aller au marché ?",
+          "hi": "बाज़ार का रास्ता कहाँ है?",
+          "ja": "市場への道はどこですか？",
+          "km": "ផ្លូវទៅផ្សារនៅឯណា?",
+          "ko": "시장 가는 길이 어디예요?",
+          "ne": "बजार जाने बाटो कहाँ छ?",
+          "pt": "Qual é o caminho para o mercado?",
+          "th": "ทางไปตลาดอยู่ที่ไหน?",
+          "tl": "Nasaan ang daan papunta sa palengke?",
+          "ur": "بازار جانے کا راستہ کہاں ہے؟",
+          "vi": "Đường đến chợ ở đâu vậy?",
+          "zh": "去市场的路在哪里？",
+          "zh_Hant": "去市場的路在哪裡？"
+        },
+        "out_of_scope_words": [
+          "ຕະຫຼາດ"
+        ]
+      },
+      {
+        "lao_script": "ໄປທາງນີ້ແລ້ວຈະເຫັນຮ້ານ",
+        "romanization": "pai tʰaːŋ niː lɛːw dʑaː hěn haːn",
+        "translations": {
+          "de": "Geh in diese Richtung und du wirst den Laden sehen.",
+          "en": "Go this way and you'll see the shop.",
+          "es": "Ve por este camino y verás la tienda.",
+          "fr": "Va par là et tu verras le magasin.",
+          "hi": "इस रास्ते जाओ तो दुकान दिखेगी।",
+          "ja": "この道を行けばお店が見えますよ。",
+          "km": "ទៅតាមផ្លូវនេះហើយនឹងឃើញហាង",
+          "ko": "이쪽으로 가면 가게가 보일 거예요.",
+          "ne": "यो बाटो गयो भने पसल देखिन्छ।",
+          "pt": "Vá por este caminho e você verá a loja.",
+          "th": "ไปทางนี้แล้วจะเห็นร้าน",
+          "tl": "Pumunta sa direksyong ito tapos makikita mo ang tindahan.",
+          "ur": "اس راستے جاؤ تو دکان نظر آئے گی۔",
+          "vi": "Đi theo đường này rồi sẽ thấy cái cửa hàng.",
+          "zh": "走这条路就能看到店铺了。",
+          "zh_Hant": "走這條路就能看到店舖了。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a road or path stretching forward with a directional arrow, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຕາມ": {
+    "definitions": {
+      "de": "Folgen, gemäß, entsprechend – wird verwendet, um das Nachfolgen einer Person oder das Handeln nach einer Regel oder Anweisung auszudrücken",
+      "en": "To follow, according to, or in accordance with – used to express following someone or acting in accordance with a rule or instruction",
+      "es": "Seguir, según, de acuerdo con – se usa para expresar el seguimiento de alguien o actuar conforme a una regla o instrucción",
+      "fr": "Suivre, selon, conformément à – utilisé pour exprimer le fait de suivre quelqu'un ou d'agir selon une règle ou une instruction",
+      "hi": "पीछे चलना, के अनुसार, के मुताबिक – किसी का अनुसरण करने या किसी नियम के अनुसार कार्य करने के लिए प्रयुक्त",
+      "ja": "従う、〜に従って、〜によると – 誰かについていったり、規則や指示に従って行動することを表す",
+      "km": "តាម ស្របតាម ឬអនុវត្តតាម – ប្រើដើម្បីបញ្ជាក់ការដើរតាម ឬការធ្វើតាមច្បាប់",
+      "ko": "따르다, ~에 따라, ~에 의하면 – 누군가를 따르거나 규칙이나 지시에 따라 행동하는 것을 나타냄",
+      "ne": "पछ्याउनु, अनुसार, अनुरूप – कसैलाई पछ्याउने वा कुनै नियम अनुसार काम गर्ने भाव व्यक्त गर्न प्रयोग हुन्छ",
+      "pt": "Seguir, de acordo com, conforme – usado para expressar o seguimento de alguém ou agir de acordo com uma regra ou instrução",
+      "th": "ตาม แล้วแต่ หรือตามที่ – ใช้เพื่อแสดงการติดตามใครบางคนหรือปฏิบัติตามกฎหรือคำสั่ง",
+      "tl": "Sundan, ayon sa, o alinsunod sa – ginagamit upang ipahayag ang pagsunod sa isang tao o pagtugon sa isang tuntunin o tagubilin",
+      "ur": "پیچھے چلنا، کے مطابق، کے موافق – کسی کی پیروی کرنے یا کسی قاعدے کے مطابق عمل کرنے کے لیے استعمال ہوتا ہے",
+      "vi": "Theo, đi theo, hay theo như – dùng để diễn đạt việc đi theo ai đó hoặc hành động theo một quy tắc hay hướng dẫn",
+      "zh": "跟随、按照、依据——用于表达跟随某人或按照规则、指示行事",
+      "zh_Hant": "跟隨、按照、依據——用於表達跟隨某人或按照規則、指示行事"
+    },
+    "part_of_speech": "verb",
+    "romanization": "taːm",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຕາມຂ້ອຍມາໄດ້ເລີຍ",
+        "romanization": "dʑâo taːm kʰɔːi maː daǐ ləːi",
+        "translations": {
+          "de": "Du kannst mir einfach folgen.",
+          "en": "You can just follow me.",
+          "es": "Puedes seguirme nomás.",
+          "fr": "Tu peux juste me suivre.",
+          "hi": "तुम बस मेरे पीछे आ सकते हो।",
+          "ja": "私についてきていいよ。",
+          "km": "អ្នកអាចដើរតាមខ្ញុំបានទេ",
+          "ko": "그냥 나 따라오면 돼요.",
+          "ne": "तिमी मलाई पछ्याएर आउन सक्छौ।",
+          "pt": "Você pode só me seguir.",
+          "th": "แกตามฉันมาได้เลย",
+          "tl": "Sundan mo lang ako.",
+          "ur": "تم بس میرے پیچھے آ سکتے ہو۔",
+          "vi": "Bạn cứ theo tôi mà đi thôi.",
+          "zh": "你跟着我来就行了。",
+          "zh_Hant": "你跟著我來就行了。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ຕາມທີ່ຄູບອກ, ຕ້ອງເຮັດການບ້ານທຸກວັນ",
+        "romanization": "taːm tʰiː kʰuː bɔːk, tɔːŋ hét kaːn baːn tʰúk van",
+        "translations": {
+          "de": "Laut dem, was der Lehrer gesagt hat, muss man jeden Tag Hausaufgaben machen.",
+          "en": "According to what the teacher said, you have to do homework every day.",
+          "es": "Según lo que dijo el maestro, hay que hacer la tarea todos los días.",
+          "fr": "D'après ce que le professeur a dit, il faut faire les devoirs tous les jours.",
+          "hi": "जैसा शिक्षक ने कहा, हर रोज़ होमवर्क करना पड़ता है।",
+          "ja": "先生が言ったことによると、毎日宿題をしなければならない。",
+          "km": "យោងតាមអ្វីដែលគ្រូបាននិយាយ ត្រូវធ្វើការងារផ្ទះរៀងរាល់ថ្ងៃ",
+          "ko": "선생님이 말씀하신 대로 매일 숙제를 해야 해요.",
+          "ne": "शिक्षकले भनेको अनुसार हरेक दिन गृहकार्य गर्नुपर्छ।",
+          "pt": "De acordo com o que o professor disse, é preciso fazer dever de casa todo dia.",
+          "th": "ตามที่ครูบอก ต้องทำการบ้านทุกวัน",
+          "tl": "Ayon sa sinabi ng guro, kailangan gumawa ng homework araw-araw.",
+          "ur": "استاد نے جو کہا اس کے مطابق، ہر روز ہوم ورک کرنا پڑتا ہے۔",
+          "vi": "Theo lời thầy giáo nói, phải làm bài tập về nhà mỗi ngày.",
+          "zh": "按照老师说的，每天都得做作业。",
+          "zh_Hant": "按照老師說的，每天都得做作業。"
+        },
+        "out_of_scope_words": [
+          "ຄູ",
+          "ການບ້ານ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of one person following another person along a path, viewed from the side, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຢ່າງ": {
+    "definitions": {
+      "de": "Art, Weise, Typ – wird verwendet, um eine Art und Weise, Methode oder einen Typ zu beschreiben; auch ein adverbialer Marker",
+      "en": "Kind, type, manner, or way – used to describe how something is done or what type something is; also an adverbial marker",
+      "es": "Tipo, clase, manera o modo – se usa para describir cómo se hace algo o de qué tipo es algo; también es un marcador adverbial",
+      "fr": "Type, sorte, manière ou façon – utilisé pour décrire comment quelque chose est fait ou de quel type est quelque chose ; aussi un marqueur adverbial",
+      "hi": "प्रकार, तरह, तरीका – किसी काम को कैसे किया जाए या कोई चीज़ किस प्रकार की है, यह बताने के लिए प्रयुक्त; एक क्रियाविशेषण चिह्नक भी",
+      "ja": "種類、様子、方法 – 何かがどのように行われるか、またはそれがどのような種類かを表すために使われる副詞マーカー",
+      "km": "ប្រភេទ របៀប ឬវិធី – ប្រើដើម្បីពិពណ៌នាពីរបៀបដែលអ្វីមួយត្រូវបានធ្វើ ឬជាប្រភេទអ្វី",
+      "ko": "종류, 방식, 방법 – 무언가가 어떻게 이루어지는지 또는 어떤 종류인지를 설명하는 데 사용되는 부사 표지",
+      "ne": "प्रकार, तरिका, किसिम – कुनै काम कसरी गरिन्छ वा कस्तो किसिमको छ भनी वर्णन गर्न प्रयोग हुन्छ; क्रियाविशेषण चिह्नक पनि",
+      "pt": "Tipo, espécie, maneira ou modo – usado para descrever como algo é feito ou de que tipo é algo; também um marcador adverbial",
+      "th": "ชนิด ประเภท หรือวิธี – ใช้เพื่ออธิบายว่าสิ่งใดสิ่งหนึ่งทำอย่างไรหรือเป็นประเภทใด ยังเป็นคำบอกลักษณะวิธีการด้วย",
+      "tl": "Uri, klase, paraan, o pamamaraan – ginagamit upang ilarawan kung paano ginagawa ang isang bagay o kung anong uri ito; isang adverbial na marker din",
+      "ur": "قسم، طریقہ، انداز – یہ بتانے کے لیے استعمال ہوتا ہے کہ کوئی کام کیسے ہوتا ہے یا کوئی چیز کس قسم کی ہے؛ ایک ظرفی نشان بھی",
+      "vi": "Loại, kiểu, cách thức – dùng để mô tả cách một việc gì đó được thực hiện hoặc đó là loại gì; cũng là một từ đánh dấu trạng ngữ",
+      "zh": "种类、方式或方法——用于描述某事如何完成或属于哪种类型；也是一个状语标记词",
+      "zh_Hant": "種類、方式或方法——用於描述某事如何完成或屬於哪種類型；也是一個狀語標記詞"
+    },
+    "part_of_speech": "adverb",
+    "romanization": "jaːŋ",
+    "examples": [
+      {
+        "lao_script": "ເຮັດຢ່າງໃດຈຶ່ງຈະສຳເລັດ?",
+        "romanization": "hét jaːŋ daǐ dʑɯŋ dʑaː sam-lét?",
+        "translations": {
+          "de": "Wie soll man das schaffen?",
+          "en": "How do you do it to succeed?",
+          "es": "¿De qué manera se logra?",
+          "fr": "Comment faut-il faire pour y arriver ?",
+          "hi": "इसे कैसे करें तभी सफल होगा?",
+          "ja": "どうやれば成功するの？",
+          "km": "ធ្វើដូចម្តេចទើបនឹងជោគជ័យ?",
+          "ko": "어떻게 해야 성공할 수 있을까요?",
+          "ne": "कसरी गर्दा सफल हुन्छ?",
+          "pt": "Como fazer para conseguir?",
+          "th": "ทำยังไงถึงจะสำเร็จ?",
+          "tl": "Paano ba ito gagawin para matagumpay?",
+          "ur": "کیسے کریں تو کامیاب ہو جائیں گے؟",
+          "vi": "Làm như thế nào mới thành công được?",
+          "zh": "怎么做才能成功？",
+          "zh_Hant": "怎麼做才能成功？"
+        },
+        "out_of_scope_words": [
+          "ສຳເລັດ"
+        ]
+      },
+      {
+        "lao_script": "ເຂົາເວົ້າຢ່າງຊ້າໆເພື່ອໃຫ້ຟັງທັນ",
+        "romanization": "kʰǎo wáo jaːŋ saːo saːo pʰɯːa haǐ fáŋ tʰan",
+        "translations": {
+          "de": "Er sprach langsam, damit man ihn gut verstehen konnte.",
+          "en": "He spoke slowly so that everyone could follow along.",
+          "es": "Habló de manera lenta para que todos pudieran entender.",
+          "fr": "Il parlait lentement pour que tout le monde puisse suivre.",
+          "hi": "वह धीरे-धीरे बोला ताकि सब सुन सकें।",
+          "ja": "みんながついていけるようにゆっくりと話した。",
+          "km": "គាត់និយាយយឺតៗ ដើម្បីឱ្យអ្នកដទៃស្តាប់ទាន់",
+          "ko": "모두가 알아들을 수 있도록 천천히 말했어요.",
+          "ne": "उसले बिस्तारै-बिस्तारै बोल्यो ताकि सुन्न मिलोस।",
+          "pt": "Ele falou devagar para que todos pudessem acompanhar.",
+          "th": "เขาพูดอย่างช้าๆ เพื่อให้ฟังทัน",
+          "tl": "Nagsalita siya nang mabagal para maintindihan ng lahat.",
+          "ur": "اس نے آہستہ آہستہ بات کی تاکہ سب سن سکیں۔",
+          "vi": "Anh ấy nói từng chữ một thật chậm để mọi người nghe kịp.",
+          "zh": "他说话很慢，好让大家能听清楚。",
+          "zh_Hant": "他說話很慢，好讓大家能聽清楚。"
+        },
+        "out_of_scope_words": [
+          "ຊ້າໆ",
+          "ເພື່ອ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two side-by-side images: one person doing something fast and one doing it slowly, with a label showing 'manner/way', suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແລ້ວ": {
+    "definitions": {
+      "de": "Schon, bereits, dann (Abschlussaspekt) – zeigt an, dass eine Handlung abgeschlossen ist, oder verbindet zwei Ereignisse in einer Reihenfolge",
+      "en": "Already, done, or then – indicates that an action has been completed, or links two sequential events; a completive aspect marker",
+      "es": "Ya, listo, luego o entonces – indica que una acción se ha completado, o conecta dos eventos en secuencia; marcador de aspecto completivo",
+      "fr": "Déjà, terminé, puis ou alors – indique qu'une action est accomplie, ou relie deux événements en séquence ; marqueur d'aspect accompli",
+      "hi": "पहले से, हो चुका, फिर – किसी क्रिया के पूरा हो जाने का संकेत देता है, या दो क्रमबद्ध घटनाओं को जोड़ता है; पूर्णता-पक्ष चिह्नक",
+      "ja": "もう、すでに、それから – 動作が完了したことを示す、または二つの連続した出来事をつなぐ完了アスペクトマーカー",
+      "km": "រួចហើយ បន្ទាប់មក – បង្ហាញថាសកម្មភាពមួយបានបញ្ចប់ហើយ ឬភ្ជាប់ព្រឹត្តិការណ៍ពីរជាលំដាប់",
+      "ko": "이미, 다 됐어, 그 다음에 – 행동이 완료되었음을 나타내거나 두 연속 사건을 연결하는 완료상 표지",
+      "ne": "पहिल्यै, सकिसक्यो, त्यसपछि – कुनै काम पूरा भइसकेको संकेत दिन्छ, वा दुई क्रमिक घटनाहरूलाई जोड्छ; पूर्णता-पक्ष चिह्नक",
+      "pt": "Já, pronto, então ou depois – indica que uma ação foi concluída, ou conecta dois eventos em sequência; marcador de aspecto completivo",
+      "th": "แล้ว (เสร็จแล้ว หรือ จากนั้น) – บอกว่าการกระทำเสร็จสมบูรณ์แล้ว หรือเชื่อมสองเหตุการณ์ที่เกิดขึ้นต่อเนื่องกัน",
+      "tl": "Na, tapos na, o pagkatapos – nagpapakita na natapos na ang isang kilos, o nag-uugnay ng dalawang magkakasunod na pangyayari; isang completive aspect marker",
+      "ur": "پہلے سے، ہو چکا، پھر – ظاہر کرتا ہے کہ کوئی عمل مکمل ہو گیا ہے، یا دو یکے بعد دیگرے واقعات کو جوڑتا ہے؛ تکمیلی پہلو کا نشان",
+      "vi": "Rồi, xong rồi, đã – cho thấy một hành động đã hoàn thành, hoặc nối hai sự kiện liên tiếp; từ đánh dấu thể hoàn thành",
+      "zh": "已经、完了、然后——表示某个动作已经完成，或连接两个先后发生的事件；完成体标记词",
+      "zh_Hant": "已經、完了、然後——表示某個動作已經完成，或連接兩個先後發生的事件；完成體標記詞"
+    },
+    "part_of_speech": "particle",
+    "romanization": "lɛːw",
+    "examples": [
+      {
+        "lao_script": "ກິນເຂົ້າແລ້ວຫຼືຍັງ?",
+        "romanization": "kin kʰâo lɛːw lɯː jaŋ?",
+        "translations": {
+          "de": "Hast du schon gegessen oder noch nicht?",
+          "en": "Have you eaten yet or not?",
+          "es": "¿Ya comiste o todavía no?",
+          "fr": "Tu as déjà mangé ou pas encore ?",
+          "hi": "खाना खा लिया या अभी नहीं?",
+          "ja": "もうご飯食べた？まだ？",
+          "km": "បានញ៉ាំបាយហើយឬនៅ?",
+          "ko": "밥 벌써 먹었어요, 아직이에요?",
+          "ne": "खाना खाइसक्यो कि अझै नखाएको?",
+          "pt": "Já comeu ou ainda não?",
+          "th": "กินข้าวแล้วหรือยัง?",
+          "tl": "Kumain ka na ba o hindi pa?",
+          "ur": "کھانا کھا لیا یا ابھی نہیں؟",
+          "vi": "Ăn cơm chưa vậy?",
+          "zh": "吃饭了吗，还是还没吃？",
+          "zh_Hant": "吃飯了嗎，還是還沒吃？"
+        },
+        "out_of_scope_words": [
+          "ເຂົ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເຮັດວຽກແລ້ວກໍ່ໄປພັກໄດ້ເລີຍ",
+        "romanization": "hét viak lɛːw kɔː pai pʰák daǐ ləːi",
+        "translations": {
+          "de": "Wenn du mit der Arbeit fertig bist, kannst du einfach gehen und dich ausruhen.",
+          "en": "Once you finish work, you can go rest.",
+          "es": "Cuando termines de trabajar, puedes ir a descansar.",
+          "fr": "Une fois le travail terminé, tu peux aller te reposer.",
+          "hi": "काम कर लो फिर आराम करने जा सकते हो।",
+          "ja": "仕事が終わったら休みに行っていいよ。",
+          "km": "បានធ្វើការហើយ ក៏អាចទៅសម្រាកបាន",
+          "ko": "일 다 하고 나서 쉬러 가도 돼요.",
+          "ne": "काम सकेपछि आराम गर्न जान पाइन्छ।",
+          "pt": "Depois que terminar o trabalho, pode ir descansar.",
+          "th": "ทำงานเสร็จแล้วก็ไปพักได้เลย",
+          "tl": "Pagkatapos magtrabaho, makakahingi ka na ng pahinga.",
+          "ur": "کام کر لو پھر آرام کرنے جا سکتے ہو۔",
+          "vi": "Làm việc xong rồi thì đi nghỉ ngơi đi thôi.",
+          "zh": "做完工作就可以去休息了。",
+          "zh_Hant": "做完工作就可以去休息了。"
+        },
+        "out_of_scope_words": [
+          "ວຽກ",
+          "ພັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a checklist with a green checkmark indicating a completed task, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ເມືອງ": {
+    "definitions": {
+      "de": "Stadt, Kleinstadt oder Bezirk – bezeichnet eine bewohnte Gemeinschaft, die größer als ein Dorf, aber kleiner als eine Metropole ist; auch für Verwaltungsbezirke verwendet",
+      "en": "City, town, or district – refers to an inhabited community larger than a village; also used for administrative districts in Laos",
+      "es": "Ciudad, pueblo o distrito – se refiere a una comunidad habitada más grande que una aldea; también se usa para distritos administrativos en Laos",
+      "fr": "Ville, bourg ou district – désigne une communauté habitée plus grande qu'un village ; utilisé aussi pour les districts administratifs au Laos",
+      "hi": "शहर, नगर या जिला – किसी गाँव से बड़ी बस्ती को दर्शाता है; लाओस में प्रशासनिक जिलों के लिए भी प्रयुक्त",
+      "ja": "都市、町、または行政区 – 村よりも大きな居住地を指す；ラオスの行政区にも使われる",
+      "km": "ទីក្រុង ទីប្រជុំជន ឬស្រុក – សំដៅលើសហគមន៍ដែលធំជាងភូមិ ហើយក៏ប្រើសម្រាប់ស្រុករដ្ឋបាលនៅប្រទេសឡាវផងដែរ",
+      "ko": "도시, 읍 또는 행정구역 – 마을보다 큰 정주 공동체를 나타내며, 라오스에서는 행정 구역에도 사용됨",
+      "ne": "सहर, नगर वा जिल्ला – गाउँभन्दा ठूलो बस्तीलाई जनाउँछ; लाओसमा प्रशासनिक जिल्लाका लागि पनि प्रयोग हुन्छ",
+      "pt": "Cidade, vila ou distrito – refere-se a uma comunidade habitada maior que uma aldeia; também usado para distritos administrativos no Laos",
+      "th": "เมือง ตำบล หรือเขต – หมายถึงชุมชนที่มีประชากรอาศัยอยู่ซึ่งมีขนาดใหญ่กว่าหมู่บ้าน ยังใช้สำหรับเขตการปกครองในลาวด้วย",
+      "tl": "Lungsod, bayan, o distrito – tumutukoy sa isang komunidad na mas malaki sa isang nayon; ginagamit din para sa mga administratibong distrito sa Laos",
+      "ur": "شہر، قصبہ یا ضلع – ایک ایسی آبادی کو ظاہر کرتا ہے جو گاؤں سے بڑی ہو؛ لاؤس میں انتظامی اضلاع کے لیے بھی استعمال ہوتا ہے",
+      "vi": "Thành phố, thị trấn hoặc huyện – chỉ một cộng đồng dân cư lớn hơn làng; cũng dùng để chỉ các huyện hành chính ở Lào",
+      "zh": "城市、城镇或县区——指比村庄更大的居住社区；在老挝也用于行政区划",
+      "zh_Hant": "城市、城鎮或縣區——指比村莊更大的居住社區；在寮國也用於行政區劃"
+    },
+    "part_of_speech": "noun",
+    "romanization": "mɯːaŋ",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າຢູ່ໃນເມືອງຫຼືຢູ່ບ້ານນອກ?",
+        "romanization": "dʑâo yùː nai mɯːaŋ lɯː yùː baːn nɔːk?",
+        "translations": {
+          "de": "Wohnst du in der Stadt oder auf dem Land?",
+          "en": "Do you live in the city or in the countryside?",
+          "es": "¿Vives en la ciudad o en el campo?",
+          "fr": "Tu vis en ville ou à la campagne ?",
+          "hi": "तुम शहर में रहते हो या गाँव में?",
+          "ja": "都市に住んでいるの？それとも田舎？",
+          "km": "អ្នករស់នៅក្នុងទីក្រុង ឬនៅជនបទ?",
+          "ko": "도시에 살아요, 아니면 시골에 살아요?",
+          "ne": "तिमी सहरमा बस्छौ कि गाउँमा?",
+          "pt": "Você mora na cidade ou no interior?",
+          "th": "แกอยู่ในเมืองหรืออยู่บ้านนอก?",
+          "tl": "Nakatira ka ba sa lungsod o sa probinsya?",
+          "ur": "تم شہر میں رہتے ہو یا گاؤں میں؟",
+          "vi": "Bạn sống trong thành phố hay ở nông thôn?",
+          "zh": "你住在城里还是农村？",
+          "zh_Hant": "你住在城裡還是農村？"
+        },
+        "out_of_scope_words": [
+          "ບ້ານນອກ"
+        ]
+      },
+      {
+        "lao_script": "ເມືອງນີ້ມີຄົນຫຼາຍຫຼາຍ",
+        "romanization": "mɯːaŋ niː miː kʰon laːi laːi",
+        "translations": {
+          "de": "Diese Stadt hat sehr viele Menschen.",
+          "en": "This city has so many people.",
+          "es": "Esta ciudad tiene muchísima gente.",
+          "fr": "Cette ville a énormément de monde.",
+          "hi": "इस शहर में बहुत सारे लोग हैं।",
+          "ja": "この街はとても人が多い。",
+          "km": "ទីក្រុងនេះមានមនុស្សច្រើនណាស់",
+          "ko": "이 도시에는 사람이 정말 많아요.",
+          "ne": "यो सहरमा धेरै मान्छेहरू छन्।",
+          "pt": "Esta cidade tem muita gente.",
+          "th": "เมืองนี้มีคนเยอะมากเลย",
+          "tl": "Ang lungsod na ito ay maraming tao.",
+          "ur": "اس شہر میں بہت زیادہ لوگ ہیں۔",
+          "vi": "Thành phố này có rất nhiều người.",
+          "zh": "这个城市人太多了。",
+          "zh_Hant": "這個城市人太多了。"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a small cityscape with a few colorful buildings, a road, and trees, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

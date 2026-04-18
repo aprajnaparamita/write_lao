@@ -1,0 +1,36 @@
+{
+  "lao_word": "ກວດ",
+  "definitions": {
+    "de": "Überprüfen, inspizieren oder untersuchen – etwas sorgfältig kontrollieren",
+    "en": "To check, inspect, or examine something carefully",
+    "es": "Revisar, inspeccionar o examinar algo con cuidado",
+    "fr": "Vérifier, inspecter ou examiner quelque chose attentivement",
+    "hi": "किसी चीज़ को ध्यान से जाँचना, निरीक्षण करना या परीक्षण करना",
+    "ja": "何かを注意深く確認・点検・検査すること",
+    "km": "ពិនិត្យ ត្រួតពិនិត្យ ឬពិភាក្សាអ្វីមួយដោយយកចិត្តទុកដាក់",
+    "ko": "무언가를 주의 깊게 확인하거나 점검하거나 검사하다",
+    "ne": "कुनै कुरालाई ध्यानपूर्वक जाँच्नु, निरीक्षण गर्नु वा परीक्षण गर्नु",
+    "pt": "Verificar, inspecionar ou examinar algo com cuidado",
+    "th": "ตรวจสอบ ตรวจดู หรือตรวจสอบสิ่งใดสิ่งหนึ่งอย่างละเอียด",
+    "tl": "Suriin, inspeksyonin, o egzaminahin nang maingat ang isang bagay",
+    "ur": "کسی چیز کو غور سے جانچنا، معائنہ کرنا یا پرکھنا",
+    "vi": "Kiểm tra, kiểm soát hoặc xem xét kỹ lưỡng một thứ gì đó",
+    "zh": "仔细检查、检验或审查某事物",
+    "zh_Hant": "仔細檢查、檢驗或審查某事物"
+  },
+  "definition_en": "To check, inspect, or examine something carefully",
+  "romanization": "/kùat/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າກວດການບ້ານຂອງຂ້ອຍໜ່ອຍໄດ້ບໍ?",
+      "romanization": "jâo kùat kaan bâan khɔ̌ng khɔ̂i nɔ̀i dâi bɔ̄?",
+      "translation_en": "Can you check my homework for me?"
+    },
+    {
+      "lao_script": "ໝໍກວດຮ່າງກາຍຂ້ອຍທຸກປີ",
+      "romanization": "mɔ̌ː kùat hâang kaai khɔ̂i thúk piː",
+      "translation_en": "The doctor examines my body every year"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person carefully checking or inspecting a document with a magnifying glass, clean white background, colorful minimalist style, suitable for a language learning app"
+}

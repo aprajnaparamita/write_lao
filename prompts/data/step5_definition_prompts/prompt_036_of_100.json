@@ -1,0 +1,412 @@
+{
+  "ຖາ": {
+    "definitions": {
+      "de": "Präfixsilbe, die in zusammengesetzten Wörtern verwendet wird, oft um Fragen oder Bedingungen einzuleiten (z. B. ຖາມ – fragen, ຖ້າ – wenn/falls)",
+      "en": "A prefix syllable used in compound words, often introducing questions or conditions (e.g., ຖາມ – to ask, ຖ້າ – if/wait)",
+      "es": "Sílaba prefija usada en palabras compuestas, que a menudo introduce preguntas o condiciones (p. ej., ຖາມ – preguntar, ຖ້າ – si/esperar)",
+      "fr": "Syllabe préfixe utilisée dans les mots composés, introduisant souvent des questions ou des conditions (ex. : ຖາມ – demander, ຖ້າ – si/attendre)",
+      "hi": "एक उपसर्ग अक्षर जो यौगिक शब्दों में प्रयुक्त होता है, अक्सर प्रश्न या शर्त को व्यक्त करता है (जैसे ຖາມ – पूछना, ຖ້າ – अगर/इंतजार करना)",
+      "ja": "複合語に使われる接頭音節で、質問や条件を導入することが多い（例：ຖາມ – 尋ねる、ຖ້າ – もし/待つ）",
+      "km": "ព្យាង្គបុព្វបទដែលប្រើក្នុងពាក្យផ្សំ ជារឿយៗណែនាំសំណួរ ឬលក្ខខណ្ឌ (ឧ. ຖາມ – សួរ, ຖ້າ – បើ/រង់ចាំ)",
+      "ko": "복합어에 사용되는 접두 음절로, 종종 질문이나 조건을 나타낼 때 씀 (예: ຖາມ – 묻다, ຖ້າ – 만약/기다리다)",
+      "ne": "यौगिक शब्दहरूमा प्रयोग हुने उपसर्ग अक्षर, प्रायः प्रश्न वा सर्त बुझाउँछ (जस्तै ຖາມ – सोध्नु, ຖ້າ – यदि/पर्खनु)",
+      "pt": "Sílaba prefixo usada em palavras compostas, frequentemente introduzindo perguntas ou condições (ex.: ຖາມ – perguntar, ຖ້າ – se/esperar)",
+      "th": "พยางค์นำที่ใช้ในคำประสม มักนำหน้าคำถามหรือเงื่อนไข (เช่น ຖາມ – ถาม, ຖ້າ – ถ้า/รอ)",
+      "tl": "Isang prefix na pantig na ginagamit sa mga tambalang salita, madalas na nagpapakilala ng mga tanong o kondisyon (hal., ຖາມ – magtanong, ຖ້າ – kung/maghintay)",
+      "ur": "ایک سابقہ حرف جو مرکب الفاظ میں استعمال ہوتا ہے، اکثر سوالات یا شرائط متعارف کراتا ہے (مثلاً ຖາມ – پوچھنا، ຖ້າ – اگر/انتظار کرنا)",
+      "vi": "Âm tiết tiền tố dùng trong các từ ghép, thường mở đầu cho câu hỏi hoặc điều kiện (ví dụ: ຖາມ – hỏi, ຖ້າ – nếu/chờ)",
+      "zh": "用于复合词的前缀音节，常用于引入疑问或条件（如 ຖາມ – 问，ຖ້າ – 如果/等待）",
+      "zh_Hant": "用於複合詞的前綴音節，常用於引入疑問或條件（如 ຖາມ – 問，ຖ້າ – 如果/等待）"
+    },
+    "part_of_speech": "particle",
+    "romanization": "tʰaː³³",
+    "examples": [
+      {
+        "lao_script": "ຖາມເພິ່ນກ່ອນເດີ້ ຖ້າບໍ່ຮູ້",
+        "romanization": "tʰaam pʰɤn kɔːn deː, tʰaː bɔː huː",
+        "translations": {
+          "de": "Frag ihn/sie erst, wenn du es nicht weißt.",
+          "en": "Ask them first if you don't know.",
+          "es": "Pregúntales primero si no lo sabes.",
+          "fr": "Demande-lui d'abord si tu ne sais pas.",
+          "hi": "अगर नहीं जानते तो पहले उनसे पूछो।",
+          "ja": "わからなければ、まず彼/彼女に聞いてみて。",
+          "km": "សួរគាត់ជាមុនបើអ្នកមិនដឹង។",
+          "ko": "모르면 먼저 그 분한테 물어봐.",
+          "ne": "थाहा नभए पहिले उहाँलाई सोध।",
+          "pt": "Pergunta a ele/ela primeiro se não souberes.",
+          "th": "ถามท่านก่อนเลยนะ ถ้าไม่รู้",
+          "tl": "Itanong mo muna sa kanila kung hindi mo alam.",
+          "ur": "اگر نہیں جانتے تو پہلے ان سے پوچھو۔",
+          "vi": "Hỏi họ trước đi nếu không biết.",
+          "zh": "如果不知道，就先问问他/她。",
+          "zh_Hant": "如果不知道，就先問問他/她。"
+        },
+        "out_of_scope_words": [
+          "ເພິ່ນ",
+          "ກ່ອນ",
+          "ເດີ້",
+          "ຮູ້"
+        ]
+      },
+      {
+        "lao_script": "ຖ້າມື້ອື່ນຝົນຕົກ ເຮົາບໍ່ໄປ",
+        "romanization": "tʰaː mɯː ɯːn fon tok, hao bɔː pai",
+        "translations": {
+          "de": "Wenn es morgen regnet, gehen wir nicht.",
+          "en": "If it rains tomorrow, we won't go.",
+          "es": "Si llueve mañana, no iremos.",
+          "fr": "S'il pleut demain, on n'y va pas.",
+          "hi": "अगर कल बारिश हुई, तो हम नहीं जाएंगे।",
+          "ja": "明日雨が降ったら、行かない。",
+          "km": "ប្រសិនបើភ្លៀងថ្ងៃស្អែក យើងមិនទៅទេ។",
+          "ko": "내일 비 오면 우리 안 가.",
+          "ne": "भोलि पानी परे हामी जाँदैनौं।",
+          "pt": "Se chover amanhã, não vamos.",
+          "th": "ถ้าพรุ่งนี้ฝนตก เราไม่ไป",
+          "tl": "Kung umulan bukas, hindi tayo pupunta.",
+          "ur": "اگر کل بارش ہوئی تو ہم نہیں جائیں گے۔",
+          "vi": "Nếu ngày mai trời mưa, chúng ta sẽ không đi.",
+          "zh": "如果明天下雨，我们就不去了。",
+          "zh_Hant": "如果明天下雨，我們就不去了。"
+        },
+        "out_of_scope_words": [
+          "ມື້ອື່ນ",
+          "ຝົນຕົກ",
+          "ເຮົາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing a speech bubble with a question mark inside, next to a branching path indicating a choice or condition, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ຄູ່": {
+    "definitions": {
+      "de": "Ein Paar; zwei zusammengehörende Dinge oder Personen; auch verwendet als Klassifikator für paarige Objekte",
+      "en": "A pair or couple; two matching or related things or people; also used as a classifier for paired objects",
+      "es": "Un par o pareja; dos cosas o personas que van juntas; también se usa como clasificador para objetos en pares",
+      "fr": "Une paire ou un couple ; deux choses ou personnes qui vont ensemble ; utilisé aussi comme classificateur pour les objets en paires",
+      "hi": "एक जोड़ा; दो मेल खाने वाली वस्तुएँ या लोग; जोड़े में आने वाली वस्तुओं के लिए वर्गीकरण शब्द के रूप में भी प्रयुक्त",
+      "ja": "ペア、カップル；対になる二つの物や人；対になった物の類別詞としても使われる",
+      "km": "គូ; វត្ថុ ឬមនុស្សពីរដែលទៅគ្នា; ក៏ប្រើជាលក្ខណៈនាមសម្រាប់វត្ថុគូផងដែរ",
+      "ko": "한 쌍; 짝을 이루는 두 개의 물건이나 사람; 쌍을 이루는 사물에 쓰이는 분류사로도 사용됨",
+      "ne": "जोडी; दुई मेल खाने वस्तु वा मान्छे; जोडीमा आउने वस्तुहरूको लागि वर्गीकरण शब्दको रूपमा पनि प्रयोग",
+      "pt": "Um par ou casal; duas coisas ou pessoas que combinam; também usado como classificador para objetos em pares",
+      "th": "คู่; สิ่งของหรือคนสองอย่างที่จับคู่กัน; ใช้เป็นลักษณนามสำหรับสิ่งของที่เป็นคู่ด้วย",
+      "tl": "Isang pares o mag-asawa; dalawang bagay o taong magkasama; ginagamit din bilang klasipikador para sa mga bagay na pares",
+      "ur": "ایک جوڑا؛ دو ملتی جلتی چیزیں یا لوگ؛ جوڑے میں آنے والی چیزوں کے لیے کلاسیفائر کے طور پر بھی استعمال",
+      "vi": "Một cặp đôi; hai vật hoặc người đi cùng nhau; cũng dùng làm loại từ cho các đồ vật đi thành đôi",
+      "zh": "一对；两个相配的事物或人；也用作成对物品的量词",
+      "zh_Hant": "一對；兩個相配的事物或人；也用作成對物品的量詞"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "kʰuː²⁴",
+    "examples": [
+      {
+        "lao_script": "ຊື້ຮອງເທົ້າຄູ່ໃໝ່ມາເດີ້",
+        "romanization": "sɯː hɔːŋ tʰao kʰuː mai maa deː",
+        "translations": {
+          "de": "Ich habe ein neues Paar Schuhe gekauft.",
+          "en": "I bought a new pair of shoes.",
+          "es": "Compré un par de zapatos nuevos.",
+          "fr": "J'ai acheté une nouvelle paire de chaussures.",
+          "hi": "मैंने जूतों की एक नई जोड़ी खरीदी।",
+          "ja": "新しい靴を一足買った。",
+          "km": "ខ្ញុំបានទិញស្បែកជើងគូថ្មីមួយ។",
+          "ko": "새 신발 한 켤레 샀어.",
+          "ne": "मैले जुत्ताको नयाँ जोडी किनेँ।",
+          "pt": "Comprei um par de sapatos novos.",
+          "th": "ซื้อรองเท้าคู่ใหม่มาเลย",
+          "tl": "Bumili ako ng bagong pares ng sapatos.",
+          "ur": "میں نے جوتوں کا ایک نیا جوڑا خریدا۔",
+          "vi": "Tôi mua một đôi giày mới.",
+          "zh": "我买了一双新鞋。",
+          "zh_Hant": "我買了一雙新鞋。"
+        },
+        "out_of_scope_words": [
+          "ຊື້",
+          "ຮອງເທົ້າ",
+          "ໃໝ່"
+        ]
+      },
+      {
+        "lao_script": "ສອງຄູ່ນັ້ນຮັກກັນຫຼາຍ",
+        "romanization": "sɔːŋ kʰuː nan hak kan laːj",
+        "translations": {
+          "de": "Diese beiden Paare lieben sich sehr.",
+          "en": "Those two couples love each other a lot.",
+          "es": "Esas dos parejas se aman mucho.",
+          "fr": "Ces deux couples s'aiment beaucoup.",
+          "hi": "वो दोनों जोड़े एक-दूसरे को बहुत प्यार करते हैं।",
+          "ja": "あの二組のカップルはとても愛し合っている。",
+          "km": "គូទាំងពីរនោះស្រឡាញ់គ្នាខ្លាំងណាស់។",
+          "ko": "그 두 커플은 서로 정말 많이 사랑해.",
+          "ne": "ती दुई जोडीहरू एकअर्कालाई धेरै माया गर्छन्।",
+          "pt": "Aqueles dois casais se amam muito.",
+          "th": "สองคู่นั้นรักกันมากเลย",
+          "tl": "Ang dalawang magkasintaang iyon ay nagmamahal na labis sa isa't isa.",
+          "ur": "وہ دونوں جوڑے ایک دوسرے سے بہت محبت کرتے ہیں۔",
+          "vi": "Hai cặp đôi đó yêu nhau rất nhiều.",
+          "zh": "那两对情侣非常相爱。",
+          "zh_Hant": "那兩對情侶非常相愛。"
+        },
+        "out_of_scope_words": [
+          "ສອງ",
+          "ນັ້ນ",
+          "ຮັກ",
+          "ຫຼາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two matching items side by side — such as a pair of colorful shoes or a pair of gloves — with the number 2 subtly indicated, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນັບ": {
+    "definitions": {
+      "de": "Zählen; etwas der Reihe nach aufzählen oder berechnen; auch: jemanden oder etwas einbeziehen oder wertschätzen",
+      "en": "To count; to enumerate things in order; also to include or consider someone or something",
+      "es": "Contar; enumerar cosas en orden; también incluir o considerar a alguien o algo",
+      "fr": "Compter ; énumérer des choses dans l'ordre ; aussi inclure ou considérer quelqu'un ou quelque chose",
+      "hi": "गिनना; चीज़ों को क्रम में गिनना; किसी को शामिल करना या महत्व देना",
+      "ja": "数える；順番に物を数える；また、誰かを含めたり評価したりする",
+      "km": "រាប់; រាប់ឈ្មោះវត្ថុតាមលំដាប់; ក៏មានន័យថារួមបញ្ចូល ឬពិចារណាអ្នកណាម្នាក់ផងដែរ",
+      "ko": "세다; 순서대로 수를 세다; 또는 누군가를 포함하거나 중요하게 여기다",
+      "ne": "गन्नु; चीजहरूलाई क्रममा गन्नु; कसैलाई समावेश गर्नु वा मान्यता दिनु",
+      "pt": "Contar; enumerar coisas em ordem; também incluir ou considerar alguém ou algo",
+      "th": "นับ; การนับสิ่งของตามลำดับ; หรือการรวมหรือคำนึงถึงใครบางคน",
+      "tl": "Magbilang; mag-enumerate ng mga bagay ayon sa pagkakasunod-sunod; maaari ring ibig sabihin ay isama o ituring ang isang tao",
+      "ur": "گننا؛ چیزوں کو ترتیب سے شمار کرنا؛ کسی کو شامل کرنا یا اہمیت دینا",
+      "vi": "Đếm; liệt kê các thứ theo thứ tự; cũng có nghĩa là bao gồm hoặc coi trọng ai đó",
+      "zh": "数；按顺序计数；也有包括或看重某人/某事的意思",
+      "zh_Hant": "數；按順序計數；也有包括或看重某人/某事的意思"
+    },
+    "part_of_speech": "verb",
+    "romanization": "nap²⁴",
+    "examples": [
+      {
+        "lao_script": "ລູກນ້ອຍຫັດນັບເລກ ໑ ຫາ ໑໐ ໄດ້ແລ້ວ",
+        "romanization": "luːk nɔːj hat nap leːk nuːŋ haa sip dai lɛːw",
+        "translations": {
+          "de": "Das kleine Kind kann schon von 1 bis 10 zählen.",
+          "en": "The little child can already count from 1 to 10.",
+          "es": "El niño pequeño ya puede contar del 1 al 10.",
+          "fr": "Le petit enfant sait déjà compter de 1 à 10.",
+          "hi": "छोटा बच्चा अब 1 से 10 तक गिन सकता है।",
+          "ja": "小さな子どもがもう1から10まで数えられる。",
+          "km": "កូនតូចអាចរាប់លេខ ១ ដល់ ១០ បានហើយ។",
+          "ko": "어린아이가 벌써 1부터 10까지 셀 수 있어.",
+          "ne": "सानो बच्चाले अहिले १ देखि १० सम्म गन्न सक्छ।",
+          "pt": "A criança pequena já consegue contar de 1 a 10.",
+          "th": "เด็กน้อยนับเลข ๑ ถึง ๑๐ ได้แล้ว",
+          "tl": "Ang munting bata ay kaya na magbilang mula 1 hanggang 10.",
+          "ur": "چھوٹا بچہ ۱ سے ۱۰ تک گن سکتا ہے۔",
+          "vi": "Đứa bé nhỏ đã có thể đếm từ 1 đến 10 rồi.",
+          "zh": "小孩子已经会从1数到10了。",
+          "zh_Hant": "小孩子已經會從1數到10了。"
+        },
+        "out_of_scope_words": [
+          "ລູກນ້ອຍ",
+          "ຫັດ",
+          "ເລກ",
+          "ໄດ້ແລ້ວ"
+        ]
+      },
+      {
+        "lao_script": "ນັບຄົນໃນຫ້ອງແດ່ ມີຈັກຄົນ",
+        "romanization": "nap kʰon nai hɔːŋ dɛː, mii tɕak kʰon",
+        "translations": {
+          "de": "Zähl die Leute im Zimmer – wie viele sind es?",
+          "en": "Count the people in the room – how many are there?",
+          "es": "Cuenta a las personas en la habitación. ¿Cuántas hay?",
+          "fr": "Compte les personnes dans la pièce – combien y en a-t-il ?",
+          "hi": "कमरे में लोगों को गिनो – कितने हैं?",
+          "ja": "部屋の人数を数えて。何人いる？",
+          "km": "រាប់មនុស្សក្នុងបន្ទប់ មានប៉ុន្មាននាក់?",
+          "ko": "방 안에 있는 사람들 세어봐 – 몇 명이야?",
+          "ne": "कोठामा मान्छेहरू गन – कतिजना छन्?",
+          "pt": "Conta as pessoas na sala – quantas há?",
+          "th": "นับคนในห้องหน่อย มีกี่คน",
+          "tl": "Bilangin ang mga tao sa kuwarto – ilang tao?",
+          "ur": "کمرے میں لوگوں کو گنو – کتنے ہیں؟",
+          "vi": "Đếm người trong phòng xem – có bao nhiêu người?",
+          "zh": "数一数房间里的人——有多少人？",
+          "zh_Hant": "數一數房間裡的人——有多少人？"
+        },
+        "out_of_scope_words": [
+          "ຫ້ອງ",
+          "ແດ່",
+          "ຈັກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cheerful child pointing at and counting colorful numbered blocks (1, 2, 3) arranged in a row, suitable for a language learning app, clean white background, bright primary colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຂ້າງ": {
+    "definitions": {
+      "de": "Seite; neben; an der Seite von etwas oder jemandem; bezeichnet eine Richtung oder Position",
+      "en": "Side; beside; next to something or someone; indicating a direction or position",
+      "es": "Lado; al lado de; junto a algo o alguien; indica una dirección o posición",
+      "fr": "Côté ; à côté de ; près de quelque chose ou quelqu'un ; indique une direction ou une position",
+      "hi": "बगल; पास; किसी चीज़ या व्यक्ति के बगल में; दिशा या स्थिति दर्शाता है",
+      "ja": "横；隣；何かや誰かの脇；方向や位置を示す",
+      "km": "ខាង; ជាប់; នៅក្បែរ; បង្ហាញទិសដៅ ឬទីតាំង",
+      "ko": "옆; 곁; 무언가나 누군가의 옆에; 방향이나 위치를 나타냄",
+      "ne": "छेउ; बगलमा; कसैको वा केहीको छेउमा; दिशा वा स्थिति जनाउँछ",
+      "pt": "Lado; ao lado; perto de algo ou alguém; indica uma direção ou posição",
+      "th": "ข้าง; ด้านข้าง; อยู่ใกล้หรือติดกับสิ่งของหรือคน; บ่งบอกทิศทางหรือตำแหน่ง",
+      "tl": "Tabi; katabi; malapit sa isang bagay o tao; nagpapakita ng direksyon o posisyon",
+      "ur": "طرف؛ برابر میں؛ کسی چیز یا شخص کے پہلو میں؛ سمت یا مقام ظاہر کرتا ہے",
+      "vi": "Bên; bên cạnh; ở cạnh ai đó hoặc cái gì; chỉ hướng hoặc vị trí",
+      "zh": "旁边；侧面；在某物或某人旁边；表示方向或位置",
+      "zh_Hant": "旁邊；側面；在某物或某人旁邊；表示方向或位置"
+    },
+    "part_of_speech": "noun",
+    "romanization": "kʰaːŋ³³",
+    "examples": [
+      {
+        "lao_script": "ນັ່ງຂ້າງໆ ກັນເດີ້",
+        "romanization": "nang kʰaːŋ kʰaːŋ kan deː",
+        "translations": {
+          "de": "Setz dich neben mich/uns!",
+          "en": "Sit next to each other!",
+          "es": "¡Siéntense uno al lado del otro!",
+          "fr": "Asseyez-vous l'un à côté de l'autre !",
+          "hi": "एक-दूसरे के बगल में बैठो!",
+          "ja": "隣り合って座ってよ！",
+          "km": "អង្គុយជាប់គ្នាមកទៅ!",
+          "ko": "나란히 앉아!",
+          "ne": "एकअर्काको छेउमा बस!",
+          "pt": "Sente-se um ao lado do outro!",
+          "th": "นั่งข้างๆ กันเลยนะ",
+          "tl": "Umupo kayo sa tabi-tabi!",
+          "ur": "ایک دوسرے کے برابر بیٹھو!",
+          "vi": "Ngồi cạnh nhau đi!",
+          "zh": "挨着坐嘛！",
+          "zh_Hant": "挨著坐嘛！"
+        },
+        "out_of_scope_words": [
+          "ນັ່ງ",
+          "ກັນ",
+          "ເດີ້"
+        ]
+      },
+      {
+        "lao_script": "ຮ້ານອາຫານຢູ່ຂ້າງໂຮງຮຽນ",
+        "romanization": "haːn ʔaː haːn juː kʰaːŋ hoːŋ hian",
+        "translations": {
+          "de": "Das Restaurant ist neben der Schule.",
+          "en": "The restaurant is beside the school.",
+          "es": "El restaurante está al lado de la escuela.",
+          "fr": "Le restaurant est à côté de l'école.",
+          "hi": "रेस्तरां स्कूल के बगल में है।",
+          "ja": "レストランは学校の隣にある。",
+          "km": "ភោជនីយដ្ឋាននៅជាប់សាលារៀន។",
+          "ko": "식당이 학교 옆에 있어.",
+          "ne": "रेस्टुरेन्ट स्कुलको छेउमा छ।",
+          "pt": "O restaurante fica ao lado da escola.",
+          "th": "ร้านอาหารอยู่ข้างโรงเรียน",
+          "tl": "Ang restaurant ay nasa tabi ng paaralan.",
+          "ur": "ریستوران اسکول کے برابر میں ہے۔",
+          "vi": "Nhà hàng ở cạnh trường học.",
+          "zh": "餐厅在学校旁边。",
+          "zh_Hant": "餐廳在學校旁邊。"
+        },
+        "out_of_scope_words": [
+          "ຮ້ານອາຫານ",
+          "ຢູ່",
+          "ໂຮງຮຽນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing two objects side by side — such as a red house with a tree right next to it — with a clear arrow or label indicating 'beside/next to', suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຢ້ຽມ": {
+    "definitions": {
+      "de": "Besuchen; jemanden aufsuchen; vorbeischauen",
+      "en": "To visit; to go and see someone; to drop by",
+      "es": "Visitar; ir a ver a alguien; pasar a ver",
+      "fr": "Rendre visite ; aller voir quelqu'un ; passer voir",
+      "hi": "मिलने जाना; किसी से मिलने आना; देखने जाना",
+      "ja": "訪問する；会いに行く；立ち寄る",
+      "km": "មកលេង; ទៅជួប; ចូលទៅគាំទ្រ",
+      "ko": "방문하다; 누군가를 만나러 가다; 들르다",
+      "ne": "भेट्न जानु; कसैलाई हेर्न जानु; अड्किनु",
+      "pt": "Visitar; ir ver alguém; dar uma passagem",
+      "th": "ไปเยี่ยม; ไปหา; แวะเยี่ยมเยียน",
+      "tl": "Bumisita; pumunta upang makita ang isang tao; dumaan",
+      "ur": "ملنے جانا؛ کسی سے ملاقات کرنا؛ عیادت کرنا",
+      "vi": "Thăm; đi thăm ai đó; ghé thăm",
+      "zh": "拜访；探望；去看望某人",
+      "zh_Hant": "拜訪；探望；去看望某人"
+    },
+    "part_of_speech": "verb",
+    "romanization": "ɲiːam³³",
+    "examples": [
+      {
+        "lao_script": "ເດືອນໜ້າ ຂ້ອຍຈະໄປຢ້ຽມຍ່າ",
+        "romanization": "dɯːan naː, kʰɔːj tɕaː pai ɲiːam ɲaː",
+        "translations": {
+          "de": "Nächsten Monat werde ich meine Großmutter besuchen.",
+          "en": "Next month, I'm going to visit my grandma.",
+          "es": "El mes que viene voy a visitar a mi abuela.",
+          "fr": "Le mois prochain, je vais rendre visite à ma grand-mère.",
+          "hi": "अगले महीने मैं अपनी दादी से मिलने जाऊंगा/जाऊंगी।",
+          "ja": "来月、おばあちゃんに会いに行く。",
+          "km": "ខែក្រោយ ខ្ញុំនឹងទៅលេងជីដូន។",
+          "ko": "다음 달에 할머니 보러 갈 거야.",
+          "ne": "अर्को महिना म हजुरआमालाई भेट्न जान्छु।",
+          "pt": "No próximo mês, vou visitar a minha avó.",
+          "th": "เดือนหน้า ฉันจะไปเยี่ยมย่า",
+          "tl": "Sa susunod na buwan, bibisita ako sa aking lola.",
+          "ur": "اگلے مہینے میں اپنی دادی سے ملنے جاؤں گا/جاؤں گی۔",
+          "vi": "Tháng tới tôi sẽ đi thăm bà.",
+          "zh": "下个月我要去看望奶奶。",
+          "zh_Hant": "下個月我要去看望奶奶。"
+        },
+        "out_of_scope_words": [
+          "ເດືອນໜ້າ",
+          "ຂ້ອຍ",
+          "ຈະ",
+          "ຍ່າ"
+        ]
+      },
+      {
+        "lao_script": "ໄປຢ້ຽມໝູ່ທີ່ເຈັບຢູ່ໂຮງໝໍ",
+        "romanization": "pai ɲiːam muː tʰiː tɕep juː hoːŋ mɔː",
+        "translations": {
+          "de": "Ich bin gegangen, um meinen kranken Freund im Krankenhaus zu besuchen.",
+          "en": "I went to visit my friend who is sick in the hospital.",
+          "es": "Fui a visitar a mi amigo que está enfermo en el hospital.",
+          "fr": "Je suis allé(e) rendre visite à mon ami qui est malade à l'hôpital.",
+          "hi": "मैं अस्पताल में बीमार दोस्त से मिलने गया/गई।",
+          "ja": "病院に入院している友達のお見舞いに行った。",
+          "km": "ខ្ញុំបានទៅលេងមិត្តភ័ក្តិដែលឈឺនៅមន្ទីរពេទ្យ។",
+          "ko": "병원에 아픈 친구 문병하러 갔어.",
+          "ne": "अस्पतालमा बिरामी भएको साथीलाई भेट्न गएँ।",
+          "pt": "Fui visitar o meu amigo que está doente no hospital.",
+          "th": "ไปเยี่ยมเพื่อนที่เจ็บอยู่โรงพยาบาล",
+          "tl": "Pumunta ako para bisitahin ang aking kaibigan na may sakit sa ospital.",
+          "ur": "میں اپنے بیمار دوست سے ہسپتال میں ملنے گیا/گئی۔",
+          "vi": "Tôi đi thăm bạn đang bệnh nằm trong bệnh viện.",
+          "zh": "我去医院探望生病的朋友。",
+          "zh_Hant": "我去醫院探望生病的朋友。"
+        },
+        "out_of_scope_words": [
+          "ໝູ່",
+          "ເຈັບ",
+          "ຢູ່",
+          "ໂຮງໝໍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person holding flowers, standing at the doorway of a house to visit a friend who is welcoming them, suitable for a language learning app, clean white background, warm colors, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

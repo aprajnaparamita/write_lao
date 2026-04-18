@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແຈ້ງ",
+  "definitions": {
+    "de": "Informieren, benachrichtigen, mitteilen; jemandem offiziell oder förmlich etwas bekannt geben",
+    "en": "To inform, notify, or report; to officially or formally communicate information to someone",
+    "es": "Informar, notificar, comunicar; dar a conocer algo de manera oficial o formal a alguien",
+    "fr": "Informer, notifier, signaler; communiquer officiellement ou formellement une information à quelqu'un",
+    "hi": "सूचित करना, जानकारी देना, अधिसूचित करना; किसी को आधिकारिक या औपचारिक रूप से जानकारी देना",
+    "ja": "知らせる、通知する、報告する；公式または正式に誰かに情報を伝える",
+    "km": "ជូនដំណឹង, ប្រាប់, រាយការណ៍; ទំនាក់ទំនងព័ត៌មានដល់នរណាម្នាក់ដោយផ្លូវការ",
+    "ko": "알리다, 통보하다, 신고하다; 공식적으로 또는 격식을 갖추어 누군가에게 정보를 전달하다",
+    "ne": "सूचित गर्नु, जानकारी दिनु, खबर गर्नु; कसैलाई आधिकारिक वा औपचारिक रूपमा जानकारी दिनु",
+    "pt": "Informar, notificar, comunicar; transmitir formalmente uma informação a alguém",
+    "th": "แจ้ง, แจ้งให้ทราบ, แจ้งความ; สื่อสารข้อมูลอย่างเป็นทางการหรือเป็นทางการกับใครบางคน",
+    "tl": "Ipaalam, iabiso, iulat; opisyal o pormal na ipahayag ang impormasyon sa isang tao",
+    "ur": "اطلاع دینا، مطلع کرنا، رپورٹ کرنا؛ کسی کو باضابطہ یا رسمی طور پر معلومات فراہم کرنا",
+    "vi": "Thông báo, báo cáo, trình báo; truyền đạt thông tin một cách chính thức hoặc trang trọng cho ai đó",
+    "zh": "通知，告知，报告；以正式或官方的方式向某人传达信息",
+    "zh_Hant": "通知，告知，報告；以正式或官方的方式向某人傳達資訊"
+  },
+  "definition_en": "To inform, notify, or report; to officially or formally communicate information to someone",
+  "romanization": "/tɕɛːŋ³³/",
+  "lao_examples": [
+    {
+      "lao_script": "ເຈົ້າຕ້ອງໄປແຈ້ງຕຳຫຼວດກ່ອນເດີ້",
+      "romanization": "jao tong pai jaeng tam-luad kon doe",
+      "translation_en": "You need to go report it to the police first."
+    },
+    {
+      "lao_script": "ຊ່ວຍແຈ້ງໃຫ້ທຸກຄົນຮູ້ດ້ວຍເດີ້",
+      "romanization": "suai jaeng hai thuk khon huu duai doe",
+      "translation_en": "Please let everyone know about it."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person holding a megaphone or loudspeaker, making an announcement to a small group of listening people, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

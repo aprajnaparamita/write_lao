@@ -1,0 +1,36 @@
+{
+  "lao_word": "ປອນ",
+  "definitions": {
+    "de": "Gießen oder schütten von Flüssigkeit; auch eine Gewichtseinheit (Pfund)",
+    "en": "To pour liquid into or onto something; also used as a unit of weight (pound)",
+    "es": "Verter o derramar líquido sobre algo; también usado como unidad de peso (libra)",
+    "fr": "Verser un liquide dans ou sur quelque chose ; également utilisé comme unité de poids (livre)",
+    "hi": "किसी चीज़ में या उस पर तरल पदार्थ डालना; वजन की इकाई (पाउंड) के रूप में भी उपयोग",
+    "ja": "液体を注ぐまたは流し込む；重さの単位（ポンド）としても使用される",
+    "km": "ចាក់រាវចូលក្នុង ឬលើអ្វីមួយ; ក៏ប្រើជាឯកតាទម្ងន់ (ផោន) ផងដែរ",
+    "ko": "액체를 무언가에 붓다; 무게 단위(파운드)로도 사용됨",
+    "ne": "कुनै चीजमा तरल पदार्थ खन्याउनु; तौलको एकाइ (पाउन्ड) को रूपमा पनि प्रयोग",
+    "pt": "Despejar ou verter líquido em ou sobre algo; também usado como unidade de peso (libra)",
+    "th": "เทหรือรินของเหลวลงในหรือบนบางสิ่ง; ยังใช้เป็นหน่วยน้ำหนัก (ปอนด์)",
+    "tl": "Mag-buhos ng likido sa o sa ibabaw ng isang bagay; ginagamit din bilang yunit ng timbang (pound)",
+    "ur": "کسی چیز میں یا اس پر مائع ڈالنا؛ وزن کی اکائی (پاؤنڈ) کے طور پر بھی استعمال",
+    "vi": "Rót chất lỏng vào hoặc lên thứ gì đó; cũng dùng như đơn vị cân nặng (pound)",
+    "zh": "将液体倒入或倒在某物上；也用作重量单位（磅）",
+    "zh_Hant": "將液體倒入或倒在某物上；也用作重量單位（磅）"
+  },
+  "definition_en": "To pour liquid into or onto something; also used as a unit of weight (pound)",
+  "romanization": "pon",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍປອນນ້ຳໃຫ້ຂ້ອຍແດ່ເນາະ",
+      "romanization": "suay pon nam hai khoi dae naw",
+      "translation_en": "Can you pour some water for me please?"
+    },
+    {
+      "lao_script": "ປອນກາເຟໃສ່ຈອກໄດ້ເລີຍ",
+      "romanization": "pon ka-fe sai jok dai loei",
+      "translation_en": "Just pour the coffee into the cup"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand pouring water from a pitcher into a clear glass, with water stream visible, clean white background, bright and colorful, minimalist style suitable for a language learning app"
+}

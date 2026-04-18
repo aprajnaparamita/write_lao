@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຍົກ",
+  "definitions": {
+    "de": "Heben, anheben oder hochheben – etwas nach oben bewegen",
+    "en": "To lift, raise, or pick up something upward",
+    "es": "Levantar, alzar o elevar algo hacia arriba",
+    "fr": "Soulever, lever ou élever quelque chose vers le haut",
+    "hi": "किसी चीज़ को ऊपर उठाना या उठा लेना",
+    "ja": "何かを持ち上げる、引き上げる、または高く上げること",
+    "km": "លើក ស្លើង ឬទាំងឡើង – ផ្លាស់ទីអ្វីមួយឡើងខាងលើ",
+    "ko": "무언가를 들어 올리거나 위로 높이다",
+    "ne": "कुनै कुरालाई माथि उठाउनु वा उठाउनु",
+    "pt": "Levantar, erguer ou elevar algo para cima",
+    "th": "ยก ยกขึ้น หรือหยิบยกสิ่งใดสิ่งหนึ่งขึ้นสูง",
+    "tl": "Itaas, buhatin, o angatin ang isang bagay pataas",
+    "ur": "کسی چیز کو اوپر اٹھانا یا بلند کرنا",
+    "vi": "Nâng, nhấc hoặc giơ cao một thứ gì đó lên trên",
+    "zh": "举起、抬起或提起某物向上",
+    "zh_Hant": "舉起、抬起或提起某物向上"
+  },
+  "definition_en": "To lift, raise, or pick up something upward",
+  "romanization": "/ɲók/",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍຍົກກ່ອງນີ້ໃຫ້ຂ້ອຍໜ່ອຍໄດ້ບໍ?",
+      "romanization": "sùai ɲók kɔ̀ng níː hâi khɔ̂i nɔ̀i dâi bɔ̄?",
+      "translation_en": "Can you help me lift this box?"
+    },
+    {
+      "lao_script": "ຍົກມືຂຶ້ນຖ້າເຈົ້າຮູ້ຄຳຕອບ",
+      "romanization": "ɲók müː khüːn thâː jâo húː kham tɔ̀ːp",
+      "translation_en": "Raise your hand if you know the answer"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person lifting a heavy box with both hands, arms raised upward, showing effort, clean white background, colorful minimalist style, suitable for a language learning app"
+}

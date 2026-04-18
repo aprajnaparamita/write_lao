@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຂາຍ",
+  "definitions": {
+    "de": "Verkaufen – etwas gegen Bezahlung anbieten oder abgeben",
+    "en": "To sell – to offer or exchange something in return for money",
+    "es": "Vender – ofrecer o intercambiar algo a cambio de dinero",
+    "fr": "Vendre – proposer ou échanger quelque chose contre de l'argent",
+    "hi": "बेचना – पैसे के बदले में कुछ देना या व्यापार करना",
+    "ja": "売る – お金と引き換えに何かを渡すこと",
+    "km": "លក់ – ផ្តល់ឬប្តូរអ្វីមួយដើម្បីប្រាក់",
+    "ko": "팔다 – 돈을 받고 물건을 넘겨주다",
+    "ne": "बेच्नु – पैसाको बदलामा केही दिनु वा लेनदेन गर्नु",
+    "pt": "Vender – oferecer ou trocar algo em troca de dinheiro",
+    "th": "ขาย – นำสิ่งของแลกเปลี่ยนกับเงิน",
+    "tl": "Magbenta – mag-alok o mag-palitan ng isang bagay kapalit ng pera",
+    "ur": "بیچنا – پیسے کے بدلے میں کچھ دینا یا لین دین کرنا",
+    "vi": "Bán – trao đổi hoặc cung cấp thứ gì đó để lấy tiền",
+    "zh": "卖 – 用物品换取金钱",
+    "zh_Hant": "賣 – 用物品換取金錢"
+  },
+  "definition_en": "To sell – to offer or exchange something in return for money",
+  "romanization": "/kʰǎːj/",
+  "lao_examples": [
+    {
+      "lao_script": "ແມ່ຂາຍຜັກຢູ່ຕະຫຼາດທຸກເຊົ້າ",
+      "romanization": "mae khaai phak yuu talaat thuk sao",
+      "translation_en": "My mom sells vegetables at the market every morning."
+    },
+    {
+      "lao_script": "ເຈົ້າຂາຍໂທລະສັບເກົ່າໄດ້ລາຄາດີບໍ",
+      "romanization": "jao khaai tholasap kao dai laakhaa dii bo",
+      "translation_en": "Did you sell your old phone for a good price?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a friendly market vendor standing behind a stall with vegetables and goods, handing an item to a customer, clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

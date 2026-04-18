@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນິວ",
+  "definitions": {
+    "de": "Neu- (Lehnwort-Silbe, nur in Komposita verwendet, z. B. ນິວຊີແລນ – Neuseeland)",
+    "en": "New- (loanword syllable used only in compound words, e.g., ນິວຊີແລນ – New Zealand, ນິວຢອກ – New York)",
+    "es": "Nueva/Nuevo- (sílaba prestada usada solo en palabras compuestas, p. ej., ນິວຊີແລນ – Nueva Zelanda)",
+    "fr": "Nouveau/Nouvelle- (syllabe empruntée utilisée uniquement dans des mots composés, ex. ນິວຊີແລນ – Nouvelle-Zélande)",
+    "hi": "नया- (केवल यौगिक शब्दों में प्रयुक्त उधार शब्दांश, जैसे ນິວຊີແລນ – न्यूज़ीलैंड)",
+    "ja": "ニュー-（複合語のみで使われる借用音節、例：ນິວຊີແລນ – ニュージーランド）",
+    "km": "ញូ- (ព្យាង្គខ្ចីប្រើតែក្នុងពាក្យផ្សំ ដូចជា ນິວຊີແລນ – នូវែលហ្សេឡង់)",
+    "ko": "뉴- (복합어에서만 사용되는 외래어 음절, 예: ນິວຊີແລນ – 뉴질랜드)",
+    "ne": "नयाँ- (केवल यौगिक शब्दहरूमा प्रयोग हुने ऋण शब्दांश, जस्तै ນິວຊີແລນ – न्युजिल्यान्ड)",
+    "pt": "Nova/Novo- (sílaba emprestada usada apenas em palavras compostas, ex. ນິວຊີແລນ – Nova Zelândia)",
+    "th": "นิว- (พยางค์ที่ยืมมาใช้เฉพาะในคำประสม เช่น ນິວຊີແລນ – นิวซีแลนด์)",
+    "tl": "Bago- / New- (syllabang hiniram na ginagamit lamang sa mga tambalang salita, hal. ນິວຊີແລນ – New Zealand)",
+    "ur": "نیو- (صرف مرکب الفاظ میں استعمال ہونے والی مستعار ہجا، مثلاً ນິວຊີແລນ – نیوزی لینڈ)",
+    "vi": "New- (âm tiết vay mượn chỉ dùng trong các từ ghép, ví dụ ນິວຊີແລນ – New Zealand)",
+    "zh": "纽/新- （仅用于合成词的借词音节，例如 ນິວຊີແລນ – 新西兰）",
+    "zh_Hant": "紐/新- （僅用於合成詞的借詞音節，例如 ນິວຊີແລນ – 紐西蘭）"
+  },
+  "definition_en": "New- (loanword syllable used only in compound words, e.g., ນິວຊີແລນ – New Zealand, ນິວຢອກ – New York)",
+  "romanization": "niu",
+  "lao_examples": [
+    {
+      "lao_script": "ເພື່ອນຂ້ອຍຍ້າຍໄປຢູ່ນິວຊີແລນແລ້ວ",
+      "romanization": "Phüan khoi yai pai yu niu si laen laeo",
+      "translation_en": "My friend has already moved to New Zealand."
+    },
+    {
+      "lao_script": "ນິວຢອກເປັນເມືອງໃຫຍ່ທີ່ສຸດໃນອາເມລິກາ",
+      "romanization": "Niu yok pen müang yai thi sut nai a me li ka",
+      "translation_en": "New York is the largest city in America."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a world map with two locations highlighted and labeled: New Zealand and New York, connected by dotted lines, clean white background, colorful minimalist style suitable for a language learning app."
+}

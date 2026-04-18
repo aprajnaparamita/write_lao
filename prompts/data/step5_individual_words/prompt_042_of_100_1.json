@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສັກ",
+  "definitions": {
+    "de": "Tätowieren; einspritzen; heilig/geweiht (in religiösem Kontext); ein wenig (als Partikel zur Abschwächung)",
+    "en": "To tattoo; to inject/inoculate; sacred or consecrated (in religious contexts); somewhat/a little (as a softening particle in spoken Lao)",
+    "es": "Tatuar; inyectar/inocular; sagrado o consagrado (en contextos religiosos); un poco (como partícula suavizadora en lao hablado)",
+    "fr": "Tatouer; injecter/inoculer; sacré ou consacré (dans des contextes religieux); un peu (comme particule d'atténuation en lao parlé)",
+    "hi": "गोदना गुदवाना; इंजेक्शन लगाना; पवित्र या अभिमंत्रित (धार्मिक संदर्भ में); थोड़ा (बोली जाने वाली लाओ में नरमी लाने वाले कण के रूप में)",
+    "ja": "タトゥーを入れる；注射する/接種する；神聖な・祝聖された（宗教的文脈で）；少し（話し言葉ラーオ語での和らげる助詞として）",
+    "km": "សាក់ស្នាមសាក់; 打针/ចាក់ថ្នាំ; ពិសិទ្ធ ឬប្រតិស្ថាបន (ក្នុងបរិបទសាសនា); បន្តិច (ជាភាគល្អិតបន្ធូរអារម្មណ៍ក្នុងភាសាឡាវនិយាយ)",
+    "ko": "문신을 새기다; 주사를 놓다/접종하다; 신성하거나 봉헌된(종교적 맥락에서); 약간/조금(구어체 라오어에서 완화 조사로)",
+    "ne": "ट्याटु गर्नु; सुई लगाउनु/खोप दिनु; पवित्र वा अभिषिक्त (धार्मिक सन्दर्भमा); अलिकति (बोलचालको लाओ भाषामा नरम पार्ने कण रूपमा)",
+    "pt": "Tatuar; injetar/inocular; sagrado ou consagrado (em contextos religiosos); um pouco (como partícula suavizadora no lao falado)",
+    "th": "สัก (สักลาย); ฉีด/ปลูกฝี; ศักดิ์สิทธิ์หรือได้รับการอธิษฐาน (ในบริบททางศาสนา); นิดหน่อย (ใช้เป็นคำช่วยลดความแรงในภาษาลาวพูด)",
+    "tl": "Mag-tattoo; mag-inject/magbakuna; sagrado o itinalagang banal (sa relihiyosong konteksto); kaunti (bilang softening particle sa sinasalitang Lao)",
+    "ur": "ٹیٹو بنانا؛ انجیکشن لگانا/ٹیکہ لگانا؛ مقدس یا تقدیس شدہ (مذہبی سیاق میں)؛ تھوڑا سا (بولی جانے والی لاؤ میں نرمی لانے والے ذرے کے طور پر)",
+    "vi": "Xăm hình; tiêm/chủng ngừa; thiêng liêng hoặc được thánh hiến (trong bối cảnh tôn giáo); một chút (dùng như tiểu từ giảm nhẹ trong tiếng Lào nói)",
+    "zh": "刺青/纹身；注射/接种；神圣的或受祝圣的（宗教语境中）；一点点（在口语老挝语中作为缓和语气助词）",
+    "zh_Hant": "刺青/紋身；注射/接種；神聖的或受祝聖的（宗教語境中）；一點點（在口語寮語中作為緩和語氣助詞）"
+  },
+  "definition_en": "To tattoo; to inject/inoculate; sacred or consecrated (in religious contexts); somewhat/a little (as a softening particle in spoken Lao)",
+  "romanization": "/sak˨˩/",
+  "lao_examples": [
+    {
+      "lao_script": "ເພິ່ນໄປສັກຢາທີ່ໂຮງໝໍແລ້ວ",
+      "romanization": "phəən pai sak yaa thii hoong mɔɔ lɛɛw",
+      "translation_en": "He/She already went to the hospital to get an injection."
+    },
+    {
+      "lao_script": "ມຶງຢາກສັກລາຍບໍ?",
+      "romanization": "mɯŋ yaak sak laai bɔɔ",
+      "translation_en": "Do you want to get a tattoo?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a tattoo artist using a needle to create a small floral design on a person's arm, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

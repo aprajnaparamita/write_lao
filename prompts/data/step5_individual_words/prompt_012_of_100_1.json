@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດີ",
+  "definitions": {
+    "de": "Gut; wird verwendet, um positive Qualität, Zustimmung oder Wohlbefinden auszudrücken",
+    "en": "Good; used to express positive quality, approval, or well-being",
+    "es": "Bueno; se usa para expresar calidad positiva, aprobación o bienestar",
+    "fr": "Bon/bonne; utilisé pour exprimer une qualité positive, une approbation ou un bien-être",
+    "hi": "अच्छा; सकारात्मक गुण, अनुमोदन या खुशहाली व्यक्त करने के लिए उपयोग किया जाता है",
+    "ja": "良い；良い質、賛成、または幸福を表すために使われる",
+    "km": "ល្អ; ប្រើដើម្បីបញ្ជាក់គុណភាពល្អ ការយល់ព្រម ឬសុខុមាលភាព",
+    "ko": "좋다; 긍정적인 품질, 승인 또는 안녕을 표현하는 데 사용됨",
+    "ne": "राम्रो; सकारात्मक गुण, स्वीकृति वा कल्याण व्यक्त गर्न प्रयोग गरिन्छ",
+    "pt": "Bom/boa; usado para expressar qualidade positiva, aprovação ou bem-estar",
+    "th": "ดี; ใช้เพื่อแสดงถึงคุณภาพที่ดี การยอมรับ หรือความเป็นอยู่ที่ดี",
+    "tl": "Mabuti; ginagamit upang ipahayag ang positibong kalidad, pagpapahintulot, o kagalingan",
+    "ur": "اچھا؛ مثبت معیار، منظوری یا خوش حالی ظاہر کرنے کے لیے استعمال ہوتا ہے",
+    "vi": "Tốt; dùng để diễn đạt chất lượng tích cực, sự chấp thuận hoặc sự khỏe mạnh",
+    "zh": "好；用于表达积极的品质、赞同或良好状态",
+    "zh_Hant": "好；用於表達積極的品質、贊同或良好狀態"
+  },
+  "definition_en": "Good; used to express positive quality, approval, or well-being",
+  "romanization": "/diː³/",
+  "lao_examples": [
+    {
+      "lao_script": "ອາຫານນີ້ດີຫຼາຍເລີຍ",
+      "romanization": "aa-haan nih dii laai loei",
+      "translation_en": "This food is really so good!"
+    },
+    {
+      "lao_script": "ມື້ນີ້ເຈົ້າເປັນແນວໃດ? ດີໆ ບໍ່?",
+      "romanization": "mueh nih jao pen naew dai? dii dii boh?",
+      "translation_en": "How are you today? Doing well?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a bright green thumbs-up symbol with a cheerful smiling sun in the background, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

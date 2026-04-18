@@ -1,0 +1,36 @@
+{
+  "lao_word": "ງາມ",
+  "definitions": {
+    "de": "schön; hübsch; ansprechend (wird verwendet, um etwas oder jemanden ästhetisch ansprechend zu beschreiben)",
+    "en": "beautiful; pretty; attractive (used to describe something or someone as aesthetically pleasing)",
+    "es": "hermoso; bonito; atractivo (se usa para describir algo o alguien estéticamente agradable)",
+    "fr": "beau; joli; attrayant (utilisé pour décrire quelque chose ou quelqu'un d'esthétiquement plaisant)",
+    "hi": "सुंदर; खूबसूरत; आकर्षक (किसी चीज़ या व्यक्ति को सौंदर्यपूर्ण रूप से सुखद बताने के लिए प्रयुक्त)",
+    "ja": "美しい；きれい；魅力的（何かや誰かが審美的に魅力的であることを表す）",
+    "km": "ស្អាត; ល្អ; គួរឱ្យទាក់ទាញ (ប្រើដើម្បីពិពណ៌នាអ្វីមួយ ឬនរណាម្នាក់ដែលគួរឱ្យចូលចិត្ត)",
+    "ko": "아름답다; 예쁘다; 매력적이다 (무언가나 누군가를 미적으로 매력적으로 묘사할 때 사용)",
+    "ne": "सुन्दर; राम्रो; आकर्षक (कुनै वस्तु वा व्यक्तिलाई सौन्दर्यात्मक रूपमा आनन्ददायक भनी वर्णन गर्न प्रयोग गरिन्छ)",
+    "pt": "bonito; belo; atraente (usado para descrever algo ou alguém como esteticamente agradável)",
+    "th": "งาม; สวย; สวยงาม (ใช้อธิบายสิ่งของหรือบุคคลที่มีความสวยงามน่าพึงพอใจ)",
+    "tl": "maganda; marikit; kaakit-akit (ginagamit upang ilarawan ang isang bagay o tao bilang maganda)",
+    "ur": "خوبصورت؛ حسین؛ دلکش (کسی چیز یا شخص کو جمالیاتی طور پر خوشنما بیان کرنے کے لیے استعمال ہوتا ہے)",
+    "vi": "đẹp; xinh; hấp dẫn (dùng để miêu tả điều gì đó hoặc ai đó hấp dẫn về mặt thẩm mỹ)",
+    "zh": "美丽；漂亮；好看（用于形容某事物或某人在审美上令人愉悦）",
+    "zh_Hant": "美麗；漂亮；好看（用於形容某事物或某人在審美上令人愉悅）"
+  },
+  "definition_en": "beautiful; pretty; attractive (used to describe something or someone as aesthetically pleasing)",
+  "romanization": "/ŋaːm/",
+  "lao_examples": [
+    {
+      "lao_script": "ດອກໄມ້ນີ້ງາມຫຼາຍເດີ",
+      "romanization": "dok mai nii ngaam laai dei",
+      "translation_en": "This flower is really very beautiful!"
+    },
+    {
+      "lao_script": "ເມືອງລາວງາມທຸກລະດູ",
+      "romanization": "mueang lao ngaam thuk la duu",
+      "translation_en": "Laos is beautiful in every season."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a vibrant blooming flower with a smiling face or sparkles around it, conveying beauty and attractiveness, suitable for a language learning app, clean white background, colorful, minimalist style."
+}

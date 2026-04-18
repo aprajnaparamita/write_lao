@@ -1,0 +1,36 @@
+{
+  "lao_word": "ແກ້",
+  "definitions": {
+    "de": "Reparieren, lösen, beheben – ein Problem oder einen Fehler beheben oder eine Situation verbessern",
+    "en": "To fix, solve, or repair – to correct a problem, mend something broken, or find a solution",
+    "es": "Arreglar, resolver, reparar – corregir un problema, reparar algo roto o encontrar una solución",
+    "fr": "Réparer, résoudre, arranger – corriger un problème, réparer quelque chose de cassé ou trouver une solution",
+    "hi": "ठीक करना, सुधारना, हल करना – किसी समस्या को ठीक करना, टूटी हुई चीज़ को सुधारना, या समाधान निकालना",
+    "ja": "直す、修理する、解決する – 問題を修正したり、壊れたものを直したり、解決策を見つけること",
+    "km": "ជួសជុល, ដោះស្រាយ – កែលំអបញ្ហា ជួសជុលអ្វីដែលខូច ឬរកដំណោះស្រាយ",
+    "ko": "고치다, 해결하다, 수리하다 – 문제를 수정하거나 고장난 것을 수리하거나 해결책을 찾는 것",
+    "ne": "ठीक गर्नु, समाधान गर्नु, मर्मत गर्नु – कुनै समस्या सुधार्नु, टुटेको चीज ठीक गर्नु, वा समाधान खोज्नु",
+    "pt": "Consertar, resolver, reparar – corrigir um problema, consertar algo quebrado ou encontrar uma solução",
+    "th": "แก้, ซ่อม, แก้ไข – แก้ไขปัญหา ซ่อมสิ่งที่เสียหาย หรือหาทางออก",
+    "tl": "Ayusin, lutasin, kumpunihin – itama ang isang problema, ayusin ang isang bagay na sira, o humanap ng solusyon",
+    "ur": "ٹھیک کرنا، حل کرنا، مرمت کرنا – کسی مسئلے کو درست کرنا، ٹوٹی ہوئی چیز کو ٹھیک کرنا، یا حل تلاش کرنا",
+    "vi": "Sửa, giải quyết, khắc phục – sửa chữa một vấn đề, sửa thứ gì đó bị hỏng, hoặc tìm ra giải pháp",
+    "zh": "修理，解决，修正 – 纠正问题、修好损坏的东西或找到解决方案",
+    "zh_Hant": "修理，解決，修正 – 糾正問題、修好損壞的東西或找到解決方案"
+  },
+  "definition_en": "To fix, solve, or repair – to correct a problem, mend something broken, or find a solution",
+  "romanization": "kɛ̂ː",
+  "lao_examples": [
+    {
+      "lao_script": "ຊ່ວຍແກ້ຄອມຂ້ອຍແດ່ໄດ້ບໍ?",
+      "romanization": "sùai kɛ̂ː khɔ́m khɔ̂i dɛ̀ː dâi bɔ̌ː",
+      "translation_en": "Can you please fix my computer?"
+    },
+    {
+      "lao_script": "ເຂົາແກ້ໂຈດຄະນິດສາດໄດ້ໄວຫຼາຍ",
+      "romanization": "khǎo kɛ̂ː jòːt kʰa nít sàːt dâi wâi lǎːi",
+      "translation_en": "He/She solves math problems very quickly."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a person using a wrench to fix a broken gear or machine, symbolizing 'to fix or solve'. Clean white background, bright colors, minimalist cartoon style suitable for a language learning app."
+}

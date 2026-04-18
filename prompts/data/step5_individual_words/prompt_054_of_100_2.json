@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບູ",
+  "definitions": {
+    "de": "Ein Silbenfragment mit begrenzter eigenständiger Verwendung; erscheint hauptsächlich in Verbindungen oder Dialektwörtern",
+    "en": "A syllable fragment with limited standalone use; mainly appears in compound words or dialectal expressions",
+    "es": "Un fragmento de sílaba con uso independiente limitado; aparece principalmente en palabras compuestas o expresiones dialectales",
+    "fr": "Un fragment syllabique à usage autonome limité; apparaît principalement dans des mots composés ou des expressions dialectales",
+    "hi": "सीमित स्वतंत्र उपयोग वाला एक अक्षर खंड; मुख्यतः समास शब्दों या बोली अभिव्यक्तियों में प्रकट होता है",
+    "ja": "単独での使用が限られた音節の断片。主に複合語や方言表現に現れる",
+    "km": "បំណែកព្យាង្គដែលមានការប្រើប្រាស់តាមលំពែងខ្លួនឯងមានកំណត់ ភាគច្រើនលេចឡើងក្នុងពាក្យផ្សំ",
+    "ko": "단독 사용이 제한된 음절 조각; 주로 복합어나 방언 표현에 나타남",
+    "ne": "सीमित स्वतन्त्र प्रयोग भएको अक्षर खण्ड; मुख्यतः संयुक्त शब्द वा बोलीका अभिव्यक्तिहरूमा देखिन्छ",
+    "pt": "Um fragmento de sílaba com uso independente limitado; aparece principalmente em palavras compostas ou expressões dialetais",
+    "th": "พยางค์ที่มีการใช้งานแบบอิสระจำกัด มักปรากฏในคำประสมหรือสำนวนภาษาถิ่น",
+    "tl": "Isang bahagi ng pantig na may limitadong paggamit nang nagsasarili; kadalasang lumilitaw sa mga salitang tambalan o ekspresyong diyalektal",
+    "ur": "محدود آزادانہ استعمال والا ایک حرفی ٹکڑا؛ بنیادی طور پر مرکب الفاظ یا بولی کے تاثرات میں ظاہر ہوتا ہے",
+    "vi": "Một mảnh âm tiết với cách dùng độc lập hạn chế; chủ yếu xuất hiện trong các từ ghép hoặc biểu đạt phương ngữ",
+    "zh": "一个使用受限的音节片段，主要出现在复合词或方言表达中",
+    "zh_Hant": "一個使用受限的音節片段，主要出現在複合詞或方言表達中"
+  },
+  "definition_en": "A syllable fragment with limited standalone use; mainly appears in compound words or dialectal expressions",
+  "romanization": "buu",
+  "lao_examples": [
+    {
+      "lao_script": "ຄຳວ່າ ບູ ບໍ່ຄ່ອຍໃຊ້ດຽວໆ",
+      "romanization": "kham waa buu bo khoi sai diao diao",
+      "translation_en": "The word 'buu' is rarely used on its own"
+    },
+    {
+      "lao_script": "ບູ ມັກຢູ່ໃນຄຳປະສົມ",
+      "romanization": "buu mak yu nai kham pa som",
+      "translation_en": "'Buu' often appears in compound words"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a puzzle piece or language building block with Lao script on it, representing a syllable fragment or partial word element, clean white background, soft colors, minimalist educational style suitable for a language learning app"
+}

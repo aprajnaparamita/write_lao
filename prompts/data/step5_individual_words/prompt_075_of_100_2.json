@@ -1,0 +1,36 @@
+{
+  "lao_word": "ສິນຄ້າ",
+  "definitions": {
+    "de": "Waren; Handelsgüter; Produkte, die verkauft werden",
+    "en": "goods; merchandise; products that are bought and sold",
+    "es": "mercancía; bienes; productos que se compran y venden",
+    "fr": "marchandises; biens; produits achetés et vendus",
+    "hi": "माल; वस्तुएँ; खरीदी और बेची जाने वाली चीज़ें",
+    "ja": "商品；売買される物品・製品",
+    "km": "ទំនិញ; ទំនិញដែលត្រូវបានទិញនិងលក់",
+    "ko": "상품; 물건; 사고팔리는 제품",
+    "ne": "सामान; व्यापारिक वस्तुहरू; किन्ने-बेच्ने उत्पादनहरू",
+    "pt": "mercadoria; bens; produtos que são comprados e vendidos",
+    "th": "สินค้า; ของที่ซื้อขาย; ผลิตภัณฑ์",
+    "tl": "kalakal; mga produktong binibili at ibinebenta",
+    "ur": "مال؛ تجارتی سامان؛ خریدے اور بیچے جانے والی اشیاء",
+    "vi": "hàng hóa; sản phẩm mua bán",
+    "zh": "商品；货物；买卖的物品",
+    "zh_Hant": "商品；貨物；買賣的物品"
+  },
+  "definition_en": "goods; merchandise; products that are bought and sold",
+  "romanization": "sǐn kháː",
+  "lao_examples": [
+    {
+      "lao_script": "ຮ້ານນີ້ມີສິນຄ້າຫຼາຍຊະນິດ",
+      "romanization": "hâːn níː míː sǐn kháː lǎːj sā nít",
+      "translation_en": "This shop has many kinds of goods."
+    },
+    {
+      "lao_script": "ສິນຄ້າໃໝ່ມາຮອດແລ້ວ ລາຄາດີຫຼາຍ",
+      "romanization": "sǐn kháː mài máː hɔ̂t lɛ́ːw, láː kháː díː lǎːj",
+      "translation_en": "The new goods have arrived, the price is really good."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a market stall or shop shelf neatly displaying various colorful goods and products, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

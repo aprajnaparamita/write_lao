@@ -1,0 +1,36 @@
+{
+  "lao_word": "ບວນ",
+  "definitions": {
+    "de": "Zeremonie oder Prozession, oft religiöser oder kultureller Natur in der laotischen Tradition",
+    "en": "A ceremonial procession or ritual, often religious or cultural in Lao tradition",
+    "es": "Procesión ceremonial o ritual, generalmente de naturaleza religiosa o cultural en la tradición laosiana",
+    "fr": "Procession cérémonielle ou rituel, souvent de nature religieuse ou culturelle dans la tradition laotienne",
+    "hi": "लाओ परंपरा में धार्मिक या सांस्कृतिक समारोह या जुलूस",
+    "ja": "ラオスの伝統における宗教的または文化的な儀式や行列",
+    "km": "ពិធីជាន់ដំណើរ ឬពិធីបុណ្យ ដែលជាញឹកញាប់មានលក្ខណៈសាសនា ឬវប្បធម៌នៅក្នុងប្រពៃណីឡាវ",
+    "ko": "라오스 전통에서 종교적 또는 문화적 성격의 의식 행렬이나 의례",
+    "ne": "लाओ परम्परामा धार्मिक वा सांस्कृतिक प्रकृतिको औपचारिक जुलुस वा अनुष्ठान",
+    "pt": "Procissão cerimonial ou ritual, geralmente de natureza religiosa ou cultural na tradição laosiana",
+    "th": "ขบวนแห่พิธีกรรมหรือพิธีกรรม มักเป็นเรื่องทางศาสนาหรือวัฒนธรรมในประเพณีลาว",
+    "tl": "Isang seremonyal na prusisyon o ritwal, kadalasang relihiyoso o kultural sa tradisyon ng Laos",
+    "ur": "لاؤ روایت میں مذہبی یا ثقافتی نوعیت کا رسمی جلوس یا تقریب",
+    "vi": "Một đám rước nghi lễ hoặc nghi thức, thường mang tính chất tôn giáo hoặc văn hóa trong truyền thống Lào",
+    "zh": "老挝传统中具有宗教或文化性质的仪式游行或典礼",
+    "zh_Hant": "老撾傳統中具有宗教或文化性質的儀式遊行或典禮"
+  },
+  "definition_en": "A ceremonial procession or ritual, often religious or cultural in Lao tradition",
+  "romanization": "buan",
+  "lao_examples": [
+    {
+      "lao_script": "ມື້ນີ້ມີບວນທີ່ວັດ ສວຍຫຼາຍເລີຍ",
+      "romanization": "meu-ni mi buan thi wat, suay lai loei",
+      "translation_en": "Today there's a ceremony at the temple, it's really beautiful"
+    },
+    {
+      "lao_script": "ເຈົ້າໄປບວນບູນທີ່ບ້ານບໍ?",
+      "romanization": "jao pai buan bun thi ban bo?",
+      "translation_en": "Did you go to the merit-making ceremony in the village?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a traditional Lao Buddhist ceremonial procession with monks in orange robes walking in a line near a temple, colorful flags and offerings visible, clean white background, minimalist style suitable for a language learning app"
+}

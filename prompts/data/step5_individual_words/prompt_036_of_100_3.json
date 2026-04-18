@@ -1,0 +1,36 @@
+{
+  "lao_word": "ນັບ",
+  "definitions": {
+    "de": "Zählen; etwas der Reihe nach aufzählen oder berechnen; auch: jemanden oder etwas einbeziehen oder wertschätzen",
+    "en": "To count; to enumerate things in order; also to include or consider someone or something",
+    "es": "Contar; enumerar cosas en orden; también incluir o considerar a alguien o algo",
+    "fr": "Compter ; énumérer des choses dans l'ordre ; aussi inclure ou considérer quelqu'un ou quelque chose",
+    "hi": "गिनना; चीज़ों को क्रम में गिनना; किसी को शामिल करना या महत्व देना",
+    "ja": "数える；順番に物を数える；また、誰かを含めたり評価したりする",
+    "km": "រាប់; រាប់ឈ្មោះវត្ថុតាមលំដាប់; ក៏មានន័យថារួមបញ្ចូល ឬពិចារណាអ្នកណាម្នាក់ផងដែរ",
+    "ko": "세다; 순서대로 수를 세다; 또는 누군가를 포함하거나 중요하게 여기다",
+    "ne": "गन्नु; चीजहरूलाई क्रममा गन्नु; कसैलाई समावेश गर्नु वा मान्यता दिनु",
+    "pt": "Contar; enumerar coisas em ordem; também incluir ou considerar alguém ou algo",
+    "th": "นับ; การนับสิ่งของตามลำดับ; หรือการรวมหรือคำนึงถึงใครบางคน",
+    "tl": "Magbilang; mag-enumerate ng mga bagay ayon sa pagkakasunod-sunod; maaari ring ibig sabihin ay isama o ituring ang isang tao",
+    "ur": "گننا؛ چیزوں کو ترتیب سے شمار کرنا؛ کسی کو شامل کرنا یا اہمیت دینا",
+    "vi": "Đếm; liệt kê các thứ theo thứ tự; cũng có nghĩa là bao gồm hoặc coi trọng ai đó",
+    "zh": "数；按顺序计数；也有包括或看重某人/某事的意思",
+    "zh_Hant": "數；按順序計數；也有包括或看重某人/某事的意思"
+  },
+  "definition_en": "To count; to enumerate things in order; also to include or consider someone or something",
+  "romanization": "nap²⁴",
+  "lao_examples": [
+    {
+      "lao_script": "ລູກນ້ອຍຫັດນັບເລກ ໑ ຫາ ໑໐ ໄດ້ແລ້ວ",
+      "romanization": "luːk nɔːj hat nap leːk nuːŋ haa sip dai lɛːw",
+      "translation_en": "The little child can already count from 1 to 10."
+    },
+    {
+      "lao_script": "ນັບຄົນໃນຫ້ອງແດ່ ມີຈັກຄົນ",
+      "romanization": "nap kʰon nai hɔːŋ dɛː, mii tɕak kʰon",
+      "translation_en": "Count the people in the room – how many are there?"
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a cheerful child pointing at and counting colorful numbered blocks (1, 2, 3) arranged in a row, suitable for a language learning app, clean white background, bright primary colors, minimalist cartoon style."
+}

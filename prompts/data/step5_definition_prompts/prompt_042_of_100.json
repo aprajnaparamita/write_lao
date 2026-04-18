@@ -1,0 +1,390 @@
+{
+  "ສັກ": {
+    "definitions": {
+      "de": "Tätowieren; einspritzen; heilig/geweiht (in religiösem Kontext); ein wenig (als Partikel zur Abschwächung)",
+      "en": "To tattoo; to inject/inoculate; sacred or consecrated (in religious contexts); somewhat/a little (as a softening particle in spoken Lao)",
+      "es": "Tatuar; inyectar/inocular; sagrado o consagrado (en contextos religiosos); un poco (como partícula suavizadora en lao hablado)",
+      "fr": "Tatouer; injecter/inoculer; sacré ou consacré (dans des contextes religieux); un peu (comme particule d'atténuation en lao parlé)",
+      "hi": "गोदना गुदवाना; इंजेक्शन लगाना; पवित्र या अभिमंत्रित (धार्मिक संदर्भ में); थोड़ा (बोली जाने वाली लाओ में नरमी लाने वाले कण के रूप में)",
+      "ja": "タトゥーを入れる；注射する/接種する；神聖な・祝聖された（宗教的文脈で）；少し（話し言葉ラーオ語での和らげる助詞として）",
+      "km": "សាក់ស្នាមសាក់; 打针/ចាក់ថ្នាំ; ពិសិទ្ធ ឬប្រតិស្ថាបន (ក្នុងបរិបទសាសនា); បន្តិច (ជាភាគល្អិតបន្ធូរអារម្មណ៍ក្នុងភាសាឡាវនិយាយ)",
+      "ko": "문신을 새기다; 주사를 놓다/접종하다; 신성하거나 봉헌된(종교적 맥락에서); 약간/조금(구어체 라오어에서 완화 조사로)",
+      "ne": "ट्याटु गर्नु; सुई लगाउनु/खोप दिनु; पवित्र वा अभिषिक्त (धार्मिक सन्दर्भमा); अलिकति (बोलचालको लाओ भाषामा नरम पार्ने कण रूपमा)",
+      "pt": "Tatuar; injetar/inocular; sagrado ou consagrado (em contextos religiosos); um pouco (como partícula suavizadora no lao falado)",
+      "th": "สัก (สักลาย); ฉีด/ปลูกฝี; ศักดิ์สิทธิ์หรือได้รับการอธิษฐาน (ในบริบททางศาสนา); นิดหน่อย (ใช้เป็นคำช่วยลดความแรงในภาษาลาวพูด)",
+      "tl": "Mag-tattoo; mag-inject/magbakuna; sagrado o itinalagang banal (sa relihiyosong konteksto); kaunti (bilang softening particle sa sinasalitang Lao)",
+      "ur": "ٹیٹو بنانا؛ انجیکشن لگانا/ٹیکہ لگانا؛ مقدس یا تقدیس شدہ (مذہبی سیاق میں)؛ تھوڑا سا (بولی جانے والی لاؤ میں نرمی لانے والے ذرے کے طور پر)",
+      "vi": "Xăm hình; tiêm/chủng ngừa; thiêng liêng hoặc được thánh hiến (trong bối cảnh tôn giáo); một chút (dùng như tiểu từ giảm nhẹ trong tiếng Lào nói)",
+      "zh": "刺青/纹身；注射/接种；神圣的或受祝圣的（宗教语境中）；一点点（在口语老挝语中作为缓和语气助词）",
+      "zh_Hant": "刺青/紋身；注射/接種；神聖的或受祝聖的（宗教語境中）；一點點（在口語寮語中作為緩和語氣助詞）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/sak˨˩/",
+    "examples": [
+      {
+        "lao_script": "ເພິ່ນໄປສັກຢາທີ່ໂຮງໝໍແລ້ວ",
+        "romanization": "phəən pai sak yaa thii hoong mɔɔ lɛɛw",
+        "translations": {
+          "de": "Er/Sie ist schon ins Krankenhaus gegangen, um eine Spritze zu bekommen.",
+          "en": "He/She already went to the hospital to get an injection.",
+          "es": "Él/Ella ya fue al hospital a ponerse una inyección.",
+          "fr": "Il/Elle est déjà allé(e) à l'hôpital se faire faire une injection.",
+          "hi": "वह/वे अस्पताल में इंजेक्शन लगवाने पहले ही जा चुके हैं।",
+          "ja": "彼/彼女はもう病院に注射を打ちに行った。",
+          "km": "គាត់បានទៅមន្ទីរពេទ្យដើម្បីចាក់ថ្នាំហើយ។",
+          "ko": "그/그녀는 이미 병원에 주사 맞으러 갔어요.",
+          "ne": "उहाँ अस्पतालमा सुई लगाउन पहिले नै जानुभयो।",
+          "pt": "Ele/Ela já foi ao hospital tomar uma injeção.",
+          "th": "เขา/เธอไปฉีดยาที่โรงพยาบาลแล้ว",
+          "tl": "Pumunta na siya sa ospital para mag-inject ng gamot.",
+          "ur": "وہ پہلے ہی ہسپتال انجیکشن لگوانے جا چکے ہیں۔",
+          "vi": "Anh/Chị ấy đã đi bệnh viện tiêm thuốc rồi.",
+          "zh": "他/她已经去医院打针了。",
+          "zh_Hant": "他/她已經去醫院打針了。"
+        },
+        "out_of_scope_words": [
+          "ຢາ",
+          "ໂຮງໝໍ"
+        ]
+      },
+      {
+        "lao_script": "ມຶງຢາກສັກລາຍບໍ?",
+        "romanization": "mɯŋ yaak sak laai bɔɔ",
+        "translations": {
+          "de": "Willst du dir ein Tattoo stechen lassen?",
+          "en": "Do you want to get a tattoo?",
+          "es": "¿Quieres hacerte un tatuaje?",
+          "fr": "Tu veux te faire un tatouage ?",
+          "hi": "क्या तुम टैटू गुदवाना चाहते हो?",
+          "ja": "タトゥーを入れたいの？",
+          "km": "តើអ្នកចង់សាក់ស្នាមសាក់ទេ?",
+          "ko": "문신 새기고 싶어?",
+          "ne": "तिमीलाई ट्याटु गर्न मन छ?",
+          "pt": "Você quer fazer uma tatuagem?",
+          "th": "แกอยากสักลายไหม?",
+          "tl": "Gusto mo bang magpa-tattoo?",
+          "ur": "کیا تم ٹیٹو بنوانا چاہتے ہو؟",
+          "vi": "Mày có muốn xăm hình không?",
+          "zh": "你想纹身吗？",
+          "zh_Hant": "你想紋身嗎？"
+        },
+        "out_of_scope_words": [
+          "ລາຍ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a tattoo artist using a needle to create a small floral design on a person's arm, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "medium"
+  },
+  "ສິນ": {
+    "definitions": {
+      "de": "Waren/Güter (besonders in Zusammensetzungen wie ສິນຄ້າ); Ende/Abschluss; in der buddhistischen Praxis: die fünf Sittlichkeitsregeln (ສິນ ຫ້າ)",
+      "en": "Goods/merchandise (especially in compounds like ສິນຄ້າ 'products'); end/conclusion; in Buddhist practice: the five precepts (ສິນ ຫ້າ)",
+      "es": "Bienes/mercancía (especialmente en compuestos como ສິນຄ້າ 'productos'); fin/conclusión; en la práctica budista: los cinco preceptos (ສິນ ຫ້າ)",
+      "fr": "Marchandises/biens (surtout dans des composés comme ສິນຄ້າ 'produits'); fin/conclusion; dans la pratique bouddhiste: les cinq préceptes (ສິນ ຫ້າ)",
+      "hi": "माल/सामान (विशेष रूप से ສິນຄ້າ जैसे यौगिकों में); अंत/समाप्ति; बौद्ध अभ्यास में: पाँच नैतिक नियम (ສິນ ຫ້າ)",
+      "ja": "商品/物品（ສິນຄ້າ「製品」などの複合語に特に使われる）；終わり/結論；仏教の実践では：五戒（ສິນ ຫ້າ）",
+      "km": "ទំនិញ/សินទ្រព្យ (ជាពិសេសសម្រាប់ពាក្យផ្សំដូចជា ສິນຄ້າ 'ផលិតផល'); ការបញ្ចប់/ការសន្និដ្ឋាន; ក្នុងការអនុវត្តព្រះពុទ្ធសាសនា: សីល​ប្រាំ",
+      "ko": "상품/물건(특히 ສິນຄ້າ '제품' 같은 복합어에서); 끝/결론; 불교 수행에서: 오계(ສິນ ຫ້າ)",
+      "ne": "सामान/माल (विशेषगरी ສິນຄ້າ जस्ता यौगिक शब्दहरूमा); अन्त/समाप्ति; बौद्ध अभ्यासमा: पाँच शीलहरू (ສິນ ຫ້າ)",
+      "pt": "Mercadorias/bens (especialmente em compostos como ສິນຄ້າ 'produtos'); fim/conclusão; na prática budista: os cinco preceitos (ສິນ ຫ້າ)",
+      "th": "สินค้า/ของ (โดยเฉพาะในคำประสมเช่น ສິນຄ້າ 'สินค้า'); การสิ้นสุด/ข้อสรุป; ในการปฏิบัติทางพุทธศาสนา: ศีลห้า",
+      "tl": "Mga kalakal/produkto (lalo na sa mga tambalang salita tulad ng ສິນຄ້າ 'mga produkto'); katapusan/konklusyon; sa Budistang pagsasanay: ang limang utos",
+      "ur": "سامان/مال (خاص طور پر ສິນຄ້າ جیسے مرکب الفاظ میں)؛ انجام/اختتام؛ بدھ مت کی عمل میں: پانچ اصول",
+      "vi": "Hàng hóa/sản phẩm (đặc biệt trong các từ ghép như ສິນຄ້າ 'hàng hóa'); kết thúc/kết luận; trong thực hành Phật giáo: năm giới",
+      "zh": "商品/货物（尤其用于ສິນຄ້າ等复合词中）；结束/终结；佛教修行中：五戒",
+      "zh_Hant": "商品/貨物（尤其用於ສິນຄ້າ等複合詞中）；結束/終結；佛教修行中：五戒"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/sin˨˩/",
+    "examples": [
+      {
+        "lao_script": "ຮ້ານນີ້ຂາຍສິນຄ້າຫຼາຍຊະນິດ",
+        "romanization": "haan nii khaai sin khaa laai sa nit",
+        "translations": {
+          "de": "Dieser Laden verkauft viele verschiedene Arten von Waren.",
+          "en": "This shop sells many types of goods.",
+          "es": "Esta tienda vende muchos tipos de mercancías.",
+          "fr": "Cette boutique vend de nombreux types de marchandises.",
+          "hi": "यह दुकान कई तरह का सामान बेचती है।",
+          "ja": "この店はたくさんの種類の商品を売っている。",
+          "km": "ហាងនេះលក់ទំនិញច្រើនប្រភេទ។",
+          "ko": "이 가게는 다양한 종류의 물건을 팔아요.",
+          "ne": "यो पसलले धेरै प्रकारका सामानहरू बेच्छ।",
+          "pt": "Esta loja vende muitos tipos de mercadorias.",
+          "th": "ร้านนี้ขายสินค้าหลายชนิด",
+          "tl": "Ang tindahang ito ay nagbebenta ng maraming uri ng kalakal.",
+          "ur": "یہ دکان کئی قسم کا سامان بیچتی ہے۔",
+          "vi": "Cửa hàng này bán nhiều loại hàng hóa.",
+          "zh": "这家店卖很多种类的商品。",
+          "zh_Hant": "這家店賣很多種類的商品。"
+        },
+        "out_of_scope_words": [
+          "ຊະນິດ"
+        ]
+      },
+      {
+        "lao_script": "ສິນຄ້ານີ້ລາຄາດີຫຼາຍ",
+        "romanization": "sin khaa nii laa khaa dii laai",
+        "translations": {
+          "de": "Dieses Produkt hat einen sehr guten Preis.",
+          "en": "This product is very good value.",
+          "es": "Este producto tiene muy buen precio.",
+          "fr": "Ce produit est très bien prix.",
+          "hi": "इस सामान की कीमत बहुत अच्छी है।",
+          "ja": "この商品はとてもお値打ちだ。",
+          "km": "ទំនិញនេះមានតម្លៃល្អណាស់។",
+          "ko": "이 상품은 가격이 정말 좋아요.",
+          "ne": "यो सामानको मूल्य धेरै राम्रो छ।",
+          "pt": "Este produto tem um preço muito bom.",
+          "th": "สินค้านี้ราคาดีมาก",
+          "tl": "Ang produktong ito ay may napakagandang presyo.",
+          "ur": "اس سامان کی قیمت بہت اچھی ہے۔",
+          "vi": "Hàng hóa này giá rất tốt.",
+          "zh": "这件商品价格非常好。",
+          "zh_Hant": "這件商品價格非常好。"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a market stall with colorful goods and products displayed neatly on shelves and tables, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ຫຼັກ": {
+    "definitions": {
+      "de": "Pfosten/Säule/Pfahl (physisch); Hauptsächlich/primär (als Adjektiv); Grundprinzip/Grundsatz (abstrakt); Grundlage/Kern einer Sache",
+      "en": "Post/pillar/stake (physical object); main/primary/principal (as adjective); fundamental principle/rule (abstract); the core or foundation of something",
+      "es": "Poste/pilar/estaca (objeto físico); principal/primario (como adjetivo); principio fundamental/regla (abstracto); el núcleo o fundamento de algo",
+      "fr": "Poteau/pilier/piquet (objet physique); principal/primaire (comme adjectif); principe fondamental/règle (abstrait); le noyau ou la base de quelque chose",
+      "hi": "खंभा/स्तंभ/खूँटा (भौतिक वस्तु); मुख्य/प्राथमिक (विशेषण के रूप में); मूलभूत सिद्धांत/नियम (अमूर्त); किसी चीज़ का मूल या आधार",
+      "ja": "柱/杭/ポスト（物理的な物体）；主要な/主な（形容詞として）；基本原則/規則（抽象的）；物事の核心や基礎",
+      "km": "សសរ/សសរ/សសរ (វត្ថុប្រភេទ); ចម្បង/សំខាន់ (ជាគុណនាម); គោលការណ៍ជាមូលដ្ឋាន/ច្បាប់ (អរូបី); ស្នូល ឬគ្រឹះនៃអ្វីមួយ",
+      "ko": "기둥/말뚝/포스트(물리적 물체); 주요한/기본적인(형용사로); 기본 원칙/규칙(추상적); 어떤 것의 핵심이나 기초",
+      "ne": "खम्बा/स्तम्भ/मेखा (भौतिक वस्तु); मुख्य/प्राथमिक (विशेषणको रूपमा); मौलिक सिद्धान्त/नियम (अमूर्त); कुनै कुराको मूल वा आधार",
+      "pt": "Poste/pilar/estaca (objeto físico); principal/primário (como adjetivo); princípio fundamental/regra (abstrato); o núcleo ou fundação de algo",
+      "th": "เสา/หลัก/หมุด (วัตถุจริง); หลัก/สำคัญ (ในฐานะคำคุณศัพท์); หลักการพื้นฐาน/กฎ (นามธรรม); แก่นกลางหรือรากฐานของบางสิ่ง",
+      "tl": "Poste/haligi/tulos (pisikal na bagay); pangunahin/pangunahing (bilang pang-uri); pangunahing prinsipyo/tuntunin (abstract); ang pundasyon o puso ng isang bagay",
+      "ur": "ستون/کھمبہ/میخ (مادی چیز)؛ بنیادی/اصلی (بطور صفت)؛ بنیادی اصول/قانون (تجریدی)؛ کسی چیز کا مرکز یا بنیاد",
+      "vi": "Cột/cọc/trụ (vật thể); chính/chủ yếu (dùng như tính từ); nguyên tắc cơ bản/quy tắc (trừu tượng); cốt lõi hay nền tảng của điều gì đó",
+      "zh": "柱子/桩/主要支撑物（实体）；主要的/主要（作形容词）；基本原则/规则（抽象）；某事物的核心或基础",
+      "zh_Hant": "柱子/樁/主要支撐物（實體）；主要的/主要（作形容詞）；基本原則/規則（抽象）；某事物的核心或基礎"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/lak˦˥/",
+    "examples": [
+      {
+        "lao_script": "ນີ້ແມ່ນຫຼັກການສຳຄັນທີ່ສຸດ",
+        "romanization": "nii mɛɛn lak kaan sam khan thii sut",
+        "translations": {
+          "de": "Dies ist das allerwichtigste Grundprinzip.",
+          "en": "This is the most important fundamental principle.",
+          "es": "Este es el principio fundamental más importante.",
+          "fr": "C'est le principe fondamental le plus important.",
+          "hi": "यह सबसे महत्वपूर्ण मूलभूत सिद्धांत है।",
+          "ja": "これが最も重要な基本原則だ。",
+          "km": "នេះជាគោលការណ៍ជាមូលដ្ឋានដែលសំខាន់បំផុត។",
+          "ko": "이것이 가장 중요한 기본 원칙이에요.",
+          "ne": "यो सबैभन्दा महत्वपूर्ण मौलिक सिद्धान्त हो।",
+          "pt": "Este é o princípio fundamental mais importante.",
+          "th": "นี่คือหลักการที่สำคัญที่สุด",
+          "tl": "Ito ang pinakamahalagang pangunahing prinsipyo.",
+          "ur": "یہ سب سے اہم بنیادی اصول ہے۔",
+          "vi": "Đây là nguyên tắc cơ bản quan trọng nhất.",
+          "zh": "这是最重要的基本原则。",
+          "zh_Hant": "這是最重要的基本原則。"
+        },
+        "out_of_scope_words": [
+          "ຫຼັກການ",
+          "ສຳຄັນ"
+        ]
+      },
+      {
+        "lao_script": "ຫຼັກນີ້ຢູ່ກາງສວນ",
+        "romanization": "lak nii yuu kaang suan",
+        "translations": {
+          "de": "Dieser Pfahl steht in der Mitte des Gartens.",
+          "en": "This post is in the middle of the garden.",
+          "es": "Este poste está en el medio del jardín.",
+          "fr": "Ce poteau est au milieu du jardin.",
+          "hi": "यह खंभा बगीचे के बीच में है।",
+          "ja": "この杭は庭の真ん中にある。",
+          "km": "សសរនេះស្ថិតនៅកណ្តាលសួន។",
+          "ko": "이 기둥은 정원 한가운데 있어요.",
+          "ne": "यो खम्बा बगैंचाको बीचमा छ।",
+          "pt": "Este poste está no meio do jardim.",
+          "th": "หลักนี้อยู่กลางสวน",
+          "tl": "Ang posteng ito ay nasa gitna ng hardin.",
+          "ur": "یہ کھمبہ باغ کے بیچ میں ہے۔",
+          "vi": "Cái cọc này ở giữa vườn.",
+          "zh": "这根柱子在花园中间。",
+          "zh_Hant": "這根柱子在花園中間。"
+        },
+        "out_of_scope_words": [
+          "ສວນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a wooden post or pillar standing firmly in the ground as a central support, with a clean garden background, suitable for a language learning app, white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ອິນ": {
+    "definitions": {
+      "de": "Eine Silbe, die in laotischen Personennamen vorkommt; auch eine veraltete/poetische Form für 'Indra' (hinduistischer/buddhistischer Götterkönig) in einigen Zusammensetzungen; kein eigenständiges gebräuchliches Wort in der modernen Alltagssprache",
+      "en": "A syllable commonly appearing in Lao personal names; also an archaic or poetic reference to 'Indra' (the king of gods in Hindu/Buddhist tradition) in some compounds; not a common standalone word in modern everyday speech",
+      "es": "Una sílaba que aparece comúnmente en nombres personales laosianos; también una referencia arcaica o poética a 'Indra' (el rey de los dioses en la tradición hindú/budista) en algunos compuestos; no es una palabra independiente común en el habla cotidiana moderna",
+      "fr": "Une syllabe apparaissant couramment dans les prénoms laotiens; aussi une référence archaïque ou poétique à 'Indra' (le roi des dieux dans la tradition hindoue/bouddhiste) dans certains composés; pas un mot autonome courant dans la parole quotidienne moderne",
+      "hi": "लाओ व्यक्तिगत नामों में सामान्यतः आने वाला एक अक्षर; कुछ यौगिकों में 'इंद्र' (हिंदू/बौद्ध परंपरा में देवताओं के राजा) का पुरातन या काव्यात्मक संदर्भ; आधुनिक रोज़मर्रा की भाषा में स्वतंत्र रूप से प्रचलित शब्द नहीं",
+      "ja": "ラーオ語の人名によく見られる音節；一部の複合語ではヒンドゥー教・仏教の伝統における「インドラ」（神々の王）への古風または詩的な言及；現代の日常会話では一般的な独立した単語ではない",
+      "km": "ព្យាង្គដែលបង្ហាញជាទូទៅនៅក្នុងឈ្មោះបុគ្គលរបស់ឡាវ; ក៏ជាការយោងដ៏ចាស់ហួសសម័យ ឬបែបកាព្យនិពន្ធទៅ 'ឥន្ទ្រ' (ស្តេចទេវតានៅក្នុងប្រពៃណីហិណ្ឌូ/ព្រះពុទ្ធ) ក្នុងពាក្យផ្សំខ្លះ; មិនមែនជាពាក្យឯករាជ្យទូទៅក្នុងការនិយាយប្រចាំថ្ងៃទំនើប",
+      "ko": "라오어 인명에 흔히 나타나는 음절; 일부 복합어에서 힌두교/불교 전통의 '인드라'(신들의 왕)에 대한 고어적 또는 시적 언급; 현대 일상 구어에서 독립적으로 흔히 쓰이는 단어는 아님",
+      "ne": "लाओ व्यक्तिगत नामहरूमा सामान्यतः देखिने एक अक्षर; केही यौगिकहरूमा हिन्दू/बौद्ध परम्परामा 'इन्द्र' (देवताहरूका राजा) को पुरानो वा काव्यात्मक सन्दर्भ; आधुनिक दैनिक भाषणमा स्वतन्त्र रूपमा प्रचलित शब्द होइन",
+      "pt": "Uma sílaba que aparece comumente em nomes pessoais laosianos; também uma referência arcaica ou poética a 'Indra' (o rei dos deuses na tradição hindu/budista) em alguns compostos; não é uma palavra autônoma comum na fala cotidiana moderna",
+      "th": "พยางค์ที่ปรากฏในชื่อบุคคลชาวลาวทั่วไป; ยังหมายถึงคำโบราณหรือเชิงกวีที่อ้างถึง 'อินทร์' (ราชาแห่งเทวดาในประเพณีฮินดู/พุทธ) ในบางคำประสม; ไม่ใช่คำที่ใช้เดี่ยวๆ ทั่วไปในการพูดประจำวันยุคใหม่",
+      "tl": "Isang pantig na karaniwang lumalabas sa mga personal na pangalan ng Lao; isa ring arkaiko o poetikong sanggunian sa 'Indra' (ang hari ng mga diyos sa tradisyong Hindu/Budista) sa ilang tambalang salita; hindi isang karaniwang standalone na salita sa modernong pang-araw-araw na pananalita",
+      "ur": "لاؤ ذاتی ناموں میں عام طور پر آنے والی ایک آواز؛ کچھ مرکب الفاظ میں ہندو/بدھ مت کی روایت میں 'اندر' (دیوتاؤں کے بادشاہ) کا پرانا یا شاعرانہ حوالہ؛ جدید روزمرہ کی گفتگو میں ایک عام الگ لفظ نہیں",
+      "vi": "Một âm tiết thường xuất hiện trong tên người Lào; cũng là cách đề cập cổ điển hoặc thơ ca đến 'Indra' (vua của các thần trong truyền thống Hindu/Phật giáo) trong một số từ ghép; không phải là từ độc lập thông dụng trong lời nói hàng ngày hiện đại",
+      "zh": "常见于老挝人名中的音节；在某些复合词中也是对'因陀罗'（印度教/佛教传统中的天神之王）的古老或诗意指称；在现代日常口语中不是常见的独立词汇",
+      "zh_Hant": "常見於寮國人名中的音節；在某些複合詞中也是對'因陀羅'（印度教/佛教傳統中的天神之王）的古老或詩意指稱；在現代日常口語中不是常見的獨立詞彙"
+    },
+    "part_of_speech": "noun",
+    "romanization": "/ʔin˧˩/",
+    "examples": [
+      {
+        "lao_script": "ຊື່ຂອງລາວມີ ອິນ ຢູ່ດ້ວຍ",
+        "romanization": "sɯɯ khɔɔŋ lao mii ʔin yuu duai",
+        "translations": {
+          "de": "Sein/Ihr Name enthält die Silbe 'In'.",
+          "en": "His/Her name has the syllable 'In' in it.",
+          "es": "Su nombre contiene la sílaba 'In'.",
+          "fr": "Son prénom contient la syllabe 'In'.",
+          "hi": "उनके नाम में 'इन' अक्षर है।",
+          "ja": "彼/彼女の名前には「イン」という音節が入っている。",
+          "km": "ឈ្មោះរបស់គាត់មានព្យាង្គ 'ອິນ' ផ្ទុកក្នុងនោះ។",
+          "ko": "그/그녀의 이름에 '인' 음절이 들어가요.",
+          "ne": "उनको नाममा 'इन' अक्षर छ।",
+          "pt": "O nome dele/dela tem a sílaba 'In' nele.",
+          "th": "ชื่อของเขา/เธอมีพยางค์ 'อิน' อยู่ด้วย",
+          "tl": "Ang pangalan niya ay may pantig na 'In' dito.",
+          "ur": "ان کے نام میں 'اِن' کی آواز شامل ہے۔",
+          "vi": "Tên của anh/chị ấy có âm tiết 'In' trong đó.",
+          "zh": "他/她的名字里有'因'这个音节。",
+          "zh_Hant": "他/她的名字裡有'因'這個音節。"
+        },
+        "out_of_scope_words": [
+          "ຊື່"
+        ]
+      },
+      {
+        "lao_script": "ອິນ ເປັນຊື່ທີ່ຄົນລາວໃຊ້ຫຼາຍ",
+        "romanization": "ʔin pen sɯɯ thii khon lao sai laai",
+        "translations": {
+          "de": "'In' ist eine Silbe, die viele Laoten in Namen verwenden.",
+          "en": "'In' is a syllable that Lao people use a lot in names.",
+          "es": "'In' es una sílaba que los laosianos usan mucho en los nombres.",
+          "fr": "'In' est une syllabe que les Laotiens utilisent beaucoup dans les prénoms.",
+          "hi": "'इन' एक ऐसा अक्षर है जिसे लाओ लोग नामों में बहुत इस्तेमाल करते हैं।",
+          "ja": "「イン」はラーオ人が名前によく使う音節だ。",
+          "km": "'ອິນ' គឺជាព្យាង្គដែលជនជាតិឡាវវីរ​ ប្រើច្រើននៅក្នុងឈ្មោះ។",
+          "ko": "'인'은 라오 사람들이 이름에 많이 쓰는 음절이에요.",
+          "ne": "'इन' एउटा अक्षर हो जुन लाओ मानिसहरूले नाममा धेरै प्रयोग गर्छन्।",
+          "pt": "'In' é uma sílaba que os laosianos usam muito nos nomes.",
+          "th": "'อิน' เป็นพยางค์ที่คนลาวใช้มากในชื่อ",
+          "tl": "Ang 'In' ay isang pantig na maraming ginagamit ng mga Lao sa mga pangalan.",
+          "ur": "'اِن' ایک ایسی آواز ہے جو لاؤ لوگ ناموں میں بہت استعمال کرتے ہیں۔",
+          "vi": "'In' là âm tiết mà người Lào hay dùng trong tên.",
+          "zh": "'因'是老挝人在名字里常用的音节。",
+          "zh_Hant": "'因'是寮國人在名字裡常用的音節。"
+        },
+        "out_of_scope_words": [
+          "ຊື່"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a Lao name written in Lao script on a name tag or ID card, with a friendly smiling person holding it, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "low"
+  },
+  "ຄຸ້ມ": {
+    "definitions": {
+      "de": "Schützen/beschützen (Verb); es wert sein/sich lohnen (Ausdruck des Wertes); ein traditionelles Dorfviertel oder eine Gemeinschaftseinheit in Laos (Substantiv)",
+      "en": "To protect/guard (verb); to be worth it/worthwhile (expressing value); a traditional village ward or community unit in Laos (noun)",
+      "es": "Proteger/guardar (verbo); valer la pena (expresando valor); una unidad de barrio o comunidad tradicional en Laos (sustantivo)",
+      "fr": "Protéger/garder (verbe); valoir la peine (exprimant la valeur); un quartier de village traditionnel ou une unité communautaire au Laos (nom)",
+      "hi": "रक्षा करना/सुरक्षित रखना (क्रिया); सार्थक होना/काम का होना (मूल्य व्यक्त करना); लाओस में एक पारंपरिक ग्राम वार्ड या सामुदायिक इकाई (संज्ञा)",
+      "ja": "守る/保護する（動詞）；価値がある/割に合う（価値を表す）；ラオスの伝統的な村の区/コミュニティ単位（名詞）",
+      "km": "ការពារ/ការពារ (កិរិយាស័ព្ទ); មានតម្លៃ/គួរ (បង្ហាញតម្លៃ); ភូមិបណ្ដាំ ឬឯកតាសហគមន៍ប្រពៃណីនៅឡាវ (នាមស័ព្ទ)",
+      "ko": "보호하다/지키다(동사); 가치 있다/그럴 만하다(가치 표현); 라오스의 전통 마을 구역 또는 공동체 단위(명사)",
+      "ne": "सुरक्षा गर्नु/जोगाउनु (क्रिया); मूल्यवान हुनु/सार्थक हुनु (मूल्य व्यक्त गर्दै); लाओसमा परम्परागत गाउँ वार्ड वा सामुदायिक इकाई (संज्ञा)",
+      "pt": "Proteger/guardar (verbo); valer a pena (expressando valor); uma unidade de bairro ou comunidade tradicional no Laos (substantivo)",
+      "th": "ปกป้อง/คุ้มกัน (กริยา); คุ้มค่า (แสดงคุณค่า); เขตหมู่บ้านแบบดั้งเดิมหรือหน่วยชุมชนในลาว (คำนาม)",
+      "tl": "Protektahan/bantayan (pandiwa); sulit/kabayaran (nagpapahayag ng halaga); isang tradisyonal na sakop ng nayon o yunit ng komunidad sa Laos (pangngalan)",
+      "ur": "حفاظت کرنا/محفوظ رکھنا (فعل)؛ قابل قدر ہونا/فائدہ مند ہونا (قدر ظاہر کرنا)؛ لاؤس میں ایک روایتی گاؤں وارڈ یا کمیونٹی اکائی (اسم)",
+      "vi": "Bảo vệ/canh giữ (động từ); xứng đáng/đáng giá (diễn đạt giá trị); một đơn vị khu phố làng hoặc cộng đồng truyền thống ở Lào (danh từ)",
+      "zh": "保护/守护（动词）；值得/划算（表达价值）；老挝传统村庄区划或社区单位（名词）",
+      "zh_Hant": "保護/守護（動詞）；值得/划算（表達價值）；寮國傳統村莊區劃或社區單位（名詞）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "/khum˥˩/",
+    "examples": [
+      {
+        "lao_script": "ລາຄານີ້ຄຸ້ມຫຼາຍ ຊື້ເລີຍ",
+        "romanization": "laa khaa nii khum laai, sɯɯ ləəi",
+        "translations": {
+          "de": "Dieser Preis ist wirklich günstig, kauf es einfach!",
+          "en": "This price is totally worth it, just buy it!",
+          "es": "Este precio vale totalmente la pena, ¡solo cómpralo!",
+          "fr": "Ce prix en vaut vraiment la peine, achète-le !",
+          "hi": "यह कीमत बिल्कुल ठीक है, बस खरीद लो!",
+          "ja": "この値段はとても割に合う、買っちゃえ！",
+          "km": "តម្លៃនេះគួរណាស់ ទិញចុះ!",
+          "ko": "이 가격은 완전히 가치 있어, 그냥 사!",
+          "ne": "यो मूल्य पूर्णतः उचित छ, किन्नु नै!",
+          "pt": "Este preço vale totalmente a pena, só compra!",
+          "th": "ราคานี้คุ้มมากเลย ซื้อเลย!",
+          "tl": "Ang presyong ito ay talagang sulit, bilhin na!",
+          "ur": "یہ قیمت بالکل مناسب ہے، بس خریدو!",
+          "vi": "Giá này rất xứng đáng, mua đi thôi!",
+          "zh": "这个价格太值了，买吧！",
+          "zh_Hant": "這個價格太值了，買吧！"
+        },
+        "out_of_scope_words": [
+          "ລາຄາ"
+        ]
+      },
+      {
+        "lao_script": "ໝາຂອງຂ້ອຍຄຸ້ມເຮືອນດີຫຼາຍ",
+        "romanization": "maa khɔɔŋ khɔɔi khum hɯan dii laai",
+        "translations": {
+          "de": "Mein Hund beschützt das Haus sehr gut.",
+          "en": "My dog guards the house really well.",
+          "es": "Mi perro protege la casa muy bien.",
+          "fr": "Mon chien protège très bien la maison.",
+          "hi": "मेरा कुत्ता घर की बहुत अच्छी तरह रखवाली करता है।",
+          "ja": "私の犬はとても上手に家を守る。",
+          "km": "សុនខរបស់ខ្ញុំការពារផ្ទះបានល្អណាស់។",
+          "ko": "내 개가 집을 정말 잘 지켜요.",
+          "ne": "मेरो कुकुरले घर धेरै राम्रोसँग जोगाउँछ।",
+          "pt": "Meu cachorro guarda a casa muito bem.",
+          "th": "หมาของฉันเฝ้าบ้านได้ดีมาก",
+          "tl": "Ang aking aso ay nagbabantay ng bahay nang napakahusay.",
+          "ur": "میرا کتا گھر کی بہت اچھی طرح حفاظت کرتا ہے۔",
+          "vi": "Con chó của tôi canh giữ nhà rất tốt.",
+          "zh": "我的狗非常好地保护着房子。",
+          "zh_Hant": "我的狗非常好地保護著房子。"
+        },
+        "out_of_scope_words": [
+          "ໝາ",
+          "ເຮືອນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a happy dog sitting alert in front of a house, acting as a guard, with a small price tag nearby showing 'worth it' concept, suitable for a language learning app, clean white background, bright colors, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

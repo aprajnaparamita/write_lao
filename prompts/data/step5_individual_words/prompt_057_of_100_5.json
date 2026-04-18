@@ -1,0 +1,36 @@
+{
+  "lao_word": "ໄຟ",
+  "definitions": {
+    "de": "Feuer oder Elektrizität/Strom – kann eine Flamme oder elektrische Energie bedeuten",
+    "en": "Fire or electricity – can refer to a flame, burning fire, or electrical power/light",
+    "es": "Fuego o electricidad – puede referirse a una llama, fuego ardiente o energía eléctrica",
+    "fr": "Feu ou électricité – peut désigner une flamme, un feu ardent ou l'énergie électrique",
+    "hi": "आग या बिजली – ज्वाला, जलती हुई आग या विद्युत ऊर्जा को संदर्भित कर सकता है",
+    "ja": "火または電気 – 炎や燃える火、または電力・照明を指すことができる",
+    "km": "ភ្លើង – អាចមានន័យថាភ្លើងឆេះ ឬអគ្គិសនី",
+    "ko": "불 또는 전기 – 불꽃이나 타는 불, 또는 전기 에너지를 의미할 수 있다",
+    "ne": "आगो वा बिजुली – ज्वाला, जल्दो आगो वा विद्युत शक्तिलाई जनाउन सक्छ",
+    "pt": "Fogo ou eletricidade – pode se referir a uma chama, fogo aceso ou energia elétrica",
+    "th": "ไฟ – หมายถึงเปลวไฟ ไฟที่กำลังลุกไหม้ หรือกระแสไฟฟ้า",
+    "tl": "Apoy o kuryente – maaaring tumukoy sa apoy, nagniningas na sunog, o electrical na kuryente",
+    "ur": "آگ یا بجلی – شعلہ، جلتی ہوئی آگ یا برقی توانائی کے لیے استعمال ہوتا ہے",
+    "vi": "Lửa hoặc điện – có thể chỉ ngọn lửa, đám cháy hoặc năng lượng điện",
+    "zh": "火或电——可以指火焰、燃烧的火，或电力/电灯",
+    "zh_Hant": "火或電——可以指火焰、燃燒的火，或電力/電燈"
+  },
+  "definition_en": "Fire or electricity – can refer to a flame, burning fire, or electrical power/light",
+  "romanization": "/fáj/",
+  "lao_examples": [
+    {
+      "lao_script": "ໄຟດັບໝົດເລີຍ ຄືນນີ້ມືດຫຼາຍ",
+      "romanization": "fáj dàp mòt lɤːi khüːn níː müːt laːi",
+      "translation_en": "The electricity went out completely – it's really dark tonight"
+    },
+    {
+      "lao_script": "ລະວັງໄຟ ຢ່າໃຫ້ເດັກນ້ອຍໃກ້",
+      "romanization": "la.wang fáj yàː hâi dèk nɔ̂i klâi",
+      "translation_en": "Be careful with the fire – don't let the kids get close"
+    }
+  ],
+  "image_prompt": "A simple flat illustration showing two scenes side by side: a bright orange campfire with flames on the left, and a glowing light bulb representing electricity on the right, clean white background, colorful minimalist style, suitable for a language learning app"
+}

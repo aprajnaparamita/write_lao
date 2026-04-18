@@ -1,0 +1,394 @@
+{
+  "ສຽງ": {
+    "definitions": {
+      "de": "Geräusch, Laut oder Stimme; ein hörbares Klangphänomen",
+      "en": "Sound or voice; any audible noise or the sound produced by a person speaking or singing",
+      "es": "Sonido o voz; cualquier ruido audible o el sonido producido por una persona al hablar o cantar",
+      "fr": "Son ou voix ; tout bruit audible ou le son produit par une personne qui parle ou chante",
+      "hi": "ध्वनि या आवाज़; कोई भी श्रव्य शोर या किसी व्यक्ति के बोलने या गाने से उत्पन्न ध्वनि",
+      "ja": "音や声；聞こえるあらゆる音、または人が話したり歌ったりするときに出る音",
+      "km": "សំឡេង ឬសូរស័ព្ទ; សំឡេងដែលអាចឮបាន ឬសំឡេងដែលបុគ្គលម្នាក់និយាយ ឬច្រៀង",
+      "ko": "소리 또는 목소리; 들을 수 있는 모든 소음이나 사람이 말하거나 노래할 때 나는 소리",
+      "ne": "आवाज वा ध्वनि; कुनै पनि सुन्न सकिने आवाज वा व्यक्तिले बोल्दा वा गाउँदा निकालेको ध्वनि",
+      "pt": "Som ou voz; qualquer ruído audível ou o som produzido por uma pessoa ao falar ou cantar",
+      "th": "เสียงหรือเสียงพูด; เสียงที่ได้ยินได้ทุกชนิดหรือเสียงที่เกิดจากการพูดหรือร้องเพลงของคน",
+      "tl": "Tunog o boses; anumang marinig na ingay o ang tunog na ginagawa ng isang tao habang nagsasalita o umaawit",
+      "ur": "آواز یا صوت؛ کوئی بھی سنائی دینے والی آواز یا کسی شخص کے بولنے یا گانے سے پیدا ہونے والی آواز",
+      "vi": "Âm thanh hoặc giọng nói; bất kỳ tiếng động nào có thể nghe được hoặc âm thanh do một người tạo ra khi nói hoặc hát",
+      "zh": "声音或嗓音；任何可听见的噪音，或人说话、唱歌时发出的声音",
+      "zh_Hant": "聲音或嗓音；任何可聽見的噪音，或人說話、唱歌時發出的聲音"
+    },
+    "part_of_speech": "noun",
+    "romanization": "sǐang",
+    "examples": [
+      {
+        "lao_script": "ສຽງເພງນີ້ໄພວ່ອຍຫຼາຍ",
+        "romanization": "sǐang pheng níi phái wɔ̂i lǎai",
+        "translations": {
+          "de": "Dieses Lied ist wirklich schön.",
+          "en": "This song sounds really beautiful.",
+          "es": "Esta canción suena realmente hermosa.",
+          "fr": "Cette chanson est vraiment belle.",
+          "hi": "यह गाना सच में बहुत सुंदर लगता है।",
+          "ja": "この歌は本当にきれいだね。",
+          "km": "បទចម្រៀងនេះស្រស់ស្អាតណាស់។",
+          "ko": "이 노래 정말 아름답게 들린다.",
+          "ne": "यो गाना साँच्चै धेरै सुन्दर छ।",
+          "pt": "Essa música soa realmente bonita.",
+          "th": "เพลงนี้ฟังดูสวยมากเลย",
+          "tl": "Ang kantang ito ay talagang maganda.",
+          "ur": "یہ گانا واقعی بہت خوبصورت لگتا ہے۔",
+          "vi": "Bài hát này nghe hay thật đấy.",
+          "zh": "这首歌听起来真的很好听。",
+          "zh_Hant": "這首歌聽起來真的很好聽。"
+        },
+        "out_of_scope_words": [
+          "ເພງ",
+          "ໄພວ່ອຍ"
+        ]
+      },
+      {
+        "lao_script": "ສຽງນາຍດັງຫຼາຍ, ຂ້ອຍໄດ້ຍິນຈາກໄກ",
+        "romanization": "sǐang khǎo dang lǎai, khɔ̂i dâi yin jak glai",
+        "translations": {
+          "de": "Seine Stimme ist sehr laut, ich kann sie von weitem hören.",
+          "en": "His voice is very loud, I can hear it from far away.",
+          "es": "Su voz es muy fuerte, puedo escucharla desde lejos.",
+          "fr": "Sa voix est très forte, je peux l'entendre de loin.",
+          "hi": "उसकी आवाज़ बहुत तेज़ है, मैं दूर से सुन सकता हूँ।",
+          "ja": "彼の声はとても大きくて、遠くから聞こえるよ。",
+          "km": "សំឡេងរបស់គាត់លឺខ្លាំងណាស់ ខ្ញុំអាចឮពីចម្ងាយ។",
+          "ko": "그의 목소리가 너무 커서 멀리서도 들을 수 있어.",
+          "ne": "उसको आवाज धेरै ठूलो छ, म टाढाबाट सुन्न सक्छु।",
+          "pt": "A voz dele é muito alta, consigo ouvir de longe.",
+          "th": "เสียงของเขาดังมาก ฉันได้ยินจากที่ไกลเลย",
+          "tl": "Ang boses niya ay napakalakas, naririnig ko ito mula sa malayo.",
+          "ur": "اس کی آواز بہت تیز ہے، میں دور سے سن سکتا ہوں۔",
+          "vi": "Giọng anh ấy to lắm, tôi nghe thấy từ xa.",
+          "zh": "他的声音很大，我从远处都能听到。",
+          "zh_Hant": "他的聲音很大，我從遠處都能聽到。"
+        },
+        "out_of_scope_words": [
+          "ດັງ",
+          "ໄດ້ຍິນ",
+          "ໄກ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration showing sound waves emanating from a human mouth and a musical note floating in the air, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຂກ": {
+    "definitions": {
+      "de": "Gast; eine Person, die zu Besuch kommt oder eingeladen ist, z. B. zu einem Essen oder einer Veranstaltung",
+      "en": "Guest; a person who visits or is invited to someone's home, an event, or an establishment",
+      "es": "Invitado; una persona que visita o es invitada a la casa de alguien, a un evento o a un establecimiento",
+      "fr": "Invité ; une personne qui rend visite ou est invitée chez quelqu'un, à un événement ou dans un établissement",
+      "hi": "मेहमान; कोई व्यक्ति जो किसी के घर, किसी कार्यक्रम या किसी स्थान पर आमंत्रित होकर आता है",
+      "ja": "客；誰かの家、イベント、または施設を訪問したり招かれたりする人",
+      "km": "ភ្ញៀវ; បុគ្គលដែលមកលេង ឬត្រូវបានអញ្ជើញមកផ្ទះរបស់នរណាម្នាក់ ព្រឹត្តិការណ៍ ឬស្ថាប័នមួយ",
+      "ko": "손님; 누군가의 집, 행사 또는 시설을 방문하거나 초대받은 사람",
+      "ne": "पाहुना; कुनै व्यक्ति जो कसैको घर, कार्यक्रम वा प्रतिष्ठानमा भ्रमण गर्न वा आमन्त्रित भई आउँछ",
+      "pt": "Convidado ou hóspede; uma pessoa que visita ou é convidada para a casa de alguém, um evento ou um estabelecimento",
+      "th": "แขก; บุคคลที่มาเยี่ยมหรือได้รับเชิญมาที่บ้านของใครสักคน งานอีเวนต์ หรือสถานประกอบการ",
+      "tl": "Panauhin; isang taong bumibisita o inimbitahan sa tahanan ng isang tao, isang kaganapan, o isang establisimyento",
+      "ur": "مہمان؛ ایک شخص جو کسی کے گھر، کسی تقریب یا کسی جگہ پر آتا یا مدعو کیا جاتا ہے",
+      "vi": "Khách; một người đến thăm hoặc được mời đến nhà ai đó, một sự kiện hoặc một cơ sở",
+      "zh": "客人；到访或受邀去某人家、某活动或某场所的人",
+      "zh_Hant": "客人；到訪或受邀去某人家、某活動或某場所的人"
+    },
+    "part_of_speech": "noun",
+    "romanization": "khɛ̀ɛk",
+    "examples": [
+      {
+        "lao_script": "ມື້ນີ້ມີແຂກມາເຮືອນ, ຕ້ອງຈັດແຈງກ່ອນ",
+        "romanization": "mʉ́ʉ níi mii khɛ̀ɛk maa hʉan, tɔ̂ng jàt jɛɛng gɔ̀n",
+        "translations": {
+          "de": "Heute kommen Gäste zu uns nach Hause, wir müssen vorher aufräumen.",
+          "en": "Today we have guests coming to the house, we need to get ready first.",
+          "es": "Hoy vienen invitados a casa, hay que prepararse antes.",
+          "fr": "Aujourd'hui des invités viennent à la maison, il faut se préparer d'abord.",
+          "hi": "आज घर पर मेहमान आ रहे हैं, पहले तैयारी करनी होगी।",
+          "ja": "今日は家にお客さんが来るから、先に準備しないといけない。",
+          "km": "ថ្ងៃនេះមានភ្ញៀវមកផ្ទះ ត្រូវរៀបចំជាមុន។",
+          "ko": "오늘 집에 손님이 오니까 먼저 준비해야 해.",
+          "ne": "आज घरमा पाहुना आउँदैछन्, पहिले तयारी गर्नुपर्छ।",
+          "pt": "Hoje tem convidados vindo em casa, preciso me preparar antes.",
+          "th": "วันนี้มีแขกมาบ้าน ต้องจัดเตรียมก่อนนะ",
+          "tl": "Ngayon may mga panauhin na darating sa bahay, kailangan maghanda muna.",
+          "ur": "آج گھر میں مہمان آ رہے ہیں، پہلے تیاری کرنی ہوگی۔",
+          "vi": "Hôm nay có khách đến nhà, phải chuẩn bị trước đã.",
+          "zh": "今天有客人来家里，要先收拾一下。",
+          "zh_Hant": "今天有客人來家裡，要先收拾一下。"
+        },
+        "out_of_scope_words": [
+          "ຈັດແຈງ"
+        ]
+      },
+      {
+        "lao_script": "ແຂກຢູ່ໂຮງແຮມຊັ້ນສາມ",
+        "romanization": "khɛ̀ɛk yùu hóong hɛɛm sán sǎam",
+        "translations": {
+          "de": "Der Gast wohnt im dritten Stock des Hotels.",
+          "en": "The guest is staying on the third floor of the hotel.",
+          "es": "El huésped está en el tercer piso del hotel.",
+          "fr": "L'invité se trouve au troisième étage de l'hôtel.",
+          "hi": "मेहमान होटल की तीसरी मंजिल पर हैं।",
+          "ja": "お客さんはホテルの3階にいます。",
+          "km": "ភ្ញៀវស្នាក់នៅជាន់ទីបីនៃសណ្ឋាគារ។",
+          "ko": "손님은 호텔 3층에 머무르고 있어요.",
+          "ne": "पाहुना होटलको तेस्रो तलामा हुनुहुन्छ।",
+          "pt": "O hóspede está no terceiro andar do hotel.",
+          "th": "แขกอยู่ที่โรงแรมชั้นสาม",
+          "tl": "Ang panauhin ay nasa ikatlong palapag ng hotel.",
+          "ur": "مہمان ہوٹل کی تیسری منزل پر ہیں۔",
+          "vi": "Khách đang ở tầng ba của khách sạn.",
+          "zh": "客人住在酒店三楼。",
+          "zh_Hant": "客人住在酒店三樓。"
+        },
+        "out_of_scope_words": [
+          "ໂຮງແຮມ",
+          "ຊັ້ນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a smiling person standing at a front door being welcomed by a host with open arms, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແຜນ": {
+    "definitions": {
+      "de": "Plan oder Karte; ein Vorhaben oder eine Absicht für die Zukunft, oder eine grafische Darstellung eines Gebietes",
+      "en": "Plan or map; an intention or arrangement for the future, or a visual diagram representing an area or layout",
+      "es": "Plan o mapa; una intención o arreglo para el futuro, o un diagrama visual que representa un área o distribución",
+      "fr": "Plan ou carte ; une intention ou un arrangement pour l'avenir, ou un diagramme visuel représentant une zone ou une disposition",
+      "hi": "योजना या नक्शा; भविष्य के लिए कोई इरादा या व्यवस्था, या किसी क्षेत्र या लेआउट को दर्शाने वाला दृश्य चित्र",
+      "ja": "計画または地図；将来のための意図や取り決め、またはある地域や配置を視覚的に表した図",
+      "km": "គម្រោង ឬផែនទី; ចេតនា ឬការរៀបចំសម្រាប់អនាគត ឬដ្យាក្រាមដែលតំណាងឱ្យតំបន់ ឬប្លង់",
+      "ko": "계획 또는 지도; 미래를 위한 의도나 준비, 또는 어떤 지역이나 배치를 시각적으로 나타낸 도표",
+      "ne": "योजना वा नक्सा; भविष्यका लागि कुनै इरादा वा व्यवस्था, वा कुनै क्षेत्र वा लेआउटलाई दृश्य रूपमा देखाउने रेखाचित्र",
+      "pt": "Plano ou mapa; uma intenção ou arranjo para o futuro, ou um diagrama visual representando uma área ou layout",
+      "th": "แผน หรือแผนที่; ความตั้งใจหรือการจัดเตรียมสำหรับอนาคต หรือแผนภาพที่แสดงพื้นที่หรือผังบริเวณ",
+      "tl": "Plano o mapa; isang intensyon o pagsasaayos para sa hinaharap, o isang visual na diagram na kumakatawan sa isang lugar o layout",
+      "ur": "منصوبہ یا نقشہ؛ مستقبل کے لیے کوئی ارادہ یا انتظام، یا کسی علاقے یا ترتیب کو بصری طور پر ظاہر کرنے والا خاکہ",
+      "vi": "Kế hoạch hoặc bản đồ; một ý định hoặc sắp xếp cho tương lai, hoặc sơ đồ trực quan thể hiện một khu vực hoặc bố cục",
+      "zh": "计划或地图；对未来的打算或安排，或代表某区域或布局的视觉图表",
+      "zh_Hant": "計劃或地圖；對未來的打算或安排，或代表某區域或佈局的視覺圖表"
+    },
+    "part_of_speech": "noun",
+    "romanization": "phɛ̌ɛn",
+    "examples": [
+      {
+        "lao_script": "ເຈົ້າມີແຜນຫຍັງສຳລັບອາທິດໜ້າ?",
+        "romanization": "jâo mii phɛ̌ɛn ɲǎng sǎm láp aa thít nâa?",
+        "translations": {
+          "de": "Was hast du nächste Woche vor?",
+          "en": "Do you have any plans for next week?",
+          "es": "¿Tienes algún plan para la próxima semana?",
+          "fr": "Tu as des projets pour la semaine prochaine ?",
+          "hi": "अगले हफ्ते के लिए तुम्हारी कोई योजना है?",
+          "ja": "来週は何か予定ある？",
+          "km": "តើអ្នកមានផែនការអ្វីសម្រាប់សប្តាហ៍ក្រោយ?",
+          "ko": "다음 주에 무슨 계획 있어?",
+          "ne": "आउने हप्ताका लागि तिम्रो के योजना छ?",
+          "pt": "Você tem algum plano para a semana que vem?",
+          "th": "อาทิตย์หน้าแกมีแผนอะไรบ้าง?",
+          "tl": "May plano ka ba para sa susunod na linggo?",
+          "ur": "اگلے ہفتے کے لیے تمہارا کوئی منصوبہ ہے؟",
+          "vi": "Tuần sau bạn có kế hoạch gì không?",
+          "zh": "你下周有什么计划吗？",
+          "zh_Hant": "你下週有什麼計劃嗎？"
+        },
+        "out_of_scope_words": [
+          "ອາທິດໜ້າ"
+        ]
+      },
+      {
+        "lao_script": "ເຮົາຕ້ອງວາງແຜນດີໆ ກ່ອນອອກເດີນທາງ",
+        "romanization": "hao tɔ̂ng wáang phɛ̌ɛn dii dii, gɔ̀n ɔ̀k dəən thaang",
+        "translations": {
+          "de": "Wir müssen gut planen, bevor wir aufbrechen.",
+          "en": "We need to plan carefully before setting off on the trip.",
+          "es": "Tenemos que planear bien antes de partir de viaje.",
+          "fr": "On doit bien planifier avant de partir en voyage.",
+          "hi": "यात्रा पर निकलने से पहले हमें अच्छी तरह से योजना बनानी होगी।",
+          "ja": "出発する前にしっかり計画を立てないといけないよ。",
+          "km": "យើងត្រូវវាងផែនការឱ្យបានល្អ មុនពេលចាកចេញធ្វើដំណើរ។",
+          "ko": "출발하기 전에 계획을 잘 세워야 해.",
+          "ne": "यात्रा सुरु गर्नु अघि हामीले राम्रोसँग योजना बनाउनुपर्छ।",
+          "pt": "A gente precisa planejar bem antes de sair para a viagem.",
+          "th": "เราต้องวางแผนให้ดีๆ ก่อนออกเดินทาง",
+          "tl": "Kailangan nating magplano nang maayos bago umalis sa biyahe.",
+          "ur": "سفر پر روانہ ہونے سے پہلے ہمیں اچھی طرح منصوبہ بندی کرنی ہوگی۔",
+          "vi": "Chúng ta phải lên kế hoạch kỹ trước khi lên đường.",
+          "zh": "出发旅行前我们要好好计划。",
+          "zh_Hant": "出發旅行前我們要好好計劃。"
+        },
+        "out_of_scope_words": [
+          "ວາງແຜນ",
+          "ອອກເດີນທາງ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of an open notebook with a checklist and a small map drawn on it, a pencil lying beside it, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ໃບ": {
+    "definitions": {
+      "de": "Blatt (eines Baumes); auch ein Klassifikator für flache dünne Gegenstände wie Blätter, Papiere oder Quittungen",
+      "en": "Leaf (of a tree or plant); also used as a classifier for flat, thin objects such as leaves, sheets of paper, tickets, or receipts",
+      "es": "Hoja (de un árbol o planta); también se usa como clasificador para objetos planos y delgados como hojas de papel, boletos o recibos",
+      "fr": "Feuille (d'un arbre ou d'une plante) ; également utilisé comme classificateur pour les objets plats et minces tels que les feuilles de papier, les billets ou les reçus",
+      "hi": "पत्ता (किसी पेड़ या पौधे का); साथ ही चपटी, पतली वस्तुओं जैसे कागज की शीट, टिकट या रसीदों के लिए वर्गीकरण शब्द के रूप में भी प्रयुक्त",
+      "ja": "葉（木や植物の）；また、紙、チケット、レシートなど平らで薄いものを数える類別詞としても使われる",
+      "km": "ស្លឹក (នៃដើមឈើ ឬរុក្ខជាតិ); ក៏ប្រើជាលក្ខន្តិកៈសម្រាប់វត្ថុស្តើងៗ ដូចជាស្លឹកក្រដាស សំបុត្រ ឬវិក្កយបត្រ",
+      "ko": "잎 (나무나 식물의); 또한 종이, 티켓, 영수증 등 납작하고 얇은 물건을 세는 분류사로도 사용됨",
+      "ne": "पात (रुख वा बिरुवाको); साथै कागजको पाना, टिकट वा रसिद जस्ता चेप्टा, पातला वस्तुहरूको लागि वर्गीकरण शब्दको रूपमा पनि प्रयोग हुन्छ",
+      "pt": "Folha (de uma árvore ou planta); também usado como classificador para objetos planos e finos como folhas de papel, ingressos ou recibos",
+      "th": "ใบ (ของต้นไม้หรือพืช); ยังใช้เป็นลักษณนามสำหรับวัตถุแบนและบางอย่างเช่น กระดาษ ตั๋ว หรือใบเสร็จ",
+      "tl": "Dahon (ng puno o halaman); ginagamit din bilang panlaping panguri para sa mga patag at manipis na bagay tulad ng mga dahon ng papel, tiket, o resibo",
+      "ur": "پتہ (کسی درخت یا پودے کا)؛ اسے چپٹی، پتلی اشیاء جیسے کاغذ کی شیٹ، ٹکٹ یا رسید کے لیے درجہ بندی کے طور پر بھی استعمال کیا جاتا ہے",
+      "vi": "Lá (của cây hoặc thực vật); cũng dùng làm loại từ cho các vật phẳng, mỏng như tờ giấy, vé hoặc hóa đơn",
+      "zh": "叶子（树木或植物的）；也用作量词，用于纸张、票据、收据等扁平薄物",
+      "zh_Hant": "葉子（樹木或植物的）；也用作量詞，用於紙張、票據、收據等扁平薄物"
+    },
+    "part_of_speech": "classifier",
+    "romanization": "bai",
+    "examples": [
+      {
+        "lao_script": "ໃບໄມ້ຫຼົ່ນລົງໃສ່ດິນ",
+        "romanization": "bai mái lòn long sai din",
+        "translations": {
+          "de": "Ein Blatt fiel auf den Boden.",
+          "en": "A leaf fell down to the ground.",
+          "es": "Una hoja cayó al suelo.",
+          "fr": "Une feuille est tombée sur le sol.",
+          "hi": "एक पत्ता ज़मीन पर गिर गया।",
+          "ja": "葉っぱが地面に落ちた。",
+          "km": "ស្លឹកឈើបានធ្លាក់ចុះដល់ដី។",
+          "ko": "나뭇잎이 땅에 떨어졌어.",
+          "ne": "एउटा पात जमिनमा झर्यो।",
+          "pt": "Uma folha caiu no chão.",
+          "th": "ใบไม้ร่วงลงมาที่พื้น",
+          "tl": "Isang dahon ang nahulog sa lupa.",
+          "ur": "ایک پتہ زمین پر گر گیا۔",
+          "vi": "Một chiếc lá rơi xuống đất.",
+          "zh": "一片树叶落到了地上。",
+          "zh_Hant": "一片樹葉落到了地上。"
+        },
+        "out_of_scope_words": [
+          "ໄມ້",
+          "ຫຼົ່ນ",
+          "ດິນ"
+        ]
+      },
+      {
+        "lao_script": "ເອົາໃບບິນມາໃຫ້ຂ້ອຍແດ່",
+        "romanization": "ao bai bin maa hâi khɔ̂i dɛ̀",
+        "translations": {
+          "de": "Gib mir bitte die Rechnung.",
+          "en": "Please bring me the bill.",
+          "es": "Tráeme la cuenta, por favor.",
+          "fr": "Apporte-moi l'addition, s'il te plaît.",
+          "hi": "मुझे बिल लाकर देना।",
+          "ja": "伝票を持ってきてください。",
+          "km": "យកវិក្កយបត្រមកឱ្យខ្ញុំផង។",
+          "ko": "영수증 좀 가져다줘.",
+          "ne": "मलाई बिल ल्याइदिनुस् न।",
+          "pt": "Me traz a conta, por favor.",
+          "th": "เอาใบบิลมาให้ฉันหน่อยนะ",
+          "tl": "Dalhin mo ang bill sa akin.",
+          "ur": "مجھے بل لے آؤ۔",
+          "vi": "Đưa hóa đơn cho tôi với.",
+          "zh": "把账单拿给我。",
+          "zh_Hant": "把帳單拿給我。"
+        },
+        "out_of_scope_words": [
+          "ໃບບິນ"
+        ]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a bright green leaf from a tree alongside a sheet of paper and a ticket, showing the dual meaning as a nature word and classifier, clean white background, colorful, minimalist style, suitable for a language learning app.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ທີມ": {
+    "definitions": {
+      "de": "Team; eine Gruppe von Personen, die zusammenarbeiten, um ein gemeinsames Ziel zu erreichen, besonders im Sport oder am Arbeitsplatz (Lehnwort aus dem Englischen)",
+      "en": "Team; a group of people who work together toward a common goal, especially in sports or in a workplace context (loanword from English)",
+      "es": "Equipo; un grupo de personas que trabajan juntas para lograr un objetivo común, especialmente en deportes o en el ámbito laboral (préstamo del inglés)",
+      "fr": "Équipe ; un groupe de personnes qui travaillent ensemble pour atteindre un objectif commun, notamment dans le sport ou au travail (emprunt à l'anglais)",
+      "hi": "टीम; लोगों का एक समूह जो एक साझा लक्ष्य की ओर मिलकर काम करता है, विशेष रूप से खेल या कार्यस्थल के संदर्भ में (अंग्रेज़ी से लिया गया शब्द)",
+      "ja": "チーム；共通の目標に向けて一緒に働く人々のグループ。特にスポーツや職場の文脈で使われる（英語からの借用語）",
+      "km": "ក្រុម; ក្រុមមនុស្សដែលធ្វើការជាមួយគ្នាដើម្បីសម្រេចគោលដៅរួម ជាពិសេសសម្រាប់កីឡា ឬការងារ (ពាក្យខ្ចីពីភាសាអង់គ្លេស)",
+      "ko": "팀; 특히 스포츠나 직장에서 공동 목표를 위해 함께 일하는 사람들의 그룹 (영어 차용어)",
+      "ne": "टिम; साझा लक्ष्यको दिशामा सँगै काम गर्ने मान्छेहरूको समूह, विशेष गरी खेलकुद वा कार्यस्थल सन्दर्भमा (अंग्रेजीबाट लिइएको शब्द)",
+      "pt": "Time ou equipe; um grupo de pessoas que trabalham juntas em direção a um objetivo comum, especialmente em esportes ou no ambiente de trabalho (empréstimo do inglês)",
+      "th": "ทีม; กลุ่มคนที่ทำงานร่วมกันเพื่อเป้าหมายร่วมกัน โดยเฉพาะในกีฬาหรือในที่ทำงาน (คำยืมจากภาษาอังกฤษ)",
+      "tl": "Tim; isang grupo ng mga tao na nagtutulungan upang makamit ang isang karaniwang layunin, lalo na sa palakasan o sa lugar ng trabaho (hiniram mula sa Ingles)",
+      "ur": "ٹیم؛ لوگوں کا ایک گروہ جو ایک مشترکہ ہدف کی طرف مل کر کام کرتا ہے، خاص طور پر کھیل یا کام کی جگہ کے سیاق و سباق میں (انگریزی سے لیا گیا لفظ)",
+      "vi": "Đội hoặc nhóm; một nhóm người cùng làm việc hướng đến mục tiêu chung, đặc biệt trong thể thao hoặc nơi làm việc (từ mượn từ tiếng Anh)",
+      "zh": "队伍或团队；为共同目标一起合作的一群人，尤其是在体育或工作场合（源自英语的借词）",
+      "zh_Hant": "隊伍或團隊；為共同目標一起合作的一群人，尤其是在體育或工作場合（源自英語的借詞）"
+    },
+    "part_of_speech": "noun",
+    "romanization": "thiim",
+    "examples": [
+      {
+        "lao_script": "ທີມຂອງເຮົາຊະນະເກມມື້ວານນີ້",
+        "romanization": "thiim khɔ̌ng hao sá nà geem mʉ́ʉ waan níi",
+        "translations": {
+          "de": "Unser Team hat gestern das Spiel gewonnen.",
+          "en": "Our team won the game yesterday.",
+          "es": "Nuestro equipo ganó el partido ayer.",
+          "fr": "Notre équipe a gagné le match hier.",
+          "hi": "हमारी टीम ने कल खेल जीता।",
+          "ja": "僕たちのチームは昨日の試合に勝ったよ。",
+          "km": "ក្រុមរបស់យើងឈ្នះប្រកួតម្សិលមិញ។",
+          "ko": "우리 팀이 어제 경기에서 이겼어.",
+          "ne": "हाम्रो टिमले हिजो खेल जित्यो।",
+          "pt": "Nosso time ganhou o jogo ontem.",
+          "th": "ทีมของเราชนะเกมเมื่อวานนี้",
+          "tl": "Nanalo ang aming tim sa laro kahapon.",
+          "ur": "ہماری ٹیم نے کل کا کھیل جیت لیا۔",
+          "vi": "Đội của chúng tôi đã thắng trận hôm qua.",
+          "zh": "我们队昨天赢了比赛。",
+          "zh_Hant": "我們隊昨天贏了比賽。"
+        },
+        "out_of_scope_words": [
+          "ຊະນະ",
+          "ເກມ",
+          "ມື້ວານນີ້"
+        ]
+      },
+      {
+        "lao_script": "ເຈົ້າຢູ່ທີມໃດ?",
+        "romanization": "jâo yùu thiim dai?",
+        "translations": {
+          "de": "In welchem Team bist du?",
+          "en": "Which team are you on?",
+          "es": "¿En qué equipo estás?",
+          "fr": "Tu es dans quelle équipe ?",
+          "hi": "तुम किस टीम में हो?",
+          "ja": "どのチームにいるの？",
+          "km": "អ្នកនៅក្រុមមួយណា?",
+          "ko": "너 어느 팀이야?",
+          "ne": "तिमी कुन टिममा छौ?",
+          "pt": "Você está em qual time?",
+          "th": "แกอยู่ทีมไหน?",
+          "tl": "Anong tim ang kinabibilangan mo?",
+          "ur": "تم کس ٹیم میں ہو؟",
+          "vi": "Bạn ở đội nào vậy?",
+          "zh": "你在哪个队？",
+          "zh_Hant": "你在哪個隊？"
+        },
+        "out_of_scope_words": []
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a group of five diverse people wearing matching colored jerseys standing together with their hands stacked in a team huddle, suitable for a language learning app, clean white background, colorful, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

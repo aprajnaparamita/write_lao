@@ -1,0 +1,36 @@
+{
+  "lao_word": "ດັບ",
+  "definitions": {
+    "de": "Löschen; ausmachen; ausschalten (Feuer, Licht, Motor); erlöschen",
+    "en": "To extinguish; to turn off; to put out (fire, light, engine); to go out (of a flame)",
+    "es": "Apagar; extinguir (fuego, luz, motor); apagarse (una llama)",
+    "fr": "Éteindre; couper (feu, lumière, moteur); s'éteindre (d'une flamme)",
+    "hi": "बुझाना; बंद करना (आग, बत्ती, इंजन); बुझ जाना (लौ का)",
+    "ja": "消す；消火する（火・電気・エンジンを）；（炎が）消える",
+    "km": "ពន្លត់; បិទ (ភ្លើង ភ្លើងបំភ្លឺ ម៉ាស៊ីន); ផ្លុំ (ភ្លើង)",
+    "ko": "끄다; 불을 끄다; (불, 불빛, 엔진을) 끄다; (불꽃이) 꺼지다",
+    "ne": "निभाउनु; बन्द गर्नु (आगो, बत्ती, इन्जिन); निभ्नु (ज्वाला)",
+    "pt": "Apagar; extinguir (fogo, luz, motor); se apagar (uma chama)",
+    "th": "ดับ; ปิด; ดับไฟ (ไฟ แสงสว่าง เครื่องยนต์); ดับลง (เปลวไฟ)",
+    "tl": "Patayin; apulahin (apoy, ilaw, makina); mawala (apoy)",
+    "ur": "بجھانا؛ بند کرنا (آگ، روشنی، انجن)؛ بجھ جانا (شعلہ)",
+    "vi": "Tắt; dập tắt (lửa, đèn, máy); tắt đi (ngọn lửa)",
+    "zh": "熄灭；关掉（火、灯、引擎）；灭（火焰）",
+    "zh_Hant": "熄滅；關掉（火、燈、引擎）；滅（火焰）"
+  },
+  "definition_en": "To extinguish; to turn off; to put out (fire, light, engine); to go out (of a flame)",
+  "romanization": "dap",
+  "lao_examples": [
+    {
+      "lao_script": "ດັບໄຟກ່ອນນອນດ້ວຍເນາະ",
+      "romanization": "dap faj kɔ̀ːn nɔːn dûaj nɔ",
+      "translation_en": "Turn off the light before going to sleep, okay?"
+    },
+    {
+      "lao_script": "ດັບເຄື່ອງລົດກ່ອນລົງໄດ້ເລີຍ",
+      "romanization": "dap khɯ̂aŋ lót kɔ̀ːn loŋ dâj ləːj",
+      "translation_en": "You can turn off the engine before getting out."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a hand turning off a light switch on a wall, with a light bulb going dark, clean white background, colorful minimalist cartoon style suitable for a language learning app."
+}

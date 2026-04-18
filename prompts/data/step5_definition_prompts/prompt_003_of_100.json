@@ -1,0 +1,367 @@
+{
+  "ໃຫ້": {
+    "definitions": {
+      "de": "geben; für (jemanden); lassen/ermöglichen (Kausalmarker)",
+      "en": "to give; for (beneficiary); to let/allow (causative marker)",
+      "es": "dar; para (beneficiario); dejar/permitir (causativo)",
+      "fr": "donner; pour (bénéficiaire); laisser/permettre (causatif)",
+      "hi": "देना; के लिए; अनुमति देना (प्रेरणार्थक चिह्न)",
+      "ja": "あげる／〜のために／〜させる（授与・目的・使役）",
+      "km": "ឱ្យ／សម្រាប់ (ឲ្យ, គុណសាសន៍ ឬបុព្វហេតុ)",
+      "ko": "주다／~에게／~하게 하다 (수여·목적·사동)",
+      "ne": "दिनु／लाई／गर्न दिनु (दिने, लागि वा प्रेरणार्थक)",
+      "pt": "dar; para (beneficiário); deixar/permitir (causativo)",
+      "th": "ให้ (มอบ, เพื่อ, ทำให้)",
+      "tl": "magbigay／para sa／hayaang (pagbibigay, para kay, pahintulutan)",
+      "ur": "دینا؛ کے لیے؛ کرنے دینا (دینا، مقصد یا سببی)",
+      "vi": "cho; để; cho phép (trao, mục đích, khiến)",
+      "zh": "给／为／让（授予、目的或使役）",
+      "zh_Hant": "給／為／讓（授予、目的或使役）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "hȁj",
+    "examples": [
+      {
+        "lao_script": "ຂ້ອຍ ໃຫ້ ເງິນ ເພື່ອນ",
+        "romanization": "kʰɔ̂ːj hȁj ŋə́n pʰɯ̄ːən",
+        "translations": {
+          "de": "Ich gebe meinem Freund Geld.",
+          "en": "I give money to my friend.",
+          "es": "Le doy dinero a mi amigo.",
+          "fr": "Je donne de l'argent à mon ami.",
+          "hi": "मैं अपने दोस्त को पैसे देता हूँ।",
+          "ja": "友達にお金をあげます。",
+          "km": "ខ្ញុំឱ្យលុយមិត្តភក្តិ។",
+          "ko": "저는 친구에게 돈을 줘요.",
+          "ne": "म साथीलाई पैसा दिन्छु।",
+          "pt": "Eu dou dinheiro ao meu amigo.",
+          "th": "ฉันให้เงินเพื่อน",
+          "tl": "Binibigyan ko ng pera ang kaibigan ko.",
+          "ur": "میں اپنے دوست کو پیسے دیتا ہوں۔",
+          "vi": "Tôi cho bạn tiền.",
+          "zh": "我给朋友钱。",
+          "zh_Hant": "我給朋友錢。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ໃຫ້ ລາວ ມາ ຫາ ຂ້ອຍ",
+        "romanization": "hȁj láːw máː hǎː kʰɔ̂ːj",
+        "translations": {
+          "de": "Lass ihn/sie zu mir kommen.",
+          "en": "Let him/her come to me.",
+          "es": "Deja que venga a verme.",
+          "fr": "Laisse-le/la venir me voir.",
+          "hi": "उसे मुझसे मिलने आने दो।",
+          "ja": "彼／彼女を私のところに来させてください。",
+          "km": "ឱ្យគាត់មករកខ្ញុំ។",
+          "ko": "그/그녀를 저에게 오게 해주세요.",
+          "ne": "उहाँलाई मकहाँ आउन दिनुस्।",
+          "pt": "Deixa ele/ela vir me ver.",
+          "th": "ให้เขามาหาฉัน",
+          "tl": "Hayaan mong pumunta siya sa akin.",
+          "ur": "اسے میرے پاس آنے دو۔",
+          "vi": "Để anh/chị ấy đến gặp tôi.",
+          "zh": "让他/她来找我。",
+          "zh_Hant": "讓他/她來找我。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of two cartoon hands, one handing a small wrapped gift to the other, representing giving, suitable for a language learning app, clean white background, minimalist style, warm colors.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ລາວ": {
+    "definitions": {
+      "de": "er/sie (dritte Person Singular); Lao (Nationalität/Sprache)",
+      "en": "he/she (third-person pronoun); Lao (nationality/language)",
+      "es": "él/ella (pronombre de tercera persona); lao (nacionalidad/idioma)",
+      "fr": "il/elle (pronom troisième personne); lao (nationalité/langue)",
+      "hi": "वह (तृतीय पुरुष सर्वनाम); लाओ (राष्ट्रीयता/भाषा)",
+      "ja": "彼／彼女（三人称代名詞）／ラオス（国・言語）",
+      "km": "គាត់／ឡាវ (សព្វនាមបុគ្គលទីបី ឬប្រទេសឡាវ)",
+      "ko": "그／그녀／라오스 (3인칭 대명사 또는 라오스 사람·언어)",
+      "ne": "उहाँ／लाओ (तेस्रो पुरुष सर्वनाम वा लाओ राष्ट्रियता)",
+      "pt": "ele/ela (pronome de terceira pessoa); laociano (nacionalidade/idioma)",
+      "th": "เขา／ลาว (สรรพนามบุรุษที่สาม หรือสัญชาติ/ภาษา)",
+      "tl": "siya／Lao (panghalip sa ikatlong panauhan o Laos)",
+      "ur": "وہ؛ لاؤ (تیسرے شخص کا ضمیر یا لاؤ قوم/زبان)",
+      "vi": "anh/chị ấy; Lào (đại từ ngôi thứ ba hoặc người/tiếng Lào)",
+      "zh": "他／她／老挝（第三人称代词或老挝民族/语言）",
+      "zh_Hant": "他／她／寮國（第三人稱代詞或寮國民族/語言）"
+    },
+    "part_of_speech": "pronoun",
+    "romanization": "láːw",
+    "examples": [
+      {
+        "lao_script": "ລາວ ເປັນ ຄົນ ລາວ",
+        "romanization": "láːw pēn kʰón láːw",
+        "translations": {
+          "de": "Er/Sie ist Laote/Laotin.",
+          "en": "He/She is Lao.",
+          "es": "Él/Ella es laosiano/laosiana.",
+          "fr": "Il/Elle est laotien(ne).",
+          "hi": "वह लाओ का है।",
+          "ja": "彼／彼女はラオス人です。",
+          "km": "គាត់ជាជនជាតិឡាវ។",
+          "ko": "그/그녀는 라오스 사람이에요.",
+          "ne": "उहाँ लाओ हुनुहुन्छ।",
+          "pt": "Ele/Ela é laociano(a).",
+          "th": "เขาเป็นคนลาว",
+          "tl": "Lao siya.",
+          "ur": "وہ لاؤ ہے۔",
+          "vi": "Anh/chị ấy là người Lào.",
+          "zh": "他/她是老挝人。",
+          "zh_Hant": "他/她是寮國人。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ລາວ ເວົ້າ ກັບ ຂ້ອຍ ເມື່ອ ວານ",
+        "romanization": "láːw wȃw káp kʰɔ̂ːj mɯ̄ːə wáːn",
+        "translations": {
+          "de": "Er/Sie hat gestern mit mir gesprochen.",
+          "en": "He/She talked with me yesterday.",
+          "es": "Él/Ella habló conmigo ayer.",
+          "fr": "Il/Elle m'a parlé hier.",
+          "hi": "उसने कल मुझसे बात की।",
+          "ja": "彼／彼女は昨日私と話しました。",
+          "km": "គាត់បាននិយាយជាមួយខ្ញុំពីម្សិលមិញ។",
+          "ko": "그/그녀는 어제 저와 이야기했어요.",
+          "ne": "उहाँले हिजो मसँग कुरा गर्नुभयो।",
+          "pt": "Ele/Ela conversou comigo ontem.",
+          "th": "เขาคุยกับฉันเมื่อวาน",
+          "tl": "Nakipag-usap siya sa akin kahapon.",
+          "ur": "اس نے کل مجھ سے بات کی۔",
+          "vi": "Anh/chị ấy đã nói chuyện với tôi hôm qua.",
+          "zh": "他/她昨天和我说过话。",
+          "zh_Hant": "他/她昨天和我說過話。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ເມື່ອ", "ວານ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a neutral cartoon figure with an arrow pointing to them and a small Lao flag beside, representing third-person reference and Lao identity, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ນີ້": {
+    "definitions": {
+      "de": "dies/dieser/diese/dieses (nahes Demonstrativpronomen)",
+      "en": "this (proximal demonstrative)",
+      "es": "este/esta/esto (demostrativo cercano)",
+      "fr": "ce/cette/ceci (démonstratif de proximité)",
+      "hi": "यह (निकटवाचक सर्वनाम)",
+      "ja": "これ／この（近称指示詞）",
+      "km": "នេះ (សព្វនាមចង្អុលបង្ហាញវត្ថុនៅជិត)",
+      "ko": "이／이것 (근칭 지시사)",
+      "ne": "यो (नजिकको संकेतवाचक)",
+      "pt": "este/esta/isto (demonstrativo próximo)",
+      "th": "นี้／นี่ (สรรพนามชี้เฉพาะใกล้)",
+      "tl": "ito／itong (panturong panghalip na malapit)",
+      "ur": "یہ (قریب کا اشاری ضمیر)",
+      "vi": "này (đại từ chỉ gần)",
+      "zh": "这／这个（近指指示代词）",
+      "zh_Hant": "這／這個（近指指示代詞）"
+    },
+    "part_of_speech": "pronoun",
+    "romanization": "nîː",
+    "examples": [
+      {
+        "lao_script": "ບ້ານ ນີ້ ງາມ ຫຼາຍ",
+        "romanization": "bâːn nîː ŋáːm lǎːj",
+        "translations": {
+          "de": "Dieses Haus ist sehr schön.",
+          "en": "This house is very beautiful.",
+          "es": "Esta casa es muy bonita.",
+          "fr": "Cette maison est très belle.",
+          "hi": "यह घर बहुत सुंदर है।",
+          "ja": "この家はとてもきれいです。",
+          "km": "ផ្ទះនេះស្អាតណាស់។",
+          "ko": "이 집은 아주 예뻐요.",
+          "ne": "यो घर धेरै राम्रो छ।",
+          "pt": "Esta casa é muito bonita.",
+          "th": "บ้านนี้สวยมาก",
+          "tl": "Maganda ang bahay na ito.",
+          "ur": "یہ گھر بہت خوبصورت ہے۔",
+          "vi": "Ngôi nhà này rất đẹp.",
+          "zh": "这间房子很漂亮。",
+          "zh_Hant": "這間房子很漂亮。"
+        },
+        "out_of_scope_words": []
+      },
+      {
+        "lao_script": "ເຈົ້າ ເອົາ ນີ້ ໄປ ໃຫ້ ແມ່",
+        "romanization": "càw ʔàw nîː pàj hȁj mɛ̄ː",
+        "translations": {
+          "de": "Bring das deiner Mutter.",
+          "en": "Take this to Mom.",
+          "es": "Lleva esto a mamá.",
+          "fr": "Apporte ceci à maman.",
+          "hi": "यह माँ के लिए ले जाओ।",
+          "ja": "これをお母さんに持っていって。",
+          "km": "យករបស់នេះទៅឱ្យម៉ាក់។",
+          "ko": "이것을 엄마에게 가져다줘요.",
+          "ne": "यो आमालाई लैजानुस्।",
+          "pt": "Leva isto para a mãe.",
+          "th": "เอานี่ไปให้แม่",
+          "tl": "Dalhin mo ito sa nanay.",
+          "ur": "یہ ماں کے لیے لے جاؤ۔",
+          "vi": "Mang cái này cho mẹ.",
+          "zh": "把这个拿给妈妈。",
+          "zh_Hant": "把這個拿給媽媽。"
+        },
+        "out_of_scope_words": ["ເຈົ້າ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a pointing index finger aimed at a nearby object, suitable for a language learning app, clean white background, minimalist cartoon style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ແມ່ນ": {
+    "definitions": {
+      "de": "sein/ist (Kopula für Identität); ja/genau (Bestätigung)",
+      "en": "to be/is (identificational copula); yes/that's right (affirmation)",
+      "es": "ser/es (cópula de identidad); sí/así es (afirmación)",
+      "fr": "être/est (copule d'identité); oui/c'est ça (affirmation)",
+      "hi": "होना (पहचान दर्शाने वाला संयोजक); हाँ/सही है",
+      "ja": "〜です／はい（同定の連結動詞・肯定）",
+      "km": "គឺ／មែន (កិរិយាសព្ទភ្ជាប់បញ្ជាក់អត្តសញ្ញាណ ឬបញ្ជាក់យល់ព្រម)",
+      "ko": "~이다／맞아요 (동일성 계사 또는 긍정)",
+      "ne": "हो／हो रहेको (पहिचान जनाउने क्रिया वा स्वीकार)",
+      "pt": "ser/é (cópula de identidade); sim/isso mesmo (afirmação)",
+      "th": "เป็น／แม่น／ใช่ (กริยาเชื่อมระบุตัวตนหรือการยืนยัน)",
+      "tl": "ay／oo／tama (pagkakakilanlan o pagpapatunay)",
+      "ur": "ہے؛ ہاں؛ درست (شناختی ربطی فعل یا تصدیق)",
+      "vi": "là; đúng rồi; phải (hệ từ đồng nhất hoặc khẳng định)",
+      "zh": "是／对／没错（判断系动词或肯定回答）",
+      "zh_Hant": "是／對／沒錯（判斷系動詞或肯定回答）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "mɛ̄n",
+    "examples": [
+      {
+        "lao_script": "ນີ້ ແມ່ນ ລົດ ຂອງ ຂ້ອຍ",
+        "romanization": "nîː mɛ̄n lōt kʰɔ̌ːŋ kʰɔ̂ːj",
+        "translations": {
+          "de": "Das ist mein Auto.",
+          "en": "This is my car.",
+          "es": "Este es mi coche.",
+          "fr": "C'est ma voiture.",
+          "hi": "यह मेरी गाड़ी है।",
+          "ja": "これは私の車です。",
+          "km": "នេះគឺរថយន្តរបស់ខ្ញុំ។",
+          "ko": "이것은 제 차예요.",
+          "ne": "यो मेरो गाडी हो।",
+          "pt": "Este é o meu carro.",
+          "th": "นี่คือรถของฉัน",
+          "tl": "Ito ang kotse ko.",
+          "ur": "یہ میری گاڑی ہے۔",
+          "vi": "Đây là xe của tôi.",
+          "zh": "这是我的车。",
+          "zh_Hant": "這是我的車。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ແມ່ນ ແລ້ວ, ຂ້ອຍ ເຂົ້າ ໃຈ",
+        "romanization": "mɛ̄n lɛ̂ːw kʰɔ̂ːj kʰȁw càj",
+        "translations": {
+          "de": "Ja, genau, ich verstehe.",
+          "en": "Yes, that's right, I understand.",
+          "es": "Sí, así es, entiendo.",
+          "fr": "Oui, c'est ça, je comprends.",
+          "hi": "हाँ, सही है, मैं समझ गया।",
+          "ja": "はい、その通りです、分かりました。",
+          "km": "បាទ/ចាស មែន ខ្ញុំយល់ហើយ។",
+          "ko": "네, 맞아요, 이해했어요.",
+          "ne": "हो, ठिक छ, मैले बुझें।",
+          "pt": "Sim, isso mesmo, entendi.",
+          "th": "ใช่แล้ว ฉันเข้าใจ",
+          "tl": "Oo, tama, nauunawaan ko.",
+          "ur": "ہاں، ٹھیک ہے، میں سمجھ گیا۔",
+          "vi": "Đúng rồi, tôi hiểu.",
+          "zh": "是的，我明白了。",
+          "zh_Hant": "是的，我明白了。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ", "ໃຈ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon person nodding yes with a green check mark beside them, representing affirmation, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  },
+  "ມາ": {
+    "definitions": {
+      "de": "kommen; herkommen; (Aspektmarker) bis jetzt",
+      "en": "to come; to arrive; (aspect marker) up to now",
+      "es": "venir; llegar; (marcador aspectual) hasta ahora",
+      "fr": "venir; arriver; (marqueur d'aspect) jusqu'à maintenant",
+      "hi": "आना; पहुँचना; (पहलू चिह्न) अब तक",
+      "ja": "来る／到着する（アスペクト助詞として「これまで」）",
+      "km": "មក／មកដល់ (ឬបច្ច័យបង្ហាញអំពើរហូតមកដល់ពេលនេះ)",
+      "ko": "오다／도착하다／(상 표지) 지금까지",
+      "ne": "आउनु／आइपुग्नु／(आस्पेक्ट) अहिलेसम्म",
+      "pt": "vir; chegar; (marcador de aspecto) até agora",
+      "th": "มา／มาถึง (หรือเครื่องหมายช่วงเวลาถึงปัจจุบัน)",
+      "tl": "pumunta／dumating／(panandang aspekto) hanggang ngayon",
+      "ur": "آنا؛ پہنچنا؛ (پہلو کی علامت) اب تک",
+      "vi": "đến; tới; (dấu hiệu thể) đến nay",
+      "zh": "来／到来（或体标记'至今')",
+      "zh_Hant": "來／到來（或體標記「至今」）"
+    },
+    "part_of_speech": "verb",
+    "romanization": "máː",
+    "examples": [
+      {
+        "lao_script": "ເພື່ອນ ມາ ຫາ ຂ້ອຍ",
+        "romanization": "pʰɯ̄ːən máː hǎː kʰɔ̂ːj",
+        "translations": {
+          "de": "Ein Freund kommt mich besuchen.",
+          "en": "A friend comes to visit me.",
+          "es": "Un amigo viene a visitarme.",
+          "fr": "Un ami vient me voir.",
+          "hi": "एक दोस्त मुझसे मिलने आता है।",
+          "ja": "友達が私に会いに来ます。",
+          "km": "មិត្តភក្តិមករកខ្ញុំ។",
+          "ko": "친구가 저를 보러 와요.",
+          "ne": "साथी मलाई भेट्न आउँछन्।",
+          "pt": "Um amigo vem me visitar.",
+          "th": "เพื่อนมาหาฉัน",
+          "tl": "May kaibigang dumadalaw sa akin.",
+          "ur": "ایک دوست مجھ سے ملنے آتا ہے۔",
+          "vi": "Bạn đến thăm tôi.",
+          "zh": "朋友来找我。",
+          "zh_Hant": "朋友來找我。"
+        },
+        "out_of_scope_words": ["ຂ້ອຍ"]
+      },
+      {
+        "lao_script": "ເຈົ້າ ມາ ແຕ່ ໃສ?",
+        "romanization": "càw máː tɛ̄ː sǎj",
+        "translations": {
+          "de": "Woher kommst du?",
+          "en": "Where did you come from?",
+          "es": "¿De dónde viniste?",
+          "fr": "D'où viens-tu ?",
+          "hi": "तुम कहाँ से आए हो?",
+          "ja": "どこから来たの？",
+          "km": "អ្នកមកពីណា?",
+          "ko": "어디서 왔어요?",
+          "ne": "तिमी कहाँबाट आयौ?",
+          "pt": "De onde você veio?",
+          "th": "เธอมาจากไหน?",
+          "tl": "Saan ka galing?",
+          "ur": "تم کہاں سے آئے ہو؟",
+          "vi": "Bạn từ đâu đến?",
+          "zh": "你从哪里来？",
+          "zh_Hant": "你從哪裡來？"
+        },
+        "out_of_scope_words": ["ເຈົ້າ", "ໃສ"]
+      }
+    ],
+    "image_prompt": "A simple flat illustration of a cartoon figure walking forward with a directional arrow pointing toward the viewer, representing arrival, suitable for a language learning app, clean white background, minimalist style.",
+    "register": "everyday",
+    "confidence": "high"
+  }
+}

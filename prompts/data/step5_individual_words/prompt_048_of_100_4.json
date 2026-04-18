@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຕົ້ນ",
+  "definitions": {
+    "de": "Baum; Anfang; Ursprung; Stamm (einer Pflanze)",
+    "en": "tree; plant; beginning; origin; trunk (classifier for trees and plants)",
+    "es": "árbol; planta; comienzo; origen; tronco",
+    "fr": "arbre; plante; début; origine; tronc",
+    "hi": "पेड़; पौधा; शुरुआत; मूल; तना",
+    "ja": "木；植物；始まり；起源；幹",
+    "km": "ដើមឈើ; ដើម; ការចាប់ផ្តើម; ដើមកំណើត",
+    "ko": "나무; 식물; 시작; 기원; 줄기",
+    "ne": "रूख; बिरुवा; शुरुआत; उत्पत्ति; बोट",
+    "pt": "árvore; planta; começo; origem; tronco",
+    "th": "ต้น (ต้นไม้); ต้นกำเนิด; จุดเริ่มต้น",
+    "tl": "puno; halaman; simula; pinagmulan; tangkay",
+    "ur": "درخت؛ پودا؛ شروع؛ اصل؛ تنا",
+    "vi": "cây; gốc; sự khởi đầu; nguồn gốc; thân cây",
+    "zh": "树；植物；开始；起源；树干",
+    "zh_Hant": "樹；植物；開始；起源；樹幹"
+  },
+  "definition_en": "tree; plant; beginning; origin; trunk (classifier for trees and plants)",
+  "romanization": "/tón/",
+  "lao_examples": [
+    {
+      "lao_script": "ຕົ້ນໄມ້ຕົ້ນນີ້ສູງຫຼາຍ",
+      "romanization": "Ton mai ton ni sung lai",
+      "translation_en": "This tree is very tall."
+    },
+    {
+      "lao_script": "ຕົ້ນເດືອນນີ້ຂ້ອຍບໍ່ມີເງິນເລີຍ",
+      "romanization": "Ton deuan ni khoi bo mi ngoen loei",
+      "translation_en": "At the beginning of this month I have no money at all."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of a tall, leafy green tree with a thick brown trunk standing on a grassy patch, clean white background, colorful minimalist style suitable for a language learning app."
+}

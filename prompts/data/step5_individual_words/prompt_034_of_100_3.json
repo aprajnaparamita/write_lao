@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຢາ",
+  "definitions": {
+    "de": "Medizin, Arznei; ein Mittel zur Behandlung von Krankheiten",
+    "en": "Medicine, drug; a substance used to treat illness or pain",
+    "es": "Medicina, medicamento; sustancia usada para tratar enfermedades",
+    "fr": "Médicament, remède ; substance utilisée pour traiter une maladie",
+    "hi": "दवा, औषधि; बीमारी या दर्द के इलाज में उपयोग होने वाला पदार्थ",
+    "ja": "薬；病気や痛みを治療するために使われる物質",
+    "km": "ថ្នាំ; សារធាតុដែលប្រើព្យាបាលជំងឺ",
+    "ko": "약; 질병이나 통증을 치료하는 데 사용되는 물질",
+    "ne": "औषधि; रोग वा दुखाइको उपचारमा प्रयोग गरिने पदार्थ",
+    "pt": "Remédio, medicamento; substância usada para tratar doenças",
+    "th": "ยา; สารที่ใช้รักษาโรคหรืออาการเจ็บปวด",
+    "tl": "Gamot; substansyang ginagamit para gamutin ang sakit",
+    "ur": "دوا؛ بیماری یا درد کے علاج میں استعمال ہونے والا مادہ",
+    "vi": "Thuốc; chất dùng để điều trị bệnh hoặc đau",
+    "zh": "药；用于治疗疾病或疼痛的物质",
+    "zh_Hant": "藥；用於治療疾病或疼痛的物質"
+  },
+  "definition_en": "Medicine, drug; a substance used to treat illness or pain",
+  "romanization": "jâa",
+  "lao_examples": [
+    {
+      "lao_script": "ຢ່າລືມກິນຢາດ້ວຍນະ",
+      "romanization": "jàa lýym kin jâa dûaj ná",
+      "translation_en": "Don't forget to take your medicine."
+    },
+    {
+      "lao_script": "ຢາໝົດແລ້ວ, ຕ້ອງໄປຊື້ອີກ",
+      "romanization": "jâa mòt lɛ́ɛo, tɔ̂ŋ paj sýy ìik",
+      "translation_en": "The medicine is all gone, I need to go buy more."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of medicine tablets and a small prescription bottle with a red cross symbol, suitable for a language learning app, clean white background, bright colors, minimalist cartoon style."
+}

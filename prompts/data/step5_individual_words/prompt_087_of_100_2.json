@@ -1,0 +1,36 @@
+{
+  "lao_word": "ຄາ",
+  "definitions": {
+    "de": "Galgant (Alpinia galanga); eine aromatische Wurzel, die in der südostasiatischen Küche als Gewürz verwendet wird",
+    "en": "Galangal (Alpinia galanga); an aromatic root used as a spice in Southeast Asian cooking",
+    "es": "Galanga (Alpinia galanga); una raíz aromática usada como especia en la cocina del sudeste asiático",
+    "fr": "Galanga (Alpinia galanga); une racine aromatique utilisée comme épice dans la cuisine du Sud-Est asiatique",
+    "hi": "गलंगल (Alpinia galanga); दक्षिण-पूर्व एशियाई खाना पकाने में मसाले के रूप में उपयोग की जाने वाली एक सुगंधित जड़",
+    "ja": "ガランガル（Alpinia galanga）；東南アジア料理でスパイスとして使われる香り高い根",
+    "km": "ខ្ទឹមទឹក (Alpinia galanga); ឫស្សីមានក្លិនក្រអូបដែលប្រើជាគ្រឿងទេសក្នុងការចម្អិនអាហារអាស៊ីអាគ្នេយ៍",
+    "ko": "갈랑갈(Alpinia galanga); 동남아시아 요리에서 향신료로 사용되는 향기로운 뿌리",
+    "ne": "गलंगल (Alpinia galanga); दक्षिण-पूर्व एसियाली खाना पकाउनमा मसलाको रूपमा प्रयोग गरिने एक सुगन्धित जरा",
+    "pt": "Galanga (Alpinia galanga); uma raiz aromática usada como tempero na culinária do Sudeste Asiático",
+    "th": "ข่า (Alpinia galanga); รากหอมที่ใช้เป็นเครื่องเทศในการทำอาหารเอเชียตะวันออกเฉียงใต้",
+    "tl": "Galangal (Alpinia galanga); isang mabangong ugat na ginagamit bilang pampalasa sa lutong Timog-Silangang Asya",
+    "ur": "گالنگل (Alpinia galanga)؛ ایک خوشبودار جڑ جو جنوب مشرقی ایشیا کے کھانوں میں مصالحے کے طور پر استعمال ہوتی ہے",
+    "vi": "Riềng (Alpinia galanga); một loại rễ thơm dùng làm gia vị trong ẩm thực Đông Nam Á",
+    "zh": "高良姜（Alpinia galanga）；一种用于东南亚烹饪中的香料根茎",
+    "zh_Hant": "高良薑（Alpinia galanga）；一種用於東南亞烹飪中的香料根莖"
+  },
+  "definition_en": "Galangal (Alpinia galanga); an aromatic root used as a spice in Southeast Asian cooking",
+  "romanization": "/kʰaː˧/",
+  "lao_examples": [
+    {
+      "lao_script": "ເອົາຄາໃສ່ແກງດ້ວຍເນາະ ໃຫ້ຫອມດີ",
+      "romanization": "ao kha sai kaeng duay no, hai hom di",
+      "translation_en": "Put some galangal in the curry too, so it smells nice."
+    },
+    {
+      "lao_script": "ຮ້ານນີ້ຂາຍຄາສົດ ລາຄາຖືກດີ",
+      "romanization": "han ni khai kha sod, la kha theuk di",
+      "translation_en": "This shop sells fresh galangal at a good price."
+    }
+  ],
+  "image_prompt": "A simple flat illustration of fresh galangal root on a clean white background, showing the knobbly beige-pink root with a few green leaves, minimalist style suitable for a language learning app, bright and colorful."
+}
