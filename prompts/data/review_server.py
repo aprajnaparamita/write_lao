@@ -235,6 +235,7 @@ HTML = '''<!DOCTYPE html>
                 <div class="word-info">
                     <div class="lao-word" id="laoWord">-</div>
                     <div class="romanization" id="romanization">-</div>
+                    <div class="definition-en" id="definitionEn">-</div>
                     <div class="filename" id="filename">-</div>
                 </div>
                 <div class="prompt-box">
@@ -271,6 +272,7 @@ HTML = '''<!DOCTYPE html>
         
         const laoWordEl = document.getElementById('laoWord');
         const romanizationEl = document.getElementById('romanization');
+        const definitionEnEl = document.getElementById('definitionEn');
         const filenameEl = document.getElementById('filename');
         const promptEl = document.getElementById('prompt');
         const progressEl = document.getElementById('progress');
@@ -324,6 +326,7 @@ HTML = '''<!DOCTYPE html>
             
             laoWordEl.textContent = data.lao_word;
             romanizationEl.textContent = data.romanization || '-';
+            definitionEnEl.textContent = data.definition_en || '-';
             filenameEl.textContent = filename;
             promptEl.textContent = data.image_prompt || '-';
             
