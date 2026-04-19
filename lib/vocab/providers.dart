@@ -6,6 +6,7 @@ import 'package:write_it_lao/vocab/data/models/course_content.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
 
 /// Loads the course bundle from app assets.
 final courseContentDataSourceProvider = Provider<CourseContentDataSource>(
@@ -43,5 +44,17 @@ final flagDeckRepositoryProvider = Provider<FlagDeckRepository>((ref) {
   return FlagDeckRepository(
     Hive.box<FlagDeck>(VocabBoxes.flagDeck),
     Hive.box<FlagDeckWord>(VocabBoxes.flagDeckWord),
+  );
+});
+
+/// The lesson engine sits on top of every other vocab provider — it depends
+/// on the loaded course bundle, so it's a `FutureProvider`.
+final lessonEngineProvider = FutureProvider<LessonEngine>((ref) async {
+  final course = await ref.watch(courseRepositoryProvider.future);
+  return LessonEngine(
+    course: course,
+    userWords: ref.watch(userWordRepositoryProvider),
+    userProgress: ref.watch(userVocabProgressRepositoryProvider),
+    userSessions: ref.watch(userSessionRepositoryProvider),
   );
 });

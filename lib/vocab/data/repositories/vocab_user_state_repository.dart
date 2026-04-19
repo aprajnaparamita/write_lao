@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
 import 'package:uuid/uuid.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Wall clock indirection so tests can freeze time.

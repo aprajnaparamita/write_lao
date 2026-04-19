@@ -137,3 +137,101 @@ anything **future-you might want to revisit**.
   swap from a per-repo default.
 
 ---
+
+## Phase 2 — Lesson Engine and SRS
+
+### D11. SM-2 lapse fully resets interval to 1
+
+- **Decided**: A failed card (`quality < 3`) sets `interval_days = 1` and
+  `consecutive_correct = 0`. Ease factor is left unchanged (vanilla SM-2).
+- **Why**: User decision at kickoff. Some SM-2 variants halve the interval
+  on lapse; we picked the stricter "back to step 1" rule because it matches
+  how the prompt's pedagogy is framed and is easier to reason about than a
+  partial decay.
+- **Revisit if**: We start seeing leech-like behavior — a stricter lapse
+  amplifies that. A "graduating interval" tweak could soften it.
+
+### D12. Status transitions evaluated in order, retirement supersedes
+
+- **Decided**: After SM-2 updates the interval/EF/consecutive counters,
+  status moves through `new → learning → reviewing → mature` in sequence;
+  `retired` is checked last and wins if both clauses
+  (`consecutive_correct >= 5 AND interval > 60`) hold.
+- **Why**: The spec lists transitions independently but they can collide:
+  e.g., a 50-day-interval-with-EF=2.0-after-5th-correct review jumps to
+  100-day interval AND meets the retirement bar. Without an ordering rule,
+  the state would be ambiguous. Retirement is the strongest claim, so it
+  wins.
+- **Revisit if**: We add a "graduate to mature" celebration UX — we may
+  want mature → retired to be a separate, deliberate user action.
+
+### D13. `next_review_at = null` sorts after explicit due dates
+
+- **Decided**: In `getReviewCandidates`, a `UserWord` with no
+  `next_review_at` is *eligible* (matches the spec's `null OR within 24h`
+  filter) but sorts AFTER words with an explicit past or near-future due
+  date.
+- **Why**: A null due date means "we created the row but haven't run an
+  SRS step yet" — usually a transient state. A word with an explicit past
+  due date is unambiguously due. The first review-fill test exercises
+  exactly this: 6 created rows, 2 with explicit due dates → those 2 must
+  win the slots.
+- **Revisit if**: We change when `UserWord` rows get created — currently
+  `startLesson` pre-creates them for the lesson plan, which is the only
+  way `next_review_at` can be null in practice.
+
+### D14. Pre-declared review IDs honored, then SRS, then weighted-random
+
+- **Decided**: Review-slot fill order in `LessonEngine._selectReviewIds`:
+  1. Pre-declared `lesson.review_word_ids` from the content bundle
+     (filtered to those actually introduced before this lesson)
+  2. SRS-eligible candidates from `getReviewCandidates(unitId)`
+  3. Weighted-random fallback over previously-introduced words, weighted
+     by `1 / (1 + times_seen)` so often-seen words appear less
+- **Why**: Matches the prompt's three-tier priority model. Pre-declared
+  reviews give content authors an escape hatch for forced repetition. The
+  weighted fallback keeps lessons full when the SRS queue is empty (e.g.,
+  user is binging through new units).
+- **Revisit if**: We add a "review-only" mode — we'd want to bias toward
+  SRS-eligible only and skip the random tier.
+
+### D15. `current_lesson_id` only advances if the completed session was current
+
+- **Decided**: `completeLesson` advances progress only when
+  `session.lesson_id == progress.current_lesson_id` (or current is null).
+  Replaying a previously-completed lesson saves the session row but does
+  not double-count progress.
+- **Why**: The prompt says "advance on lesson completion" but doesn't
+  cover replay. Without this guard, hitting "redo" on lesson 3 after
+  finishing lesson 5 would silently regress the user's progress pointer.
+- **Revisit if**: We add a separate "review session" UX — those sessions
+  shouldn't even attempt to advance, but the guard handles it for free.
+
+### D16. Time-of-day uses exact `now + intervalDays` (not calendar-aligned)
+
+- **Decided**: `next_review_at = now() + intervalDays days`. We do NOT
+  snap to local midnight or a "due today" calendar bucket.
+- **Why**: Anki's default behavior. The spec's open question flagged this;
+  a calendar-aligned scheduler is friendlier UX but requires a stable
+  user timezone (which we don't yet have wired up). The `reviewWindow`
+  of 24h on the eligibility filter compensates: anything coming due
+  within a day is already a review candidate.
+- **Revisit if**: Users complain that reviews "shift" to inconvenient
+  times of day. Easy fix: snap to start-of-day in the user's local
+  timezone after grabbing it from device locale.
+
+### D17. SRS engine is pure; `LessonEngine` owns I/O
+
+- **Decided**: `lib/vocab/domain/srs.dart` is a pure function set
+  (`applySrs`, `cardOutcomeForErrors`, `qualityFor`). No Hive, no
+  repositories, no clock — `now` is a parameter.
+  `lib/vocab/domain/lesson_engine.dart` owns all repository and clock
+  interactions.
+- **Why**: The SM-2 algorithm is the part most likely to attract
+  research-paper-level test scrutiny (and the part most likely to be
+  swapped for FSRS or another scheduler later). Keeping it pure means
+  one file gets unit-tested in isolation, no Hive setup needed.
+- **Revisit if**: We swap to FSRS — the seam is already in the right
+  place.
+
+---

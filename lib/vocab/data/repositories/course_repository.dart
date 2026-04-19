@@ -73,4 +73,28 @@ class CourseRepository {
     }
     return out;
   }
+
+  /// All words first introduced in any lesson of a unit whose `unit_number`
+  /// is `<=` the given unit's `unit_number`. The SRS engine uses this to
+  /// scope `getReviewCandidates` to "what the user has been exposed to so far."
+  List<VocabWord> getWordsIntroducedInOrBeforeUnit(String unitId) {
+    final target = _unitsById[unitId];
+    if (target == null) return const [];
+    final out = <VocabWord>[];
+    final seen = <String>{};
+    for (final u in _content.units) {
+      if (u.unitNumber > target.unitNumber) continue;
+      for (final lessonId in u.lessonIds) {
+        final lesson = _lessonsById[lessonId];
+        if (lesson == null) continue;
+        for (final wid in lesson.newWordIds) {
+          if (seen.add(wid)) {
+            final w = _wordsById[wid];
+            if (w != null) out.add(w);
+          }
+        }
+      }
+    }
+    return out;
+  }
 }
