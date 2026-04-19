@@ -335,3 +335,141 @@ anything **future-you might want to revisit**.
   legibility — at which point we'd switch to a two-line layout.
 
 ---
+
+## Phase 4 — Card Flow: Practice and Test
+
+### D25. Reuse the existing `WritingCanvas` via a per-card scope
+
+- **Decided**: Vocab character cards do **not** re-implement the
+  drawing engine. They wrap the existing `WritingCanvas` widget in a
+  `RealStrokeCanvasHost`, which puts each canvas in its own
+  `ProviderScope` overriding `canvasControllerProvider` with a fresh
+  `CanvasController`.
+- **Why**: The alphabet section's drawing+validation pipeline (DTW,
+  stroke matching, ghost guides) is the right code to use for
+  vocabulary too — duplicating it would mean two rendering paths to
+  maintain. But the existing `canvasControllerProvider` is a global
+  Riverpod `StateNotifierProvider`, so without a scope override two
+  vocab cards in the tree (or a card + the alphabet screen) would
+  share state and step on each other. The per-card scope override
+  gives us isolation without forking the widget.
+- **Alternatives considered**: (a) refactor `WritingCanvas` to take an
+  injected controller — would touch the alphabet section and risk
+  regressions. (b) embed the canvas painter directly and skip the
+  Riverpod layer — same forking concern.
+- **Revisit if**: We need shared canvas state between cards (we
+  don't), or the existing widget is refactored to be controller-
+  agnostic — at which point we drop the override.
+
+### D26. Swappable `StrokeCanvasHostBuilder` for test injection
+
+- **Decided**: Card widgets accept a `StrokeCanvasHostBuilder`
+  function-typed parameter. Production passes
+  `defaultStrokeCanvasHostBuilder` (which returns
+  `RealStrokeCanvasHost`). Tests pass `fakeStrokeCanvasBuilder` from
+  `test/vocab/fakes/fake_stroke_canvas.dart`, which renders a stub
+  with three buttons (`fakeStrokeIncorrect`, `fakeStrokeCorrect`,
+  `fakeCharacterComplete`) that drive the host card's callbacks
+  deterministically.
+- **Why**: Per the prompt: "Use a mock drawing control for unit
+  tests — don't test the actual stroke recognition here." The builder
+  pattern keeps the seam at the widget boundary, so cards have no
+  knowledge of the real canvas's implementation details.
+- **Revisit if**: We add an integration test that exercises the real
+  `WritingCanvas` end-to-end — that test would simply use the default
+  builder.
+
+### D27. Glyph → asset codepoint conversion lives in the canvas host
+
+- **Decided**: `WordCharacter.character` stores the Lao glyph itself
+  (e.g., `'ສ'`). `RealStrokeCanvasHost._codepointFor(glyph)` derives
+  the asset filename codepoint (e.g., `'0EAA'`) by reading the first
+  rune and formatting as 4-digit uppercase hex.
+- **Why**: The content bundle (Phase 1) carries the glyph as the
+  authoring-friendly representation; the existing
+  `CharacterStrokeDataSource` expects the codepoint as the file key.
+  Putting the conversion at the host means `WordCharacter` doesn't
+  need a redundant `codepoint` field, and authors don't need to
+  hand-write hex.
+- **Revisit if**: We start authoring multi-codepoint clusters (e.g.,
+  combining marks) where the first rune isn't enough — at which
+  point the field becomes a list.
+
+### D28. Card-mode mapping owned by `lib/vocab/domain/card_mode.dart`
+
+- **Decided**: `cardModeFor(WordStatus)` maps `new`/`learning` to
+  `CardMode.practice` and `reviewing`/`mature`/`retired` to
+  `CardMode.test`. Cards take `mode` as a parameter and have no SRS
+  knowledge.
+- **Why**: The prompt says "this mapping is owned by the lesson
+  engine." Keeping the function in `domain/` (not the widget tree)
+  means it's testable as a pure function and future engine code can
+  call it without dragging in Flutter.
+- **`retired` → test**: Spec only mentioned `reviewing`/`mature`, but
+  a retired word is the most-mature state — showing it with a guide
+  would feel like a downgrade. If we ever ship a "retired-word
+  refresher" UX, we can branch on it then.
+
+### D29. Per-character error counting; one accumulator per word
+
+- **Decided**: Each non-`correct` `StrokeMatchResult` from the canvas
+  contributes **one** error. `WordPracticeFlow` owns the per-word
+  accumulator and passes it to the `WordOutcome` it emits when the
+  last character completes. Card widgets are stateless w.r.t.
+  cross-character state.
+- **Why**: SM-2 rates the *word*, not the character. The flow widget
+  is the natural owner of per-word state because it's the same
+  instance for all the word's characters. Cards stay simple.
+- **Revisit if**: We start surfacing per-character feedback in the
+  outro — at which point the accumulator becomes a per-char map.
+
+### D30. Show-hint costs 3 errors and is a one-way switch
+
+- **Decided**: In `CharacterTestCard`, tapping "Show hint" adds 3 to
+  the error count, switches the canvas to practice mode (guide
+  visible), and disables the button for the rest of that character.
+- **Why**: The prompt says "show hint" should "cost SRS rating —
+  count as extra errors" without specifying how many. Three is high
+  enough to hurt the SM-2 grade (3 errors → `again` per
+  `cardOutcomeForErrors`) but low enough that a desperate user can
+  recover. One-way means the user can't toggle the hint on/off to
+  game the penalty.
+- **Revisit if**: Telemetry shows users hitting the button on every
+  character — that signals the test mode is too hard, not that the
+  penalty is wrong.
+
+### D31. Aborting a word emits no `WordOutcome`
+
+- **Decided**: The X button (`abortButton`) calls the `onAbort`
+  callback. The flow does not emit `onWordCompleted`, so the engine
+  records nothing for the in-flight word.
+- **Why**: A partial pass is data of unknown quality — the user may
+  have backed out because of a phone call, not because they failed.
+  SM-2 should only update on completed cards. Future work can add a
+  separate "session abandoned" telemetry signal if we want to
+  surface it.
+
+### D32. Mode is set at flow construction; never flips mid-word
+
+- **Decided**: `WordPracticeFlow.mode` is `final`. Even if the user's
+  SRS status changes during the session (e.g., from `new` to
+  `learning`), the flow keeps the mode it started with for this
+  word.
+- **Why**: A word's mode-switch should be a deliberate decision the
+  engine makes between cards, not something the UI does mid-word.
+  Mid-word toggles would also be confusing for the user.
+
+### D33. Strings in `lib/vocab/presentation/i18n/character_strings.dart`
+
+- **Decided**: Hint copy ("Draw a consonant"), prompt copy ("Trace
+  this character"), and progress label ("Character 1 of 3") live in
+  one constants file rather than inline in widgets. English-only in
+  v1; the file is shaped to swap in `AppLocalizations.of(context)`
+  calls in v2.
+- **Why**: The prompt asked for the type-hint strings to be in a
+  "localization-ready string table." Putting all card-related copy
+  in one file keeps the swap mechanical when v2 lands.
+- **Revisit when**: The full vocab feature lands and we wire in the
+  existing `AppLocalizations` system.
+
+---
