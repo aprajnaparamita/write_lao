@@ -5,6 +5,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:write_it_lao/app.dart';
 import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
 import 'package:write_it_lao/data/models/user_progress.dart';
+import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,6 +17,9 @@ void main() async {
   Hive.registerAdapter(LessonProgressAdapter());
   await Hive.openBox<CharacterProgress>('character_progress');
   await Hive.openBox<LessonProgress>('lesson_progress');
+
+  registerVocabHiveAdapters();
+  await openVocabBoxes();
 
   runApp(
     const ProviderScope(
