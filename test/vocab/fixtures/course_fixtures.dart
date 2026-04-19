@@ -201,6 +201,7 @@ final Set<String> validBundleAssetPaths = {
     'assets/vocab/images/w_${i.toString().padLeft(4, '0')}.webp',
     'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_word.wav',
     'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example1.wav',
+    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example2.wav',
   ],
   // The dangling-word fixture only references w_0001's assets.
   // The missing-image fixture is intentionally missing
@@ -232,8 +233,15 @@ String _wordTemplate(int n, {String? lao}) {
       "example_id": "${id}_ex1",
       "lao_script": "$laoWord",
       "romanization": "saʔ",
-      "translations": {"en": "test sentence $n"},
+      "translations": {"en": "test sentence $n", "fr": "phrase de test $n"},
       "audio_path": "audio/${id}_example1.wav"
+    },
+    {
+      "example_id": "${id}_ex2",
+      "lao_script": "$laoWord",
+      "romanization": "saʔ",
+      "translations": {"en": "second sentence $n"},
+      "audio_path": "audio/${id}_example2.wav"
     }
   ]
 }

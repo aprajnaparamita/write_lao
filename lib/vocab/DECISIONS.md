@@ -235,3 +235,103 @@ anything **future-you might want to revisit**.
   place.
 
 ---
+
+## Phase 3 — Card Flow: Intro and Outro
+
+### D18. Example 2 does NOT auto-play on the intro card
+
+- **Decided**: The intro card auto-plays headword → example 1 only.
+  Example 2 is on-demand via its play button.
+- **Why**: Spec text in the prompt mentioned "Example 2 auto-plays after
+  a short delay," but Phase 3 test #4 asserts the *opposite* (`does NOT
+  auto-play example 2 audio`). The test is the binding contract — when
+  prose and tests disagree, tests win. UX-wise, three back-to-back
+  unprompted clips is a lot; ending the auto-chain after example 1
+  leaves a natural pause for the user to engage.
+- **Revisit if**: The auto-play sequence feels too short in
+  user-testing — easy to extend to example 2 by adding one more clause
+  to `_onAudioComplete`.
+
+### D19. `VocabAudioPlayer` interface with explicit `onComplete` stream
+
+- **Decided**: `lib/vocab/audio/vocab_audio_player.dart` defines an
+  abstract `VocabAudioPlayer` with `play`/`stop`/`dispose` plus two
+  streams: `stateStream` (idle/playing/error) and `onComplete` (emits
+  the finished asset path). Production impl
+  (`AudioPlayersVocabAudioPlayer`) wraps the `audioplayers` package.
+- **Why**: Cards chain auto-play by listening to `onComplete`. In tests
+  the `FakeVocabAudioPlayer` exposes `completeCurrent()` so we can
+  deterministically simulate the headword finishing without real audio
+  or timers. Without the abstraction, cards would have to depend
+  directly on `audioplayers` and tests would need a mock-plugin layer.
+- **Revisit if**: We swap audio backends (e.g., to `just_audio`) — only
+  the production impl changes.
+
+### D20. Audio assets prefixed with `vocab/` at the player layer
+
+- **Decided**: `AudioPlayersVocabAudioPlayer.play(path)` calls
+  `AssetSource('vocab/$path')`. Word and example records store paths
+  *without* the leading `vocab/` (e.g., `audio/w_0001_word.wav`).
+- **Why**: The course bundle lives at `assets/vocab/`, so the bundle's
+  `audio_path` strings are naturally relative to that root.
+  Centralizing the prefix in one place means no caller has to know
+  about asset directory layout.
+- **Revisit if**: Audio gets sharded across multiple bundles or moves
+  to remote URLs — the prefix logic moves into a path resolver.
+
+### D21. Mute detection stubbed to `false` in v1
+
+- **Decided**: `VocabAudioPlayer.isMuted` always returns `false` in
+  production. `WordCardBase` shows the muted indicator
+  (`Icon(Icons.volume_off)`) when `isMuted` is true, but the trigger is
+  not wired in v1.
+- **Why**: Flutter has no first-party API for "is the device on
+  silent." Plugins exist (`flutter_volume_controller`,
+  `audio_session`), but each adds platform-specific permissions. v1
+  ships without; the indicator is exercised in tests via
+  `FakeVocabAudioPlayer(muted: true)`.
+- **Revisit when**: A user-visible "audio not playing" complaint
+  surfaces, or when we add a settings screen — at which point the
+  toggle could be a manual user preference instead of a hardware probe.
+
+### D22. Translation fallback chain: locale → language → English → first
+
+- **Decided**: `pickTranslation(map, languageCode, scriptCode)` tries:
+  exact `lang_Script` match → `lang` match → `'en'` → first available
+  entry. Never throws; always returns a non-empty string when the map
+  is non-empty.
+- **Why**: We ship 16 locales but content authoring won't keep all of
+  them in lockstep. A predictable fallback chain means a missing
+  Vietnamese gloss falls back to English, not a crash. English is the
+  guaranteed pivot per content validation in Phase 1.
+- **Revisit if**: We add region-specific bundles where English is no
+  longer guaranteed — at which point the fallback should pivot through
+  the user's secondary language preference.
+
+### D23. `WordCardBase` is a single shared shell for intro and outro
+
+- **Decided**: `WordCardBase` owns the visual layout (headword,
+  romanization, gloss, POS, image, two example rows). `IntroCard` and
+  `OutroCard` add their own action rows and own auto-play sequencing.
+- **Why**: The two cards differ only in (a) which audio auto-plays and
+  (b) the action row at the bottom. Pulling the shell into a base
+  widget cuts ~120 lines of duplicate layout code per card and means
+  any visual fix lands in one place.
+- **Revisit if**: Practice/Test cards (Phase 4) need substantially
+  different layouts — better to leave this shared and let those build
+  their own shells than over-generalize.
+
+### D24. Headword text uses `Flexible` + `FittedBox(scaleDown)`
+
+- **Decided**: The headword `Text` is wrapped in `Flexible` →
+  `FittedBox(fit: BoxFit.scaleDown)` so long Lao words shrink to fit
+  rather than overflow the row or push the play button off-screen.
+- **Why**: Lao headwords vary widely in width (a 2-character word vs.
+  a 6+ character compound). `displayMedium` at full scale on a narrow
+  phone caused `RenderFlex overflowed by 7.0 pixels` in test
+  viewports. `FittedBox.scaleDown` only shrinks when needed, so short
+  words still render at full size.
+- **Revisit if**: Compounds get long enough that scale-down hurts
+  legibility — at which point we'd switch to a two-line layout.
+
+---
