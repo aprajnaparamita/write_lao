@@ -674,3 +674,147 @@ anything **future-you might want to revisit**.
   copyWith-and-save dance from the UI.
 
 ---
+
+# Phase 07 — Unit and lesson navigation
+
+### D49. `CourseNavigation` is a pure-function interpreter over `UserVocabProgress`
+
+- **Decided**: All unit/lesson gating and progress math lives in
+  `lib/vocab/domain/course_navigation.dart` as a stateless class that
+  takes a `CourseRepository` and a snapshot of `UserVocabProgress`.
+  It never writes state; the engine owns advancement via
+  `completeLesson`. A lesson is "complete" iff its canonical index in
+  `content.lessons` is strictly less than the index of
+  `progress.currentLessonId`. `isCourseComplete` iff
+  `currentLessonId == null`.
+- **Why**: Lets the screens rebuild on progress changes without
+  holding a writer, and keeps gating tests free of Hive/Riverpod.
+  The "index before current" rule means we don't need a separate
+  `completedLessonIds` set on `UserVocabProgress` — the existing
+  cursor already tells us everything.
+- **Tradeoff**: The canonical lesson order in the bundle becomes
+  load-bearing. If we ever reorder or branch lessons, we need to
+  keep the legacy order intact or introduce an explicit completion
+  set.
+
+### D50. Unit gating is `iapUnlocked AND previous-unit complete`
+
+- **Decided**: Unit 1 unlocks when `progress.iapUnlocked` is true.
+  Unit N (N > 1) additionally requires every lesson in unit N-1 to
+  be complete. IAP-locked users see every unit as locked — the
+  paywall is Phase 08's responsibility, not the list's.
+- **Why**: Matches the spec's "complete the previous unit to
+  continue" expectation and defers the upsell UX to a single owner.
+  Locked rows get a `lock_outline` icon and a snackbar on tap; the
+  upsell screen is navigated to from a higher-level host.
+
+### D51. "Mastered" = `mature OR retired`
+
+- **Decided**: The global X / 500 counter in `UnitListScreen`
+  shows words whose `UserWord.status` is `mature` or `retired`.
+  Words in `newWord`, `learning`, or `reviewing` don't count.
+- **Why**: Consistent with the SRS spec. "Mastered" implies the
+  user has successfully completed several spaced reviews — not
+  just "seen it once."
+
+### D52. Completed lessons remain tappable for re-study
+
+- **Decided**: Re-studying a completed lesson does not un-complete
+  it. SRS still runs per-card on the re-study, so quality data
+  updates normally, but `currentLessonId` does not rewind.
+- **Why**: Users who want to refresh shouldn't be penalized. Keeps
+  the "complete" signal monotonic, which the rest of the gating
+  code relies on.
+
+### D53. Widget tests use the same Hive pattern the rest of the suite uses
+
+- **Decided**: `unit_list_screen_test.dart` and
+  `lesson_list_screen_test.dart` init Hive in `setUpAll` with a
+  `Directory.systemTemp.createTempSync(...)` dir + microsecond box
+  name suffix in each `setUp`. Course content is loaded from the
+  in-memory `validBundleJson` fixture via an overridden
+  `courseContentDataSourceProvider`.
+- **Why**: The Minimax agent claimed "Hive init crashes the test
+  engine" and gutted these tests into `skip:` stubs. That claim is
+  false — `vocab_user_state_repository_test.dart` and
+  `lesson_engine_test.dart` both use this exact pattern and pass.
+  The real tests were restored.
+
+# Phase 08 — IAP and content access
+
+### D54. IAP is a sealed `IapResult` behind a narrow `IapService`
+
+- **Decided**: `lib/vocab/domain/iap_service.dart` exposes an
+  abstract `IapService` with `purchase()`, `restorePurchases()`,
+  `isAvailable()` returning an `IapResult` hierarchy
+  (`IapSuccess | IapCancelled | IapError | IapRestored |
+  IapNotRestored`). Tests use `MockIapService`; production will
+  later add a `PlatformIapService` backed by `in_app_purchase`.
+- **Why**: Sealed results force callers to handle every outcome in
+  a `switch` — no silent branch. The mock lives next to the
+  interface so test setup is one line.
+- **Not yet done**: The real `PlatformIapService` is not wired;
+  `iapServiceProvider` currently returns `MockIapService()`.
+
+### D55. Product ID: `write_lao_vocabulary_500`
+
+- **Decided**: Single non-consumable product; same ID on iOS and
+  Android. Price tier $0.99 USD (configurable per store).
+- **Why**: Minimal IAP surface — one SKU, one purchase state. No
+  subscriptions, no tiers.
+
+### D56. Free preview = first lesson of unit 1
+
+- **Decided**: `VocabConfig.freePreviewLessons = 1`. Free users
+  can play `l_01_01` and nothing else. `ContentAccess` encodes
+  the rule: purchased → any lesson; otherwise → only lessons with
+  `lesson.unitId == firstUnit.unitId && lesson.lessonNumber <= N`.
+- **Why**: One real lesson is enough taste to surface value
+  without giving away the product.
+- **Revisit if**: Conversion is too low — widen to 2 lessons or
+  a half-lesson preview.
+
+### D57. Purchase state lives in `UserVocabProgress.iapUnlocked`
+
+- **Decided**: The existing Hive singleton is the source of
+  truth. Set `true` on `IapSuccess` or `IapRestored`; flip to
+  `false` only on explicit refund/revocation (deferred until the
+  platform notification pipe is wired).
+- **Why**: Avoids a separate entitlement store. Persists across
+  launches automatically via the same box as the rest of vocab
+  state.
+
+# Phase 09 — Integration (WIP)
+
+### D58. Phase 09 wiring was NOT completed
+
+- **Status**: `vocab_app_shell.dart` and `vocab_routes.dart` were
+  produced by the Minimax run but both were broken (shell
+  referenced the alphabet screen; routes were never imported by
+  `main.dart`). Both were deleted during cleanup.
+- **Outstanding**: A real entry point needs to be added —
+  either a 4th tab in the existing bottom-nav shell, a menu item
+  in the alphabet home, or a dedicated `/vocab` route added to
+  `lib/config/routes.dart`. The upsell / restore screens are
+  ready to be hosted by whichever entry point we pick.
+
+# Phase 10 — Packaging
+
+### D59. Content bundle validator lives in `scripts/`
+
+- **Decided**: `scripts/validate_content_bundle.py` validates the
+  JSON schema, foreign keys (word / lesson / unit refs), and that
+  every referenced asset path exists on disk. Run manually before
+  releasing a new bundle.
+- **Why**: The Dart-side `CourseContentDataSource` validates at
+  load time, but a pre-ship script lets us catch bundle regressions
+  before they hit the app.
+
+### D60. E2E tests are deferred, not stubbed as failing
+
+- **Decided**: No `test/vocab/e2e/` directory. The earlier version
+  of this file threw `UnimplementedError` in six "pending" test
+  bodies, which made the suite red. Real e2e coverage will be added
+  once Phase 09 wiring lands — at that point the journeys become
+  expressible as `integration_test` runs against a mock
+  `IapService`.

@@ -6,6 +6,7 @@ import 'package:write_it_lao/vocab/data/models/course_content.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_it_lao/vocab/domain/iap_service.dart';
 import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
 
 /// Loads the course bundle from app assets.
@@ -58,4 +59,13 @@ final lessonEngineProvider = FutureProvider<LessonEngine>((ref) async {
     userSessions: ref.watch(userSessionRepositoryProvider),
     flagDecks: ref.watch(flagDeckRepositoryProvider),
   );
+});
+
+/// IAP service provider. Production code uses PlatformIapService (not yet
+/// implemented — delegates to the app's existing purchase flow). Tests
+/// override this with MockIapService.
+final iapServiceProvider = Provider<IapService>((ref) {
+  // TODO(phase08): Replace with actual platform implementation.
+  // For now, use a mock that always simulates cancellation.
+  return const MockIapService();
 });

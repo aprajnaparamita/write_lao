@@ -53,4 +53,26 @@ class WordCardKeys {
       ValueKey('vocab.deckContents.row.$wordId');
   static ValueKey deckContentsRemove(String wordId) =>
       ValueKey('vocab.deckContents.remove.$wordId');
+
+  // Unit / lesson navigation (Phase 07).
+  static const unitList = ValueKey('vocab.unitList');
+  static const masteredCounter = ValueKey('vocab.unitList.masteredCounter');
+  static ValueKey unitRow(String unitId) =>
+      ValueKey('vocab.unitList.row.$unitId');
+  static ValueKey unitLockBadge(String unitId) =>
+      ValueKey('vocab.unitList.lock.$unitId');
+  static const lessonList = ValueKey('vocab.lessonList');
+  static ValueKey lessonRow(String lessonId) =>
+      ValueKey('vocab.lessonList.row.$lessonId');
+  static ValueKey lessonLockBadge(String lessonId) =>
+      ValueKey('vocab.lessonList.lock.$lessonId');
+  static const lessonCompleteContinue =
+      ValueKey('vocab.lessonComplete.continue');
+  static const unitCompleteContinue =
+      ValueKey('vocab.unitComplete.continue');
+
+  // IAP / upsell (Phase 08).
+  static const upsellBuyNow = ValueKey('vocab.upsell.buyNow');
+  static const upsellMaybeLater = ValueKey('vocab.upsell.maybeLater');
+  static const restoreContinue = ValueKey('vocab.restore.continue');
 }
