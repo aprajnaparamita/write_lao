@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math' show Random;
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
@@ -7,6 +8,7 @@ import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
 import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
 
 import '../fixtures/course_fixtures.dart';
@@ -64,6 +66,7 @@ void main() {
       userProgress: userProgress,
       userSessions: userSessions,
       now: now,
+      hearIdentify: HearIdentifyConfig.disabled,
     );
   });
 
@@ -185,6 +188,84 @@ void main() {
       expect(reviewIds, equals(['w_0001', 'w_0002']));
       // Total = 4 new + 2 review = 6 cards.
       expect(plan.cards, hasLength(6));
+    });
+  });
+
+  group('hear-identify insertion', () {
+    LessonEngine engineWith({
+      required HearIdentifyConfig hi,
+      int seed = 1,
+    }) {
+      return LessonEngine(
+        course: course,
+        userWords: userWords,
+        userProgress: userProgress,
+        userSessions: userSessions,
+        now: () => currentNow,
+        random: Random(seed),
+        hearIdentify: hi,
+      );
+    }
+
+    void seedLearned(List<String> ids, {WordStatus status = WordStatus.learning}) {
+      for (final id in ids) {
+        var w = userWords.create(id);
+        w = userWords.save(w.copyWith(status: status));
+      }
+    }
+
+    test('skipped when fewer than min learned words', () {
+      // Only 4 learned; default minLearnedWords=5.
+      seedLearned(['w_0001', 'w_0002', 'w_0003', 'w_0004']);
+      final eng = engineWith(hi: const HearIdentifyConfig(probability: 1.0));
+      final plan = eng.startLesson('l_02_01');
+      expect(
+        plan.cards.any((c) => c.kind == LessonCardKind.hearIdentify),
+        isFalse,
+      );
+    });
+
+    test('skipped on the first lesson of a unit even when pool is large', () {
+      seedLearned(
+        ['w_0001', 'w_0002', 'w_0003', 'w_0004', 'w_0005', 'w_0006'],
+      );
+      final eng = engineWith(hi: const HearIdentifyConfig(probability: 1.0));
+      // l_02_01 is the first lesson of u_02.
+      final plan = eng.startLesson('l_02_01');
+      expect(
+        plan.cards.any((c) => c.kind == LessonCardKind.hearIdentify),
+        isFalse,
+      );
+    });
+
+    test('inserts exactly one hear-identify card with 3 distractors', () {
+      seedLearned([
+        'w_0001', 'w_0002', 'w_0003', 'w_0004', 'w_0005', 'w_0006',
+      ]);
+      final eng = engineWith(hi: const HearIdentifyConfig(probability: 1.0));
+      // l_01_02 is NOT the first lesson of u_01.
+      final plan = eng.startLesson('l_01_02');
+      final hi = plan.cards
+          .where((c) => c.kind == LessonCardKind.hearIdentify)
+          .toList();
+      expect(hi, hasLength(1));
+      expect(hi.first.distractorWordIds, hasLength(3));
+      expect(
+        hi.first.distractorWordIds,
+        isNot(contains(hi.first.wordId)),
+      );
+    });
+
+    test('disabled config never inserts', () {
+      seedLearned([
+        'w_0001', 'w_0002', 'w_0003', 'w_0004', 'w_0005', 'w_0006',
+      ]);
+      final eng = engineWith(hi: HearIdentifyConfig.disabled);
+      final plan = eng.startLesson('l_01_02');
+      expect(
+        plan.cards.any((c) => c.kind == LessonCardKind.hearIdentify),
+        isFalse,
+      );
     });
   });
 

@@ -4,17 +4,26 @@ import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
 import 'package:write_it_lao/vocab/domain/srs.dart';
 
-/// Whether a card was scheduled as a fresh introduction or as a spaced
-/// review of a previously-seen word.
-enum LessonCardKind { newWord, review }
+/// Whether a card was scheduled as a fresh introduction, a spaced
+/// review of a previously-seen word, or a hear-and-identify listening test.
+enum LessonCardKind { newWord, review, hearIdentify }
 
 class LessonCard {
   final String wordId;
   final LessonCardKind kind;
 
-  const LessonCard({required this.wordId, required this.kind});
+  /// Distractor word IDs. Only populated for [LessonCardKind.hearIdentify];
+  /// empty for the other kinds.
+  final List<String> distractorWordIds;
+
+  const LessonCard({
+    required this.wordId,
+    required this.kind,
+    this.distractorWordIds = const [],
+  });
 }
 
 class LessonPlan {
@@ -48,6 +57,11 @@ class LessonEngine {
   /// before `now + reviewWindow` counts.
   static const Duration reviewWindow = Duration(hours: 24);
 
+  /// Hear-and-identify card knobs. Defaults to enabled at 25% probability.
+  /// Pass `HearIdentifyConfig.disabled` (or override via settings later) to
+  /// turn the feature off without code changes.
+  final HearIdentifyConfig hearIdentify;
+
   LessonEngine({
     required this.course,
     required this.userWords,
@@ -55,6 +69,7 @@ class LessonEngine {
     required this.userSessions,
     Clock? now,
     math.Random? random,
+    this.hearIdentify = const HearIdentifyConfig(),
   })  : now = now ?? (() => DateTime.now().toUtc()),
         _random = random ?? math.Random();
 
@@ -85,11 +100,73 @@ class LessonEngine {
       }
     }
 
+    var cards = <LessonCard>[...newCards, ...reviewCards];
+
+    final hi = _maybeBuildHearIdentifyCard(lesson, reviewCards);
+    if (hi != null) {
+      // Replace the LAST review card slot with the hear-identify card so
+      // the SRS-shaped review still gets at least one slot when possible.
+      final lastReviewIdx = cards.lastIndexWhere(
+        (c) => c.kind == LessonCardKind.review,
+      );
+      if (lastReviewIdx >= 0) {
+        cards = [...cards];
+        cards[lastReviewIdx] = hi;
+      } else {
+        cards = [...cards, hi];
+      }
+    }
+
     final session = userSessions.start(lessonId);
     return LessonPlan(
       sessionId: session.id,
       lessonId: lessonId,
-      cards: [...newCards, ...reviewCards],
+      cards: cards,
+    );
+  }
+
+  /// Returns a hear-identify [LessonCard] if the eligibility and probability
+  /// gates pass, otherwise null. Picks the correct word from the
+  /// already-scheduled review cards when possible (so the user hears a word
+  /// that was due anyway), falling back to any learned word otherwise.
+  LessonCard? _maybeBuildHearIdentifyCard(
+    VocabLesson lesson,
+    List<LessonCard> reviewCards,
+  ) {
+    final allLearned = filterLearned(userWords.getAll());
+    final learnedIds = allLearned.map((w) => w.wordId).toList();
+
+    final unitLessons = course.getLessonsInUnit(lesson.unitId);
+    final isFirstInUnit = unitLessons.isNotEmpty &&
+        unitLessons.first.lessonId == lesson.lessonId;
+
+    final shouldInsert = shouldInsertHearIdentify(
+      config: hearIdentify,
+      learnedPoolSize: learnedIds.length,
+      isFirstLessonOfUnit: isFirstInUnit,
+      random: _random,
+    );
+    if (!shouldInsert) return null;
+
+    // Prefer a correct word that was already in the review queue.
+    final reviewIds = reviewCards.map((c) => c.wordId).toSet();
+    final correctId = learnedIds.firstWhere(
+      reviewIds.contains,
+      orElse: () => learnedIds.first,
+    );
+
+    final distractors = pickDistractors(
+      correctWordId: correctId,
+      learnedPool: learnedIds,
+      count: hearIdentify.distractorCount,
+      random: _random,
+    );
+    if (distractors.length < hearIdentify.distractorCount) return null;
+
+    return LessonCard(
+      wordId: correctId,
+      kind: LessonCardKind.hearIdentify,
+      distractorWordIds: distractors,
     );
   }
 

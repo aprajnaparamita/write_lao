@@ -24,4 +24,11 @@ class WordCardKeys {
   static const fakeStrokeCorrect = ValueKey('vocab.fakeCanvas.correct');
   static const fakeCharacterComplete =
       ValueKey('vocab.fakeCanvas.characterComplete');
+
+  // Hear-and-identify card (Phase 05).
+  static const hearIdentifyPrompt = ValueKey('vocab.hearIdentify.prompt');
+  static const hearIdentifyReplay = ValueKey('vocab.hearIdentify.replay');
+  static const hearIdentifyRomanization =
+      ValueKey('vocab.hearIdentify.romanization');
+  static const hearIdentifyGloss = ValueKey('vocab.hearIdentify.gloss');
 }

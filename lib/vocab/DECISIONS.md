@@ -473,3 +473,107 @@ anything **future-you might want to revisit**.
   existing `AppLocalizations` system.
 
 ---
+
+## Phase 5 — Card Flow: Hear and Identify
+
+### D34. Defaults: 25% probability, ≥5 learned, distractor count 3
+
+- **Decided**: `HearIdentifyConfig` ships with `enabled=true`,
+  `probability=0.25`, `minLearnedWords=5`, `distractorCount=3`. The
+  engine consults this on every `startLesson`.
+- **Why**: User decision at kickoff: "hear-and-identify on by
+  default with settings toggle." 25% matches the prompt's "roughly 1
+  in 4 review slots." `minLearnedWords=5` keeps the card from firing
+  when the user has only met a handful of words (distractors would
+  feel arbitrary). `distractorCount=3` matches the 2×2 grid.
+- **Revisit if**: Users complain the card is too rare/too frequent
+  — tune `probability` first, leave the eligibility floor alone.
+
+### D35. v1 distractor strategy: random from learned pool
+
+- **Decided**: `pickDistractors` shuffles the learned pool minus the
+  correct word and takes the first N. No phonological / tonal
+  similarity weighting in v1.
+- **Why**: The prompt explicitly calls this out as a v1 heuristic
+  pending tone-pair metadata from the teacher's review. Random
+  distractors are merely OK practice but they avoid blocking the
+  feature on content work.
+- **Revisit when**: We add tone-pair metadata to the content bundle.
+  At that point `pickDistractors` becomes weighted by phonological
+  proximity to the correct word.
+
+### D36. New and retired words excluded from the learned pool
+
+- **Decided**: `learnedStatuses = {learning, reviewing, mature}`.
+  `new` is excluded because the user hasn't met the word; `retired`
+  is excluded because re-testing fully-mastered words wastes the
+  review budget.
+- **Why**: Matches the prompt's explicit guidance ("words the user
+  has learned (`status in ('learning', 'reviewing', 'mature')`)") and
+  the open-question default ("If the correct word is retired, does
+  this card use it as a correct answer? Default: no").
+- **Revisit if**: We add a "retired-word refresher" UX where
+  hear-identify is the natural recall format.
+
+### D37. Slot replacement: substitute the LAST review card
+
+- **Decided**: When the engine inserts a hear-identify card, it
+  *replaces* the last review-card slot rather than appending. If
+  there are no review slots, it appends.
+- **Why**: The prompt frames hear-identify as a "review slot
+  substitute." Replacing keeps the lesson length stable, so the user
+  doesn't see an extra card on lessons that get the listening test.
+  Picking the LAST review slot (rather than the first) means the
+  first review card — typically the most-due word — still lands as a
+  practice/test pass.
+- **Revisit if**: We start ordering cards explicitly and the "last"
+  slot becomes meaningful for some other reason.
+
+### D38. Engine config seam, not user-settings seam (yet)
+
+- **Decided**: `HearIdentifyConfig` is a constructor parameter on
+  `LessonEngine`, defaulting to enabled. The user-facing settings
+  toggle is *not* wired in this phase.
+- **Why**: Phase 5 only owns the card and the planner. Hooking into
+  the settings UI is part of Phase 7 (navigation) or Phase 9
+  (integration). Keeping the seam at the engine constructor means
+  the future provider just builds a different config from the
+  setting value — no engine changes needed.
+- **Revisit when**: We add the vocab settings screen.
+
+### D39. Existing engine tests pass `HearIdentifyConfig.disabled`
+
+- **Decided**: The Phase 2 lesson-engine tests now construct the
+  engine with `hearIdentify: HearIdentifyConfig.disabled` so the 25%
+  probability gate doesn't introduce flakiness.
+- **Why**: Without this, an unlucky random roll could swap a review
+  card with a hear-identify card, breaking assertions like "expect
+  cards.length == 6." Phase-5-specific tests instantiate their own
+  engine with `probability: 1.0` and a fixed seed.
+
+### D40. SM-2 mapping: correct=Good, wrong=Again — correct word only
+
+- **Decided**: A correct hear-identify answer feeds `CardOutcome.good`
+  (quality 4) for the correct word. A wrong answer feeds
+  `CardOutcome.again` (quality 2). Distractors' SRS state is never
+  touched.
+- **Why**: Spec table is unambiguous — binary outcome, no
+  Hard/Easy. Distractors are decoys for *this* user's recall test;
+  modifying their SRS state would corrupt their schedule.
+- **Note**: The `recordCardOutcome` plumbing in `LessonEngine` is
+  unchanged — the card simply calls it once with the appropriate
+  outcome. No special-case branching needed.
+
+### D41. Accessibility flagged but not addressed in v1
+
+- **Decided**: The card has no visible-only fallback in v1. Deaf
+  users will need to disable hear-identify in settings (once the
+  Phase 7 toggle lands).
+- **Why**: Building a script-matching alternative ("which Lao word
+  matches this IPA?") would require IPA in the content bundle,
+  which we don't yet have. Documenting the gap and providing a
+  per-user opt-out is the v1 minimum.
+- **Revisit when**: We add IPA to the content bundle, OR a deaf
+  user reports that the disable toggle isn't enough.
+
+---
