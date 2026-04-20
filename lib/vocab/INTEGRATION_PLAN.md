@@ -1,76 +1,98 @@
 # Phase 09 — Integration with Write Lao
 
-## Integration Plan
+This document describes how the vocabulary feature lands inside the
+existing Write Lao app. Written against the actual codebase as of
+2026-04-20.
 
-### Architecture Overview
+## Host app architecture (audited)
 
-The vocabulary feature is integrated into Write Lao as follows:
+- **State management:** `flutter_riverpod` (existing
+  `characterRepositoryProvider`, `progressRepositoryProvider`, plus vocab's
+  providers in `lib/vocab/providers.dart`).
+- **Navigation:** `go_router`. Routes are declared in
+  `lib/config/routes.dart` and consumed by `MaterialApp.router` in
+  `lib/app.dart`. There is no nested shell — every screen is a top-level
+  route.
+- **Theming:** `lib/config/theme.dart`. Vocab screens inherit
+  `Theme.of(context)`; no custom theme.
+- **Localization:** `lib/l10n/app_localizations.dart` (`flutter_gen` from
+  ARB files). Vocab strings are English-only in v1; future work can pipe
+  them through `AppLocalizations`.
+- **Persistence:** Hive. Alphabet state lives in `character_progress` and
+  `lesson_progress` boxes (adapters 0, 1). Vocab boxes are registered in
+  `openVocabBoxes()` alongside at app startup (`lib/main.dart`). Adapter
+  IDs 12–16 are reserved for vocab.
+- **Drawing control:** `WritingCanvas` from the alphabet section. Vocab
+  wraps it via `RealStrokeCanvasHost` (see D25) so each card gets an
+  isolated `canvasControllerProvider`.
+- **Audio:** `VocabAudioPlayer` abstraction (`lib/vocab/audio/`) wraps
+  `audioplayers`. The alphabet section uses its own audio stack; no
+  shared player in v1.
 
-1. **Shared Database**: Uses the same Hive database as Write Lao (already configured in `main.dart`)
-2. **Shared Navigation**: Added `/vocab/*` routes to the app router
-3. **Shared Settings**: Vocab settings section added to the settings screen
-4. **Shared Audio**: Uses the `VocabAudioPlayer` abstraction from Phase 03
+## Files changed in Phase 09
 
-### Files Modified/Created
+| File | Change |
+|------|--------|
+| `lib/vocab/domain/vocab_config.dart` | Adds `featureEnabled` flag |
+| `lib/config/routes.dart` | Adds `/vocab`, `/vocab/unit/:unitId`, `/vocab/upsell`, `/vocab/restore` |
+| `lib/presentation/screens/lesson_list_screen.dart` | Adds a "Vocabulary" tile (guarded by `featureEnabled`) |
+| `lib/presentation/screens/settings_screen.dart` | Mounts `VocabSettingsSection` |
+| `lib/vocab/presentation/screens/vocab_settings_section.dart` | Switched to go_router navigation for restore |
+| `lib/vocab/presentation/screens/unit_list_screen.dart` | Locked-unit tap navigates to `/vocab/upsell` for free users |
+| `test/vocab/integration/vocab_reachable_test.dart` | New — proves the entry point |
 
-#### Modified Files
-- `lib/main.dart` - Already initializes vocab Hive adapters and boxes
-- `lib/config/routes.dart` - Added `/vocab/*` routes
+No existing alphabet code is functionally modified. The tile on the
+alphabet home screen is additive; settings mount is additive.
 
-#### New Files
-- `lib/config/vocab_routes.dart` - Router for vocabulary feature
-- `lib/vocab/presentation/vocab_app_shell.dart` - App shell with vocab tab
-- `lib/vocab/presentation/screens/vocab_settings_section.dart` - Settings section for restore purchases
+## Navigation flow
 
-### Navigation Flow
+```
+/ (alphabet home)
+  └── "Vocabulary" tile → /vocab
+                           ├── UnitListScreen
+                           │     └── tap unit → /vocab/unit/:unitId
+                           │                    └── LessonListScreen
+                           │                          └── tap lesson → (lesson flow, future)
+                           │     └── tap locked unit (free user) → /vocab/upsell
+                           └── (entry also via settings Restore Purchases)
 
-1. **Main Home Screen** → Bottom nav includes "Vocabulary" tab (4th tab)
-2. **Vocabulary Tab** → Unit list screen
-3. **Unit Row Tap** → Lesson list screen
-4. **Lesson Row Tap** → Lesson flow (intro → practice → test → outro)
-5. **Locked Content** → Upsell screen
-6. **Settings** → "Restore Purchases" option
+/settings
+  └── VocabSettingsSection
+        └── Restore Purchases → /vocab/restore
+```
 
-### Shared Components
+## Database migration
 
-#### Drawing Control
-The vocab feature uses `StrokeCanvasHost` from `lib/vocab/presentation/widgets/stroke_canvas_host.dart`.
-This is currently separate from Write Lao's stroke canvas. Future work could unify them.
+Additive. Vocab boxes are opened on every launch — if they didn't
+exist on the previous install, Hive creates them empty. No migration
+needed. Alphabet boxes are untouched.
 
-#### Audio
-The vocab feature uses `VocabAudioPlayer` from `lib/audio/vocab_audio_player.dart`.
-Write Lao may have its own audio system - integration should use whichever exists.
+## Feature flag
 
-#### Settings
-Vocab settings are added as a section to the main settings screen via `VocabSettingsSection`.
+`VocabConfig.featureEnabled` — compile-time constant, default `true`.
+When false:
+- The "Vocabulary" tile on the home screen is not rendered.
+- `VocabSettingsSection` is not rendered.
+- The `/vocab*` routes still exist (harmless — nothing navigates to
+  them from the UI when the flag is off).
 
-### Migration Strategy
+This is enough for an emergency disable without needing a full
+feature-flag service.
 
-When upgrading Write Lao users to the version with vocab:
+## Regression testing
 
-1. New Hive boxes are created (`vocab_user_word`, `vocab_user_progress`, etc.)
-2. Existing Write Lao boxes are not modified
-3. Migrations are additive only
+- `flutter test` passes unchanged for the alphabet suite.
+- Manual smoke: alphabet curriculum still works (home → lessons →
+  practice → test). Not automated; verified by running the app.
+- Bundle: no new runtime dependencies added.
 
-### Feature Flag
+## Open items deferred
 
-The vocabulary feature can be gated via `VocabConfig.featureEnabled`.
-Currently `true` by default. Can be toggled for A/B testing or emergency disable.
-
-### Manual Smoke Tests
-
-Before shipping, verify:
-1. ✅ Alphabet curriculum still works identically
-2. ✅ Existing IAP purchases (if any) are respected
-3. ✅ Existing user progress is not corrupted
-4. ✅ Vocabulary feature accessible from main menu
-5. ✅ Restore Purchases works
-6. ✅ Purchase flow works end-to-end
-
-## TODO Before Production
-
-- [ ] Connect lesson flow screens (intro → practice → test → outro)
-- [ ] Unify stroke canvas with Write Lao's (if applicable)
-- [ ] Add vocabulary entry to main app icon/menu
-- [ ] Localize strings if supporting non-English
-- [ ] Test on iOS and Android physical devices
+- Full per-lesson flow (intro → practice → test → outro) is not wired
+  into `/vocab/unit/:unitId/lesson/:lessonId`. The screens exist as
+  widgets but routing to them is future work.
+- Launch-counter logic for the "every 3rd launch re-prompt" rule in
+  `VocabConfig.upsellLaunchCooldown` is not implemented. The constants
+  are defined; consumers are not.
+- Shared settings like "enable hear-and-identify" are not surfaced
+  yet — the config exists but has no UI toggle.

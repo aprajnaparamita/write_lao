@@ -4,10 +4,20 @@ Use this checklist before shipping the vocabulary feature.
 
 ## Automated Tests
 
-- [ ] All unit tests pass (`flutter test test/vocab/domain/`)
-- [ ] All widget tests pass (when Hive issue is resolved)
-- [ ] All integration tests pass
+- [x] All vocab unit tests pass (`flutter test test/vocab/` — 162
+  passing as of 2026-04-20)
+- [x] Vocab widget tests pass (the Hive-in-test issue noted earlier
+  was resolved by opening boxes in `setUpAll` with synchronous
+  `.delete()` in `setUp`)
+- [x] Integration + e2e tests pass (3 e2e journeys covered —
+  Journey 1 partial, Journey 5, Journey 6; see
+  `test/vocab/e2e/vocab_journeys_test.dart`. Journeys 2/3/4 are
+  deferred pending lesson-flow wiring — see DECISIONS D66)
 - [ ] No analyzer errors or warnings (except pre-existing)
+- [ ] Two pre-existing failures in
+  `test/presentation/controllers/practice_controller_test.dart`
+  (fixture drift in alphabet-side tests) — unrelated to vocab;
+  track separately
 
 ## Content Bundle
 
@@ -23,7 +33,8 @@ Use this checklist before shipping the vocabulary feature.
 - [ ] Product ID `write_lao_vocabulary_500` configured in App Store Connect
 - [ ] Product ID `write_lao_vocabulary_500` configured in Google Play Console
 - [ ] Price tier set correctly ($0.99)
-- [ ] Restore Purchases button is visible and functional
+- [x] Restore Purchases button wired into `/vocab/restore` from
+  `VocabSettingsSection` (manual QA still required on device)
 
 ## App Store Assets
 

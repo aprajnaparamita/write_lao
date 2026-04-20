@@ -69,3 +69,10 @@ final iapServiceProvider = Provider<IapService>((ref) {
   // For now, use a mock that always simulates cancellation.
   return const MockIapService();
 });
+
+/// Change counter bumped whenever vocab user state is mutated through a
+/// non-reactive path (e.g., an IAP unlock, a progress advance). Consumers
+/// that display progress `watch` this provider to trigger a rebuild; the
+/// underlying Hive box is re-read on every build, so reading the latest
+/// value after a bump returns the updated state.
+final vocabStateRevProvider = StateProvider<int>((ref) => 0);

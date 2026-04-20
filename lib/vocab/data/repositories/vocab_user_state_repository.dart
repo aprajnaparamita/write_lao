@@ -81,6 +81,14 @@ class UserVocabProgressRepository {
     _box.put(_singletonKey, touched);
     return touched;
   }
+
+  /// Sets `iapUnlocked = true` on the singleton, creating it if missing.
+  /// Returns the persisted record.
+  UserVocabProgress markIapUnlocked() {
+    final current = getOrCreate();
+    if (current.iapUnlocked) return current;
+    return save(current.copyWith(iapUnlocked: true));
+  }
 }
 
 class UserSessionRepository {

@@ -70,7 +70,7 @@ class _RestorePurchasesScreenState extends State<RestorePurchasesScreen> {
         ),
       ),
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(32),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

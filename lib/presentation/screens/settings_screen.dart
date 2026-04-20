@@ -4,6 +4,8 @@ import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_it_lao/vocab/domain/vocab_config.dart';
+import 'package:write_it_lao/vocab/presentation/screens/vocab_settings_section.dart';
 
 /// Settings state provider
 class SettingsState {
@@ -184,6 +186,8 @@ class SettingsScreen extends ConsumerWidget {
               ),
             ),
           ),
+
+          if (VocabConfig.featureEnabled) const VocabSettingsSection(),
 
           const SizedBox(height: 32),
         ],

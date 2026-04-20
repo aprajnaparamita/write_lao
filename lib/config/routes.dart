@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/presentation/screens/lesson_list_screen.dart';
 import 'package:write_it_lao/presentation/screens/lesson_detail_screen.dart';
@@ -10,6 +11,12 @@ import 'package:write_it_lao/presentation/screens/progress_screen.dart';
 import 'package:write_it_lao/presentation/screens/review_screen.dart';
 import 'package:write_it_lao/presentation/screens/settings_screen.dart';
 import 'package:write_it_lao/presentation/screens/about_screen.dart';
+import 'package:write_it_lao/vocab/presentation/screens/lesson_list_screen.dart'
+    as vocab_lesson_list;
+import 'package:write_it_lao/vocab/presentation/screens/restore_purchases_screen.dart';
+import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
+import 'package:write_it_lao/vocab/presentation/screens/upsell_screen.dart';
+import 'package:write_it_lao/vocab/providers.dart';
 
 final router = GoRouter(
   initialLocation: '/',
@@ -193,6 +200,119 @@ final router = GoRouter(
       pageBuilder: (context, state) => CustomTransitionPage(
         key: state.pageKey,
         child: const SettingsScreen(),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0, 1),
+              end: Offset.zero,
+            ).animate(CurvedAnimation(
+              parent: animation,
+              curve: Curves.easeInOut,
+            )),
+            child: child,
+          );
+        },
+      ),
+    ),
+    GoRoute(
+      path: '/vocab',
+      name: 'vocab',
+      pageBuilder: (context, state) => CustomTransitionPage(
+        key: state.pageKey,
+        child: UnitListScreen(
+          onOpenUnit: (unitId) => context.push('/vocab/unit/$unitId'),
+          onUpsell: () => context.push('/vocab/upsell'),
+        ),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return FadeTransition(opacity: animation, child: child);
+        },
+      ),
+    ),
+    GoRoute(
+      path: '/vocab/unit/:unitId',
+      name: 'vocabUnit',
+      pageBuilder: (context, state) {
+        final unitId = state.pathParameters['unitId'] ?? '';
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: vocab_lesson_list.LessonListScreen(
+            unitId: unitId,
+            onOpenLesson: (lessonId) {
+              // Lesson flow wiring is future work; for now pop back.
+              // A real host can navigate to /vocab/unit/:unitId/lesson/:lessonId.
+            },
+            onUpsell: () => context.push('/vocab/upsell'),
+          ),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return SlideTransition(
+              position: Tween<Offset>(
+                begin: const Offset(1, 0),
+                end: Offset.zero,
+              ).animate(CurvedAnimation(
+                parent: animation,
+                curve: Curves.easeInOut,
+              )),
+              child: child,
+            );
+          },
+        );
+      },
+    ),
+    GoRoute(
+      path: '/vocab/upsell',
+      name: 'vocabUpsell',
+      pageBuilder: (context, state) => CustomTransitionPage(
+        key: state.pageKey,
+        child: Consumer(
+          builder: (context, ref, _) {
+            final iap = ref.read(iapServiceProvider);
+            final progressRepo =
+                ref.read(userVocabProgressRepositoryProvider);
+            return UpsellScreen(
+              iapService: iap,
+              onPurchaseComplete: () {
+                progressRepo.markIapUnlocked();
+                ref.read(vocabStateRevProvider.notifier).state++;
+                if (context.mounted) context.pop();
+              },
+              onDismissed: () => context.pop(),
+            );
+          },
+        ),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0, 1),
+              end: Offset.zero,
+            ).animate(CurvedAnimation(
+              parent: animation,
+              curve: Curves.easeInOut,
+            )),
+            child: child,
+          );
+        },
+      ),
+    ),
+    GoRoute(
+      path: '/vocab/restore',
+      name: 'vocabRestore',
+      pageBuilder: (context, state) => CustomTransitionPage(
+        key: state.pageKey,
+        child: Consumer(
+          builder: (context, ref, _) {
+            final iap = ref.read(iapServiceProvider);
+            final progressRepo =
+                ref.read(userVocabProgressRepositoryProvider);
+            return RestorePurchasesScreen(
+              iapService: iap,
+              onRestoreSuccess: () {
+                progressRepo.markIapUnlocked();
+                ref.read(vocabStateRevProvider.notifier).state++;
+              },
+              onDismiss: () => context.pop(),
+            );
+          },
+        ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           return SlideTransition(
             position: Tween<Offset>(

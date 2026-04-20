@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
-import 'package:write_it_lao/vocab/presentation/screens/restore_purchases_screen.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:go_router/go_router.dart';
 
 /// Section to add to the Write Lao settings screen for vocabulary-related options.
 class VocabSettingsSection extends ConsumerWidget {
   /// Called when the user wants to open the restore purchases screen.
+  /// Defaults to `context.push('/vocab/restore')`.
   final VoidCallback? onRestorePurchases;
 
   const VocabSettingsSection({
@@ -14,10 +13,10 @@ class VocabSettingsSection extends ConsumerWidget {
     this.onRestorePurchases,
   });
 
+  static const restoreTileKey = Key('vocab.settings.restoreTile');
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final iapService = ref.watch(iapServiceProvider);
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -30,31 +29,18 @@ class VocabSettingsSection extends ConsumerWidget {
                 ),
           ),
         ),
-        Card(
-          child: ListTile(
-            leading: const Icon(Icons.restore),
-            title: const Text('Restore Purchases'),
-            subtitle: const Text('Unlock vocabulary on a new device'),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: onRestorePurchases ?? () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => RestorePurchasesScreen(
-                    iapService: iapService,
-                    onRestoreSuccess: () {
-                      Navigator.of(context).pop();
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Vocabulary unlocked!'),
-                          behavior: SnackBarBehavior.floating,
-                        ),
-                      );
-                    },
-                    onDismiss: () => Navigator.of(context).pop(),
-                  ),
-                ),
-              );
-            },
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Card(
+            child: ListTile(
+              key: restoreTileKey,
+              leading: const Icon(Icons.restore),
+              title: const Text('Restore Purchases'),
+              subtitle: const Text('Unlock vocabulary on a new device'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: onRestorePurchases ??
+                  () => context.push('/vocab/restore'),
+            ),
           ),
         ),
       ],

@@ -14,11 +14,17 @@ class UpsellScreen extends StatefulWidget {
   /// The IAP service to use for purchasing.
   final IapService iapService;
 
+  /// Platform-localized price string (e.g. "$0.99", "€0.89"). When null the
+  /// button reads "Buy Now" — the platform's purchase sheet always shows the
+  /// real price, so this is only a preview.
+  final String? priceLabel;
+
   const UpsellScreen({
     super.key,
     this.onPurchaseComplete,
     this.onDismissed,
     required this.iapService,
+    this.priceLabel,
   });
 
   @override
@@ -108,7 +114,9 @@ class _UpsellScreenState extends State<UpsellScreen> {
                         height: 20,
                         child: CircularProgressIndicator(strokeWidth: 2),
                       )
-                    : const Text('Buy Now — \$0.99'),
+                    : Text(widget.priceLabel == null
+                        ? 'Buy Now'
+                        : 'Buy Now — ${widget.priceLabel}'),
               ),
               const SizedBox(height: 12),
               TextButton(

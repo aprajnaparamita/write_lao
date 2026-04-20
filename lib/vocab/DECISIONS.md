@@ -818,3 +818,94 @@ anything **future-you might want to revisit**.
   once Phase 09 wiring lands — at that point the journeys become
   expressible as `integration_test` runs against a mock
   `IapService`.
+
+## Phase 09 — Integration (completed 2026-04-20)
+
+### D61. `/vocab` is a top-level GoRouter route, not a tab
+
+- **Decided**: Four routes added to `lib/config/routes.dart`:
+  `/vocab`, `/vocab/unit/:unitId`, `/vocab/upsell`, `/vocab/restore`.
+  Reached from a new tile on the alphabet home (`homeVocabEntryKey`)
+  and a Restore row inside `/settings` (`VocabSettingsSection`).
+- **Why**: The host app uses GoRouter with page-based transitions;
+  adding a fourth bottom-nav tab would have required a shell
+  route and refactoring the existing alphabet flow. A discrete
+  top-level entry is reversible and doesn't touch the alphabet UI.
+- **Alternatives considered**: (a) dedicated bottom-nav tab —
+  rejected, too invasive. (b) modal pushed from home —
+  rejected, restore + upsell need their own URL for deep-linking.
+- **Revisit if**: The vocab feature becomes the primary flow
+  (switching home → vocab and demoting the alphabet).
+
+### D62. `VocabConfig.featureEnabled` is a compile-time constant
+
+- **Decided**: `static const bool featureEnabled = true` in
+  `vocab_config.dart`. Home tile, settings tile, and (eventually)
+  route registration can be `if (VocabConfig.featureEnabled)` gated
+  for a kill-switch without ripping the code out.
+- **Why**: Anything heavier (GrowthBook, Firebase Remote Config)
+  would pull in a new dependency for a single flag.
+- **Revisit if**: We need staged rollout or region gating — then
+  promote to runtime config.
+
+### D63. Non-reactive state refresh via `vocabStateRevProvider`
+
+- **Decided**: A `StateProvider<int>` that gets `.state++`'d
+  whenever vocab state mutates outside the provider graph
+  (IAP unlock, engine progress). UnitListScreen and
+  LessonListScreen `ref.watch` it to rebuild; the underlying Hive
+  box is re-read on every build, so the bump is sufficient.
+- **Why**: The repositories return plain values (`UserVocabProgress`)
+  rather than streams, and converting every consumer to a
+  `StateNotifier` would have rewritten the readable-imperative
+  API the engine relies on. A rev-counter gives us reactivity
+  without that refactor.
+- **Revisit if**: v2 sync adds cross-device updates — at that
+  point a proper `StateNotifier` or `AsyncNotifier` is worth the
+  refactor because mutations arrive from outside the app.
+
+## Phase 08 — IAP (completed 2026-04-20)
+
+### D64. `markIapUnlocked()` is idempotent and short-circuits
+
+- **Decided**: `UserVocabProgressRepository.markIapUnlocked()`
+  returns the existing singleton untouched if it is already
+  unlocked — it does *not* bump `updatedAt`. Only flips the flag
+  on an actual transition.
+- **Why**: Restore + purchase both land on this method; a double-
+  unlock on a resume-after-background shouldn't create a false
+  "changed" row for v2 sync.
+- **Revisit if**: We ever need an audit trail of unlock attempts
+  — then log separately, don't overload `updatedAt`.
+
+### D65. `ListTile.enabled` left at `true` on locked rows
+
+- **Decided**: Locked unit / lesson rows keep `enabled: true` on
+  their `ListTile`. The tap handler internally branches to
+  `onUpsell` when the row is untappable-by-progress but still
+  tappable-by-intent (free user hitting a locked unit).
+- **Why**: `enabled: false` disables the `onTap` entirely, which
+  means `onUpsell` never fires when a free user taps a locked
+  unit — the whole point of the upsell path.
+- **Revisit if**: We add a distinct visual "disabled" style that
+  requires the Material disabled treatment — at that point, split
+  the two states explicitly instead of conflating them in a
+  single ListTile.
+
+## Phase 10 — Packaging (partial completion 2026-04-20)
+
+### D66. Three real e2e tests now live; three remain deferred
+
+- **Decided**: `test/vocab/e2e/vocab_journeys_test.dart` covers
+  Journey 1 (partial — upsell → purchase → unlock), Journey 5
+  (restore), and Journey 6 (course completion counter).
+  Journeys 2 (SRS review), 3 (flag-and-study), and 4 (hear-and-
+  identify) are deferred until the lesson-flow runner is wired
+  at `/vocab/unit/:unitId/lesson/:lessonId`.
+- **Why**: Lesson-flow wiring is explicit scope for a later
+  phase; writing e2e tests for a UI that doesn't exist yet would
+  produce throw-UnimplementedError stubs (exactly what we ripped
+  out in D60).
+- **Revisit if**: When lesson-flow wiring lands, the three
+  deferred journeys can be added to the same file using the
+  existing Hive + GoRouter harness.

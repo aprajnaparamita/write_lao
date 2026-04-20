@@ -3,21 +3,25 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_it_lao/vocab/domain/content_access.dart';
 import 'package:write_it_lao/vocab/domain/course_navigation.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 import 'package:write_it_lao/vocab/providers.dart';
 
 /// Lesson list within a unit. Each lesson row shows word count, completion
 /// state, and a small Lao preview of the new words. Locked lessons render
-/// with a lock badge and don't trigger [onOpenLesson].
+/// with a lock badge. For free users, lesson 1 of unit 1 is the preview
+/// and remains tappable; tapping any other locked lesson fires [onUpsell].
 class LessonListScreen extends ConsumerWidget {
   final String unitId;
   final void Function(String lessonId)? onOpenLesson;
+  final VoidCallback? onUpsell;
 
   const LessonListScreen({
     super.key,
     required this.unitId,
     this.onOpenLesson,
+    this.onUpsell,
   });
 
   @override
@@ -32,6 +36,7 @@ class LessonListScreen extends ConsumerWidget {
           course: course,
           unitId: unitId,
           onOpenLesson: onOpenLesson,
+          onUpsell: onUpsell,
         ),
       ),
     );
@@ -42,18 +47,22 @@ class _LessonListBody extends ConsumerWidget {
   final CourseRepository course;
   final String unitId;
   final void Function(String lessonId)? onOpenLesson;
+  final VoidCallback? onUpsell;
 
   const _LessonListBody({
     required this.course,
     required this.unitId,
     required this.onOpenLesson,
+    required this.onUpsell,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    ref.watch(vocabStateRevProvider);
     final progress =
         ref.watch(userVocabProgressRepositoryProvider).getOrCreate();
     final nav = CourseNavigation(course: course, progress: progress);
+    final access = ContentAccess(course: course, progress: progress);
     final unit = course.getUnit(unitId);
     final lessons = course.getLessonsInUnit(unitId);
 
@@ -69,8 +78,10 @@ class _LessonListBody extends ConsumerWidget {
         return _LessonRow(
           lesson: lesson,
           nav: nav,
+          access: access,
           course: course,
           onOpen: onOpenLesson,
+          onUpsell: onUpsell,
         );
       },
     );
@@ -80,14 +91,18 @@ class _LessonListBody extends ConsumerWidget {
 class _LessonRow extends StatelessWidget {
   final VocabLesson lesson;
   final CourseNavigation nav;
+  final ContentAccess access;
   final CourseRepository course;
   final void Function(String lessonId)? onOpen;
+  final VoidCallback? onUpsell;
 
   const _LessonRow({
     required this.lesson,
     required this.nav,
+    required this.access,
     required this.course,
     required this.onOpen,
+    required this.onUpsell,
   });
 
   @override
@@ -95,6 +110,9 @@ class _LessonRow extends StatelessWidget {
     final unlocked = nav.isLessonUnlocked(lesson.lessonId);
     final complete = nav.isLessonComplete(lesson.lessonId);
     final isCurrent = nav.isCurrentLesson(lesson.lessonId);
+    final inPreview = access.isInFreePreview(lesson.lessonId);
+    final tappable = unlocked || inPreview;
+
     final words = lesson.newWordIds
         .map(course.getWord)
         .whereType<VocabWord>()
@@ -120,8 +138,15 @@ class _LessonRow extends StatelessWidget {
       title: Text('Lesson ${lesson.lessonNumber}'),
       subtitle: Text(preview.isEmpty ? '—' : preview),
       trailing: trailing,
-      enabled: unlocked,
-      onTap: unlocked ? () => onOpen?.call(lesson.lessonId) : null,
+      onTap: () {
+        if (tappable) {
+          onOpen?.call(lesson.lessonId);
+          return;
+        }
+        if (!access.hasPurchased) {
+          onUpsell?.call();
+        }
+      },
     );
   }
 }

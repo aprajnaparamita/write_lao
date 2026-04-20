@@ -2,6 +2,11 @@
 ///
 /// Adjust these to tune the free-user experience and content pacing.
 class VocabConfig {
+  /// Master switch for the vocabulary feature. When `false`, the home-screen
+  /// entry point and settings section do not render. Routes still exist but
+  /// nothing in the UI navigates to them.
+  static const bool featureEnabled = true;
+
   /// How many lessons in unit 1 are playable without purchase.
   ///
   /// Set to 1 for a single-lesson preview. Set to 0 to disable preview.
