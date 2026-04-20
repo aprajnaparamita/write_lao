@@ -10,7 +10,7 @@ class VocabConfig {
   /// How many lessons in unit 1 are playable without purchase.
   ///
   /// Set to 1 for a single-lesson preview. Set to 0 to disable preview.
-  static const int freePreviewLessons = 1;
+  static const int freePreviewLessons = 5;
 
   /// How many times the upsell is dismissed before it reappears.
   ///

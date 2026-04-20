@@ -61,7 +61,18 @@
       "Bash(/Users/dara/dev/flutter/bin/flutter gen-l10n *)",
       "Bash(/Users/dara/dev/flutter/bin/flutter pub *)",
       "Read(//Users/dara/**)",
-      "Bash(awk -F'_' '{print $2}')"
+      "Bash(awk -F'_' '{print $2}')",
+      "Bash(git stash *)",
+      "Bash(git add *)",
+      "Bash(git check-ignore *)",
+      "Bash(git commit *)",
+      "Bash(/Users/dara/dev/flutter/bin/flutter test *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(python3 -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  size=%{size_download}  type=%{content_type}\\\\n\" http://localhost:8765/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  styles.css\\\\n\" http://localhost:8765/styles.css)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  script.js\\\\n\" http://localhost:8765/script.js)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  favicon.svg\\\\n\" http://localhost:8765/assets/favicon.svg)"
     ]
   }
 }
