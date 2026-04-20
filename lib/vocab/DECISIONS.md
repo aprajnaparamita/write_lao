@@ -577,3 +577,100 @@ anything **future-you might want to revisit**.
   user reports that the disable toggle isn't enough.
 
 ---
+
+## Phase 6 — Flag Decks (Personal Study Decks)
+
+### D42. Retired words skipped in deck study (v1)
+
+- **Decided**: `planDeckStudy` filters out any word whose status is
+  `retired`, even when that word is flagged into the deck. The user
+  can still see retired words in the deck-contents screen and
+  remove/keep them as they wish.
+- **Why**: Spec defaulted to "skip them" for v1. Re-testing words
+  the SRS already moved out of rotation would either (a) silently
+  resurrect them by re-running the SRS step, or (b) require a
+  no-op SRS path that confuses the model. Skipping is the
+  least-surprising option until users tell us they want a
+  "retired-word refresher" mode.
+- **Revisit if**: Users specifically ask for a refresher format.
+
+### D43. Default deck-study session size: 10 cards
+
+- **Decided**: `defaultDeckStudyLimit = 10`. Smaller decks just
+  use whatever they have; larger decks pick the 10 oldest-reviewed
+  first. The "Study more" affordance to pull the next 10 is
+  out-of-scope for the planner — the UI can call `startDeckStudy`
+  again when the user requests it.
+- **Why**: Matches the spec ("Default: 10 cards per deck study
+  session"). Keeps a session feeling like a focused chunk rather
+  than a marathon.
+- **Revisit if**: Telemetry shows users overwhelmingly tap "study
+  more" — at that point either raise the default or surface the
+  control more prominently.
+
+### D44. Deck-study order: oldest `last_reviewed_at` first, never-reviewed first
+
+- **Decided**: `planDeckStudy` sorts by `last_reviewed_at` ASC, with
+  null (never reviewed) sorting *before* any reviewed word. Words
+  with no `UserWord` row at all are treated as never-reviewed.
+- **Why**: Matches the spec. Surfacing never-reviewed first means
+  the user actually sees brand-new flagged words instead of always
+  re-seeing the same handful. Among reviewed words, oldest-first
+  prioritizes the items the user is most likely to have forgotten.
+
+### D45. Deck-study runs OUTSIDE the course-progress lifecycle
+
+- **Decided**: `LessonEngine.startDeckStudy` returns a
+  `DeckStudyPlan` with no `sessionId`. It does *not* create a
+  `UserSession` row, and there is no equivalent of `completeLesson`
+  for deck study. Per-card SRS still runs through
+  `recordCardOutcome` exactly as in a normal lesson.
+- **Why**: Spec is explicit — "Completing cards in deck study does
+  NOT advance course progress." Conflating the two would
+  double-count progress on words flagged from earlier lessons and
+  risk advancing `current_lesson_id` from a deck-study screen.
+  Keeping the entry points separate makes the boundary obvious.
+- **Tradeoff**: We lose per-deck-session telemetry (errors, duration)
+  for v1. If we want it later, add a `DeckStudySession` model rather
+  than reusing `UserSession`.
+
+### D46. Card kind in deck study mirrors current SRS status
+
+- **Decided**: A deck-study card is `LessonCardKind.newWord` if the
+  word's status is `newWord`, else `LessonCardKind.review`. The
+  existing `cardModeFor` mapping then picks practice vs test as in a
+  regular lesson.
+- **Why**: Reusing the same card-rendering pipeline means deck
+  study inherits intro/practice/test/outro flow for free. No new UI
+  components needed for v1.
+- **Note**: `LessonCardKind.hearIdentify` is intentionally *not*
+  produced in deck study — listening tests live inside the lesson
+  flow where the user has just been re-exposed to several words.
+
+### D47. FlagDeck UI is callback-driven, not router-bound, in this phase
+
+- **Decided**: `MyDecksScreen` exposes `onStudy(deckId)` and
+  `onOpenDeck(deckId)` callbacks instead of calling `context.go(...)`
+  directly. `DeckPickerSheet` similarly takes `onFlag` /
+  `onUnflag` / `onCreateAndFlag` rather than touching Hive itself
+  (its consumer does).
+- **Why**: Phase 7 owns navigation wiring. Keeping the Phase-6 UI
+  router-agnostic means it tests cleanly without `GoRouter` setup,
+  and the Phase-7 changes are localized to a single host widget.
+- **Revisit when**: We wire go_router routes and decide whether to
+  collapse the callbacks into direct `context.go(...)` calls.
+
+### D48. New repo helpers: `renameDeck` and `getDeckWordCounts`
+
+- **Decided**: Added two small convenience methods to
+  `FlagDeckRepository`. `renameDeck(id, name)` is a sugary wrapper
+  over `saveDeck(deck.copyWith(name: name))` that returns null for
+  unknown decks. `getDeckWordCounts()` returns
+  `Map<deckId, count>` so the My Decks list doesn't have to walk
+  the join box once per row.
+- **Why**: The screen would otherwise call `getWordsInDeck(d).length`
+  for every deck on every rebuild — O(decks × words). Doing it once
+  is O(words). And the rename helper hides the
+  copyWith-and-save dance from the UI.
+
+---

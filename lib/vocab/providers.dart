@@ -56,5 +56,6 @@ final lessonEngineProvider = FutureProvider<LessonEngine>((ref) async {
     userWords: ref.watch(userWordRepositoryProvider),
     userProgress: ref.watch(userVocabProgressRepositoryProvider),
     userSessions: ref.watch(userSessionRepositoryProvider),
+    flagDecks: ref.watch(flagDeckRepositoryProvider),
   );
 });

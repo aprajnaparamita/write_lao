@@ -10,6 +10,7 @@ import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
 import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
 import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
+import 'package:write_it_lao/vocab/domain/srs.dart';
 
 import '../fixtures/course_fixtures.dart';
 
@@ -40,9 +41,12 @@ void main() {
   late Box<UserWord> wordBox;
   late Box<UserVocabProgress> progressBox;
   late Box<UserSession> sessionBox;
+  late Box<FlagDeck> deckBox;
+  late Box<FlagDeckWord> deckWordBox;
   late UserWordRepository userWords;
   late UserVocabProgressRepository userProgress;
   late UserSessionRepository userSessions;
+  late FlagDeckRepository flagDecks;
   late CourseRepository course;
   late LessonEngine engine;
   late DateTime currentNow;
@@ -52,6 +56,8 @@ void main() {
     wordBox = await Hive.openBox<UserWord>('lew_$s');
     progressBox = await Hive.openBox<UserVocabProgress>('lep_$s');
     sessionBox = await Hive.openBox<UserSession>('les_$s');
+    deckBox = await Hive.openBox<FlagDeck>('led_$s');
+    deckWordBox = await Hive.openBox<FlagDeckWord>('ledw_$s');
 
     currentNow = DateTime.utc(2026, 4, 20, 12);
     DateTime now() => currentNow;
@@ -59,12 +65,14 @@ void main() {
     userWords = UserWordRepository(wordBox, now: now);
     userProgress = UserVocabProgressRepository(progressBox, now: now);
     userSessions = UserSessionRepository(sessionBox, now: now);
+    flagDecks = FlagDeckRepository(deckBox, deckWordBox, now: now);
     course = await _loadFixtureRepo();
     engine = LessonEngine(
       course: course,
       userWords: userWords,
       userProgress: userProgress,
       userSessions: userSessions,
+      flagDecks: flagDecks,
       now: now,
       hearIdentify: HearIdentifyConfig.disabled,
     );
@@ -74,6 +82,8 @@ void main() {
     await wordBox.deleteFromDisk();
     await progressBox.deleteFromDisk();
     await sessionBox.deleteFromDisk();
+    await deckBox.deleteFromDisk();
+    await deckWordBox.deleteFromDisk();
   });
 
   group('getReviewCandidates', () {
@@ -201,6 +211,7 @@ void main() {
         userWords: userWords,
         userProgress: userProgress,
         userSessions: userSessions,
+        flagDecks: flagDecks,
         now: () => currentNow,
         random: Random(seed),
         hearIdentify: hi,
@@ -303,6 +314,105 @@ void main() {
       expect(advanced.currentUnitId, 'u_02');
       expect(advanced.currentLessonId, 'l_02_01');
       expect(advanced.unitsCompleted, 1);
+    });
+  });
+
+  group('startDeckStudy', () {
+    test('orders by oldest last_reviewed_at, never-reviewed first', () {
+      final deck = flagDecks.createDeck('Tricky');
+      for (final id in ['w_0001', 'w_0002', 'w_0003']) {
+        flagDecks.flagWord(deckId: deck.id, wordId: id);
+      }
+      // w_0001 reviewed earliest, w_0002 never reviewed, w_0003 reviewed latest.
+      var w1 = userWords.create('w_0001');
+      userWords.save(w1.copyWith(
+        status: WordStatus.reviewing,
+        lastReviewedAt: currentNow.subtract(const Duration(days: 5)),
+      ));
+      var w3 = userWords.create('w_0003');
+      userWords.save(w3.copyWith(
+        status: WordStatus.mature,
+        lastReviewedAt: currentNow.subtract(const Duration(hours: 1)),
+      ));
+      // w_0002 has no UserWord row yet — startDeckStudy should create it.
+
+      final plan = engine.startDeckStudy(deck.id);
+      expect(
+        plan.cards.map((c) => c.wordId).toList(),
+        equals(['w_0002', 'w_0001', 'w_0003']),
+      );
+    });
+
+    test('caps at default 10 cards', () {
+      final deck = flagDecks.createDeck('Big');
+      for (var i = 1; i <= 15; i++) {
+        final id = 'w_${i.toString().padLeft(4, '0')}';
+        flagDecks.flagWord(deckId: deck.id, wordId: id);
+        var w = userWords.create(id);
+        userWords.save(w.copyWith(
+          status: WordStatus.learning,
+          lastReviewedAt:
+              currentNow.subtract(Duration(days: 30 - i)),
+        ));
+      }
+      final plan = engine.startDeckStudy(deck.id);
+      expect(plan.cards, hasLength(10));
+    });
+
+    test('skips retired words (v1)', () {
+      final deck = flagDecks.createDeck('Mixed');
+      for (final id in ['w_0001', 'w_0002']) {
+        flagDecks.flagWord(deckId: deck.id, wordId: id);
+      }
+      var w1 = userWords.create('w_0001');
+      userWords.save(w1.copyWith(status: WordStatus.retired));
+      var w2 = userWords.create('w_0002');
+      userWords.save(w2.copyWith(status: WordStatus.reviewing));
+
+      final plan = engine.startDeckStudy(deck.id);
+      expect(plan.cards.map((c) => c.wordId).toList(), equals(['w_0002']));
+    });
+
+    test('does NOT create a UserSession or advance course progress', () {
+      // Set the user's current lesson — we want to confirm it stays put.
+      userProgress.save(userProgress.getOrCreate().copyWith(
+            currentUnitId: 'u_01',
+            currentLessonId: 'l_01_02',
+          ));
+      final deck = flagDecks.createDeck('Sandbox');
+      flagDecks.flagWord(deckId: deck.id, wordId: 'w_0001');
+
+      final sessionsBefore = sessionBox.length;
+      final plan = engine.startDeckStudy(deck.id);
+
+      expect(sessionBox.length, sessionsBefore,
+          reason: 'deck-study must not create a UserSession');
+      expect(plan.cards, hasLength(1));
+
+      // Even after recording outcomes for every card, progress is unchanged.
+      for (final c in plan.cards) {
+        engine.recordCardOutcome(c.wordId, CardOutcome.good);
+      }
+      final progress = userProgress.getOrCreate();
+      expect(progress.currentLessonId, 'l_01_02');
+      expect(progress.currentUnitId, 'u_01');
+      expect(progress.lessonsCompleted, 0);
+    });
+
+    test('updates SRS state of the studied word', () {
+      final deck = flagDecks.createDeck('SRS check');
+      flagDecks.flagWord(deckId: deck.id, wordId: 'w_0001');
+
+      final plan = engine.startDeckStudy(deck.id);
+      expect(plan.cards, hasLength(1));
+
+      final beforeUw = userWords.getByWordId('w_0001')!;
+      expect(beforeUw.timesSeen, 0);
+
+      engine.recordCardOutcome('w_0001', CardOutcome.good);
+
+      final afterUw = userWords.getByWordId('w_0001')!;
+      expect(afterUw.timesSeen, greaterThan(beforeUw.timesSeen));
     });
   });
 }

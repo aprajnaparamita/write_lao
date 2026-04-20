@@ -141,6 +141,22 @@ class FlagDeckRepository {
     return touched;
   }
 
+  /// Returns the renamed deck, or null if [deckId] doesn't exist.
+  FlagDeck? renameDeck(String deckId, String newName) {
+    final existing = _decks.get(deckId);
+    if (existing == null) return null;
+    return saveDeck(existing.copyWith(name: newName));
+  }
+
+  /// Returns counts keyed by deckId for one round-trip from the join box.
+  Map<String, int> getDeckWordCounts() {
+    final counts = <String, int>{};
+    for (final dw in _deckWords.values) {
+      counts.update(dw.deckId, (v) => v + 1, ifAbsent: () => 1);
+    }
+    return counts;
+  }
+
   /// Cascade-deletes the deck and all its FlagDeckWord rows.
   void deleteDeck(String deckId) {
     _decks.delete(deckId);

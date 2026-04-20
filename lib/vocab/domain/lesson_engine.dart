@@ -4,6 +4,7 @@ import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_it_lao/vocab/domain/deck_study_planner.dart';
 import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
 import 'package:write_it_lao/vocab/domain/srs.dart';
 
@@ -38,6 +39,17 @@ class LessonPlan {
   });
 }
 
+/// Result of starting a deck-study session. Has no [sessionId] because
+/// deck-study runs *outside* the course-progress lifecycle — completing
+/// these cards updates per-word SRS state but never advances the user's
+/// `current_lesson_id` / `current_unit_id`.
+class DeckStudyPlan {
+  final String deckId;
+  final List<LessonCard> cards;
+
+  const DeckStudyPlan({required this.deckId, required this.cards});
+}
+
 /// Orchestrates the per-lesson lifecycle: pick which words to show, persist
 /// the in-flight session, apply SM-2 after each card, then advance the
 /// user's progress when the lesson finishes.
@@ -46,6 +58,7 @@ class LessonEngine {
   final UserWordRepository userWords;
   final UserVocabProgressRepository userProgress;
   final UserSessionRepository userSessions;
+  final FlagDeckRepository? flagDecks;
   final Clock now;
   final math.Random _random;
 
@@ -67,6 +80,7 @@ class LessonEngine {
     required this.userWords,
     required this.userProgress,
     required this.userSessions,
+    this.flagDecks,
     Clock? now,
     math.Random? random,
     this.hearIdentify = const HearIdentifyConfig(),
@@ -292,6 +306,55 @@ class LessonEngine {
       out.add(remaining.removeAt(picked));
     }
     return out;
+  }
+
+  /// Build a study plan for the words flagged into [deckId]. Cards inherit
+  /// their kind (newWord vs review) from the user's current SRS status, so
+  /// the existing intro/practice/test/outro flow can render them. No
+  /// [UserSession] is created — deck-study lives outside course progress.
+  ///
+  /// Skips retired words (per Phase 06 spec). Orders by oldest
+  /// `last_reviewed_at`, never-reviewed first. Caps at [limit].
+  DeckStudyPlan startDeckStudy(
+    String deckId, {
+    int limit = defaultDeckStudyLimit,
+  }) {
+    final repo = flagDecks;
+    if (repo == null) {
+      throw StateError(
+        'startDeckStudy called but no FlagDeckRepository was injected.',
+      );
+    }
+
+    final wordIds = repo.getWordsInDeck(deckId).map((dw) => dw.wordId).toList();
+
+    // Ensure a UserWord row exists for each candidate; mirrors startLesson.
+    for (final id in wordIds) {
+      if (userWords.getByWordId(id) == null) {
+        userWords.create(id);
+      }
+    }
+
+    final byWordId = <String, UserWord>{
+      for (final uw in userWords.getAll()) uw.wordId: uw,
+    };
+    final ordered = planDeckStudy(
+      wordIds: wordIds,
+      userWordsByWordId: byWordId,
+      limit: limit,
+    );
+
+    final cards = [
+      for (final id in ordered)
+        LessonCard(
+          wordId: id,
+          kind: byWordId[id]?.status == WordStatus.newWord
+              ? LessonCardKind.newWord
+              : LessonCardKind.review,
+        ),
+    ];
+
+    return DeckStudyPlan(deckId: deckId, cards: cards);
   }
 
   /// Apply SM-2 to the [wordId]'s UserWord based on the card's [outcome].

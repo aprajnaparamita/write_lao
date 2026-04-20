@@ -174,5 +174,73 @@ void main() {
       expect(repo.getDeck(deck.id), isNull);
       expect(repo.getWordsInDeck(deck.id), isEmpty);
     });
+
+    test('createDeck + flagWord yields a deck containing that word', () {
+      final deck = repo.createDeck('Favorites');
+      repo.flagWord(deckId: deck.id, wordId: 'w_0001');
+      final words = repo.getWordsInDeck(deck.id);
+      expect(words, hasLength(1));
+      expect(words.single.wordId, 'w_0001');
+      expect(repo.getDecksContaining('w_0001').map((d) => d.id),
+          contains(deck.id));
+    });
+
+    test('flagging a word into multiple decks creates one row per deck', () {
+      final a = repo.createDeck('A');
+      final b = repo.createDeck('B');
+      repo.flagWord(deckId: a.id, wordId: 'w_0001');
+      repo.flagWord(deckId: b.id, wordId: 'w_0001');
+      expect(repo.getWordsInDeck(a.id), hasLength(1));
+      expect(repo.getWordsInDeck(b.id), hasLength(1));
+      final containing = repo.getDecksContaining('w_0001').map((d) => d.id);
+      expect(containing, containsAll(<String>[a.id, b.id]));
+    });
+
+    test('renameDeck updates name and bumps updated_at', () async {
+      final deck = repo.createDeck('Old name');
+      final originalUpdatedAt = deck.updatedAt;
+      // Force the clock to advance by reopening a repo with a custom clock.
+      final box = deckBox;
+      final wordsBox = deckWordBox;
+      final later = originalUpdatedAt.add(const Duration(seconds: 5));
+      final repo2 = FlagDeckRepository(box, wordsBox, now: () => later);
+
+      final renamed = repo2.renameDeck(deck.id, 'New name');
+
+      expect(renamed, isNotNull);
+      expect(renamed!.name, 'New name');
+      expect(renamed.updatedAt, later);
+      expect(repo.getDeck(deck.id)!.name, 'New name');
+    });
+
+    test('renameDeck returns null for unknown deck', () {
+      expect(repo.renameDeck('does-not-exist', 'whatever'), isNull);
+    });
+
+    test('unflagWord removes from one deck without touching others', () {
+      final a = repo.createDeck('A');
+      final b = repo.createDeck('B');
+      repo.flagWord(deckId: a.id, wordId: 'w_0001');
+      repo.flagWord(deckId: b.id, wordId: 'w_0001');
+
+      repo.unflagWord(deckId: a.id, wordId: 'w_0001');
+
+      expect(repo.getWordsInDeck(a.id), isEmpty);
+      expect(repo.getWordsInDeck(b.id), hasLength(1));
+    });
+
+    test('getDeckWordCounts returns counts keyed by deckId', () {
+      final a = repo.createDeck('A');
+      final b = repo.createDeck('B');
+      final empty = repo.createDeck('Empty');
+      repo.flagWord(deckId: a.id, wordId: 'w_0001');
+      repo.flagWord(deckId: a.id, wordId: 'w_0002');
+      repo.flagWord(deckId: b.id, wordId: 'w_0001');
+
+      final counts = repo.getDeckWordCounts();
+      expect(counts[a.id], 2);
+      expect(counts[b.id], 1);
+      expect(counts.containsKey(empty.id), isFalse);
+    });
   });
 }

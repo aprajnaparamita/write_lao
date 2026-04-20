@@ -31,4 +31,26 @@ class WordCardKeys {
   static const hearIdentifyRomanization =
       ValueKey('vocab.hearIdentify.romanization');
   static const hearIdentifyGloss = ValueKey('vocab.hearIdentify.gloss');
+
+  // Flag-to-deck picker / My Decks / deck contents (Phase 06).
+  static const deckPickerCreateField =
+      ValueKey('vocab.deckPicker.createField');
+  static const deckPickerCreateButton =
+      ValueKey('vocab.deckPicker.createButton');
+  static const deckPickerDone = ValueKey('vocab.deckPicker.done');
+  static ValueKey deckPickerCheckbox(String deckId) =>
+      ValueKey('vocab.deckPicker.checkbox.$deckId');
+  static const myDecksList = ValueKey('vocab.myDecks.list');
+  static const myDecksAddButton = ValueKey('vocab.myDecks.add');
+  static ValueKey myDecksRow(String deckId) =>
+      ValueKey('vocab.myDecks.row.$deckId');
+  static ValueKey myDecksStudyButton(String deckId) =>
+      ValueKey('vocab.myDecks.study.$deckId');
+  static ValueKey myDecksMoreMenu(String deckId) =>
+      ValueKey('vocab.myDecks.more.$deckId');
+  static const deckContentsList = ValueKey('vocab.deckContents.list');
+  static ValueKey deckContentsRow(String wordId) =>
+      ValueKey('vocab.deckContents.row.$wordId');
+  static ValueKey deckContentsRemove(String wordId) =>
+      ValueKey('vocab.deckContents.remove.$wordId');
 }
