@@ -58,14 +58,27 @@ export const landingPageHTML = `<!DOCTYPE html>
   <title>Write Lao — Master Lao, one stroke at a time.</title>
   <meta property="og:title" content="Write Lao — Master Lao, one stroke at a time." />
   <meta property="og:description" content="Stroke-by-stroke handwriting practice for the full Lao alphabet. Plus 500 essential words with native audio and smart review." />
-  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:image" content="/assets/og-image.png" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Lao:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+  
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+  
+  <!-- Android Chrome -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png" />
+  
+  <!-- Safari Pinned Tab -->
+  <link rel="mask-icon" href="/icons/favicon.svg" color="#C8573F" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -73,7 +86,7 @@ export const landingPageHTML = `<!DOCTYPE html>
   <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="Write Lao — home">
-        <span class="brand-mark" aria-hidden="true">&#3585;</span>
+        <img class="brand-mark" src="/icons/apple-touch-icon.png" alt="Write Lao" width="32" height="32" />
         <span class="brand-name">Write Lao</span>
       </a>
       <nav class="nav" aria-label="Primary">
@@ -411,7 +424,7 @@ export const landingPageHTML = `<!DOCTYPE html>
     <div class="container footer-inner">
       <div>
         <a href="#top" class="brand">
-          <span class="brand-mark" aria-hidden="true">&#3585;</span>
+          <img class="brand-mark" src="/icons/apple-touch-icon.png" alt="Write Lao" width="32" height="32" />
           <span class="brand-name">Write Lao</span>
         </a>
         <p class="footer-tag" data-i18n="footer.tagline">A handwriting-first Lao course.</p>

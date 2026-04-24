@@ -19,6 +19,11 @@ import { shot2Base64 } from './shot2-image';
 import { shot3Base64 } from './shot3-image';
 import { shot4Base64 } from './shot4-image';
 import { faviconBase64 } from './favicon-image';
+import { favicon32Base64 } from './favicon32-image';
+import { favicon16Base64 } from './favicon16-image';
+import { appleTouchIconBase64 } from './apple-touch-icon-image';
+import { androidChrome192Base64 } from './android-chrome-192-image';
+import { androidChrome512Base64 } from './android-chrome-512-image';
 import { translations } from './translations';
 import { createAdminRouter } from '../admin/router';
 
@@ -113,6 +118,68 @@ app.get('/favicon.png', (c) => {
   if (faviconBase64) {
     return c.body(Buffer.from(faviconBase64, 'base64'), 200, {
       'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+// Site icons
+app.get('/icons/favicon-32.png', (c) => {
+  if (favicon32Base64) {
+    return c.body(Buffer.from(favicon32Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/icons/favicon-16.png', (c) => {
+  if (favicon16Base64) {
+    return c.body(Buffer.from(favicon16Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/icons/apple-touch-icon.png', (c) => {
+  if (appleTouchIconBase64) {
+    return c.body(Buffer.from(appleTouchIconBase64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/icons/android-chrome-192x192.png', (c) => {
+  if (androidChrome192Base64) {
+    return c.body(Buffer.from(androidChrome192Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/icons/android-chrome-512x512.png', (c) => {
+  if (androidChrome512Base64) {
+    return c.body(Buffer.from(androidChrome512Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/icons/favicon.svg', (c) => {
+  // SVG favicon - use the main favicon
+  if (faviconBase64) {
+    return c.body(Buffer.from(faviconBase64, 'base64'), 200, {
+      'Content-Type': 'image/svg+xml',
       'Cache-Control': 'public, max-age=604800, immutable',
     });
   }
