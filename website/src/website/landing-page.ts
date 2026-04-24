@@ -77,12 +77,12 @@ export const landingPageHTML = `<!DOCTYPE html>
         <span class="brand-name">Write Lao</span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#features">Features</a>
-        <a href="#demo">Demo</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#demo" data-i18n="nav.demo">Demo</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
-      <a href="#download" class="btn btn-primary btn-sm nav-cta">Get the app</a>
+      <a href="#download" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.get_app">Get the app</a>
     </div>
   </header>
 
@@ -90,8 +90,8 @@ export const landingPageHTML = `<!DOCTYPE html>
     <section class="hero" id="top">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">A handwriting-first Lao course</p>
-          <h1 class="display">
+          <p class="eyebrow" data-i18n="hero.eyebrow">A handwriting-first Lao course</p>
+          <h1 class="display" data-i18n="hero.headline">
             Master Lao,<br />
             <span class="ink">one stroke</span> at a time.
           </h1>
@@ -292,24 +292,24 @@ export const landingPageHTML = `<!DOCTYPE html>
     <section class="pricing" id="pricing">
       <div class="container">
         <div class="pricing-card">
-          <h2 class="display">One app. Two courses. One price.</h2>
+          <h2 class="display" data-i18n="pricing.title">One app. Two courses. One price.</h2>
           <div class="price-rows">
             <div class="price-row">
               <div>
-                <h3>The Lao alphabet</h3>
-                <p>All 58 characters · 21 lessons · stroke-by-stroke practice.</p>
+                <h3 data-i18n="pricing.alphabet.title">The Lao alphabet</h3>
+                <p data-i18n="pricing.alphabet.desc">All 58 characters · 21 lessons · stroke-by-stroke practice.</p>
               </div>
-              <div class="price">Free <span>forever</span></div>
+              <div class="price"><span data-i18n="pricing.free">Free</span> <span data-i18n="pricing.forever">forever</span></div>
             </div>
             <div class="price-row">
               <div>
-                <h3>The 500-word vocabulary course</h3>
-                <p>Curated words · native audio · spaced repetition · unlock forever.</p>
+                <h3 data-i18n="pricing.vocab.title">The 500-word vocabulary course</h3>
+                <p data-i18n="pricing.vocab.desc">Curated words · native audio · spaced repetition · unlock forever.</p>
               </div>
-              <div class="price"><strong>$0.99</strong> <span>one-time</span></div>
+              <div class="price"><strong data-i18n="pricing.price">$0.99</strong> <span data-i18n="pricing.one_time">one-time</span></div>
             </div>
           </div>
-          <p class="fine-print">
+          <p class="fine-print" data-i18n="pricing.fine_print">
             No subscriptions. No ads. Try the first lesson free — pay only if
             you want the full 500 words. Purchase restores across devices on
             the same app store account.
@@ -320,37 +320,37 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="download" id="download">
       <div class="container">
-        <h2 class="section-h display">Get Write Lao</h2>
-        <p class="section-sub">Pick your platform. Every version is the same app, fully featured, fully offline.</p>
+        <h2 class="section-h display" data-i18n="download.title">Get Write Lao</h2>
+        <p class="section-sub" data-i18n="download.subtitle">Pick your platform. Every version is the same app, fully featured, fully offline.</p>
 
         <div class="download-grid">
           <a class="dl-btn" href="#" data-platform="ios" aria-label="Download for iPhone and iPad">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.48 2.23-1.27 3.04-.9.91-2.36 1.62-3.6 1.53-.16-1.18.45-2.39 1.22-3.19.87-.89 2.44-1.54 3.65-1.38zm4.36 16.4c-.58 1.31-1.22 2.62-2.31 4.17-.97 1.37-1.74 2.3-3.12 2.32-1.3 0-1.73-.78-3.25-.77-1.53 0-2 .76-3.23.79-1.34.04-2.21-1.1-3.17-2.47-2.02-2.8-3.56-7.92-1.49-11.38 1.02-1.72 2.85-2.8 4.83-2.83 1.31-.02 2.55.88 3.35.88.8 0 2.32-1.09 3.91-.93.67.03 2.53.27 3.73 2.01-.1.06-2.24 1.32-2.22 3.93.03 3.12 2.74 4.15 2.77 4.17-.02.06-.4 1.38-1.33 2.93z"/></svg>
-            <span class="dl-text"><small>Download on the</small><strong>App Store</strong></span>
+            <span class="dl-text"><small data-i18n="download.ios.small">Download on the</small><strong data-i18n="download.ios">App Store</strong></span>
           </a>
 
           <a class="dl-btn" href="#" data-platform="android" aria-label="Get it on Google Play">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M3.6 1.98C3.23 2.28 3 2.82 3 3.52v16.96c0 .7.23 1.24.6 1.54l.08.06L13 12.08v-.17L3.68 1.92l-.08.06zm10.72 11.22L4.55 22.9l.01.01c.55.32 1.28.28 2.06-.16l10.63-6.04-2.93-3.51zm6.79-5.93L17.4 5.22 6.56 11.3l7.75 7.76 3.82-2.17c.92-.52 1.46-1.29 1.46-2.07 0-.78-.54-1.56-1.46-2.08-.44-.25-4.32-2.46-4.32-2.46z"/></svg>
-            <span class="dl-text"><small>Get it on</small><strong>Google Play</strong></span>
+            <span class="dl-text"><small data-i18n="download.android.small">Get it on</small><strong data-i18n="download.android">Google Play</strong></span>
           </a>
 
           <a class="dl-btn" href="#" data-platform="mac" aria-label="Download for macOS">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.48 2.23-1.27 3.04-.9.91-2.36 1.62-3.6 1.53-.16-1.18.45-2.39 1.22-3.19.87-.89 2.44-1.54 3.65-1.38zm4.36 16.4c-.58 1.31-1.22 2.62-2.31 4.17-.97 1.37-1.74 2.3-3.12 2.32-1.3 0-1.73-.78-3.25-.77-1.53 0-2 .76-3.23.79-1.34.04-2.21-1.1-3.17-2.47-2.02-2.8-3.56-7.92-1.49-11.38 1.02-1.72 2.85-2.8 4.83-2.83 1.31-.02 2.55.88 3.35.88.8 0 2.32-1.09 3.91-.93.67.03 2.53.27 3.73 2.01-.1.06-2.24 1.32-2.22 3.93.03 3.12 2.74 4.15 2.77 4.17-.02.06-.4 1.38-1.33 2.93z"/></svg>
-            <span class="dl-text"><small>Download for</small><strong>macOS</strong></span>
+            <span class="dl-text"><small data-i18n="download.mac.small">Download for</small><strong data-i18n="download.mac">macOS</strong></span>
           </a>
 
           <a class="dl-btn" href="#" data-platform="windows" aria-label="Download for Windows">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M3 5.5 11 4v7.5H3V5.5zm0 8h8V21l-8-1.4v-6.1zm9-9.6L22 2v9.5H12V3.9zM12 12.5h10V22l-10-1.6v-7.9z"/></svg>
-            <span class="dl-text"><small>Download for</small><strong>Windows</strong></span>
+            <span class="dl-text"><small data-i18n="download.windows.small">Download for</small><strong data-i18n="download.windows">Windows</strong></span>
           </a>
 
           <a class="dl-btn" href="#" data-platform="linux" aria-label="Download for Linux">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2c-2.3 0-4 2.4-4 5.5 0 1.3.3 2.5.9 3.5-.6.6-1.2 1.2-1.8 1.9-1.3 1.6-2.6 3.5-2.6 5.6 0 1 .5 1.8 1.4 2.2.3.2.6.4.8.7.2.3.2.6.2.9 0 .5.4.7.8.7h8.6c.4 0 .8-.2.8-.7 0-.3 0-.6.2-.9.2-.3.5-.5.8-.7.9-.4 1.4-1.2 1.4-2.2 0-2.1-1.3-4-2.6-5.6-.6-.7-1.2-1.3-1.8-1.9.6-1 .9-2.2.9-3.5C16 4.4 14.3 2 12 2zm-1.5 4.5c.4 0 .7.5.7 1s-.3 1-.7 1-.7-.5-.7-1 .3-1 .7-1zm3 0c.4 0 .7.5.7 1s-.3 1-.7 1-.7-.5-.7-1 .3-1 .7-1zM12 10c.9 0 1.8.3 2.5.8-.7.9-1.6 1.5-2.5 1.5s-1.8-.6-2.5-1.5c.7-.5 1.6-.8 2.5-.8z"/></svg>
-            <span class="dl-text"><small>Download for</small><strong>Linux</strong></span>
+            <span class="dl-text"><small data-i18n="download.linux.small">Download for</small><strong data-i18n="download.linux">Linux</strong></span>
           </a>
         </div>
 
-        <p class="install-note">
+        <p class="install-note" data-i18n="download.note">
           On a mobile device? The store button launches the right app.
           On desktop? Pick your OS and download the installer.
         </p>
