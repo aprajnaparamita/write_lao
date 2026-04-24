@@ -91,7 +91,7 @@ export const landingPageHTML = `<!DOCTYPE html>
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="hero.eyebrow">A handwriting-first Lao course</p>
-          <h1 class="display" data-i18n="hero.headline">
+          <h1 class="display" data-i18n-html="hero.headline">
             Master Lao,<br />
             <span class="ink">one stroke</span> at a time.
           </h1>
@@ -483,11 +483,21 @@ function getBrowserLocale() {
 
 // Apply translations to the page
 function applyTranslations(trans) {
+  // Handle plain text translations
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach((el) => {
     const key = el.getAttribute('data-i18n');
     if (key && trans[key]) {
       el.textContent = trans[key];
+    }
+  });
+  
+  // Handle HTML translations (use innerHTML for elements with HTML content)
+  const htmlElements = document.querySelectorAll('[data-i18n-html]');
+  htmlElements.forEach((el) => {
+    const key = el.getAttribute('data-i18n-html');
+    if (key && trans[key]) {
+      el.innerHTML = trans[key];
     }
   });
   
