@@ -5,13 +5,20 @@
  *   /           -> Public landing page (website/)
  *   /admin/*    -> Teacher admin dashboard
  *   /api/*      -> API endpoints for admin
+ *   /assets/*   -> Static assets (images)
  */
 
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
-import { compress } from 'hono/compress';
 import { logger } from 'hono/logger';
 import { landingPageHTML, landingPageCSS, landingPageJS } from './landing-page';
+import { heroScreenshotBase64 } from './hero-image';
+import { thumbnailBase64 } from './thumbnail-image';
+import { heroScreenshotBase64 as shot1Base64 } from './hero-image';
+import { shot2Base64 } from './shot2-image';
+import { shot3Base64 } from './shot3-image';
+import { shot4Base64 } from './shot4-image';
+import { faviconBase64 } from './favicon-image';
 import { createAdminRouter } from '../admin/router';
 
 type Env = {
@@ -37,6 +44,80 @@ app.use('*', cors({
 // Health check
 app.get('/health', (c) => c.json({ status: 'ok', timestamp: new Date().toISOString() }));
 
+// Hero screenshot
+app.get('/assets/hero-screenshot.png', (c) => {
+  if (heroScreenshotBase64) {
+    return c.body(Buffer.from(heroScreenshotBase64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+// Video thumbnail
+app.get('/assets/thumbnail.png', (c) => {
+  if (thumbnailBase64) {
+    return c.body(Buffer.from(thumbnailBase64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+// Screenshot images for screenshots section
+app.get('/assets/shot-01.png', (c) => {
+  if (shot1Base64) {
+    return c.body(Buffer.from(shot1Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/assets/shot-02.png', (c) => {
+  if (shot2Base64) {
+    return c.body(Buffer.from(shot2Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/assets/shot-03.png', (c) => {
+  if (shot3Base64) {
+    return c.body(Buffer.from(shot3Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+app.get('/assets/shot-04.png', (c) => {
+  if (shot4Base64) {
+    return c.body(Buffer.from(shot4Base64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=86400, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
+// Favicon
+app.get('/favicon.png', (c) => {
+  if (faviconBase64) {
+    return c.body(Buffer.from(faviconBase64, 'base64'), 200, {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=604800, immutable',
+    });
+  }
+  return c.text('Image not found', 404);
+});
+
 // Public landing page (matches website/index.html content)
 app.get('/', (c) => {
   const env = c.env?.ENVIRONMENT || 'development';
@@ -59,17 +140,6 @@ app.get('/script.js', (c) => {
   return c.body(landingPageJS, 200, {
     'Content-Type': 'application/javascript; charset=utf-8',
     'Cache-Control': 'public, max-age=86400, immutable',
-  });
-});
-
-// Favicon
-app.get('/favicon.svg', (c) => {
-  return c.body(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#C8573F"/>
-  <text x="16" y="24" font-family="serif" font-size="22" font-weight="bold" fill="#faf6ef" text-anchor="middle">ຂ</text>
-</svg>`, 200, {
-    'Content-Type': 'image/svg+xml',
-    'Cache-Control': 'public, max-age=604800, immutable',
   });
 });
 

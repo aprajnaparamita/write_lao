@@ -7,7 +7,7 @@
 export const landingPageCSS = `.container{width:100%;max-width:1180px;margin:0 auto;padding:0 1.5rem}:root{--cream:#faf6ef;--cream-2:#f2ebdd;--ink:#1a1511;--ink-soft:#3a312a;--muted:#6b5a4a;--line:#e6ddcd;--saffron:#c8573f;--saffron-dark:#a8432e;--saffron-tint:#f5e4de;--teal:#1e3a3a;--gold:#d4a574;--gold-tint:#f0dfc4;--font-display:"Fraunces","Iowan Old Style",Georgia,serif;--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--font-lao:"Noto Sans Lao","Lao UI",var(--font-display);--fs-display-xl:clamp(2.25rem,6vw,4.25rem);--fs-display-lg:clamp(1.75rem,4.5vw,3rem);--fs-h2:clamp(1.5rem,3.5vw,2.25rem);--fs-lede:clamp(1.0625rem,2vw,1.1875rem);--fs-body:1rem;--fs-small:0.875rem;--sp-1:0.25rem;--sp-2:0.5rem;--sp-3:0.75rem;--sp-4:1rem;--sp-6:1.5rem;--sp-8:2rem;--sp-12:3rem;--sp-16:4rem;--sp-24:6rem;--r-sm:8px;--r-md:14px;--r-lg:22px;--r-xl:32px;--r-phone:36px;--shadow-1:0 1px 2px rgba(26,21,17,0.04),0 1px 4px rgba(26,21,17,0.06);--shadow-2:0 6px 20px rgba(26,21,17,0.08),0 2px 8px rgba(26,21,17,0.05);--shadow-3:0 20px 60px rgba(26,21,17,0.16),0 8px 24px rgba(26,21,17,0.08)}*,*::before,*::after{box-sizing:border-box}html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:72px}body{margin:0;font-family:var(--font-body);font-size:var(--fs-body);line-height:1.6;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}img,svg,video{display:block;max-width:100%}h1,h2,h3,h4{margin:0;line-height:1.15;letter-spacing:-0.01em}p{margin:0}ul{margin:0;padding:0;list-style:none}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer;background:none;border:0;color:inherit}.skip-link{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--cream);padding:0.5rem 0.75rem;border-radius:0 0 8px 0;z-index:100}.skip-link:focus{left:0}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.display{font-family:var(--font-display);font-weight:500;letter-spacing:-0.02em}.display em{font-style:italic;font-weight:500}.ink{color:var(--saffron);font-style:italic}.eyebrow{font-family:var(--font-body);font-size:0.8125rem;text-transform:uppercase;letter-spacing:0.14em;color:var(--saffron);font-weight:600;margin-bottom:var(--sp-4)}.section-h{font-size:var(--fs-display-lg);max-width:22ch}.section-sub{font-size:var(--fs-lede);color:var(--muted);max-width:60ch;margin-top:var(--sp-4);line-height:1.55}.btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;padding:0.75rem 1.25rem;border-radius:999px;font-weight:600;font-size:0.9375rem;transition:transform .15s ease,background-color .15s ease,color .15s ease,box-shadow .15s ease;white-space:nowrap;border:1.5px solid transparent}.btn:active{transform:translateY(1px)}.btn-sm{padding:0.5rem 0.95rem;font-size:0.875rem}.btn-lg{padding:1rem 1.5rem;font-size:1rem}.btn-primary{background:var(--saffron);color:#fff;box-shadow:0 6px 16px rgba(200,87,63,0.28)}.btn-primary:hover{background:var(--saffron-dark)}.btn-ghost{color:var(--ink);border-color:var(--line);background:transparent}.btn-ghost:hover{border-color:var(--ink);background:rgba(26,21,17,0.03)}.site-header{position:sticky;top:0;z-index:40;background:rgba(250,246,239,0.8);backdrop-filter:saturate(140%) blur(12px);-webkit-backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid transparent;transition:border-color .2s ease,background-color .2s ease}.site-header.is-scrolled{border-bottom-color:var(--line);background:rgba(250,246,239,0.92)}.header-inner{display:flex;align-items:center;justify-content:space-between;padding-top:var(--sp-3);padding-bottom:var(--sp-3);gap:var(--sp-4)}.brand{display:inline-flex;align-items:center;gap:0.5rem;font-weight:700;font-size:1rem}.brand-mark{font-family:var(--font-lao);font-size:1.75rem;line-height:1;color:var(--saffron);font-weight:700;transform:translateY(-2px)}.nav{display:none;gap:var(--sp-6);font-weight:500;font-size:0.9375rem;color:var(--ink-soft)}.nav a:hover{color:var(--ink)}.nav-cta{display:none}@media(min-width:760px){.nav,.nav-cta{display:inline-flex}}.hero{position:relative;padding:var(--sp-16) 0 var(--sp-12);overflow:hidden}.hero::before{content:"";position:absolute;inset:-10% -10% auto auto;width:70%;height:70%;background:radial-gradient(closest-side,var(--gold-tint),transparent 70%);z-index:0;filter:blur(20px);opacity:0.7}.hero-grid{position:relative;z-index:1;display:grid;gap:var(--sp-12);align-items:center}.hero-copy h1.display{font-size:var(--fs-display-xl);line-height:1.02;margin-bottom:var(--sp-6)}.lede{font-size:var(--fs-lede);color:var(--ink-soft);max-width:54ch;line-height:1.55;margin-bottom:var(--sp-8)}.hero-ctas{display:flex;flex-wrap:wrap;gap:var(--sp-3);margin-bottom:var(--sp-8)}.hero-trust{display:flex;flex-wrap:wrap;gap:var(--sp-4) var(--sp-6);color:var(--muted);font-size:var(--fs-small)}.hero-trust li{position:relative;padding-left:1.25rem}.hero-trust li::before{content:"";position:absolute;left:0;top:0.45em;width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px var(--gold-tint)}.hero-visual{position:relative;display:flex;justify-content:center;align-items:center;min-height:420px}.hero-glow{position:absolute;inset:10% 10%;background:radial-gradient(closest-side,var(--saffron-tint),transparent 70%);filter:blur(40px);z-index:-1}@media(min-width:900px){.hero{padding:var(--sp-24) 0}.hero-grid{grid-template-columns:1.1fr 0.9fr;gap:var(--sp-16)}.hero-visual{min-height:560px}}.phone{position:relative;width:260px;aspect-ratio:9/19.5;border-radius:var(--r-phone);background:#111;padding:10px;box-shadow:var(--shadow-3);transform:rotate(-2deg)}.phone-hero{width:280px}.phone::before,.phone::after{content:"";position:absolute;left:50%;transform:translateX(-50%)}.phone::before{top:8px;width:40%;height:18px;background:#000;border-radius:999px}.phone-screen{width:100%;height:100%;border-radius:calc(var(--r-phone) - 10px);overflow:hidden;position:relative}.placeholder-tint{background:linear-gradient(135deg,var(--saffron-tint),var(--gold-tint) 55%,var(--cream-2)),var(--cream-2);display:flex;align-items:center;justify-content:center}.placeholder-tint::after{content:"ຂ";font-family:var(--font-lao);font-size:5rem;color:rgba(200,87,63,0.25);position:absolute;inset:auto 0 10% 0;text-align:center;pointer-events:none}.placeholder-label{position:relative;z-index:1;text-align:center;padding:1rem;color:var(--ink-soft);font-size:0.875rem;line-height:1.35}.placeholder-label strong{display:block;font-family:var(--font-display);font-size:1.25rem;font-weight:600;margin-bottom:0.25rem;color:var(--saffron-dark)}.why{padding:var(--sp-16) 0;border-top:1px solid var(--line)}.why .section-h{max-width:26ch}.features{padding:var(--sp-16) 0;background:var(--cream-2)}.feature-grid{display:grid;grid-template-columns:1fr;gap:var(--sp-6);margin-top:var(--sp-12)}@media(min-width:640px){.feature-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.feature-grid{grid-template-columns:repeat(3,1fr)}}.feature{background:#fff;padding:var(--sp-8);border-radius:var(--r-lg);border:1px solid var(--line);transition:transform .2s ease,box-shadow .2s ease}.feature:hover{transform:translateY(-2px);box-shadow:var(--shadow-2)}.feature-icon{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:14px;background:var(--saffron-tint);color:var(--saffron-dark);margin-bottom:var(--sp-4)}.feature h3{font-family:var(--font-display);font-size:1.35rem;font-weight:600;margin-bottom:var(--sp-2)}.feature p{color:var(--muted);line-height:1.55}.demo{padding:var(--sp-16) 0}.demo-card{position:relative;max-width:960px;margin:0 auto;border-radius:var(--r-xl);overflow:hidden;aspect-ratio:16/9;box-shadow:var(--shadow-3);background:var(--ink)}.demo-thumb{position:absolute;inset:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#fff;text-align:center;padding:var(--sp-4)}.demo-thumb-bg{position:absolute;inset:0;background:linear-gradient(135deg,rgba(200,87,63,0.65),rgba(30,58,58,0.8)),var(--cream-2)}.demo-play{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,0.95);color:var(--saffron);box-shadow:0 20px 40px rgba(0,0,0,0.3);transition:transform .2s ease}.demo-thumb:hover .demo-play{transform:scale(1.05)}.demo-caption{position:absolute;left:0;right:0;bottom:var(--sp-8);display:flex;flex-direction:column;gap:0.25rem;color:#fff;z-index:1}.demo-caption strong{font-family:var(--font-display);font-size:1.25rem;font-weight:600}.demo-caption span{color:rgba(255,255,255,0.8);font-size:0.95rem}.screenshots{padding:var(--sp-16) 0;background:radial-gradient(60% 40% at 50% 0%,var(--gold-tint),transparent 70%),var(--cream)}.shot-reel{margin-top:var(--sp-12);display:flex;gap:var(--sp-6);overflow-x:auto;scroll-snap-type:x mandatory;padding:var(--sp-4) var(--sp-6) var(--sp-12);margin-left:calc(var(--sp-6) * -1);margin-right:calc(var(--sp-6) * -1);scrollbar-width:none}.shot-reel::-webkit-scrollbar{display:none}.shot{flex:0 0 auto;width:240px;margin:0;scroll-snap-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--sp-4)}.shot .phone{transform:rotate(0);width:240px}.shot figcaption{color:var(--muted);font-size:0.9375rem;text-align:center;max-width:22ch}@media(min-width:1100px){.shot-reel{justify-content:center;overflow-x:visible;padding-bottom:var(--sp-4)}}.social-proof{padding:var(--sp-16) 0;background:var(--cream-2)}.quote-grid{display:grid;gap:var(--sp-6);grid-template-columns:1fr}@media(min-width:800px){.quote-grid{grid-template-columns:1fr 1fr}}.quote{margin:0;background:#fff;padding:var(--sp-8);border-radius:var(--r-lg);border:1px solid var(--line);position:relative}.quote::before{content:"\\201C";position:absolute;top:-0.25rem;left:1rem;font-family:var(--font-display);font-size:4rem;color:var(--gold);line-height:1}.quote p{font-family:var(--font-display);font-size:1.125rem;font-weight:500;line-height:1.5;color:var(--ink-soft);margin-bottom:var(--sp-4)}.quote cite{font-style:normal;color:var(--muted);font-size:var(--fs-small)}.ratings{display:flex;flex-wrap:wrap;gap:var(--sp-6);justify-content:center;margin-top:var(--sp-12);color:var(--muted)}.stars{color:var(--gold);letter-spacing:2px}.rating-label em{font-style:normal;color:var(--saffron);font-weight:600}.pricing{padding:var(--sp-16) 0}.pricing-card{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:var(--r-xl);padding:var(--sp-12) var(--sp-8);box-shadow:var(--shadow-1);text-align:center}.pricing-card h2{font-size:var(--fs-h2);margin-bottom:var(--sp-8)}.price-rows{display:flex;flex-direction:column;gap:var(--sp-6);margin-bottom:var(--sp-8)}.price-row{display:flex;flex-direction:column;gap:var(--sp-2);padding:var(--sp-6);border:1px solid var(--line);border-radius:var(--r-md);text-align:left;background:var(--cream)}@media(min-width:640px){.price-row{flex-direction:row;justify-content:space-between;align-items:center;gap:var(--sp-6)}}.price-row h3{font-family:var(--font-display);font-size:1.2rem;font-weight:600;margin-bottom:0.25rem}.price-row p{color:var(--muted);font-size:var(--fs-small)}.price{font-family:var(--font-display);font-size:1.75rem;font-weight:600;color:var(--saffron);white-space:nowrap}.price strong{font-weight:700}.price span{display:block;font-family:var(--font-body);font-size:0.8125rem;color:var(--muted);font-weight:400;margin-top:0.1rem}.fine-print{color:var(--muted);font-size:var(--fs-small);max-width:56ch;margin:0 auto;line-height:1.55}.download{padding:var(--sp-16) 0;background:var(--teal);color:#fff}.download .section-h{color:#fff}.download .section-sub{color:rgba(255,255,255,0.75)}.download-grid{margin-top:var(--sp-12);display:grid;grid-template-columns:1fr;gap:var(--sp-3)}@media(min-width:560px){.download-grid{grid-template-columns:1fr 1fr}}@media(min-width:960px){.download-grid{grid-template-columns:repeat(5,1fr);gap:var(--sp-4)}}.dl-btn{display:flex;align-items:center;gap:0.75rem;padding:0.9rem 1.1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:var(--r-md);color:#fff;transition:background-color .15s ease,transform .15s ease,border-color .15s ease}.dl-btn:hover{background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.3);transform:translateY(-1px)}.dl-btn svg{flex-shrink:0}.dl-text{display:flex;flex-direction:column;line-height:1.2;text-align:left}.dl-text small{font-size:0.6875rem;opacity:0.75;text-transform:uppercase;letter-spacing:0.08em}.dl-text strong{font-size:1rem;font-weight:600}.install-note{margin-top:var(--sp-8);color:rgba(255,255,255,0.6);font-size:var(--fs-small);text-align:center;max-width:52ch;margin-left:auto;margin-right:auto}.faq{padding:var(--sp-16) 0}.faq .section-h{margin-bottom:var(--sp-12)}.faq details{border-bottom:1px solid var(--line);padding:var(--sp-4) 0}.faq details[open] summary{color:var(--saffron)}.faq summary{list-style:none;cursor:pointer;font-family:var(--font-display);font-size:1.125rem;font-weight:600;padding:var(--sp-2) 0;display:flex;justify-content:space-between;align-items:center;gap:var(--sp-4);transition:color .15s ease}.faq summary::-webkit-details-marker{display:none}.faq summary::after{content:"+";font-size:1.5rem;font-weight:300;color:var(--saffron);transition:transform .2s ease}.faq details[open] summary::after{transform:rotate(45deg)}.faq details p{color:var(--muted);line-height:1.65;padding:var(--sp-2) 0 var(--sp-4);max-width:66ch}.final-cta{padding:var(--sp-24) 0;background:radial-gradient(80% 60% at 50% 0%,var(--saffron-tint),transparent 70%),var(--cream);text-align:center}.final-cta h2{font-size:var(--fs-display-lg);margin-bottom:var(--sp-4)}.final-cta p{color:var(--muted);font-size:var(--fs-lede);max-width:48ch;margin:0 auto var(--sp-8)}.site-footer{background:var(--ink);color:rgba(255,255,255,0.75);padding:var(--sp-16) 0 var(--sp-8)}.footer-inner{display:flex;flex-direction:column;gap:var(--sp-6);margin-bottom:var(--sp-8)}@media(min-width:760px){.footer-inner{flex-direction:row;justify-content:space-between;align-items:flex-start}}.site-footer .brand{color:#fff}.site-footer .brand-mark{color:var(--gold)}.footer-tag{color:rgba(255,255,255,0.6);font-size:var(--fs-small);margin-top:var(--sp-2)}.footer-nav{display:flex;flex-wrap:wrap;gap:var(--sp-4) var(--sp-6);font-size:var(--fs-small)}.footer-nav a:hover{color:#fff}.footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding-top:var(--sp-6);color:rgba(255,255,255,0.4);font-size:0.8125rem}.video-modal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:var(--sp-4)}.video-modal[hidden]{display:none}.video-modal-backdrop{position:absolute;inset:0;background:rgba(26,21,17,0.85);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);animation:fade-in .2s ease forwards}.video-modal-panel{position:relative;width:100%;max-width:1000px;border-radius:var(--r-lg);background:#000;box-shadow:var(--shadow-3);overflow:hidden;animation:lift-in .25s ease forwards}.video-close{position:absolute;top:0.75rem;right:0.75rem;z-index:2;width:40px;height:40px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.7);color:#fff;border:1px solid rgba(255,255,255,0.2)}.video-close:hover{background:rgba(0,0,0,0.9)}.video-embed{aspect-ratio:16/9;width:100%}.video-embed iframe{width:100%;height:100%;border:0}@keyframes fade-in{from{opacity:0}to{opacity:1}}@keyframes lift-in{from{opacity:0;transform:translateY(10px) scale(0.98)}to{opacity:1;transform:translateY(0) scale(1)}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}}`;
 
 // JS embedded as string for worker
-export const landingPageJS = `const YOUTUBE_ID = "REPLACE_WITH_YOUTUBE_VIDEO_ID";
+export const landingPageJS = `const YOUTUBE_ID = "M_bXTZhfl3I";
 (function headerShadow() {
   const header = document.getElementById("site-header");
   if (!header) return;
@@ -24,7 +24,8 @@ export const landingPageJS = `const YOUTUBE_ID = "REPLACE_WITH_YOUTUBE_VIDEO_ID"
   let lastFocused = null;
   function open() {
     lastFocused = document.activeElement;
-    const src = \`https://www.youtube-nocookie.com/embed/\${YOUTUBE_ID}?autoplay=1&rel=0&modestbranding=1\`;
+    // Use regular youtube.com for shorts
+    const src = \`https://www.youtube.com/embed/\${YOUTUBE_ID}?autoplay=1&rel=0&modestbranding=1\`;
     embed.innerHTML = \`<iframe src="\${src}" title="Write Lao demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>\`;
     modal.hidden = false;
     document.documentElement.style.overflow = "hidden";
@@ -64,7 +65,7 @@ export const landingPageHTML = `<!DOCTYPE html>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Lao:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -103,10 +104,10 @@ export const landingPageHTML = `<!DOCTYPE html>
             <a href="#download" class="btn btn-primary btn-lg">
               Download — it's free
             </a>
-            <button type="button" class="btn btn-ghost btn-lg" data-open-video>
+            <a href="https://www.youtube.com/shorts/M_bXTZhfl3I" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg">
               <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
               Watch the 2-min demo
-            </button>
+            </a>
           </div>
           <ul class="hero-trust">
             <li>Free alphabet course</li>
@@ -117,11 +118,8 @@ export const landingPageHTML = `<!DOCTYPE html>
 
         <div class="hero-visual" aria-hidden="true">
           <div class="phone phone-hero">
-            <div class="phone-screen placeholder-tint">
-              <div class="placeholder-label">
-                <strong>Hero screenshot</strong>
-                <span>Writing canvas · &#3585; stroke 2 of 3</span>
-              </div>
+            <div class="phone-screen">
+              <img src="/assets/hero-screenshot.png" alt="Write Lao writing canvas" style="width:100%;height:100%;object-fit:cover;border-radius:calc(var(--r-phone) - 10px);" />
             </div>
           </div>
           <div class="hero-glow"></div>
@@ -203,13 +201,13 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="demo" id="demo">
       <div class="container">
-        <div class="demo-card">
-          <button type="button" class="demo-thumb" data-open-video aria-label="Play the Write Lao demo video">
-            <div class="demo-thumb-bg"></div>
-            <span class="demo-play" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+        <div class="demo-card" style="aspect-ratio: 9/16; max-height: 500px;">
+          <button type="button" class="demo-thumb" data-open-video aria-label="Play the Write Lao demo video" style="background: #000;">
+            <img src="/assets/thumbnail.png" alt="Video thumbnail" style="width:100%;height:100%;object-fit:cover;" />
+            <span class="demo-play" aria-hidden="true" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1;">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor" style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.5));"><path d="M8 5v14l11-7z"/></svg>
             </span>
-            <span class="demo-caption">
+            <span class="demo-caption" style="bottom: 1.5rem;">
               <strong>See it in 2 minutes</strong>
               <span>From your first stroke to your first 10 words.</span>
             </span>
@@ -229,8 +227,8 @@ export const landingPageHTML = `<!DOCTYPE html>
         <div class="shot-reel" role="list">
           <figure class="shot" role="listitem">
             <div class="phone">
-              <div class="phone-screen placeholder-tint">
-                <div class="placeholder-label"><strong>1</strong><span>Alphabet lessons</span></div>
+              <div class="phone-screen">
+                <img src="/assets/shot-01.png" alt="Alphabet lessons" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
             <figcaption>Structured path through all 58 characters.</figcaption>
@@ -238,8 +236,8 @@ export const landingPageHTML = `<!DOCTYPE html>
 
           <figure class="shot" role="listitem">
             <div class="phone">
-              <div class="phone-screen placeholder-tint">
-                <div class="placeholder-label"><strong>2</strong><span>Writing canvas</span></div>
+              <div class="phone-screen">
+                <img src="/assets/shot-02.png" alt="Video lesson" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
             <figcaption>Live stroke guidance with forgiving scoring.</figcaption>
@@ -247,8 +245,8 @@ export const landingPageHTML = `<!DOCTYPE html>
 
           <figure class="shot" role="listitem">
             <div class="phone">
-              <div class="phone-screen placeholder-tint">
-                <div class="placeholder-label"><strong>3</strong><span>Vocabulary intro</span></div>
+              <div class="phone-screen">
+                <img src="/assets/shot-03.png" alt="Writing canvas" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
             <figcaption>New word, native audio, example sentence, picture.</figcaption>
@@ -256,20 +254,11 @@ export const landingPageHTML = `<!DOCTYPE html>
 
           <figure class="shot" role="listitem">
             <div class="phone">
-              <div class="phone-screen placeholder-tint">
-                <div class="placeholder-label"><strong>4</strong><span>Spaced review</span></div>
+              <div class="phone-screen">
+                <img src="/assets/shot-04.png" alt="Spaced review" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
             <figcaption>Only the words you're about to forget, surfaced daily.</figcaption>
-          </figure>
-
-          <figure class="shot" role="listitem">
-            <div class="phone">
-              <div class="phone-screen placeholder-tint">
-                <div class="placeholder-label"><strong>5</strong><span>Progress tracker</span></div>
-              </div>
-            </div>
-            <figcaption>Watch your mastered-words count climb toward 500.</figcaption>
           </figure>
         </div>
       </div>
