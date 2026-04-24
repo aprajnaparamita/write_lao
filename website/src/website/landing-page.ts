@@ -95,24 +95,24 @@ export const landingPageHTML = `<!DOCTYPE html>
             Master Lao,<br />
             <span class="ink">one stroke</span> at a time.
           </h1>
-          <p class="lede">
+          <p class="lede" data-i18n="hero.lede">
             Guided stroke-by-stroke practice for all 58 Lao characters —
             plus 500 essential words with native audio and spaced repetition.
             Built for daily progress, on every device you own.
           </p>
           <div class="hero-ctas">
-            <a href="#download" class="btn btn-primary btn-lg">
+            <a href="#download" class="btn btn-primary btn-lg" data-i18n="hero.download">
               Download — it's free
             </a>
-            <a href="https://www.youtube.com/shorts/M_bXTZhfl3I" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg">
+            <a href="https://www.youtube.com/shorts/M_bXTZhfl3I" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg" data-i18n="hero.watch">
               <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
               Watch the 2-min demo
             </a>
           </div>
           <ul class="hero-trust">
-            <li>Free alphabet course</li>
-            <li>One-time unlock, no subscription</li>
-            <li>Works offline · No account</li>
+            <li data-i18n="hero.trust1">Free alphabet course</li>
+            <li data-i18n="hero.trust2">One-time unlock, no subscription</li>
+            <li data-i18n="hero.trust3">Works offline · No account</li>
           </ul>
         </div>
 
@@ -129,11 +129,11 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="why">
       <div class="container">
-        <h2 class="section-h display">
+        <h2 class="section-h display" data-i18n="why.title">
           Most apps teach you to <em>recognize</em> Lao.<br />
           We teach your <span class="ink">hand to write it.</span>
         </h2>
-        <p class="section-sub">
+        <p class="section-sub" data-i18n="why.subtitle">
           Reading a script is one thing. Writing it builds the muscle memory
           that makes a new language stick — and Lao script is written one
           stroke at a time, in a specific order, for a reason. Write Lao
@@ -145,55 +145,55 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="features" id="features">
       <div class="container">
-        <h2 class="section-h display">Everything you need, nothing you don't.</h2>
+        <h2 class="section-h display" data-i18n="features.title">Everything you need, nothing you don't.</h2>
 
         <div class="feature-grid">
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 3-1 13-13-2-2L4 18l-1 3z"/><path d="m14 6 4 4"/></svg>
             </div>
-            <h3>Stroke-by-stroke guidance</h3>
-            <p>Every character broken into ordered strokes with live direction hints. Draw it right, earn your stars, move on.</p>
+            <h3 data-i18n="features.stroke.title">Stroke-by-stroke guidance</h3>
+            <p data-i18n="features.stroke.desc">Every character broken into ordered strokes with live direction hints. Draw it right, earn your stars, move on.</p>
           </article>
 
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
             </div>
-            <h3>500 essential words</h3>
-            <p>The vocabulary that actually appears in everyday Lao conversation. Curated, categorized, and taught in the order that makes them stick.</p>
+            <h3 data-i18n="features.vocab.title">500 essential words</h3>
+            <p data-i18n="features.vocab.desc">The vocabulary that actually appears in everyday Lao conversation. Curated, categorized, and taught in the order that makes them stick.</p>
           </article>
 
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
-            <h3>Spaced repetition</h3>
-            <p>Reviews surface the moment you're about to forget. Twenty minutes a day is enough to lock a word in for life.</p>
+            <h3 data-i18n="features.spaced.title">Spaced repetition</h3>
+            <p data-i18n="features.spaced.desc">Reviews surface the moment you're about to forget. Twenty minutes a day is enough to lock a word in for life.</p>
           </article>
 
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg>
             </div>
-            <h3>Native audio</h3>
-            <p>Every word and example sentence voiced by a native speaker. Hear the tones — don't just read about them.</p>
+            <h3 data-i18n="features.audio.title">Native audio</h3>
+            <p data-i18n="features.audio.desc">Every word and example sentence voiced by a native speaker. Hear the tones — don't just read about them.</p>
           </article>
 
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="14" height="16" rx="2"/><rect x="14" y="9" width="7" height="11" rx="1.5"/><line x1="10" y1="17" x2="10" y2="17.01"/></svg>
             </div>
-            <h3>Works everywhere</h3>
-            <p>iPhone, Android, Mac, Windows, Linux. Learn on the couch, review on the train, practice at your desk.</p>
+            <h3 data-i18n="features.offline.title">Works everywhere</h3>
+            <p data-i18n="features.offline.desc">iPhone, Android, Mac, Windows, Linux. Learn on the couch, review on the train, practice at your desk.</p>
           </article>
 
           <article class="feature">
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
             </div>
-            <h3>No account. No cloud. No ads.</h3>
-            <p>Everything runs on your device. Your progress never leaves. One tiny purchase, forever.</p>
+            <h3 data-i18n="features.privacy.title">No account. No cloud. No ads.</h3>
+            <p data-i18n="features.privacy.desc">Everything runs on your device. Your progress never leaves. One tiny purchase, forever.</p>
           </article>
         </div>
       </div>
@@ -208,8 +208,8 @@ export const landingPageHTML = `<!DOCTYPE html>
               <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor" style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.5));"><path d="M8 5v14l11-7z"/></svg>
             </span>
             <span class="demo-caption" style="bottom: 1.5rem;">
-              <strong>See it in 2 minutes</strong>
-              <span>From your first stroke to your first 10 words.</span>
+              <strong data-i18n="demo.caption1">See it in 2 minutes</strong>
+              <span data-i18n="demo.caption2">From your first stroke to your first 10 words.</span>
             </span>
           </button>
         </div>
@@ -218,8 +218,8 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="screenshots" id="screenshots">
       <div class="container">
-        <h2 class="section-h display">A gentler way to practice.</h2>
-        <p class="section-sub">
+        <h2 class="section-h display" data-i18n="screenshots.title">A gentler way to practice.</h2>
+        <p class="section-sub" data-i18n="screenshots.subtitle">
           Calm, focused screens designed for daily ten-minute sessions.
           No streak guilt. No confetti explosions. Just the next stroke.
         </p>
@@ -231,7 +231,7 @@ export const landingPageHTML = `<!DOCTYPE html>
                 <img src="/assets/shot-01.png" alt="Alphabet lessons" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
-            <figcaption>Structured path through all 58 characters.</figcaption>
+            <figcaption data-i18n="screenshots.fig1">Structured path through all 58 characters.</figcaption>
           </figure>
 
           <figure class="shot" role="listitem">
@@ -359,50 +359,50 @@ export const landingPageHTML = `<!DOCTYPE html>
 
     <section class="faq" id="faq">
       <div class="container">
-        <h2 class="section-h display">Questions people ask.</h2>
+        <h2 class="section-h display" data-i18n="faq.title">Questions people ask.</h2>
 
         <details>
-          <summary>Do I need to know any Lao already?</summary>
-          <p>No. The alphabet course starts from zero — every character, every sound, every stroke. The 500-word course builds on the alphabet, so there's no prerequisite beyond finishing (or previewing) the first lessons.</p>
+          <summary data-i18n="faq.q1.title">Do I need to know any Lao already?</summary>
+          <p data-i18n="faq.q1.answer">No. The alphabet course starts from zero — every character, every sound, every stroke. The 500-word course builds on the alphabet, so there's no prerequisite beyond finishing (or previewing) the first lessons.</p>
         </details>
 
         <details>
-          <summary>Does it work offline?</summary>
-          <p>Yes, fully. Once the app is installed, everything — lessons, audio, your progress — runs on your device. No internet needed after download. No account to create.</p>
+          <summary data-i18n="faq.q2.title">Does it work offline?</summary>
+          <p data-i18n="faq.q2.answer">Yes, fully. Once the app is installed, everything — lessons, audio, your progress — runs on your device. No internet needed after download. No account to create.</p>
         </details>
 
         <details>
-          <summary>Will my progress sync between devices?</summary>
-          <p>By design, no. Your learning data never leaves your device. We treat this as a privacy feature, not a limitation: there's no account to get hacked, no server to outlive us. The IAP entitlement does follow your app store account, so purchasing once on iPhone unlocks iPad automatically.</p>
+          <summary data-i18n="faq.q3.title">Will my progress sync between devices?</summary>
+          <p data-i18n="faq.q3.answer">By design, no. Your learning data never leaves your device. We treat this as a privacy feature, not a limitation: there's no account to get hacked, no server to outlive us. The IAP entitlement does follow your app store account, so purchasing once on iPhone unlocks iPad automatically.</p>
         </details>
 
         <details>
-          <summary>Is the audio actually from a native speaker?</summary>
-          <p>Yes. Every headword and example sentence in the 500-word course is recorded by a native Lao speaker. You'll hear the real tones, not synthesized approximations.</p>
+          <summary data-i18n="faq.q4.title">Is the audio actually from a native speaker?</summary>
+          <p data-i18n="faq.q4.answer">Yes. Every headword and example sentence in the 500-word course is recorded by a native Lao speaker. You'll hear the real tones, not synthesized approximations.</p>
         </details>
 
         <details>
-          <summary>How long until I see real progress?</summary>
-          <p>Ten minutes a day for two weeks is enough to write most of the alphabet from memory. The 500-word course is paced for daily sessions — you'll add 3 to 5 new words a day and review older ones via spaced repetition. Most learners hit 100 mastered words in a month.</p>
+          <summary data-i18n="faq.q5.title">How long until I see real progress?</summary>
+          <p data-i18n="faq.q5.answer">Ten minutes a day for two weeks is enough to write most of the alphabet from memory. The 500-word course is paced for daily sessions — you'll add 3 to 5 new words a day and review older ones via spaced repetition. Most learners hit 100 mastered words in a month.</p>
         </details>
 
         <details>
-          <summary>Why is the 500-word course a paid upgrade?</summary>
-          <p>Because curating, recording, and tagging 500 words (plus 1,000+ example sentences with audio) is real work. The alphabet course is free forever so you can see the teaching style before spending anything. If it's not for you, you've lost nothing.</p>
+          <summary data-i18n="faq.q6.title">Why is the 500-word course a paid upgrade?</summary>
+          <p data-i18n="faq.q6.answer">Because curating, recording, and tagging 500 words (plus 1,000+ example sentences with audio) is real work. The alphabet course is free forever so you can see the teaching style before spending anything. If it's not for you, you've lost nothing.</p>
         </details>
 
         <details>
-          <summary>Can I get a refund?</summary>
-          <p>Refunds go through your app store (Apple, Google) per their normal policy. On desktop, contact us and we'll sort it out.</p>
+          <summary data-i18n="faq.q7.title">Can I get a refund?</summary>
+          <p data-i18n="faq.q7.answer">Refunds go through your app store (Apple, Google) per their normal policy. On desktop, contact us and we'll sort it out.</p>
         </details>
       </div>
     </section>
 
     <section class="final-cta">
       <div class="container">
-        <h2 class="display">Start with your first stroke.</h2>
-        <p>The alphabet course is free. The first vocabulary lesson is free. See for yourself.</p>
-        <a href="#download" class="btn btn-primary btn-lg">Download Write Lao</a>
+        <h2 class="display" data-i18n="cta.title">Start with your first stroke.</h2>
+        <p data-i18n="cta.subtitle">The alphabet course is free. The first vocabulary lesson is free. See for yourself.</p>
+        <a href="#download" class="btn btn-primary btn-lg" data-i18n="cta.button">Download Write Lao</a>
       </div>
     </section>
   </main>
@@ -414,19 +414,19 @@ export const landingPageHTML = `<!DOCTYPE html>
           <span class="brand-mark" aria-hidden="true">&#3585;</span>
           <span class="brand-name">Write Lao</span>
         </a>
-        <p class="footer-tag">A handwriting-first Lao course.</p>
+        <p class="footer-tag" data-i18n="footer.tagline">A handwriting-first Lao course.</p>
       </div>
       <nav class="footer-nav" aria-label="Footer">
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
         <a href="mailto:help@dharmaprotectors.org">Contact</a>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
       </nav>
     </div>
     <div class="container footer-bottom">
-      <small>© <span id="year">2026</span> Write Lao. Made with care for learners of Lao.</small>
+      <small data-i18n="footer.copyright">© <span id="year">2026</span> Write Lao. Made with care for learners of Lao.</small>
     </div>
   </footer>
 
@@ -444,3 +444,109 @@ export const landingPageHTML = `<!DOCTYPE html>
   <script src="/script.js" defer></script>
 </body>
 </html>`;
+
+// i18n script - loads translations lazily based on browser locale
+export const i18nScript = `
+/**
+ * i18n Script for Write Lao Landing Page
+ * 
+ * This script detects the browser locale and loads translations only if needed.
+ * The page defaults to English, and translations are applied lazily.
+ */
+
+// Supported locales
+const SUPPORTED_LOCALES = ['lo', 'zh', 'th', 'vi', 'ja', 'ko', 'fr', 'de', 'es', 'ru', 'id', 'ms'];
+
+// Get the best matching locale from browser
+function getBrowserLocale() {
+  if (typeof navigator === 'undefined') return null;
+  
+  const languages = navigator.languages || [navigator.language || ''];
+  
+  for (const lang of languages) {
+    const normalized = lang.toLowerCase().split('-')[0].trim();
+    
+    // Check exact match
+    if (SUPPORTED_LOCALES.includes(normalized)) {
+      return normalized;
+    }
+    
+    // Check partial match (e.g., 'zh-cn' -> 'zh')
+    for (const supported of SUPPORTED_LOCALES) {
+      if (normalized.startsWith(supported) || supported.startsWith(normalized)) {
+        return supported;
+      }
+    }
+  }
+  return null;
+}
+
+// Apply translations to the page
+function applyTranslations(trans) {
+  const elements = document.querySelectorAll('[data-i18n]');
+  elements.forEach((el) => {
+    const key = el.getAttribute('data-i18n');
+    if (key && trans[key]) {
+      el.textContent = trans[key];
+    }
+  });
+  
+  // Also handle placeholders
+  const placeholders = document.querySelectorAll('[data-i18n-placeholder]');
+  placeholders.forEach((el) => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (key && trans[key] && el instanceof HTMLInputElement) {
+      el.placeholder = trans[key];
+    }
+  });
+}
+
+// Initialize i18n
+async function initI18n() {
+  const locale = getBrowserLocale();
+  
+  // Only load translations if non-English locale detected
+  if (locale) {
+    try {
+      const response = await fetch('/i18n/' + locale + '.json');
+      if (response.ok) {
+        const translations = await response.json();
+        applyTranslations(translations);
+        
+        // Add RTL support for certain languages if needed
+        if (locale === 'ar' || locale === 'he') {
+          document.documentElement.dir = 'rtl';
+        }
+      }
+    } catch (error) {
+      console.warn('Failed to load translations for locale: ' + locale, error);
+    }
+  }
+}
+
+// Start initialization when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initI18n);
+} else {
+  initI18n();
+}
+
+// Export for manual triggering if needed
+window.writeLaoI18n = {
+  getLocale: getBrowserLocale,
+  loadLocale: async function(locale) {
+    try {
+      const response = await fetch('/i18n/' + locale + '.json');
+      if (response.ok) {
+        const translations = await response.json();
+        applyTranslations(translations);
+        return true;
+      }
+    } catch (error) {
+      console.warn('Failed to load locale: ' + locale, error);
+    }
+    return false;
+  },
+  getTranslations: function() { return window._writelao_translations || {}; }
+};
+`;

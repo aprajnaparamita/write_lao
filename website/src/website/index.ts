@@ -11,7 +11,7 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 import { logger } from 'hono/logger';
-import { landingPageHTML, landingPageCSS, landingPageJS } from './landing-page';
+import { landingPageHTML, landingPageCSS, landingPageJS, i18nScript } from './landing-page';
 import { heroScreenshotBase64 } from './hero-image';
 import { thumbnailBase64 } from './thumbnail-image';
 import { heroScreenshotBase64 as shot1Base64 } from './hero-image';
@@ -19,6 +19,7 @@ import { shot2Base64 } from './shot2-image';
 import { shot3Base64 } from './shot3-image';
 import { shot4Base64 } from './shot4-image';
 import { faviconBase64 } from './favicon-image';
+import { translations } from './translations';
 import { createAdminRouter } from '../admin/router';
 
 type Env = {
@@ -137,10 +138,24 @@ app.get('/styles.css', (c) => {
 });
 
 app.get('/script.js', (c) => {
-  return c.body(landingPageJS, 200, {
+  // Combine main JS with i18n script
+  return c.body(landingPageJS + '\n' + i18nScript, 200, {
     'Content-Type': 'application/javascript; charset=utf-8',
     'Cache-Control': 'public, max-age=86400, immutable',
   });
+});
+
+// i18n translation endpoint - serves JSON for specific locale
+app.get('/i18n/:locale{.+\.json$}', (c) => {
+  const locale = c.req.param('locale')?.replace('.json', '') || '';
+  const localeTranslations = translations[locale];
+  
+  if (localeTranslations) {
+    return c.json(localeTranslations, 200, {
+      'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
+    });
+  }
+  return c.json({ error: 'Locale not found' }, 404);
 });
 
 // Admin routes (protected)
