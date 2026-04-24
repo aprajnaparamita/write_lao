@@ -11,19 +11,20 @@ compatibility_flags = ["nodejs_compat"]
 main = "src/website/index.ts"
 
 # KV namespace for site assets cache (set actual ID via `wrangler kv:namespace create ASSETS`)
-kv_namespaces = [
-  { binding = "ASSETS", id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", preview_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
-]
+[[kv_namespaces]]
+binding = "ASSETS"
+id = "4c195954c45b497ba7d801f553b4ec76"
 
 # D1 database for teacher accounts and course content (create via `wrangler d1 create writelao-db`)
-d1_databases = [
-  { binding = "DB", database_name = "writelao-db", database_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
-]
+[[d1_databases]]
+binding = "DB"
+database_name = "writelao-db"
+database_id = "fbf83e3b-4727-4dde-be41-c0176c0b9673"
 
 # R2 bucket for course data (audio files, images, examples) (create via `wrangler r2 bucket create writelao-course-data`)
-r2_buckets = [
-  { binding = "COURSE_DATA", bucket_name = "writelao-course-data" }
-]
+[[r2_buckets]]
+binding = "COURSE_DATA"
+bucket_name = "writelao-course-data"
 
 [vars]
 ENVIRONMENT = "production"
