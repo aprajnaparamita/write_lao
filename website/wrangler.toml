@@ -1,0 +1,35 @@
+# Write Lao — Cloudflare Workers Configuration
+#
+# Deployment:
+#   wrangler deploy
+
+name = "writelao-website"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Main landing page (public)
+main = "src/website/index.ts"
+
+# KV namespace for site assets cache (set actual ID via `wrangler kv:namespace create ASSETS`)
+kv_namespaces = [
+  { binding = "ASSETS", id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", preview_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
+]
+
+# D1 database for teacher accounts and course content (create via `wrangler d1 create writelao-db`)
+d1_databases = [
+  { binding = "DB", database_name = "writelao-db", database_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
+]
+
+# R2 bucket for course data (audio files, images, examples) (create via `wrangler r2 bucket create writelao-course-data`)
+r2_buckets = [
+  { binding = "COURSE_DATA", bucket_name = "writelao-course-data" }
+]
+
+[vars]
+ENVIRONMENT = "production"
+
+# Secrets to set via `wrangler secret put`:
+# - TEACHER_JWT_SECRET: Secret key for signing teacher session tokens
+# - ADMIN_EMAIL: Email address for teacher verification
+# - GOOGLE_CLIENT_ID: OAuth client ID for Google sign-in
+# - GOOGLE_CLIENT_SECRET: OAuth client secret
