@@ -16,11 +16,15 @@ class LessonDetailScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // ignore: avoid_print
+    print('[LessonDetailScreen] Building for lessonId=$lessonId');
     final l10n = AppLocalizations.of(context);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
 
     final lesson = charRepo.getLesson(lessonId);
+    // ignore: avoid_print
+    print('[LessonDetailScreen] Found lesson: $lesson');
     if (lesson == null) {
       return Scaffold(
         appBar: AppBar(title: Text(l10n.lessonLabel)),

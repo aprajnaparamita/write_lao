@@ -16,6 +16,7 @@ class WordCardKeys {
   static const characterTypeHint = ValueKey('vocab.charCard.typeHint');
   static const showHintButton = ValueKey('vocab.charCard.showHint');
   static const abortButton = ValueKey('vocab.charCard.abort');
+  static const characterAudioButton = ValueKey('vocab.charCard.audio');
   static const wordPreview = ValueKey('vocab.charCard.preview');
   static const strokeCanvas = ValueKey('vocab.charCard.canvas');
 

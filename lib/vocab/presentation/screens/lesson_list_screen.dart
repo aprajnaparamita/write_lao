@@ -26,18 +26,28 @@ class LessonListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // ignore: avoid_print
+    print('[VocabLessonListScreen] build() called for unitId=$unitId');
     final courseAsync = ref.watch(courseRepositoryProvider);
     return Scaffold(
       appBar: AppBar(title: const Text('Lessons')),
       body: courseAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),
-        error: (e, _) => Center(child: Text('Failed to load: $e')),
-        data: (course) => _LessonListBody(
-          course: course,
-          unitId: unitId,
-          onOpenLesson: onOpenLesson,
-          onUpsell: onUpsell,
-        ),
+        error: (e, _) {
+          // ignore: avoid_print
+          print('[VocabLessonListScreen] error: $e');
+          return Center(child: Text('Failed to load: $e'));
+        },
+        data: (course) {
+          // ignore: avoid_print
+          print('[VocabLessonListScreen] data loaded, unitId=$unitId');
+          return _LessonListBody(
+            course: course,
+            unitId: unitId,
+            onOpenLesson: onOpenLesson,
+            onUpsell: onUpsell,
+          );
+        },
       ),
     );
   }
@@ -120,11 +130,14 @@ class _LessonRow extends StatelessWidget {
     final preview = words.map((w) => w.laoWord).join(' · ');
 
     Widget? trailing;
-    if (!unlocked) {
+    if (!unlocked && !inPreview) {
       trailing = Icon(
         Icons.lock_outline,
         key: WordCardKeys.lessonLockBadge(lesson.lessonId),
       );
+    } else if (inPreview) {
+      // Preview lesson - show play icon to indicate it's free to try
+      trailing = const Icon(Icons.play_circle_outline, color: Colors.blue);
     } else if (complete) {
       trailing = const Icon(Icons.check_circle, color: Colors.green);
     } else if (isCurrent) {
@@ -139,6 +152,8 @@ class _LessonRow extends StatelessWidget {
       subtitle: Text(preview.isEmpty ? '—' : preview),
       trailing: trailing,
       onTap: () {
+        // ignore: avoid_print
+        print('[LessonRow] onTap: lessonId=${lesson.lessonId} tappable=$tappable');
         if (tappable) {
           onOpen?.call(lesson.lessonId);
           return;

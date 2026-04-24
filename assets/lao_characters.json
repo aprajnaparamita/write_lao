@@ -621,6 +621,39 @@
       "phase": 2,
       "order": 15,
       "notes": "Vowel + nasal combination"
+    },
+    {
+      "char": "◌ະ",
+      "codepoint": "U+0EB0",
+      "vowelIPA": "/a/",
+      "vowelName": "ສະຫຼະ ອະ",
+      "vowelNameRomanized": "sara a",
+      "vowelLength": "short",
+      "position": "after",
+      "phase": 2,
+      "order": 16
+    },
+    {
+      "char": "◌ັ",
+      "codepoint": "U+0EB1",
+      "vowelIPA": "/a/",
+      "vowelName": "ໄມ້ກັນ",
+      "vowelNameRomanized": "mai kan",
+      "vowelLength": "short",
+      "position": "above",
+      "phase": 2,
+      "order": 17
+    },
+    {
+      "char": "◌ຽ",
+      "codepoint": "U+0EBD",
+      "vowelIPA": "/iə/",
+      "vowelName": "ສະຫຼະ ອຽ",
+      "vowelNameRomanized": "sara ia",
+      "vowelLength": "diphthong",
+      "position": "after",
+      "phase": 2,
+      "order": 18
     }
   ],
   "toneMarks": [
@@ -667,19 +700,110 @@
       "phase": 3,
       "order": 4,
       "notes": "Used mainly for loanwords"
+    },
+    {
+      "char": "◌ໍ",
+      "codepoint": "U+0ECD",
+      "toneName": "ນິກຄຫິຕາ",
+      "toneNameRomanized": "niggahita",
+      "toneNameIPA": "/niʔ.kʰa.hì.taː/",
+      "toneNumber": 0,
+      "phase": 3,
+      "order": 5,
+      "notes": "Final nasal marker; indicates final -m or -ng sound"
     }
   ],
   "numerals": [
-    { "char": "໐", "codepoint": "U+0ED0", "value": 0, "laoName": "ສູນ", "nameIPA": "/sǔːn/", "phase": 4, "order": 1 },
-    { "char": "໑", "codepoint": "U+0ED1", "value": 1, "laoName": "ໜຶ່ງ", "nameIPA": "/nɯ̄ŋ/", "phase": 4, "order": 2 },
-    { "char": "໒", "codepoint": "U+0ED2", "value": 2, "laoName": "ສອງ", "nameIPA": "/sɔ̌ːŋ/", "phase": 4, "order": 3 },
-    { "char": "໓", "codepoint": "U+0ED3", "value": 3, "laoName": "ສາມ", "nameIPA": "/sǎːm/", "phase": 4, "order": 4 },
-    { "char": "໔", "codepoint": "U+0ED4", "value": 4, "laoName": "ສີ່", "nameIPA": "/sìː/", "phase": 4, "order": 5 },
-    { "char": "໕", "codepoint": "U+0ED5", "value": 5, "laoName": "ຫ້າ", "nameIPA": "/hâː/", "phase": 4, "order": 6 },
-    { "char": "໖", "codepoint": "U+0ED6", "value": 6, "laoName": "ຫົກ", "nameIPA": "/hòk/", "phase": 4, "order": 7 },
-    { "char": "໗", "codepoint": "U+0ED7", "value": 7, "laoName": "ເຈັດ", "nameIPA": "/tɕét/", "phase": 4, "order": 8 },
-    { "char": "໘", "codepoint": "U+0ED8", "value": 8, "laoName": "ແປດ", "nameIPA": "/pɛ̀ːt/", "phase": 4, "order": 9 },
-    { "char": "໙", "codepoint": "U+0ED9", "value": 9, "laoName": "ເກົ້າ", "nameIPA": "/kâw/", "phase": 4, "order": 10 }
+    {
+      "char": "໐",
+      "codepoint": "U+0ED0",
+      "value": 0,
+      "laoName": "ສູນ",
+      "nameIPA": "/sǔːn/",
+      "phase": 4,
+      "order": 1
+    },
+    {
+      "char": "໑",
+      "codepoint": "U+0ED1",
+      "value": 1,
+      "laoName": "ໜຶ່ງ",
+      "nameIPA": "/nɯ̄ŋ/",
+      "phase": 4,
+      "order": 2
+    },
+    {
+      "char": "໒",
+      "codepoint": "U+0ED2",
+      "value": 2,
+      "laoName": "ສອງ",
+      "nameIPA": "/sɔ̌ːŋ/",
+      "phase": 4,
+      "order": 3
+    },
+    {
+      "char": "໓",
+      "codepoint": "U+0ED3",
+      "value": 3,
+      "laoName": "ສາມ",
+      "nameIPA": "/sǎːm/",
+      "phase": 4,
+      "order": 4
+    },
+    {
+      "char": "໔",
+      "codepoint": "U+0ED4",
+      "value": 4,
+      "laoName": "ສີ່",
+      "nameIPA": "/sìː/",
+      "phase": 4,
+      "order": 5
+    },
+    {
+      "char": "໕",
+      "codepoint": "U+0ED5",
+      "value": 5,
+      "laoName": "ຫ້າ",
+      "nameIPA": "/hâː/",
+      "phase": 4,
+      "order": 6
+    },
+    {
+      "char": "໖",
+      "codepoint": "U+0ED6",
+      "value": 6,
+      "laoName": "ຫົກ",
+      "nameIPA": "/hòk/",
+      "phase": 4,
+      "order": 7
+    },
+    {
+      "char": "໗",
+      "codepoint": "U+0ED7",
+      "value": 7,
+      "laoName": "ເຈັດ",
+      "nameIPA": "/tɕét/",
+      "phase": 4,
+      "order": 8
+    },
+    {
+      "char": "໘",
+      "codepoint": "U+0ED8",
+      "value": 8,
+      "laoName": "ແປດ",
+      "nameIPA": "/pɛ̀ːt/",
+      "phase": 4,
+      "order": 9
+    },
+    {
+      "char": "໙",
+      "codepoint": "U+0ED9",
+      "value": 9,
+      "laoName": "ເກົ້າ",
+      "nameIPA": "/kâw/",
+      "phase": 4,
+      "order": 10
+    }
   ],
   "ligatures": [
     {

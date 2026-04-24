@@ -49,15 +49,25 @@ class CourseContentDataSource {
   }
 
   Future<CourseContent> load() async {
+    final sw = Stopwatch()..start();
+    // ignore: avoid_print
+    print('[CourseContentDataSource.load] Starting load of $coursePath');
     final raw = await loadString(coursePath);
+    // ignore: avoid_print
+    print('[CourseContentDataSource.load] JSON loaded, size=${raw.length} chars, elapsed=${sw.elapsedMilliseconds}ms');
     final json = jsonDecode(raw) as Map<String, dynamic>;
     final content = CourseContent.fromJson(json);
+    // ignore: avoid_print
+    print('[CourseContentDataSource.load] Parsed ${content.words.length} words, starting validation, elapsed=${sw.elapsedMilliseconds}ms');
     await CourseContentValidator.validate(
       content,
       assetExists: assetExists,
       assetRoot: kVocabAssetRoot,
       expectedWordCount: expectedWordCount,
     );
+    // ignore: avoid_print
+    print('[CourseContentDataSource.load] Done, total elapsed=${sw.elapsedMilliseconds}ms');
+    sw.stop();
     return content;
   }
 }
@@ -80,6 +90,10 @@ class CourseContentValidator {
     String assetRoot = kVocabAssetRoot,
     int? expectedWordCount,
   }) async {
+    final sw = Stopwatch()..start();
+    // ignore: avoid_print
+    print('[CourseContentValidator.validate] Starting validation');
+
     final errors = <String>[];
 
     // Build lookup maps and check for duplicate IDs.
@@ -152,6 +166,9 @@ class CourseContentValidator {
       }
     }
 
+    // ignore: avoid_print
+    print('[CourseContentValidator.validate] Logical validation done, found ${errors.length} errors, elapsed=${sw.elapsedMilliseconds}ms');
+
     // Asset existence (image + word audio + per-example audio).
     final referenced = <String>{};
     for (final w in content.words) {
@@ -161,10 +178,17 @@ class CourseContentValidator {
         referenced.add('$assetRoot${ex.audioPath}');
       }
     }
+    // ignore: avoid_print
+    print('[CourseContentValidator.validate] Checking ${referenced.length} asset references...');
+    final assetCheckSw = Stopwatch()..start();
     final missing = <String>[];
     await Future.wait(referenced.map((p) async {
       if (!await assetExists(p)) missing.add(p);
     }));
+    // ignore: avoid_print
+    print('[CourseContentValidator.validate] Asset check done, ${missing.length} missing, elapsed=${assetCheckSw.elapsedMilliseconds}ms');
+    assetCheckSw.stop();
+
     for (final p in missing) {
       errors.add('Referenced asset not found in bundle: $p');
     }
@@ -182,5 +206,9 @@ class CourseContentValidator {
         'words, got ${content.words.length}',
       );
     }
+
+    // ignore: avoid_print
+    print('[CourseContentValidator.validate] Validation complete, total elapsed=${sw.elapsedMilliseconds}ms');
+    sw.stop();
   }
 }

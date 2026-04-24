@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
@@ -27,7 +29,6 @@ class RealStrokeCanvasHost extends ConsumerStatefulWidget {
   final CardMode mode;
   final ValueChanged<StrokeMatchResult> onStrokeEvaluated;
   final VoidCallback onCharacterComplete;
-  final double size;
 
   const RealStrokeCanvasHost({
     super.key,
@@ -35,7 +36,6 @@ class RealStrokeCanvasHost extends ConsumerStatefulWidget {
     required this.mode,
     required this.onStrokeEvaluated,
     required this.onCharacterComplete,
-    this.size = 320,
   });
 
   @override
@@ -64,7 +64,14 @@ class _RealStrokeCanvasHostState extends ConsumerState<RealStrokeCanvasHost> {
     final ds = ref.read(characterStrokeDataSourceProvider);
     final codepoint = _codepointFor(widget.laoCharacter);
     final data = await ds.loadStrokeData(codepoint);
-    if (mounted) setState(() => _strokeData = data);
+    if (!mounted) return;
+    if (data == null) {
+      // No stroke data for this character (e.g. a vowel mark not in the set).
+      // Auto-complete so the flow isn't stuck.
+      widget.onCharacterComplete();
+      return;
+    }
+    setState(() => _strokeData = data);
   }
 
   /// Convert a single Lao glyph to the asset codepoint format used by
@@ -79,23 +86,30 @@ class _RealStrokeCanvasHostState extends ConsumerState<RealStrokeCanvasHost> {
   Widget build(BuildContext context) {
     return ProviderScope(
       overrides: [
-        canvasControllerProvider
-            .overrideWith((_) => CanvasController()),
+        canvasControllerProvider.overrideWith((_) => CanvasController()),
       ],
-      child: SizedBox(
-        width: widget.size,
-        height: widget.size,
-        child: WritingCanvas(
-          key: WordCardKeys.strokeCanvas,
-          size: widget.size,
-          strokeData: _strokeData,
-          mode: widget.mode == CardMode.practice
-              ? CanvasMode.practice
-              : CanvasMode.test,
-          onStrokeEvaluated: (eval) =>
-              widget.onStrokeEvaluated(eval.result),
-          onCharacterComplete: widget.onCharacterComplete,
-        ),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          // Match the original practice screen: fill available square space so
+          // the painter scale (renderSize / 512) stays consistent and stroke
+          // reference coordinates (authored in 512-space) land correctly.
+          final size = min(constraints.maxWidth, constraints.maxHeight);
+          return SizedBox(
+            width: size,
+            height: size,
+            child: WritingCanvas(
+              key: WordCardKeys.strokeCanvas,
+              size: 512, // authoring coordinate space; SizedBox constrains visual size
+              strokeData: _strokeData,
+              mode: widget.mode == CardMode.practice
+                  ? CanvasMode.practice
+                  : CanvasMode.test,
+              onStrokeEvaluated: (eval) =>
+                  widget.onStrokeEvaluated(eval.result),
+              onCharacterComplete: widget.onCharacterComplete,
+            ),
+          );
+        },
       ),
     );
   }

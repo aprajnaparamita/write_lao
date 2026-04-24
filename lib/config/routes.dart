@@ -16,6 +16,7 @@ import 'package:write_it_lao/vocab/presentation/screens/lesson_list_screen.dart'
 import 'package:write_it_lao/vocab/presentation/screens/restore_purchases_screen.dart';
 import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
 import 'package:write_it_lao/vocab/presentation/screens/upsell_screen.dart';
+import 'package:write_it_lao/vocab/presentation/screens/vocab_lesson_practice_screen.dart';
 import 'package:write_it_lao/vocab/providers.dart';
 
 final router = GoRouter(
@@ -24,19 +25,25 @@ final router = GoRouter(
     GoRoute(
       path: '/',
       name: 'home',
-      pageBuilder: (context, state) => CustomTransitionPage(
-        key: state.pageKey,
-        child: const LessonListScreen(),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
-      ),
+      pageBuilder: (context, state) {
+        // ignore: avoid_print
+        print('[GoRouter] Navigating to home (/)');
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: const LessonListScreen(),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return FadeTransition(opacity: animation, child: child);
+          },
+        );
+      },
     ),
     GoRoute(
       path: '/lessons/:lessonId',
       name: 'lessonDetail',
       pageBuilder: (context, state) {
         final lessonId = state.pathParameters['lessonId'] ?? '';
+        // ignore: avoid_print
+        print('[GoRouter] Navigating to lesson detail: lessonId=$lessonId');
         return CustomTransitionPage(
           key: state.pageKey,
           child: LessonDetailScreen(lessonId: lessonId),
@@ -217,16 +224,28 @@ final router = GoRouter(
     GoRoute(
       path: '/vocab',
       name: 'vocab',
-      pageBuilder: (context, state) => CustomTransitionPage(
-        key: state.pageKey,
-        child: UnitListScreen(
-          onOpenUnit: (unitId) => context.push('/vocab/unit/$unitId'),
-          onUpsell: () => context.push('/vocab/upsell'),
-        ),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
-      ),
+      pageBuilder: (context, state) {
+        // ignore: avoid_print
+        print('[GoRouter] Navigating to /vocab');
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: UnitListScreen(
+            onOpenUnit: (unitId) {
+              // ignore: avoid_print
+              print('[vocab] Unit tapped: $unitId');
+              context.push('/vocab/unit/$unitId');
+            },
+            onUpsell: () {
+              // ignore: avoid_print
+              print('[vocab] Upsell triggered');
+              context.push('/vocab/upsell');
+            },
+          ),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return FadeTransition(opacity: animation, child: child);
+          },
+        );
+      },
     ),
     GoRoute(
       path: '/vocab/unit/:unitId',
@@ -238,10 +257,38 @@ final router = GoRouter(
           child: vocab_lesson_list.LessonListScreen(
             unitId: unitId,
             onOpenLesson: (lessonId) {
-              // Lesson flow wiring is future work; for now pop back.
-              // A real host can navigate to /vocab/unit/:unitId/lesson/:lessonId.
+              // ignore: avoid_print
+              print('[vocab] Lesson tapped: $lessonId, pushing /vocab/unit/$unitId/lesson/$lessonId');
+              context.push('/vocab/unit/$unitId/lesson/$lessonId');
             },
             onUpsell: () => context.push('/vocab/upsell'),
+          ),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return SlideTransition(
+              position: Tween<Offset>(
+                begin: const Offset(1, 0),
+                end: Offset.zero,
+              ).animate(CurvedAnimation(
+                parent: animation,
+                curve: Curves.easeInOut,
+              )),
+              child: child,
+            );
+          },
+        );
+      },
+    ),
+    GoRoute(
+      path: '/vocab/unit/:unitId/lesson/:lessonId',
+      name: 'vocabLesson',
+      pageBuilder: (context, state) {
+        final unitId = state.pathParameters['unitId'] ?? '';
+        final lessonId = state.pathParameters['lessonId'] ?? '';
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: VocabLessonPracticeScreen(
+            unitId: unitId,
+            lessonId: lessonId,
           ),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             return SlideTransition(

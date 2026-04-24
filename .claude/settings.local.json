@@ -72,7 +72,9 @@
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  size=%{size_download}  type=%{content_type}\\\\n\" http://localhost:8765/)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  styles.css\\\\n\" http://localhost:8765/styles.css)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  script.js\\\\n\" http://localhost:8765/script.js)",
-      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  favicon.svg\\\\n\" http://localhost:8765/assets/favicon.svg)"
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  favicon.svg\\\\n\" http://localhost:8765/assets/favicon.svg)",
+      "Bash(ruby *)",
+      "Bash(dart analyze *)"
     ]
   }
 }

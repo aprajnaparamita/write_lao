@@ -19,6 +19,9 @@ class LessonListScreen extends ConsumerWidget {
     final progressRepo = ref.watch(progressRepositoryProvider);
     final lessons = charRepo.getAllLessons();
 
+    // ignore: avoid_print
+    print('[LessonList] build() called, lessons.length=${lessons.length}');
+
     return Scaffold(
       appBar: AppBar(
         title: Text(l10n.appTitle),
@@ -46,7 +49,11 @@ class LessonListScreen extends ConsumerWidget {
                   title: const Text('Vocabulary — 500 Words'),
                   subtitle: const Text('Learn everyday Lao with writing practice'),
                   trailing: const Icon(Icons.chevron_right),
-                  onTap: () => context.push('/vocab'),
+                  onTap: () {
+                    // ignore: avoid_print
+                    print('[LessonList] Vocab card tapped');
+                    context.push('/vocab');
+                  },
                 ),
               ),
             );
@@ -54,6 +61,8 @@ class LessonListScreen extends ConsumerWidget {
           final lessonIndex =
               VocabConfig.featureEnabled ? index - 1 : index;
           final lesson = lessons[lessonIndex];
+          // ignore: avoid_print
+          print('[LessonList] itemBuilder index=$index lessonIndex=$lessonIndex lessonId=${lesson.id}');
           final progress = progressRepo.getLessonProgress(lesson.id);
           final characters = charRepo.getCharactersForLesson(lesson.id);
           final firstChar = characters.isNotEmpty ? characters.first.displayChar : '?';
@@ -65,7 +74,11 @@ class LessonListScreen extends ConsumerWidget {
               subtitle: l10n.lessonNumber(lesson.lessonNumber),
               characterPreview: firstChar,
               stars: progress.stars,
-              onTap: () => context.push('/lessons/${lesson.id}'),
+              onTap: () {
+                // ignore: avoid_print
+                print('[LessonList] LessonCard onTap fired: id=${lesson.id}');
+                context.push('/lessons/${lesson.id}');
+              },
             ),
           );
         },
@@ -77,9 +90,13 @@ class LessonListScreen extends ConsumerWidget {
             case 0:
               break;
             case 1:
+              // ignore: avoid_print
+              print('[LessonList] Review tab pressed');
               context.push('/review');
               break;
             case 2:
+              // ignore: avoid_print
+              print('[LessonList] Progress tab pressed');
               context.push('/progress');
               break;
           }

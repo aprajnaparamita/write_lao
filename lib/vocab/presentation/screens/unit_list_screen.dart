@@ -21,17 +21,31 @@ class UnitListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // ignore: avoid_print
+    print('[UnitListScreen] build() called');
     final courseAsync = ref.watch(courseRepositoryProvider);
     return Scaffold(
       appBar: AppBar(title: const Text('Vocabulary')),
       body: courseAsync.when(
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (e, _) => Center(child: Text('Failed to load: $e')),
-        data: (course) => _UnitListBody(
-          course: course,
-          onOpenUnit: onOpenUnit,
-          onUpsell: onUpsell,
-        ),
+        loading: () {
+          // ignore: avoid_print
+          print('[UnitListScreen] loading state');
+          return const Center(child: CircularProgressIndicator());
+        },
+        error: (e, _) {
+          // ignore: avoid_print
+          print('[UnitListScreen] error: $e');
+          return Center(child: Text('Failed to load: $e'));
+        },
+        data: (course) {
+          // ignore: avoid_print
+          print('[UnitListScreen] data loaded, units=${course.getAllUnits().length}');
+          return _UnitListBody(
+            course: course,
+            onOpenUnit: onOpenUnit,
+            onUpsell: onUpsell,
+          );
+        },
       ),
     );
   }
@@ -124,11 +138,14 @@ class _UnitRow extends StatelessWidget {
     final tappable = unlocked || freePreviewEntry;
 
     Widget? trailing;
-    if (!unlocked) {
+    if (!unlocked && !freePreviewEntry) {
       trailing = Icon(
         Icons.lock_outline,
         key: WordCardKeys.unitLockBadge(unit.unitId),
       );
+    } else if (freePreviewEntry) {
+      // Unit has preview lessons - show play icon
+      trailing = const Icon(Icons.play_circle_outline, color: Colors.blue);
     } else if (complete) {
       trailing = const Icon(Icons.check_circle, color: Colors.green);
     } else {
@@ -142,6 +159,8 @@ class _UnitRow extends StatelessWidget {
       subtitle: unit.description.isEmpty ? null : Text(unit.description),
       trailing: trailing,
       onTap: () {
+        // ignore: avoid_print
+        print('[UnitRow] onTap: unitId=${unit.unitId} tappable=$tappable');
         if (tappable) {
           onOpenUnit?.call(unit.unitId);
           return;

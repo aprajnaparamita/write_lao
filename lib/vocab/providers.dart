@@ -15,13 +15,27 @@ final courseContentDataSourceProvider = Provider<CourseContentDataSource>(
 );
 
 final courseContentProvider = FutureProvider<CourseContent>((ref) async {
+  // ignore: avoid_print
+  print('[provider] courseContentProvider: starting to load');
+  final sw = Stopwatch()..start();
   final ds = ref.watch(courseContentDataSourceProvider);
-  return ds.load();
+  final result = await ds.load();
+  // ignore: avoid_print
+  print('[provider] courseContentProvider: loaded ${result.words.length} words in ${sw.elapsedMilliseconds}ms');
+  sw.stop();
+  return result;
 });
 
 final courseRepositoryProvider = FutureProvider<CourseRepository>((ref) async {
+  // ignore: avoid_print
+  print('[provider] courseRepositoryProvider: waiting for course content');
+  final sw = Stopwatch()..start();
   final content = await ref.watch(courseContentProvider.future);
-  return CourseRepository(content);
+  final repo = CourseRepository(content);
+  // ignore: avoid_print
+  print('[provider] courseRepositoryProvider: created in ${sw.elapsedMilliseconds}ms');
+  sw.stop();
+  return repo;
 });
 
 final userWordRepositoryProvider = Provider<UserWordRepository>((ref) {

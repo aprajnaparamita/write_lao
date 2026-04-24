@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/domain/card_mode.dart';
 import 'package:write_it_lao/vocab/presentation/i18n/character_strings.dart';
@@ -11,7 +13,7 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_progress_strip.dart
 /// gloss. The user has only the character-type hint to go on. A "Show hint"
 /// button reveals the guide at the cost of [hintErrorPenalty] errors and
 /// keeps the guide on for the rest of this character.
-class CharacterTestCard extends StatefulWidget {
+class CharacterTestCard extends ConsumerStatefulWidget {
   final WordCharacter character;
   final List<WordCharacter> allCharacters;
   final int positionIndex; // 0-based
@@ -34,11 +36,30 @@ class CharacterTestCard extends StatefulWidget {
   });
 
   @override
-  State<CharacterTestCard> createState() => _CharacterTestCardState();
+  ConsumerState<CharacterTestCard> createState() => _CharacterTestCardState();
 }
 
-class _CharacterTestCardState extends State<CharacterTestCard> {
+class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
   bool _hintRevealed = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _playAudio();
+    });
+  }
+
+  void _playAudio() {
+    ref
+        .read(audioPlayerServiceProvider)
+        .playPronunciation(_codepointString(widget.character.character));
+  }
+
+  static String _codepointString(String glyph) {
+    if (glyph.isEmpty) return '';
+    return 'U+${glyph.runes.first.toRadixString(16).toUpperCase().padLeft(4, '0')}';
+  }
 
   void _onStrokeEvaluated(StrokeMatchResult r) {
     if (r != StrokeMatchResult.correct) widget.onErrorAdded(1);
@@ -79,7 +100,12 @@ class _CharacterTestCardState extends State<CharacterTestCard> {
                   key: WordCardKeys.progressLabel,
                   style: theme.textTheme.bodyMedium,
                 ),
-                const SizedBox(width: 48),
+                IconButton(
+                  key: WordCardKeys.characterAudioButton,
+                  icon: const Icon(Icons.volume_up_outlined),
+                  onPressed: _playAudio,
+                  tooltip: 'Replay character name',
+                ),
               ],
             ),
             const SizedBox(height: 8),

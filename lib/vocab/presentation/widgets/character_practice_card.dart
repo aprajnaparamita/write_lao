@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/domain/card_mode.dart';
 import 'package:write_it_lao/vocab/presentation/i18n/character_strings.dart';
@@ -9,7 +11,7 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_progress_strip.dart
 
 /// One character of a word in **practice mode** — shows the stroke guide and
 /// counts every non-correct stroke evaluation as one error against the word.
-class CharacterPracticeCard extends StatelessWidget {
+class CharacterPracticeCard extends ConsumerStatefulWidget {
   final WordCharacter character;
   final List<WordCharacter> allCharacters;
   final int positionIndex; // 0-based
@@ -29,8 +31,33 @@ class CharacterPracticeCard extends StatelessWidget {
     this.onAbort,
   });
 
+  @override
+  ConsumerState<CharacterPracticeCard> createState() =>
+      _CharacterPracticeCardState();
+}
+
+class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _playAudio();
+    });
+  }
+
+  void _playAudio() {
+    ref
+        .read(audioPlayerServiceProvider)
+        .playPronunciation(_codepointString(widget.character.character));
+  }
+
+  static String _codepointString(String glyph) {
+    if (glyph.isEmpty) return '';
+    return 'U+${glyph.runes.first.toRadixString(16).toUpperCase().padLeft(4, '0')}';
+  }
+
   void _onStrokeEvaluated(StrokeMatchResult r) {
-    if (r != StrokeMatchResult.correct) onErrorAdded(1);
+    if (r != StrokeMatchResult.correct) widget.onErrorAdded(1);
   }
 
   @override
@@ -45,23 +72,28 @@ class CharacterPracticeCard extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                if (onAbort != null)
+                if (widget.onAbort != null)
                   IconButton(
                     key: WordCardKeys.abortButton,
                     icon: const Icon(Icons.close),
-                    onPressed: onAbort,
+                    onPressed: widget.onAbort,
                   )
                 else
                   const SizedBox(width: 48),
                 Text(
                   CharacterStrings.progressLabel(
-                    positionIndex + 1,
-                    allCharacters.length,
+                    widget.positionIndex + 1,
+                    widget.allCharacters.length,
                   ),
                   key: WordCardKeys.progressLabel,
                   style: theme.textTheme.bodyMedium,
                 ),
-                const SizedBox(width: 48),
+                IconButton(
+                  key: WordCardKeys.characterAudioButton,
+                  icon: const Icon(Icons.volume_up_outlined),
+                  onPressed: _playAudio,
+                  tooltip: 'Replay character name',
+                ),
               ],
             ),
             const SizedBox(height: 8),
@@ -72,18 +104,18 @@ class CharacterPracticeCard extends StatelessWidget {
             const SizedBox(height: 12),
             Expanded(
               child: Center(
-                child: canvasBuilder(
-                  laoCharacter: character.character,
+                child: widget.canvasBuilder(
+                  laoCharacter: widget.character.character,
                   mode: CardMode.practice,
                   onStrokeEvaluated: _onStrokeEvaluated,
-                  onCharacterComplete: onCharacterComplete,
+                  onCharacterComplete: widget.onCharacterComplete,
                 ),
               ),
             ),
             const SizedBox(height: 12),
             WordProgressStrip(
-              characters: allCharacters,
-              currentIndex: positionIndex,
+              characters: widget.allCharacters,
+              currentIndex: widget.positionIndex,
               revealCurrent: true,
             ),
           ],

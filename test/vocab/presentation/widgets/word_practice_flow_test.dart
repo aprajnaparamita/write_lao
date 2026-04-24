@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:write_it_lao/audio/audio_player_service.dart';
+import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/domain/card_mode.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
@@ -7,6 +10,11 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_outcome.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_practice_flow.dart';
 
 import '../../fakes/fake_stroke_canvas.dart';
+
+class _NoOpAudioService extends AudioPlayerService {
+  @override
+  Future<void> playPronunciation(String codepoint) async {}
+}
 
 const _word = VocabWord(
   wordId: 'w_0001',
@@ -25,10 +33,15 @@ const _word = VocabWord(
 );
 
 Widget _wrap(Widget child) {
-  return MaterialApp(
-    home: Scaffold(
-      body: Center(
-        child: SizedBox(width: 400, height: 760, child: child),
+  return ProviderScope(
+    overrides: [
+      audioPlayerServiceProvider.overrideWithValue(_NoOpAudioService()),
+    ],
+    child: MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: SizedBox(width: 400, height: 760, child: child),
+        ),
       ),
     ),
   );
