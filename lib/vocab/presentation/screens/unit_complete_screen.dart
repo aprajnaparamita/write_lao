@@ -20,43 +20,54 @@ class UnitCompleteScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Unit Complete'),
+        centerTitle: true,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+      ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              const Icon(
-                Icons.emoji_events,
-                color: Colors.amber,
-                size: 80,
-              ),
-              const SizedBox(height: 24),
-              Text(
-                'Unit $unitNumber complete!',
-                style: Theme.of(context).textTheme.headlineMedium,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                unitTitle,
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      color: Colors.grey,
-                    ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 16),
-              const Text(
-                'Great work! Ready for the next unit?',
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 48),
-              FilledButton(
-                key: WordCardKeys.unitCompleteContinue,
-                onPressed: onContinue,
-                child: const Text('Continue'),
-              ),
-            ],
+        child: Center(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const Icon(
+                  Icons.emoji_events,
+                  color: Colors.amber,
+                  size: 80,
+                ),
+                const SizedBox(height: 24),
+                Text(
+                  'Unit $unitNumber complete!',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  unitTitle,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        color: Colors.grey,
+                      ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Great work! Ready for the next unit?',
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 48),
+                FilledButton(
+                  key: WordCardKeys.unitCompleteContinue,
+                  onPressed: onContinue,
+                  child: const Text('Continue'),
+                ),
+              ],
+            ),
           ),
         ),
       ),

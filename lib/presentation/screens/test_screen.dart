@@ -30,6 +30,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   int _hintAttempts = 0;
   CharacterStrokeData? _currentStrokeData;
   final GlobalKey<WritingCanvasState> _canvasKey = GlobalKey();
+  bool _characterComplete = false;
 
   @override
   void initState() {
@@ -59,7 +60,10 @@ class _TestScreenState extends ConsumerState<TestScreen> {
       final strokeDataSource = ref.read(characterStrokeDataSourceProvider);
       final strokeData = await strokeDataSource.loadStrokeData(character.codepoint);
       if (mounted) {
-        setState(() => _currentStrokeData = strokeData);
+        setState(() {
+          _currentStrokeData = strokeData;
+          _characterComplete = false;
+        });
         // Reset canvas for new character
         ref.read(canvasControllerProvider.notifier).clearAll();
         if (strokeData != null) {
@@ -350,7 +354,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                         mode: _showHint ? CanvasMode.practice : CanvasMode.test,
                         onStrokeEvaluated: _onStrokeEvaluated,
                         onCharacterComplete: () {
-                          // Handled in _onStrokeEvaluated
+                          setState(() => _characterComplete = true);
                         },
                       ),
                     ),
@@ -362,9 +366,11 @@ class _TestScreenState extends ConsumerState<TestScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8),
                 child: Text(
-                  AppLocalizations.of(context).writeFromMemory,
+                  _characterComplete
+                      ? 'Great! Keep going'
+                      : AppLocalizations.of(context).writeFromMemory,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                        color: Colors.grey[600],
+                        color: _characterComplete ? Colors.green.shade700 : Colors.grey[600],
                       ),
                 ),
               ),
@@ -403,6 +409,59 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                     ],
                   ],
                 ),
+              ),
+
+              const SizedBox(height: 8),
+
+              // Large green Next button
+              AnimatedOpacity(
+                opacity: _characterComplete ? 1.0 : 0.0,
+                duration: const Duration(milliseconds: 300),
+                child: ElevatedButton(
+                  onPressed: _characterComplete ? () {
+                    // Move to next character or complete test
+                    final state = ref.read(testControllerProvider);
+                    if (state.currentIndex + 1 < state.totalCharacters) {
+                      ref.read(testControllerProvider.notifier).onCharacterCorrect(state.elapsedMs);
+                      _hintAttempts = 0;
+                      _showHint = false;
+                      _loadStrokeDataForCurrentCharacter();
+                    }
+                  } : null,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.green,
+                    foregroundColor: Colors.white,
+                    minimumSize: const Size(220, 64),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(32),
+                    ),
+                    elevation: 4,
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(
+                        Icons.arrow_forward,
+                        size: 28,
+                      ),
+                      const SizedBox(width: 8),
+                      const Text(
+                        'Next',
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // Invisible spacer to maintain layout when button is hidden
+              AnimatedOpacity(
+                opacity: _characterComplete ? 0.0 : 1.0,
+                duration: const Duration(milliseconds: 300),
+                child: const SizedBox(height: 80),
               ),
 
               const SizedBox(height: 16),

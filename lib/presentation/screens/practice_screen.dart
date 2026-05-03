@@ -316,9 +316,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                 padding: const EdgeInsets.symmetric(vertical: 8),
                 child: Text(
                   state.isCharacterComplete
-                      ? (state.isLastCharacter
-                          ? AppLocalizations.of(context).allDone
-                          : AppLocalizations.of(context).moveToNext)
+                      ? AppLocalizations.of(context).moveToNext
                       : AppLocalizations.of(context).traceCharacter,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         color: Colors.grey[600],
@@ -368,29 +366,41 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
               // Navigation
               Padding(
                 padding: const EdgeInsets.only(bottom: 16),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    IconButton(
-                      onPressed: state.currentCharacterIndex > 0
-                          ? () {
-                              ref.read(practiceControllerProvider.notifier).previousCharacter();
-                              _loadStrokeDataForCurrentCharacter();
-                            }
-                          : null,
-                      icon: const Icon(Icons.arrow_back_ios),
+                child: ElevatedButton(
+                  onPressed: state.isCharacterComplete && !state.isLastCharacter
+                      ? () {
+                          ref.read(practiceControllerProvider.notifier).nextCharacter();
+                          _loadStrokeDataForCurrentCharacter();
+                        }
+                      : null,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: state.isCharacterComplete ? Colors.green : Colors.grey.shade300,
+                    foregroundColor: Colors.white,
+                    minimumSize: const Size(220, 64),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(32),
                     ),
-                    const SizedBox(width: 32),
-                    IconButton(
-                      onPressed: !state.isLastCharacter
-                          ? () {
-                              ref.read(practiceControllerProvider.notifier).nextCharacter();
-                              _loadStrokeDataForCurrentCharacter();
-                            }
-                          : null,
-                      icon: const Icon(Icons.arrow_forward_ios),
-                    ),
-                  ],
+                    elevation: state.isCharacterComplete ? 4 : 1,
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(
+                        state.isLastCharacter ? Icons.check : Icons.arrow_forward,
+                        size: 28,
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        state.isLastCharacter
+                            ? AppLocalizations.of(context).allDone
+                            : 'Next',
+                        style: const TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],

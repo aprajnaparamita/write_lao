@@ -67,64 +67,80 @@ class _UpsellScreenState extends State<UpsellScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Unlock'),
+        centerTitle: true,
+        leading: IconButton(
+          icon: const Icon(Icons.close),
+          onPressed: () {
+            widget.onDismissed?.call();
+            Navigator.of(context).pop();
+          },
+        ),
+      ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(32),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              const Icon(
-                Icons.school,
-                size: 80,
-                color: Colors.blue,
-              ),
-              const SizedBox(height: 32),
-              Text(
-                'Unlock 500 Words',
-                style: Theme.of(context).textTheme.headlineMedium,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 16),
-              Text(
-                'Learn Lao vocabulary with writing practice.\nMaster 500 essential words.',
-                style: Theme.of(context).textTheme.bodyLarge,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 24),
-              _FeatureRow(icon: Icons.edit, text: 'Writing practice for every word'),
-              _FeatureRow(icon: Icons.repeat, text: 'Spaced repetition review'),
-              _FeatureRow(icon: Icons.volume_up, text: 'Audio pronunciation'),
-              _FeatureRow(icon: Icons.flag, text: 'Flag words for extra practice'),
-              const SizedBox(height: 32),
-              if (_error != null)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 16),
-                  child: Text(
-                    _error!,
-                    style: TextStyle(color: Theme.of(context).colorScheme.error),
-                    textAlign: TextAlign.center,
-                  ),
+        child: Center(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(32),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(
+                  Icons.school,
+                  size: 80,
+                  color: Colors.blue,
                 ),
-              FilledButton(
-                key: WordCardKeys.upsellBuyNow,
-                onPressed: _isLoading ? null : _handlePurchase,
-                child: _isLoading
-                    ? const SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: CircularProgressIndicator(strokeWidth: 2),
-                      )
-                    : Text(widget.priceLabel == null
-                        ? 'Buy Now'
-                        : 'Buy Now — ${widget.priceLabel}'),
-              ),
-              const SizedBox(height: 12),
-              TextButton(
-                key: WordCardKeys.upsellMaybeLater,
-                onPressed: widget.onDismissed,
-                child: const Text('Maybe later'),
-              ),
-            ],
+                const SizedBox(height: 32),
+                Text(
+                  'Unlock 500 Words',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  'Learn Lao vocabulary with writing practice.\nMaster 500 essential words.',
+                  style: Theme.of(context).textTheme.bodyLarge,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                const _FeatureRow(icon: Icons.edit, text: 'Writing practice for every word'),
+                const _FeatureRow(icon: Icons.repeat, text: 'Spaced repetition review'),
+                const _FeatureRow(icon: Icons.volume_up, text: 'Audio pronunciation'),
+                const _FeatureRow(icon: Icons.flag, text: 'Flag words for extra practice'),
+                const SizedBox(height: 32),
+                if (_error != null)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 16),
+                    child: Text(
+                      _error!,
+                      style: TextStyle(color: Theme.of(context).colorScheme.error),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                FilledButton(
+                  key: WordCardKeys.upsellBuyNow,
+                  onPressed: _isLoading ? null : _handlePurchase,
+                  child: _isLoading
+                      ? const SizedBox(
+                          width: 20,
+                          height: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        )
+                      : Text(widget.priceLabel == null
+                          ? 'Buy Now'
+                          : 'Buy Now — ${widget.priceLabel}'),
+                ),
+                const SizedBox(height: 12),
+                TextButton(
+                  key: WordCardKeys.upsellMaybeLater,
+                  onPressed: () {
+                    widget.onDismissed?.call();
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('Maybe later'),
+                ),
+              ],
+            ),
           ),
         ),
       ),

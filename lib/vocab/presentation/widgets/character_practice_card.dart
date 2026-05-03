@@ -37,6 +37,8 @@ class CharacterPracticeCard extends ConsumerStatefulWidget {
 }
 
 class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
+  bool _characterComplete = false;
+
   @override
   void initState() {
     super.initState();
@@ -60,9 +62,15 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
     if (r != StrokeMatchResult.correct) widget.onErrorAdded(1);
   }
 
+  void _onCharacterComplete() {
+    setState(() => _characterComplete = true);
+    widget.onCharacterComplete();
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final isLastCharacter = widget.positionIndex >= widget.allCharacters.length - 1;
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.all(16),
@@ -98,8 +106,12 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
             ),
             const SizedBox(height: 8),
             Text(
-              CharacterStrings.tracePrompt,
-              style: theme.textTheme.titleMedium,
+              _characterComplete
+                  ? (isLastCharacter ? 'All done!' : 'Great! Move to next')
+                  : CharacterStrings.tracePrompt,
+              style: theme.textTheme.titleMedium?.copyWith(
+                color: _characterComplete ? Colors.green.shade700 : null,
+              ),
             ),
             const SizedBox(height: 12),
             Expanded(
@@ -108,7 +120,7 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
                   laoCharacter: widget.character.character,
                   mode: CardMode.practice,
                   onStrokeEvaluated: _onStrokeEvaluated,
-                  onCharacterComplete: widget.onCharacterComplete,
+                  onCharacterComplete: _characterComplete ? () {} : _onCharacterComplete,
                 ),
               ),
             ),
@@ -117,6 +129,47 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
               characters: widget.allCharacters,
               currentIndex: widget.positionIndex,
               revealCurrent: true,
+            ),
+            const SizedBox(height: 16),
+            // Large green Next button
+            AnimatedOpacity(
+              opacity: _characterComplete ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 300),
+              child: ElevatedButton(
+                onPressed: _characterComplete ? _onCharacterComplete : null,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  foregroundColor: Colors.white,
+                  minimumSize: const Size(220, 64),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(32),
+                  ),
+                  elevation: 4,
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      isLastCharacter ? Icons.check : Icons.arrow_forward,
+                      size: 28,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      isLastCharacter ? 'All done!' : 'Next',
+                      style: const TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            // Invisible spacer to maintain layout when button is hidden
+            AnimatedOpacity(
+              opacity: _characterComplete ? 0.0 : 1.0,
+              duration: const Duration(milliseconds: 300),
+              child: const SizedBox(height: 80),
             ),
           ],
         ),

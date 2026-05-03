@@ -41,6 +41,7 @@ class CharacterTestCard extends ConsumerStatefulWidget {
 
 class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
   bool _hintRevealed = false;
+  bool _characterComplete = false;
 
   @override
   void initState() {
@@ -71,10 +72,16 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
     setState(() => _hintRevealed = true);
   }
 
+  void _onCharacterComplete() {
+    setState(() => _characterComplete = true);
+    widget.onCharacterComplete();
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final mode = _hintRevealed ? CardMode.practice : CardMode.test;
+    final isLastCharacter = widget.positionIndex >= widget.allCharacters.length - 1;
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.all(16),
@@ -110,9 +117,13 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
             ),
             const SizedBox(height: 8),
             Text(
-              CharacterStrings.typeHint(widget.character.type),
+              _characterComplete
+                  ? (isLastCharacter ? 'All done!' : 'Great! Move to next')
+                  : CharacterStrings.typeHint(widget.character.type),
               key: WordCardKeys.characterTypeHint,
-              style: theme.textTheme.titleMedium,
+              style: theme.textTheme.titleMedium?.copyWith(
+                color: _characterComplete ? Colors.green.shade700 : null,
+              ),
             ),
             const SizedBox(height: 12),
             Expanded(
@@ -121,7 +132,7 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
                   laoCharacter: widget.character.character,
                   mode: mode,
                   onStrokeEvaluated: _onStrokeEvaluated,
-                  onCharacterComplete: widget.onCharacterComplete,
+                  onCharacterComplete: _characterComplete ? () {} : _onCharacterComplete,
                 ),
               ),
             ),
@@ -132,11 +143,53 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
               revealCurrent: false,
             ),
             const SizedBox(height: 8),
-            TextButton.icon(
-              key: WordCardKeys.showHintButton,
-              onPressed: _hintRevealed ? null : _onShowHint,
-              icon: const Icon(Icons.lightbulb_outline),
-              label: Text(CharacterStrings.showHint),
+            if (!_characterComplete)
+              TextButton.icon(
+                key: WordCardKeys.showHintButton,
+                onPressed: _hintRevealed ? null : _onShowHint,
+                icon: const Icon(Icons.lightbulb_outline),
+                label: Text(CharacterStrings.showHint),
+              ),
+            const SizedBox(height: 16),
+            // Large green Next button
+            AnimatedOpacity(
+              opacity: _characterComplete ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 300),
+              child: ElevatedButton(
+                onPressed: _characterComplete ? _onCharacterComplete : null,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  foregroundColor: Colors.white,
+                  minimumSize: const Size(220, 64),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(32),
+                  ),
+                  elevation: 4,
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      isLastCharacter ? Icons.check : Icons.arrow_forward,
+                      size: 28,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      isLastCharacter ? 'All done!' : 'Next',
+                      style: const TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            // Invisible spacer to maintain layout when button is hidden
+            AnimatedOpacity(
+              opacity: _characterComplete ? 0.0 : 1.0,
+              duration: const Duration(milliseconds: 300),
+              child: const SizedBox(height: 80),
             ),
           ],
         ),
