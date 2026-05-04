@@ -138,14 +138,11 @@ class _UnitRow extends StatelessWidget {
     final tappable = unlocked || freePreviewEntry;
 
     Widget? trailing;
-    if (!unlocked && !freePreviewEntry) {
+    if (!unlocked) {
       trailing = Icon(
         Icons.lock_outline,
         key: WordCardKeys.unitLockBadge(unit.unitId),
       );
-    } else if (freePreviewEntry) {
-      // Unit has preview lessons - show play icon
-      trailing = const Icon(Icons.play_circle_outline, color: Colors.blue);
     } else if (complete) {
       trailing = const Icon(Icons.check_circle, color: Colors.green);
     } else {

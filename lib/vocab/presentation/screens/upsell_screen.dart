@@ -72,10 +72,7 @@ class _UpsellScreenState extends State<UpsellScreen> {
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.close),
-          onPressed: () {
-            widget.onDismissed?.call();
-            Navigator.of(context).pop();
-          },
+          onPressed: widget.onDismissed,
         ),
       ),
       body: SafeArea(
@@ -133,10 +130,7 @@ class _UpsellScreenState extends State<UpsellScreen> {
                 const SizedBox(height: 12),
                 TextButton(
                   key: WordCardKeys.upsellMaybeLater,
-                  onPressed: () {
-                    widget.onDismissed?.call();
-                    Navigator.of(context).pop();
-                  },
+                  onPressed: widget.onDismissed,
                   child: const Text('Maybe later'),
                 ),
               ],

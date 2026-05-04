@@ -98,7 +98,8 @@ void main() {
       );
     });
 
-    testWidgets('does NOT auto-play example 2 audio', (tester) async {
+    testWidgets('auto-plays example 2 audio after example 1 completes',
+        (tester) async {
       final audio = FakeVocabAudioPlayer();
       await tester.pumpWidget(_wrap(IntroCard(
         word: _word(),
@@ -108,13 +109,15 @@ void main() {
       await tester.pump();
       audio.completeCurrent(); // headword done → example1 plays
       await tester.pump();
-      audio.completeCurrent(); // example1 done
+      audio.completeCurrent(); // example1 done → example2 plays
       await tester.pump();
-      // Settle anything pending.
-      await tester.pump(const Duration(seconds: 2));
       expect(
         audio.playedPaths,
-        isNot(contains('audio/w_0001_example2.m4a')),
+        equals([
+          'audio/w_0001_word.m4a',
+          'audio/w_0001_example1.m4a',
+          'audio/w_0001_example2.m4a',
+        ]),
       );
     });
 

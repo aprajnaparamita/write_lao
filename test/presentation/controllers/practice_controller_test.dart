@@ -85,17 +85,18 @@ void main() {
     test('nextCharacter stops at last character', () {
       final lessons = charRepo.getAllLessons();
       final firstLesson = lessons.first;
-      final totalChars = firstLesson.characterCodepoints.length;
 
       controller.setLesson(firstLesson);
+      final seqLength =
+          container.read(practiceControllerProvider).practiceSequence.length;
 
-      // Navigate to last character
-      for (var i = 0; i < totalChars + 5; i++) {
+      // Navigate well past the end of the sequence
+      for (var i = 0; i < seqLength + 5; i++) {
         controller.nextCharacter();
       }
 
       final state = container.read(practiceControllerProvider);
-      expect(state.currentCharacterIndex, lessThan(totalChars));
+      expect(state.currentCharacterIndex, lessThan(seqLength));
     });
 
     test('onCharacterComplete adds to practiced set', () {
@@ -116,9 +117,12 @@ void main() {
       final firstLesson = lessons.first;
 
       controller.setLesson(firstLesson);
+      final seqLength =
+          container.read(practiceControllerProvider).practiceSequence.length;
 
-      // Practice all characters
-      for (var i = 0; i < firstLesson.characterCodepoints.length; i++) {
+      // Step through the full graduated sequence to ensure all unique chars
+      // are practiced at least once.
+      for (var i = 0; i < seqLength; i++) {
         controller.onCharacterComplete();
         if (!container.read(practiceControllerProvider).isLastCharacter) {
           controller.nextCharacter();
