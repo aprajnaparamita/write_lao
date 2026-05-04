@@ -14,7 +14,7 @@ VocabWord _word(String id, String lao) => VocabWord(
       partOfSpeech: 'noun',
       characters: const [],
       imagePath: 'images/$id.webp',
-      audioPath: 'audio/${id}_word.wav',
+      audioPath: 'audio/${id}_word.m4a',
       examples: const [],
     );
 
@@ -48,7 +48,7 @@ void main() {
         onAnswered: (_) {},
       )));
       await tester.pump();
-      expect(audio.playedPaths, equals(['audio/w_a_word.wav']));
+      expect(audio.playedPaths, equals(['audio/w_a_word.m4a']));
     });
 
     testWidgets('replay button plays the same correct-word audio',
@@ -65,7 +65,7 @@ void main() {
 
       await tester.tap(find.byKey(WordCardKeys.hearIdentifyReplay));
       await tester.pump();
-      expect(audio.playedPaths.last, 'audio/w_a_word.wav');
+      expect(audio.playedPaths.last, 'audio/w_a_word.m4a');
     });
 
     testWidgets('correct tap reports true and reveals reinforcement',

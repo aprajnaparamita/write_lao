@@ -96,3 +96,9 @@ lao_svgs/*.dart
 .local.properties
 *.env
 .env.*
+
+# Original audio files (archived originals, not bundled)
+# original_audio/
+
+# Also ignore original .wav files
+*.wav

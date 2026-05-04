@@ -16,21 +16,21 @@ VocabWord _word() => const VocabWord(
         WordCharacter(position: 0, character: 'ສ', type: CharacterType.consonant),
       ],
       imagePath: 'images/w_0001.webp',
-      audioPath: 'audio/w_0001_word.wav',
+      audioPath: 'audio/w_0001_word.m4a',
       examples: [
         WordExample(
           exampleId: 'w_0001_ex1',
           laoScript: 'ສະບາຍດີ',
           romanization: 'saʔ baːj diː',
           translations: {'en': 'Hello there'},
-          audioPath: 'audio/w_0001_example1.wav',
+          audioPath: 'audio/w_0001_example1.m4a',
         ),
         WordExample(
           exampleId: 'w_0001_ex2',
           laoScript: 'ຂອບໃຈ',
           romanization: 'kʰɔːp tɕaj',
           translations: {'en': 'Thank you'},
-          audioPath: 'audio/w_0001_example2.wav',
+          audioPath: 'audio/w_0001_example2.m4a',
         ),
       ],
     );
@@ -75,7 +75,7 @@ void main() {
       )));
       // Settle the post-frame callback that kicks off the auto-play.
       await tester.pump();
-      expect(audio.playedPaths, equals(['audio/w_0001_word.wav']));
+      expect(audio.playedPaths, equals(['audio/w_0001_word.m4a']));
     });
 
     testWidgets('auto-plays example 1 audio after headword audio completes',
@@ -87,14 +87,14 @@ void main() {
         onContinue: () {},
       )));
       await tester.pump();
-      expect(audio.playedPaths, equals(['audio/w_0001_word.wav']));
+      expect(audio.playedPaths, equals(['audio/w_0001_word.m4a']));
 
       // Simulate the headword audio finishing — example1 should chain.
       audio.completeCurrent();
       await tester.pump();
       expect(
         audio.playedPaths,
-        equals(['audio/w_0001_word.wav', 'audio/w_0001_example1.wav']),
+        equals(['audio/w_0001_word.m4a', 'audio/w_0001_example1.m4a']),
       );
     });
 
@@ -114,7 +114,7 @@ void main() {
       await tester.pump(const Duration(seconds: 2));
       expect(
         audio.playedPaths,
-        isNot(contains('audio/w_0001_example2.wav')),
+        isNot(contains('audio/w_0001_example2.m4a')),
       );
     });
 

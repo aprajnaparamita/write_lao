@@ -85,7 +85,7 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
     _currentPath = path;
     _setState(VocabAudioState.playing);
     try {
-      // The content bundle stores paths like "audio/w_0001_word.wav" — the
+      // The content bundle stores paths like "audio/w_0001_word.m4a" — the
       // production loader prefixes them with "vocab/" before handing them
       // to AssetSource (which expects paths under "assets/").
       await _player.play(AssetSource('vocab/$path'));

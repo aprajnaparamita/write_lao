@@ -16,21 +16,21 @@ VocabWord _word() => const VocabWord(
         WordCharacter(position: 0, character: 'ສ', type: CharacterType.consonant),
       ],
       imagePath: 'images/w_0001.webp',
-      audioPath: 'audio/w_0001_word.wav',
+      audioPath: 'audio/w_0001_word.m4a',
       examples: [
         WordExample(
           exampleId: 'w_0001_ex1',
           laoScript: 'ສະບາຍດີ',
           romanization: 'saʔ baːj diː',
           translations: {'en': 'Hello there'},
-          audioPath: 'audio/w_0001_example1.wav',
+          audioPath: 'audio/w_0001_example1.m4a',
         ),
         WordExample(
           exampleId: 'w_0001_ex2',
           laoScript: 'ຂອບໃຈ',
           romanization: 'kʰɔːp tɕaj',
           translations: {'en': 'Thank you'},
-          audioPath: 'audio/w_0001_example2.wav',
+          audioPath: 'audio/w_0001_example2.m4a',
         ),
       ],
     );
@@ -73,13 +73,13 @@ void main() {
         onFlag: () {},
       )));
       await tester.pump();
-      expect(audio.playedPaths, equals(['audio/w_0001_word.wav']));
+      expect(audio.playedPaths, equals(['audio/w_0001_word.m4a']));
 
       // Even when the headword finishes, no further auto-play should fire.
       audio.completeCurrent();
       await tester.pump();
       await tester.pump(const Duration(seconds: 2));
-      expect(audio.playedPaths, equals(['audio/w_0001_word.wav']));
+      expect(audio.playedPaths, equals(['audio/w_0001_word.m4a']));
     });
 
     testWidgets('each play button plays its own audio path', (tester) async {
@@ -95,17 +95,17 @@ void main() {
 
       await tester.tap(find.byKey(WordCardKeys.example1PlayButton));
       await tester.pump();
-      expect(audio.playedPaths.last, 'audio/w_0001_example1.wav');
+      expect(audio.playedPaths.last, 'audio/w_0001_example1.m4a');
       audio.completeCurrent();
 
       await tester.tap(find.byKey(WordCardKeys.example2PlayButton));
       await tester.pump();
-      expect(audio.playedPaths.last, 'audio/w_0001_example2.wav');
+      expect(audio.playedPaths.last, 'audio/w_0001_example2.m4a');
       audio.completeCurrent();
 
       await tester.tap(find.byKey(WordCardKeys.headwordPlayButton));
       await tester.pump();
-      expect(audio.playedPaths.last, 'audio/w_0001_word.wav');
+      expect(audio.playedPaths.last, 'audio/w_0001_word.m4a');
     });
 
     testWidgets('Flag button invokes the flag callback', (tester) async {

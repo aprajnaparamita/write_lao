@@ -129,14 +129,14 @@ final String bundleWithMissingImageJson = '''
         {"position": 0, "character": "ສ", "type": "consonant"}
       ],
       "image_path": "images/does_not_exist.webp",
-      "audio_path": "audio/w_missing_img_word.wav",
+      "audio_path": "audio/w_missing_img_word.m4a",
       "examples": [
         {
           "example_id": "w_missing_img_ex1",
           "lao_script": "ສະບາຍດີ",
           "romanization": "saʔ baːj diː",
           "translations": {"en": "hello"},
-          "audio_path": "audio/w_missing_img_example1.wav"
+          "audio_path": "audio/w_missing_img_example1.m4a"
         }
       ]
     }
@@ -179,14 +179,14 @@ final String bundleWithInvalidCharTypeJson = '''
         {"position": 0, "character": "ສ", "type": "punctuation"}
       ],
       "image_path": "images/w_bad.webp",
-      "audio_path": "audio/w_bad_word.wav",
+      "audio_path": "audio/w_bad_word.m4a",
       "examples": [
         {
           "example_id": "w_bad_ex1",
           "lao_script": "ສະ",
           "romanization": "sa",
           "translations": {"en": "x"},
-          "audio_path": "audio/w_bad_example1.wav"
+          "audio_path": "audio/w_bad_example1.m4a"
         }
       ]
     }
@@ -199,17 +199,17 @@ final String bundleWithInvalidCharTypeJson = '''
 final Set<String> validBundleAssetPaths = {
   for (var i = 1; i <= 10; i++) ...[
     'assets/vocab/images/w_${i.toString().padLeft(4, '0')}.webp',
-    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_word.wav',
-    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example1.wav',
-    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example2.wav',
+    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_word.m4a',
+    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example1.m4a',
+    'assets/vocab/audio/w_${i.toString().padLeft(4, '0')}_example2.m4a',
   ],
   // The dangling-word fixture only references w_0001's assets.
   // The missing-image fixture is intentionally missing
   //   'assets/vocab/images/does_not_exist.webp'
   // but we still need its audio paths to exist so the test fails on the
   // image specifically and not on its audio.
-  'assets/vocab/audio/w_missing_img_word.wav',
-  'assets/vocab/audio/w_missing_img_example1.wav',
+  'assets/vocab/audio/w_missing_img_word.m4a',
+  'assets/vocab/audio/w_missing_img_example1.m4a',
 };
 
 String _wordTemplate(int n, {String? lao}) {
@@ -227,21 +227,21 @@ String _wordTemplate(int n, {String? lao}) {
     {"position": 1, "character": "ະ", "type": "vowel"}
   ],
   "image_path": "images/$id.webp",
-  "audio_path": "audio/${id}_word.wav",
+  "audio_path": "audio/${id}_word.m4a",
   "examples": [
     {
       "example_id": "${id}_ex1",
       "lao_script": "$laoWord",
       "romanization": "saʔ",
       "translations": {"en": "test sentence $n", "fr": "phrase de test $n"},
-      "audio_path": "audio/${id}_example1.wav"
+      "audio_path": "audio/${id}_example1.m4a"
     },
     {
       "example_id": "${id}_ex2",
       "lao_script": "$laoWord",
       "romanization": "saʔ",
       "translations": {"en": "second sentence $n"},
-      "audio_path": "audio/${id}_example2.wav"
+      "audio_path": "audio/${id}_example2.m4a"
     }
   ]
 }

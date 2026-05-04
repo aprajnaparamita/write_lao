@@ -28,7 +28,7 @@ const _word = VocabWord(
     WordCharacter(position: 2, character: 'ບ', type: CharacterType.consonant),
   ],
   imagePath: 'images/w_0001.webp',
-  audioPath: 'audio/w_0001.wav',
+  audioPath: 'audio/w_0001_word.m4a',
   examples: [],
 );
 
