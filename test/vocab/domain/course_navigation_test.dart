@@ -49,7 +49,7 @@ void main() {
   });
 
   group('iap-locked', () {
-    test('every unit is locked when iapUnlocked is false', () {
+    test('unit 1 is free, unit 2+ are locked when iapUnlocked is false', () {
       final nav = CourseNavigation(
         course: course,
         progress: _progress(
@@ -58,9 +58,9 @@ void main() {
           iapUnlocked: false,
         ),
       );
-      expect(nav.isUnitUnlocked('u_01'), isFalse);
+      expect(nav.isUnitUnlocked('u_01'), isTrue);
       expect(nav.isUnitUnlocked('u_02'), isFalse);
-      expect(nav.isLessonUnlocked('l_01_01'), isFalse);
+      expect(nav.isLessonUnlocked('l_01_01'), isTrue);
     });
   });
 

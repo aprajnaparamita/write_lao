@@ -131,11 +131,7 @@ class _UnitRow extends StatelessWidget {
     final done = nav.completedLessonCount(unit.unitId);
     final total = nav.totalLessonCount(unit.unitId);
 
-    // Free users can enter unit 1 to reach the preview lesson, even though
-    // the unit as a whole shows a lock badge until purchase.
-    final freePreviewEntry =
-        !progress.iapUnlocked && access.hasAccessibleContent(unit.unitId);
-    final tappable = unlocked || freePreviewEntry;
+    final tappable = unlocked;
 
     Widget? trailing;
     if (!unlocked) {

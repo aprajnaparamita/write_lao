@@ -13,17 +13,12 @@ class ContentAccess {
   /// True if the user has purchased the vocabulary feature.
   bool get hasPurchased => progress.iapUnlocked;
 
-  /// True if [lessonId] is within the free preview range.
-  ///
-  /// Per [VocabConfig.freePreviewLessons], only the first N lessons of unit 1
-  /// are accessible without purchase.
+  /// True if [lessonId] is in unit 1, which is always free.
   bool isInFreePreview(String lessonId) {
     if (hasPurchased) return false;
     final lesson = course.getLesson(lessonId);
     if (lesson == null) return false;
-    // Only lessons in unit 1 can be in the preview.
-    if (lesson.unitId != course.getAllUnits().first.unitId) return false;
-    return lesson.lessonNumber <= VocabConfig.freePreviewLessons;
+    return lesson.unitId == course.getAllUnits().first.unitId;
   }
 
   /// True if [lessonId] is accessible to the user.

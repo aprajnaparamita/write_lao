@@ -186,7 +186,8 @@ class _VocabLessonPracticeScreenState
     );
     if (result == true && mounted) {
       _audio.stop();
-      Navigator.of(this.context).pop();
+      // ignore: use_build_context_synchronously
+      this.context.pop();
     }
   }
 
@@ -199,7 +200,7 @@ class _VocabLessonPracticeScreenState
         lessonNumber: lesson?.lessonNumber ?? 1,
         totalWords: _plan?.cards.length ?? 0,
         errors: _totalErrors,
-        onContinue: () => context.go('/vocab/unit/${widget.unitId}'),
+        onContinue: () => context.pop(),
       );
     }
 

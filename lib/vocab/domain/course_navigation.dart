@@ -42,14 +42,13 @@ class CourseNavigation {
     return lessons.every((l) => isLessonComplete(l.lessonId));
   }
 
-  /// Unit 1 unlocks when the IAP is purchased. Unit N (N>1) unlocks when
-  /// the previous unit is complete. IAP-locked users see everything as
-  /// locked (the paywall screen is Phase 08's responsibility).
+  /// Unit 1 is always unlocked (free). Unit N (N>1) requires IAP and the
+  /// previous unit to be complete.
   bool isUnitUnlocked(String unitId) {
     final unit = course.getUnit(unitId);
     if (unit == null) return false;
-    if (!progress.iapUnlocked) return false;
     if (unit.unitNumber <= 1) return true;
+    if (!progress.iapUnlocked) return false;
     String? prevUnitId;
     for (final u in course.getAllUnits()) {
       if (u.unitNumber == unit.unitNumber - 1) {

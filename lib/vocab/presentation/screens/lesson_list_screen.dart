@@ -130,14 +130,11 @@ class _LessonRow extends StatelessWidget {
     final preview = words.map((w) => w.laoWord).join(' · ');
 
     Widget? trailing;
-    if (!unlocked && !inPreview) {
+    if (!unlocked) {
       trailing = Icon(
         Icons.lock_outline,
         key: WordCardKeys.lessonLockBadge(lesson.lessonId),
       );
-    } else if (inPreview) {
-      // Preview lesson - show play icon to indicate it's free to try
-      trailing = const Icon(Icons.play_circle_outline, color: Colors.blue);
     } else if (complete) {
       trailing = const Icon(Icons.check_circle, color: Colors.green);
     } else if (isCurrent) {

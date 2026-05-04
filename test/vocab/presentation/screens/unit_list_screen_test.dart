@@ -108,14 +108,14 @@ void main() {
     expect(find.byKey(WordCardKeys.unitLockBadge('u_01')), findsNothing);
   });
 
-  testWidgets('every unit is locked when iap is not purchased',
+  testWidgets('unit 1 is free, unit 2+ are locked when iap is not purchased',
       (tester) async {
     seedProgress(iapUnlocked: false, currentLessonId: 'l_01_01');
     await tester.pumpWidget(makeApp());
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 100));
 
-    expect(find.byKey(WordCardKeys.unitLockBadge('u_01')), findsOneWidget);
+    expect(find.byKey(WordCardKeys.unitLockBadge('u_01')), findsNothing);
     expect(find.byKey(WordCardKeys.unitLockBadge('u_02')), findsOneWidget);
   });
 
