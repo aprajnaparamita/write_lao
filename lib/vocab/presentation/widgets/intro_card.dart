@@ -6,8 +6,7 @@ import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_base.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 
-/// First card the user sees for a word. Auto-plays headword → example1.
-/// Example 2 is on-demand only (per Phase 3 test #4 — see DECISIONS.md D18).
+/// First card the user sees for a word. Auto-plays headword → example1 → example2.
 class IntroCard extends StatefulWidget {
   final VocabWord word;
   final VocabAudioPlayer audio;
@@ -27,6 +26,7 @@ class IntroCard extends StatefulWidget {
 class _IntroCardState extends State<IntroCard> {
   StreamSubscription<String>? _completeSub;
   bool _headwordFinished = false;
+  bool _example1Finished = false;
 
   @override
   void initState() {
@@ -40,11 +40,22 @@ class _IntroCardState extends State<IntroCard> {
 
   void _onAudioComplete(String finishedPath) {
     if (!mounted) return;
-    if (_headwordFinished) return;
-    if (finishedPath == widget.word.audioPath &&
-        widget.word.examples.isNotEmpty) {
+    final examples = widget.word.examples;
+
+    if (!_headwordFinished && finishedPath == widget.word.audioPath) {
       _headwordFinished = true;
-      widget.audio.play(widget.word.examples.first.audioPath);
+      if (examples.isNotEmpty) {
+        widget.audio.play(examples.first.audioPath);
+      }
+      return;
+    }
+
+    if (_headwordFinished && !_example1Finished &&
+        examples.isNotEmpty && finishedPath == examples.first.audioPath) {
+      _example1Finished = true;
+      if (examples.length >= 2) {
+        widget.audio.play(examples[1].audioPath);
+      }
     }
   }
 

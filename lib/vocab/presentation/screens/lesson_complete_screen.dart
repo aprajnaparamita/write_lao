@@ -34,7 +34,7 @@ class LessonCompleteScreen extends StatelessWidget {
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.of(context).pop(),
+          onPressed: onContinue,
         ),
       ),
       body: SafeArea(
