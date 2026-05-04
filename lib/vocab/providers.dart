@@ -5,6 +5,7 @@ import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 import 'package:write_it_lao/vocab/data/models/course_content.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_it_lao/vocab/data/repositories/vocab_preferences_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
 import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
@@ -61,6 +62,19 @@ final flagDeckRepositoryProvider = Provider<FlagDeckRepository>((ref) {
     Hive.box<FlagDeckWord>(VocabBoxes.flagDeckWord),
   );
 });
+
+/// Raw (non-reactive) preferences repository — the underlying storage.
+final vocabPreferencesRepositoryRawProvider =
+    Provider<VocabPreferencesRepository>((ref) {
+  return VocabPreferencesRepository(
+    Hive.box<dynamic>(VocabBoxes.preferences),
+  );
+});
+
+/// Banner dismiss revision counter. Watching this provider triggers rebuilds
+/// whenever the banner dismiss state changes (tracked via a counter).
+/// The actual dismiss action is handled in `_FreeUnitBanner`.
+final vocabBannerDismissRevProvider = StateProvider<int>((ref) => 0);
 
 /// The lesson engine sits on top of every other vocab provider — it depends
 /// on the loaded course bundle, so it's a `FutureProvider`.

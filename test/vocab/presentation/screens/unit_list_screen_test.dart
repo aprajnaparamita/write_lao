@@ -160,4 +160,54 @@ void main() {
         tester.widget<Text>(find.byKey(WordCardKeys.masteredCounter));
     expect(counter.data, '2 / 10 words mastered');
   });
+
+  testWidgets('unit 1 shows FREE badge when not IAP purchased', (tester) async {
+    seedProgress(iapUnlocked: false, currentLessonId: 'l_01_01');
+    await tester.pumpWidget(makeApp());
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+
+    // Should NOT have lock on unit 1
+    expect(find.byKey(WordCardKeys.unitLockBadge('u_01')), findsNothing);
+    // Should show FREE badge text
+    expect(find.text('FREE'), findsOneWidget);
+  });
+
+  testWidgets('locked units show "Unlock required" in subtitle',
+      (tester) async {
+    seedProgress(iapUnlocked: false, currentLessonId: 'l_01_01');
+    await tester.pumpWidget(makeApp());
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+
+    // Scroll to make sure unit 2 is visible
+    await tester.drag(find.byType(ListView), const Offset(0, -300));
+    await tester.pumpAndSettle();
+
+    // Unit 2 should have a subtitle containing "Unlock required"
+    final unit2Tile = find.byKey(WordCardKeys.unitRow('u_02'));
+    expect(unit2Tile, findsOneWidget);
+
+    // Find the Text widget that is a descendant of the unit 2 ListTile
+    final subtitleFinder = find.descendant(
+      of: unit2Tile,
+      matching: find.byWidgetPredicate(
+        (w) => w is Text && w.data != null && w.data!.contains('Unlock required'),
+      ),
+    );
+    expect(subtitleFinder, findsOneWidget);
+  });
+
+  testWidgets('unit 1 does not show FREE badge when IAP is purchased',
+      (tester) async {
+    seedProgress(iapUnlocked: true);
+    await tester.pumpWidget(makeApp());
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+
+    // Should show progress instead of FREE badge
+    expect(find.text('FREE'), findsNothing);
+    // Unit 1 should show lesson progress
+    expect(find.text('0 / 2'), findsOneWidget);
+  });
 }

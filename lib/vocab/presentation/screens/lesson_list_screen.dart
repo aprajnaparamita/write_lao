@@ -72,6 +72,8 @@ class _LessonListBody extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     ref.watch(vocabStateRevProvider);
+    // Always watch preferences so we re-read Hive on every rebuild
+    ref.watch(vocabPreferencesRepositoryRawProvider);
     final progress =
         ref.watch(userVocabProgressRepositoryProvider).getOrCreate();
     final nav = CourseNavigation(course: course, progress: progress);
@@ -86,24 +88,83 @@ class _LessonListBody extends ConsumerWidget {
       );
     }
 
+    final isUnit1 = unit.unitNumber == 1;
+    final prefs = ref.watch(vocabPreferencesRepositoryRawProvider);
+    // Watch the banner rev so this widget rebuilds when banner is dismissed
+    ref.watch(vocabBannerDismissRevProvider);
+    final showFreeBanner = isUnit1 && !access.hasPurchased && !prefs.unit1BannerDismissed;
+
     final appBarTitle = 'Unit ${unit.unitNumber} · ${unit.title}';
 
     return Scaffold(
       appBar: AppBar(title: Text(appBarTitle)),
-      body: ListView.builder(
-        key: WordCardKeys.lessonList,
-        itemCount: lessons.length,
-        itemBuilder: (context, i) {
-          final lesson = lessons[i];
-          return _LessonRow(
-            lesson: lesson,
-            nav: nav,
-            access: access,
-            course: course,
-            onOpen: onOpenLesson,
-            onUpsell: onUpsell,
-          );
-        },
+      body: Column(
+        children: [
+          if (showFreeBanner) _FreeUnitBanner(),
+          Expanded(
+            child: ListView.builder(
+              key: WordCardKeys.lessonList,
+              itemCount: lessons.length,
+              itemBuilder: (context, i) {
+                final lesson = lessons[i];
+                return _LessonRow(
+                  lesson: lesson,
+                  nav: nav,
+                  access: access,
+                  course: course,
+                  onOpen: onOpenLesson,
+                  onUpsell: onUpsell,
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _FreeUnitBanner extends ConsumerWidget {
+  const _FreeUnitBanner();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    // Watch preferences so this widget rebuilds when Hive changes
+    ref.watch(vocabPreferencesRepositoryRawProvider);
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+      child: Card(
+        color: Colors.green.shade50,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+          child: Row(
+            children: [
+              Icon(Icons.check_circle, color: Colors.green.shade700, size: 20),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  'Unit 1 is free — no purchase needed',
+                  style: TextStyle(
+                    color: Colors.green.shade900,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+              IconButton(
+                icon: Icon(Icons.close, size: 20, color: Colors.green.shade700),
+                onPressed: () {
+                  final repo = ref.read(vocabPreferencesRepositoryRawProvider);
+                  repo.dismissUnit1Banner();
+                  ref.read(vocabBannerDismissRevProvider.notifier).state++;
+                },
+                padding: EdgeInsets.zero,
+                constraints: const BoxConstraints(),
+                tooltip: 'Dismiss',
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

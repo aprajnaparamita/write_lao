@@ -302,6 +302,7 @@ class VocabBoxes {
   static const userSession = 'vocab_user_session';
   static const flagDeck = 'vocab_flag_deck';
   static const flagDeckWord = 'vocab_flag_deck_word';
+  static const preferences = 'vocab_preferences';
 }
 
 /// Register all vocab Hive adapters. Idempotent — safe to call repeatedly.
@@ -327,5 +328,6 @@ Future<void> openVocabBoxes() async {
     Hive.openBox<UserSession>(VocabBoxes.userSession),
     Hive.openBox<FlagDeck>(VocabBoxes.flagDeck),
     Hive.openBox<FlagDeckWord>(VocabBoxes.flagDeckWord),
+    Hive.openBox<dynamic>(VocabBoxes.preferences),
   ]);
 }

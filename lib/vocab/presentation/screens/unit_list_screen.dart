@@ -144,6 +144,9 @@ class _UnitRow extends StatelessWidget {
     final total = nav.totalLessonCount(unit.unitId);
 
     final tappable = unlocked;
+    final isUnit1 = unit.unitNumber == 1;
+    // Show FREE badge only for unit 1, when unlocked and IAP not purchased
+    final showFreeBadge = isUnit1 && unlocked && !progress.iapUnlocked && !complete;
 
     Widget? trailing;
     if (!unlocked) {
@@ -153,15 +156,43 @@ class _UnitRow extends StatelessWidget {
       );
     } else if (complete) {
       trailing = const Icon(Icons.check_circle, color: Colors.green);
+    } else if (showFreeBadge) {
+      trailing = Chip(
+        label: const Text(
+          'FREE',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        backgroundColor: Colors.green,
+        padding: EdgeInsets.zero,
+        visualDensity: VisualDensity.compact,
+      );
     } else {
       trailing = Text('$done / $total');
+    }
+
+    // Build subtitle text with optional "Unlock required" hint for locked units
+    TextStyle? subtitleStyle;
+    String? subtitleText;
+    if (!unlocked && unit.description.isNotEmpty) {
+      subtitleText = '${unit.description} · Unlock required';
+      subtitleStyle = Theme.of(context).textTheme.bodySmall?.copyWith(
+            color: Theme.of(context).colorScheme.outline,
+          );
     }
 
     return ListTile(
       key: WordCardKeys.unitRow(unit.unitId),
       leading: CircleAvatar(child: Text('${unit.unitNumber}')),
       title: Text(unit.title),
-      subtitle: unit.description.isEmpty ? null : Text(unit.description),
+      subtitle: subtitleText != null
+          ? Text(subtitleText, style: subtitleStyle)
+          : unit.description.isEmpty
+              ? null
+              : Text(unit.description),
       trailing: trailing,
       onTap: () {
         // ignore: avoid_print

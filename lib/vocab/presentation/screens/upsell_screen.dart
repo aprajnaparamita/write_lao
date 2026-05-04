@@ -100,6 +100,8 @@ class _UpsellScreenState extends State<UpsellScreen> {
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 24),
+                const _ComparisonSection(),
+                const SizedBox(height: 24),
                 const _FeatureRow(icon: Icons.edit, text: 'Writing practice for every word'),
                 const _FeatureRow(icon: Icons.repeat, text: 'Spaced repetition review'),
                 const _FeatureRow(icon: Icons.volume_up, text: 'Audio pronunciation'),
@@ -160,6 +162,100 @@ class _FeatureRow extends StatelessWidget {
           Text(text),
         ],
       ),
+    );
+  }
+}
+
+class _ComparisonSection extends StatelessWidget {
+  const _ComparisonSection();
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          "What's included",
+          style: Theme.of(context).textTheme.titleMedium,
+          textAlign: TextAlign.left,
+        ),
+        const SizedBox(height: 12),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              child: _ComparisonColumn(
+                title: 'Unit 1 (Free)',
+                titleColor: Colors.green,
+                items: const [
+                  '25 vocabulary words',
+                  'Writing practice',
+                  'Basic review',
+                  'Audio pronunciation',
+                ],
+              ),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: _ComparisonColumn(
+                title: 'Unlock with Purchase',
+                titleColor: Colors.blue,
+                items: const [
+                  '500 vocabulary words',
+                  'All writing practice',
+                  'Spaced repetition',
+                  'Progress tracking',
+                ],
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class _ComparisonColumn extends StatelessWidget {
+  final String title;
+  final Color titleColor;
+  final List<String> items;
+
+  const _ComparisonColumn({
+    required this.title,
+    required this.titleColor,
+    required this.items,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                color: titleColor,
+                fontWeight: FontWeight.bold,
+              ),
+        ),
+        const SizedBox(height: 8),
+        ...items.map((item) => Padding(
+              padding: const EdgeInsets.symmetric(vertical: 2),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.check, size: 16, color: titleColor),
+                  const SizedBox(width: 4),
+                  Expanded(
+                    child: Text(
+                      item,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ),
+                ],
+              ),
+            )),
+      ],
     );
   }
 }
