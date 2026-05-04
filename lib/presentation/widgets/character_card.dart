@@ -113,6 +113,7 @@ class LessonCard extends StatelessWidget {
   final int stars;
   final int totalLessons;
   final bool isAvailable;
+  final bool isCurrent;
   final VoidCallback? onTap;
 
   const LessonCard({
@@ -123,79 +124,93 @@ class LessonCard extends StatelessWidget {
     this.stars = 0,
     this.totalLessons = 0,
     this.isAvailable = true,
+    this.isCurrent = false,
     this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
+    final content = Padding(
+      padding: const EdgeInsets.all(16),
+      child: Row(
+        children: [
+          // Character preview
+          Container(
+            width: 56,
+            height: 56,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: isAvailable
+                  ? AppTheme.primary.withValues(alpha: 0.1)
+                  : Colors.grey[200],
+              border: Border.all(
+                color: isAvailable
+                    ? AppTheme.primary.withValues(alpha: 0.3)
+                    : Colors.grey[300]!,
+              ),
+            ),
+            child: Center(
+              child: Text(
+                isAvailable ? characterPreview : '🔒',
+                style: const TextStyle(
+                  fontFamily: 'Noto Lao',
+                  fontSize: 28,
+                ),
+              ),
+            ),
+          ),
+
+          const SizedBox(width: 16),
+
+          // Title and subtitle
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w600,
+                      ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  subtitle,
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ],
+            ),
+          ),
+
+          // Stars
+          if (isAvailable)
+            StarRating(stars: stars, size: 18),
+
+          if (isAvailable)
+            const Icon(
+              Icons.chevron_right,
+              color: AppTheme.textSecondary,
+            ),
+        ],
+      ),
+    );
+
     return Card(
+      clipBehavior: isCurrent ? Clip.antiAlias : Clip.none,
       child: InkWell(
         onTap: isAvailable ? onTap : null,
-        borderRadius: BorderRadius.circular(12),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            children: [
-              // Character preview
-              Container(
-                width: 56,
-                height: 56,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: isAvailable
-                      ? AppTheme.primary.withValues(alpha: 0.1)
-                      : Colors.grey[200],
-                  border: Border.all(
-                    color: isAvailable
-                        ? AppTheme.primary.withValues(alpha: 0.3)
-                        : Colors.grey[300]!,
-                  ),
-                ),
-                child: Center(
-                  child: Text(
-                    isAvailable ? characterPreview : '🔒',
-                    style: const TextStyle(
-                      fontFamily: 'Noto Lao',
-                      fontSize: 28,
-                    ),
-                  ),
-                ),
-              ),
-
-              const SizedBox(width: 16),
-
-              // Title and subtitle
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+        borderRadius: isCurrent ? null : BorderRadius.circular(12),
+        child: isCurrent
+            ? IntrinsicHeight(
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Text(
-                      title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      subtitle,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
+                    Container(width: 4, color: AppTheme.primary),
+                    Expanded(child: content),
                   ],
                 ),
-              ),
-
-              // Stars
-              if (isAvailable)
-                StarRating(stars: stars, size: 18),
-
-              if (isAvailable)
-                const Icon(
-                  Icons.chevron_right,
-                  color: AppTheme.textSecondary,
-                ),
-            ],
-          ),
-        ),
+              )
+            : content,
       ),
     );
   }

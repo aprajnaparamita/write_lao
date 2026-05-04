@@ -105,17 +105,17 @@ void main() {
     );
   }
 
-  testWidgets('home screen renders the vocab entry tile', (tester) async {
+  testWidgets('home screen renders the vocabulary tab', (tester) async {
     await tester.pumpWidget(
       pumpWith(const alphabet_home.LessonListScreen()),
     );
     await tester.pump();
 
     expect(find.byKey(alphabet_home.homeVocabEntryKey), findsOneWidget);
-    expect(find.text('Vocabulary — 500 Words'), findsOneWidget);
+    expect(find.text('Vocabulary'), findsWidgets);
   });
 
-  testWidgets('tapping the vocab tile navigates to the unit list',
+  testWidgets('tapping the vocabulary tab shows the unit list',
       (tester) async {
     await tester.pumpWidget(
       pumpWith(const alphabet_home.LessonListScreen()),
@@ -123,8 +123,10 @@ void main() {
     await tester.pump();
 
     await tester.tap(find.byKey(alphabet_home.homeVocabEntryKey));
-    await tester.pump();
-    await tester.pump(const Duration(milliseconds: 400));
+    await tester.pump(); // process tap + start tab animation
+    await tester.pump(const Duration(milliseconds: 300)); // tab animation
+    await tester.pump(); // flush microtasks (course future resolves)
+    await tester.pump(const Duration(milliseconds: 100)); // settle
 
     expect(find.byKey(WordCardKeys.unitList), findsOneWidget);
   });

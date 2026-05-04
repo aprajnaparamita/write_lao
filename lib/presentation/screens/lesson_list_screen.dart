@@ -4,13 +4,89 @@ import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/character_card.dart';
-import 'package:write_it_lao/vocab/domain/vocab_config.dart';
+import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
+import 'package:write_it_lao/vocab/providers.dart';
 
-/// Key used by the Phase 09 integration test to locate the vocabulary tile.
+/// Key used by integration tests to locate the Vocabulary tab on the home screen.
 const homeVocabEntryKey = Key('home.vocabEntry');
 
 class LessonListScreen extends ConsumerWidget {
   const LessonListScreen({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
+
+    // ignore: avoid_print
+    print('[LessonList] build() called');
+
+    return DefaultTabController(
+      length: 2,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(l10n.appTitle),
+          centerTitle: true,
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.settings),
+              onPressed: () => context.push('/settings'),
+            ),
+          ],
+          bottom: const TabBar(
+            tabs: [
+              Tab(text: 'Writing'),
+              Tab(key: homeVocabEntryKey, text: 'Vocabulary'),
+            ],
+          ),
+        ),
+        body: const TabBarView(
+          children: [
+            _WritingTabBody(),
+            _VocabTabBody(),
+          ],
+        ),
+        bottomNavigationBar: Builder(
+          builder: (context) => BottomNavigationBar(
+            currentIndex: 0,
+            onTap: (index) {
+              switch (index) {
+                case 0:
+                  break;
+                case 1:
+                  // ignore: avoid_print
+                  print('[LessonList] Review tab pressed');
+                  context.push('/review');
+                  break;
+                case 2:
+                  // ignore: avoid_print
+                  print('[LessonList] Progress tab pressed');
+                  context.push('/progress');
+                  break;
+              }
+            },
+            items: [
+              BottomNavigationBarItem(
+                icon: const Icon(Icons.menu_book),
+                label: l10n.tabLessons,
+              ),
+              BottomNavigationBarItem(
+                icon: const Icon(Icons.refresh),
+                label: l10n.tabReview,
+              ),
+              BottomNavigationBarItem(
+                icon: const Icon(Icons.bar_chart),
+                label: l10n.tabProgress,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _WritingTabBody extends ConsumerWidget {
+  const _WritingTabBody();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -20,101 +96,68 @@ class LessonListScreen extends ConsumerWidget {
     final lessons = charRepo.getAllLessons();
 
     // ignore: avoid_print
-    print('[LessonList] build() called, lessons.length=${lessons.length}');
+    print('[LessonList] _WritingTabBody build, lessons.length=${lessons.length}');
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(l10n.appTitle),
-        centerTitle: true,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.settings),
-            onPressed: () => context.push('/settings'),
+    final currentLessonId = lessons
+        .firstWhere(
+          (l) => progressRepo.getLessonProgress(l.id).stars == 0,
+          orElse: () => lessons.last,
+        )
+        .id;
+
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: lessons.length,
+      itemBuilder: (context, index) {
+        final lesson = lessons[index];
+        // ignore: avoid_print
+        print('[LessonList] itemBuilder index=$index lessonId=${lesson.id}');
+        final progress = progressRepo.getLessonProgress(lesson.id);
+        final characters = charRepo.getCharactersForLesson(lesson.id);
+        final firstChar =
+            characters.isNotEmpty ? characters.first.displayChar : '?';
+
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: LessonCard(
+            title: lesson.title,
+            subtitle: l10n.lessonNumber(lesson.lessonNumber),
+            characterPreview: firstChar,
+            stars: progress.stars,
+            isCurrent: lesson.id == currentLessonId,
+            onTap: () {
+              // ignore: avoid_print
+              print('[LessonList] LessonCard onTap fired: id=${lesson.id}');
+              context.push('/lessons/${lesson.id}');
+            },
           ),
-        ],
-      ),
-      body: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: lessons.length + (VocabConfig.featureEnabled ? 1 : 0),
-        itemBuilder: (context, index) {
-          if (VocabConfig.featureEnabled && index == 0) {
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 16),
-              child: Card(
-                child: ListTile(
-                  key: homeVocabEntryKey,
-                  leading: const CircleAvatar(
-                    child: Icon(Icons.menu_book_outlined),
-                  ),
-                  title: const Text('Vocabulary — 500 Words'),
-                  subtitle: const Text('Learn everyday Lao with writing practice'),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () {
-                    // ignore: avoid_print
-                    print('[LessonList] Vocab card tapped');
-                    context.push('/vocab');
-                  },
-                ),
-              ),
-            );
-          }
-          final lessonIndex =
-              VocabConfig.featureEnabled ? index - 1 : index;
-          final lesson = lessons[lessonIndex];
+        );
+      },
+    );
+  }
+}
+
+class _VocabTabBody extends ConsumerWidget {
+  const _VocabTabBody();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final courseAsync = ref.watch(courseRepositoryProvider);
+    return courseAsync.when(
+      loading: () => const Center(child: CircularProgressIndicator()),
+      error: (e, _) => Center(child: Text('Failed to load: $e')),
+      data: (course) => VocabUnitListBody(
+        course: course,
+        onOpenUnit: (unitId) {
           // ignore: avoid_print
-          print('[LessonList] itemBuilder index=$index lessonIndex=$lessonIndex lessonId=${lesson.id}');
-          final progress = progressRepo.getLessonProgress(lesson.id);
-          final characters = charRepo.getCharactersForLesson(lesson.id);
-          final firstChar = characters.isNotEmpty ? characters.first.displayChar : '?';
-
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: LessonCard(
-              title: lesson.title,
-              subtitle: l10n.lessonNumber(lesson.lessonNumber),
-              characterPreview: firstChar,
-              stars: progress.stars,
-              onTap: () {
-                // ignore: avoid_print
-                print('[LessonList] LessonCard onTap fired: id=${lesson.id}');
-                context.push('/lessons/${lesson.id}');
-              },
-            ),
-          );
+          print('[VocabTab] Unit tapped: $unitId');
+          context.push('/vocab/unit/$unitId');
         },
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        onTap: (index) {
-          switch (index) {
-            case 0:
-              break;
-            case 1:
-              // ignore: avoid_print
-              print('[LessonList] Review tab pressed');
-              context.push('/review');
-              break;
-            case 2:
-              // ignore: avoid_print
-              print('[LessonList] Progress tab pressed');
-              context.push('/progress');
-              break;
-          }
+        onUpsell: () {
+          // ignore: avoid_print
+          print('[VocabTab] Upsell triggered');
+          context.push('/vocab/upsell');
         },
-        items: [
-          BottomNavigationBarItem(
-            icon: const Icon(Icons.menu_book),
-            label: l10n.tabLessons,
-          ),
-          BottomNavigationBarItem(
-            icon: const Icon(Icons.refresh),
-            label: l10n.tabReview,
-          ),
-          BottomNavigationBarItem(
-            icon: const Icon(Icons.bar_chart),
-            label: l10n.tabProgress,
-          ),
-        ],
       ),
     );
   }

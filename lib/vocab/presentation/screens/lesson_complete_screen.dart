@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 
-/// Shown after completing a lesson (but not the last lesson of a unit).
+/// Shown after completing a vocab lesson.
 ///
-/// Displays "Lesson X complete" with an encouraging message and a Continue
-/// button that returns to the lesson list.
+/// Displays "Lesson X complete" with an encouraging message, a Continue
+/// button that returns to the lesson list, and an optional preview of
+/// the next lesson.
 class LessonCompleteScreen extends StatelessWidget {
   final int lessonNumber;
   final int totalWords;
   final int errors;
   final VoidCallback onContinue;
+
+  /// Label shown below the Continue button, e.g. "Lesson 3 — ສະ ບາຍ ດີ".
+  /// If null, no next-lesson preview is shown.
+  final String? nextLessonLabel;
 
   const LessonCompleteScreen({
     super.key,
@@ -17,6 +22,7 @@ class LessonCompleteScreen extends StatelessWidget {
     required this.totalWords,
     required this.errors,
     required this.onContinue,
+    this.nextLessonLabel,
   });
 
   String get _encouragement {
@@ -77,6 +83,17 @@ class LessonCompleteScreen extends StatelessWidget {
                   onPressed: onContinue,
                   child: const Text('Continue'),
                 ),
+                if (nextLessonLabel != null) ...[
+                  const SizedBox(height: 16),
+                  Text(
+                    key: WordCardKeys.lessonCompleteNextLabel,
+                    'Next: $nextLessonLabel',
+                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: Colors.grey[600],
+                        ),
+                    textAlign: TextAlign.center,
+                  ),
+                ],
               ],
             ),
           ),

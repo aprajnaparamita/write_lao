@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/data/repositories/character_repository.dart';
+import 'package:write_it_lao/data/repositories/progress_repository.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 
@@ -99,6 +102,13 @@ class ProgressScreen extends ConsumerWidget {
                 ),
               );
             }),
+
+            const SizedBox(height: 24),
+
+            _SuggestedNextCard(
+              charRepo: charRepo,
+              progressRepo: progressRepo,
+            ),
           ],
         ),
       ),
@@ -195,6 +205,53 @@ class _PhaseProgressBar extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class _SuggestedNextCard extends StatelessWidget {
+  final CharacterRepository charRepo;
+  final ProgressRepository progressRepo;
+
+  const _SuggestedNextCard({
+    required this.charRepo,
+    required this.progressRepo,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final allLessons = charRepo.getAllLessons();
+    final incomplete = allLessons
+        .where((l) => progressRepo.getLessonProgress(l.id).stars == 0)
+        .toList();
+
+    if (incomplete.isEmpty) {
+      return Card(
+        key: const Key('progress.suggestedNext'),
+        child: ListTile(
+          leading: const Icon(Icons.refresh, color: AppTheme.primary),
+          title: const Text('Review Weak Characters'),
+          subtitle: const Text('All lessons complete — keep your skills sharp'),
+          trailing: FilledButton(
+            onPressed: () => context.push('/review'),
+            child: const Text('Review'),
+          ),
+        ),
+      );
+    }
+
+    final next = incomplete.first;
+    return Card(
+      key: const Key('progress.suggestedNext'),
+      child: ListTile(
+        leading: const Icon(Icons.play_circle_fill, color: AppTheme.primary),
+        title: Text('Up Next: ${next.title}'),
+        subtitle: Text('Lesson ${next.lessonNumber}'),
+        trailing: FilledButton(
+          onPressed: () => context.go('/lessons/${next.id}'),
+          child: const Text('Start'),
+        ),
+      ),
     );
   }
 }

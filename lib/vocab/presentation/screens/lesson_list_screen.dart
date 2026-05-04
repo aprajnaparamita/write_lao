@@ -29,26 +29,29 @@ class LessonListScreen extends ConsumerWidget {
     // ignore: avoid_print
     print('[VocabLessonListScreen] build() called for unitId=$unitId');
     final courseAsync = ref.watch(courseRepositoryProvider);
-    return Scaffold(
-      appBar: AppBar(title: const Text('Lessons')),
-      body: courseAsync.when(
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (e, _) {
-          // ignore: avoid_print
-          print('[VocabLessonListScreen] error: $e');
-          return Center(child: Text('Failed to load: $e'));
-        },
-        data: (course) {
-          // ignore: avoid_print
-          print('[VocabLessonListScreen] data loaded, unitId=$unitId');
-          return _LessonListBody(
-            course: course,
-            unitId: unitId,
-            onOpenLesson: onOpenLesson,
-            onUpsell: onUpsell,
-          );
-        },
+    return courseAsync.when(
+      loading: () => Scaffold(
+        appBar: AppBar(title: const Text('Lessons')),
+        body: const Center(child: CircularProgressIndicator()),
       ),
+      error: (e, _) {
+        // ignore: avoid_print
+        print('[VocabLessonListScreen] error: $e');
+        return Scaffold(
+          appBar: AppBar(title: const Text('Lessons')),
+          body: Center(child: Text('Failed to load: $e')),
+        );
+      },
+      data: (course) {
+        // ignore: avoid_print
+        print('[VocabLessonListScreen] data loaded, unitId=$unitId');
+        return _LessonListBody(
+          course: course,
+          unitId: unitId,
+          onOpenLesson: onOpenLesson,
+          onUpsell: onUpsell,
+        );
+      },
     );
   }
 }
@@ -77,23 +80,31 @@ class _LessonListBody extends ConsumerWidget {
     final lessons = course.getLessonsInUnit(unitId);
 
     if (unit == null) {
-      return const Center(child: Text('Unit not found.'));
+      return Scaffold(
+        appBar: AppBar(title: const Text('Lessons')),
+        body: const Center(child: Text('Unit not found.')),
+      );
     }
 
-    return ListView.builder(
-      key: WordCardKeys.lessonList,
-      itemCount: lessons.length,
-      itemBuilder: (context, i) {
-        final lesson = lessons[i];
-        return _LessonRow(
-          lesson: lesson,
-          nav: nav,
-          access: access,
-          course: course,
-          onOpen: onOpenLesson,
-          onUpsell: onUpsell,
-        );
-      },
+    final appBarTitle = 'Unit ${unit.unitNumber} · ${unit.title}';
+
+    return Scaffold(
+      appBar: AppBar(title: Text(appBarTitle)),
+      body: ListView.builder(
+        key: WordCardKeys.lessonList,
+        itemCount: lessons.length,
+        itemBuilder: (context, i) {
+          final lesson = lessons[i];
+          return _LessonRow(
+            lesson: lesson,
+            nav: nav,
+            access: access,
+            course: course,
+            onOpen: onOpenLesson,
+            onUpsell: onUpsell,
+          );
+        },
+      ),
     );
   }
 }

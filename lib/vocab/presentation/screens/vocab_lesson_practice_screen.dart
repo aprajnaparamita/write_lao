@@ -196,10 +196,24 @@ class _VocabLessonPracticeScreenState
     if (_finished) {
       final course = ref.watch(courseRepositoryProvider).valueOrNull;
       final lesson = course?.getLesson(widget.lessonId);
+      final progress =
+          ref.watch(userVocabProgressRepositoryProvider).getOrCreate();
+      final nextLesson = (course != null && progress.currentLessonId != null)
+          ? course.getLesson(progress.currentLessonId!)
+          : null;
+      String? nextLessonLabel;
+      if (nextLesson != null) {
+        final firstWord = nextLesson.newWordIds.isNotEmpty
+            ? course?.getWord(nextLesson.newWordIds.first)?.laoWord
+            : null;
+        nextLessonLabel = 'Lesson ${nextLesson.lessonNumber}'
+            '${firstWord != null ? ' — $firstWord' : ''}';
+      }
       return LessonCompleteScreen(
         lessonNumber: lesson?.lessonNumber ?? 1,
         totalWords: _plan?.cards.length ?? 0,
         errors: _totalErrors,
+        nextLessonLabel: nextLessonLabel,
         onContinue: () => context.pop(),
       );
     }
@@ -228,9 +242,27 @@ class _VocabLessonPracticeScreenState
       );
     }
 
+    final lessonsInUnit = course.getLessonsInUnit(widget.unitId);
+    final lessonIndex =
+        lessonsInUnit.indexWhere((l) => l.lessonId == widget.lessonId);
+    final lessonNumInUnit = lessonIndex >= 0 ? lessonIndex + 1 : null;
+    final totalLessonsInUnit = lessonsInUnit.length;
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('${_cardIndex + 1} / ${plan.cards.length}'),
+        centerTitle: false,
+        title: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('${_cardIndex + 1} / ${plan.cards.length}'),
+            if (lessonNumInUnit != null)
+              Text(
+                'Lesson $lessonNumInUnit of $totalLessonsInUnit',
+                style: const TextStyle(fontSize: 12),
+              ),
+          ],
+        ),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () => _confirmAbort(context),

@@ -80,6 +80,46 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
     super.dispose();
   }
 
+  String? _nextLessonId() {
+    final charRepo = ref.read(characterRepositoryProvider);
+    final lessons = charRepo.getAllLessons();
+    final idx = lessons.indexWhere((l) => l.id == widget.lessonId);
+    if (idx < 0 || idx + 1 >= lessons.length) return null;
+    return lessons[idx + 1].id;
+  }
+
+  Widget _buildButtons(
+      BuildContext context, AppLocalizations l10n, int stars) {
+    final nextId = _nextLessonId();
+    final passed = stars >= 2;
+
+    final primaryLabel =
+        (passed && nextId != null) ? 'Next Lesson' : l10n.practiceAgain;
+    final primaryRoute = (passed && nextId != null)
+        ? '/lessons/$nextId'
+        : '/practice/${widget.lessonId}';
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        FilledButton(
+          onPressed: () => context.go(primaryRoute),
+          child: Text(primaryLabel),
+        ),
+        const SizedBox(height: 12),
+        OutlinedButton(
+          onPressed: () => context.go('/test/${widget.lessonId}'),
+          child: Text(l10n.testAgain),
+        ),
+        const SizedBox(height: 4),
+        TextButton(
+          onPressed: () => context.go('/'),
+          child: Text(l10n.mainMenu),
+        ),
+      ],
+    );
+  }
+
   String _formatTime(int? ms) {
     if (ms == null) return '--:--';
     final seconds = (ms / 1000).floor();
@@ -210,27 +250,8 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
                       const SizedBox(height: 48),
 
-                      // Buttons
-                      SizedBox(
-                        width: double.infinity,
-                        child: ElevatedButton(
-                          onPressed: () => context.go('/practice/${widget.lessonId}'),
-                          child: Text(l10n.practice),
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      SizedBox(
-                        width: double.infinity,
-                        child: OutlinedButton(
-                          onPressed: () => context.go('/test/${widget.lessonId}'),
-                          child: Text(l10n.testAgain),
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      TextButton(
-                        onPressed: () => context.go('/'),
-                        child: Text(l10n.mainMenu),
-                      ),
+                      // Buttons — primary action depends on score
+                      _buildButtons(context, l10n, stars),
                     ],
                   ),
                 ),

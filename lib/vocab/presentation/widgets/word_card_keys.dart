@@ -69,6 +69,8 @@ class WordCardKeys {
       ValueKey('vocab.lessonList.lock.$lessonId');
   static const lessonCompleteContinue =
       ValueKey('vocab.lessonComplete.continue');
+  static const lessonCompleteNextLabel =
+      ValueKey('vocab.lessonComplete.nextLabel');
   static const unitCompleteContinue =
       ValueKey('vocab.unitComplete.continue');
 

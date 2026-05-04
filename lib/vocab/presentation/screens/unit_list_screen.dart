@@ -9,7 +9,7 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 import 'package:write_it_lao/vocab/providers.dart';
 
 /// Top-level course screen — lists every unit with completion state and
-/// the global "X / 500 mastered" counter. Tapping an unlocked unit fires
+/// the global mastered counter in the AppBar. Tapping an unlocked unit fires
 /// [onOpenUnit]; locked units either open the upsell ([onUpsell]) if the
 /// user has not purchased, or flash a "complete previous unit" snackbar
 /// if they have.
@@ -24,42 +24,71 @@ class UnitListScreen extends ConsumerWidget {
     // ignore: avoid_print
     print('[UnitListScreen] build() called');
     final courseAsync = ref.watch(courseRepositoryProvider);
-    return Scaffold(
-      appBar: AppBar(title: const Text('Vocabulary')),
-      body: courseAsync.when(
-        loading: () {
-          // ignore: avoid_print
-          print('[UnitListScreen] loading state');
-          return const Center(child: CircularProgressIndicator());
-        },
-        error: (e, _) {
-          // ignore: avoid_print
-          print('[UnitListScreen] error: $e');
-          return Center(child: Text('Failed to load: $e'));
-        },
-        data: (course) {
-          // ignore: avoid_print
-          print('[UnitListScreen] data loaded, units=${course.getAllUnits().length}');
-          return _UnitListBody(
+    ref.watch(vocabStateRevProvider);
+    final allWords = ref.watch(userWordRepositoryProvider).getAll();
+    final mastered = masteredWordCount(allWords);
+
+    return courseAsync.when(
+      loading: () {
+        // ignore: avoid_print
+        print('[UnitListScreen] loading state');
+        return Scaffold(
+          appBar: AppBar(title: const Text('Vocabulary')),
+          body: const Center(child: CircularProgressIndicator()),
+        );
+      },
+      error: (e, _) {
+        // ignore: avoid_print
+        print('[UnitListScreen] error: $e');
+        return Scaffold(
+          appBar: AppBar(title: const Text('Vocabulary')),
+          body: Center(child: Text('Failed to load: $e')),
+        );
+      },
+      data: (course) {
+        // ignore: avoid_print
+        print('[UnitListScreen] data loaded, units=${course.getAllUnits().length}');
+        final total = course.content.words.length;
+        return Scaffold(
+          appBar: AppBar(
+            centerTitle: false,
+            title: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text('Vocabulary · 500 Words'),
+                Text(
+                  '$mastered / $total words mastered',
+                  key: WordCardKeys.masteredCounter,
+                  style: const TextStyle(fontSize: 12),
+                ),
+              ],
+            ),
+          ),
+          body: VocabUnitListBody(
             course: course,
             onOpenUnit: onOpenUnit,
             onUpsell: onUpsell,
-          );
-        },
-      ),
+          ),
+        );
+      },
     );
   }
 }
 
-class _UnitListBody extends ConsumerWidget {
+/// Unit list body — embeddable in a tab or a standalone Scaffold.
+/// Displays every unit with lock/complete state. Does not include the
+/// mastered-words counter (that lives in the AppBar of [UnitListScreen]).
+class VocabUnitListBody extends ConsumerWidget {
   final CourseRepository course;
   final void Function(String unitId)? onOpenUnit;
   final VoidCallback? onUpsell;
 
-  const _UnitListBody({
+  const VocabUnitListBody({
+    super.key,
     required this.course,
-    required this.onOpenUnit,
-    required this.onUpsell,
+    this.onOpenUnit,
+    this.onUpsell,
   });
 
   @override
@@ -67,42 +96,25 @@ class _UnitListBody extends ConsumerWidget {
     ref.watch(vocabStateRevProvider);
     final progress =
         ref.watch(userVocabProgressRepositoryProvider).getOrCreate();
-    final allWords = ref.watch(userWordRepositoryProvider).getAll();
-    final mastered = masteredWordCount(allWords);
-    final totalWords = course.content.words.length;
 
     final nav = CourseNavigation(course: course, progress: progress);
     final access = ContentAccess(course: course, progress: progress);
     final units = course.getAllUnits();
 
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: Text(
-            '$mastered / $totalWords words mastered',
-            key: WordCardKeys.masteredCounter,
-            style: Theme.of(context).textTheme.titleMedium,
-          ),
-        ),
-        Expanded(
-          child: ListView.builder(
-            key: WordCardKeys.unitList,
-            itemCount: units.length,
-            itemBuilder: (context, i) {
-              final unit = units[i];
-              return _UnitRow(
-                unit: unit,
-                nav: nav,
-                access: access,
-                progress: progress,
-                onOpenUnit: onOpenUnit,
-                onUpsell: onUpsell,
-              );
-            },
-          ),
-        ),
-      ],
+    return ListView.builder(
+      key: WordCardKeys.unitList,
+      itemCount: units.length,
+      itemBuilder: (context, i) {
+        final unit = units[i];
+        return _UnitRow(
+          unit: unit,
+          nav: nav,
+          access: access,
+          progress: progress,
+          onOpenUnit: onOpenUnit,
+          onUpsell: onUpsell,
+        );
+      },
     );
   }
 }
