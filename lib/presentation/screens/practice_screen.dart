@@ -222,11 +222,6 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                                       ),
                                 ),
                               ],
-                              const SizedBox(height: 8),
-                              Text(
-                                '${state.currentCharacterIndex + 1}/${state.totalCharacters}',
-                                style: Theme.of(context).textTheme.bodyMedium,
-                              ),
                             ],
                           ),
                         ),
@@ -289,11 +284,6 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                           ),
                         ),
                       ],
-                      const SizedBox(height: 8),
-                      Text(
-                        '${state.currentCharacterIndex + 1}/${state.totalCharacters}',
-                        style: Theme.of(context).textTheme.bodyMedium,
-                      ),
                     ],
                   ),
                 ),
@@ -308,6 +298,31 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                       child: _buildCanvas(state),
                     ),
                   ),
+                ),
+              ),
+
+              // Character progress indicator
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  children: [
+                    LinearProgressIndicator(
+                      value: state.totalCharacters > 0
+                          ? (state.currentCharacterIndex + 1) / state.totalCharacters
+                          : 0,
+                      backgroundColor: Colors.grey.shade200,
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        state.isCharacterComplete ? Colors.green : Colors.blue,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      'Character ${state.currentCharacterIndex + 1} of ${state.totalCharacters}',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color: Colors.grey[600],
+                          ),
+                    ),
+                  ],
                 ),
               ),
 
@@ -331,33 +346,69 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     // Clear button
-                    IconButton(
-                      onPressed: () {
-                        ref.read(canvasControllerProvider.notifier).clearAll();
-                        if (_currentStrokeData != null) {
-                          ref.read(canvasControllerProvider.notifier).setCharacter(_currentStrokeData!);
-                        }
-                      },
-                      icon: const Icon(Icons.delete_outline),
-                      tooltip: AppLocalizations.of(context).clearTooltip,
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: () {
+                            ref.read(canvasControllerProvider.notifier).clearAll();
+                            if (_currentStrokeData != null) {
+                              ref.read(canvasControllerProvider.notifier).setCharacter(_currentStrokeData!);
+                            }
+                          },
+                          icon: const Icon(Icons.delete_outline),
+                          tooltip: AppLocalizations.of(context).clearTooltip,
+                        ),
+                        Text(
+                          'Clear',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.grey[600],
+                          ),
+                        ),
+                      ],
                     ),
 
                     // Play pronunciation
-                    IconButton(
-                      onPressed: character != null
-                          ? () => _playPronunciation(character.codepoint)
-                          : null,
-                      icon: const Icon(Icons.volume_up),
-                      tooltip: AppLocalizations.of(context).playPronunciation,
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: character != null
+                              ? () => _playPronunciation(character.codepoint)
+                              : null,
+                          icon: const Icon(Icons.volume_up),
+                          tooltip: AppLocalizations.of(context).playPronunciation,
+                        ),
+                        Text(
+                          'Sound',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.grey[600],
+                          ),
+                        ),
+                      ],
                     ),
 
                     // Show/hide hint button
-                    IconButton(
-                      onPressed: () {
-                        setState(() => _showHint = !_showHint);
-                      },
-                      icon: Icon(_showHint ? Icons.visibility : Icons.visibility_off),
-                      tooltip: _showHint ? AppLocalizations.of(context).hideHint : AppLocalizations.of(context).showHint,
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: () {
+                            setState(() => _showHint = !_showHint);
+                          },
+                          icon: Icon(_showHint ? Icons.visibility : Icons.visibility_off),
+                          tooltip: _showHint ? AppLocalizations.of(context).hideHint : AppLocalizations.of(context).showHint,
+                        ),
+                        Text(
+                          'Hint',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.grey[600],
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
@@ -366,21 +417,21 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
               // Navigation
               Padding(
                 padding: const EdgeInsets.only(bottom: 16),
-                child: ElevatedButton(
+                child: FilledButton(
                   onPressed: state.isCharacterComplete && !state.isLastCharacter
                       ? () {
                           ref.read(practiceControllerProvider.notifier).nextCharacter();
                           _loadStrokeDataForCurrentCharacter();
                         }
                       : null,
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: state.isCharacterComplete ? Colors.green : Colors.grey.shade300,
-                    foregroundColor: Colors.white,
+                  style: FilledButton.styleFrom(
+                    backgroundColor: state.isCharacterComplete 
+                        ? Colors.green 
+                        : Colors.grey.shade400,
                     minimumSize: const Size(220, 64),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(32),
                     ),
-                    elevation: state.isCharacterComplete ? 4 : 1,
                   ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,

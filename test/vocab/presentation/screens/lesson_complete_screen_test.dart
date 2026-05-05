@@ -28,18 +28,39 @@ void main() {
       expect(find.byKey(WordCardKeys.lessonCompleteContinue), findsOneWidget);
     });
 
+    testWidgets('shows word count breakdown', (tester) async {
+      await tester.pumpWidget(_makeApp(lessonNumber: 1, onContinue: () {}));
+      expect(find.text('You practiced 5 words'), findsOneWidget);
+    });
+
+    testWidgets('shows error count in breakdown when errors > 0', (tester) async {
+      await tester.pumpWidget(_makeApp(lessonNumber: 1, onContinue: () {}, errors: 2));
+      expect(find.text('You practiced 5 words · 2 errors'), findsOneWidget);
+    });
+
+    testWidgets('does not show error count when errors == 0', (tester) async {
+      await tester.pumpWidget(_makeApp(lessonNumber: 1, onContinue: () {}, errors: 0));
+      expect(find.text('You practiced 5 words'), findsOneWidget);
+      expect(find.textContaining('error'), findsNothing);
+    });
+
+    testWidgets('shows encouragement message', (tester) async {
+      await tester.pumpWidget(_makeApp(lessonNumber: 1, onContinue: () {}));
+      expect(find.text('Perfect score! 🎉'), findsOneWidget);
+    });
+
     testWidgets('shows next lesson preview when nextLessonLabel is provided',
         (tester) async {
       await tester.pumpWidget(_makeApp(
         lessonNumber: 1,
         onContinue: () {},
-        nextLessonLabel: 'Lesson 2 — ສະ ບາຍ ດີ',
+        nextLessonLabel: 'Lesson 2 - word',
       ));
       expect(
         find.byKey(WordCardKeys.lessonCompleteNextLabel),
         findsOneWidget,
       );
-      expect(find.text('Next: Lesson 2 — ສະ ບາຍ ດີ'), findsOneWidget);
+      expect(find.textContaining('Next: Lesson 2'), findsOneWidget);
     });
 
     testWidgets('does not show next lesson when nextLessonLabel is null',

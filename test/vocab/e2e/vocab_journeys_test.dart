@@ -151,6 +151,7 @@ void main() {
         expect(find.byKey(WordCardKeys.upsellBuyNow), findsOneWidget);
 
         // Buy now → mock IAP returns success after 100 ms.
+        await tester.ensureVisible(find.byKey(WordCardKeys.upsellBuyNow));
         await tester.tap(find.byKey(WordCardKeys.upsellBuyNow));
         await tester.pump(const Duration(milliseconds: 200));
         await tester.pumpAndSettle();
@@ -172,6 +173,7 @@ void main() {
 
         await tester.tap(find.byKey(WordCardKeys.unitRow('u_02')));
         await tester.pumpAndSettle();
+        await tester.ensureVisible(find.byKey(WordCardKeys.upsellBuyNow));
         await tester.tap(find.byKey(WordCardKeys.upsellBuyNow));
         await tester.pump(const Duration(milliseconds: 200));
         await tester.pumpAndSettle();

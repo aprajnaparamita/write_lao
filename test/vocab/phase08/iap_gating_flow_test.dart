@@ -125,6 +125,7 @@ void main() {
 
       expect(progressBox.get('singleton')?.iapUnlocked, isNot(isTrue));
 
+      await tester.ensureVisible(find.byKey(WordCardKeys.upsellBuyNow));
       await tester.tap(find.byKey(WordCardKeys.upsellBuyNow));
       // MockIapService delays 100ms then returns IapSuccess.
       await tester.pump(const Duration(milliseconds: 200));
@@ -137,6 +138,7 @@ void main() {
       await tester.pumpWidget(makeRouterApp(const MockIapService()));
       await tester.pump();
 
+      await tester.ensureVisible(find.byKey(WordCardKeys.upsellBuyNow));
       await tester.tap(find.byKey(WordCardKeys.upsellBuyNow));
       await tester.pump(const Duration(milliseconds: 200));
 

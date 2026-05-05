@@ -151,5 +151,16 @@ void main() {
         );
       }
     });
+
+    testWidgets('shows "Listen and choose" instruction label', (tester) async {
+      final audio = FakeVocabAudioPlayer();
+      await tester.pumpWidget(_wrap(HearIdentifyCard(
+        correctWord: _correct,
+        options: _options,
+        audio: audio,
+        onAnswered: (_) {},
+      )));
+      expect(find.text('Listen and choose'), findsOneWidget);
+    });
   });
 }

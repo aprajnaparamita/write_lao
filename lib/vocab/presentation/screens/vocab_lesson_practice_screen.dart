@@ -126,8 +126,6 @@ class _VocabLessonPracticeScreenState
 
   void _finishLesson() {
     final engine = ref.read(lessonEngineProvider).valueOrNull;
-    final course = ref.read(courseRepositoryProvider).valueOrNull;
-    final lesson = course?.getLesson(widget.lessonId);
     final duration =
         _startedAt != null ? DateTime.now().difference(_startedAt!) : null;
 
@@ -273,6 +271,28 @@ class _VocabLessonPracticeScreenState
           LinearProgressIndicator(
             value: (_cardIndex + 1) / plan.cards.length,
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: AnimatedSwitcher(
+              duration: const Duration(milliseconds: 200),
+              child: Container(
+                key: ValueKey('phase-$_cardIndex-$_wordPhase'),
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  color: _phaseColor(card).withValues(alpha: 0.15),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  _phaseLabel(card),
+                  style: TextStyle(
+                    color: _phaseColor(card),
+                    fontWeight: FontWeight.w600,
+                    fontSize: 13,
+                  ),
+                ),
+              ),
+            ),
+          ),
           Expanded(
             child: _buildCard(card, word, course),
           ),
@@ -330,6 +350,32 @@ class _VocabLessonPracticeScreenState
           onNext: _onOutroNext,
           onFlag: () => _showFlagSheet(word.wordId),
         );
+    }
+  }
+
+  /// Returns the display label for the current card phase.
+  String _phaseLabel(LessonCard card) {
+    if (card.kind == LessonCardKind.hearIdentify) return 'Listen';
+    switch (_wordPhase) {
+      case _WordPhase.intro:
+        return 'Listen';
+      case _WordPhase.practice:
+        return 'Write';
+      case _WordPhase.outro:
+        return 'Review';
+    }
+  }
+
+  /// Returns the color for the current card phase label.
+  Color _phaseColor(LessonCard card) {
+    if (card.kind == LessonCardKind.hearIdentify) return Colors.blue;
+    switch (_wordPhase) {
+      case _WordPhase.intro:
+        return Colors.blue;
+      case _WordPhase.practice:
+        return Colors.orange;
+      case _WordPhase.outro:
+        return Colors.green;
     }
   }
 }

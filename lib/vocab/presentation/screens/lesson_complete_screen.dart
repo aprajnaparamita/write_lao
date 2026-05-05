@@ -38,64 +38,61 @@ class LessonCompleteScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Lesson Complete'),
         centerTitle: true,
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: onContinue,
-        ),
+        automaticallyImplyLeading: false,
       ),
       body: SafeArea(
-        child: Center(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const Icon(
-                  Icons.check_circle,
-                  color: Colors.green,
-                  size: 80,
-                ),
-                const SizedBox(height: 24),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const Icon(
+                Icons.check_circle,
+                color: Colors.green,
+                size: 64,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                'Lesson $lessonNumber complete',
+                style: Theme.of(context).textTheme.headlineSmall,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'You practiced $totalWords words'
+                '${errors > 0 ? ' · $errors error${errors == 1 ? '' : 's'}' : ''}',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Colors.grey[600],
+                    ),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                _encouragement,
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.green.shade700,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 32),
+              FilledButton(
+                key: WordCardKeys.lessonCompleteContinue,
+                onPressed: onContinue,
+                child: const Text('Continue'),
+              ),
+              if (nextLessonLabel != null) ...[
+                const SizedBox(height: 12),
                 Text(
-                  'Lesson $lessonNumber complete',
-                  style: Theme.of(context).textTheme.headlineMedium,
+                  key: WordCardKeys.lessonCompleteNextLabel,
+                  'Next: $nextLessonLabel',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Colors.grey[600],
+                      ),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(height: 16),
-                Text(
-                  _encouragement,
-                  style: Theme.of(context).textTheme.titleLarge,
-                  textAlign: TextAlign.center,
-                ),
-                if (errors > 0) ...[
-                  const SizedBox(height: 8),
-                  Text(
-                    '$errors error${errors == 1 ? '' : 's'}',
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Colors.grey,
-                        ),
-                  ),
-                ],
-                const SizedBox(height: 48),
-                FilledButton(
-                  key: WordCardKeys.lessonCompleteContinue,
-                  onPressed: onContinue,
-                  child: const Text('Continue'),
-                ),
-                if (nextLessonLabel != null) ...[
-                  const SizedBox(height: 16),
-                  Text(
-                    key: WordCardKeys.lessonCompleteNextLabel,
-                    'Next: $nextLessonLabel',
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Colors.grey[600],
-                        ),
-                    textAlign: TextAlign.center,
-                  ),
-                ],
               ],
-            ),
+            ],
           ),
         ),
       ),

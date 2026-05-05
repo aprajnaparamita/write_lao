@@ -6,7 +6,7 @@ import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/star_rating.dart';
 
-class LessonDetailScreen extends ConsumerWidget {
+class LessonDetailScreen extends ConsumerStatefulWidget {
   final String lessonId;
 
   const LessonDetailScreen({
@@ -15,14 +15,47 @@ class LessonDetailScreen extends ConsumerWidget {
   });
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<LessonDetailScreen> createState() => _LessonDetailScreenState();
+}
+
+class _LessonDetailScreenState extends ConsumerState<LessonDetailScreen> {
+  Map<String, int> _strokeCounts = {};
+  bool _loadingStrokes = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadStrokeCounts();
+  }
+
+  Future<void> _loadStrokeCounts() async {
+    final charRepo = ref.read(characterRepositoryProvider);
+    final characters = charRepo.getCharactersForLesson(widget.lessonId);
+    final strokeDataSource = ref.read(characterStrokeDataSourceProvider);
+    
+    final counts = <String, int>{};
+    for (final char in characters) {
+      final strokeData = await strokeDataSource.loadStrokeData(char.codepoint);
+      counts[char.codepoint] = strokeData?.strokes.length ?? 0;
+    }
+    
+    if (mounted) {
+      setState(() {
+        _strokeCounts = counts;
+        _loadingStrokes = false;
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
     // ignore: avoid_print
-    print('[LessonDetailScreen] Building for lessonId=$lessonId');
+    print('[LessonDetailScreen] Building for lessonId=${widget.lessonId}');
     final l10n = AppLocalizations.of(context);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
 
-    final lesson = charRepo.getLesson(lessonId);
+    final lesson = charRepo.getLesson(widget.lessonId);
     // ignore: avoid_print
     print('[LessonDetailScreen] Found lesson: $lesson');
     if (lesson == null) {
@@ -32,8 +65,8 @@ class LessonDetailScreen extends ConsumerWidget {
       );
     }
 
-    final progress = progressRepo.getLessonProgress(lessonId);
-    final characters = charRepo.getCharactersForLesson(lessonId);
+    final progress = progressRepo.getLessonProgress(widget.lessonId);
+    final characters = charRepo.getCharactersForLesson(widget.lessonId);
     final bestTimeMs = progress.bestTimeMs;
 
     return Scaffold(
@@ -104,21 +137,31 @@ class LessonDetailScreen extends ConsumerWidget {
                     ),
               ),
               const SizedBox(height: 16),
-              Wrap(
-                spacing: 12,
-                runSpacing: 12,
-                alignment: WrapAlignment.center,
-                children: characters.map((char) {
-                  return _CharacterBadge(char: char.displayChar);
-                }).toList(),
-              ),
+              if (_loadingStrokes)
+                const CircularProgressIndicator()
+              else
+                Wrap(
+                  spacing: 12,
+                  runSpacing: 12,
+                  alignment: WrapAlignment.center,
+                  children: characters.map((char) {
+                    final strokeCount = _strokeCounts[char.codepoint] ?? 0;
+                    final charProgress = progressRepo.getCharacterProgress(char.codepoint);
+                    final isPracticed = charProgress.practiceCount > 0;
+                    return _CharacterBadgeWithInfo(
+                      char: char.displayChar,
+                      strokeCount: strokeCount,
+                      isPracticed: isPracticed,
+                    );
+                  }).toList(),
+                ),
 
               const Spacer(),
 
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () => context.push('/practice/$lessonId'),
+                  onPressed: () => context.push('/practice/${widget.lessonId}'),
                   icon: const Icon(Icons.edit),
                   label: Text(l10n.practice),
                 ),
@@ -128,7 +171,7 @@ class LessonDetailScreen extends ConsumerWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () => context.push('/test/$lessonId'),
+                  onPressed: () => context.push('/test/${widget.lessonId}'),
                   icon: const Icon(Icons.timer),
                   label: Text(l10n.test),
                   style: ElevatedButton.styleFrom(
@@ -151,33 +194,63 @@ class LessonDetailScreen extends ConsumerWidget {
   }
 }
 
-class _CharacterBadge extends StatelessWidget {
+class _CharacterBadgeWithInfo extends StatelessWidget {
   final String char;
+  final int strokeCount;
+  final bool isPracticed;
 
-  const _CharacterBadge({required this.char});
+  const _CharacterBadgeWithInfo({
+    required this.char,
+    required this.strokeCount,
+    required this.isPracticed,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 64,
-      height: 64,
-      decoration: BoxDecoration(
-        color: AppTheme.primary.withValues(alpha: 0.1),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: AppTheme.primary.withValues(alpha: 0.3),
-          width: 2,
-        ),
-      ),
-      child: Center(
-        child: Text(
-          char,
-          style: const TextStyle(
-            fontFamily: 'Noto Lao',
-            fontSize: 32,
+    final bgColor = isPracticed ? Colors.green.shade100 : Colors.grey.shade200;
+    final borderColor = isPracticed ? Colors.green.shade400 : Colors.grey.shade400;
+
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Container(
+          width: 64,
+          height: 64,
+          decoration: BoxDecoration(
+            color: bgColor,
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(
+              color: borderColor,
+              width: 2,
+            ),
+          ),
+          child: Center(
+            child: Text(
+              char,
+              style: const TextStyle(
+                fontFamily: 'Noto Lao',
+                fontSize: 32,
+              ),
+            ),
           ),
         ),
-      ),
+        const SizedBox(height: 4),
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+          decoration: BoxDecoration(
+            color: isPracticed ? Colors.green.shade50 : Colors.grey.shade100,
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Text(
+            '$strokeCount stroke${strokeCount == 1 ? '' : 's'}',
+            style: TextStyle(
+              fontSize: 10,
+              color: isPracticed ? Colors.green.shade700 : Colors.grey.shade600,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

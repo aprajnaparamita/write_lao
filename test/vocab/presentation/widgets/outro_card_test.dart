@@ -141,5 +141,35 @@ void main() {
       expect(advanced, isTrue);
       expect(audio.stopCallCount, greaterThanOrEqualTo(1));
     });
+
+    testWidgets('renders with green background tint', (tester) async {
+      final audio = FakeVocabAudioPlayer();
+      await tester.pumpWidget(_wrap(OutroCard(
+        word: _word(),
+        audio: audio,
+        onNext: () {},
+        onFlag: () {},
+      )));
+      await tester.pump();
+
+      // Find the Container with green tint
+      final containerFinder = find.byWidgetPredicate(
+        (w) => w is Container && w.color == Colors.green.shade50,
+      );
+      expect(containerFinder, findsOneWidget);
+    });
+
+    testWidgets('button text shows "Got it" with arrow', (tester) async {
+      final audio = FakeVocabAudioPlayer();
+      await tester.pumpWidget(_wrap(OutroCard(
+        word: _word(),
+        audio: audio,
+        onNext: () {},
+        onFlag: () {},
+      )));
+      await tester.pump();
+
+      expect(find.textContaining('Got it'), findsOneWidget);
+    });
   });
 }

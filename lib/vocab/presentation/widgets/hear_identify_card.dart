@@ -82,7 +82,7 @@ class _HearIdentifyCardState extends State<HearIdentifyCard> {
         child: Column(
           children: [
             Text(
-              'Which word did you hear?',
+              'Listen and choose',
               key: WordCardKeys.hearIdentifyPrompt,
               style: theme.textTheme.titleMedium,
             ),

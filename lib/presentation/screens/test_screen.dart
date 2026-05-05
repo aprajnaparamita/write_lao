@@ -322,25 +322,6 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                   ),
                 ),
 
-              // Progress
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: LinearProgressIndicator(
-                  value: state.totalCharacters > 0
-                      ? (state.currentIndex + 1) / state.totalCharacters
-                      : 0,
-                  backgroundColor: Colors.grey[200],
-                ),
-              ),
-
-              const SizedBox(height: 8),
-              Text(
-                '${state.currentIndex + 1}/${state.totalCharacters}',
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-
-              const SizedBox(height: 16),
-
               // Writing canvas
               Expanded(
                 child: Center(
@@ -359,6 +340,31 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                       ),
                     ),
                   ),
+                ),
+              ),
+
+              // Character progress indicator
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  children: [
+                    LinearProgressIndicator(
+                      value: state.totalCharacters > 0
+                          ? (state.currentIndex + 1) / state.totalCharacters
+                          : 0,
+                      backgroundColor: Colors.grey.shade200,
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        _characterComplete ? Colors.green : Colors.blue,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      'Character ${state.currentIndex + 1} of ${state.totalCharacters}',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color: Colors.grey[600],
+                          ),
+                    ),
+                  ],
                 ),
               ),
 
@@ -382,29 +388,65 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     // Clear button
-                    IconButton(
-                      onPressed: _clearCanvas,
-                      icon: const Icon(Icons.delete_outline),
-                      tooltip: AppLocalizations.of(context).clearTooltip,
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: _clearCanvas,
+                          icon: const Icon(Icons.delete_outline),
+                          tooltip: AppLocalizations.of(context).clearTooltip,
+                        ),
+                        Text(
+                          'Clear',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.grey[600],
+                          ),
+                        ),
+                      ],
                     ),
 
                     // Play pronunciation
-                    IconButton(
-                      onPressed: state.currentCharacter != null
-                          ? () => _playPronunciation(state.currentCharacter!.codepoint)
-                          : null,
-                      icon: const Icon(Icons.volume_up),
-                      tooltip: AppLocalizations.of(context).playPronunciation,
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: state.currentCharacter != null
+                              ? () => _playPronunciation(state.currentCharacter!.codepoint)
+                              : null,
+                          icon: const Icon(Icons.volume_up),
+                          tooltip: AppLocalizations.of(context).playPronunciation,
+                        ),
+                        Text(
+                          'Sound',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.grey[600],
+                          ),
+                        ),
+                      ],
                     ),
 
                     if (_showHint) ...[
                       const SizedBox(width: 8),
-                      IconButton(
-                        onPressed: () {
-                          setState(() => _showHint = false);
-                        },
-                        icon: const Icon(Icons.visibility),
-                        tooltip: AppLocalizations.of(context).hideHint,
+                      Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          IconButton(
+                            onPressed: () {
+                              setState(() => _showHint = false);
+                            },
+                            icon: const Icon(Icons.visibility),
+                            tooltip: AppLocalizations.of(context).hideHint,
+                          ),
+                          Text(
+                            'Hint',
+                            style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.grey[600],
+                            ),
+                          ),
+                        ],
                       ),
                     ],
                   ],
