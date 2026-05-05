@@ -5,6 +5,7 @@ import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_it_lao/presentation/widgets/main_bottom_nav.dart';
 
 class ReviewScreen extends ConsumerStatefulWidget {
   const ReviewScreen({super.key});
@@ -42,19 +43,11 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     final weakCodepoints = weakCharacters.map((c) => c.codepoint).toSet();
 
     return Scaffold(
+      bottomNavigationBar: const MainBottomNav(currentIndex: 1),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).reviewTitle),
         centerTitle: true,
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            if (context.canPop()) {
-              context.pop();
-            } else {
-              context.go('/');
-            }
-          },
-        ),
+        automaticallyImplyLeading: false,
         actions: const [],
       ),
       body: Column(

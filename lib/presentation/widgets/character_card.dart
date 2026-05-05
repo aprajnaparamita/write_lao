@@ -108,97 +108,28 @@ class CharacterCard extends StatelessWidget {
 
 class LessonCard extends StatelessWidget {
   final String title;
-  final String subtitle;
-  final String characterPreview;
+  final List<String> characterPreviews;
   final int stars;
-  final int totalLessons;
-  final bool isAvailable;
   final bool isCurrent;
   final VoidCallback? onTap;
+  final VoidCallback? onReview;
 
   const LessonCard({
     super.key,
     required this.title,
-    required this.subtitle,
-    required this.characterPreview,
+    required this.characterPreviews,
     this.stars = 0,
-    this.totalLessons = 0,
-    this.isAvailable = true,
     this.isCurrent = false,
     this.onTap,
+    this.onReview,
   });
 
   @override
   Widget build(BuildContext context) {
-    final content = Padding(
-      padding: const EdgeInsets.all(16),
-      child: Row(
-        children: [
-          // Character preview
-          Container(
-            width: 56,
-            height: 56,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: isAvailable
-                  ? AppTheme.primary.withValues(alpha: 0.1)
-                  : Colors.grey[200],
-              border: Border.all(
-                color: isAvailable
-                    ? AppTheme.primary.withValues(alpha: 0.3)
-                    : Colors.grey[300]!,
-              ),
-            ),
-            child: Center(
-              child: Text(
-                isAvailable ? characterPreview : '🔒',
-                style: const TextStyle(
-                  fontFamily: 'Noto Lao',
-                  fontSize: 28,
-                ),
-              ),
-            ),
-          ),
-
-          const SizedBox(width: 16),
-
-          // Title and subtitle
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  subtitle,
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-              ],
-            ),
-          ),
-
-          // Stars
-          if (isAvailable)
-            StarRating(stars: stars, size: 18),
-
-          if (isAvailable)
-            const Icon(
-              Icons.chevron_right,
-              color: AppTheme.textSecondary,
-            ),
-        ],
-      ),
-    );
-
     return Card(
       clipBehavior: isCurrent ? Clip.antiAlias : Clip.none,
       child: InkWell(
-        onTap: isAvailable ? onTap : null,
+        onTap: onTap,
         borderRadius: isCurrent ? null : BorderRadius.circular(12),
         child: isCurrent
             ? IntrinsicHeight(
@@ -206,11 +137,87 @@ class LessonCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Container(width: 4, color: AppTheme.primary),
-                    Expanded(child: content),
+                    Expanded(child: _content(context)),
                   ],
                 ),
               )
-            : content,
+            : _content(context),
+      ),
+    );
+  }
+
+  Widget _content(BuildContext context) {
+    final charPreview = characterPreviews.take(8).join('  ');
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 14, 16, 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                child: Text(
+                  title,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                ),
+              ),
+              StarRating(stars: stars, size: 16),
+            ],
+          ),
+          if (charPreview.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Expanded(
+                  child: Text(
+                    charPreview,
+                    style: const TextStyle(
+                      fontFamily: 'Noto Lao',
+                      fontSize: 20,
+                      color: AppTheme.textSecondary,
+                    ),
+                  ),
+                ),
+                if (onReview != null) ...[
+                  const SizedBox(width: 8),
+                  _ReviewPill(onPressed: onReview!),
+                ],
+              ],
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _ReviewPill extends StatelessWidget {
+  final VoidCallback onPressed;
+  const _ReviewPill({required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onPressed,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+        decoration: BoxDecoration(
+          color: AppTheme.accent,
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: const Text(
+          'REVIEW',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 11,
+            fontWeight: FontWeight.w700,
+            letterSpacing: 0.5,
+          ),
+        ),
       ),
     );
   }

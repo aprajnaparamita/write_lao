@@ -207,11 +207,16 @@ class _VocabLessonPracticeScreenState
         nextLessonLabel = 'Lesson ${nextLesson.lessonNumber}'
             '${firstWord != null ? ' — $firstWord' : ''}';
       }
+      final practicedWords = _plan?.cards
+          .map((c) => course?.getWord(c.wordId)?.laoWord)
+          .whereType<String>()
+          .toList();
       return LessonCompleteScreen(
         lessonNumber: lesson?.lessonNumber ?? 1,
         totalWords: _plan?.cards.length ?? 0,
         errors: _totalErrors,
         nextLessonLabel: nextLessonLabel,
+        practicedWords: practicedWords,
         onContinue: () => context.pop(),
       );
     }

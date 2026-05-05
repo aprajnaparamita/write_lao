@@ -182,23 +182,17 @@ final router = GoRouter(
     GoRoute(
       path: '/progress',
       name: 'progress',
-      pageBuilder: (context, state) => CustomTransitionPage(
+      pageBuilder: (context, state) => NoTransitionPage(
         key: state.pageKey,
         child: const ProgressScreen(),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
       ),
     ),
     GoRoute(
       path: '/review',
       name: 'review',
-      pageBuilder: (context, state) => CustomTransitionPage(
+      pageBuilder: (context, state) => NoTransitionPage(
         key: state.pageKey,
         child: const ReviewScreen(),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
       ),
     ),
     GoRoute(

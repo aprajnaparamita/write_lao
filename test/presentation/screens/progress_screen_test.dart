@@ -108,6 +108,7 @@ void main() {
 
     expect(find.byKey(const Key('progress.suggestedNext')), findsOneWidget);
     expect(find.text('Review Weak Characters'), findsOneWidget);
-    expect(find.text('Review'), findsOneWidget);
+    // 'Review' appears both in the card button and the bottom nav tab
+    expect(find.text('Review'), findsWidgets);
   });
 }

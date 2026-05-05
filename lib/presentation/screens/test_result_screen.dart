@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/data/models/lao_character.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/controllers/test_controller.dart';
+import 'package:write_it_lao/presentation/widgets/result_screen_widgets.dart';
 
 class TestResultScreen extends ConsumerStatefulWidget {
   final String lessonId;
@@ -25,10 +27,9 @@ class TestResultScreen extends ConsumerStatefulWidget {
 class _TestResultScreenState extends ConsumerState<TestResultScreen>
     with TickerProviderStateMixin {
   late AnimationController _starController;
-  late AnimationController _contentController;
+  late AnimationController _fadeController;
   late Animation<double> _starAnimation;
   late Animation<double> _fadeAnimation;
-  late Animation<Offset> _slideAnimation;
 
   @override
   void initState() {
@@ -38,46 +39,27 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
       vsync: this,
       duration: const Duration(milliseconds: 1200),
     );
-
-    _contentController = AnimationController(
+    _fadeController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 800),
+      duration: const Duration(milliseconds: 600),
     );
-
     _starAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
-      CurvedAnimation(
-        parent: _starController,
-        curve: Curves.elasticOut,
-      ),
+      CurvedAnimation(parent: _starController, curve: Curves.elasticOut),
     );
-
     _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
-      CurvedAnimation(
-        parent: _contentController,
-        curve: Curves.easeIn,
-      ),
-    );
-
-    _slideAnimation = Tween<Offset>(
-      begin: const Offset(0, 0.3),
-      end: Offset.zero,
-    ).animate(
-      CurvedAnimation(
-        parent: _contentController,
-        curve: Curves.easeOut,
-      ),
+      CurvedAnimation(parent: _fadeController, curve: Curves.easeIn),
     );
 
     _starController.forward();
-    Future.delayed(const Duration(milliseconds: 600), () {
-      _contentController.forward();
+    Future.delayed(const Duration(milliseconds: 500), () {
+      if (mounted) _fadeController.forward();
     });
   }
 
   @override
   void dispose() {
     _starController.dispose();
-    _contentController.dispose();
+    _fadeController.dispose();
     super.dispose();
   }
 
@@ -89,44 +71,12 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
     return lessons[idx + 1].id;
   }
 
-  Widget _buildButtons(
-      BuildContext context, AppLocalizations l10n, int stars) {
-    final nextId = _nextLessonId();
-    final passed = stars >= 2;
-
-    final primaryLabel =
-        (passed && nextId != null) ? 'Next Lesson' : l10n.practiceAgain;
-    final primaryRoute = (passed && nextId != null)
-        ? '/lessons/$nextId'
-        : '/practice/${widget.lessonId}';
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        FilledButton(
-          onPressed: () => context.go(primaryRoute),
-          child: Text(primaryLabel),
-        ),
-        const SizedBox(height: 12),
-        OutlinedButton(
-          onPressed: () => context.go('/test/${widget.lessonId}'),
-          child: Text(l10n.testAgain),
-        ),
-        const SizedBox(height: 4),
-        TextButton(
-          onPressed: () => context.go('/'),
-          child: Text(l10n.mainMenu),
-        ),
-      ],
-    );
-  }
-
   String _formatTime(int? ms) {
     if (ms == null) return '--:--';
     final seconds = (ms / 1000).floor();
     final minutes = (seconds / 60).floor();
-    final remainingSeconds = seconds % 60;
-    return '${minutes.toString().padLeft(2, '0')}:${remainingSeconds.toString().padLeft(2, '0')}';
+    final remaining = seconds % 60;
+    return '$minutes:${remaining.toString().padLeft(2, '0')}';
   }
 
   @override
@@ -134,132 +84,153 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
     final l10n = AppLocalizations.of(context);
     final testState = ref.watch(testControllerProvider);
     final stars = testState.earnedStars ?? 0;
-    final characterList = testState.characters.map((c) => c.displayChar).toList();
+    final characters = testState.characters;
     final bestTimeMs = testState.result?.totalTimeMs;
+    final lessonTitle = testState.lesson?.title ?? l10n.resultGoodTry;
+    final nextId = _nextLessonId();
+    final passed = stars >= 2;
 
     return Scaffold(
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              // Stars
-              AnimatedBuilder(
-                animation: _starAnimation,
-                builder: (context, child) {
-                  return Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: List.generate(3, (index) {
-                      final isEarned = index < stars;
-                      final animValue = isEarned
-                          ? _starAnimation.value
-                          : 1.0;
-
-                      return Transform.scale(
-                        scale: isEarned ? animValue : 1.0,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8),
-                          child: Icon(
-                            isEarned ? Icons.star : Icons.star_border,
-                            size: 64,
-                            color: isEarned
-                                ? AppTheme.starGold
-                                : Colors.grey[300],
+      backgroundColor: AppTheme.primary,
+      appBar: AppBar(
+        backgroundColor: AppTheme.primary,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        title: Text(lessonTitle, style: const TextStyle(color: Colors.white)),
+      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(20, 24, 20, 16),
+              child: Column(
+                children: [
+                  _buildStars(stars),
+                  const SizedBox(height: 28),
+                  FadeTransition(
+                    opacity: _fadeAnimation,
+                    child: Column(
+                      children: [
+                        Text(
+                          stars == 3
+                              ? l10n.resultPerfect
+                              : stars == 2
+                                  ? l10n.resultGreatJob
+                                  : l10n.resultGoodTry,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 22,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                      );
-                    }),
-                  );
-                },
-              ),
-
-              const SizedBox(height: 32),
-
-              // Content with slide animation
-              SlideTransition(
-                position: _slideAnimation,
-                child: FadeTransition(
-                  opacity: _fadeAnimation,
-                  child: Column(
-                    children: [
-                      // Title
-                      Text(
-                        stars == 3
-                            ? l10n.resultPerfect
-                            : stars == 2
-                                ? l10n.resultGreatJob
-                                : l10n.resultGoodTry,
-                        style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                              fontWeight: FontWeight.bold,
+                        if (bestTimeMs != null) ...[
+                          const SizedBox(height: 6),
+                          Text(
+                            l10n.time,
+                            style: const TextStyle(
+                              color: Colors.white70,
+                              fontSize: 14,
                             ),
-                      ),
-
-                      const SizedBox(height: 24),
-
-                      // Time taken
-                      if (bestTimeMs != null) ...[
-                        Text(
-                          l10n.time,
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Colors.grey[600],
-                              ),
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          _formatTime(bestTimeMs),
-                          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                                fontFamily: 'monospace',
-                                fontWeight: FontWeight.w600,
-                              ),
-                        ),
-                        const SizedBox(height: 24),
+                          ),
+                          const SizedBox(height: 2),
+                          Text(
+                            _formatTime(bestTimeMs),
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 28,
+                              fontWeight: FontWeight.w300,
+                            ),
+                          ),
+                        ],
+                        const SizedBox(height: 28),
+                        _buildCharacterGrid(characters),
                       ],
-
-                      // Character list
-                      Text(
-                        l10n.characters,
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                              color: Colors.grey[600],
-                            ),
-                      ),
-                      const SizedBox(height: 8),
-                      Wrap(
-                        spacing: 12,
-                        runSpacing: 8,
-                        alignment: WrapAlignment.center,
-                        children: characterList.map((char) {
-                          return Container(
-                            width: 48,
-                            height: 48,
-                            decoration: BoxDecoration(
-                              color: AppTheme.primary.withValues(alpha: 0.1),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Center(
-                              child: Text(
-                                char,
-                                style: const TextStyle(
-                                  fontFamily: 'Noto Lao',
-                                  fontSize: 24,
-                                ),
-                              ),
-                            ),
-                          );
-                        }).toList(),
-                      ),
-
-                      const SizedBox(height: 48),
-
-                      // Buttons — primary action depends on score
-                      _buildButtons(context, l10n, stars),
-                    ],
+                    ),
                   ),
+                ],
+              ),
+            ),
+          ),
+          _buildBottomButtons(context, l10n, passed, nextId),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildStars(int stars) {
+    return AnimatedBuilder(
+      animation: _starAnimation,
+      builder: (context, _) {
+        return Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(3, (index) {
+            final earned = index < stars;
+            return Transform.scale(
+              scale: earned ? _starAnimation.value.clamp(0.0, 1.2) : 1.0,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 6),
+                child: Icon(
+                  earned ? Icons.star_rounded : Icons.star_border_rounded,
+                  size: 72,
+                  color: earned ? AppTheme.starGold : Colors.white24,
                 ),
               ),
-            ],
+            );
+          }),
+        );
+      },
+    );
+  }
+
+  Widget _buildCharacterGrid(List<LaoCharacter> characters) {
+    if (characters.isEmpty) return const SizedBox.shrink();
+    return GridView.builder(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        crossAxisSpacing: 12,
+        mainAxisSpacing: 12,
+        childAspectRatio: 1.0,
+      ),
+      itemCount: characters.length,
+      itemBuilder: (context, i) =>
+          CharacterResultCard(character: characters[i]),
+    );
+  }
+
+  Widget _buildBottomButtons(
+      BuildContext context, AppLocalizations l10n, bool passed, String? nextId) {
+    final primaryLabel =
+        (passed && nextId != null) ? 'Next Lesson' : l10n.practiceAgain;
+    final primaryRoute = (passed && nextId != null)
+        ? '/lessons/$nextId'
+        : '/practice/${widget.lessonId}';
+
+    return Container(
+      color: AppTheme.primary,
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ResultOutlinedButton(
+            label: l10n.practiceAgain.toUpperCase(),
+            onPressed: () => context.go('/practice/${widget.lessonId}'),
           ),
-        ),
+          const SizedBox(height: 10),
+          ResultFilledButton(
+            label: primaryLabel.toUpperCase(),
+            onPressed: () => context.go(primaryRoute),
+          ),
+          const SizedBox(height: 4),
+          TextButton(
+            onPressed: () => context.go('/'),
+            child: Text(
+              l10n.mainMenu,
+              style: const TextStyle(color: Colors.white54),
+            ),
+          ),
+        ],
       ),
     );
   }

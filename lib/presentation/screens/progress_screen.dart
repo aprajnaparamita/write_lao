@@ -6,6 +6,7 @@ import 'package:write_it_lao/data/repositories/character_repository.dart';
 import 'package:write_it_lao/data/repositories/progress_repository.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_it_lao/presentation/widgets/main_bottom_nav.dart';
 
 class ProgressScreen extends ConsumerWidget {
   const ProgressScreen({super.key});
@@ -30,9 +31,11 @@ class ProgressScreen extends ConsumerWidget {
     ];
 
     return Scaffold(
+      bottomNavigationBar: const MainBottomNav(currentIndex: 2),
       appBar: AppBar(
         title: Text(l10n.progressTitle),
         centerTitle: true,
+        automaticallyImplyLeading: false,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
+import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_it_lao/presentation/widgets/result_screen_widgets.dart';
 
-class PracticeCompleteScreen extends StatefulWidget {
+class PracticeCompleteScreen extends ConsumerStatefulWidget {
   final String lessonId;
   final List<String> characterList;
 
@@ -14,211 +17,177 @@ class PracticeCompleteScreen extends StatefulWidget {
   });
 
   @override
-  State<PracticeCompleteScreen> createState() => _PracticeCompleteScreenState();
+  ConsumerState<PracticeCompleteScreen> createState() =>
+      _PracticeCompleteScreenState();
 }
 
-class _PracticeCompleteScreenState extends State<PracticeCompleteScreen>
-    with TickerProviderStateMixin {
-  late AnimationController _iconController;
-  late AnimationController _contentController;
-  late Animation<double> _iconAnimation;
+class _PracticeCompleteScreenState extends ConsumerState<PracticeCompleteScreen>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnimation;
   late Animation<double> _fadeAnimation;
-  late Animation<Offset> _slideAnimation;
 
   @override
   void initState() {
     super.initState();
-
-    _iconController = AnimationController(
+    _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1000),
+      duration: const Duration(milliseconds: 900),
     );
-
-    _contentController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 800),
+    _scaleAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.elasticOut),
     );
-
-    _iconAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
-      CurvedAnimation(
-        parent: _iconController,
-        curve: Curves.elasticOut,
-      ),
-    );
-
     _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
       CurvedAnimation(
-        parent: _contentController,
-        curve: Curves.easeIn,
+        parent: _controller,
+        curve: const Interval(0.4, 1.0, curve: Curves.easeIn),
       ),
     );
-
-    _slideAnimation = Tween<Offset>(
-      begin: const Offset(0, 0.3),
-      end: Offset.zero,
-    ).animate(
-      CurvedAnimation(
-        parent: _contentController,
-        curve: Curves.easeOut,
-      ),
-    );
-
-    _iconController.forward();
-    Future.delayed(const Duration(milliseconds: 500), () {
-      if (mounted) _contentController.forward();
-    });
+    _controller.forward();
   }
 
   @override
   void dispose() {
-    _iconController.dispose();
-    _contentController.dispose();
+    _controller.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    final repo = ref.read(characterRepositoryProvider);
+    final isReview = widget.lessonId == 'review';
+
+    final characters = isReview
+        ? () {
+            final all = repo.getAllCharacters();
+            final charSet = widget.characterList.toSet();
+            return all.where((c) => charSet.contains(c.char)).toList();
+          }()
+        : repo.getCharactersForLesson(widget.lessonId);
 
     return Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                // Checkmark icon
-                ScaleTransition(
-                  scale: _iconAnimation,
-                  child: Container(
-                    width: 96,
-                    height: 96,
-                    decoration: BoxDecoration(
-                      color: AppTheme.success.withValues(alpha: 0.15),
-                      shape: BoxShape.circle,
-                    ),
-                    child: const Icon(
-                      Icons.check_circle,
-                      size: 64,
-                      color: AppTheme.success,
+      backgroundColor: AppTheme.primary,
+      appBar: AppBar(
+        backgroundColor: AppTheme.primary,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        title: Text(
+          isReview ? l10n.reviewTitle : l10n.practiceComplete,
+          style: const TextStyle(color: Colors.white),
+        ),
+      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(20, 24, 20, 16),
+              child: Column(
+                children: [
+                  ScaleTransition(
+                    scale: _scaleAnimation,
+                    child: Container(
+                      width: 96,
+                      height: 96,
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.15),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Icons.check_circle_rounded,
+                        size: 64,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
-                ),
-
-                const SizedBox(height: 32),
-
-                // Content
-                SlideTransition(
-                  position: _slideAnimation,
-                  child: FadeTransition(
+                  const SizedBox(height: 24),
+                  FadeTransition(
                     opacity: _fadeAnimation,
                     child: Column(
                       children: [
                         Text(
                           l10n.practiceComplete,
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                fontWeight: FontWeight.bold,
-                              ),
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 22,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-
-                        const SizedBox(height: 12),
-
+                        const SizedBox(height: 4),
                         Text(
-                          l10n.practiceCompleteMessage(widget.characterList.length),
-                          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                color: Colors.grey[600],
-                              ),
+                          l10n.practiceCompleteMessage(characters.length),
+                          style: const TextStyle(
+                            color: Colors.white70,
+                            fontSize: 15,
+                          ),
                           textAlign: TextAlign.center,
                         ),
-
-                        const SizedBox(height: 32),
-
-                        // Character list
-                        Text(
-                          l10n.characters,
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Colors.grey[600],
-                              ),
-                        ),
-                        const SizedBox(height: 8),
-                        Wrap(
-                          spacing: 12,
-                          runSpacing: 8,
-                          alignment: WrapAlignment.center,
-                          children: widget.characterList.map((char) {
-                            return Container(
-                              width: 48,
-                              height: 48,
-                              decoration: BoxDecoration(
-                                color: AppTheme.success.withValues(alpha: 0.1),
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  char,
-                                  style: const TextStyle(
-                                    fontFamily: 'Noto Lao',
-                                    fontSize: 24,
-                                  ),
-                                ),
-                              ),
-                            );
-                          }).toList(),
-                        ),
-
-                        const SizedBox(height: 48),
-
-                        // Buttons
-                        if (widget.lessonId != 'review') ...[
-                          SizedBox(
-                            width: double.infinity,
-                            child: ElevatedButton(
-                              onPressed: () => context.go('/test/${widget.lessonId}'),
-                              child: Text(l10n.takeTest),
+                        if (characters.isNotEmpty) ...[
+                          const SizedBox(height: 28),
+                          GridView.builder(
+                            shrinkWrap: true,
+                            physics: const NeverScrollableScrollPhysics(),
+                            gridDelegate:
+                                const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2,
+                              crossAxisSpacing: 12,
+                              mainAxisSpacing: 12,
+                              childAspectRatio: 1.0,
                             ),
+                            itemCount: characters.length,
+                            itemBuilder: (context, i) =>
+                                CharacterResultCard(character: characters[i]),
                           ),
-                          const SizedBox(height: 12),
-                          SizedBox(
-                            width: double.infinity,
-                            child: OutlinedButton(
-                              onPressed: () => context.go('/practice/${widget.lessonId}'),
-                              child: Text(l10n.practiceAgain),
-                            ),
-                          ),
-                          const SizedBox(height: 12),
-                          TextButton(
-                            onPressed: () => context.go('/lessons/${widget.lessonId}'),
-                            child: Text(l10n.backToLesson),
-                          ),
-                          const SizedBox(height: 4),
                         ],
-                        if (widget.lessonId == 'review') ...[
-                          SizedBox(
-                            width: double.infinity,
-                            child: ElevatedButton(
-                              onPressed: () {
-                                context.pop(); // practice screen
-                                context.pop(); // review screen
-                              },
-                              child: Text(l10n.backToReview),
-                            ),
-                          ),
-                          const SizedBox(height: 12),
-                        ],
-                        TextButton(
-                          onPressed: () => context.go('/'),
-                          child: Text(l10n.mainMenu),
-                        ),
                       ],
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
-        ),
+          _buildBottomButtons(context, l10n, isReview),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildBottomButtons(
+      BuildContext context, AppLocalizations l10n, bool isReview) {
+    return Container(
+      color: AppTheme.primary,
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          if (!isReview) ...[
+            ResultFilledButton(
+              label: l10n.takeTest.toUpperCase(),
+              onPressed: () => context.go('/test/${widget.lessonId}'),
+            ),
+            const SizedBox(height: 10),
+            ResultOutlinedButton(
+              label: l10n.practiceAgain.toUpperCase(),
+              onPressed: () => context.go('/practice/${widget.lessonId}'),
+            ),
+          ] else ...[
+            ResultFilledButton(
+              label: l10n.backToReview.toUpperCase(),
+              onPressed: () {
+                context.pop();
+                context.pop();
+              },
+            ),
+          ],
+          const SizedBox(height: 4),
+          TextButton(
+            onPressed: () => context.go('/'),
+            child: Text(
+              l10n.mainMenu,
+              style: const TextStyle(color: Colors.white54),
+            ),
+          ),
+        ],
       ),
     );
   }
