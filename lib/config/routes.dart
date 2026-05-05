@@ -323,6 +323,7 @@ final router = GoRouter(
                 if (context.mounted) context.pop();
               },
               onDismissed: () => context.pop(),
+              onRestore: () => context.push('/vocab/restore'),
             );
           },
         ),

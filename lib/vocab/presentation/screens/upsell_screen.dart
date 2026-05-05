@@ -1,28 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 
-/// Full-screen upsell modal shown to free users after completing the preview
-/// lesson or when they tap a locked unit.
 class UpsellScreen extends StatefulWidget {
-  /// Called when the user taps "Buy now" and the purchase succeeds.
   final VoidCallback? onPurchaseComplete;
-
-  /// Called when the user taps "Maybe later" or backs out.
   final VoidCallback? onDismissed;
 
-  /// The IAP service to use for purchasing.
+  /// Optional callback for the RESTORE button in the header.
+  /// When null the button is hidden.
+  final VoidCallback? onRestore;
+
   final IapService iapService;
 
-  /// Platform-localized price string (e.g. "$0.99", "€0.89"). When null the
-  /// button reads "Buy Now" — the platform's purchase sheet always shows the
-  /// real price, so this is only a preview.
+  /// Platform-localized price string (e.g. "$4.99"). When null the button
+  /// reads "BUY NOW" — the platform sheet always shows the real price.
   final String? priceLabel;
 
   const UpsellScreen({
     super.key,
     this.onPurchaseComplete,
     this.onDismissed,
+    this.onRestore,
     required this.iapService,
     this.priceLabel,
   });
@@ -35,6 +34,8 @@ class _UpsellScreenState extends State<UpsellScreen> {
   bool _isLoading = false;
   String? _error;
 
+  static const _cardColor = Color(0xFF1A004A);
+
   Future<void> _handlePurchase() async {
     setState(() {
       _isLoading = true;
@@ -44,22 +45,18 @@ class _UpsellScreenState extends State<UpsellScreen> {
     final result = await widget.iapService.purchase();
 
     if (!mounted) return;
-
     setState(() => _isLoading = false);
 
     switch (result) {
       case IapSuccess():
         widget.onPurchaseComplete?.call();
       case IapCancelled():
-        // User cancelled, stay on screen
         break;
       case IapError(:final message):
         setState(() => _error = message);
       case IapRestored():
-        // Shouldn't happen from purchase(), but handle gracefully
         widget.onPurchaseComplete?.call();
       case IapNotRestored():
-        // Shouldn't happen from purchase()
         break;
     }
   }
@@ -67,195 +64,222 @@ class _UpsellScreenState extends State<UpsellScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Unlock'),
-        centerTitle: true,
-        leading: IconButton(
-          icon: const Icon(Icons.close),
-          onPressed: widget.onDismissed,
-        ),
-      ),
+      backgroundColor: AppTheme.primary,
       body: SafeArea(
-        child: Center(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(32),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Icon(
-                  Icons.school,
-                  size: 80,
-                  color: Colors.blue,
-                ),
-                const SizedBox(height: 32),
-                Text(
-                  'Unlock 500 Words',
-                  style: Theme.of(context).textTheme.headlineMedium,
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  'Learn Lao vocabulary with writing practice.\nMaster 500 essential words.',
-                  style: Theme.of(context).textTheme.bodyLarge,
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 24),
-                const _ComparisonSection(),
-                const SizedBox(height: 24),
-                const _FeatureRow(icon: Icons.edit, text: 'Writing practice for every word'),
-                const _FeatureRow(icon: Icons.repeat, text: 'Spaced repetition review'),
-                const _FeatureRow(icon: Icons.volume_up, text: 'Audio pronunciation'),
-                const _FeatureRow(icon: Icons.flag, text: 'Flag words for extra practice'),
-                const SizedBox(height: 32),
-                if (_error != null)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 16),
-                    child: Text(
-                      _error!,
-                      style: TextStyle(color: Theme.of(context).colorScheme.error),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                FilledButton(
-                  key: WordCardKeys.upsellBuyNow,
-                  onPressed: _isLoading ? null : _handlePurchase,
-                  child: _isLoading
-                      ? const SizedBox(
-                          width: 20,
-                          height: 20,
-                          child: CircularProgressIndicator(strokeWidth: 2),
-                        )
-                      : Text(widget.priceLabel == null
-                          ? 'Buy Now'
-                          : 'Buy Now — ${widget.priceLabel}'),
-                ),
-                const SizedBox(height: 12),
-                TextButton(
-                  key: WordCardKeys.upsellMaybeLater,
-                  onPressed: widget.onDismissed,
-                  child: const Text('Maybe later'),
-                ),
-              ],
-            ),
-          ),
+        child: Column(
+          children: [
+            _buildHeader(),
+            Expanded(child: _buildScrollableContent()),
+            _buildBottomButton(),
+          ],
         ),
       ),
     );
   }
-}
 
-class _FeatureRow extends StatelessWidget {
-  final IconData icon;
-  final String text;
-
-  const _FeatureRow({required this.icon, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
+  Widget _buildHeader() {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          IconButton(
+            key: WordCardKeys.upsellMaybeLater,
+            icon: const Icon(Icons.close, color: Colors.white),
+            onPressed: widget.onDismissed,
+          ),
+          if (widget.onRestore != null)
+            TextButton(
+              onPressed: widget.onRestore,
+              child: const Text(
+                'RESTORE',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.5,
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildScrollableContent() {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(24, 8, 24, 24),
+      child: Column(
+        children: [
+          Container(
+            width: 80,
+            height: 80,
+            decoration: const BoxDecoration(
+              color: AppTheme.accent,
+              shape: BoxShape.circle,
+            ),
+            child: const Icon(Icons.edit, color: Colors.white, size: 40),
+          ),
+          const SizedBox(height: 24),
+          const Text(
+            'Unlock 500 Words',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 32),
+          _FeatureCard(
+            color: _cardColor,
+            iconBgColor: AppTheme.primaryLight,
+            icon: Icons.menu_book,
+            title: '500 Vocabulary Words',
+            description:
+                'Practice writing every essential Lao word with stroke-by-stroke guidance.',
+          ),
+          const SizedBox(height: 12),
+          _FeatureCard(
+            color: _cardColor,
+            iconBgColor: AppTheme.primaryLight,
+            icon: Icons.repeat,
+            title: 'Spaced Repetition',
+            description:
+                'Smart review keeps words fresh without overloading you.',
+          ),
+          const SizedBox(height: 12),
+          _FeatureCard(
+            color: _cardColor,
+            iconBgColor: AppTheme.primaryLight,
+            icon: Icons.favorite,
+            title: 'One-time Purchase',
+            description:
+                'Pay once, no subscription. Includes all future content.',
+          ),
+          if (_error != null) ...[
+            const SizedBox(height: 16),
+            Text(
+              _error!,
+              style: const TextStyle(color: Colors.redAccent, fontSize: 14),
+              textAlign: TextAlign.center,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _buildBottomButton() {
+    return Container(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+      color: AppTheme.primary,
+      child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 20, color: Colors.green),
-          const SizedBox(width: 8),
-          Text(text),
+          SizedBox(
+            width: double.infinity,
+            height: 56,
+            child: FilledButton(
+              key: WordCardKeys.upsellBuyNow,
+              style: FilledButton.styleFrom(
+                backgroundColor: AppTheme.success,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              onPressed: _isLoading ? null : _handlePurchase,
+              child: _isLoading
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  : Text(
+                      widget.priceLabel == null
+                          ? 'BUY NOW'
+                          : 'BUY NOW — ${widget.priceLabel}',
+                      style: const TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 0.5,
+                        color: Colors.white,
+                      ),
+                    ),
+            ),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            '* One-time purchase — full access to all content and future updates',
+            style: TextStyle(color: Colors.white60, fontSize: 12),
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
     );
   }
 }
 
-class _ComparisonSection extends StatelessWidget {
-  const _ComparisonSection();
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          "What's included",
-          style: Theme.of(context).textTheme.titleMedium,
-          textAlign: TextAlign.left,
-        ),
-        const SizedBox(height: 12),
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Expanded(
-              child: _ComparisonColumn(
-                title: 'Unit 1 (Free)',
-                titleColor: Colors.green,
-                items: const [
-                  '25 vocabulary words',
-                  'Writing practice',
-                  'Basic review',
-                  'Audio pronunciation',
-                ],
-              ),
-            ),
-            const SizedBox(width: 16),
-            Expanded(
-              child: _ComparisonColumn(
-                title: 'Unlock with Purchase',
-                titleColor: Colors.blue,
-                items: const [
-                  '500 vocabulary words',
-                  'All writing practice',
-                  'Spaced repetition',
-                  'Progress tracking',
-                ],
-              ),
-            ),
-          ],
-        ),
-      ],
-    );
-  }
-}
-
-class _ComparisonColumn extends StatelessWidget {
+class _FeatureCard extends StatelessWidget {
+  final Color color;
+  final Color iconBgColor;
+  final IconData icon;
   final String title;
-  final Color titleColor;
-  final List<String> items;
+  final String description;
 
-  const _ComparisonColumn({
+  const _FeatureCard({
+    required this.color,
+    required this.iconBgColor,
+    required this.icon,
     required this.title,
-    required this.titleColor,
-    required this.items,
+    required this.description,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          title,
-          style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                color: titleColor,
-                fontWeight: FontWeight.bold,
-              ),
-        ),
-        const SizedBox(height: 8),
-        ...items.map((item) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 2),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Icon(Icons.check, size: 16, color: titleColor),
-                  const SizedBox(width: 4),
-                  Expanded(
-                    child: Text(
-                      item,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: color,
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 48,
+            height: 48,
+            decoration: BoxDecoration(
+              color: iconBgColor,
+              shape: BoxShape.circle,
+            ),
+            child: Icon(icon, color: Colors.white, size: 24),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
                   ),
-                ],
-              ),
-            )),
-      ],
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  description,
+                  style: const TextStyle(color: Colors.white70, fontSize: 14),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
