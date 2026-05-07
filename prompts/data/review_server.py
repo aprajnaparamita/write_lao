@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Image and Audio Review Server for Lao Vocabulary
+Word Review Server for Write It Lao
 A simple HTTP server to review generated images and audio files.
 
 Usage: python3 review_server.py [port]
@@ -24,49 +24,35 @@ PORT = 8000
 
 # Directories
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-WORDS_DIR = os.path.join(BASE_DIR, 'step5_individual_words')
-OUTPUTS_DIR = os.path.join(BASE_DIR, 'outputs')
-MARKS_DIR = os.path.join(BASE_DIR, 'marks')
+COURSE_FILE = os.path.join(BASE_DIR, '..', '..', 'assets', 'vocab', 'course.json')
+OUTPUTS_DIR = os.path.join(BASE_DIR, '..', '..', 'outputs')
+MARKS_DIR = os.path.join(BASE_DIR, '..', '..', 'marks')
 
-# Audio directories
-AUDIO_DIR = os.path.join(BASE_DIR, '..', '..', 'assets', 'audio')
-VOCAB_AUDIO_DIR = os.path.join(BASE_DIR, '..', '..', 'assets', 'vocab', 'audio')
+# Asset directories
+ASSETS_DIR = os.path.join(BASE_DIR, '..', '..', 'assets')
+VOCAB_IMAGES_DIR = os.path.join(ASSETS_DIR, 'vocab', 'images')
+VOCAB_AUDIO_DIR = os.path.join(ASSETS_DIR, 'vocab', 'audio')
+
+# Step 5 definition prompts directory (contains image prompts)
+STEP5_PROMPTS_DIR = os.path.join(BASE_DIR, 'step5_definition_prompts')
 
 # Ensure directories exist
 os.makedirs(OUTPUTS_DIR, exist_ok=True)
 os.makedirs(MARKS_DIR, exist_ok=True)
 
+# Load course data
+def load_course_data():
+    """Load the course.json file with all word data."""
+    if os.path.exists(COURSE_FILE):
+        with open(COURSE_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return None
 
-def get_sorted_word_files():
-    """Get list of word files sorted by prompt number."""
-    files = []
-    for f in os.listdir(WORDS_DIR):
-        if f.endswith('.json'):
-            files.append(f)
-    files.sort(key=lambda x: (
-        int(re.search(r'prompt_(\d+)_of_100_(\d+)', x).group(1)),
-        int(re.search(r'prompt_(\d+)_of_100_(\d+)', x).group(2))
-    ))
-    return files
-
-
-def get_audio_files():
-    """Get all audio files from both directories."""
-    files = []
-    for directory in [AUDIO_DIR, VOCAB_AUDIO_DIR]:
-        if os.path.exists(directory):
-            for f in os.listdir(directory):
-                if f.endswith(('.m4a', '.mp3', '.wav', '.ogg', '.aac')):
-                    rel_path = os.path.relpath(os.path.join(directory, f), os.path.join(BASE_DIR, '..', '..', 'assets'))
-                    files.append({
-                        'filename': f,
-                        'relative_path': rel_path,
-                        'url': f'/assets/{rel_path}',
-                        'source': 'vocab' if 'vocab' in rel_path else 'main'
-                    })
-    files.sort(key=lambda x: x['filename'])
-    return files
-
+def get_sorted_words(course_data):
+    """Get all words sorted by word_id."""
+    words = course_data.get('words', [])
+    words.sort(key=lambda x: x['word_id'])
+    return words
 
 def get_audio_mark(filename):
     """Get the mark status for an audio file."""
@@ -76,17 +62,37 @@ def get_audio_mark(filename):
             return json.load(f)
     return {'status': 'unchecked', 'filename': filename, 'notes': ''}
 
-
 def save_audio_mark(filename, status, notes=''):
     """Save the mark status for an audio file."""
     mark_file = os.path.join(MARKS_DIR, 'audio_' + filename + '.json')
     if status == 'unchecked' and notes == '':
-        # Remove the file if resetting to unchecked
         if os.path.exists(mark_file):
             os.remove(mark_file)
     else:
         with open(mark_file, 'w', encoding='utf-8') as f:
             json.dump({'status': status, 'filename': filename, 'notes': notes}, f)
+
+def load_step5_prompts():
+    """Load all step5 definition prompts to get image prompts."""
+    prompts = {}
+    if os.path.exists(STEP5_PROMPTS_DIR):
+        for filename in os.listdir(STEP5_PROMPTS_DIR):
+            if filename.endswith('.json'):
+                filepath = os.path.join(STEP5_PROMPTS_DIR, filename)
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    # Each file contains prompts for multiple words keyed by Lao word
+                    for lao_word, word_data in data.items():
+                        if 'image_prompt' in word_data:
+                            prompts[lao_word] = word_data['image_prompt']
+                except Exception:
+                    pass
+    return prompts
+
+# Pre-load step5 prompts for image prompts
+IMAGE_PROMPTS_CACHE = load_step5_prompts()
+print(f"Loaded {len(IMAGE_PROMPTS_CACHE)} image prompts from step5_definition_prompts")
 
 
 HTML = '''<!DOCTYPE html>
@@ -105,7 +111,7 @@ HTML = '''<!DOCTYPE html>
             color: #eee;
             min-height: 100vh;
         }
-        .container { max-width: 1100px; margin: 0 auto; }
+        .container { max-width: 1000px; margin: 0 auto; }
         .nav-bar {
             display: flex;
             align-items: center;
@@ -114,12 +120,9 @@ HTML = '''<!DOCTYPE html>
             margin-bottom: 20px;
             flex-wrap: wrap;
         }
-        .progress {
-            color: #888;
-            margin-right: 15px;
-        }
+        .progress { color: #888; margin-right: 15px; }
         .nav-btn {
-            padding: 10px 20px;
+            padding: 10px 16px;
             background: #16213e;
             color: #eee;
             border: 1px solid #0f3460;
@@ -202,14 +205,56 @@ HTML = '''<!DOCTYPE html>
             margin-left: 6px; 
             font-size: 11px; 
             opacity: 0.5;
+            cursor: pointer;
         }
         .audio-btn .flag-icon:hover { opacity: 1; }
-        .audio-btn.flagged .flag-icon { opacity: 1; color: #e94560; }
+        .audio-btn.flagged .flag-icon { 
+            opacity: 1; 
+            color: #e94560;
+            background: rgba(233, 69, 96, 0.2);
+            border-radius: 3px;
+            padding: 2px 4px;
+        }
+        .audio-btn.flagged { border-color: #e94560; }
+        
+        /* Tooltip for flagged audio */
+        .flag-tooltip {
+            position: relative;
+        }
+        .flag-tooltip::after {
+            content: attr(data-notes);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s;
+            z-index: 100;
+            margin-bottom: 5px;
+        }
+        .flag-tooltip:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
         
         .prompt-section {
             background: #0f3460;
             border-radius: 8px;
             padding: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
         }
         .prompt-header {
             display: flex;
@@ -300,22 +345,6 @@ HTML = '''<!DOCTYPE html>
         .drop-zone.dragover { background: rgba(78, 204, 163, 0.2); border-color: #fff; }
         .drop-zone p { margin: 0; color: #888; }
         .drop-zone small { font-size: 12px; color: #555; margin-top: 8px; display: block; }
-        
-        .status {
-            padding: 12px 30px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;
-            transition: all 0.2s;
-        }
-        .good { background: #4ecca3; color: #1a1a2e; }
-        .good:hover { background: #3db892; transform: scale(1.02); }
-        .bad { background: #e94560; color: #fff; }
-        .bad:hover { background: #d63d56; transform: scale(1.02); }
-        .delete { background: #666; color: #fff; }
-        .delete:hover { background: #555; }
         
         .status {
             position: fixed;
@@ -469,7 +498,7 @@ HTML = '''<!DOCTYPE html>
     
     <script>
         let currentIndex = 0;
-        let files = [];
+        let words = [];
         let currentAudioFilename = null;
         let isPlaying = false;
         
@@ -482,7 +511,7 @@ HTML = '''<!DOCTYPE html>
         const placeholder = document.getElementById('placeholder');
         const dropZone = document.getElementById('dropZone');
         const statusEl = document.getElementById('status');
-        const audioRows = document.getElementById('audioRows');
+        const audioButtons = document.getElementById('audioButtons');
         
         const firstBtn = document.getElementById('firstBtn');
         const prevBtn = document.getElementById('prevBtn');
@@ -502,9 +531,9 @@ HTML = '''<!DOCTYPE html>
         let pendingFlagFilename = null;
         let pendingFlagBtn = null;
         
-        async function loadFiles() {
-            const resp = await fetch('/api/files');
-            files = await resp.json();
+        async function loadWords() {
+            const resp = await fetch('/api/words');
+            words = await resp.json();
             updateNav();
             loadCurrent();
         }
@@ -512,56 +541,54 @@ HTML = '''<!DOCTYPE html>
         function updateNav() {
             firstBtn.disabled = currentIndex === 0;
             prevBtn.disabled = currentIndex === 0;
-            nextBtn.disabled = files.length === 0 || currentIndex === files.length - 1;
-            lastBtn.disabled = files.length === 0 || currentIndex === files.length - 1;
-            progressEl.textContent = files.length === 0 ? 'No images' : `Image ${currentIndex + 1} of ${files.length}`;
+            nextBtn.disabled = words.length === 0 || currentIndex === words.length - 1;
+            lastBtn.disabled = words.length === 0 || currentIndex === words.length - 1;
+            progressEl.textContent = words.length === 0 ? 'No words' : `Word ${currentIndex + 1} of ${words.length}`;
         }
         
         async function loadCurrent() {
-            if (files.length === 0) return;
+            if (words.length === 0) return;
             
             // Stop any playing audio
             audioElement.pause();
             isPlaying = false;
             
-            const filename = files[currentIndex];
-            const resp = await fetch(`/api/word/${encodeURIComponent(filename)}`);
-            const data = await resp.json();
+            const word = words[currentIndex];
             
-            laoWordEl.textContent = data.lao_word || '-';
-            romanizationEl.textContent = data.romanization || '-';
-            definitionEnEl.textContent = data.definition_en || '-';
-            promptTextEl.textContent = data.image_prompt || '-';
+            laoWordEl.textContent = word.lao_word || '-';
+            romanizationEl.textContent = word.romanization || '-';
+            definitionEnEl.textContent = word.definitions_en || word.definitions?.en || '-';
+            promptTextEl.textContent = word.image_prompt || word.prompt || `Image prompt for ${word.lao_word}`;
             
             // Build audio buttons
-            const audioButtons = document.getElementById('audioButtons');
             audioButtons.innerHTML = '';
-            if (data.audio_files) {
-                data.audio_files.forEach((af) => {
-                    const btn = document.createElement('button');
-                    btn.className = 'audio-btn' + (af.flagged ? ' flagged' : '');
-                    btn.dataset.url = af.url;
-                    btn.dataset.filename = af.filename;
-                    btn.innerHTML = `
-                        <span>${af.label}</span>
-                        <span class="play-icon">▶</span>
-                        <span class="flag-icon" data-action="flag">🚩</span>
-                    `;
-                    btn.addEventListener('click', (e) => {
-                        if (e.target.dataset.action === 'flag') {
-                            handleFlag(af.filename, btn);
-                        } else {
-                            playAudio(af.url, af.filename, btn);
-                        }
-                    });
+            
+            // Word audio
+            if (word.audio_path) {
+                const wordMark = getAudioMarkLocal(word.audio_path);
+                const isFlagged = word.audio_flagged || wordMark.flagged;
+                const notes = word.audio_notes || '';
+                const btn = createAudioBtn(word.audio_path, 'Word', word.audio_url, isFlagged, notes);
+                audioButtons.appendChild(btn);
+            }
+            
+            // Example audio
+            if (word.examples) {
+                word.examples.forEach((ex, idx) => {
+                    const exampleMark = getAudioMarkLocal(ex.audio_path);
+                    const isFlagged = ex.flagged || exampleMark.flagged;
+                    const notes = ex.notes || '';
+                    const label = `Example ${idx + 1}`;
+                    const btn = createAudioBtn(ex.audio_path, label, ex.audio_url, isFlagged, notes);
                     audioButtons.appendChild(btn);
                 });
             }
             
             // Image
-            if (data.has_image) {
-                imageSection.innerHTML = `<img src="/outputs/${data.image_filename}" alt="Generated image">`;
-                placeholder.style.display = 'none';
+            if (word.has_image) {
+                // Use cache-busting to ensure fresh image after upload
+                const cacheBuster = Date.now();
+                imageSection.innerHTML = `<img src="/vocab/images/${word.image_filename}?${cacheBuster}" alt="Generated image">`;
             } else {
                 imageSection.innerHTML = `<div class="image-placeholder" id="placeholder">No image found</div>`;
             }
@@ -569,8 +596,45 @@ HTML = '''<!DOCTYPE html>
             updateNav();
         }
         
-        function playAudio(url, filename, btn) {
-            if (currentAudioFilename === filename && isPlaying) {
+        function createAudioBtn(filepath, label, url, flagged, notes = '') {
+            const btn = document.createElement('button');
+            btn.className = 'audio-btn' + (flagged ? ' flagged' : '');
+            btn.dataset.url = url;
+            btn.dataset.filepath = filepath;
+            btn.dataset.notes = notes || '';
+            const tooltipClass = flagged && notes ? ' flag-tooltip' : '';
+            btn.innerHTML = `
+                <span>${label}</span>
+                <span class="play-icon">▶</span>
+                <span class="flag-icon${tooltipClass}" data-action="flag" ${flagged && notes ? `data-notes="${escapeHtml(notes)}"` : ''}>🚩</span>
+            `;
+            btn.addEventListener('click', (e) => {
+                if (e.target.dataset.action === 'flag') {
+                    handleFlag(filepath, btn);
+                } else {
+                    playAudio(url, filepath, btn);
+                }
+            });
+            return btn;
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function getAudioMarkLocal(filepath) {
+            // Check local state first
+            const btn = document.querySelector(`.audio-btn[data-filepath="${filepath}"]`);
+            if (btn && btn.classList.contains('flagged')) {
+                return { status: 'flagged' };
+            }
+            return { status: 'unchecked' };
+        }
+        
+        function playAudio(url, filepath, btn) {
+            if (currentAudioFilename === filepath && isPlaying) {
                 audioElement.pause();
                 return;
             }
@@ -579,8 +643,8 @@ HTML = '''<!DOCTYPE html>
             document.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
             
             // If clicking a different audio, reload
-            if (currentAudioFilename !== filename) {
-                currentAudioFilename = filename;
+            if (currentAudioFilename !== filepath) {
+                currentAudioFilename = filepath;
                 audioElement.src = url;
                 audioElement.load();
             }
@@ -596,17 +660,22 @@ HTML = '''<!DOCTYPE html>
             }
         }
         
-        function handleFlag(filename, btn) {
+        function handleFlag(filepath, btn) {
             const isFlagged = btn.classList.contains('flagged');
             
             if (isFlagged) {
                 // Unflag
-                saveAudioMarkLocal(filename, 'unchecked', '');
+                saveAudioMarkLocal(filepath, 'unchecked', '');
                 btn.classList.remove('flagged');
+                btn.dataset.notes = '';
+                // Remove tooltip from flag icon
+                const flagIcon = btn.querySelector('.flag-icon');
+                flagIcon.classList.remove('flag-tooltip');
+                flagIcon.removeAttribute('data-notes');
                 showStatus('Flag removed');
             } else {
                 // Show modal
-                pendingFlagFilename = filename;
+                pendingFlagFilename = filepath;
                 pendingFlagBtn = btn;
                 flagNotes.value = btn.dataset.notes || '';
                 flagModal.classList.add('show');
@@ -614,12 +683,28 @@ HTML = '''<!DOCTYPE html>
             }
         }
         
+        function saveAudioMarkLocal(filepath, status, notes) {
+            fetch(`/api/audio/mark/${encodeURIComponent(filepath)}?status=${status}&notes=${encodeURIComponent(notes)}`, { method: 'POST' });
+        }
+        
         // Modal handlers
         flagSubmit.addEventListener('click', () => {
             if (pendingFlagFilename && pendingFlagBtn) {
-                saveAudioMarkLocal(pendingFlagFilename, 'flagged', flagNotes.value, pendingFlagBtn);
+                const notes = flagNotes.value;
+                saveAudioMarkLocal(pendingFlagFilename, 'flagged', notes);
                 pendingFlagBtn.classList.add('flagged');
-                pendingFlagBtn.dataset.notes = flagNotes.value;
+                pendingFlagBtn.dataset.notes = notes;
+                
+                // Update the flag icon with tooltip if notes exist
+                const flagIcon = pendingFlagBtn.querySelector('.flag-icon');
+                if (notes) {
+                    flagIcon.classList.add('flag-tooltip');
+                    flagIcon.setAttribute('data-notes', escapeHtml(notes));
+                } else {
+                    flagIcon.classList.remove('flag-tooltip');
+                    flagIcon.removeAttribute('data-notes');
+                }
+                
                 showStatus('Audio flagged!');
             }
             flagModal.classList.remove('show');
@@ -633,9 +718,13 @@ HTML = '''<!DOCTYPE html>
             pendingFlagBtn = null;
         });
         
-        function saveAudioMarkLocal(filename, status, notes, btn) {
-            fetch(`/api/audio/mark/${encodeURIComponent(filename)}?status=${status}&notes=${encodeURIComponent(notes)}`, { method: 'POST' });
-        }
+        // Audio events
+        audioElement.addEventListener('play', () => { isPlaying = true; });
+        audioElement.addEventListener('pause', () => { isPlaying = false; });
+        audioElement.addEventListener('ended', () => { 
+            isPlaying = false; 
+            document.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+        });
         
         function showStatus(msg) {
             statusEl.textContent = msg;
@@ -646,8 +735,8 @@ HTML = '''<!DOCTYPE html>
         // Navigation
         firstBtn.addEventListener('click', () => { currentIndex = 0; loadCurrent(); });
         prevBtn.addEventListener('click', () => { if (currentIndex > 0) { currentIndex--; loadCurrent(); } });
-        nextBtn.addEventListener('click', () => { if (currentIndex < files.length - 1) { currentIndex++; loadCurrent(); } });
-        lastBtn.addEventListener('click', () => { currentIndex = files.length - 1; loadCurrent(); });
+        nextBtn.addEventListener('click', () => { if (currentIndex < words.length - 1) { currentIndex++; loadCurrent(); } });
+        lastBtn.addEventListener('click', () => { currentIndex = words.length - 1; loadCurrent(); });
         
         // Copy prompt
         copyBtn.addEventListener('click', () => {
@@ -660,20 +749,20 @@ HTML = '''<!DOCTYPE html>
         
         // Image actions
         async function markImage(status) {
-            if (files.length === 0) return;
-            const filename = files[currentIndex];
-            await fetch(`/api/mark/${encodeURIComponent(filename)}?status=${status}`, { method: 'POST' });
+            if (words.length === 0) return;
+            const word = words[currentIndex];
+            await fetch(`/api/mark/${encodeURIComponent(word.word_id)}?status=${status}`, { method: 'POST' });
             showStatus(`Marked as ${status}!`);
-            if (currentIndex < files.length - 1) { currentIndex++; loadCurrent(); }
+            if (currentIndex < words.length - 1) { currentIndex++; loadCurrent(); }
         }
         
         goodBtn.addEventListener('click', () => markImage('good'));
         badBtn.addEventListener('click', () => markImage('bad'));
         
         deleteBtn.addEventListener('click', async () => {
-            if (files.length === 0) return;
-            const filename = files[currentIndex];
-            await fetch(`/api/delete/${encodeURIComponent(filename)}`, { method: 'POST' });
+            if (words.length === 0) return;
+            const word = words[currentIndex];
+            await fetch(`/api/delete/${encodeURIComponent(word.word_id)}`, { method: 'POST' });
             showStatus('Image deleted!');
             loadCurrent();
         });
@@ -684,13 +773,13 @@ HTML = '''<!DOCTYPE html>
         dropZone.addEventListener('drop', async e => {
             e.preventDefault();
             dropZone.classList.remove('dragover');
-            if (files.length === 0) return;
-            const filename = files[currentIndex];
+            if (words.length === 0) return;
+            const word = words[currentIndex];
             const file = e.dataTransfer.files[0];
             if (!file || !file.type.startsWith('image/')) { showStatus('Please drop an image!'); return; }
             const formData = new FormData();
             formData.append('image', file);
-            const resp = await fetch(`/api/upload/${encodeURIComponent(filename)}`, { method: 'POST', body: formData });
+            const resp = await fetch(`/api/upload/${encodeURIComponent(word.word_id)}`, { method: 'POST', body: formData });
             showStatus(resp.ok ? 'Image uploaded!' : 'Upload failed!');
             loadCurrent();
         });
@@ -700,7 +789,7 @@ HTML = '''<!DOCTYPE html>
             if (e.target.tagName === 'INPUT') return;
             
             if (e.key === 'ArrowLeft' && currentIndex > 0) { currentIndex--; loadCurrent(); }
-            if (e.key === 'ArrowRight' && currentIndex < files.length - 1) { currentIndex++; loadCurrent(); }
+            if (e.key === 'ArrowRight' && currentIndex < words.length - 1) { currentIndex++; loadCurrent(); }
             if (e.key === 'g') goodBtn.click();
             if (e.key === 'b') badBtn.click();
             if (e.key === 'd') deleteBtn.click();
@@ -714,7 +803,7 @@ HTML = '''<!DOCTYPE html>
         });
         
         // Init
-        loadFiles();
+        loadWords();
     </script>
 </body>
 </html>'''
@@ -727,79 +816,55 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         
-        # API: Get list of word files
-        if parsed.path == '/api/files':
-            files = get_sorted_word_files()
-            self.send_json(files)
-            return
-        
-        # API: Get word data with audio files
-        match = re.match(r'^/api/word/(.+)$', parsed.path)
-        if match:
-            filename = match.group(1)
-            filepath = os.path.join(WORDS_DIR, unquote(filename))
-            
-            if not os.path.exists(filepath):
-                self.send_error(404, 'File not found')
+        # API: Get all words
+        if parsed.path == '/api/words':
+            course_data = load_course_data()
+            if not course_data:
+                self.send_json({'error': 'Course data not found'})
                 return
             
-            with open(filepath, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+            words = get_sorted_words(course_data)
             
-            # Check for image
-            base_name = os.path.splitext(filename)[0]
-            image_filename = None
-            has_image = False
-            for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']:
-                test_name = base_name + ext
-                if os.path.exists(os.path.join(OUTPUTS_DIR, test_name)):
-                    image_filename = test_name
-                    has_image = True
-                    break
+            # Process each word to add useful data
+            for word in words:
+                word_id = word['word_id']
+                
+                # Check for generated image (in outputs/ first, then original vocab/)
+                image_filename = f'{word_id}.png'
+                output_path = os.path.join(OUTPUTS_DIR, image_filename)
+                vocab_path = os.path.join(ASSETS_DIR, 'vocab', 'images', image_filename)
+                has_image = os.path.exists(output_path) or os.path.exists(vocab_path)
+                word['has_image'] = has_image
+                word['image_filename'] = image_filename
+                
+                # Add audio URLs
+                if word.get('audio_path'):
+                    word['audio_url'] = f'/assets/{word["audio_path"]}'
+                
+                for ex in word.get('examples', []):
+                    if ex.get('audio_path'):
+                        ex['audio_url'] = f'/assets/{ex["audio_path"]}'
+                
+                # Add definition_en
+                if 'definitions' in word:
+                    word['definitions_en'] = word['definitions'].get('en', '')
+                
+                # Add image prompt from step5 definitions
+                lao_word = word.get('lao_word', '')
+                if lao_word in IMAGE_PROMPTS_CACHE:
+                    word['image_prompt'] = IMAGE_PROMPTS_CACHE[lao_word]
+                
+                # Add audio mark status
+                if word.get('audio_path'):
+                    mark = get_audio_mark(word['audio_path'])
+                    word['audio_flagged'] = mark.get('status') == 'flagged'
+                
+                for ex in word.get('examples', []):
+                    if ex.get('audio_path'):
+                        mark = get_audio_mark(ex['audio_path'])
+                        ex['flagged'] = mark.get('status') == 'flagged'
             
-            data['has_image'] = has_image
-            data['image_filename'] = image_filename
-            
-            # Find audio files for this word
-            # Extract word ID from filename: prompt_001_of_100_1.json -> w_0001
-            word_id_match = re.search(r'_(\d+)\.json$', filename)
-            word_id = None
-            if word_id_match:
-                num = word_id_match.group(1)
-                word_id = f'w_{num.zfill(4)}'
-            
-            audio_files = []
-            if word_id:
-                # Look for word.m4a, word_example1.m4a, word_example2.m4a
-                audio_names = [
-                    (f'{word_id}_word.m4a', 'Word'),
-                    (f'{word_id}_example1.m4a', 'Example 1'),
-                    (f'{word_id}_example2.m4a', 'Example 2'),
-                ]
-                for audio_name, label in audio_names:
-                    url = None
-                    # Check both directories
-                    for audio_dir in [VOCAB_AUDIO_DIR, AUDIO_DIR]:
-                        if os.path.exists(os.path.join(audio_dir, audio_name)):
-                            rel_path = os.path.relpath(
-                                os.path.join(audio_dir, audio_name),
-                                os.path.join(BASE_DIR, '..', '..', 'assets')
-                            )
-                            url = f'/assets/{rel_path}'
-                            break
-                    
-                    if url:
-                        mark = get_audio_mark(audio_name)
-                        audio_files.append({
-                            'filename': audio_name,
-                            'label': label,
-                            'url': url,
-                            'flagged': mark.get('status') == 'flagged',
-                            'notes': mark.get('notes', '')
-                        })
-            
-            data['audio_files'] = audio_files
-            self.send_json(data)
+            self.send_json(words)
             return
         
         # Serve HTML for root
@@ -807,40 +872,70 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_html(HTML)
             return
         
+        # Serve vocab images from assets/vocab/images/
+        if parsed.path.startswith('/vocab/images/'):
+            image_name = unquote(parsed.path[14:])  # Remove '/vocab/images/'
+            
+            # Strip query string (for cache-busting)
+            if '?' in image_name:
+                image_name = image_name.split('?')[0]
+            
+            # Check assets/vocab/images/
+            image_path = os.path.join(ASSETS_DIR, 'vocab', 'images', image_name)
+            if os.path.exists(image_path):
+                with open(image_path, 'rb') as f:
+                    content = f.read()
+                self.send_file(content, '.png', 'image/png')
+                return
+            
+            # Also check relative path like 'images/w_0001.png'
+            relative_path = os.path.join(ASSETS_DIR, image_name)
+            if os.path.exists(relative_path):
+                with open(relative_path, 'rb') as f:
+                    content = f.read()
+                self.send_file(content, '.png', 'image/png')
+                return
+            
+            self.send_error(404, 'Image not found')
+            return
+        
         # Serve audio assets
         if parsed.path.startswith('/assets/'):
-            asset_path = unquote(parsed.path[9:])
+            asset_path = unquote(parsed.path[8:])  # Remove '/assets/' (8 chars)
             
-            # Check both possible asset locations
-            possible_paths = [
-                os.path.join(BASE_DIR, '..', '..', 'assets', asset_path),
-                os.path.join(BASE_DIR, '..', 'assets', asset_path),
-            ]
+            # Try direct path under assets
+            full_path = os.path.join(ASSETS_DIR, asset_path)
+            if os.path.exists(full_path):
+                with open(full_path, 'rb') as f:
+                    content = f.read()
+                ext = os.path.splitext(full_path)[1].lower()
+                content_types = {
+                    '.m4a': 'audio/mp4',
+                    '.mp3': 'audio/mpeg',
+                    '.wav': 'audio/wav',
+                    '.ogg': 'audio/ogg',
+                    '.aac': 'audio/aac',
+                }
+                content_type = content_types.get(ext, 'application/octet-stream')
+                self.send_file(content, ext, content_type)
+                return
             
-            for full_path in possible_paths:
-                if os.path.exists(full_path):
-                    # Serve the file directly
-                    with open(full_path, 'rb') as f:
-                        content = f.read()
-                    
-                    # Determine content type
-                    ext = os.path.splitext(full_path)[1].lower()
-                    content_types = {
-                        '.m4a': 'audio/mp4',
-                        '.mp3': 'audio/mpeg',
-                        '.wav': 'audio/wav',
-                        '.ogg': 'audio/ogg',
-                        '.aac': 'audio/aac',
-                    }
-                    content_type = content_types.get(ext, 'application/octet-stream')
-                    
-                    self.send_response(200)
-                    self.send_header('Content-Type', content_type)
-                    self.send_header('Content-Length', len(content))
-                    self.send_header('Accept-Ranges', 'bytes')
-                    self.end_headers()
-                    self.wfile.write(content)
-                    return
+            # Try under assets/vocab/ for paths like 'audio/w_0001.m4a'
+            vocab_path = os.path.join(ASSETS_DIR, 'vocab', asset_path)
+            if os.path.exists(vocab_path):
+                with open(vocab_path, 'rb') as f:
+                    content = f.read()
+                ext = os.path.splitext(vocab_path)[1].lower()
+                content_types = {
+                    '.m4a': 'audio/mp4',
+                    '.mp3': 'audio/mpeg',
+                    '.wav': 'audio/wav',
+                    '.ogg': 'audio/ogg',
+                    '.aac': 'audio/aac',
+                }
+                content_type = content_types.get(ext, 'application/octet-stream')
+                self.send_file(content, ext, content_type)
+                return
             
             self.send_error(404, 'File not found')
             return
@@ -853,32 +948,50 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # API: Upload image
         match = re.match(r'^/api/upload/(.+)$', parsed.path)
         if match:
-            filename = unquote(match.group(1))
-            content_type = self.headers.get('Content-Type', '')
+            word_id = unquote(match.group(1))
+            
+            # Read all data from the request body
             content_length = int(self.headers.get('Content-Length', 0))
-            image_data = self.rfile.read(content_length)
+            body = self.rfile.read(content_length)
             
-            ext_map = {'image/png': '.png', 'image/jpeg': '.jpg', 'image/webp': '.webp', 'image/gif': '.gif'}
-            ext = ext_map.get(content_type, '.png')
-            base_name = os.path.splitext(filename)[0]
-            output_path = os.path.join(OUTPUTS_DIR, base_name + ext)
+            # Find PNG signature (89 50 4E 47) in the body
+            # Multipart form data wraps the file, so we need to find the actual PNG data
+            png_sig = b'\x89PNG'
+            png_start = body.find(png_sig)
             
+            if png_start == -1:
+                # Try to find any image data
+                # For JPEG: FF D8 FF
+                jpeg_sig = b'\xff\xd8\xff'
+                jpeg_start = body.find(jpeg_sig)
+                if jpeg_start != -1:
+                    image_data = body[jpeg_start:]
+                    ext = '.jpg'
+                else:
+                    self.send_json({'error': 'No image data found'})
+                    return
+            else:
+                image_data = body[png_start:]
+                ext = '.png'
+            
+            # Save directly to assets/vocab/images/ (overwrite original)
+            output_path = os.path.join(ASSETS_DIR, 'vocab', 'images', word_id + ext)
             with open(output_path, 'wb') as f:
                 f.write(image_data)
             
-            self.send_json({'success': True, 'filename': base_name + ext})
+            self.send_json({'success': True, 'filename': word_id + ext, 'size': len(image_data), 'path': output_path})
             return
         
         # API: Mark image
         match = re.match(r'^/api/mark/(.+)$', parsed.path)
         if match:
-            filename = unquote(match.group(1))
+            word_id = unquote(match.group(1))
             params = parse_qs(parsed.query)
             status = params.get('status', ['unknown'])[0]
             
-            mark_file = os.path.join(MARKS_DIR, filename + '.json')
+            mark_file = os.path.join(MARKS_DIR, word_id + '.json')
             with open(mark_file, 'w', encoding='utf-8') as f:
-                json.dump({'status': status, 'filename': filename}, f)
+                json.dump({'status': status, 'word_id': word_id}, f)
             
             self.send_json({'success': True})
             return
@@ -886,15 +999,14 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # API: Delete image
         match = re.match(r'^/api/delete/(.+)$', parsed.path)
         if match:
-            filename = unquote(match.group(1))
-            base_name = os.path.splitext(filename)[0]
+            word_id = unquote(match.group(1))
             
             for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']:
-                img_path = os.path.join(OUTPUTS_DIR, base_name + ext)
+                img_path = os.path.join(OUTPUTS_DIR, word_id + ext)
                 if os.path.exists(img_path):
                     os.remove(img_path)
             
-            mark_file = os.path.join(MARKS_DIR, filename + '.json')
+            mark_file = os.path.join(MARKS_DIR, word_id + '.json')
             if os.path.exists(mark_file):
                 os.remove(mark_file)
             
@@ -904,55 +1016,68 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # API: Mark audio
         match = re.match(r'^/api/audio/mark/(.+)$', parsed.path)
         if match:
-            filename = unquote(match.group(1))
+            filepath = unquote(match.group(1))
             params = parse_qs(parsed.query)
             status = params.get('status', ['unchecked'])[0]
             notes = params.get('notes', [''])[0]
             
-            save_audio_mark(filename, status, notes)
-            self.send_json({'success': True, 'filename': filename, 'status': status})
+            save_audio_mark(filepath, status, notes)
+            self.send_json({'success': True, 'filename': filepath, 'status': status})
             return
         
         self.send_error(405, 'Method not allowed')
     
     def send_json(self, data):
         response = json.dumps(data, ensure_ascii=False)
+        response_bytes = response.encode('utf-8')
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
-        self.send_header('Content-Length', len(response))
+        self.send_header('Content-Length', len(response_bytes))
         self.send_header('Access-Control-Allow-Origin', '*')
         self.end_headers()
-        self.wfile.write(response.encode('utf-8'))
+        self.wfile.write(response_bytes)
     
     def send_html(self, html):
+        html_bytes = html.encode('utf-8')
         self.send_response(200)
         self.send_header('Content-Type', 'text/html; charset=utf-8')
-        self.send_header('Content-Length', len(html))
+        self.send_header('Content-Length', len(html_bytes))
         self.end_headers()
-        self.wfile.write(html.encode('utf-8'))
+        self.wfile.write(html_bytes)
+    
+    def send_file(self, content, ext, content_type):
+        self.send_response(200)
+        self.send_header('Content-Type', content_type)
+        self.send_header('Content-Length', len(content))
+        self.send_header('Accept-Ranges', 'bytes')
+        self.end_headers()
+        self.wfile.write(content)
 
 
 if __name__ == '__main__':
+    # Load course for info
+    course = load_course_data()
+    word_count = len(course.get('words', [])) if course else 0
+    
     print(f"""
 ╔══════════════════════════════════════════════════════╗
 ║           Lao Review Server                      ║
 ╠══════════════════════════════════════════════════════╣
 ║  Navigate to: http://localhost:{PORT}                 ║
 ║                                                      ║
+║  Words loaded: {word_count}                            ║
+║                                                      ║
 ║  Features:                                          ║
 ║    🖼️  Image Review - Mark good/bad, drag & drop      ║
-║    🎧 Audio Clips - Listen and flag incorrect        ║
+║    🎧 Audio Buttons - Listen and flag incorrect       ║
 ║                                                      ║
-║  Image Controls:                                     ║
+║  Controls:                                          ║
 ║    ← → - Navigate                                  ║
 ║    G - Mark Good                                     ║
 ║    B - Mark Bad                                      ║
 ║    D - Delete                                       ║
-║    Drag & Drop - Upload image                       ║
-║                                                      ║
-║  Audio Controls:                                     ║
 ║    1, 2, 3 - Play audio clips                      ║
-║    Flag button - Report incorrect audio              ║
+║    Drag & Drop - Upload image                       ║
 ║                                                      ║
 ║  Press Ctrl+C to stop                               ║
 ╚══════════════════════════════════════════════════════╝
