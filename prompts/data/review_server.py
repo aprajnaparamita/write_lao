@@ -199,6 +199,50 @@ HTML = '''<!DOCTYPE html>
             justify-content: center;
         }
         
+        .examples-section {
+            margin-top: 12px;
+            padding: 10px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 6px;
+            border: 1px solid #0f3460;
+        }
+        .examples-header {
+            font-size: 11px;
+            color: #888;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .example-item {
+            margin-bottom: 6px;
+            padding: 6px 8px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 4px;
+        }
+        .example-lao {
+            font-size: 16px;
+            color: #e94560;
+            margin-bottom: 2px;
+        }
+        .example-romanization {
+            font-size: 11px;
+            color: #888;
+        }
+        .example-btn {
+            margin-top: 4px;
+            font-size: 10px;
+            padding: 2px 6px;
+            background: #0f3460;
+            color: #ccc;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .example-btn:hover {
+            background: #4ecca3;
+            color: #1a1a2e;
+        }
+        
         .audio-btn {
             display: flex;
             align-items: center;
@@ -646,6 +690,20 @@ HTML = '''<!DOCTYPE html>
                     const btn = createAudioBtn(ex.audio_path, label, ex.audio_url, isFlagged, notes);
                     audioButtons.appendChild(btn);
                 });
+                
+                // Add examples section with Lao text
+                const examplesSection = document.createElement('div');
+                examplesSection.className = 'examples-section';
+                examplesSection.innerHTML = `
+                    <div class="examples-header">Example Sentences</div>
+                    ${word.examples.map((ex, idx) => `
+                        <div class="example-item">
+                            <div class="example-lao">${ex.lao_script || ex.lao}</div>
+                            <div class="example-romanization">${ex.romanization || ''}</div>
+                        </div>
+                    `).join('')}
+                `;
+                audioButtons.appendChild(examplesSection);
             }
             
             // Image
