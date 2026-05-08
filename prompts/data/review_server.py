@@ -56,6 +56,7 @@ def get_sorted_words(course_data):
 
 def get_audio_mark(filename):
     """Get the mark status for an audio file."""
+    os.makedirs(MARKS_DIR, exist_ok=True)
     mark_file = os.path.join(MARKS_DIR, 'audio_' + filename + '.json')
     if os.path.exists(mark_file):
         with open(mark_file, 'r', encoding='utf-8') as f:
@@ -64,6 +65,7 @@ def get_audio_mark(filename):
 
 def save_audio_mark(filename, status, notes=''):
     """Save the mark status for an audio file."""
+    os.makedirs(MARKS_DIR, exist_ok=True)
     mark_file = os.path.join(MARKS_DIR, 'audio_' + filename + '.json')
     if status == 'unchecked' and notes == '':
         if os.path.exists(mark_file):
@@ -132,6 +134,18 @@ HTML = '''<!DOCTYPE html>
         }
         .nav-btn:hover { background: #0f3460; }
         .nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .show-all-btn {
+            padding: 10px 16px;
+            background: #4ecca3;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .show-all-btn:hover { background: #3db892; }
+        .show-all-btn.active { background: #e94560; color: #fff; }
         
         .card {
             background: #16213e;
@@ -216,6 +230,14 @@ HTML = '''<!DOCTYPE html>
             padding: 2px 4px;
         }
         .audio-btn.flagged { border-color: #e94560; }
+        
+        .audio-btn .edit-icon {
+            margin-left: 4px;
+            font-size: 11px;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        .audio-btn .edit-icon:hover { opacity: 1; }
         
         /* Tooltip for flagged audio */
         .flag-tooltip {
@@ -334,6 +356,19 @@ HTML = '''<!DOCTYPE html>
         .delete { background: #444; color: #fff; }
         .delete:hover { background: #333; }
         
+        .recent-audio-btn {
+            padding: 10px 14px;
+            background: #9b59b6;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .recent-audio-btn:hover { background: #8e44ad; }
+        
         .drop-zone {
             border: 2px dashed #4ecca3;
             border-radius: 10px;
@@ -428,6 +463,7 @@ HTML = '''<!DOCTYPE html>
             <button class="nav-btn" id="prevBtn">◀</button>
             <button class="nav-btn" id="nextBtn">▶</button>
             <button class="nav-btn" id="lastBtn">⏭</button>
+            <button class="show-all-btn" id="showAllBtn">Show All</button>
         </div>
         
         <div class="card">
@@ -468,6 +504,8 @@ HTML = '''<!DOCTYPE html>
                     <button class="action-btn bad" id="badBtn">✗ Bad</button>
                     <button class="action-btn delete" id="deleteBtn">🗑</button>
                 </div>
+                
+                <button class="recent-audio-btn" id="recentAudioBtn" title="Open most recent audio file in Downloads">🎧 Recent Audio</button>
             </div>
         </div>
         
@@ -519,8 +557,10 @@ HTML = '''<!DOCTYPE html>
         const lastBtn = document.getElementById('lastBtn');
         const goodBtn = document.getElementById('goodBtn');
         const badBtn = document.getElementById('badBtn');
+        const showAllBtn = document.getElementById('showAllBtn');
         const deleteBtn = document.getElementById('deleteBtn');
         const copyBtn = document.getElementById('copyBtn');
+        const recentAudioBtn = document.getElementById('recentAudioBtn');
         
         const audioElement = document.getElementById('audioElement');
         const flagModal = document.getElementById('flagModal');
@@ -530,10 +570,34 @@ HTML = '''<!DOCTYPE html>
         
         let pendingFlagFilename = null;
         let pendingFlagBtn = null;
+        let wordMarks = {};  // Cache of word marks
         
         async function loadWords() {
             const resp = await fetch('/api/words');
             words = await resp.json();
+            
+            // Load word marks
+            const marksResp = await fetch('/api/marks');
+            if (marksResp.ok) {
+                const marksData = await marksResp.json();
+                wordMarks = {};
+                for (const [word_id, mark] of Object.entries(marksData)) {
+                    wordMarks[word_id] = mark;
+                }
+            }
+            
+            // Filter out 'good' words unless showAll is true
+            if (!showAll) {
+                words = words.filter(w => {
+                    const mark = wordMarks[w.word_id];
+                    return !mark || mark.status !== 'good';
+                });
+                // Reset index if it's out of bounds
+                if (currentIndex >= words.length) {
+                    currentIndex = Math.max(0, words.length - 1);
+                }
+            }
+            
             updateNav();
             loadCurrent();
         }
@@ -607,15 +671,34 @@ HTML = '''<!DOCTYPE html>
                 <span>${label}</span>
                 <span class="play-icon">▶</span>
                 <span class="flag-icon${tooltipClass}" data-action="flag" ${flagged && notes ? `data-notes="${escapeHtml(notes)}"` : ''}>🚩</span>
+                <span class="edit-icon" data-action="edit" title="Open in Audacity">✏️</span>
             `;
             btn.addEventListener('click', (e) => {
                 if (e.target.dataset.action === 'flag') {
                     handleFlag(filepath, btn);
+                } else if (e.target.dataset.action === 'edit') {
+                    openInAudacity(filepath);
                 } else {
                     playAudio(url, filepath, btn);
                 }
             });
             return btn;
+        }
+        
+        async function openInAudacity(filepath) {
+            try {
+                // Tell server to open Audacity with this file
+                const resp = await fetch(`/api/open-audacity?filepath=${encodeURIComponent(filepath)}`);
+                const data = await resp.json();
+                if (data.success) {
+                    showStatus('Opened in Audacity');
+                } else {
+                    showStatus(data.error || 'Failed to open Audacity');
+                }
+            } catch (err) {
+                console.error('Failed to open Audacity:', err);
+                showStatus('Failed to open Audacity');
+            }
         }
         
         function escapeHtml(text) {
@@ -733,10 +816,51 @@ HTML = '''<!DOCTYPE html>
         }
         
         // Navigation
-        firstBtn.addEventListener('click', () => { currentIndex = 0; loadCurrent(); });
-        prevBtn.addEventListener('click', () => { if (currentIndex > 0) { currentIndex--; loadCurrent(); } });
-        nextBtn.addEventListener('click', () => { if (currentIndex < words.length - 1) { currentIndex++; loadCurrent(); } });
-        lastBtn.addEventListener('click', () => { currentIndex = words.length - 1; loadCurrent(); });
+        let showAll = window.location.hash === '#all';
+        
+        // Listen for hash changes
+        window.addEventListener('hashchange', () => {
+            showAll = window.location.hash === '#all';
+            loadWords();
+        });
+        
+        // Navigation
+        firstBtn.addEventListener('click', () => { 
+            currentIndex = 0; 
+            loadCurrent(); 
+        });
+        prevBtn.addEventListener('click', () => { 
+            if (currentIndex > 0) { currentIndex--; loadCurrent(); } 
+        });
+        nextBtn.addEventListener('click', () => { 
+            if (currentIndex < words.length - 1) { currentIndex++; loadCurrent(); } 
+        });
+        lastBtn.addEventListener('click', () => { 
+            currentIndex = words.length - 1; loadCurrent(); 
+        });
+        
+        // Show All button toggle
+        function updateShowAllBtn() {
+            if (showAll) {
+                showAllBtn.textContent = 'Hide Good';
+                showAllBtn.classList.add('active');
+                window.location.hash = '#all';
+            } else {
+                showAllBtn.textContent = 'Show All';
+                showAllBtn.classList.remove('active');
+                history.replaceState(null, '', window.location.pathname);
+            }
+        }
+        
+        showAllBtn.addEventListener('click', () => {
+            showAll = !showAll;
+            updateShowAllBtn();
+            loadWords();
+        });
+        
+        // Initialize showAll from URL
+        showAll = window.location.hash === '#all';
+        updateShowAllBtn();
         
         // Copy prompt
         copyBtn.addEventListener('click', () => {
@@ -802,6 +926,21 @@ HTML = '''<!DOCTYPE html>
             }
         });
         
+        // Recent Audio button - open most recent audio from downloads in Audacity
+        recentAudioBtn.addEventListener('click', async () => {
+            try {
+                const resp = await fetch('/api/open-recent-audio');
+                const data = await resp.json();
+                if (data.success) {
+                    showStatus(`Opened: ${data.filename}`);
+                } else {
+                    showStatus(data.error || 'No recent audio found');
+                }
+            } catch (err) {
+                showStatus('Failed to open recent audio');
+            }
+        });
+        
         // Init
         loadWords();
     </script>
@@ -815,6 +954,21 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     
     def do_GET(self):
         parsed = urlparse(self.path)
+        
+        # API: Get all word marks (for filtering)
+        if parsed.path == '/api/marks':
+            marks = {}
+            if os.path.exists(MARKS_DIR):
+                for filename in os.listdir(MARKS_DIR):
+                    if filename.endswith('.json') and not filename.startswith('audio_'):
+                        try:
+                            word_id = filename[:-5]
+                            with open(os.path.join(MARKS_DIR, filename), 'r', encoding='utf-8') as f:
+                                marks[word_id] = json.load(f)
+                        except:
+                            pass
+            self.send_json(marks)
+            return
         
         # API: Get all words
         if parsed.path == '/api/words':
@@ -940,6 +1094,51 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_error(404, 'File not found')
             return
         
+        # API: Open audio in Audacity (GET request)
+        if parsed.path.startswith('/api/open-audacity'):
+            import subprocess
+            params = parse_qs(parsed.query)
+            filepath = params.get('filepath', [''])[0]
+            if not filepath:
+                self.send_json({'success': False, 'error': 'No filepath provided'})
+                return
+            
+            # Try direct path under assets
+            full_path = os.path.join(ASSETS_DIR, filepath)
+            if not os.path.exists(full_path):
+                # Try under assets/vocab/
+                full_path = os.path.join(ASSETS_DIR, 'vocab', filepath)
+            
+            if os.path.exists(full_path):
+                try:
+                    subprocess.run(['open', '-a', 'Audacity', full_path], check=True)
+                    self.send_json({'success': True})
+                except Exception as e:
+                    self.send_json({'success': False, 'error': str(e)})
+            else:
+                self.send_json({'success': False, 'error': 'File not found at: ' + full_path})
+            return
+        
+        # API: Open most recent audio file in downloads folder
+        if parsed.path == '/api/open-recent-audio':
+            import subprocess
+            downloads = os.path.expanduser('~/Downloads')
+            recent = None
+            if os.path.exists(downloads):
+                files = [f for f in os.listdir(downloads) if f.endswith('.m4a') or f.endswith('.mp3') or f.endswith('.wav')]
+                if files:
+                    files.sort(key=lambda f: os.path.getmtime(os.path.join(downloads, f)), reverse=True)
+                    recent = os.path.join(downloads, files[0])
+            if recent and os.path.exists(recent):
+                try:
+                    subprocess.run(['open', '-a', 'Audacity', recent], check=True)
+                    self.send_json({'success': True, 'filepath': recent, 'filename': os.path.basename(recent)})
+                except Exception as e:
+                    self.send_json({'success': False, 'error': str(e)})
+            else:
+                self.send_json({'success': False, 'error': 'No recent audio file found in Downloads'})
+            return
+        
         super().do_GET()
     
     def do_POST(self):
@@ -1023,6 +1222,27 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             
             save_audio_mark(filepath, status, notes)
             self.send_json({'success': True, 'filename': filepath, 'status': status})
+            return
+        
+        # API: Get audio file path (for external apps like Audacity)
+        match = re.match(r'^/api/audio/path$', parsed.path)
+        if match:
+            params = parse_qs(parsed.query)
+            filepath = params.get('filepath', [''])[0]
+            if not filepath:
+                self.send_json({'error': 'No filepath provided'})
+                return
+            
+            # Try direct path under assets
+            full_path = os.path.join(ASSETS_DIR, filepath)
+            if not os.path.exists(full_path):
+                # Try under assets/vocab/
+                full_path = os.path.join(ASSETS_DIR, 'vocab', filepath)
+            
+            if os.path.exists(full_path):
+                self.send_json({'path': full_path, 'url': f'/assets/{filepath}'})
+            else:
+                self.send_json({'error': 'File not found'})
             return
         
         self.send_error(405, 'Method not allowed')
