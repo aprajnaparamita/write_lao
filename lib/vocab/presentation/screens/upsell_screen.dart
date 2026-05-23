@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
@@ -88,18 +89,38 @@ class _UpsellScreenState extends State<UpsellScreen> {
             icon: const Icon(Icons.close, color: Colors.white),
             onPressed: widget.onDismissed,
           ),
-          if (widget.onRestore != null)
-            TextButton(
-              onPressed: widget.onRestore,
-              child: const Text(
-                'RESTORE',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 0.5,
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // ── Debug-only instant unlock ─────────────────────────────
+              if (kDebugMode)
+                TextButton(
+                  key: const Key('debug.upsell.instantUnlock'),
+                  onPressed: widget.onPurchaseComplete,
+                  child: const Text(
+                    '🔓 UNLOCK',
+                    style: TextStyle(
+                      color: Colors.orangeAccent,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 12,
+                      letterSpacing: 0.5,
+                    ),
+                  ),
                 ),
-              ),
-            ),
+              if (widget.onRestore != null)
+                TextButton(
+                  onPressed: widget.onRestore,
+                  child: const Text(
+                    'RESTORE',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: 0.5,
+                    ),
+                  ),
+                ),
+            ],
+          ),
         ],
       ),
     );

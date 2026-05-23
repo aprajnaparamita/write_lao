@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
 import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
@@ -94,7 +95,10 @@ final lessonEngineProvider = FutureProvider<LessonEngine>((ref) async {
 /// override this with MockIapService.
 final iapServiceProvider = Provider<IapService>((ref) {
   // TODO(phase08): Replace with actual platform implementation.
-  // For now, use a mock that always simulates cancellation.
+  // In debug builds, MockIapService is wired to succeed so the full
+  // purchase flow (spinner → unlock → pop) can be exercised without a
+  // real App Store / Play Store connection.
+  if (kDebugMode) return const MockIapService(simulateSuccess: true);
   return const MockIapService();
 });
 
