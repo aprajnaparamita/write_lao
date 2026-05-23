@@ -10,6 +10,11 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 /// in a 2×2 grid, then reveals the answer on tap and advances after a
 /// short reinforcement delay. Result is binary (correct / wrong) — the
 /// engine maps that to SM-2 Good/Again.
+///
+/// Adapts layout automatically:
+///  - **Portrait**: prompt + audio button stacked above a 2×2 square grid.
+///  - **Landscape**: narrow info panel (audio button + answer) on the left,
+///    2×2 grid scaled to fill the available height on the right.
 class HearIdentifyCard extends StatefulWidget {
   final VocabWord correctWord;
   final List<VocabWord> options; // includes correctWord; pre-shuffled
@@ -76,63 +81,156 @@ class _HearIdentifyCardState extends State<HearIdentifyCard> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final locale = Localizations.localeOf(context);
-    return SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Text(
-              'Listen and choose',
-              key: WordCardKeys.hearIdentifyPrompt,
-              style: theme.textTheme.titleMedium,
+    return LayoutBuilder(builder: (context, constraints) {
+      final isLandscape = constraints.maxWidth > constraints.maxHeight;
+      return SafeArea(
+        child: isLandscape
+            ? _buildLandscape(context, theme, locale)
+            : _buildPortrait(context, theme, locale),
+      );
+    });
+  }
+
+  // ── Portrait ───────────────────────────────────────────────────────────────
+
+  Widget _buildPortrait(BuildContext context, ThemeData theme, Locale locale) {
+    return Padding(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        children: [
+          Text(
+            'Listen and choose',
+            key: WordCardKeys.hearIdentifyPrompt,
+            style: theme.textTheme.titleMedium,
+          ),
+          const SizedBox(height: 12),
+          WordAudioButton(
+            key: WordCardKeys.hearIdentifyReplay,
+            audioPath: widget.correctWord.audioPath,
+            audio: widget.audio,
+            iconSize: 40,
+          ),
+          const SizedBox(height: 16),
+          Expanded(
+            child: GridView.count(
+              crossAxisCount: 2,
+              childAspectRatio: 1,
+              mainAxisSpacing: 12,
+              crossAxisSpacing: 12,
+              children: _buildOptionTiles(theme),
             ),
-            const SizedBox(height: 12),
-            WordAudioButton(
-              key: WordCardKeys.hearIdentifyReplay,
-              audioPath: widget.correctWord.audioPath,
-              audio: widget.audio,
-              iconSize: 40,
+          ),
+          if (_selectedWordId != null) ...[
+            const SizedBox(height: 8),
+            _buildAnswerReveal(theme, locale),
+          ],
+        ],
+      ),
+    );
+  }
+
+  // ── Landscape ──────────────────────────────────────────────────────────────
+
+  /// In landscape the info panel lives on the left and the 2×2 grid fills
+  /// the right side. A nested [LayoutBuilder] computes the exact cell aspect
+  /// ratio so the grid tiles fill the available height without any scrolling.
+  Widget _buildLandscape(BuildContext context, ThemeData theme, Locale locale) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          // ── Left: audio replay + prompt + answer reveal ─────────────────
+          SizedBox(
+            width: 148,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(
+                  'Listen\nand choose',
+                  key: WordCardKeys.hearIdentifyPrompt,
+                  style: theme.textTheme.titleMedium,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                WordAudioButton(
+                  key: WordCardKeys.hearIdentifyReplay,
+                  audioPath: widget.correctWord.audioPath,
+                  audio: widget.audio,
+                  iconSize: 40,
+                ),
+                if (_selectedWordId != null) ...[
+                  const SizedBox(height: 16),
+                  _buildAnswerReveal(theme, locale),
+                ],
+              ],
             ),
-            const SizedBox(height: 16),
-            Expanded(
-              child: GridView.count(
+          ),
+
+          const SizedBox(width: 16),
+
+          // ── Right: 2×2 grid, scaled to fill available height ────────────
+          Expanded(
+            child: LayoutBuilder(builder: (context, gridConstraints) {
+              // Compute cell aspect ratio so the 2×2 grid fills the column.
+              final w = gridConstraints.maxWidth;
+              final h = gridConstraints.maxHeight.isFinite
+                  ? gridConstraints.maxHeight
+                  : 300.0;
+              final cellW = (w - 12) / 2;
+              final cellH = (h - 12) / 2;
+              final ratio = cellH > 0 ? cellW / cellH : 1.0;
+              return GridView.count(
                 crossAxisCount: 2,
-                childAspectRatio: 1,
+                childAspectRatio: ratio,
                 mainAxisSpacing: 12,
                 crossAxisSpacing: 12,
-                children: [
-                  for (final opt in widget.options)
-                    _OptionTile(
-                      key: ValueKey('vocab.hearIdentify.opt.${opt.wordId}'),
-                      word: opt,
-                      background: _bgFor(opt, theme.colorScheme),
-                      onTap: _selectedWordId == null
-                          ? () => _onTap(opt)
-                          : null,
-                    ),
-                ],
-              ),
-            ),
-            if (_selectedWordId != null) ...[
-              const SizedBox(height: 8),
-              Text(
-                widget.correctWord.romanization,
-                key: WordCardKeys.hearIdentifyRomanization,
-                style: theme.textTheme.bodyMedium,
-              ),
-              Text(
-                pickTranslation(
-                  widget.correctWord.definitions,
-                  languageCode: locale.languageCode,
-                  scriptCode: locale.scriptCode,
-                ),
-                key: WordCardKeys.hearIdentifyGloss,
-                style: theme.textTheme.bodyLarge,
-              ),
-            ],
-          ],
-        ),
+                physics: const NeverScrollableScrollPhysics(),
+                children: _buildOptionTiles(theme),
+              );
+            }),
+          ),
+        ],
       ),
+    );
+  }
+
+  // ── Shared builders ────────────────────────────────────────────────────────
+
+  List<Widget> _buildOptionTiles(ThemeData theme) {
+    return [
+      for (final opt in widget.options)
+        _OptionTile(
+          key: ValueKey('vocab.hearIdentify.opt.${opt.wordId}'),
+          word: opt,
+          background: _bgFor(opt, theme.colorScheme),
+          onTap: _selectedWordId == null ? () => _onTap(opt) : null,
+        ),
+    ];
+  }
+
+  Widget _buildAnswerReveal(ThemeData theme, Locale locale) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          widget.correctWord.romanization,
+          key: WordCardKeys.hearIdentifyRomanization,
+          style: theme.textTheme.bodyMedium,
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          pickTranslation(
+            widget.correctWord.definitions,
+            languageCode: locale.languageCode,
+            scriptCode: locale.scriptCode,
+          ),
+          key: WordCardKeys.hearIdentifyGloss,
+          style: theme.textTheme.bodyLarge,
+          textAlign: TextAlign.center,
+        ),
+      ],
     );
   }
 }

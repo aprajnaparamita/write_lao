@@ -64,20 +64,40 @@ class StrokeMatcher {
       );
     }
 
-    // Step 3: Check direction
-    final directionCorrect = PathUtils.isSameDirection(
-      drawnResampled,
-      refResampled,
-      toleranceDegrees: directionToleranceDegrees,
-    );
+    // Detect circular strokes early — used in Steps 3 and 7.
+    // For a closed/near-closed path the start→end direction vector is nearly
+    // zero and can point anywhere, so the direction check is meaningless and
+    // must be skipped.
+    // We key off refIsCircular only: when the reference is a circle, we use
+    // rotation-invariant DTW regardless of whether the drawn stroke is detected
+    // as circular — users often draw open loops (circle + tail) that fail the
+    // circularity test even though they are correctly tracing a circular glyph.
+    final refIsCircular = _isCircularStroke(refResampled);
 
-    // Check if reversed direction matches
-    final reversedDrawn = drawnResampled.reversed.toList();
-    final reversedDirectionCorrect = PathUtils.isSameDirection(
-      reversedDrawn,
-      refResampled,
-      toleranceDegrees: directionToleranceDegrees,
-    );
+    // Step 3: Check direction.
+    // Skipped whenever the reference is circular because the start→end vector
+    // is ~0 and its angle depends on where the user began the circle, not on
+    // stroke direction. Rotation-invariant DTW (Step 7) handles alignment.
+    final bool directionCorrect;
+    final bool reversedDirectionCorrect;
+    final List<Point<double>> reversedDrawn;
+    if (refIsCircular) {
+      directionCorrect         = true;
+      reversedDirectionCorrect = false;
+      reversedDrawn            = const [];
+    } else {
+      directionCorrect = PathUtils.isSameDirection(
+        drawnResampled,
+        refResampled,
+        toleranceDegrees: directionToleranceDegrees,
+      );
+      reversedDrawn = drawnResampled.reversed.toList();
+      reversedDirectionCorrect = PathUtils.isSameDirection(
+        reversedDrawn,
+        refResampled,
+        toleranceDegrees: directionToleranceDegrees,
+      );
+    }
 
     // Step 4: Check position
     final drawnCentroid = PathUtils.centroid(drawnResampled);
@@ -106,8 +126,14 @@ class StrokeMatcher {
     final refNorm =
         PathUtils.scaleToFit(PathUtils.centerOnOrigin(refResampled), 1.0);
 
-    // Step 7: Compute DTW distance
-    final dtwDist = DTW.distance(drawnNorm, refNorm);
+    // Step 7: Compute DTW distance.
+    // When the reference is a circular glyph the drawn sequence may be
+    // phase-shifted (different starting angle, or an open loop with a tail).
+    // Standard DTW punishes this heavily, so we try 8 rotational offsets and
+    // keep the best (lowest) distance whenever the reference is circular.
+    final dtwDist = refIsCircular
+        ? _rotationInvariantDTW(drawnNorm, refNorm)
+        : DTW.distance(drawnNorm, refNorm);
 
     // Step 8: Compute similarity
     final similarity = (1.0 - dtwDist.clamp(0.0, 1.0));
@@ -156,5 +182,45 @@ class StrokeMatcher {
     if (ref.width  > threshold && drawn.width  < ref.width  * minExtentFraction) return false;
     if (ref.height > threshold && drawn.height < ref.height * minExtentFraction) return false;
     return true;
+  }
+
+  /// Returns true when the stroke is approximately circular — i.e. the gap
+  /// between start and end is small relative to the diagonal of the bounding
+  /// box AND the bounding box is roughly square (aspect ratio 0.4 – 2.5).
+  ///
+  /// Used to trigger rotation-invariant DTW matching so that a user who
+  /// begins their circle at a different angular position still scores well.
+  bool _isCircularStroke(List<Point<double>> resampled) {
+    if (resampled.length < 4) return false;
+    final bb = PathUtils.boundingBox(resampled);
+    final diagonal = sqrt(bb.width * bb.width + bb.height * bb.height);
+    if (diagonal < 1e-9) return false;
+    final gap = PathUtils.distance(resampled.first, resampled.last);
+    final aspectRatio = bb.width == 0 ? 1.0 : bb.height / bb.width;
+    // Gap < 40% of diagonal  AND  aspect ratio between 0.4 and 2.5
+    return gap < diagonal * 0.40 && aspectRatio > 0.40 && aspectRatio < 2.50;
+  }
+
+  /// DTW distance using the best rotational offset of [drawn] against [ref].
+  ///
+  /// Tries 8 evenly-spaced phase shifts (0°, 45°, 90°, … 315°) and returns
+  /// the minimum DTW distance found.  This makes circular-stroke matching
+  /// independent of the starting angle the user chose.
+  double _rotationInvariantDTW(
+    List<Point<double>> drawn,
+    List<Point<double>> ref,
+  ) {
+    final n = drawn.length;
+    var best = double.infinity;
+    for (var k = 0; k < 8; k++) {
+      final offset = (n * k / 8).round() % n;
+      final rotated = <Point<double>>[
+        ...drawn.sublist(offset),
+        ...drawn.sublist(0, offset),
+      ];
+      final d = DTW.distance(rotated, ref);
+      if (d < best) best = d;
+    }
+    return best;
   }
 }

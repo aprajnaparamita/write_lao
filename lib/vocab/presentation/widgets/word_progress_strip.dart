@@ -45,7 +45,16 @@ class WordProgressStrip extends StatelessWidget {
       }
       spans.add(TextSpan(text: text, style: style));
       if (i < characters.length - 1) {
-        spans.add(const TextSpan(text: ' '));
+        // Don't insert a space before a combining mark (vowel or tone).
+        // Unicode combining characters must immediately follow their base
+        // consonant — a space in between breaks the shaping and causes the
+        // mark to render to the right instead of above the base glyph.
+        final nextType = characters[i + 1].type;
+        final nextIsCombining =
+            nextType == CharacterType.vowel || nextType == CharacterType.tone;
+        if (!nextIsCombining) {
+          spans.add(const TextSpan(text: ' '));
+        }
       }
     }
     return RichText(

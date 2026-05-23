@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
@@ -94,6 +95,11 @@ class _LessonListBody extends ConsumerWidget {
     ref.watch(vocabBannerDismissRevProvider);
     final showFreeBanner = isUnit1 && !access.hasPurchased && !prefs.unit1BannerDismissed;
 
+    // Show an upsell card pinned below the lesson list only in unit 1 when
+    // the rest of the content is still locked.
+    final showUpsellCard = isUnit1 && !access.hasPurchased;
+    final listItemCount = lessons.length + (showUpsellCard ? 1 : 0);
+
     final appBarTitle = 'Unit ${unit.unitNumber} · ${unit.title}';
 
     return Scaffold(
@@ -104,8 +110,12 @@ class _LessonListBody extends ConsumerWidget {
           Expanded(
             child: ListView.builder(
               key: WordCardKeys.lessonList,
-              itemCount: lessons.length,
+              itemCount: listItemCount,
               itemBuilder: (context, i) {
+                // Last item: upsell card.
+                if (showUpsellCard && i == lessons.length) {
+                  return _VocabUpsellCard(onUpgrade: onUpsell);
+                }
                 final lesson = lessons[i];
                 return _LessonRow(
                   lesson: lesson,
@@ -231,6 +241,169 @@ class _LessonRow extends StatelessWidget {
           onUpsell?.call();
         }
       },
+    );
+  }
+}
+
+// ── _VocabUpsellCard ──────────────────────────────────────────────────────────
+
+/// Upsell card shown as the last item in unit 1's lesson list while content
+/// is still locked. Tapping anywhere on the card — or the UNLOCK button —
+/// navigates to the purchase screen via [onUpgrade].
+class _VocabUpsellCard extends StatelessWidget {
+  final VoidCallback? onUpgrade;
+
+  const _VocabUpsellCard({required this.onUpgrade});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
+      child: GestureDetector(
+        onTap: onUpgrade,
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(
+              colors: [AppTheme.accent, AppTheme.primary],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(16),
+            boxShadow: [
+              BoxShadow(
+                color: AppTheme.primary.withValues(alpha: 0.35),
+                blurRadius: 16,
+                offset: const Offset(0, 6),
+              ),
+            ],
+          ),
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(20, 20, 20, 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Icon + headline row
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.18),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Icons.menu_book_rounded,
+                        color: Colors.white,
+                        size: 26,
+                      ),
+                    ),
+                    const SizedBox(width: 14),
+                    const Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Keep going with 500 words',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold,
+                              height: 1.2,
+                            ),
+                          ),
+                          SizedBox(height: 4),
+                          Text(
+                            'Unlock all units — stroke-by-stroke practice, '
+                            'spaced repetition, and one-time purchase.',
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 13,
+                              height: 1.4,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+
+                const SizedBox(height: 16),
+
+                // Feature chips
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 6,
+                  children: [
+                    _Chip(Icons.repeat_rounded, 'Spaced repetition'),
+                    _Chip(Icons.edit_note_rounded, 'Stroke practice'),
+                    _Chip(Icons.all_inclusive_rounded, 'All 10 units'),
+                  ],
+                ),
+
+                const SizedBox(height: 16),
+
+                // CTA button
+                SizedBox(
+                  width: double.infinity,
+                  child: OutlinedButton(
+                    onPressed: onUpgrade,
+                    style: OutlinedButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      side: const BorderSide(color: Colors.white, width: 1.5),
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                    child: const Text(
+                      'UNLOCK ALL CONTENT',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.6,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _Chip extends StatelessWidget {
+  final IconData icon;
+  final String label;
+
+  const _Chip(this.icon, this.label);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.14),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, color: Colors.white70, size: 14),
+          const SizedBox(width: 5),
+          Text(
+            label,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 12,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

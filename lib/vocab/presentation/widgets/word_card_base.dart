@@ -22,12 +22,16 @@ const _ex2Color = Color(0xFF059669);
 
 /// Visual shell shared by [IntroCard] and [OutroCard].
 ///
-/// Layout (top → bottom):
+/// **Portrait** layout (top → bottom):
 ///   1. Word tile  — tinted, tappable; contains headword + meta + play button.
 ///   2. Image      — [Expanded]: fills every pixel left after the fixed tiles.
 ///   3. Example 1  — tinted tile, tappable.
 ///   4. Example 2  — tinted tile, tappable.
 ///   5. Action row — "I'm ready" or "Got it" button.
+///
+/// **Landscape** layout (left → right):
+///   1. Image — fills the left column with contained aspect ratio.
+///   2. Word tile + examples + action row — scrollable right column.
 ///
 /// Tapping *anywhere* on a tinted tile plays / stops its audio — the large
 /// play-button icon inside the tile provides visual feedback but is also an
@@ -87,7 +91,7 @@ class _WordCardBaseState extends State<WordCardBase> {
     return Colors.transparent;
   }
 
-  /// Toggle play/stop for [path].  Called by tile-level [GestureDetector] and
+  /// Toggle play/stop for [path]. Called by tile-level [GestureDetector] and
   /// also wired to each [WordAudioButton.onPressed] independently.
   Future<void> _toggleAudio(String path) async {
     if (widget.audio.state == VocabAudioState.playing &&
@@ -108,115 +112,171 @@ class _WordCardBaseState extends State<WordCardBase> {
       scriptCode: locale.scriptCode,
     );
 
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 350),
-      color: _cardBg,
-      child: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              if (widget.audio.isMuted)
-                const Padding(
-                  key: WordCardKeys.mutedIndicator,
-                  padding: EdgeInsets.only(bottom: 6),
-                  child: Icon(Icons.volume_off, size: 20),
-                ),
+    return LayoutBuilder(builder: (context, constraints) {
+      final isLandscape = constraints.maxWidth > constraints.maxHeight;
+      return AnimatedContainer(
+        duration: const Duration(milliseconds: 350),
+        color: _cardBg,
+        child: SafeArea(
+          child: isLandscape
+              ? _buildLandscape(theme, gloss, locale)
+              : _buildPortrait(theme, gloss, locale),
+        ),
+      );
+    });
+  }
 
-              // ── 1. Word section tile ──────────────────────────────────────
-              _SectionTile(
-                color: _wordColor,
-                isPlaying: _wordPlaying,
-                onTap: () => _toggleAudio(widget.word.audioPath),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          FittedBox(
-                            fit: BoxFit.scaleDown,
-                            alignment: Alignment.centerLeft,
-                            child: Text(
-                              widget.word.laoWord,
-                              style: theme.textTheme.displayMedium,
-                            ),
-                          ),
-                          const SizedBox(height: 2),
-                          Text(
-                            widget.word.romanization,
-                            style: theme.textTheme.bodyLarge,
-                          ),
-                          const SizedBox(height: 4),
-                          Text(gloss, style: theme.textTheme.titleMedium),
-                          Text(
-                            widget.word.partOfSpeech,
-                            style: theme.textTheme.labelMedium?.copyWith(
-                              fontStyle: FontStyle.italic,
-                            ),
-                          ),
-                        ],
-                      ),
+  // ── Portrait ───────────────────────────────────────────────────────────────
+
+  Widget _buildPortrait(ThemeData theme, String gloss, Locale locale) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          if (widget.audio.isMuted)
+            const Padding(
+              key: WordCardKeys.mutedIndicator,
+              padding: EdgeInsets.only(bottom: 6),
+              child: Icon(Icons.volume_off, size: 20),
+            ),
+
+          // 1. Word section tile
+          _buildWordTile(theme, gloss),
+
+          // 2. Image — expands to fill remaining vertical space
+          const SizedBox(height: 8),
+          Expanded(child: _buildImage()),
+          const SizedBox(height: 8),
+
+          // 3 & 4. Example tiles
+          if (widget.word.examples.isNotEmpty) _buildExampleTile(0, locale),
+          if (widget.word.examples.length >= 2) ...[
+            const SizedBox(height: 8),
+            _buildExampleTile(1, locale),
+          ],
+
+          // 5. Action row
+          const SizedBox(height: 8),
+          widget.actionRow,
+        ],
+      ),
+    );
+  }
+
+  // ── Landscape ──────────────────────────────────────────────────────────────
+
+  Widget _buildLandscape(ThemeData theme, String gloss, Locale locale) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          // Left: image fills the column height
+          Expanded(flex: 4, child: _buildImage()),
+
+          const SizedBox(width: 16),
+
+          // Right: scrollable word info + examples + action
+          Expanded(
+            flex: 5,
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  if (widget.audio.isMuted)
+                    const Padding(
+                      key: WordCardKeys.mutedIndicator,
+                      padding: EdgeInsets.only(bottom: 6),
+                      child: Icon(Icons.volume_off, size: 20),
                     ),
-                    WordAudioButton(
-                      key: WordCardKeys.headwordPlayButton,
-                      audioPath: widget.word.audioPath,
-                      audio: widget.audio,
-                      iconSize: 52,
-                      activeColor: _wordColor,
-                    ),
+                  _buildWordTile(theme, gloss),
+                  if (widget.word.examples.isNotEmpty) ...[
+                    const SizedBox(height: 8),
+                    _buildExampleTile(0, locale),
                   ],
-                ),
+                  if (widget.word.examples.length >= 2) ...[
+                    const SizedBox(height: 8),
+                    _buildExampleTile(1, locale),
+                  ],
+                  const SizedBox(height: 12),
+                  widget.actionRow,
+                ],
               ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 
-              // ── 2. Image — expands to fill all remaining vertical space ───
-              const SizedBox(height: 8),
-              Expanded(
-                child: Image.asset(
-                  key: WordCardKeys.image,
-                  'assets/vocab/${widget.word.imagePath}',
-                  fit: BoxFit.contain,
-                  errorBuilder: (_, __, ___) => const SizedBox.expand(),
-                ),
-              ),
-              const SizedBox(height: 8),
+  // ── Shared tile builders ───────────────────────────────────────────────────
 
-              // ── 3 & 4. Example tiles ──────────────────────────────────────
-              if (widget.word.examples.isNotEmpty)
-                _ExampleRow(
-                  example: widget.word.examples[0],
-                  audio: widget.audio,
-                  playButtonKey: WordCardKeys.example1PlayButton,
-                  locale: locale,
-                  sectionColor: _ex1Color,
-                  isPlaying: _ex1Playing,
-                  onTap: () =>
-                      _toggleAudio(widget.word.examples[0].audioPath),
+  Widget _buildImage() => Image.asset(
+        key: WordCardKeys.image,
+        'assets/vocab/${widget.word.imagePath}',
+        fit: BoxFit.contain,
+        errorBuilder: (_, __, ___) => const SizedBox.expand(),
+      );
+
+  Widget _buildWordTile(ThemeData theme, String gloss) {
+    return _SectionTile(
+      color: _wordColor,
+      isPlaying: _wordPlaying,
+      onTap: () => _toggleAudio(widget.word.audioPath),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    widget.word.laoWord,
+                    style: theme.textTheme.displayMedium,
+                  ),
                 ),
-              if (widget.word.examples.length >= 2) ...[
-                const SizedBox(height: 8),
-                _ExampleRow(
-                  example: widget.word.examples[1],
-                  audio: widget.audio,
-                  playButtonKey: WordCardKeys.example2PlayButton,
-                  locale: locale,
-                  sectionColor: _ex2Color,
-                  isPlaying: _ex2Playing,
-                  onTap: () =>
-                      _toggleAudio(widget.word.examples[1].audioPath),
+                const SizedBox(height: 2),
+                Text(widget.word.romanization,
+                    style: theme.textTheme.bodyLarge),
+                const SizedBox(height: 4),
+                Text(gloss, style: theme.textTheme.titleMedium),
+                Text(
+                  widget.word.partOfSpeech,
+                  style: theme.textTheme.labelMedium
+                      ?.copyWith(fontStyle: FontStyle.italic),
                 ),
               ],
-
-              // ── 5. Action row ─────────────────────────────────────────────
-              const SizedBox(height: 8),
-              widget.actionRow,
-            ],
+            ),
           ),
-        ),
+          WordAudioButton(
+            key: WordCardKeys.headwordPlayButton,
+            audioPath: widget.word.audioPath,
+            audio: widget.audio,
+            iconSize: 52,
+            activeColor: _wordColor,
+          ),
+        ],
       ),
+    );
+  }
+
+  Widget _buildExampleTile(int index, Locale locale) {
+    final example = widget.word.examples[index];
+    return _ExampleRow(
+      example: example,
+      audio: widget.audio,
+      playButtonKey: index == 0
+          ? WordCardKeys.example1PlayButton
+          : WordCardKeys.example2PlayButton,
+      locale: locale,
+      sectionColor: index == 0 ? _ex1Color : _ex2Color,
+      isPlaying: index == 0 ? _ex1Playing : _ex2Playing,
+      onTap: () => _toggleAudio(example.audioPath),
     );
   }
 }
