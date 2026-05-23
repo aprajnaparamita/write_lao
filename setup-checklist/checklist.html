@@ -32,27 +32,43 @@
     .sidebar-footer button{flex:1;font-size:10px;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:var(--font);transition:all .15s}
     .sidebar-footer button:hover{border-color:var(--text-dim);color:var(--text)}
     .sidebar-footer .reset-btn:hover{border-color:var(--red);color:var(--red)}
-    .main{margin-left:260px;flex:1;padding:28px 44px 80px;max-width:800px}
-    .section{display:none;animation:fadeIn .2s ease}
-    .section.visible{display:block}
-    @keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+    .main{margin-left:260px;flex:1;padding:28px 44px 80px;max-width:840px}
     .section-header{margin-bottom:20px}
     .section-header h2{font-size:22px;color:var(--text-bright);margin-bottom:4px}
     .section-header p{color:var(--text-dim);font-size:12px}
-    .check-item{display:flex;align-items:flex-start;gap:10px;padding:9px 14px;margin-bottom:4px;border-radius:8px;background:var(--surface);border:1px solid var(--border);transition:all .15s;user-select:none}
-    .check-item:hover{border-color:var(--accent);background:var(--surface2)}
+    .check-item{display:flex;flex-direction:column;padding:9px 14px;margin-bottom:4px;border-radius:8px;background:var(--surface);border:1px solid var(--border);transition:all .15s}
+    .check-item:hover{border-color:var(--accent)}
     .check-item.checked{border-color:rgba(34,197,94,.25)}
     .check-item.checked .check-text{color:var(--text-dim);text-decoration:line-through;text-decoration-color:var(--text-dim)}
-    .check-header{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
-    .check-box{width:20px;height:20px;border-radius:5px;border:2px solid var(--border);background:transparent;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all .15s;margin-top:1px;font-size:12px;color:transparent}
+    .check-row{display:flex;align-items:flex-start;gap:10px}
+    .check-header{cursor:pointer;display:flex;align-items:center}
+    .check-box{width:20px;height:20px;border-radius:5px;border:2px solid var(--border);background:transparent;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all .15s;margin-top:1px;font-size:12px;color:transparent;cursor:pointer}
     .check-item.checked .check-box{background:rgba(34,197,94,.2);border-color:var(--green);color:var(--green)}
-    .check-text{font-size:13px;color:var(--text);line-height:1.5;flex:1}
+    .check-text{font-size:13px;color:var(--text);line-height:1.5;flex:1;cursor:pointer}
     .check-text code{font-family:var(--mono);font-size:11px;background:var(--surface2);padding:1px 5px;border-radius:3px;color:var(--gold);border:1px solid var(--border-dim)}
     .check-content{flex:1;display:flex;flex-direction:column;gap:4px}
-    .cmd{background:#0d0d22;border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-top:6px;font-family:var(--mono);font-size:12px;color:var(--green);position:relative;overflow-x:auto;white-space:pre;display:block}
+    .cmd-wrap{position:relative;margin-top:6px}
+    .cmd{background:#0d0d22;border:1px solid var(--border);border-radius:8px;padding:10px 60px 10px 14px;font-family:var(--mono);font-size:12px;color:var(--green);position:relative;overflow-x:auto;white-space:pre;display:block}
     .copy-btn{position:absolute;top:7px;right:7px;background:var(--surface2);border:1px solid var(--border);color:var(--text-dim);font-size:10px;padding:2px 8px;border-radius:4px;cursor:pointer;font-family:var(--font);transition:all .15s}
     .copy-btn:hover{background:var(--accent);color:white;border-color:var(--accent)}
     .copy-btn.copied{background:var(--green);color:white;border-color:var(--green)}
+
+    /* Guide toggle */
+    .guide-toggle{margin-top:6px}
+    .guide-btn{background:none;border:none;color:var(--accent);font-size:11px;cursor:pointer;padding:3px 0;font-family:var(--font);display:flex;align-items:center;gap:4px;transition:color .15s}
+    .guide-btn:hover{color:var(--text-bright)}
+    .guide-btn .arrow{display:inline-block;font-size:8px;transition:transform .2s ease;color:var(--text-dim)}
+    .guide-btn .arrow.open{transform:rotate(90deg);color:var(--accent)}
+    .guide-body{display:none;margin-top:8px;padding:10px 14px;background:var(--surface3);border:1px solid var(--border-dim);border-radius:6px;font-size:12px;color:var(--text-dim);line-height:1.65}
+    .guide-body.open{display:block}
+    .guide-body p{margin-bottom:6px}
+    .guide-body p:last-child{margin-bottom:0}
+    .guide-body strong{color:var(--text)}
+    .guide-body em{color:var(--gold);font-style:normal}
+    .guide-body code{font-family:var(--mono);font-size:11px;background:rgba(0,0,0,.3);padding:1px 5px;border-radius:3px;color:var(--accent)}
+    .guide-body ul{margin:4px 0;padding-left:18px}
+    .guide-body li{margin-bottom:2px}
+    .guide-body a{color:var(--accent)}
     ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
     @media(max-width:700px){.sidebar{width:220px}.main{margin-left:220px;padding:16px}}
   </style>
@@ -82,74 +98,79 @@
 const SK='writelao_cl_v1';
 const G=[
 {id:'prereqs',icon:'🔧',title:'Prerequisites',desc:'Tools and SDKs required before starting.',items:[
-  {id:'p-1',text:'Flutter 3.9+ installed',cmd:'flutter --version'},
-  {id:'p-2',text:'Flutter doctor — all checks pass',cmd:'flutter doctor'},
-  {id:'p-3',text:'Inkscape 1.4+ installed',cmd:'inkscape --version'},
-  {id:'p-4',text:'Xcode 15+ (iOS/macOS targets)'},
-  {id:'p-5',text:'Android Studio + SDK 34+ (Android target)'},
+  {id:'p-1',text:'Flutter 3.9+ installed',cmd:'flutter --version',guide:`<p>Open a terminal and run the command below. If Flutter is installed, you\'ll see the version number. If not:</p><ul><li>Download the Flutter SDK from <a href="https://flutter.dev" target="_blank">flutter.dev</a></li><li>Extract the archive to a folder like <code>~/flutter</code></li><li>Add <code>~/flutter/bin</code> to your <code>PATH</code> (edit your shell config, e.g. <code>~/.zshrc</code>:</li></ul><p><code>export PATH="$HOME/flutter/bin:$PATH"</code></p><p>Restart your terminal and run <code>flutter --version</code> again.</p>`},
+  {id:'p-2',text:'Flutter doctor — all checks pass',cmd:'flutter doctor',guide:`<p>Run <code>flutter doctor</code> to check that all platform toolchains are configured. Look for these key sections:</p><ul><li><strong>Flutter</strong> — version is correct ✓</li><li><strong>Android toolchain</strong> — Android SDK, SDK Manager, and licenses accepted ✓</li><li><strong>Xcode</strong> — installed and command-line tools selected ✓</li><li><strong>Chrome</strong> — for web development (optional but useful)</li></ul><p>Fix any issues listed with <code>[!]</code>. Run <code>flutter doctor --android-licenses</code> if Android licenses need accepting.</p>`},
+  {id:'p-3',text:'Inkscape 1.4+ installed',cmd:'inkscape --version',guide:`<p>Inkscape is used to author stroke SVGs for each character. Download it from <a href="https://inkscape.org" target="_blank">inkscape.org</a>.</p><ul><li>On macOS: <code>brew install --cask inkscape</code></li><li>On Linux: <code>sudo apt install inkscape</code></li><li>On Windows: download the installer from inkscape.org</li></ul><p>Verify with <code>inkscape --version</code>. Version 1.4 or newer is recommended.</p>`},
+  {id:'p-4',text:'Xcode 15+ (iOS/macOS targets)',guide:`<p>Xcode is required to build for iOS and macOS. Install from the <strong>Mac App Store</strong>.</p><ul><li>After installing, launch Xcode once to accept the license agreement and install additional components.</li><li>Select a command-line tools version: <code>sudo xcode-select --switch /Applications/Xcode.app</code></li><li>Open Xcode→Settings→Locations and confirm the <em>Command Line Tools</em> dropdown is set.</li></ul><p>If you\'re not targeting Apple platforms, you can skip this — but you need it for iOS/macOS builds.</p>`},
+  {id:'p-5',text:'Android Studio + SDK 34+ (Android target)',guide:`<p>Download <strong>Android Studio</strong> from <a href="https://developer.android.com/studio" target="_blank">developer.android.com/studio</a>.</p><ul><li>Launch Android Studio and complete the setup wizard (it installs the base SDK).</li><li>Open SDK Manager (More Actions → SDK Manager) and ensure <strong>Android SDK Platform 34</strong> is installed under the SDK Platforms tab.</li><li>Under SDK Tools, make sure <strong>Android SDK Command-line Tools</strong> and <strong>Android Emulator</strong> are installed.</li></ul><p>Set <code>ANDROID_HOME</code> environment variable to the SDK path (usually <code>~/Library/Android/sdk</code> on macOS).</p>`},
 ]},
 {id:'project',icon:'📦',title:'Project Setup',desc:'Clone, install, verify.',items:[
-  {id:'ps-1',text:'Install Flutter dependencies',cmd:'flutter pub get'},
-  {id:'ps-2',text:'Run code generation (Freezed, Hive adapters)',cmd:'dart run build_runner build --delete-conflicting-outputs'},
-  {id:'ps-3',text:'Run tests — 200+ should pass',cmd:'flutter test'},
-  {id:'ps-4',text:'Run analyzer — 0 errors',cmd:'flutter analyze'},
+  {id:'ps-1',text:'Install Flutter dependencies',cmd:'flutter pub get',guide:`<p>Run from the <strong>project root directory</strong>. This downloads all Dart packages listed in <code>pubspec.yaml</code> including:</p><ul><li><strong>freezed</strong> / <strong>freezed_annotation</strong> — immutable data classes</li><li><strong>hive</strong> / <strong>hive_flutter</strong> — local persistence</li><li><strong>json_annotation</strong> — JSON serialization</li><li><strong>flutter_launcher_icons</strong> — app icon generation</li></ul><p>If you see version resolution errors, try <code>flutter pub upgrade</code> or check your Flutter version.</p>`},
+  {id:'ps-2',text:'Run code generation (Freezed, Hive adapters)',cmd:'dart run build_runner build --delete-conflicting-outputs',guide:`<p>This generates several important files that are <strong>not checked into source control</strong>:</p><ul><li><code>.freezed.dart</code> files — generated from <code>@freezed</code> annotated classes</li><li><code>.g.dart</code> files — JSON serialization and Hive type adapters</li></ul><p>Without these files, the app <strong>will not compile</strong>. If code generation fails, check for errors in your model files first, then try running with <code>--verbose</code> for more detail.</p>`},
+  {id:'ps-3',text:'Run tests — 200+ should pass',cmd:'flutter test',guide:`<p>Runs the entire test suite from <code>test/</code>. All tests should pass with 0 failures.</p><ul><li>Tests cover: stroke matching logic, progress tracking, lesson generation, and data integrity.</li><li>If tests fail, check that you\'ve completed steps <strong>ps-1</strong> and <strong>ps-2</strong> (pub get and code generation) first.</li><li>Use <code>flutter test --reporter expanded</code> for detailed output if debugging failures.</li></ul>`},
+  {id:'ps-4',text:'Run analyzer — 0 errors',cmd:'flutter analyze',guide:`<p>Dart\'s static analyzer checks for type errors, unused imports, and code quality issues. <strong>Zero errors</strong> is the goal.</p><ul><li>Warnings are acceptable but errors must be fixed.</li><li>If you see errors after code generation, you may need to re-run <code>build_runner</code>.</li><li>Use <code>dart fix --apply</code> to auto-fix common issues.</li></ul>`},
 ]},
 {id:'stroke-author',icon:'✏️',title:'Stroke Authoring (per character)',desc:'Draw strokes in Inkscape for each of the 58 characters.',items:[
-  {id:'sa-1',text:'Open SVG template in Inkscape',cmd:'open lao_svgs/01_01_ko_U0E81.svg'},
-  {id:'sa-2',text:'Create <code>strokes</code> layer/group in Inkscape'},
-  {id:'sa-3',text:'Draw each stroke as a separate <code>&lt;path&gt;</code> in writing order'},
-  {id:'sa-4',text:'Keep reference/background in separate groups'},
-  {id:'sa-5',text:'Save SVG'},
-  {id:'sa-6',text:'Convert SVG to JSON',cmd:'dart run tool/svg_to_json.dart lao_svgs/01_01_ko_U0E81.svg -o assets/stroke_data/U+0E81.json --verbose'},
-  {id:'sa-7',text:'Verify in app: ghost strokes render, matching works, order correct'},
+  {id:'sa-1',text:'Open SVG template in Inkscape',cmd:'open lao_svgs/01_01_ko_U0E81.svg',guide:`<p>Each character has a numbered SVG template in <code>lao_svgs/</code>. Filenames follow the pattern:</p><p><code>XX_YY_name_UXXXX.svg</code></p><ul><li><strong>XX</strong> — lesson number (01–21)</li><li><strong>YY</strong> — character position in lesson</li><li><strong>name</strong> — romanized name</li><li><strong>UXXXX</strong> — Unicode code point</li></ul><p>Open the file in Inkscape. You\'ll see a reference image of the character.</p>`},
+  {id:'sa-2',text:'Create <code>strokes</code> layer/group in Inkscape',guide:`<p>In Inkscape, use the <strong>Layers</strong> panel (Layer → Layers… or <kbd>Shift+Ctrl+L</kbd>):</p><ul><li>Click the <strong>+</strong> button to add a new layer.</li><li>Name it exactly <code>strokes</code> (lowercase).</li><li>Make sure this layer is <strong>above</strong> any reference/background layers.</li></ul><p>The conversion tool looks for a layer or group named <code>strokes</code>. If it doesn\'t find one, the conversion will fail or produce empty data.</p>`},
+  {id:'sa-3',text:'Draw each stroke as a separate <code>&lt;path&gt;</code> in writing order',guide:`<p>With the <code>strokes</code> layer selected:</p><ul><li>Use the <strong>Bezier/pen tool</strong> (<kbd>B</kbd> in Inkscape) to draw each stroke.</li><li>Each stroke must be a <strong>single separate <code>&lt;path&gt;</code></strong> element.</li><li>Draw strokes in the <strong>correct writing order</strong> (typically top-to-bottom, left-to-right for Lao).</li><li>Do <strong>not</strong> combine multiple strokes into one path — the app needs individual paths to know the stroke count.</li></ul><p>The paths <strong>before</strong> the strokes layer matter: if you already have paths in the file (reference/background), make sure they are outside the strokes layer.</p>`},
+  {id:'sa-4',text:'Keep reference/background in separate groups',guide:`<p>The SVG template likely includes a reference image or character outline in other layers or groups. <strong>Do not delete these</strong> — they help you trace accurately.</p><ul><li>Keep reference content in layers <strong>outside</strong> the <code>strokes</code> layer.</li><li>Common names: <code>reference</code>, <code>background</code>, <code>template</code>.</li><li>The conversion tool <strong>only</strong> processes the <code>strokes</code> layer — everything else is ignored.</li></ul>`},
+  {id:'sa-5',text:'Save SVG',guide:`<p>Save the file (File → Save, or <kbd>Ctrl+S</kbd>). Use <strong>Plain SVG</strong> format for best compatibility:</p><ul><li>File → Save As… → choose <strong>Plain SVG (*.svg)</strong> from the dropdown.</li><li>Avoid "Inkscape SVG" if possible — it includes extra Inkscape-specific metadata.</li><li>Make sure paths are <strong>not</strong> grouped inside the strokes layer (each path should be a direct child).</li></ul>`},
+  {id:'sa-6',text:'Convert SVG to JSON',cmd:'dart run tool/svg_to_json.dart lao_svgs/01_01_ko_U0E81.svg -o assets/stroke_data/U+0E81.json --verbose',guide:`<p>The conversion tool reads the SVG, extracts the <code>strokes</code> layer paths, and writes a JSON file with per-character stroke data.</p><p>Use <code>--verbose</code> to see which strokes were extracted and their coordinates. Common issues:</p><ul><li><strong>"No strokes layer found"</strong> — the layer isn\'t named <code>strokes</code> exactly.</li><li><strong>"0 strokes extracted"</strong> — the strokes layer exists but contains no paths, or paths are inside groups.</li><li><strong>Path coordinates are off</strong> — the reference background may be interfering; try re-specifying layer boundaries.</li></ul>`},
+  {id:'sa-7',text:'Verify in app: ghost strokes render, matching works, order correct',guide:`<p>Run the app and navigate to the character you just authored:</p><ul><li>Check that <strong>ghost strokes</strong> (faint outlines) appear in Practice mode — these are generated from your JSON data.</li><li>Verify stroke <strong>matching</strong> works — drawing on a stroke should register as a match.</li><li>Confirm the <strong>stroke order</strong> is correct — the app expects strokes to be drawn in the order they appear in the JSON.</li></ul><p>If something is off, return to Inkscape, adjust the paths, re-save, re-convert, and hot-restart the app.</p>`},
 ]},
 {id:'batch',icon:'🔄',title:'Batch Convert All SVGs',desc:'Convert the full set of 58 SVGs at once.',items:[
-  {id:'bc-1',text:'Convert all SVGs to JSON',cmd:'dart run tool/svg_to_json.dart ./lao_svgs/ -o assets/stroke_data/ --verbose'},
-  {id:'bc-2',text:'All 58 JSON files created in <code>assets/stroke_data/</code>'},
+  {id:'bc-1',text:'Convert all SVGs to JSON',cmd:'dart run tool/svg_to_json.dart ./lao_svgs/ -o assets/stroke_data/ --verbose',guide:`<p>Instead of converting one SVG at a time, run the tool with a <strong>directory</strong> path instead of a file path. The tool will:</p><ul><li>Scan <code>lao_svgs/</code> for all <code>.svg</code> files.</li><li>Extract the Unicode code point from each filename.</li><li>Write a corresponding <code>U+XXXX.json</code> file to <code>assets/stroke_data/</code>.</li></ul><p>This is much faster than running the command 58 times. Any SVGs without a <code>strokes</code> layer or with parsing errors will be reported.</p>`},
+  {id:'bc-2',text:'All 58 JSON files created in <code>assets/stroke_data/</code>',guide:`<p>Verify the output directory: <code>ls -1 assets/stroke_data/*.json | wc -l</code> should print <strong>58</strong>.</p><p>If any files are missing, check the tool\'s output for error messages about specific SVGs. Common causes:</p><ul><li>The SVG file is missing or malformed.</li><li>The <code>strokes</code> layer doesn\'t exist in that SVG.</li><li>The Unicode code point couldn\'t be parsed from the filename.</li></ul>`},
 ]},
 {id:'audio',icon:'🔊',title:'Audio Files',desc:'Pronunciation audio for each character.',items:[
-  {id:'au-1',text:'Pronunciation MP3s in <code>assets/audio/pronunciation/</code>'},
-  {id:'au-2',text:'File names match romanization field (e.g., <code>ko.mp3</code>)'},
+  {id:'au-1',text:'Pronunciation MP3s in <code>assets/audio/pronunciation/</code>',guide:`<p>Place <strong>MP3 audio files</strong> for each character\'s pronunciation in this directory.</p><ul><li>Audio should be a clear, single-syllable pronunciation of the character (e.g., "ko" for ກ).</li><li>Recommended format: MP3, mono, 44.1kHz, 64–128 kbps.</li><li>Keep files short (~1 second per character) to minimize app size.</li><li>You can record using any audio tool or source existing recordings.</li></ul>`},
+  {id:'au-2',text:'File names match romanization field (e.g., <code>ko.mp3</code>)',guide:`<p>The app looks up audio files by the <strong>romanization</strong> field from the character dataset. File names must match exactly:</p><ul><li>Lowercase only</li><li>No spaces or special characters</li><li>Example: the character ກ has romanization <code>ko</code>, so the file must be <code>ko.mp3</code></li></ul><p>Check <code>assets/data/lao_characters.json</code> (or wherever your character data is defined) for the exact romanization values. If a file is missing, the audio button will simply not play — it won\'t crash.</p>`},
 ]},
 {id:'icon',icon:'🎨',title:'App Icon & Splash',desc:'Configure app icon and launch screen.',items:[
-  {id:'ic-1',text:'App icon at <code>assets/icon/app_icon.png</code>'},
-  {id:'ic-2',text:'Generate platform icons',cmd:'dart run flutter_launcher_icons'},
+  {id:'ic-1',text:'App icon at <code>assets/icon/app_icon.png</code>',guide:`<p>Place your app icon source image here. Requirements:</p><ul><li><strong>1024×1024 pixels</strong> PNG</li><li>No transparency (solid background)</li><li>Keep important content inside a ~200px margin (corners get clipped on iOS)</li></ul><p>The icon will be auto-generated into all required platform sizes by the next step. Design it in any tool (Figma, Illustrator, etc.) and export as PNG.</p>`},
+  {id:'ic-2',text:'Generate platform icons',cmd:'dart run flutter_launcher_icons',guide:`<p>This command reads the <code>flutter_launcher_icons</code> configuration in <code>pubspec.yaml</code> and generates all required icon sizes for iOS and Android:</p><ul><li><strong>iOS</strong>: 20×20 through 1024×1024 in <code>ios/Runner/Assets.xcassets/AppIcon.appiconset/</code></li><li><strong>Android</strong>: mipmap-mdpi through xxxhdpi in <code>android/app/src/main/res/</code></li></ul><p>After running, the new icon will appear on the next build. No manual slicing needed.</p>`},
 ]},
 {id:'ios',icon:'🍎',title:'iOS Build',desc:'Build and configure for iOS.',items:[
-  {id:'io-1',text:'Install CocoaPods dependencies',cmd:'cd ios && pod install && cd ..'},
-  {id:'io-2',text:'Bundle ID set in Xcode'},
-  {id:'io-3',text:'Signing team configured'},
-  {id:'io-4',text:'Release build succeeds',cmd:'flutter build ios --release'},
+  {id:'io-1',text:'Install CocoaPods dependencies',cmd:'cd ios && pod install && cd ..',guide:`<p>CocoaPods manages iOS dependencies. Run this whenever you first set up the project or after changing native iOS dependencies.</p><ul><li>If <code>pod</code> is not found: install CocoaPods with <code>sudo gem install cocoapods</code>.</li><li>If you see version conflicts: run <code>pod repo update</code> first, then <code>pod install</code> again.</li><li>This creates <code>ios/Podfile.lock</code> — commit this file to version control.</li></ul>`},
+  {id:'io-2',text:'Bundle ID set in Xcode',guide:`<p>Open the Xcode workspace (not the project):</p><p><code>open ios/Runner.xcworkspace</code></p><p>In the project navigator, select the <strong>Runner</strong> project → <strong>Runner</strong> target → <strong>General</strong> tab:</p><ul><li>Set <strong>Bundle Identifier</strong> to your app\'s reverse-domain ID (e.g., <code>com.yourcompany.writelao</code>).</li><li>This must match the bundle ID in your App Store Connect record.</li></ul>`},
+  {id:'io-3',text:'Signing team configured',guide:`<p>In the same Xcode target settings, under <strong>Signing & Capabilities</strong>:</p><ul><li>Tick <strong>Automatically manage signing</strong> (recommended).</li><li>Select your <strong>Team</strong> from the dropdown (must be an active Apple Developer account).</li><li>If you don\'t see a team, you need to sign in with your Apple ID in Xcode (Xcode→Settings→Accounts) and enroll in the Apple Developer Program ($99/year) for distribution.</li></ul>`},
+  {id:'io-4',text:'Release build succeeds',cmd:'flutter build ios --release',guide:`<p>Builds the app for iOS in release mode. This is what you\'ll submit to the App Store.</p><ul><li>The first build may take a while (~5-10 minutes) as it compiles all native code.</li><li>If the build fails, check the error carefully — common issues are missing signing team, incorrect bundle ID, or missing icons.</li><li>You can also build from Xcode directly: open <code>ios/Runner.xcworkspace</code>, select <strong>Product → Archive</strong> for App Store submission.</li></ul>`},
 ]},
 {id:'android',icon:'🤖',title:'Android Build',desc:'Build and configure for Android.',items:[
-  {id:'an-1',text:'<code>android/key.properties</code> configured with keystore'},
-  {id:'an-2',text:'Release App Bundle build succeeds',cmd:'flutter build appbundle --release'},
+  {id:'an-1',text:'<code>android/key.properties</code> configured with keystore',guide:`<p>Android requires a signing keystore for release builds. Create the properties file:</p><p><code>android/key.properties</code></p><p>with the following content:</p><pre class="cmd" style="color:var(--text-dim)">storePassword=&lt;your-store-password&gt;
+keyPassword=&lt;your-key-password&gt;
+keyAlias=upload
+storeFile=&lt;path-to-keystore&gt;</pre><p>To create a keystore if you don\'t have one:</p><pre class="cmd" style="color:var(--text-dim)">keytool -genkey -v -keystore ~/upload-keystore.jks \\
+  -keyalg RSA -keysize 2048 -validity 10000 \\
+  -alias upload</pre><p><strong>Never commit</strong> the keystore or key.properties to version control. Keep them in a secure place — you\'ll need the same keystore for future app updates.</p>`},
+  {id:'an-2',text:'Release App Bundle build succeeds',cmd:'flutter build appbundle --release',guide:`<p>Builds an <strong>Android App Bundle (.aab)</strong> — the recommended format for Play Store submission (not APK).</p><ul><li>The bundle is created at <code>build/app/outputs/bundle/release/app-release.aab</code>.</li><li>App Bundles let Google Play generate optimized APKs per device, reducing download size.</li><li>If the build fails because the keystore is not found, double-check the path in <code>key.properties</code>.</li></ul>`},
 ]},
 {id:'macos',icon:'💻',title:'macOS Build (optional)',desc:'Desktop build for macOS.',items:[
-  {id:'mc-1',text:'Release build succeeds',cmd:'flutter build macos --release'},
+  {id:'mc-1',text:'Release build succeeds',cmd:'flutter build macos --release',guide:`<p>Builds the macOS desktop version. The output app bundle is created in <code>build/macos/Build/Products/Release/</code>.</p><ul><li>macOS builds require Xcode and are <strong>only available on macOS</strong>.</li><li>For distribution outside the Mac App Store, you\'ll need to sign and notarize the app separately.</li><li>If you\'re only targeting iOS and Android, you can skip this step entirely.</li></ul>`},
 ]},
 {id:'manual',icon:'🧪',title:'Manual Testing',desc:'Verify core features work end-to-end.',items:[
-  {id:'mt-1',text:'App launches to lesson list (21 lessons visible)'},
-  {id:'mt-2',text:'Lesson detail shows correct characters'},
-  {id:'mt-3',text:'Practice mode: ghost strokes + stroke matching works'},
-  {id:'mt-4',text:'Test mode: timed, stars calculated correctly'},
-  {id:'mt-5',text:'Progress persists across app restart (Hive)'},
-  {id:'mt-6',text:'Settings reset clears all progress'},
-  {id:'mt-7',text:'Review screen shows all characters'},
+  {id:'mt-1',text:'App launches to lesson list (21 lessons visible)',guide:`<p>Launch the app on a device or emulator. The main screen should show a list of <strong>21 lessons</strong>, each with a progress indicator.</p><p>If the lesson list is empty or crashes:</p><ul><li>Check that code generation ran successfully (step <strong>ps-2</strong>).</li><li>Verify <code>assets/data/</code> contains the character and lesson JSON files.</li><li>Check for errors in the debug console.</li></ul>`},
+  {id:'mt-2',text:'Lesson detail shows correct characters',guide:`<p>Tap on any lesson to see its detail screen. Verify:</p><ul><li>The correct characters are listed for that lesson.</li><li>Character names and romanizations match the Lao script shown.</li><li>Each character\'s status (locked/unlocked/completed) is correct.</li></ul>`},
+  {id:'mt-3',text:'Practice mode: ghost strokes + stroke matching works',guide:`<p>Tap a character and enter <strong>Practice mode</strong>. Verify:</p><ul><li><strong>Ghost strokes</strong> — faint outlines of each stroke appear on screen, showing the correct writing path.</li><li><strong>Stroke matching</strong> — when you trace a stroke, it should register (usually turns solid or changes color).</li><li>If ghost strokes don\'t appear, check that the character\'s JSON file exists in <code>assets/stroke_data/</code> (step <strong>bc-2</strong>).</li></ul>`},
+  {id:'mt-4',text:'Test mode: timed, stars calculated correctly',guide:`<p>Enter <strong>Test mode</strong> for a character. Verify:</p><ul><li>A timer is visible and counting.</li><li>Stars are awarded based on accuracy and time (e.g., 3 stars for quick + accurate).</li><li>Results screen shows star count and time taken.</li><li>After completing a test, the character is marked as complete in the lesson list.</li></ul>`},
+  {id:'mt-5',text:'Progress persists across app restart (Hive)',guide:`<p>Test persistence:</p><ul><li>Complete a few lessons or practice sessions.</li><li>Fully close and reopen the app (swipe it away from recent apps).</li><li>All progress should be restored — completed characters, star ratings, and lesson progress.</li></ul><p>If progress doesn\'t persist, check that Hive is initialized in <code>main()</code> and the adapter registrations in step <strong>ps-2</strong>.</p>`},
+  {id:'mt-6',text:'Settings reset clears all progress',guide:`<p>Open the <strong>Settings</strong> screen (usually a gear icon) and tap <strong>Reset All Progress</strong>. Confirm the reset.</p><ul><li>All stars, completion status, and lesson progress should reset to defaults.</li><li>The app should not crash or show stale data after reset.</li><li>Navigate back to the lesson list — all lessons should show 0% progress.</li></ul>`},
+  {id:'mt-7',text:'Review screen shows all characters',guide:`<p>Open the <strong>Review</strong> screen (from the main menu or lesson list). Verify:</p><ul><li>All 58 characters are visible, grouped by lesson.</li><li>Each character shows its star rating (or empty stars if not attempted).</li><li>Tapping a character navigates to its detail/practice screen.</li></ul>`},
 ]},
 {id:'appstore',icon:'🍏',title:'App Store Submission',desc:'Submit to the Apple App Store.',items:[
-  {id:'as-1',text:'Version number updated in <code>pubspec.yaml</code>'},
-  {id:'as-2',text:'App Store Connect app record created'},
-  {id:'as-3',text:'Metadata: name, description, keywords, screenshots'},
-  {id:'as-4',text:'Privacy policy URL'},
-  {id:'as-5',text:'Archive &rarr; Upload &rarr; Submit for review'},
+  {id:'as-1',text:'Version number updated in <code>pubspec.yaml</code>',guide:`<p>Open <code>pubspec.yaml</code> and update the <code>version</code> field:</p><pre class="cmd" style="color:var(--text-dim)">version: 1.0.0+1</pre><p>Format: <code>MAJOR.MINOR.PATCH+BUILD</code>. The build number (<code>+1</code>) must be higher than any previous submission for the same version.</p>`},
+  {id:'as-2',text:'App Store Connect app record created',guide:`<p>Go to <a href="https://appstoreconnect.apple.com" target="_blank">App Store Connect</a> and:</p><ul><li>Click <strong>My Apps → + → New App</strong>.</li><li>Fill in platform (iOS), name, primary language, bundle ID (must match Xcode).</li><li>Set the SKU (any unique string, like <code>com.yourcompany.writelao.ios</code>).</li><li>Select user access if you have a team.</li></ul>`},
+  {id:'as-3',text:'Metadata: name, description, keywords, screenshots',guide:`<p>In App Store Connect, under your app\'s listing, fill in:</p><ul><li><strong>App Name</strong> — "Write Lao" (or your chosen name, max 30 characters).</li><li><strong>Subtitle</strong> — short tagline (optional, max 30 characters).</li><li><strong>Description</strong> — well-written description of the app\'s features.</li><li><strong>Keywords</strong> — comma-separated, max 100 characters (e.g., "lao,laotian,write,trace,alphabet,learn").</li><li><strong>Screenshots</strong> — at least one per device size (6.7", 6.5", 5.5" iPhones). Screen sizes: 1290×2796, 1242×2688, 1242×2208.</li></ul>`},
+  {id:'as-4',text:'Privacy policy URL',guide:`<p>Apple requires a publicly accessible privacy policy URL. Options:</p><ul><li>Create a simple page on your website or GitHub Pages.</li><li>Use a free privacy policy generator (e.g., <a href="https://termly.io" target="_blank">termly.io</a> or <a href="https://www.freeprivacypolicy.com" target="_blank">freeprivacypolicy.com</a>).</li><li>The policy should describe what data (if any) the app collects and how it\'s used.</li></ul><p>Enter the URL in App Store Connect under <strong>General → App Privacy</strong>.</p>`},
+  {id:'as-5',text:'Archive → Upload → Submit for review',guide:`<p>In Xcode:</p><ul><li>Select <strong>Product → Archive</strong> (with "Any iOS Device" selected as the target).</li><li>When the Organizer window opens, click <strong>Distribute App</strong>.</li><li>Choose <strong>App Store Connect → Upload</strong>.</li><li>Follow the prompts (manage signing automatically is fine).</li><li>Wait for the upload to complete and "Processing" to finish in App Store Connect (~5-30 minutes).</li><li>Then select the build, fill in any remaining metadata, and click <strong>Submit for Review</strong>.</li></ul>`},
 ]},
 {id:'playstore',icon:'▶️',title:'Play Store Submission',desc:'Submit to the Google Play Store.',items:[
-  {id:'gs-1',text:'Google Play Console app created'},
-  {id:'gs-2',text:'Store listing: title, description, screenshots, feature graphic'},
-  {id:'gs-3',text:'Privacy policy URL'},
-  {id:'gs-4',text:'Content rating questionnaire completed'},
-  {id:'gs-5',text:'Upload <code>.aab</code> &rarr; Submit for review'},
+  {id:'gs-1',text:'Google Play Console app created',guide:`<p>Go to <a href="https://play.google.com/console" target="_blank">Google Play Console</a> and:</p><ul><li>Sign in with your Google developer account ($25 one-time fee).</li><li>Click <strong>Create app</strong>.</li><li>Fill in app name, default language, app type (app or game), and free/paid status.</li><li>Accept the developer agreements.</li></ul>`},
+  {id:'gs-2',text:'Store listing: title, description, screenshots, feature graphic',guide:`<p>Under <strong>Grow → Store presence → Main store listing</strong>:</p><ul><li><strong>App name</strong> — "Write Lao" (max 30 characters).</li><li><strong>Short description</strong> — 80 characters max.</li><li><strong>Full description</strong> — detailed feature description.</li><li><strong>Screenshots</strong> — at least 2 phone screenshots (minimum 320px, max 3840px; 16:9 or 9:16 aspect ratio).</li><li><strong>Feature graphic</strong> — 1024×500px PNG, displayed at the top of your listing.</li></ul>`},
+  {id:'gs-3',text:'Privacy policy URL',guide:`<p>Same as the App Store privacy policy (step <strong>as-4</strong>). Enter the URL in Play Console under <strong>Policy → App content → Privacy policy</strong>.</p><p>The privacy policy must be publicly accessible and describe your data collection and usage practices.</p>`},
+  {id:'gs-4',text:'Content rating questionnaire completed',guide:`<p>Under <strong>Policy → App content → Content rating</strong>:</p><ul><li>Click <strong>Start questionnaire</strong>.</li><li>Fill in your email and select the app category.</li><li>Answer questions about the app\'s content (violence, profanity, user interaction, etc.).</li><li>For a handwriting education app, most answers will be "No" — which should result in an "Everyone" rating.</li></ul><p>Once submitted, the rating is calculated and applied to your listing.</p>`},
+  {id:'gs-5',text:'Upload <code>.aab</code> → Submit for review',guide:`<p>Under <strong>Release → Testing/Production</strong>:</p><ul><li>Click <strong>Create new release</strong> for the track you want (internal testing, closed testing, or production).</li><li>Upload the <code>.aab</code> file from <code>build/app/outputs/bundle/release/app-release.aab</code> (built in step <strong>an-2</strong>).</li><li>Fill in release notes.</li><li>Click <strong>Review</strong> to check for any missing information.</li><li>Click <strong>Start rollout to Production</strong> (or the appropriate track).</li></ul><p>Google\'s review typically takes 3–7 days for new apps.</p>`},
 ]},
 ];
 
@@ -177,19 +198,24 @@ function renderNav(){
 function renderMain(){
   const m=document.getElementById('mainContent');
   const g=G.find(x=>x.id===cur);if(!g)return;
-  let h=`<div class="section visible"><div class="section-header"><h2>${g.icon} ${g.title}</h2><p>${g.desc}</p></div>`;
-  g.items.forEach(item=>{
+  let h=`<div class="section-header"><h2>${g.icon} ${g.title}</h2><p>${g.desc}</p></div>`;
+  g.items.forEach((item,i)=>{
     const ck=isChecked(item.id)?'checked':'';
     h+=`<div class="check-item ${ck}">`;
+    h+=`<div class="check-row">`;
     h+=`<div class="check-header" onclick="toggle('${item.id}')"><div class="check-box">✓</div></div>`;
     h+=`<div class="check-content">`;
     h+=`<div class="check-text" onclick="toggle('${item.id}')">${item.text}</div>`;
     if(item.cmd){
-      h+=`<div class="cmd">${esc(item.cmd)}<button class="copy-btn" onclick="copyCmd(this)">Copy</button></div>`;
+      h+=`<div class="cmd-wrap"><div class="cmd">${esc(item.cmd)}<button class="copy-btn" onclick="copyCmd(this)">Copy</button></div></div>`;
     }
-    h+=`</div></div>`;
+    h+=`</div></div>`; // close check-content, check-row
+    if(item.guide){
+      h+=`<div class="guide-toggle"><button class="guide-btn" onclick="toggleGuide(this)"><span class="arrow">▶</span> How to do this</button></div>`;
+      h+=`<div class="guide-body">${item.guide}</div>`;
+    }
+    h+=`</div>`; // close check-item
   });
-  h+='</div>';
   m.innerHTML=h;
 }
 
@@ -201,12 +227,25 @@ function renderProg(){
   document.getElementById('totalCount').textContent=total;
 }
 
+function toggleGuide(btn){
+  const arrow=btn.querySelector('.arrow');
+  const body=btn.parentElement.nextElementSibling;
+  const open=body.classList.contains('open');
+  if(open){
+    body.classList.remove('open');
+    arrow.classList.remove('open');
+  }else{
+    body.classList.add('open');
+    arrow.classList.add('open');
+  }
+}
+
 function showSec(id){cur=id;render()}
 function checkAll(){G.forEach(g=>g.items.forEach(i=>{st[i.id]=true}));save();render()}
 function resetAll(){if(confirm('Reset all checklist items?')){st={};save();render()}}
 
 function copyCmd(btn){
-  const block=btn.parentElement;
+  const block=btn.parentElement.querySelector('.cmd')||btn.parentElement;
   const text=block.textContent.replace('Copy','').replace('Copied!','').trim();
   navigator.clipboard.writeText(text).then(()=>{
     btn.textContent='Copied!';

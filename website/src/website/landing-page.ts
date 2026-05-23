@@ -434,8 +434,8 @@ export const landingPageHTML = `<!DOCTYPE html>
         <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#faq" data-i18n="nav.faq">FAQ</a>
         <a href="mailto:help@dharmaprotectors.org">Contact</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+        <a href="/privacy_policy.html">Privacy</a>
+        <a href="/tos.html">Terms</a>
       </nav>
     </div>
     <div class="container footer-bottom">
