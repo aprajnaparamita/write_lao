@@ -40,7 +40,8 @@ Widget _wrap(Widget child) {
     locale: const Locale('en'),
     home: Scaffold(
       body: Center(
-        child: SizedBox(width: 400, height: 760, child: child),
+        // Extra height so 52 px play buttons + section tiles stay on screen.
+        child: SizedBox(width: 400, height: 900, child: child),
       ),
     ),
   );
@@ -93,16 +94,19 @@ void main() {
       await tester.pump();
       audio.completeCurrent(); // clear the auto-played headword
 
+      await tester.ensureVisible(find.byKey(WordCardKeys.example1PlayButton));
       await tester.tap(find.byKey(WordCardKeys.example1PlayButton));
       await tester.pump();
       expect(audio.playedPaths.last, 'audio/w_0001_example1.m4a');
       audio.completeCurrent();
 
+      await tester.ensureVisible(find.byKey(WordCardKeys.example2PlayButton));
       await tester.tap(find.byKey(WordCardKeys.example2PlayButton));
       await tester.pump();
       expect(audio.playedPaths.last, 'audio/w_0001_example2.m4a');
       audio.completeCurrent();
 
+      await tester.ensureVisible(find.byKey(WordCardKeys.headwordPlayButton));
       await tester.tap(find.byKey(WordCardKeys.headwordPlayButton));
       await tester.pump();
       expect(audio.playedPaths.last, 'audio/w_0001_word.m4a');
@@ -142,7 +146,7 @@ void main() {
       expect(audio.stopCallCount, greaterThanOrEqualTo(1));
     });
 
-    testWidgets('renders with green background tint', (tester) async {
+    testWidgets('renders all three section tiles', (tester) async {
       final audio = FakeVocabAudioPlayer();
       await tester.pumpWidget(_wrap(OutroCard(
         word: _word(),
@@ -152,11 +156,10 @@ void main() {
       )));
       await tester.pump();
 
-      // Find the Container with green tint
-      final containerFinder = find.byWidgetPredicate(
-        (w) => w is Container && w.color == Colors.green.shade50,
-      );
-      expect(containerFinder, findsOneWidget);
+      // The card should contain all three play buttons (word + 2 examples).
+      expect(find.byKey(WordCardKeys.headwordPlayButton), findsOneWidget);
+      expect(find.byKey(WordCardKeys.example1PlayButton), findsOneWidget);
+      expect(find.byKey(WordCardKeys.example2PlayButton), findsOneWidget);
     });
 
     testWidgets('button text shows "Got it" with arrow', (tester) async {

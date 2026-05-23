@@ -7,17 +7,25 @@ import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
 ///
 /// - Tapping while idle starts playback.
 /// - Tapping while *this path* is playing stops it.
-/// - Visual: turns the theme's primary color and grows ~10% while playing.
+/// - Visual: uses [activeColor], pops 25 % larger with an easeOutBack bounce
+///   the moment this track starts playing, and shrinks back smoothly on stop.
 class WordAudioButton extends StatefulWidget {
   final String audioPath;
   final VocabAudioPlayer audio;
+
+  /// Base icon size. The button grows to ~1.25× this while playing.
   final double iconSize;
+
+  /// Colour used while this path is actively playing. Falls back to the
+  /// theme's primary colour when omitted.
+  final Color? activeColor;
 
   const WordAudioButton({
     super.key,
     required this.audioPath,
     required this.audio,
-    this.iconSize = 28,
+    this.iconSize = 52,
+    this.activeColor,
   });
 
   @override
@@ -55,13 +63,18 @@ class _WordAudioButtonState extends State<WordAudioButton> {
 
   @override
   Widget build(BuildContext context) {
+    final activeColor =
+        widget.activeColor ?? Theme.of(context).colorScheme.primary;
     final color = _isPlayingThis
-        ? Theme.of(context).colorScheme.primary
+        ? activeColor
         : Theme.of(context).colorScheme.onSurfaceVariant;
-    final scale = _isPlayingThis ? 1.1 : 1.0;
+
+    // easeOutBack overshoots briefly → natural "pop" feel on play start.
+    // easeOut gives a smooth, quick collapse on stop.
     return AnimatedScale(
-      scale: scale,
-      duration: const Duration(milliseconds: 150),
+      scale: _isPlayingThis ? 1.25 : 1.0,
+      duration: const Duration(milliseconds: 300),
+      curve: _isPlayingThis ? Curves.easeOutBack : Curves.easeOut,
       child: IconButton(
         iconSize: widget.iconSize,
         color: color,

@@ -270,33 +270,38 @@ class _VocabLessonPracticeScreenState
           icon: const Icon(Icons.close),
           onPressed: () => _confirmAbort(context),
         ),
-      ),
-      body: Column(
-        children: [
-          LinearProgressIndicator(
-            value: (_cardIndex + 1) / plan.cards.length,
-          ),
+        // Phase chip lives in the AppBar — no wasted row below it.
+        actions: [
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 8),
+            padding: const EdgeInsets.only(right: 12),
             child: AnimatedSwitcher(
               duration: const Duration(milliseconds: 200),
               child: Container(
                 key: ValueKey('phase-$_cardIndex-$_wordPhase'),
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
                 decoration: BoxDecoration(
-                  color: _phaseColor(card).withValues(alpha: 0.15),
+                  // Solid-ish chip so it reads clearly on the dark AppBar.
+                  color: _phaseColor(card).withValues(alpha: 0.85),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
                   _phaseLabel(card),
-                  style: TextStyle(
-                    color: _phaseColor(card),
-                    fontWeight: FontWeight.w600,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
                     fontSize: 13,
                   ),
                 ),
               ),
             ),
+          ),
+        ],
+      ),
+      body: Column(
+        children: [
+          LinearProgressIndicator(
+            value: (_cardIndex + 1) / plan.cards.length,
           ),
           Expanded(
             child: _buildCard(card, word, course),

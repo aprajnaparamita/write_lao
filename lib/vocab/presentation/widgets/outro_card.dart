@@ -48,28 +48,25 @@ class _OutroCardState extends State<OutroCard> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.green.shade50,
-      child: WordCardBase(
-        word: widget.word,
-        audio: widget.audio,
-        actionRow: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            IconButton(
-              key: WordCardKeys.flagButton,
-              iconSize: 28,
-              tooltip: 'Flag to deck',
-              icon: const Icon(Icons.bookmark_add_outlined),
-              onPressed: widget.onFlag,
-            ),
-            FilledButton(
-              key: WordCardKeys.nextButton,
-              onPressed: _onNext,
-              child: const Text('Got it \u2192'),
-            ),
-          ],
-        ),
+    return WordCardBase(
+      word: widget.word,
+      audio: widget.audio,
+      actionRow: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          IconButton(
+            key: WordCardKeys.flagButton,
+            iconSize: 28,
+            tooltip: 'Flag to deck',
+            icon: const Icon(Icons.bookmark_add_outlined),
+            onPressed: widget.onFlag,
+          ),
+          FilledButton(
+            key: WordCardKeys.nextButton,
+            onPressed: _onNext,
+            child: const Text('Got it \u2192'),
+          ),
+        ],
       ),
     );
   }
