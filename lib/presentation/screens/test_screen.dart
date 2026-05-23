@@ -95,29 +95,10 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   }
 
   void _onStrokeEvaluated(StrokeEvaluation result) {
-    final state = ref.read(testControllerProvider);
-
-    if (result.result == StrokeMatchResult.correct) {
-      ref.read(testControllerProvider.notifier).onCharacterCorrect(state.elapsedMs);
-
-      // Check if test is complete
-      if (state.currentIndex + 1 >= state.totalCharacters) {
-        _timer?.cancel();
-        final quizResult = ref.read(testControllerProvider.notifier).finishTest();
-        
-        // Save the result to progress repository
-        if (quizResult != null) {
-          ref.read(progressRepositoryProvider).recordTestResult(quizResult);
-        }
-        
-        widget.onComplete?.call();
-      } else {
-        // Load next character's stroke data
-        _hintAttempts = 0;
-        _showHint = false;
-        _loadStrokeDataForCurrentCharacter();
-      }
-    } else {
+    // Correct strokes: the canvas controller advances the stroke index internally.
+    // Full character advancement only happens when the user presses Next
+    // (after onCharacterComplete fires), so we never auto-advance here.
+    if (result.result != StrokeMatchResult.correct) {
       _hintAttempts++;
       ref.read(testControllerProvider.notifier).onCharacterFailed();
 
@@ -125,6 +106,29 @@ class _TestScreenState extends ConsumerState<TestScreen> {
         setState(() => _showHint = true);
         ref.read(testControllerProvider.notifier).requestHint();
       }
+    }
+  }
+
+  /// Called when the user presses the Next button after completing a character.
+  void _onNextPressed() {
+    final state = ref.read(testControllerProvider);
+    ref.read(testControllerProvider.notifier).onCharacterCorrect(state.elapsedMs);
+
+    final newState = ref.read(testControllerProvider);
+    if (newState.isComplete) {
+      _timer?.cancel();
+      final quizResult = ref.read(testControllerProvider.notifier).finishTest();
+      if (quizResult != null) {
+        ref.read(progressRepositoryProvider).recordTestResult(quizResult);
+      }
+      widget.onComplete?.call();
+    } else {
+      _hintAttempts = 0;
+      setState(() {
+        _showHint = false;
+        _characterComplete = false;
+      });
+      _loadStrokeDataForCurrentCharacter();
     }
   }
 
@@ -460,16 +464,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
                 opacity: _characterComplete ? 1.0 : 0.0,
                 duration: const Duration(milliseconds: 300),
                 child: ElevatedButton(
-                  onPressed: _characterComplete ? () {
-                    // Move to next character or complete test
-                    final state = ref.read(testControllerProvider);
-                    if (state.currentIndex + 1 < state.totalCharacters) {
-                      ref.read(testControllerProvider.notifier).onCharacterCorrect(state.elapsedMs);
-                      _hintAttempts = 0;
-                      _showHint = false;
-                      _loadStrokeDataForCurrentCharacter();
-                    }
-                  } : null,
+                  onPressed: _characterComplete ? _onNextPressed : null,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                     foregroundColor: Colors.white,

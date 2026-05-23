@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:ui' show Rect;
 import '../../data/models/stroke_data.dart';
 import 'dtw.dart';
 import 'matching_result.dart';
@@ -10,11 +11,21 @@ class StrokeMatcher {
   final double _canvasSize;
 
   static const int resamplePointCount = 48;
-  static const double similarityThreshold = 0.50;
+
+  /// DTW similarity must reach this value to be "correct".
+  /// Raised from 0.50 → 0.75 so that rough/wrong strokes (~0.67) are rejected.
+  static const double similarityThreshold = 0.75;
+
   static const double distanceToleranceFraction = 0.12;
   static const double minPathLengthFraction = 0.05;
-  static const double directionToleranceDegrees = 120.0;
-  static const double positionToleranceFraction = 0.50;
+  static const double directionToleranceDegrees = 90.0;
+  static const double positionToleranceFraction = 0.40;
+
+  /// If the reference has significant extent along an axis (> this fraction of
+  /// canvas size), the drawn stroke must cover at least [minExtentFraction] of
+  /// that extent — prevents a flat line from matching a curved/tall stroke.
+  static const double significantExtentFraction = 0.08;
+  static const double minExtentFraction = 0.20;
 
   StrokeMatcher({double canvasSize = 512.0}) : _canvasSize = canvasSize;
 
@@ -75,19 +86,33 @@ class StrokeMatcher {
     final positionCorrect =
         centroidOffset <= positionToleranceFraction * _canvasSize;
 
-    // Step 5: Normalize for comparison
+    // Step 5: Bounding-box extent check (before normalization, in canvas coords).
+    // Prevents a flat horizontal/vertical line from passing a complex curved stroke.
+    final drawnBB = PathUtils.boundingBox(drawnResampled);
+    final refBB   = PathUtils.boundingBox(refResampled);
+    if (!_extentsConsistent(drawnBB, refBB)) {
+      return const StrokeEvaluation(
+        result: StrokeMatchResult.wrongShape,
+        similarity: 0.0,
+        distanceScore: 1.0,
+        directionCorrect: false,
+        positionCorrect: false,
+      );
+    }
+
+    // Step 6: Normalize for comparison
     final drawnNorm =
         PathUtils.scaleToFit(PathUtils.centerOnOrigin(drawnResampled), 1.0);
     final refNorm =
         PathUtils.scaleToFit(PathUtils.centerOnOrigin(refResampled), 1.0);
 
-    // Step 6: Compute DTW distance
+    // Step 7: Compute DTW distance
     final dtwDist = DTW.distance(drawnNorm, refNorm);
 
-    // Step 7: Compute similarity
+    // Step 8: Compute similarity
     final similarity = (1.0 - dtwDist.clamp(0.0, 1.0));
 
-    // Step 8: Decision
+    // Step 9: Decision
     StrokeMatchResult result;
     if (similarity >= similarityThreshold) {
       if (!directionCorrect && reversedDirectionCorrect) {
@@ -122,5 +147,14 @@ class StrokeMatcher {
       directionCorrect: directionCorrect,
       positionCorrect: positionCorrect,
     );
+  }
+
+  /// Returns true if the drawn bounding box has sufficient extent along every
+  /// axis where the reference bounding box is "significant".
+  bool _extentsConsistent(Rect drawn, Rect ref) {
+    final threshold = _canvasSize * significantExtentFraction;
+    if (ref.width  > threshold && drawn.width  < ref.width  * minExtentFraction) return false;
+    if (ref.height > threshold && drawn.height < ref.height * minExtentFraction) return false;
+    return true;
   }
 }
