@@ -12,23 +12,11 @@ import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 import { logger } from 'hono/logger';
 import { landingPageHTML, landingPageCSS, landingPageJS, i18nScript } from './landing-page';
-import { heroScreenshotBase64 } from './hero-image';
-import { thumbnailBase64 } from './thumbnail-image';
-import { heroScreenshotBase64 as shot1Base64 } from './hero-image';
-import { shot2Base64 } from './shot2-image';
-import { shot3Base64 } from './shot3-image';
-import { shot4Base64 } from './shot4-image';
-import { faviconBase64 } from './favicon-image';
-import { favicon32Base64 } from './favicon32-image';
-import { favicon16Base64 } from './favicon16-image';
-import { appleTouchIconBase64 } from './apple-touch-icon-image';
-import { androidChrome192Base64 } from './android-chrome-192-image';
-import { androidChrome512Base64 } from './android-chrome-512-image';
 import { translations } from './translations';
 import { createAdminRouter } from '../admin/router';
 
 type Env = {
-  ASSETS: KVNamespace;
+  ASSETS: Fetcher;
   DB: D1Database;
   COURSE_DATA: R2Bucket;
   TEACHER_JWT_SECRET: string;
@@ -203,6 +191,191 @@ const tosHTML = `<!DOCTYPE html>
 </body>
 </html>`;
 
+// ── Shared page styles ───────────────────────────────────────────────
+const pageStyles = `
+  :root { --cream: #faf6ef; --cream-2: #f2ebdd; --ink: #1a1511; --ink-soft: #3a312a; --muted: #6b5a4a; --saffron: #c8573f; --saffron-dark: #a8432e; --saffron-tint: #f5e4de; --teal: #1e3a3a; --line: #e6ddcd; }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, sans-serif; font-size: 1rem; line-height: 1.65; color: var(--ink); background: var(--cream); -webkit-font-smoothing: antialiased; }
+  .container { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  .back { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--saffron); font-weight: 600; font-size: 0.9375rem; text-decoration: none; margin-bottom: 2rem; }
+  .back:hover { text-decoration: underline; }
+  h1 { font-size: 1.875rem; font-weight: 700; margin: 0 0 0.5rem; }
+  .subtitle { color: var(--muted); font-size: 1rem; margin-bottom: 2.5rem; }
+  h2 { font-size: 1.2rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--saffron); }
+  a:hover { text-decoration: underline; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 1.75rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(26,21,17,0.06); }
+  .qr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+  .qr-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 1.5rem; text-align: center; box-shadow: 0 2px 8px rgba(26,21,17,0.06); }
+  .qr-card img { width: 220px; height: 220px; object-fit: contain; margin: 0 auto 1rem; border-radius: 8px; }
+  .qr-card .qr-label { font-weight: 700; font-size: 1.0625rem; margin-bottom: 0.25rem; }
+  .qr-card .qr-sub { color: var(--muted); font-size: 0.875rem; }
+  .bank-table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+  .bank-table tr { border-bottom: 1px solid var(--line); }
+  .bank-table tr:last-child { border-bottom: 0; }
+  .bank-table td { padding: 0.6rem 0.5rem; vertical-align: top; }
+  .bank-table td:first-child { color: var(--muted); font-weight: 600; white-space: nowrap; padding-right: 1.25rem; width: 40%; }
+  label { display: block; font-weight: 600; font-size: 0.9375rem; margin-bottom: 0.375rem; }
+  input, textarea, select { width: 100%; padding: 0.625rem 0.875rem; font: inherit; font-size: 0.9375rem; color: var(--ink); background: var(--cream); border: 1.5px solid var(--line); border-radius: 8px; outline: none; transition: border-color 0.15s; margin-bottom: 1.25rem; }
+  input:focus, textarea:focus { border-color: var(--saffron); background: #fff; }
+  textarea { min-height: 140px; resize: vertical; }
+  .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.75rem; font: inherit; font-weight: 700; font-size: 1rem; border-radius: 32px; border: 0; cursor: pointer; text-decoration: none; transition: background 0.15s, transform 0.1s; }
+  .btn-primary { background: var(--saffron); color: #fff; }
+  .btn-primary:hover { background: var(--saffron-dark); transform: translateY(-1px); }
+  .success-msg { display: none; background: #ecfdf5; border: 1.5px solid #6ee7b7; border-radius: 8px; padding: 1rem 1.25rem; color: #065f46; font-weight: 600; margin-bottom: 1.25rem; }
+  .error-msg { display: none; background: #fef2f2; border: 1.5px solid #fca5a5; border-radius: 8px; padding: 1rem 1.25rem; color: #991b1b; font-weight: 600; margin-bottom: 1.25rem; }
+`;
+
+// ── Support page ─────────────────────────────────────────────────────
+const supportHTML = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Write Lao</title>
+  <style>${pageStyles}</style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">← Back to Write Lao</a>
+    <h1>Support</h1>
+    <p class="subtitle">Spotted a bug or have a question? We'd love to hear from you.</p>
+
+    <h2>Report a Bug by Email</h2>
+    <div class="card">
+      <div id="successMsg" class="success-msg">✓ Your report was sent! We'll be in touch soon.</div>
+      <div id="errorMsg" class="error-msg">Something went wrong. Please email us directly at <a href="mailto:help@maitrigroup.co">help@maitrigroup.co</a>.</div>
+      <form id="bugForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Janet" required>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="device">Device &amp; OS</label>
+        <input type="text" id="device" name="device" placeholder="e.g. iPhone 15, iOS 18.2">
+
+        <label for="version">App version (if known)</label>
+        <input type="text" id="version" name="version" placeholder="e.g. 1.0.1">
+
+        <label for="description">Describe the issue</label>
+        <textarea id="description" name="description" placeholder="What happened? What did you expect to happen? Steps to reproduce…" required></textarea>
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send Bug Report</button>
+      </form>
+      <p style="margin-top:1.25rem; font-size:0.875rem; color:var(--muted);">
+        Or email us directly: <a href="mailto:help@maitrigroup.co">help@maitrigroup.co</a>
+      </p>
+    </div>
+
+    <h2>Chat with Us Directly</h2>
+    <p>Prefer to message in real time? Scan a QR code to reach Janet on LINE or WeChat.</p>
+    <div class="qr-grid">
+      <div class="qr-card">
+        <img src="/assets/qr-line.jpg" alt="LINE QR code">
+        <div class="qr-label">LINE</div>
+        <div class="qr-sub">Scan to add Janet on LINE</div>
+      </div>
+      <div class="qr-card">
+        <img src="/assets/qr-wechat.jpg" alt="WeChat QR code">
+        <div class="qr-label">WeChat</div>
+        <div class="qr-sub">Scan to add 嘉琳 on WeChat</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('bugForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const successMsg = document.getElementById('successMsg');
+      const errorMsg = document.getElementById('errorMsg');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      const data = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        device: document.getElementById('device').value,
+        version: document.getElementById('version').value,
+        description: document.getElementById('description').value,
+      };
+
+      try {
+        const res = await fetch('/api/support', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        if (res.ok) {
+          successMsg.style.display = 'block';
+          document.getElementById('bugForm').reset();
+        } else {
+          errorMsg.style.display = 'block';
+        }
+      } catch {
+        errorMsg.style.display = 'block';
+      } finally {
+        btn.textContent = 'Send Bug Report';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>`;
+
+// ── Donations page ───────────────────────────────────────────────────
+const donationsHTML = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support the Project — Write Lao</title>
+  <style>${pageStyles}</style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">← Back to Write Lao</a>
+    <h1>Support the Project</h1>
+    <p class="subtitle">Write Lao is lovingly dedicated to the preservation of Lao language and culture. Every contribution helps keep it free and growing.</p>
+
+    <h2>Thailand — PromptPay (Thai Baht)</h2>
+    <div class="qr-card" style="max-width:340px;">
+      <img src="/assets/qr-thai.jpg" alt="Thai QR Payment — PromptPay">
+      <div class="qr-label">PromptPay / Thai QR Payment</div>
+      <div class="qr-sub">MS. JANET EVELYN BRASWELL-JEFFUS<br>Accepts all Thai banks · รับเงินได้จากทุกธนาคาร</div>
+    </div>
+
+    <h2>International — Revolut</h2>
+    <div class="qr-card" style="max-width:340px;">
+      <img src="/assets/qr-revolut.jpg" alt="Revolut QR code">
+      <div class="qr-label">Revolut</div>
+      <div class="qr-sub">Scan to send via Revolut (multi-currency)</div>
+    </div>
+
+    <h2>United States — Bank Transfer (USD)</h2>
+    <div class="card">
+      <table class="bank-table">
+        <tr><td>Beneficiary</td><td>Janet Braswell-Jeffus</td></tr>
+        <tr><td>Account number</td><td>218735908884</td></tr>
+        <tr><td>ACH routing</td><td>101019644</td></tr>
+        <tr><td>Wire routing</td><td>101019644</td></tr>
+        <tr><td>Bank</td><td>Lead Bank</td></tr>
+        <tr><td>Bank address</td><td>1801 Main Street, Kansas City, MO 64108, United States</td></tr>
+      </table>
+    </div>
+
+    <p style="color:var(--muted); font-size:0.875rem; margin-top:2rem;">
+      Questions about donating? Email <a href="mailto:help@maitrigroup.co">help@maitrigroup.co</a>
+    </p>
+  </div>
+</body>
+</html>`;
+
 const app = new Hono<{ Bindings: Env }>();
 
 // Global middleware
@@ -214,142 +387,6 @@ app.use('*', cors({
 
 // Health check
 app.get('/health', (c) => c.json({ status: 'ok', timestamp: new Date().toISOString() }));
-
-// Hero screenshot
-app.get('/assets/hero-screenshot.png', (c) => {
-  if (heroScreenshotBase64) {
-    return c.body(Buffer.from(heroScreenshotBase64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-// Video thumbnail
-app.get('/assets/thumbnail.png', (c) => {
-  if (thumbnailBase64) {
-    return c.body(Buffer.from(thumbnailBase64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-// Screenshot images for screenshots section
-app.get('/assets/shot-01.png', (c) => {
-  if (shot1Base64) {
-    return c.body(Buffer.from(shot1Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/assets/shot-02.png', (c) => {
-  if (shot2Base64) {
-    return c.body(Buffer.from(shot2Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/assets/shot-03.png', (c) => {
-  if (shot3Base64) {
-    return c.body(Buffer.from(shot3Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/assets/shot-04.png', (c) => {
-  if (shot4Base64) {
-    return c.body(Buffer.from(shot4Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=86400, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-// Favicon
-app.get('/favicon.png', (c) => {
-  if (faviconBase64) {
-    return c.body(Buffer.from(faviconBase64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-// Site icons
-app.get('/icons/favicon-32.png', (c) => {
-  if (favicon32Base64) {
-    return c.body(Buffer.from(favicon32Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/icons/favicon-16.png', (c) => {
-  if (favicon16Base64) {
-    return c.body(Buffer.from(favicon16Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/icons/apple-touch-icon.png', (c) => {
-  if (appleTouchIconBase64) {
-    return c.body(Buffer.from(appleTouchIconBase64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/icons/android-chrome-192x192.png', (c) => {
-  if (androidChrome192Base64) {
-    return c.body(Buffer.from(androidChrome192Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/icons/android-chrome-512x512.png', (c) => {
-  if (androidChrome512Base64) {
-    return c.body(Buffer.from(androidChrome512Base64, 'base64'), 200, {
-      'Content-Type': 'image/png',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
-
-app.get('/icons/favicon.svg', (c) => {
-  // SVG favicon - use the main favicon
-  if (faviconBase64) {
-    return c.body(Buffer.from(faviconBase64, 'base64'), 200, {
-      'Content-Type': 'image/svg+xml',
-      'Cache-Control': 'public, max-age=604800, immutable',
-    });
-  }
-  return c.text('Image not found', 404);
-});
 
 // Public landing page (matches website/index.html content)
 app.get('/', (c) => {
@@ -407,6 +444,72 @@ app.get('/tos.html', (c) => {
     'Content-Type': 'text/html; charset=utf-8',
     'Cache-Control': 'public, max-age=86400',
   });
+});
+
+// Support page
+app.get('/support', (c) => {
+  return c.html(supportHTML, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  });
+});
+
+// Donations page
+app.get('/donations', (c) => {
+  return c.html(donationsHTML, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  });
+});
+
+// Support form API — sends bug report email via Mailchannels
+app.post('/api/support', async (c) => {
+  try {
+    const body = await c.req.json<{
+      name: string;
+      email: string;
+      device?: string;
+      version?: string;
+      description: string;
+    }>();
+
+    if (!body.name || !body.email || !body.description) {
+      return c.json({ error: 'Missing required fields' }, 400);
+    }
+
+    const emailBody = [
+      `Bug Report from Write Lao Website`,
+      ``,
+      `Name:        ${body.name}`,
+      `Email:       ${body.email}`,
+      `Device / OS: ${body.device || '(not provided)'}`,
+      `App version: ${body.version || '(not provided)'}`,
+      ``,
+      `Description:`,
+      body.description,
+    ].join('\n');
+
+    const res = await fetch('https://api.mailchannels.net/tx/v1/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        personalizations: [{ to: [{ email: 'help@maitrigroup.co', name: 'Write Lao Support' }] }],
+        from: { email: 'noreply@writelao.xyz', name: 'Write Lao Bug Report' },
+        reply_to: { email: body.email, name: body.name },
+        subject: `[Bug Report] from ${body.name} — Write Lao`,
+        content: [{ type: 'text/plain', value: emailBody }],
+      }),
+    });
+
+    if (res.ok || res.status === 202) {
+      return c.json({ success: true }, 200);
+    }
+    console.error('Mailchannels error:', res.status, await res.text());
+    return c.json({ error: 'Email delivery failed' }, 500);
+  } catch (err) {
+    console.error('Support form error:', err);
+    return c.json({ error: 'Internal error' }, 500);
+  }
 });
 
 // 404 handler

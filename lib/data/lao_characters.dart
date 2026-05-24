@@ -1,4 +1,4 @@
-/// Static database of all 58 Lao characters.
+/// Static database of all Lao characters in the app.
 /// strokeCount is 0 for characters without authored stroke data.
 const List<Map<String, dynamic>> kLaoCharacters = [
   // Phase 1 — 27 Basic Consonants

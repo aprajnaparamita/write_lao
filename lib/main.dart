@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
@@ -62,6 +63,20 @@ FutureOr<SentryEvent?> _beforeSend(SentryEvent event, Hint hint) {
 
 Future<void> _runApp() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // ── Portrait lock for phones ──────────────────────────────────────────────
+  // Detect phone vs tablet by shortest side in logical pixels.
+  // Phones are typically < 600 dp; tablets are >= 600 dp.
+  // All screens are designed for portrait on phones; landscape causes overflow
+  // on the canvas-based practice/test screens and on fixed-height detail screens.
+  final view = WidgetsBinding.instance.platformDispatcher.views.first;
+  final shortestSide = view.physicalSize.shortestSide / view.devicePixelRatio;
+  if (shortestSide < 600) {
+    await SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+  }
 
   // === DIAGNOSTIC START ===
   final stopwatch = Stopwatch()..start();

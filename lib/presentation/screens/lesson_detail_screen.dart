@@ -85,102 +85,122 @@ class _LessonDetailScreenState extends ConsumerState<LessonDetailScreen> {
         ),
       ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            children: [
-              AnimatedStarRating(
-                stars: progress.stars,
-                size: 48,
-              ),
-
-              const SizedBox(height: 24),
-
-              if (bestTimeMs != null) ...[
-                Text(
-                  l10n.bestTime,
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Colors.grey[600],
-                      ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  _formatTime(bestTimeMs),
-                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontFamily: 'monospace',
-                        fontWeight: FontWeight.w600,
-                      ),
-                ),
-              ] else ...[
-                Text(
-                  l10n.bestTime,
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Colors.grey[600],
-                      ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  l10n.bestTimeEmpty,
-                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontFamily: 'monospace',
-                        color: Colors.grey[400],
-                      ),
-                ),
-              ],
-
-              const SizedBox(height: 32),
-
-              Text(
-                l10n.content,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: Colors.grey[600],
+        child: Column(
+          children: [
+            // Scrollable content — expands to fill space above the sticky buttons.
+            Expanded(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.fromLTRB(24, 24, 24, 8),
+                child: Column(
+                  children: [
+                    AnimatedStarRating(
+                      stars: progress.stars,
+                      size: 48,
                     ),
-              ),
-              const SizedBox(height: 16),
-              if (_loadingStrokes)
-                const CircularProgressIndicator()
-              else
-                Wrap(
-                  spacing: 12,
-                  runSpacing: 12,
-                  alignment: WrapAlignment.center,
-                  children: characters.map((char) {
-                    final strokeCount = _strokeCounts[char.codepoint] ?? 0;
-                    final charProgress = progressRepo.getCharacterProgress(char.codepoint);
-                    final isPracticed = charProgress.practiceCount > 0;
-                    return _CharacterBadgeWithInfo(
-                      char: char.displayChar,
-                      strokeCount: strokeCount,
-                      isPracticed: isPracticed,
-                    );
-                  }).toList(),
+
+                    const SizedBox(height: 24),
+
+                    if (bestTimeMs != null) ...[
+                      Text(
+                        l10n.bestTime,
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                              color: Colors.grey[600],
+                            ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        _formatTime(bestTimeMs),
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                                  fontFamily: 'monospace',
+                                  fontWeight: FontWeight.w600,
+                                ),
+                      ),
+                    ] else ...[
+                      Text(
+                        l10n.bestTime,
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                              color: Colors.grey[600],
+                            ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        l10n.bestTimeEmpty,
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                                  fontFamily: 'monospace',
+                                  color: Colors.grey[400],
+                                ),
+                      ),
+                    ],
+
+                    const SizedBox(height: 32),
+
+                    Text(
+                      l10n.content,
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Colors.grey[600],
+                          ),
+                    ),
+                    const SizedBox(height: 16),
+                    if (_loadingStrokes)
+                      const CircularProgressIndicator()
+                    else
+                      Wrap(
+                        spacing: 12,
+                        runSpacing: 12,
+                        alignment: WrapAlignment.center,
+                        children: characters.map((char) {
+                          final strokeCount =
+                              _strokeCounts[char.codepoint] ?? 0;
+                          final charProgress = progressRepo
+                              .getCharacterProgress(char.codepoint);
+                          final isPracticed = charProgress.practiceCount > 0;
+                          return _CharacterBadgeWithInfo(
+                            char: char.displayChar,
+                            strokeCount: strokeCount,
+                            isPracticed: isPracticed,
+                          );
+                        }).toList(),
+                      ),
+
+                    const SizedBox(height: 16),
+                  ],
                 ),
-
-              const Spacer(),
-
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton.icon(
-                  onPressed: () => context.push('/practice/${widget.lessonId}'),
-                  icon: const Icon(Icons.edit),
-                  label: Text(l10n.practice),
-                ),
               ),
-              const SizedBox(height: 12),
+            ),
 
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton.icon(
-                  onPressed: () => context.push('/test/${widget.lessonId}'),
-                  icon: const Icon(Icons.timer),
-                  label: Text(l10n.test),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: AppTheme.success,
+            // Sticky action buttons — always visible at the bottom.
+            Padding(
+              padding: const EdgeInsets.fromLTRB(24, 0, 24, 24),
+              child: Column(
+                children: [
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      onPressed: () =>
+                          context.push('/practice/${widget.lessonId}'),
+                      icon: const Icon(Icons.edit),
+                      label: Text(l10n.practice),
+                    ),
                   ),
-                ),
+                  const SizedBox(height: 12),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      onPressed: () =>
+                          context.push('/test/${widget.lessonId}'),
+                      icon: const Icon(Icons.timer),
+                      label: Text(l10n.test),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppTheme.success,
+                      ),
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

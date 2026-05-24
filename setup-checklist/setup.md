@@ -105,7 +105,7 @@ flutter analyze
 
 ## 3. Stroke Authoring Pipeline
 
-This is the core content pipeline. Each of the 58 Lao characters needs an SVG with stroke paths, which gets converted to JSON for the app.
+This is the core content pipeline. Each Lao character needs an SVG with stroke paths, which gets converted to JSON for the app.
 
 ### 3.1 SVG Template Structure
 
@@ -222,7 +222,7 @@ After conversion, verify in the app:
 
 ### 3.6 Authoring Status
 
-58 SVG templates exist in `lao_svgs/`. Currently 3 have been converted to JSON:
+SVG templates exist in `lao_svgs/`. Currently 3 have been converted to JSON:
 
 | Phase | Characters | SVGs | JSONs |
 |-------|-----------|------|-------|
@@ -416,7 +416,7 @@ update this in `lib/main.dart` whenever you bump `pubspec.yaml`:
 
 ### 7.3 Pre-Submission Checklist
 
-- [ ] All 58 characters have stroke data JSONs
+- [ ] All characters have stroke data JSONs
 - [ ] All pronunciation audio files present
 - [ ] App icon set (`flutter_launcher_icons`)
 - [ ] Splash screen configured

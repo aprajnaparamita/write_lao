@@ -1,0 +1,136 @@
+{
+  "@@locale": "lo",
+
+  "appTitle": "ຂຽນລາວ",
+
+  "tabLessons": "ບົດຮຽນ",
+  "tabReview": "ທົບທວນ",
+  "tabProgress": "ຄວາມຄືບໜ້າ",
+
+  "lessonNumber": "ບົດຮຽນທີ {number}",
+  "@lessonNumber": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "lessonNotFound": "ບໍ່ພົບບົດຮຽນ",
+  "lessonLabel": "ບົດຮຽນ",
+  "practice": "ຝຶກຫັດ",
+  "test": "ທົດສອບ",
+  "content": "ເນື້ອຫາ",
+  "bestTime": "ເວລາດີທີ່ສຸດ",
+  "bestTimeEmpty": "--:--",
+
+  "practiceTitle": "ຝຶກຫັດ",
+  "leavePracticeTitle": "ອອກຈາກການຝຶກ?",
+  "leavePracticeMessage": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອອກຈາກການຝຶກ?",
+  "continueButton": "ດຳເນີນຕໍ່",
+  "goBackButton": "ກັບຄືນ",
+  "traceCharacter": "ຕາມຮອຍຕົວອັກສອນ",
+  "allDone": "ສຳເລັດທັງໝົດ! ເກັ່ງຫຼາຍ!",
+  "moveToNext": "ເກັ່ງຫຼາຍ! ໄປຕົວອັກສອນຕໍ່ໄປ",
+  "clearTooltip": "ລ້າງ",
+  "playPronunciation": "ຟັງການອ່ານ",
+  "hideHint": "ເຊື່ອງຄຳໃບ້",
+  "showHint": "ສະແດງຄຳໃບ້",
+  "characterCount": "{current}/{total}",
+  "@characterCount": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "practiceComplete": "ຝຶກຫັດສຳເລັດ!",
+  "practiceCompleteMessage": "ທ່ານໄດ້ຝຶກ {count} ຕົວອັກສອນໃນບົດຮຽນນີ້ທັງໝົດ.",
+  "@practiceCompleteMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "characters": "ຕົວອັກສອນ",
+  "takeTest": "ທົດສອບ",
+  "practiceAgain": "ຝຶກໃໝ່ອີກ",
+  "backToLesson": "ກັບໄປບົດຮຽນ",
+  "backToReview": "ກັບໄປທົບທວນ",
+  "mainMenu": "ເມນູຫຼັກ",
+
+  "testTitle": "ທົດສອບ",
+  "leaveTestTitle": "ອອກຈາກການທົດສອບ?",
+  "leaveTestMessage": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອອກຈາກການທົດສອບ?",
+  "writeFromMemory": "ຂຽນຕົວອັກສອນນີ້ຈາກຄວາມຈຳ",
+
+  "resultPerfect": "ສົມບູນແບບ!",
+  "resultGreatJob": "ເກັ່ງຫຼາຍ!",
+  "resultGoodTry": "ດີ! ພະຍາຍາມດີ!",
+  "time": "ເວລາ",
+  "testAgain": "ທົດສອບໃໝ່",
+
+  "progressTitle": "ຄວາມຄືບໜ້າ",
+  "lessonsCompleted": "ບົດຮຽນ\nສຳເລັດ",
+  "starsEarned": "ດາວ\nທີ່ໄດ້",
+  "phaseProgress": "ຄວາມຄືບໜ້າຂອງໄລຍະ",
+  "phaseConsonants": "ພະຍັນຊະນະ",
+  "phaseVowels": "ສະຫຼະ",
+  "phaseToneMarks": "ວັນນະຍຸດ",
+  "phaseNumerals": "ຕົວເລກ",
+  "phaseLigatures": "ຕົວຜ່ຽນ",
+
+  "reviewTitle": "ທົບທວນ",
+  "weakCharacters": "ຕົວອັກສອນທີ່ຍັງອ່ອນ",
+  "all": "ທັງໝົດ",
+  "phaseN": "ໄລຍະທີ {number}",
+  "@phaseN": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "practiceSelected": "ຝຶກທີ່ເລືອກ ({count})",
+  "@practiceSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "ການຕັ້ງຄ່າ",
+  "strokeTolerance": "ຄວາມຍືດຫຍຸ່ນຂອງເສັ້ນ",
+  "toleranceForgiving": "ຜ່ອນຜັນ",
+  "toleranceStrict": "ເຂັ້ມງວດ",
+  "soundEffects": "ສຽງ",
+  "soundEffectsSubtitle": "ສຽງສຳລັບເສັ້ນຖືກ/ຜິດ",
+  "hapticFeedback": "ການສັ່ນ",
+  "hapticFeedbackSubtitle": "ສັ່ນເມື່ອຂຽນເສັ້ນ",
+  "resetAllProgress": "ຣີເຊັດຄວາມຄືບໜ້າທັງໝົດ",
+  "resetAllProgressSubtitle": "ລ້າງຄວາມຄືບໜ້າ ແລະ ດາວທັງໝົດ",
+  "aboutWriteLao": "ກ່ຽວກັບ ຂຽນລາວ",
+  "aboutVersion": "v1.0",
+  "aboutVersionAuthor": "v1.0 · Janet Jeffus",
+  "toleranceVeryEasy": "ງ່າຍຫຼາຍ",
+  "toleranceEasy": "ງ່າຍ",
+  "toleranceMedium": "ປານກາງ",
+  "toleranceHard": "ຍາກ",
+  "toleranceVeryHard": "ຍາກຫຼາຍ",
+  "toleranceExtreme": "ຍາກສຸດໆ",
+  "toleranceDescVeryEasy": "ຮອງຮັບການຂຽນຮູບແບບໃດກໍໄດ້",
+  "toleranceDescEasy": "ກົງກັນແບບຜ່ອນຜັນ ເໝາະສຳລັບຜູ້ເລີ່ມຕົ້ນ",
+  "toleranceDescMedium": "ລະດັບຄວາມຍາກທີ່ສົມດູນ (ແນະນຳ)",
+  "toleranceDescHard": "ຕ້ອງການຄວາມຖືກຕ້ອງສູງ",
+  "toleranceDescVeryHard": "ກົງກັນເຂັ້ມງວດ",
+  "toleranceDescExtreme": "ກົງກັນເຂັ້ມງວດຫຼາຍ ສຳລັບຜູ້ຊ່ຽວຊານ",
+  "resetProgressTitle": "ຣີເຊັດຄວາມຄືບໜ້າ?",
+  "resetProgressMessage": "ນີ້ຈະລຶບຄວາມຄືບໜ້າທັງໝົດຂອງທ່ານຢ່າງຖາວອນ, ລວມທັງ:\n\n• ສະຖານະການສຳເລັດບົດຮຽນ\n• ດາວທີ່ໄດ້ຮັບ\n• ເວລາດີທີ່ສຸດ\n• ປະຫວັດການຝຶກ\n\nການດຳເນີນການນີ້ບໍ່ສາມາດຍົກເລີກໄດ້.",
+  "cancel": "ຍົກເລີກ",
+  "reset": "ຣີເຊັດ",
+  "progressResetSuccess": "ຣີເຊັດຄວາມຄືບໜ້າສຳເລັດ",
+
+  "aboutTitle": "ກ່ຽວກັບ",
+  "aboutAppName": "ຂຽນລາວ",
+  "aboutAuthor": "ໂດຍ Janet Jeffus",
+  "aboutCopyright": "ລິຂະສິດ © 2026",
+  "aboutStory": "ຫຼັງຈາກເຮັດວຽກເປັນວິສະວະກອນຊອຟແວຫຼາຍກ່ວາຊາວປີ, ຂ້ອຍຢາກຮຽນພາສາລາວ — ໂດຍສະເພາະ ການອ່ານ ແລະ ຂຽນຕົວອັກສອນລາວທີ່ສວຍງາມ. ຂ້ອຍໄປຊອກຫາແອັບທີ່ຈະສອນຂ້ອຍຂຽນຕົວອັກສອນທີ່ລະເສັ້ນ, ຄືກັບການຮຽນຂຽນໃນຫ້ອງຮຽນ. ຂ້ອຍຊອກຫາບໍ່ພົບ.\n\nຂຽນລາວ ນຳພາທ່ານຜ່ານພະຍັນຊະນະ, ສະຫຼະ ແລະ ວັນນະຍຸດທຸກໂຕໃນຕົວໜັງສືລາວ. ຕົວອັກສອນແຕ່ລະໂຕຖືກແຍກອອກເປັນເສັ້ນທີ່ຖືກຕ້ອງຕາມລຳດັບ ແລະ ທິດທາງ. ທ່ານລາກເສັ້ນຢູ່ໜ້າຈໍ ແລ້ວແອັບຈະບອກທ່ານວ່າຖືກ ຫຼື ຜິດ — ບໍ່ຕ້ອງເດົາ, ບໍ່ຕ້ອງໃຊ້ບັດ, ພຽງຝຶກຊ້ອມ.\n\nຂ້ອຍຫວັງວ່າແອັບນີ້ຈະຊ່ວຍທ່ານໃນການຮຽນພາສາລາວ. ສຸກໃຈຂຽນ!",
+  "aboutDedication": "ອຸທິດດ້ວຍຄວາມຮັກ ເພື່ອການອານຸລັກ ແລະ ສົງວນພາສາ ແລະ ວັດທະນະທຳລາວ.",
+  "done": "ສຳເລັດ",
+
+  "splashTitle": "ຂຽນລາວ",
+  "splashSubtitle": "ລາວ"
+}

@@ -154,20 +154,13 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
                 _buildPrompt(theme, isLastCharacter),
                 const SizedBox(height: 8),
 
-                // Word image between prompt and progress strip — fills the gap.
-                if (_hasImage)
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 4),
-                      child: Image.asset(
-                        'assets/vocab/${widget.imagePath}',
-                        fit: BoxFit.contain,
-                        errorBuilder: (_, __, ___) => const Spacer(),
-                      ),
-                    ),
-                  )
-                else
-                  const Spacer(),
+                // Acrophonical image (if available) or word image — fills gap.
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 4),
+                    child: _buildLandscapeImage(),
+                  ),
+                ),
 
                 WordProgressStrip(
                   characters: widget.allCharacters,
@@ -356,6 +349,45 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
       opacity: _characterComplete ? 0.0 : 1.0,
       duration: const Duration(milliseconds: 300),
       child: SizedBox(height: height),
+    );
+  }
+
+  // ── Acrophonical / word image ───────────────────────────────────────────────
+
+  static const _acrophonicalCodepoints = {
+    'U+0E81', 'U+0E82', 'U+0E84', 'U+0E87', 'U+0E88', 'U+0E8A',
+    'U+0E8D', 'U+0E94', 'U+0E95', 'U+0E96', 'U+0E97', 'U+0E99',
+    'U+0E9A', 'U+0E9B', 'U+0E9C', 'U+0E9D', 'U+0E9E', 'U+0E9F',
+    'U+0EA1', 'U+0EA2', 'U+0EA3', 'U+0EA5', 'U+0EA7', 'U+0EAA',
+    'U+0EAB', 'U+0EAD', 'U+0EAE',
+  };
+
+  bool get _hasAcrophonicalImage {
+    if (widget.character.type != CharacterType.consonant) return false;
+    return _acrophonicalCodepoints
+        .contains(_codepointString(widget.character.character));
+  }
+
+  /// Landscape right-panel image: prefer the acrophonical mnemonic image for
+  /// consonants that have one; fall back to the word vocabulary image.
+  Widget _buildLandscapeImage() {
+    if (_hasAcrophonicalImage) {
+      final cp = _codepointString(widget.character.character);
+      return Image.asset(
+        'assets/images/acrophonical/$cp.webp',
+        fit: BoxFit.contain,
+        errorBuilder: (_, __, ___) => _buildWordImageWidget(),
+      );
+    }
+    return _buildWordImageWidget();
+  }
+
+  Widget _buildWordImageWidget() {
+    if (!_hasImage) return const SizedBox.shrink();
+    return Image.asset(
+      'assets/vocab/${widget.imagePath}',
+      fit: BoxFit.contain,
+      errorBuilder: (_, __, ___) => const SizedBox.shrink(),
     );
   }
 }

@@ -10,10 +10,10 @@ compatibility_flags = ["nodejs_compat"]
 # Main landing page (public)
 main = "src/website/index.ts"
 
-# KV namespace for site assets cache (set actual ID via `wrangler kv:namespace create ASSETS`)
-[[kv_namespaces]]
+# Static assets served from Cloudflare's CDN (not bundled in the Worker)
+[assets]
+directory = "./public"
 binding = "ASSETS"
-id = "4c195954c45b497ba7d801f553b4ec76"
 
 # D1 database for teacher accounts and course content (create via `wrangler d1 create writelao-db`)
 [[d1_databases]]

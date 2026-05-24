@@ -29,11 +29,14 @@ class AboutScreen extends StatelessWidget {
         child: Column(
           children: [
             ClipOval(
-              child: Image.asset(
-                'assets/images/janet.JPG',
-                width: 160,
-                height: 160,
-                fit: BoxFit.cover,
+              child: RotatedBox(
+                quarterTurns: 1,
+                child: Image.asset(
+                  'assets/images/janet.webp',
+                  width: 160,
+                  height: 160,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
 
@@ -71,6 +74,17 @@ class AboutScreen extends StatelessWidget {
               l10n.aboutStory,
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     height: 1.6,
+                  ),
+              textAlign: TextAlign.center,
+            ),
+
+            const SizedBox(height: 24),
+
+            Text(
+              l10n.aboutDedication,
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Colors.grey[600],
+                    fontStyle: FontStyle.italic,
                   ),
               textAlign: TextAlign.center,
             ),

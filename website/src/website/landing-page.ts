@@ -54,10 +54,10 @@ export const landingPageHTML = `<!DOCTYPE html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#C8573F" />
-  <meta name="description" content="Write Lao — stroke-by-stroke handwriting practice for the full Lao alphabet, plus 500 essential words with native audio and spaced repetition. Works offline on every device." />
+  <meta name="description" content="Write Lao — stroke-by-stroke handwriting practice for the full Lao alphabet, plus 500 essential words with clear audio and spaced repetition. Works offline on every device." />
   <title>Write Lao — Master Lao, one stroke at a time.</title>
   <meta property="og:title" content="Write Lao — Master Lao, one stroke at a time." />
-  <meta property="og:description" content="Stroke-by-stroke handwriting practice for the full Lao alphabet. Plus 500 essential words with native audio and smart review." />
+  <meta property="og:description" content="Stroke-by-stroke handwriting practice for the full Lao alphabet. Plus 500 essential words with clear audio and smart review." />
   <meta property="og:image" content="/assets/og-image.png" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -94,6 +94,8 @@ export const landingPageHTML = `<!DOCTYPE html>
         <a href="#demo" data-i18n="nav.demo">Demo</a>
         <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="/support" data-i18n="nav.support">Support</a>
+        <a href="/donations" data-i18n="nav.donate">Donate</a>
       </nav>
       <a href="#download" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.get_app">Get the app</a>
     </div>
@@ -109,8 +111,8 @@ export const landingPageHTML = `<!DOCTYPE html>
             <span class="ink">one stroke</span> at a time.
           </h1>
           <p class="lede" data-i18n="hero.lede">
-            Guided stroke-by-stroke practice for all 58 Lao characters —
-            plus 500 essential words with native audio and spaced repetition.
+            Guided stroke-by-stroke practice for all Lao characters —
+            plus 500 essential words with clear audio and spaced repetition.
             Built for daily progress, on every device you own.
           </p>
           <div class="hero-ctas">
@@ -189,8 +191,8 @@ export const landingPageHTML = `<!DOCTYPE html>
             <div class="feature-icon">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg>
             </div>
-            <h3 data-i18n="features.audio.title">Native audio</h3>
-            <p data-i18n="features.audio.desc">Every word and example sentence voiced by a native speaker. Hear the tones — don't just read about them.</p>
+            <h3 data-i18n="features.audio.title">Clear audio</h3>
+            <p data-i18n="features.audio.desc">Every word and example sentence is voiced clearly and consistently. Hear the correct tones — every time.</p>
           </article>
 
           <article class="feature">
@@ -244,7 +246,7 @@ export const landingPageHTML = `<!DOCTYPE html>
                 <img src="/assets/shot-01.png" alt="Alphabet lessons" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
-            <figcaption data-i18n="screenshots.fig1">Structured path through all 58 characters.</figcaption>
+            <figcaption data-i18n="screenshots.fig1">Structured path through all Lao characters.</figcaption>
           </figure>
 
           <figure class="shot" role="listitem">
@@ -253,7 +255,7 @@ export const landingPageHTML = `<!DOCTYPE html>
                 <img src="/assets/shot-02.png" alt="Video lesson" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
-            <figcaption>Live stroke guidance with forgiving scoring.</figcaption>
+            <figcaption data-i18n="screenshots.fig2">Live stroke guidance with forgiving scoring.</figcaption>
           </figure>
 
           <figure class="shot" role="listitem">
@@ -262,7 +264,7 @@ export const landingPageHTML = `<!DOCTYPE html>
                 <img src="/assets/shot-03.png" alt="Writing canvas" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
-            <figcaption>New word, native audio, example sentence, picture.</figcaption>
+            <figcaption data-i18n="screenshots.fig3">New word, clear audio, example sentence, picture.</figcaption>
           </figure>
 
           <figure class="shot" role="listitem">
@@ -271,33 +273,8 @@ export const landingPageHTML = `<!DOCTYPE html>
                 <img src="/assets/shot-04.png" alt="Spaced review" style="width:100%;height:100%;object-fit:cover;" />
               </div>
             </div>
-            <figcaption>Only the words you're about to forget, surfaced daily.</figcaption>
+            <figcaption data-i18n="screenshots.fig4">Only the words you're about to forget, surfaced daily.</figcaption>
           </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="social-proof">
-      <div class="container">
-        <div class="quote-grid">
-          <blockquote class="quote">
-            <p>"PLACEHOLDER — drop a real review or two here once the app is live. Something specific: what they were stuck on, what clicked, how many weeks in."</p>
-            <footer><cite>— First name · City</cite></footer>
-          </blockquote>
-          <blockquote class="quote">
-            <p>"PLACEHOLDER — a second testimonial, ideally from someone with a different goal (traveler vs. heritage learner vs. language nerd)."</p>
-            <footer><cite>— First name · City</cite></footer>
-          </blockquote>
-        </div>
-        <div class="ratings">
-          <div class="rating">
-            <span class="stars" aria-hidden="true">★★★★★</span>
-            <span class="rating-label">App Store · <em>coming soon</em></span>
-          </div>
-          <div class="rating">
-            <span class="stars" aria-hidden="true">★★★★★</span>
-            <span class="rating-label">Google Play · <em>coming soon</em></span>
-          </div>
         </div>
       </div>
     </section>
@@ -310,14 +287,14 @@ export const landingPageHTML = `<!DOCTYPE html>
             <div class="price-row">
               <div>
                 <h3 data-i18n="pricing.alphabet.title">The Lao alphabet</h3>
-                <p data-i18n="pricing.alphabet.desc">All 58 characters · 21 lessons · stroke-by-stroke practice.</p>
+                <p data-i18n="pricing.alphabet.desc">All Lao characters · 21 lessons · stroke-by-stroke practice.</p>
               </div>
               <div class="price"><span data-i18n="pricing.free">Free</span> <span data-i18n="pricing.forever">forever</span></div>
             </div>
             <div class="price-row">
               <div>
                 <h3 data-i18n="pricing.vocab.title">The 500-word vocabulary course</h3>
-                <p data-i18n="pricing.vocab.desc">Curated words · native audio · spaced repetition · unlock forever.</p>
+                <p data-i18n="pricing.vocab.desc">Curated words · clear audio · spaced repetition · unlock forever.</p>
               </div>
               <div class="price"><strong data-i18n="pricing.price">$0.99</strong> <span data-i18n="pricing.one_time">one-time</span></div>
             </div>
@@ -390,8 +367,8 @@ export const landingPageHTML = `<!DOCTYPE html>
         </details>
 
         <details>
-          <summary data-i18n="faq.q4.title">Is the audio actually from a native speaker?</summary>
-          <p data-i18n="faq.q4.answer">Yes. Every headword and example sentence in the 500-word course is recorded by a native Lao speaker. You'll hear the real tones, not synthesized approximations.</p>
+          <summary data-i18n="faq.q4.title">How good is the audio quality?</summary>
+          <p data-i18n="faq.q4.answer">Every headword and example sentence in the 500-word course is voiced clearly and consistently. You'll always hear the correct Lao tones — no mispronunciations, no background noise.</p>
         </details>
 
         <details>
@@ -433,6 +410,8 @@ export const landingPageHTML = `<!DOCTYPE html>
         <a href="#features" data-i18n="nav.features">Features</a>
         <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="/support" data-i18n="nav.support">Support</a>
+        <a href="/donations" data-i18n="nav.donate">Donate</a>
         <a href="mailto:help@dharmaprotectors.org">Contact</a>
         <a href="/privacy_policy.html">Privacy</a>
         <a href="/tos.html">Terms</a>

@@ -104,7 +104,12 @@
       "Bash(pip3 list *)",
       "Bash(pip list *)",
       "Bash(git -C /Volumes/Dara/dev/write_lao stash)",
-      "Bash(chmod +x *)"
+      "Bash(chmod +x *)",
+      "Bash(cp /Volumes/Dara/dev/write_lao/assets/images/acrophonical/*.png /Volumes/Dara/dev/write_lao/assets_originals/images/acrophonical/)",
+      "Bash(cp /Volumes/Dara/dev/write_lao/assets/vocab/images/*.png /Volumes/Dara/dev/write_lao/assets_originals/vocab/images/)",
+      "Bash(npx tsc *)",
+      "Bash(npx wrangler *)",
+      "Bash(npm run *)"
     ]
   }
 }

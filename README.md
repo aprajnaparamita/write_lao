@@ -8,7 +8,7 @@ Learn to write the Lao alphabet through guided stroke-by-stroke practice.
 
 ## Features
 
-- **58 Lao characters** organized by phase (consonants, vowels, tone marks, numerals, ligatures)
+- **Lao characters** organized by phase (consonants, vowels, tone marks, numerals, ligatures)
 - **Stroke-by-stroke guided practice** with ghost stroke hints
 - **Timed test mode** with star ratings (1-3 stars)
 - **Custom review mode** - select specific characters to practice

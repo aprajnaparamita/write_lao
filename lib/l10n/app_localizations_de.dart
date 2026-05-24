@@ -297,7 +297,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get aboutStory =>
-      'Nach mehr als zwanzig Jahren als Software-Ingenieurin wollte ich Laotisch lernen — insbesondere die schöne laotische Schrift lesen und schreiben. Ich suchte nach einer App, die mir die Zeichen Strich für Strich beibringt, so wie man in einem Klassenzimmer schreiben lernt. Ich konnte keine finden.\n\nAlso beschloss ich, selbst eine zu entwickeln.\n\nLaotisch schreiben führt Sie durch jeden Konsonanten, Vokal und jedes Tonzeichen des laotischen Alphabets. Jedes Zeichen wird in einzelne Striche mit der richtigen Reihenfolge und Richtung zerlegt. Sie zeichnen jeden Strich auf dem Bildschirm nach, und die App sagt Ihnen, ob Sie es richtig gemacht haben — kein Raten, keine Karteikarten, nur Übung.\n\nIch hoffe, diese App hilft Ihnen auf Ihrer eigenen Reise mit der laotischen Sprache. Viel Spaß beim Schreiben!';
+      'Nach mehr als zwanzig Jahren als Software-Ingenieurin wollte ich Laotisch lernen — insbesondere die schöne laotische Schrift lesen und schreiben. Ich suchte nach einer App, die mir die Zeichen Strich für Strich beibringt, so wie man in einem Klassenzimmer schreiben lernt. Ich konnte keine finden.\n\nLaotisch schreiben führt Sie durch jeden Konsonanten, Vokal und jedes Tonzeichen des laotischen Alphabets. Jedes Zeichen wird in einzelne Striche mit der richtigen Reihenfolge und Richtung zerlegt. Sie zeichnen jeden Strich auf dem Bildschirm nach, und die App sagt Ihnen, ob Sie es richtig gemacht haben — kein Raten, keine Karteikarten, nur Übung.\n\nIch hoffe, diese App hilft Ihnen auf Ihrer eigenen Reise mit der laotischen Sprache. Viel Spaß beim Schreiben!';
+
+  @override
+  String get aboutDedication =>
+      'Mit Liebe dem Erhalt der laotischen Sprache und Kultur gewidmet.';
 
   @override
   String get done => 'Fertig';

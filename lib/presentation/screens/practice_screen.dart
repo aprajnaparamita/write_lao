@@ -29,28 +29,27 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
   @override
   void initState() {
     super.initState();
+    // Portrait lock is handled globally for phones at app startup (main.dart).
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _loadLesson();
     });
   }
 
   void _loadLesson() {
-    // Always clear canvas when entering practice to remove leftover strokes
     ref.read(canvasControllerProvider.notifier).clearAll();
-
     final charRepo = ref.read(characterRepositoryProvider);
 
-    // Review mode: use passed character codepoints
-    if (widget.characterCodepoints != null && widget.characterCodepoints!.isNotEmpty) {
+    if (widget.characterCodepoints != null &&
+        widget.characterCodepoints!.isNotEmpty) {
       final characters = widget.characterCodepoints!
           .map((cp) => charRepo.getCharacter(cp))
           .whereType<LaoCharacter>()
           .toList();
       if (characters.isNotEmpty) {
         ref.read(practiceControllerProvider.notifier).setCharacters(
-          characters,
-          title: AppLocalizations.of(context).reviewTitle,
-        );
+              characters,
+              title: AppLocalizations.of(context).reviewTitle,
+            );
         _loadStrokeDataForCurrentCharacter();
       }
       return;
@@ -68,15 +67,17 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
     final character = state.currentCharacter;
     if (character != null) {
       final strokeDataSource = ref.read(characterStrokeDataSourceProvider);
-      final strokeData = await strokeDataSource.loadStrokeData(character.codepoint);
+      final strokeData =
+          await strokeDataSource.loadStrokeData(character.codepoint);
       if (mounted) {
-        // Clear and reset canvas (important when same character repeats in sequence)
         ref.read(canvasControllerProvider.notifier).clearAll();
         if (strokeData != null) {
           ref.read(canvasControllerProvider.notifier).setCharacter(strokeData);
         }
         setState(() => _currentStrokeData = strokeData);
-        ref.read(practiceControllerProvider.notifier).setCharacter(character, strokeData);
+        ref
+            .read(practiceControllerProvider.notifier)
+            .setCharacter(character, strokeData);
         _playPronunciation(character.codepoint);
       }
     }
@@ -113,14 +114,13 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
     final state = ref.read(practiceControllerProvider);
     ref.read(practiceControllerProvider.notifier).onCharacterComplete();
 
-    // If this was the last character, navigate to practice complete
     if (state.isLastCharacter) {
       final characters = state.currentLesson != null
-          ? ref.read(characterRepositoryProvider)
+          ? ref
+              .read(characterRepositoryProvider)
               .getCharactersForLesson(state.currentLesson!.id)
           : [];
       final charList = characters.map((c) => c.char).toList();
-
       context.push(
         '/practice/${widget.lessonId}/complete',
         extra: {'characterList': charList},
@@ -128,10 +128,13 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
     }
   }
 
+  // ── Build ──────────────────────────────────────────────────────────────────
+
   @override
   Widget build(BuildContext context) {
     final state = ref.watch(practiceControllerProvider);
     final character = state.currentCharacter;
+    final l10n = AppLocalizations.of(context);
 
     return PopScope(
       canPop: false,
@@ -148,7 +151,11 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text(character?.letterNameRomanized ?? character?.name ?? AppLocalizations.of(context).practiceTitle),
+          title: Text(
+            character?.letterNameRomanized ??
+                character?.name ??
+                l10n.practiceTitle,
+          ),
           centerTitle: true,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
@@ -165,302 +172,282 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
           ),
         ),
         body: SafeArea(
-          child: Column(
-            children: [
-              // Character info + acrophonical image split container
-              if (character != null && _hasAcrophonicalImage(character.codepoint))
-                Expanded(
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      // Left half: character details, right-aligned
-                      Expanded(
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  // ── Compact info header ────────────────────────────────
+                  _buildHeader(context, character, constraints.maxHeight),
+                  // ── Drawing canvas — Expanded so it takes all free space ─
+                  Expanded(
+                    child: Center(
+                      child: AspectRatio(
+                        aspectRatio: 1,
                         child: Padding(
-                          padding: const EdgeInsets.fromLTRB(16, 8, 12, 8),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.end,
-                            children: [
-                              Text(
-                                character.displayChar,
-                                style: const TextStyle(
-                                  fontFamily: 'Noto Lao',
-                                  fontSize: 48,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                character.name,
-                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                              ),
-                              const SizedBox(height: 2),
-                              Text(
-                                '/${character.romanization}/',
-                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                                      color: Colors.grey[600],
-                                    ),
-                              ),
-                              if (character.letterName != null) ...[
-                                const SizedBox(height: 2),
-                                Text(
-                                  character.letterName!,
-                                  style: const TextStyle(
-                                    fontFamily: 'Noto Lao',
-                                    fontSize: 16,
-                                    color: Colors.grey,
-                                  ),
-                                ),
-                              ],
-                              if (character.acrophonicalMeaning != null) ...[
-                                const SizedBox(height: 2),
-                                Text(
-                                  '(${character.acrophonicalMeaning})',
-                                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                        color: Colors.grey[500],
-                                        fontStyle: FontStyle.italic,
-                                      ),
-                                ),
-                              ],
-                            ],
-                          ),
+                          padding: const EdgeInsets.all(8),
+                          child: _buildCanvas(state),
                         ),
                       ),
-                      // Right half: acrophonical image, left-aligned, fills height
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.fromLTRB(12, 8, 16, 8),
-                          child: Align(
-                            alignment: Alignment.centerLeft,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(12),
-                              child: Image.asset(
-                                'assets/images/acrophonical/${character.codepoint}.png',
-                                fit: BoxFit.contain,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-
-              // Fallback for characters without an acrophonical image
-              if (character != null && !_hasAcrophonicalImage(character.codepoint))
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8),
-                  child: Column(
-                    children: [
-                      Text(
-                        character.displayChar,
-                        style: const TextStyle(
-                          fontFamily: 'Noto Lao',
-                          fontSize: 48,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        character.name,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w600,
-                            ),
-                      ),
-                      const SizedBox(height: 2),
-                      Text(
-                        '/${character.romanization}/',
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              color: Colors.grey[600],
-                            ),
-                      ),
-                      if (character.letterName != null) ...[
-                        const SizedBox(height: 2),
-                        Text(
-                          character.letterName!,
-                          style: const TextStyle(
-                            fontFamily: 'Noto Lao',
-                            fontSize: 16,
-                            color: Colors.grey,
-                          ),
-                        ),
-                      ],
-                    ],
-                  ),
-                ),
-
-              // Writing canvas
-              Expanded(
-                child: Center(
-                  child: AspectRatio(
-                    aspectRatio: 1,
-                    child: Container(
-                      margin: const EdgeInsets.all(16),
-                      child: _buildCanvas(state),
                     ),
                   ),
-                ),
-              ),
-
-              // Character progress indicator
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Column(
-                  children: [
-                    LinearProgressIndicator(
-                      value: state.totalCharacters > 0
-                          ? (state.currentCharacterIndex + 1) / state.totalCharacters
-                          : 0,
-                      backgroundColor: Colors.grey.shade200,
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        state.isCharacterComplete ? Colors.green : Colors.blue,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      'Character ${state.currentCharacterIndex + 1} of ${state.totalCharacters}',
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Colors.grey[600],
-                          ),
-                    ),
-                  ],
-                ),
-              ),
-
-              // Instruction text
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8),
-                child: Text(
-                  state.isCharacterComplete
-                      ? AppLocalizations.of(context).moveToNext
-                      : AppLocalizations.of(context).traceCharacter,
-                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                        color: Colors.grey[600],
-                      ),
-                ),
-              ),
-
-              // Action buttons
-              Padding(
-                padding: const EdgeInsets.all(16),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    // Clear button
-                    Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        IconButton(
-                          onPressed: () {
-                            ref.read(canvasControllerProvider.notifier).clearAll();
-                            if (_currentStrokeData != null) {
-                              ref.read(canvasControllerProvider.notifier).setCharacter(_currentStrokeData!);
-                            }
-                          },
-                          icon: const Icon(Icons.delete_outline),
-                          tooltip: AppLocalizations.of(context).clearTooltip,
-                        ),
-                        Text(
-                          'Clear',
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.grey[600],
-                          ),
-                        ),
-                      ],
-                    ),
-
-                    // Play pronunciation
-                    Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        IconButton(
-                          onPressed: character != null
-                              ? () => _playPronunciation(character.codepoint)
-                              : null,
-                          icon: const Icon(Icons.volume_up),
-                          tooltip: AppLocalizations.of(context).playPronunciation,
-                        ),
-                        Text(
-                          'Sound',
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.grey[600],
-                          ),
-                        ),
-                      ],
-                    ),
-
-                    // Show/hide hint button
-                    Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        IconButton(
-                          onPressed: () {
-                            setState(() => _showHint = !_showHint);
-                          },
-                          icon: Icon(_showHint ? Icons.visibility : Icons.visibility_off),
-                          tooltip: _showHint ? AppLocalizations.of(context).hideHint : AppLocalizations.of(context).showHint,
-                        ),
-                        Text(
-                          'Hint',
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.grey[600],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-
-              // Navigation
-              Padding(
-                padding: const EdgeInsets.only(bottom: 16),
-                child: FilledButton(
-                  onPressed: state.isCharacterComplete && !state.isLastCharacter
-                      ? () {
-                          ref.read(practiceControllerProvider.notifier).nextCharacter();
-                          _loadStrokeDataForCurrentCharacter();
-                        }
-                      : null,
-                  style: FilledButton.styleFrom(
-                    backgroundColor: state.isCharacterComplete 
-                        ? Colors.green 
-                        : Colors.grey.shade400,
-                    minimumSize: const Size(220, 64),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(32),
-                    ),
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        state.isLastCharacter ? Icons.check : Icons.arrow_forward,
-                        size: 28,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        state.isLastCharacter
-                            ? AppLocalizations.of(context).allDone
-                            : 'Next',
-                        style: const TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
+                  // ── Compact bottom controls ────────────────────────────
+                  _buildBottomBar(context, state, character, l10n),
+                ],
+              );
+            },
           ),
         ),
       ),
     );
   }
+
+  // ── Info header ────────────────────────────────────────────────────────────
+  //
+  // Fixed height so it never competes with the canvas for vertical space.
+  // Height is proportional to available height, clamped to avoid becoming
+  // too large on tablets or too small on compact phones.
+
+  Widget _buildHeader(
+      BuildContext context, LaoCharacter? character, double availH) {
+    if (character == null) return const SizedBox(height: 8);
+
+    // 20 % of available height, clamped: 100–140 px.
+    // Slightly taller than before to accommodate the larger glyph.
+    final headerH = (availH * 0.20).clamp(100.0, 140.0);
+    final hasImg = _hasAcrophonicalImage(character.codepoint);
+    final imgSize = headerH - 14;
+
+    return SizedBox(
+      height: headerH,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            // Large Lao character glyph — prominent, no label needed since
+            // the AppBar title already shows the romanized name.
+            Text(
+              character.displayChar,
+              style: TextStyle(
+                fontFamily: 'Noto Lao',
+                // 80 % of interior height, clamped 72–104 sp.
+                fontSize: ((headerH - 12) * 0.80).clamp(72.0, 104.0),
+                height: 1.0,
+              ),
+            ),
+            const SizedBox(width: 12),
+            // Romanization / letter-name / mnemonic — character name removed
+            // (already shown in AppBar title, no need to repeat it).
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    '/${character.romanization}/',
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                          color: Colors.black87,
+                          fontWeight: FontWeight.w700,
+                        ),
+                  ),
+                  if (character.letterName != null)
+                    Text(
+                      character.letterName!,
+                      style: const TextStyle(
+                        fontFamily: 'Noto Lao',
+                        fontSize: 17,
+                        color: Colors.black87,
+                        height: 1.2,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  if (character.acrophonicalMeaning != null)
+                    Text(
+                      '(${character.acrophonicalMeaning})',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Colors.grey[700],
+                            fontStyle: FontStyle.italic,
+                          ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                ],
+              ),
+            ),
+            // Acrophonical mnemonic image (square, same height as header)
+            if (hasImg) ...[
+              const SizedBox(width: 8),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.asset(
+                  'assets/images/acrophonical/${character.codepoint}.webp',
+                  width: imgSize,
+                  height: imgSize,
+                  fit: BoxFit.cover,
+                  errorBuilder: (_, __, ___) => const SizedBox.shrink(),
+                ),
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+
+  // ── Canvas ─────────────────────────────────────────────────────────────────
+
+  Widget _buildCanvas(PracticeState state) {
+    final character = state.currentCharacter;
+    if (character == null) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    return WritingCanvas(
+      strokeData: _currentStrokeData,
+      mode: _showHint ? CanvasMode.practice : CanvasMode.test,
+      onCharacterComplete: _onCharacterComplete,
+      onStrokeEvaluated: (_) {},
+    );
+  }
+
+  // ── Bottom bar ─────────────────────────────────────────────────────────────
+  //
+  // Compact by design:
+  //  • Progress bar + count on one line
+  //  • Instruction text (single line)
+  //  • Icon-only action row (labels removed to save ~24 px)
+  //  • Full-width Next button
+
+  Widget _buildBottomBar(
+    BuildContext context,
+    PracticeState state,
+    LaoCharacter? character,
+    AppLocalizations l10n,
+  ) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          // Progress bar + "X / Y" count
+          Row(
+            children: [
+              Expanded(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(3),
+                  child: LinearProgressIndicator(
+                    value: state.totalCharacters > 0
+                        ? (state.currentCharacterIndex + 1) /
+                            state.totalCharacters
+                        : 0,
+                    minHeight: 5,
+                    backgroundColor: Colors.grey.shade200,
+                    valueColor: AlwaysStoppedAnimation<Color>(
+                      state.isCharacterComplete ? Colors.green : Colors.blue,
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                '${state.currentCharacterIndex + 1} / ${state.totalCharacters}',
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: Colors.grey[600],
+                    ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          // Instruction
+          Text(
+            state.isCharacterComplete ? l10n.moveToNext : l10n.traceCharacter,
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  color: state.isCharacterComplete
+                      ? Colors.green.shade700
+                      : Colors.grey[600],
+                ),
+          ),
+          // Action icons (no text labels — saves 24 px; icons are self-evident)
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IconButton(
+                onPressed: () {
+                  ref.read(canvasControllerProvider.notifier).clearAll();
+                  if (_currentStrokeData != null) {
+                    ref
+                        .read(canvasControllerProvider.notifier)
+                        .setCharacter(_currentStrokeData!);
+                  }
+                },
+                icon: const Icon(Icons.delete_outline),
+                tooltip: l10n.clearTooltip,
+              ),
+              IconButton(
+                onPressed: character != null
+                    ? () => _playPronunciation(character.codepoint)
+                    : null,
+                icon: const Icon(Icons.volume_up),
+                tooltip: l10n.playPronunciation,
+              ),
+              IconButton(
+                onPressed: () => setState(() => _showHint = !_showHint),
+                icon: Icon(
+                    _showHint ? Icons.visibility : Icons.visibility_off),
+                tooltip: _showHint ? l10n.hideHint : l10n.showHint,
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          // Next / All done button
+          SizedBox(
+            width: double.infinity,
+            height: 52,
+            child: FilledButton(
+              onPressed: state.isCharacterComplete && !state.isLastCharacter
+                  ? () {
+                      ref
+                          .read(practiceControllerProvider.notifier)
+                          .nextCharacter();
+                      _loadStrokeDataForCurrentCharacter();
+                    }
+                  : null,
+              style: FilledButton.styleFrom(
+                backgroundColor: state.isCharacterComplete
+                    ? Colors.green
+                    : Colors.grey.shade300,
+                foregroundColor: state.isCharacterComplete
+                    ? Colors.white
+                    : Colors.grey.shade600,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(26),
+                ),
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(
+                    state.isLastCharacter ? Icons.check : Icons.arrow_forward,
+                    size: 22,
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    state.isLastCharacter ? l10n.allDone : 'Next',
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
 
   static const _acrophonicalCodepoints = {
     'U+0E81', 'U+0E82', 'U+0E84', 'U+0E87', 'U+0E88', 'U+0E8A',
@@ -472,20 +459,4 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
 
   bool _hasAcrophonicalImage(String codepoint) =>
       _acrophonicalCodepoints.contains(codepoint);
-
-  Widget _buildCanvas(PracticeState state) {
-    final character = state.currentCharacter;
-    if (character == null) {
-      return const Center(child: CircularProgressIndicator());
-    }
-
-    return WritingCanvas(
-      strokeData: _currentStrokeData,
-      mode: _showHint ? CanvasMode.practice : CanvasMode.test,
-      onCharacterComplete: _onCharacterComplete,
-      onStrokeEvaluated: (result) {
-        // Handle evaluation feedback
-      },
-    );
-  }
 }

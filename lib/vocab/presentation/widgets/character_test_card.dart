@@ -128,12 +128,7 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
           ),
           const SizedBox(height: 8),
           if (!_characterComplete)
-            TextButton.icon(
-              key: WordCardKeys.showHintButton,
-              onPressed: _hintRevealed ? null : _onShowHint,
-              icon: const Icon(Icons.lightbulb_outline),
-              label: Text(CharacterStrings.showHint),
-            ),
+            _buildHintButton(fullWidth: true),
           _buildNextButton(isLastCharacter, minSize: const Size(200, 56)),
           _buildNextSpacer(height: 56),
         ],
@@ -168,29 +163,17 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
                 _buildPrompt(theme, isLastCharacter),
                 if (!_characterComplete) ...[
                   const SizedBox(height: 4),
-                  TextButton.icon(
-                    key: WordCardKeys.showHintButton,
-                    onPressed: _hintRevealed ? null : _onShowHint,
-                    icon: const Icon(Icons.lightbulb_outline),
-                    label: Text(CharacterStrings.showHint),
-                  ),
+                  _buildHintButton(fullWidth: true),
                 ],
                 const SizedBox(height: 8),
 
-                // Word image between prompt/hint and controls — fills gap.
-                if (_hasImage)
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 4),
-                      child: Image.asset(
-                        'assets/vocab/${widget.imagePath}',
-                        fit: BoxFit.contain,
-                        errorBuilder: (_, __, ___) => const Spacer(),
-                      ),
-                    ),
-                  )
-                else
-                  const Spacer(),
+                // Acrophonical image (if this char has one) or word image — fills gap.
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 4),
+                    child: _buildLandscapeImage(),
+                  ),
+                ),
 
                 WordProgressStrip(
                   characters: widget.allCharacters,
@@ -378,6 +361,92 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
       opacity: _characterComplete ? 0.0 : 1.0,
       duration: const Duration(milliseconds: 300),
       child: SizedBox(height: height),
+    );
+  }
+
+  /// Large, obvious hint button. Off → dark-red outline; On → green filled.
+  /// One-way: once revealed it cannot be hidden again.
+  Widget _buildHintButton({bool fullWidth = false}) {
+    Widget button;
+    if (_hintRevealed) {
+      button = ElevatedButton.icon(
+        key: WordCardKeys.showHintButton,
+        onPressed: () {}, // no-op — keeps it visually enabled (not grey)
+        icon: const Icon(Icons.visibility, size: 22),
+        label: const Text(
+          'Hint Showing',
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+        ),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.green.shade600,
+          foregroundColor: Colors.white,
+          elevation: 0,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+        ),
+      );
+    } else {
+      button = OutlinedButton.icon(
+        key: WordCardKeys.showHintButton,
+        onPressed: _onShowHint,
+        icon: const Icon(Icons.lightbulb_outline, size: 22),
+        label: const Text(
+          'Show Hint',
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+        ),
+        style: OutlinedButton.styleFrom(
+          foregroundColor: Colors.red.shade800,
+          side: BorderSide(color: Colors.red.shade700, width: 2.5),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+        ),
+      );
+    }
+    return SizedBox(
+      width: fullWidth ? double.infinity : null,
+      height: 52,
+      child: button,
+    );
+  }
+
+  // ── Acrophonical / word image ───────────────────────────────────────────────
+
+  static const _acrophonicalCodepoints = {
+    'U+0E81', 'U+0E82', 'U+0E84', 'U+0E87', 'U+0E88', 'U+0E8A',
+    'U+0E8D', 'U+0E94', 'U+0E95', 'U+0E96', 'U+0E97', 'U+0E99',
+    'U+0E9A', 'U+0E9B', 'U+0E9C', 'U+0E9D', 'U+0E9E', 'U+0E9F',
+    'U+0EA1', 'U+0EA2', 'U+0EA3', 'U+0EA5', 'U+0EA7', 'U+0EAA',
+    'U+0EAB', 'U+0EAD', 'U+0EAE',
+  };
+
+  bool get _hasAcrophonicalImage {
+    if (widget.character.type != CharacterType.consonant) return false;
+    return _acrophonicalCodepoints
+        .contains(_codepointString(widget.character.character));
+  }
+
+  /// Landscape right-panel image: prefer the acrophonical mnemonic image for
+  /// consonants that have one; fall back to the word vocabulary image.
+  Widget _buildLandscapeImage() {
+    if (_hasAcrophonicalImage) {
+      final cp = _codepointString(widget.character.character);
+      return Image.asset(
+        'assets/images/acrophonical/$cp.webp',
+        fit: BoxFit.contain,
+        errorBuilder: (_, __, ___) => _buildWordImageWidget(),
+      );
+    }
+    return _buildWordImageWidget();
+  }
+
+  Widget _buildWordImageWidget() {
+    if (!_hasImage) return const SizedBox.shrink();
+    return Image.asset(
+      'assets/vocab/${widget.imagePath}',
+      fit: BoxFit.contain,
+      errorBuilder: (_, __, ___) => const SizedBox.shrink(),
     );
   }
 }

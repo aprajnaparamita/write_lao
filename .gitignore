@@ -105,3 +105,6 @@ lao_svgs/*.dart
 
 # Also ignore original .wav files
 *.wav
+
+# Original full-resolution images (pre-compression backup)
+assets_originals/

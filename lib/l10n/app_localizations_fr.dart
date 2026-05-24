@@ -295,7 +295,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get aboutStory =>
-      'Après plus de vingt ans en tant qu\'ingénieure logiciel, j\'ai découvert que je voulais apprendre le lao — en particulier, lire et écrire la belle écriture lao. J\'ai cherché une application qui m\'apprendrait les caractères trait par trait, comme on apprend à écrire en classe. Je n\'en ai trouvé aucune.\n\nAlors j\'ai décidé d\'en créer une moi-même.\n\nÉcrire le Lao vous guide à travers chaque consonne, voyelle et marque tonale de l\'alphabet lao. Chaque caractère est décomposé en traits individuels dans le bon ordre et la bonne direction. Vous tracez chaque trait sur l\'écran, et l\'application vous dit si c\'est correct — pas de devinettes, pas de cartes mémoire, juste de la pratique.\n\nJ\'espère que cette application vous aidera dans votre propre parcours avec la langue lao. Bonne écriture !';
+      'Après plus de vingt ans en tant qu\'ingénieure logiciel, j\'ai découvert que je voulais apprendre le lao — en particulier, lire et écrire la belle écriture lao. J\'ai cherché une application qui m\'apprendrait les caractères trait par trait, comme on apprend à écrire en classe. Je n\'en ai trouvé aucune.\n\nÉcrire le Lao vous guide à travers chaque consonne, voyelle et marque tonale de l\'alphabet lao. Chaque caractère est décomposé en traits individuels dans le bon ordre et la bonne direction. Vous tracez chaque trait sur l\'écran, et l\'application vous dit si c\'est correct — pas de devinettes, pas de cartes mémoire, juste de la pratique.\n\nJ\'espère que cette application vous aidera dans votre propre parcours avec la langue lao. Bonne écriture !';
+
+  @override
+  String get aboutDedication =>
+      'Dédié avec amour à la préservation de la langue et de la culture laotiennes.';
 
   @override
   String get done => 'Terminé';

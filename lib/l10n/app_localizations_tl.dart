@@ -297,7 +297,11 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get aboutStory =>
-      'Pagkatapos ng mahigit dalawampung taon bilang software engineer, natuklasan kong gusto kong matutong mag-Lao — lalo na kung paano basahin at isulat ang magandang sulat na Lao. Naghanap ako ng app na magtuturo sa akin ng mga karakter nang guhit-guhit, tulad ng pagkatuto magsulat sa silid-aralan. Wala akong nahanap.\n\nKaya nagpasya akong gumawa ng sarili ko.\n\nAng Sumulat ng Lao ay gagabay sa iyo sa bawat katinig, patinig, at marka ng tono sa alpabetong Lao. Ang bawat karakter ay hinahati sa mga indibidwal na guhit na may tamang pagkakasunod at direksyon. Igiguhit mo ang bawat guhit sa screen, at sasabihin ng app kung tama ka — walang hulaan, walang flash card, pagsasanay lang.\n\nSana makatulong ang app na ito sa iyong sariling paglalakbay sa wikang Lao. Maligayang pagsusulat!';
+      'Pagkatapos ng mahigit dalawampung taon bilang software engineer, natuklasan kong gusto kong matutong mag-Lao — lalo na kung paano basahin at isulat ang magandang sulat na Lao. Naghanap ako ng app na magtuturo sa akin ng mga karakter nang guhit-guhit, tulad ng pagkatuto magsulat sa silid-aralan. Wala akong nahanap.\n\nAng Sumulat ng Lao ay gagabay sa iyo sa bawat katinig, patinig, at marka ng tono sa alpabetong Lao. Ang bawat karakter ay hinahati sa mga indibidwal na guhit na may tamang pagkakasunod at direksyon. Igiguhit mo ang bawat guhit sa screen, at sasabihin ng app kung tama ka — walang hulaan, walang flash card, pagsasanay lang.\n\nSana makatulong ang app na ito sa iyong sariling paglalakbay sa wikang Lao. Maligayang pagsusulat!';
+
+  @override
+  String get aboutDedication =>
+      'May pagmamahal na inialay sa pangangalaga ng wikang Lao at kultura nito.';
 
   @override
   String get done => 'Tapos na';
