@@ -70,6 +70,7 @@ class _WordPracticeFlowState extends State<WordPracticeFlow> {
         onCharacterComplete: _onCharacterComplete,
         onAbort: widget.onAbort,
         canvasBuilder: widget.canvasBuilder,
+        imagePath: widget.word.imagePath,
       );
     }
     return CharacterTestCard(
@@ -81,6 +82,7 @@ class _WordPracticeFlowState extends State<WordPracticeFlow> {
       onCharacterComplete: _onCharacterComplete,
       onAbort: widget.onAbort,
       canvasBuilder: widget.canvasBuilder,
+      imagePath: widget.word.imagePath,
     );
   }
 }

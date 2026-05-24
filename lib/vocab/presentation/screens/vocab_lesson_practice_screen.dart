@@ -44,6 +44,7 @@ class _VocabLessonPracticeScreenState
   String? _error;
   bool _finished = false;
   _WordPhase _wordPhase = _WordPhase.intro;
+  bool _wordIsFlagged = false;
   late final VocabAudioPlayer _audio;
 
   @override
@@ -91,9 +92,14 @@ class _VocabLessonPracticeScreenState
     if (engine != null) {
       engine.recordCardOutcome(outcome.wordId, cardOutcomeForErrors(outcome.errorCount));
     }
+    final flagged = ref
+        .read(flagDeckRepositoryProvider)
+        .getDecksContaining(outcome.wordId)
+        .isNotEmpty;
     setState(() {
       _totalErrors += outcome.errorCount;
       _wordPhase = _WordPhase.outro;
+      _wordIsFlagged = flagged;
     });
   }
 
@@ -140,13 +146,13 @@ class _VocabLessonPracticeScreenState
     setState(() => _finished = true);
   }
 
-  void _showFlagSheet(String wordId) {
+  Future<void> _showFlagSheet(String wordId) async {
     final flagRepo = ref.read(flagDeckRepositoryProvider);
     final decks = flagRepo.getAllDecks();
     final selected =
         flagRepo.getDecksContaining(wordId).map((d) => d.id).toSet();
 
-    showModalBottomSheet<void>(
+    await showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
       builder: (_) => DeckPickerSheet(
@@ -159,14 +165,23 @@ class _VocabLessonPracticeScreenState
         onCreateAndFlag: (name) {
           final deck = flagRepo.createDeck(name);
           flagRepo.flagWord(deckId: deck.id, wordId: wordId);
+          return deck; // returned so DeckPickerSheet can update its list
         },
       ),
     );
+
+    // Refresh bookmark state after the sheet closes.
+    if (!mounted) return;
+    final flagged = flagRepo.getDecksContaining(wordId).isNotEmpty;
+    setState(() => _wordIsFlagged = flagged);
   }
 
   Future<void> _confirmAbort(BuildContext context) async {
     final result = await showDialog<bool>(
       context: context,
+      // Must be false: the finger-lift that ends the button press would
+      // otherwise register as a barrier tap and instantly dismiss the dialog.
+      barrierDismissible: false,
       builder: (ctx) => AlertDialog(
         title: const Text('Leave lesson?'),
         content: const Text('Your progress will not be saved.'),
@@ -270,38 +285,42 @@ class _VocabLessonPracticeScreenState
           icon: const Icon(Icons.close),
           onPressed: () => _confirmAbort(context),
         ),
-        // Phase chip lives in the AppBar — no wasted row below it.
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 12),
-            child: AnimatedSwitcher(
-              duration: const Duration(milliseconds: 200),
-              child: Container(
-                key: ValueKey('phase-$_cardIndex-$_wordPhase'),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
-                decoration: BoxDecoration(
-                  // Solid-ish chip so it reads clearly on the dark AppBar.
-                  color: _phaseColor(card).withValues(alpha: 0.85),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Text(
-                  _phaseLabel(card),
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                    fontSize: 13,
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ],
       ),
       body: Column(
         children: [
           LinearProgressIndicator(
             value: (_cardIndex + 1) / plan.cards.length,
+          ),
+          // ── Mode banner ─────────────────────────────────────────────────
+          // Full-width, flat tint — clearly a label, not a button.
+          AnimatedSwitcher(
+            duration: const Duration(milliseconds: 200),
+            child: Container(
+              key: ValueKey('phase-$_cardIndex-$_wordPhase'),
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(vertical: 7),
+              color: _phaseColor(card).withValues(alpha: 0.10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    _phaseIcon(card),
+                    size: 15,
+                    color: _phaseColor(card),
+                  ),
+                  const SizedBox(width: 6),
+                  Text(
+                    _phaseLabel(card).toUpperCase(),
+                    style: TextStyle(
+                      color: _phaseColor(card),
+                      fontWeight: FontWeight.w700,
+                      fontSize: 11,
+                      letterSpacing: 1.6,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
           Expanded(
             child: _buildCard(card, word, course),
@@ -358,6 +377,7 @@ class _VocabLessonPracticeScreenState
           word: word,
           audio: _audio,
           onNext: _onOutroNext,
+          isFlagged: _wordIsFlagged,
           onFlag: () => _showFlagSheet(word.wordId),
         );
     }
@@ -373,6 +393,19 @@ class _VocabLessonPracticeScreenState
         return 'Write';
       case _WordPhase.outro:
         return 'Review';
+    }
+  }
+
+  /// Returns the icon for the current card phase.
+  IconData _phaseIcon(LessonCard card) {
+    if (card.kind == LessonCardKind.hearIdentify) return Icons.hearing;
+    switch (_wordPhase) {
+      case _WordPhase.intro:
+        return Icons.hearing;
+      case _WordPhase.practice:
+        return Icons.draw_outlined;
+      case _WordPhase.outro:
+        return Icons.check_circle_outline;
     }
   }
 

@@ -12,6 +12,9 @@
 .swiftpm/
 migrate_working_dir/
 .env
+*.env
+.env.*
+lib/config/secrets.dart
 node_modules
 .wrangler 
 .dev.vars

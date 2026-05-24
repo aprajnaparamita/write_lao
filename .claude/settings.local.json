@@ -103,7 +103,8 @@
       "Bash(pyenv versions *)",
       "Bash(pip3 list *)",
       "Bash(pip list *)",
-      "Bash(git -C /Volumes/Dara/dev/write_lao stash)"
+      "Bash(git -C /Volumes/Dara/dev/write_lao stash)",
+      "Bash(chmod +x *)"
     ]
   }
 }

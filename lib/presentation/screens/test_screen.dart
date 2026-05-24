@@ -142,6 +142,7 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   Future<bool> _onWillPop() async {
     final result = await showDialog<bool>(
       context: context,
+      barrierDismissible: false,
       builder: (ctx) {
         final l10n = AppLocalizations.of(ctx);
         return AlertDialog(

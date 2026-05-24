@@ -90,6 +90,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
     final l10n = AppLocalizations.of(context);
     final result = await showDialog<bool>(
       context: context,
+      barrierDismissible: false,
       builder: (context) => AlertDialog(
         title: Text(l10n.leavePracticeTitle),
         content: Text(l10n.leavePracticeMessage),

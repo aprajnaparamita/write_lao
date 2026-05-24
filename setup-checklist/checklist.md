@@ -7,6 +7,11 @@
   - [ ] Xcode 15+ (iOS/macOS targets)
   - [ ] Android Studio + SDK 34+ (Android target)
 
+- [ ] **Secrets / Environment**
+  - [ ] Copy `.env.example` to `.env` and fill in `SENTRY_DSN` (and any other keys)
+  - [ ] `bash scripts/setup_secrets.sh` — generates `lib/config/secrets.dart` (gitignored)
+  - [ ] Confirm `lib/config/secrets.dart` exists and contains the correct DSN
+
 - [ ] **Project Setup**
   - [ ] `flutter pub get`
   - [ ] `dart run build_runner build --delete-conflicting-outputs`
@@ -55,6 +60,13 @@
   - [ ] Progress persists across app restart (Hive)
   - [ ] Settings reset clears all progress
   - [ ] Review screen shows all characters
+
+- [ ] **Error Tracking (Sentry)**
+  - [ ] Sentry project created at sentry.io
+  - [ ] DSN copied into `.env` as `SENTRY_DSN=https://...`
+  - [ ] `bash scripts/setup_secrets.sh` run to regenerate `lib/config/secrets.dart`
+  - [ ] Release build sent to device — verify events appear in Sentry dashboard
+  - [ ] `SentryHelper.captureException` / `captureMessage` used in `catch` blocks for recoverable errors
 
 - [ ] **App Store Submission**
   - [ ] Version number updated in `pubspec.yaml`

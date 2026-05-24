@@ -9,6 +9,10 @@ FlagDeck _deck(String id, String name) {
   return FlagDeck(id: id, name: name, createdAt: t, updatedAt: t);
 }
 
+/// Helper that returns a dummy FlagDeck for the new [onCreateAndFlag] signature.
+FlagDeck Function(String) _noopCreate() =>
+    (name) => _deck('new_$name', name);
+
 Widget _wrap(Widget child) {
   return MaterialApp(
     locale: const Locale('en'),
@@ -25,7 +29,7 @@ void main() {
         initiallySelectedDeckIds: const {'d1'},
         onFlag: (_) {},
         onUnflag: (_) {},
-        onCreateAndFlag: (_) {},
+        onCreateAndFlag: _noopCreate(),
       )));
       expect(find.text('Tricky'), findsOneWidget);
       expect(find.text('Favorites'), findsOneWidget);
@@ -41,8 +45,7 @@ void main() {
       expect(fav.value, isFalse);
     });
 
-    testWidgets('toggling a checkbox calls onFlag / onUnflag',
-        (tester) async {
+    testWidgets('toggling a checkbox calls onFlag / onUnflag', (tester) async {
       final flagged = <String>[];
       final unflagged = <String>[];
       await tester.pumpWidget(_wrap(DeckPickerSheet(
@@ -51,7 +54,7 @@ void main() {
         initiallySelectedDeckIds: const {},
         onFlag: flagged.add,
         onUnflag: unflagged.add,
-        onCreateAndFlag: (_) {},
+        onCreateAndFlag: _noopCreate(),
       )));
 
       await tester.tap(find.byKey(WordCardKeys.deckPickerCheckbox('d1')));
@@ -63,7 +66,8 @@ void main() {
       expect(unflagged, equals(['d1']));
     });
 
-    testWidgets('create-new-deck row submits the typed name', (tester) async {
+    testWidgets('create-new-category row submits the typed name and appears as checkbox',
+        (tester) async {
       String? created;
       await tester.pumpWidget(_wrap(DeckPickerSheet(
         wordId: 'w_0001',
@@ -71,10 +75,13 @@ void main() {
         initiallySelectedDeckIds: const {},
         onFlag: (_) {},
         onUnflag: (_) {},
-        onCreateAndFlag: (n) => created = n,
+        onCreateAndFlag: (name) {
+          created = name;
+          return _deck('new_$name', name);
+        },
       )));
 
-      await tester.tap(find.text('Create new deck'));
+      await tester.tap(find.text('Create new category'));
       await tester.pump();
 
       await tester.enterText(
@@ -85,6 +92,8 @@ void main() {
       await tester.pump();
 
       expect(created, 'My new deck');
+      // After creation the new category should appear as a checked row.
+      expect(find.text('My new deck'), findsOneWidget);
     });
 
     testWidgets('blank create-new submission is a no-op', (tester) async {
@@ -95,10 +104,13 @@ void main() {
         initiallySelectedDeckIds: const {},
         onFlag: (_) {},
         onUnflag: (_) {},
-        onCreateAndFlag: (_) => calls++,
+        onCreateAndFlag: (name) {
+          calls++;
+          return _deck('x', name);
+        },
       )));
 
-      await tester.tap(find.text('Create new deck'));
+      await tester.tap(find.text('Create new category'));
       await tester.pump();
       await tester.tap(find.byKey(WordCardKeys.deckPickerCreateButton));
       await tester.pump();

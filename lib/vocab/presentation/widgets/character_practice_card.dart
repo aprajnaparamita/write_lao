@@ -13,9 +13,11 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_progress_strip.dart
 /// counts every non-correct stroke evaluation as one error against the word.
 ///
 /// Adapts layout automatically:
-///  - **Portrait**: canvas centred in an [Expanded] area, controls stacked above
-///    and below.
-///  - **Landscape**: canvas on the left, controls in a column on the right.
+///  - **Portrait**: compact header row (progress + prompt + word image) then
+///    the canvas fills the remaining height.
+///  - **Landscape**: canvas on the left (larger flex), controls + image on the
+///    right with the word image expanding to fill the gap between the prompt
+///    and the progress strip.
 class CharacterPracticeCard extends ConsumerStatefulWidget {
   final WordCharacter character;
   final List<WordCharacter> allCharacters;
@@ -24,6 +26,11 @@ class CharacterPracticeCard extends ConsumerStatefulWidget {
   final VoidCallback onCharacterComplete;
   final VoidCallback? onAbort;
   final StrokeCanvasHostBuilder canvasBuilder;
+
+  /// Optional word-level image path (relative to `assets/vocab/`). When
+  /// non-null and non-empty the image is shown beside the header text in
+  /// portrait, and fills the right-panel gap in landscape.
+  final String? imagePath;
 
   const CharacterPracticeCard({
     super.key,
@@ -34,6 +41,7 @@ class CharacterPracticeCard extends ConsumerStatefulWidget {
     required this.onCharacterComplete,
     required this.canvasBuilder,
     this.onAbort,
+    this.imagePath,
   });
 
   @override
@@ -72,6 +80,9 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
     widget.onCharacterComplete();
   }
 
+  bool get _hasImage =>
+      widget.imagePath != null && widget.imagePath!.isNotEmpty;
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -88,68 +99,84 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
   }
 
   // ── Portrait ───────────────────────────────────────────────────────────────
+  // Tighter padding + compact header so the canvas gets maximum height.
 
   Widget _buildPortrait(ThemeData theme, bool isLastCharacter) {
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(12, 6, 12, 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          _buildHeaderRow(theme),
+          _buildPortraitHeader(theme, isLastCharacter),
           const SizedBox(height: 8),
-          _buildPrompt(theme, isLastCharacter),
-          const SizedBox(height: 12),
           Expanded(child: Center(child: _buildCanvas())),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
           WordProgressStrip(
             characters: widget.allCharacters,
             currentIndex: widget.positionIndex,
             revealCurrent: true,
           ),
-          const SizedBox(height: 16),
-          _buildNextButton(isLastCharacter, minSize: const Size(220, 64)),
-          _buildNextSpacer(height: 80),
+          const SizedBox(height: 8),
+          _buildNextButton(isLastCharacter, minSize: const Size(200, 56)),
+          _buildNextSpacer(height: 56),
         ],
       ),
     );
   }
 
   // ── Landscape ──────────────────────────────────────────────────────────────
+  // Canvas gets flex 6 (was 5). Word image fills the right-panel gap between
+  // the prompt and the progress strip so the right column stays useful.
 
   Widget _buildLandscape(ThemeData theme, bool isLastCharacter) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Left: canvas square — RealStrokeCanvasHost constrains itself to
-          // min(available_width, available_height), so this fills the height.
+          // Left: canvas — larger flex gives more room for the square
           Expanded(
-            flex: 5,
+            flex: 6,
             child: Center(child: _buildCanvas()),
           ),
 
-          const SizedBox(width: 16),
+          const SizedBox(width: 12),
 
-          // Right: header + prompt + progress strip + next button
+          // Right: header + prompt + image + progress strip + next button
           Expanded(
             flex: 4,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                _buildHeaderRow(theme),
-                const SizedBox(height: 8),
+                _buildLandscapeHeaderRow(theme),
+                const SizedBox(height: 4),
                 _buildPrompt(theme, isLastCharacter),
-                const Spacer(),
+                const SizedBox(height: 8),
+
+                // Word image between prompt and progress strip — fills the gap.
+                if (_hasImage)
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      child: Image.asset(
+                        'assets/vocab/${widget.imagePath}',
+                        fit: BoxFit.contain,
+                        errorBuilder: (_, __, ___) => const Spacer(),
+                      ),
+                    ),
+                  )
+                else
+                  const Spacer(),
+
                 WordProgressStrip(
                   characters: widget.allCharacters,
                   currentIndex: widget.positionIndex,
                   revealCurrent: true,
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: 8),
                 _buildNextButton(isLastCharacter, minSize: const Size(180, 52)),
                 _buildNextSpacer(height: 52),
-                const SizedBox(height: 8),
+                const SizedBox(height: 4),
               ],
             ),
           ),
@@ -160,7 +187,83 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
 
   // ── Shared builders ────────────────────────────────────────────────────────
 
-  Widget _buildHeaderRow(ThemeData theme) {
+  /// Portrait-only: compact row that combines the progress counter, the prompt
+  /// text, and the word image to the right — all in one row so the canvas
+  /// gets maximum height. The image height matches the combined text height.
+  Widget _buildPortraitHeader(ThemeData theme, bool isLastCharacter) {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        // Abort button or placeholder
+        if (widget.onAbort != null)
+          IconButton(
+            key: WordCardKeys.abortButton,
+            icon: const Icon(Icons.close),
+            onPressed: widget.onAbort,
+            padding: EdgeInsets.zero,
+            constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
+          )
+        else
+          const SizedBox(width: 40),
+
+        // Center: "Character X of Y" + prompt stacked
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                CharacterStrings.progressLabel(
+                  widget.positionIndex + 1,
+                  widget.allCharacters.length,
+                ),
+                key: WordCardKeys.progressLabel,
+                style: theme.textTheme.bodyMedium,
+              ),
+              const SizedBox(height: 2),
+              Text(
+                _characterComplete
+                    ? (isLastCharacter ? 'All done!' : 'Great! Move to next')
+                    : CharacterStrings.tracePrompt,
+                style: theme.textTheme.titleSmall?.copyWith(
+                  color: _characterComplete ? Colors.green.shade700 : null,
+                ),
+              ),
+            ],
+          ),
+        ),
+
+        // Right: word image (small, same height as the two text lines) + audio
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            if (_hasImage)
+              SizedBox(
+                height: 52,
+                width: 52,
+                child: Image.asset(
+                  'assets/vocab/${widget.imagePath}',
+                  fit: BoxFit.contain,
+                  errorBuilder: (_, __, ___) => const SizedBox.shrink(),
+                ),
+              ),
+            IconButton(
+              key: WordCardKeys.characterAudioButton,
+              icon: const Icon(Icons.volume_up_outlined),
+              onPressed: _playAudio,
+              tooltip: 'Replay character name',
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  /// Landscape-only header: full-width row with abort / progress / audio.
+  Widget _buildLandscapeHeaderRow(ThemeData theme) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -229,15 +332,12 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(
-              isLastCharacter ? Icons.check : Icons.arrow_forward,
-              size: 28,
-            ),
+            Icon(isLastCharacter ? Icons.check : Icons.arrow_forward, size: 26),
             const SizedBox(width: 8),
             Text(
               isLastCharacter ? 'All done!' : 'Next',
               style: const TextStyle(
-                fontSize: 22,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -247,8 +347,8 @@ class _CharacterPracticeCardState extends ConsumerState<CharacterPracticeCard> {
     );
   }
 
-  /// Invisible placeholder that preserves the button's height when it is
-  /// hidden, preventing layout from jumping.
+  /// Invisible placeholder that holds space when the Next button is hidden,
+  /// preventing layout jumps.
   Widget _buildNextSpacer({required double height}) {
     return AnimatedOpacity(
       opacity: _characterComplete ? 0.0 : 1.0,

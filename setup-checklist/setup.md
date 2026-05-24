@@ -51,7 +51,35 @@ cd write_lao
 flutter pub get
 ```
 
-### 2.2 Run Code Generation
+### 2.2 Configure Secrets
+
+The app reads sensitive keys (Sentry DSN, API keys) from a **gitignored** file
+`lib/config/secrets.dart` that is generated from a `.env` file. **Never commit
+either file.**
+
+```bash
+# Copy the template
+cp .env.example .env
+
+# Edit .env and fill in your values:
+#   SENTRY_DSN=https://<key>@<org>.ingest.sentry.io/<project>
+
+# Generate lib/config/secrets.dart
+bash scripts/setup_secrets.sh
+```
+
+The script writes `lib/config/secrets.dart` which is listed in `.gitignore`.
+If you skip this step the app still builds — Sentry simply won't report events
+(the DSN defaults to an empty string, which disables the SDK).
+
+> **What lives in `.env`**
+>
+> | Key | Purpose |
+> |-----|---------|
+> | `SENTRY_DSN` | Error-reporting endpoint (bundled in app, safe to expose) |
+> | Other keys | Audio/AI APIs — extracted only on demand by server-side tooling, never bundled |
+
+### 2.3 Run Code Generation
 
 Freezed models and Hive adapters require build_runner:
 
@@ -59,14 +87,14 @@ Freezed models and Hive adapters require build_runner:
 dart run build_runner build --delete-conflicting-outputs
 ```
 
-### 2.3 Verify Tests Pass
+### 2.4 Verify Tests Pass
 
 ```bash
 flutter test
 # Expected: 200+ tests pass, 0 failures
 ```
 
-### 2.4 Verify Analyzer
+### 2.5 Verify Analyzer
 
 ```bash
 flutter analyze
@@ -285,9 +313,83 @@ flutter build macos --release
 
 ---
 
-## 6. App Store / Play Store Submission
+## 6. Error Tracking (Sentry)
 
-### 6.1 App Store (iOS)
+### 6.1 Overview
+
+Sentry is integrated via `sentry_flutter`. It is initialised in `lib/main.dart`
+before the Flutter engine starts, giving it full coverage:
+
+| What is captured | How |
+|-----------------|-----|
+| Unhandled exceptions | `SentryFlutter.init` zone wrapper |
+| Flutter framework errors | `FlutterError.onError` (auto-wired) |
+| Navigation breadcrumbs | `SentryNavigatorObserver` on GoRouter |
+| Recoverable errors | `SentryHelper.captureException(e, stack)` in `catch` blocks |
+| Notable non-error events | `SentryHelper.captureMessage(msg)` |
+
+Events are **dropped entirely in debug mode** (`kDebugMode`) — check the
+console instead. In release/profile mode, 20 % of sessions are traced for
+performance (`tracesSampleRate: 0.2`).
+
+### 6.2 First-Time Sentry Setup
+
+1. Create a project at [sentry.io](https://sentry.io) → Platform: Flutter
+2. Copy the DSN from *Project Settings → Client Keys*
+3. Add to `.env`:
+   ```
+   SENTRY_DSN=https://<key>@<org>.ingest.sentry.io/<project>
+   ```
+4. Regenerate secrets: `bash scripts/setup_secrets.sh`
+5. Do a **release build** (`flutter build ios --release` / `flutter build apk --release`)
+6. Install on a device and force a test error (or just run the app)
+7. Confirm events appear in the Sentry dashboard under the `production` environment
+
+### 6.3 Using `SentryHelper` in Code
+
+```dart
+import 'package:write_it_lao/config/sentry.dart';
+
+// In a catch block — non-fatal, recoverable error
+try {
+  await riskyOperation();
+} catch (e, stack) {
+  SentryHelper.captureException(e, stack,
+    hint: 'riskyOperation failed',
+    context: {'lessonId': lessonId},
+  );
+}
+
+// For notable state (e.g. unexpected IAP flow)
+SentryHelper.captureMessage(
+  'IAP receipt validation returned unexpected status',
+  level: SentryLevel.warning,
+  context: {'productId': productId, 'status': status},
+);
+
+// After user profile loads
+SentryHelper.setUser(id: userId, email: email);
+
+// On sign-out
+SentryHelper.clearUser();
+```
+
+Context is attached under `app_context` in the Sentry event viewer.
+
+### 6.4 Release Configuration
+
+The `release` tag in Sentry is set to `write_it_lao@<version>+<build>` —
+update this in `lib/main.dart` whenever you bump `pubspec.yaml`:
+
+```dart
+..release = 'write_it_lao@1.0.0+1'
+```
+
+---
+
+## 7. App Store / Play Store Submission
+
+### 7.1 App Store (iOS)
 
 1. Create App ID in Apple Developer portal
 2. Create app record in App Store Connect
@@ -299,7 +401,7 @@ flutter build macos --release
 4. Archive in Xcode → Upload to App Store Connect
 5. Submit for review
 
-### 6.2 Google Play Store (Android)
+### 7.2 Google Play Store (Android)
 
 1. Create app in Google Play Console
 2. Upload signed App Bundle (`.aab`)
@@ -312,13 +414,14 @@ flutter build macos --release
 4. Set up pricing (free)
 5. Submit for review
 
-### 6.3 Pre-Submission Checklist
+### 7.3 Pre-Submission Checklist
 
 - [ ] All 58 characters have stroke data JSONs
 - [ ] All pronunciation audio files present
 - [ ] App icon set (`flutter_launcher_icons`)
 - [ ] Splash screen configured
-- [ ] Version number updated in `pubspec.yaml`
+- [ ] Version number updated in `pubspec.yaml` **and** `..release` in `lib/main.dart`
+- [ ] `bash scripts/setup_secrets.sh` run with correct `SENTRY_DSN` in `.env`
 - [ ] `flutter test` passes
 - [ ] `flutter analyze` clean
 - [ ] Tested on physical iOS device
@@ -328,3 +431,4 @@ flutter build macos --release
 - [ ] Test mode calculates stars correctly
 - [ ] Progress persists across app restarts
 - [ ] Settings reset clears Hive data
+- [ ] Sentry dashboard shows events from a test release build

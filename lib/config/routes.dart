@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:write_it_lao/presentation/screens/lesson_list_screen.dart';
 import 'package:write_it_lao/presentation/screens/lesson_detail_screen.dart';
 import 'package:write_it_lao/presentation/screens/practice_screen.dart';
@@ -21,6 +22,10 @@ import 'package:write_it_lao/vocab/providers.dart';
 
 final router = GoRouter(
   initialLocation: '/',
+  // SentryNavigatorObserver records every route change as a navigation
+  // breadcrumb and a Sentry transaction so you can track screen-level
+  // performance and reproduce the user's path before a crash.
+  observers: [SentryNavigatorObserver()],
   routes: [
     GoRoute(
       path: '/',
