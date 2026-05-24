@@ -72,6 +72,9 @@ export const translations: Record<string, Record<string, string>> = {
     // Footer
     'footer.tagline': 'ຄອສລາວທີ່ເນັ້ນການຂຽນດ້ວຍມື.',
     'footer.copyright': '© 2026 Write Lao. ສ້າງດ້ວຍຄວາມໃສ່ໃຈສຳລັບຜູ້ຮຽນພາສາລາວ.',
+
+    'meta.title': "Write Lao — ຮຽນຂຽນລາວ, ທີ່ລະເສັ້ນ.",
+    'meta.description': "Write Lao — ການຝຶກຂຽນທີ່ລະເສັ້ນສຳລັບທຸກຕົວອັກສອນລາວ, ລວມ 500 ຄຳສັບທີ່ຈຳເປັນ ພ້ອມສຽງຊັດເຈນ ແລະ ການທົບທວນແບບຫ່າງໆ. ໃຊ້ໄດ້ໂດຍບໍ່ຕ້ອງຕໍ່ອິນເຕີເນັດ.",
     'nav.features': 'ຄຸນສົມບັດ',
     'nav.pricing': 'ລາຄາ',
     'nav.faq': 'ຄຳຖາມທີ່ພົບບ່ອຍ',
@@ -168,6 +171,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': '以书写为首的老挝语课程。',
     'footer.copyright': '© 2026 Write Lao. 为老挝语学习者精心打造。',
+
+    'meta.title': "Write Lao — 掌握老挝语，一笔一划。",
+    'meta.description': "Write Lao — 针对全部老挝字符的逐笔练习，加上500个必备词汇，配有清晰音频和间隔重复。可在任何设备上离线使用。",
     'nav.features': '功能特点',
     'nav.pricing': '价格',
     'nav.faq': '常见问题',
@@ -264,6 +270,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'หลักสูตรภาษาลาวที่เน้นการเขียนด้วยมือ',
     'footer.copyright': '© 2026 Write Lao. สร้างด้วยความใส่ใจสำหรับผู้เรียนภาษาลาว',
+
+    'meta.title': "Write Lao — เรียนภาษาลาว ทีละเส้น",
+    'meta.description': "Write Lao — ฝึกเขียนทีละเส้นสำหรับตัวอักษรลาวทั้งหมด พร้อม 500 คำศัพท์จำเป็น เสียงชัดเจน และระบบทบทวนแบบเว้นระยะ ใช้งานออฟไลน์ได้ทุกอุปกรณ์",
     'nav.features': 'คุณสมบัติ',
     'nav.pricing': 'ราคา',
     'nav.faq': 'คำถามที่พบบ่อย',
@@ -360,6 +369,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Khóa học tiếng Lào lấy viết tay làm trọng tâm.',
     'footer.copyright': '© 2026 Write Lao. Được làm cẩn thận cho người học tiếng Lào.',
+
+    'meta.title': "Write Lao — Học tiếng Lào từng nét chữ.",
+    'meta.description': "Write Lao — Luyện viết từng nét cho toàn bộ bảng chữ cái Lào, cộng 500 từ thiết yếu với âm thanh rõ ràng và lặp lại cách quãng. Hoạt động ngoại tuyến trên mọi thiết bị.",
     'nav.features': 'Tính năng',
     'nav.pricing': 'Bảng giá',
     'nav.faq': 'Câu hỏi thường gặp',
@@ -456,6 +468,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': '書くことを優先としたラーオ語コース。',
     'footer.copyright': '© 2026 Write Lao. ラーオ語学習者のために丁寧に作られた。',
+
+    'meta.title': "Write Lao — ラーオ語を一画ずつマスター。",
+    'meta.description': "Write Lao — ラーオ語のすべての文字を一画ずつ練習。500の必須単語をクリアな音声とスペーシング反復で学習。オフラインでどのデバイスでも使用可能。",
     'nav.features': '機能',
     'nav.pricing': '価格',
     'nav.faq': 'よくある質問',
@@ -552,6 +567,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': '손쓰기를 우선시하는 라오어 코스.',
     'footer.copyright': '© 2026 Write Lao. 라오어 학습자를 위해 세심하게 만들어졌습니다.',
+
+    'meta.title': "Write Lao — 라오어를 한 획씩 마스터하세요.",
+    'meta.description': "Write Lao — 모든 라오 문자를 획 순서대로 연습하고, 500개의 필수 단어를 선명한 음성과 간격 반복으로 학습하세요. 모든 기기에서 오프라인 사용 가능.",
     'nav.features': '기능',
     'nav.pricing': '가격',
     'nav.faq': '자주 묻는 질문',
@@ -648,6 +666,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': "Cours de lao axé sur l'écriture.",
     'footer.copyright': "2026 Write Lao.",
+
+    'meta.title': "Write Lao — Maîtrisez le lao, un trait à la fois.",
+    'meta.description': "Write Lao — Pratique guidée trait par trait pour tout l'alphabet lao, plus 500 mots essentiels avec audio clair et révision espacée. Fonctionne hors ligne sur chaque appareil.",
     'nav.features': "Fonctionnalités",
     'nav.pricing': "Tarifs",
     'nav.faq': "FAQ",
@@ -744,6 +765,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Ein Handschrift-fokussierter Laos-Kurs.',
     'footer.copyright': '© 2026 Write Lao. Mit Sorgfalt für Laos-Lernende gemacht.',
+
+    'meta.title': "Write Lao — Laotisch meistern, Strich für Strich.",
+    'meta.description': "Write Lao — Strich-für-Strich-Übung für das gesamte laotische Alphabet, plus 500 Grundvokabeln mit klarer Audioqualität und Spaced Repetition. Offline auf jedem Gerät.",
     'nav.features': 'Funktionen',
     'nav.pricing': 'Preise',
     'nav.faq': 'FAQ',
@@ -840,6 +864,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Un curso de laos enfocado en la escritura a mano.',
     'footer.copyright': '© 2026 Write Lao. Hecho con cuidado para aprendices de laos.',
+
+    'meta.title': "Write Lao — Domina el lao, trazo a trazo.",
+    'meta.description': "Write Lao — Práctica guiada trazo por trazo para todo el alfabeto lao, más 500 palabras esenciales con audio claro y repetición espaciada. Funciona sin conexión en todos los dispositivos.",
     'nav.features': 'Características',
     'nav.pricing': 'Precios',
     'nav.faq': 'Preguntas frecuentes',
@@ -936,6 +963,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Курс лаосского языка с акцентом на рукописное письмо.',
     'footer.copyright': '© 2026 Write Lao. Сделано с заботой для изучающих лаосский.',
+
+    'meta.title': "Write Lao — Освойте лаосский, штрих за штрихом.",
+    'meta.description': "Write Lao — Обучение письму штрих за штрихом для всех лаосских символов, плюс 500 базовых слов с чётким аудио и интервальным повторением. Работает офлайн на любом устройстве.",
     'nav.features': 'Функции',
     'nav.pricing': 'Цены',
     'nav.faq': 'FAQ',
@@ -1032,6 +1062,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Kursus Laos dengan fokus tulisan tangan.',
     'footer.copyright': '© 2026 Write Lao. Dibuat dengan penuh perhatian untuk pembelajar Laos.',
+
+    'meta.title': "Write Lao — Kuasai bahasa Laos, satu goresan.",
+    'meta.description': "Write Lao — Latihan menulis goresan demi goresan untuk seluruh alfabet Laos, ditambah 500 kata penting dengan audio jernih dan pengulangan berjarak. Bekerja offline di setiap perangkat.",
     'nav.features': 'Fitur',
     'nav.pricing': 'Harga',
     'nav.faq': 'FAQ',
@@ -1128,6 +1161,9 @@ export const translations: Record<string, Record<string, string>> = {
 
     'footer.tagline': 'Kursus Laos dengan fokus tulisan tangan.',
     'footer.copyright': '© 2026 Write Lao. Dibuat dengan penuh perhatian untuk pembelajar Laos.',
+
+    'meta.title': "Write Lao — Kuasai bahasa Laos, satu lejang.",
+    'meta.description': "Write Lao — Latihan panduan lejang demi lejang untuk keseluruhan abjad Laos, ditambah 500 perkataan penting dengan audio jernih dan pengulangan berjeda. Berfungsi luar talian pada setiap peranti.",
     'nav.features': 'Ciri-ciri',
     'nav.pricing': 'Harga',
     'nav.faq': 'Soalan lazim',

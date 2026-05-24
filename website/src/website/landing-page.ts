@@ -56,11 +56,26 @@ export const landingPageHTML = `<!DOCTYPE html>
   <meta name="theme-color" content="#C8573F" />
   <meta name="description" content="Write Lao — stroke-by-stroke handwriting practice for the full Lao alphabet, plus 500 essential words with clear audio and spaced repetition. Works offline on every device." />
   <title>Write Lao — Master Lao, one stroke at a time.</title>
-  <meta property="og:title" content="Write Lao — Master Lao, one stroke at a time." />
-  <meta property="og:description" content="Stroke-by-stroke handwriting practice for the full Lao alphabet. Plus 500 essential words with clear audio and smart review." />
-  <meta property="og:image" content="/assets/og-image.png" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Open Graph — controls previews on Facebook, LinkedIn, iMessage, Slack, Discord, etc. -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Write Lao" />
+  <meta property="og:title"       content="Write Lao — Master Lao, one stroke at a time." />
+  <meta property="og:description" content="Write Lao — stroke-by-stroke handwriting practice for the full Lao alphabet, plus 500 essential words with clear audio and spaced repetition. Works offline on every device." />
+  <meta property="og:url"         content="https://writelao.xyz/" />
+  <meta property="og:locale"      content="en_US" />
+  <meta property="og:image"       content="https://writelao.xyz/assets/og-image.png" />
+  <meta property="og:image:type"  content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt"   content="Write Lao — stroke-by-stroke Lao handwriting practice app" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Write Lao — Master Lao, one stroke at a time." />
+  <meta name="twitter:description" content="Write Lao — stroke-by-stroke handwriting practice for the full Lao alphabet, plus 500 essential words with clear audio and spaced repetition. Works offline on every device." />
+  <meta name="twitter:image"       content="https://writelao.xyz/assets/og-image.png" />
+  <meta name="twitter:image:alt"   content="Write Lao — stroke-by-stroke Lao handwriting practice app" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Lao:wght@500;700&display=swap" rel="stylesheet" />

@@ -109,7 +109,14 @@
       "Bash(cp /Volumes/Dara/dev/write_lao/assets/vocab/images/*.png /Volumes/Dara/dev/write_lao/assets_originals/vocab/images/)",
       "Bash(npx tsc *)",
       "Bash(npx wrangler *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "Bash(npx ts-node --skip-project -e ' *)",
+      "Bash(curl -s https://writelao-website.6647hdwcy8.workers.dev/th)",
+      "Bash(curl -si https://writelao-website.6647hdwcy8.workers.dev/th)",
+      "Bash(curl -v \"https://writelao-website.6647hdwcy8.workers.dev/robots.txt\")",
+      "Bash(npx esbuild *)",
+      "Read(//private/tmp/**)"
     ]
   }
 }

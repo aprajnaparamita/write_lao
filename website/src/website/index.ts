@@ -14,6 +14,15 @@ import { logger } from 'hono/logger';
 import { landingPageHTML, landingPageCSS, landingPageJS, i18nScript } from './landing-page';
 import { translations } from './translations';
 import { createAdminRouter } from '../admin/router';
+import {
+  DOMAIN,
+  LANGUAGES,
+  renderPage,
+  buildSitemap,
+  buildRobotsTxt,
+  buildLlmsTxt,
+  detectLanguage,
+} from './seo';
 
 type Env = {
   ASSETS: Fetcher;
@@ -388,15 +397,39 @@ app.use('*', cors({
 // Health check
 app.get('/health', (c) => c.json({ status: 'ok', timestamp: new Date().toISOString() }));
 
-// Public landing page (matches website/index.html content)
+// ── Landing page: English default + Accept-Language redirect ────────────
 app.get('/', (c) => {
-  const env = c.env?.ENVIRONMENT || 'development';
-  return c.html(landingPageHTML, 200, {
+  // Redirect first-time visitors to their language version (JS will handle
+  // subsequent language switching client-side via the /i18n/*.json endpoint)
+  const acceptLang = c.req.header('Accept-Language') ?? null;
+  const detected   = detectLanguage(acceptLang);
+  if (detected) {
+    // Temporary redirect so browsers re-check language prefs on next visit
+    return c.redirect(`/${detected}`, 302);
+  }
+
+  const baseUrl = DOMAIN;
+  // English page: SSR with English defaults (no translations object needed,
+  // but we still inject hreflang / canonical / JSON-LD into the head)
+  const html = renderPage(landingPageHTML, 'en', {}, baseUrl);
+  return c.html(html, 200, {
     'Content-Type': 'text/html; charset=utf-8',
     'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
-    'X-Environment': env,
   });
 });
+
+// ── Per-language SSR pages ───────────────────────────────────────────────
+for (const lang of LANGUAGES.filter(l => l.code !== 'en')) {
+  app.get(lang.path, (c) => {
+    const t    = translations[lang.code] ?? {};
+    const html = renderPage(landingPageHTML, lang.code, t, DOMAIN);
+    return c.html(html, 200, {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
+      'Vary': 'Accept-Language',
+    });
+  });
+}
 
 // Static assets (CSS, JS from embedded strings for simplicity)
 app.get('/styles.css', (c) => {
@@ -427,7 +460,31 @@ app.get('/i18n/:locale{.+\.json$}', (c) => {
   return c.json({ error: 'Locale not found' }, 404);
 });
 
-// Admin routes (protected)
+// ── SEO / crawler files ──────────────────────────────────────────────────
+
+app.get('/sitemap.xml', (c) =>
+  c.body(buildSitemap(DOMAIN), 200, {
+    'Content-Type': 'application/xml; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  }),
+);
+
+app.get('/robots.txt', (c) =>
+  c.body(buildRobotsTxt(DOMAIN), 200, {
+    'Content-Type': 'text/plain; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  }),
+);
+
+// llms.txt — machine-readable site description for AI/LLM crawlers
+app.get('/llms.txt', (c) =>
+  c.body(buildLlmsTxt(DOMAIN), 200, {
+    'Content-Type': 'text/plain; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  }),
+);
+
+// ── Admin routes (protected) ─────────────────────────────────────────────
 app.route('/admin', createAdminRouter());
 
 // Privacy Policy page
