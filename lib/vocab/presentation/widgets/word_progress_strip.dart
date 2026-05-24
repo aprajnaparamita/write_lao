@@ -6,21 +6,40 @@ import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 /// drawn slots render in normal weight; the current slot is highlighted;
 /// future slots show as `_`. The current slot is hidden when [revealCurrent]
 /// is false (test mode).
+///
+/// [fontSize] controls the Lao glyph size. Callers should pass a larger value
+/// in portrait (e.g. 40) and a somewhat smaller one in landscape (e.g. 32)
+/// since vertical space is limited there.
 class WordProgressStrip extends StatelessWidget {
   final List<WordCharacter> characters;
   final int currentIndex;
   final bool revealCurrent;
+
+  /// Point size of the Lao characters. Defaults to 36 which is comfortably
+  /// readable on phone screens in both orientations.
+  final double fontSize;
 
   const WordProgressStrip({
     super.key,
     required this.characters,
     required this.currentIndex,
     this.revealCurrent = true,
+    this.fontSize = 36,
   });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+
+    // Base style: larger, Noto Lao for correct Lao shaping.
+    final base = TextStyle(
+      fontFamily: 'Noto Lao',
+      fontSize: fontSize,
+      fontWeight: FontWeight.w600,
+      color: theme.textTheme.headlineMedium?.color,
+      height: 1.3,
+    );
+
     final spans = <InlineSpan>[];
     for (var i = 0; i < characters.length; i++) {
       final char = characters[i].character;
@@ -30,18 +49,16 @@ class WordProgressStrip extends StatelessWidget {
       late final String text;
       if (isDone) {
         text = char;
-        style = theme.textTheme.headlineMedium!;
+        style = base;
       } else if (isCurrent) {
         text = revealCurrent ? char : '_';
-        style = theme.textTheme.headlineMedium!.copyWith(
+        style = base.copyWith(
           color: theme.colorScheme.primary,
           fontWeight: FontWeight.bold,
         );
       } else {
         text = '_';
-        style = theme.textTheme.headlineMedium!.copyWith(
-          color: theme.disabledColor,
-        );
+        style = base.copyWith(color: theme.disabledColor);
       }
       spans.add(TextSpan(text: text, style: style));
       if (i < characters.length - 1) {
@@ -53,7 +70,7 @@ class WordProgressStrip extends StatelessWidget {
         final nextIsCombining =
             nextType == CharacterType.vowel || nextType == CharacterType.tone;
         if (!nextIsCombining) {
-          spans.add(const TextSpan(text: ' '));
+          spans.add(TextSpan(text: ' ', style: base));
         }
       }
     }

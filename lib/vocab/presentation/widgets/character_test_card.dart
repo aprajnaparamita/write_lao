@@ -124,6 +124,7 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
             characters: widget.allCharacters,
             currentIndex: widget.positionIndex,
             revealCurrent: false,
+            fontSize: 42,
           ),
           const SizedBox(height: 8),
           if (!_characterComplete)
@@ -195,6 +196,7 @@ class _CharacterTestCardState extends ConsumerState<CharacterTestCard> {
                   characters: widget.allCharacters,
                   currentIndex: widget.positionIndex,
                   revealCurrent: false,
+                  fontSize: 34,
                 ),
                 const SizedBox(height: 8),
                 _buildNextButton(isLastCharacter, minSize: const Size(180, 52)),
