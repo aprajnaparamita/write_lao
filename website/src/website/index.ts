@@ -16,6 +16,8 @@ import { translations } from './translations';
 import { testerGuideHTML } from './tester-guide';
 import { testerGuideHTMLThai } from './tester-guide-th';
 import { createAdminRouter } from '../admin/router';
+import { startMultipartUpload, uploadPart, completeMultipartUpload, abortMultipartUpload } from '../lib/r2-direct-upload';
+import { generateTesterId } from '../lib/tester-id';
 import {
   DOMAIN,
   LANGUAGES,
@@ -36,6 +38,9 @@ type Env = {
   GOOGLE_CLIENT_SECRET: string;
   ENVIRONMENT: string;
   BREVO_API_KEY: string; // Secret: wrangler secret put BREVO_API_KEY
+  ACCOUNT_ID?: string;
+  R2_ACCESS_KEY_ID?: string;
+  R2_SECRET_ACCESS_KEY?: string;
 };
 
 // ── Privacy Policy HTML ──────────────────────────────────────────────
@@ -639,10 +644,244 @@ app.notFound((c) => {
 });
 
 // ═══════════════════════════════════════════════════════════════════════════
-// VIDEO UPLOAD API — Tester Guide
+// TESTER IDENTITY — Deterministic ID from device info
 // ═══════════════════════════════════════════════════════════════════════════
 
-// Video upload endpoint (multipart form data)
+// Register a tester — returns a deterministic ID based on device info.
+// Re-entering the same details on any device produces the same ID.
+app.post('/api/tester/register', async (c) => {
+  try {
+    const body = await c.req.json<{
+      deviceModel: string;
+      osVersion: string;
+      appVersion?: string;
+      testerName?: string;
+    }>();
+
+    if (!body.deviceModel || !body.osVersion) {
+      return c.json({ error: 'Missing deviceModel or osVersion' }, 400);
+    }
+
+    const testerId = await generateTesterId(
+      body.deviceModel,
+      body.osVersion,
+      body.appVersion || '',
+      body.testerName || '',
+    );
+
+    return c.json({ testerId }, 200);
+  } catch (err) {
+    console.error('Register tester error:', err);
+    return c.json({ error: 'Failed to register tester' }, 500);
+  }
+});
+
+// Get a tester's previous submissions
+app.get('/api/tester/my-submissions', async (c) => {
+  try {
+    const testerId = c.req.query('tester_id');
+    if (!testerId) {
+      return c.json({ error: 'Missing tester_id' }, 400);
+    }
+
+    const db = c.env.DB;
+    const results = await db.prepare(`
+      SELECT id, filename, section, device_model, os_version, app_version, tester_name, uploaded_at
+      FROM tester_submissions
+      WHERE tester_id = ?
+      ORDER BY uploaded_at DESC
+    `).bind(testerId).all();
+
+    return c.json({ submissions: results.results, testerId }, 200);
+  } catch (err) {
+    console.error('My submissions error:', err);
+    return c.json({ error: 'Failed to fetch submissions' }, 500);
+  }
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// VIDEO UPLOAD API — Tester Guide
+//
+// Three upload paths:
+//   1. POST /api/tester/upload/start     — start multipart upload (chunked)
+//   2. POST /api/tester/upload/part      — upload a chunk
+//   3. POST /api/tester/upload/complete  — finalize + record in D1
+//   4. POST /api/tester/video            — legacy single-request upload
+//      (for files ≤ 100 MB; stays as a simple fallback).
+// ═══════════════════════════════════════════════════════════════════════════
+
+// In-memory session store (per-Worker, ephemeral — lost on cold start,
+// but sessions are short-lived so this is acceptable)
+const uploadSessions = new Map<string, {
+  key: string;
+  uploadId: string;
+  parts: { partNumber: number; etag: string }[];
+}>();
+
+// ── Start multipart upload ───────────────────────────────────────────
+app.post('/api/tester/upload/start', async (c) => {
+  try {
+    const body = await c.req.json<{
+      section: string;
+      deviceModel?: string;
+    }>();
+
+    if (!body.section) {
+      return c.json({ error: 'Missing section' }, 400);
+    }
+
+    const session = await startMultipartUpload(
+      c.env.COURSE_DATA,
+      body.deviceModel || 'unknown',
+      body.section,
+    );
+
+    // Store session in memory
+    uploadSessions.set(session.uploadId, {
+      key: session.key,
+      uploadId: session.uploadId,
+      parts: [],
+    });
+
+    return c.json({
+      success: true,
+      sessionId: session.uploadId,
+      key: session.key,
+      filename: session.filename,
+    }, 200);
+  } catch (err) {
+    console.error('Upload start error:', err);
+    const message = err instanceof Error ? err.message : 'Failed to start upload';
+    return c.json({ error: message }, 500);
+  }
+});
+
+// ── Upload a chunk ───────────────────────────────────────────────────
+app.post('/api/tester/upload/part', async (c) => {
+  try {
+    const formData = await c.req.formData();
+    const sessionId = formData.get('sessionId') as string | null;
+    const partNumberStr = formData.get('partNumber') as string | null;
+    const chunk = formData.get('chunk') as File | null;
+
+    if (!sessionId || !partNumberStr || !chunk) {
+      return c.json({ error: 'Missing sessionId, partNumber, or chunk' }, 400);
+    }
+
+    const partNumber = parseInt(partNumberStr, 10);
+    const session = uploadSessions.get(sessionId);
+    if (!session) {
+      return c.json({ error: 'Session not found (may have expired)' }, 404);
+    }
+
+    const result = await uploadPart(
+      c.env.COURSE_DATA,
+      session.key,
+      session.uploadId,
+      partNumber,
+      chunk,
+    );
+
+    // Track the part
+    session.parts.push({ partNumber: result.partNumber, etag: result.etag });
+
+    return c.json({ success: true, partNumber: result.partNumber, etag: result.etag }, 200);
+  } catch (err) {
+    console.error('Upload part error:', err);
+    const message = err instanceof Error ? err.message : 'Failed to upload chunk';
+    return c.json({ error: message }, 500);
+  }
+});
+
+// ── Complete multipart upload ────────────────────────────────────────
+app.post('/api/tester/upload/complete', async (c) => {
+  try {
+    const body = await c.req.json<{
+      sessionId: string;
+      section: string;
+      deviceModel?: string;
+      osVersion?: string;
+      appVersion?: string;
+      testerName?: string;
+      testerId?: string;
+    }>();
+
+    const { sessionId, section } = body;
+    if (!sessionId || !section) {
+      return c.json({ error: 'Missing sessionId or section' }, 400);
+    }
+
+    const session = uploadSessions.get(sessionId);
+    if (!session) {
+      return c.json({ error: 'Session not found (may have expired)' }, 404);
+    }
+
+    // Complete the multipart upload
+    await completeMultipartUpload(
+      c.env.COURSE_DATA,
+      session.key,
+      session.uploadId,
+      session.parts,
+    );
+
+    // Compute tester_id
+    const tid = body.testerId || await generateTesterId(
+      body.deviceModel || 'Unknown',
+      body.osVersion || 'Unknown',
+      body.appVersion || '',
+      body.testerName || 'Anonymous',
+    );
+
+    // Store metadata in D1
+    const db = c.env.DB;
+    await db.prepare(`
+      INSERT INTO tester_submissions (filename, section, device_model, os_version, app_version, tester_name, tester_id, uploaded_at)
+      VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now'))
+    `).bind(
+      session.key,
+      section,
+      body.deviceModel || 'Unknown',
+      body.osVersion || 'Unknown',
+      body.appVersion || 'Unknown',
+      body.testerName || 'Anonymous',
+      tid,
+    ).run();
+
+    // Clean up session
+    uploadSessions.delete(sessionId);
+
+    return c.json({ success: true, filename: session.key, testerId: tid }, 200);
+  } catch (err) {
+    console.error('Upload complete error:', err);
+    const message = err instanceof Error ? err.message : 'Failed to complete upload';
+    return c.json({ error: message }, 500);
+  }
+});
+
+// ── Abort a failed upload ────────────────────────────────────────────
+app.post('/api/tester/upload/abort', async (c) => {
+  try {
+    const body = await c.req.json<{ sessionId: string }>();
+    const { sessionId } = body;
+    if (!sessionId) {
+      return c.json({ error: 'Missing sessionId' }, 400);
+    }
+
+    const session = uploadSessions.get(sessionId);
+    if (session) {
+      await abortMultipartUpload(c.env.COURSE_DATA, session.key, session.uploadId);
+      uploadSessions.delete(sessionId);
+    }
+
+    return c.json({ success: true }, 200);
+  } catch (err) {
+    console.error('Upload abort error:', err);
+    const message = err instanceof Error ? err.message : 'Failed to abort upload';
+    return c.json({ error: message }, 500);
+  }
+});
+
+// ── Legacy worker-proxied upload (for files ≤ 100 MB) ────────────────
 app.post('/api/tester/video', async (c) => {
   try {
     const formData = await c.req.formData();
@@ -652,10 +891,27 @@ app.post('/api/tester/video', async (c) => {
     const osVersion = formData.get('osVersion') as string | null;
     const appVersion = formData.get('appVersion') as string | null;
     const testerName = formData.get('testerName') as string | null;
+    const testerId = formData.get('testerId') as string | null;
 
     if (!video || !section) {
       return c.json({ error: 'Missing video or section' }, 400);
     }
+
+    // Enforce 100 MB Worker limit
+    if (video.size > 100 * 1024 * 1024) {
+      return c.json({
+        error: 'File too large for direct upload. Use the pre-signed URL flow instead.',
+        maxSize: 100 * 1024 * 1024,
+      }, 413);
+    }
+
+    // Compute tester_id if not provided
+    const tid = testerId || await generateTesterId(
+      deviceModel || 'Unknown',
+      osVersion || 'Unknown',
+      appVersion || '',
+      testerName || 'Anonymous',
+    );
 
     // Generate unique filename
     const timestamp = Date.now();
@@ -674,6 +930,7 @@ app.post('/api/tester/video', async (c) => {
         osVersion: osVersion || 'Unknown',
         appVersion: appVersion || 'Unknown',
         testerName: testerName || 'Anonymous',
+        testerId: tid,
         uploadedAt: new Date().toISOString(),
       },
     });
@@ -681,11 +938,16 @@ app.post('/api/tester/video', async (c) => {
     // Store metadata in D1
     const db = c.env.DB;
     await db.prepare(`
-      INSERT INTO tester_submissions (filename, section, device_model, os_version, app_version, tester_name, uploaded_at)
-      VALUES (?, ?, ?, ?, ?, ?, datetime('now'))
-    `).bind(r2Key, section, deviceModel || 'Unknown', osVersion || 'Unknown', appVersion || 'Unknown', testerName || 'Anonymous').run();
+      INSERT INTO tester_submissions (filename, section, device_model, os_version, app_version, tester_name, tester_id, uploaded_at)
+      VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now'))
+    `).bind(
+      r2Key, section,
+      deviceModel || 'Unknown', osVersion || 'Unknown',
+      appVersion || 'Unknown', testerName || 'Anonymous',
+      tid,
+    ).run();
 
-    return c.json({ success: true, filename: r2Key }, 200);
+    return c.json({ success: true, filename: r2Key, testerId: tid }, 200);
   } catch (err) {
     console.error('Video upload error:', err);
     return c.json({ error: 'Upload failed' }, 500);
@@ -723,6 +985,29 @@ app.get('/api/tester/devices', async (c) => {
   } catch (err) {
     console.error('Devices fetch error:', err);
     return c.json({ error: 'Failed to fetch devices' }, 500);
+  }
+});
+
+// Get filter options for drill-down dropdowns
+app.get('/api/tester/filters', async (c) => {
+  try {
+    const db = c.env.DB;
+    const [versions, testers, devices, osList] = await Promise.all([
+      db.prepare(`SELECT DISTINCT app_version FROM tester_submissions ORDER BY app_version DESC`).all(),
+      db.prepare(`SELECT DISTINCT tester_name FROM tester_submissions ORDER BY tester_name`).all(),
+      db.prepare(`SELECT DISTINCT device_model FROM tester_submissions ORDER BY device_model`).all(),
+      db.prepare(`SELECT DISTINCT os_version FROM tester_submissions ORDER BY os_version`).all(),
+    ]);
+
+    return c.json({
+      appVersions: versions.results.map((r: any) => r.app_version),
+      testerNames: testers.results.map((r: any) => r.tester_name),
+      deviceModels: devices.results.map((r: any) => r.device_model),
+      osVersions: osList.results.map((r: any) => r.os_version),
+    }, 200);
+  } catch (err) {
+    console.error('Filters fetch error:', err);
+    return c.json({ error: 'Failed to fetch filters' }, 500);
   }
 });
 

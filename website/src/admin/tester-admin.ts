@@ -1,12 +1,12 @@
 /**
  * Tester Admin Dashboard — Video Submission Reports
  * 
- * Admin interface for viewing tester submissions, downloading videos
- * by device, and generating combined video compilations.
+ * Admin interface with hierarchical drill-down:
+ *   App Version → Tester → Device → OS Version
+ * All data loaded via API calls. Event delegation for robustness.
  */
 
 import { Hono } from 'hono';
-import { html } from 'hono/html';
 import { captureException } from '@sentry/cloudflare';
 
 type Env = {
@@ -23,338 +23,29 @@ type Env = {
   SENTRY_DSN: string;
 };
 
-function errorPage(message: string) {
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Error — Tester Admin</title>
-  <style>
-    body { font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #faf6ef; }
-    .error-box { background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); width: 100%; max-width: 500px; }
-    h1 { margin: 0 0 0.5rem; color: #dc2626; font-size: 1.5rem; }
-    p { color: #6b5a4a; margin: 0 0 1.5rem; }
-    .message { background: #fee2e2; border: 1px solid #fca5a5; border-radius: 8px; padding: 1rem; font-family: monospace; font-size: 0.875rem; color: #991b1b; word-break: break-all; }
-    a { color: #c8573f; }
-  </style>
-</head>
-<body>
-  <div class="error-box">
-    <h1>Server Error</h1>
-    <p>Something went wrong. The error has been logged.</p>
-    <div class="message">${escapeHtml(message)}</div>
-    <p style="margin-top: 1.5rem;"><a href="/admin/tester">Try again</a></p>
-  </div>
-</body>
-</html>`;
-}
-
-function isToday(dateStr: string | null): boolean {
-  if (!dateStr) return false;
-  const date = new Date(dateStr);
-  const today = new Date();
-  return date.toDateString() === today.toDateString();
-}
-
-function formatDate(dateStr: string | null): string {
-  if (!dateStr) return 'Unknown';
-  return new Date(dateStr).toLocaleString();
-}
-
-function groupByDevice(submissions: any[]) {
-  const groups: Record<string, any> = {};
-  
-  for (const sub of submissions) {
-    const key = sub.device_model + '-' + sub.os_version;
-    if (!groups[key]) {
-      groups[key] = {
-        model: sub.device_model,
-        os: sub.os_version,
-        appVersion: sub.app_version,
-        tester: sub.tester_name,
-        videos: [],
-      };
-    }
-    groups[key].videos.push({
-      id: sub.id,
-      filename: sub.filename,
-      section: sub.section,
-      testerName: sub.tester_name,
-      uploadedAt: sub.uploaded_at,
-    });
-  }
-  
-  return Object.values(groups);
-}
-
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"');
 }
 
-// Dashboard page
-function dashboardPage(submissions: any[], devices: any[]) {
-  const groups = groupByDevice(submissions);
-  const totalVideos = submissions.length;
-  const todayCount = submissions.filter((s: any) => isToday(s.uploaded_at)).length;
-  const deviceCount = devices.length;
-  
-  let submissionsHtml = '';
-  
-  if (submissions.length === 0) {
-    submissionsHtml = `<div class="empty">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m15 10-4.5 3V8a3 3 0 0 0-5.12-2.13A3 3 0 0 0 2.73 8.5 3 3 0 0 0 5 11.62V14.5l4.5 3 4.5-3V11.62a3 3 0 0 0-1.65-2.63A3 3 0 0 0 7.5 10"/><path d="M18 12a3 3 0 0 0 0-6 3 3 0 0 0 0 6z"/></svg>
-      <p>No video submissions yet.</p>
-      <p>Share the <a href="/tester-guide">Tester Guide</a> with your team.</p>
-    </div>`;
-  } else {
-    const deviceGroupsHtml = groups.map((device: any) => {
-      const videosHtml = device.videos.map((v: any) => {
-        return `<div class="video-item" data-section="${escapeHtml(v.section)}">
-          <span class="section-badge">${escapeHtml(v.section)}</span>
-          <div class="info">
-            <div class="tester">${escapeHtml(v.testerName)}</div>
-            <div class="date">${formatDate(v.uploadedAt)}</div>
-          </div>
-          <div class="actions">
-            <a href="/api/tester/video/${encodeURIComponent(v.filename)}" target="_blank">View</a>
-            <button class="download-all" onclick="downloadSingle('${encodeURIComponent(v.filename)}')">Download</button>
-            <button class="delete" onclick="deleteVideo(${v.id}, this)">Delete</button>
-          </div>
-        </div>`;
-      }).join('');
-      
-      return `<div class="device-group" data-device="${escapeHtml(device.model)}">
-        <div class="device-header" onclick="toggleDevice(this)">
-          <div>
-            <h3>${escapeHtml(device.model)}</h3>
-            <div class="meta">${escapeHtml(device.os)} \u00b7 App v${escapeHtml(device.appVersion)} \u00b7 ${escapeHtml(device.tester)}</div>
-          </div>
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            <span class="count">${device.videos.length} videos</span>
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </div>
-        <div class="device-content">
-          <div class="video-list">
-            ${videosHtml}
-          </div>
-          <button class="download-zip" style="margin-top: 1rem;" onclick="downloadDeviceZip('${escapeHtml(device.model).replace(/'/g, "\\'")}')">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download All for ${escapeHtml(device.model)}
-          </button>
-        </div>
-      </div>`;
-    }).join('');
-    
-    submissionsHtml = `
-      <div class="section-tabs">
-        <button class="section-tab active" onclick="filterBySection(null)">All</button>
-        <button class="section-tab" onclick="filterBySection('launch')">Launch</button>
-        <button class="section-tab" onclick="filterBySection('lessons')">Lessons</button>
-        <button class="section-tab" onclick="filterBySection('practice')">Practice</button>
-        <button class="section-tab" onclick="filterBySection('test')">Test</button>
-        <button class="section-tab" onclick="filterBySection('vocab')">Vocab</button>
-        <button class="section-tab" onclick="filterBySection('review')">Review</button>
-        <button class="section-tab" onclick="filterBySection('progress')">Progress</button>
-        <button class="section-tab" onclick="filterBySection('settings')">Settings</button>
-        <button class="section-tab" onclick="filterBySection('iap')">IAP</button>
-        <button class="section-tab" onclick="filterBySection('offline')">Offline</button>
-      </div>
- ${deviceGroupsHtml}
-    `;
-  }
-  
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tester Video Dashboard — Write Lao</title>
-  <style>
-    :root { --cream: #faf6ef; --cream-2: #f2ebdd; --ink: #1a1511; --muted: #6b5a4a; --saffron: #c8573f; --saffron-dark: #a8432e; --line: #e6ddcd; --success: #16a34a; --error: #dc2626; }
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: system-ui, sans-serif; font-size: 1rem; background: var(--cream); color: var(--ink); }
-    header { background: var(--ink); color: #fff; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
-    header h1 { margin: 0; font-size: 1.125rem; }
-    header a { color: rgba(255,255,255,0.8); text-decoration: none; }
-    header a:hover { color: #fff; }
-    .container { max-width: 1400px; margin: 0 auto; padding: 1.5rem; }
-    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-    .stat-card { background: #fff; padding: 1.25rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .stat-card .label { font-size: 0.8125rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-    .stat-card .value { font-size: 2rem; font-weight: 700; color: var(--saffron); }
-    .section-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
-    .section-tab { padding: 0.5rem 1rem; background: #fff; border: 1.5px solid var(--line); border-radius: 20px; cursor: pointer; font-size: 0.875rem; font-weight: 600; }
-    .section-tab:hover { border-color: var(--saffron); }
-    .section-tab.active { background: var(--saffron); color: #fff; border-color: var(--saffron); }
-    .device-group { background: #fff; border-radius: 12px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .device-header { background: var(--cream-2); padding: 1rem 1.25rem; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
-    .device-header:hover { background: #ebe5d8; }
-    .device-header h3 { margin: 0; font-size: 1rem; }
-    .device-header .meta { font-size: 0.8125rem; color: var(--muted); }
-    .device-header .count { background: var(--saffron); color: #fff; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8125rem; font-weight: 600; }
-    .device-content { display: none; padding: 1rem 1.25rem; }
-    .device-group.open .device-content { display: block; }
-    .video-list { display: grid; gap: 0.75rem; }
-    .video-item { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--cream); border-radius: 8px; }
-    .video-item .section-badge { background: var(--ink); color: #fff; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; min-width: 80px; text-align: center; }
-    .video-item .info { flex: 1; }
-    .video-item .tester { font-weight: 600; font-size: 0.875rem; }
-    .video-item .date { font-size: 0.75rem; color: var(--muted); }
-    .video-item .actions { display: flex; gap: 0.5rem; }
-    .video-item a, .video-item button { padding: 0.4rem 0.75rem; font: inherit; font-size: 0.8125rem; font-weight: 600; border-radius: 6px; cursor: pointer; text-decoration: none; border: none; }
-    .video-item a { background: var(--saffron); color: #fff; }
-    .video-item a:hover { background: var(--saffron-dark); }
-    .video-item button.download-all { background: var(--success); color: #fff; }
-    .video-item button.download-all:hover { background: #15803d; }
-    .video-item button.delete { background: #fee2e2; color: var(--error); }
-    .video-item button.delete:hover { background: #fecaca; }
-    .empty { text-align: center; padding: 3rem; color: var(--muted); }
-    .empty svg { width: 64px; height: 64px; opacity: 0.5; margin-bottom: 1rem; }
-    .empty a { color: var(--saffron); }
-    .download-zip { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: var(--success); color: #fff; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; margin-bottom: 1.5rem; }
-    .download-zip:hover { background: #15803d; }
-    .download-zip svg { width: 20px; height: 20px; }
-    .chevron { width: 20px; height: 20px; transition: transform 0.2s; }
-    .device-group.open .chevron { transform: rotate(180deg); }
-    @media print { header, .section-tabs, .actions, .download-zip { display: none; } .device-content { display: block !important; } }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Tester Video Dashboard</h1>
-    <a href="/admin">← Back to Admin</a>
-  </header>
-  
-  <div class="container">
-    <div class="stats">
-      <div class="stat-card">
-        <div class="label">Total Videos</div>
-        <div class="value">${totalVideos}</div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Devices</div>
-        <div class="value">${deviceCount}</div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Submissions Today</div>
-        <div class="value">${todayCount}</div>
-      </div>
-    </div>
-    
-    <button class="download-zip" onclick="downloadAllAsZip()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      Download All Videos
-    </button>
-    
-    ${submissionsHtml}
-  </div>
-  
-  <script>
-    function toggleDevice(header) {
-      header.closest('.device-group').classList.toggle('open');
-    }
-    
-    function filterBySection(section) {
-      document.querySelectorAll('.section-tab').forEach(tab => {
-        tab.classList.toggle('active', !section || tab.textContent.toLowerCase() === section.toLowerCase());
-      });
-      
-      document.querySelectorAll('.video-item').forEach(item => {
-        if (!section) {
-          item.style.display = '';
-        } else {
-          item.style.display = item.dataset.section === section ? '' : 'none';
-        }
-      });
-    }
-    
-    async function deleteVideo(id, btn) {
-      if (!confirm('Delete this video submission?')) return;
-      
-      try {
-        const res = await fetch('/api/tester/submission/' + id, { method: 'DELETE' });
-        if (res.ok) {
-          btn.closest('.video-item').remove();
-        } else {
-          alert('Failed to delete');
-        }
-      } catch (err) {
-        alert('Error: ' + err.message);
-      }
-    }
-    
-    function downloadSingle(filename) {
-      window.open('/api/tester/video/' + filename, '_blank');
-    }
-    
-    async function downloadDeviceZip(deviceModel) {
-      const items = document.querySelectorAll('.device-group[data-device="' + deviceModel + '"] .video-item');
-      for (const item of items) {
-        const link = item.querySelector('a[href*="/api/tester/video/"]');
-        if (link) {
-          window.open(link.href, '_blank');
-          await new Promise(r => setTimeout(r, 500));
-        }
-      }
-    }
-    
-    async function downloadAllAsZip() {
-      const items = document.querySelectorAll('.video-item');
-      for (const item of items) {
-        const link = item.querySelector('a[href*="/api/tester/video/"]');
-        if (link) {
-          window.open(link.href, '_blank');
-          await new Promise(r => setTimeout(r, 300));
-        }
-      }
-    }
-    
-    // Open first device group by default
-    document.querySelector('.device-group')?.classList.add('open');
-  </script>
-</body>
-</html>`;
+function errorPage(message: string) {
+  return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Error</title><style>body{font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;background:#faf6ef}.box{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1);max-width:500px}h1{color:#dc2626}.msg{background:#fee2e2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;font-family:monospace;font-size:.875rem;color:#991b1b;word-break:break-all}a{color:#c8573f}</style></head><body><div class="box"><h1>Server Error</h1><p>Something went wrong.</p><div class="msg">' + escapeHtml(message) + '</div><p style="margin-top:1.5rem"><a href="/admin/tester">Try again</a></p></div></body></html>';
+}
+
+function dashboardHTML() {
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <title>Tester Videos — Write Lao</title>\n  <style>\n    :root{--cream:#faf6ef;--cream-2:#f2ebdd;--ink:#1a1511;--muted:#6b5a4a;--saffron:#c8573f;--saffron-dark:#a8432e;--line:#e6ddcd;--success:#16a34a;--error:#dc2626}\n    *{box-sizing:border-box}\n    body{margin:0;font-family:system-ui,sans-serif;font-size:1rem;background:var(--cream);color:var(--ink)}\n    header{background:var(--ink);color:#fff;padding:1rem 1.5rem;display:flex;justify-content:space-between;align-items:center}\n    header h1{margin:0;font-size:1.125rem}\n    header a{color:rgba(255,255,255,.8);text-decoration:none}\n    header a:hover{color:#fff}\n    .container{max-width:1400px;margin:0 auto;padding:1.5rem}\n    .filter-bar{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.25rem;margin-bottom:1.5rem;display:flex;gap:1rem;align-items:flex-end;flex-wrap:wrap}\n    .filter-group{display:flex;flex-direction:column;gap:.35rem;min-width:180px;flex:1}\n    .filter-group label{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}\n    .filter-group select{padding:.625rem .75rem;font:inherit;font-size:.9375rem;border:1.5px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);cursor:pointer}\n    .filter-group select:focus{outline:none;border-color:var(--saffron)}\n    .filter-group select:disabled{opacity:.5;cursor:not-allowed}\n    .filter-reset{padding:.625rem 1.25rem;background:var(--cream);border:1.5px solid var(--line);border-radius:8px;cursor:pointer;font:inherit;font-size:.875rem;font-weight:600;color:var(--muted);white-space:nowrap}\n    .filter-reset:hover{background:var(--line)}\n    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin-bottom:1.5rem}\n    .stat-card{background:#fff;padding:1rem 1.25rem;border-radius:10px;border:1px solid var(--line)}\n    .stat-card .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}\n    .stat-card .value{font-size:1.75rem;font-weight:700;color:var(--saffron)}\n    .section-tabs{display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap}\n    .section-tab{padding:.45rem .9rem;background:#fff;border:1.5px solid var(--line);border-radius:20px;cursor:pointer;font-size:.8125rem;font-weight:600}\n    .section-tab:hover{border-color:var(--saffron)}\n    .section-tab.active{background:var(--saffron);color:#fff;border-color:var(--saffron)}\n    .sg{margin-bottom:1rem}\n    .sg-h{background:var(--cream-2);padding:.75rem 1rem;border-radius:8px 8px 0 0;font-weight:700;font-size:.9375rem;text-transform:uppercase;letter-spacing:.5px;display:flex;justify-content:space-between;align-items:center}\n    .sg-h .c{font-size:.8125rem;color:var(--muted);font-weight:400}\n    .sg-b{background:#fff;border:1px solid var(--line);border-top:none;border-radius:0 0 8px 8px;padding:.75rem 1rem}\n    .vi{display:flex;align-items:center;gap:1rem;padding:.75rem;background:var(--cream);border-radius:8px;margin-bottom:.5rem}\n    .vi:last-child{margin-bottom:0}\n    .vi .badge{background:var(--ink);color:#fff;padding:.25rem .5rem;border-radius:4px;font-size:.75rem;font-weight:600;text-transform:uppercase;min-width:80px;text-align:center;flex-shrink:0}\n    .vi .meta{flex:1;min-width:0}\n    .vi .meta-top{display:flex;gap:.75rem;align-items:baseline;flex-wrap:wrap}\n    .vi .dev{font-weight:700;font-size:.875rem}\n    .vi .os,.vi .av{color:var(--muted);font-size:.8125rem}\n    .vi .tester{color:var(--muted);font-size:.75rem}\n    .vi .actions{display:flex;gap:.5rem;flex-shrink:0}\n    .vi a,.vi button{padding:.4rem .75rem;font:inherit;font-size:.8125rem;font-weight:600;border-radius:6px;cursor:pointer;text-decoration:none;border:none}\n    .vi a{background:var(--saffron);color:#fff}\n    .vi a:hover{background:var(--saffron-dark)}\n    .vi .dl{background:var(--success);color:#fff}\n    .vi .dl:hover{background:#15803d}\n    .vi .del{background:#fee2e2;color:var(--error)}\n    .vi .del:hover{background:#fecaca}\n    .empty{text-align:center;padding:3rem;color:var(--muted)}\n    .empty svg{width:64px;height:64px;opacity:.5;margin-bottom:1rem}\n    .empty a{color:var(--saffron)}\n    .dla{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;background:var(--success);color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer;margin-bottom:1.5rem}\n    .dla:hover{background:#15803d}\n    .dla svg{width:20px;height:20px}\n  </style>\n</head>\n<body>\n<header><h1>Tester Videos</h1><a href="/admin">Back to Admin</a></header>\n<div class="container">\n<div class="filter-bar">\n  <div class="filter-group">\n    <label>1. App Version</label>\n    <select id="fv" onchange="onFilterChange()"><option value="">Loading...</option></select>\n  </div>\n  <div class="filter-group">\n    <label>2. Tester</label>\n    <select id="ft" onchange="onFilterChange()" disabled><option value="">All Testers</option></select>\n  </div>\n  <div class="filter-group">\n    <label>3. Device</label>\n    <select id="fd" onchange="onFilterChange()" disabled><option value="">All Devices</option></select>\n  </div>\n  <div class="filter-group">\n    <label>4. OS Version</label>\n    <select id="fo" onchange="onFilterChange()" disabled><option value="">All OS</option></select>\n  </div>\n  <button class="filter-reset" onclick="resetFilters()">Reset</button>\n</div>\n\n<div class="stats">\n  <div class="stat-card"><div class="label">Total Videos</div><div class="value" id="st">-</div></div>\n  <div class="stat-card"><div class="label">Testers</div><div class="value" id="su">-</div></div>\n  <div class="stat-card"><div class="label">Devices</div><div class="value" id="sd">-</div></div>\n  <div class="stat-card"><div class="label">Today</div><div class="value" id="sy">-</div></div>\n</div>\n\n<button class="dla" id="btnDownload">Download Filtered</button>\n\n<div class="section-tabs" id="sectionTabs">\n  <button class="section-tab active" data-section="all">All</button>\n  <button class="section-tab" data-section="launch">Launch</button>\n  <button class="section-tab" data-section="lessons">Lessons</button>\n  <button class="section-tab" data-section="practice">Practice</button>\n  <button class="section-tab" data-section="test">Test</button>\n  <button class="section-tab" data-section="vocab">Vocab</button>\n  <button class="section-tab" data-section="review">Review</button>\n  <button class="section-tab" data-section="progress">Progress</button>\n  <button class="section-tab" data-section="settings">Settings</button>\n  <button class="section-tab" data-section="iap">IAP</button>\n  <button class="section-tab" data-section="offline">Offline</button>\n</div>\n\n<div id="results"><div class="empty">Loading data...</div></div>\n</div>\n\n<script>\nvar subs = [];\nvar activeSection = "all";\nvar filters = { appVersions:[], testerNames:[], deviceModels:[], osVersions:[] };\n\nasync function init() {\n  try {\n    var r1 = await fetch("/api/tester/submissions").then(function(r){return r.json()});\n    var r2 = await fetch("/api/tester/filters").then(function(r){return r.json()});\n    subs = r1.submissions || [];\n    filters = r2;\n    console.log("Loaded", subs.length, "submissions");\n    console.log("Filters:", JSON.stringify(filters));\n    populateVersionDropdown();\n    populateTesterDropdown("");\n    populateDeviceDropdown("","");\n    populateOSDropdown("","","");\n    render();\n  } catch(e) {\n    document.getElementById("results").innerHTML = "<div class=\\"empty\\"><p>Error: " + e.message + "</p></div>";\n    console.error(e);\n  }\n}\n\nfunction h(s){s=(s||"")+"";return s.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}\n\nfunction populateVersionDropdown() {\n  var sel = document.getElementById("fv");\n  sel.innerHTML = "<option value=\\"\\">All Versions</option>";\n  (filters.appVersions || []).forEach(function(v) {\n    sel.innerHTML += "<option value=\\"" + h(v) + "\\">" + h(v) + "</option>";\n  });\n}\n\nfunction populateTesterDropdown(av) {\n  var sel = document.getElementById("ft");\n  sel.innerHTML = "<option value=\\"\\">All Testers</option>";\n  sel.disabled = !av;\n  if (!av) return;\n  var seen = {};\n  subs.filter(function(s){return s.app_version===av}).forEach(function(s){seen[s.tester_name]=1});\n  Object.keys(seen).sort().forEach(function(v){\n    sel.innerHTML += "<option value=\\"" + h(v) + "\\">" + h(v) + "</option>";\n  });\n}\n\nfunction populateDeviceDropdown(av, tn) {\n  var sel = document.getElementById("fd");\n  sel.innerHTML = "<option value=\\"\\">All Devices</option>";\n  sel.disabled = !tn;\n  if (!av || !tn) return;\n  var seen = {};\n  subs.filter(function(s){return s.app_version===av&&s.tester_name===tn}).forEach(function(s){seen[s.device_model]=1});\n  Object.keys(seen).sort().forEach(function(v){\n    sel.innerHTML += "<option value=\\"" + h(v) + "\\">" + h(v) + "</option>";\n  });\n}\n\nfunction populateOSDropdown(av, tn, dm) {\n  var sel = document.getElementById("fo");\n  sel.innerHTML = "<option value=\\"\\">All OS</option>";\n  sel.disabled = !dm;\n  if (!av || !tn || !dm) return;\n  var seen = {};\n  subs.filter(function(s){return s.app_version===av&&s.tester_name===tn&&s.device_model===dm}).forEach(function(s){seen[s.os_version]=1});\n  Object.keys(seen).sort().forEach(function(v){\n    sel.innerHTML += "<option value=\\"" + h(v) + "\\">" + h(v) + "</option>";\n  });\n}\n\nfunction onFilterChange() {\n  var av = document.getElementById("fv").value;\n  var tn = document.getElementById("ft").value;\n  var dm = document.getElementById("fd").value;\n  var os = document.getElementById("fo").value;\n\n  document.getElementById("ft").disabled = !av;\n  document.getElementById("fd").disabled = !tn;\n  document.getElementById("fo").disabled = !dm;\n\n  populateTesterDropdown(av);\n  if (tn) populateDeviceDropdown(av, tn);\n  if (dm) populateOSDropdown(av, tn, dm);\n  if (!av) document.getElementById("ft").value = "";\n  if (!tn) document.getElementById("fd").value = "";\n  if (!dm) document.getElementById("fo").value = "";\n\n  render();\n}\n\nfunction resetFilters() {\n  document.getElementById("fv").value = "";\n  document.getElementById("ft").value = "";\n  document.getElementById("fd").value = "";\n  document.getElementById("fo").value = "";\n  document.getElementById("ft").disabled = true;\n  document.getElementById("fd").disabled = true;\n  document.getElementById("fo").disabled = true;\n  populateTesterDropdown("");\n  populateDeviceDropdown("","");\n  populateOSDropdown("","","");\n  render();\n}\n\nfunction getFiltered() {\n  var av = document.getElementById("fv").value;\n  var tn = document.getElementById("ft").value;\n  var dm = document.getElementById("fd").value;\n  var os = document.getElementById("fo").value;\n  return subs.filter(function(s) {\n    if (av && s.app_version !== av) return false;\n    if (tn && s.tester_name !== tn) return false;\n    if (dm && s.device_model !== dm) return false;\n    if (os && s.os_version !== os) return false;\n    if (activeSection !== "all" && s.section !== activeSection) return false;\n    return true;\n  });\n}\n\nvar SECTION_ORDER = ["launch","lessons","practice","test","vocab","review","progress","settings","iap","offline"];\n\nfunction render() {\n  var filtered = getFiltered();\n  document.getElementById("st").textContent = filtered.length;\n  document.getElementById("su").textContent = new Set(filtered.map(function(s){return s.tester_name})).size;\n  document.getElementById("sd").textContent = new Set(filtered.map(function(s){return s.device_model+"|"+s.os_version})).size;\n  var today = new Date().toDateString();\n  document.getElementById("sy").textContent = filtered.filter(function(s){return new Date(s.uploaded_at).toDateString()===today}).length;\n\n  var results = document.getElementById("results");\n  if (filtered.length === 0) {\n    results.innerHTML = "<div class=\\"empty\\"><svg viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"1.5\\"><path d=\\"m15 10-4.5 3V8a3 3 0 0 0-5.12-2.13A3 3 0 0 0 2.73 8.5 3 3 0 0 0 5 11.62V14.5l4.5 3 4.5-3V11.62a3 3 0 0 0-1.65-2.63A3 3 0 0 0 7.5 10\\"/><path d=\\"M18 12a3 3 0 0 0 0-6 3 3 0 0 0 0 6z\\"/></svg><p>No matching videos.</p><p><a href=\\"/tester-guide\\">Share Tester Guide</a> with your team.</p></div>";\n    return;\n  }\n\n  var html = "";\n  SECTION_ORDER.forEach(function(sec) {\n    var items = filtered.filter(function(s){return s.section===sec});\n    if (!items.length) return;\n    html += "<div class=\\"sg\\"><div class=\\"sg-h\\">" + sec + " <span class=\\"c\\">" + items.length + " videos</span></div><div class=\\"sg-b\\">";\n    items.forEach(function(it) {\n      html += "<div class=\\"vi\\">";\n      html += "<span class=\\"badge\\">" + sec + "</span>";\n      html += "<div class=\\"meta\\">";\n      html += "<div class=\\"meta-top\\"><span class=\\"dev\\">" + e(it.device_model) + "</span><span class=\\"os\\">" + e(it.os_version) + "</span><span class=\\"av\\">v" + e(it.app_version) + "</span></div>";\n      html += "<div class=\\"tester\\">" + e(it.tester_name) + " \\u00b7 " + fmt(it.uploaded_at) + "</div>";\n      html += "</div>";\n      html += "<div class=\\"actions\\">";\n      html += "<a href=\\"/api/tester/video/" + encodeURIComponent(it.filename) + "\\" target=\\"_blank\\">View</a>";\n      html += "<button class=\\"dl\\" data-file=\\"" + e(it.filename) + "\\">DL</button>";\n      html += "<button class=\\"del\\" data-id=\\"" + it.id + "\\">Del</button>";\n      html += "</div>";\n      html += "</div>";\n    });\n    html += "</div></div>";\n  });\n  results.innerHTML = html;\n}\n\nfunction e(s){s=(s||"")+"";return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/\x27/g,"&#39;");}\nfunction fmt(d){return d ? new Date(d).toLocaleString() : "";}\n\n// Event delegation\ndocument.addEventListener("click", function(ev) {\n  var btn = ev.target.closest("button");\n  if (!btn) return;\n\n  if (btn.classList.contains("del")) {\n    var id = parseInt(btn.getAttribute("data-id"));\n    if (id && confirm("Delete this video?")) delVideo(id, btn);\n  }\n\n  if (btn.classList.contains("dl")) {\n    var file = btn.getAttribute("data-file");\n    if (file) window.open("/api/tester/video/" + encodeURIComponent(file), "_blank");\n  }\n\n  if (btn.classList.contains("section-tab")) {\n    var sec = btn.getAttribute("data-section");\n    if (sec) {\n      activeSection = sec;\n      document.querySelectorAll(".section-tab").forEach(function(t){\n        t.classList.toggle("active", t.getAttribute("data-section") === sec);\n      });\n      render();\n    }\n  }\n\n  if (btn.id === "btnDownload") dlFiltered();\n});\n\nasync function delVideo(id, btn) {\n  try {\n    var res = await fetch("/api/tester/submission/" + id, { method: "DELETE" });\n    if (res.ok) {\n      subs = subs.filter(function(s){return s.id !== id});\n      btn.closest(".vi").remove();\n      render();\n    } else { alert("Delete failed"); }\n  } catch(e) { alert("Error: " + e.message); }\n}\n\nfunction dlFiltered() {\n  getFiltered().forEach(function(item, i) {\n    setTimeout(function(){ window.open("/api/tester/video/" + item.filename, "_blank"); }, i * 400);\n  });\n}\n\ndocument.addEventListener("DOMContentLoaded", init);\n</script>\n</body>\n</html>';
 }
 
 export function createTesterAdminRouter() {
   const app = new Hono<{ Bindings: Env }>();
   
-  // Global error handler - catch ALL errors
   app.onError((err, c) => {
     console.error('Tester admin uncaught error:', err);
-    try {
-      captureException(err);
-    } catch (_) {}
+    try { captureException(err); } catch (_) {}
     return c.html(errorPage('Uncaught error: ' + (err as Error).message), 500);
   });
   
-  // Dashboard (no extra auth — main admin middleware already protects /admin/*)
   app.get('/', async (c) => {
-    try {
-      const db = c.env.DB;
-      
-      const submissions = await db.prepare(`
-        SELECT id, filename, section, device_model, os_version, app_version, tester_name, uploaded_at
-        FROM tester_submissions
-        ORDER BY uploaded_at DESC
-      `).all();
-      
-      const devices = await db.prepare(`
-        SELECT DISTINCT device_model, os_version, app_version
-        FROM tester_submissions
-        ORDER BY device_model, os_version
-      `).all();
-      
-      return c.html(dashboardPage(submissions.results, devices.results));
-    } catch (err) {
-      console.error('Tester admin error:', err);
-      try {
-        captureException(err);
-      } catch (_) {}
-      return c.html(errorPage('Failed to load submissions: ' + (err as Error).message), 500);
-    }
+    return c.html(dashboardHTML());
   });
   
   return app;

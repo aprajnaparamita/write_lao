@@ -28,6 +28,8 @@ bucket_name = "writelao-course-data"
 
 [vars]
 ENVIRONMENT = "production"
+# Your CloudFlare account ID (find it in the CloudFlare dashboard URL: dash.cloudflare.com/<ACCOUNT_ID>)
+ACCOUNT_ID = "98b0001d9df14f1175c1543acee869ef"
 
 # Secrets to set via `wrangler secret put`:
 # - TEACHER_JWT_SECRET: Secret key for signing teacher session tokens
@@ -35,3 +37,5 @@ ENVIRONMENT = "production"
 # - GOOGLE_CLIENT_ID: OAuth client ID for Google sign-in
 # - GOOGLE_CLIENT_SECRET: OAuth client secret
 # - BREVO_API_KEY: API key from brevo.com for sending support form emails
+# - R2_ACCESS_KEY_ID: R2 API token access key (from R2 → Manage API Tokens)
+# - R2_SECRET_ACCESS_KEY: R2 API token secret key

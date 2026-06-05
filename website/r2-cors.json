@@ -1,0 +1,1 @@
+{"rules":[{"allowed_origins":["https://writelao.xyz"],"allowed_methods":["PUT","GET"],"allowed_headers":["Content-Type"],"max_age_seconds":3600}]}

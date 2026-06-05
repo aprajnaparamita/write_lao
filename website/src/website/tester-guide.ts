@@ -209,6 +209,72 @@ export const testerGuideHTML = `<!DOCTYPE html>
       user-select: none;
     }
     .section-header:hover { background: #ebe5d8; }
+    
+    /* Submitted section styling */
+    .section.submitted .section-header {
+      background: #dcfce7;
+      border-bottom: 1px solid #6ee7b7;
+    }
+    .section.submitted .section-header:hover { background: #c9f2d6; }
+    .section.submitted .section-number {
+      background: var(--success);
+    }
+    .section.submitted .section-number::after {
+      content: ' ✓';
+      font-size: 0.65rem;
+    }
+    .section.submitted .section-title h2 { color: #166534; }
+    .section.submitted .section-title p { color: #166534; }
+    
+    /* Previous submission row inside a section */
+    .past-submission-row {
+      background: #f0fdf4;
+      border: 1px solid #6ee7b7;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .past-submission-row .past-info {
+      flex: 1;
+      min-width: 200px;
+    }
+    .past-submission-row .past-name {
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--ink);
+      word-break: break-all;
+    }
+    .past-submission-row .past-date {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .past-submission-row .past-actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .btn-outline-sm {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.4rem 0.9rem;
+      font: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-radius: 20px;
+      cursor: pointer;
+      border: 1.5px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .btn-outline-sm:hover { background: var(--cream-2); border-color: var(--muted); }
+    .btn-outline-sm.danger { color: var(--error); border-color: #fca5a5; }
+    .btn-outline-sm.danger:hover { background: #fee2e2; border-color: #f87171; }
+    
     .section-number {
       width: 36px;
       height: 36px;
@@ -721,6 +787,21 @@ export const testerGuideHTML = `<!DOCTYPE html>
       <span class="saved-item"><strong>App:</strong> <span id="savedApp"></span></span>
       <span class="saved-item"><strong>Tester:</strong> <span id="savedTester"></span></span>
       <button class="edit-btn" onclick="showSetupGuide()">Edit Settings</button>
+    </div>
+    
+    <!-- Previous Submissions (shows when returning tester has past uploads) -->
+    <div class="section" id="previousSubmissions" style="display:none; margin-bottom:2rem;">
+      <div class="section-header" onclick="toggleSection(this)" style="cursor:pointer; background:#dcfce7; border-bottom:1px solid #6ee7b7;">
+        <div class="section-number" style="background:var(--success);">✓</div>
+        <div class="section-title">
+          <h2 style="color:#166534;">Previously Submitted</h2>
+          <p style="color:#166534;">You've already submitted these sections</p>
+        </div>
+        <div class="section-toggle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <div class="section-content" style="padding:1rem 1.5rem;"></div>
     </div>
     
     <!-- Device Setup Visual Guide -->
@@ -1683,6 +1764,7 @@ export const testerGuideHTML = `<!DOCTYPE html>
     // ═══════════════════════════════════════════════════════════════════════
     
     const STORAGE_KEY = 'tester_guide_settings';
+    let currentTesterId = null;
     
     function loadSettings() {
       try {
@@ -1727,6 +1809,16 @@ export const testerGuideHTML = `<!DOCTYPE html>
       return dom;
     }
     
+    function getOrComputeTesterId() {
+      if (currentTesterId) return currentTesterId;
+      const settings = loadSettings();
+      if (settings && settings.testerId) {
+        currentTesterId = settings.testerId;
+        return currentTesterId;
+      }
+      return null;
+    }
+    
     function populateSettingsFromStorage() {
       const settings = loadSettings();
       if (settings) {
@@ -1734,6 +1826,7 @@ export const testerGuideHTML = `<!DOCTYPE html>
         if (settings.osVersion) document.getElementById('osVersion').value = settings.osVersion;
         if (settings.appVersion) document.getElementById('appVersion').value = settings.appVersion;
         if (settings.testerName) document.getElementById('testerName').value = settings.testerName;
+        if (settings.testerId) currentTesterId = settings.testerId;
         return true;
       }
       return false;
@@ -1754,10 +1847,223 @@ export const testerGuideHTML = `<!DOCTYPE html>
       return false;
     }
     
+    // ── Fetch and display previous submissions ──────────────────────────
+    var allSubmissions = []; // cached from last fetch
+    
+    async function loadPreviousSubmissions() {
+      const tid = getOrComputeTesterId();
+      if (!tid) return;
+      
+      try {
+        const res = await fetch('/api/tester/my-submissions?tester_id=' + encodeURIComponent(tid));
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data.submissions && data.submissions.length > 0) {
+          allSubmissions = data.submissions;
+          applySubmissionsToPage(data.submissions);
+        }
+      } catch (err) {
+        console.error('Failed to load previous submissions:', err);
+      }
+    }
+    
+    var sectionLabels = {
+      launch: '1. App Launch & Home Screen',
+      lessons: '2. Character Lessons',
+      practice: '3. Practice Mode',
+      test: '4. Test Mode',
+      vocab: '5. Vocabulary Lessons',
+      review: '6. Review Mode',
+      progress: '7. Progress Tracking',
+      settings: '8. Settings',
+      iap: '9. In-App Purchase',
+      offline: '10. Offline Functionality'
+    };
+    
+    var allSectionKeys = ['launch','lessons','practice','test','vocab','review','progress','settings','iap','offline'];
+    
+    function applySubmissionsToPage(submissions) {
+      // Build map: section → latest submission
+      var latestBySection = {};
+      submissions.forEach(function(sub) {
+        if (!latestBySection[sub.section] || sub.id > latestBySection[sub.section].id) {
+          latestBySection[sub.section] = sub;
+        }
+      });
+      
+      // Update the global "Previously Submitted" summary container
+      var container = document.getElementById('previousSubmissions');
+      if (container) {
+        var contentEl = container.querySelector('.section-content');
+        var html = '<div class="checklist-label">Previously Submitted Videos</div>';
+        var count = 0;
+        allSectionKeys.forEach(function(key) {
+          var sub = latestBySection[key];
+          if (sub) {
+            count++;
+            html += '<div class="check-item past-submission" style="justify-content:space-between">' +
+              '<span><span style="color:var(--success);font-weight:700;">&#10003;</span> ' +
+              (sectionLabels[key] || key) +
+              ' — ' + (sub.tester_name || '') + '</span>' +
+              '<span style="font-size:0.75rem;color:var(--muted)">' +
+              (sub.uploaded_at ? new Date(sub.uploaded_at + 'Z').toLocaleDateString() : '') +
+              '</span></div>';
+          }
+        });
+        if (count > 0) {
+          contentEl.innerHTML = html;
+          container.style.display = 'block';
+        } else {
+          container.style.display = 'none';
+        }
+      }
+      
+      // Update each section in the DOM
+      var firstUnsubmitted = null;
+      allSectionKeys.forEach(function(key) {
+        var sectionEl = document.getElementById(key);
+        if (!sectionEl) return;
+        
+        var sub = latestBySection[key];
+        if (sub) {
+          // Mark section as submitted and collapse it
+          sectionEl.classList.add('submitted');
+          sectionEl.classList.remove('open');
+          
+          // Change section number to checkmark
+          var numEl = sectionEl.querySelector('.section-number');
+          if (numEl) {
+            numEl.textContent = '✓';
+            numEl.style.background = '#16a34a';
+          }
+          
+          // Inject previous-submission row into section content
+          var contentEl = sectionEl.querySelector('.section-content');
+          if (contentEl) {
+            // Remove any existing past row
+            var existing = contentEl.querySelector('.past-submission-row');
+            if (existing) existing.remove();
+            
+            var dateStr = sub.uploaded_at
+              ? new Date(sub.uploaded_at + 'Z').toLocaleString()
+              : 'Unknown date';
+            var shortName = sub.filename ? sub.filename.split('/').pop() : 'video';
+            
+            var row = document.createElement('div');
+            row.className = 'past-submission-row';
+            row.innerHTML =
+              '<div class="past-info">' +
+                '<div class="past-name" title="' + (sub.filename || '') + '">📹 ' + shortName + '</div>' +
+                '<div class="past-date">Uploaded ' + dateStr + '</div>' +
+              '</div>' +
+              '<div class="past-actions">' +
+                '<button class="btn-outline-sm" onclick="viewPastVideo(\\'' + key + '\\',' + sub.id + ')">' +
+                  '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg> View' +
+                '</button>' +
+                '<button class="btn-outline-sm danger" onclick="deletePastSubmission(\\'' + key + '\\',' + sub.id + ')">' +
+                  '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg> Delete' +
+                '</button>' +
+              '</div>';
+            contentEl.insertBefore(row, contentEl.firstChild);
+          }
+        } else {
+          // Not submitted — keep normal styling
+          sectionEl.classList.remove('submitted');
+          var numEl = sectionEl.querySelector('.section-number');
+          if (numEl) {
+            // Restore original number
+            var originalNum = allSectionKeys.indexOf(key) + 1;
+            numEl.textContent = String(originalNum);
+            numEl.style.background = '#c8573f';
+          }
+          // Remove any past row
+          var contentEl = sectionEl.querySelector('.section-content');
+          if (contentEl) {
+            var existing = contentEl.querySelector('.past-submission-row');
+            if (existing) existing.remove();
+          }
+          
+          // Track first unsubmitted
+          if (!firstUnsubmitted) firstUnsubmitted = key;
+        }
+      });
+      
+      // Auto-open the first unsubmitted section
+      if (firstUnsubmitted) {
+        var el = document.getElementById(firstUnsubmitted);
+        if (el && !el.classList.contains('open')) {
+          el.classList.add('open');
+        }
+        // Scroll to it
+        setTimeout(function() {
+          var target = document.getElementById(firstUnsubmitted);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 200);
+      }
+      
+      // Make view/delete functions globally accessible
+      window.viewPastVideo = viewPastVideo;
+      window.deletePastSubmission = deletePastSubmission;
+    }
+    
+    function viewPastVideo(section, submissionId) {
+      // Find the submission
+      var sub = null;
+      for (var i = 0; i < allSubmissions.length; i++) {
+        if (allSubmissions[i].id === submissionId) { sub = allSubmissions[i]; break; }
+      }
+      if (!sub || !sub.filename) return;
+      
+      var videoUrl = '/api/tester/video/' + encodeURIComponent(sub.filename);
+      window.open(videoUrl, '_blank');
+    }
+    
+    async function deletePastSubmission(section, submissionId) {
+      if (!confirm('Delete this submission? The video will be permanently removed.')) return;
+      
+      try {
+        var res = await fetch('/api/tester/submission/' + submissionId, { method: 'DELETE' });
+        if (res.ok) {
+          // Remove from local cache
+          allSubmissions = allSubmissions.filter(function(s) { return s.id !== submissionId; });
+          // Re-apply to page
+          applySubmissionsToPage(allSubmissions);
+          // If all submissions gone, hide the summary
+          if (allSubmissions.length === 0) {
+            var container = document.getElementById('previousSubmissions');
+            if (container) container.style.display = 'none';
+          }
+        } else {
+          alert('Failed to delete submission.');
+        }
+      } catch (err) {
+        alert('Error deleting: ' + err.message);
+      }
+    }
+    
     function showSetupGuide() {
       document.getElementById('savedSettingsBar').style.display = 'none';
       document.getElementById('setupGuide').classList.add('open');
       document.getElementById('setupCompleted').style.display = 'none';
+      var prev = document.getElementById('previousSubmissions');
+      if (prev) prev.style.display = 'none';
+      // Clear submitted styling from sections (they'll be re-applied on save)
+      allSectionKeys.forEach(function(key) {
+        var el = document.getElementById(key);
+        if (el) {
+          el.classList.remove('submitted');
+          var numEl = el.querySelector('.section-number');
+          if (numEl) {
+            numEl.textContent = String(allSectionKeys.indexOf(key) + 1);
+            numEl.style.background = '#c8573f';
+          }
+          var contentEl = el.querySelector('.section-content');
+          if (contentEl) {
+            var existing = contentEl.querySelector('.past-submission-row');
+            if (existing) existing.remove();
+          }
+        }
+      });
     }
     
     function toggleSetupGuide() {
@@ -1765,7 +2071,7 @@ export const testerGuideHTML = `<!DOCTYPE html>
       guide.classList.toggle('open');
     }
     
-    function saveAndVerifySettings() {
+    async function saveAndVerifySettings() {
       const deviceModel = document.getElementById('deviceModel').value.trim();
       const osVersion = document.getElementById('osVersion').value.trim();
       const appVersion = document.getElementById('appVersion').value.trim();
@@ -1783,21 +2089,42 @@ export const testerGuideHTML = `<!DOCTYPE html>
         return;
       }
       
-      // Save to localStorage
+      // Register tester — get deterministic ID from server
+      var testerId = null;
+      try {
+        var regRes = await fetch('/api/tester/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            deviceModel: deviceModel,
+            osVersion: osVersion,
+            appVersion: appVersion,
+            testerName: testerName
+          })
+        });
+        if (regRes.ok) {
+          var regData = await regRes.json();
+          testerId = regData.testerId;
+          currentTesterId = testerId;
+        }
+      } catch (err) {
+        console.error('Failed to register tester:', err);
+      }
+      
+      // Save to localStorage (include testerId)
       saveSettings({
         deviceModel,
         osVersion,
         appVersion,
-        testerName
+        testerName,
+        testerId: testerId
       });
       
       // Show success and switch to saved bar
       showSavedSettingsBar();
       
-      // Auto-fill form fields for video uploads
-      document.querySelectorAll('input[type="file"]').forEach(input => {
-        // Fields will use getSettings() at upload time
-      });
+      // Load previous submissions for this tester
+      loadPreviousSubmissions();
     }
     
     // ═══════════════════════════════════════════════════════════════════════
@@ -1808,6 +2135,8 @@ export const testerGuideHTML = `<!DOCTYPE html>
       // First try to load from localStorage
       if (showSavedSettingsBar()) {
         console.log('Loaded settings from localStorage');
+        // Also load previous submissions for this tester
+        loadPreviousSubmissions();
         return;
       }
       
@@ -1944,7 +2273,7 @@ export const testerGuideHTML = `<!DOCTYPE html>
       return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
     }
     
-    // Upload a single video
+    // Upload a single video — uses direct-to-R2 for files > 100 MB
     async function uploadVideo(section) {
       const file = videoFiles[section];
       if (!file) return null;
@@ -1955,6 +2284,7 @@ export const testerGuideHTML = `<!DOCTYPE html>
       const osVersion = settings.osVersion || 'Unknown OS';
       const appVersion = settings.appVersion || 'Unknown Version';
       const testerName = settings.testerName || 'Anonymous';
+      const testerId = getOrComputeTesterId() || '';
       
       const progressEl = document.getElementById('progress-' + section);
       const fillEl = document.getElementById('progress-fill-' + section);
@@ -1962,6 +2292,109 @@ export const testerGuideHTML = `<!DOCTYPE html>
       const successEl = document.getElementById('success-' + section);
       
       progressEl.classList.add('active');
+      
+      // ═══════════════════════════════════════════════════════════════
+      // PATH A: Chunked upload (for files > 100 MB)
+      // Splits file into 50MB chunks, each under the Worker body limit.
+      // ═══════════════════════════════════════════════════════════════
+      if (file.size > 100 * 1024 * 1024) {
+        var CHUNK_SIZE = 50 * 1024 * 1024; // 50 MB per chunk
+        var totalChunks = Math.ceil(file.size / CHUNK_SIZE);
+        statusEl.textContent = 'Preparing upload (' + totalChunks + ' chunks)...';
+        fillEl.style.width = '5%';
+        
+        var sessionId = null;
+        var r2Key = null;
+        
+        try {
+          // Step 1: Start multipart upload
+          var startRes = await fetch('/api/tester/upload/start', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              section: section,
+              deviceModel: deviceModel,
+            }),
+          });
+          
+          if (!startRes.ok) {
+            var startErr = await startRes.json().catch(function() { return {}; });
+            throw new Error(startErr.error || 'Failed to start upload (HTTP ' + startRes.status + ')');
+          }
+          
+          var startData = await startRes.json();
+          sessionId = startData.sessionId;
+          r2Key = startData.key;
+          
+          // Step 2: Upload chunks
+          for (var i = 0; i < totalChunks; i++) {
+            var start = i * CHUNK_SIZE;
+            var end = Math.min(start + CHUNK_SIZE, file.size);
+            var chunk = file.slice(start, end);
+            
+            var chunkForm = new FormData();
+            chunkForm.append('sessionId', sessionId);
+            chunkForm.append('partNumber', String(i + 1));
+            chunkForm.append('chunk', chunk, 'chunk');
+            
+            statusEl.textContent = 'Uploading chunk ' + (i + 1) + ' of ' + totalChunks + '...';
+            fillEl.style.width = Math.round(5 + (i / totalChunks) * 85) + '%';
+            
+            var partRes = await fetch('/api/tester/upload/part', {
+              method: 'POST',
+              body: chunkForm,
+            });
+            
+            if (!partRes.ok) {
+              var partErr = await partRes.json().catch(function() { return {}; });
+              // Try to abort
+              try { await fetch('/api/tester/upload/abort', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({sessionId:sessionId}) }); } catch(e) {}
+              throw new Error(partErr.error || 'Chunk ' + (i+1) + ' failed (HTTP ' + partRes.status + ')');
+            }
+          }
+          
+          // Step 3: Complete upload
+          fillEl.style.width = '92%';
+          statusEl.textContent = 'Finalizing...';
+          
+          var completeRes = await fetch('/api/tester/upload/complete', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              sessionId: sessionId,
+              section: section,
+              deviceModel: deviceModel,
+              osVersion: osVersion,
+              appVersion: appVersion,
+              testerName: testerName,
+              testerId: testerId,
+            }),
+          });
+          
+          if (!completeRes.ok) {
+            var completeErr = await completeRes.json().catch(function() { return {}; });
+            throw new Error(completeErr.error || 'Failed to finalize upload');
+          }
+          
+          fillEl.style.width = '100%';
+          progressEl.classList.remove('active');
+          successEl.classList.add('active');
+          loadPreviousSubmissions();
+          return true;
+        } catch (err) {
+          // Clean up on failure
+          if (sessionId) {
+            try { await fetch('/api/tester/upload/abort', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({sessionId:sessionId}) }); } catch(e) {}
+          }
+          progressEl.classList.remove('active');
+          statusEl.textContent = 'Upload failed: ' + err.message;
+          return false;
+        }
+      }
+      
+      // ═══════════════════════════════════════════════════════════════
+      // PATH B: Legacy Worker-proxied upload (for files ≤ 100 MB)
+      // ═══════════════════════════════════════════════════════════════
       statusEl.textContent = 'Uploading...';
       
       const formData = new FormData();
@@ -1971,28 +2404,35 @@ export const testerGuideHTML = `<!DOCTYPE html>
       formData.append('osVersion', osVersion);
       formData.append('appVersion', appVersion);
       formData.append('testerName', testerName);
+      formData.append('testerId', testerId);
       
       try {
         const xhr = new XMLHttpRequest();
         
         await new Promise((resolve, reject) => {
-          xhr.upload.addEventListener('progress', (e) => {
+          xhr.upload.addEventListener('progress', function(e) {
             if (e.lengthComputable) {
-              const percent = Math.round((e.loaded / e.total) * 100);
-              fillEl.style.width = percent + '%';
-              statusEl.textContent = 'Uploading... ' + percent + '%';
+              var pct = Math.round((e.loaded / e.total) * 100);
+              fillEl.style.width = pct + '%';
+              statusEl.textContent = 'Uploading... ' + pct + '%';
             }
           });
           
-          xhr.addEventListener('load', () => {
+          xhr.addEventListener('load', function() {
             if (xhr.status >= 200 && xhr.status < 300) {
               resolve(xhr.response);
             } else {
-              reject(new Error('Upload failed: ' + xhr.status));
+              // Try to parse error from response
+              var msg = 'Upload failed: HTTP ' + xhr.status;
+              try {
+                var errData = JSON.parse(xhr.responseText);
+                if (errData.error) msg = errData.error;
+              } catch(e) {}
+              reject(new Error(msg));
             }
           });
           
-          xhr.addEventListener('error', () => reject(new Error('Upload failed')));
+          xhr.addEventListener('error', function() { reject(new Error('Upload failed')); });
           
           xhr.open('POST', '/api/tester/video');
           xhr.send(formData);
@@ -2000,6 +2440,8 @@ export const testerGuideHTML = `<!DOCTYPE html>
         
         progressEl.classList.remove('active');
         successEl.classList.add('active');
+        // Refresh submission display
+        loadPreviousSubmissions();
         return true;
       } catch (err) {
         progressEl.classList.remove('active');
