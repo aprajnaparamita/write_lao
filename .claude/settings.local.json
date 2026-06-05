@@ -116,7 +116,22 @@
       "Bash(curl -si https://writelao-website.6647hdwcy8.workers.dev/th)",
       "Bash(curl -v \"https://writelao-website.6647hdwcy8.workers.dev/robots.txt\")",
       "Bash(npx esbuild *)",
-      "Read(//private/tmp/**)"
+      "Read(//private/tmp/**)",
+      "Bash(curl *)",
+      "Bash(bash *)",
+      "Bash(make devices *)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/dara/dev/write_lao/assets_originals/screenshots/iphone/*.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/dara/dev/write_lao/assets_originals/screenshots/iphone/*.PNG)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/dara/dev/write_lao/assets_originals/screenshots/iphone/*)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Volumes/Dara/dev/write_lao/assets_originals/screenshots/iphone_1284x2778/*.PNG)",
+      "Bash(xcodebuild *)",
+      "Bash(sort -t_ -k2)",
+      "Bash(xargs -I{} find {} -name \"*.log\")",
+      "Bash(rsync --version)",
+      "Bash(brew unlink *)",
+      "Bash(brew link *)",
+      "Bash(open *)",
+      "Bash(sips *)"
     ]
   }
 }

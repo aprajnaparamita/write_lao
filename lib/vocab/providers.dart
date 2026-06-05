@@ -9,6 +9,7 @@ import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_preferences_repository.dart';
 import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
+import 'package:write_it_lao/vocab/domain/platform_iap_service.dart';
 import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
 
 /// Loads the course bundle from app assets.
@@ -90,16 +91,14 @@ final lessonEngineProvider = FutureProvider<LessonEngine>((ref) async {
   );
 });
 
-/// IAP service provider. Production code uses PlatformIapService (not yet
-/// implemented — delegates to the app's existing purchase flow). Tests
-/// override this with MockIapService.
+/// IAP service provider.
+/// - Debug builds: [MockIapService] with instant-success so the full
+///   purchase flow (spinner → unlock → pop) can be exercised without a
+///   real App Store connection.
+/// - Release / profile: [PlatformIapService] talks to StoreKit / Google Play.
 final iapServiceProvider = Provider<IapService>((ref) {
-  // TODO(phase08): Replace with actual platform implementation.
-  // In debug builds, MockIapService is wired to succeed so the full
-  // purchase flow (spinner → unlock → pop) can be exercised without a
-  // real App Store / Play Store connection.
   if (kDebugMode) return const MockIapService(simulateSuccess: true);
-  return const MockIapService();
+  return PlatformIapService();
 });
 
 /// Change counter bumped whenever vocab user state is mutated through a

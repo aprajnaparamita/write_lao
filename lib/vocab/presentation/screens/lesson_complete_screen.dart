@@ -93,10 +93,10 @@ class LessonCompleteScreen extends StatelessWidget {
                       physics: const NeverScrollableScrollPhysics(),
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 12,
-                        mainAxisSpacing: 12,
-                        childAspectRatio: 1.1,
+                        crossAxisCount: 3,
+                        crossAxisSpacing: 10,
+                        mainAxisSpacing: 10,
+                        childAspectRatio: 1.0,
                       ),
                       itemCount: words.length,
                       itemBuilder: (context, index) =>
@@ -191,7 +191,7 @@ class _WordCard extends StatelessWidget {
               laoWord,
               style: const TextStyle(
                 fontFamily: 'Noto Lao',
-                fontSize: 32,
+                fontSize: 26,
                 color: AppTheme.textPrimary,
               ),
               textAlign: TextAlign.center,

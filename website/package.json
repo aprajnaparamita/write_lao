@@ -17,6 +17,9 @@
     "wrangler": "^4.0.0"
   },
   "dependencies": {
-    "hono": "^4.0.0"
+    "@sentry/cloudflare": "^10.56.0",
+    "hono": "^4.0.0",
+    "smart-browser-detection": "^1.0.3",
+    "ua-parser-js": "^2.0.10"
   }
 }

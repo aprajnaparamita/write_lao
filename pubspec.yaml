@@ -27,6 +27,7 @@ dependencies:
   go_router: ^14.0.0
   uuid: ^4.0.0
   sentry_flutter: ^8.14.2
+  in_app_purchase: ^3.2.0
 
 dev_dependencies:
   flutter_test:

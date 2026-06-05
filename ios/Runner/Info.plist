@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- Export compliance: app uses only standard iOS HTTPS/TLS (Sentry, IAP).
+	     No custom or proprietary encryption algorithms are implemented. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>

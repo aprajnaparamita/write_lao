@@ -112,7 +112,7 @@ void main() {
     await tester.pump();
 
     expect(find.byKey(alphabet_home.homeVocabEntryKey), findsOneWidget);
-    expect(find.text('Vocabulary'), findsWidgets);
+    expect(find.text('VOCABULARY'), findsWidgets);
   });
 
   testWidgets('tapping the vocabulary tab shows the unit list',

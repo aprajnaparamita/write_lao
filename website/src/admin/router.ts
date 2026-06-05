@@ -13,6 +13,7 @@ import { getCookie, setCookie, deleteCookie } from 'hono/cookie';
 import { adminHTML, loginHTML } from './admin-page';
 import { authMiddleware, createTokens, verifyToken, TokenPayload } from '../lib/auth';
 import { courseHandlers } from './course-handlers';
+import { createTesterAdminRouter } from './tester-admin';
 
 type Env = {
   ASSETS: KVNamespace;
@@ -20,9 +21,11 @@ type Env = {
   COURSE_DATA: R2Bucket;
   TEACHER_JWT_SECRET: string;
   ADMIN_EMAIL: string;
+  ADMIN_PASSWORD: string;
   GOOGLE_CLIENT_ID: string;
   GOOGLE_CLIENT_SECRET: string;
   ENVIRONMENT: string;
+  SENTRY_DSN: string;
 };
 
 type Variables = {
@@ -35,6 +38,12 @@ type Variables = {
 
 export function createAdminRouter() {
   const admin = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+  // Global error handler
+  admin.onError((err, c) => {
+    console.error('Admin uncaught error:', err);
+    return c.text('Internal Server Error: ' + (err as Error).message, 500);
+  });
 
   // Auth middleware for all admin routes
   admin.use('/*', authMiddleware());
@@ -54,10 +63,11 @@ export function createAdminRouter() {
     const email = body.email as string;
     const password = body.password as string;
     const adminEmail = c.env.ADMIN_EMAIL || 'admin@writelao.xyz';
+    const adminPassword = c.env.ADMIN_PASSWORD || 'admin123';
     const secret = c.env.TEACHER_JWT_SECRET || 'dev-secret-change-me';
 
     // Simple auth - in production, check against D1 database with hashed passwords
-    if (email === adminEmail && password === 'admin123') {
+    if (email === adminEmail && password === adminPassword) {
       const tokens = await createTokens({
         teacherId: '1',
         email,
@@ -131,6 +141,12 @@ export function createAdminRouter() {
           <h2>Settings</h2>
           <p>Account settings and preferences</p>
         </a>
+        
+        <a href="/admin/tester" class="dash-card">
+          <div class="dash-icon">🧪</div>
+          <h2>Tester Videos</h2>
+          <p>View and download tester video submissions by device</p>
+        </a>
       </div>
       
       <script>
@@ -151,6 +167,9 @@ export function createAdminRouter() {
   admin.route('/examples', courseHandlers.examples);
   admin.route('/export', courseHandlers.export);
   admin.route('/settings', courseHandlers.settings);
+
+  // Tester video dashboard
+  admin.route('/tester', createTesterAdminRouter());
 
   // Logout
   admin.post('/logout', (c) => {

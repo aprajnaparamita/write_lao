@@ -1,5 +1,5 @@
 /// IAP product ID for the 500-word vocabulary feature.
-const String kVocabProductId = 'write_lao_vocabulary_500';
+const String kVocabProductId = '500word';
 
 /// Result of an IAP operation.
 sealed class IapResult {

@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
@@ -189,6 +191,53 @@ class SettingsScreen extends ConsumerWidget {
 
           if (VocabConfig.featureEnabled) const VocabSettingsSection(),
 
+          // ── Debug tools (only visible in debug builds) ───────────────
+          if (kDebugMode) ...[
+            const SizedBox(height: 24),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Card(
+                color: Colors.orange.shade50,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                  side: BorderSide(color: Colors.orange.shade200),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+                      child: Row(
+                        children: [
+                          Icon(Icons.bug_report,
+                              size: 13, color: Colors.orange.shade800),
+                          const SizedBox(width: 5),
+                          Text(
+                            'DEBUG ONLY',
+                            style: TextStyle(
+                              fontSize: 11,
+                              fontWeight: FontWeight.w700,
+                              letterSpacing: 0.9,
+                              color: Colors.orange.shade800,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.send_outlined,
+                          color: Colors.orange.shade700),
+                      title: const Text('Send test error to Sentry'),
+                      subtitle: const Text(
+                          'Fires a real exception to verify the DSN is wired up.'),
+                      onTap: () => _sendTestSentryError(context),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+
           const SizedBox(height: 32),
         ],
       ),
@@ -211,6 +260,40 @@ class SettingsScreen extends ConsumerWidget {
     if (value <= 0.75) return l10n.toleranceDescHard;
     if (value <= 0.80) return l10n.toleranceDescVeryHard;
     return l10n.toleranceDescExtreme;
+  }
+
+  /// Sends a real exception to Sentry, bypassing the debug-mode guard in
+  /// [SentryHelper] so you can confirm the DSN and pipeline are working.
+  /// Only reachable via the debug-only card in the UI.
+  Future<void> _sendTestSentryError(BuildContext context) async {
+    try {
+      throw Exception(
+          'Write Lao — manual Sentry test triggered from Settings screen.');
+    } catch (e, stack) {
+      await Sentry.captureException(
+        e,
+        stackTrace: stack,
+        hint: Hint.withMap({
+          'message': 'Debug test button — not a real crash',
+        }),
+        withScope: (scope) {
+          scope.setTag('triggered_by', 'debug_settings_button');
+          scope.setContexts('debug_info', {
+            'source': 'SettingsScreen._sendTestSentryError',
+            'build_mode': 'debug',
+          });
+        },
+      );
+    }
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text('Test error sent to Sentry ✓'),
+          behavior: SnackBarBehavior.floating,
+          backgroundColor: Colors.orange.shade700,
+        ),
+      );
+    }
   }
 
   void _showResetConfirmation(BuildContext context, WidgetRef ref) {

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:write_it_lao/config/sentry.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
@@ -52,12 +53,19 @@ class _UpsellScreenState extends State<UpsellScreen> {
       case IapSuccess():
         widget.onPurchaseComplete?.call();
       case IapCancelled():
+        // User dismissed the system sheet — no error needed.
         break;
       case IapError(:final message):
         setState(() => _error = message);
+        // Fire a Sentry event so we can track purchase failures in production.
+        await SentryHelper.captureMessage(
+          'IAP: purchase completed with IapError on upsell screen',
+          context: {'error_message': message},
+        );
       case IapRestored():
         widget.onPurchaseComplete?.call();
       case IapNotRestored():
+        // Shouldn't reach here from the buy button — no-op.
         break;
     }
   }

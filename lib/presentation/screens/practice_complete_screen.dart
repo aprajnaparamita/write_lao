@@ -129,9 +129,9 @@ class _PracticeCompleteScreenState extends ConsumerState<PracticeCompleteScreen>
                             physics: const NeverScrollableScrollPhysics(),
                             gridDelegate:
                                 const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 2,
-                              crossAxisSpacing: 12,
-                              mainAxisSpacing: 12,
+                              crossAxisCount: 3,
+                              crossAxisSpacing: 10,
+                              mainAxisSpacing: 10,
                               childAspectRatio: 1.0,
                             ),
                             itemCount: characters.length,

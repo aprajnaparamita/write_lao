@@ -34,3 +34,4 @@ ENVIRONMENT = "production"
 # - ADMIN_EMAIL: Email address for teacher verification
 # - GOOGLE_CLIENT_ID: OAuth client ID for Google sign-in
 # - GOOGLE_CLIENT_SECRET: OAuth client secret
+# - BREVO_API_KEY: API key from brevo.com for sending support form emails

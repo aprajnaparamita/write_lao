@@ -13,6 +13,8 @@ import { cors } from 'hono/cors';
 import { logger } from 'hono/logger';
 import { landingPageHTML, landingPageCSS, landingPageJS, i18nScript } from './landing-page';
 import { translations } from './translations';
+import { testerGuideHTML } from './tester-guide';
+import { testerGuideHTMLThai } from './tester-guide-th';
 import { createAdminRouter } from '../admin/router';
 import {
   DOMAIN,
@@ -33,6 +35,7 @@ type Env = {
   GOOGLE_CLIENT_ID: string;
   GOOGLE_CLIENT_SECRET: string;
   ENVIRONMENT: string;
+  BREVO_API_KEY: string; // Secret: wrangler secret put BREVO_API_KEY
 };
 
 // ── Privacy Policy HTML ──────────────────────────────────────────────
@@ -511,6 +514,43 @@ app.get('/support', (c) => {
   });
 });
 
+// Manual Tester Guide page (with language detection)
+app.get('/tester-guide', (c) => {
+  // Detect language from Accept-Language header
+  const acceptLang = c.req.header('Accept-Language') || '';
+  const isThai = /th(?:-TH|$|,\s*th)/i.test(acceptLang);
+  
+  if (isThai) {
+    return c.html(testerGuideHTMLThai, 200, {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600',
+      'Vary': 'Accept-Language',
+    });
+  }
+  
+  return c.html(testerGuideHTML, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+    'Vary': 'Accept-Language',
+  });
+});
+
+// Thai-specific tester guide route (explicit)
+app.get('/th/tester-guide', (c) => {
+  return c.html(testerGuideHTMLThai, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  });
+});
+
+// English explicit route
+app.get('/en/tester-guide', (c) => {
+  return c.html(testerGuideHTML, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'public, max-age=3600',
+  });
+});
+
 // Donations page
 app.get('/donations', (c) => {
   return c.html(donationsHTML, 200, {
@@ -519,7 +559,7 @@ app.get('/donations', (c) => {
   });
 });
 
-// Support form API — sends bug report email via Mailchannels
+// Support form API — sends bug report email via Resend
 app.post('/api/support', async (c) => {
   try {
     const body = await c.req.json<{
@@ -546,22 +586,26 @@ app.post('/api/support', async (c) => {
       body.description,
     ].join('\n');
 
-    const res = await fetch('https://api.mailchannels.net/tx/v1/send', {
+    const res = await fetch('https://api.brevo.com/v3/smtp/email', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'api-key': c.env.BREVO_API_KEY,
+      },
       body: JSON.stringify({
-        personalizations: [{ to: [{ email: 'help@maitrigroup.co', name: 'Write Lao Support' }] }],
-        from: { email: 'noreply@writelao.xyz', name: 'Write Lao Bug Report' },
-        reply_to: { email: body.email, name: body.name },
+        sender: { name: 'Write Lao Support', email: 'noreply@writelao.xyz' },
+        to: [{ email: 'help@dharmaprotectors.org', name: 'Write Lao Support' }],
+        replyTo: { email: body.email, name: body.name },
         subject: `[Bug Report] from ${body.name} — Write Lao`,
-        content: [{ type: 'text/plain', value: emailBody }],
+        textContent: emailBody,
       }),
     });
 
-    if (res.ok || res.status === 202) {
+    if (res.ok) {
       return c.json({ success: true }, 200);
     }
-    console.error('Mailchannels error:', res.status, await res.text());
+    const errText = await res.text();
+    console.error('Brevo error:', res.status, errText);
     return c.json({ error: 'Email delivery failed' }, 500);
   } catch (err) {
     console.error('Support form error:', err);
@@ -592,6 +636,137 @@ app.notFound((c) => {
   </main>
 </body>
 </html>`, 404);
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// VIDEO UPLOAD API — Tester Guide
+// ═══════════════════════════════════════════════════════════════════════════
+
+// Video upload endpoint (multipart form data)
+app.post('/api/tester/video', async (c) => {
+  try {
+    const formData = await c.req.formData();
+    const video = formData.get('video') as File | null;
+    const section = formData.get('section') as string | null;
+    const deviceModel = formData.get('deviceModel') as string | null;
+    const osVersion = formData.get('osVersion') as string | null;
+    const appVersion = formData.get('appVersion') as string | null;
+    const testerName = formData.get('testerName') as string | null;
+
+    if (!video || !section) {
+      return c.json({ error: 'Missing video or section' }, 400);
+    }
+
+    // Generate unique filename
+    const timestamp = Date.now();
+    const sanitizedModel = (deviceModel || 'unknown').replace(/[^a-zA-Z0-9 ]/g, '').replace(/\s+/g, '_');
+    const filename = `${timestamp}_${sanitizedModel}_${section}.mp4`;
+
+    // Store in R2 bucket
+    const r2Key = `tester-videos/${filename}`;
+    await c.env.COURSE_DATA.put(r2Key, video, {
+      httpMetadata: {
+        contentType: video.type || 'video/mp4',
+      },
+      customMetadata: {
+        section,
+        deviceModel: deviceModel || 'Unknown',
+        osVersion: osVersion || 'Unknown',
+        appVersion: appVersion || 'Unknown',
+        testerName: testerName || 'Anonymous',
+        uploadedAt: new Date().toISOString(),
+      },
+    });
+
+    // Store metadata in D1
+    const db = c.env.DB;
+    await db.prepare(`
+      INSERT INTO tester_submissions (filename, section, device_model, os_version, app_version, tester_name, uploaded_at)
+      VALUES (?, ?, ?, ?, ?, ?, datetime('now'))
+    `).bind(r2Key, section, deviceModel || 'Unknown', osVersion || 'Unknown', appVersion || 'Unknown', testerName || 'Anonymous').run();
+
+    return c.json({ success: true, filename: r2Key }, 200);
+  } catch (err) {
+    console.error('Video upload error:', err);
+    return c.json({ error: 'Upload failed' }, 500);
+  }
+});
+
+// Get all tester submissions (for admin)
+app.get('/api/tester/submissions', async (c) => {
+  try {
+    const db = c.env.DB;
+    const results = await db.prepare(`
+      SELECT id, filename, section, device_model, os_version, app_version, tester_name, uploaded_at
+      FROM tester_submissions
+      ORDER BY uploaded_at DESC
+    `).all();
+
+    return c.json({ submissions: results.results }, 200);
+  } catch (err) {
+    console.error('Submissions fetch error:', err);
+    return c.json({ error: 'Failed to fetch submissions' }, 500);
+  }
+});
+
+// Get submissions grouped by device
+app.get('/api/tester/devices', async (c) => {
+  try {
+    const db = c.env.DB;
+    const results = await db.prepare(`
+      SELECT DISTINCT device_model, os_version, app_version
+      FROM tester_submissions
+      ORDER BY device_model, os_version
+    `).all();
+
+    return c.json({ devices: results.results }, 200);
+  } catch (err) {
+    console.error('Devices fetch error:', err);
+    return c.json({ error: 'Failed to fetch devices' }, 500);
+  }
+});
+
+// Get video file from R2
+app.get('/api/tester/video/:key', async (c) => {
+  try {
+    const key = c.req.param('key');
+    const video = await c.env.COURSE_DATA.get(key);
+    
+    if (!video) {
+      return c.json({ error: 'Video not found' }, 404);
+    }
+
+    return c.body(video.body, 200, {
+      'Content-Type': video.httpMetadata?.contentType || 'video/mp4',
+      'Content-Disposition': `inline; filename="${key.split('/').pop()}"`,
+    });
+  } catch (err) {
+    console.error('Video fetch error:', err);
+    return c.json({ error: 'Failed to fetch video' }, 500);
+  }
+});
+
+// Delete a submission
+app.delete('/api/tester/submission/:id', async (c) => {
+  try {
+    const id = c.req.param('id');
+    const db = c.env.DB;
+    
+    // Get the filename first
+    const result = await db.prepare('SELECT filename FROM tester_submissions WHERE id = ?').bind(id).first();
+    if (result && result.filename) {
+      // Delete from R2
+      await c.env.COURSE_DATA.delete(result.filename as string);
+    }
+    
+    // Delete from D1
+    await db.prepare('DELETE FROM tester_submissions WHERE id = ?').bind(id).run();
+    
+    return c.json({ success: true }, 200);
+  } catch (err) {
+    console.error('Delete error:', err);
+    return c.json({ error: 'Failed to delete' }, 500);
+  }
 });
 
 export default app;
