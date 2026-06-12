@@ -146,20 +146,21 @@ class _LessonDetailScreenState extends ConsumerState<LessonDetailScreen> {
                     if (_loadingStrokes)
                       const CircularProgressIndicator()
                     else
-                      Wrap(
-                        spacing: 12,
-                        runSpacing: 12,
-                        alignment: WrapAlignment.center,
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: characters.map((char) {
                           final strokeCount =
                               _strokeCounts[char.codepoint] ?? 0;
                           final charProgress = progressRepo
                               .getCharacterProgress(char.codepoint);
                           final isPracticed = charProgress.practiceCount > 0;
-                          return _CharacterBadgeWithInfo(
-                            char: char.displayChar,
-                            strokeCount: strokeCount,
-                            isPracticed: isPracticed,
+                          return Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
+                            child: _CharacterBadgeWithInfo(
+                              char: char.displayChar,
+                              strokeCount: strokeCount,
+                              isPracticed: isPracticed,
+                            ),
                           );
                         }).toList(),
                       ),

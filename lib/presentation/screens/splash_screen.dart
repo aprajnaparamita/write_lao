@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
 
 class SplashScreen extends StatefulWidget {
   final VoidCallback onComplete;
@@ -56,12 +54,12 @@ class _SplashScreenState extends State<SplashScreen>
     super.dispose();
   }
 
+  static const _bgColor = Color(0xFF3A0095);
+
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-
     return Scaffold(
-      backgroundColor: AppTheme.primary,
+      backgroundColor: _bgColor,
       body: Center(
         child: AnimatedBuilder(
           animation: _controller,
@@ -73,58 +71,12 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      width: 120,
-                      height: 120,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(24),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withValues(alpha: 0.2),
-                            blurRadius: 20,
-                            offset: const Offset(0, 10),
-                          ),
-                        ],
-                      ),
-                      child: const Center(
-                        child: Text(
-                          '\u0E81',
-                          style: TextStyle(
-                            fontFamily: 'Noto Lao',
-                            fontSize: 72,
-                            color: AppTheme.primary,
-                          ),
-                        ),
-                      ),
+                    Image.asset(
+                      'assets_originals/splash_screen.png',
+                      width: 200,
+                      height: 200,
                     ),
-
-                    const SizedBox(height: 32),
-
-                    Text(
-                      l10n.splashTitle,
-                      style: const TextStyle(
-                        fontFamily: 'Inter',
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        letterSpacing: 4,
-                      ),
-                    ),
-
-                    const SizedBox(height: 8),
-
-                    Text(
-                      l10n.splashSubtitle,
-                      style: const TextStyle(
-                        fontFamily: 'Noto Lao',
-                        fontSize: 24,
-                        color: Colors.white70,
-                      ),
-                    ),
-
                     const SizedBox(height: 48),
-
                     const SizedBox(
                       width: 24,
                       height: 24,

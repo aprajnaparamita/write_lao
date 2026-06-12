@@ -115,6 +115,13 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
     final state = ref.read(practiceControllerProvider);
     ref.read(practiceControllerProvider.notifier).onCharacterComplete();
 
+    // Record practice so Weak Characters and progress tracking work.
+    if (state.currentCharacter != null) {
+      ref
+          .read(progressRepositoryProvider)
+          .recordPractice(state.currentCharacter!.codepoint);
+    }
+
     if (state.isLastCharacter) {
       final characters = state.currentLesson != null
           ? ref

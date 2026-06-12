@@ -347,18 +347,16 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
 
   Widget _buildCharacterGrid(List<LaoCharacter> characters) {
     if (characters.isEmpty) return const SizedBox.shrink();
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        crossAxisSpacing: 12,
-        mainAxisSpacing: 12,
-        childAspectRatio: 1.0,
-      ),
-      itemCount: characters.length,
-      itemBuilder: (context, i) =>
-          CharacterResultCard(character: characters[i]),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: characters.map((c) {
+        return Expanded(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 6),
+            child: CharacterResultCard(character: c),
+          ),
+        );
+      }).toList(),
     );
   }
 

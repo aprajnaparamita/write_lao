@@ -59,6 +59,7 @@ flutter:
     - assets/vocab/
     - assets/vocab/images/
     - assets/vocab/audio/
+    - assets_originals/
 
 flutter_launcher_icons:
   android: true
