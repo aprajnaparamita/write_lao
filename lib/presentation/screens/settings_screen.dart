@@ -1,10 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:write_it_lao/config/app_info.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
@@ -200,9 +202,32 @@ class SettingsScreen extends ConsumerWidget {
               child: ListTile(
                 leading: const Icon(Icons.info_outline),
                 title: Text(l10n.aboutWriteLao),
-                subtitle: Text(l10n.aboutVersionAuthor),
+                subtitle: Text(l10n.aboutAuthor),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => context.push('/about'),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 8),
+
+          // ── Version (read directly from pubspec via package_info_plus) ───
+          // Tapping copies the full "version (build)" string to the clipboard
+          // so users/support can grab it without typing it out.
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: ListTile(
+                leading: const Icon(Icons.tag),
+                title: const Text('Version'),
+                subtitle: Text(
+                  formatAppVersion(ref.watch(appInfoProvider)),
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: AppTheme.textSecondary,
+                      ),
+                ),
+                trailing: const Icon(Icons.copy_outlined, size: 18),
+                onTap: () => _copyVersionToClipboard(context, ref),
               ),
             ),
           ),
@@ -490,6 +515,24 @@ class SettingsScreen extends ConsumerWidget {
             child: Text(l10n.reset),
           ),
         ],
+      ),
+    );
+  }
+
+  /// Copies the live version + build number to the system clipboard and
+  /// confirms with a snackbar. Used by the Version card in Settings.
+  void _copyVersionToClipboard(BuildContext context, WidgetRef ref) {
+    final appInfo = ref.read(appInfoProvider);
+    final text = formatAppVersion(appInfo);
+    // While PackageInfo is still loading, the helper returns "…", so don't
+    // clobber the clipboard with a useless ellipsis.
+    if (text == '…') return;
+    Clipboard.setData(ClipboardData(text: text));
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Copied $text'),
+        behavior: SnackBarBehavior.floating,
+        duration: const Duration(seconds: 2),
       ),
     );
   }

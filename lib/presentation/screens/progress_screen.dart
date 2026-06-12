@@ -36,6 +36,13 @@ class ProgressScreen extends ConsumerWidget {
         title: Text(l10n.progressTitle),
         centerTitle: true,
         automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings, color: Colors.white),
+            tooltip: l10n.settingsTitle,
+            onPressed: () => context.push('/settings'),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),

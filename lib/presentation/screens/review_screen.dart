@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/widgets/main_bottom_nav.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
@@ -21,6 +22,13 @@ class ReviewScreen extends ConsumerWidget {
         title: Text(l10n.reviewTitle),
         centerTitle: true,
         automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings, color: Colors.white),
+            tooltip: l10n.settingsTitle,
+            onPressed: () => context.push('/settings'),
+          ),
+        ],
       ),
       body: const _VocabTab(),
     );

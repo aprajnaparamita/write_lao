@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:write_it_lao/config/app_info.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 
-class AboutScreen extends StatelessWidget {
+class AboutScreen extends ConsumerWidget {
   const AboutScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
+    final appInfo = ref.watch(appInfoProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -51,7 +54,7 @@ class AboutScreen extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             Text(
-              l10n.aboutVersion,
+              formatAppVersion(appInfo),
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     color: Colors.grey[600],
                   ),
