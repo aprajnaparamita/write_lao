@@ -294,8 +294,12 @@ class AppLocalizationsPt extends AppLocalizations {
   String get aboutCopyright => 'Copyright © 2026';
 
   @override
+  String get aboutStory =>
+      'Depois de mais de vinte anos como engenheira de software, descobri que queria aprender lao — especificamente, ler e escrever a bela escrita lao. Procurei um aplicativo que me ensinasse os caracteres traço a traço, como se aprende a escrever em sala de aula. Não encontrei nenhum.\n\nEscrever Lao guia você por cada consoante, vogal e marca tonal do alfabeto lao. Cada caractere é decomposto em traços individuais com a ordem e direção corretas. Você traça cada traço na tela, e o aplicativo diz se você acertou — sem adivinhações, sem cartões de memória, apenas prática.\n\nEspero que este aplicativo ajude você em sua própria jornada com o idioma lao. Boa escrita!';
 
   @override
+  String get aboutDedication =>
+      'Dedicado com amor à preservação da língua e cultura lao.';
 
   @override
   String get done => 'Concluído';

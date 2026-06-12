@@ -667,6 +667,18 @@ abstract class AppLocalizations {
   /// **'Copyright © 2026'**
   String get aboutCopyright;
 
+  /// No description provided for @aboutStory.
+  ///
+  /// In en, this message translates to:
+  /// **'After more than twenty years as a software engineer, I found myself wanting to learn Lao — specifically, how to read and write the beautiful Lao script. I went looking for an app that would teach me the characters stroke by stroke, the way you might learn to write them in a classroom. I couldn\'t find one.\n\nWrite Lao guides you through every consonant, vowel, and tone mark in the Lao alphabet. Each character is broken down into individual strokes with the correct order and direction. You trace each stroke on screen, and the app tells you whether you got it right — no guessing, no flashcards, just practice.\n\nI hope this app helps you on your own journey with the Lao language. Happy writing!'**
+  String get aboutStory;
+
+  /// No description provided for @aboutDedication.
+  ///
+  /// In en, this message translates to:
+  /// **'Lovingly dedicated to the preservation of Lao language and culture.'**
+  String get aboutDedication;
+
   /// No description provided for @done.
   ///
   /// In en, this message translates to:

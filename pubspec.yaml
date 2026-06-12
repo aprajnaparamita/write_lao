@@ -29,6 +29,7 @@ dependencies:
   sentry_flutter: ^8.14.2
   in_app_purchase: ^3.2.0
   url_launcher: ^6.3.2
+  in_app_review: ^2.0.12
 
 dev_dependencies:
   flutter_test:

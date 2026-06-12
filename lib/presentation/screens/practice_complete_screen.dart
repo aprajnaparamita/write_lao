@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:in_app_review/in_app_review.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/presentation/widgets/result_screen_widgets.dart';
+import 'package:write_it_lao/vocab/data/repositories/vocab_preferences_repository.dart';
+import 'package:write_it_lao/vocab/providers.dart';
 
 class PracticeCompleteScreen extends ConsumerStatefulWidget {
   final String lessonId;
@@ -44,6 +48,157 @@ class _PracticeCompleteScreenState extends ConsumerState<PracticeCompleteScreen>
       ),
     );
     _controller.forward();
+
+    // Increment the character-session counter and check if any prompt
+    // (vocab upsell or rating) should be shown.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final prefs = ref.read(vocabPreferencesRepositoryRawProvider);
+      prefs.incrementCharSessions();
+      _checkPrompts(prefs);
+    });
+  }
+
+  void _checkPrompts(VocabPreferencesRepository prefs) {
+    if (!mounted) return;
+    final progress =
+        ref.read(userVocabProgressRepositoryProvider).getOrCreate();
+    final count = prefs.charSessionCount;
+
+    // ── Step 1: Vocab upsell (threshold 3, only if not purchased) ─────
+    if (!progress.iapUnlocked &&
+        !prefs.vocabUpsellDismissed &&
+        count >= charSessionUpsellThreshold) {
+      prefs.dismissVocabUpsell();
+      _showVocabUpsell();
+      return;
+    }
+
+    // ── Step 2: Rating prompt (threshold 5) ────────────────────────────
+    if (!prefs.ratingPromptDismissed && count >= ratingPromptThreshold) {
+      prefs.dismissRatingPrompt();
+      _showRatingPrompt();
+    }
+  }
+
+  void _showVocabUpsell() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Row(
+          children: [
+            Icon(Icons.menu_book_rounded, color: AppTheme.primary),
+            SizedBox(width: 10),
+            Expanded(child: Text('500 Lao Words')),
+          ],
+        ),
+        content: const Text(
+          'Ready to go further? Unlock 500 vocabulary words with '
+          'stroke-by-stroke writing practice, spaced repetition, and '
+          'a one‑time purchase.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Maybe Later'),
+          ),
+          FilledButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              context.push('/vocab/upsell');
+            },
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+            child: const Text('See Details'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showRatingPrompt() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Text('Enjoying Write Lao?'),
+        content: const Text(
+          'If you\'re enjoying the app, would you like to leave a review? '
+          'It helps others discover Write Lao.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              _showFeedbackPrompt();
+            },
+            child: const Text('No'),
+          ),
+          FilledButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              InAppReview.instance.requestReview();
+            },
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+            child: const Text('Yes'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showFeedbackPrompt() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Row(
+          children: [
+            Icon(Icons.feedback_outlined, color: AppTheme.primary),
+            SizedBox(width: 10),
+            Expanded(child: Text('We value your opinion')),
+          ],
+        ),
+        content: const Text(
+          'Tell us how we can improve. We read every message.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Close'),
+          ),
+          FilledButton.icon(
+            onPressed: () {
+              Navigator.of(context).pop();
+              launchUrl(Uri.parse('https://writelao.xyz/support'));
+            },
+            icon: const Icon(Icons.open_in_new, size: 18),
+            label: const Text('Contact Us'),
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   @override

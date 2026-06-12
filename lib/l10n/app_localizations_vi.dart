@@ -292,8 +292,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get aboutCopyright => 'Bản quyền © 2026';
 
   @override
+  String get aboutStory =>
+      'Sau hơn hai mươi năm làm kỹ sư phần mềm, tôi thấy mình muốn học tiếng Lào — đặc biệt là cách đọc và viết chữ Lào tuyệt đẹp. Tôi tìm kiếm một ứng dụng có thể dạy tôi viết từng ký tự theo từng nét, giống như cách học viết trong lớp học. Tôi không tìm thấy ứng dụng nào như vậy.\n\nViết Lào hướng dẫn bạn qua từng phụ âm, nguyên âm và dấu thanh trong bảng chữ cái Lào. Mỗi ký tự được chia thành các nét riêng lẻ với thứ tự và hướng chính xác. Bạn tô từng nét trên màn hình, và ứng dụng cho bạn biết bạn viết đúng hay sai — không cần đoán, không dùng thẻ ghi nhớ, chỉ luyện tập.\n\nTôi hy vọng ứng dụng này sẽ giúp bạn trên hành trình học tiếng Lào. Chúc bạn viết vui vẻ!';
 
   @override
+  String get aboutDedication =>
+      'Tận tâm dành riêng cho việc bảo tồn ngôn ngữ và văn hóa Lào.';
 
   @override
   String get done => 'Xong';

@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:in_app_review/in_app_review.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:write_it_lao/config/theme.dart';
@@ -9,6 +10,7 @@ import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
 import 'package:write_it_lao/vocab/domain/vocab_config.dart';
 import 'package:write_it_lao/vocab/presentation/screens/vocab_settings_section.dart';
+import 'package:write_it_lao/vocab/providers.dart';
 
 /// Settings state provider
 class SettingsState {
@@ -248,6 +250,24 @@ class SettingsScreen extends ConsumerWidget {
                           'Fires a real exception to verify the DSN is wired up.'),
                       onTap: () => _sendTestSentryError(context),
                     ),
+                    const Divider(height: 1, indent: 16, endIndent: 16),
+                    ListTile(
+                      leading: Icon(Icons.menu_book_rounded,
+                          color: Colors.orange.shade700),
+                      title: const Text('Test: Vocab Upsell dialog'),
+                      subtitle: const Text('Shows the 500-word upsell popup.'),
+                      onTap: () =>
+                          _showDebugVocabUpsell(context, ref),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.star_border_rounded,
+                          color: Colors.orange.shade700),
+                      title: const Text('Test: Rating prompt'),
+                      subtitle:
+                          const Text('Shows the "Enjoying Write Lao?" flow.'),
+                      onTap: () =>
+                          _showDebugRatingPrompt(context, ref),
+                    ),
                   ],
                 ),
               ),
@@ -310,6 +330,134 @@ class SettingsScreen extends ConsumerWidget {
         ),
       );
     }
+  }
+
+  // ── Debug prompt testers ──────────────────────────────────────────────────
+
+  void _showDebugVocabUpsell(BuildContext context, WidgetRef ref) {
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Row(
+          children: [
+            Icon(Icons.menu_book_rounded, color: AppTheme.primary),
+            SizedBox(width: 10),
+            Expanded(child: Text('500 Lao Words')),
+          ],
+        ),
+        content: const Text(
+          'Ready to go further? Unlock 500 vocabulary words with '
+          'stroke-by-stroke writing practice, spaced repetition, and '
+          'a one‑time purchase.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Maybe Later'),
+          ),
+          FilledButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              if (ref.read(userVocabProgressRepositoryProvider)
+                  .getOrCreate()
+                  .iapUnlocked) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('IAP already unlocked — no-op.'),
+                    behavior: SnackBarBehavior.floating,
+                  ),
+                );
+                return;
+              }
+              context.push('/vocab/upsell');
+            },
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+            ),
+            child: const Text('See Details'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showDebugRatingPrompt(BuildContext context, WidgetRef ref) {
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Text('Enjoying Write Lao?'),
+        content: const Text(
+          'If you\'re enjoying the app, would you like to leave a review? '
+          'It helps others discover Write Lao.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              _showDebugFeedbackPrompt(context);
+            },
+            child: const Text('No'),
+          ),
+          FilledButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              InAppReview.instance.requestReview();
+            },
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+            ),
+            child: const Text('Yes'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showDebugFeedbackPrompt(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Row(
+          children: [
+            Icon(Icons.feedback_outlined, color: AppTheme.primary),
+            SizedBox(width: 10),
+            Expanded(child: Text('We value your opinion')),
+          ],
+        ),
+        content: const Text(
+          'Tell us how we can improve. We read every message.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Close'),
+          ),
+          FilledButton.icon(
+            onPressed: () {
+              Navigator.of(context).pop();
+              launchUrl(Uri.parse('https://writelao.xyz/support'));
+            },
+            icon: const Icon(Icons.open_in_new, size: 18),
+            label: const Text('Contact Us'),
+            style: FilledButton.styleFrom(
+              backgroundColor: AppTheme.primary,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   void _showResetConfirmation(BuildContext context, WidgetRef ref) {
