@@ -290,12 +290,8 @@ class AppLocalizationsZh extends AppLocalizations {
   String get aboutCopyright => '版权所有 © 2026';
 
   @override
-  String get aboutStory =>
-      '在从事软件工程师工作二十余年后，我发现自己想要学习老挝语——特别是学习阅读和书写优美的老挝文字。我寻找一款能够逐笔教我书写字符的应用，就像在课堂上学习书写一样，但始终未能找到。\n\n写老挝文 将引导你学习老挝字母表中的每一个辅音、元音和声调符号。每个字符都被分解为单独的笔画，并按正确的顺序和方向排列。你在屏幕上描摹每一笔，应用会告诉你是否正确——无需猜测，没有闪卡，只有练习。\n\n希望这款应用能帮助你踏上学习老挝语的旅程。祝你书写愉快！';
 
   @override
-  String get aboutDedication => '深情地献给老挝语言和文化的传承与保护。';
-
   @override
   String get done => '完成';
 
@@ -592,12 +588,8 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get aboutCopyright => '版權所有 © 2026';
 
   @override
-  String get aboutStory =>
-      '在從事軟體工程師工作二十餘年後，我發現自己想要學習老撾語——特別是學習閱讀和書寫優美的老撾文字。我尋找一款能夠逐筆教我書寫字符的應用，就像在課堂上學習書寫一樣，但始終未能找到。\n\n寫老撾文 將引導你學習老撾字母表中的每一個輔音、元音和聲調符號。每個字符都被分解為單獨的筆畫，並按正確的順序和方向排列。你在螢幕上描摹每一筆，應用會告訴你是否正確——無需猜測，沒有閃卡，只有練習。\n\n希望這款應用能幫助你踏上學習老撾語的旅程。祝你書寫愉快！';
 
   @override
-  String get aboutDedication => '深情地獻給老撾語言和文化的傳承與保護。';
-
   @override
   String get done => '完成';
 

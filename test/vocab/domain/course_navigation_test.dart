@@ -175,14 +175,26 @@ void main() {
       expect(nav.totalLessonCount('u_01'), 2);
     });
 
-    test('isCourseComplete is true when currentLessonId is null', () {
+    test('isCourseComplete is true when course is finished '
+        '(currentLessonId null and lessonsCompleted > 0)', () {
       final nav = CourseNavigation(
         course: course,
-        progress: _progress(),
+        progress: _progress().copyWith(lessonsCompleted: 3),
       );
       expect(nav.isCourseComplete, isTrue);
       expect(nav.isLessonComplete('l_01_01'), isTrue);
       expect(nav.isUnitComplete('u_01'), isTrue);
+    });
+
+    test('isCourseComplete is false for a fresh user '
+        '(currentLessonId null, lessonsCompleted 0)', () {
+      final nav = CourseNavigation(
+        course: course,
+        progress: _progress(),
+      );
+      expect(nav.isCourseComplete, isFalse);
+      expect(nav.isLessonComplete('l_01_01'), isFalse);
+      expect(nav.isUnitComplete('u_01'), isFalse);
     });
 
     test('isCurrentLesson identifies the next-up lesson', () {

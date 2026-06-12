@@ -54,6 +54,17 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
     Future.delayed(const Duration(milliseconds: 500), () {
       if (mounted) _fadeController.forward();
     });
+
+    // Play star-earned sounds after the first frame so the provider is
+    // available (the widget is a ConsumerState).
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final stars =
+          ref.read(testControllerProvider).earnedStars ?? 0;
+      if (stars > 0) {
+        ref.read(audioPlayerServiceProvider).playStarSequence(stars);
+      }
+    });
   }
 
   @override
@@ -214,8 +225,8 @@ class _TestResultScreenState extends ConsumerState<TestResultScreen>
         mainAxisSize: MainAxisSize.min,
         children: [
           ResultOutlinedButton(
-            label: l10n.practiceAgain.toUpperCase(),
-            onPressed: () => context.go('/practice/${widget.lessonId}'),
+            label: l10n.testAgain.toUpperCase(),
+            onPressed: () => context.go('/test/${widget.lessonId}'),
           ),
           const SizedBox(height: 10),
           ResultFilledButton(

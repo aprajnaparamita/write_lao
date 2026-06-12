@@ -7,7 +7,12 @@ class AudioPlayerService {
   final AudioPlayer _pronunciationPlayer = AudioPlayer();
   
   bool _isEnabled = true;
-  
+
+  /// SFX volume (0.0 – 1.0).  Applied before every play call because
+  /// setting it once in the constructor can race against the underlying
+  /// platform player initialisation.
+  static const double _sfxVolume = 0.25;
+
   bool get isEnabled => _isEnabled;
   
   /// Set whether audio is enabled.
@@ -28,49 +33,26 @@ class AudioPlayerService {
     }
   }
 
-  /// Play correct stroke sound effect.
-  Future<void> playCorrectSound() async {
+  Future<void> _playSfx(String assetPath) async {
     if (!_isEnabled) return;
-    
     try {
-      await _sfxPlayer.play(AssetSource('audio/sfx/correct.mp3'));
+      await _sfxPlayer.play(AssetSource(assetPath), volume: _sfxVolume);
     } catch (e) {
-      debugPrint('Correct sound error: $e');
+      debugPrint('SFX error ($assetPath): $e');
     }
   }
+
+  /// Play correct stroke sound effect.
+  Future<void> playCorrectSound() => _playSfx('audio/sfx/correct.mp3');
 
   /// Play incorrect stroke sound effect.
-  Future<void> playIncorrectSound() async {
-    if (!_isEnabled) return;
-    
-    try {
-      await _sfxPlayer.play(AssetSource('audio/sfx/incorrect.mp3'));
-    } catch (e) {
-      debugPrint('Incorrect sound error: $e');
-    }
-  }
+  Future<void> playIncorrectSound() => _playSfx('audio/sfx/incorrect.mp3');
 
   /// Play all strokes complete sound effect.
-  Future<void> playCompleteSound() async {
-    if (!_isEnabled) return;
-    
-    try {
-      await _sfxPlayer.play(AssetSource('audio/sfx/complete.mp3'));
-    } catch (e) {
-      debugPrint('Complete sound error: $e');
-    }
-  }
+  Future<void> playCompleteSound() => _playSfx('audio/sfx/complete.mp3');
 
   /// Play star earned sound effect.
-  Future<void> playStarSound() async {
-    if (!_isEnabled) return;
-    
-    try {
-      await _sfxPlayer.play(AssetSource('audio/sfx/star.mp3'));
-    } catch (e) {
-      debugPrint('Star sound error: $e');
-    }
-  }
+  Future<void> playStarSound() => _playSfx('audio/sfx/star.mp3');
 
   /// Play a sequence of stars (for test results).
   Future<void> playStarSequence(int count) async {

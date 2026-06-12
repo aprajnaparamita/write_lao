@@ -15,8 +15,14 @@ class CourseNavigation {
 
   CourseNavigation({required this.course, required this.progress});
 
-  /// True if the course has been fully walked (no `currentLessonId`).
-  bool get isCourseComplete => progress.currentLessonId == null;
+  /// True if the course has been fully walked — i.e. every lesson has been
+  /// completed and there is no next lesson to do.
+  ///
+  /// A fresh user who hasn't started yet also has a null [currentLessonId],
+  /// so we additionally require [lessonsCompleted] > 0 to distinguish
+  /// "never started" from "finished everything".
+  bool get isCourseComplete =>
+      progress.currentLessonId == null && progress.lessonsCompleted > 0;
 
   int? _canonicalLessonIndex(String? lessonId) {
     if (lessonId == null) return null;

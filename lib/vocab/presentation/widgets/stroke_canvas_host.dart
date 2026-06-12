@@ -6,6 +6,7 @@ import 'package:write_it_lao/data/models/stroke_data.dart';
 import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
 import 'package:write_it_lao/presentation/controllers/canvas_controller.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_it_lao/presentation/screens/settings_screen.dart';
 import 'package:write_it_lao/presentation/widgets/writing_canvas.dart';
 import 'package:write_it_lao/vocab/domain/card_mode.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
@@ -84,9 +85,16 @@ class _RealStrokeCanvasHostState extends ConsumerState<RealStrokeCanvasHost> {
 
   @override
   Widget build(BuildContext context) {
+    // Read the current stroke-tolerance setting so the vocab cards also
+    // respect the user's difficulty preference.
+    final tolerance = ref.watch(
+      settingsControllerProvider.select((s) => s.strokeTolerance),
+    );
     return ProviderScope(
       overrides: [
-        canvasControllerProvider.overrideWith((_) => CanvasController()),
+        canvasControllerProvider.overrideWith(
+          (_) => CanvasController(similarityThreshold: tolerance),
+        ),
       ],
       child: LayoutBuilder(
         builder: (context, constraints) {

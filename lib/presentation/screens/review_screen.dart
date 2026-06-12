@@ -254,6 +254,7 @@ class _CharactersTabState extends ConsumerState<_CharactersTab> {
     final progressRepo = ref.read(progressRepositoryProvider);
     final weakCharacters = progressRepo.getWeakCharacters(limit: 20);
     setState(() {
+      _selectedPhase = 0; // show all phases so weak chars are visible
       _selectedCharacters.clear();
       _selectedCharacters.addAll(weakCharacters.map((c) => c.codepoint));
     });
@@ -270,6 +271,7 @@ class _CharactersTabState extends ConsumerState<_CharactersTab> {
       }
     }
     setState(() {
+      _selectedPhase = 0; // show all phases
       _selectedCharacters.clear();
       _selectedCharacters.addAll(completedCodepoints);
     });

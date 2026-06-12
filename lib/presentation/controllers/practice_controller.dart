@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:write_it_lao/audio/audio_player_service.dart';
+import 'package:write_it_lao/audio/haptic_service.dart';
 import 'package:write_it_lao/data/datasources/character_stroke_datasource.dart';
 import 'package:write_it_lao/data/datasources/progress_local_datasource.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
@@ -9,6 +10,7 @@ import 'package:write_it_lao/data/models/stroke_data.dart';
 import 'package:write_it_lao/data/models/user_progress.dart';
 import 'package:write_it_lao/data/repositories/character_repository.dart';
 import 'package:write_it_lao/data/repositories/progress_repository.dart';
+import 'package:write_it_lao/presentation/screens/settings_screen.dart';
 
 class PracticeState {
   final Lesson? currentLesson;
@@ -228,7 +230,30 @@ final characterStrokeDataSourceProvider = Provider<CharacterStrokeDataSource>((r
 
 final audioPlayerServiceProvider = Provider<AudioPlayerService>((ref) {
   final service = AudioPlayerService();
+
+  // Keep the service in sync with the user's sound-enabled preference.
+  ref.listen(
+    settingsControllerProvider.select((s) => s.soundEnabled),
+    (_, enabled) => service.setEnabled(enabled),
+  );
+  // Initial value (ref.read avoids recreating the service when settings change).
+  service.setEnabled(ref.read(settingsControllerProvider).soundEnabled);
+
   ref.onDispose(() => service.dispose());
+  return service;
+});
+
+final hapticServiceProvider = Provider<HapticService>((ref) {
+  final service = HapticService();
+
+  // Keep the service in sync with the user's haptic-enabled preference.
+  ref.listen(
+    settingsControllerProvider.select((s) => s.hapticEnabled),
+    (_, enabled) => service.setEnabled(enabled),
+  );
+  // Initial value.
+  service.setEnabled(ref.read(settingsControllerProvider).hapticEnabled);
+
   return service;
 });
 

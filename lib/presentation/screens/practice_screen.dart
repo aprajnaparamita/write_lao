@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:write_it_lao/data/models/lao_character.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
+import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/canvas_controller.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
@@ -299,6 +300,18 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
 
   // ── Canvas ─────────────────────────────────────────────────────────────────
 
+  void _onStrokeEvaluated(StrokeEvaluation result) {
+    final audio = ref.read(audioPlayerServiceProvider);
+    final haptic = ref.read(hapticServiceProvider);
+    if (result.result == StrokeMatchResult.correct) {
+      audio.playCorrectSound();
+      haptic.onStrokeCorrect();
+    } else {
+      audio.playIncorrectSound();
+      haptic.onStrokeIncorrect();
+    }
+  }
+
   Widget _buildCanvas(PracticeState state) {
     final character = state.currentCharacter;
     if (character == null) {
@@ -308,7 +321,7 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       strokeData: _currentStrokeData,
       mode: _showHint ? CanvasMode.practice : CanvasMode.test,
       onCharacterComplete: _onCharacterComplete,
-      onStrokeEvaluated: (_) {},
+      onStrokeEvaluated: _onStrokeEvaluated,
     );
   }
 

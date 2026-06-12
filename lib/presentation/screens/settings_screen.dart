@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:write_it_lao/config/theme.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
@@ -16,7 +17,7 @@ class SettingsState {
   final bool hapticEnabled;
 
   const SettingsState({
-    this.strokeTolerance = 0.70,
+    this.strokeTolerance = 0.75,
     this.soundEnabled = true,
     this.hapticEnabled = true,
   });
@@ -98,8 +99,8 @@ class SettingsScreen extends ConsumerWidget {
                         Expanded(
                           child: Slider(
                             value: settings.strokeTolerance,
-                            min: 0.55,
-                            max: 0.85,
+                            min: 0.65,
+                            max: 0.95,
                             divisions: 6,
                             label: _getToleranceLabel(l10n, settings.strokeTolerance),
                             onChanged: (value) {
@@ -158,6 +159,21 @@ class SettingsScreen extends ConsumerWidget {
           ),
 
           const SizedBox(height: 24),
+
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: ListTile(
+                leading: const Icon(Icons.mail_outline),
+                title: const Text('Contact Us'),
+                subtitle: const Text('Support & feedback'),
+                trailing: const Icon(Icons.open_in_new, size: 18),
+                onTap: () => launchUrl(Uri.parse('https://writelao.xyz/support')),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 8),
 
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -245,20 +261,20 @@ class SettingsScreen extends ConsumerWidget {
   }
 
   String _getToleranceLabel(AppLocalizations l10n, double value) {
-    if (value <= 0.60) return l10n.toleranceVeryEasy;
-    if (value <= 0.65) return l10n.toleranceEasy;
-    if (value <= 0.70) return l10n.toleranceMedium;
-    if (value <= 0.75) return l10n.toleranceHard;
-    if (value <= 0.80) return l10n.toleranceVeryHard;
+    if (value <= 0.70) return l10n.toleranceVeryEasy;
+    if (value <= 0.75) return l10n.toleranceEasy;
+    if (value <= 0.80) return l10n.toleranceMedium;
+    if (value <= 0.85) return l10n.toleranceHard;
+    if (value <= 0.90) return l10n.toleranceVeryHard;
     return l10n.toleranceExtreme;
   }
 
   String _getToleranceDescription(AppLocalizations l10n, double value) {
-    if (value <= 0.60) return l10n.toleranceDescVeryEasy;
-    if (value <= 0.65) return l10n.toleranceDescEasy;
-    if (value <= 0.70) return l10n.toleranceDescMedium;
-    if (value <= 0.75) return l10n.toleranceDescHard;
-    if (value <= 0.80) return l10n.toleranceDescVeryHard;
+    if (value <= 0.70) return l10n.toleranceDescVeryEasy;
+    if (value <= 0.75) return l10n.toleranceDescEasy;
+    if (value <= 0.80) return l10n.toleranceDescMedium;
+    if (value <= 0.85) return l10n.toleranceDescHard;
+    if (value <= 0.90) return l10n.toleranceDescVeryHard;
     return l10n.toleranceDescExtreme;
   }
 

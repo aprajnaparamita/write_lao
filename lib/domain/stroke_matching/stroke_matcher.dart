@@ -9,17 +9,17 @@ import 'point_resampler.dart';
 class StrokeMatcher {
   final PointResampler _resampler = PointResampler();
   final double _canvasSize;
+  double _similarityThreshold;
 
   static const int resamplePointCount = 48;
 
   /// DTW similarity must reach this value to be "correct".
-  /// Raised from 0.50 → 0.75 so that rough/wrong strokes (~0.67) are rejected.
-  static const double similarityThreshold = 0.75;
+  /// Default: 0.75.  Lower = easier, higher = stricter.
+  /// Controlled by the user-facing stroke-tolerance slider in Settings.
+  static const double defaultSimilarityThreshold = 0.75;
 
   static const double distanceToleranceFraction = 0.12;
   static const double minPathLengthFraction = 0.05;
-  static const double directionToleranceDegrees = 90.0;
-  static const double positionToleranceFraction = 0.40;
 
   /// If the reference has significant extent along an axis (> this fraction of
   /// canvas size), the drawn stroke must cover at least [minExtentFraction] of
@@ -27,7 +27,46 @@ class StrokeMatcher {
   static const double significantExtentFraction = 0.08;
   static const double minExtentFraction = 0.20;
 
-  StrokeMatcher({double canvasSize = 512.0}) : _canvasSize = canvasSize;
+  // ── Tolerances that scale with difficulty ─────────────────────────────
+  //
+  // Ranges (similarityThreshold → tolerance):
+  //   Direction:  0.65 → 120°  …  0.95 → 30°
+  //   Position:   0.65 → 50%   …  0.95 → 15% of canvas
+
+  static const _dirEasy   = 120.0;
+  static const _dirHard   =  30.0;
+  static const _dirRange  = _dirEasy - _dirHard; // 90°
+
+  static const _posEasy   = 0.50;
+  static const _posHard   = 0.15;
+  static const _posRange  = _posEasy - _posHard; // 0.35
+
+  /// Map [threshold] (0.65 – 0.95) to a direction tolerance in degrees.
+  /// Easier → higher tolerance (120°); stricter → lower (30°).
+  double get _directionToleranceDegrees {
+    final t = ((_similarityThreshold - 0.65) / 0.30).clamp(0.0, 1.0);
+    return _dirEasy - t * _dirRange;
+  }
+
+  /// Map [threshold] (0.65 – 0.95) to a position-tolerance fraction.
+  /// Easier → 0.50; stricter → 0.15.
+  double get _positionToleranceFraction {
+    final t = ((_similarityThreshold - 0.65) / 0.30).clamp(0.0, 1.0);
+    return _posEasy - t * _posRange;
+  }
+
+  StrokeMatcher({
+    double canvasSize = 512.0,
+    double similarityThreshold = defaultSimilarityThreshold,
+  })  : _canvasSize = canvasSize,
+        _similarityThreshold = similarityThreshold;
+
+  /// Update the similarity threshold at runtime (e.g. when the user changes
+  /// the stroke-tolerance slider in Settings).  This also tightens/loosens
+  /// the direction and position tolerances proportionally.
+  void setSimilarityThreshold(double value) {
+    _similarityThreshold = value;
+  }
 
   /// Compare a user-drawn stroke against the expected reference stroke.
   StrokeEvaluation evaluate(
@@ -89,13 +128,13 @@ class StrokeMatcher {
       directionCorrect = PathUtils.isSameDirection(
         drawnResampled,
         refResampled,
-        toleranceDegrees: directionToleranceDegrees,
+        toleranceDegrees: _directionToleranceDegrees,
       );
       reversedDrawn = drawnResampled.reversed.toList();
       reversedDirectionCorrect = PathUtils.isSameDirection(
         reversedDrawn,
         refResampled,
-        toleranceDegrees: directionToleranceDegrees,
+        toleranceDegrees: _directionToleranceDegrees,
       );
     }
 
@@ -104,7 +143,7 @@ class StrokeMatcher {
     final refCentroid = PathUtils.centroid(refResampled);
     final centroidOffset = PathUtils.distance(drawnCentroid, refCentroid);
     final positionCorrect =
-        centroidOffset <= positionToleranceFraction * _canvasSize;
+        centroidOffset <= _positionToleranceFraction * _canvasSize;
 
     // Step 5: Bounding-box extent check (before normalization, in canvas coords).
     // Prevents a flat horizontal/vertical line from passing a complex curved stroke.
@@ -140,7 +179,7 @@ class StrokeMatcher {
 
     // Step 9: Decision
     StrokeMatchResult result;
-    if (similarity >= similarityThreshold) {
+    if (similarity >= _similarityThreshold) {
       if (!directionCorrect && reversedDirectionCorrect) {
         result = StrokeMatchResult.wrongDirection;
       } else if (!positionCorrect) {
@@ -156,7 +195,7 @@ class StrokeMatcher {
             PathUtils.scaleToFit(PathUtils.centerOnOrigin(reversedDrawn), 1.0);
         final reversedDtwDist = DTW.distance(reversedNorm, refNorm);
         final reversedSimilarity = 1.0 - reversedDtwDist.clamp(0.0, 1.0);
-        if (reversedSimilarity >= similarityThreshold) {
+        if (reversedSimilarity >= _similarityThreshold) {
           result = StrokeMatchResult.wrongDirection;
         } else {
           result = StrokeMatchResult.wrongShape;

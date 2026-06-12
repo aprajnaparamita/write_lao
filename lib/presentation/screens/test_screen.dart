@@ -97,7 +97,14 @@ class _TestScreenState extends ConsumerState<TestScreen> {
   }
 
   void _onStrokeEvaluated(StrokeEvaluation result) {
-    if (result.result != StrokeMatchResult.correct) {
+    final audio = ref.read(audioPlayerServiceProvider);
+    final haptic = ref.read(hapticServiceProvider);
+    if (result.result == StrokeMatchResult.correct) {
+      audio.playCorrectSound();
+      haptic.onStrokeCorrect();
+    } else {
+      audio.playIncorrectSound();
+      haptic.onStrokeIncorrect();
       _hintAttempts++;
       ref.read(testControllerProvider.notifier).onCharacterFailed();
       if (_hintAttempts >= 3) {

@@ -25,7 +25,7 @@ Future<void> main() async {
         ..dsn = SENTRY_DSN.isEmpty ? '' : SENTRY_DSN
         // Release is read from pubspec version at build time by Sentry.
         // Explicitly pass it so it shows correctly in the dashboard.
-        ..release = 'write_it_lao@1.0.0+1'
+        ..release = 'write_it_lao@1.0.1+1'
         // Tag events so you can filter debug vs production in Sentry.
         ..environment = kDebugMode ? 'development' : 'production'
         // Attach a stack-trace to every captured message, not just exceptions.
@@ -49,8 +49,13 @@ Future<void> main() async {
 /// Called for every event before it is sent to Sentry.
 /// Return null to drop the event, return the (optionally mutated) event to send.
 FutureOr<SentryEvent?> _beforeSend(SentryEvent event, Hint hint) {
+  // Allow through events explicitly tagged as debug test buttons so the
+  // "Send test error to Sentry" button in Settings actually works.
+  final isDebugTest = event.tags?['triggered_by'] == 'debug_settings_button';
+
   // Drop events in debug mode — rely on the console instead.
-  if (kDebugMode) return null;
+  // …unless it's the explicit debug test button.
+  if (kDebugMode && !isDebugTest) return null;
 
   // Scrub any breadcrumb data that might contain user-identifiable paths.
   final cleaned = event.copyWith(

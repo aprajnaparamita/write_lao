@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:write_it_lao/l10n/app_localizations.dart';
 
 class AboutScreen extends StatelessWidget {
@@ -68,28 +69,18 @@ class AboutScreen extends StatelessWidget {
                   ),
             ),
 
-            const SizedBox(height: 32),
-
-            Text(
-              l10n.aboutStory,
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    height: 1.6,
-                  ),
-              textAlign: TextAlign.center,
-            ),
-
-            const SizedBox(height: 24),
-
-            Text(
-              l10n.aboutDedication,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Colors.grey[600],
-                    fontStyle: FontStyle.italic,
-                  ),
-              textAlign: TextAlign.center,
-            ),
-
             const SizedBox(height: 40),
+
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () => launchUrl(Uri.parse('https://writelao.xyz/support')),
+                icon: const Icon(Icons.mail_outline),
+                label: const Text('Contact Us'),
+              ),
+            ),
+
+            const SizedBox(height: 16),
 
             SizedBox(
               width: double.infinity,

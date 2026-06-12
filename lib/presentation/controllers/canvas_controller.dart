@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:write_it_lao/data/models/stroke_data.dart';
 import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
 import 'package:write_it_lao/domain/stroke_matching/stroke_matcher.dart';
+import 'package:write_it_lao/presentation/screens/settings_screen.dart';
 
 enum CanvasMode { practice, test }
 
@@ -54,10 +55,11 @@ class CanvasState {
 }
 
 class CanvasController extends StateNotifier<CanvasState> {
-  final StrokeMatcher _strokeMatcher = StrokeMatcher();
+  final StrokeMatcher _strokeMatcher;
 
-  CanvasController()
-      : super(const CanvasState(
+  CanvasController({double similarityThreshold = StrokeMatcher.defaultSimilarityThreshold})
+      : _strokeMatcher = StrokeMatcher(similarityThreshold: similarityThreshold),
+        super(const CanvasState(
           currentStrokeIndex: 0,
           drawnStrokes: [],
           activeStroke: null,
@@ -66,6 +68,13 @@ class CanvasController extends StateNotifier<CanvasState> {
           showHint: true,
           lastResult: null,
         ));
+
+  /// Update the similarity threshold at runtime (e.g. when the user changes
+  /// the stroke-tolerance slider in Settings).  Does NOT reset the canvas
+  /// so the user can continue drawing with the new tolerance immediately.
+  void setSimilarityThreshold(double value) {
+    _strokeMatcher.setSimilarityThreshold(value);
+  }
 
   /// Start a new stroke at the given point.
   void startStroke(Point<double> point) {
@@ -192,5 +201,19 @@ class CanvasController extends StateNotifier<CanvasState> {
 }
 
 final canvasControllerProvider = StateNotifierProvider<CanvasController, CanvasState>((ref) {
-  return CanvasController();
+  // Read the initial tolerance from settings without subscribing, so the
+  // controller is not recreated (and its state lost) when the user moves
+  // the slider later.  Subsequent changes are pushed via ref.listen.
+  final initialThreshold = ref
+      .read(settingsControllerProvider)
+      .strokeTolerance;
+  final controller = CanvasController(similarityThreshold: initialThreshold);
+
+  // Push tolerance changes into the existing controller (no recreation).
+  ref.listen(
+    settingsControllerProvider.select((s) => s.strokeTolerance),
+    (_, next) => controller.setSimilarityThreshold(next),
+  );
+
+  return controller;
 });
