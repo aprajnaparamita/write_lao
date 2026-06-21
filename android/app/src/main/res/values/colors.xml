@@ -3,5 +3,5 @@
     <!-- Matches the dark-purple background of splash_screen.png and the
          backgroundColor of the iOS LaunchScreen.storyboard, so the area
          around the splash image blends with the image's own background. -->
-    <color name="splash_background">#1E0050</color>
+    <color name="splash_background">#1E004F</color>
 </resources>

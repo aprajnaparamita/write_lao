@@ -15,6 +15,7 @@ import { landingPageHTML, landingPageCSS, landingPageJS, i18nScript } from './la
 import { translations } from './translations';
 import { testerGuideHTML } from './tester-guide';
 import { testerGuideHTMLThai } from './tester-guide-th';
+import { chantingPageHTML } from './chanting-page';
 import { createAdminRouter } from '../admin/router';
 import { startMultipartUpload, uploadPart, completeMultipartUpload, abortMultipartUpload } from '../lib/r2-direct-upload';
 import { generateTesterId } from '../lib/tester-id';
@@ -615,6 +616,166 @@ app.post('/api/support', async (c) => {
   } catch (err) {
     console.error('Support form error:', err);
     return c.json({ error: 'Internal error' }, 500);
+  }
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CHANTING BOOK OCR REVIEW  /chanting
+//
+// To set up:
+//   1. Run the D1 migration:  wrangler d1 execute writelao-db --file=migrations/0005_create_chanting_reviews.sql
+//   2. Upload assets to R2:
+//        wrangler r2 object put writelao-course-data/chanting/manifest.json --file=<path>/web/manifest.json
+//        for f in <thumbs_orig>/*.jpg; do
+//          wrangler r2 object put writelao-course-data/chanting/orig/$(basename $f) --file=$f
+//        done
+//        for f in <ocr_json>/*.json; do
+//          wrangler r2 object put writelao-course-data/chanting/ocr/$(basename $f) --file=$f
+//        done
+// ═══════════════════════════════════════════════════════════════════════════
+
+// Chanting review app page
+app.get('/chanting', (c) => {
+  return c.html(chantingPageHTML, 200, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Cache-Control': 'no-cache',
+  });
+});
+
+// Proxy chanting data files from R2  (manifest, images, OCR JSONs)
+app.get('/chanting/data/*', async (c) => {
+  const path = c.req.path.replace('/chanting/data/', '');
+  const key = 'chanting/' + path;
+  const obj = await c.env.COURSE_DATA.get(key);
+  if (!obj) return c.json({ error: 'Not found: ' + key }, 404);
+
+  const ct = obj.httpMetadata?.contentType
+    || (path.endsWith('.json') ? 'application/json'
+      : path.endsWith('.jpg') || path.endsWith('.jpeg') ? 'image/jpeg'
+      : path.endsWith('.png') ? 'image/png'
+      : 'application/octet-stream');
+
+  return c.body(obj.body, 200, {
+    'Content-Type': ct,
+    'Cache-Control': path.endsWith('.json') ? 'no-cache' : 'public, max-age=86400',
+  });
+});
+
+// Save a page review (verdict + flagged runs + notes)
+app.post('/api/chanting/review', async (c) => {
+  try {
+    const body = await c.req.json<{
+      reviewer_name: string;
+      page_id: string;
+      page_title?: string;
+      status: 'ok' | 'problem';
+      flagged_runs?: number[];
+      flagged_run_texts?: string[];
+      notes?: string;
+      run_notes?: Record<string, string>;
+    }>();
+
+    if (!body.reviewer_name || !body.page_id || !body.status) {
+      return c.json({ error: 'Missing required fields' }, 400);
+    }
+    if (!['ok', 'problem'].includes(body.status)) {
+      return c.json({ error: 'status must be ok or problem' }, 400);
+    }
+
+    await c.env.DB.prepare(`
+      INSERT INTO chanting_reviews
+        (reviewer_name, page_id, page_title, status, flagged_runs, flagged_run_texts, notes, run_notes, reviewed_at)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
+    `).bind(
+      body.reviewer_name,
+      body.page_id,
+      body.page_title || '',
+      body.status,
+      JSON.stringify(body.flagged_runs || []),
+      JSON.stringify(body.flagged_run_texts || []),
+      body.notes || '',
+      JSON.stringify(body.run_notes || {}),
+    ).run();
+
+    return c.json({ success: true }, 200);
+  } catch (err) {
+    console.error('Chanting review save error:', err);
+    return c.json({ error: 'Failed to save review' }, 500);
+  }
+});
+
+// Save / update a note without changing the verdict
+app.post('/api/chanting/note', async (c) => {
+  try {
+    const body = await c.req.json<{
+      reviewer_name: string;
+      page_id: string;
+      notes: string;
+    }>();
+    if (!body.reviewer_name || !body.page_id) {
+      return c.json({ error: 'Missing required fields' }, 400);
+    }
+    await c.env.DB.prepare(`
+      UPDATE chanting_reviews SET notes = ?, reviewed_at = datetime('now')
+      WHERE reviewer_name = ? AND page_id = ?
+    `).bind(body.notes || '', body.reviewer_name, body.page_id).run();
+    return c.json({ success: true }, 200);
+  } catch (err) {
+    console.error('Chanting note save error:', err);
+    return c.json({ error: 'Failed to save note' }, 500);
+  }
+});
+
+// Per-reviewer aggregate stats for the dashboard
+app.get('/api/chanting/reviewers', async (c) => {
+  try {
+    const result = await c.env.DB.prepare(`
+      SELECT
+        reviewer_name,
+        COUNT(*) AS total,
+        SUM(CASE WHEN status = 'ok' THEN 1 ELSE 0 END) AS ok_count,
+        SUM(CASE WHEN status = 'problem' THEN 1 ELSE 0 END) AS problem_count,
+        MAX(reviewed_at) AS last_reviewed_at
+      FROM chanting_reviews
+      GROUP BY reviewer_name
+      ORDER BY total DESC
+    `).all();
+    return c.json({ reviewers: result.results }, 200, { 'Cache-Control': 'no-cache' });
+  } catch (err) {
+    console.error('Chanting reviewers fetch error:', err);
+    return c.json({ error: 'Failed to fetch reviewers' }, 500);
+  }
+});
+
+// Get all reviews — for LLM export / dashboard detail
+// Usage: GET /api/chanting/reviews
+//        GET /api/chanting/reviews?reviewer=Daisy
+//        GET /api/chanting/reviews?status=problem
+app.get('/api/chanting/reviews', async (c) => {
+  try {
+    const reviewer = c.req.query('reviewer');
+    const status   = c.req.query('status');
+
+    let sql = 'SELECT * FROM chanting_reviews WHERE 1=1';
+    const binds: string[] = [];
+    if (reviewer) { sql += ' AND reviewer_name = ?'; binds.push(reviewer); }
+    if (status)   { sql += ' AND status = ?';        binds.push(status); }
+    sql += ' ORDER BY reviewed_at DESC';
+
+    const result = await c.env.DB.prepare(sql).bind(...binds).all();
+    const rows = result.results.map((r: any) => ({
+      ...r,
+      flagged_runs:      JSON.parse(r.flagged_runs || '[]'),
+      flagged_run_texts: JSON.parse(r.flagged_run_texts || '[]'),
+      run_notes:         JSON.parse(r.run_notes || '{}'),
+    }));
+
+    return c.json({ reviews: rows, total: rows.length }, 200, {
+      'Cache-Control': 'no-cache',
+    });
+  } catch (err) {
+    console.error('Chanting reviews fetch error:', err);
+    return c.json({ error: 'Failed to fetch reviews' }, 500);
   }
 });
 

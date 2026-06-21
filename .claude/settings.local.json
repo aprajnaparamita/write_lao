@@ -131,7 +131,15 @@
       "Bash(brew unlink *)",
       "Bash(brew link *)",
       "Bash(open *)",
-      "Bash(sips *)"
+      "Bash(sips *)",
+      "Bash(file /Volumes/Dara/dev/write_lao/ios/Runner/Assets.xcassets/SplashImage.imageset/SplashImage*.png)",
+      "Bash(magick -version)",
+      "Bash(/Users/dara/dev/flutter/bin/flutter clean *)",
+      "Bash(brew list *)",
+      "Bash(/usr/bin/rsync --version)",
+      "Bash(/usr/bin/rsync --help)",
+      "Bash(codesign -d --verbose=4 /Volumes/Dara/dev/write_lao/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app)",
+      "Bash(PATH=/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin /usr/bin/xcodebuild -exportArchive -archivePath /Volumes/Dara/dev/write_lao/build/ios/archive/Runner.xcarchive -exportPath /tmp/ipa_export -exportOptionsPlist /tmp/ExportOptions.plist -allowProvisioningUpdates)"
     ]
   }
 }
