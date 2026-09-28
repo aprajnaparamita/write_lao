@@ -131,6 +131,7 @@ class _VocabTabState extends ConsumerState<_VocabTab> {
         return _CategoryCard(
           deck: deck,
           words: words,
+          onReview: () => context.push('/vocab/review/${deck.id}'),
           onDeleteCategory: () => _deleteCategory(deck),
           onRemoveWord: (wordId) => _removeWord(deck.id, wordId),
         );
@@ -144,12 +145,14 @@ class _VocabTabState extends ConsumerState<_VocabTab> {
 class _CategoryCard extends StatelessWidget {
   final FlagDeck deck;
   final List<VocabWord> words;
+  final VoidCallback onReview;
   final VoidCallback onDeleteCategory;
   final ValueChanged<String> onRemoveWord;
 
   const _CategoryCard({
     required this.deck,
     required this.words,
+    required this.onReview,
     required this.onDeleteCategory,
     required this.onRemoveWord,
   });
@@ -194,6 +197,19 @@ class _CategoryCard extends StatelessWidget {
                     ],
                   ),
                 ),
+                // Review the whole category as a full lesson-style session.
+                if (words.isNotEmpty)
+                  TextButton.icon(
+                    onPressed: onReview,
+                    icon: const Icon(Icons.school_outlined, size: 18),
+                    label: const Text('Review'),
+                    style: TextButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 8, vertical: 4),
+                      minimumSize: Size.zero,
+                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                    ),
+                  ),
                 // Delete category button
                 TextButton.icon(
                   onPressed: onDeleteCategory,

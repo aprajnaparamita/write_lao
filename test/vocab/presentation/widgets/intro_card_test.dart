@@ -89,9 +89,11 @@ void main() {
       await tester.pump();
       expect(audio.playedPaths, equals(['audio/w_0001_word.m4a']));
 
-      // Simulate the headword audio finishing — example1 should chain.
+      // Simulate the headword audio finishing — example1 should chain after
+      // the inter-clip gap (which keeps the next play out of the previous
+      // clip's native completion teardown; see IntroCard._chainGap).
       audio.completeCurrent();
-      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 400));
       expect(
         audio.playedPaths,
         equals(['audio/w_0001_word.m4a', 'audio/w_0001_example1.m4a']),
@@ -108,9 +110,9 @@ void main() {
       )));
       await tester.pump();
       audio.completeCurrent(); // headword done → example1 plays
-      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 400));
       audio.completeCurrent(); // example1 done → example2 plays
-      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 400));
       expect(
         audio.playedPaths,
         equals([

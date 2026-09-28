@@ -24,7 +24,22 @@ class IntroCard extends StatefulWidget {
 }
 
 class _IntroCardState extends State<IntroCard> {
+  /// Gap inserted before each auto-chained clip.
+  ///
+  /// Beyond giving a natural pause between the word and its examples, this is
+  /// load-bearing: the next clip must NOT be started synchronously from inside
+  /// the previous clip's completion callback. When a clip finishes, the
+  /// audioplayers iOS backend emits `onComplete` and *then* asynchronously runs
+  /// its teardown — a `seek(0)` plus (default release mode) a
+  /// `replaceCurrentItem(nil)`. Calling `play()` immediately on that event races
+  /// with the teardown, which clobbers the freshly-set source so the clip never
+  /// produces sound — while our wrapper has already optimistically flipped the
+  /// button to its "playing" state. The symptom is the first example showing a
+  /// pressed/playing button with no audio. Deferring past the teardown fixes it.
+  static const _chainGap = Duration(milliseconds: 350);
+
   StreamSubscription<String>? _completeSub;
+  Timer? _chainTimer;
   bool _headwordFinished = false;
   bool _example1Finished = false;
 
@@ -38,6 +53,15 @@ class _IntroCardState extends State<IntroCard> {
     });
   }
 
+  /// Plays [path] after [_chainGap], superseding any pending chained play.
+  void _playAfterGap(String path) {
+    _chainTimer?.cancel();
+    _chainTimer = Timer(_chainGap, () {
+      if (!mounted) return;
+      widget.audio.play(path);
+    });
+  }
+
   void _onAudioComplete(String finishedPath) {
     if (!mounted) return;
     final examples = widget.word.examples;
@@ -45,7 +69,7 @@ class _IntroCardState extends State<IntroCard> {
     if (!_headwordFinished && finishedPath == widget.word.audioPath) {
       _headwordFinished = true;
       if (examples.isNotEmpty) {
-        widget.audio.play(examples.first.audioPath);
+        _playAfterGap(examples.first.audioPath);
       }
       return;
     }
@@ -54,19 +78,21 @@ class _IntroCardState extends State<IntroCard> {
         examples.isNotEmpty && finishedPath == examples.first.audioPath) {
       _example1Finished = true;
       if (examples.length >= 2) {
-        widget.audio.play(examples[1].audioPath);
+        _playAfterGap(examples[1].audioPath);
       }
     }
   }
 
   @override
   void dispose() {
+    _chainTimer?.cancel();
     _completeSub?.cancel();
     widget.audio.stop();
     super.dispose();
   }
 
   Future<void> _onContinue() async {
+    _chainTimer?.cancel();
     await widget.audio.stop();
     widget.onContinue();
   }

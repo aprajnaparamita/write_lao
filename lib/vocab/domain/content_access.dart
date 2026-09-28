@@ -1,6 +1,5 @@
 import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/domain/vocab_config.dart';
 
 /// Checks whether a lesson is accessible to the user based on their
 /// purchase state and the free preview configuration.

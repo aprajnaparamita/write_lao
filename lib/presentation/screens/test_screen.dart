@@ -125,6 +125,9 @@ class _TestScreenState extends ConsumerState<TestScreen> {
           ref.read(testControllerProvider.notifier).finishTest();
       if (quizResult != null) {
         ref.read(progressRepositoryProvider).recordTestResult(quizResult);
+        // Notify star-displaying screens (home lesson list, progress) that
+        // persisted progress changed so they refresh without a tab switch.
+        ref.read(progressRevProvider.notifier).state++;
       }
       widget.onComplete?.call();
     } else {

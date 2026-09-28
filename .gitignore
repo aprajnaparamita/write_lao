@@ -108,3 +108,6 @@ lao_svgs/*.dart
 
 # Original full-resolution images (pre-compression backup)
 assets_originals/
+
+# Sentry CLI/debug artifacts
+us.sentry.io.json

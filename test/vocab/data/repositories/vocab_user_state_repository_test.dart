@@ -21,12 +21,12 @@ void main() {
     if (tempDir.existsSync()) tempDir.deleteSync(recursive: true);
   });
 
-  String _suffix() =>
+  String uniqueSuffix() =>
       DateTime.now().microsecondsSinceEpoch.toString();
 
   group('Hive vocab schema', () {
     test('opens vocab boxes cleanly on a fresh init', () async {
-      final box = await Hive.openBox<UserWord>('vw_open_${_suffix()}');
+      final box = await Hive.openBox<UserWord>('vw_open_${uniqueSuffix()}');
       expect(box.isOpen, isTrue);
       await box.deleteFromDisk();
     });
@@ -45,7 +45,7 @@ void main() {
     late DateTime currentNow;
 
     setUp(() async {
-      box = await Hive.openBox<UserWord>('vw_${_suffix()}');
+      box = await Hive.openBox<UserWord>('vw_${uniqueSuffix()}');
       currentNow = DateTime.utc(2026, 4, 19, 12);
       repo = UserWordRepository(box, now: () => currentNow);
     });
@@ -113,7 +113,7 @@ void main() {
     late UserVocabProgressRepository repo;
 
     setUp(() async {
-      box = await Hive.openBox<UserVocabProgress>('vp_${_suffix()}');
+      box = await Hive.openBox<UserVocabProgress>('vp_${uniqueSuffix()}');
       repo = UserVocabProgressRepository(box);
     });
 
@@ -145,8 +145,8 @@ void main() {
     late FlagDeckRepository repo;
 
     setUp(() async {
-      deckBox = await Hive.openBox<FlagDeck>('fd_${_suffix()}');
-      deckWordBox = await Hive.openBox<FlagDeckWord>('fdw_${_suffix()}');
+      deckBox = await Hive.openBox<FlagDeck>('fd_${uniqueSuffix()}');
+      deckWordBox = await Hive.openBox<FlagDeckWord>('fdw_${uniqueSuffix()}');
       repo = FlagDeckRepository(deckBox, deckWordBox);
     });
 

@@ -49,15 +49,11 @@ class _LessonDetailScreenState extends ConsumerState<LessonDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: avoid_print
-    print('[LessonDetailScreen] Building for lessonId=${widget.lessonId}');
     final l10n = AppLocalizations.of(context);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
 
     final lesson = charRepo.getLesson(widget.lessonId);
-    // ignore: avoid_print
-    print('[LessonDetailScreen] Found lesson: $lesson');
     if (lesson == null) {
       return Scaffold(
         appBar: AppBar(title: Text(l10n.lessonLabel)),

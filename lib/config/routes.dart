@@ -31,8 +31,6 @@ final router = GoRouter(
       path: '/',
       name: 'home',
       pageBuilder: (context, state) {
-        // ignore: avoid_print
-        print('[GoRouter] Navigating to home (/)');
         return CustomTransitionPage(
           key: state.pageKey,
           child: const LessonListScreen(),
@@ -47,8 +45,6 @@ final router = GoRouter(
       name: 'lessonDetail',
       pageBuilder: (context, state) {
         final lessonId = state.pathParameters['lessonId'] ?? '';
-        // ignore: avoid_print
-        print('[GoRouter] Navigating to lesson detail: lessonId=$lessonId');
         return CustomTransitionPage(
           key: state.pageKey,
           child: LessonDetailScreen(lessonId: lessonId),
@@ -224,19 +220,13 @@ final router = GoRouter(
       path: '/vocab',
       name: 'vocab',
       pageBuilder: (context, state) {
-        // ignore: avoid_print
-        print('[GoRouter] Navigating to /vocab');
         return CustomTransitionPage(
           key: state.pageKey,
           child: UnitListScreen(
             onOpenUnit: (unitId) {
-              // ignore: avoid_print
-              print('[vocab] Unit tapped: $unitId');
               context.push('/vocab/unit/$unitId');
             },
             onUpsell: () {
-              // ignore: avoid_print
-              print('[vocab] Upsell triggered');
               context.push('/vocab/upsell');
             },
           ),
@@ -256,8 +246,6 @@ final router = GoRouter(
           child: vocab_lesson_list.LessonListScreen(
             unitId: unitId,
             onOpenLesson: (lessonId) {
-              // ignore: avoid_print
-              print('[vocab] Lesson tapped: $lessonId, pushing /vocab/unit/$unitId/lesson/$lessonId');
               context.push('/vocab/unit/$unitId/lesson/$lessonId');
             },
             onUpsell: () => context.push('/vocab/upsell'),
@@ -288,6 +276,38 @@ final router = GoRouter(
           child: VocabLessonPracticeScreen(
             unitId: unitId,
             lessonId: lessonId,
+          ),
+          transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            return SlideTransition(
+              position: Tween<Offset>(
+                begin: const Offset(1, 0),
+                end: Offset.zero,
+              ).animate(CurvedAnimation(
+                parent: animation,
+                curve: Curves.easeInOut,
+              )),
+              child: child,
+            );
+          },
+        );
+      },
+    ),
+    GoRoute(
+      path: '/vocab/review/:deckId',
+      name: 'vocabReview',
+      pageBuilder: (context, state) {
+        final deckId = state.pathParameters['deckId'] ?? '';
+        return CustomTransitionPage(
+          key: state.pageKey,
+          child: Consumer(
+            builder: (context, ref, _) {
+              final deck =
+                  ref.read(flagDeckRepositoryProvider).getDeck(deckId);
+              return VocabLessonPracticeScreen.deckReview(
+                deckId: deckId,
+                title: deck?.name ?? 'Review',
+              );
+            },
           ),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             return SlideTransition(

@@ -64,6 +64,29 @@ void main() {
         assetExists: (p) async => validBundleAssetPaths.contains(p),
       );
 
+  /// Seeds the singleton progress so every lesson in unit 1 is complete
+  /// (current position = first lesson of unit 2, `l_02_01`). Unit gating
+  /// requires the previous unit to be complete *in addition* to IAP, so
+  /// journeys that assert "purchase/restore removes the lock badge on
+  /// unit 2" must start from this state — a fresh user would keep the
+  /// badge even after buying.
+  void seedUnitOneComplete() {
+    final now = DateTime.now().toUtc();
+    progressBox.put(
+      'singleton',
+      UserVocabProgress(
+        id: 'p_seed',
+        iapUnlocked: false,
+        currentUnitId: 'u_02',
+        currentLessonId: 'l_02_01',
+        unitsCompleted: 1,
+        lessonsCompleted: 2,
+        createdAt: now,
+        updatedAt: now,
+      ),
+    );
+  }
+
   List<Override> baseOverrides(IapService iap) => [
         courseContentDataSourceProvider.overrideWithValue(fixtureDataSource()),
         userWordRepositoryProvider
@@ -137,6 +160,8 @@ void main() {
       'locked unit 2 opens upsell, successful purchase persists '
       'iap_unlocked and the lock badge disappears',
       (tester) async {
+        // Unit 1 already finished — only the missing IAP keeps unit 2 locked.
+        seedUnitOneComplete();
         await tester
             .pumpWidget(makeApp(const MockIapService(simulateSuccess: true)));
         await tester.pumpAndSettle();
@@ -225,6 +250,8 @@ void main() {
           ],
         );
 
+        // Unit 1 already finished — only the missing IAP keeps unit 2 locked.
+        seedUnitOneComplete();
         await tester.pumpWidget(ProviderScope(
           overrides:
               baseOverrides(const MockIapService(simulateRestored: true)),

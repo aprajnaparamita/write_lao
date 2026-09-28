@@ -136,6 +136,13 @@ void main() {
     await tester.pumpWidget(pumpWith(const SettingsScreen()));
     await tester.pump();
 
+    // The vocab section sits near the bottom of the settings ListView, which
+    // builds children lazily — scroll until the tile actually exists.
+    await tester.scrollUntilVisible(
+      find.byKey(VocabSettingsSection.restoreTileKey),
+      200,
+    );
+
     expect(find.byKey(VocabSettingsSection.restoreTileKey), findsOneWidget);
     expect(find.text('Restore Purchases'), findsOneWidget);
   });

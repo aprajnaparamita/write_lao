@@ -224,6 +224,13 @@ final progressRepositoryProvider = Provider<ProgressRepository>((ref) {
   return ProgressRepository(dataSource: dataSource, characterRepo: characterRepo);
 });
 
+/// Change counter bumped whenever character/lesson progress is written through
+/// the non-reactive [ProgressRepository] (e.g. after recording a test result).
+/// Screens that display stars `watch` this so they rebuild and re-read the
+/// latest progress from Hive — without it, a freshly-earned star only appears
+/// after an unrelated rebuild (such as switching home tabs).
+final progressRevProvider = StateProvider<int>((ref) => 0);
+
 final characterStrokeDataSourceProvider = Provider<CharacterStrokeDataSource>((ref) {
   return CharacterStrokeDataSource();
 });

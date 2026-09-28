@@ -36,7 +36,7 @@ void main() {
     if (tempDir.existsSync()) tempDir.deleteSync(recursive: true);
   });
 
-  String _suffix() => DateTime.now().microsecondsSinceEpoch.toString();
+  String uniqueSuffix() => DateTime.now().microsecondsSinceEpoch.toString();
 
   late Box<UserWord> wordBox;
   late Box<UserVocabProgress> progressBox;
@@ -52,7 +52,7 @@ void main() {
   late DateTime currentNow;
 
   setUp(() async {
-    final s = _suffix();
+    final s = uniqueSuffix();
     wordBox = await Hive.openBox<UserWord>('lew_$s');
     progressBox = await Hive.openBox<UserVocabProgress>('lep_$s');
     sessionBox = await Hive.openBox<UserSession>('les_$s');

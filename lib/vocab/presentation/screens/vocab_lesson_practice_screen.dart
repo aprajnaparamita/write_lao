@@ -23,11 +23,32 @@ class VocabLessonPracticeScreen extends ConsumerStatefulWidget {
   final String unitId;
   final String lessonId;
 
+  /// When non-null the screen runs as a *review session* over the words saved
+  /// into this category/deck instead of a course lesson. Every word is shown
+  /// in full guided-practice mode — as if encountered for the first time — no
+  /// [UserSession] is created, and finishing never advances course progress.
+  final String? reviewDeckId;
+
+  /// Category name shown in the app bar / completion screen for a review
+  /// session. Ignored for normal lessons.
+  final String? reviewTitle;
+
   const VocabLessonPracticeScreen({
     super.key,
     required this.unitId,
     required this.lessonId,
-  });
+  })  : reviewDeckId = null,
+        reviewTitle = null;
+
+  /// Run the words flagged into [deckId] as a full-practice review session.
+  const VocabLessonPracticeScreen.deckReview({
+    super.key,
+    required String deckId,
+    required String title,
+  })  : unitId = '',
+        lessonId = '',
+        reviewDeckId = deckId,
+        reviewTitle = title;
 
   @override
   ConsumerState<VocabLessonPracticeScreen> createState() =>
@@ -47,6 +68,8 @@ class _VocabLessonPracticeScreenState
   bool _wordIsFlagged = false;
   late final VocabAudioPlayer _audio;
 
+  bool get _isReview => widget.reviewDeckId != null;
+
   @override
   void initState() {
     super.initState();
@@ -65,7 +88,17 @@ class _VocabLessonPracticeScreenState
   Future<void> _initLesson() async {
     try {
       final engine = await ref.read(lessonEngineProvider.future);
-      final plan = engine.startLesson(widget.lessonId);
+      final LessonPlan plan;
+      if (_isReview) {
+        // Review the whole category as fresh introductions. A high limit means
+        // "all of it"; startDeckStudy still creates the UserWord rows the SRS
+        // step needs and skips retired words.
+        final deckPlan =
+            engine.startDeckStudy(widget.reviewDeckId!, limit: 1000);
+        plan = LessonPlan(sessionId: '', lessonId: '', cards: deckPlan.cards);
+      } else {
+        plan = engine.startLesson(widget.lessonId);
+      }
       _startedAt = DateTime.now();
       if (mounted) {
         setState(() {
@@ -131,6 +164,12 @@ class _VocabLessonPracticeScreenState
   }
 
   void _finishLesson() {
+    // A review session lives outside course progress — just show the summary.
+    if (_isReview) {
+      setState(() => _finished = true);
+      return;
+    }
+
     final engine = ref.read(lessonEngineProvider).valueOrNull;
     final duration =
         _startedAt != null ? DateTime.now().difference(_startedAt!) : null;
@@ -208,6 +247,23 @@ class _VocabLessonPracticeScreenState
   Widget build(BuildContext context) {
     if (_finished) {
       final course = ref.watch(courseRepositoryProvider).valueOrNull;
+      if (_isReview) {
+        final practicedWords = _plan?.cards
+            .map((c) => course?.getWord(c.wordId)?.laoWord)
+            .whereType<String>()
+            .toList();
+        return LessonCompleteScreen(
+          lessonNumber: 0,
+          totalWords: _plan?.cards.length ?? 0,
+          errors: _totalErrors,
+          practicedWords: practicedWords,
+          completeTitle: 'Review Complete',
+          completeHeadline: widget.reviewTitle != null
+              ? '${widget.reviewTitle} reviewed'
+              : 'Review complete',
+          onContinue: () => context.pop(),
+        );
+      }
       final lesson = course?.getLesson(widget.lessonId);
       final progress =
           ref.watch(userVocabProgressRepositoryProvider).getOrCreate();
@@ -274,7 +330,12 @@ class _VocabLessonPracticeScreenState
           mainAxisSize: MainAxisSize.min,
           children: [
             Text('${_cardIndex + 1} / ${plan.cards.length}'),
-            if (lessonNumInUnit != null)
+            if (_isReview)
+              Text(
+                widget.reviewTitle ?? 'Review',
+                style: const TextStyle(fontSize: 12),
+              )
+            else if (lessonNumInUnit != null)
               Text(
                 'Lesson $lessonNumInUnit of $totalLessonsInUnit',
                 style: const TextStyle(fontSize: 12),
@@ -360,8 +421,13 @@ class _VocabLessonPracticeScreenState
             .read(userWordRepositoryProvider)
             .getByWordId(word.wordId)
             ?.status;
-        final mode =
-            wordStatus != null ? cardModeFor(wordStatus) : CardMode.practice;
+        // A review session always shows the guided stroke practice, so every
+        // saved word is re-encountered as if for the first time.
+        final mode = _isReview
+            ? CardMode.practice
+            : (wordStatus != null
+                ? cardModeFor(wordStatus)
+                : CardMode.practice);
         return WordPracticeFlow(
           key: ValueKey('practice-$_cardIndex'),
           word: word,

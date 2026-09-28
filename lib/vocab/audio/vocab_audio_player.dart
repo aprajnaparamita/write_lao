@@ -47,9 +47,18 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
   VocabAudioState _state = VocabAudioState.idle;
   String? _currentPath;
 
+  /// Set once [dispose] runs. Guards every stream write below: in-flight
+  /// `play`/`stop` futures (and a late completion event) can resume *after*
+  /// the owning screen has torn the player down — e.g. a card's `dispose`
+  /// calls `stop()` and the screen disposes the player before that awaited
+  /// `stop()` resumes. Adding to a closed controller then throws
+  /// "Cannot add new events after calling close".
+  bool _disposed = false;
+
   AudioPlayersVocabAudioPlayer({AudioPlayer? player})
       : _player = player ?? AudioPlayer() {
     _completeSub = _player.onPlayerComplete.listen((_) {
+      if (_disposed) return;
       final finished = _currentPath;
       _setState(VocabAudioState.idle);
       _currentPath = null;
@@ -59,6 +68,7 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
 
   void _setState(VocabAudioState s) {
     _state = s;
+    if (_disposed) return;
     _stateController.add(s);
   }
 
@@ -81,7 +91,9 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
 
   @override
   Future<void> play(String path) async {
+    if (_disposed) return;
     await _player.stop();
+    if (_disposed) return;
     _currentPath = path;
     _setState(VocabAudioState.playing);
     try {
@@ -97,13 +109,16 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
 
   @override
   Future<void> stop() async {
+    if (_disposed) return;
     await _player.stop();
+    if (_disposed) return;
     _currentPath = null;
     _setState(VocabAudioState.idle);
   }
 
   @override
   Future<void> dispose() async {
+    _disposed = true;
     await _completeSub?.cancel();
     await _stateController.close();
     await _completeController.close();

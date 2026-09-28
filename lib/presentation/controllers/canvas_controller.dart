@@ -108,18 +108,6 @@ class CanvasController extends StateNotifier<CanvasState> {
     // Evaluate the stroke
     final result = _strokeMatcher.evaluate(drawnPoints, referenceStroke);
 
-    // Debug: log matching details
-    print('[StrokeMatch] drawn=${drawnPoints.length} pts, ref=${referenceStroke.points.length} pts');
-    print('[StrokeMatch] result=${result.result}, similarity=${result.similarity.toStringAsFixed(4)}, dtw=${result.distanceScore.toStringAsFixed(4)}');
-    print('[StrokeMatch] dirCorrect=${result.directionCorrect}, posCorrect=${result.positionCorrect}');
-    if (drawnPoints.isNotEmpty) {
-      print('[StrokeMatch] drawn range: x=[${drawnPoints.map((p) => p.x).reduce((a,b) => a < b ? a : b).toStringAsFixed(0)}..${drawnPoints.map((p) => p.x).reduce((a,b) => a > b ? a : b).toStringAsFixed(0)}], y=[${drawnPoints.map((p) => p.y).reduce((a,b) => a < b ? a : b).toStringAsFixed(0)}..${drawnPoints.map((p) => p.y).reduce((a,b) => a > b ? a : b).toStringAsFixed(0)}]');
-    }
-    final refPts = referenceStroke.pointsAsPoints;
-    if (refPts.isNotEmpty) {
-      print('[StrokeMatch] ref range: x=[${refPts.map((p) => p.x).reduce((a,b) => a < b ? a : b).toStringAsFixed(0)}..${refPts.map((p) => p.x).reduce((a,b) => a > b ? a : b).toStringAsFixed(0)}], y=[${refPts.map((p) => p.y).reduce((a,b) => a < b ? a : b).toStringAsFixed(0)}..${refPts.map((p) => p.y).reduce((a,b) => a > b ? a : b).toStringAsFixed(0)}]');
-    }
-
     state = state.copyWith(lastResult: result);
 
     if (result.result == StrokeMatchResult.correct) {

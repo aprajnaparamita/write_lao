@@ -19,8 +19,6 @@ class LessonListScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
 
-    // ignore: avoid_print
-    print('[LessonList] build() called');
 
     return DefaultTabController(
       length: 2,
@@ -105,12 +103,13 @@ class _CharactersTabBodyState extends ConsumerState<_CharactersTabBody> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    // Rebuild when persisted progress changes (e.g. after a test) so stars
+    // update immediately instead of only after switching tabs.
+    ref.watch(progressRevProvider);
     final charRepo = ref.watch(characterRepositoryProvider);
     final progressRepo = ref.watch(progressRepositoryProvider);
     final lessons = charRepo.getAllLessons();
 
-    // ignore: avoid_print
-    print('[LessonList] _CharactersTabBody build, lessons.length=${lessons.length}');
 
     bool iapUnlocked = false;
     try {
@@ -169,8 +168,6 @@ class _CharactersTabBodyState extends ConsumerState<_CharactersTabBody> {
             itemCount: lessons.length,
             itemBuilder: (context, index) {
               final lesson = lessons[index];
-              // ignore: avoid_print
-              print('[LessonList] itemBuilder index=$index lessonId=${lesson.id}');
               final progress = progressRepo.getLessonProgress(lesson.id);
               final characters = charRepo.getCharactersForLesson(lesson.id);
               final previews = characters.map((c) => c.displayChar).toList();
@@ -183,8 +180,6 @@ class _CharactersTabBodyState extends ConsumerState<_CharactersTabBody> {
                   stars: progress.stars,
                   isCurrent: lesson.id == currentLessonId,
                   onTap: () {
-                    // ignore: avoid_print
-                    print('[LessonList] LessonCard onTap fired: id=${lesson.id}');
                     context.push('/lessons/${lesson.id}');
                   },
                   onReview: progress.stars > 0
@@ -414,13 +409,9 @@ class _VocabTabBody extends ConsumerWidget {
         data: (course) => VocabUnitListBody(
           course: course,
           onOpenUnit: (unitId) {
-            // ignore: avoid_print
-            print('[VocabTab] Unit tapped: $unitId');
             context.push('/vocab/unit/$unitId');
           },
           onUpsell: () {
-            // ignore: avoid_print
-            print('[VocabTab] Upsell triggered');
             context.push('/vocab/upsell');
           },
         ),

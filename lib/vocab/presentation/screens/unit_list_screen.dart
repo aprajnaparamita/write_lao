@@ -21,8 +21,6 @@ class UnitListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // ignore: avoid_print
-    print('[UnitListScreen] build() called');
     final courseAsync = ref.watch(courseRepositoryProvider);
     ref.watch(vocabStateRevProvider);
     final allWords = ref.watch(userWordRepositoryProvider).getAll();
@@ -30,24 +28,18 @@ class UnitListScreen extends ConsumerWidget {
 
     return courseAsync.when(
       loading: () {
-        // ignore: avoid_print
-        print('[UnitListScreen] loading state');
         return Scaffold(
           appBar: AppBar(title: const Text('Vocabulary')),
           body: const Center(child: CircularProgressIndicator()),
         );
       },
       error: (e, _) {
-        // ignore: avoid_print
-        print('[UnitListScreen] error: $e');
         return Scaffold(
           appBar: AppBar(title: const Text('Vocabulary')),
           body: Center(child: Text('Failed to load: $e')),
         );
       },
       data: (course) {
-        // ignore: avoid_print
-        print('[UnitListScreen] data loaded, units=${course.getAllUnits().length}');
         final total = course.content.words.length;
         return Scaffold(
           appBar: AppBar(
@@ -195,8 +187,6 @@ class _UnitRow extends StatelessWidget {
               : Text(unit.description),
       trailing: trailing,
       onTap: () {
-        // ignore: avoid_print
-        print('[UnitRow] onTap: unitId=${unit.unitId} tappable=$tappable');
         if (tappable) {
           onOpenUnit?.call(unit.unitId);
           return;

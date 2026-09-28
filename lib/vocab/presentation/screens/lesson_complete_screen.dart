@@ -13,6 +13,12 @@ class LessonCompleteScreen extends StatelessWidget {
   /// Lao word strings to display in the card grid. When null no grid is shown.
   final List<String>? practicedWords;
 
+  /// App-bar title override. Defaults to 'Lesson Complete'.
+  final String? completeTitle;
+
+  /// Body headline override. Defaults to 'Lesson $lessonNumber complete'.
+  final String? completeHeadline;
+
   const LessonCompleteScreen({
     super.key,
     required this.lessonNumber,
@@ -21,6 +27,8 @@ class LessonCompleteScreen extends StatelessWidget {
     required this.onContinue,
     this.nextLessonLabel,
     this.practicedWords,
+    this.completeTitle,
+    this.completeHeadline,
   });
 
   int get _stars {
@@ -46,9 +54,9 @@ class LessonCompleteScreen extends StatelessWidget {
         backgroundColor: AppTheme.primary,
         foregroundColor: Colors.white,
         elevation: 0,
-        title: const Text(
-          'Lesson Complete',
-          style: TextStyle(color: Colors.white),
+        title: Text(
+          completeTitle ?? 'Lesson Complete',
+          style: const TextStyle(color: Colors.white),
         ),
         centerTitle: true,
         automaticallyImplyLeading: false,
@@ -63,7 +71,7 @@ class LessonCompleteScreen extends StatelessWidget {
                   _buildStars(context),
                   const SizedBox(height: 20),
                   Text(
-                    'Lesson $lessonNumber complete',
+                    completeHeadline ?? 'Lesson $lessonNumber complete',
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 22,
