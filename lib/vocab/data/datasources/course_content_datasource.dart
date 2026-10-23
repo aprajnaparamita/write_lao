@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:write_it_lao/vocab/data/models/course_content.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/data/models/course_content.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
 
 const String kVocabAssetRoot = 'assets/vocab/';
 const String kCourseJsonPath = 'assets/vocab/course.json';

@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
+import 'package:write_lao/vocab/audio/vocab_audio_player.dart';
 
 void _mockAudioplayersChannels() {
   // audioplayers uses platform channels that don't exist in the test VM.

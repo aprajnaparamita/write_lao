@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/presentation/screens/lesson_complete_screen.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/presentation/screens/lesson_complete_screen.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 Widget _makeApp({
   required int lessonNumber,

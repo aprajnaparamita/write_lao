@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/presentation/widgets/star_rating.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/presentation/widgets/star_rating.dart';
 
 class LessonDetailScreen extends ConsumerStatefulWidget {
   final String lessonId;

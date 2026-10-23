@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
-import 'package:write_it_lao/vocab/domain/card_mode.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_lao/vocab/domain/card_mode.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 /// Test stand-in for the real stroke canvas. Renders the requested character
 /// (and a guide marker when in practice mode) plus three buttons that drive

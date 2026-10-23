@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
-import 'package:write_it_lao/presentation/widgets/star_rating.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/data/models/lao_character.dart';
+import 'package:write_lao/presentation/widgets/star_rating.dart';
 
 class CharacterCard extends StatelessWidget {
   final LaoCharacter character;

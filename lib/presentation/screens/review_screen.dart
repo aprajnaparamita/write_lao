@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/widgets/main_bottom_nav.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/presentation/i18n/translation_helper.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/widgets/main_bottom_nav.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/presentation/i18n/translation_helper.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 // ── ReviewScreen ─────────────────────────────────────────────────────────────
 

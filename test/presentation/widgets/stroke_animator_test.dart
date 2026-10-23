@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
-import 'package:write_it_lao/presentation/widgets/stroke_animator.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
+import 'package:write_lao/presentation/widgets/stroke_animator.dart';
 
 void main() {
   group('StrokeAnimator', () {

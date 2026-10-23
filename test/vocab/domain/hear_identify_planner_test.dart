@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/domain/hear_identify_planner.dart';
 
 UserWord _uw(String id, WordStatus status) => UserWord(
       id: 'uuid-$id',

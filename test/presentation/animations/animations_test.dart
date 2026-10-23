@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/config/theme.dart';
+import 'package:write_lao/config/theme.dart';
 
 void main() {
   group('Star Animation Tests', () {

@@ -13,7 +13,7 @@ Set up the Flutter project, define all data models, create the static character 
 ### 1. Create Flutter Project
 
 ```bash
-flutter create --org com.writeitlao --project-name write_it_lao .
+flutter create --org com.maitrigroup --project-name write_lao .
 ```
 
 Remove all default counter app code. Set up the directory structure from `00_OVERVIEW.md`.

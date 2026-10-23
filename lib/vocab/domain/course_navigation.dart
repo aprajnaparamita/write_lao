@@ -1,5 +1,6 @@
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/config/app_variant.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
 
 /// Pure-function gating and progress helpers used by the unit-list and
 /// lesson-list screens. Everything here is read-only and idempotent.
@@ -13,7 +14,17 @@ class CourseNavigation {
   final CourseRepository course;
   final UserVocabProgress progress;
 
-  CourseNavigation({required this.course, required this.progress});
+  /// When true, no content is ever locked: every unit and lesson is
+  /// accessible immediately. Open-source builds ([kVocabUnlockedByDefault])
+  /// ship the full vocabulary unlocked by default. Injectable so tests
+  /// can exercise both behaviors.
+  final bool unlockByDefault;
+
+  CourseNavigation({
+    required this.course,
+    required this.progress,
+    bool? unlockByDefault,
+  }) : unlockByDefault = unlockByDefault ?? kVocabUnlockedByDefault;
 
   /// True if the course has been fully walked — i.e. every lesson has been
   /// completed and there is no next lesson to do.
@@ -53,6 +64,7 @@ class CourseNavigation {
   bool isUnitUnlocked(String unitId) {
     final unit = course.getUnit(unitId);
     if (unit == null) return false;
+    if (unlockByDefault) return true;
     if (unit.unitNumber <= 1) return true;
     if (!progress.iapUnlocked) return false;
     String? prevUnitId;
@@ -71,6 +83,7 @@ class CourseNavigation {
   bool isLessonUnlocked(String lessonId) {
     final lesson = course.getLesson(lessonId);
     if (lesson == null) return false;
+    if (unlockByDefault) return true;
     if (!isUnitUnlocked(lesson.unitId)) return false;
     final inUnit = course.getLessonsInUnit(lesson.unitId);
     final idx = inUnit.indexWhere((l) => l.lessonId == lessonId);

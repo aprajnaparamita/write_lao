@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/domain/iap_service.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 /// Settings screen for restoring purchases.
 ///

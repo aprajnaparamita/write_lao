@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:write_it_lao/config/app_info.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
+import 'package:write_lao/config/app_info.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
 
 class AboutScreen extends ConsumerWidget {
   const AboutScreen({super.key});

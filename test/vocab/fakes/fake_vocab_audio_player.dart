@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
+import 'package:write_lao/vocab/audio/vocab_audio_player.dart';
 
 /// Test fake for [VocabAudioPlayer]. Records every `play` and `stop` call;
 /// tests trigger natural completion via [completeCurrent] so chained

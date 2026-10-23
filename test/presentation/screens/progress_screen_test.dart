@@ -5,14 +5,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
-import 'package:write_it_lao/data/datasources/progress_local_datasource.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
-import 'package:write_it_lao/data/repositories/character_repository.dart';
-import 'package:write_it_lao/data/repositories/progress_repository.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/presentation/screens/progress_screen.dart';
+import 'package:write_lao/data/datasources/progress_hive_adapters.dart';
+import 'package:write_lao/data/datasources/progress_local_datasource.dart';
+import 'package:write_lao/data/models/user_progress.dart';
+import 'package:write_lao/data/repositories/character_repository.dart';
+import 'package:write_lao/data/repositories/progress_repository.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/presentation/screens/progress_screen.dart';
 
 void main() {
   late Directory tempDir;

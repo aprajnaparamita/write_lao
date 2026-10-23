@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/domain/deck_study_planner.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/domain/deck_study_planner.dart';
 
 UserWord _uw(
   String wordId, {

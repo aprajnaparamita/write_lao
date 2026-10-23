@@ -1,4 +1,4 @@
-UX Fixes — Write It Lao
+UX Fixes — Write Lao
 
 Make a plan and check off each. Use TDD and ensure all tests pass.
 

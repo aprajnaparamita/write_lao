@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:write_it_lao/config/sentry.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/config/sentry.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/vocab/domain/iap_service.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 class UpsellScreen extends StatefulWidget {
   final VoidCallback? onPurchaseComplete;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/domain/card_mode.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/character_practice_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/character_test_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_outcome.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/domain/card_mode.dart';
+import 'package:write_lao/vocab/presentation/widgets/character_practice_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/character_test_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_outcome.dart';
 
 /// Walks the user through every character of [word] one card at a time.
 /// Owns the per-word error accumulator and timing; emits a [WordOutcome] on

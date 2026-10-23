@@ -2,8 +2,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/config/app_variant.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/config/app_variant.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Section to add to the Write Lao settings screen for vocabulary-related options.
 class VocabSettingsSection extends ConsumerWidget {

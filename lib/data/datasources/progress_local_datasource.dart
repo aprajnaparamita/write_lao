@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
+import 'package:write_lao/data/models/user_progress.dart';
 
 /// Local data source for progress data using Hive.
 class ProgressLocalDataSource {

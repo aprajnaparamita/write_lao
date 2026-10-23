@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
-import 'package:write_it_lao/vocab/data/models/course_content.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_preferences_repository.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
-import 'package:write_it_lao/vocab/domain/platform_iap_service.dart';
-import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/vocab/data/models/course_content.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_preferences_repository.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/domain/iap_service.dart';
+import 'package:write_lao/vocab/domain/platform_iap_service.dart';
+import 'package:write_lao/vocab/domain/lesson_engine.dart';
 
 /// Loads the course bundle from app assets.
 final courseContentDataSourceProvider = Provider<CourseContentDataSource>(

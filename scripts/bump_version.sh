@@ -99,7 +99,7 @@ CUR_BUILD="${BASH_REMATCH[4]}"
 if [[ "$ACTION" == "show" ]]; then
   echo "Current version: $CURRENT"
   echo "  pubspec.yaml   : version: $CURRENT"
-  if grep -q "write_it_lao@$CURRENT" "$MAIN_DART" 2>/dev/null; then
+  if grep -q "write_lao@$CURRENT" "$MAIN_DART" 2>/dev/null; then
     echo "  lib/main.dart  : Sentry release tag matches ✓"
   else
     warn "lib/main.dart Sentry release tag does NOT match pubspec — run this script to sync."
@@ -145,7 +145,7 @@ fi
 echo ""
 echo -e "${BOLD}Version bump${RESET}"
 echo -e "  ${CYAN}pubspec.yaml${RESET}    : $CURRENT → $NEW"
-echo -e "  ${CYAN}lib/main.dart${RESET}    : 'write_it_lao@$CURRENT' → 'write_it_lao@$NEW'"
+echo -e "  ${CYAN}lib/main.dart${RESET}    : 'write_lao@$CURRENT' → 'write_lao@$NEW'"
 echo ""
 
 # Warn if working tree is dirty
@@ -193,8 +193,8 @@ python3 - "$MAIN_DART" "$CURRENT" "$NEW" <<'PY'
 import sys, pathlib
 path, old_ver, new_ver = sys.argv[1], sys.argv[2], sys.argv[3]
 p = pathlib.Path(path)
-old = f"write_it_lao@{old_ver}"
-new = f"write_it_lao@{new_ver}"
+old = f"write_lao@{old_ver}"
+new = f"write_lao@{new_ver}"
 content = p.read_text()
 if old not in content:
     sys.exit(f"✗ Could not find literal '{old}' in {path} — update manually.")

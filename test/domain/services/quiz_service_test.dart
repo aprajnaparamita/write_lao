@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/data/models/quiz_result.dart';
-import 'package:write_it_lao/domain/services/quiz_service.dart';
+import 'package:write_lao/data/models/quiz_result.dart';
+import 'package:write_lao/domain/services/quiz_service.dart';
 
 void main() {
   group('QuizService', () {

@@ -1,7 +1,7 @@
-import 'package:write_it_lao/data/models/lao_character.dart';
-import 'package:write_it_lao/data/models/lesson.dart';
-import 'package:write_it_lao/data/models/quiz_result.dart';
-import 'package:write_it_lao/data/repositories/character_repository.dart';
+import 'package:write_lao/data/models/lao_character.dart';
+import 'package:write_lao/data/models/lesson.dart';
+import 'package:write_lao/data/models/quiz_result.dart';
+import 'package:write_lao/data/repositories/character_repository.dart';
 
 class QuizService {
   /// Start a new quiz for a lesson. Returns the sequence of characters.

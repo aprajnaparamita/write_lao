@@ -9,7 +9,7 @@ Method: full read of the majority of `lib/`, `flutter analyze` run, data-bundle 
 ## 1. Codebase map
 
 **Entry point:** `lib/main.dart` → `SentryFlutter.init(appRunner: _runApp)` → `lib/app.dart`
-(`WriteItLaoApp`, a `MaterialApp.router`). Orientation lock, Sentry init, and Hive box opening all
+(`WriteLaoApp`, a `MaterialApp.router`). Orientation lock, Sentry init, and Hive box opening all
 happen in `main.dart` before `runApp`.
 
 **Routing:** `lib/config/routes.dart` — go_router, one `CustomTransitionPage` per route, with a
@@ -352,7 +352,7 @@ static ThemeData get lightTheme {
   return ThemeData( ... GoogleFonts.inter(...) x11 ... );
 }
 ```
-**Impact:** `lib/app.dart:14` accesses it once per `WriteItLaoApp` build, which is cheap today.
+**Impact:** `lib/app.dart:14` accesses it once per `WriteLaoApp` build, which is cheap today.
 Any future `Theme.of(context)`-adjacent helper or widget that reads `AppTheme.lightTheme`
 (rebuilding it, e.g. for a settings "theme" toggle) will silently re-run the whole thing.
 **Suggested fix direction:** Make it `static final ThemeData lightTheme = _buildLightTheme();`.
@@ -1126,7 +1126,7 @@ if one is ever added.
 Sentry release tag is a hardcoded literal that must be bumped by hand.
 **Evidence:**
 ```dart
-..release = 'write_it_lao@1.0.4+1'
+..release = 'write_lao@1.0.4+1'
 ```
 **Impact:** The two drift on every release. Sentry issue grouping and the version the user reads
 off Settings will disagree, making bug reports harder to trace.

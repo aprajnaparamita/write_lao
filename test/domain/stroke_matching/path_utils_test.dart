@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:ui' show Rect;
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/domain/stroke_matching/path_utils.dart';
+import 'package:write_lao/domain/stroke_matching/path_utils.dart';
 
 void main() {
   group('PathUtils.distance', () {

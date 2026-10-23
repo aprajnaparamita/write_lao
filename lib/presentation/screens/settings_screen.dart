@@ -6,13 +6,13 @@ import 'package:go_router/go_router.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:write_it_lao/config/app_info.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/vocab/domain/vocab_config.dart';
-import 'package:write_it_lao/vocab/presentation/screens/vocab_settings_section.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/config/app_info.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/vocab/domain/vocab_config.dart';
+import 'package:write_lao/vocab/presentation/screens/vocab_settings_section.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Settings state provider
 class SettingsState {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/data/models/lao_character.dart';
 
 /// White card displaying a Lao character with a green check badge.
 class CharacterResultCard extends StatelessWidget {

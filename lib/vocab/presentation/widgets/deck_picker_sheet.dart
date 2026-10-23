@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 /// Bottom sheet shown when the user taps the bookmark button on the outro card.
 /// Lists the user's existing categories as checkboxes (scrollable), pre-checked

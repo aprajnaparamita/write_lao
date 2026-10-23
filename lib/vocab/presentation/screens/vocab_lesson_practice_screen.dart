@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/domain/card_mode.dart';
-import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
-import 'package:write_it_lao/vocab/domain/srs.dart';
-import 'package:write_it_lao/vocab/presentation/screens/lesson_complete_screen.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/deck_picker_sheet.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/hear_identify_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/intro_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/outro_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_outcome.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_practice_flow.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/vocab/audio/vocab_audio_player.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/domain/card_mode.dart';
+import 'package:write_lao/vocab/domain/lesson_engine.dart';
+import 'package:write_lao/vocab/domain/srs.dart';
+import 'package:write_lao/vocab/presentation/screens/lesson_complete_screen.dart';
+import 'package:write_lao/vocab/presentation/widgets/deck_picker_sheet.dart';
+import 'package:write_lao/vocab/presentation/widgets/hear_identify_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/intro_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/outro_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_outcome.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_practice_flow.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 enum _WordPhase { intro, practice, outro }
 

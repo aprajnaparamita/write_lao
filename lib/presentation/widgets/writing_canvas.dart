@@ -1,10 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
-import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
-import 'package:write_it_lao/presentation/controllers/canvas_controller.dart';
-import 'package:write_it_lao/presentation/widgets/canvas_painter.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
+import 'package:write_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_lao/presentation/controllers/canvas_controller.dart';
+import 'package:write_lao/presentation/widgets/canvas_painter.dart';
 
 /// A touch/mouse-enabled drawing surface for stroke practice.
 class WritingCanvas extends ConsumerStatefulWidget {

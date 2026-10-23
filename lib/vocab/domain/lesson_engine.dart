@@ -1,12 +1,12 @@
 import 'dart:math' as math;
 
-import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
-import 'package:write_it_lao/vocab/domain/deck_study_planner.dart';
-import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
-import 'package:write_it_lao/vocab/domain/srs.dart';
+import 'package:write_lao/vocab/data/models/vocab_lesson.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/domain/deck_study_planner.dart';
+import 'package:write_lao/vocab/domain/hear_identify_planner.dart';
+import 'package:write_lao/vocab/domain/srs.dart';
 
 /// Whether a card was scheduled as a fresh introduction, a spaced
 /// review of a previously-seen word, or a hear-and-identify listening test.

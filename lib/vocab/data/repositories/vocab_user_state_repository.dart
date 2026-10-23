@@ -1,7 +1,7 @@
 import 'package:hive/hive.dart';
 import 'package:uuid/uuid.dart';
-import 'package:write_it_lao/config/app_variant.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/config/app_variant.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Wall clock indirection so tests can freeze time.
 typedef Clock = DateTime Function();

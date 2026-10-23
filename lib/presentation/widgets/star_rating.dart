@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/config/theme.dart';
+import 'package:write_lao/config/theme.dart';
 
 class StarRating extends StatelessWidget {
   final int stars;

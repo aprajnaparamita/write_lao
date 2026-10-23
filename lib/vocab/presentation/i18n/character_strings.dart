@@ -1,4 +1,4 @@
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
 
 /// Strings shown by practice/test cards. Kept here so v2 localization can
 /// swap them out without touching widget code. English-only in v1.

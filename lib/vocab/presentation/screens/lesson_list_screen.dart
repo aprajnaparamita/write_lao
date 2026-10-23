@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_lesson.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/domain/content_access.dart';
-import 'package:write_it_lao/vocab/domain/course_navigation.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/vocab/data/models/vocab_lesson.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/domain/content_access.dart';
+import 'package:write_lao/vocab/domain/course_navigation.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Lesson list within a unit. Each lesson row shows word count, completion
 /// state, and a small Lao preview of the new words. Locked lessons render

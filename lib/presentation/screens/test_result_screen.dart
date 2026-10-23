@@ -3,14 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/presentation/controllers/test_controller.dart';
-import 'package:write_it_lao/presentation/widgets/result_screen_widgets.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_preferences_repository.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/data/models/lao_character.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/presentation/controllers/test_controller.dart';
+import 'package:write_lao/presentation/widgets/result_screen_widgets.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_preferences_repository.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 class TestResultScreen extends ConsumerStatefulWidget {
   final String lessonId;

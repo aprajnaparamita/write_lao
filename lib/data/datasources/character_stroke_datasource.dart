@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
 
 /// Loads stroke data from asset files.
 class CharacterStrokeDataSource {

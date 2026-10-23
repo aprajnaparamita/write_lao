@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/config/theme.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/presentation/widgets/character_card.dart';
-import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
-import 'package:write_it_lao/presentation/widgets/main_bottom_nav.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/config/theme.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/presentation/widgets/character_card.dart';
+import 'package:write_lao/vocab/presentation/screens/unit_list_screen.dart';
+import 'package:write_lao/presentation/widgets/main_bottom_nav.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Key used by integration tests to locate the Vocabulary tab on the home screen.
 const homeVocabEntryKey = Key('home.vocabEntry');

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Lists the user's flag decks. Each row shows the deck name, the word
 /// count, a [Study] button, and a more-menu with rename / delete.

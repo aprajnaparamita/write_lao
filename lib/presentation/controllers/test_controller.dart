@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
-import 'package:write_it_lao/data/models/lesson.dart';
-import 'package:write_it_lao/data/models/quiz_result.dart';
-import 'package:write_it_lao/data/repositories/character_repository.dart';
-import 'package:write_it_lao/domain/services/quiz_service.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/data/models/lao_character.dart';
+import 'package:write_lao/data/models/lesson.dart';
+import 'package:write_lao/data/models/quiz_result.dart';
+import 'package:write_lao/data/repositories/character_repository.dart';
+import 'package:write_lao/domain/services/quiz_service.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
 
 class TestState {
   final Lesson? lesson;

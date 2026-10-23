@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
-import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/presentation/screens/unit_list_screen.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 import '../../fixtures/course_fixtures.dart';
 

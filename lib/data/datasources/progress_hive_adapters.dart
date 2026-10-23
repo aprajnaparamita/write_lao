@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
+import 'package:write_lao/data/models/user_progress.dart';
 
 /// Hive adapter for CharacterProgress
 class CharacterProgressAdapter extends TypeAdapter<CharacterProgress> {

@@ -1,8 +1,8 @@
-import 'package:write_it_lao/data/datasources/progress_local_datasource.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
-import 'package:write_it_lao/data/models/quiz_result.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
-import 'package:write_it_lao/data/repositories/character_repository.dart';
+import 'package:write_lao/data/datasources/progress_local_datasource.dart';
+import 'package:write_lao/data/models/lao_character.dart';
+import 'package:write_lao/data/models/quiz_result.dart';
+import 'package:write_lao/data/models/user_progress.dart';
+import 'package:write_lao/data/repositories/character_repository.dart';
 
 class ProgressRepository {
   final ProgressLocalDataSource _dataSource;

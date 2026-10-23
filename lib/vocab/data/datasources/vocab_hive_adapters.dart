@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 String _wordStatusToString(WordStatus s) {
   switch (s) {

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
 
 import '../../fixtures/course_fixtures.dart';
 

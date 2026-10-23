@@ -25,7 +25,7 @@ void main() async {
   // Open boxes
   await Hive.openBox<CharacterProgress>('character_progress');
   await Hive.openBox<LessonProgress>('lesson_progress');
-  runApp(const WriteItLaoApp());
+  runApp(const WriteLaoApp());
 }
 ```
 

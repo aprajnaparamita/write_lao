@@ -1,4 +1,4 @@
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Whether a per-character card should show the stroke guide (practice) or
 /// hide it and rely on memory (test).

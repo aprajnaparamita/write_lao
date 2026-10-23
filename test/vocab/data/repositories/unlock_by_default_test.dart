@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
 
 /// Open-source builds ship the full vocabulary unlocked. The repository
 /// forces `iapUnlocked = true` on every read/write when

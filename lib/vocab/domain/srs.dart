@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 /// User-facing card outcomes. Mapped from in-card error counts before being
 /// passed to [applySrs]; the SM-2 algorithm itself thinks in 0–5 quality.

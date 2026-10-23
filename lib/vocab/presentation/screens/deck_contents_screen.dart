@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/presentation/i18n/translation_helper.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/presentation/i18n/translation_helper.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Lists every word in [deckId]. Each row supports remove-from-deck via
 /// dismiss or trailing icon. Removing a word here doesn't delete it from

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
 
 /// Shared bottom navigation bar for the three main screens (Lessons, Review, Progress).
 /// Pass [currentIndex] 0, 1, or 2 for the active tab.

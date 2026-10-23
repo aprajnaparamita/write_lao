@@ -80,8 +80,8 @@ Write Lao — Audit Fix Plan
 
  import 'package:hive_flutter/hive_flutter.dart';
  import 'package:path_provider/path_provider.dart';
- import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
- import 'package:write_it_lao/data/models/user_progress.dart';
+ import 'package:write_lao/data/datasources/progress_hive_adapters.dart';
+ import 'package:write_lao/data/models/user_progress.dart';
 
  void main() async {
    WidgetsFlutterBinding.ensureInitialized();
@@ -94,7 +94,7 @@ Write Lao — Audit Fix Plan
    await Hive.openBox<CharacterProgress>('character_progress');
    await Hive.openBox<LessonProgress>('lesson_progress');
 
-   runApp(const ProviderScope(child: WriteItLaoApp()));
+   runApp(const ProviderScope(child: WriteLaoApp()));
  }
 
  2B. Create proper Riverpod providers

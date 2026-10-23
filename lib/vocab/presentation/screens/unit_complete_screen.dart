@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 /// Shown after completing the last lesson of a unit.
 ///

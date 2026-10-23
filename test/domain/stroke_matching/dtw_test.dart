@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/domain/stroke_matching/dtw.dart';
+import 'package:write_lao/domain/stroke_matching/dtw.dart';
 
 void main() {
   group('DTW', () {

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/data/models/lao_character.dart';
+import 'package:write_lao/data/models/lao_character.dart';
 
 void main() {
   group('LaoCharacter', () {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/hear_identify_card.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/presentation/widgets/hear_identify_card.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 import '../../fakes/fake_vocab_audio_player.dart';
 

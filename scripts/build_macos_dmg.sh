@@ -5,19 +5,20 @@
 #
 #   bash scripts/build_macos_dmg.sh
 #
-# Result: outputs/write_it_lao-macos.dmg
+# Result: outputs/write_lao-macos.dmg
 #
 # Asset name is stable (no version) so the README download link
-# https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-macos.dmg
+# https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-macos.dmg
 # keeps working across releases.
 # ─────────────────────────────────────────────────────────────────────────────
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
 FLUTTER="${FLUTTER:-/Users/dara/dev/flutter/bin/flutter}"
-APP_NAME="write_it_lao"
-VOL_NAME="Write It Lao"
-APP_PATH="build/macos/Build/Products/Release/${APP_NAME}.app"
+APP_NAME="write_lao"
+APP_BUNDLE="Write Lao"
+VOL_NAME="Write Lao"
+APP_PATH="build/macos/Build/Products/Release/${APP_BUNDLE}.app"
 DMG_PATH="outputs/${APP_NAME}-macos.dmg"
 STAGING="$(mktemp -d)/dmg"
 

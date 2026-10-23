@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
-import 'package:write_it_lao/data/datasources/progress_local_datasource.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
-import 'package:write_it_lao/data/repositories/character_repository.dart';
-import 'package:write_it_lao/data/repositories/progress_repository.dart';
+import 'package:write_lao/data/datasources/progress_hive_adapters.dart';
+import 'package:write_lao/data/datasources/progress_local_datasource.dart';
+import 'package:write_lao/data/models/user_progress.dart';
+import 'package:write_lao/data/repositories/character_repository.dart';
+import 'package:write_lao/data/repositories/progress_repository.dart';
 
 void main() {
   group('ProgressRepository', () {

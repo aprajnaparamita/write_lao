@@ -7,11 +7,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
-import 'package:write_it_lao/app.dart';
-import 'package:write_it_lao/config/secrets.dart';
-import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/app.dart';
+import 'package:write_lao/config/secrets.dart';
+import 'package:write_lao/data/datasources/progress_hive_adapters.dart';
+import 'package:write_lao/data/models/user_progress.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,7 +30,7 @@ Future<void> main() async {
     (options) {
       options
         ..dsn = SENTRY_DSN.isEmpty ? '' : SENTRY_DSN
-        ..release = 'write_it_lao@1.0.5+1'
+        ..release = 'write_lao@1.0.5+1'
         ..environment = kDebugMode ? 'development' : 'production'
         ..attachStacktrace = true
         ..maxBreadcrumbs = 50
@@ -65,5 +65,5 @@ Future<void> _runApp() async {
   registerVocabHiveAdapters();
   await openVocabBoxes();
 
-  runApp(const ProviderScope(child: WriteItLaoApp()));
+  runApp(const ProviderScope(child: WriteLaoApp()));
 }

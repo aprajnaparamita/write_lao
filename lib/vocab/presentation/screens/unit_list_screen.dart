@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_unit.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/domain/content_access.dart';
-import 'package:write_it_lao/vocab/domain/course_navigation.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/vocab/data/models/vocab_unit.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/domain/content_access.dart';
+import 'package:write_lao/vocab/domain/course_navigation.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 /// Top-level course screen — lists every unit with completion state and
 /// the global mastered counter in the AppBar. Tapping an unlocked unit fires

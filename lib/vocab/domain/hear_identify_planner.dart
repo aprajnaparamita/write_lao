@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Knobs for the hear-and-identify card. v1 is enabled by default with a
 /// 25% probability and requires the user to have at least 5 learned words

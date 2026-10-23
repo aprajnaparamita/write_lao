@@ -1,9 +1,9 @@
 import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
-import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
-import 'package:write_it_lao/domain/stroke_matching/stroke_matcher.dart';
-import 'package:write_it_lao/presentation/screens/settings_screen.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
+import 'package:write_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_lao/domain/stroke_matching/stroke_matcher.dart';
+import 'package:write_lao/presentation/screens/settings_screen.dart';
 
 enum CanvasMode { practice, test }
 

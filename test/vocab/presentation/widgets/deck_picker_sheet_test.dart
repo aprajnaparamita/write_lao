@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/deck_picker_sheet.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/presentation/widgets/deck_picker_sheet.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 FlagDeck _deck(String id, String name) {
   final t = DateTime.utc(2026, 1, 1);

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
-import 'package:write_it_lao/presentation/controllers/practice_controller.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/domain/card_mode.dart';
-import 'package:write_it_lao/vocab/presentation/i18n/character_strings.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_progress_strip.dart';
+import 'package:write_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_lao/presentation/controllers/practice_controller.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/domain/card_mode.dart';
+import 'package:write_lao/vocab/presentation/i18n/character_strings.dart';
+import 'package:write_lao/vocab/presentation/widgets/stroke_canvas_host.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_progress_strip.dart';
 
 /// One character of a word in **test mode** — no guide, no headword, no
 /// gloss. The user has only the character-type hint to go on. A "Show hint"

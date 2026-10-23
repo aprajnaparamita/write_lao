@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:write_it_lao/domain/stroke_matching/path_utils.dart';
+import 'package:write_lao/domain/stroke_matching/path_utils.dart';
 
 /// Parses SVG path `d` attributes into lists of points.
 /// Supports common SVG path commands: M, L, C, S, Q, Z (absolute and relative).

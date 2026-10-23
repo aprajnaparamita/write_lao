@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/utils/svg_parser.dart';
+import 'package:write_lao/utils/svg_parser.dart';
 
 void main() {
   group('SvgPathParser', () {

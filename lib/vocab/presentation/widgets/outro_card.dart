@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_base.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/audio/vocab_audio_player.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_base.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 /// Confirmation card shown after the practice sequence. Auto-plays only the
 /// headword; example play buttons are on-demand. Hosts the save-to-category

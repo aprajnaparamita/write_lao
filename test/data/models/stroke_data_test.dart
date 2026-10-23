@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
 
 void main() {
   group('StrokeData', () {

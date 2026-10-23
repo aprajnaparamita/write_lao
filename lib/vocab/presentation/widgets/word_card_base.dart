@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:write_it_lao/vocab/audio/vocab_audio_player.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_word.dart';
-import 'package:write_it_lao/vocab/presentation/i18n/translation_helper.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_audio_button.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/audio/vocab_audio_player.dart';
+import 'package:write_lao/vocab/data/models/vocab_word.dart';
+import 'package:write_lao/vocab/presentation/i18n/translation_helper.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_audio_button.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
 
 // ── Section accent colours ──────────────────────────────────────────────────
 

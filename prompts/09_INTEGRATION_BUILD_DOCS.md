@@ -57,14 +57,14 @@ Test stroke matching with realistic input:
 
 #### iOS (`ios/`)
 - Set minimum deployment target: iOS 14.0
-- Set bundle identifier: `com.writeitlao.app`
+- Set bundle identifier: `com.maitrigroup.app`
 - Set display name: "Write Lao"
 - Configure app icon (use a placeholder or generated icon)
 - Add Noto Lao font to iOS bundle if needed for offline use
 
 #### Android (`android/`)
 - Set `minSdkVersion`: 24
-- Set `applicationId`: `com.writeitlao.app`
+- Set `applicationId`: `com.maitrigroup.app`
 - Set app name: "Write Lao"
 - Configure signing (release keystore setup instructions in README)
 - ProGuard rules for Hive if needed

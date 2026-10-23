@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.writeitlao" "\0"
-            VALUE "FileDescription", "write_it_lao" "\0"
+            VALUE "CompanyName", "Maitri Group" "\0"
+            VALUE "FileDescription", "Write Lao" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "write_it_lao" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.writeitlao. All rights reserved." "\0"
-            VALUE "OriginalFilename", "write_it_lao.exe" "\0"
-            VALUE "ProductName", "write_it_lao" "\0"
+            VALUE "InternalName", "write_lao" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Maitri Group. All rights reserved." "\0"
+            VALUE "OriginalFilename", "write_lao.exe" "\0"
+            VALUE "ProductName", "Write Lao" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

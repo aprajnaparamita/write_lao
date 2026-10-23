@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/domain/course_navigation.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/domain/course_navigation.dart';
 
 import '../fixtures/course_fixtures.dart';
 
@@ -225,6 +225,38 @@ void main() {
 
     test('returns 0 for an empty pool', () {
       expect(masteredWordCount(const []), 0);
+    });
+  });
+
+  group('open-source build (unlockByDefault)', () {
+    test('every unit and lesson is unlocked regardless of progress',
+        () async {
+      final openCourse = await _loadFixtureRepo();
+      final nav = CourseNavigation(
+        course: openCourse,
+        // Even locked-out progress with no purchase: nothing stays locked.
+        progress: _progress(currentLessonId: 'l_01_01', iapUnlocked: false),
+        unlockByDefault: true,
+      );
+      for (final unit in openCourse.getAllUnits()) {
+        expect(nav.isUnitUnlocked(unit.unitId), isTrue,
+            reason: 'unit ${unit.unitId} must be unlocked');
+        for (final lesson in openCourse.getLessonsInUnit(unit.unitId)) {
+          expect(nav.isLessonUnlocked(lesson.lessonId), isTrue,
+              reason: 'lesson ${lesson.lessonId} must be unlocked');
+        }
+      }
+    });
+
+    test('unknown ids stay locked (defensive)', () async {
+      final openCourse = await _loadFixtureRepo();
+      final nav = CourseNavigation(
+        course: openCourse,
+        progress: _progress(),
+        unlockByDefault: true,
+      );
+      expect(nav.isUnitUnlocked('no_such_unit'), isFalse);
+      expect(nav.isLessonUnlocked('no_such_lesson'), isFalse);
     });
   });
 }

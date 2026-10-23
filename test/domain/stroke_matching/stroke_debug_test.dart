@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/data/models/stroke_data.dart';
-import 'package:write_it_lao/domain/stroke_matching/stroke_matcher.dart';
-import 'package:write_it_lao/domain/stroke_matching/matching_result.dart';
-import 'package:write_it_lao/domain/stroke_matching/dtw.dart';
-import 'package:write_it_lao/domain/stroke_matching/path_utils.dart';
-import 'package:write_it_lao/domain/stroke_matching/point_resampler.dart';
+import 'package:write_lao/data/models/stroke_data.dart';
+import 'package:write_lao/domain/stroke_matching/stroke_matcher.dart';
+import 'package:write_lao/domain/stroke_matching/matching_result.dart';
+import 'package:write_lao/domain/stroke_matching/dtw.dart';
+import 'package:write_lao/domain/stroke_matching/path_utils.dart';
+import 'package:write_lao/domain/stroke_matching/point_resampler.dart';
 
 void main() {
   test('debug stroke matching scores', () {

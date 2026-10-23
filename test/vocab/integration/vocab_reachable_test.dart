@@ -5,20 +5,20 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/data/datasources/progress_hive_adapters.dart';
-import 'package:write_it_lao/data/models/user_progress.dart';
-import 'package:write_it_lao/l10n/app_localizations.dart';
-import 'package:write_it_lao/presentation/screens/lesson_list_screen.dart'
+import 'package:write_lao/data/datasources/progress_hive_adapters.dart';
+import 'package:write_lao/data/models/user_progress.dart';
+import 'package:write_lao/l10n/app_localizations.dart';
+import 'package:write_lao/presentation/screens/lesson_list_screen.dart'
     as alphabet_home;
-import 'package:write_it_lao/presentation/screens/settings_screen.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
-import 'package:write_it_lao/vocab/presentation/screens/unit_list_screen.dart';
-import 'package:write_it_lao/vocab/presentation/screens/vocab_settings_section.dart';
-import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
-import 'package:write_it_lao/vocab/providers.dart';
+import 'package:write_lao/presentation/screens/settings_screen.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/presentation/screens/unit_list_screen.dart';
+import 'package:write_lao/vocab/presentation/screens/vocab_settings_section.dart';
+import 'package:write_lao/vocab/presentation/widgets/word_card_keys.dart';
+import 'package:write_lao/vocab/providers.dart';
 
 import '../fixtures/course_fixtures.dart';
 

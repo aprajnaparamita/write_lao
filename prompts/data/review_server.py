@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Word Review Server for Write It Lao
+Word Review Server for Write Lao
 A simple HTTP server to review generated images and audio files.
 
 Usage: python3 review_server.py [port]

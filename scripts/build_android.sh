@@ -11,14 +11,14 @@
 # unlocked by default or sold via in-app purchase.
 #
 # Asset names are stable (no version) so the README download link
-# https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-android.apk
+# https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-android.apk
 # keeps working across releases.
 # ─────────────────────────────────────────────────────────────────────────────
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
 FLUTTER="${FLUTTER:-/Users/dara/dev/flutter/bin/flutter}"
-APP_NAME="write_it_lao"
+APP_NAME="write_lao"
 VERSION="$(sed -n 's/^version: *//p' pubspec.yaml | tr -d ' ' | cut -d+ -f1)"
 BUILD_NUM="$(sed -n 's/^version: *//p' pubspec.yaml | tr -d ' ' | cut -d+ -f2)"
 TARGET="${1:-apk}"

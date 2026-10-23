@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
+import 'package:write_lao/vocab/domain/iap_service.dart';
 
 void main() {
   group('MockIapService', () {

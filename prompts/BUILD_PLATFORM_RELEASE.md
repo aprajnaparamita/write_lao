@@ -1,6 +1,6 @@
 # BUILD_PLATFORM_RELEASE — Agent Prompt
 
-Build the latest Write It Lao checkout on THIS machine for one platform,
+Build the latest Write Lao checkout on THIS machine for one platform,
 with the correct unlock variant, and leave the artifact in `outputs/`
 under its stable release name.
 
@@ -54,12 +54,12 @@ release (see step 5). Never publish without that explicit request.
 
 | Platform | Artifact | Variant |
 |---|---|---|
-| macOS | `outputs/write_it_lao-macos.dmg` | open |
-| Windows | `outputs/write_it_lao-windows-setup.exe` | open |
-| Windows (portable fallback) | `outputs/write_it_lao-windows.zip` | open |
-| Linux | `outputs/write_it_lao-linux.tar.gz` | open |
-| Android (sideload) | `outputs/write_it_lao-android.apk` | open |
-| Android (Play Store) | `outputs/write_it_lao-android-play.aab` | store |
+| macOS | `outputs/write_lao-macos.dmg` | open |
+| Windows | `outputs/write_lao-windows-setup.exe` | open |
+| Windows (portable fallback) | `outputs/write_lao-windows.zip` | open |
+| Linux | `outputs/write_lao-linux.tar.gz` | open |
+| Android (sideload) | `outputs/write_lao-android.apk` | open |
+| Android (Play Store) | `outputs/write_lao-android-play.aab` | store |
 | iOS | handled by `make archive` (App Store, store variant) | store |
 
 ## Platform build commands
@@ -71,17 +71,17 @@ bash scripts/build_macos_dmg.sh
 ```
 
 Does everything: builds release with `APP_VARIANT=open`, stages the .app,
-wraps it in a .dmg. Smoke check: `hdiutil attach outputs/write_it_lao-macos.dmg`
-then confirm `write_it_lao.app` inside, `hdiutil detach`.
+wraps it in a .dmg. Smoke check: `hdiutil attach outputs/write_lao-macos.dmg`
+then confirm `Write Lao.app` inside, `hdiutil detach`.
 
 ### Android (bash — macOS/Linux/Windows-with-bash)
 
 ```bash
-bash scripts/build_android.sh apk   # → outputs/write_it_lao-android.apk   (open)
-bash scripts/build_android.sh aab   # → outputs/write_it_lao-android-play.aab (store)
+bash scripts/build_android.sh apk   # → outputs/write_lao-android.apk   (open)
+bash scripts/build_android.sh aab   # → outputs/write_lao-android-play.aab (store)
 ```
 
-Build both unless user asked for one. Smoke check: `unzip -t outputs/write_it_lao-android.apk`.
+Build both unless user asked for one. Smoke check: `unzip -t outputs/write_lao-android.apk`.
 
 ### Windows (PowerShell)
 
@@ -97,9 +97,9 @@ Portable zip (always):
 
 ```powershell
 New-Item -ItemType Directory -Force outputs | Out-Null
-if (Test-Path outputs\write_it_lao-windows.zip) { Remove-Item outputs\write_it_lao-windows.zip }
+if (Test-Path outputs\write_lao-windows.zip) { Remove-Item outputs\write_lao-windows.zip }
 Compress-Archive -Path build\windows\x64\runner\Release\* `
-  -DestinationPath outputs\write_it_lao-windows.zip
+  -DestinationPath outputs\write_lao-windows.zip
 ```
 
 Installer EXE (preferred — this is "the .exe"):
@@ -112,7 +112,7 @@ iscc /DAppVersion=$ver windows\installer\setup.iss
 `iscc` = Inno Setup compiler. Not installed → install with
 `winget install JRSoftware.InnoSetup` (needs user OK), or build the zip only
 and say the setup exe is missing. Smoke check: zip → `Expand-Archive` to a
-temp dir and confirm `write_it_lao.exe` inside.
+temp dir and confirm `write_lao.exe` inside.
 
 ### Linux (bash)
 
@@ -120,10 +120,10 @@ temp dir and confirm `write_it_lao.exe` inside.
 flutter pub get
 flutter test
 flutter build linux --release --dart-define=APP_VARIANT=open
-tar czf outputs/write_it_lao-linux.tar.gz -C build/linux/x64/runner/Release .
+tar czf outputs/write_lao-linux.tar.gz -C build/linux/x64/runner/Release .
 ```
 
-Smoke check: `tar tzf outputs/write_it_lao-linux.tar.gz | grep write_it_lao`.
+Smoke check: `tar tzf outputs/write_lao-linux.tar.gz | grep write_lao`.
 
 ### iOS (macOS only, App Store)
 

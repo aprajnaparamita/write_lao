@@ -3,14 +3,14 @@ import 'dart:math' show Random;
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
-import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
-import 'package:write_it_lao/vocab/data/repositories/course_repository.dart';
-import 'package:write_it_lao/vocab/data/repositories/vocab_user_state_repository.dart';
-import 'package:write_it_lao/vocab/domain/hear_identify_planner.dart';
-import 'package:write_it_lao/vocab/domain/lesson_engine.dart';
-import 'package:write_it_lao/vocab/domain/srs.dart';
+import 'package:write_lao/vocab/data/datasources/course_content_datasource.dart';
+import 'package:write_lao/vocab/data/datasources/vocab_hive_adapters.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/repositories/course_repository.dart';
+import 'package:write_lao/vocab/data/repositories/vocab_user_state_repository.dart';
+import 'package:write_lao/vocab/domain/hear_identify_planner.dart';
+import 'package:write_lao/vocab/domain/lesson_engine.dart';
+import 'package:write_lao/vocab/domain/srs.dart';
 
 import '../fixtures/course_fixtures.dart';
 

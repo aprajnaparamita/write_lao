@@ -1,4 +1,4 @@
-import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
+import 'package:write_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Default cards per deck-study session — matches the prompt spec
 /// ("Default: 10 cards per deck study session"). Decks smaller than

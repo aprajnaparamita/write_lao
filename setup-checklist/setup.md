@@ -348,7 +348,7 @@ performance (`tracesSampleRate: 0.2`).
 ### 6.3 Using `SentryHelper` in Code
 
 ```dart
-import 'package:write_it_lao/config/sentry.dart';
+import 'package:write_lao/config/sentry.dart';
 
 // In a catch block — non-fatal, recoverable error
 try {
@@ -378,11 +378,11 @@ Context is attached under `app_context` in the Sentry event viewer.
 
 ### 6.4 Release Configuration
 
-The `release` tag in Sentry is set to `write_it_lao@<version>+<build>` —
+The `release` tag in Sentry is set to `write_lao@<version>+<build>` —
 update this in `lib/main.dart` whenever you bump `pubspec.yaml`:
 
 ```dart
-..release = 'write_it_lao@1.0.0+1'
+..release = 'write_lao@1.0.0+1'
 ```
 
 ---

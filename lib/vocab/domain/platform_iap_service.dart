@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:write_it_lao/config/sentry.dart';
-import 'package:write_it_lao/vocab/domain/iap_service.dart';
+import 'package:write_lao/config/sentry.dart';
+import 'package:write_lao/vocab/domain/iap_service.dart';
 
 /// Extracts a short, user-friendly message from an IAP exception.
 /// Full details are sent to Sentry separately — never shown to the user.
