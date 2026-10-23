@@ -48,6 +48,11 @@ abstract class IapService {
   /// Check if a purchase is currently available (e.g., network connectivity).
   /// If false, show a different error message.
   Future<bool> isAvailable();
+
+  /// Fetch the localized StoreKit price string for [kVocabProductId]
+  /// (e.g. "$4.99", "€4,99"). Returns null if the product is not loaded
+  /// (StoreKit unavailable, sandbox misconfigured, etc.).
+  Future<String?> getPriceLabel();
 }
 
 /// In-memory mock for testing. Does not hit any platform APIs.
@@ -76,4 +81,7 @@ class MockIapService implements IapService {
 
   @override
   Future<bool> isAvailable() async => true;
+
+  @override
+  Future<String?> getPriceLabel() async => null;
 }

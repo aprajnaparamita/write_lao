@@ -179,6 +179,41 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 8),
 
+          // Apple App Store Guideline 5.1.1(ii) — Privacy Policy must be
+          // readily accessible; 3.1.2(a) — Terms of Use should be linked.
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: Column(
+                children: [
+                  ListTile(
+                    leading: const Icon(Icons.privacy_tip_outlined),
+                    title: Text(l10n.privacyPolicy),
+                    subtitle: Text(l10n.privacyPolicySubtitle),
+                    trailing: const Icon(Icons.open_in_new, size: 18),
+                    onTap: () => launchUrl(
+                      Uri.parse('https://writelao.xyz/privacy_policy.html'),
+                      mode: LaunchMode.externalApplication,
+                    ),
+                  ),
+                  const Divider(height: 1),
+                  ListTile(
+                    leading: const Icon(Icons.gavel),
+                    title: Text(l10n.termsOfUse),
+                    subtitle: Text(l10n.termsOfUseSubtitle),
+                    trailing: const Icon(Icons.open_in_new, size: 18),
+                    onTap: () => launchUrl(
+                      Uri.parse('https://writelao.xyz/tos.html'),
+                      mode: LaunchMode.externalApplication,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 8),
+
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Card(

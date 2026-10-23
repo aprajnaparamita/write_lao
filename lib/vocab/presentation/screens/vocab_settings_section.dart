@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:write_it_lao/config/app_variant.dart';
 import 'package:write_it_lao/vocab/providers.dart';
 
 /// Section to add to the Write Lao settings screen for vocabulary-related options.
@@ -31,20 +32,22 @@ class VocabSettingsSection extends ConsumerWidget {
                 ),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Card(
-            child: ListTile(
-              key: restoreTileKey,
-              leading: const Icon(Icons.restore),
-              title: const Text('Restore Purchases'),
-              subtitle: const Text('Unlock vocabulary on a new device'),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: onRestorePurchases ??
-                  () => context.push('/vocab/restore'),
+        // Purchases do not exist in open-source builds — hide restore UI.
+        if (!kVocabUnlockedByDefault)
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: ListTile(
+                key: restoreTileKey,
+                leading: const Icon(Icons.restore),
+                title: const Text('Restore Purchases'),
+                subtitle: const Text('Unlock vocabulary on a new device'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: onRestorePurchases ??
+                    () => context.push('/vocab/restore'),
+              ),
             ),
           ),
-        ),
 
         // ── Debug-only tools ────────────────────────────────────────────
         if (kDebugMode) ...[

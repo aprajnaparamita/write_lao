@@ -1,5 +1,6 @@
 import 'package:hive/hive.dart';
 import 'package:uuid/uuid.dart';
+import 'package:write_it_lao/config/app_variant.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
 
 /// Wall clock indirection so tests can freeze time.
@@ -57,27 +58,51 @@ class UserWordRepository {
 class UserVocabProgressRepository {
   final Box<UserVocabProgress> _box;
   final Clock _now;
+
+  /// When true, `iapUnlocked` is forced to true on every read and write.
+  /// Open-source builds ([kVocabUnlockedByDefault]) ship the full
+  /// vocabulary unlocked; store builds keep it behind the IAP.
+  /// Injectable so tests can exercise both behaviors.
+  final bool unlockByDefault;
+
   static const String _singletonKey = 'singleton';
 
-  UserVocabProgressRepository(this._box, {Clock now = _systemNow})
-      : _now = now;
+  UserVocabProgressRepository(
+    this._box, {
+    Clock now = _systemNow,
+    bool? unlockByDefault,
+  }) : _now = now,
+       unlockByDefault = unlockByDefault ?? kVocabUnlockedByDefault;
+
+  /// Forces `iapUnlocked = true` when [unlockByDefault] is set.
+  UserVocabProgress _normalize(UserVocabProgress progress) {
+    if (!unlockByDefault || progress.iapUnlocked) return progress;
+    return progress.copyWith(iapUnlocked: true);
+  }
 
   /// Returns the existing singleton, or creates one with defaults.
   UserVocabProgress getOrCreate() {
     final existing = _box.get(_singletonKey);
-    if (existing != null) return existing;
+    if (existing != null) {
+      final normalized = _normalize(existing);
+      if (!identical(normalized, existing)) {
+        _box.put(_singletonKey, normalized);
+      }
+      return normalized;
+    }
     final now = _now();
     final created = UserVocabProgress(
       id: _uuid.v4(),
       createdAt: now,
       updatedAt: now,
+      iapUnlocked: unlockByDefault,
     );
     _box.put(_singletonKey, created);
     return created;
   }
 
   UserVocabProgress save(UserVocabProgress progress) {
-    final touched = progress.copyWith(updatedAt: _now());
+    final touched = _normalize(progress.copyWith(updatedAt: _now()));
     _box.put(_singletonKey, touched);
     return touched;
   }
@@ -129,7 +154,7 @@ class FlagDeckRepository {
   final Clock _now;
 
   FlagDeckRepository(this._decks, this._deckWords, {Clock now = _systemNow})
-      : _now = now;
+    : _now = now;
 
   FlagDeck createDeck(String name) {
     final now = _now();

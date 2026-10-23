@@ -245,4 +245,25 @@ class PlatformIapService implements IapService {
 
     return completer.future;
   }
+
+  // ── getPriceLabel ──────────────────────────────────────────────────────────
+
+  @override
+  Future<String?> getPriceLabel() async {
+    try {
+      if (!await _iap.isAvailable()) return null;
+      final response = await _iap.queryProductDetails({kVocabProductId});
+      if (response.productDetails.isEmpty) return null;
+      // StoreKit returns the localized currency-formatted price (e.g.
+      // "$4.99", "€4,99", "¥800"). Do NOT hand-format — let Apple localize.
+      return response.productDetails.first.price;
+    } catch (e, stack) {
+      await SentryHelper.captureException(
+        e,
+        stack,
+        hint: 'IAP: getPriceLabel failed',
+      );
+      return null;
+    }
+  }
 }

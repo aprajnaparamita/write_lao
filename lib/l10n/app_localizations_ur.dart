@@ -218,6 +218,18 @@ class AppLocalizationsUr extends AppLocalizations {
       'تمام اسباق کی پیش رفت اور ستارے صاف کریں';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => 'لاؤ لکھیں کے بارے میں';
 
   @override

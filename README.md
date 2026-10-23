@@ -6,6 +6,27 @@ Learn to write the Lao alphabet through guided stroke-by-stroke practice, and bu
   <img src="assets/icon/app_icon.png" width="128" alt="Write Lao Icon">
 </p>
 
+## Download
+
+Prebuilt apps live on the [GitHub Releases page](https://github.com/aprajnaparamita/write_lao/releases).
+The links below always point at the newest release.
+
+| Platform | Download | How to install |
+|---|---|---|
+| macOS | [write_it_lao-macos.dmg](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-macos.dmg) | Open the .dmg, drag Write Lao into Applications. First launch: right-click the app, choose Open (the build is unsigned, so macOS blocks a plain double-click). |
+| Windows | [write_it_lao-windows-setup.exe](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-windows-setup.exe) | Run the installer. If SmartScreen warns: More info → Run anyway (the build is unsigned). |
+| Windows (portable) | [write_it_lao-windows.zip](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-windows.zip) | Unzip anywhere, run `write_it_lao.exe`. No install needed. |
+| Linux | [write_it_lao-linux.tar.gz](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-linux.tar.gz) | `tar xzf write_it_lao-linux.tar.gz` then run `./write_it_lao`. |
+| Android | [write_it_lao-android.apk](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_it_lao-android.apk) | Sideload: open the APK and allow "install unknown apps" for your browser or file manager. With adb: `adb install write_it_lao-android.apk`. |
+
+**What you get in these downloads.** These are the open-source builds: the
+full 500-word vocabulary is unlocked, no purchase required. The App Store and
+Play Store versions are the same app with the vocabulary sold as a one-time
+in-app purchase. Buying there supports development.
+
+Don't see your platform, or want to build from source? See
+[Build a Release](#build-a-release-for-any-platform) below.
+
 ## Features
 
 ### Writing Practice
@@ -43,9 +64,17 @@ flutter pub get
 # Generate code (Freezed models, etc.)
 flutter pub run build_runner build --delete-conflicting-outputs
 
-# Run the app
+# Run the app (store variant: vocabulary behind IAP)
 flutter run
+
+# Run the open-source variant (full vocabulary unlocked)
+flutter run --dart-define=APP_VARIANT=open
 ```
+
+The `APP_VARIANT` flag is the only difference between the two products:
+`open` unlocks the full vocabulary, `store` keeps it behind the in-app
+purchase. It defaults to `store`, so a build without the flag never gives
+paid content away.
 
 ### Run Tests
 
@@ -55,6 +84,34 @@ flutter test
 
 # Integration tests
 flutter test integration_test/
+```
+
+### Build a Release for Any Platform
+
+One agent prompt builds a store-ready artifact on whatever machine you run
+it on: [`prompts/BUILD_PLATFORM_RELEASE.md`](prompts/BUILD_PLATFORM_RELEASE.md).
+It runs the tests, builds the right variant, and drops the artifact into
+`outputs/` under its stable release name.
+
+```
+Run prompts/BUILD_PLATFORM_RELEASE.md for windows
+Run prompts/BUILD_PLATFORM_RELEASE.md for macos
+Run prompts/BUILD_PLATFORM_RELEASE.md for android
+Run prompts/BUILD_PLATFORM_RELEASE.md for linux and publish
+```
+
+Example flow: push your changes on the Mac, then run the prompt on a
+Windows box to get `outputs/write_it_lao-windows-setup.exe`, on a Linux
+box for the `.tar.gz`, and so on. Add `publish` to the request and the
+agent attaches the artifact to the matching GitHub release (needs `gh`
+installed and authenticated) — that is what feeds the download links above.
+
+Same builds by hand:
+
+```bash
+make dmg        # macOS  -> outputs/write_it_lao-macos.dmg
+make apk        # Android open-source APK -> outputs/write_it_lao-android.apk
+make aab        # Android Play Store bundle -> outputs/write_it_lao-android-play.aab
 ```
 
 ## Project Structure

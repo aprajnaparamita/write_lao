@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive/hive.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/vocab/data/datasources/course_content_datasource.dart';
 import 'package:write_it_lao/vocab/data/datasources/vocab_hive_adapters.dart';
 import 'package:write_it_lao/vocab/data/models/vocab_user_state.dart';
@@ -152,7 +153,11 @@ void main() {
 
   Widget makeApp(IapService iap) => ProviderScope(
         overrides: baseOverrides(iap),
-        child: MaterialApp.router(routerConfig: buildRouter()),
+        child: MaterialApp.router(
+          routerConfig: buildRouter(),
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+        ),
       );
 
   group('Journey 1 (partial) — free user upsell → purchase → unlock', () {

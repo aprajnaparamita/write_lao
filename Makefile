@@ -1,7 +1,21 @@
 FLUTTER = /Users/dara/dev/flutter/bin/flutter
 SHELL   = /bin/bash
 
-.PHONY: deploy deploy-phone deploy-ipad devices secrets codegen test clean
+.PHONY: deploy deploy-phone deploy-ipad devices secrets codegen test clean dmg apk aab
+
+## ── Open-source / store distribution ────────────────────────────────────────
+
+# macOS .dmg with the full vocabulary unlocked (open-source build)
+dmg:
+	@bash scripts/build_macos_dmg.sh
+
+# Android APK for sideloading (adb install) with the full vocabulary unlocked
+apk:
+	@bash scripts/build_android.sh apk
+
+# Android App Bundle for the Play Store (vocabulary behind in-app purchase)
+aab:
+	@bash scripts/build_android.sh aab
 
 ## ── App Store archive ────────────────────────────────────────────────────────
 

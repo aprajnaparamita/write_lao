@@ -111,3 +111,6 @@ assets_originals/
 
 # Sentry CLI/debug artifacts
 us.sentry.io.json
+
+# Built release artifacts (distribute via GitHub Releases, not git)
+/outputs/

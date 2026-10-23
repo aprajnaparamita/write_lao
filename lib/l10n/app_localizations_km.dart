@@ -217,6 +217,18 @@ class AppLocalizationsKm extends AppLocalizations {
   String get resetAllProgressSubtitle => 'លុបវឌ្ឍនភាពមេរៀន និងផ្កាយទាំងអស់';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => 'អំពី សរសេរអក្សរឡាវ';
 
   @override

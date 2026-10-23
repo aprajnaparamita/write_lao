@@ -44,6 +44,7 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
   final _stateController = StreamController<VocabAudioState>.broadcast();
   final _completeController = StreamController<String>.broadcast();
   StreamSubscription<void>? _completeSub;
+  late final Future<void> _contextReady;
   VocabAudioState _state = VocabAudioState.idle;
   String? _currentPath;
 
@@ -57,6 +58,15 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
 
   AudioPlayersVocabAudioPlayer({AudioPlayer? player})
       : _player = player ?? AudioPlayer() {
+    // Short chained clips (word → example1 → example2) are started and torn
+    // down in quick succession. On Android each play() requests audio focus
+    // (default AUDIOFOCUS_GAIN); a denied/failed focus request leaves the
+    // player stuck in "playing" with no sound, and a focus steal cuts a clip
+    // off mid-play. Playing without a focus request (mixWithOthers) sidesteps
+    // both races.
+    _contextReady = _player.setAudioContext(
+      AudioContextConfig(focus: AudioContextConfigFocus.mixWithOthers).build(),
+    );
     _completeSub = _player.onPlayerComplete.listen((_) {
       if (_disposed) return;
       final finished = _currentPath;
@@ -92,6 +102,7 @@ class AudioPlayersVocabAudioPlayer implements VocabAudioPlayer {
   @override
   Future<void> play(String path) async {
     if (_disposed) return;
+    await _contextReady;
     await _player.stop();
     if (_disposed) return;
     _currentPath = path;

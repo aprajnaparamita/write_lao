@@ -217,6 +217,18 @@ class AppLocalizationsJa extends AppLocalizations {
   String get resetAllProgressSubtitle => 'すべてのレッスン進捗とスターを消去';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => 'ラオス語を書こう について';
 
   @override

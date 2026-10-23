@@ -1,7 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:write_it_lao/config/sentry.dart';
 import 'package:write_it_lao/config/theme.dart';
+import 'package:write_it_lao/l10n/app_localizations.dart';
 import 'package:write_it_lao/vocab/domain/iap_service.dart';
 import 'package:write_it_lao/vocab/presentation/widgets/word_card_keys.dart';
 
@@ -199,6 +201,7 @@ class _UpsellScreenState extends State<UpsellScreen> {
   }
 
   Widget _buildBottomButton() {
+    final l10n = AppLocalizations.of(context);
     return Container(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
       color: AppTheme.primary,
@@ -244,6 +247,59 @@ class _UpsellScreenState extends State<UpsellScreen> {
             '* One-time purchase — full access to all content and future updates',
             style: TextStyle(color: Colors.white60, fontSize: 12),
             textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 4),
+          // Apple App Store Guideline 3.1.2(a) — Terms of Use link required
+          // on every paywall surface. 5.1.1(ii) — Privacy Policy must be
+          // readily accessible. Both open via the user's default browser.
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              TextButton(
+                key: const Key('upsell.privacyPolicy'),
+                onPressed: () => launchUrl(
+                  Uri.parse('https://writelao.xyz/privacy_policy.html'),
+                  mode: LaunchMode.externalApplication,
+                ),
+                style: TextButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  minimumSize: Size.zero,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                ),
+                child: Text(
+                  l10n.privacyPolicy,
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+              ),
+              const Text(
+                '•',
+                style: TextStyle(color: Colors.white38, fontSize: 12),
+              ),
+              TextButton(
+                key: const Key('upsell.termsOfUse'),
+                onPressed: () => launchUrl(
+                  Uri.parse('https://writelao.xyz/tos.html'),
+                  mode: LaunchMode.externalApplication,
+                ),
+                style: TextButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  minimumSize: Size.zero,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                ),
+                child: Text(
+                  l10n.termsOfUse,
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+              ),
+            ],
           ),
         ],
       ),

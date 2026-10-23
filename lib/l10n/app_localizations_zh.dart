@@ -217,6 +217,18 @@ class AppLocalizationsZh extends AppLocalizations {
   String get resetAllProgressSubtitle => '清除所有课程进度和星星';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => '关于 写老挝文';
 
   @override
@@ -517,6 +529,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get resetAllProgressSubtitle => '清除所有課程進度和星星';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
 
   @override
   String get aboutWriteLao => '關於 寫老撾文';

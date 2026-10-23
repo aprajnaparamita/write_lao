@@ -87,6 +87,14 @@ final iapServiceProvider = Provider<IapService>((ref) {
   return PlatformIapService();
 });
 
+/// Localized StoreKit price label for the vocab IAP (e.g. "$4.99").
+/// Null while loading or if the store is unreachable; surfaces that watch
+/// it should fall back to a generic "BUY NOW" until a value arrives.
+final iapPriceLabelProvider = FutureProvider<String?>((ref) async {
+  final iap = ref.watch(iapServiceProvider);
+  return iap.getPriceLabel();
+});
+
 /// Change counter bumped whenever vocab user state is mutated through a
 /// non-reactive path (e.g., an IAP unlock, a progress advance). Consumers
 /// that display progress `watch` this provider to trigger a rebuild; the

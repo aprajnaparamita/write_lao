@@ -219,6 +219,18 @@ class AppLocalizationsFr extends AppLocalizations {
   String get resetAllProgressSubtitle => 'Effacer tous les progrès et étoiles';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => 'À propos d\'Écrire le Lao';
 
   @override

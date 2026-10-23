@@ -523,6 +523,30 @@ abstract class AppLocalizations {
   /// **'Clear all lesson progress and stars'**
   String get resetAllProgressSubtitle;
 
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy;
+
+  /// No description provided for @privacyPolicySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How we handle your data'**
+  String get privacyPolicySubtitle;
+
+  /// No description provided for @termsOfUse.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use'**
+  String get termsOfUse;
+
+  /// No description provided for @termsOfUseSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Conditions for using the app'**
+  String get termsOfUseSubtitle;
+
   /// No description provided for @aboutWriteLao.
   ///
   /// In en, this message translates to:

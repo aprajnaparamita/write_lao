@@ -217,6 +217,18 @@ class AppLocalizationsKo extends AppLocalizations {
   String get resetAllProgressSubtitle => '모든 수업 진도와 별 삭제';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get privacyPolicySubtitle => 'How we handle your data';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get termsOfUseSubtitle => 'Conditions for using the app';
+
+  @override
   String get aboutWriteLao => '라오어 쓰기 정보';
 
   @override

@@ -30,7 +30,7 @@ Future<void> main() async {
     (options) {
       options
         ..dsn = SENTRY_DSN.isEmpty ? '' : SENTRY_DSN
-        ..release = 'write_it_lao@1.0.4+1'
+        ..release = 'write_it_lao@1.0.5+1'
         ..environment = kDebugMode ? 'development' : 'production'
         ..attachStacktrace = true
         ..maxBreadcrumbs = 50

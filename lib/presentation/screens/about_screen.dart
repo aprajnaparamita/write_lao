@@ -83,6 +83,36 @@ class AboutScreen extends ConsumerWidget {
               ),
             ),
 
+            const SizedBox(height: 12),
+
+            // Apple App Store Guideline 5.1.1(ii) — Privacy Policy must be
+            // readily accessible; 3.1.2(a) — Terms of Use should be linked.
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () => launchUrl(
+                  Uri.parse('https://writelao.xyz/privacy_policy.html'),
+                  mode: LaunchMode.externalApplication,
+                ),
+                icon: const Icon(Icons.privacy_tip_outlined),
+                label: Text(l10n.privacyPolicy),
+              ),
+            ),
+
+            const SizedBox(height: 12),
+
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () => launchUrl(
+                  Uri.parse('https://writelao.xyz/tos.html'),
+                  mode: LaunchMode.externalApplication,
+                ),
+                icon: const Icon(Icons.gavel),
+                label: Text(l10n.termsOfUse),
+              ),
+            ),
+
             const SizedBox(height: 16),
 
             SizedBox(

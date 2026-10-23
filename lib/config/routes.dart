@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
+import 'package:write_it_lao/config/app_variant.dart';
 import 'package:write_it_lao/presentation/screens/lesson_list_screen.dart';
 import 'package:write_it_lao/presentation/screens/lesson_detail_screen.dart';
 import 'package:write_it_lao/presentation/screens/practice_screen.dart';
@@ -327,6 +328,9 @@ final router = GoRouter(
     GoRoute(
       path: '/vocab/upsell',
       name: 'vocabUpsell',
+      // Open-source builds ship everything unlocked; there is nothing
+      // to buy, so the paywall is unreachable.
+      redirect: kVocabUnlockedByDefault ? (context, state) => '/vocab' : null,
       pageBuilder: (context, state) => CustomTransitionPage(
         key: state.pageKey,
         child: Consumer(
@@ -334,8 +338,12 @@ final router = GoRouter(
             final iap = ref.read(iapServiceProvider);
             final progressRepo =
                 ref.read(userVocabProgressRepositoryProvider);
+            // Localized StoreKit price; null while loading or unreachable.
+            final priceLabel =
+                ref.watch(iapPriceLabelProvider).valueOrNull;
             return UpsellScreen(
               iapService: iap,
+              priceLabel: priceLabel,
               onPurchaseComplete: () {
                 progressRepo.markIapUnlocked();
                 ref.read(vocabStateRevProvider.notifier).state++;
@@ -363,6 +371,9 @@ final router = GoRouter(
     GoRoute(
       path: '/vocab/restore',
       name: 'vocabRestore',
+      // Nothing to restore in open-source builds.
+      redirect:
+          kVocabUnlockedByDefault ? (context, state) => '/settings' : null,
       pageBuilder: (context, state) => CustomTransitionPage(
         key: state.pageKey,
         child: Consumer(
