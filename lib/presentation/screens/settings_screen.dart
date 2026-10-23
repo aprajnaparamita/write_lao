@@ -246,6 +246,24 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 8),
 
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Card(
+              child: ListTile(
+                leading: const Icon(Icons.business_outlined),
+                title: const Text('Visit Maitri Group'),
+                subtitle: const Text('maitrigroup.co'),
+                trailing: const Icon(Icons.open_in_new, size: 18),
+                onTap: () => launchUrl(
+                  Uri.parse('https://maitrigroup.co'),
+                  mode: LaunchMode.externalApplication,
+                ),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 8),
+
           // ── Version (read directly from pubspec via package_info_plus) ───
           // Tapping copies the full "version (build)" string to the clipboard
           // so users/support can grab it without typing it out.

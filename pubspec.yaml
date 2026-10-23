@@ -1,7 +1,7 @@
 name: write_lao
 description: "Learn to write the Lao alphabet through guided stroke-by-stroke practice."
 publish_to: 'none'
-version: 1.0.5+1
+version: 1.0.6+1
 
 environment:
   sdk: ^3.9.2
