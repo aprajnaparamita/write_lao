@@ -52,14 +52,18 @@ release (see step 5). Never publish without that explicit request.
 
 ## Artifact names (exact)
 
+`<version>` = pubspec version without the build number (e.g. `1.0.6`). Every
+artifact name carries platform and version. Delete older artifacts of the same
+platform from `outputs/` first.
+
 | Platform | Artifact | Variant |
 |---|---|---|
-| macOS | `outputs/write_lao-macos.dmg` | open |
-| Windows | `outputs/write_lao-windows-setup.exe` | open |
-| Windows (portable fallback) | `outputs/write_lao-windows.zip` | open |
-| Linux | `outputs/write_lao-linux.tar.gz` | open |
-| Android (sideload) | `outputs/write_lao-android.apk` | open |
-| Android (Play Store) | `outputs/write_lao-android-play.aab` | store |
+| macOS | `outputs/write_lao-macos-<version>.dmg` | open |
+| Windows | `outputs/write_lao-windows-setup-<version>.exe` | open |
+| Windows (portable fallback) | `outputs/write_lao-windows-<version>.zip` | open |
+| Linux | `outputs/write_lao-linux-<version>.tar.gz` | open |
+| Android (sideload) | `outputs/write_lao-android-<version>.apk` | open |
+| Android (Play Store) | `outputs/write_lao-android-play-<version>.aab` | store |
 | iOS | handled by `make archive` (App Store, store variant) | store |
 
 ## Platform build commands
@@ -71,17 +75,17 @@ bash scripts/build_macos_dmg.sh
 ```
 
 Does everything: builds release with `APP_VARIANT=open`, stages the .app,
-wraps it in a .dmg. Smoke check: `hdiutil attach outputs/write_lao-macos.dmg`
+wraps it in a .dmg. Smoke check: `hdiutil attach outputs/write_lao-macos-<version>.dmg`
 then confirm `Write Lao.app` inside, `hdiutil detach`.
 
 ### Android (bash — macOS/Linux/Windows-with-bash)
 
 ```bash
-bash scripts/build_android.sh apk   # → outputs/write_lao-android.apk   (open)
-bash scripts/build_android.sh aab   # → outputs/write_lao-android-play.aab (store)
+bash scripts/build_android.sh apk   # → outputs/write_lao-android-<version>.apk   (open)
+bash scripts/build_android.sh aab   # → outputs/write_lao-android-play-<version>.aab (store)
 ```
 
-Build both unless user asked for one. Smoke check: `unzip -t outputs/write_lao-android.apk`.
+Build both unless user asked for one. Smoke check: `unzip -t outputs/write_lao-android-<version>.apk`.
 
 ### Windows (PowerShell)
 
@@ -97,9 +101,10 @@ Portable zip (always):
 
 ```powershell
 New-Item -ItemType Directory -Force outputs | Out-Null
-if (Test-Path outputs\write_lao-windows.zip) { Remove-Item outputs\write_lao-windows.zip }
+$ver = (Select-String -Path pubspec.yaml '^version: *([\d.]+)').Matches[0].Groups[1].Value
+Remove-Item outputs\write_lao-windows-*.zip -ErrorAction SilentlyContinue
 Compress-Archive -Path build\windows\x64\runner\Release\* `
-  -DestinationPath outputs\write_lao-windows.zip
+  -DestinationPath "outputs\write_lao-windows-$ver.zip"
 ```
 
 Installer EXE (preferred — this is "the .exe"):
@@ -120,10 +125,12 @@ temp dir and confirm `write_lao.exe` inside.
 flutter pub get
 flutter test
 flutter build linux --release --dart-define=APP_VARIANT=open
-tar czf outputs/write_lao-linux.tar.gz -C build/linux/x64/runner/Release .
+VER=$(sed -n 's/^version: *//p' pubspec.yaml | cut -d+ -f1)
+rm -f outputs/write_lao-linux-*.tar.gz
+tar czf "outputs/write_lao-linux-$VER.tar.gz" -C build/linux/x64/runner/Release .
 ```
 
-Smoke check: `tar tzf outputs/write_lao-linux.tar.gz | grep write_lao`.
+Smoke check: `tar tzf outputs/write_lao-linux-<version>.tar.gz | grep write_lao`.
 
 ### iOS (macOS only, App Store)
 

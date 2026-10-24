@@ -9,15 +9,15 @@ Learn to write the Lao alphabet through guided stroke-by-stroke practice, and bu
 ## Download
 
 Prebuilt apps live on the [GitHub Releases page](https://github.com/aprajnaparamita/write_lao/releases).
-The links below always point at the newest release.
+The links below are for **v1.0.6**. Each file name carries the platform and version. For older or newer versions, see the Releases page.
 
 | Platform | Download | How to install |
 |---|---|---|
-| macOS | [write_lao-macos.dmg](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-macos.dmg) | Open the .dmg, drag Write Lao into Applications. First launch: right-click the app, choose Open (the build is unsigned, so macOS blocks a plain double-click). |
-| Windows | [write_lao-windows-setup.exe](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-windows-setup.exe) | Run the installer. If SmartScreen warns: More info → Run anyway (the build is unsigned). |
-| Windows (portable) | [write_lao-windows.zip](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-windows.zip) | Unzip anywhere, run `write_lao.exe`. No install needed. |
-| Linux | [write_lao-linux.tar.gz](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-linux.tar.gz) | `tar xzf write_lao-linux.tar.gz` then run `./write_lao`. |
-| Android | [write_lao-android.apk](https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-android.apk) | Sideload: open the APK and allow "install unknown apps" for your browser or file manager. With adb: `adb install write_lao-android.apk`. |
+| macOS | [write_lao-macos-1.0.6.dmg](https://github.com/aprajnaparamita/write_lao/releases/download/v1.0.6/write_lao-macos-1.0.6.dmg) | Open the .dmg, drag Write Lao into Applications. First launch: right-click the app, choose Open (the build is unsigned, so macOS blocks a plain double-click). |
+| Windows | [write_lao-windows-setup-1.0.6.exe](https://github.com/aprajnaparamita/write_lao/releases/download/v1.0.6/write_lao-windows-setup-1.0.6.exe) | Run the installer. If SmartScreen warns: More info → Run anyway (the build is unsigned). |
+| Windows (portable) | [write_lao-windows-1.0.6.zip](https://github.com/aprajnaparamita/write_lao/releases/download/v1.0.6/write_lao-windows-1.0.6.zip) | Unzip anywhere, run `write_lao.exe`. No install needed. |
+| Linux | [write_lao-linux-1.0.6.tar.gz](https://github.com/aprajnaparamita/write_lao/releases/download/v1.0.6/write_lao-linux-1.0.6.tar.gz) | `tar xzf write_lao-linux-1.0.6.tar.gz` then run `./write_lao`. |
+| Android | [write_lao-android-1.0.6.apk](https://github.com/aprajnaparamita/write_lao/releases/download/v1.0.6/write_lao-android-1.0.6.apk) | Sideload: open the APK and allow "install unknown apps" for your browser or file manager. With adb: `adb install write_lao-android-1.0.6.apk`. |
 
 **What you get in these downloads.** These are the open-source builds: the
 full 500-word vocabulary is unlocked, no purchase required. The App Store and
@@ -101,7 +101,7 @@ Run prompts/BUILD_PLATFORM_RELEASE.md for linux and publish
 ```
 
 Example flow: push your changes on the Mac, then run the prompt on a
-Windows box to get `outputs/write_lao-windows-setup.exe`, on a Linux
+Windows box to get `outputs/write_lao-windows-setup-<version>.exe`, on a Linux
 box for the `.tar.gz`, and so on. Add `publish` to the request and the
 agent attaches the artifact to the matching GitHub release (needs `gh`
 installed and authenticated) — that is what feeds the download links above.
@@ -109,9 +109,9 @@ installed and authenticated) — that is what feeds the download links above.
 Same builds by hand:
 
 ```bash
-make dmg        # macOS  -> outputs/write_lao-macos.dmg
-make apk        # Android open-source APK -> outputs/write_lao-android.apk
-make aab        # Android Play Store bundle -> outputs/write_lao-android-play.aab
+make dmg        # macOS  -> outputs/write_lao-macos-<version>.dmg
+make apk        # Android open-source APK -> outputs/write_lao-android-<version>.apk
+make aab        # Android Play Store bundle -> outputs/write_lao-android-play-<version>.aab
 ```
 
 ## Project Structure

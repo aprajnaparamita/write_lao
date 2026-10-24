@@ -2,20 +2,16 @@
 ; Inno Setup script for the Write Lao Windows installer.
 ;
 ; Build (on a Windows box, after `flutter build windows --release`):
-;   iscc /DAppVersion=1.0.5 windows\installer\setup.iss
+;   iscc /DAppVersion=<version from pubspec.yaml> windows\installer\setup.iss
 ;
-; Output: outputs\write_lao-windows-setup.exe
-;
-; The stable output name keeps the README download link
-; https://github.com/aprajnaparamita/write_lao/releases/latest/download/write_lao-windows-setup.exe
-; valid across releases.
+; Output: outputs\write_lao-windows-setup-<version>.exe
 ;
 ; Per-user install (no admin prompt). To install for all users instead:
 ;   iscc /DAppVersion=... /DAllUsers windows\installer\setup.iss
 ; ─────────────────────────────────────────────────────────────────────────────
 
 #ifndef AppVersion
-  #define AppVersion "1.0.0"
+  #error Pass /DAppVersion=<version from pubspec.yaml>
 #endif
 
 [Setup]
@@ -33,7 +29,7 @@ DefaultDirName={localappdata}\Programs\Write Lao
 DefaultGroupName=Write Lao
 DisableProgramGroupPage=yes
 OutputDir=..\..\outputs
-OutputBaseFilename=write_lao-windows-setup
+OutputBaseFilename=write_lao-windows-setup-{#AppVersion}
 Compression=lzma2
 SolidCompression=yes
 WizardStyle=modern
