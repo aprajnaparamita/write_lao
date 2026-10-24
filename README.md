@@ -2,6 +2,10 @@
 
 Learn to write the Lao alphabet through guided stroke-by-stroke practice, and build your vocabulary with an intelligent flashcard system.
 
+**中国大陆用户 / Users in mainland China:** see [README.zh-CN.md](README.zh-CN.md)
+for Chinese instructions, download notes, and build steps adapted for the
+Chinese network.
+
 <p align="center">
   <img src="assets/icon/app_icon.png" width="128" alt="Write Lao Icon">
 </p>
