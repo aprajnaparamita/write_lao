@@ -31,7 +31,13 @@ void main() {
   });
 
   tearDownAll(() {
-    if (tempDir.existsSync()) tempDir.deleteSync(recursive: true);
+    // Best-effort cleanup. On Windows Hive keeps its files open, so deleting
+    // the temp dir can fail with errno 32 — and awaiting Hive.close() never
+    // completes inside a widget test's fake-async zone. Swallow the cleanup
+    // failure: the OS temp cleaner removes anything left behind.
+    try {
+      if (tempDir.existsSync()) tempDir.deleteSync(recursive: true);
+    } catch (_) {}
   });
 
   setUp(() {

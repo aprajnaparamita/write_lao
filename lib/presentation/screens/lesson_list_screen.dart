@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:write_lao/config/app_variant.dart';
 import 'package:write_lao/config/theme.dart';
 import 'package:write_lao/l10n/app_localizations.dart';
 import 'package:write_lao/presentation/controllers/practice_controller.dart';
@@ -182,7 +183,10 @@ class _CharactersTabBodyState extends ConsumerState<_CharactersTabBody> {
                   onTap: () {
                     context.push('/lessons/${lesson.id}');
                   },
-                  onReview: progress.stars > 0
+                  // Review is fully unlocked in the open-source build —
+                  // every lesson can be reviewed at any time. Store builds
+                  // offer review once the lesson has at least one star.
+                  onReview: kVocabUnlockedByDefault || progress.stars > 0
                       ? () => context.push(
                             '/practice/${lesson.id}',
                             extra: {'characterCodepoints': lesson.characterCodepoints},
@@ -401,7 +405,9 @@ class _VocabTabBody extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final courseAsync = ref.watch(courseRepositoryProvider);
-    return ColoredBox(
+    // Material (not ColoredBox): ListTile paints its background/ink splashes
+    // on the nearest Material ancestor — a colored box in between hides them.
+    return Material(
       color: Colors.white,
       child: courseAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),

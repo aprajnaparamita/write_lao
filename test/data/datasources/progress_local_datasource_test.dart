@@ -24,8 +24,11 @@ void main() {
       }
     });
 
-    tearDownAll(() {
-      tempDir.deleteSync(recursive: true);
+    tearDownAll(() async {
+      // Close open Hive boxes first: on Windows an open box keeps its files
+      // locked, and deleting the temp dir then fails with errno 32.
+      await Hive.close();
+      if (tempDir.existsSync()) tempDir.deleteSync(recursive: true);
     });
 
     setUp(() async {

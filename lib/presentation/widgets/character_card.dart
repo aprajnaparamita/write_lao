@@ -184,7 +184,10 @@ class LessonCard extends StatelessWidget {
                 ),
                 if (onReview != null) ...[
                   const SizedBox(width: 8),
-                  _ReviewPill(onPressed: onReview!),
+                  _ReviewPill(
+                    onPressed: onReview!,
+                    completed: stars > 0,
+                  ),
                 ],
               ],
             ),
@@ -197,7 +200,14 @@ class LessonCard extends StatelessWidget {
 
 class _ReviewPill extends StatelessWidget {
   final VoidCallback onPressed;
-  const _ReviewPill({required this.onPressed});
+
+  /// Whether the lesson has been completed (earned at least one star).
+  /// Completed lessons keep the historical "COMPLETED" badge; the review
+  /// action on an uncompleted lesson is labelled "REVIEW" so the pill is
+  /// never misleading (the open-source build shows it on every lesson).
+  final bool completed;
+
+  const _ReviewPill({required this.onPressed, required this.completed});
 
   @override
   Widget build(BuildContext context) {
@@ -209,9 +219,9 @@ class _ReviewPill extends StatelessWidget {
           color: AppTheme.accent,
           borderRadius: BorderRadius.circular(20),
         ),
-        child: const Text(
-          'COMPLETED',
-          style: TextStyle(
+        child: Text(
+          completed ? 'COMPLETED' : 'REVIEW',
+          style: const TextStyle(
             color: Colors.white,
             fontSize: 11,
             fontWeight: FontWeight.w700,
